@@ -1,0 +1,470 @@
+exam: 2026-08
+date: '2026-08-19'
+subject: bunseki
+source_pdf: https://www.exam.or.jp/wp-content/uploads/2026/08/EM20261804.pdf
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - units
+  traps:
+  - an-units-01
+  rank: null
+  summary: null
+  stem: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 絶対温度 ／ K
+  - アボガドロ定数 ／ mol⁻¹
+  - 圧力 ／ m kg s⁻²
+  - エネルギー ／ m²kg s⁻²
+  - 電荷 ／ s A
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 圧力mkgs-２
+  _stem_head: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+- num: 2
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - an-statistics-01
+  rank: null
+  summary: null
+  stem: '分析値とそのばらつきに関する次の記述の㋑及び㋺の［　］に入る式の組合せとして、正しいものは下のうちどれか。
+
+
+    「n 回の分析で分析値 x₁, x₂, x₃, …, x<sub>n</sub> を得た時、その平均値を x̄ とすると、分析値のばらつきの程度は［㋑］（分散）で表され、その母集団のばらつきの程度は［㋺］で表される不偏分散を用いる。」'
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-08-bunseki-02-choices.png
+    alt: 問2の選択肢
+  law_note: null
+  _key_choice: Σ_nni_=1(_xi_\-_x_)2-１Σ-1_ni_=1(_xi_\-_x_)-１_n_Σ_nni_=1(_xi_\-_x_)-１Σ_nni_=1(_xi_\-_x_)2Σ_
+  _stem_head: 分析値とそのばらつきに関する次の記述の㋑及び㋺のに入る式の組合せとして、正しいものは下のうちどれか。「_n_回の分析で分析値_x_
+  columns: null
+- num: 3
+  status: draft
+  chapters:
+  - organic
+  traps:
+  - an-organic-01
+  rank: null
+  summary: null
+  stem: 有機化合物Ⓐとその化合物がもつ官能基Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - アニリン ／ -NH₂
+  - アセトニトリル ／ -CN
+  - トルエン ／ -CH₃
+  - アセトン ／ -CHO
+  - ジエチルエーテル ／ -O-
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ??
+  _stem_head: 有機化合物Ⓐとその化合物がもつ官能基Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+- num: 4
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - an-gas-02
+  rank: null
+  summary: null
+  stem: 液体の純物質 2.3 gを 1.23 Lの真空容器に入れて加熱すると完全に気化し、温度が 97 ℃ になったときに圧力が 1.0 気圧になった。この物質の分子量として、正しい値に最も近いものは次のうちどれか。なお、気体定数は 0.082 atm･L･K⁻¹･mol⁻¹とする。
+  choices:
+  - '20'
+  - '23'
+  - '46'
+  - '57'
+  - '69'
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: '57'
+  _stem_head: 液体の純物質2.3gを1.23Lの真空容器に入れて加熱すると完全に気化し、温度が97℃になったときに圧力が1.0気圧になった。この物質の分子
+- num: 5
+  status: draft
+  chapters:
+  - solution
+  traps:
+  - an-solution-03
+  rank: null
+  summary: null
+  stem: 0.5 mol･L⁻¹の水酸化ナトリウム溶液の質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を 40.0 g･mol⁻¹とし、この溶液の密度は 1.0 g･cm⁻³ とする。
+  choices:
+  - 0.5 ％
+  - 2 ％
+  - 5 ％
+  - 20 ％
+  - 40 ％
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 2％
+  _stem_head: 0.5mol･L-１の水酸化ナトリウム溶液の質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0
+- num: 6
+  status: draft
+  chapters:
+  - equilibrium
+  traps:
+  - an-equilibrium-02
+  rank: null
+  summary: null
+  stem: '水素 H₂ 1.0 mol と臭素 Br₂ 1.0 mol を 10 L の容器に入れて、一定温度に保ったところ、次の反応により、臭化水素 HBr が 1.2 mol 生成して平衡状態となった。
+
+
+    H₂ ＋ Br₂ ⇄ 2HBr
+
+
+    この反応の平衡定数として、正しい値は次のうちどれか。'
+  choices:
+  - '3'
+  - '6'
+  - '9'
+  - '12'
+  - '15'
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: '9'
+  _stem_head: 水素H
+- num: 7
+  status: draft
+  chapters:
+  - lab-equipment
+  traps:
+  - an-lab-equipment-01
+  rank: null
+  summary: null
+  stem: 図に示すガラス製体積計のうち、ビュレットはどれか。
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-08-bunseki-07-1.png
+    alt: 問7の図
+  law_note: null
+  _key_choice: （図・数式の問題）
+  _stem_head: 図に示すガラス製体積計のうち、ビュレットはどれか。
+  columns: null
+- num: 8
+  status: draft
+  chapters:
+  - standard-gas
+  traps:
+  - an-standard-gas-01
+  rank: null
+  summary: null
+  stem: 拡散セルを用いた有機溶剤の標準ガス発生に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 拡散チューブの内径が大きいほど濃度が高くなる。
+  - 有機溶剤量をセルごと秤量し、蒸発量を求めることにより濃度を計算できる。
+  - 拡散速度は、温度が高いほど大きくなる。
+  - 飽和蒸気圧が同じなら、異なる物質でも濃度が等しくなる。
+  - 拡散チューブの有効長が長いほど濃度が低くなる。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 飽和蒸気圧が同じなら、異なる物質でも濃度が等しくなる。
+  _stem_head: 拡散セルを用いた有機溶剤の標準ガス発生に関する次の記述のうち、誤っているものはどれか。
+- num: 9
+  status: draft
+  chapters:
+  - reagents
+  traps:
+  - an-reagents-01
+  rank: null
+  summary: null
+  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - フェノールフタレイン ／ pH 指示薬
+  - メチルイソブチルケトン ／ キレート滴定
+  - 活性炭 ／ 有機溶剤の捕集
+  - 二硫化炭素 ／ 有機溶剤の脱着
+  - 重水素化トルエン-d₈ ／ GC / MS 分析の内標準
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: メチルイソブチルケトンキレート滴定
+  _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+- num: 10
+  status: draft
+  chapters:
+  - quantification
+  traps:
+  - an-quantification-03
+  rank: null
+  summary: null
+  stem: 検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検知管は、通常20℃で校正されており、使用温度と検知管の種類によっては温度補正が必要なことがある。
+  - 検知剤の変色層の長さは、担体粒子径の影響を受ける。
+  - 検知剤は、対象ガス以外の物質とは反応しない。
+  - 変色層が斜めに現れたときは、変色した部分の最先端と斜めに変色が生じ始めた点との中央値を読み取る。
+  - 検知管は冷凍保存してはならない。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 検知剤は、対象ガス以外の物質とは反応しない。
+  _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
+- num: 11
+  status: draft
+  chapters:
+  - mole
+  traps:
+  - an-mole-03
+  rank: null
+  summary: null
+  stem: 硫酸銅五水和物（CuSO₄･5H₂O）を水に溶解して、硫酸銅の濃度 2.00 ×10⁻⁴mol･L⁻¹ の水溶液を調製した。この水溶液 5.00 mLに含まれる銅の質量（mg）として、正しい値は次のうちどれか。ただし、水素、酸素、硫黄、銅の原子量はそれぞれ、1.0、16.0、32.1、63.5とする。
+  choices:
+  - 6.35 × 10⁻³ mg
+  - 1.60 × 10⁻² mg
+  - 2.50 × 10⁻² mg
+  - 6.35 × 10⁻² mg
+  - 1.60 × 10⁻¹ mg
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ･5H
+  _stem_head: 硫酸銅五水和物（CuSO
+- num: 12
+  status: draft
+  chapters:
+  - reaction
+  traps:
+  - an-reaction-03
+  rank: null
+  summary: null
+  stem: エチレン（C₂H₄）とエタン（C₂H₆）の燃焼に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - エチレンの完全燃焼に必要な酸素の物質量は、エチレンの物質量の3倍である。
+  - エタンの完全燃焼に必要な酸素の物質量は、エタンの物質量の5倍である。
+  - エチレンの完全燃焼で生成する二酸化炭素と水の物質量は等しい。
+  - エタンの完全燃焼で生成する二酸化炭素の物質量は、エタンの物質量の2倍である。
+  - エタンの完全燃焼で生成する水の物質量は、エタンの物質量の3倍である。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: H
+  _stem_head: エチレン（C
+- num: 13
+  status: draft
+  chapters:
+  - spectrophotometry
+  traps:
+  - an-spectrophotometry-01
+  rank: null
+  summary: null
+  stem: 可視光を用いた吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源にタングステンランプを用いる。
+  - 石英セルを用いることができる。
+  - 検出器には、一般に、光電子増倍管が用いられる。
+  - 吸光度の測定波長の光の色は、その試料溶液の色とは異なる。
+  - モル吸光係数の単位は、mol･L⁻¹･cm で表される。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: モル吸光係数の単位は、mol･L-１･cmで表される。
+  _stem_head: 可視光を用いた吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 14
+  status: draft
+  chapters:
+  - logarithm
+  - solution
+  traps:
+  - an-logarithm-02
+  rank: null
+  summary: null
+  stem: 物質 A の濃度が 2.0 × 10⁻⁵ mol･L⁻¹ の溶液に、波長 550 nmの光を当てたところ、透過率は50％であった。同様の方法で、物質 A の濃度が 1.0 × 10⁻⁵mol･L⁻¹の溶液に、波長 550 nmの光を当てたとき、その透過率に最も近い値は次のうちどれか。
+  choices:
+  - 80％
+  - 70％
+  - 60％
+  - 40％
+  - 30％
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 70％
+  _stem_head: 物質Aの濃度が2.0×10-５mol･L-１の溶液に、波長550nmの光を当てたところ、透過率は50％であった。同様の方法で、物質Aの濃度が
+- num: 15
+  status: draft
+  chapters:
+  - aas
+  traps:
+  - an-aas-02
+  rank: null
+  summary: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 中空陰極ランプは、光源として用いられる。
+  - 重水素ランプは、バックグラウンド吸収の補正に用いられる。
+  - フレーム法における目的原子の原子蒸気は、ほとんどが基底状態にある。
+  - グラファイト炉法では、炉に通電することで生じるジュール熱で原子化を行う。
+  - 吸光度は、原子の原子番号に比例する。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 吸光度は、原子の原子番号に比例する。
+  _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 16
+  status: draft
+  chapters:
+  - fluorescence
+  traps:
+  - an-fluorescence-04
+  rank: null
+  summary: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光の波長は、励起光よりも長い。
+  - 蛍光の強度は、励起光の波長が長いほど強くなる。
+  - 蛍光の強度は、励起光の強度に比例する。
+  - 蛍光の強度は、試料濃度に比例する。
+  - 蛍光の強度は、溶存酸素の影響を受けることがある。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 蛍光の強度は、励起光の波長が長いほど強くなる。
+  _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 17
+  status: draft
+  chapters:
+  - gc
+  traps:
+  - an-gc-01
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID）では、水素炎中で試料がイオン化される。
+  - 電子捕獲検出器（ECD）では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する。
+  - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される。
+  - 炎光光度検出器（FPD）では、水素炎中で臭素又は塩素に特有な発光を利用する。
+  - 熱イオン化検出器 （TID、FTD） では、窒素やリンを含む化合物の一部が熱イオン化し、増加するイオン電流の値を利用する。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 炎光光度検出器（FPD）では、水素炎中で臭素又は塩素に特有な発光を利用する。
+  _stem_head: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
+- num: 18
+  status: draft
+  chapters:
+  - gc
+  traps:
+  - an-gc-02
+  rank: null
+  summary: null
+  stem: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリヤーガスの流速には、最適値がある。
+  - カラムの内径が小さいほど、理論段数は大きくなる。
+  - カラムの長さが長いほど、理論段相当高さは大きくなる。
+  - 極性液相を用いると、極性官能基を有する化合物の保持時間は大きくなる。
+  - 無極性液相を用いると、飽和炭化水素化合物は、ほぼ炭素数が少ないものから順に溶出する。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: カラムの長さが長いほど、理論段相当高さは大きくなる。
+  _stem_head: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 19
+  status: draft
+  chapters:
+  - xrd
+  traps:
+  - an-xrd-03
+  rank: null
+  summary: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 特性X線が用いられる。
+  - 回折線の強度により測定物質の定量を行う。
+  - 回折角により測定物質の同定を行う。
+  - 測定試料は、一般に粒径が 0.1 mm ～ 1 mm の粉末が適当である。
+  - 測定試料の捕集量が多い場合は、その質量に見合ったX線の吸収の補正をする必要がある。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。
+  _stem_head: 作業環境測定におけるＸ線回折分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 20
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - an-radiation-02
+  rank: null
+  summary: null
+  stem: 放射能に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 放射能は時間経過とともに、指数関数的に減衰する。
+  - 放射性核種の壊変速度は、核種により異なる。
+  - 放射性核種の壊変速度は、温度が高いほど大きくなる。
+  - 放射性核種の半減期が長いほど、壊変速度は小さい。
+  - 半減期の10倍の時間が経過すると、放射能は約0.1％まで減衰する。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 放射性核種の壊変速度は、温度が高いほど大きくなる。
+  _stem_head: 放射能に関する次の記述のうち、誤っているものはどれか。

@@ -1,0 +1,51 @@
+{# 問題カード。q（db.questions の1件）と link（一覧から使うとき true）を受け取る #}
+{% macro card(q, site, link=false) %}
+<article class="q" id="{{ q.id }}">
+  <div class="qmeta">
+    <span>{{ q.exam.label }}（{{ q.exam.held }}）</span>
+    <span class="subj">{{ q.subjectName }}</span>
+    {% if q.rank %}<span class="rank rank-{{ q.rank }}" title="参考書のランク">ランク{{ q.rank }}</span>{% endif %}
+    {% if not q.published %}<span class="draft">下書き</span>{% endif %}
+  </div>
+  <h2 class="qtitle">{% if link %}<a href="{{ q.url }}">問{{ q.num }}</a>{% else %}問{{ q.num }}{% endif %}</h2>
+  {% if q.stemHtml %}
+    <div class="qtext">{{ q.stemHtml | safe }}</div>
+    {% for f in q.figures %}<figure class="fig"><img src="{{ f.src }}" alt="{{ f.alt }}" loading="lazy"></figure>{% endfor %}
+    {% if q.columns %}
+    <div class="choice-table-wrap"><table class="choices choice-table">
+      <thead><tr><th></th>{% for h in q.columns %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for row in q.choiceCells %}<tr data-n="{{ loop.index }}"><th scope="row" class="n">({{ loop.index }})</th>{% for cell in row %}<td>{{ cell | safe }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+    </table></div>
+    {% else %}
+    <ol class="choices">
+      {% for c in q.choices %}<li data-n="{{ loop.index }}"><span class="n">({{ loop.index }})</span><span>{{ c | safe }}</span></li>{% endfor %}
+    </ol>
+    {% endif %}
+  {% else %}
+    {% if q.summary %}<p class="qtext">{{ q.summary }}</p>{% endif %}
+    <p class="source">問題文と選択肢は<a href="{{ q.sourcePdf }}" rel="noopener">公式の公表試験問題（PDF）</a>でご確認ください。</p>
+  {% endif %}
+  <div class="tags">
+    {% for c in q.chapters %}<a class="tag" href="{{ c.url }}">{{ c.label }}</a>{% endfor %}
+  </div>
+  <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-{{ q.id }}" data-answer="{{ q.answer | join(',') }}">解説を見る</button>
+  <div class="answer" id="ans-{{ q.id }}" hidden>
+    {% if q.answer.length %}<p class="seikai">正答 <b>{% if q.answer[0] == 'all' %}全員正解{% else %}({{ q.answer | join(')・(') }}){% endif %}</b></p>{% endif %}
+    {% if q.lawNote %}<p class="lawnote">法改正に関する注意：{{ q.lawNote }}</p>{% endif %}
+    {{ q.explanationHtml | safe }}
+    {% if q.choiceNotes.length %}
+    <ol class="notes">
+      {% for n in q.choiceNotes %}<li{% if n.isAnswer %} class="is-answer"{% endif %}><span class="n">({{ loop.index }})</span><span>{{ n.html | safe }}</span></li>{% endfor %}
+    </ol>
+    {% endif %}
+    {% for t in q.traps %}{% if not t.misc and not t.verify %}
+    <section class="trap">
+      <h3>この問題で狙われた罠：{% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>
+      {{ t.understandingHtml | safe }}
+      {% if t.reasonHtml %}<div class="why"><span>なぜ？</span>{{ t.reasonHtml | safe }}</div>{% endif %}
+    </section>
+    {% endif %}{% endfor %}
+  </div>
+  {% if q.stemHtml %}<p class="credit">出典：{{ q.source }}</p>{% endif %}
+</article>
+{% endmacro %}

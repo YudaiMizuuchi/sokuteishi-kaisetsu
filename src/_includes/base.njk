@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% if title %}{{ title }}｜{% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ description or site.description }}">
+{% if site.showDrafts %}<meta name="robots" content="noindex">{% endif %}
+<link rel="canonical" href="{{ page.url | absUrl }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=BIZ+UDPMincho:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+{% if jsonld %}<script type="application/ld+json">{{ jsonld | json | safe }}</script>{% endif %}
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">{{ site.title }}</a>
+    <nav aria-label="サイト内"><a href="/">問題を探す</a><a href="/chapter/">参考書の章から探す</a><a href="{{ site.origin }}/">実務ツール</a></nav>
+    {% if site.showDrafts %}<p class="notice">プレビュー表示：下書きの問題も表示しています（検索エンジンには登録されません）</p>{% endif %}
+  </div>
+</header>
+<main class="wrap page">
+{{ content | safe }}
+</main>
+<footer><div class="wrap">{{ site.author }}　｜　試験問題の出典：<a href="{{ site.officialIndex }}">{{ site.sourceName }}</a>（許諾を得て掲載）</div></footer>
+<script src="/assets/app.js" defer></script>
+</body>
+</html>

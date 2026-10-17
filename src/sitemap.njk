@@ -1,0 +1,12 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>{{ "/" | absUrl }}</loc></url>
+<url><loc>{{ "/chapter/" | absUrl }}</loc></url>
+{% for c in db.chapters %}<url><loc>{{ c.url | absUrl }}</loc></url>
+{% endfor %}{% for t in db.traps %}<url><loc>{{ t.url | absUrl }}</loc></url>
+{% endfor %}{% for q in db.questions %}<url><loc>{{ q.url | absUrl }}</loc></url>
+{% endfor %}</urlset>

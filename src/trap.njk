@@ -1,0 +1,22 @@
+---
+layout: base.njk
+pagination:
+  data: db.traps
+  size: 1
+  alias: t
+permalink: "{{ t.url }}"
+eleventyComputed:
+  title: "{{ t.name }}｜{{ t.subjectName }}の罠"
+  description: "作業環境測定士試験 {{ t.subjectName }}で{{ t.count }}回狙われた罠「{{ t.name }}」の正しい理解と理由。"
+---
+{% from "card.njk" import card %}
+<nav class="crumbs" aria-label="現在の位置"><a href="/chapter/">参考書の章から探す</a> › <a href="{{ t.chapterUrl }}">{{ t.chapterLabel }}</a></nav>
+<h1>{{ t.name }}</h1>
+<p class="trapmeta"><span class="rank rank-{{ t.rank }}">ランク{{ t.rank }}</span> {{ t.subjectName }}・{{ t.count }}回出題</p>
+<section class="trapbody">
+  <h2>正しい理解</h2>
+  {{ t.understandingHtml | safe }}
+  {% if t.reasonHtml %}<h2>なぜそうなるのか</h2>{{ t.reasonHtml | safe }}{% endif %}
+</section>
+<h2 class="sub">この罠が狙われた問題</h2>
+{% for q in t.questions %}{{ card(q, site, true) }}{% endfor %}

@@ -1,0 +1,2 @@
+# このサイトを netlify.app のURLで直接開いたときも、/sokuteishi/ 付きのリンクが動くようにする
+/sokuteishi/*  /:splat  200

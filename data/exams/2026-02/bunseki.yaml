@@ -1,0 +1,460 @@
+exam: 2026-02
+date: '2026-02-17'
+subject: bunseki
+source_pdf: https://www.exam.or.jp/20260217-4/
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - units
+  traps:
+  - an-units-01
+  rank: null
+  summary: null
+  stem: 次の物理量、物理定数又は単位名称Ⓐとその SI 基本単位による表現Ⓑとの組合せのうち、誤っているものはどれか。
+  choices:
+  - 圧力 ／ m⁻¹kg s⁻²
+  - 気体定数 ／ J K mol
+  - ヘルツ ／ s⁻¹
+  - クーロン ／ s A
+  - オーム ／ m²kg s⁻³A⁻²
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 気体定数JKmol
+  _stem_head: 次の物理量、物理定数又は単位名称ⒶとそのSI基本単位による表現Ⓑとの組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+- num: 2
+  status: draft
+  chapters:
+  - solution
+  traps:
+  - an-solution-01
+  rank: null
+  summary: null
+  stem: 捕集材に空気を流量 100 mL･min⁻¹で 60.0 分間通気して物質 A を 50.30 µg捕集した。捕集材の物質 A に対する捕集効率が 75 ％であるとき、物質 A の空気中濃度（µg･L⁻¹）の数値として適切なものは次のうちどれか。
+  choices:
+  - '6.3'
+  - '6.29'
+  - '11'
+  - '11.2'
+  - '11.18'
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: '11'
+  _stem_head: 捕集材に空気を流量100mL･min-１で60.0分間通気して物質Aを50.30µg捕集した。捕集材の物質Aに対する捕集効率が75％であると
+- num: 3
+  status: draft
+  chapters:
+  - organic
+  traps:
+  - an-organic-02
+  rank: null
+  summary: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フェノールの水溶液は、酸性を示す。
+  - アニリンの水溶液は、アルカリ性を示す。
+  - プロピオン酸の水溶液は、酸性を示す。
+  - トルエンは水によく溶ける。
+  - アセトンは水によく溶ける。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: トルエンは水によく溶ける。
+  _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+- num: 4
+  status: draft
+  chapters:
+  - gas
+  - reaction
+  traps:
+  - an-gas-04
+  rank: null
+  summary: null
+  stem: 容積5.0 Lの密閉容器に炭素と、温度 25 ℃で圧力 1.0 気圧の酸素を封入してから燃焼させ、酸素を全て二酸化炭素へ変換した。燃焼後の容器内の温度が25℃になったときの二酸化炭素が示す圧力は次のうちどれか。なお、炭素の体積は無視できるものとする。
+  choices:
+  - 0.5 気圧
+  - 1.0 気圧
+  - 1.5 気圧
+  - 2.0 気圧
+  - 2.5 気圧
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 1.0気圧
+  _stem_head: 容積5.0Lの密閉容器に炭素と、温度25℃で圧力1.0気圧の酸素を封入してから燃焼させ、酸素を全て二酸化炭素へ変換した。燃焼後の容器内の温度
+- num: 5
+  status: draft
+  chapters:
+  - solution
+  traps:
+  - an-solution-04
+  rank: null
+  summary: null
+  stem: 質量パーセント濃度が 40.0 ％の硫酸（密度 1.30 g･cm⁻³）100 mLを精製水（密度 1.00 g･cm⁻³）で希釈し、質量パーセント濃度を 10.0 ％としたい。このときに必要な精製水の量として、正しい値は次のうちどれか。
+  choices:
+  - 195 mL
+  - 300 mL
+  - 390 mL
+  - 420 mL
+  - 442 mL
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 390mL
+  _stem_head: 質量パーセント濃度が40.0％の硫酸（密度1.30g･cm-３）100mLを精製水（密度1.00g･cm-３）で希釈し、質量パーセント濃度を
+- num: 6
+  status: draft
+  chapters:
+  - reaction
+  traps:
+  - an-reaction-01
+  rank: null
+  summary: null
+  stem: 濃度 0.1 mol･L⁻¹の次の水溶液のうち、そのpHの値が最も大きいものはどれか。
+  choices:
+  - 塩酸
+  - 硝酸
+  - 硫酸
+  - フッ化水素酸
+  - ヨウ化水素酸
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: フッ化水素酸
+  _stem_head: 濃度0.1mol･L-１の次の水溶液のうち、そのpHの値が最も大きいものはどれか。
+- num: 7
+  status: draft
+  chapters:
+  - lab-equipment
+  traps:
+  - an-lab-equipment-01
+  rank: null
+  summary: null
+  stem: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ビュレットは最小目盛の 1/ 10までを読みとる。
+  - ホールピペットの容量に対する許容誤差の割合は、一般に、容量が小さいものの方が大きい。
+  - ホールピペットに溶液を吸引する際には、中間の膨らんだ部分を持つのがよい。
+  - 同じ容量のメスピペットとホールピペットでは、メスピペットの方が許容誤差が大きく設定されている。
+  - 洗浄後、乾燥器で加熱すると、ガラスが膨張し変形するため正しく体積が測定できなくなる場合がある。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ホールピペットに溶液を吸引する際には、中間の膨らんだ部分を持つのがよい。
+  _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+- num: 8
+  status: draft
+  chapters:
+  - standard-gas
+  traps:
+  - an-standard-gas-02
+  rank: null
+  summary: null
+  stem: ディフュージョンチューブ（拡散セル）を用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ディフュージョンチューブは液体溜めと拡散管からできている。
+  - ディフュージョンチューブはテフロンなどのガス透過性材料でできている。
+  - 希釈空気の流量、あるいはディフュージョンチューブの温度を変えることにより標準ガスの濃度を変えることができる。
+  - ディフュージョンチューブを用いる際は、チューブ全体を一定の温度に保つ。
+  - ディフュージョンチューブの一方の端は解放した状態で使用する。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ディフュージョンチューブはテフロンなどのガス透過性材料でできている。
+  _stem_head: ディフュージョンチューブ（拡散セル）を用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+- num: 9
+  status: draft
+  chapters:
+  - reagents
+  traps:
+  - an-reagents-02
+  rank: null
+  summary: null
+  stem: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 金属製やガラス製の蒸留水製造装置からは、イオンの溶出がある。
+  - ろ過に用いるメンブランフィルターは、孔径 0.1 ～ 0.2 µmのものを用いる。
+  - 逆浸透法では、原料水中の不純物のイオンを除去できる。
+  - 逆浸透法における加圧は、原料水の浸透圧を超えてはならない。
+  - イオン交換法では、中性の有機成分を除くことはできない。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 逆浸透法における加圧は、原料水の浸透圧を超えてはならない。
+  _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+- num: 10
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - an-detector-tube-02
+  rank: null
+  summary: null
+  stem: シアン化水素の検知管は、シアン化水素が塩化水銀（Ⅱ）と反応して生成する物質によるpH 指示薬の変色を利用して濃度を測定する。共存すると、変色の長さが短くなる物質は次のうちどれか。
+  choices:
+  - 二酸化窒素
+  - アンモニア
+  - 硝酸
+  - フッ化水素
+  - 塩化水素
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: アンモニア
+  _stem_head: シアン化水素の検知管は、シアン化水素が塩化水銀（Ⅱ）と反応して生成する物質によるpH指示薬の変色を利用して濃度を測定する。共存すると、変色の
+- num: 11
+  status: draft
+  chapters:
+  - reaction
+  traps:
+  - an-reaction-02
+  rank: null
+  summary: null
+  stem: 濃度 1.0 × 10⁻² mol･L⁻¹の塩酸 10 mL と濃度 3.0×10⁻² mol･L⁻¹の水酸化ナトリウム水溶液10 mLとを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。ただし、水のイオン積は 1.0×10⁻¹⁴ mol²･L⁻²とする。
+  choices:
+  - 1.0 × 10⁻⁵ mol･L⁻¹
+  - 1.0 × 10⁻⁷ mol･L⁻¹
+  - 1.0 × 10⁻⁹ mol･L⁻¹
+  - 1.0 × 10⁻¹² mol･L⁻¹
+  - 1.0 × 10⁻¹⁶ mol･L⁻¹
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 1.0×10-12mol･L-１
+  _stem_head: 濃度1.0×10-２mol･L-１の塩酸10mLと濃度3.0×10-２mol･L-１の水酸化ナトリウム水溶液10mLとを混合した溶液の水素イ
+- num: 12
+  status: draft
+  chapters:
+  - titration
+  traps:
+  - an-titration-01
+  rank: null
+  summary: null
+  stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 硫酸溶液の標定には、炭酸ナトリウムが用いられる。
+  - 水酸化ナトリウム溶液の標定には、アミド硫酸（スルファミン酸）が用いられる。
+  - 硝酸銀溶液の標定には、塩化ナトリウムが用いられる。
+  - エチレンジアミン四酢酸二ナトリウム溶液の標定には、チオ硫酸ナトリウムが用いられる。
+  - 標定に用いる反応は、平衡定数が大きく、反応速度が大きいことが必要である。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: エチレンジアミン四酢酸二ナトリウム溶液の標定には、チオ硫酸ナトリウムが用いられる。
+  _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+- num: 13
+  status: draft
+  chapters:
+  - spectrophotometry
+  - logarithm
+  traps:
+  - an-spectrophotometry-03
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 透過率（透過光の強さ / 入射光の強さ）の逆数の対数が吸光度である。
+  - 透過率は、光路の長さに反比例する。
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 測定対象物質の濃度の異なる溶液の吸光度を測定して、検量線を作成する。
+  - 定量分析は、検量線の直線範囲内で行う。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 透過率は、光路の長さに反比例する。
+  _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 14
+  status: draft
+  chapters:
+  - logarithm
+  - solution
+  traps:
+  - an-logarithm-02
+  rank: null
+  summary: null
+  stem: モル質量が 50 g･mol⁻¹ の物質A の溶液が100 mL ある。この溶液の一部を光路長 2.0 cmの試料セルに入れ、波長 550 nmにおける吸光度を測定したところ、0.480であった。この溶液 100 mL中に含まれる物質 A の質量として、正しい値は次のうちどれか。ただし、この溶液中で、物質Aの550 nmにおけるモル吸光係数は 2.0×10⁴mol⁻¹･L･cm⁻¹である。
+  choices:
+  - 30 µg
+  - 60 µg
+  - 90 µg
+  - 120 µg
+  - 150 µg
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 60µg
+  _stem_head: モル質量が50g･mol-１の物質Aの溶液が100mLある。この溶液の一部を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を
+- num: 15
+  status: draft
+  chapters:
+  - aas
+  traps:
+  - an-aas-04
+  rank: null
+  summary: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フレーム法では、一般に、アセチレンを燃料ガスとし空気を助燃ガスとした化学炎が目的元素の原子化に用いられる。
+  - フレーム法では、吸引して噴霧された試料溶液のうち数％から10％程度がフレームに送られる。
+  - グラファイト炉法では、試料導入の後、炉の温度を100℃程度の乾燥、500～600℃の灰化と段階的に上昇させてから1000～3000℃で原子化を行う。
+  - グラファイト炉法で共存元素による化学干渉の影響を受けるときは、重水素ランプを用いたバックグラウンド補正が行われる。
+  - 還元気化法では、水銀イオンを塩化スズ（Ⅱ）などの還元剤で還元して水銀の原子化を行う。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: グラファイト炉法で共存元素による化学干渉の影響を受けるときは、重水素ランプを用いたバックグラウンド補正が行われる。
+  _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 16
+  status: draft
+  chapters:
+  - fluorescence
+  traps:
+  - an-fluorescence-02
+  rank: null
+  summary: null
+  stem: 図はある分子のエネルギー準位の模式図で、ⒶⒷⒸで示した矢印は状態の遷移方向を示している。それぞれの遷移過程の名称として、適切なものの組合せは次のうちどれか。
+  choices:
+  - 吸光 ／ 蛍光 ／ りん光
+  - 蛍光 ／ 吸光 ／ りん光
+  - 蛍光 ／ りん光 ／ 吸光
+  - りん光 ／ 吸光 ／ 蛍光
+  - りん光 ／ 蛍光 ／ 吸光
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-02-bunseki-16-1.png
+    alt: 問16の図
+  law_note: null
+  _key_choice: りん光蛍光吸光電子基底状態（一重項）振動準位振動準位振動緩和電子励起状態（一重項）一重項❘三重項遷移振動準位振動緩和ⒶⒷⒸ電子励起状態（三重項）
+  _stem_head: 図はある分子のエネルギー準位の模式図で、ⒶⒷⒸで示した矢印は状態の遷移方向を示している。それぞれの遷移過程の名称として、適切なものの組合せは
+  columns:
+  - Ⓐ
+  - Ⓑ
+  - Ⓒ
+- num: 17
+  status: draft
+  chapters:
+  - gc
+  traps:
+  - an-gc-04
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - カラム温度が高いほど、ピークの分離度は小さくなる。
+  - カラム温度が高いほど、保持時間は短くなる。
+  - カラム温度が高いほど、キャリヤーガスの粘度は小さくなる。
+  - 試料気化室の温度は、通常、カラム温度よりも高めに設定される。
+  - 検出器の温度は、通常、カラム温度よりも高めに設定される。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: カラム温度が高いほど、キャリヤーガスの粘度は小さくなる。
+  _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 18
+  status: draft
+  chapters:
+  - gc
+  traps:
+  - an-gc-01
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ 不飽和炭化水素化合物
+  - 炎光光度検出器（FPD） ／ 有機硫黄化合物
+  - 電子捕獲検出器（ECD） ／ 有機ハロゲン化合物
+  - 光イオン化検出器（PID） ／ 芳香族炭化水素化合物
+  - 熱イオン化検出器（TID、FTD） ／ 飽和炭化水素化合物
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 熱イオン化検出器（TID、FTD）飽和炭化水素化合物
+  _stem_head: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+- num: 19
+  status: draft
+  chapters:
+  - xrd
+  traps:
+  - an-xrd-01
+  rank: null
+  summary: null
+  stem: 作業環境測定における X 線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 定性分析の試料には、乳鉢ですり潰した粉末などが用いられる。
+  - 結晶物質の定量は、回折線の強度測定で行う。
+  - X 線検出器は、X 線のスペクトル分析ができるものでなければならない。
+  - 内標準物質を混合することで、試料の質量吸収係数の影響をなくして定量を行うことができる。
+  - 定量成分と同一の純物質を既知量添加して、その回折線強度の増加分と元の回折線強度から定量を行うことができる。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
+  _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+- num: 20
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - an-radiation-02
+  rank: null
+  summary: null
+  stem: 放射能の単位（Bq）の定義として正しいものは、次のうちどれか。
+  choices:
+  - 単位質量当たりの壊変数
+  - 単位質量当たりの放射線の数
+  - 単位時間当たりの壊変数
+  - 単位時間当たりの放射線の数
+  - 単位時間当たりの被ばく線量
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位時間当たりの壊変数
+  _stem_head: 放射能の単位（Bq）の定義として正しいものは、次のうちどれか。

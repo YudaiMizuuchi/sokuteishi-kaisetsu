@@ -1,0 +1,327 @@
+exam: 2024-02
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - states
+  traps:
+  - ds-states-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: リフラクトリーセラミックファイバーの管理濃度の単位は、mg/m3である。
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所は、面積20m2以下の作業場については設定することができない。
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定時間が10分未満の検知管を使用する場合は、各測定点において複数の検知管を使用して10分間以上連続して測定しなければならない。
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: B測定は、A測定を補完するための測定なので、全ての単位作業場所で実施する必要がある。
+- num: 5
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ジクロロメタン
+- num: 6
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: フッ化水素の気体の密度は、空気より大きい。
+- num: 7
+  status: draft
+  chapters:
+  - noise
+  - logarithm
+  traps:
+  - ds-noise-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: この単位作業場所は、第II管理区分に区分される。
+- num: 8
+  status: draft
+  chapters:
+  - personal-sampling
+  traps:
+  - ds-personal-sampling-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 1時間サイクルで繰り返される作業が1日中行われる単位作業場所で、労働者がばく露される有害物質の濃度がほぼ均一であることが明らかな場合は、C測定のサンプリング時間を1時間とすることができる。
+- num: 9
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: シアン化水素活性炭管
+- num: 10
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 捕集器具を取り付けない状態で流量校正した面積式流量計を捕集器具と吸引ポンプの間に接続して捕集すると、流量計の指示流量は、実際の流量よりも低くなる。
+- num: 11
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ポーラスポリマービーズは、活性炭に比べ、表面が不活性なため不安定な化合物の捕集に用いると捕集管内で化学反応による変質が起こりやすい。
+- num: 12
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ポアサイズは、水の表面張力を利用したバブルポイント法により計測されたものであり、捕集できる粒子のおおよその大きさを表している。
+- num: 13
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 小型ガス吸収管によりキシレンを液体捕集する際、捕集液には精製水を用いる。
+- num: 14
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定では、1単位作業場所での採取開始から終了までの時間は、一定の条件を満足した場合は、1時間未満とすることができる。
+- num: 15
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 検知管は管理濃度の5分の1の濃度を精度よく測定できるものであればよい。
+- num: 16
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: プルトニウムトリチウム化水蒸気
+- num: 17
+  status: draft
+  chapters:
+  - radiation
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 1.9×10-5Bq・cm-3
+- num: 18
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 対数正規分布の幾何平均と幾何標準偏差とは同じ次元を持つ。
+- num: 19
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 系統誤差は、その原因を明らかにしても補正することができない。
+- num: 20
+  status: draft
+  chapters:
+  - evaluation
+  traps:
+  - ds-evaluation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定の第1評価値とB測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。

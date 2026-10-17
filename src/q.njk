@@ -1,0 +1,27 @@
+---
+layout: base.njk
+pagination:
+  data: db.questions
+  size: 1
+  alias: q
+permalink: "{{ q.url }}"
+eleventyComputed:
+  title: "{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}{% if q.traps.length %}（{{ q.traps[0].name }}）{% endif %}"
+  description: "{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}の解説。{{ (q.stemPlain or q.summary or '') | truncate(80) }}"
+---
+{% from "card.njk" import card %}
+<nav class="crumbs" aria-label="現在の位置"><a href="/">問題を探す</a> › <a href="/#exam={{ q.exam.key }}&subject={{ q.subject }}">{{ q.exam.label }} {{ q.subjectName }}</a> › 問{{ q.num }}</nav>
+{{ card(q, site) }}
+<nav class="pager" aria-label="同じ回の前後の問題">
+  {% if q.prev %}<a href="{{ q.prev.url }}" rel="prev">問{{ q.prev.num }}へ戻る</a>{% else %}<span></span>{% endif %}
+  {% if q.next %}<a href="{{ q.next.url }}" rel="next">問{{ q.next.num }}へ進む</a>{% endif %}
+</nav>
+{% if q.traps.length and q.traps[0].url and q.traps[0].questions.length > 1 %}
+<section class="related">
+  <h2>同じ罠が狙われた問題</h2>
+  <ul>
+  {% for r in q.traps[0].questions %}{% if r.id != q.id %}<li><a href="{{ r.url }}">{{ r.exam.label }} {{ r.subjectName }} 問{{ r.num }}</a></li>{% endif %}{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% if q.jsonld %}<script type="application/ld+json">{{ q.jsonld | json | safe }}</script>{% endif %}

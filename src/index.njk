@@ -1,0 +1,57 @@
+---
+layout: base.njk
+---
+<div class="intro">
+  <h1>過去問を探す</h1>
+  <p>科目・年度・参考書の章で絞り込み、自分で解いてから解説を開いて確認できます。</p>
+</div>
+<div class="layout">
+  <aside class="filters" aria-label="問題の絞り込み">
+    <fieldset>
+      <legend>科目</legend>
+      <div class="chips">
+        {% for s in db.subjectsWithData %}<label class="chip"><input type="checkbox" name="subject" value="{{ s.id }}"><span>{{ s.name }}</span></label>{% endfor %}
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>年度・回</legend>
+      <select id="f-exam" aria-label="年度・回">
+        <option value="">すべての年度・回</option>
+        {% for e in db.exams %}<option value="{{ e.key }}">{{ e.label }}（{{ e.held }}）</option>{% endfor %}
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>参考書の章</legend>
+      <select id="f-chapter" aria-label="参考書の章">
+        <option value="">すべての章</option>
+        {% for p in db.parts %}<optgroup label="第{{ p.num }}部 {{ p.name }}">
+          {% for c in p.chapters %}<option value="{{ c.id }}">{{ c.label }}</option>{% endfor %}
+        </optgroup>{% endfor %}
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>ランク</legend>
+      <div class="chips">
+        {% for r in ["A","B","C"] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r }}"><span>{{ r }}</span></label>{% endfor %}
+      </div>
+      <p class="hint">A：13回中3回以上出た罠、B：2回、C：1回</p>
+    </fieldset>
+    <button type="button" class="reset" id="reset">条件をすべて解除</button>
+  </aside>
+  <section>
+    <div class="listhead">
+      <div class="count" id="count" aria-live="polite">読み込み中…</div>
+      <button type="button" class="toggle-all" id="toggle-all">表示中の解説をすべて開く</button>
+    </div>
+    <div id="list"></div>
+    <button type="button" class="more" id="more" hidden>次の{{ site.pageSize }}問を表示</button>
+    <noscript><p>絞り込みにはJavaScriptが必要です。<a href="/chapter/">参考書の章から探す</a>ページもご利用ください。</p></noscript>
+  </section>
+</div>
+<script>
+window.LIST_CONFIG = {
+  base: "{{ site.pathPrefix }}",
+  pageSize: {{ site.pageSize }},
+  subjects: {{ db.subjectsWithData | pluck("id") | json | safe }}
+};
+</script>

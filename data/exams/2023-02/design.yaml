@@ -1,0 +1,327 @@
+exam: 2023-02
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - ds-gas-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 590mg・m-3
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間なども考慮する必要がある。
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定時間が10分間未満の検知管を使用する場合には、各測定点において複数の検知管を使用して10分間以上連続して測定を行わなければならない。
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 有害物質の濃度が高くなると考えられる作業位置が複数ある場合は、それらの全ての作業位置で測定を行い、各々の測定値の算術平均値をB測定値とする。
+- num: 5
+  status: draft
+  chapters:
+  - noise
+  - statistics
+  traps:
+  - ds-noise-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定及びB測定を実施した場合の管理区分の決定は、A測定の算術平均値及び標準偏差並びにB測定値を用いる。
+- num: 6
+  status: draft
+  chapters:
+  - personal-sampling
+  traps:
+  - ds-personal-sampling-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 労働者が塗装ブース前の定点で移動せずに行う吹付塗装作業
+- num: 7
+  status: draft
+  chapters:
+  - personal-sampling
+  traps:
+  - ds-personal-sampling-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: D測定の試料空気の採取等の時間は、10分間である。
+- num: 8
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: コールタールは、常温・常圧で固体である。
+- num: 9
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: アクリルアミド小型バブラー
+- num: 10
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 湿式ガスメーターは、原則として、吸引ポンプより上流側に接続する。
+- num: 11
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 一般に、シリカゲルは極性の小さい有機溶剤、活性炭は極性の大きい有機溶剤の捕集に適している。
+- num: 12
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: メンブランフィルターのポアサイズ(孔径)は、捕集できる最小の粒子の大きさを表している。
+- num: 13
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 使用後の捕集袋を再使用するためには、水又は洗剤で内面を十分に洗浄しなければならない。
+- num: 14
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 質量濃度変換係数、粉じんの質量濃度、相対濃度をそれぞれK、C、Rとするとその関係は、K=R/Cで表される。
+- num: 15
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 変色層が斜めに現れた場合は、変色した部分の最先端を読み取る。
+- num: 16
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 放射性アルゴン放射性セシウム
+- num: 17
+  status: draft
+  chapters:
+  - radiation
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 1.4×104Bq
+- num: 18
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 対数正規分布の幾何平均値と幾何標準偏差とは同じ次元を持つ。
+- num: 19
+  status: draft
+  chapters:
+  - size-selector
+  traps:
+  - ds-size-selector-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、測定値は小さくなる。
+- num: 20
+  status: draft
+  chapters:
+  - evaluation
+  traps:
+  - ds-evaluation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定の第1評価値とB測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。

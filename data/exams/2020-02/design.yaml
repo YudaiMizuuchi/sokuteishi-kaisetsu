@@ -1,0 +1,327 @@
+exam: 2020-02
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - ds-gas-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 150mg・m-3
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の保護具の使用状況や作業時間の長さなども考慮する必要がある。
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  - statistics
+  traps:
+  - ds-a-b-measurement-11
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は、有害物質の濃度はほぼ均一であるとみなすことができる。
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 5本の検知管を用いてB測定を行った場合は、10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする。
+- num: 5
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ハホ
+- num: 6
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ジクロロメタン（25℃の飽和蒸気圧が最も高い）
+- num: 7
+  status: draft
+  chapters:
+  - states
+  traps:
+  - ds-states-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
+- num: 8
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: コールタールセルロースエステルメンブランフィルター
+- num: 9
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
+- num: 10
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 活性炭管の前層に捕集されたガス状物質は、管内で後層に移動することはない。
+- num: 11
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: メンブランフィルターでは、粒子状物質はフィルターの表面よりも内部に捕集される。
+- num: 12
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ミゼットインピンジャーに粒径3~5mmのガラスビーズを入れると、ガス状物質の捕集率を高めることができる。
+- num: 13
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
+- num: 14
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 検知管用真空法ガス採取器の漏れを防ぐために、ピストン及びシリンダー内部にグリースを塗布してはならない。
+- num: 15
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min-1の単位で表示される。
+- num: 16
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 放射性ヨウ素トリチウム化水蒸気
+- num: 17
+  status: draft
+  chapters:
+  - radiation
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 1.4×104Bq
+- num: 18
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ+2σである。
+- num: 19
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 系統誤差は、その原因を明らかにしても補正することができない。
+- num: 20
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: B測定を複数行った場合は、全てのB測定点の測定値の平均値をB測定値とする。

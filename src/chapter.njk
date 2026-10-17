@@ -1,0 +1,23 @@
+---
+layout: base.njk
+pagination:
+  data: db.chapters
+  size: 1
+  alias: c
+permalink: "{{ c.url }}"
+eleventyComputed:
+  title: "{{ c.label }}の過去問"
+  description: "作業環境測定士試験で「{{ c.name }}」に関する過去問と、繰り返し狙われる罠の型の解説。"
+---
+<nav class="crumbs" aria-label="現在の位置"><a href="/chapter/">参考書の章から探す</a> › 第{{ c.partNum }}部 {{ c.partName }}</nav>
+<h1>{{ c.label }}</h1>
+{{ c.descriptionHtml | safe }}
+<p class="lead">この章に関わる過去問は {{ c.questions.length }} 問です。{% if c.traps.length %}繰り返し狙われる罠の型は次のとおりです。{% endif %}</p>
+{% for t in c.traps %}
+<section class="trapblock">
+  <h2><span class="rank rank-{{ t.rank }}">ランク{{ t.rank }}</span> {% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h2>
+  <p class="trapmeta">{{ t.subjectName }}・{{ t.count }}回出題</p>
+  <ul class="qlinks">{% for q in t.questions %}<li><a href="{{ q.url }}">{{ q.exam.label }} 問{{ q.num }}</a></li>{% endfor %}</ul>
+</section>
+{% endfor %}
+<p><a class="button" href="/#chapter={{ c.id }}">この章の問題をまとめて解く</a></p>

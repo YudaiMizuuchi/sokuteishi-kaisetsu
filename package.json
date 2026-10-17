@@ -1,0 +1,15 @@
+{
+  "name": "sokuteishi-kaisetsu",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "SHOW_DRAFTS=1 eleventy --serve",
+    "preview": "SHOW_DRAFTS=1 eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6",
+    "js-yaml": "4.1.0",
+    "markdown-it": "14.3.2"
+  }
+}

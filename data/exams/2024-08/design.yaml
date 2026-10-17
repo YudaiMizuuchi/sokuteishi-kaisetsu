@@ -1,0 +1,326 @@
+exam: 2024-08
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - ds-gas-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 25ppm
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所が広く測定点の数が多いため、1作業日中にサンプリングを終了できない場合には、測定を2作業日に分けて行うようにする。
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-10
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所が著しく狭く、かつ、単位作業場所における空気中の有害物質の濃度がほぼ均一であることが明らかなため、測定点の数を4点とした場合には、4点のうちいずれか1点で2回繰り返し測定を行うことによって、測定値の総数を5とする。
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 圧電天秤方式の相対濃度計を用いて鉱物性粉じんのB測定を行う場合びんは、測定時間を2分に合わせて、連続して5回の測定を行い、指示値の最大値をB測定値とする。
+- num: 5
+  status: draft
+  chapters:
+  - personal-sampling
+  traps:
+  - ds-personal-sampling-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 粉じんの測定は、個人サンプリング法による測定の対象とはならない。
+- num: 6
+  status: draft
+  chapters:
+  - personal-sampling
+  traps:
+  - ds-personal-sampling-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 有害物質の発生源に近接する場所において作業が行われる場合であって、気中濃度が最も高くなると思われる時間が15分未満で複数回生じるときは、その時間の合計が15分となるようにD測定の試料空気の採取を行う。
+- num: 7
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: アクリルアミド2p-キシレン31,4-ジオキサン4シクロヘキサノン5スチレン
+- num: 8
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: シアン化水素の蒸気密度は、空気より大きい。
+- num: 9
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ヨウ化メチルシリカゲル管
+- num: 10
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 捕集装置とポンプの間に接続した面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
+- num: 11
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 二硫化炭素の捕集には、シリカゲル管は適さない。
+- num: 12
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 多孔状フィルターのポアサイズは、捕集できる粒子の大きさの下限を示すものである。
+- num: 13
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 液体捕集では、測定対象物質と反応しない捕集液を用いる。
+- num: 14
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
+- num: 15
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 個人サンプリング法によるC測定では、妨害物質の有無にかかわらず、検知管を使用することはできない。
+- num: 16
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 放射性タリウム固体捕集法
+- num: 17
+  status: draft
+  chapters:
+  - radiation
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 108分
+- num: 18
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 正規分布の算術平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ-2σからμ+2σの範囲に入る確率は、およそ68%である。
+- num: 19
+  status: draft
+  chapters:
+  - other-workplaces
+  traps:
+  - ds-other-workplaces-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 酸素欠乏危険場所における酸素及び硫化50cm~150cm水素の濃度
+- num: 20
+  status: draft
+  chapters:
+  - evaluation
+  traps:
+  - ds-evaluation-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: C測定及びD測定が行われた場合、D測定の測定値が、管理濃度を超えていれば、C測定の結果にかかわらず、第3管理区分となる。

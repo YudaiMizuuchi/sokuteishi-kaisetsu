@@ -1,0 +1,328 @@
+exam: 2019-08
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - ds-gas-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 空気中の有機溶剤の体積分率0.1%は、10,000ppmに相当する。
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間を考慮する必要がある。
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定点の高さは、床上120~150cmの呼吸域の高さとする。
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 相対濃度指示方法によってB測定を行った場合に用いる質量濃度変換係数は、A測定とは別に求めなければならない。
+- num: 5
+  status: draft
+  chapters:
+  - noise
+  - statistics
+  traps:
+  - ds-noise-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 騒音の管理区分の決定には、測定値の算術平均と標準偏差を用いる。
+- num: 6
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: メタノール
+- num: 7
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: トルエンは、メタノールよりも極性が大きい。
+- num: 8
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: クロム酸ミストシリカゲル管
+- num: 9
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
+- num: 10
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ポーラスポリマービーズは、一般に、活性炭に比べて有機溶剤蒸気に対する捕集容量が大きい。
+- num: 11
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 鉱物性粉じん中に含まれる遊離けい酸の分析に用いるサンプルの捕集には、オープンフェース型ホルダーを用いる。
+- num: 12
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ミゼットインピンジャーによるミストの捕集では、拡散効果により捕集される。
+- num: 13
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 光散乱方式の相対濃度計において、粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
+- num: 14
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 検知管の定量下限は、変色がわずかでも認められる検知限度のことである。
+- num: 15
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 光散乱方式の相対濃度計では、吸引流量が大きくなるほど相対濃度の値は増大する。
+- num: 16
+  status: draft
+  chapters:
+  - radiation
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 放射性セシウム固体捕集法
+- num: 17
+  status: draft
+  chapters:
+  - radiation
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 145分
+- num: 18
+  status: draft
+  chapters:
+  - statistics
+  traps:
+  - ds-statistics-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 環境空気中の有害物質の濃度の分布は、正規分布で近似される。
+- num: 19
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ミゼットインピンジャーによる粒子状物質の捕集では、流量が大きいほど捕集率は低くなる。
+- num: 20
+  status: draft
+  chapters:
+  - evaluation
+  - statistics
+  traps:
+  - ds-evaluation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定の第1評価値とは、気中有害物質濃度の算術平均値の推定値をいう。

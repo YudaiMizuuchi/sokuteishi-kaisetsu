@@ -1,0 +1,9 @@
+---
+pagination:
+  data: db.subjectsWithData
+  size: 1
+  alias: s
+permalink: "/data/{{ s.id }}.json"
+eleventyExcludeFromCollections: true
+---
+{{ s.items | json | safe }}
