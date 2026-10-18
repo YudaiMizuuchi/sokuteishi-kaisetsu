@@ -98,6 +98,7 @@ questions:
 - num: 5
   status: draft
   chapters:
+  - solution-chem
   - solution
   traps:
   - an-solution-04
@@ -120,6 +121,7 @@ questions:
 - num: 6
   status: draft
   chapters:
+  - solution-chem
   - reaction
   traps:
   - an-reaction-01
@@ -186,7 +188,7 @@ questions:
 - num: 9
   status: draft
   chapters:
-  - reagents
+  - lab-equipment
   traps:
   - an-reagents-02
   rank: null
@@ -230,6 +232,7 @@ questions:
 - num: 11
   status: draft
   chapters:
+  - titration
   - reaction
   traps:
   - an-reaction-02
@@ -253,6 +256,7 @@ questions:
   status: draft
   chapters:
   - titration
+  - reaction
   traps:
   - an-titration-01
   rank: null
@@ -297,8 +301,8 @@ questions:
 - num: 14
   status: draft
   chapters:
+  - spectrophotometry
   - logarithm
-  - solution
   traps:
   - an-logarithm-02
   rank: null

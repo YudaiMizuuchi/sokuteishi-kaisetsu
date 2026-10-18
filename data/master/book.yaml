@@ -7,7 +7,7 @@ parts:
   name: なぜ測るのか
 - id: hazards
   num: 2
-  name: 有害物質と人体
+  name: 有害要因と人体
 - id: design
   num: 3
   name: 測定を設計する
@@ -17,8 +17,11 @@ parts:
 - id: analysis
   num: 5
   name: 分析する
-- id: law
+- id: radiation
   num: 6
+  name: 放射線をまとめて
+- id: law
+  num: 7
   name: 法令で答え合わせ
 chapters:
 - id: units
@@ -63,35 +66,125 @@ chapters:
   name: 平均とばらつき
   provisional: false
   description: null
-- id: states
-  num: null
+- id: history
+  num: 1-1
+  part: why
+  name: 職業病の歴史と作業環境測定の誕生
+  provisional: false
+  description: null
+- id: oh-management
+  num: 1-2
+  part: why
+  name: 三管理と作業環境管理
+  provisional: false
+  description: null
+- id: risk-assessment
+  num: 1-3
+  part: why
+  name: リスクアセスメントと化学物質の自律的管理
+  provisional: false
+  description: null
+- id: exposure-limits
+  num: 1-4
+  part: why
+  name: 管理濃度・許容濃度・濃度基準値
+  provisional: false
+  description: null
+- id: absorption
+  num: 2-1
   part: hazards
-  name: 物質の状態と濃度の表し方
-  provisional: true
+  name: 体に入る道・出る道
+  provisional: false
   description: null
 - id: properties
-  num: null
+  num: 2-2
   part: hazards
-  name: 物質の性質
-  provisional: true
+  name: ガス・蒸気の性質と空気中でのふるまい
+  provisional: false
   description: null
-- id: organic
-  num: null
+- id: organic-solvents
+  num: 2-3
   part: hazards
-  name: 有機化合物
-  provisional: true
+  name: 有機溶剤
+  provisional: false
   description: null
-- id: radiation
-  num: null
+- id: toxicity
+  num: 2-4
   part: hazards
-  name: 放射性物質と放射能
-  provisional: true
+  name: ガス状物質と化学物質の健康障害
+  provisional: false
+  description: null
+- id: metals
+  num: 2-5
+  part: hazards
+  name: 金属
+  provisional: false
+  description: null
+- id: dust-disease
+  num: 2-6
+  part: hazards
+  name: 粒子状物質とじん肺・石綿
+  provisional: false
+  description: null
+- id: occupational-cancer
+  num: 2-7
+  part: hazards
+  name: 職業がん
+  provisional: false
+  description: null
+- id: oxygen-deficiency
+  num: 2-8
+  part: hazards
+  name: 酸素欠乏と硫化水素
+  provisional: false
+  description: null
+- id: heat-cold
+  num: 2-9
+  part: hazards
+  name: 温熱と寒冷
+  provisional: false
+  description: null
+- id: noise
+  num: 2-10
+  part: hazards
+  name: 騒音
+  provisional: false
+  description: null
+- id: vibration
+  num: 2-11
+  part: hazards
+  name: 振動
+  provisional: false
+  description: null
+- id: em-waves
+  num: 2-12
+  part: hazards
+  name: 電磁波
+  provisional: false
+  description: null
+- id: ventilation
+  num: 2-13
+  part: hazards
+  name: 局所排気装置と換気
+  provisional: false
+  description: null
+- id: ppe
+  num: 2-14
+  part: hazards
+  name: 保護具
+  provisional: false
+  description: null
+- id: other-environment
+  num: コラム
+  part: hazards
+  name: その他の職場の健康障害
+  provisional: false
   description: null
 - id: unit-workplace
-  num: null
+  num: 3-1
   part: design
   name: 単位作業場所
-  provisional: true
+  provisional: false
   description: null
 - id: a-b-measurement
   num: 3-2
@@ -100,142 +193,220 @@ chapters:
   provisional: false
   description: null
 - id: personal-sampling
-  num: null
+  num: 3-3
   part: design
-  name: 個人サンプリング法
-  provisional: true
+  name: 個人サンプリング法（C測定・D測定）
+  provisional: false
+  description: null
+- id: stats-error
+  num: 3-4
+  part: design
+  name: 統計と測定誤差
+  provisional: false
   description: null
 - id: evaluation
-  num: null
+  num: 3-5
   part: design
-  name: 評価と管理区分
-  provisional: true
-  description: null
-- id: noise
-  num: null
-  part: design
-  name: 騒音
-  provisional: true
+  name: 作業環境の評価と管理区分
+  provisional: false
   description: null
 - id: other-workplaces
-  num: null
+  num: 3-6
   part: design
   name: 指定作業場以外の測定
-  provisional: true
-  description: null
-- id: flowmeter
-  num: null
-  part: sampling
-  name: 流量計
-  provisional: true
+  provisional: false
   description: null
 - id: sampler-selection
-  num: null
+  num: 4-1
   part: sampling
-  name: 捕集方法の選び方
-  provisional: true
-  description: null
-- id: solid-sorbent
-  num: null
-  part: sampling
-  name: 固体捕集法
-  provisional: true
+  name: 捕集方法の全体像
+  provisional: false
   description: null
 - id: filter
-  num: null
+  num: 4-2
   part: sampling
-  name: ろ過捕集法
-  provisional: true
+  name: ろ過捕集と分粒装置
+  provisional: false
   description: null
-- id: size-selector
-  num: null
+- id: solid-sorbent
+  num: 4-3
   part: sampling
-  name: 分粒装置
-  provisional: true
+  name: 固体捕集
+  provisional: false
   description: null
 - id: liquid-direct
-  num: null
+  num: 4-4
   part: sampling
-  name: 液体捕集法・直接捕集法
-  provisional: true
+  name: 液体捕集と直接捕集
+  provisional: false
   description: null
-- id: relative-meter
-  num: null
+- id: flowmeter
+  num: 4-5
   part: sampling
-  name: 相対濃度計
-  provisional: true
+  name: 流量計
+  provisional: false
   description: null
 - id: detector-tube
-  num: null
+  num: 4-6
   part: sampling
   name: 検知管
-  provisional: true
+  provisional: false
   description: null
-- id: equilibrium
-  num: null
-  part: analysis
-  name: 化学平衡
-  provisional: true
-  description: null
-- id: titration
-  num: null
-  part: analysis
-  name: 容量分析
-  provisional: true
+- id: relative-meter
+  num: 4-7
+  part: sampling
+  name: 相対濃度計
+  provisional: false
   description: null
 - id: lab-equipment
-  num: null
+  num: 5-1
   part: analysis
-  name: 分析の器具
-  provisional: true
-  description: null
-- id: standard-gas
-  num: null
-  part: analysis
-  name: 標準ガス
-  provisional: true
-  description: null
-- id: reagents
-  num: null
-  part: analysis
-  name: 試薬
-  provisional: true
+  name: 分析の基本操作
+  provisional: false
   description: null
 - id: quantification
-  num: null
+  num: 5-2
   part: analysis
-  name: 検量線と定量法
-  provisional: true
+  name: データの扱いと定量法
+  provisional: false
+  description: null
+- id: organic
+  num: 5-3
+  part: analysis
+  name: 有機化合物の基礎
+  provisional: false
+  description: null
+- id: solution-chem
+  num: 5-4
+  part: analysis
+  name: 溶液の化学
+  provisional: false
+  description: null
+- id: titration
+  num: 5-5
+  part: analysis
+  name: 容量分析
+  provisional: false
+  description: null
+- id: standard-gas
+  num: 5-6
+  part: analysis
+  name: 標準ガスの調製
+  provisional: false
   description: null
 - id: spectrophotometry
-  num: null
+  num: 5-7
   part: analysis
   name: 吸光光度法
-  provisional: true
+  provisional: false
   description: null
 - id: aas
-  num: null
+  num: 5-8
   part: analysis
-  name: 原子吸光分析法
-  provisional: true
+  name: 原子吸光とICP発光
+  provisional: false
   description: null
 - id: fluorescence
-  num: null
+  num: 5-9
   part: analysis
   name: 蛍光光度法
-  provisional: true
+  provisional: false
   description: null
 - id: gc
-  num: null
+  num: 5-10
   part: analysis
-  name: ガスクロマトグラフ分析法
-  provisional: true
+  name: ガスクロマトグラフ
+  provisional: false
   description: null
 - id: xrd
-  num: null
+  num: 5-11
   part: analysis
-  name: X線回折分析法
-  provisional: true
+  name: X線回折
+  provisional: false
+  description: null
+- id: radiation
+  num: 6-1
+  part: radiation
+  name: 放射線の正体
+  provisional: false
+  description: null
+- id: radiation-effects
+  num: 6-2
+  part: radiation
+  name: 放射線の人体への影響
+  provisional: false
+  description: null
+- id: radiation-sampling
+  num: 6-3
+  part: radiation
+  name: 放射性物質の捕集と放射能濃度
+  provisional: false
+  description: null
+- id: law-radiation
+  num: 6-4
+  part: radiation
+  name: 電離放射線障害防止規則
+  provisional: false
+  description: null
+- id: law-map
+  num: 7-1
+  part: law
+  name: 法令の地図
+  provisional: false
+  description: null
+- id: law-system
+  num: 7-2
+  part: law
+  name: 衛生管理体制
+  provisional: false
+  description: null
+- id: law-health-education
+  num: 7-3
+  part: law
+  name: 健康診断と安全衛生教育
+  provisional: false
+  description: null
+- id: law-chief
+  num: 7-4
+  part: law
+  name: 作業主任者と規格・型式検定
+  provisional: false
+  description: null
+- id: law-measurement-scope
+  num: 7-5
+  part: law
+  name: 作業環境測定の対象・頻度・記録の保存
+  provisional: false
+  description: null
+- id: law-sokuteishi
+  num: 7-6
+  part: law
+  name: 作業環境測定士と作業環境測定基準
+  provisional: false
+  description: null
+- id: law-organic
+  num: 7-7
+  part: law
+  name: 有機溶剤中毒予防規則
+  provisional: false
+  description: null
+- id: law-tokka
+  num: 7-8
+  part: law
+  name: 特定化学物質障害予防規則
+  provisional: false
+  description: null
+- id: law-dust
+  num: 7-9
+  part: law
+  name: 粉じん則・じん肺法・石綿則
+  provisional: false
+  description: null
+- id: law-other
+  num: 7-10
+  part: law
+  name: 酸欠則・鉛則・事務所則・安衛則の衛生基準
+  provisional: false
   description: null
 traps:
 - id: ds-gas-01
@@ -260,7 +431,7 @@ traps:
   verify: false
 - id: ds-states-01
   subject: design
-  chapter: states
+  chapter: dust-disease
   foundation: null
   seat: 濃度と物質の状態
   name: 管理濃度の表し方（粉じん・RCF）
@@ -276,7 +447,7 @@ traps:
   verify: false
 - id: ds-states-02
   subject: design
-  chapter: states
+  chapter: dust-disease
   foundation: null
   seat: 濃度と物質の状態
   name: 粉じん・ヒューム・ミストの粒径と形
@@ -835,8 +1006,8 @@ traps:
   verify: false
 - id: ds-statistics-01
   subject: design
-  chapter: statistics
-  foundation: null
+  chapter: stats-error
+  foundation: statistics
   seat: 統計
   name: 正規分布の範囲（±1σ・±2σ・95%上限）
   rank: A
@@ -854,8 +1025,8 @@ traps:
   verify: false
 - id: ds-statistics-02
   subject: design
-  chapter: statistics
-  foundation: null
+  chapter: stats-error
+  foundation: statistics
   seat: 統計
   name: 幾何平均・幾何標準偏差の性質
   rank: A
@@ -871,8 +1042,8 @@ traps:
   verify: false
 - id: ds-statistics-03
   subject: design
-  chapter: statistics
-  foundation: null
+  chapter: stats-error
+  foundation: statistics
   seat: 統計
   name: 濃度分布は対数正規分布
   rank: B
@@ -886,8 +1057,8 @@ traps:
   verify: false
 - id: ds-statistics-04
   subject: design
-  chapter: statistics
-  foundation: null
+  chapter: stats-error
+  foundation: statistics
   seat: 統計
   name: その他（単発）
   rank: C
@@ -900,8 +1071,8 @@ traps:
   verify: false
 - id: ds-statistics-05
   subject: design
-  chapter: statistics
-  foundation: null
+  chapter: stats-error
+  foundation: statistics
   seat: 測定誤差
   name: 系統誤差は補正できる
   rank: A
@@ -916,8 +1087,8 @@ traps:
   verify: false
 - id: ds-statistics-06
   subject: design
-  chapter: statistics
-  foundation: null
+  chapter: stats-error
+  foundation: statistics
   seat: 測定誤差
   name: その他（真値）
   rank: C
@@ -1165,7 +1336,7 @@ traps:
   verify: false
 - id: ds-size-selector-01
   subject: design
-  chapter: size-selector
+  chapter: filter
   foundation: null
   seat: 分粒装置
   name: 慣性衝突式分粒装置と流量
@@ -1406,7 +1577,7 @@ traps:
   verify: false
 - id: ds-radiation-01
   subject: design
-  chapter: radiation
+  chapter: radiation-sampling
   foundation: null
   seat: 放射性物質
   name: 放射性物質と捕集方法の組合せ
@@ -1432,7 +1603,7 @@ traps:
   verify: false
 - id: ds-radiation-02
   subject: design
-  chapter: radiation
+  chapter: radiation-sampling
   foundation: units
   seat: 放射性物質
   name: 放射能濃度の計算
@@ -1527,8 +1698,8 @@ traps:
   calculation: false
 - id: an-statistics-01
   subject: bunseki
-  chapter: statistics
-  foundation: null
+  chapter: quantification
+  foundation: statistics
   seat: データの扱い
   name: 平均・分散・標準偏差の式
   rank: A
@@ -1545,8 +1716,8 @@ traps:
   calculation: false
 - id: an-statistics-02
   subject: bunseki
-  chapter: statistics
-  foundation: null
+  chapter: quantification
+  foundation: statistics
   seat: データの扱い
   name: 誤差の定義と種類（系統誤差・偶然誤差）
   rank: A
@@ -1751,8 +1922,8 @@ traps:
   calculation: false
 - id: an-solution-02
   subject: bunseki
-  chapter: solution
-  foundation: null
+  chapter: solution-chem
+  foundation: solution
   seat: 溶液
   name: 溶媒抽出と分配係数（計算）
   rank: A
@@ -1771,8 +1942,8 @@ traps:
   calculation: true
 - id: an-logarithm-01
   subject: bunseki
-  chapter: logarithm
-  foundation: solution
+  chapter: solution-chem
+  foundation: logarithm
   seat: 溶液
   name: 強酸の希釈とpH（計算）
   rank: A
@@ -1790,8 +1961,8 @@ traps:
   calculation: true
 - id: an-solution-03
   subject: bunseki
-  chapter: solution
-  foundation: null
+  chapter: solution-chem
+  foundation: solution
   seat: 溶液
   name: 質量パーセント濃度とモル濃度の換算（計算）
   rank: A
@@ -1809,8 +1980,8 @@ traps:
   calculation: true
 - id: an-reaction-01
   subject: bunseki
-  chapter: reaction
-  foundation: null
+  chapter: solution-chem
+  foundation: reaction
   seat: 溶液
   name: 酸・塩の水溶液のpHの大小
   rank: A
@@ -1828,7 +1999,7 @@ traps:
   calculation: false
 - id: an-equilibrium-01
   subject: bunseki
-  chapter: equilibrium
+  chapter: solution-chem
   foundation: null
   seat: 溶液
   name: 化学平衡の移動（ルシャトリエの原理）
@@ -1845,8 +2016,8 @@ traps:
   calculation: false
 - id: an-solution-04
   subject: bunseki
-  chapter: solution
-  foundation: null
+  chapter: solution-chem
+  foundation: solution
   seat: 溶液
   name: 質量パーセント濃度の溶液の希釈（計算）
   rank: A
@@ -1862,7 +2033,7 @@ traps:
   calculation: true
 - id: an-equilibrium-02
   subject: bunseki
-  chapter: equilibrium
+  chapter: solution-chem
   foundation: null
   seat: 溶液
   name: 平衡定数の計算
@@ -1879,7 +2050,7 @@ traps:
 - id: an-titration-01
   subject: bunseki
   chapter: titration
-  foundation: null
+  foundation: reaction
   seat: 容量分析
   name: 標定に用いる物質
   rank: A
@@ -1898,8 +2069,8 @@ traps:
   calculation: false
 - id: an-reaction-02
   subject: bunseki
-  chapter: reaction
-  foundation: null
+  chapter: titration
+  foundation: reaction
   seat: 容量分析
   name: 中和反応の量的関係（計算）
   rank: A
@@ -1917,8 +2088,8 @@ traps:
   calculation: true
 - id: an-reaction-03
   subject: bunseki
-  chapter: reaction
-  foundation: null
+  chapter: titration
+  foundation: reaction
   seat: 容量分析
   name: 反応式の量的関係（炭酸カルシウム・燃焼）
   rank: A
@@ -1936,7 +2107,7 @@ traps:
   calculation: false
 - id: an-equilibrium-03
   subject: bunseki
-  chapter: equilibrium
+  chapter: titration
   foundation: null
   seat: 容量分析
   name: 溶解度積
@@ -1953,7 +2124,7 @@ traps:
 - id: an-titration-02
   subject: bunseki
   chapter: titration
-  foundation: null
+  foundation: reaction
   seat: 容量分析
   name: その他（単発）
   rank: C
@@ -1986,7 +2157,7 @@ traps:
   calculation: false
 - id: an-lab-equipment-02
   subject: bunseki
-  chapter: lab-equipment
+  chapter: flowmeter
   foundation: null
   seat: 器具
   name: 気体用流量計（石けん膜・面積式）
@@ -2072,8 +2243,8 @@ traps:
   calculation: false
 - id: an-gas-05
   subject: bunseki
-  chapter: gas
-  foundation: null
+  chapter: standard-gas
+  foundation: gas
   seat: 標準ガス
   name: 捕集袋による標準ガス調製（計算）
   rank: A
@@ -2105,7 +2276,7 @@ traps:
   calculation: false
 - id: an-reagents-01
   subject: bunseki
-  chapter: reagents
+  chapter: lab-equipment
   foundation: null
   seat: 試薬
   name: 化学物質と使用例の組合せ
@@ -2125,7 +2296,7 @@ traps:
   calculation: false
 - id: an-reagents-02
   subject: bunseki
-  chapter: reagents
+  chapter: lab-equipment
   foundation: null
   seat: 試薬
   name: 精製水の製造方法
@@ -2142,7 +2313,7 @@ traps:
   calculation: false
 - id: an-reagents-03
   subject: bunseki
-  chapter: reagents
+  chapter: lab-equipment
   foundation: null
   seat: 試薬
   name: 一次標準物質
@@ -2158,7 +2329,7 @@ traps:
   calculation: false
 - id: an-reagents-04
   subject: bunseki
-  chapter: reagents
+  chapter: lab-equipment
   foundation: null
   seat: 試薬
   name: 試薬の性質（溶解性・市販濃度）
@@ -2192,7 +2363,7 @@ traps:
   calculation: false
 - id: an-quantification-02
   subject: bunseki
-  chapter: quantification
+  chapter: aas
   foundation: null
   seat: 検知管・定量法
   name: ICP発光分析法
@@ -2257,8 +2428,8 @@ traps:
   calculation: false
 - id: an-logarithm-02
   subject: bunseki
-  chapter: logarithm
-  foundation: solution
+  chapter: spectrophotometry
+  foundation: logarithm
   seat: 吸光光度法
   name: 吸光度・透過率・濃度の計算（ランベルト・ベール）
   rank: A
@@ -2737,8 +2908,8 @@ traps:
   calculation: false
 - id: an-logarithm-03
   subject: bunseki
-  chapter: logarithm
-  foundation: null
+  chapter: radiation
+  foundation: logarithm
   seat: 放射能
   name: 半減期の計算
   rank: B
@@ -2751,9 +2922,2476 @@ traps:
   confidence: 高
   verify: false
   calculation: true
+- id: gn-risk-assessment-01
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: リスクアセスメント
+  name: ハザードとリスクの定義の取り違え
+  rank: A
+  count: 5
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-08
+  - 2023-02
+  - 2024-02
+  understanding: ハザード（危険性又は有害性）は負傷・疾病の潜在的な根源。リスクは、それによる負傷・疾病の発生の可能性と重篤度の組合せ。
+  reason: ハザードは「もの・性質」、リスクは「それで実際に何が起きそうか」。
+  confidence: 高
+  verify: false
+- id: gn-risk-assessment-02
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: リスクアセスメント
+  name: リスクの見積り方法（ばく露限界・管理濃度との比較）
+  rank: A
+  count: 4
+  exams:
+  - 2021-02
+  - 2023-08
+  - 2025-02
+  - 2026-08
+  understanding: 気中濃度をばく露限界と比較する方法は認められている。管理濃度との比較は、作業環境測定の評価（管理区分）として行い、最大値や幾何平均値を直接比べるのではない。
+  reason: null
+  confidence: 中（根拠資料で要確認）
+  verify: true
+- id: gn-risk-assessment-03
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: リスクアセスメント
+  name: リスクアセスメントの実施時期
+  rank: B
+  count: 2
+  exams:
+  - 2024-08
+  - 2026-02
+  understanding: 化学物質の新規採用・変更、作業方法の変更などが実施時期。人事異動そのものは実施時期ではない。
+  reason: リスクが変わるきっかけで行う。
+  confidence: 中
+  verify: false
+- id: gn-risk-assessment-04
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: リスクアセスメント
+  name: 重篤度の見積り・付加的影響
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2025-08
+  understanding: 重篤度は、予想される最も重篤なものを見積もる。疲労などの付加的影響も考慮する。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-oh-management-01
+  subject: ippan
+  chapter: other-environment
+  foundation: null
+  seat: 労働衛生管理
+  name: 情報機器作業（VDT）
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2023-02
+  understanding: 画面・書類・周辺の明るさの差はなるべく小さく。視距離はおおむね40cm以上、画面の上端は眼の高さかやや下。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-oh-management-02
+  subject: ippan
+  chapter: other-environment
+  foundation: null
+  seat: 労働衛生管理
+  name: 腰痛予防（腰部保護ベルト）
+  rank: B
+  count: 2
+  exams:
+  - 2019-08
+  - 2021-08
+  understanding: 腰部保護ベルトは一律に使わせず、個人ごとに効果を確かめて判断する。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-oh-management-03
+  subject: ippan
+  chapter: oh-management
+  foundation: null
+  seat: 労働衛生管理
+  name: その他（単発）
+  rank: C
+  count: 2
+  exams:
+  - 2020-08
+  - 2021-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-ghs-01
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: GHS
+  name: GHSの区分（数字が小さいほど危険）
+  rank: A
+  count: 3
+  exams:
+  - 2024-02
+  - 2025-02
+  - 2026-02
+  understanding: 区分1が最も危険で、数字が大きいほど程度は小さい。クラスが違えば区分が同じでも危険性は比べられない。区分の数はクラスで異なる。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-ghs-02
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: GHS
+  name: GHS絵表示と危険有害性クラス
+  rank: A
+  count: 3
+  exams:
+  - 2024-08
+  - 2025-08
+  - 2026-08
+  understanding: 絵表示と危険有害性クラス（急性毒性、発がん性など）の対応を押さえる。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-ghs-03
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: GHS
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2023-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-absorption-01
+  subject: ippan
+  chapter: absorption
+  foundation: null
+  seat: 吸収・代謝
+  name: 有機溶剤の尿中代謝物
+  rank: A
+  count: 9
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-08
+  - 2026-02
+  - 2026-08
+  understanding: トルエン→馬尿酸、キシレン→メチル馬尿酸、スチレン→マンデル酸、トリクロロエチレン→トリクロロ酢酸・総三塩化物、ノルマルヘキサン→2,5-ヘキサンジオン。安息香酸の摂取で馬尿酸は増える。
+  reason: 代謝物は、元の物質の形を一部残している。
+  confidence: 高
+  verify: false
+- id: gn-absorption-02
+  subject: ippan
+  chapter: absorption
+  foundation: null
+  seat: 吸収・代謝
+  name: 鉛の生物学的モニタリング
+  rank: A
+  count: 3
+  exams:
+  - 2020-08
+  - 2024-02
+  - 2025-02
+  understanding: 指標は血中鉛と尿中δ-アミノレブリン酸（赤血球中ではない）。鉛は主に骨に蓄積し、生物学的半減期は長い。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-absorption-03
+  subject: ippan
+  chapter: absorption
+  foundation: null
+  seat: 吸収・代謝
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-toxicity-01
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: フッ化水素の健康影響
+  rank: A
+  count: 5
+  exams:
+  - 2019-08
+  - 2023-02
+  - 2024-02
+  - 2025-02
+  - 2026-08
+  understanding: 呼吸酵素の阻害はシアン化水素。フッ化水素は骨硬化・斑状歯を起こし、皮膚から深部まで浸透して障害する。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-toxicity-02
+  subject: ippan
+  chapter: absorption
+  foundation: null
+  seat: 毒性と健康障害
+  name: 毒性の指標（LD50・NOAEL・量-反応関係）
+  rank: A
+  count: 5
+  exams:
+  - 2023-08
+  - 2024-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: LD50は急性毒性の指標で、半数が死亡する量。NOAEL・LOAELはしきい値のある影響に用いる。量-影響関係は個体、量-反応関係は集団の関係。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-toxicity-03
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: メトヘモグロビン血症の原因物質
+  rank: A
+  count: 3
+  exams:
+  - 2020-08
+  - 2021-08
+  - 2026-02
+  understanding: メトヘモグロビン血症の代表はアニリン、ニトロベンゼンなど。二硫化炭素やTDIではない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-toxicity-04
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: 溶血性貧血・尿の赤色化の原因物質
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2024-02
+  - 2025-08
+  understanding: 溶血性貧血と尿の赤色化はヒ化水素（アルシン）。ベリリウムやインジウムの主な障害は肺。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-toxicity-05
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: 一酸化炭素（ヘモグロビンとの結合）
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2021-02
+  understanding: 一酸化炭素はヘモグロビンと強く結合して酸素の運搬を妨げる（合成を阻害するのではない）。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-toxicity-06
+  subject: ippan
+  chapter: absorption
+  foundation: null
+  seat: 毒性と健康障害
+  name: 変異原性試験の意味
+  rank: B
+  count: 2
+  exams:
+  - 2024-08
+  - 2025-02
+  understanding: 変異原性試験は遺伝子・染色体への作用を見る試験で、発がん性のスクリーニングに使う。胎児への影響を見るのは催奇形性試験。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-toxicity-07
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: 歯の黄色環・色素沈着の原因物質
+  rank: B
+  count: 2
+  exams:
+  - 2023-08
+  - 2024-08
+  understanding: 歯の黄色環はカドミウム。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-toxicity-08
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: その他（単発）
+  rank: C
+  count: 2
+  exams:
+  - 2024-08
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-properties-01
+  subject: ippan
+  chapter: properties
+  foundation: null
+  seat: 物質の性状
+  name: 蒸気密度・液体の密度
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2024-08
+  - 2025-02
+  - 2026-02
+  understanding: 蒸気密度は分子量÷29で比べ、多くの有機溶剤の蒸気は空気より重い。液体の密度はトルエンは水より小さく、塩素系の溶剤は大きいものが多い。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-properties-02
+  subject: ippan
+  chapter: properties
+  foundation: null
+  seat: 物質の性状
+  name: 水への溶けやすさと液性
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2025-02
+  - 2026-08
+  understanding: 1,4-ジオキサンやテトラヒドロフランは水とよく混ざる。クレゾールは弱酸性。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-properties-03
+  subject: ippan
+  chapter: properties
+  foundation: null
+  seat: 物質の性状
+  name: 気体の溶解度と温度
+  rank: B
+  count: 2
+  exams:
+  - 2023-08
+  - 2024-02
+  understanding: 気体の液体への溶解度は、温度が高いほど小さい。
+  reason: 温めた炭酸飲料が気が抜けやすいのと同じ。
+  confidence: 高
+  verify: false
+- id: gn-properties-04
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 物質の性状
+  name: 粉じん・ヒュームの発生と粒径
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2021-02
+  understanding: 研磨で出るのは粉じん、溶融・溶接で出るのがヒューム。ヒュームの一次粒子は1µm以下。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-properties-05
+  subject: ippan
+  chapter: properties
+  foundation: null
+  seat: 物質の性状
+  name: その他（単発）
+  rank: C
+  count: 4
+  exams:
+  - 2020-02
+  - 2023-02
+  - 2024-08
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-occupational-cancer-01
+  subject: ippan
+  chapter: occupational-cancer
+  foundation: null
+  seat: 職業がん
+  name: 化学物質と職業がんの組合せ
+  rank: A
+  count: 13
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 塩化ビニル－肝血管肉腫、ベンゼン－白血病、β-ナフチルアミン・o-トルイジン－膀胱がん、1,2-ジクロロプロパン－胆管がん、石綿－肺がん・中皮腫など。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-dust-disease-01
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 粉じん
+  name: 空気力学相当径の意味
+  rank: A
+  count: 3
+  exams:
+  - 2021-02
+  - 2021-08
+  - 2024-02
+  understanding: 空気力学相当径は、同じ沈降速度を持つ密度1g/cm³の球の直径。顕微鏡では求められない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-dust-disease-02
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 粉じん
+  name: 胸膜プラークの原因は石綿
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2023-02
+  understanding: 胸膜プラークの主な原因は石綿。遊離けい酸ではない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-dust-disease-03
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 粉じん
+  name: じん肺の定義と種類
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2024-08
+  understanding: じん肺は粉じんによる肺の線維増殖性変化。けい肺は遊離けい酸による。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-dust-disease-04
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 粉じん
+  name: 石綿による疾病（中皮腫・石綿肺）
+  rank: B
+  count: 2
+  exams:
+  - 2025-08
+  - 2026-02
+  understanding: 中皮腫は胸膜以外（腹膜など）にも生じる。石綿肺はじん肺の一種で、肺がん・中皮腫の総称ではない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-dust-disease-05
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 粉じん
+  name: 粉じんの粒径区分（吸入性・吸引性）
+  rank: B
+  count: 2
+  exams:
+  - 2025-02
+  - 2026-08
+  understanding: 吸入性粉じんは50%分粒径4µm（肺胞まで届く）。4µmの分粒装置は吸入性粉じんの測定用。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-dust-disease-06
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 粉じん
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2023-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-metals-01
+  subject: ippan
+  chapter: metals
+  foundation: null
+  seat: 金属
+  name: 金属ごとの健康障害の取り違え
+  rank: A
+  count: 6
+  exams:
+  - 2021-02
+  - 2021-08
+  - 2023-08
+  - 2025-02
+  - 2026-02
+  - 2026-08
+  understanding: カドミウム－腎障害・肺気腫、クロム酸－鼻中隔穿孔、6価クロムが3価より強毒。天然のコバルトは放射性ではない。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-metals-02
+  subject: ippan
+  chapter: metals
+  foundation: null
+  seat: 金属
+  name: 金属熱
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2024-08
+  understanding: 亜鉛・銅などのヒュームの吸入後、数時間で悪寒・発熱が起こり、通常1〜2日で回復する（慢性化・後遺症はない）。高温による体温調節障害ではない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-metals-03
+  subject: ippan
+  chapter: metals
+  foundation: null
+  seat: 金属
+  name: パーキンソン様症状はマンガン（鉛ではない）
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2023-02
+  understanding: パーキンソン病に似た症状はマンガン中毒。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-organic-solvents-01
+  subject: ippan
+  chapter: organic-solvents
+  foundation: null
+  seat: 有機溶剤
+  name: 有機溶剤と健康障害の取り違え（網膜・視神経・造血）
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  - 2023-02
+  understanding: 網膜微細動脈瘤を伴う脳血管障害は二硫化炭素、視神経障害はメタノール・酢酸メチル、造血障害はベンゼン。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-organic-solvents-02
+  subject: ippan
+  chapter: organic-solvents
+  foundation: null
+  seat: 有機溶剤
+  name: 有機溶剤の一般的性質（経皮吸収・引火性）
+  rank: A
+  count: 3
+  exams:
+  - 2023-08
+  - 2024-02
+  - 2026-08
+  understanding: 有機溶剤は皮膚からも吸収される。ハロゲン化炭化水素は不燃性のものが多く、全ての有機溶剤が引火性ではない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-organic-solvents-03
+  subject: ippan
+  chapter: organic-solvents
+  foundation: null
+  seat: 有機溶剤
+  name: トルエンは造血障害を起こさない
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2026-02
+  understanding: 再生不良性貧血などの造血障害はベンゼン。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-organic-solvents-04
+  subject: ippan
+  chapter: organic-solvents
+  foundation: null
+  seat: 有機溶剤
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-heat-cold-01
+  subject: ippan
+  chapter: heat-cold
+  foundation: null
+  seat: 温熱・寒冷
+  name: WBGTと基準値
+  rank: A
+  count: 4
+  exams:
+  - 2020-02
+  - 2021-02
+  - 2025-02
+  - 2025-08
+  understanding: WBGT基準値は熱に順化していない人の方が小さい。WBGTが基準値を超えるとリスクが高い。日射ありは0.7×湿球＋0.2×黒球＋0.1×乾球、日射なしは0.7×湿球＋0.3×黒球。実効温度とWBGTは別の指標。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-heat-cold-02
+  subject: ippan
+  chapter: heat-cold
+  foundation: null
+  seat: 温熱・寒冷
+  name: 熱中症・低体温症・凍傷の症状と対応
+  rank: A
+  count: 4
+  exams:
+  - 2024-02
+  - 2024-08
+  - 2026-02
+  - 2026-08
+  understanding: 重い熱中症では発汗が止まり体温が上がる。低体温症にアルコールを与えない。凍瘡（しもやけ）は凍結を伴わない障害。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-heat-cold-03
+  subject: ippan
+  chapter: heat-cold
+  foundation: null
+  seat: 温熱・寒冷
+  name: 温熱環境の4要素（気温・湿度・気流・ふく射熱）
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2021-08
+  - 2023-08
+  understanding: 温熱環境は気温・湿度・気流・ふく射熱の4要素で決まる（気圧は入らない）。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-heat-cold-04
+  subject: ippan
+  chapter: heat-cold
+  foundation: null
+  seat: 温熱・寒冷
+  name: 絶対湿度と相対湿度
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2023-02
+  understanding: 絶対湿度は空気中の水蒸気の量そのもの。飽和水蒸気量との比で表すのは相対湿度。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-vibration-01
+  subject: ippan
+  chapter: vibration
+  foundation: null
+  seat: 振動
+  name: 振動障害と周波数
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-02
+  - 2023-02
+  understanding: 局所振動障害は、主に低い周波数域（数十〜数百Hz）の振動で起こりやすい。「周波数が高いほど」「4,000Hz以上で」は誤り。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-vibration-02
+  subject: ippan
+  chapter: vibration
+  foundation: null
+  seat: 振動
+  name: 末梢循環障害と末梢神経障害の取り違え
+  rank: A
+  count: 3
+  exams:
+  - 2020-02
+  - 2021-08
+  - 2023-08
+  understanding: レイノー現象は末梢循環障害、手指のしびれは末梢神経障害。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-vibration-03
+  subject: ippan
+  chapter: vibration
+  foundation: null
+  seat: 振動
+  name: レイノー現象の性質
+  rank: B
+  count: 2
+  exams:
+  - 2024-02
+  - 2026-08
+  understanding: レイノー現象（白指発作）は発作性で、一般に可逆的。
+  reason: null
+  confidence: 中（根拠資料で要確認）
+  verify: true
+- id: gn-vibration-04
+  subject: ippan
+  chapter: vibration
+  foundation: null
+  seat: 振動
+  name: 日振動ばく露量A(8)
+  rank: B
+  count: 2
+  exams:
+  - 2024-08
+  - 2025-08
+  understanding: A(8)＝周波数補正振動加速度実効値の3軸合成値×√(T/8)。
+  reason: 8時間あたりの量にそろえて比べるための式。
+  confidence: 高
+  verify: false
+- id: gn-vibration-05
+  subject: ippan
+  chapter: vibration
+  foundation: null
+  seat: 振動
+  name: その他（単発）
+  rank: C
+  count: 2
+  exams:
+  - 2025-02
+  - 2026-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-noise-health-01
+  subject: ippan
+  chapter: noise
+  foundation: null
+  seat: 騒音
+  name: 騒音性難聴（感音性・内耳・4000Hz）
+  rank: A
+  count: 4
+  exams:
+  - 2020-02
+  - 2021-08
+  - 2023-08
+  - 2025-08
+  understanding: 騒音性難聴は内耳（蝸牛）の障害による感音性難聴で、4000Hz付近から聴力が落ちる。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-noise-health-02
+  subject: ippan
+  chapter: noise
+  foundation: null
+  seat: 騒音
+  name: 等価騒音レベルと周波数重み付け
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2021-02
+  - 2024-08
+  understanding: 等価騒音レベルは、変動する騒音のエネルギーを時間平均した値（A特性で測る）。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-noise-health-03
+  subject: ippan
+  chapter: noise
+  foundation: null
+  seat: 騒音
+  name: 音の物理（0dB・距離減衰・伝わり方）
+  rank: A
+  count: 3
+  exams:
+  - 2025-02
+  - 2026-02
+  - 2026-08
+  understanding: 0dBは無音ではなく基準の音圧。点音源では距離が2倍で約6dB下がる。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-noise-01
+  subject: ippan
+  chapter: noise
+  foundation: null
+  seat: 騒音
+  name: 騒音のA測定の平均は算術平均
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2023-02
+  understanding: 騒音のA測定の平均値は算術平均。
+  reason: dBはすでに対数の尺度。
+  confidence: 高
+  verify: false
+- id: gn-noise-health-04
+  subject: ippan
+  chapter: noise
+  foundation: null
+  seat: 騒音
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2024-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-ppe-01
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 防毒マスクの選択と使用
+  rank: A
+  count: 7
+  exams:
+  - 2020-08
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  - 2026-02
+  understanding: 隔離式の方が直結式より高濃度まで使える。しめひもはヘルメットの上からではなく下に。粉じんが混在するときは防じん機能付き吸収缶を使う。複数のガスにはそれぞれに有効な吸収缶を使う。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-ppe-02
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 防じんマスクの選択と使用
+  rank: A
+  count: 5
+  exams:
+  - 2020-08
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  understanding: ろ過材を圧縮空気で吹き飛ばさない。接顔メリヤスは密着性を損なうので使わない。使い捨て式も区分の性能があればヒュームに使える。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-ppe-03
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 聴覚保護具（耳栓の種類・選定・併用）
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2024-08
+  - 2025-02
+  understanding: 耳栓1種は低音から高音まで遮音、2種は主に高音を遮音し会話域を通す。作業に必要な音が聞こえるよう選定し、非常に大きい騒音では耳栓とイヤーマフを併用する。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-ppe-04
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 送気マスク・空気呼吸器（酸欠場所の保護具）
+  rank: A
+  count: 4
+  exams:
+  - 2020-02
+  - 2021-02
+  - 2025-02
+  - 2026-02
+  understanding: 酸欠場所で使えるのは送気マスクと自給式呼吸器（空気呼吸器など）。電動ファン付き呼吸用保護具や防毒マスクは不可。ホースマスクは自然の大気、エアラインマスクは圧縮空気が空気源。
+  reason: 周囲の空気をろ過する保護具は、酸素が足りない空気には無力。
+  confidence: 高
+  verify: false
+- id: gn-ppe-05
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 吸収缶の破過時間（温度・濃度）
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  understanding: 有機ガス用吸収缶は、温度・湿度・濃度が高いほど破過時間が短い。
+  reason: 吸着は高温・高湿で弱くなる。
+  confidence: 中
+  verify: false
+- id: gn-ppe-06
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: その他（単発）
+  rank: C
+  count: 4
+  exams:
+  - 2025-08
+  - 2026-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-oxygen-deficiency-01
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: 酸欠・硫化水素中毒の危険がある場所
+  rank: A
+  count: 5
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-02
+  - 2023-02
+  - 2026-02
+  understanding: し尿・汚水・腐泥など、硫化水素が発生しうる場所が酸欠と硫化水素中毒の両方の危険がある場所。
+  reason: null
+  confidence: 中（根拠資料で要確認）
+  verify: true
+- id: gn-oxygen-deficiency-02
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: 硫化水素の性質と健康影響
+  rank: A
+  count: 3
+  exams:
+  - 2024-02
+  - 2025-02
+  - 2026-08
+  understanding: 硫化水素は無色・腐卵臭で空気より重く、高濃度では嗅覚が麻痺する。主な障害は呼吸麻痺など。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-oxygen-deficiency-03
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: 無酸素空気は一呼吸で意識を失う
+  rank: B
+  count: 2
+  exams:
+  - 2021-08
+  - 2023-08
+  understanding: ほぼ無酸素の空気は、一呼吸で意識を失うことがある（徐々に窒息するのではない）。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-oxygen-deficiency-04
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-em-waves-01
+  subject: ippan
+  chapter: em-waves
+  foundation: null
+  seat: 電磁波
+  name: 電磁波の波長の順序
+  rank: A
+  count: 7
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2023-02
+  - 2025-02
+  - 2026-02
+  understanding: 波長の長い順に、電波（マイクロ波）、赤外線、可視光線、紫外線、X線・γ線。周波数は波長に反比例する。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-em-waves-02
+  subject: ippan
+  chapter: em-waves
+  foundation: null
+  seat: 電磁波
+  name: レーザー光の性質
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2023-08
+  - 2025-08
+  understanding: レーザー光は単一波長で位相のそろった人工の光で、紫外から赤外まである（可視だけではない）。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-em-waves-03
+  subject: ippan
+  chapter: em-waves
+  foundation: null
+  seat: 電磁波
+  name: 紫外線の性質と利用
+  rank: A
+  count: 3
+  exams:
+  - 2024-02
+  - 2024-08
+  - 2026-08
+  understanding: 紫外線は波長の短い側が遠紫外、長い側が近紫外。紫外線の吸収は電子の遷移による。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-radiation-01
+  subject: ippan
+  chapter: radiation
+  foundation: null
+  seat: 電離放射線
+  name: 放射線の種類と性質
+  rank: A
+  count: 6
+  exams:
+  - 2020-02
+  - 2021-02
+  - 2023-02
+  - 2023-08
+  - 2024-08
+  - 2025-02
+  understanding: β線は電子の粒子線。X線とγ線は発生のしかたで区別する。透過力はγ線、電離作用はα線が最大。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-radiation-02
+  subject: ippan
+  chapter: radiation-effects
+  foundation: null
+  seat: 電離放射線
+  name: 確定的影響と確率的影響
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-08
+  - 2024-02
+  understanding: 確定的影響はしきい値があり、線量とともに重篤度が増す（不妊・白内障・脱毛など）。確率的影響（がん・遺伝的影響）はしきい値がなく、発生確率が増す。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-radiation-03
+  subject: ippan
+  chapter: radiation
+  foundation: logarithm
+  seat: 電離放射線
+  name: 壊変と半減期
+  rank: B
+  count: 2
+  exams:
+  - 2026-02
+  - 2026-08
+  understanding: 半減期は温度に依存しない。α壊変で質量数は4、原子番号は2減る。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-radiation-04
+  subject: ippan
+  chapter: radiation
+  foundation: null
+  seat: 電離放射線
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-ventilation-01
+  subject: ippan
+  chapter: ventilation
+  foundation: null
+  seat: 局所排気・換気
+  name: フードの分類（囲い式・外付け式）
+  rank: A
+  count: 3
+  exams:
+  - 2020-08
+  - 2023-02
+  - 2023-08
+  understanding: ドラフトチェンバ型は囲い式、スロット型は外付け式。外付け式は囲い式より大きな排風量が必要。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-ventilation-02
+  subject: ippan
+  chapter: ventilation
+  foundation: null
+  seat: 局所排気・換気
+  name: 局所排気の制御風速の定義
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2025-02
+  - 2026-08
+  understanding: 外付け式は、フード開口面から最も離れた作業位置での風速。囲い式は、開口面の最小風速（平均ではない）。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-ventilation-03
+  subject: ippan
+  chapter: ventilation
+  foundation: null
+  seat: 局所排気・換気
+  name: フランジの効果
+  rank: B
+  count: 2
+  exams:
+  - 2019-08
+  - 2024-08
+  understanding: フランジがあると、同じ効果を少ない排風量で得られる。
+  reason: 後ろ側からの無駄な吸い込みを減らすため。
+  confidence: 高
+  verify: false
+- id: gn-ventilation-04
+  subject: ippan
+  chapter: ventilation
+  foundation: null
+  seat: 局所排気・換気
+  name: プッシュプル型換気・全体換気
+  rank: B
+  count: 2
+  exams:
+  - 2025-08
+  - 2026-02
+  understanding: 全体換気は、有害性が高い物質や発散量が多い場合には向かない。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-ventilation-05
+  subject: ippan
+  chapter: ventilation
+  foundation: null
+  seat: 局所排気・換気
+  name: その他（単発）
+  rank: C
+  count: 3
+  exams:
+  - 2020-02
+  - 2021-02
+  - 2024-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-other-environment-01
+  subject: ippan
+  chapter: other-environment
+  foundation: null
+  seat: その他の職場環境
+  name: 食中毒（ノロウイルス・O-157）
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-08
+  - 2023-02
+  understanding: ベロ毒素を産生するのは腸管出血性大腸菌（O-157など、細菌）。ノロウイルスはウイルスで、嘔吐・下痢を起こす。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-other-environment-02
+  subject: ippan
+  chapter: other-environment
+  foundation: null
+  seat: その他の職場環境
+  name: その他（単発）
+  rank: C
+  count: 2
+  exams:
+  - 2020-08
+  - 2021-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: gn-exposure-limits-01
+  subject: ippan
+  chapter: exposure-limits
+  foundation: null
+  seat: 管理濃度・許容濃度
+  name: 管理濃度の決め方（粉じん・混合溶剤・発がん物質）
+  rank: A
+  count: 6
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2023-08
+  - 2024-08
+  - 2025-08
+  - 2026-08
+  understanding: 鉱物性粉じんの管理濃度は遊離けい酸含有率から計算する。混合有機溶剤は換算値の和で評価する。発がん性物質にも管理濃度は定められている。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-exposure-limits-02
+  subject: ippan
+  chapter: exposure-limits
+  foundation: null
+  seat: 管理濃度・許容濃度
+  name: 発がん性分類（第1群・第2群A/B）
+  rank: A
+  count: 3
+  exams:
+  - 2020-02
+  - 2021-02
+  - 2024-02
+  understanding: 日本産業衛生学会の発がん性分類は第1群・第2群A・第2群Bの3つ。第1群の物質にも許容濃度が示されているものがある。
+  reason: null
+  confidence: 中
+  verify: false
+- id: gn-exposure-limits-03
+  subject: ippan
+  chapter: exposure-limits
+  foundation: null
+  seat: 管理濃度・許容濃度
+  name: 許容濃度の性質（経皮吸収・相対尺度ではない）
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2023-02
+  - 2025-02
+  understanding: 許容濃度は経皮吸収を考慮していない（「皮」の印は経皮吸収に注意という意味）。物質間の毒性の強さを比べる尺度には使えない。
+  reason: null
+  confidence: 高
+  verify: false
+- id: gn-exposure-limits-04
+  subject: ippan
+  chapter: exposure-limits
+  foundation: null
+  seat: 管理濃度・許容濃度
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2026-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-system-01
+  subject: hourei
+  chapter: law-system
+  foundation: null
+  seat: 衛生管理体制
+  name: 総括安全衛生管理者（選任要件・充てる者）
+  rank: A
+  count: 6
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  understanding: 選任が必要な規模は業種で異なる（製造業は300人以上など）。事業の実施を統括管理する者を充てる。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-system-02
+  subject: hourei
+  chapter: law-system
+  foundation: null
+  seat: 衛生管理体制
+  name: 専属産業医・専任衛生管理者の要件
+  rank: A
+  count: 5
+  exams:
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 常時1000人以上、または一定の有害業務に500人以上で専属産業医。専任の衛生管理者の要件も規模と有害業務の人数で決まる。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-system-03
+  subject: hourei
+  chapter: law-system
+  foundation: null
+  seat: 衛生管理体制
+  name: 衛生委員会の委員（作業環境測定士・作業主任者）
+  rank: A
+  count: 3
+  exams:
+  - 2023-08
+  - 2024-02
+  - 2026-02
+  understanding: 事業場の労働者である作業環境測定士を委員に指名することができる（義務ではない）。外部機関の測定士は対象外。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-health-exam-01
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 健康診断
+  name: 健康診断結果の報告（50人以上・定期と雇入時）
+  rank: A
+  count: 6
+  exams:
+  - 2019-08
+  - 2021-02
+  - 2023-02
+  - 2024-02
+  - 2024-08
+  - 2026-08
+  understanding: 定期健康診断結果報告は常時50人以上の事業場。雇入時の健康診断は報告不要。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-health-exam-02
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 健康診断
+  name: 雇入時の健康診断（省略・項目）
+  rank: A
+  count: 3
+  exams:
+  - 2020-02
+  - 2021-08
+  - 2023-08
+  understanding: 雇入時の健康診断は、医師の判断による項目の省略はできない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-health-exam-03
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 健康診断
+  name: 健康診断結果の通知と事後措置
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2025-08
+  understanding: 健康診断の結果は、異常の所見の有無にかかわらず全員に通知する。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-health-exam-04
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 健康診断
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-chem-management-01
+  subject: hourei
+  chapter: risk-assessment
+  foundation: null
+  seat: 化学物質管理
+  name: 化学物質管理者の選任
+  rank: B
+  count: 2
+  exams:
+  - 2025-08
+  - 2026-02
+  understanding: リスクアセスメント対象物を扱う事業場は、規模にかかわらず化学物質管理者を選任する。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-chem-management-02
+  subject: hourei
+  chapter: risk-assessment
+  foundation: null
+  seat: 化学物質管理
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2026-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-education-01
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 安全衛生教育
+  name: 特別教育の対象業務（有機・特化は対象外）
+  rank: A
+  count: 8
+  exams:
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2025-02
+  - 2026-02
+  understanding: 有機溶剤業務・特定化学物質の取扱いは特別教育の対象ではない（作業主任者や技能講習の規制がある）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-education-02
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 安全衛生教育
+  name: 特別教育の講師
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2024-08
+  understanding: 特別教育の講師に法定の資格要件はない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-education-03
+  subject: hourei
+  chapter: law-health-education
+  foundation: null
+  seat: 安全衛生教育
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2019-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-chief-01
+  subject: hourei
+  chapter: law-chief
+  foundation: null
+  seat: 作業主任者
+  name: 作業主任者の要否（特定粉じん作業・試験研究・第3類物質など）
+  rank: A
+  count: 10
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  understanding: 特定粉じん作業には作業主任者の規定がない。特化物を試験研究のために取り扱う作業は選任不要。第3類物質の取扱いは選任が必要。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-chief-02
+  subject: hourei
+  chapter: law-chief
+  foundation: null
+  seat: 作業主任者
+  name: 作業主任者の選任手続き（報告・資格証の携帯）
+  rank: B
+  count: 2
+  exams:
+  - 2025-08
+  - 2026-08
+  understanding: 作業主任者の選任に労働基準監督署への報告は不要。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-chief-03
+  subject: hourei
+  chapter: law-chief
+  foundation: null
+  seat: 作業主任者
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-measurement-scope-01
+  subject: hourei
+  chapter: law-measurement-scope
+  foundation: null
+  seat: 測定の対象と頻度
+  name: 測定の頻度と記録の保存年限
+  rank: A
+  count: 13
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 多くは6か月以内ごとに1回。保存は原則3年、特別管理物質は30年、石綿は40年、粉じんは7年など。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-scope-02
+  subject: hourei
+  chapter: law-measurement-scope
+  foundation: null
+  seat: 測定の対象と頻度
+  name: 中央管理方式の空気調和設備の測定（2か月以内ごと）
+  rank: A
+  count: 5
+  exams:
+  - 2020-02
+  - 2021-02
+  - 2023-02
+  - 2024-02
+  - 2025-08
+  understanding: 中央管理方式の空気調和設備のある事務室は、原則2か月以内ごとに1回。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-scope-03
+  subject: hourei
+  chapter: law-measurement-scope
+  foundation: null
+  seat: 測定の対象と頻度
+  name: 温熱（気温・湿度・ふく射熱）測定の対象と頻度
+  rank: A
+  count: 5
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  understanding: 暑熱・寒冷・多湿の屋内作業場は半月以内ごとに1回。ふく射熱は暑熱の作業場のみ。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-scope-04
+  subject: hourei
+  chapter: law-measurement-scope
+  foundation: null
+  seat: 測定の対象と頻度
+  name: 指定作業場・ふく射熱測定の対象
+  rank: B
+  count: 2
+  exams:
+  - 2025-02
+  understanding: 指定作業場とふく射熱の測定対象の範囲を区別する。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-scope-05
+  subject: hourei
+  chapter: law-measurement-scope
+  foundation: null
+  seat: 測定の対象と頻度
+  name: その他（単発）
+  rank: C
+  count: 5
+  exams:
+  - 2020-08
+  - 2024-08
+  - 2026-02
+  - 2026-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-certification-01
+  subject: hourei
+  chapter: law-chief
+  foundation: null
+  seat: 規格・型式検定
+  name: 規格具備・型式検定の対象（呼吸用保護具など）
+  rank: A
+  count: 13
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 型式検定・規格具備の対象は、防じんマスク、特定の防毒マスク（ハロゲンガス用・有機ガス用・一酸化炭素用・アンモニア用・亜硫酸ガス用など）、電動ファン付き呼吸用保護具など。対象外の保護具との区別が問われる。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-tokka-01
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 特定化学物質の区分（第1類・特定第2類・特別管理物質など）
+  rank: A
+  count: 13
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 第1類の多くは特別管理物質だが、塩素化ビフェニル（PCB）は該当しない。特別有機溶剤は特定第2類とは別の区分。第3類に特別管理物質はない。製造等禁止物質は第1類とは別。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-tokka-02
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 製造許可物質（第1類物質）
+  rank: A
+  count: 6
+  exams:
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2026-02
+  - 2026-08
+  understanding: 製造に厚生労働大臣の許可が必要なのは第1類物質（ジクロルベンジジン、α-ナフチルアミン、塩素化ビフェニル、オルト-トリジンなど）。許可は製造に対するもので、取扱いには不要。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-tokka-03
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 特別有機溶剤と有機溶剤の区別
+  rank: A
+  count: 4
+  exams:
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  understanding: 特別有機溶剤（クロロホルム、ジクロロメタン、1,2-ジクロロプロパンなど）は特化則の第2類物質。1,2-ジクロロエタンは特別有機溶剤。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-tokka-04
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 特化物の測定・健康診断の頻度と対象
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2024-08
+  - 2025-08
+  understanding: 第2類物質の屋内作業場は6か月以内ごとに測定。屋外作業場には測定義務はない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-tokka-05
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 特別管理物質の作業の記録
+  rank: A
+  count: 3
+  exams:
+  - 2020-08
+  - 2021-08
+  - 2024-02
+  understanding: 特別管理物質の作業の記録は1か月を超えない期間ごとに作成し、30年保存。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-tokka-06
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-sokuteishi-01
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: null
+  seat: 作業環境測定士
+  name: 作業環境測定士でなければできない業務の範囲
+  rank: A
+  count: 6
+  exams:
+  - 2020-08
+  - 2021-08
+  - 2023-08
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  understanding: 作業環境測定士でなければならないのは指定作業場の測定。酸欠場所の測定や管理区分の決定などは測定士でなくてもよい。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-sokuteishi-02
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: null
+  seat: 作業環境測定士
+  name: 外部放射線の線量当量率の測定は測定士でなくてよい
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  - 2024-02
+  understanding: 管理区域の外部放射線の線量当量率の測定は、作業環境測定士でなくても行える（指定作業場ではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-sokuteishi-03
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: null
+  seat: 作業環境測定士
+  name: 測定士の登録（欠格・登録区分）
+  rank: A
+  count: 3
+  exams:
+  - 2023-02
+  - 2026-02
+  - 2026-08
+  understanding: 登録を取り消された者は2年間測定士になれない。第1種は登録した作業場の種類ごとに測定できる。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-standard-01
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: a-b-measurement
+  seat: 作業環境測定基準
+  name: 10分以上の採取時間の例外
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2023-08
+  - 2026-02
+  understanding: 直接捕集方法、相対濃度指示方法、検知管方式は10分以上の継続採取の例外。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-standard-02
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: a-b-measurement
+  seat: 作業環境測定基準
+  name: 測定点を5未満にできる条件（鉱物性粉じん・有害物質）
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2023-02
+  - 2025-02
+  understanding: 測定点を5未満にできるのは「著しく狭く、かつ濃度がほぼ均一」の両方を満たすとき。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-standard-03
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: a-b-measurement
+  seat: 作業環境測定基準
+  name: 相対濃度指示方法のみで測れる条件
+  rank: A
+  count: 3
+  exams:
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  understanding: 相対濃度指示方法のみの測定は、第1管理区分が続いた場合などに認められる（狭く均一だからではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-measurement-standard-04
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: a-b-measurement
+  seat: 作業環境測定基準
+  name: その他（単発）
+  rank: C
+  count: 4
+  exams:
+  - 2024-02
+  - 2024-08
+  - 2025-08
+  - 2026-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-personal-sampling-01
+  subject: hourei
+  chapter: personal-sampling
+  foundation: null
+  seat: 個人サンプリング法
+  name: 個人サンプリング法の登録要件
+  rank: A
+  count: 5
+  exams:
+  - 2023-02
+  - 2024-02
+  - 2024-08
+  - 2025-02
+  - 2026-02
+  understanding: 第2種測定士も個人サンプリング法の登録を受けられる。簡易測定機器によるものも登録が必要。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-personal-sampling-02
+  subject: hourei
+  chapter: personal-sampling
+  foundation: null
+  seat: 個人サンプリング法
+  name: 個人サンプリング法の対象物質の条件
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2025-08
+  - 2026-08
+  understanding: 対象は管理濃度が一定の値以下の特化物、有機溶剤、鉛、遊離けい酸含有率が一定以下の粉じんなど。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-personal-sampling-03
+  subject: hourei
+  chapter: personal-sampling
+  foundation: null
+  seat: 個人サンプリング法
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2023-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-evaluation-01
+  subject: hourei
+  chapter: evaluation
+  foundation: null
+  seat: 作業環境評価基準
+  name: 管理区分の決め方（第1評価値・B測定値・1.5倍）
+  rank: A
+  count: 5
+  exams:
+  - 2019-08
+  - 2021-02
+  - 2023-02
+  - 2024-02
+  - 2025-08
+  understanding: B測定値は管理濃度、およびその1.5倍と比べる（第1評価値の1.5倍ではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-evaluation-02
+  subject: hourei
+  chapter: evaluation
+  foundation: null
+  seat: 作業環境評価基準
+  name: 混合物の換算値（特化物・有機溶剤）
+  rank: A
+  count: 3
+  exams:
+  - 2020-08
+  - 2021-08
+  - 2026-08
+  understanding: 混合有機溶剤は、各成分の測定値÷管理濃度の和で評価する。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-evaluation-03
+  subject: hourei
+  chapter: evaluation
+  foundation: null
+  seat: 作業環境評価基準
+  name: 2作業日の評価
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2026-02
+  understanding: 2作業日の場合、B測定値は各日の最大値のうち大きい方を採る。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-evaluation-04
+  subject: hourei
+  chapter: evaluation
+  foundation: statistics
+  seat: 作業環境評価基準
+  name: 評価値の計算（幾何平均と幾何標準偏差）
+  rank: B
+  count: 2
+  exams:
+  - 2024-08
+  - 2025-02
+  understanding: 第1評価値・第2評価値はどちらも幾何平均と幾何標準偏差から計算する。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-evaluation-05
+  subject: hourei
+  chapter: evaluation
+  foundation: null
+  seat: 作業環境評価基準
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2023-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-general-hygiene-01
+  subject: hourei
+  chapter: law-other
+  foundation: null
+  seat: 安衛則の衛生基準
+  name: 関係者以外立入禁止の場所
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  understanding: 炭酸ガス濃度1.5%を超える場所などは立入禁止。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-general-hygiene-02
+  subject: hourei
+  chapter: law-other
+  foundation: null
+  seat: 安衛則の衛生基準
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-organic-01
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: 有機溶剤等の区分（物質・混合物の含有率）
+  rank: A
+  count: 8
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2024-08
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 混合物は、第1種の含有率が5%を超えれば第1種。第1種と第2種の合計が5%を超えれば第2種。それ以外で合計が5%を超えれば第3種。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-organic-02
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: タンク内作業と送気マスク
+  rank: A
+  count: 3
+  exams:
+  - 2021-08
+  - 2023-02
+  - 2026-02
+  understanding: タンク内部の業務では送気マスクを使用させる。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-organic-03
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: 局所排気装置等の性能・点検・排ガス処理
+  rank: A
+  count: 3
+  exams:
+  - 2024-02
+  - 2024-08
+  - 2025-02
+  understanding: 定期自主検査は1年以内ごとに1回。有機則では排ガス処理装置の設置は義務ではない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-organic-04
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: 有機溶剤業務の換気設備（第2種は全体換気不可）
+  rank: A
+  count: 3
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-02
+  understanding: 第1種・第2種有機溶剤等の屋内作業場では、局所排気装置・プッシュプル型換気装置などが必要（全体換気装置は不可）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-organic-05
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: 区分の色分け表示
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2023-08
+  understanding: 有機溶剤の区分の色分けは第1種赤、第2種黄、第3種青。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-organic-06
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: 有機溶剤等健康診断の対象
+  rank: B
+  count: 2
+  exams:
+  - 2023-08
+  - 2026-08
+  understanding: 試験研究の業務でも、屋内作業場で常時従事する者には有機溶剤等健康診断を行う。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-organic-07
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-radiation-01
+  subject: hourei
+  chapter: law-radiation
+  foundation: null
+  seat: 電離則
+  name: 管理区域に一時的に立ち入る者の扱い
+  rank: A
+  count: 4
+  exams:
+  - 2019-08
+  - 2020-08
+  - 2021-02
+  - 2023-08
+  understanding: 管理区域に一時的に立ち入る労働者も、外部被ばくによる線量は測定する。健康診断の対象ではない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-radiation-02
+  subject: hourei
+  chapter: law-radiation
+  foundation: null
+  seat: 電離則
+  name: 管理区域と線量当量率の測定頻度
+  rank: B
+  count: 2
+  exams:
+  - 2023-02
+  - 2024-08
+  understanding: 管理区域の線量当量率の測定は1か月以内ごとに1回。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-radiation-03
+  subject: hourei
+  chapter: law-radiation
+  foundation: null
+  seat: 電離則
+  name: 線量限度（皮膚の等価線量など）
+  rank: B
+  count: 2
+  exams:
+  - 2021-08
+  - 2024-02
+  understanding: 皮膚の等価線量限度は1年間に500mSv。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-radiation-04
+  subject: hourei
+  chapter: law-radiation
+  foundation: null
+  seat: 電離則
+  name: 被ばく線量の掲示・通知
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2025-02
+  understanding: 線量の測定結果は、本人に遅滞なく知らせる（掲示ではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-radiation-05
+  subject: hourei
+  chapter: law-radiation
+  foundation: null
+  seat: 電離則
+  name: その他（単発）
+  rank: C
+  count: 3
+  exams:
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-office-01
+  subject: hourei
+  chapter: law-other
+  foundation: other-workplaces
+  seat: 事務所則
+  name: 事務所の空気環境の基準値
+  rank: A
+  count: 6
+  exams:
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2021-08
+  - 2023-08
+  - 2024-02
+  understanding: 室の一般基準は一酸化炭素50ppm以下・二酸化炭素5000ppm以下。空気調和設備で供給する空気は一酸化炭素6ppm以下（2022年改正前は10ppm）・二酸化炭素1000ppm以下、気流0.5m/s以下、浮遊粉じん0.15mg/m³以下。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-office-02
+  subject: hourei
+  chapter: law-other
+  foundation: other-workplaces
+  seat: 事務所則
+  name: 事務所の設備の点検頻度
+  rank: B
+  count: 2
+  exams:
+  - 2019-08
+  - 2024-08
+  understanding: null
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-dust-01
+  subject: hourei
+  chapter: law-dust
+  foundation: ventilation
+  seat: 粉じん則・じん肺法
+  name: 除じん装置の方式（ヒュームはろ過式）
+  rank: A
+  count: 7
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  - 2021-08
+  - 2023-02
+  - 2024-08
+  - 2026-02
+  understanding: ヒュームの除じん装置はろ過除じん方式または電気除じん方式（サイクロンやスクラバではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-dust-02
+  subject: hourei
+  chapter: law-dust
+  foundation: dust-disease
+  seat: 粉じん則・じん肺法
+  name: 粉じん濃度の測定（頻度・特例）
+  rank: A
+  count: 3
+  exams:
+  - 2020-08
+  - 2024-08
+  - 2026-08
+  understanding: 常時特定粉じん作業を行う屋内作業場は6か月以内ごとに測定。測定が義務なのは特定粉じん作業を行う屋内作業場。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-dust-03
+  subject: hourei
+  chapter: law-dust
+  foundation: dust-disease
+  seat: 粉じん則・じん肺法
+  name: 特定粉じん発生源の対策
+  rank: B
+  count: 2
+  exams:
+  - 2019-08
+  - 2023-08
+  understanding: 特定粉じん発生源には局所排気装置等が必要で、全体換気では足りない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-dust-04
+  subject: hourei
+  chapter: law-dust
+  foundation: dust-disease
+  seat: 粉じん則・じん肺法
+  name: 粉じん則の記録
+  rank: B
+  count: 2
+  exams:
+  - 2025-02
+  - 2025-08
+  understanding: null
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-asbestos-01
+  subject: hourei
+  chapter: law-dust
+  foundation: dust-disease
+  seat: 石綿則
+  name: その他（単発）
+  rank: C
+  count: 6
+  exams:
+  - 2023-08
+  - 2024-02
+  - 2025-02
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-oxygen-01
+  subject: hourei
+  chapter: law-other
+  foundation: oxygen-deficiency
+  seat: 酸欠則
+  name: 第1種・第2種酸素欠乏危険作業の区分
+  rank: A
+  count: 8
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  - 2023-02
+  - 2024-02
+  - 2026-02
+  - 2026-08
+  understanding: 第2種は、硫化水素中毒の危険もある場所（し尿・汚水・腐泥、海水が滞留している暗きょ等）。硫化鉱や鋼製タンクの内部など酸素欠乏だけの危険のある場所は第1種。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-oxygen-02
+  subject: hourei
+  chapter: law-other
+  foundation: oxygen-deficiency
+  seat: 酸欠則
+  name: その他（単発）
+  rank: C
+  count: 4
+  exams:
+  - 2021-08
+  - 2023-08
+  - 2024-08
+  - 2025-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-lead-01
+  subject: hourei
+  chapter: law-other
+  foundation: metals
+  seat: 鉛則
+  name: 鉛の濃度測定の頻度
+  rank: A
+  count: 3
+  exams:
+  - 2020-02
+  - 2023-02
+  - 2025-08
+  understanding: 鉛業務の屋内作業場は1年以内ごとに1回（6か月ではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+- id: lw-law-lead-02
+  subject: hourei
+  chapter: law-other
+  foundation: metals
+  seat: 鉛則
+  name: その他（単発）
+  rank: C
+  count: 1
+  exams:
+  - 2026-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+- id: lw-law-misc-01
+  subject: hourei
+  chapter: law-dust
+  foundation: null
+  seat: 関係法令雑問
+  name: じん肺健康診断と管理区分
+  rank: B
+  count: 2
+  exams:
+  - 2020-08
+  - 2021-02
+  understanding: null
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
 review_notes:
-- 放射性物質と放射能（radiation）を第2部に置いた。科目横断の章として独立させるか要検討。
-- 有機化合物（organic）を第2部に置いた。第0部や第5部に入れる案もある。
-- ICP発光分析法は検量線と定量法（quantification）のまま。独立の章にするか要検討。
-- 検知管は両科目の罠の型を第4部の detector-tube にまとめた（分析の「検知管・定量法」席のうち読み取りと妨害物質の2型）。
-- 統計・測定誤差（デザイン）とデータの扱い（分析）は、第0部の 0-7 平均とばらつき に直接入れた。
+- デザインの「濃度と物質の状態」は、「管理濃度の表し方（粉じん・RCF）」の型も含めて目次どおり2-6に置く（確定）。
+- 一般の「労働衛生管理」の席は1-2に置き、そのうち情報機器作業と腰痛予防の型は、目次のコラム（その他の職場の健康障害）に回した。
+- 一般の「毒性と健康障害」のうち、毒性の指標（LD50など）と変異原性試験の型は2-1に、残りは2-4に置いた。
+- 分析の「データの扱い」は5-2を主な章とし、0-7を土台とした。気中濃度の計算は0-4、有効数字は0-1を主な章のままにしている。
+- 分析の「溶液」「容量分析」は5-4・5-5を主な章とし、計算の型は0-4〜0-6を土台として結んだ。
+- 法令の「関係法令雑問」（じん肺健康診断と管理区分）は7-9に置いた。
+- 法令の「化学物質管理」は1-3、「個人サンプリング法」は3-3、「作業環境評価基準」は3-5、「電離則」は6-4に置いた（目次で第7部に章を立てないもの）。
+- 1-1（歴史）と7-1（法令の地図）は読み物の章で、対応する過去問はない。

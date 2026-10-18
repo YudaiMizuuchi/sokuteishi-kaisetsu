@@ -246,7 +246,7 @@ questions:
 - num: 16
   status: draft
   chapters:
-  - radiation
+  - radiation-sampling
   traps:
   - ds-radiation-01
   rank: null
@@ -262,7 +262,7 @@ questions:
 - num: 17
   status: draft
   chapters:
-  - radiation
+  - radiation-sampling
   - units
   traps:
   - ds-radiation-02
@@ -279,6 +279,7 @@ questions:
 - num: 18
   status: draft
   chapters:
+  - stats-error
   - statistics
   traps:
   - ds-statistics-04

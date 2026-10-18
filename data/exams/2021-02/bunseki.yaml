@@ -23,6 +23,7 @@ questions:
 - num: 2
   status: draft
   chapters:
+  - quantification
   - statistics
   traps:
   - an-statistics-02
@@ -74,7 +75,7 @@ questions:
 - num: 5
   status: draft
   chapters:
-  - equilibrium
+  - solution-chem
   traps:
   - an-equilibrium-01
   rank: null
@@ -91,6 +92,7 @@ questions:
 - num: 6
   status: draft
   chapters:
+  - solution-chem
   - solution
   traps:
   - an-solution-02
@@ -125,7 +127,7 @@ questions:
 - num: 8
   status: draft
   chapters:
-  - lab-equipment
+  - flowmeter
   traps:
   - an-lab-equipment-02
   rank: null
@@ -142,7 +144,7 @@ questions:
 - num: 9
   status: draft
   chapters:
-  - reagents
+  - lab-equipment
   traps:
   - an-reagents-04
   rank: null
@@ -176,6 +178,7 @@ questions:
 - num: 11
   status: draft
   chapters:
+  - titration
   - reaction
   traps:
   - an-reaction-02
@@ -193,6 +196,7 @@ questions:
 - num: 12
   status: draft
   chapters:
+  - titration
   - reaction
   traps:
   - an-reaction-03
@@ -210,8 +214,8 @@ questions:
 - num: 13
   status: draft
   chapters:
+  - spectrophotometry
   - logarithm
-  - solution
   traps:
   - an-logarithm-02
   rank: null

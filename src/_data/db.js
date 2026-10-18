@@ -54,7 +54,8 @@ const traps = book.traps.map((t) => {
     ...t,
     // 「その他（単発）」は寄せ集めなので、独立したページを作らない
     misc: t.name.includes("その他"),
-    url: t.name.includes("その他") ? null : `/trap/${t.id}/`,
+    // 「その他（単発）」と、裏取り前（verify: true）の罠の型はページを作らない
+    url: t.name.includes("その他") || t.verify ? null : `/trap/${t.id}/`,
     chapterLabel: chapterById[t.chapter] ? chapterLabel(chapterById[t.chapter]) : "",
     chapterUrl: `/chapter/${t.chapter}/`,
     subjectName: subjectById[t.subject]?.name,
@@ -207,6 +208,6 @@ export default {
   exams,
   parts,
   chapters: usedChapters,
-  traps: traps.filter((t) => t.questions.length && !t.misc),
+  traps: traps.filter((t) => t.questions.length && t.url),
   questions,
 };

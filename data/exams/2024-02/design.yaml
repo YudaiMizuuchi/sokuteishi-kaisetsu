@@ -6,7 +6,7 @@ questions:
 - num: 1
   status: draft
   chapters:
-  - states
+  - dust-disease
   traps:
   - ds-states-01
   rank: null
@@ -247,7 +247,7 @@ questions:
 - num: 16
   status: draft
   chapters:
-  - radiation
+  - radiation-sampling
   traps:
   - ds-radiation-01
   rank: null
@@ -263,7 +263,7 @@ questions:
 - num: 17
   status: draft
   chapters:
-  - radiation
+  - radiation-sampling
   - units
   traps:
   - ds-radiation-02
@@ -280,6 +280,7 @@ questions:
 - num: 18
   status: draft
   chapters:
+  - stats-error
   - statistics
   traps:
   - ds-statistics-02
@@ -296,6 +297,7 @@ questions:
 - num: 19
   status: draft
   chapters:
+  - stats-error
   - statistics
   traps:
   - ds-statistics-05
