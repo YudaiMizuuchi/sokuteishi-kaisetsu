@@ -11,15 +11,24 @@ questions:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量Ⓐとその SI 単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 圧力 ／ N･m⁻²
+  - 粒子数濃度 ／ mg･cm⁻³
+  - 絶対温度 ／ K
+  - 物質量 ／ mol
+  - エネルギー ／ J
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 粒子数濃度mg･cm-３
   _stem_head: 物理量ⒶとそのSI単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -28,15 +37,21 @@ questions:
   - an-solution-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 捕集材に空気を流量 100 mL･min⁻¹ で 30.0 分間通気して物質 A を 23.60 µg捕集した。捕集材の物質 A に対する捕集効率が 85 ％ である時、物質 A の空気中濃度（µg･L⁻¹)の数値として適切なものは次のうちどれか。
+  choices:
+  - '9'
+  - '9.3'
+  - '9.25'
+  - '9.255'
+  - '9.2549'
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: '9.3'
   _stem_head: 捕集材に空気を流量100mL･min-１で30.0分間通気して物質Aを23.60µg捕集した。捕集材の物質Aに対する捕集効率が85％である時
+  _review: true
 - num: 3
   status: draft
   chapters:
@@ -45,15 +60,21 @@ questions:
   - an-gas-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 一酸化炭素 98 g と二酸化炭素 66 g との混合気体を 1.0 気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。ただし、炭素及び酸素の原子量は、それぞれ 12 及び 16 とする。
+  choices:
+  - 0.30 気圧
+  - 0.40 気圧
+  - 0.50 気圧
+  - 0.60 気圧
+  - 0.70 気圧
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 0.70気圧
   _stem_head: 一酸化炭素98gと二酸化炭素66gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。ただし
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -62,15 +83,21 @@ questions:
   - an-organic-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - イソプロピルアルコールを酸化すると、アセチレンが得られる。
+  - アセチレンに水を付加すると、アセトアルデヒドが得られる。
+  - エタノールを酸化すると、アセトアルデヒドが得られる。
+  - アセトアルデヒドを酸化すると、酢酸が得られる。
+  - 酢酸エチルを加水分解すると、酢酸とエタノールを生じる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: イソプロピルアルコールを酸化すると、アセチレンが得られる。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -80,15 +107,23 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: pH 1.0 の硝酸溶液を水で2倍に希釈した溶液の pH として、正しい値に最も近いものは下のうちどれか。ただし、pH は次の式で計算し、 log₁₀2 = 0.301 とする。pH = - log₁₀［H ＋］なお、式中の［H ＋］は水素イオンのモル濃度を表す。
+  choices:
+  - '1.0'
+  - '1.3'
+  - '2.0'
+  - '2.3'
+  - '3.0'
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: =0.301とする。pH=-log10［H＋］なお、式中の［H＋］は水素イオンのモル濃度を表す。
   _stem_head: pH1.0の硝酸溶液を水で２倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log10
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.04）
 - num: 6
   status: draft
   chapters:
@@ -98,15 +133,21 @@ questions:
   - an-solution-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度 2.75 mol･L⁻¹ の水酸化ナトリウム溶液の密度は 1.10 g･cm⁻³ である。この溶液の質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を 40.0 g･mol⁻¹ とする。
+  choices:
+  - 8.00 ％
+  - 9.00 ％
+  - 10.0 ％
+  - 11.0 ％
+  - 12.0 ％
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 10.0％
   _stem_head: 濃度2.75mol･L-１の水酸化ナトリウム溶液の密度は1.10g･cm-３である。この溶液の質量パーセント濃度として、正しい値は次のうちど
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -115,15 +156,21 @@ questions:
   - an-lab-equipment-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 天秤は熱源や直射日光を避けた場所に設置する。
+  - 白金抵抗温度計は、2種類の導体接合部に温度に応じた起電力を生じるゼーベック効果を利用して温度測定を行う。
+  - 石けん膜流量計では、一定体積の気体が流量計の計量部を流れるのに要する時間を測定し、流量を計算する。
+  - マイクロシリンジの計量目盛りは、針の部分の体積を含まない。
+  - ガスの高圧容器の色は、法令により充塡するガスの種類に応じて定められている。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 白金抵抗温度計は、２種類の導体接合部に温度に応じた起電力を生じるゼーベック効果を利用して温度測定を行う。
   _stem_head: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -132,15 +179,21 @@ questions:
   - an-lab-equipment-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定に使用する器具等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - バブラーによる蒸気の捕集効率は、通気速度のみに依存する。
+  - インピンジャーによる粒子の捕集効率は、粒子の径に依存する。
+  - 液体捕集法の捕集効率は同じ条件の吸収びん2本を直列に接続し、それぞれの液体吸収びんに捕集された測定対象物質の量を用いて求めることができる。
+  - 鉱物性粉じん用の相対濃度計には、圧電天秤方式と光散乱方式がある。
+  - 光散乱方式の相対濃度計の質量濃度変換係数は、粉じんの種類によって異なる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: バブラーによる蒸気の捕集効率は、通気速度のみに依存する。
   _stem_head: 作業環境測定に使用する器具等に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -149,15 +202,24 @@ questions:
   - an-reagents-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 塩酸 ／ アミンの液体捕集
+  - 水酸化ナトリウム ／ 無機酸の液体捕集
+  - 二硫化炭素 ／ 有機溶剤の脱着
+  - メタノール ／ 金属キレートの抽出
+  - リン酸水素二ナトリウム ／ 緩衝溶液の調製
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: メタノール金属キレートの抽出
   _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -166,15 +228,21 @@ questions:
   - an-detector-tube-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定対象ガスと妨害ガスが共存する場合は、個々のガス濃度もガス濃度の合計も測定できない。
+  - 補助反応試薬を別のガラス管に充塡して、検知管と二段にして使用するものがある。
+  - 一般に、測定対象ガスの濃度と検知管の変色域の長さとは比例しない。
+  - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある。
+  - 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -184,15 +252,21 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '炭酸カルシウム（CaCO₃）0.200 g を塩酸で完全に溶解した。このときに発生した二酸化炭素の物質量として正しい値は、次のうちどれか。ただし、それぞれの原子の原子量は次のとおりとする。Ca : 40.0、C : 12.0、O : 16.0、H : 1.00、Cl : 35.5 。'
+  choices:
+  - 0.200 mol
+  - 0.100 mol
+  - 0.020 mol
+  - 0.010 mol
+  - 0.002 mol
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 0.002mol
   _stem_head: 炭酸カルシウム（CaCO
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -202,15 +276,21 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の酸溶液を水酸化ナトリウム溶液で滴定した時に、その当量点における溶液の pH が最も高くなるのはどれか。
+  choices:
+  - 塩酸
+  - 硫酸
+  - 硝酸
+  - 酢酸
+  - 過塩素酸
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 酢酸
   _stem_head: 次の酸溶液を水酸化ナトリウム溶液で滴定した時に、その当量点における溶液のpHが最も高くなるのはどれか。
+  _review: true
 - num: 13
   status: draft
   chapters:
@@ -220,15 +300,21 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質 A の濃度が 2.0 × 10⁻⁵ mol･L⁻¹ の溶液を光路長 2.0 cm のセルに入れ、波長 550 nm における吸光度を測定したところ、0.360 であった。濃度が不明な物質 A の溶液を光路長 1.0 cm のセルに入れ、波長 550 nm における吸光度を測定したところ、0.540 であった。この溶液の物質 A の濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0 × 10⁻⁵ mol･L⁻¹
+  - 1.5 × 10⁻⁵ mol･L⁻¹
+  - 3.0 × 10⁻⁵ mol･L⁻¹
+  - 6.0 × 10⁻⁵ mol･L⁻¹
+  - 12.0 × 10⁻⁵ mol･L⁻¹
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 6.0×10-５mol･L-１
   _stem_head: 物質Aの濃度が2.0×10-５mol･L-１の溶液を光路長2.0cmのセルに入れ、波長550nmにおける吸光度を測定したところ、0.360で
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -237,15 +323,21 @@ questions:
   - an-spectrophotometry-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 入射光が溶液中の試料成分に吸収されると、透過光の強さは減少する。
+  - 紫外領域の測定には、光源としてタングステンランプを用いる。
+  - 石英セルは、紫外領域と可視領域の測定に用いることができる。
+  - 吸光度の測定は、通常、測定対象物質の吸収極大の波長で行う。
+  - モル吸光係数の単位は、mol⁻¹･L･cm⁻¹ で表される。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 紫外領域の測定には、光源としてタングステンランプを用いる。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -254,15 +346,21 @@ questions:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレームを用いる金属の原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源からは、金属原子の共鳴線が放射される。
+  - 試料溶液中の金属イオンは、フレーム中で原子化される。
+  - 原子化された金属のうち、励起状態にある原子だけが共鳴線を吸収する。
+  - 定量は、金属の標準溶液を用いた検量線法で行う。
+  - 試料溶液中の塩濃度が高い場合に生じるバックグラウンド吸収の補正には、光源に重水素放電管を用いたときの吸光度を用いることができる。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 原子化された金属のうち、励起状態にある原子だけが共鳴線を吸収する。
   _stem_head: フレームを用いる金属の原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -271,15 +369,21 @@ questions:
   - an-fluorescence-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光のピーク波長は、溶媒の種類で異なる場合がある。
+  - 蛍光の波長は、励起光の波長より短くなることはない。
+  - 蛍光の強度は、濃度が低い領域で蛍光物質の濃度に比例する。
+  - 蛍光の強度は、濃度が低い領域で励起光の強度に比例する。
+  - 蛍光は、励起光に対して直角方向にのみ放出される。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 蛍光は、励起光に対して直角方向にのみ放出される。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -288,15 +392,24 @@ questions:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ n-ヘキサン
+  - 炎光光度検出器（FPD） ／ ベンゼン
+  - 電子捕獲検出器（ECD） ／ トリクロロエチレン
+  - 光イオン化検出器（PID） ／ トルエン
+  - 質量分析器（MS） ／ キシレン
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 炎光光度検出器（FPD）ベンゼン
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -305,15 +418,21 @@ questions:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられるキャピラリーカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定対象物質ごとに異なる。
+  - キャリアーガス流量により異なる。
+  - カラム内径が小さいほど大きくなる。
+  - カラム温度により異なる。
+  - カラムの膜厚が厚いほど大きくなる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: カラムの膜厚が厚いほど大きくなる。
   _stem_head: ガスクロマトグラフ分析法に用いられるキャピラリーカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -322,15 +441,21 @@ questions:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法には、連続X線が用いられる。
+  - この分析法は、X線の回折角及び回折線の強度の測定により行われる。
+  - フィルターに捕集した試料をそのまま分析することができる。
+  - 測定試料は、一般に粒径が 1 µm ～ 10 µm の粉末が適当である。
+  - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: この分析法には、連続Ｘ線が用いられる。
   _stem_head: Ｘ線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -340,12 +465,18 @@ questions:
   - an-logarithm-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 半減期8日の放射性核種の放射能が 1000 Bq であった時、その24日後の放射能の期待値として正しい値は次のうちどれか。
+  choices:
+  - 1000 Bq
+  - 500 Bq
+  - 333 Bq
+  - 250 Bq
+  - 125 Bq
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 125Bq
   _stem_head: 半減期８日の放射性核種の放射能が1000Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。
+  _review: true

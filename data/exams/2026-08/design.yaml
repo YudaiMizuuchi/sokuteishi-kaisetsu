@@ -100,6 +100,7 @@ questions:
     alt: 問3の図
   law_note: null
   _key_choice: （図問題）A測定の測定点の設定として誤っているものの組合せ
+  review_note: ロが誤りである理由を「横の線の間隔が上下で違う」と図から読み取って説明しています。出題の意図と合っているか確認中です。
 - num: 4
   status: published
   chapters:
@@ -153,6 +154,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: コールタール
+  review_note: コールタールが個人サンプリング法の対象外である理由をまだ説明できていません。
 - num: 6
   status: published
   chapters:
@@ -182,6 +184,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定とD測定は同じ時間帯に実施することができるが、C測定に係る個人サンプラーを装着する労働者とD測定に係る個人サンプラーを装着する労働者は、別の労働者としなければならない。
+  review_note: 選択肢2が誤りであることから「同じ労働者に C 測定用と D 測定用のサンプラーを着けてよい」と説明しています。測定基準・ガイドラインの表現と合っているか確認中です。
 - num: 7
   status: published
   chapters:
@@ -292,6 +295,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石けん膜流量計は、所定の区間を石けん膜が移動する時間と、石けん膜をつくる石けん液の密度との関係から、流量を求めるものである。
+  review_note: 選択肢2（面積式流量計の温度の影響）を「標準状態に換算した流量で比べると」という前提で説明しています。実際の体積流量で比べると向きが逆になるため、説明の仕方を確認中です。
 - num: 11
   status: published
   chapters:
@@ -427,6 +431,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管でスチレンを測定する場合、アルコール類やエステル類が共存すると、その指示値は、スチレンの濃度よりも小さな値を示すことがある。
+  review_note: アルコール類やエステル類が共存すると指示値が「大きくなる」と説明しています。メーカー資料での記載を確認中です。
 - num: 16
   status: published
   chapters:
@@ -528,6 +533,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 著しい騒音を発する屋内作業場において、等価騒音レベルを測定する場合、労働者の作業中の行動範囲を考慮の上、おおむね70dB以上の区域を単位作業場所とする。
+  review_note: 等価騒音レベルの単位作業場所を「おおむね 80 dB 以上の区域」と説明しています。ガイドラインの数値を確認中です。
 - num: 19
   status: published
   chapters:

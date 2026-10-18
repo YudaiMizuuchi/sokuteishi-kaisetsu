@@ -153,3 +153,7 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82r
 .book-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 32px 0 8px; }
 .book-actions .button { margin-top: 0; }
 .chapterlist .pending { color: var(--muted); }
+
+/* 確認中の注記 */
+.review-note { margin: 12px 0; padding: 8px 12px; border: 1px dashed var(--amber); border-radius: 6px; background: var(--surface); font-size: .9rem; }
+.review-note b { display: block; color: var(--amber); font-size: .85rem; margin-bottom: 2px; }

@@ -1,27 +1,35 @@
 exam: 2025-08
-date: null
+date: '2025-08-20'
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/wp-content/uploads/2025/08/EM20251804.pdf
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
   - an-mole-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - アボガドロ定数の数の物質粒子（原子、分子、イオン等）の物質量は、1モルである。
+  - 原子量は、¹²C の質量を基準として定められている。
+  - 電子の質量は、陽子の質量と同程度である。
+  - 陽子数が同じで、中性子数が異なる原子どうしを互いに同位体という。
+  - 中性の原子又は分子は、電子を失うと正に帯電する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '電子の質量は、陽子の質量の約 1/1840 しかありません。「陽子と同程度」とする選択肢3は誤りです。
+
+
+    原子の質量は、ほぼ原子核（陽子と中性子）の質量で決まり、電子はほとんど重さに寄与しません。電子が出入りしても原子の質量がほとんど変わらないのはこのためです。'
   figures: []
   law_note: null
   _key_choice: 電子の質量は、陽子の質量と同程度である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
-  status: draft
+  status: published
   chapters:
   - quantification
   - statistics
@@ -29,51 +37,104 @@ questions:
   - an-statistics-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 同一試料を5回分析し、分析値71、72、72、73、71が得られたとき、次の記述の㋑から㋥の［　］に入る数値の組合せとして、正しいものは下のうちどれか。「5回の分析で得た分析値の平均値（x̄）は［㋑］であり、各分析値の偏差（xᵢ − x̄）を2乗した総和は［㋺］である。分析値のばらつきの程度を示す分散は［㋩］、標準偏差は［㋥］と求められる。」
+  choices:
+  - 72 ／ 2.8 ／ 0.56 ／ 0.75
+  - 72 ／ 2.8 ／ 0.56 ／ 1.7
+  - 72 ／ 3.2 ／ 0.28 ／ 0.75
+  - 73 ／ 2.8 ／ 0.28 ／ 1.7
+  - 73 ／ 3.2 ／ 0.56 ／ 0.75
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '順に計算します。
+
+
+    平均値 ＝ (71 ＋ 72 ＋ 72 ＋ 73 ＋ 71) ÷ 5 ＝ 71.8（選択肢の表記では 72）
+
+
+    偏差の2乗の総和 ＝ 0.8² ＋ 0.2² ＋ 0.2² ＋ 1.2² ＋ 0.8² ＝ 0.64 ＋ 0.04 ＋ 0.04 ＋ 1.44 ＋ 0.64 ＝ 2.8
+
+
+    分散 ＝ 2.8 ÷ 5 ＝ 0.56、標準偏差 ＝ √0.56 ≒ 0.75
+
+
+    よって（1）が正しい組合せです。
+
+
+    標準偏差は分散の平方根です。分散の値（0.56）と標準偏差の値（0.75）を取り違えないようにしましょう。'
   figures: []
   law_note: null
   _key_choice: 722.80.560.75
   _stem_head: 同一試料を５回分析し、分析値71、72、72、73、71が得られたとき、次の記述の㋑から㋥のに入る数値の組合せとして、正しいものは下のうちど
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  - ㋥
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物の官能基Ⓐとその構造式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - カルボキシ基 ／ -COOH
+  - ニトリル基 ／ -CN
+  - アルデヒド基 ／ -CHO
+  - エーテル基 ／ -O-
+  - アゾ基 ／ -NH₂
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'アゾ基は、2つの窒素原子が二重結合した -N＝N- です。-NH₂ はアミノ基なので、選択肢5は誤りです。
+
+
+    官能基は、名前と式を対で覚えるのが基本です。カルボキシ基 -COOH、ニトリル基（シアノ基）-CN、アルデヒド基 -CHO、エーテル結合 -O-、アミノ基 -NH₂、アゾ基 -N＝N- です。'
   figures: []
   law_note: null
   _key_choice: ??
   _stem_head: 有機化合物の官能基Ⓐとその構造式Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ある気体の密度は、27 ℃、1.0 気圧において 1.3 g・L⁻¹ であった。この気体の 117 ℃、2.0 気圧における密度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0 g・L⁻¹
+  - 1.2 g・L⁻¹
+  - 1.6 g・L⁻¹
+  - 1.8 g・L⁻¹
+  - 2.0 g・L⁻¹
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '気体の密度は、圧力に比例し、絶対温度に反比例します。
+
+
+    27℃ ＝ 300 K、117℃ ＝ 390 K なので、
+
+
+    密度 ＝ 1.3 × (2.0 ÷ 1.0) × (300 ÷ 390) ＝ 2.0 g/L
+
+
+    よって（5）が正しい値です。
+
+
+    温度をセ氏のまま比べると、117 ÷ 27 で大きくずれます。気体の計算では必ず絶対温度に直しましょう。'
   figures: []
   law_note: null
   _key_choice: 2.0g・L-1
   _stem_head: ある気体の密度は、27℃、1.0気圧において1.3g・L-1であった。この気体の117℃、2.0気圧における密度として、正しい値は次のうちど
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -81,119 +142,196 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度 14 mol･L⁻¹ の硝酸溶液 10 mL を水で希釈して 200 mL にした溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 0.30 mol･L⁻¹
+  - 0.50 mol･L⁻¹
+  - 0.70 mol･L⁻¹
+  - 0.90 mol･L⁻¹
+  - 1.00 mol･L⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '硝酸は強酸で、水中で完全に電離するので、水素イオン濃度は硝酸の濃度と同じです。
+
+
+    希釈後の濃度 ＝ 14 mol/L × 10 mL ÷ 200 mL ＝ 0.70 mol/L
+
+
+    よって（3）が正しい値です。薄めても溶質の物質量は変わらない、という希釈の基本を使う問題です。'
   figures: []
   law_note: null
   _key_choice: 0.70mol･L-１
   _stem_head: 濃度14mol･L-１の硝酸溶液10mLを水で希釈して200mLにした溶液の水素イオン濃度として、正しい値は次のうちどれか。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   traps:
   - an-equilibrium-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '水素 H₂ 1.0 mol とヨウ素 I₂ 1.0 mol を 10 Lの容器に入れて、ある温度に保ったところ、次の反応により、ヨウ化水素が 1.5 mol 生成して、平衡状態となった。
+
+
+    H₂ ＋ I₂ ⇄ 2HI
+
+
+    この反応の平衡定数として、正しい値は次のうちどれか。'
+  choices:
+  - '1.5'
+  - '2.3'
+  - '6.0'
+  - '24'
+  - '36'
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'HI が 1.5 mol 生成したので、H₂ と I₂ はそれぞれ 0.75 mol ずつ減り、平衡時は 0.25 mol ずつ残ります。容器は 10 L なので、
+
+
+    K ＝ [HI]² ÷ ([H₂][I₂]) ＝ 0.15² ÷ (0.025 × 0.025) ＝ 36
+
+
+    よって（5）が正しい値です。
+
+
+    左辺と右辺で分子の数の合計が同じ（2 と 2）なので、体積は打ち消し合い、物質量のまま 1.5² ÷ (0.25 × 0.25) と計算しても同じ答えになります。'
   figures: []
   law_note: null
   _key_choice: '36'
   _stem_head: 水素H
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における操作Ⓐと、それに用いる器具Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 滴定 ／ メスピペット
+  - 標準液の調製 ／ メスフラスコ
+  - 標準ガスの調製 ／ パーミエーションチューブ
+  - 蒸気の捕集 ／ 真空捕集瓶
+  - 空気吸引ポンプの流量調整 ／ 乾式ガスメーター
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '滴定では、溶液を少しずつ滴下しながら滴下量を読み取るビュレットを用います。メスピペットは決まった量を採り分けるための器具で、滴定には用いないので、（1）が不適切です。
+
+
+    ビュレット（滴定）、ホールピペット（一定量を正確に採る）、メスフラスコ（一定体積の溶液をつくる）、と器具と操作を対で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: 滴定メスピペット
   _stem_head: 作業環境測定における操作Ⓐと、それに用いる器具Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルによる標準ガス調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準ガスを発生させる物質は、常温常圧で液体である必要がある。
+  - 液溜めと拡散チューブの間に温度差ができないようにする。
+  - 標準物質の流出速度は、拡散チューブの内径に比例する。
+  - 一定時間ごとに標準物質の残量を秤量し、その減少量から標準物質の流出速度を求めることができる。
+  - 所定の濃度の標準ガスを得るために、発生した蒸気を不活性ガスで希釈する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '拡散セルから出る標準物質の量（流出速度）は、拡散チューブの**断面積**に比例します。断面積は内径の2乗に比例するので、「内径に比例する」とする選択肢3は誤りです。
+
+
+    内径が2倍になれば断面積は4倍になり、流出速度も4倍になります。チューブの長さには反比例します。'
   figures: []
   law_note: null
   _key_choice: 標準物質の流出速度は、拡散チューブの内径に比例する。
   _stem_head: 拡散セルによる標準ガス調製に関する次の記述のうち、誤っているものはどれか。
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-reagents-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - ブロモチモールブルー（BTB） ／ 酸塩基指示薬
+  - EDTA ／ キレート滴定
+  - メチルイソブチルケトン（MIBK） ／ 金属キレートの抽出
+  - 水酸化カルシウム（消石灰） ／ 乾燥剤
+  - 二硫化炭素 ／ 有機溶剤の脱着
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '水酸化カルシウム（消石灰）は水を吸収しないので、乾燥剤としては用いません。乾燥剤として使われるのは、酸化カルシウム（生石灰）や塩化カルシウム、シリカゲルなどです。選択肢4は誤りです。
+
+
+    生石灰（CaO）は水と反応して消石灰（Ca(OH)₂）になります。水を吸ったあとの物が消石灰なので、消石灰には乾燥剤としての働きがありません。'
   figures: []
   law_note: null
   _key_choice: 水酸化カルシウム（消石灰）乾燥剤
   _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - quantification
   traps:
   - an-quantification-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 定量方法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準添加法を用いる場合は、検量線は直線でなくてはならない。
+  - 標準添加法を用いる場合は、試料溶液中の共存成分が既知である必要がある。
+  - 絶対検量線法の標準溶液は、分析試料溶液と似た成分組成となるように調製する。
+  - 内標準法と標準添加法を併用することが可能である。
+  - 内標準法では、分析試料溶液と標準溶液の両方に内標準物質を添加する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '標準添加法は、試料溶液そのものに標準物質を加えて検量線を作るので、試料中の共存成分の影響が自動的に打ち消されます。共存成分が何かを知っている必要はないので、選択肢2は誤りです。
+
+
+    共存成分が分からない、または標準溶液で再現できない試料に強いのが、標準添加法の長所です。その代わり、検量線が直線であることが前提になります（選択肢1）。'
   figures: []
   law_note: null
   _key_choice: 標準添加法を用いる場合は、試料溶液中の共存成分が既知である必要がある。
   _stem_head: 定量方法に関する次の記述のうち、誤っているものはどれか。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   traps:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 溶解度積は、AgCl ⇄ Ag⁺ ＋ Cl⁻ で示される塩化銀の溶解平衡の平衡定数である。
+  - 溶解度積は、水溶液中の塩化物イオンのモル濃度によって変化する。
+  - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない。
+  - 溶解度積は、温度によって変化する。
+  - 溶解度積は、難溶性の塩についてのみ定義できる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '溶解度積は、一定の温度で決まった値（平衡定数）で、水溶液中の塩化物イオンの濃度によって変わることはありません。選択肢2は誤りです。
+
+
+    塩化物イオンを加えると、塩化銀は溶けにくくなりますが（共通イオン効果）、それは銀イオンの濃度が下がって、濃度の積が溶解度積に保たれるからです。変わるのは各イオンの濃度で、溶解度積は変わりません。'
   figures: []
   law_note: null
   _key_choice: 溶解度積は、水溶液中の塩化物イオンのモル濃度によって変化する。
   _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -201,34 +339,50 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の0.001 mol･L⁻¹の水溶液のうち、最も小さいpH を示すものはどれか。
+  choices:
+  - 硝酸溶液
+  - 硫酸溶液
+  - 酢酸溶液
+  - フッ化水素酸溶液
+  - 炭酸溶液
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '同じ濃度の酸では、強酸で、しかも1分子から水素イオンを多く出すものほど pH が小さくなります。硫酸は2価の強酸なので、1価の強酸である硝酸よりも水素イオン濃度が大きく、pH が最も小さくなります。よって（2）です。
+
+
+    酢酸、フッ化水素酸、炭酸はいずれも弱酸なので、同じ濃度では強酸より pH が大きくなります。'
   figures: []
   law_note: null
   _key_choice: 硫酸溶液
   _stem_head: 次の0.001mol･L-１の水溶液のうち、最も小さいpHを示すものはどれか。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光度に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光度は、透過率（透過光強度／入射光強度）の逆数の対数で表される。
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 吸光度は、光路長に比例する。
+  - 単位濃度（mol･L⁻¹）、単位長さ（cm）当たりの吸光度は、モル吸光係数と呼ばれる。
+  - 吸光度は、吸収極大波長で測定しなければならない。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は、吸収極大波長で測ると感度がよくなりますが、必ずそこで測定しなければならないわけではありません。共存物質の吸収を避けるため、あえて極大からずらした波長で測ることもあります。選択肢5は誤りです。
+
+
+    「〜しなければならない」と言い切る選択肢は、例外がないかを考えてみるのが正誤問題の基本です。'
   figures: []
   law_note: null
   _key_choice: 吸光度は、吸収極大波長で測定しなければならない。
   _stem_head: 吸光度に関する次の記述のうち、誤っているものはどれか。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -236,113 +390,184 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質 A の溶液を光路長1cm の試料セルに入れ、波長 550 nmの光を当てたところ、透過率は 80 ％ であった。この溶液を光路長2 cm の試料セルに入れ、波長 550 nmの光を当てた。このときの透過率として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 50 ％
+  - 55 ％
+  - 60 ％
+  - 65 ％
+  - 70 ％
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は光路長に比例するので、光路長が2倍になると吸光度も2倍になります。吸光度 A ＝ −log T なので、透過率は元の透過率の2乗になります。
+
+
+    T ＝ 0.80² ＝ 0.64 → 約 65 ％
+
+
+    よって（4）が正しい値です。「吸光度は比例、透過率はべき乗」と覚えておくと、光路長や濃度を変える問題が素早く解けます。'
   figures: []
   law_note: null
   _key_choice: 65％
   _stem_head: 物質Aの溶液を光路長１cmの試料セルに入れ、波長550nmの光を当てたところ、透過率は80％であった。この溶液を光路長２cmの試料セルに入れ
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料溶液がフレームに導入される。
+  - フレーム中でイオン化した目的元素が光源からの共鳴線を吸収する。
+  - 光源光がフレームを通過する位置により吸光度が異なる。
+  - 光源には、中空陰極ランプが用いられる。
+  - 定量は、検量線法により行われる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'フレーム原子吸光分析法では、フレームの中で原子化された目的元素の、**基底状態の中性原子**が、光源からの共鳴線を吸収します。イオン化した原子が吸収するのではないので、選択肢2は誤りです。
+
+
+    イオン化すると、原子とは違う波長の光しか吸収しなくなるため、感度が下がります。イオン化しやすいアルカリ金属などでは、イオン化を抑える試薬を加えることがあります。'
   figures: []
   law_note: null
   _key_choice: フレーム中でイオン化した目的元素が光源からの共鳴線を吸収する。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「励起光を吸収した分子は電子励起状態へ遷移する。蛍光は電子励起状態にある分子がエネルギーの一部を熱として放出した後、電子基底状態へ戻る際に生じる。そのため、励起光よりも蛍光の方がエネルギーが［㋑］。また、励起光よりも蛍光は波長が［㋺］。分光蛍光光度計では、光源として主に［㋩］を用い、ここから出た光を分光した後、試料に照射し、生じる蛍光を測定する。」
+  choices:
+  - 大きい ／ 短い ／ タングステンランプ
+  - 大きい ／ 短い ／ キセノンランプ
+  - 大きい ／ 長い ／ キセノンランプ
+  - 小さい ／ 長い ／ タングステンランプ
+  - 小さい ／ 長い ／ キセノンランプ
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '蛍光は、励起された分子がエネルギーの一部を熱として失ったあとで出る光なので、励起光よりエネルギーが**小さく**、その分、波長は**長く**なります。分光蛍光光度計の光源には、紫外から可視まで強い光を出す**キセノンランプ**が主に用いられます。よって（5）が正しい組合せです。
+
+
+    光のエネルギーは波長が短いほど大きいので、「エネルギーが小さい ＝ 波長が長い」はセットで覚えられます。'
   figures: []
   law_note: null
   _key_choice: 小さい長いキセノンランプ
   _stem_head: 蛍光光度分析法に関する次の記述の㋑から㋩のに入る語句の組合せとして、正しいものは下のうちどれか。「励起光を吸収した分子は電子励起状態へ遷移す
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
-  choice_notes: []
-  explanation: null
+  stem: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 理論段相当高さは変化しない。
+  - 理論段数は変化しない。
+  - 分離度は √2 倍になる。
+  - ピーク幅は √2 倍になる。
+  - 保持時間は2倍になる。
+  answer: 2
+  choice_notes:
+  - 正しい。理論段相当高さは、カラム1段あたりの長さなので変わらない。
+  - 誤り。理論段数はカラムの長さに比例して2倍になる。
+  - 正しい。分離度は理論段数の平方根に比例するので √2 倍。
+  - 正しい。ピーク幅は √2 倍になる。
+  - 正しい。保持時間はカラムの長さに比例して2倍。
+  explanation: '理論段数は、カラムの長さを理論段相当高さで割ったものです。理論段相当高さはカラムの長さで変わらないので（選択肢1）、カラムを2倍の長さにすると、理論段数も2倍になります。「理論段数は変化しない」とする選択肢2は誤りです。
+
+
+    保持時間は2倍になりますが（選択肢5）、ピーク幅と分離度はどちらも理論段数の平方根に関係するので、√2 倍（約1.4倍）にしかなりません（選択肢3・4）。「長さを2倍にしても、分離は2倍にはならない」という点もあわせて押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: 理論段数は変化しない。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを２倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ ベンゼン
+  - 炎光光度検出器（FPD） ／ 硫化水素
+  - 電子捕獲検出器（ECD） ／ トリクロロエチレン
+  - 光イオン化検出器（PID） ／ n- ヘキサン
+  - 熱イオン化検出器（TID、FTD） ／ アクリルアミド
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '光イオン化検出器（PID）は、紫外線で試料をイオン化して検出するもので、芳香族炭化水素や不飽和の化合物などイオン化しやすい物質に感度が高い検出器です。n-ヘキサンのような飽和炭化水素には感度が低いので、（4）が不適切です。
+
+
+    飽和炭化水素の分析には、ほとんどの有機化合物に応答する FID が適しています。検出器は「何に強いか」で選びましょう。'
   figures: []
   law_note: null
   _key_choice: 光イオン化検出器（PID）_n_-ヘキサン
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X 線管から発生する X 線に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - X 線管は、熱電子を発生させる陰極と X 線を発生する陽極を有している。
+  - 発生する X 線の全強度は、陽極元素の原子番号に比例して強くなる。
+  - KαX 線の波長は、陽極元素の原子番号が大きくなるに従い短くなる。
+  - 特性 X 線は、原子の外殻電子が内殻電子の空孔に遷移したときに発生する。
+  - 特性 X 線の波長は、印加電圧を上げるに従い短くなる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '特性 X 線の波長は、陽極に使われている元素によって決まり、X 線管にかける電圧を上げても変わりません。選択肢5は誤りです。
+
+
+    電圧を上げると変わるのは、連続 X 線の最短波長と、X 線全体の強度です。特性 X 線は元素ごとに決まった波長なので、X 線回折では一定の波長の光源として使えます。'
   figures: []
   law_note: null
   _key_choice: 特性X線の波長は、印加電圧を上げるに従い短くなる。
   _stem_head: X線管から発生するX線に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - α 壊変では、原子番号は2つ減少する。
+  - β⁻ 壊変では、原子番号は1つ増加する。
+  - β⁺ 壊変では、質量数は変化しない。
+  - 軌道電子捕獲では、原子番号は1つ減少する。
+  - 核異性体転移では、質量数は1つ増加する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '核異性体転移は、エネルギーの高い状態の原子核が、γ 線を出して低い状態に移る現象です。陽子や中性子の数は変わらないので、質量数も原子番号も変化しません。選択肢5は誤りです。
+
+
+    壊変の種類ごとの変化をまとめると、α 壊変は質量数 −4・原子番号 −2、β⁻ 壊変は原子番号 ＋1、β⁺ 壊変と軌道電子捕獲は原子番号 −1（いずれも質量数は変わらない）、核異性体転移はどちらも変わらない、です。'
   figures: []
   law_note: null
   _key_choice: 核異性体転移では、質量数は１つ増加する。

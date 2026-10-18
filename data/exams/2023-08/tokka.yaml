@@ -1,0 +1,423 @@
+exam: 2023-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 吸光度は、入射光の強度に依存しない。
+  - 吸光度 0.3 では、入射光の 30 ％ が試料液に吸収される。
+  - 発色のために加熱した場合は、常温に戻してから測定する。
+  - 石英セルはガラスセルに比べて、紫外光の吸収が少ない。
+  - 通常、分析には、吸収スペクトルの極大波長を用いる。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気（25 ℃、1気圧）中のフッ化水素の濃度を測定するため、捕集液 10 mL に 1.00 L･min⁻¹の流量で試料空気を10分間吸引した。その全量 10 mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.350 であった。フッ化水素の濃度が、1.15 × 10⁻⁸mol･mL⁻¹の標準溶液 10 mLについても同様の操作を行って測定した吸光度は 0.450 であった。フッ化水素の作業環境空気中濃度（体積分率）として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は 100％とする。
+  columns: null
+  choices:
+  - 0.022 ppm
+  - 0.032 ppm
+  - 0.22 ppm
+  - 0.32 ppm
+  - 2.2 ppm
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 液体捕集法と吸光光度分析法を用いた p-ニトロクロロベンゼンの測定に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「捕集液にエタノール水溶液を使用して p-ニトロクロロベンゼンを捕集して、亜鉛末と［㋑］を用いてニトロ基を還元する。亜硝酸ナトリウムを加え、更にスルファミン酸アンモニウムを加えて［㋺］基を［㋩］化した後、発色させて吸光度を測定する。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 塩酸 ／ アミド ／ アゾ
+  - 塩酸 ／ アミノ ／ ニトロ
+  - 塩酸 ／ アミノ ／ アゾ
+  - 水酸化ナトリウム ／ アミド ／ アゾ
+  - 水酸化ナトリウム ／ アミノ ／ ニトロ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 硫化水素を液体捕集し、得られた試料液に塩化鉄（Ⅲ）と p-アミノジメチルアニリンを加えて、生成する物質の吸光度を測定して定量した。この分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集液には硫酸亜鉛水溶液を用いる。
+  - 塩化鉄（Ⅲ）は触媒として働く。
+  - 生成する物質はメチレンブルーである。
+  - 標準原液は硫化ナトリウムから調製する。
+  - 標準原液の調製には、煮沸して放冷した精製水を用いる。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法における分離機構及び分離能に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 固定相が液体の場合、試料中の各成分はカラム内で固定相液体と気相間の分配平衡の差によって分離される。
+  - 固定相液体には、極性が異なる物質を使用することができるので、多種類の物質の分析が可能である。
+  - 保持時間とは、カラムに試料を導入後、分析対象成分のピークが出終わるまでの時間をいう。
+  - 理論段数は、カラムの長さ、内径、温度、移動相流速などによって変化する。
+  - ピークの重なりの程度を表す分離度が、1.5 のとき二つのピークはほぼ完全に分離される。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気中のアクリルアミドのガスクロマトグラフ分析法に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「アクリルアミドの粒子及び［㋑］を、ガラス繊維ろ紙と［㋺］を装着したサンプラーにより吸引捕集し、ガラス繊維ろ紙及び［㋺］上のアクリルアミドを［㋩］で抽出した後、ガスクロマトグラフ法で分析する。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 蒸気 ／ 活性炭フェルト ／ メタノール
+  - 蒸気 ／ 硫酸含浸ろ紙 ／ トルエン
+  - 蒸気 ／ 硫酸含浸ろ紙 ／ メタノール
+  - ガス ／ 活性炭フェルト ／ トルエン
+  - ガス ／ 硫酸含浸ろ紙 ／ トルエン
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法で、カラムA とBを用いてある化合物を測定したとき、保持時間が同じであった。カラム A の理論段数が 9000 、カラム B の理論段数が 5000 の場合、カラム B におけるピーク幅（WB）とカラム A におけるピーク幅（WA）の比（WB／WA）の値として、正しい値に最も近いものは次のうちどれか。
+  columns: null
+  choices:
+  - '0.38'
+  - '0.56'
+  - '0.75'
+  - '1.34'
+  - '1.80'
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気中の3,3 '-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）のガスクロマトグラフ-質量分析法に関する次の記述の㋑及び㋺の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「作業環境空気中のMOCAを［㋑］含浸ろ紙に捕集し、［㋺］溶液を添加した後、トルエンで抽出する。抽出液中の MOCA を N-メチルトリフルオロアセトアミドによって誘導体化した後、ガスクロマトグラフ-質量分析法で分析する。」
+  columns:
+  - ㋑
+  - ㋺
+  choices:
+  - 硫酸 ／ 塩酸
+  - 硫酸 ／ 硫酸
+  - 硫酸 ／ 水酸化ナトリウム
+  - 炭酸ナトリウム ／ 硫酸
+  - 炭酸ナトリウム ／ 水酸化ナトリウム
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 試料中の成分は、移動相と固定相との相互作用（親和性）の差によって分離される。
+  - 移動相が固定相よりも極性が高い場合、逆相クロマトグラフ法という。
+  - 逆相クロマトグラフ法では、カラム温度を上げると、カラム圧が高くなる。
+  - ODSカラムは、強酸性や強塩基性の移動相によって化学的に劣化する。
+  - ガスクロマトグラフ分析法と比較して、多量の試料が導入できる。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質用の検知管Ⓐと、それに利用される反応Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - アクリロニトリル用検知管 ／ アクリロニトリルが酸化剤と反応してシアン化水素を発生する。
+  - 塩化ビニル用検知管 ／ 塩化ビニルが酸化剤と反応して塩化水素を発生する。
+  - 臭化メチル用検知管 ／ 臭化メチルが酸化剤と反応して臭素を発生する。
+  - フッ化水素用検知管 ／ フッ化水素がリン酸ヒドロキシルアミンと反応してリン酸を遊離する。
+  - ベンゼン用検知管 ／ ベンゼンが五酸化ヨウ素と反応してヨウ素を遊離する。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気中のホルムアルデヒド濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - ホルムアルデヒドの捕集には、フルフラールを含浸させたシリカゲル捕集管が用いられる。
+  - 捕集後の捕集管は、冷蔵保存する。
+  - ガスクロマトグラフ分析法を用いる場合は、検出には質量分析器が用いられる。
+  - 高速液体クロマトグラフ分析法を用いる場合は、検出には紫外吸光検出器が用いられる。
+  - 作業環境空気中に共存するオゾンにより、測定誤差を生じる場合がある。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 蛍光光度分析法による作業環境空気中の α-ナフチルアミン濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - α-ナフチルアミンは、インピンジャーを用いて希塩酸中に捕集する。
+  - α-ナフチルアミンを捕集した捕集液をアルカリ性にし、エチルエーテルを用いて捕集液から抽出する。
+  - 亜硝酸ナトリウムとスルファニル酸を加えて、誘導体化する。
+  - 薄層クロマトグラフ法を用いて単離し、蛍光強度を測定する。
+  - α-ナフチルアミンをエタノールに溶解して、標準液とする。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2023-08-tokka-13-choices.png
+    alt: 問13の選択肢
+  law_note: null
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - アミノ基 ／ - NH₂
+  - イソシアネート基 ／ - OCN
+  - カルボニル基 ／ C O
+  - ニトリル基 ／ - CN
+  - ビニル基 ／ - CH ＝ CH₂
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ベンゼン 1.00 gを容量 1 Lの真空容器に密封し、常温（25℃）にした。このとき容器内に液体として存在するベンゼンの質量に最も近いものは、次のうちどれか。ただし、25℃でのベンゼンの飽和蒸気圧は12.6 kPa、モル質量は78.1 g･mol⁻¹とする。また、気体定数は 8.31 × 10³ Pa･L･mol⁻¹･K⁻¹とする。
+  columns: null
+  choices:
+  - 0 g
+  - 0.20 g
+  - 0.40 g
+  - 0.60 g
+  - 0.80 g
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法における測定対象物質Ⓐとその標準原液の調製に用いる溶媒Ⓑとの組合せとして、誤っているものは次のうちどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - エチレンイミン ／ 精製水
+  - ペンタクロロフェノール ／ 水酸化ナトリウム溶液
+  - クロロメチルメチルエーテル ／ アセトン
+  - オーラミン ／ メタノール
+  - シアン化カリウム ／ 希硫酸
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 塩素の濃度測定に用いる次亜塩素酸ナトリウム溶液の有効塩素濃度の標定に関する次の記述の ㋑ から ㋩ までの［　］に入る化学式又は語句の組合せとして、正しいものは下のうちどれか。「次亜塩素酸ナトリウム溶液に塩酸とヨウ化カリウムを加え、生成した［㋑］を［㋺］溶液で滴定する。滴定の終点は溶液に［㋩］を加え、溶液の青紫色が消失する点とする。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - HI ／ 水酸化ナトリウム ／ でんぷん
+  - HI ／ 硫酸 ／ グルコース
+  - I₂ ／ チオ硫酸ナトリウム ／ でんぷん
+  - I₂ ／ チオ硫酸ナトリウム ／ グルコース
+  - I₂ ／ 硫酸 ／ グルコース
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の測定対象物質のうち、固体捕集法による捕集が不適切なものはどれか。
+  columns: null
+  choices:
+  - アクリロニトリル
+  - エチルベンゼン
+  - ベンゼン
+  - ベンゾトリクロリド
+  - マゼンタ
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法による検出下限濃度を求めるため、管理濃度の1/10の濃度の空気を 2.0 L 捕集した試料に相当する溶液を5回繰り返し測定したところ、気中濃度として平均値 0.30 ppm、標準偏差 0.02 ppm であった。この測定法の検出下限濃度に相当する気中濃度として、正しい値は次のうちどれか。
+  columns: null
+  choices:
+  - 0.02 ppm
+  - 0.06 ppm
+  - 0.1 ppm
+  - 0.2 ppm
+  - 0.4 ppm
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 直接捕集法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 真空捕集瓶の内面は、測定対象物質に対して不活性でなければならない。
+  - 真空捕集瓶のコックのすり合わせ部には、グリースを塗布して漏れをなくす。
+  - 捕集袋は、清浄な乾燥空気又は窒素を用いて洗浄する。
+  - 試料空気から水分を取り除く場合には、ガラス管に無水硫酸カルシウムなどの乾燥剤を詰めて、試料採取口の前に接続する。
+  - 電動ポンプを通して、捕集袋内に試料空気を送り採取する方法の場合、ポンプ内の吸着に注意する必要がある。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

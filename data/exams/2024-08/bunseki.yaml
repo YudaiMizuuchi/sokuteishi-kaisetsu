@@ -11,15 +11,24 @@ questions:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量又は物理定数Ⓐとその SI 単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 電気量（電荷） ／ C
+  - エネルギー ／ J
+  - 光度 ／ cd
+  - 圧力 ／ N･m⁻³
+  - 気体定数 ／ J･K⁻¹･mol⁻¹
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 圧力N･m-３
   _stem_head: 物理量又は物理定数ⒶとそのSI単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -28,15 +37,26 @@ questions:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 'CuSO₄･5 H₂Oのモル質量を有効数字で表した場合、正しいものは下のうちどれか。ただし、各元素の原子量は次のとおりとする。
+
+
+    Cu 63.546、S 32.059、O 15.9994、H 1.0079'
+  choices:
+  - 249 g･mol⁻¹
+  - 249.7 g･mol⁻¹
+  - 249.68 g･mol⁻¹
+  - 249.679 g･mol⁻¹
+  - 249.6786 g･mol⁻¹
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ･5H
   _stem_head: CuSO
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.00）
 - num: 3
   status: draft
   chapters:
@@ -45,15 +65,21 @@ questions:
   - an-organic-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アセトンはイソプロピルアルコールの酸化で得られる。
+  - 安息香酸はトルエンの酸化で得られる。
+  - アセトアルデヒドはエタノールの酸化で得られる。
+  - ジメチルエーテルは酢酸の酸化で得られる。
+  - キノンはフェノールの酸化で得られる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ジメチルエーテルは酢酸の酸化で得られる。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -63,15 +89,21 @@ questions:
   - an-gas-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 容積2.0 Lの密閉容器に炭素と、温度 25 ℃で圧力 1.0 気圧の酸素を封入してから燃焼させ、酸素をすべて二酸化炭素へ変換した。燃焼後の容器内の温度が 25℃になったときの二酸化炭素が示す圧力は次のうちどれか。なお、炭素の体積は無視できるものとする。
+  choices:
+  - 0.3 気圧
+  - 0.5 気圧
+  - 1.0 気圧
+  - 1.5 気圧
+  - 2.0 気圧
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 1.0気圧
   _stem_head: 容積2.0Lの密閉容器に炭素と、温度25℃で圧力1.0気圧の酸素を封入してから燃焼させ、酸素をすべて二酸化炭素へ変換した。燃焼後の容器内の温
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -81,15 +113,24 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '有機化合物 A を 50 mg含む水溶液 200 mLにヘキサン 10 mLを加えて振り混ぜ、A をヘキサンに抽出したところ、その質量は 45 mg であった。有機化合物A の水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次式で表される。
+
+
+    分配係数 ＝ [A]<sub>ヘキサン</sub> ÷ [A]<sub>水</sub>'
+  choices:
+  - '80'
+  - '130'
+  - '180'
+  - '230'
+  - '280'
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: '180'
   _stem_head: 有機化合物Aを50mg含む水溶液200mLにヘキサン10mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は45mgであった。有機
+  _review: true
 - num: 6
   status: draft
   chapters:
@@ -99,15 +140,21 @@ questions:
   - an-solution-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 質量パーセント濃度が 20.0 ％ の塩酸（密度 1.10 g･cm⁻³）100 mLに、精製水（密度 1.00 g･cm⁻³）100 mL を加え、希釈した。この塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 10.0 ％
+  - 10.3 ％
+  - 10.5 ％
+  - 10.8 ％
+  - 11.0 ％
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 10.5％
   _stem_head: 質量パーセント濃度が20.0％の塩酸（密度1.10g･cm-３）100mLに、精製水（密度1.00g･cm-３）100mLを加え、希釈した。
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -116,15 +163,21 @@ questions:
   - an-lab-equipment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ビュレットは最小目盛の 1/ 10までを読みとる。
+  - ホールピペットの容量に対する許容誤差の割合は、一般に、容量が小さいものの方が大きい。
+  - メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる。
+  - 一般的なマイクロシリンジでは、針の内容積は目盛りが示す体積に含まれない。
+  - マイクロシリンジは、体積計としての基準はなく、その精度はメーカーが独自に制定したものである。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -134,15 +187,21 @@ questions:
   - an-gas-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体のメチルエチルケトンを捕集袋内の清浄空気中で完全に気化させ、10 ppmの標準ガス 100 Lを調製するとき、必要なメチルエチルケトンの質量に最も近いものは次のうちどれか。ただし、メチルエチルケトンのモル質量は 72 g･mol ⁻¹ とする。また、調製した標準ガスの温度は 25 ℃、圧力は1気圧とする。
+  choices:
+  - 0.3 mg
+  - 0.6 mg
+  - 1.5 mg
+  - 3.0 mg
+  - 6.0 mg
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 3.0mg
   _stem_head: 液体のメチルエチルケトンを捕集袋内の清浄空気中で完全に気化させ、10ppmの標準ガス100Lを調製するとき、必要なメチルエチルケトンの質量に
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -151,15 +210,21 @@ questions:
   - an-reagents-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分析に用いる試薬及びその取扱に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試薬特級の純度は、日本産業規格で規格化されている。
+  - 特定の分析を目的として不純物の種類・濃度の許容レベルを定めた特殊規格の試薬が存在する。
+  - 一次標準物質は、滴定により純度を規定する必要がある。
+  - 空気中の二酸化炭素で純度が低下する試薬がある。
+  - 酸類と塩基類は、災害時の危険を避けるために別々の場所に保管する。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 一次標準物質は、滴定により純度を規定する必要がある。
   _stem_head: 分析に用いる試薬及びその取扱に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -168,15 +233,24 @@ questions:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ICP 発光分析法について、その分析に関する項目Ⓐとそれに関連する事項又は記述Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 測定波長の選択 ／ 回折格子
+  - イオン化干渉 ／ 軸方向観察に比べ横方向観察の方が、より影響が大きい
+  - 検量線の直線範囲 ／ 原子吸光分析法に比べ広い
+  - プラズマ中で発光する測定対象原子 ／ 中性原子又はイオンの励起状態
+  - 多元素の同時測定 ／ 可能
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: イオン化干渉軸方向観察に比べ横方向観察の方が、より影響が大きい
   _stem_head: ICP発光分析法について、その分析に関する項目Ⓐとそれに関連する事項又は記述Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -185,15 +259,23 @@ questions:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 硫酸銅五水和物（CuSO₄･5 H₂O）を水に溶解して、硫酸銅の濃度 1.00 ×10⁻⁴ mol･L⁻¹ の水溶液を調製した。この水溶液 1.00 mLに含まれる銅の質量として正しい値は次のうちどれか。ただし、銅の原子量は 63.5 とする。
+  choices:
+  - 6.35 × 10⁻⁴ mg
+  - 6.35 × 10⁻³ mg
+  - 6.35 × 10⁻² mg
+  - 6.35 × 10⁻¹ mg
+  - 6.35 mg
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: O）を水に溶解して、硫酸銅の濃度1.00×10-４mol･L-１の水溶液を調製した。この水溶液1.00mLに含まれる銅の質量として正しい値は次のうちどれか。ただし、銅の原子量は63
   _stem_head: 硫酸銅五水和物（CuSO
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.09）
 - num: 12
   status: draft
   chapters:
@@ -203,15 +285,21 @@ questions:
   - an-titration-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 容量分析の一次標準物質には、化学的に安定な固体試薬が用いられる。
+  - 硝酸銀溶液の標定には、塩化ナトリウムが用いられる。
+  - 水酸化ナトリウム溶液の標定には、硝酸カリウムが用いられる。
+  - 塩酸溶液の標定には、炭酸ナトリウムが用いられる。
+  - 過マンガン酸カリウム溶液の標定には、シュウ酸ナトリウムが用いられる。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 水酸化ナトリウム溶液の標定には、硝酸カリウムが用いられる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 13
   status: draft
   chapters:
@@ -220,15 +308,21 @@ questions:
   - an-spectrophotometry-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法における測定対象物質の光吸収に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 吸光度は、光路長に比例する。
+  - 吸光度は、通常、吸収極大波長で測定する。
+  - 吸収極大波長で、モル吸光係数は極大となる。
+  - 吸収極大波長は、溶媒の種類を変えても変化しない。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 吸収極大波長は、溶媒の種類を変えても変化しない。
   _stem_head: 吸光光度分析法における測定対象物質の光吸収に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -238,15 +332,21 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: モル質量が 60 g･mol⁻¹ の物質 A の溶液が 100 mL ある。この溶液の一部を光路長 2.0 cmの試料セルに入れ、波長 550 nmにおける吸光度を測定したところ、0.480であった。この溶液中に含まれる物質 A の質量として、正しい値は次のうちどれか。ただし、この溶液中で、物質Aの550 nmにおけるモル吸光係数は 1.2×10⁴mol⁻¹･L･cm⁻¹である。
+  choices:
+  - 60 µg
+  - 120 µg
+  - 240 µg
+  - 300 µg
+  - 360 µg
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 120µg
   _stem_head: モル質量が60g･mol-１の物質Aの溶液が100mLある。この溶液の一部を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -255,15 +355,21 @@ questions:
   - an-aas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 中空陰極ランプは、光源として用いられる。
+  - フレーム中における目的原子の原子蒸気は、ほとんどが基底状態にある。
+  - 吸光度は、光源光の強度に比例する。
+  - 吸光度は、光源光がフレームを通過する位置の影響を受ける。
+  - 定量は、検量線法により行う。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 吸光度は、光源光の強度に比例する。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -272,15 +378,21 @@ questions:
   - an-fluorescence-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分光蛍光光度計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源にはタングステンランプが用いられる。
+  - 励起光は、光源光を励起分光器で分光した光である。
+  - 石英製の試料セルが用いられる。
+  - 試料からの蛍光は、蛍光分光器で分光される。
+  - 検出器として光電子増倍管が用いられる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 光源にはタングステンランプが用いられる。
   _stem_head: 分光蛍光光度計に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -289,15 +401,21 @@ questions:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリーガスクロマトグラフ分析法に用いられるカラムに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 理論段相当高さが高いほど理論段数は大きくなる。
+  - カラム内径が小さいほど理論段数は大きくなる。
+  - カラムの液相の膜厚が小さいほど理論段数は大きくなる。
+  - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+  - 無極性液相では、無極性化合物は一般に沸点の低い順に溶出する。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 理論段相当高さが高いほど理論段数は大きくなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法に用いられるカラムに関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -306,15 +424,24 @@ questions:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ 不飽和炭化水素化合物
+  - 炎光光度検出器（FPD） ／ 飽和炭化水素化合物
+  - 電子捕獲検出器（ECD） ／ 有機ハロゲン化合物
+  - 光イオン化検出器（PID） ／ 芳香族炭化水素化合物
+  - 熱イオン化検出器（TID，FTD） ／ 有機リン化合物
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 炎光光度検出器（FPD）飽和炭化水素化合物
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -323,15 +450,25 @@ questions:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X 線回折分析法に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「X 線回折分析法では、X 線管から生じる［㋑］を利用する。［㋑］にはK 線や K 線など波長の異なる X 線が混在しているため、金属薄膜を用いα βた除去フィルターやブラッグ反射角の差異を利用した［㋺］により選択したX 線を試料に照射する。試料から回折した X 線の回折角を［㋩］で測定し、ブラッグの法則を用いて試料の格子面間隔を求める。」
+  choices:
+  - 特性 X 線 ／ モノクロメーター ／ コリメーター
+  - 特性 X 線 ／ モノクロメーター ／ ゴニオメーター
+  - 連続 X 線 ／ モノクロメーター ／ ゴニオメーター
+  - 連続 X 線 ／ ポリクロメーター ／ ゴニオメーター
+  - 連続 X 線 ／ ポリクロメーター ／ コリメーター
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 特性X線モノクロメーターゴニオメーター
   _stem_head: X線回折分析法に関する次の記述の㋑から㋩のに入る語句の組合せとして、正しいものは下のうちどれか。「X線回折分析法では、X線管から生じる㋑を利
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -341,12 +478,18 @@ questions:
   - an-logarithm-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 半減期 12 年の放射性核種の放射能が 1000 Bqであるとき、6年後の放射能として正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 800 Bq
+  - 700 Bq
+  - 600 Bq
+  - 500 Bq
+  - 250 Bq
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 700Bq
   _stem_head: 半減期12年の放射性核種の放射能が1000Bqであるとき、６年後の放射能として正しい値に最も近いものは次のうちどれか。
+  _review: true

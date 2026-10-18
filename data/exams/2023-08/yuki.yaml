@@ -1,0 +1,411 @@
+exam: 2023-08
+date: null
+subject: yuki
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤の物性等に関する次の記述のうち、誤っているものはどれか。ただし、大気圧は1気圧とする。
+  columns: null
+  choices:
+  - シクロヘキサノンの分子量は、シクロヘキサノールの分子量より小さい。
+  - トルエンの融点は、キシレンの融点より低い。
+  - 1-ブタノールの沸点は、イソブチルアルコールの沸点より低い。
+  - 25 ℃ において、trans-1,2-ジクロロエチレンの密度は、1,1,1-トリクロロエタンの密度より小さい。
+  - 25 ℃において、イソプロピルアルコールの蒸気圧は、酢酸イソプロピルの蒸気圧より小さい。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ある有機溶剤に等量の水を加えて撹拌後放置したところ、ほぼ等量に2相に分離した。この下層を取り出し、これに等量の水を加え撹拌後放置したところ、再びほぼ等量に2相に分離した。次の有機溶剤のうち、上記の記述に該当するものはどれか。
+  columns: null
+  choices:
+  - メタノール
+  - n-ヘキサン
+  - 酢酸エチル
+  - 二硫化炭素
+  - テトラヒドロフラン
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤 A：イソペンチルアルコール、B：エチレングリコールモノエチルエーテル、C：メチル‐n‐ブチルケトンをモル質量の大きい順に並べたものは次のうちどれか。
+  columns: null
+  choices:
+  - A ＞ B ＞ C
+  - A ＞ C ＞ B
+  - B ＞ A ＞ C
+  - C ＞ A ＞ B
+  - C ＞ B ＞ A
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤の捕集に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集袋により試料を採取する場合には、内容積 5 L以上のものを用いる。
+  - 小型ガス吸収管による試料採取時の空気吸引流量は、50～100 mL･min⁻¹とする。
+  - 固体捕集法で試料を捕集する場合、電動ポンプの流量調整は捕集管等を接続せずに行う。
+  - ガラス製、プラスチック製にかかわらず、管や装置の接続にグリースは使用しない。
+  - 流量計の校正には、基準流量計として石けん膜流量計を用いることができる。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 固体捕集法-ガスクロマトグラフ分析法に関する次の記述の㋑から㋩のに入る語句の組合せとして、不適当なものは下のうちどれか。「作業環境空気中の［㋑］は［㋺］に捕集し、［㋩］で脱着して得た試料液を、ガスクロマトグラフに導入して定量する。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - トルエン ／ 活性炭管 ／ 二硫化炭素
+  - メチルエチルケトン ／ シリカゲル管 ／ アセトン
+  - イソプロピルアルコール ／ 活性炭管 ／ N,N-ジメチルホルムアミド
+  - メタノール ／ シリカゲル管 ／ 精製水
+  - n-ヘキサン ／ 活性炭管 ／ 精製水
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤の受動型試料採取機器（パッシブサンプラー）における捕集速度に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 一般に、単位は cm³･min⁻¹を用いる。
+  - 任意の速度に調整することはできない。
+  - 気流の影響を受けると変動する。
+  - サンプラーの構造により異なる。
+  - 有機溶剤の種類にかかわらず同じである。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 検知管法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 濃度目盛は、20 ℃ を基準にしている。
+  - 検知剤は、測定対象物質以外と反応することがある。
+  - 個人サンプリング法（C・D 測定）では、検知管法を用いることはできない。
+  - 検知剤の変色層の長さは、担体粒子径の影響を受ける。
+  - 変色層が斜めの場合、変色した部分の最先端と斜めに変色が生じ始めた点との中央値を読み取る。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ポリエチレングリコール系の高極性カラムを用いたガスクロマトグラフ分析法において、トルエンより保持時間の長い有機溶剤は次のうちどれか。
+  columns: null
+  choices:
+  - イソプロピルアルコール
+  - キシレン
+  - メチルエチルケトン
+  - 酢酸エチル
+  - n-ヘキサン
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法のキャリアガスに関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - キャリアガスとして、水素を使用することができる。
+  - 溶出ピークの幅は、カラム内キャリアガスの渦流拡散の影響を受ける。
+  - カラムの理論段数は、キャリアガスの種類が関係する。
+  - 内径0.3 mmのキャピラリカラムでは、キャリアガス流量が20～30 mL･min⁻¹が適切である。
+  - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 複数成分を含む試料を分析する際、ガスクロマトグラフの温度設定に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「カラム温度は分析対象物質の沸点を基にして決められるが、カラム温度が［㋑］ほど試料成分の固定相への分配が［㋺］なるので、一般に、試料成分のピークとピークの間隔は［㋩］なる。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 低い ／ 小さく ／ 広く
+  - 低い ／ 大きく ／ 狭く
+  - 高い ／ 小さく ／ 狭く
+  - 高い ／ 大きく ／ 狭く
+  - 高い ／ 大きく ／ 広く
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法のキャピラリカラムに関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - キャピラリカラムの内径は 0.1 ～ 0.8 mm程度である。
+  - キャピラリカラムの材質には、一般に溶融石英（ヒューズドシリカ）が使用されている。
+  - 市販のキャピラリカラムの多くは、液相を内壁に化学結合させたもの（ケミカルボンディド）である。
+  - 充塡カラムと比較して、キャピラリカラムでは、試料導入量を多くする。
+  - 充塡カラムと比較して、キャピラリカラムは多成分を含む試料の分離分析に適している。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - カラムの長さが2倍になると、理論段数は約 2 倍になる。
+  - カラムの内径が小さいほど、理論段数は大きくなる。
+  - 理論段数は、温度によって変化する。
+  - カラムの理論段相当高さを最小にするキャリアガス流速が存在する。
+  - 分離度が 1.5 より大きいとき、2つのピークはほぼ完全に分離する。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 代表的なイオン化法には、電子イオン化法がある。
+  - イオン化条件によっては、分子イオンが観察されない場合がある。
+  - 一般的に、キャリアガスとして高純度窒素ガスを用いることが多い。
+  - 代表的な質量分離装置には、四重極型がある。
+  - 定量は代表的なイオンのピーク面積あるいは高さで行う。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラム上にあるピークの保持時間に相当する長さが 150 mm、ピーク幅が 6.0 mm であった。このピークについて計算した理論段相当高さ（単位段数当たりのカラムの長さ）は 2.0 mmであった。使用したこのカラムの長さとして、正しい値は次のうちどれか。
+  columns: null
+  choices:
+  - 5 m
+  - 10 m
+  - 15 m
+  - 20 m
+  - 25 m
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 一般に、測定波長は、吸収スペクトルの吸収極大を示す波長を選択する。
+  - 発色反応のために試料液を加熱した場合は、常温に戻してから吸光度を測定する。
+  - 可視領域の測定には、光源としてタングステンランプが用いられる。
+  - 光電子増倍管は、紫外領域の検出器に用いることができる。
+  - ガラス製セルは、波長 340 nm以下の紫外域の測定に使用する。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 吸光度は、試料液の濃度に比例し、光路長に反比例する。
+  - T を透過率（％）、A を吸光度とすると、A = 2-log₁₀T が成り立つ。
+  - 二重結合を持つ化合物は、試料液が無色であっても紫外部の光を吸収する。
+  - 石英製セルは、全ての測定波長領域で用いることができる。
+  - 光路長が同一の場合、透過率（％）の値が大きいほど、対象物質の試料液中の濃度は低い。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ある有機溶剤 1.50 mLを精製水で100 mLとし、この溶液1.00 mLを正確にはかり、発色させた上で、更に精製水で100 mLとした。この溶液を波長500 nm で光路長 1.00 cmのセルを用いて吸光度を測定したところ 0.500 となった。発色した物質のモル吸光係数の値に最も近いものは次のうちどれか。ただし、この有機溶剤の密度は0.785 g･cm⁻³（25℃）、モル質量は58.1 g･mol⁻¹とする。
+  columns: null
+  choices:
+  - 1.93 × 10² cm⁻¹･mol⁻¹･L
+  - 2.46 × 10² cm⁻¹･mol⁻¹･L
+  - 1.93 × 10³ cm⁻¹･mol⁻¹･L
+  - 2.46 × 10³ cm⁻¹･mol⁻¹･L
+  - 4.25 × 10³ cm⁻¹･mol⁻¹･L
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気中の酢酸エチルを真空捕集瓶に捕集した。この試料ガス中の酢酸エチルを定量するために、酢酸エチル 5.0 mL を含む二硫化炭素溶液 50 mLから 5.0 µLをマイクロシリンジで採取し、清浄空気の入っている 1.0 Lの真空捕集瓶中に完全に蒸発させ、標準ガスを作成した。試料ガス及び標準ガスを同一条件でガスクロマトグラフ分析したところ、試料ガスのピーク面積は、標準ガスのピーク面積の 1 / 5 であった。作業環境空気中の酢酸エチル濃度として、正しい値に最も近いものは次のうちどれか。ただし、酢酸エチル（液体）の密度を 0.89 g･cm⁻³、モル質量を 88 g･mol⁻¹とする。また、気温は 25 ℃、大気圧は1気圧とする。
+  columns: null
+  choices:
+  - 5 ppm
+  - 15 ppm
+  - 20 ppm
+  - 25 ppm
+  - 50 ppm
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: トルエンを含む塗料が入ったスプレーガンを持ちながら、製品の周辺を移動して行う吹付塗装作業が1名の作業者により行われていた。作業者に能動型試料採取器（アクティブサンプラー）を装着して、8時間のサンプリングを行った。作業後に採取器を回収し、捕集されたトルエンを溶媒 2.0 mLで脱着してガスクロマトグラフで分析した。分析結果としてトルエン1626 µg･mL⁻¹ が得られた。C 測定値として、正しい値に最も近いものは次のうちどれか。ただし、吸引流量は 0.10 L･min⁻¹、トルエンのモル質量は 92.1 g･mol⁻¹、脱着率は 90 % とする。また、気温は 25 ℃、大気圧は1気圧とする。
+  columns: null
+  choices:
+  - 16 ppm
+  - 18 ppm
+  - 20 ppm
+  - 24 ppm
+  - 30 ppm
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法に用いる検量線に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 標準溶液は、対象の標準物質を脱着溶媒で適切な濃度範囲内に希釈したものを用いる。
+  - 比較的高濃度の溶液を標準原液として冷暗所に保管し、検量線作成の都度、適切に希釈して標準系列液を調製する。
+  - 検量線の適用範囲は、標準系列液の濃度の上限と下限の間にあり、かつ直線とみなせる範囲である。
+  - 内標準法で用いられる内標準物質には、目的物質と物理的・化学的によく似ているが、実際の試料中に含まれず、かつ、測定を妨害しない物質を選択する。
+  - 内標準法では、ガスクロマトグラフに導入した試料の体積を正確に測定する必要がある。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

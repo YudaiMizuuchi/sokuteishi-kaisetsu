@@ -318,6 +318,13 @@ def parse_question(num, qlines):
             for c in pg["page"].chars:
                 if c["text"] in CHOICE_DIGITS and 0 < c["x0"] - m[2] < 20 and abs((c["top"] + c["bottom"]) / 2 - my) < 5:
                     answer.add(CHOICE_DIGITS.index(c["text"]) + 1)
+    # 見つからないとき：○印と同じ高さにある選択肢の行を正答とする（番号が離れている・文字になっていない場合）
+    if not answer:
+        for j, k in enumerate(choice_idx):
+            p, ln = qlines[k]
+            cy = (ln.top + ln.bottom) / 2
+            if any(abs((m[1] + m[3]) / 2 - cy) < 8 and m[2] < ln.x0 + 15 for m in p["marks"]):
+                answer.add(j + 1)
     answer = sorted(answer)
 
     stem_end = choice_idx[0] if choice_idx else len(qlines)

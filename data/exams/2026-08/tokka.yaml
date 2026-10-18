@@ -1,0 +1,420 @@
+exam: 2026-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: シアン化水素の吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - シアン化水素は、硫酸を含浸したろ紙を使用して捕集し、精製水を加えて試料溶液とする。
+  - 標準原液は、シアン化カリウムを精製水に溶解して調製する。
+  - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で滴定して標定する。
+  - 試料溶液は中和し、緩衝液で pH を調整する。
+  - クロラミン T を加えた後、ピリジン-ピラゾロンを加えて発色させる。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ある化合物の水溶液を吸光光度分析法で測定したところ、測定波長における透過率は 80 ％であった。その波長におけるモル吸光係数を 8.26 × 10³cm⁻¹･mol⁻¹･L、セルの光路長を 2.0 cm とすると、この化合物のモル濃度に最も近いものは次のうちどれか。ただし、log₁₀2 = 0.301 とする。
+  columns: null
+  choices:
+  - 1.3 × 10 ⁻⁶ mol･L⁻¹
+  - 2.0 × 10 ⁻⁶ mol･L⁻¹
+  - 2.9 × 10 ⁻⁶ mol･L⁻¹
+  - 5.9 × 10 ⁻⁶ mol･L⁻¹
+  - 11.7 × 10 ⁻⁶ mol･L⁻¹
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 硫化水素を液体捕集し、得られた試料液に塩化鉄（Ⅲ）と p-アミノジメチルアニリンを加えて、生成する物質の吸光度を測定して定量した。この分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集液の調製には硫酸亜鉛七水和物を用いる。
+  - 塩化鉄（Ⅲ）は酸化剤として働く。
+  - 生成する物質はメチレンブルーである。
+  - 標準原液は硫化ナトリウムから調製する。
+  - 標準原液の濃度の標定に中和滴定法を用いる。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気中のエチレンイミンの吸光光度分析法に関する次の記述の㋑から㋩の［　］に入る用語又は数値の組合せとして、正しいものは下のうちどれか。「環境空気中のエチレンイミンを精製水中に捕集し、捕集液を［㋑］にしてナフトキノンスルホン酸と反応させる。生成する黄色色素を［㋺］に抽出し、［㋩］nm 付近の波長での吸光度から定量を行う。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 酸性 ／ クロロホルム ／ 250
+  - 酸性 ／ クロロホルム ／ 420
+  - 酸性 ／ アセトニトリル ／ 420
+  - アルカリ性 ／ クロロホルム ／ 420
+  - アルカリ性 ／ アセトニトリル ／ 250
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法の検出器に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 水素炎イオン化検出器は、水素炎中で燃焼しイオン化する物質のみを検出する。
+  - 電子捕獲型検出器は、電子親和力の強い物質が高感度で検出される。
+  - 電子捕獲型検出器の直線性を示す測定範囲は、水素炎イオン化検出器よりも狭い。
+  - 炎光光度検出器は、窒素や硫黄を含む化合物に選択性がある。
+  - 質量分析計は、分子構造情報を収集できる。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法で、ある化合物をカラムA を用いて測定したときと、カラム B を用いて測定したときの保持時間が同じであった。カラム A の理論段数が 5000 、カラム B の理論段数が 9000 の場合、カラム B におけるピーク幅（WB）とカラム A におけるピーク幅（WA）の比（WB／WA）の値として、正しい値に最も近いものは次のうちどれか。
+  columns: null
+  choices:
+  - '0.38'
+  - '0.56'
+  - '0.75'
+  - '1.34'
+  - '1.80'
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法において、キャピラリーカラムを使用する場合に用いる次の試料導入法のうち、高濃度試料の分析に最も適しているものはどれか。
+  columns: null
+  choices:
+  - 加熱脱着法
+  - プログラム昇温気化注入法
+  - スプリット注入法
+  - スプリットレス注入法
+  - 直接注入法
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気中のエチレンオキシドの測定方法に関する次の記述の㋑から㋩のに入る用語の組合せとして、正しいものは下のうちどれか。「活性炭に［㋑］を含浸・乾燥させたものを充塡した捕集管に試料空気を通気し、エチレンオキシドを誘導体化して 2-ブロモエタノールとして捕集する。この2-ブロモエタノールをトルエン／アセトニトリルで抽出し、［㋺］を加えて1時間以上放置した後、［㋩］で分析する。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 臭化水素酸 ／ 塩化ナトリウム ／ 高速液体クロマトグラフ分析法
+  - 臭化水素酸 ／ 炭酸ナトリウム ／ 高速液体クロマトグラフ分析法
+  - 臭化水素酸 ／ 炭酸ナトリウム ／ ガスクロマトグラフ質量分析法
+  - 臭化カリウム溶液 ／ 塩化ナトリウム ／ ガスクロマトグラフ質量分析法
+  - 臭化カリウム溶液 ／ 炭酸ナトリウム ／ 高速液体クロマトグラフ分析法
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境測定の一般的事項に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 25 ℃、1気圧におけるガス又は蒸気の1モルの体積は、22.4 L である。
+  - 空気中に存在する有害物質の濃度は、質量濃度又は体積分率で表す。
+  - 空気中の有害物質は、粒子、ガス又は蒸気の状態で存在する。
+  - 標準液の濃度は、所定の濃度に厳密に合わせる必要はない。
+  - 標準系列液は、原則的に保管はしない。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質用の検知管Ⓐとマイナスの妨害を示す物質Ⓑとの組合せとして、正しいものは次のうちどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - アクリロニトリル用検知管 ／ シアン化水素
+  - ベンゼン用検知管 ／ トルエン
+  - 塩化ビニル用検知管 ／ 塩化水素
+  - フッ化水素用検知管 ／ 硝酸
+  - 硫化水素用検知管 ／ 二酸化窒素
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気（25 ℃、1気圧）中の p-ニトロクロロベンゼンの濃度を測定するため、2本のミゼットインピンジャーの各々に捕集液 10 mL を入れて直列に連結し、試料空気を流量 1.0 L･min⁻¹ で10分間捕集した。捕集後の捕集液は合わせてメスフラスコに入れ、さらに捕集液で 25 mL に定容したものを試料液とした。ガスクロマトグラフで分析した結果、試料液のピーク面積は 1700 であった。p-ニトロクロロベンゼン濃度が、0.25 µg･mL⁻¹ の標準液を試料液と同様に分析したところ、ピーク面積は 5300 であった。環境空気中の p-ニトロクロロベンゼン濃度として、正しい値に最も近いものは次のうちどれか。
+  columns: null
+  choices:
+  - 0.1 mg･m⁻³
+  - 0.2 mg･m⁻³
+  - 0.4 mg･m⁻³
+  - 0.6 mg･m⁻³
+  - 0.8 mg･m⁻³
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 蛍光光度分析法による作業環境空気中の α-ナフチルアミン濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - α-ナフチルアミンは、インピンジャーを用いて捕集する。
+  - エチルエーテルを用いて捕集液から抽出する。
+  - 亜硝酸ナトリウムとスルファニル酸を加えて、誘導体化する。
+  - 薄層クロマトグラフ法を用いて単離し、蛍光強度を測定する。
+  - α-ナフチルアミンをエタノールに溶解して、標準液とする。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-08-tokka-13-choices.png
+    alt: 問13の選択肢
+  law_note: null
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 体積 2 L の3個の容器に、アクリロニトリル（A）、酸化プロピレン（B）、ヨウ化メチル（C）をそれぞれ 1 g ずつ別々に入れて密封し 20 ℃に保った｡定常状態になったとき、各容器中のそれぞれの物質の分圧（PA、PB、PC）を大きい順に並べたものは下のうちどれか。ただし、アクリロニトリル、酸化プロピレン、ヨウ化メチルの物性等は次の表のとおりとする。
+  columns: null
+  choices:
+  - PA ＞ PC ＞ PB
+  - PB ＞ PA ＞ PC
+  - PB ＞ PC ＞ PA
+  - PC ＞ PA ＞ PB
+  - PC ＞ PB ＞ PA
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-08-tokka-14-1.png
+    alt: 問14の図
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 化合物Ⓐとその構造式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-08-tokka-15-choices.png
+    alt: 問15の選択肢
+  law_note: null
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 拡散チューブの上端で希釈用ガスの気流と混合する。
+  - 拡散チューブ内の濃度勾配に従って蒸気が移動する。
+  - 標準ガスの濃度は、拡散速度が一定とみなせるときの液体の減少量から求める。
+  - 拡散セルに振動を与えることで拡散速度の安定性を確保する。
+  - 標準ガスの濃度は、拡散セルを保持する恒温槽の温度が高いほど高くなる。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質Ⓐと、その分析を吸光光度分析法を用いて行う場合の標準原液の調製に用いる溶媒Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - フッ化水素 ／ アセトン
+  - ペンタクロロフェノール ／ 水酸化ナトリウム溶液
+  - クロロメチルメチルエーテル ／ アセトン
+  - オーラミン ／ メタノール
+  - ニトログリコール ／ 精製水
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の測定対象物質のうち、ろ過捕集法と固体捕集法を組み合わせた相補型ろ過捕集法により捕集するものはどれか。
+  columns: null
+  choices:
+  - エチルベンゼン
+  - アクリロニトリル
+  - o-フタロジニトリル
+  - 塩化ビニル
+  - o-トルイジン
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 直接捕集法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 真空捕集瓶のコックのすり合わせ部には、グリースを使用しない。
+  - 捕集袋の内容積は、試料採取から分析までの間の濃度減衰を考慮して、5L 以上とする。
+  - 捕集袋は、清浄な乾燥空気又は窒素を用いて洗浄する。
+  - 試料空気から水分を取り除く場合には、ガラス管にシリカゲルなどの乾燥剤を詰めて、試料採取口の前に接続する。
+  - 電動ポンプを通して、捕集袋内に試料空気を送り採取する場合、ポンプ内の吸着に注意する必要がある。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。ただし、単位は次のとおりとする。（単位、式及び選択肢は下の図のとおり）
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2026-08-tokka-20-choices.png
+    alt: 問20の選択肢
+  law_note: null

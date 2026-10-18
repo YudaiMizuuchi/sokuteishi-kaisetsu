@@ -1,27 +1,35 @@
 exam: 2024-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
   - an-mole-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - アボガドロ定数の数の物質粒子（原子、分子、イオン等）の物質量は、1モルである。
+  - 原子量は、¹²C の質量を基準として定められている。
+  - 原子の質量数は、その原子が有する陽子数と電子数との和である。
+  - 原子番号の順に元素を並べると、原子及び単体の諸性質に一定の周期性がある。
+  - 中性の原子又は分子は、電子を失うと正に帯電する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '原子の質量数は、原子核に含まれる**陽子の数と中性子の数**の和です。電子は質量がとても小さく、質量数には含めません。「陽子数と電子数との和」とする選択肢3は誤りです。
+
+
+    原子番号は陽子の数、質量数は陽子と中性子の数の和です。陽子の数が同じで中性子の数が違う原子が同位体です。'
   figures: []
   law_note: null
   _key_choice: 原子の質量数は、その原子が有する陽子数と電子数との和である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
-  status: draft
+  status: published
   chapters:
   - quantification
   - statistics
@@ -29,51 +37,81 @@ questions:
   - an-statistics-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: データの取扱いに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 誤差とは、測定値の平均値と各測定値との差のことである。
+  - 精度とは、分析値のバラツキの程度を示すものである。
+  - 真度（正確さ）とは、分析を無限回繰り返したときに得られる平均値が真の値にどれだけ近いかを示すものである。
+  - 精度と真度（正確さ）よりも迅速性を優先することがある。
+  - 測定値のバラツキの大きさを示す場合は、測定値の平均値に標準偏差や不偏分散の平方根などを±をつけて表す。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '誤差とは、測定値と**真の値（真値）**との差のことです。測定値の平均値と各測定値との差は「偏差」なので、選択肢1は誤りです。
+
+
+    偏差はばらつきの計算（分散・標準偏差）に使う値で、誤差は真値からのずれです。真値は実際には分からないので、誤差は推定するしかありません。'
   figures: []
   law_note: null
   _key_choice: 誤差とは、測定値の平均値と各測定値との差のことである。
   _stem_head: データの取扱いに関する次の記述のうち、誤っているものはどれか。
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アルコールは、-OH 基をもっている。
+  - カルボン酸は、-COOH 基をもっている。
+  - アルデヒドは、-CHO 基をもっている。
+  - エーテルは、＞CO 基をもっている。
+  - 第一アミンは、-NH₂基をもっている。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'エーテルがもつのは、酸素原子が2つの炭素にはさまれたエーテル結合（-O-）です。＞CO（カルボニル基）は、ケトンやアルデヒドがもつ基なので、選択肢4は誤りです。
+
+
+    アルコール -OH、カルボン酸 -COOH、アルデヒド -CHO、ケトン ＞CO、エーテル -O-、第一アミン -NH₂ と、官能基と化合物の種類を対で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: エーテルは、CO基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: メタン 4 g と二酸化炭素 11 g との混合気体を 1.0 気圧にしたとき、メタンの分圧として正しい値は、次のうちどれか。ただし、水素、炭素及び酸素の原子量は、それぞれ 1、12 及び 16 とする。
+  choices:
+  - 0.3 気圧
+  - 0.4 気圧
+  - 0.5 気圧
+  - 0.6 気圧
+  - 0.7 気圧
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '分圧は、混合気体全体の圧力を物質量の比で分けたものです。
+
+
+    メタン（CH₄、分子量 16）4 g ＝ 0.25 mol、二酸化炭素（CO₂、分子量 44）11 g ＝ 0.25 mol
+
+
+    メタンの分圧 ＝ 1.0 気圧 × 0.25 ÷ (0.25 ＋ 0.25) ＝ 0.5 気圧
+
+
+    よって（3）が正しい値です。質量の比（4：11）で分けてしまうと、別の答えになります。分圧は必ず物質量（mol）の比で分けましょう。'
   figures: []
   law_note: null
   _key_choice: 0.5気圧
   _stem_head: メタン4gと二酸化炭素11gとの混合気体を1.0気圧にしたとき、メタンの分圧として正しい値は、次のうちどれか。ただし、水素、炭素及び酸素の原
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -81,34 +119,59 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の物質の0.1 mol･L⁻¹の水溶液のうち、そのpHが最も小さいものはどれか。
+  choices:
+  - 硝酸
+  - 硫酸
+  - 酢酸
+  - フッ化水素酸
+  - 炭酸
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '同じ濃度の酸では、強酸で、1分子から出す水素イオンの数が多いほど pH が小さくなります。硫酸は2価の強酸なので、1価の強酸である硝酸より水素イオン濃度が大きく、pH が最も小さくなります。よって（2）です。
+
+
+    酢酸、フッ化水素酸、炭酸は弱酸なので、同じ濃度では強酸より pH が大きくなります。令和7年度第1回でも、同じ型の問題が出ています。'
   figures: []
   law_note: null
   _key_choice: 硫酸
   _stem_head: 次の物質の0.1mol･L-１の水溶液のうち、そのpHが最も小さいものはどれか。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   traps:
   - an-equilibrium-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
+
+
+    A ＋ B ⇄ C ＋ q（q は熱エネルギーで q ＜ 0）
+
+
+    ただし、平衡定数（K）は次の式で表される。
+
+
+    K ＝ [C] ÷ ([A][B])'
+  choices:
+  - 平衡状態での正反応と逆反応の反応速度は等しい。
+  - この反応は、温度を上げると左に進む。
+  - この反応の平衡定数の単位は、mol⁻¹･L である。
+  - 平衡定数は、平衡状態での物質の濃度から計算できる。
+  - 平衡定数は、温度に依存する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '熱化学反応式の q が負（q ＜ 0）なので、右向きの反応は熱を**吸収する**反応（吸熱反応）です。温度を上げると、平衡は熱を吸収する向き、つまり**右**に移動します。「左に進む」とする選択肢2は誤りです。
+
+
+    ルシャトリエの原理では、加えた変化をやわらげる向きに平衡が移動します。温度を上げれば熱を吸収する向き、下げれば熱を出す向きに進みます。q の符号から、どちらが吸熱かを最初に確かめましょう。'
   figures: []
   law_note: null
   _key_choice: この反応は、温度を上げると左に進む。
   _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。A＋BC＋q（qは熱エネルギーでq＜０）た
 - num: 7
-  status: draft
+  status: published
   chapters:
   - standard-gas
   - gas
@@ -116,68 +179,114 @@ questions:
   - an-gas-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体のトルエン 3.0 mgを捕集袋内の清浄空気中で完全に気化させて、トルエンの標準ガス 100 Lを調製した。その濃度として、正しい値に最も近いものは次のうちどれか。ただし、トルエンのモル質量は92 g･mol⁻¹とし、気体定数を0.082 atm L mol⁻¹K⁻¹とする。また、調製した標準ガスの温度は 25 ℃、圧力は1気圧とする。
+  choices:
+  - 2 ppm
+  - 4 ppm
+  - 6 ppm
+  - 8 ppm
+  - 10 ppm
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'トルエンの物質量を求め、25℃・1気圧での体積に直してから、100 L に対する割合を出します。
+
+
+    トルエンの物質量 ＝ 3.0 × 10⁻³ g ÷ 92 g/mol ≒ 3.26 × 10⁻⁵ mol
+
+
+    気体の体積 ＝ 3.26 × 10⁻⁵ mol × 0.082 × 298 L/mol ≒ 7.97 × 10⁻⁴ L
+
+
+    濃度 ＝ 7.97 × 10⁻⁴ L ÷ 100 L ≒ 8.0 × 10⁻⁶ ＝ 8 ppm
+
+
+    よって、最も近いのは（4）です。'
   figures: []
   law_note: null
   _key_choice: 8ppm
   _stem_head: 液体のトルエン3.0mgを捕集袋内の清浄空気中で完全に気化させて、トルエンの標準ガス100Lを調製した。その濃度として、正しい値に最も近いも
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない。
+  - 拡散セル内の液面の高さにより標準ガスの濃度が変化するため、セル内に入れる試薬量は常に一定にする必要がある。
+  - 標準ガスの濃度の微調整は、希釈空気の流量を変える方が拡散セルの温度を変えるよりも、短時間で行うことができる。
+  - 標準ガスの濃度は、拡散セルの温度が高いほど高くなる。
+  - 標準ガスの濃度は、拡散セルの拡散チューブの内径が大きいほど高くなる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '拡散セルからの標準物質の流出速度は、拡散チューブの内径や有効長、温度、物質の拡散係数・蒸気圧で決まり、液溜めの中の液面の高さではほとんど変わりません。液面の高さで濃度が変わるので試薬量を常に一定にする、とする選択肢2は誤りです。
+
+
+    拡散セルで濃度を決めるのは、細い拡散チューブの中を蒸気が拡散する速さです。液溜めは、蒸気を飽和状態に保つための部分です。'
   figures: []
   law_note: null
   _key_choice: 拡散セル内の液面の高さにより標準ガスの濃度が変化するため、セル内に入れる試薬量は常に一定にする必要がある。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  review_note: 拡散セルの濃度は液溜めの液面の高さでほとんど変わらない、と説明しています。確認中です。
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-reagents-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - メチレンブルー ／ pH 指示薬
+  - メチルイソブチルケトン ／ 金属キレートの抽出
+  - シリカゲル ／ 有機溶剤の捕集
+  - 二硫化炭素 ／ 有機溶剤の脱着
+  - 重水素化トルエン-d₈ ／ GC-MS 分析の内標準
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'メチレンブルーは、酸化還元滴定の指示薬などとして用いられる色素で、pH 指示薬ではありません。選択肢1は誤りです。
+
+
+    pH 指示薬としては、フェノールフタレイン、メチルオレンジ、ブロモチモールブルー（BTB）、メタクレゾールパープルなどがよく出題されます。'
   figures: []
   law_note: null
   _key_choice: メチレンブルーpH指示薬
   _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 誘導結合プラズマ発光分析法（ICP-AES 法）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 代表的な装置の構成は高周波励起源部、発光部、試料導入部、分光測光部、データ処理部からなる。
+  - 発光部のプラズマの温度は 6000-10000 K 程度である。
+  - 試料導入部のネブライザーは、先端部が細いため、試料溶液中に不溶物がある場合はあらかじめろ過する。
+  - 分光測光部はシーケンシャル型検出器とマルチ型検出器に大別されるが、いずれの形式でも多元素分析が可能である。
+  - プラズマの観測方向には軸方向と横方向があり、高濃度の測定には軸方向観測が、低濃度の測定には横方向観測が適している。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ICP 発光分光分析法のプラズマの観測方向は、軸方向観測の方が発光を長い光路で取り込むので感度が高く、**低濃度**の測定に適しています。横方向観測は、感度は下がるものの干渉が少なく、**高濃度**の測定に適しています。選択肢5は逆になっていて誤りです。
+
+
+    軸方向（プラズマの炎を正面から見る）は光を多く集められる、横方向（横から見る）は余分な光が入りにくい、と見る向きのイメージで覚えましょう。'
   figures: []
   law_note: null
   _key_choice: プラズマの観測方向には軸方向と横方向があり、高濃度の測定には軸方向観測が、低濃度の測定には横方向観測が適している。
   _stem_head: 誘導結合プラズマ発光分析法（ICP-AES法）に関する次の記述のうち、誤っているものはどれか。
+  review_note: ICP-AES の軸方向観測は低濃度、横方向観測は高濃度に適する、と説明しています。確認中です。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -185,17 +294,34 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度 2.00 × 10⁻² mol･L⁻¹の塩酸 10.0 mL と濃度 1.00×10⁻² mol･L⁻¹の水酸化ナトリウム水溶液 10.0 mL とを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0 × 10⁻³ mol･L⁻¹
+  - 2.0 × 10⁻³ mol･L⁻¹
+  - 3.0 × 10⁻³ mol･L⁻¹
+  - 4.0 × 10⁻³ mol･L⁻¹
+  - 5.0 × 10⁻³ mol･L⁻¹
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '混合した酸と塩基の物質量を比べ、余った分の濃度を求めます。
+
+
+    HCl ＝ 2.00 × 10⁻² × 0.0100 ＝ 2.00 × 10⁻⁴ mol
+
+
+    NaOH ＝ 1.00 × 10⁻² × 0.0100 ＝ 1.00 × 10⁻⁴ mol
+
+
+    余る H⁺ ＝ 1.00 × 10⁻⁴ mol、溶液は 20.0 mL なので、[H⁺] ＝ 1.00 × 10⁻⁴ ÷ 0.0200 ＝ 5.0 × 10⁻³ mol/L
+
+
+    よって（5）が正しい値です。混合後の体積（20.0 mL）で割ることを忘れないようにしましょう。'
   figures: []
   law_note: null
   _key_choice: 5.0×10-３mol･L-１
   _stem_head: 濃度2.00×10-２mol･L-１の塩酸10.0mLと濃度1.00×10-２mol･L-１の水酸化ナトリウム水溶液10.0mLとを混合した
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -203,34 +329,53 @@ questions:
   - an-titration-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 溶液Ⓐとそれを標定するのに用いる標準溶液Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 塩酸溶液 ／ 炭酸ナトリウム溶液
+  - 水酸化ナトリウム溶液 ／ フタル酸水素カリウム溶液
+  - 過マンガン酸カリウム溶液 ／ シュウ酸ナトリウム溶液
+  - 硝酸銀溶液 ／ 塩化ナトリウム溶液
+  - EDTA 溶液 ／ 硝酸カリウム溶液
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'EDTA 溶液の標定には、亜鉛標準液や炭酸カルシウムなど、EDTA と反応する金属イオンを含む標準物質を用います。硝酸カリウム溶液は EDTA の標定には用いないので、選択肢5は誤りです。
+
+
+    標定には、標定したい溶液と確実に反応する標準物質を使います。塩酸には炭酸ナトリウム、水酸化ナトリウムにはフタル酸水素カリウム、過マンガン酸カリウムにはシュウ酸ナトリウム、硝酸銀には塩化ナトリウム、と対で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: EDTA溶液硝酸カリウム溶液
   _stem_head: 溶液Ⓐとそれを標定するのに用いる標準溶液Ⓑとの次の組合せのうち、誤っているものはどれか。Ⓐ（標定する溶液）Ⓑ（標定に用いる標準溶液）
+  columns:
+  - Ⓐ（標定する溶液）
+  - Ⓑ（標定に用いる標準溶液）
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 水中で青色を示す物質の可視部の吸光光度分析法による測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源には、タングステンランプを用いる。
+  - 石英セルを用いる。
+  - 回折格子により測定波長の光を取り出す。
+  - 測定波長の光は、青色である。
+  - 光電子増倍管で光強度を測定する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '水溶液が青色に見えるのは、青色の補色にあたる橙色〜黄色の光を吸収し、残りの青色の光が透過しているからです。そのため、測定波長には、吸収される**橙色〜黄色**付近の光を用います。測定波長の光が青色とする選択肢4は誤りです。
+
+
+    「見えている色」は吸収されずに残った光の色で、「測る光」は吸収される光の色です。両者は補色の関係になります。'
   figures: []
   law_note: null
   _key_choice: 測定波長の光は、青色である。
   _stem_head: 水中で青色を示す物質の可視部の吸光光度分析法による測定に関する次の記述のうち、誤っているものはどれか。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -238,113 +383,175 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質 A の濃度が 3.0×10⁻⁵ mol･L⁻¹の溶液を光路長 2.0 cmのセルに入れ、波長 550 nm における吸光度を測定したところ、0.360 であった。次に、濃度が不明な物質 A の溶液を光路長 1.0 cmのセルに入れ、波長 550 nmにおける吸光度を測定したところ、0.480 であった。この溶液の物質 A の濃度として、正しい値は次のうちどれか。
+  choices:
+  - 2.0 × 10⁻⁵ mol･L⁻¹
+  - 4.0 × 10⁻⁵ mol･L⁻¹
+  - 6.0 × 10⁻⁵ mol･L⁻¹
+  - 8.0 × 10⁻⁵ mol･L⁻¹
+  - 1.0 × 10⁻⁴ mol･L⁻¹
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'まず、既知の溶液からモル吸光係数を求め、次に未知の溶液の濃度を求めます。
+
+
+    ε ＝ A ÷ (c × l) ＝ 0.360 ÷ (3.0 × 10⁻⁵ × 2.0) ＝ 6.0 × 10³ L・mol⁻¹・cm⁻¹
+
+
+    c ＝ 0.480 ÷ (6.0 × 10³ × 1.0) ＝ 8.0 × 10⁻⁵ mol/L
+
+
+    よって（4）が正しい値です。光路長が2回目は 1.0 cm に変わっていることに注意しましょう。'
   figures: []
   law_note: null
   _key_choice: 8.0×10-５mol･L-１
   _stem_head: 物質Aの濃度が3.0×10-５mol･L-１の溶液を光路長2.0cmのセルに入れ、波長550nmにおける吸光度を測定したところ、0.360で
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フレームには、アセチレン-空気などの化学炎が用いられる。
+  - フレーム中における目的原子の原子蒸気は、ほとんどが基底状態にある。
+  - 吸光度は、光源光がフレーム中を通過する位置により異なる。
+  - 吸光度は、光源光の強度に比例する。
+  - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は、入射光の強さに対する透過光の強さの比から求める値なので、光源光の強さを変えても変わりません。「光源光の強度に比例する」とする選択肢4は誤りです。
+
+
+    光源が強くなれば、透過光も同じ割合で強くなり、比は変わりません。光源の強さが効くのは、発光を測る蛍光光度分析法や発光分析法の方です。'
   figures: []
   law_note: null
   _key_choice: 吸光度は、光源光の強度に比例する。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、電子基底状態にある分子の振動準位間の遷移で生じる。
+  - 蛍光は、励起光よりも波長が長い。
+  - 蛍光の強度は、励起光の波長により変化する。
+  - 蛍光の強度は、対象物質の低濃度領域では励起光の強度に比例する。
+  - 蛍光の強度は、対象物質の低濃度領域では濃度に比例する。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '蛍光は、光を吸収して**電子励起状態**になった分子が、基底状態に戻るときに出す光です。電子基底状態の中の振動準位の間の遷移で生じるものではないので、選択肢1は誤りです。
+
+
+    励起状態の中での振動準位の間の移動（振動緩和）では、光ではなく熱としてエネルギーが失われます。その分、蛍光は励起光より波長が長くなります（選択肢2）。'
   figures: []
   law_note: null
   _key_choice: 蛍光は、電子基底状態にある分子の振動準位間の遷移で生じる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 熱伝導度検出器(TCD)では、成分気体とキャリヤーガスとの熱伝導率の差を利用する。
+  - 水素炎イオン化検出器(FID)では、水素炎中で試料がイオン化される。
+  - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する。
+  - 光イオン化検出器(PID)では、グロー放電で放射される赤外線で試料がイオン化される。
+  - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '光イオン化検出器（PID）は、放電ランプから出る**紫外線**で試料をイオン化して検出します。赤外線とする選択肢4は誤りです。
+
+
+    赤外線はエネルギーが小さく、分子をイオン化することはできません。イオン化には、エネルギーの大きい紫外線が必要です。'
   figures: []
   law_note: null
   _key_choice: 光イオン化検出器(PID)では、グロー放電で放射される赤外線で試料がイオン化される。
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 理論段相当高さは変化しない。
+  - ピークの高さは 1/√2 倍になる。
+  - 分離度は √2 倍になる。
+  - ピーク幅は2倍になる。
+  - 理論段数は2倍になる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'カラムの長さを2倍にすると、理論段数は2倍になりますが、ピーク幅は理論段数の平方根に関係するので、√2 倍（約1.4倍）にしかなりません。「ピーク幅は2倍になる」とする選択肢4は誤りです。
+
+
+    分離度も √2 倍、ピークの高さはピークが広がる分だけ 1/√2 倍になります。理論段相当高さは変わりません。令和7年度第1回にも、同じ型の問題があります。'
   figures: []
   law_note: null
   _key_choice: ピーク幅は２倍になる。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを２倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における X 線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法では、通常、Cu-Kα X 線が用いられる。
+  - 定性分析の試料には、乳鉢ですり潰した粉末などが用いられる。
+  - 結晶物質の定量は、回折線の強度測定で行う。
+  - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる。
+  - X 線検出器は、X 線のスペクトル分析ができるものでなければならない。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '作業環境測定の X 線回折分析法では、単一の波長の特性 X 線（通常は Cu-Kα 線）を使い、回折線の角度で物質を見分けるので、X 線のスペクトルを分析できる検出器である必要はありません。選択肢5は誤りです。
+
+
+    この論点は、令和7年度第2回・令和6年度第2回でも繰り返し出題されている、X 線回折の定番の罠です。'
   figures: []
   law_note: null
   _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: β壊変に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - β⁻ 壊変は、原子核から陰電子を放出する壊変である。
+  - β⁺ 壊変は、原子核から陽電子を放出する壊変である。
+  - 軌道電子捕獲は、原子核が原子核近くにある軌道電子を原子核内に取り込む壊変である。
+  - β線のエネルギーは、0から最大値まで連続した分布を示す。
+  - 空気中におけるβ線の飛程は、α線のそれより短い。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'β 線は電荷が小さく質量も小さいので、物質との相互作用が α 線より弱く、空気中の飛程は α 線より**長く**なります（α 線は数 cm、β 線は数 m 程度）。「α 線より短い」とする選択肢5は誤りです。
+
+
+    透過力は α 線 ＜ β 線 ＜ γ 線の順に大きくなります。α 線は紙1枚、β 線は薄い金属板、γ 線は厚い鉛やコンクリートで止まる、と遮へいの目安で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: 空気中におけるβ線の飛程は、α線のそれより短い。

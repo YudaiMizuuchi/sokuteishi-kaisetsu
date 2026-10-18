@@ -11,14 +11,20 @@ questions:
   - gn-risk-assessment-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 厚生労働省の「化学物質等による危険性又は有害性等の調査等に関する指針」において示されている化学物質等による健康障害に係るリスクを見積もる方法として、不適切なものは次のうちどれか。
+  choices:
+  - 対象の化学物質等への労働者のばく露の程度を測定し、測定結果を厚生労働省の「作業環境評価基準」に示されている当該化学物質の管理濃度と比較する方法。
+  - 発生可能性及び重篤度を相対的に尺度化し、それらを縦軸と横軸とし、あらかじめ発生可能性及び重篤度に応じてリスクが割り付けられた表を使用する方法。
+  - 発生可能性及び重篤度を一定の尺度によりそれぞれ数値化し、それらを加算又は乗算等する方法。
+  - 発生可能性及び重篤度を段階的に分岐していく方法。
+  - 対象の化学物質等への労働者のばく露の程度及び当該化学物質等による有害性を相対的に尺度化し、それらを縦軸と横軸とし、あらかじめばく露の程度及び有害性の程度に応じてリスクが割り付けられた表を使用する方法。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 対象の化学物質等への労働者のばく露の程度を測定し、測定結果を厚生労働省の「作業環境評価基準」に示されている当該化学物質の管理濃度と比較する方法。
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -27,14 +33,20 @@ questions:
   - gn-oh-management-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 厚生労働省の「労働安全衛生マネジメントシステムに関する指針」に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この指針は、労働安全衛生法の規定に基づき、機械、設備、化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めるものである。
+  - 事業者は、事業場における安全衛生水準の向上を図るための安全衛生に関する基本的考え方を示すものとして、安全衛生方針を表明し、労働者及び関係請負人その他の関係者に周知させる。
+  - このシステムにおける安全衛生計画には、日常的な安全衛生活動として、危険予知（KY）活動、ヒヤリ・ハット事例の収集などを盛り込むことができる。
+  - このシステムに従って行う措置が適切に実施されているかどうかについての評価を行うシステム監査は、必ずしも外部の機関によるものでなくてもよい。
+  - このシステムの全般的な見直しとは、事業場の安全衛生水準の向上の状況、社会情勢の変化等を考慮して、事業者自らがシステムの妥当性及び有効性を評価し、その結果を踏まえて必要な改善を実施することをいう。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: この指針は、労働安全衛生法の規定に基づき、機械、設備、化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めるものである。
+  _review: true
 - num: 3
   status: draft
   chapters:
@@ -43,14 +55,20 @@ questions:
   - gn-absorption-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質の吸収、代謝、蓄積等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 鉛の生物学的モニタリングの指標として血中の鉛濃度がある。
+  - キシレンは、代謝されて、尿中にエチル馬尿酸として排泄される。
+  - 有機溶剤は脂溶性が高いので、中枢神経系などの脂肪に富んだ組織に蓄積しやすい。
+  - N,N-ジメチルホルムアミドの生物学的モニタリングの指標として、尿中の N-メチルホルムアミドの濃度がある。
+  - 体内に取り込まれた有機溶剤の生物学的半減期は比較的短いので、有機溶剤等健康診断における尿中代謝物の検査のための採尿時刻は、正確にチェックする必要がある。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: キシレンは、代謝されて、尿中にエチル馬尿酸として排泄される。せつ
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -59,14 +77,20 @@ questions:
   - gn-toxicity-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 1,2-ジクロロプロパンは、肝臓及び腎臓の障害などのほか、長期間の高濃度ばく露により胆管がん発症につながる蓋然性が高い。
+  - ナフタレンは、皮膚感作性のほか、ヒトに対する発がん性を有する可能性がある。
+  - 一酸化炭素は、赤血球中のヘモグロビンの合成を阻害し、酸素欠乏を生じさせる。
+  - 無機水銀は、腎障害を起こす。
+  - シアン化水素は、体の細胞内の酸素の利用を阻害し、呼吸困難や呼吸麻痺を起こす。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 一酸化炭素は、赤血球中のヘモグロビンの合成を阻害し、酸素欠乏を生じさせる。
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -75,14 +99,23 @@ questions:
   - gn-occupational-cancer-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Aとそれによって生じる主要ながんBとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 塩化ビニル ／ 肝血管肉腫
+  - ベンジジン ／ 膀胱がん
+  - 無機ヒ素化合物 ／ 肺がん
+  - ベンゼン ／ 白血病
+  - n-ヘキサン ／ 肺がん
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ??
+  _review: true
+  columns:
+  - Ａ
+  - Ｂ
 - num: 6
   status: draft
   chapters:
@@ -91,14 +124,22 @@ questions:
   - gn-dust-disease-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 鉱物性粉じん等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アーク溶接作業で発生するヒュームの主成分は、一般に、酸化鉄である。
+  - 粉じん粒子の空気力学相当径とは、その粒子と同じ終末沈降速度をもつ密度 1 g/cm³ の球形粒子の直径である。
+  - 鉱物性粉じんに含まれる遊離けい酸は、胸膜の中皮腫を生じさせる。
+  - アルミニウムや炭素を含む粉じんは、じん肺を起こすことがある。
+  - 吸入性粉じんの捕集には、空気力学相当径 4 µm の粉じん粒子を 50 ％透過する性能を有する分粒装置を用いる。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: の球形粒子の直径である。
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.05）
 - num: 7
   status: draft
   chapters:
@@ -107,14 +148,20 @@ questions:
   - gn-metals-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属等による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 粉状のニッケル化合物は、生殖毒性、皮膚感作性のほか、ヒトに対する発がん性があるとされている。
+  - 鉛中毒では、貧血、末梢神経障害、腹部の疝痛などがみられる。
+  - クロム酸は、皮膚に接触すると充血や潰瘍を生じるほか、長期間のばく露によって肺がんなどを生じる。
+  - カドミウム中毒では、溶血性貧血や鼻中隔穿孔がみられる。
+  - マンガンによる慢性中毒では、精神症状、歩行障害、発語障害などパーキンソン病に似た症状がみられる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: カドミウム中毒では、溶血性貧血や鼻中隔穿孔がみられる。せん
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -123,14 +170,20 @@ questions:
   - gn-organic-solvents-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤の性質及び人体への影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 有機溶剤の蒸気は、空気より重いため、地下室やピットなどの通気が不十分な場所では滞留しやすい。
+  - 有機溶剤による皮膚や粘膜の障害としては、皮膚の角化、結膜炎などがある。
+  - アセトンは水溶性を有しているが、トルエンは水溶性を有していない。
+  - 酢酸メチルによる健康障害として顕著なものは、網膜微細動脈瘤を伴う脳血管障害である。
+  - 二硫化炭素の高濃度ばく露では、精神障害を生じる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 酢酸メチルによる健康障害として顕著なものは、網膜微細動脈瘤を伴うりゅう脳血管障害である。
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -139,14 +192,20 @@ questions:
   - gn-heat-cold-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 温熱環境及び人体の適応等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - WBGT基準値は、身体に対する負荷が大きな作業では、負荷が小さな作業より小さい値となる。
+  - 熱中症はⅠ度からⅢ度までに分類され、このうちⅢ度が最も重症である。
+  - 高温環境下での熱けいれんは、組織液の塩分喪失と水分の過剰補給によって起こる。
+  - WBGT基準値は、同一作業であっても、熱に順化していない人では、順化している人より小さい値となる。
+  - 算出したWBGTの値が、作業内容に応じて設定されたWBGT基準値未満である場合には、熱中症が発生するリスクが高まる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 算出したＷＢＧＴの値が、作業内容に応じて設定されたＷＢＧＴ基準値未満である場合には、熱中症が発生するリスクが高まる。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -155,14 +214,20 @@ questions:
   - gn-vibration-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所振動障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 振動障害は、チェーンソーなどの振動工具によって生じる障害で、手のしびれなどの末梢神経障害やレイノー現象などの末梢循環障害がみられる。
+  - 振動障害は、振動周波数が 4,000 Hz 以上の振動で発生しやすい。
+  - 日振動ばく露限界値は、5.0 m/s² である。
+  - 振動工具の取扱いにおける「日振動ばく露量」は、周波数補正振動加速度実効値の3軸合成値及び振動ばく露時間から算出される。
+  - 喫煙は、レイノー現象発現の増悪因子である。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動周波数が4,000Hz以上の振動で発生しやすい。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -171,14 +236,20 @@ questions:
   - gn-noise-health-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 騒音等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 音圧レベルは、通常、その音圧と人間が聴くことができる最も小さな音圧(20 µPa)との比の常用対数を20倍して求められ、その単位はデシベル(dB)で表される。
+  - ヒトが感じることのできる音の周波数の範囲は、20 Hz から 20,000 Hz程度で、会話領域は 500 Hz から 2,000 Hz 程度である。
+  - 騒音性難聴は、内耳の障害による感音性難聴である。
+  - 等価騒音レベルは、中心周波数 500 Hz、1,000 Hz、2,000 Hz 及び 4,000 Hz の各オクターブバンドの騒音レベルの平均値である。
+  - 騒音の A 測定の平均値の算定には 80 dB 未満の測定値は含めない。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 等価騒音レベルは、中心周波数500Hz、1,000Hz、2,000Hz及び4,000Hzの各オクターブバンドの騒音レベルの平均値である。
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -187,14 +258,20 @@ questions:
   - gn-oxygen-deficiency-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酸素欠乏症及び硫化水素中毒に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 硫化鉱や魚油を入れてある貯蔵施設の内部での作業では、酸素欠乏症の危険がある。
+  - 飼料の貯蔵又は果菜の熟成のために使用している倉庫の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  - ドライアイスを使用して冷蔵を行っている冷蔵庫の内部での作業では、酸素欠乏症の危険がある。
+  - 空気中の酸素濃度が 15 ～ 16 ％ 程度の酸素欠乏症では、一般に頭痛、吐き気などの症状がみられる。
+  - 海水が滞留している暗きょの内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 飼料の貯蔵又は果菜の熟成のために使用している倉庫の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  _review: true
 - num: 13
   status: draft
   chapters:
@@ -203,14 +280,20 @@ questions:
   - gn-em-waves-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電磁波に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 放送用の中波や短波、電離放射線であるX線やγ線は、いずれも電磁波である。
+  - 可視光線は、波長がおよそ 400 nm ～ 760 nm 領域の電磁波である。
+  - 可視光線のうち、青色の光の波長は赤色の光の波長より短い。
+  - レーザー光線は、誘導放出による光の増幅作用によって作られた人工の光であり、一定の波長を持ち、指向性と集束性に優れている。
+  - マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -219,14 +302,20 @@ questions:
   - gn-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電離放射線及びその生体影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - X線及びγ線のうち、波長が 10 nm 程度以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
+  - α線、β線及びγ線の中で、透過力が最も強いものはγ線である。
+  - しきい値は、確定的影響には存在するが、確率的影響には存在しないとされる。
+  - 放射線宿酔は、急性影響であり、かつ、確定的影響である。
+  - 再生不良性貧血は、晩発影響である。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: Ｘ線及びγ線のうち、波長が10nm程度以上の低エネルギーのものをＸ線、それより高エネルギーのものをγ線と呼ぶ。
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -235,14 +324,20 @@ questions:
   - gn-properties-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質等の性状及び挙動に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 臨界温度以下において、気体として存在するものを蒸気という。
+  - 気体の液体への溶解度は、一般に、液体の温度が高いほど小さい。
+  - ヒュームの一次粒子の粒径は、一般に、5 µm 程度である。
+  - 25 ℃ において、1,2-ジクロロエタンの蒸気圧は、トルエンの蒸気圧よりも大きい。
+  - メタノールの極性は、ベンゼンの極性よりも大きい。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子の粒径は、一般に、５µm程度である。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -251,14 +346,20 @@ questions:
   - gn-ventilation-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所排気装置等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 外付け式フードでは、熱による上昇気流がある場合などを除き、一般に、上方吸引型より下方吸引型の方が有効である。
+  - 囲い式フードの制御風速とは、フード開口面における最小風速をいう。
+  - 排風量一定のもとでは、ダクトの断面積を大きくすると、圧力損失は小さくなるが搬送速度は遅くなる。
+  - 空気清浄装置を付設する局所排気装置では、空気清浄装置は、フードに接続した吸引ダクトと排風機の間に設ける。
+  - ダクトの断面積が同じである場合、断面が円形のダクトは長方形のダクトに比べて圧力損失が大きい。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ダクトの断面積が同じである場合、断面が円形のダクトは長方形のダクトに比べて圧力損失が大きい。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -267,14 +368,20 @@ questions:
   - gn-ppe-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 労働衛生保護具に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 防じんマスクの選定では、顔面とマスクの面体との高い密着性が要求される有害性の高い物質を取り扱う作業については、取替え式のものを選ぶ。
+  - 防じんマスクの面体の接顔部に、接顔メリヤスを使用すると、マスクと顔面との密着性が低下する。
+  - 放射性物質による汚染のおそれのある区域内の作業で、オイルミストが混在しない場合に使用する防じんマスクの区分はRS3又はRL3である。
+  - 酸素濃度 18 ％ 未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
+  - アーク溶接作業に用いられる遮光保護具は、レーザー機器取扱作業でのレーザー保護めがねとして使用することはできない。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 酸素濃度18％未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -283,14 +390,20 @@ questions:
   - gn-ppe-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 防毒マスクに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 隔離式防毒マスクは、直結式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
+  - 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
+  - 一酸化炭素用防毒マスクは、ホプカライトを使用し、触媒作用により一酸化炭素を無害化している。
+  - アンモニア用防毒マスクの吸収缶の色は緑色であり、一酸化炭素用防毒マスクの吸収缶の色は赤色である。
+  - 有機ガス用防毒マスクの吸収缶は、メタノール、二硫化炭素については、除毒能力試験の試験用ガスに比べて破過時間が著しく短くなる。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -299,14 +412,20 @@ questions:
   - gn-other-environment-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 職場環境等における健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 低体温症は、低温下の作業で全身が冷やされ、体の中心部の温度が 35 ℃程度以下に低下した状態をいい、意識消失、筋の硬直などの症状がみられる。
+  - 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね 60 ％ 以下となるようにする。
+  - 人間の抵抗力が低下した場合は、通常、多くの人には感染しない菌が病気を発生させることがあり、これを日和見感染という。
+  - 減圧症は、潜函作業者や潜水作業者などに発症するもので、高圧下作業からの減圧に伴い、血液中や組織中に溶け込んでいた窒素の気泡化が関与して発生する。
+  - ウェルシュ菌、セレウス菌及びカンピロバクターは、いずれも細菌性食中毒の原因菌である。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね60％以下となるようにする。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -315,11 +434,17 @@ questions:
   - gn-exposure-limits-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境評価基準に定める管理濃度及び日本産業衛生学会の許容濃度等の勧告に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 管理濃度は、作業環境測定で得られた個々の測定値を統計的に処理したものと対比し、管理区分を決定するための指標である。
+  - 管理濃度が天井値として定められている有害物質はない。
+  - 許容濃度の数値は、経皮吸収がないことを前提として勧告されているものである。
+  - 許容濃度は、作業中のばく露濃度の変動の幅があまり大きくない場合に利用される。
+  - 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の４種類に分類されている。
+  _review: true

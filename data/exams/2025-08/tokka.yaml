@@ -1,0 +1,419 @@
+exam: 2025-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 吸光度は、入射光の強度に依存しない。
+  - 吸光度 0.3 では、入射光の 30 ％ が試料液に吸収される。
+  - 可視部の測定の光源には、ハロゲンタングステンランプ又はタングステンランプが用いられる。
+  - 石英セルはガラスセルに比べて、紫外光の吸収が少ない。
+  - 通常、分析には、吸収スペクトルの極大波長を用いる。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気（25 ℃、1気圧）中の硫化水素濃度を測定するため、捕集液4.0 mL に0.10 L･min⁻¹ の流量で試料空気を10 分間吸引した。試料を捕集した溶液のうち3.0 mL について発色操作を行い、その吸光度をブランクを対照として測定したところ 0.125 であった。硫化水素濃度が、0.25 µg･mL⁻¹の標準溶液について同様の操作を行って測定した吸光度は 0.400 であった。硫化水素の作業環境空気中の濃度として、正しい値に最も近いものは次のうちどれか。ただし、硫化水素の分子量は 34.1、捕集率は 100％とする。
+  columns: null
+  choices:
+  - 0.016 ppm
+  - 0.022 ppm
+  - 0.16 ppm
+  - 0.22 ppm
+  - 1.6 ppm
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ミゼットインピンジャーを用いたシアン化ナトリウムの液体捕集-吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集液は水酸化ナトリウム溶液を用いる。
+  - 捕集される粉じんは、粒径が小さくなるほど捕集率が低下する。
+  - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で滴定して求める。
+  - シアン化ナトリウムを捕集した溶液は、塩酸で中和した後、発色操作を行う。
+  - 発色操作には、クロラミン T とピリジン-ピラゾロンを用いる。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の化学物質のうち、可視部の吸光光度分析法で定量する場合に発色操作を必要としないものはどれか。
+  columns: null
+  choices:
+  - マゼンタ
+  - クロロメチルメチルエーテル
+  - トルエンジイソシアネート（TDI）
+  - エチレンイミン
+  - p-ニトロクロロベンゼン
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析に用いる検出器Ⓑとの次の組合せのうち、不適当なものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - アクリロニトリル ／ 電子捕獲検出器（ECD）
+  - アクリルアミド ／ フレーム熱イオン化検出器（FTD、TID）
+  - 臭化メチル ／ 水素炎イオン化検出器（FID）
+  - ナフタレン ／ 質量分析器（MS）
+  - 硫酸ジメチル ／ 炎光光度検出器（FPD）
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法に用いられる固定相液体に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、適切なものは下のうちどれか。「固定相として用いられる液体は、蒸気圧が［㋑］、かつ、分析対象物質に対して［㋺］があり、しかも反応性や熱分解性の低い液体が推奨される。この液体の一種であるポリエチレングリコールエーテルでは、重合度によって［㋩］が変化する。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 高く ／ 溶解力 ／ 極性
+  - 高く ／ 吸着力 ／ 膜厚
+  - 低く ／ 溶解力 ／ 極性
+  - 低く ／ 溶解力 ／ 膜厚
+  - 低く ／ 吸着力 ／ 膜厚
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の特定化学物質のうち、2,4-ジニトロフェニルヒドラゾン誘導体として捕集された後、アセトニトリルで抽出し、ガスクロマトグラフ-質量分析法で定量されるものはどれか。
+  columns: null
+  choices:
+  - ジメチル-2,2-ジクロロビニルホスフェイト（DDVP）
+  - 3,3 ' -ジクロロ-4,4' -ジアミノジフェニルメタン（MOCA）
+  - ホルムアルデヒド
+  - 酸化プロピレン
+  - 1,1-ジメチルヒドラジン
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法で、ある化合物をカラム A で測定したときの保持時間とカラム B で測定したときの保持時間が同じであった。カラム A の理論段数が 9000 、カラム B の理論段数が 4500 の場合、カラム B におけるピーク幅（WB）とカラム A におけるピーク幅（WA）の比（WB / WA）の値は、次のうちどれか。
+  columns: null
+  choices:
+  - '0.07'
+  - '0.5'
+  - '0.7'
+  - '1.4'
+  - '2.0'
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 高速液体クロマトグラフィーの基本構成は、溶離液槽-送液ポンプ-試料導入装置-カラム-検出器-データ処理装置から成る。
+  - 分離モードの選択は、分析対象物質の分子量、極性、溶媒に対する溶解性や解離性などの物性を考慮して決定する。
+  - 分析対象物質の検出感度を向上させるために、誘導体化反応を利用することがある。
+  - 逆相クロマトグラフィーでは、極性の高い成分から順に溶出する。
+  - 逆相クロマトグラフィーでは、移動相より固定相の方が極性が高い。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質用の検知管Ⓐと、それに利用される反応Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - シアン化水素用検知管 ／ シアン化水素が反応剤と反応して酸性物質を生成する。
+  - 四塩化炭素用検知管 ／ 四塩化炭素が酸化剤と反応してホスゲンを生成する。
+  - スチレン用検知管 ／ スチレンが pH 指示薬と反応し変色させる。
+  - ホルムアルデヒド用検知管 ／ ホルムアルデヒドがリン酸ヒドロキシルアミンと反応してリン酸を遊離させる。
+  - アクリロニトリル用検知管 ／ アクリロニトリルが酸化剤と反応してシアン化水素を発生する。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 蛍光は、励起状態の分子が基底状態に遷移する際に観測される。
+  - 蛍光は、励起波長よりも短波長側に現れる。
+  - 蛍光強度は、溶媒の種類、溶液の pH、温度の影響を受ける。
+  - キセノンランプは、分光蛍光光度計の光源に用いられる。
+  - 吸光光度分析法と比べて検出感度と選択性が高い。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気（25 ℃、1気圧）中のトルエンジイソシアネート（TDI）の濃度を測定するため、1.0 L･min⁻¹ で 10 分間試料空気を1-(2-ピリジル)ピペラジン（2-PP）含浸ろ紙に通気した。得られた TDI-2-PP誘導体を抽出液 4.0 mLで抽出し試料液とした。高速液体クロマトグラフで分析した結果、試料液中のこの誘導体の濃度は 0.15 µg･mL⁻¹ であった。作業環境空気中の TDI 濃度として、正しい値に最も近いものは次のうちどれか。ただし、TDI と TDI-2-PP誘導体のモル質量は、それぞれ 174 g･mol⁻¹ と501 g･mol⁻¹、ろ紙への捕集率は 100 ％ とし、TDI は全て2,4-TDI の形で存在しているものとする。
+  columns: null
+  choices:
+  - 1 ppb
+  - 2 ppb
+  - 3 ppb
+  - 4 ppb
+  - 5 ppb
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2025-08-tokka-13-choices.png
+    alt: 問13の選択肢
+  law_note: null
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 臭化メチル及びヨウ化メチルの1気圧における物性に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 両物質とも、アセトンによく溶ける。
+  - 両物質とも、気体の密度は空気の密度より大きい。
+  - 両物質とも、光に対して安定である。
+  - 臭化メチルの方が、ヨウ化メチルより常温（25 ℃）での蒸気圧が大きい。
+  - ヨウ化メチルの方が、臭化メチルより融点が高い。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2025-08-tokka-15-choices.png
+    alt: 問15の選択肢
+  law_note: null
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 塩素の濃度測定に用いる次亜塩素酸ナトリウム溶液の有効塩素濃度の標定に関する次の記述の ㋑ から ㋩ までの［　］に入る化学式又は語句の組合せとして、正しいものは下のうちどれか。「次亜塩素酸ナトリウム溶液に塩酸とヨウ化カリウムを加え、生成した［㋑］を［㋺］溶液で滴定する。滴定の終点は溶液に［㋩］を加え、溶液の青紫色が消失する点とする。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - I₂ ／ チオ硫酸ナトリウム ／ でんぷん
+  - I₂ ／ チオ硫酸ナトリウム ／ グルコース
+  - I₂ ／ 硫酸 ／ グルコース
+  - HI ／ チオ硫酸ナトリウム ／ でんぷん
+  - HI ／ 硫酸 ／ グルコース
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法における測定対象物質Ⓐとその標準原液の調製に用いる溶媒Ⓑとの組合せとして、誤っているものは次のうちどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - シアン化カリウム ／ 精製水
+  - α-ナフチルアミン ／ 水酸化ナトリウム溶液
+  - クロロメチルメチルエーテル ／ アセトン
+  - ペンタクロロフェノール ／ 水酸化ナトリウム溶液
+  - ニトログリコール ／ 精製水
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法により、管理濃度の1/10に相当する標準試料ガスを5回繰り返し分析し、平均値 c ppm、標準偏差σppm の結果を得た。この測定法の定量下限濃度に相当する濃度として、正しいものは次のうちどれか。
+  columns: null
+  choices:
+  - 3σppm
+  - 10σppm
+  - c-σppm
+  - c-3σppm
+  - c-10σppm
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の測定対象物質のうち、固体捕集法による捕集が不適切なものはどれか。
+  columns: null
+  choices:
+  - アクリロニトリル
+  - ナフタレン
+  - ベンゼン
+  - ベンゾトリクロリド
+  - オーラミン
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 直接捕集法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 真空捕集瓶による捕集では、あらかじめコックの開き具合を一定にして、試料空気吸引に要する時間を測定しておく。
+  - 真空捕集瓶のコックのすり合わせ部には、グリースの使用を避ける。
+  - 捕集袋の内容積は、試料採取から分析までに要する時間とその間の濃度減衰を考慮して、1L 以上とする。
+  - 試料空気から水分を取り除く場合には、ガラス管に無水硫酸カルシウム粒などの乾燥剤を詰めて、試料採取口の前に接続する。
+  - 電動ポンプを通して、捕集袋内に試料空気を送り採取する方法の場合、ポンプ内の吸着に注意する必要がある。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

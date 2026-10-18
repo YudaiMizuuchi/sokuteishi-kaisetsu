@@ -63,7 +63,7 @@ function initList(cfg) {
       ${body}
       <div class="tags">${q.chapterLabels.map((l, i) => `<a class="tag" href="${u(`/chapter/${q.chapters[i]}/`)}">${esc(l)}</a>`).join("")}</div>
       <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-${q.id}" data-answer="${q.answer.join(",")}">解説を見る</button>
-      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.explanationHtml}${notes}${traps}${books}</div>
+      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.examNote ? `<p class="lawnote">協会の注記：${esc(q.examNote)}</p>` : ""}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.explanationHtml}${q.reviewNote ? `<p class="review-note"><b>現在、管理者にて確認中</b>${esc(q.reviewNote)}</p>` : ""}${notes}${traps}${books}</div>
       ${q.stemHtml ? `<p class="credit">出典：${esc(q.source)}</p>` : ""}
     </article>`;
   }

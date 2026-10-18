@@ -11,14 +11,20 @@ questions:
   - gn-risk-assessment-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: リスクアセスメントに関する次の記述のうち、誤っているものはどれか。ただし、指針とは、厚生労働省の「化学物質等による危険性又は有害性等の調査等に関する指針」をいう。
+  choices:
+  - 厚生労働省版コントロールバンディングでは、液体である化学物質を取り扱う作業については、化学物質の有害性、揮発性・飛散性及び取扱量の3つの要素によって化学物質のランク及びリスクレベルが表示され、リスクレベルに応じたリスク低減措置が決定される。
+  - CREATE- SIMPLE（クリエイト・シンプル）は、あらゆる業種に向けたリスクアセスメント支援ツールで、吸入ばく露に加えて、経皮ばく露を考慮したリスク評価を行うことができる。
+  - 指針では、リスクアセスメントの実施時期として、リスクアセスメント実施体制に変更があったとき、総括安全衛生管理者、衛生管理者、化学物質管理者等に異動があったとき、があげられている。
+  - 指針では、健康障害に係るリスクを見積もる方法として、発生可能性及び重篤度を一定の尺度によりそれぞれ数値化し、それらを加算又は乗算等する方法、があげられている。
+  - 指針では、リスク低減措置の検討において、より優先順位の高い措置を実施すれば十分にリスクが低減される場合には、その措置よりも優先順位の低い措置の検討は必要ない、とされている。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 指針では、リスクアセスメントの実施時期として、リスクアセスメント実施体制に変更があったとき、総括安全衛生管理者、衛生管理者、化学物質管理者等に異動があったとき、
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -27,14 +33,22 @@ questions:
   - gn-ghs-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 「化学品の分類および表示に関する世界調和システム（GHS）」で定められた危険有害性クラスⒶとその内容を表す絵表示Ⓑとの次の組合せのうち、誤っているものはどれか。ただし、絵表示の枠は赤色とする。
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 4
   choice_notes: []
   explanation: null
-  figures: []
+  figures:
+  - file: 2024-08-ippan-02-choices.png
+    alt: 問2の選択肢
   law_note: null
   _key_choice: 発がん性
+  columns: null
 - num: 3
   status: draft
   chapters:
@@ -43,14 +57,20 @@ questions:
   - gn-toxicity-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質による健康影響等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 量-影響関係とは、個体について、有害物質へのばく露量と、ある生体影響の大きさとの関係を示したものである。
+  - 無影響量（NOEL）とは、毒性試験において影響が認められなかった最高のばく露量をいう。
+  - 最小影響量（LOEL）とは、毒性試験において何らかの影響が認められた最低のばく露量をいう。
+  - 半数致死濃度（LC₅₀）とは、短時間の吸入ばく露で一群の実験動物の50 ％を死亡させると予想される濃度である。
+  - 変異原性試験は、化学物質による胎児期の臓器・組織形成への影響を見るためのものである。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 変異原性試験は、化学物質による胎児期の臓器・組織形成への影響を見るためのものである。
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -59,14 +79,22 @@ questions:
   - gn-absorption-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質の代謝等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - エチルベンゼンは、代謝されて、尿中にマンデル酸として排泄される。
+  - n-ヘキサンの生物学的モニタリング指標は、尿中の n-ヘキサノールである。
+  - 1,1,1-トリクロロエタン、トリクロロエチレン及びテトラクロロエチレンの生物学的モニタリング指標は、いずれも、尿中のトリクロロ酢酸又は総三塩化物である。
+  - カドミウムの生物学的モニタリング指標として、血液中のカドミウムの量がある。
+  - 化学物質の生物学的半減期は、体内に取り込まれた有害物の量が半分に減少するまでに要する時間である。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ??
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.00）
 - num: 5
   status: draft
   chapters:
@@ -75,14 +103,20 @@ questions:
   - gn-properties-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質等の性状及び挙動に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 岩石を切断や研磨した際に生じる粉じんの遊離けい酸含有率を知るためには、もとの岩石の遊離けい酸含有率を測定する。
+  - 粒子状物質の空気中での沈降速度は、粒径の2乗に比例する。
+  - めっきや充電などの電解を伴う工程では、ミストが発生することが多い。
+  - 1,4-ジオキサンは、脂溶性と水溶性をともに有している。
+  - クロロホルムの極性は、四塩化炭素の極性より大きい。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 岩石を切断や研磨した際に生じる粉じんの遊離けい酸含有率を知るためには、もとの岩石の遊離けい酸含有率を測定する。
+  _review: true
 - num: 6
   status: draft
   chapters:
@@ -91,14 +125,20 @@ questions:
   - gn-toxicity-08
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質等による健康障害等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 一酸化炭素は、赤血球中のヘモグロビンと強く結合し、体内組織の酸素欠乏状態を起こす。
+  - 二酸化炭素は、気中濃度が 3 ％程度になると呼吸数の増加、脈拍や血圧の上昇が起こり、10 ％以上では数分間で意識不明となり、致命的となる。
+  - 二酸化窒素による急性中毒では、粘膜刺激症状がみられ、慢性中毒では、歯牙酸蝕症、慢性気管支炎、胃腸障害などがみられる。
+  - 窒素は、空気の約8割を占める無色、無臭の気体であるが、圧気作業や潜水作業などで高分圧の窒素を吸入すると、窒素酔いと言われる飲酒時と似た症状を呈する。
+  - ガスや蒸気である有害物質のうち、水への溶解度が高いものは、吸入すると肺胞まで到達しやすい。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ガスや蒸気である有害物質のうち、水への溶解度が高いものは、吸入すると肺胞まで到達しやすい。
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -107,14 +147,25 @@ questions:
   - gn-occupational-cancer-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとそれによって生じる主要ながんⒷとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 1,3-ブタジエン ／ 白血病
+  - o-フタロジニトリル ／ 皮膚がん
+  - コールタール ／ 肺がん
+  - ベリリウム化合物 ／ 肺がん
+  - 重クロム酸 ／ 上気道がん
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ??
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.00）
 - num: 8
   status: draft
   chapters:
@@ -123,14 +174,20 @@ questions:
   - gn-dust-disease-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 粉じんによる健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、その種類には、COPD（慢性閉塞性肺疾患）、間質性肺炎などが含まれる。
+  - 結晶質シリカを主たる原因として発症するじん肺をけい肺、石綿を主たる原因として発症するじん肺を石綿肺という。
+  - 遊離けい酸は、肺の線維化を起こす作用が強い。
+  - じん肺の合併症としては、肺結核、結核性胸膜炎、続発性気管支炎などがある。
+  - じん肺は、ある程度進行すると、粉じんへのばく露を中止しても、更に肺の線維化が進行することがある。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、その種類には、COPD（慢性閉塞性肺疾患）、間質性肺炎などが含まれる。
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -139,14 +196,20 @@ questions:
   - gn-metals-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属等及びその化合物による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - インジウム化合物は、間質性肺炎を引き起こすほか、ヒトに対しておそらく発がん性があると考えられている。
+  - クロム酸及び三酸化ヒ素は、いずれも鼻中隔穿孔を引き起こす。
+  - 無機水銀は、気道からのほか消化管からも吸収され、腎機能障害を引き起こし、血尿、蛋白尿、無尿などを発症する。
+  - 鉛中毒では、ヘモグロビンの構成要素であるヘムの合成に関与する酵素の阻害による貧血、伸筋麻痺による垂れ手、腎機能障害などが生じる。
+  - 金属熱は、亜鉛や銅などのヒュームを吸入して発生する疾病で、悪寒や発熱、関節痛などの症状がみられ、記憶障害や脱力感などの後遺症が出ることが多い。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 金属熱は、亜鉛や銅などのヒュームを吸入して発生する疾病で、悪寒や発熱、関節痛などの症状がみられ、記憶障害や脱力感などの後遺症が出ることが多い。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -155,14 +218,20 @@ questions:
   - gn-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤の性質及び人体への影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ハロゲン化されている有機溶剤は、一般に肝臓に対する毒性が強い。
+  - 1,2-ジクロロプロパンは、肝臓及び腎臓に障害を生じるほか、長期間の高濃度ばく露により胆管がんを発症すると考えられている。
+  - アセトンなど水溶性を有する有機溶剤は、皮膚や粘膜から吸収されやすい。
+  - トルエンの密度は水より大きく、また、その蒸気密度は空気より大きく、低いところにたまりやすい。
+  - 二硫化炭素は、ヒトに対して生殖毒性を示すことが知られている。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: トルエンの密度は水より大きく、また、その蒸気密度は空気より大きく、低いところにたまりやすい。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -171,14 +240,20 @@ questions:
   - gn-heat-cold-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 暑熱又は寒冷の環境及びその人体への影響等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 高温状態では、脳に血液を十分に送ることができず、一時的な脳虚血による立ちくらみを起こすことがあり、これを熱失神という。
+  - 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い。
+  - 体温は、代謝によって生じる産熱と、人体と外部環境の温度差に基づく放熱のバランスによって一定に保たれている。
+  - 凍瘡とは、しもやけのことで、低温の環境下において、手足の末梢部に発生しやすい。
+  - 長時間の低温ばく露により、腰痛症を生じることがある。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い。
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -187,14 +262,20 @@ questions:
   - gn-vibration-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 振動に対するばく露量を示す指標である日振動ばく露量 A(8)を表す式として、正しいものは次のうちどれか。ただし、周波数補正振動加速度実効値の3軸合成値を ahv、1日の振動ばく露時間を T とする。
+  choices:
+  - A( 8 )＝ a hv× T ／ 8
+  - A( 8 )＝ a hv× T ／ 8
+  - A( 8 )＝ a hv×(T ／ 8 )²
+  - A( 8 )＝ T × ahv／ 8
+  - A( 8 )＝ T ×(ahv／ 8 )²
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: A(8)＝ahv×T／8
+  _review: true
 - num: 13
   status: draft
   chapters:
@@ -203,14 +284,22 @@ questions:
   - gn-noise-health-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 騒音等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 下のグラフは、周波数重み付け特性を示したものであるが、このうち、周波数重み付け特性 A を表すのは㋩である。
+  - 等価騒音レベルの測定では、騒音計の周波数重み付け特性 A を用いて行う測定を A 測定、周波数重み付け特性 C を用いて行う測定を C 測定という。
+  - 騒音の A 測定の評価では、A 測定の測定値のうち、80 dB未満の測定値は含めず、A 測定の測定値を算術平均して、A 測定平均値を求める。
+  - 騒音性難聴は、音を神経に伝達する内耳の蝸牛の中の有毛細胞が変性することにより起こる感音性難聴である。
+  - 超音波は、可聴周波数域を超える高い周波数の音であり、超音波溶着機の作業者などに、圧迫感、不快感、頭痛、吐き気などが出ることがある。
+  answer: 2
   choice_notes: []
   explanation: null
-  figures: []
+  figures:
+  - file: 2024-08-ippan-13-1.png
+    alt: 問13の図
   law_note: null
   _key_choice: 等価騒音レベルの測定では、騒音計の周波数重み付け特性Aを用いて行う測定をA測定、周波数重み付け特性Cを用いて行う測定をC測定という。
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -219,14 +308,20 @@ questions:
   - gn-toxicity-07
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酸素欠乏症及び硫化水素中毒に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 酸素欠乏症の症状は、酸素を大量に必要とする大脳皮質の機能低下から始まる。
+  - 第一鉄化合物の含有量が多い水が流入している排水暗渠やマンホール内の空気は、酸素欠乏状態になっていることがある。
+  - 硫化水素を含む汚水や汚泥の中に閉じ込められていた硫化水素が、作業により作業環境中に放出され、硫化水素中毒を生じることがある。
+  - 硫化水素に 100 ppmを超える濃度で連続ばく露されると、気管支炎から肺炎、肺水腫に至り、呼吸困難となって死亡することがある。
+  - 硫化水素による慢性中毒では、歯への黄色の色素沈着、歯牙酸蝕症などがみられる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 硫化水素による慢性中毒では、歯への黄色の色素沈着、歯牙酸蝕症などしょくがみられる。
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -235,14 +330,20 @@ questions:
   - gn-em-waves-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電磁波に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 可視光のうち、青色の光の波長は黄色の光の波長より短い。
+  - 赤外線は、波長の長さにより、短い順から、近赤外線、中赤外線、遠赤外線に分類することがあるが、白内障に関連するのは、短波長域のものとされている。
+  - 吸光光度分析では、可視から紫外領域の波長の光が利用されるが、作業環境測定で使われるのは、通常、紫外領域の波長の光である。
+  - マイクロ波は電子レンジや携帯電話に利用され、強力なマイクロ波にばく露されると組織壊死や熱傷を起こすことがある。
+  - レーザー光は、粉じん濃度の測定に用いる光散乱方式の相対濃度計の光源として用いられている。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 吸光光度分析では、可視から紫外領域の波長の光が利用されるが、作業環境測定で使われるのは、通常、紫外領域の波長の光である。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -251,14 +352,20 @@ questions:
   - gn-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電離放射線に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 電離放射線は、電磁波と粒子線に大別され、X 線や γ 線は電磁波、α 線、β 線、中性子線は粒子線である。
+  - α 線、β 線及び γ 線の中で、透過力が最も弱いものは α 線である。
+  - ガスクロマトグラフの検出器である ECD は、コバルト 60 から放出される β 線を利用したものが一般的である。
+  - 白血病は、晩発障害に分類される確率的影響で、しきい値がなく、被ばく線量の増加に伴って発生率が増加する。
+  - 皮膚と神経を比べると、皮膚の方が放射線感受性が高い。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ガスクロマトグラフの検出器であるECDは、コバルト60から放出されるβ線を利用したものが一般的である。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -267,14 +374,20 @@ questions:
   - gn-ventilation-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所排気装置等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ドラフトチェンバー型フードは、囲い式フードに分類される。
+  - フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
+  - 囲い式フードの制御風速とは、フード開口面における最小風速をいう。
+  - ダクトの形状には、円形、角形などがあるが、その断面積を大きくすると、ダクトの圧力損失は減少する。
+  - 空気清浄装置を付設する局所排気装置では、一般に、排風機は空気清浄装置の後に設ける。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -283,14 +396,20 @@ questions:
   - gn-ppe-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 労働衛生保護具に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - オイルミストが混在する場合に使用できる取替え式防じんマスクの性能区分には、RL1、RL2 及び RL3 があり、このうち、粒子捕集効率が最も大きいのは RL3 である。
+  - 送気マスクは、酸素濃度が18 ％未満の空気中でも使用することができる。
+  - 聴覚保護具を選定するときは、作業の状況にかかわらず、できるだけ、遮音効果が大きいものを選定する。
+  - 全身を防護する化学防護服には、服内部を気密に保つ構造の気密服、呼吸用空気を外部から取り入れ服内部を陽圧に保つ構造の陽圧服、服内部への有害物の侵入を規定値以下とした密閉服がある。
+  - 化学防護手袋の耐浸透性は、クラス1からクラス4までに区分されており、有害性が高い物質を取り扱う際には数値が小さいものを選択する。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 聴覚保護具を選定するときは、作業の状況にかかわらず、できるだけ、遮音効果が大きいものを選定する。
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -299,14 +418,20 @@ questions:
   - gn-ppe-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 防毒マスクに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 防毒マスクは、その形状及び使用の範囲により、隔離式、直結式、直結式小型の3種類に区分され、隔離式のものが最も高濃度下で使用することができる。
+  - 有機ガス用吸収缶には活性炭が使用されているが、メタノールは活性炭にほとんど吸収されないため、有機ガス用吸収缶の除毒能力試験に使われるシクロヘキサンと比べて破過時間が著しく短くなる。
+  - 一酸化炭素用吸収缶は、触媒作用により、一酸化炭素を二酸化炭素に変化させている。
+  - 防じん機能を有する防毒マスクの粒子捕集効率の区分は、防じんマスクの粒子捕集効率の区分と同じである。
+  - 防毒マスクを着用するときは、ヘルメットの上からしめひもを使用するようにすると、面体と顔との密着性を高めることができる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 防毒マスクを着用するときは、ヘルメットの上からしめひもを使用するようにすると、面体と顔との密着性を高めることができる。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -315,11 +440,17 @@ questions:
   - gn-exposure-limits-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境評価基準に定める「管理濃度」及び日本産業衛生学会の「許容濃度等の勧告」に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 鉱物性粉じんの管理濃度 E（mg /m³）は、その遊離けい酸の含有率をQ（％）とした場合、E ＝3.0 ／（1.49Q＋1）により算定される。
+  - D 測定を行った場合は、D 測定値を管理濃度と直接比較して、管理区分の決定に用いる。
+  - 許容濃度を利用するにあたっては、労働強度、温熱条件、気圧などを考慮する必要がある。
+  - 許容濃度等の勧告において、ヒトに対する生殖毒性については、第1群、第2群、第3群の3種類に分類されており、ヒトに対して生殖毒性を示すことが知られている物質は、第1群に分類されている。
+  - 許容濃度等の勧告における感作性物質には、アレルギー性呼吸器疾患を誘発する気道感作性物質と、アレルギー性皮膚反応を誘発する皮膚感作性物質がある。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度E（mg/m
+  _review: true

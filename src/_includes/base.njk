@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if title %}{{ title }}｜{% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ description or site.description }}">
-{% if site.showDrafts %}<meta name="robots" content="noindex">{% endif %}
+{% if site.showDrafts or noindex %}<meta name="robots" content="noindex">{% endif %}
 <link rel="canonical" href="{{ page.url | absUrl }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
 <main class="wrap page">
 {{ content | safe }}
 </main>
-<footer><div class="wrap">{{ site.author }}　｜　試験問題の出典：<a href="{{ site.officialIndex }}">{{ site.sourceName }}</a>（許諾を得て掲載）</div></footer>
+<footer><div class="wrap">{{ site.author }}　｜　試験問題の出典：<a href="{{ site.officialIndex }}">{{ site.sourceName }}</a></div></footer>
 <script src="/assets/app.js" defer></script>
 </body>
 </html>

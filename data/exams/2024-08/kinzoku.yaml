@@ -1,0 +1,409 @@
+exam: 2024-08
+date: null
+subject: kinzoku
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 金属の化学的性質に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - カドミウムは、希硝酸に溶ける。
+  - クロムは、濃硝酸に溶ける。
+  - バナジウムは、希硝酸と過酸化水素水の混合液に溶ける。
+  - マンガンは、塩酸に溶ける。
+  - 鉛は、硝酸に溶ける。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 金属化合物Ⓐとその化学式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - 過マンガン酸カリウム ／ KMnO₄
+  - 塩化カドミウム ／ CdCl₂
+  - 三酸化二ヒ素 ／ As₂O₃
+  - 硝酸鉛 ／ PbNO₃
+  - クロム酸カリウム ／ K₂CrO₄
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気中の金属類の分析に用いられる方法Ⓐとそれに関連する用語Ⓑとの次の組合せのうち、不適切なものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - 吸光光度分析法 ／ 電子エネルギー準位
+  - 蛍光光度分析法 ／ 励起スペクトル
+  - 原子吸光分析法 ／ ランベルト-ベールの法則
+  - 誘導結合プラズマ発光分光分析法 ／ ラマン線
+  - 誘導結合プラズマ質量分析法 ／ 分子イオン干渉
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - ジフェニルカルバジドは、硫酸酸性でクロム(Ⅲ)と反応する。
+  - ブロムフェノールブルー溶液は、pH 4.6 以上で青紫色を示す。
+  - N-ベンゾイル-N-フェニルヒドロキシルアミン（NBPHA）は、バナジウムの発色試薬として用いられる。
+  - 水素化ホウ素ナトリウムは、ヒ素(Ⅲ)から水素化ヒ素を発生させるのに用いられる。
+  - 硫酸ナトリウムは、水と MIBK 層との分配比を大きくして良好な層分離のために添加される。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 重量分析法や容量分析法に比べて、感度が低い。
+  - 発色試薬には、無機試薬と有機試薬がある。
+  - 発色反応を促進するために加熱操作を行った試料は、発色後、常温に戻してから測定する。
+  - プラスチック製セルを使用する場合には、適応波長域、使用可能な溶媒に注意する。
+  - モル吸光係数は、pH により変わることがある。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 光源の輝線の線幅は、吸収線の線幅よりも広い。
+  - 電気加熱原子化法は、フレーム法に比べて測定感度が高い。
+  - 吸光度は、光路長と基底状態の金属原子の濃度の積に比例する。
+  - 中空陰極ランプでは、金属原子が封入ガスのイオンと衝突して発光する。
+  - フレームに送り込まれるミストの粒径が小さく、分布幅が狭いほど、ノイズは減少する。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 誘導結合プラズマ発光分光分析法（ICP-AES 法）に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - フレーム原子吸光分析法に比べ、検量線の直線範囲が広い。
+  - プラズマの生成には、アルゴンガスが用いられる。
+  - 試料溶液の粘性は、測定値に影響しない。
+  - 目的元素の発光線付近の分光干渉に注意する。
+  - プラズマ中の目的元素の発光線の中で、発光強度が最大の発光線が常に定量に用いられるとは限らない。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 光源には、主にキセノンランプを用いる。
+  - 蛍光は、入射光に対して直角方向にのみ放出される。
+  - 蛍光を出さない金属イオンであっても、キレート化剤を用いて分析できるものがある。
+  - 溶媒の種類により蛍光スペクトルが大きく変化することがある。
+  - 蛍光は、溶媒由来のラマン線と容易に区別することができる。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 誘導結合プラズマ質量分析法（ICP-MS 法）に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 質量分析計では、イオン化された原子が質量／電荷比(m/z)に応じて分離される。
+  - 同位体分析が可能である。
+  - ほぼすべての金属元素が分析可能である。
+  - 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+  - 多元素同時分析は不可能である。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ろ過捕集法-蛍光光度分析法によるベリリウムの分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - ガラス繊維ろ紙で試料を捕集する。
+  - 試料を硫酸で処理した後、アルカリ性にする。
+  - モリンによるベリリウムの蛍光強度は、アルカリ濃度の影響を受ける。
+  - モリン試薬の蛍光は、分析の妨害にならない。
+  - シアン化カリウムは、モリンの酸化を防ぎ、蛍光を安定に保つために用いる。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ろ過捕集-溶媒抽出-原子吸光分析法による作業環境空気中のカドミウムの分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - ガラス繊維ろ紙に捕集したカドミウムは、硝酸を用いて加熱溶解する。
+  - カドミウムイオンを pH 3.5 ～ 4.0 で APDC 錯体として MIBK に抽出する。
+  - アセチレン流量を水溶液の場合より少なくしたフレームに MIBK 層を導入する。
+  - 測定波長には、228.8 nmの共鳴線を用いる。
+  - 検量線の作成には、カドミウム標準水溶液をフレームに導入する。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法によるクロム(Ⅵ)の分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集は、精製水を捕集液とする液体捕集法による。
+  - 標準液は、二クロム酸カリウム又はクロム酸カリウムを精製水に溶かして調製する。
+  - クロム(Ⅵ)をジフェニルカルバジドと反応させ、赤紫色に着色した液を543 nmの波長で測定する。
+  - 試料液の硫酸濃度は1 mol･L⁻¹ 以上とする。
+  - ジフェニルカルバジドは、Fe(Ⅲ)とも反応し発色する。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 電気加熱式原子吸光分析法による五酸化バナジウムの分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 分析に使用する硝酸は、有害金属測定用が望ましい。
+  - バナジウムは、高温で原子化するので、十分なクリーニング温度と時間を必要としない。
+  - 原子化は、2,700 ℃ 付近で行う。
+  - 標準原液は、メタバナジン酸アンモニウムを用いて調製する。
+  - 標準液は、硝酸を用いて希釈する。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 電気加熱式原子吸光分析法による作業環境空気中のマンガンの分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 試料の捕集装置には、吸入性粉じんを捕集する分粒装置を取り付ける。
+  - 試料の捕集には、混合セルロースメンブランフィルターを用いる。
+  - 検量線用の標準液は、濃度保証値を有する市販の標準液を 5 ％ 硝酸で希釈し調製する。
+  - 抽出に使用する酸は、有害金属測定用又は精密分析用以上の純度を有するものを使用する。
+  - 原子化は、2,300 ℃ 付近で行う。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 水素化物発生原子吸光分析法による作業環境空気中のヒ素の分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 石英繊維ろ紙に捕集した試料の加熱溶解には、硝酸と硫酸の混酸を用いる。
+  - 試料液のヒ素を三価にする予備還元には、塩化スズ(Ⅱ)とヨウ化カリウムを用いる。
+  - 亜鉛粉末懸濁液は、水素化ヒ素の発生に用いる。
+  - ヒ素の原子化には、空気-アセチレンフレームを用いる。
+  - ヒ素の標準原液は、三酸化二ヒ素を 10 M 硝酸で溶解して調製する。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 液体捕集法-原子吸光分析法による水銀の分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 水銀蒸気は、水への溶解度が大きいため液体捕集法が用いられる。
+  - 捕集液は、硫酸酸性の過マンガン酸カリウム溶液が用いられる。
+  - バブラー内壁を捕集液で洗い、その洗液を合わせて試料液とする。
+  - アスコルビン酸を還元剤として使用すると、塩化スズ(Ⅱ)を用いたときに生じる不溶性のオキシクロライドの発生を抑制できる。
+  - ヒドロキシルアミン溶液は、水銀イオンを水銀原子とする還元力はない。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ろ過捕集法-溶媒抽出-原子吸光分析法による作業環境空気中の鉛の分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 鉛を MIBK に抽出するキレート剤には、DDTCのほかAPDCなどが使用できる。
+  - 鉛の DDTC 錯体は、弱酸性で MIBK に抽出される。
+  - 妨害金属元素をマスキングするために、酒石酸ナトリウム-カリウム溶液を抽出時に加える。
+  - 溶媒抽出法により、陰イオンなどの干渉を低減することができる。
+  - MIBK 抽出液は、水層から分離した後、1時間以内に分析する。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 原子吸光分析法による作業環境空気中の粉状のニッケル化合物の分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集には、ガラス繊維ろ紙を用いる。
+  - 硝酸と塩酸の混酸による試料の溶解は、90℃以上の温浴中で1時間以上加熱することにより行う。
+  - 測定波長は、232.0 nm を用いる。
+  - 最終試料液の酸濃度は、2 mol･L⁻¹ 以上が望ましい。
+  - 硫酸は、干渉の原因となる。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 金属(M)イオン 10 µg を含む DDTC 錯体の水溶液 100 mL を MIBK 10 mLで振り混ぜて DDTC 錯体を MIBK に抽出した。M-DDTC 錯体の MIBK 相への分配係数（\[ M-DDTC\]MIBK相 / \[M-DDTC\]水相）が 100 の場合、MIBK 相中の金属(M)イオンの質量として最も近い値は次のうちどれか。
+  columns: null
+  choices:
+  - 9.0 µg
+  - 9.1 µg
+  - 9.2 µg
+  - 9.3 µg
+  - 9.4 µg
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境空気中の鉛を、30 L･min⁻¹ の一定流量で 10 分間ガラス繊維ろ紙に捕集した。そのガラス繊維ろ紙を共栓試験管に入れ、2.5 mol･L⁻¹ 硝酸 50 mLで抽出した。その後、抽出液を 100 mLメスフラスコ中に吸引ろ過し、洗液を加え精製水で 100 mLに調製した。このろ液を原子吸光光度計で測定したところ、鉛濃度は 0.15 µg･mL⁻¹となった。作業環境空気中の鉛濃度として、正しい値は次のうちどれか。
+  columns: null
+  choices:
+  - 0.010 mg･m⁻³
+  - 0.025 mg･m⁻³
+  - 0.050 mg･m⁻³
+  - 0.100 mg･m⁻³
+  - 0.150 mg･m⁻³
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

@@ -1,27 +1,41 @@
 exam: 2025-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - 温度 25 ℃ は、約 298 K である。
+  - 電流 1.0 A は、1.0 C･s⁻¹ である。
+  - 体積 1.0 L は、1.0 × 10⁻³ m³ である。
+  - 濃度 1.0 µmol･g⁻¹ は、1.0 mol･kg⁻¹ である。
+  - 気圧 760 mmHg は、約 101.3 kPa である。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '1 µmol/g を mol/kg に直すと、分子は 1 µmol ＝ 10⁻⁶ mol、分母は 1 g ＝ 10⁻³ kg なので、
+
+
+    1 µmol/g ＝ 10⁻⁶ ÷ 10⁻³ mol/kg ＝ 1.0 × 10⁻³ mol/kg（＝ 1.0 mmol/kg）
+
+
+    となります。1.0 mol/kg とする選択肢4は誤りです。
+
+
+    分数の形の単位は、分子と分母を別々に換算してから割るのが確実です。'
   figures: []
   law_note: null
   _key_choice: 濃度1.0µmol･g-１は、1.0mol･kg-１である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
-  status: draft
+  status: published
   chapters:
   - quantification
   - statistics
@@ -29,51 +43,84 @@ questions:
   - an-statistics-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 互いに独立な物理量1と物理量2の差を求める際、その差の標準偏差を示す式は次のうちどれか。ただし、物理量1及び物理量2の測定値の標準偏差をそれぞれ σ₁ 及び σ₂ とする。
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 3
   choice_notes: []
-  explanation: null
-  figures: []
+  explanation: '互いに独立な2つの量の差（または和）の標準偏差は、それぞれの標準偏差を2乗して足し、平方根をとった √(σ₁² ＋ σ₂²) です。よって（3）が正しい式です。
+
+
+    ばらつきは打ち消し合わないので、差をとっても分散（標準偏差の2乗）は足し算になります。「差だから引き算」と考えて |σ₁ − σ₂| を選ばないようにしましょう。'
+  figures:
+  - file: 2025-02-bunseki-02-choices.png
+    alt: 問2の選択肢
   law_note: null
   _key_choice: ４
   _stem_head: 互いに独立な物理量１と物理量２の差を求める際、その差の標準偏差を示す式は次のうちどれか。ただし、物理量１及び物理量２の測定値の標準偏差をそれ
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 25 ℃ における物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい。
+  - ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
+  - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  - 水酸化ナトリウムの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  - 硫酸ナトリウムの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ベンゼンは無極性の物質なので、極性の大きい水にはほとんど溶けず、同じく極性の小さいクロロホルムにはよく溶けます。ベンゼンの水への溶解度の方が大きいとする選択肢2は誤りです。
+
+
+    「似たもの同士が溶け合う」が原則です。塩化ナトリウムや水酸化ナトリウム、硫酸ナトリウムのようなイオン性の物質や、極性の大きい酢酸は水によく溶け、無極性の四塩化炭素にはほとんど溶けません。'
   figures: []
   law_note: null
   _key_choice: ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
   _stem_head: 25℃における物質の溶解に関する次の記述のうち、誤っているものはどれか。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 容積 5.0 Lの容器に液体物質 X を1.0 g入れて密閉し、127℃ にするとXは完全に気化して 0.084 気圧の分圧を示した。X の分子量として、最も近い値は次のうちどれか。ただし、気体定数は 0.082 atm･L･mol⁻¹･K⁻¹とする。
+  choices:
+  - '68'
+  - '72'
+  - '78'
+  - '82'
+  - '88'
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '気体の状態方程式で物質量を求め、質量を割って分子量を出します。温度は 127 ＋ 273 ＝ 400 K です。
+
+
+    n ＝ PV ÷ RT ＝ 0.084 × 5.0 ÷ (0.082 × 400) ≒ 0.0128 mol
+
+
+    分子量 ＝ 1.0 ÷ 0.0128 ≒ 78
+
+
+    よって、最も近いのは 78 です。'
   figures: []
   law_note: null
   _key_choice: '78'
   _stem_head: 容積5.0Lの容器に液体物質Xを1.0g入れて密閉し、127℃にするとXは完全に気化して0.084気圧の分圧を示した。Xの分子量として、最も
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -81,17 +128,28 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度 14 mol･L⁻¹の硝酸溶液10 mLを水で希釈して1000 mLにした溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 0.014 mol･L⁻¹
+  - 0.028 mol･L⁻¹
+  - 0.070 mol･L⁻¹
+  - 0.14 mol･L⁻¹
+  - 0.28 mol･L⁻¹
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '硝酸は強酸で完全に電離するので、水素イオン濃度は希釈後の硝酸の濃度と同じです。
+
+
+    14 mol/L × 10 mL ÷ 1,000 mL ＝ 0.14 mol/L
+
+
+    よって（4）が正しい値です。令和7年度第1回でも、同じ型の問題が 200 mL への希釈で出題されています。'
   figures: []
   law_note: null
   _key_choice: 0.14mol･L-１
   _stem_head: 濃度14mol･L-１の硝酸溶液10mLを水で希釈して1000mLにした溶液の水素イオン濃度として、正しい値は次のうちどれか。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -99,102 +157,172 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '有機化合物 A を 60 mg含む水溶液 100 mLからヘキサン 10 mLに A を抽出した。水溶液中に残った A の質量として、正しい値は次のうちどれか。ただし、水とヘキサン間の A の分配係数（K）は次の式で表される。
+
+
+    K ＝ [A]<sub>ヘキサン</sub> ÷ [A]<sub>水</sub> ＝ 50'
+  choices:
+  - 10 mg
+  - 20 mg
+  - 30 mg
+  - 40 mg
+  - 50 mg
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '水に残る A の質量を x mg とすると、ヘキサン層に移る A は (60 − x) mg です。分配係数は濃度の比なので、
+
+
+    K ＝ [(60 − x) ÷ 10] ÷ [x ÷ 100] ＝ 50
+
+
+    これを解くと、(60 − x) × 10 ＝ 50x → 600 ＝ 60x → x ＝ 10 mg
+
+
+    よって（1）が正しい値です。
+
+
+    分配係数は「濃度」の比なので、体積の違い（ヘキサン 10 mL、水 100 mL）を必ず入れて計算します。質量の比と取り違えると、答えがずれます。'
   figures: []
   law_note: null
   _key_choice: 10mg
   _stem_head: 有機化合物Aを60mg含む水溶液100mLからヘキサン10mLにAを抽出した。水溶液中に残ったAの質量として、正しい値は次のうちどれか。ただ
 - num: 7
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
   - an-lab-equipment-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 石けん膜流量計は、比較的低流量のガスの流量測定に適している。
+  - 石けん膜流量計による測定値は、ガスの種類により換算する必要がある。
+  - ローターメーターのテーパー管は垂直に保つ必要がある。
+  - 乾式ガスメーターは一定時間に流れる気体の全体積を測定する流量計である。
+  - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '石けん膜流量計は、石けん膜が一定の体積を通過する時間から流量を求めるので、ガスの種類によらず体積流量がそのまま求められます。ガスの種類による換算が必要なのは、面積式流量計など、ガスの密度や粘度で指示が変わる流量計です。選択肢2は誤りです。
+
+
+    体積と時間を直接測る石けん膜流量計は、他の流量計の校正の基準にも使われます。'
   figures: []
   law_note: null
   _key_choice: 石けん膜流量計による測定値は、ガスの種類により換算する必要がある。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルを用いた有機溶剤の標準ガス発生において、定常状態となったときの標準ガスの濃度（ppm）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 有機溶剤の拡散係数と飽和蒸気圧が同じなら、分子量の大きな物質ほど高くなる。
+  - 拡散チューブの内径が大きいほど高くなる。
+  - 使用前後の有機溶剤量をセルごと秤量し、蒸発量を求めることにより計算できる。
+  - 飽和蒸気圧が小さいほど低くなる。
+  - 拡散チューブの有効長が長いほど低くなる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '拡散セルから出る標準物質の物質量（mol）は、拡散係数、飽和蒸気圧、拡散チューブの寸法、温度で決まり、分子量にはよりません。体積比である ppm の濃度は物質量で決まるので、拡散係数と飽和蒸気圧が同じなら、分子量にかかわらず濃度は同じです。分子量が大きいほど濃度が高くなるとする選択肢1は誤りです。
+
+
+    分子量が大きいと、同じ物質量でも蒸発する「質量」は大きくなります。セルごと秤量して求める減少量（質量）と、ppm（物質量の比）を区別しておきましょう。'
   figures: []
   law_note: null
   _key_choice: 有機溶剤の拡散係数と飽和蒸気圧が同じなら、分子量の大きな物質ほど高くなる。
   _stem_head: 拡散セルを用いた有機溶剤の標準ガス発生において、定常状態となったときの標準ガスの濃度（ppm）に関する次の記述のうち、誤っているものはどれか
+  review_note: 「ppm の濃度は分子量によらない」と説明しています。確認中です。
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-reagents-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - メタクレゾールパープル ／ pH 指示薬
+  - メチルイソブチルケトン ／ 金属キレートの抽出
+  - シリカゲル ／ 有機溶剤の捕集
+  - 二硫化炭素 ／ 有機溶剤の脱着
+  - ヒドロキシルアミン ／ 酸化剤
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ヒドロキシルアミンは、相手に電子を与えて還元する**還元剤**として使われる物質です。酸化剤とする選択肢5は誤りです。
+
+
+    ほかの組合せは、メタクレゾールパープルが pH 指示薬、MIBK が金属キレートの抽出溶媒、シリカゲルが有機溶剤などの捕集剤、二硫化炭素が活性炭からの脱着溶媒で、いずれも正しいものです。'
   figures: []
   law_note: null
   _key_choice: ヒドロキシルアミン酸化剤
   _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 誘導結合プラズマ発光分光分析法（ICP- AES法）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料溶液に懸濁物が含まれる場合は、あらかじめろ過する必要がある。
+  - 原子吸光分析と比較して、検量線が直線となる濃度範囲が広い。
+  - ネブライザーによる液体試料導入のほか、還元気化による気体試料導入も可能である。
+  - 内標準物質として、測定対象物質の安定同位体を使用する。
+  - 共存する妨害物質に応じて、測定波長を選択する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ICP 発光分光分析法の内標準物質には、試料に含まれない別の元素（イットリウムなど）を用います。安定同位体を内標準に使うのは、質量の違いを見分けられる ICP 質量分析法などの方法で、発光の波長では同位体を区別できないため、ICP-AES では使えません。選択肢4は誤りです。
+
+
+    ICP 発光分光分析法は、検量線の直線範囲が広く、多くの元素を同時に測れるのが特徴です。'
   figures: []
   law_note: null
   _key_choice: 内標準物質として、測定対象物質の安定同位体を使用する。
   _stem_head: 誘導結合プラズマ発光分光分析法（ICP-AES法）に関する次の記述のうち、誤っているものはどれか。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フタル酸水素カリウムを水に溶解して、0.100 mol･L⁻¹の水溶液を調製した。この水溶液1.00 mLに含まれるフタル酸水素カリウムの質量として、正しい値は次のうちどれか。ただし、フタル酸水素カリウムのモル質量は 204 g･mol⁻¹とする。
+  choices:
+  - 5.10 mg
+  - 10.2 mg
+  - 20.4 mg
+  - 25.6 mg
+  - 30.6 mg
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '物質量 ＝ 濃度 × 体積 で求め、モル質量を掛けて質量にします。
+
+
+    0.100 mol/L × 1.00 × 10⁻³ L ＝ 1.00 × 10⁻⁴ mol
+
+
+    1.00 × 10⁻⁴ mol × 204 g/mol ＝ 2.04 × 10⁻² g ＝ 20.4 mg
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 20.4mg
   _stem_head: フタル酸水素カリウムを水に溶解して、0.100mol･L-１の水溶液を調製した。この水溶液1.00mLに含まれるフタル酸水素カリウムの質量と
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -202,34 +330,53 @@ questions:
   - an-titration-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 反応Ⓐによる容量分析とその終点判別法Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 塩酸-水酸化ナトリウム（中和滴定） ／ pH 指示薬の変色
+  - 塩化ナトリウム-硝酸銀（沈殿滴定） ／ 塩化銀の沈殿生成
+  - 過マンガン酸カリウム-シュウ酸ナトリウム（酸化還元滴定） ／ 過マンガン酸イオンによる着色
+  - 塩化マグネシウム-EDTA（キレート滴定） ／ エリオクロムブラック T（EBT）の変色
+  - チオ硫酸ナトリウム-ヨウ素（ヨウ素滴定） ／ ヨウ素デンプンの発色
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '塩化ナトリウムを硝酸銀で滴定する沈殿滴定では、塩化銀の白い沈殿は滴定の始めから生じるので、沈殿の生成そのものは終点の目印になりません。終点は、クロム酸カリウムを指示薬として赤褐色のクロム酸銀が生じ始める点（モール法）などで判別します。選択肢2は誤りです。
+
+
+    終点の判別には、「当量点を過ぎたときに初めて起こる変化」を使います。沈殿滴定なら指示薬の沈殿や吸着指示薬の色の変化がこれに当たります。'
   figures: []
   law_note: null
   _key_choice: 塩化ナトリウム-硝酸銀塩化銀の沈殿生成（沈殿滴定）
   _stem_head: 反応Ⓐによる容量分析とその終点判別法Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 可視領域の吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源には重水素放電管が用いられる。
+  - ガラスセルを用いることができる。
+  - 回折格子により測定波長の光を取り出す。
+  - 光電子増倍管を用いて透過光の強度を測定する。
+  - 入射光の強さに対する透過光の強さの比が透過率である。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '可視領域の吸光光度分析法では、光源にタングステンランプ（ハロゲンランプ）を用います。重水素放電管は、紫外領域の光源です。選択肢1は誤りです。
+
+
+    紫外領域の測定では、ガラスが紫外線を吸収するので石英セルを使いますが、可視領域ならガラスセルも使えます（選択肢2）。光源とセルは、測る波長の領域で選びます。'
   figures: []
   law_note: null
   _key_choice: 光源には重水素放電管が用いられる。
   _stem_head: 可視領域の吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -237,114 +384,176 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質 A の溶液を光路長 2.0 cm の試料セルに入れ、波長 550 nm における吸光度を測定したところ、0.480であった。この溶液中の物質 Aの濃度として、正しい値は次のうちどれか。ただし、この溶液中の物質 A の 550 nm におけるモル吸光係数は 6.0×10³mol⁻¹･L･cm⁻¹とする。
+  choices:
+  - 2.0 × 10‐⁵ mol･L⁻¹
+  - 4.0 × 10‐⁵ mol･L⁻¹
+  - 6.0 × 10‐⁵ mol･L⁻¹
+  - 8.0 × 10‐⁵ mol･L⁻¹
+  - 10.0 × 10‐⁵ mol･L⁻¹
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則 A ＝ ε × c × l から濃度を求めます。
+
+
+    c ＝ A ÷ (ε × l) ＝ 0.480 ÷ (6.0 × 10³ × 2.0) ＝ 4.0 × 10⁻⁵ mol/L
+
+
+    よって（2）が正しい値です。光路長 2.0 cm を掛け忘れると 8.0 × 10⁻⁵（選択肢4）になります。'
   figures: []
   law_note: null
   _key_choice: 4.0×10‐５mol･L-１
   _stem_head: 物質Aの溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.480であった。この溶液中の物質Aの濃度と
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料溶液は噴霧室に噴霧され、微粒子がフレームに送られる。
+  - フレームは、一般にアセチレンの燃焼でつくられる。
+  - フレームは、光軸方向に対して長く、厚さの薄い板状の形をしている。
+  - フレーム中の原子が発する光の強度を測定する。
+  - 定量は、検量線法で行う。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '原子吸光分析法は、フレームの中の原子が光源の光を**吸収**する量を測る方法です。原子が発する光の強度を測るのは、フレーム発光分析法やICP発光分光分析法なので、選択肢4は誤りです。
+
+
+    「吸収を測るか、発光を測るか」は、分析法の名前のとおりです。原子吸光は吸収、ICP-AES は発光です。'
   figures: []
   law_note: null
   _key_choice: フレーム中の原子が発する光の強度を測定する。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料に紫外部又は可視部の光を照射する。
+  - 試料から生じた蛍光は、分光した後、光電子増倍管で受光し強度を求める。
+  - 溶存酸素が蛍光の強度を弱めることがある。
+  - 水溶液の試料のみが分析対象となる。
+  - 燐光と異なり、蛍光は励起光の照射を止めると速やかに減衰する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '蛍光光度分析法は、水溶液に限らず、有機溶媒に溶かした試料なども分析できます。「水溶液の試料のみ」とする選択肢4は誤りです。
+
+
+    「〜のみ」と範囲を限る選択肢は、例外が1つでもあれば誤りです。蛍光光度分析法は、溶媒抽出した有機溶媒層をそのまま測ることもあります。'
   figures: []
   law_note: null
   _key_choice: 水溶液の試料のみが分析対象となる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ガスクロマトグラフ分析法は、気-固クロマトグラフ分析法と気-液クロマトグラフ分析法に分類される。
+  - 気-固クロマトグラフ分析法は、吸着剤を固定相として用いる。
+  - ガスクロマトグラフ分析法では、沸点の近い物質を分離分析することができる。
+  - カラム温度を上げると、キャリヤーガスの粘度は低下する。
+  - カラム温度が高いほど、保持時間は短くなる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '気体の粘度は、温度が高いほど**大きく**なります。カラム温度を上げるとキャリヤーガスの粘度が低下するとする選択肢4は誤りです。
+
+
+    液体は温まるとさらさらになりますが、気体は逆です。同じ論点は令和7年度第2回でも出題されています。'
   figures: []
   law_note: null
   _key_choice: カラム温度を上げると、キャリヤーガスの粘度は低下する。
   _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 移動相の流速には最適値がある。
+  - カラムの内径が小さいほど、理論段数は大きくなる。
+  - カラムの長さが長くなるほど、理論段数は大きくなる。
+  - 極性液相を用いると、極性官能基を有する化合物の溶出が早くなる。
+  - 無極性液相を用いると、飽和炭化水素化合物はほぼ沸点の低い順に溶出する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '極性の液相（固定相）を用いると、極性官能基をもつ化合物は液相と強く引き合うので、カラムに長くとどまり、溶出が**遅く**なります。溶出が早くなるとする選択肢4は誤りです。
+
+
+    「似たもの同士は引き合う」ので、極性の液相は極性の化合物を、無極性の液相は無極性の化合物を長く保持します。無極性の液相では、飽和炭化水素はほぼ沸点の順に出てきます（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: 極性液相を用いると、極性官能基を有する化合物の溶出が早くなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における X 線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法には、特性 X 線が用いられる。
+  - ろ過材に捕集した試料をそのまま分析できる。
+  - X 線検出器は、X 線のスペクトル分析ができるものでなければならない。
+  - 結晶物質の定量は、回折線の強度測定で行う。
+  - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '作業環境測定の X 線回折分析法では、単一の波長の特性 X 線を使い、回折線の角度で物質を見分けるので、X 線のスペクトルを分析できる検出器である必要はありません。選択肢3は誤りです。
+
+
+    同じ論点は令和7年度第2回でも出題されています。回折角は X 線の波長と結晶面の間隔で決まるので、波長が一定なら角度だけで物質を同定できます。'
   figures: []
   law_note: null
   _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - α 壊変 ／ ⁴He の原子核
+  - β⁻ 壊変 ／ 電子
+  - β⁺ 壊変 ／ 陽子
+  - 核異性体転移 ／ γ 線
+  - 自発核分裂 ／ 中性子
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'β⁺ 壊変で放出されるのは、陽子ではなく**陽電子**です。原子核の中の陽子が中性子に変わり、そのときに陽電子と中性微子が放出されるので、原子番号は1つ減ります。選択肢3は誤りです。
+
+
+    α 壊変は ⁴He の原子核（α 粒子）、β⁻ 壊変は電子、核異性体転移は γ 線、自発核分裂は核分裂片と中性子を放出します。「何が出ていくか」で原子番号と質量数の変化も決まります。'
   figures: []
   law_note: null
   _key_choice: β+壊変陽子
   _stem_head: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ

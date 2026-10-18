@@ -152,6 +152,8 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         figures: (q.figures || []).map((f) => (typeof f === "string" ? { file: f, alt: "" } : f))
           .map((f) => ({ src: `/assets/figures/${f.file}`, alt: f.alt || "" })),
         lawNote: q.law_note || null,
+        examNote: q.exam_note || null, // 協会による正答の注記（複数正答など）
+        reviewNote: q.review_note || null, // 管理者が確認中の点（確認が済んだら消す）
         sourcePdf: doc.source_pdf || site.officialIndex,
       });
     }
@@ -212,7 +214,7 @@ const listItem = (q) => ({
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   books: q.books,
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
-  explanationHtml: q.explanationHtml, lawNote: q.lawNote, sourcePdf: q.sourcePdf, source: q.source,
+  explanationHtml: q.explanationHtml, lawNote: q.lawNote, examNote: q.examNote, reviewNote: q.reviewNote, sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
 });
 const subjectsWithData = subjects
@@ -235,7 +237,11 @@ const bookParts = book.parts
   .map((p) => ({ ...p, chapters: chapters.filter((c) => c.part === p.id) }))
   .filter((p) => p.chapters.length);
 
+// 確認中の解説の一覧（/review/ ページ用）
+const reviewQuestions = questions.filter((q) => q.reviewNote);
+
 export default {
+  reviewQuestions,
   bookChapters,
   bookParts,
   subjects,

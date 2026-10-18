@@ -1,27 +1,38 @@
 exam: 2023-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の単位名称Ⓐとその SI 基本単位による表現Ⓑとの組合せのうち、誤っているものはどれか。
+  choices:
+  - パスカル ／ m⁻¹kg s⁻²
+  - ジュール ／ m³kg s⁻²
+  - ヘルツ ／ s⁻¹
+  - クーロン ／ s A
+  - オーム ／ m²kg s⁻³A⁻²
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ジュールはエネルギーの単位で、力（N ＝ kg・m・s⁻²）× 距離（m）なので、SI 基本単位で表すと **m² kg s⁻²** です。m³ kg s⁻² とする選択肢2は誤りです。
+
+
+    組立単位は、定義の式から組み立てるのが確実です。パスカル（N/m²）は m⁻¹ kg s⁻²、ヘルツは s⁻¹、クーロンは s A です。'
   figures: []
   law_note: null
   _key_choice: ジュールm
   _stem_head: 次の単位名称ⒶとそのSI基本単位による表現Ⓑとの組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - quantification
   - statistics
@@ -29,51 +40,77 @@ questions:
   - an-statistics-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分析値とそのばらつきに関する次の記述の㋑から㋥の［　］に入る式又は語句の組合せとして、正しいものは下のうちどれか。「n 回の分析で分析値 x₁, x₂, x₃, …, x<sub>n</sub> を得た時、その平均値 x̄ は［㋑］で表される。分析値のばらつきの程度は、［㋺］（分散）で表され、分散の代わりに［㋩］で表される不偏分散を用いることもある。分析値は、平均値に分散又は不偏分散の［㋥］を ±でつけて表す。」
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 1
   choice_notes: []
-  explanation: null
-  figures: []
+  explanation: '平均値は分析値の合計を n で割った Σxᵢ/n（㋑）、分散は偏差の2乗の合計を n で割った Σ(xᵢ − x̄)²/n（㋺）、不偏分散は n − 1 で割った Σ(xᵢ − x̄)²/(n − 1)（㋩）です。分析値は、平均値に分散又は不偏分散の**平方根**（㋥、つまり標準偏差）を ± でつけて表します。よって（1）が正しい組合せです。
+
+
+    分散の単位は測定値の2乗になるので、ばらつきを測定値と同じ単位で表すときは平方根をとります。令和8年度第1回にも、同じ形の問題があります。'
+  figures:
+  - file: 2023-08-bunseki-02-choices.png
+    alt: 問2の選択肢
   law_note: null
   _key_choice: ',_x_'
   _stem_head: 分析値とそのばらつきに関する次の記述の㋑から㋥のに入る式又は語句の組合せとして、正しいものは下のうちどれか。「_n_回の分析で分析値_x_
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フェノールの水溶液は、アルカリ性を示す。
+  - アニリンの水溶液は、アルカリ性を示す。
+  - プロピオン酸の水溶液は、酸性を示す。
+  - プロパンは、常温・常圧（25 ℃、1気圧）で気体である。
+  - 酢酸は、エタノールの酸化によって生じる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'フェノールは、ベンゼン環にヒドロキシ基が付いた化合物で、水溶液は弱い**酸性**を示します。アルカリ性とする選択肢1は誤りです。
+
+
+    アニリン（アミノ基）はアルカリ性、プロピオン酸（カルボキシ基）は酸性です。官能基から液性を判断できるようにしておきましょう。'
   figures: []
   law_note: null
   _key_choice: フェノールの水溶液は、アルカリ性を示す。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アセトニトリルは、-CN基をもっている。
+  - 酢酸は、-COOH 基をもっている。
+  - トルエンは、-CH₃ 基をもっている。
+  - ホルムアルデヒドは、＞C＝O 基をもっている。
+  - ジエチルエーテルは、-OH 基をもっている。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ジエチルエーテルがもつのは、酸素原子が2つの炭素にはさまれたエーテル結合（-O-）で、-OH 基（ヒドロキシ基）はもっていません。選択肢5は誤りです。
+
+
+    -OH 基をもつのはアルコールやフェノールです。エーテルは同じ酸素を含みますが、水素と結合していない点が違います。'
   figures: []
   law_note: null
   _key_choice: ジエチルエーテルは、-OH基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -81,17 +118,34 @@ questions:
   - an-solution-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 6.0 mol･L⁻¹の水酸化ナトリウム溶液の密度は 1.20 g･cm⁻³ である。この溶液の水酸化ナトリウムの質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を 40.0 g･mol⁻¹ とする。
+  choices:
+  - 16 ％
+  - 18 ％
+  - 20 ％
+  - 22 ％
+  - 24 ％
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '溶液 1 L について、溶液の質量と溶質の質量を比べます。
+
+
+    溶液の質量 ＝ 1,000 cm³ × 1.20 g/cm³ ＝ 1,200 g
+
+
+    NaOH の質量 ＝ 6.0 mol × 40.0 g/mol ＝ 240 g
+
+
+    質量パーセント濃度 ＝ 240 ÷ 1,200 × 100 ＝ 20 ％
+
+
+    よって（3）が正しい値です。溶液の質量に密度を使うことを忘れると、24 ％（選択肢5）になります。'
   figures: []
   law_note: null
   _key_choice: 20％
   _stem_head: 6.0mol･L-１の水酸化ナトリウム溶液の密度は1.20g･cm-３である。この溶液の水酸化ナトリウムの質量パーセント濃度として、正しい値
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -99,85 +153,141 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '有機化合物A を50 mg含む水溶液 100 mLにヘキサン 5.0 mLを加えて振り混ぜ、A をヘキサンに抽出したところ、その質量は 40 mgであった。有機化合物A の水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次式で表される。
+
+
+    分配係数 ＝ [A]<sub>ヘキサン</sub> ÷ [A]<sub>水</sub>'
+  choices:
+  - '16'
+  - '20'
+  - '40'
+  - '60'
+  - '80'
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '水に残った A は 50 − 40 ＝ 10 mg です。分配係数は濃度の比なので、
+
+
+    [A]ヘキサン ＝ 40 mg ÷ 5.0 mL ＝ 8.0 mg/mL
+
+
+    [A]水 ＝ 10 mg ÷ 100 mL ＝ 0.10 mg/mL
+
+
+    分配係数 ＝ 8.0 ÷ 0.10 ＝ 80
+
+
+    よって（5）が正しい値です。質量の比（40 ÷ 10 ＝ 4）ではなく、体積で割った濃度の比をとることがポイントです。'
   figures: []
   law_note: null
   _key_choice: '80'
   _stem_head: 有機化合物Aを50mg含む水溶液100mLにヘキサン5.0mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は40mgであった。有
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における操作Ⓐと、それに用いる器具Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 標準液の標定 ／ ビュレット
+  - 標準液の調製 ／ メスフラスコ
+  - 標準ガスの調製 ／ パーミエーションチューブ
+  - 空気吸引ポンプの流量の調整 ／ 石けん膜流量計
+  - ミストの捕集 ／ 真空捕集瓶
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '真空捕集びんは、ガスや蒸気を空気ごと採る直接捕集法の器具で、ミストのような粒子の捕集には向きません。ミストはろ過捕集法やインピンジャーで捕集するので、（5）が不適切です。
+
+
+    ビュレットによる標定、メスフラスコによる標準液の調製、パーミエーションチューブによる標準ガスの調製、石けん膜流量計による流量の調整は、いずれも適切な組合せです。'
   figures: []
   law_note: null
   _key_choice: ミストの捕集真空捕集瓶
   _stem_head: 作業環境測定における操作Ⓐと、それに用いる器具Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準ガスの濃度は、拡散セルの拡散チューブの寸法、温度、希釈空気の流量に依存する。
+  - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない。
+  - 標準ガスの濃度の微調整は、拡散セルの温度を変えるよりも希釈空気の流量を変える方が短時間で行うことができる。
+  - 標準ガスの濃度は、拡散セルの温度が高いほど高くなる。
+  - 標準ガスの濃度は、拡散セルの拡散チューブの長さが長いほど高くなる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '拡散チューブの長さ（有効長）が長いほど、蒸気が拡散して出てくるまでの道のりが長くなるので、標準ガスの濃度は**低く**なります。「長いほど高くなる」とする選択肢5は誤りです。
+
+
+    拡散速度は、チューブの断面積に比例し、長さに反比例します。内径が大きいほど、温度が高いほど濃度は高くなります。'
   figures: []
   law_note: null
   _key_choice: 標準ガスの濃度は、拡散セルの拡散チューブの長さが長いほど高くなる。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-reagents-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試薬特級の純度は、日本産業規格で規格化されている。
+  - 特定の分析を目的として不純物の種類・濃度の許容レベルを定めた特殊規格の試薬が存在する。
+  - 酸と塩基は、別々の棚に収容する。
+  - 有機溶剤の中には光で劣化するものがある。
+  - 一次標準物質は、滴定により純度を規定する必要がある。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '一次標準物質は、純度が高く、正確に分かっている物質で、容量分析ではほかの溶液の濃度を決める基準として使います。一次標準物質そのものの純度を、滴定によって規定しなければならないわけではないので、選択肢5は誤りです。
+
+
+    一次標準物質は、滴定で濃度を決められる側ではなく、滴定の基準になる側です。そのため、乾燥して正確に量り取れる、安定な固体の物質が選ばれます。'
   figures: []
   law_note: null
   _key_choice: 一次標準物質は、滴定により純度を規定する必要がある。
   _stem_head: 分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  review_note: 一次標準物質の純度は滴定で規定する必要はない、と説明しています。確認中です。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - quantification
   traps:
   - an-quantification-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検量法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定結果が検量線の濃度範囲を超えた場合は、試料溶液を希釈して再測定する。
+  - 測定値と濃度が本来比例関係にあるにもかかわらず検量線が直線とならない場合は、分析条件を再検討する必要がある。
+  - 標準添加法は、測定対象物質濃度がゼロの時に測定値がゼロとみなせる場合に使用可能である。
+  - 内標準法は、測定対象物質と内標準物質のそれぞれの測定値に誤差があるため、測定精度が下がる。
+  - 内標準物質には、測定対象物質と物理的、化学的によく似た物質を選択する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '内標準法は、試料と標準溶液の両方に同じ量の内標準物質を加え、測定対象物質との信号の比で定量する方法です。注入量のばらつきや装置の感度の変動が打ち消されるので、測定精度は**向上**します。「精度が下がる」とする選択肢4は誤りです。
+
+
+    内標準物質には、測定対象物質と性質がよく似ていて、試料には含まれない物質を選びます（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: 内標準法は、測定対象物質と内標準物質のそれぞれの測定値に誤差があるため、測定精度が下がる。
   _stem_head: 検量法に関する次の記述のうち、誤っているものはどれか。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -185,17 +295,31 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '炭酸カルシウム（CaCO₃）0.400 gを酸化カルシウムと二酸化炭素に完全に分解した。このときに生成した二酸化炭素の物質量として正しい値は、次のうちどれか。ただし、それぞれの原子の原子量は次のとおりとする。Ca : 40.0、C : 12.0、O : 16.0 。'
+  choices:
+  - 0.400 mol
+  - 0.200 mol
+  - 0.040 mol
+  - 0.020 mol
+  - 0.004 mol
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '炭酸カルシウムの分解は CaCO₃ → CaO ＋ CO₂ で、CaCO₃ 1 mol から CO₂ が 1 mol 生じます。
+
+
+    CaCO₃ の式量 ＝ 40.0 ＋ 12.0 ＋ 16.0 × 3 ＝ 100
+
+
+    CaCO₃ の物質量 ＝ 0.400 ÷ 100 ＝ 0.00400 mol
+
+
+    よって、生じる CO₂ も 0.004 mol で、（5）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 0.004mol
   _stem_head: 炭酸カルシウム（CaCO
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -203,148 +327,233 @@ questions:
   - an-titration-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 容量分析の一次標準物質には、化学的に安定な固体試薬が用いられる。
+  - 炭酸ナトリウムは、水酸化ナトリウム溶液の標定に用いられる。
+  - フタル酸水素カリウムは、水酸化ナトリウム溶液の標定に用いられる。
+  - シュウ酸ナトリウムは、過マンガン酸カリウム溶液の標定に用いられる。
+  - 塩化ナトリウムは、硝酸銀溶液の標定に用いられる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '炭酸ナトリウムは、塩酸や硫酸などの**酸**の標定に用いる標準物質です。水酸化ナトリウム溶液の標定には、フタル酸水素カリウムやアミド硫酸を用います。選択肢2は誤りです。
+
+
+    標定する溶液と、反応する相手の標準物質を対で覚えましょう。酸には炭酸ナトリウム、塩基にはフタル酸水素カリウム、過マンガン酸カリウムにはシュウ酸ナトリウム、硝酸銀には塩化ナトリウムです。'
   figures: []
   law_note: null
   _key_choice: 炭酸ナトリウムは、水酸化ナトリウム溶液の標定に用いられる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の金属イオンを含む水溶液のうち、可視部に吸収があるものはどれか。
+  choices:
+  - 亜鉛イオン（Zn²⁺）
+  - カルシウムイオン（Ca²⁺）
+  - 銀イオン（Ag⁺）
+  - 銅イオン（Cu²⁺）
+  - バリウムイオン（Ba²⁺）
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '銅（Ⅱ）イオンの水溶液は青色で、可視部の光（橙色〜赤色の側）を吸収します。亜鉛、カルシウム、銀、バリウムのイオンは無色で、可視部に吸収はありません。よって答えは（4）です。
+
+
+    水溶液に色がついているということは、可視光の一部を吸収しているということです。色のある金属イオン（銅、鉄、クロム、マンガンなど）を思い浮かべれば判断できます。'
   figures: []
   law_note: null
   _key_choice: 銅イオン（Cu２+）
   _stem_head: 次の金属イオンを含む水溶液のうち、可視部に吸収があるものはどれか。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質 A の濃度が 2.0 × 10⁻⁵ mol･L⁻¹ の濃度の溶液を光路長 1.0 cmの試料セルに入れ、波長 550 nmにおける吸光度を測定したところ、0.240 であった。この溶液中の物質 A の 550 nmにおけるモル吸光係数として、正しい値は次のうちどれか。
+  choices:
+  - 3.0 × 10³ mol⁻¹･L･cm⁻¹
+  - 6.0 × 10³ mol⁻¹･L･cm⁻¹
+  - 1.2 × 10⁴ mol⁻¹･L･cm⁻¹
+  - 2.4 × 10⁴ mol⁻¹･L･cm⁻¹
+  - 3.6 × 10⁴ mol⁻¹･L･cm⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則 A ＝ ε × c × l から、モル吸光係数を求めます。
+
+
+    ε ＝ A ÷ (c × l) ＝ 0.240 ÷ (2.0 × 10⁻⁵ × 1.0) ＝ 1.2 × 10⁴ L・mol⁻¹・cm⁻¹
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: mol-１･L･cm-１
   _stem_head: 物質Aの濃度が2.0×10-５mol･L-１の濃度の溶液を光路長1.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - グラファイト炉法及び還元気化法では、中空陰極ランプが光源に用いられる。
+  - グラファイト炉法では、炉に通電することで生じるジュール熱で原子化を行う。
+  - 重水素ランプはバックグラウンド吸収の補正に用いられる。
+  - ヒ素の還元気化法では、試料を水素化ホウ素ナトリウムと反応させることで原子状のヒ素を生成する。
+  - 水銀の還元気化法では、試料を塩化スズ(Ⅱ)と反応させることで原子状の水銀を生成する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ヒ素の還元気化法（水素化物発生法）では、試料を水素化ホウ素ナトリウムと反応させて、気体の**水素化ヒ素（アルシン）**を発生させ、それを加熱したセルで原子化して測定します。水素化ホウ素ナトリウムとの反応で直接原子状のヒ素ができるわけではないので、選択肢4は誤りです。
+
+
+    水銀は、塩化スズ（Ⅱ）で還元すると常温で原子状の水銀蒸気になる特別な元素で（選択肢5）、ヒ素とは仕組みが違います。'
   figures: []
   law_note: null
   _key_choice: ヒ素の還元気化法では、試料を水素化ホウ素ナトリウムと反応させることで原子状のヒ素を生成する。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「励起光を吸収した分子は電子励起状態へ遷移する。電子励起状態にある分子がエネルギーの一部を熱として放出した後、電子基底状態へ戻る際に蛍光が生じる。そのため、励起光よりも蛍光の方がエネルギーが［㋑］。また、励起光よりも蛍光は波長が［㋺］。分光蛍光光度計では、光源として主に［㋩］を用い、ここから出た光を分光した後、試料に照射し、生じる蛍光を測定する。」
+  choices:
+  - 大きい ／ 短い ／ タングステンランプ
+  - 大きい ／ 長い ／ キセノンランプ
+  - 小さい ／ 短い ／ タングステンランプ
+  - 小さい ／ 長い ／ タングステンランプ
+  - 小さい ／ 長い ／ キセノンランプ
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '蛍光は、励起された分子がエネルギーの一部を熱として失ったあとに出る光なので、励起光よりエネルギーが**小さく**、波長は**長く**なります。分光蛍光光度計の光源には、主に**キセノンランプ**を用います。よって（5）が正しい組合せです。
+
+
+    令和7年度第1回にも、同じ形の問題があります。'
   figures: []
   law_note: null
   _key_choice: 小さい長いキセノンランプ
   _stem_head: 蛍光光度分析法に関する次の記述の㋑から㋩のに入る語句の組合せとして、正しいものは下のうちどれか。「励起光を吸収した分子は電子励起状態へ遷移す
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤を、無極性液相のキャピラリーカラムを用いたガスクロマトグラフ分析法で分析したところ、直鎖のアルカンを3種類検出した。これらがキャピラリーカラムから溶出する順序を、早い方から並べたものは次のうちどれか。
+  choices:
+  - オクタン ヘキサン ペンタン
+  - オクタン ペンタン ヘキサン
+  - ペンタン ヘキサン オクタン
+  - ペンタン オクタン ヘキサン
+  - ヘキサン ペンタン オクタン
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '無極性液相のカラムでは、直鎖のアルカンは、ほぼ沸点の低い順、つまり炭素数の少ない順に溶出します。ペンタン（C₅）、ヘキサン（C₆）、オクタン（C₈）の順なので、（3）が正しいものです。
+
+
+    無極性の液相は、分子どうしの引き合う力の弱い（沸点の低い）物質ほど早く通り抜けます。'
   figures: []
   law_note: null
   _key_choice: ペンタンヘキサンオクタン
   _stem_head: 有機溶剤を、無極性液相のキャピラリーカラムを用いたガスクロマトグラフ分析法で分析したところ、直鎖のアルカンを３種類検出した。これらがキャピラ
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ 炭化水素化合物
+  - 炎光光度検出器（FPD） ／ 有機硫黄化合物
+  - 電子捕獲検出器（ECD） ／ 芳香族炭化水素化合物
+  - 光イオン化検出器（PID） ／ 不飽和炭化水素化合物
+  - 熱イオン化検出器（TID，FTD） ／ 有機リン化合物
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '電子捕獲検出器（ECD）は、塩素などのハロゲンを含む化合物に高い感度をもつ検出器で、芳香族炭化水素の検出には適しません。（3）が不適切です。
+
+
+    芳香族炭化水素には、FID や PID が適しています。ECD は「ハロゲン」、FPD は「硫黄・リン」、TID は「窒素・リン」と、検出器と得意な物質を対で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: 電子捕獲検出器（ECD）芳香族炭化水素化合物
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における X 線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法では、通常、Cu-Kα X 線が用いられる。
+  - この分析法は、結晶物質の同定や定量に使われる。
+  - X 線の回折角度の測定には、ゴニオメーターを用いる。
+  - フィルターに捕集した試料から、目的物質を抽出した後、測定する。
+  - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '作業環境測定の X 線回折分析法では、フィルターに捕集した試料を、抽出などの処理をせずに**そのまま**測定できます。目的物質を抽出してから測定するとする選択肢4は誤りです。
+
+
+    X 線回折は固体の結晶をそのまま測る方法なので、溶かしてしまうと測れなくなります。令和6年度第2回でも、試料をそのまま分析できる、という形で出題されています。'
   figures: []
   law_note: null
   _key_choice: フィルターに捕集した試料から、目的物質を抽出した後、測定する。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - α 壊変 ／ ⁴He の原子核
+  - β⁻ 壊変 ／ 電子
+  - β⁺ 壊変 ／ 陽電子
+  - 核異性体転移 ／ X 線
+  - 自発核分裂 ／ 中性子
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '核異性体転移で放出されるのは **γ 線**です。X 線とする選択肢4は誤りです。
+
+
+    γ 線は原子核から、X 線は原子核の外の電子の移動にともなって出る電磁波です。核異性体転移は原子核の中のエネルギー状態の変化なので、γ 線が出ます。'
   figures: []
   law_note: null
   _key_choice: Heの原子核
   _stem_head: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ

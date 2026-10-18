@@ -1,0 +1,407 @@
+exam: 2020-08
+date: null
+subject: yuki
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の有機溶剤のうち、25 ℃ における密度が最も小さいものはどれか。
+  columns: null
+  choices:
+  - エチルエーテル
+  - N,N-ジメチルホルムアミド
+  - メチルエチルケトン
+  - n-ヘキサン
+  - 酢酸エチル
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤の物性等に関する次の記述のうち、誤っているものはどれか。ただし、大気圧は1気圧とする。
+  columns: null
+  choices:
+  - 25 ℃において、酢酸イソプロピルの蒸気圧は、イソプロピルアルコールの蒸気圧より大きい。
+  - メタノールの沸点は、酢酸メチルの沸点より高い。
+  - キシレンの融点は、トルエンの融点より高い。
+  - 25 ℃ において、o-ジクロロベンゼンの密度は、クロロベンゼンの密度より大きい。
+  - シクロヘキサノンの分子量は、シクロヘキサノールの分子量より大きい。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の有機溶剤について、1気圧における沸点が 70 ℃ 以下であるもののうち、25 ℃ における蒸気圧が最も小さいものはどれか。
+  columns: null
+  choices:
+  - アセトン
+  - 酢酸イソプロピル
+  - テトラヒドロフラン
+  - 1,1,1-トリクロロエタン
+  - 二硫化炭素
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤の捕集に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 真空捕集びんによる試料空気の採取には、内容積が 1 L 以上のガラス製の捕集びんが用いられるが、その内面は測定対象物質に対して不活性でなければならない。
+  - 真空捕集びんに試料空気を採取する際の空気吸引流量は一定でない。
+  - 活性炭管に試料空気を捕集する際は、前もって活性炭管を接続した状態で電動ポンプの流量を、石けん膜流量計で校正する。
+  - 小型バブラーに試料空気を捕集する際は、吸引する電動ポンプの流量を石けん膜流量計で校正する。
+  - ミゼットインピンジャーに粒径 3 ～ 5 mm のグラスビーズを入れておくと、ガス状物質の捕集率が高まるのは、試料空気と液体の接触面積が小さくなるからである。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気中の有機溶剤の直接捕集法とその試料の取扱いに関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 真空捕集びんのコックには、グリースなどの使用を避ける。
+  - 新しい捕集袋を使用する場合、内面からの分析妨害物質の発生を考慮する必要はない。
+  - 捕集袋の内容積は、5 L 以上とする。
+  - 採取した試料空気は、できるだけその日のうちに分析する。
+  - 採取した試料空気を保存する場合は、温度変化が少ない場所に保存する。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集剤を2層に分けて充塡された捕集管では、後層から検出された対象物質の量が、前層からの検出量の 10 ％ を超えた場合、両充塡層からの検出量の和を用いて濃度計算する。
+  - シリカゲルは、水分含有率によって、測定対象物質の吸着容量が異なる。
+  - 活性炭は、窒素又は乾燥空気の加熱気流中で脱水したものを使用する。
+  - ポーラスポリマービーズ（多孔性プラスチック）は反応性が低く、捕集した試料の重合、酸化などが起こりにくい。
+  - ポーラスポリマー捕集管に捕集した試料は、活性炭に比べて、加熱脱着が容易である。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 混合有機溶剤について検知管法の使用が認められている場合において、トルエン、酢酸エチル、1,1,1-トリクロロエタン及びキシレンを含有する混合溶剤を使用している単位作業場所内の併行測定点におけるトルエン用検知管の測定値は、1.5 ppm であった。一方、ガスクロマトグラフで分析した測定値は、トルエン 1.0 ppm 、 酢酸エチル 8.0 ppm 、1,1,1-トリクロロエタン 10 ppm 及びキシレン 1.0 ppm であった。換算値変換係数として、正しい値に最も近いものは次のうちどれか。なお、トルエン、酢酸エチル、1,1,1-トリクロロエタン及びキシレンの管理濃度は、それぞれ 20 ppm 、200 ppm 、200 ppm 及び 50 ppm である。
+  columns: null
+  choices:
+  - 0.054 ppm⁻¹
+  - 0.107 ppm⁻¹
+  - 0.214 ppm⁻¹
+  - 0.428 ppm⁻¹
+  - 0.767 ppm⁻¹
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ポリエチレングリコール 20 M を固定相液体としたカラムを用いるガスクロマトグラフ分析において、トルエンより保持時間の長い有機溶剤は、次のうちどれか。
+  columns: null
+  choices:
+  - 酢酸エチル
+  - テトラヒドロフラン
+  - キシレン
+  - イソプロピルアルコール
+  - エチルエーテル
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフに利用されている検出器に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 電子捕獲検出器は、ハロゲンを含む化合物の分析に適していない。
+  - 質量分析器は、イオン化されにくい化合物の分析には適していない。
+  - 光イオン化検出器は、紫外線でイオン化する化合物に適している。
+  - 炎光光度検出器は、リンや硫黄を含む化合物の分析に適している。
+  - アルカリ熱イオン化検出器は、窒素やリンを含む化合物の分析に適している。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 充塡カラムとキャピラリーカラムの比較に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 充塡カラムの方が、単位長さ当たりの理論段数は大きい。
+  - 充塡カラムの方が、試料負荷量を多くできる。
+  - キャピラリーカラムでは、渦流拡散が小さいので、ピーク幅の広がりは抑制される。
+  - キャピラリーカラムの方が、キャリアガス流量が少ない。
+  - キャピラリーカラムの方が、複雑な構造を有する試料導入部がある。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 理論段数はカラムの長さ及び内径によって変化する。
+  - キャリアガスの種類を変えても、カラム内での成分分離は変わらない。
+  - カラムの分離能は移動相の線速度の影響を受ける。
+  - 移動相と固定相との間の分配平衡は速やかに成立する。
+  - カラムの液相の膜厚が厚くなると、保持時間は長くなる。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 代表的なイオン化法には、電子イオン化法がある。
+  - イオン化条件によっては、分子イオンが観察されない場合がある。
+  - 代表的な質量分離装置には、四重極型がある。
+  - 安定同位体で置換した測定対象物質は、内部標準物質として使用できない。
+  - 定量は、ターゲットイオンのピーク面積を用いて行う。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 無極性充塡カラムを用いてガスクロマトグラフ分析を行うとき、次のうち最もテーリングを起こしやすい有機溶剤はどれか。
+  columns: null
+  choices:
+  - m-キシレン
+  - n-ヘキサン
+  - トルエン
+  - メタノール
+  - 1,1,1-トリクロロエタン
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 成分 A、B の保持時間に相当するガスクロマトグラム上の長さがそれぞれ20 cm 、14 cm で、ピーク幅がそれぞれ 20 mm 、12 mm であるとき、使用したカラムの成分 A、B のピークの分離度として、正しい値は次のうちどれか。
+  columns: null
+  choices:
+  - '0.27'
+  - '1.36'
+  - '1.88'
+  - '2.14'
+  - '3.75'
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述の㋑及び㋺の［　］に入る語句の組合せとして、正しいものはどれか。「試料液に単色光を当てたとき、入射光の強さを I₀、透過後の強さを Iとすると、吸光度 Aは、次式で表される。A = log₁₀（［㋑］）いま試料液の濃度を c、液層の長さを d とすると、次の関係が成り立つ。A =［㋺］ここで k は比例定数である。」
+  columns:
+  - ㋑
+  - ㋺
+  choices:
+  - I₀/I ／ k/cd
+  - I₀/I ／ kcd
+  - I/I₀ ／ k/cd
+  - I/I₀ ／ kc/d
+  - I/I₀ ／ kcd
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 透過率（％）をアナログメータから読み取る場合は、15 ～ 65 ％ 程度の範囲で測定することが望ましい。
+  - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ。
+  - 通常、青色溶液の可視部の主な吸収波長域は、赤色溶液のそれより長波長側にある。
+  - プラスチック製セルは、一般に可視領域の測定に用いられる。
+  - 液層の長さが同一の場合、透過率（％）の値が大きいほど、対象物質の試料液中の濃度は低い。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 光電子増倍管は、紫外領域の検出器に用いることができない。
+  - 相対誤差の少ない吸光度の範囲としては、0.2 ～ 0.8 が望ましい。
+  - 石英製セルは、すべての測定波長領域で用いることができる。
+  - 一般に、測定波長は、吸収スペクトルの吸収極大を示す波長を選択する。
+  - 発色反応のために試料液を加熱した場合は、常温にもどしてから吸光度を測定する。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: モル質量 150 g･mol⁻¹、モル吸光係数 2.0 × 10³ cm⁻¹･mol⁻¹･L の物質の水溶液 1.0 L を調製し、その透過率を測定したところ、 40 ％ であった。この溶液中に含まれる物質の質量として、正しい値は次のうちどれか。ただし、セルの光路長は 1.0 cm とし、log₁₀2 = 0.30とする。
+  columns: null
+  choices:
+  - 10 mg
+  - 20 mg
+  - 30 mg
+  - 40 mg
+  - 50 mg
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 捕集率が同じ2本のミゼットインピンジャーを直列に連結して、ある有機溶剤蒸気の捕集を行ったところ、1本目の吸収管には 0.950 mg の有機溶剤が、2本目には 0.0500 mg の有機溶剤が捕集された。このミゼットインピンジャー1本の捕集率（％）として、正しい値は次のうちどれか。
+  columns: null
+  choices:
+  - 90.4 ％
+  - 94.7 ％
+  - 95.0 ％
+  - 97.6 ％
+  - 99.0 ％
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機溶剤の標準液の調製に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 冷蔵保管した有機溶剤や標準原液は、室温に戻してから使用する。
+  - 一度正確に調製した標準液中の標準物質の濃度は、時間経過や保管によって変化しない。
+  - 調製方法の異なる標準液などについて、クロスチェックすることは、測定結果の信頼性を高める。
+  - 標準液に使用する溶質、溶媒は共に蒸気圧が高い場合が多いことから、できる限り短時間で操作する。
+  - 標準液を調製する際は、ドラフト等の局所排気装置を使用する。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

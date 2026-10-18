@@ -50,3 +50,9 @@ Claude Docs の原稿を Markdown で書き出したら、次で制作用の節�
 執筆メモ、要確認事項）を取り除いてから置く。
 
     python tools/clean_book_md.py <書き出したMarkdown> <章ID>
+
+## 確認中の解説
+
+問題データに `review_note: …` を書くと、解説欄に「現在、管理者にて確認中」の枠で表示され、
+管理用の一覧ページ `/sokuteishi/review/`（メニュー・サイトマップには載らない、noindex）にまとめて出る。
+確認が済んだら、解説を直して `review_note` の行を消す。
