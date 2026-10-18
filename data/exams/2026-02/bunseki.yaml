@@ -4,7 +4,7 @@ subject: bunseki
 source_pdf: https://www.exam.or.jp/20260217-4/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -20,7 +20,10 @@ questions:
   - オーム ／ m²kg s⁻³A⁻²
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '気体定数の単位は J・K⁻¹・mol⁻¹ で、J（ジュール）は SI 組立単位です。SI 基本単位で表すと m² kg s⁻² K⁻¹ mol⁻¹ になるので、「J K mol」とする選択肢2は誤りです。
+
+
+    組立単位は定義の式から組み立てます。圧力 ＝ 力 ÷ 面積 なので m⁻¹ kg s⁻²、ヘルツは1秒あたりの回数なので s⁻¹、クーロン ＝ 電流 × 時間 なので s A です。オーム（電気抵抗）は m² kg s⁻³ A⁻² で、ここは暗記で構いません。'
   figures: []
   law_note: null
   _key_choice: 気体定数JKmol
@@ -29,7 +32,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - solution
   traps:
@@ -45,13 +48,28 @@ questions:
   - '11.18'
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '捕集量を捕集効率で割って空気中にあった量に直し、通気量で割ります。
+
+
+    通気量 ＝ 100 mL/min × 60.0 分 ＝ 6,000 mL ＝ 6.00 L
+
+
+    空気中の量 ＝ 50.30 µg ÷ 0.75 ≒ 67.1 µg
+
+
+    濃度 ＝ 67.1 µg ÷ 6.00 L ≒ 11.2 µg/L
+
+
+    ただし、計算に使った値のうち、捕集効率 75 ％ は有効数字が2桁しかありません。掛け算・割り算の結果は、有効数字が最も少ない値に合わせるので、答えは2桁の 11 です。よって（3）が適切です。
+
+
+    計算そのものだけでなく、有効数字の扱いまで問われている問題です。選択肢に同じ値の桁違い（11、11.2、11.18）が並んでいたら、有効数字を確認しましょう。'
   figures: []
   law_note: null
   _key_choice: '11'
   _stem_head: 捕集材に空気を流量100mL･min-１で60.0分間通気して物質Aを50.30µg捕集した。捕集材の物質Aに対する捕集効率が75％であると
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -67,13 +85,16 @@ questions:
   - アセトンは水によく溶ける。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'トルエンはベンゼン環にメチル基が付いた炭化水素で、極性がほとんどないため、水にはほとんど溶けません。選択肢4は誤りです。
+
+
+    アセトンは極性の大きいカルボニル基をもつので、水とよく混ざります。「似たもの同士が溶け合う」（極性のあるものは水に、極性のないものは油に溶ける）という原則で判断できます。フェノールとプロピオン酸は酸性、アニリンはアルカリ性（塩基性）を示します。'
   figures: []
   law_note: null
   _key_choice: トルエンは水によく溶ける。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   - reaction
@@ -90,13 +111,16 @@ questions:
   - 2.5 気圧
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '炭素の燃焼は C ＋ O₂ → CO₂ で、酸素 1 mol から二酸化炭素 1 mol ができます。反応の前後で気体の物質量は変わらないので、温度が 25℃ に戻れば、圧力も燃焼前の酸素と同じ 1.0 気圧になります。よって（2）が正しいものです。
+
+
+    気体の圧力は、温度と体積が同じなら気体の物質量に比例します。反応式で気体の分子の数がどう変わるかを見れば、計算をしなくても答えが出ます。'
   figures: []
   law_note: null
   _key_choice: 1.0気圧
   _stem_head: 容積5.0Lの密閉容器に炭素と、温度25℃で圧力1.0気圧の酸素を封入してから燃焼させ、酸素を全て二酸化炭素へ変換した。燃焼後の容器内の温度
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -113,13 +137,31 @@ questions:
   - 442 mL
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '薄めても溶質（硫酸）の質量は変わらない、という関係を使います。
+
+
+    40.0 ％ 硫酸 100 mL の質量 ＝ 100 mL × 1.30 g/cm³ ＝ 130 g
+
+
+    その中の硫酸の質量 ＝ 130 g × 0.400 ＝ 52.0 g
+
+
+    10.0 ％ にしたときの溶液の質量 ＝ 52.0 g ÷ 0.100 ＝ 520 g
+
+
+    加える精製水 ＝ 520 g − 130 g ＝ 390 g ＝ 390 mL
+
+
+    よって（3）が正しい値です。
+
+
+    溶液の量を体積（100 mL）のまま計算すると 300 mL（選択肢2）になります。質量パーセント濃度の計算は、必ず密度を使って質量に直してから行いましょう。'
   figures: []
   law_note: null
   _key_choice: 390mL
   _stem_head: 質量パーセント濃度が40.0％の硫酸（密度1.30g･cm-３）100mLを精製水（密度1.00g･cm-３）で希釈し、質量パーセント濃度を
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -136,13 +178,16 @@ questions:
   - ヨウ化水素酸
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '同じ濃度の酸では、弱い酸ほど水素イオン濃度が小さく、pH が大きくなります。選択肢のうち、塩酸、硝酸、硫酸、ヨウ化水素酸は強酸ですが、フッ化水素酸は弱酸なので、pH が最も大きいのは（4）です。
+
+
+    ハロゲン化水素酸のうち、フッ化水素酸だけが弱酸で、塩酸・臭化水素酸・ヨウ化水素酸は強酸です。フッ素と水素の結合が非常に強く、水中で電離しにくいためです。'
   figures: []
   law_note: null
   _key_choice: フッ化水素酸
   _stem_head: 濃度0.1mol･L-１の次の水溶液のうち、そのpHの値が最も大きいものはどれか。
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -158,13 +203,16 @@ questions:
   - 洗浄後、乾燥器で加熱すると、ガラスが膨張し変形するため正しく体積が測定できなくなる場合がある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ホールピペットに溶液を吸い上げるときは、中央の膨らんだ部分ではなく、**上部の細い部分**を持ちます。膨らんだ部分を手で握ると、体温でガラスや溶液が温まって体積が変わり、正確な量が量れなくなるためです。選択肢3は誤りです。
+
+
+    ガラス製体積計は、温度による体積の変化を避けることが基本です。乾燥器で加熱すると変形して体積が狂うことがある（選択肢5）のも、同じ理由です。'
   figures: []
   law_note: null
   _key_choice: ホールピペットに溶液を吸引する際には、中間の膨らんだ部分を持つのがよい。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
@@ -180,13 +228,16 @@ questions:
   - ディフュージョンチューブの一方の端は解放した状態で使用する。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ディフュージョンチューブ（拡散セル）は、液体溜めの液面から出た蒸気が、細い拡散管の中を拡散して外に出てくる仕組みです。容器の壁を透過させる仕組みではないので、ガス透過性の材料で作る必要はありません。選択肢2は誤りです。
+
+
+    テフロンなどのガス透過性の材料で作られ、壁を通して物質を少しずつ出すのは、パーミエーションチューブです。「拡散管を通る」拡散セルと、「壁を透過する」パーミエーションチューブの違いが、繰り返し問われています。'
   figures: []
   law_note: null
   _key_choice: ディフュージョンチューブはテフロンなどのガス透過性材料でできている。
   _stem_head: ディフュージョンチューブ（拡散セル）を用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -202,13 +253,16 @@ questions:
   - イオン交換法では、中性の有機成分を除くことはできない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '逆浸透法では、原料水側に**浸透圧を超える**圧力をかけて、水だけを膜の反対側に押し出し、イオンなどの不純物を除きます。「浸透圧を超えてはならない」とする選択肢4は誤りです。
+
+
+    浸透は、本来、濃度の低い側から高い側へ水が移動する現象です。これと逆向きに水を動かすので「逆浸透」と呼び、そのためには浸透圧より大きな圧力が必要になります。'
   figures: []
   law_note: null
   _key_choice: 逆浸透法における加圧は、原料水の浸透圧を超えてはならない。
   _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -224,13 +278,16 @@ questions:
   - 塩化水素
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'シアン化水素の検知管は、反応で生じる酸を pH 指示薬の変色で検知します。アンモニアのような塩基性の物質が共存すると、生じた酸を中和してしまうため、変色層が短くなり、指示値が低めに出ます。よって答えは（2）です。
+
+
+    二酸化窒素、硝酸、フッ化水素、塩化水素などの酸性の物質は、逆に変色を強める方向に働きます。検知管の妨害は、反応の仕組みから「同じ向きに効くか、打ち消すか」で考えるのが基本です。'
   figures: []
   law_note: null
   _key_choice: アンモニア
   _stem_head: シアン化水素の検知管は、シアン化水素が塩化水銀（Ⅱ）と反応して生成する物質によるpH指示薬の変色を利用して濃度を測定する。共存すると、変色の
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -247,13 +304,31 @@ questions:
   - 1.0 × 10⁻¹⁶ mol･L⁻¹
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '混合した酸と塩基の物質量を比べ、余った分の濃度を求めます。
+
+
+    HCl ＝ 1.0 × 10⁻² mol/L × 0.010 L ＝ 1.0 × 10⁻⁴ mol
+
+
+    NaOH ＝ 3.0 × 10⁻² mol/L × 0.010 L ＝ 3.0 × 10⁻⁴ mol
+
+
+    中和後に残る OH⁻ ＝ 2.0 × 10⁻⁴ mol、溶液の体積は 20 mL なので、[OH⁻] ＝ 2.0 × 10⁻⁴ ÷ 0.020 ＝ 1.0 × 10⁻² mol/L
+
+
+    [H⁺] ＝ 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻² ＝ 1.0 × 10⁻¹² mol/L
+
+
+    よって（4）が正しい値です。
+
+
+    混合すると体積が2倍の 20 mL になることを忘れると、[OH⁻] が2倍になり、答えがずれます。'
   figures: []
   law_note: null
   _key_choice: 1.0×10-12mol･L-１
   _stem_head: 濃度1.0×10-２mol･L-１の塩酸10mLと濃度3.0×10-２mol･L-１の水酸化ナトリウム水溶液10mLとを混合した溶液の水素イ
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -270,13 +345,16 @@ questions:
   - 標定に用いる反応は、平衡定数が大きく、反応速度が大きいことが必要である。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'エチレンジアミン四酢酸二ナトリウム（EDTA）溶液の標定には、亜鉛や炭酸カルシウムなどの金属を含む標準物質を用います。チオ硫酸ナトリウムはヨウ素滴定で使う滴定液で、EDTA の標定には用いないので、選択肢4は誤りです。
+
+
+    標定は「濃度を正確に知りたい溶液」を、その溶液と確実に反応する標準物質で滴定して濃度を決める操作です。EDTA は金属イオンと反応するので、標準物質も金属を含むものになります。'
   figures: []
   law_note: null
   _key_choice: エチレンジアミン四酢酸二ナトリウム溶液の標定には、チオ硫酸ナトリウムが用いられる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -293,13 +371,16 @@ questions:
   - 定量分析は、検量線の直線範囲内で行う。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は光路の長さに比例しますが、透過率は光路の長さに反比例するわけではありません。吸光度 A ＝ −log T なので、光路長が2倍になると吸光度は2倍、透過率は2乗（たとえば 0.5 が 0.25）になります。選択肢2は誤りです。
+
+
+    「比例するのは吸光度、透過率は指数的に減る」と覚えておけば、光路長や濃度を変えたときの問題にも対応できます。'
   figures: []
   law_note: null
   _key_choice: 透過率は、光路の長さに反比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -316,13 +397,28 @@ questions:
   - 150 µg
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則 A ＝ ε × c × l から濃度を求め、質量に直します。
+
+
+    c ＝ A ÷ (ε × l) ＝ 0.480 ÷ (2.0 × 10⁴ × 2.0) ＝ 1.2 × 10⁻⁵ mol/L
+
+
+    100 mL 中の物質量 ＝ 1.2 × 10⁻⁵ mol/L × 0.100 L ＝ 1.2 × 10⁻⁶ mol
+
+
+    質量 ＝ 1.2 × 10⁻⁶ mol × 50 g/mol ＝ 6.0 × 10⁻⁵ g ＝ 60 µg
+
+
+    よって（2）が正しい値です。
+
+
+    光路長 2.0 cm を掛け忘れると 120 µg（選択肢4）になります。'
   figures: []
   law_note: null
   _key_choice: 60µg
   _stem_head: モル質量が50g･mol-１の物質Aの溶液が100mLある。この溶液の一部を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -338,13 +434,16 @@ questions:
   - 還元気化法では、水銀イオンを塩化スズ（Ⅱ）などの還元剤で還元して水銀の原子化を行う。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '重水素ランプを用いたバックグラウンド補正は、分子による光の吸収や散乱（分光的な干渉）を補正するためのものです。共存元素による化学干渉は、目的元素が原子になりにくくなる現象なので、重水素ランプでは補正できません。選択肢4は誤りです。
+
+
+    化学干渉には、干渉を抑える試薬を加える、標準添加法で検量線を作るなどの方法で対応します。「光の干渉は重水素ランプ、化学干渉は別の方法」と区別しておきましょう。'
   figures: []
   law_note: null
   _key_choice: グラファイト炉法で共存元素による化学干渉の影響を受けるときは、重水素ランプを用いたバックグラウンド補正が行われる。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -360,7 +459,10 @@ questions:
   - りん光 ／ 蛍光 ／ 吸光
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '図で、Ⓐは電子励起状態（三重項）から基底状態への下向きの遷移なので**りん光**、Ⓑは電子励起状態（一重項）から基底状態への下向きの遷移なので**蛍光**、Ⓒは基底状態から励起状態への上向きの遷移なので**吸光**です。よって（5）が正しい組合せです。
+
+
+    上向きの矢印は光を吸収してエネルギーの高い状態に上がる過程、下向きの矢印は光を出して下がる過程です。下向きのうち、一重項から出るものが蛍光、いったん三重項に移ってから出るものがりん光です。'
   figures:
   - file: 2026-02-bunseki-16-1.png
     alt: 問16の図
@@ -372,7 +474,7 @@ questions:
   - Ⓑ
   - Ⓒ
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -388,13 +490,16 @@ questions:
   - 検出器の温度は、通常、カラム温度よりも高めに設定される。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '気体の粘度は、液体とは逆に、温度が高いほど**大きく**なります。「カラム温度が高いほどキャリヤーガスの粘度は小さくなる」とする選択肢3は誤りです。
+
+
+    液体は温度が上がるとさらさらになりますが、気体は分子の運動が激しくなって互いにぶつかる回数が増え、流れにくくなります。そのため、昇温分析ではカラム温度が上がるにつれてキャリヤーガスの流量が減ることがあります。'
   figures: []
   law_note: null
   _key_choice: カラム温度が高いほど、キャリヤーガスの粘度は小さくなる。
   _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -410,7 +515,10 @@ questions:
   - 熱イオン化検出器（TID、FTD） ／ 飽和炭化水素化合物
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '熱イオン化検出器（TID、FTD）は、窒素やリンを含む化合物に高い感度をもつ検出器です。飽和炭化水素にはほとんど応答しないので、選択肢5は不適切です。
+
+
+    検出器は「何に強いか」で覚えます。FID は炭化水素全般、FPD は硫黄・リン化合物、ECD は有機ハロゲン化合物、PID は芳香族などイオン化しやすい化合物、TID は窒素・リン化合物です。'
   figures: []
   law_note: null
   _key_choice: 熱イオン化検出器（TID、FTD）飽和炭化水素化合物
@@ -419,7 +527,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -435,13 +543,16 @@ questions:
   - 定量成分と同一の純物質を既知量添加して、その回折線強度の増加分と元の回折線強度から定量を行うことができる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '作業環境測定の X 線回折分析法では、単一の波長の特性 X 線を使い、回折線が現れる角度で物質を見分けます。そのため、X 線検出器に X 線のスペクトル（波長の分布）を分析する機能は必要ありません。選択肢3は誤りです。
+
+
+    回折角は、X 線の波長と結晶の面の間隔で決まります。波長が1つに決まっていれば、角度を測るだけで結晶面の間隔がわかり、物質を同定できます。'
   figures: []
   law_note: null
   _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -457,7 +568,10 @@ questions:
   - 単位時間当たりの被ばく線量
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '放射能の単位 Bq（ベクレル）は、1秒あたりに壊変する原子核の数を表します。1 Bq は、1秒間に1個の原子核が壊変することです。よって（3）が正しいものです。
+
+
+    放射線の数ではなく「壊変の数」である点に注意しましょう。1回の壊変で複数の放射線が出ることもあるので、放射線の数とは一致しません。'
   figures: []
   law_note: null
   _key_choice: 単位時間当たりの壊変数
