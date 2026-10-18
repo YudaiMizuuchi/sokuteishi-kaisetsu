@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: 参考書
+description: 作業環境測定士試験（第2種）の参考書。章ごとに、過去問の罠の型を理由から解説します。
+---
+<h1>参考書</h1>
+<p class="lead">試験科目の順ではなく、理解が積み上がる順に並べています。公開している章から読めます。</p>
+{% for p in db.bookParts %}
+<section class="part">
+  <h2>第{{ p.num }}部 {{ p.name }}</h2>
+  <ul class="chapterlist">
+  {% for c in p.chapters %}<li>{% if c.bookUrl %}<a href="{{ c.bookUrl }}">{{ c.label }}</a><span>公開中</span>{% else %}<span class="pending">{{ c.label }}</span><span>準備中</span>{% endif %}</li>{% endfor %}
+  </ul>
+</section>
+{% endfor %}

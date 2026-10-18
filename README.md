@@ -40,3 +40,13 @@ Search Console にも同じサイトマップを送信する。
 - origin / pathPrefix … 公開先のドメインとフォルダ
 - showStem … 問題文・選択肢を表示する（協会の許諾に基づき true）
 - sourceName … 出典表示の文言（許諾の条件で指定があれば合わせる）
+
+## 参考書のページ
+
+`book/<章ID>.md` を置くと、`/book/<章ID>/` に参考書の章ページができ、その章に関わる問題の解説欄に
+「参考書『〇-〇 …』で復習する」ボタン（新しいタブで開く）が自動で付く。章IDは data/master/book.yaml の chapters の id。
+
+Claude Docs の原稿を Markdown で書き出したら、次で制作用の節（動画台本メモ、イラストの指示や生成プロンプト、
+執筆メモ、要確認事項）を取り除いてから置く。
+
+    python tools/clean_book_md.py <書き出したMarkdown> <章ID>

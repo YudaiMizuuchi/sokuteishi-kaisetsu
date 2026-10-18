@@ -55,13 +55,15 @@ function initList(cfg) {
     const notes = (q.choiceNotes || []).length
       ? `<ol class="notes">${q.choiceNotes.map((n, i) => `<li${n.isAnswer ? ' class="is-answer"' : ""}><span class="n">(${i + 1})</span><span>${n.html}</span></li>`).join("")}</ol>` : "";
     const traps = q.traps.map((t) => `<section class="trap"><h3>この問題で狙われた罠：${t.url ? `<a href="${u(t.url)}">${esc(t.name)}</a>` : esc(t.name)}</h3>${t.understandingHtml}${t.reasonHtml ? `<div class="why"><span>なぜ？</span>${t.reasonHtml}</div>` : ""}</section>`).join("");
+    const books = (q.books || []).length
+      ? `<div class="review">${q.books.map((b) => `<a class="book-link" href="${u(b.url)}" target="_blank" rel="noopener">参考書「${esc(b.label)}」で復習する<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`).join("")}</div>` : "";
     return `<article class="q" id="${q.id}">
       <div class="qmeta"><span>${esc(q.examLabel)}（${esc(q.held)}）</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}">ランク${q.rank}</span>` : ""}</div>
       <h2 class="qtitle"><a href="${u(q.url)}">問${q.num}</a></h2>
       ${body}
       <div class="tags">${q.chapterLabels.map((l, i) => `<a class="tag" href="${u(`/chapter/${q.chapters[i]}/`)}">${esc(l)}</a>`).join("")}</div>
       <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-${q.id}" data-answer="${q.answer.join(",")}">解説を見る</button>
-      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.explanationHtml}${notes}${traps}</div>
+      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.explanationHtml}${notes}${traps}${books}</div>
       ${q.stemHtml ? `<p class="credit">出典：${esc(q.source)}</p>` : ""}
     </article>`;
   }

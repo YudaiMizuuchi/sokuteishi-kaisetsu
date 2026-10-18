@@ -11,6 +11,7 @@ eleventyComputed:
 ---
 <nav class="crumbs" aria-label="現在の位置"><a href="/chapter/">参考書の章から探す</a> › 第{{ c.partNum }}部 {{ c.partName }}</nav>
 <h1>{{ c.label }}</h1>
+{% if c.bookUrl %}<p><a class="book-link" href="{{ c.bookUrl }}" target="_blank" rel="noopener">参考書「{{ c.label }}」を読む<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a></p>{% endif %}
 {{ c.descriptionHtml | safe }}
 <p class="lead">この章に関わる過去問は {{ c.questions.length }} 問です。{% if c.traps.length %}繰り返し狙われる罠の型は次のとおりです。{% endif %}</p>
 {% for t in c.traps %}

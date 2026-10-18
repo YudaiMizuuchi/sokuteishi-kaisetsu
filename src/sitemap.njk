@@ -6,7 +6,9 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>{{ "/" | absUrl }}</loc></url>
 <url><loc>{{ "/chapter/" | absUrl }}</loc></url>
-{% for c in db.chapters %}<url><loc>{{ c.url | absUrl }}</loc></url>
+<url><loc>{{ "/book/" | absUrl }}</loc></url>
+{% for c in db.bookChapters %}<url><loc>{{ c.bookUrl | absUrl }}</loc></url>
+{% endfor %}{% for c in db.chapters %}<url><loc>{{ c.url | absUrl }}</loc></url>
 {% endfor %}{% for t in db.traps %}<url><loc>{{ t.url | absUrl }}</loc></url>
 {% endfor %}{% for q in db.questions %}<url><loc>{{ q.url | absUrl }}</loc></url>
 {% endfor %}</urlset>

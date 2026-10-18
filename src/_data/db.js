@@ -34,6 +34,19 @@ function examInfo(key) {
 }
 const chapterLabel = (c) => (c.num ? `${c.num} ${c.name}` : c.name);
 
+// ---- 参考書の本文（book/<章ID>.md）
+const BOOK_DIR = path.join(process.cwd(), "book");
+function renderBook(mdText) {
+  let n = 0;
+  const toc = [];
+  const html = md.render(mdText).replace(/<h([23])>(.*?)<\/h\1>/g, (m, lv, inner) => {
+    const id = `s${++n}`;
+    if (lv === "2") toc.push({ id, title: inner.replace(/<[^>]+>/g, "") });
+    return `<h${lv} id="${id}">${inner}</h${lv}>`;
+  });
+  return { html, toc };
+}
+
 // ---- 章・罠の型
 const chapters = book.chapters.map((c) => ({
   ...c,
@@ -44,6 +57,12 @@ const chapters = book.chapters.map((c) => ({
   url: `/chapter/${c.id}/`,
   traps: [],
   questions: [],
+  ...(() => {
+    const f = path.join(BOOK_DIR, `${c.id}.md`);
+    if (!fs.existsSync(f)) return { bookUrl: null };
+    const { html, toc } = renderBook(fs.readFileSync(f, "utf8"));
+    return { bookUrl: `/book/${c.id}/`, bookHtml: html, bookToc: toc };
+  })(),
 }));
 const chapterOut = Object.fromEntries(chapters.map((c) => [c.id, c]));
 
@@ -112,6 +131,9 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         published,
         rank,
         chapters: (q.chapters || []).map((c) => ({ id: c, label: chapterLabel(chapterById[c]), url: `/chapter/${c}/` })),
+        // 参考書のページがある章（主な章が先）
+        books: (q.chapters || []).filter((c) => fs.existsSync(path.join(BOOK_DIR, `${c}.md`)))
+          .map((c) => ({ label: chapterLabel(chapterById[c]), url: `/book/${c}/` })),
         traps: qTraps.map((t) => trapOut[t.id]),
         summary: q.summary || null,
         stemHtml: site.showStem ? render(q.stem) : "",
@@ -188,6 +210,7 @@ const listItem = (q) => ({
   subject: q.subject, subjectName: q.subjectName, num: q.num, rank: q.rank,
   chapters: q.chapters.map((c) => c.id), chapterLabels: q.chapters.map((c) => c.label),
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
+  books: q.books,
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
   explanationHtml: q.explanationHtml, lawNote: q.lawNote, sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
@@ -202,7 +225,19 @@ const parts = book.parts
   .map((p) => ({ ...p, chapters: usedChapters.filter((c) => c.part === p.id) }))
   .filter((p) => p.chapters.length);
 
+// 参考書のページがある章（目次の順）と前後のつながり
+const bookChapters = chapters.filter((c) => c.bookUrl);
+bookChapters.forEach((c, i) => {
+  c.bookPrev = bookChapters[i - 1] ? { label: bookChapters[i - 1].label, url: bookChapters[i - 1].bookUrl } : null;
+  c.bookNext = bookChapters[i + 1] ? { label: bookChapters[i + 1].label, url: bookChapters[i + 1].bookUrl } : null;
+});
+const bookParts = book.parts
+  .map((p) => ({ ...p, chapters: chapters.filter((c) => c.part === p.id) }))
+  .filter((p) => p.chapters.length);
+
 export default {
+  bookChapters,
+  bookParts,
   subjects,
   subjectsWithData,
   exams,

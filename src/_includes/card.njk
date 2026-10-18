@@ -45,6 +45,11 @@
       {% if t.reasonHtml %}<div class="why"><span>なぜ？</span>{{ t.reasonHtml | safe }}</div>{% endif %}
     </section>
     {% endif %}{% endfor %}
+    {% if q.books.length %}
+    <div class="review">
+      {% for b in q.books %}<a class="book-link" href="{{ b.url }}" target="_blank" rel="noopener">参考書「{{ b.label }}」で復習する<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>{% endfor %}
+    </div>
+    {% endif %}
   </div>
   {% if q.stemHtml %}<p class="credit">出典：{{ q.source }}</p>{% endif %}
 </article>
