@@ -1,10 +1,10 @@
 exam: 2021-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -20,14 +20,16 @@ questions:
   - 中性の原子又は分子が、電子を失うと負に帯電する。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '中性の原子や分子が電子を失うと、負の電荷をもつ電子が減るので、**正**に帯電します。「負に帯電する」とする選択肢5は誤りです。
+
+
+    電子を失うと陽イオン（正）、電子を受け取ると陰イオン（負）です。'
   figures: []
   law_note: null
   _key_choice: 中性の原子又は分子が、電子を失うと負に帯電する。
   _stem_head: 次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - quantification
   - statistics
@@ -44,14 +46,16 @@ questions:
   - 迅速性のためには、ある程度の精度と真度（正確さ）を犠牲にすることもやむを得ない場合もある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '誤差とは、測定値と**真の値**との差です。測定値の平均値と各測定値との差は「偏差」なので、選択肢1は誤りです。
+
+
+    令和5年度第2回でも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 誤差とは、測定値の平均値と各測定値との差のことである。
   _stem_head: データの取扱いに関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -63,18 +67,20 @@ questions:
   - フェノールは、-OH 基をもっている。
   - カルボン酸は、-COOH 基をもっている。
   - アルデヒドは、-CHO 基をもっている。
-  - ケトンは、 C=O 基をもっている。
+  - ケトンは、＞C＝O 基をもっている。
   - アミンは、-CN 基をもっている。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'アミンは、アミノ基（-NH₂ など）をもつ化合物です。-CN 基（ニトリル基）をもつのはニトリル（アセトニトリルなど）なので、選択肢5は誤りです。
+
+
+    アミン（-NH₂）とニトリル（-CN）は、どちらも窒素を含むので混同しやすい官能基です。'
   figures: []
   law_note: null
   _key_choice: アミンは、-CN基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -90,7 +96,10 @@ questions:
   - H₂SO₄ ／ + 8
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '硫酸（H₂SO₄）の硫黄の酸化数は **＋6** です。水素を ＋1、酸素を −2 とすると、2 × (＋1) ＋ x ＋ 4 × (−2) ＝ 0 より x ＝ ＋6 になります。＋8 とする選択肢5は誤りです。
+
+
+    硫黄の酸化数は −2 から ＋6 までで、＋8 にはなりません。硫化水素 −2、二酸化硫黄 ＋4、三酸化硫黄と硫酸と六フッ化硫黄が ＋6 です。'
   figures: []
   law_note: null
   _key_choice: HSO+824
@@ -98,9 +107,8 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   traps:
@@ -125,14 +133,16 @@ questions:
   - 平衡定数は、温度に依存する。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '熱化学反応式の q が負（q ＜ 0）なので、右向きの反応は熱を吸収する吸熱反応です。温度を上げると、平衡は熱を吸収する向き、つまり**右**に移動します。「左に進む」とする選択肢2は誤りです。
+
+
+    令和5年度第2回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: 温度を上げると、反応は左に進む。
   _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。A＋BC＋q（qは熱エネルギーでq＜０）た
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -152,14 +162,22 @@ questions:
   - 0.050 g
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ヘキサンに移る A の質量を x g とすると、水に残るのは (0.060 − x) g です。
+
+
+    K ＝ (x ÷ 5.0) ÷ [(0.060 − x) ÷ 50] ＝ 50
+
+
+    10x ÷ (0.060 − x) ＝ 50 → 10x ＝ 3.0 − 50x → x ＝ 0.050 g
+
+
+    よって（5）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 0.050g
   _stem_head: 有機化合物Ａを0.060g含む水溶液50mLからヘキサン5.0mLにＡを抽出した。ヘキサンに抽出されたＡの質量として、正しい値は次のうちどれ
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
@@ -175,14 +193,16 @@ questions:
   - 標準ガスの濃度は、拡散セルの拡散チューブの内径が大きいほど高くなる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '標準ガスの濃度の微調整は、拡散セルの温度を変えるよりも、希釈空気の流量を変える方が短時間で行えます。温度を変えても、セルの温度が安定して拡散速度が一定になるまで時間がかかるからです。選択肢3は、逆になっていて誤りです。
+
+
+    令和5年度第1回・第2回では、流量を変える方が短時間でできる、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 標準ガスの濃度の微調整は、希釈空気の流量を変えるよりも拡散セルの温度を変える方が、短時間で行うことができる。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -198,14 +218,16 @@ questions:
   - ロータメーターの校正に石けん膜流量計を用いることができる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ロータメーター（面積式流量計）は、上に行くほど内径が太くなる**テーパー管**の中に浮子を入れたものです。流量が増えると浮子が上がり、浮子と管の間のすき間が広がって釣り合います。内径が一定とする選択肢2は誤りです。
+
+
+    内径が一定の管では、浮子の位置で流量を表すことができません。'
   figures: []
   law_note: null
   _key_choice: ロータメーター（面積式流量計）の内径は、一定である。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -221,14 +243,17 @@ questions:
   - 市販の濃硫酸の密度は、約 1.84 g･cm⁻³ である。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '市販の濃硫酸（約 96 ％）の濃度は、約 **18 mol/L** です。密度 1.84 g/cm³ と純度から、1 L 中の硫酸は 1,840 × 0.96 ≒ 1,770 g、これを分子量 98 で割ると約 18 mol になります。約 36 mol/L とする選択肢4は誤りです。
+
+
+    36 という数字は、濃塩酸の濃度（約 36 ％）と取り違えやすい値です。'
   figures: []
   law_note: null
   _key_choice: 市販の濃硫酸の濃度は、約36mol･L-１である。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
-  _review: true
+  review_note: 市販の濃硫酸の濃度を約 18 mol/L とし、密度と純度から計算しています。純度（96％）の値を確認中です。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -244,14 +269,16 @@ questions:
   - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '検知管は、試料空気の吸引が終わったら、**速やかに**濃度を読み取ります。時間がたつと、変色層の色や長さが変化することがあるからです。「所定の時間経過後に読み取る」とする選択肢2は誤りです。
+
+
+    吸引の際には、ガス採取器のハンドルを引いてから所定の時間待ちますが、それは吸引の時間です。吸引が終わったあとは、すぐに読みます。'
   figures: []
   law_note: null
   _key_choice: 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -268,14 +295,19 @@ questions:
   - 8.0 × 10⁻² mol･L⁻¹
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '中和の量的関係から求めます。HCl と NaOH は 1：1 で反応するので、
+
+
+    塩酸の濃度 ＝ 2.0 × 10⁻¹ mol/L × 5.0 mL ÷ 25 mL ＝ 4.0 × 10⁻² mol/L
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 4.0×10-２mol･L-１
   _stem_head: 塩酸溶液25mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0×10-１mol･L-１）で滴定したところ、終点までに要し
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -292,14 +324,16 @@ questions:
   - メタンの4倍の物質量である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'メタンの完全燃焼は CH₄ ＋ 2O₂ → CO₂ ＋ 2H₂O で、メタン1分子から二酸化炭素1分子ができます。よって、生成する二酸化炭素の物質量はメタンと**等倍**で、（2）が正しいものです。
+
+
+    炭化水素の燃焼では、二酸化炭素の物質量は炭素の数で決まります。メタンは炭素1つなので1倍です。'
   figures: []
   law_note: null
   _key_choice: メタンの等倍の物質量である。
   _stem_head: 空気中でメタン（CH）を完全燃焼させたときに、生成する二酸化炭素の物4質量に関する次の記述のうち、正しいものはどれか。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -316,14 +350,19 @@ questions:
   - '0.8'
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '透過光の強さが40％減少したので、透過率は 60 ％（T ＝ 0.6）です。
+
+
+    A ＝ −log T ＝ −log 0.6 ＝ −(log 6 − log 10) ＝ −(0.78 − 1) ＝ 0.22
+
+
+    よって、最も近いのは 0.2 です。「40 ％減少」を透過率 40 ％と読み違えないことがポイントです。'
   figures: []
   law_note: null
   _key_choice: '0.2'
   _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは対照液に比べ40％減少した。このときの測定対象物質の吸光度として正しい値に
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
@@ -339,14 +378,16 @@ questions:
   - モル吸光係数は、波長により異なる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '吸光度 A ＝ ε × c × l で、吸光度には単位がないので、モル吸光係数 ε の単位は **L・mol⁻¹・cm⁻¹** です。mol・L⁻¹・cm とする選択肢3は、逆数になっていて誤りです。
+
+
+    令和8年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: モル吸光係数の単位は、mol･L-１･cmである。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -362,14 +403,16 @@ questions:
   - 分析線の波長が紫外部の場合、分析線の光源には重水素ランプが用いられる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'フレーム原子吸光分析法の分析線の光源には、分析線の波長が紫外部であっても、測定する元素と同じ元素でできた**中空陰極ランプ**を用います。重水素ランプは、バックグラウンド吸収の補正に使うものなので、選択肢5は誤りです。
+
+
+    光源は「その元素だけが吸収する波長の光」を出すものでなければなりません。重水素ランプは連続光なので、分析線の光源にはなりません。'
   figures: []
   law_note: null
   _key_choice: 分析線の波長が紫外部の場合、分析線の光源には重水素ランプが用いられる。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -385,14 +428,16 @@ questions:
   - 溶存酸素は、蛍光強度を増加させる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '溶存酸素は、励起された分子からエネルギーを奪い、蛍光を弱める（消光する）働きがあります。「蛍光強度を増加させる」とする選択肢5は誤りです。
+
+
+    令和8年度第1回でも、溶存酸素の影響を受けることがある、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 溶存酸素は、蛍光強度を増加させる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -408,14 +453,13 @@ questions:
   - 熱伝導度検出器（TCD）は、熱伝導度がキャリヤーガスと異なる全ての化合物を検出できる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 電子捕獲検出器（ECD）は、ハロゲンを含む化合物など、電子を捕らえやすい化合物に高い感度をもつ検出器です。飽和炭化水素の測定には適しないので、選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: 電子捕獲検出器（ECD）は、飽和炭化水素化合物の測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -431,14 +475,16 @@ questions:
   - 保持時間は2倍になる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '理論段相当高さは、カラム1段あたりの長さなので、カラムの長さを2倍にしても**変わりません**。「2倍になる」とする選択肢4は誤りです。
+
+
+    カラムを2倍にすると、理論段数と保持時間は2倍、分離度とピーク幅は √2 倍、ピーク面積は変わりません。同じ形の問題は、令和5年度第2回・令和7年度第1回にもあります。'
   figures: []
   law_note: null
   _key_choice: 理論段相当高さは２倍になる。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを２倍にしたときのピークの形状及びカラム性能に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -454,14 +500,16 @@ questions:
   - 測定試料の捕集量が多い場合は、その質量に見合ったX線の吸収の補正をする必要がある。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法の試料は、十分に細かい粉末が適しています。0.1〜1 mm の粒子では粗すぎて、回折線の強度が安定しないので、選択肢4は誤りです。
+
+
+    令和8年度第1回にも、まったく同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 測定試料は、一般に粒径が0.1mm～１mmの粉末が適当である。
   _stem_head: 作業環境測定におけるＸ線回折分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -477,9 +525,11 @@ questions:
   - 単位質量当たりの放射線の数
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '放射能の単位 Bq（ベクレル）は、1秒あたりの壊変の数です。よって（3）が正しいものです。
+
+
+    放射線の数ではなく、壊変の数である点に注意しましょう。令和7年度第2回にも同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: 単位時間当たりの壊変数
   _stem_head: 放射能の単位（Bq）の定義として正しいものは、次のうちどれか。
-  _review: true

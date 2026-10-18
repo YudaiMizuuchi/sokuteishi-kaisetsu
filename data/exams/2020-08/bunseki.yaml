@@ -1,10 +1,10 @@
 exam: 2020-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -20,7 +20,10 @@ questions:
   - エネルギー ／ J
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '粒子数濃度は、単位体積あたりの粒子の**個数**で表すので、単位は個/cm³ などです。mg・cm⁻³ は質量濃度の単位なので、選択肢2は誤りです。
+
+
+    石綿やリフラクトリーセラミックファイバーの管理濃度が本/cm³ で表されるのも、粒子（繊維）の数で表す濃度だからです。'
   figures: []
   law_note: null
   _key_choice: 粒子数濃度mg･cm-３
@@ -28,9 +31,8 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - solution
   traps:
@@ -46,14 +48,25 @@ questions:
   - '9.2549'
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '捕集量を捕集効率で割って空気中にあった量に直し、通気量で割ります。
+
+
+    通気量 ＝ 100 mL/min × 30.0 分 ＝ 3.00 L、空気中の量 ＝ 23.60 ÷ 0.85 ≒ 27.8 µg
+
+
+    濃度 ＝ 27.8 ÷ 3.00 ≒ 9.25 µg/L
+
+
+    捕集効率 85 ％ は有効数字2桁なので、結果も2桁の **9.3** にします。よって（2）が適切です。
+
+
+    令和7年度第2回にも、同じ型の問題があります。'
   figures: []
   law_note: null
   _key_choice: '9.3'
   _stem_head: 捕集材に空気を流量100mL･min-１で30.0分間通気して物質Aを23.60µg捕集した。捕集材の物質Aに対する捕集効率が85％である時
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -69,14 +82,22 @@ questions:
   - 0.70 気圧
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '分圧は、物質量の比で決まります。
+
+
+    一酸化炭素（CO、分子量 28）98 g ＝ 3.5 mol、二酸化炭素（CO₂、分子量 44）66 g ＝ 1.5 mol
+
+
+    一酸化炭素の分圧 ＝ 1.0 × 3.5 ÷ (3.5 ＋ 1.5) ＝ 0.70 気圧
+
+
+    よって（5）が正しい値です。質量の比で分けると誤ります。'
   figures: []
   law_note: null
   _key_choice: 0.70気圧
   _stem_head: 一酸化炭素98gと二酸化炭素66gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。ただし
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -92,14 +113,16 @@ questions:
   - 酢酸エチルを加水分解すると、酢酸とエタノールを生じる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'イソプロピルアルコール（第二級アルコール）を酸化すると、ケトンである**アセトン**が得られます。アセチレンとする選択肢1は誤りです。
+
+
+    アセトンとアセチレンは名前が似ていますが、まったく別の物質です。令和6年度第1回でも、アセトンはイソプロピルアルコールの酸化で得られる、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: イソプロピルアルコールを酸化すると、アセチレンが得られる。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -116,16 +139,19 @@ questions:
   - '3.0'
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'pH 1.0 の硝酸の水素イオン濃度は 0.10 mol/L です。2倍に希釈すると 0.050 mol/L になるので、
+
+
+    pH ＝ −log(0.050) ＝ −log(0.10 ÷ 2) ＝ 1.0 ＋ log 2 ≒ 1.0 ＋ 0.30 ＝ 1.3
+
+
+    よって（2）が正しい値です。2倍に薄めても pH が2倍になるわけではなく、log 2 ≒ 0.3 だけ大きくなります。'
   figures: []
   law_note: null
   _key_choice: =0.301とする。pH=-log10［H＋］なお、式中の［H＋］は水素イオンのモル濃度を表す。
   _stem_head: pH1.0の硝酸溶液を水で２倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log10
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.04）
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -142,14 +168,22 @@ questions:
   - 12.0 ％
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '溶液 1 L について考えます。
+
+
+    溶液の質量 ＝ 1,000 cm³ × 1.10 g/cm³ ＝ 1,100 g、NaOH の質量 ＝ 2.75 × 40.0 ＝ 110 g
+
+
+    質量パーセント濃度 ＝ 110 ÷ 1,100 × 100 ＝ 10.0 ％
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 10.0％
   _stem_head: 濃度2.75mol･L-１の水酸化ナトリウム溶液の密度は1.10g･cm-３である。この溶液の質量パーセント濃度として、正しい値は次のうちど
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -165,14 +199,16 @@ questions:
   - ガスの高圧容器の色は、法令により充塡するガスの種類に応じて定められている。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '白金抵抗温度計は、白金の**電気抵抗**が温度によって変わることを利用して温度を測るものです。2種類の金属の接合部に生じる起電力（ゼーベック効果）を利用するのは**熱電対**なので、選択肢2は誤りです。
+
+
+    マイクロシリンジの目盛りが針の部分を含まない（選択肢4）ことは、令和6年度第1回でも出題されています。'
   figures: []
   law_note: null
   _key_choice: 白金抵抗温度計は、２種類の導体接合部に温度に応じた起電力を生じるゼーベック効果を利用して温度測定を行う。
   _stem_head: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -188,14 +224,16 @@ questions:
   - 光散乱方式の相対濃度計の質量濃度変換係数は、粉じんの種類によって異なる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'バブラーによる蒸気の捕集効率は、通気速度のほか、気泡の大きさ、捕集液の種類や量、温度など、さまざまな条件に左右されます。「通気速度のみに依存する」とする選択肢1は誤りです。
+
+
+    令和5年度第1回では、気泡が小さいほど捕集率が高い、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: バブラーによる蒸気の捕集効率は、通気速度のみに依存する。
   _stem_head: 作業環境測定に使用する器具等に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -211,7 +249,10 @@ questions:
   - リン酸水素二ナトリウム ／ 緩衝溶液の調製
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'メタノールは水とよく混ざるので、水溶液から金属キレートを抽出する溶媒には使えません。金属キレートの抽出には、水と混ざりにくいメチルイソブチルケトン（MIBK）などを用います。選択肢4は誤りです。
+
+
+    溶媒抽出では、水と分離する溶媒であることが前提です。'
   figures: []
   law_note: null
   _key_choice: メタノール金属キレートの抽出
@@ -219,9 +260,8 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -237,14 +277,16 @@ questions:
   - 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '検知管は、試料空気の吸引が終わったら、**速やかに**濃度を読み取ります。「所定の時間経過後に読み取る」とする選択肢5は誤りです。
+
+
+    令和2年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -261,14 +303,19 @@ questions:
   - 0.002 mol
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '炭酸カルシウムを塩酸で溶かす反応は CaCO₃ ＋ 2HCl → CaCl₂ ＋ H₂O ＋ CO₂ で、CaCO₃ 1 mol から CO₂ 1 mol が発生します。
+
+
+    CaCO₃（式量 100）0.200 g ＝ 0.00200 mol
+
+
+    よって、発生する CO₂ も 0.002 mol で、（5）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 0.002mol
   _stem_head: 炭酸カルシウム（CaCO
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -285,14 +332,16 @@ questions:
   - 過塩素酸
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '水酸化ナトリウムで弱酸（酢酸）を滴定すると、当量点では酢酸ナトリウムの水溶液になり、酢酸イオンが水と反応して弱い**アルカリ性**を示します。強酸（塩酸、硫酸、硝酸、過塩素酸）の当量点は中性なので、pH が最も高くなるのは（4）の酢酸です。
+
+
+    弱酸と強塩基の滴定で、当量点がアルカリ性側になるため、指示薬にはフェノールフタレインを用います。'
   figures: []
   law_note: null
   _key_choice: 酢酸
   _stem_head: 次の酸溶液を水酸化ナトリウム溶液で滴定した時に、その当量点における溶液のpHが最も高くなるのはどれか。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -309,14 +358,22 @@ questions:
   - 12.0 × 10⁻⁵ mol･L⁻¹
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '既知の溶液からモル吸光係数を求め、未知の溶液の濃度を求めます。
+
+
+    ε ＝ 0.360 ÷ (2.0 × 10⁻⁵ × 2.0) ＝ 9.0 × 10³ L・mol⁻¹・cm⁻¹
+
+
+    c ＝ 0.540 ÷ (9.0 × 10³ × 1.0) ＝ 6.0 × 10⁻⁵ mol/L
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 6.0×10-５mol･L-１
   _stem_head: 物質Aの濃度が2.0×10-５mol･L-１の溶液を光路長2.0cmのセルに入れ、波長550nmにおける吸光度を測定したところ、0.360で
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
@@ -332,14 +389,13 @@ questions:
   - モル吸光係数の単位は、mol⁻¹･L･cm⁻¹ で表される。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 紫外領域の吸光光度分析の光源には、**重水素放電管**（重水素ランプ）を用います。タングステンランプは可視領域の光源なので、選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 紫外領域の測定には、光源としてタングステンランプを用いる。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -355,14 +411,16 @@ questions:
   - 試料溶液中の塩濃度が高い場合に生じるバックグラウンド吸収の補正には、光源に重水素放電管を用いたときの吸光度を用いることができる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'フレーム原子吸光分析法で共鳴線を吸収するのは、**基底状態**にある原子です。フレームの中の原子のほとんどは基底状態にあり、それが光源の共鳴線を吸収します。「励起状態にある原子だけ」とする選択肢3は誤りです。
+
+
+    令和8年度第1回・令和5年度第2回にも、基底状態の原子が吸収する、という論点があります。'
   figures: []
   law_note: null
   _key_choice: 原子化された金属のうち、励起状態にある原子だけが共鳴線を吸収する。
   _stem_head: フレームを用いる金属の原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -378,14 +436,16 @@ questions:
   - 蛍光は、励起光に対して直角方向にのみ放出される。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '蛍光は、試料から**全方向**に放出されます。分光蛍光光度計では、励起光が検出器に直接入らないように、励起光に対して直角方向の蛍光を観測しているだけです。「直角方向にのみ放出される」とする選択肢5は誤りです。
+
+
+    令和2年度第2回では、「直角方向の蛍光を観測する」という正しい記述として出題されています。観測する方向と、放出される方向を区別しましょう。'
   figures: []
   law_note: null
   _key_choice: 蛍光は、励起光に対して直角方向にのみ放出される。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -401,7 +461,10 @@ questions:
   - 質量分析器（MS） ／ キシレン
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '炎光光度検出器（FPD）は、硫黄やリンを含む化合物に感度の高い検出器で、ベンゼンの分析には適しません。（2）が不適切です。
+
+
+    ベンゼンには FID や PID が適しています。トリクロロエチレンのようなハロゲン化合物は ECD、質量分析器（MS）はほとんどの化合物に使えます。'
   figures: []
   law_note: null
   _key_choice: 炎光光度検出器（FPD）ベンゼン
@@ -409,9 +472,8 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -427,14 +489,16 @@ questions:
   - カラムの膜厚が厚いほど大きくなる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'キャピラリーカラムの液相の膜厚が厚いほど、物質が液相の中を移動する距離が長くなり、ピークが広がりやすくなるので、理論段数は**小さく**なります。「膜厚が厚いほど大きくなる」とする選択肢5は誤りです。
+
+
+    令和6年度第1回では、膜厚が小さいほど理論段数は大きくなる、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: カラムの膜厚が厚いほど大きくなる。
   _stem_head: ガスクロマトグラフ分析法に用いられるキャピラリーカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -450,14 +514,16 @@ questions:
   - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法には、単一の波長の**特性 X 線**を用います。連続 X 線とする選択肢1は誤りです。
+
+
+    測定試料の粒径は、一般に 1 µm〜10 µm 程度の粉末が適当とされています（選択肢4）。'
   figures: []
   law_note: null
   _key_choice: この分析法には、連続Ｘ線が用いられる。
   _stem_head: Ｘ線回折分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   - logarithm
@@ -474,9 +540,14 @@ questions:
   - 125 Bq
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '24日は半減期8日の3倍なので、放射能は (1/2)³ ＝ 1/8 になります。
+
+
+    1000 Bq × 1/8 ＝ 125 Bq
+
+
+    よって（5）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 125Bq
   _stem_head: 半減期８日の放射性核種の放射能が1000Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。
-  _review: true

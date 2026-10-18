@@ -1,10 +1,10 @@
 exam: 2020-08
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - oh-management
   traps:
@@ -20,13 +20,16 @@ questions:
   - 有害な化学物質の蒸気を発散する屋内作業場に、プッシュプル型換気装置を設置し、稼働させる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '労働衛生の三管理のうち、**作業管理**は、作業の方法や作業時間・作業場所などを管理して、労働者への有害要因の影響を少なくするものです。管理区域を設定して標識で明示し、立ち入る人や場所を管理することは作業管理に当たるので、答えは（2）です。
+
+
+    有機溶剤の濃度の測定（1）、有害性の少ない物質への代替（3）、プッシュプル型換気装置の設置（5）は作業環境管理、健康診断の結果に基づく昼間勤務への転換（4）は健康管理です。'
   figures: []
   law_note: null
   _key_choice: 外部放射線による実効線量が３か月間に一定の線量を超えるおそれのある区域を管理区域として設定し、標識によって明示する。
-  _review: true
+  review_note: 管理区域の設定と標識による明示を「作業管理」に当たると説明しています。確認中です。
 - num: 2
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -42,13 +45,15 @@ questions:
   - リスク低減措置の検討に当たっては、作業手順の改善等の管理的対策は、個人用保護具の使用よりも、より高い優先順位で検討されるべきである。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ハザード（危険性又は有害性）は、労働者に負傷や疾病を生じさせる**潜在的な根源**です。労働災害の発生の可能性と重篤度の組合せは「リスク」の定義なので、選択肢2は誤りです。
+
+
+    令和5年度第2回でも、ハザードとリスクの定義を入れ替えた誤りが出題されています。'
   figures: []
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -64,13 +69,15 @@ questions:
   - キシレンは、代謝されて、尿中にメチル馬尿酸として排泄される。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '体内に取り込まれた鉛は、血液中で約1か月、骨では年単位と、生物学的半減期は**長い**物質です。「数時間と短い」とする選択肢1は誤りです。
+
+
+    採尿の時刻を正確にチェックする必要があるのは、生物学的半減期が短い有機溶剤の方です。鉛は体にたまりやすいので、採尿・採血の時期にはそれほど厳しい制約がありません。'
   figures: []
   law_note: null
   _key_choice: 体内に取り込まれた鉛の生物学的半減期は数時間と短いので、鉛健康診断における採尿及び採血の時期は、正確にチェックする必要がある。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -86,13 +93,12 @@ questions:
   - 二硫化炭素による中毒では、メトヘモグロビン形成によるチアノーゼがみられる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: メトヘモグロビンを形成してチアノーゼを起こすのは、アニリンやニトロベンゼンなどの芳香族アミノ化合物・ニトロ化合物です。二硫化炭素の中毒では、急性の精神障害や、慢性の動脈硬化・網膜の微細動脈瘤などがみられるので、選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 二硫化炭素による中毒では、メトヘモグロビン形成によるチアノーゼがみられる。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -108,18 +114,18 @@ questions:
   - β-ナフチルアミン ／ 膀胱がん
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'o-フタロジニトリルは、肺がんを起こす物質とはされていません。選択肢4は誤りです。
+
+
+    令和6年度第1回でも、o-フタロジニトリルと皮膚がんの組合せが誤りとして出題されています。石綿の胸膜中皮腫、ベンゼンの白血病、ホルムアルデヒドの鼻咽頭がん、β-ナフチルアミンの膀胱がんは、いずれも正しい組合せです。'
   figures: []
   law_note: null
   _key_choice: ??
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.00）
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -135,13 +141,15 @@ questions:
   - 石綿粉じんへの長期間ばく露により、胸膜プラーク(肥厚斑)が生じる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'けい肺は、**遊離けい酸**（結晶質シリカ）を含む粉じんを吸入して起こるじん肺です。鉄やアルミニウムなどの金属粉じんによるじん肺は、溶接工肺やアルミニウム肺などと呼ばれ、けい肺とは別のものなので、選択肢3は誤りです。
+
+
+    令和6年度第1回でも、結晶質シリカによるじん肺がけい肺、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: けい肺は、鉄、アルミニウムなどの金属粉じんを吸入することによって発症するじん肺である。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -157,13 +165,15 @@ questions:
   - コバルト及びその無機化合物は、接触皮膚炎、気管支ぜんそくなどを生じる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '金属熱は、亜鉛や銅などのヒュームを吸い込んでから数時間後に、悪寒・発熱・関節痛などが起こる**急性**の疾病で、多くは1〜2日で回復します。「長期にわたって吸入して発生し、慢性化すると症状が長期間続く」とする選択肢3は誤りです。
+
+
+    令和6年度第1回・令和8年度第1回でも、金属熱は後遺症なく回復するという論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 金属熱は、亜鉛や銅などのヒュームを長期にわたって吸入して発生する疾病で、慢性化すると高熱、関節痛などの症状が長期間続く。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
@@ -179,13 +189,15 @@ questions:
   - n-ヘキサンによる健康障害としては、多発性神経炎がある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '再生不良性貧血などの造血器障害を起こす有機溶剤は**ベンゼン**です。トルエンでは造血器障害は起こらないので、選択肢3は誤りです。
+
+
+    令和7年度第2回でも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: トルエンによる健康障害では、再生不良性貧血などの造血器障害を生じる。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -201,13 +213,15 @@ questions:
   - 体温調節中枢は、間脳の視床下部にある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ある温度における飽和水蒸気圧に対する、空気中の水蒸気圧の比を百分率で表したものは、**相対湿度**です。絶対湿度は、空気 1 m³ に含まれる水蒸気の質量（g/m³）などで表すものなので、選択肢3は誤りです。
+
+
+    令和5年度第1回では、相対湿度の正しい定義が出題されています。'
   figures: []
   law_note: null
   _key_choice: 絶対湿度とは、ある温度における飽和水蒸気圧に対する空気中の水蒸気圧の比を百分率で示したものである。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -223,13 +237,15 @@ questions:
   - 振動工具取扱い作業者に対する特殊健康診断を1年に2回実施する場合、そのうち1回は冬季に行うとよい。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '局所振動障害は、周波数が高いほど起こりやすいわけではありません。手腕への影響が大きいのは比較的低い周波数（10 Hz 前後〜数百 Hz）で、1,000 Hz を超えるとほとんど影響しないとされています。選択肢3は誤りです。
+
+
+    令和2年度第2回・令和8年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動の周波数が高いほど起こりやすい。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -245,13 +261,15 @@ questions:
   - 騒音性難聴は、内耳の障害による感音性難聴である。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '騒音の A 測定平均値は、80 dB 以上の測定値の**算術平均**として求めます。幾何平均とする選択肢3は誤りです。
+
+
+    有害物質の評価では幾何平均を使いますが、騒音では算術平均です。令和6年度第1回の一般でも、80 dB 未満の値を含めずに算術平均する、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 騒音のA測定の平均の値は、得られた測定値のうち80dB(A)以上の測定値の幾何平均として得られる。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
@@ -267,13 +285,15 @@ questions:
   - 海水が滞留している暗きょの内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '石炭、硫化鉱、鋼材を入れてある貯蔵施設の内部は、これらが酸化して酸素を消費するため、酸素欠乏症の危険がある場所ですが、硫化水素中毒の危険はありません（第1種酸素欠乏危険作業）。選択肢3は誤りです。
+
+
+    硫化水素の危険まであるのは、海水が滞留している暗きょや、汚水・腐泥などがある場所です（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: 石炭、硫化鉱又は鋼材を入れてある貯蔵施設の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -289,13 +309,15 @@ questions:
   - レーザー光は、誘導放出による光の増幅作用によって作られた人工の光であり、マイクロ波より波長が長い。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'レーザー光は、紫外線から赤外線までの光で、マイクロ波より波長が**短い**電磁波です。「マイクロ波より波長が長い」とする選択肢5は誤りです。
+
+
+    電磁波の並びは、波長の短い方から、γ 線・X 線、紫外線、可視光線、赤外線、マイクロ波、電波です。'
   figures: []
   law_note: null
   _key_choice: レーザー光は、誘導放出による光の増幅作用によって作られた人工の光であり、マイクロ波より波長が長い。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation-effects
   traps:
@@ -311,13 +333,15 @@ questions:
   - しきい線量は、確率的影響には存在するが、確定的影響には存在しない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'しきい線量は、**確定的影響**には存在し、確率的影響には存在しないとされています。選択肢5は、逆になっていて誤りです。
+
+
+    令和2年度第2回にも、正しい形の記述があります。'
   figures: []
   law_note: null
   _key_choice: しきい線量は、確率的影響には存在するが、確定的影響には存在しない。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -333,13 +357,15 @@ questions:
   - 液体の微細な粒子で空気中に浮遊しているものを、ミストという。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '鉛合金の研磨作業では、鉛は主に**粉じん**として発生します。ヒュームは、鉛を溶かす作業などで鉛の蒸気が冷えて固まったものなので、選択肢4は誤りです。
+
+
+    「削る・砕く・磨く」なら粉じん、「溶かす・焼く」ならヒューム、と作業の種類で判断しましょう。'
   figures: []
   law_note: null
   _key_choice: 鉛合金の研磨作業では、鉛は主にヒュームとして発生する。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -355,13 +381,15 @@ questions:
   - 囲い式フードの制御風速とは、フード開口面における最小風速である。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ドラフトチェンバ型フードは、作業する部分を囲み、開口面から空気を吸い込む構造で、**囲い式フード**に分類されます。外付け式とする選択肢4は誤りです。
+
+
+    令和6年度第1回でも、ドラフトチェンバー型フードは囲い式、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: ドラフトチェンバ型フードは、発生源からの飛散速度を利用して有害物を捕捉するもので、外付け式フードに分類される。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -377,13 +405,15 @@ questions:
   - 防じんマスクの使用後、再使用のためには、圧縮空気を用いて、ろ過材上に付着した粉じんを吹き飛ばすことによって、十分払い落とす必要がある。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '防じんマスクのろ過材に付着した粉じんを、圧縮空気で吹き飛ばしてはいけません。ろ過材が傷んだり、吹き飛ばした粉じんを吸い込んだりするおそれがあるからです。選択肢5は誤りです。
+
+
+    ろ過材の粉じんは、軽くたたいて払い落とすなどの方法で取り除き、ろ過材が目詰まりしたり傷んだりしたら交換します。'
   figures: []
   law_note: null
   _key_choice: 防じんマスクの使用後、再使用のためには、圧縮空気を用いて、ろ過材上に付着した粉じんを吹き飛ばすことによって、十分払い落とす必要がある。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -399,13 +429,15 @@ questions:
   - 着用者の顔面と防毒マスクの面体との密着性の良否の確認方法には、陰圧法及び陽圧法がある。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '一酸化炭素用防毒マスクの吸収缶の色は**赤色**です。黒色とする選択肢4は誤りです。
+
+
+    吸収缶の色は、有機ガス用が黒、一酸化炭素用が赤、アンモニア用が緑、亜硫酸ガス用が黄赤、ハロゲンガス用が灰／黒です。令和2年度第2回でも、一酸化炭素用は赤という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 一酸化炭素用防毒マスクの吸収缶の色は黒色である。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -421,13 +453,15 @@ questions:
   - 情報機器作業において、ディスプレイを用いる場合のディスプレイ画面上における照度を500ルクス以下、書類上及びキーボード上における照度を300ルクス以上とする。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '減圧症は、高い圧力のもとで血液や組織に溶け込んでいた**窒素**が、急な減圧によって気泡になることで起こります。酸素とする選択肢1は誤りです。
+
+
+    窒素は体内でほとんど使われずに溶け込んだまま残るので、減圧のときに気泡になりやすいのです。令和2年度第2回にも、窒素の気泡化という正しい記述があります。'
   figures: []
   law_note: null
   _key_choice: 減圧症は、潜函作業者や潜水作業者などに発症するもので、高圧下作業かんからの急な減圧に伴い、血液中や組織中に溶け込んでいた酸素の気泡化により発生する。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -443,8 +477,7 @@ questions:
   - 許容濃度は、労働者が1日8時間、1週40時間程度、肉体的に激しくない労働を想定して定められたものである。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 鉱物性粉じんの管理濃度は、その粉じんに含まれる**遊離けい酸の含有率**（％）を用いて、E ＝ 3.0 ÷ (1.19Q ＋ 1) で求めます。吸入性粉じんの含有率を用いるとする選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: 粉じんの管理濃度は、その粉じんに含まれる吸入性粉じんの含有率(％)を用いて算出される。
-  _review: true

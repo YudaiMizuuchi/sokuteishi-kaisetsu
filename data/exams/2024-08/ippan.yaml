@@ -1,10 +1,10 @@
 exam: 2024-08
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -14,19 +14,21 @@ questions:
   stem: リスクアセスメントに関する次の記述のうち、誤っているものはどれか。ただし、指針とは、厚生労働省の「化学物質等による危険性又は有害性等の調査等に関する指針」をいう。
   choices:
   - 厚生労働省版コントロールバンディングでは、液体である化学物質を取り扱う作業については、化学物質の有害性、揮発性・飛散性及び取扱量の3つの要素によって化学物質のランク及びリスクレベルが表示され、リスクレベルに応じたリスク低減措置が決定される。
-  - CREATE- SIMPLE（クリエイト・シンプル）は、あらゆる業種に向けたリスクアセスメント支援ツールで、吸入ばく露に加えて、経皮ばく露を考慮したリスク評価を行うことができる。
+  - CREATE-SIMPLE（クリエイト・シンプル）は、あらゆる業種に向けたリスクアセスメント支援ツールで、吸入ばく露に加えて、経皮ばく露を考慮したリスク評価を行うことができる。
   - 指針では、リスクアセスメントの実施時期として、リスクアセスメント実施体制に変更があったとき、総括安全衛生管理者、衛生管理者、化学物質管理者等に異動があったとき、があげられている。
   - 指針では、健康障害に係るリスクを見積もる方法として、発生可能性及び重篤度を一定の尺度によりそれぞれ数値化し、それらを加算又は乗算等する方法、があげられている。
   - 指針では、リスク低減措置の検討において、より優先順位の高い措置を実施すれば十分にリスクが低減される場合には、その措置よりも優先順位の低い措置の検討は必要ない、とされている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '指針で示されているリスクアセスメントの実施時期は、化学物質等を新たに採用・変更するとき、作業方法や手順を新たに採用・変更するときなど、リスクが変わるおそれのあるときです。実施体制の変更や、衛生管理者などの担当者の異動は、実施時期には挙げられていないので、選択肢3は誤りです。
+
+
+    リスクアセスメントは「リスクが変わるとき」に行うもので、「担当する人が変わるとき」に行うものではありません。'
   figures: []
   law_note: null
   _key_choice: 指針では、リスクアセスメントの実施時期として、リスクアセスメント実施体制に変更があったとき、総括安全衛生管理者、衛生管理者、化学物質管理者等に異動があったとき、
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -42,7 +44,10 @@ questions:
   - 図の5
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '発がん性を表す絵表示は「健康有害性」（人の上半身）です。「どくろ」は急性毒性（区分1〜3）を表すので、発がん性とどくろを組み合わせた（4）が誤りです。
+
+
+    金属腐食性は腐食性、皮膚感作性は感嘆符、呼吸器感作性は健康有害性、酸化性固体は円上の炎の絵表示で、いずれも正しい組合せです。皮膚感作性は感嘆符、呼吸器感作性は健康有害性と、同じ感作性でも絵表示が違う点に注意しましょう。'
   figures:
   - file: 2024-08-ippan-02-choices.png
     alt: 問2の選択肢
@@ -50,7 +55,7 @@ questions:
   _key_choice: 発がん性
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -66,13 +71,15 @@ questions:
   - 変異原性試験は、化学物質による胎児期の臓器・組織形成への影響を見るためのものである。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '変異原性試験は、化学物質が細胞の遺伝子に突然変異を起こすかどうかを調べる試験で、発がん性のスクリーニングに使われます。胎児期の臓器・組織の形成への影響を見るのは**催奇形性試験**なので、選択肢5は誤りです。
+
+
+    令和6年度第2回では、逆に「催奇形性試験は発がん性のスクリーニング」が誤りとして出題されています。2つの試験の目的を対で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: 変異原性試験は、化学物質による胎児期の臓器・組織形成への影響を見るためのものである。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -88,15 +95,15 @@ questions:
   - 化学物質の生物学的半減期は、体内に取り込まれた有害物の量が半分に減少するまでに要する時間である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'n-ヘキサンの生物学的モニタリング指標は、尿中の **2,5-ヘキサンジオン**です。n-ヘキサノールとする選択肢2は誤りです。
+
+
+    令和5年度第1回でも、同じ論点が「シクロヘキサノン」を誤りとして出題されています。'
   figures: []
   law_note: null
   _key_choice: ??
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.00）
 - num: 5
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -112,13 +119,16 @@ questions:
   - クロロホルムの極性は、四塩化炭素の極性より大きい。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '岩石を切断・研磨したときに生じる粉じんの遊離けい酸含有率は、もとの岩石の含有率と同じとは限りません。岩石の成分によって砕けやすさが違い、粉じんになる成分の割合が変わるためです。粉じんそのものを捕集して測定する必要があるので、選択肢1は誤りです。
+
+
+    作業環境測定で遊離けい酸の含有率を測るのも、空気中に浮遊している粉じんを捕集して分析するためです。'
   figures: []
   law_note: null
   _key_choice: 岩石を切断や研磨した際に生じる粉じんの遊離けい酸含有率を知るためには、もとの岩石の遊離けい酸含有率を測定する。
-  _review: true
+  review_note: 「岩石の成分によって砕けやすさが違い、粉じんになる成分の割合が変わる」と理由を説明しています。確認中です。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -134,13 +144,15 @@ questions:
   - ガスや蒸気である有害物質のうち、水への溶解度が高いものは、吸入すると肺胞まで到達しやすい。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '水に溶けやすいガスや蒸気は、吸い込むと上気道（鼻やのど）の粘膜の水分に溶けて、そこで吸収されたり刺激したりします。そのため、肺胞まで到達しにくくなります。「肺胞まで到達しやすい」とする選択肢5は誤りです。
+
+
+    アンモニアや塩化水素のような水溶性の高いガスは上気道を、二酸化窒素やホスゲンのような水に溶けにくいガスは肺の奥を障害しやすい、と溶けやすさと障害部位を結びつけて覚えましょう。'
   figures: []
   law_note: null
   _key_choice: ガスや蒸気である有害物質のうち、水への溶解度が高いものは、吸入すると肺胞まで到達しやすい。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -156,18 +168,19 @@ questions:
   - 重クロム酸 ／ 上気道がん
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'o-フタロジニトリルの主な健康障害は、てんかん様発作などの中枢神経の障害で、皮膚がんを起こす物質とはされていません。選択肢2は誤りです。
+
+
+    1,3-ブタジエンの白血病、コールタールの肺がん、ベリリウム化合物の肺がん、重クロム酸の上気道がんは、いずれも正しい組合せです。'
   figures: []
   law_note: null
   _key_choice: ??
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.00）
+  review_note: o-フタロジニトリルの主な健康障害を「てんかん様発作などの中枢神経の障害」と説明しています。確認中です。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -183,13 +196,15 @@ questions:
   - じん肺は、ある程度進行すると、粉じんへのばく露を中止しても、更に肺の線維化が進行することがある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'じん肺は、粉じんの吸入によって肺に線維増殖性の変化が生じる病気で、けい肺や石綿肺などがその種類です。COPD（慢性閉塞性肺疾患）や間質性肺炎は、じん肺の種類ではないので、選択肢1は誤りです。
+
+
+    じん肺の合併症としては、肺結核、結核性胸膜炎、続発性気管支炎、続発性気管支拡張症、続発性気胸、肺がんが定められています（選択肢4）。'
   figures: []
   law_note: null
   _key_choice: じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、その種類には、COPD（慢性閉塞性肺疾患）、間質性肺炎などが含まれる。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -205,13 +220,15 @@ questions:
   - 金属熱は、亜鉛や銅などのヒュームを吸入して発生する疾病で、悪寒や発熱、関節痛などの症状がみられ、記憶障害や脱力感などの後遺症が出ることが多い。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '金属熱は、亜鉛や銅のヒュームを吸い込んでから数時間後に、悪寒・発熱・関節痛などが現れますが、発汗とともに熱が下がり、数日で回復します。後遺症が出ることはほとんどないので、選択肢5は誤りです。
+
+
+    令和8年度第1回でも、多少の疲労感を残して回復する、という正しい記述で出題されています。'
   figures: []
   law_note: null
   _key_choice: 金属熱は、亜鉛や銅などのヒュームを吸入して発生する疾病で、悪寒や発熱、関節痛などの症状がみられ、記憶障害や脱力感などの後遺症が出ることが多い。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -227,13 +244,15 @@ questions:
   - 二硫化炭素は、ヒトに対して生殖毒性を示すことが知られている。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'トルエンの密度は約 0.87 g/cm³ で、水より**小さく**、水に浮きます。蒸気密度が空気より大きく、低いところにたまりやすい点は正しいのですが、「密度は水より大きい」とする選択肢4は誤りです。
+
+
+    液体の密度と蒸気の密度は別のものです。トルエンは、液は水より軽く、蒸気は空気より重い物質です。水より重い液体は、クロロホルムや二硫化炭素などの塩素・硫黄を含む溶剤です。'
   figures: []
   law_note: null
   _key_choice: トルエンの密度は水より大きく、また、その蒸気密度は空気より大きく、低いところにたまりやすい。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -249,35 +268,45 @@ questions:
   - 長時間の低温ばく露により、腰痛症を生じることがある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '熱中症が重症になると、体温を調節するしくみが働かなくなり、体温は著しく**上昇**します。発汗によって体温が下がるとする選択肢2は誤りです。
+
+
+    重症の熱中症（Ⅲ度）では、汗が出なくなって皮膚が乾き、体温が 40℃以上になることもあります。意識障害を伴う、命に関わる状態です。'
   figures: []
   law_note: null
   _key_choice: 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
   - gn-vibration-04
   rank: null
   summary: null
-  stem: 振動に対するばく露量を示す指標である日振動ばく露量 A(8)を表す式として、正しいものは次のうちどれか。ただし、周波数補正振動加速度実効値の3軸合成値を ahv、1日の振動ばく露時間を T とする。
+  stem: 振動に対するばく露量を示す指標である日振動ばく露量 A(8) を表す式として、正しいものは次のうちどれか。ただし、周波数補正振動加速度実効値の3軸合成値を a<sub>hv</sub>、1日の振動ばく露時間を T とする。
   choices:
-  - A( 8 )＝ a hv× T ／ 8
-  - A( 8 )＝ a hv× T ／ 8
-  - A( 8 )＝ a hv×(T ／ 8 )²
-  - A( 8 )＝ T × ahv／ 8
-  - A( 8 )＝ T ×(ahv／ 8 )²
+  - A(8) ＝ a<sub>hv</sub> × √(T/8)
+  - A(8) ＝ a<sub>hv</sub> × T/8
+  - A(8) ＝ a<sub>hv</sub> × (T/8)²
+  - A(8) ＝ T × √(a<sub>hv</sub>/8)
+  - A(8) ＝ T × (a<sub>hv</sub>/8)²
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '日振動ばく露量 A(8) は、周波数補正振動加速度実効値の3軸合成値 a<sub>hv</sub> と、1日の振動ばく露時間 T から、
+
+
+    A(8) ＝ a<sub>hv</sub> × √(T/8)
+
+
+    で求めます。よって（1）が正しい式です。
+
+
+    8時間あたりに換算するので T/8 が入り、エネルギーの平均を考えるので平方根がつきます。ばく露時間が4分の1になると、日振動ばく露量は半分になります。'
   figures: []
   law_note: null
   _key_choice: A(8)＝ahv×T／8
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -293,15 +322,17 @@ questions:
   - 超音波は、可聴周波数域を超える高い周波数の音であり、超音波溶着機の作業者などに、圧迫感、不快感、頭痛、吐き気などが出ることがある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '騒音の作業環境測定の A 測定・B 測定は、粉じんなどと同じく測定点の決め方（A 測定は等間隔の格子、B 測定は音源の近くの作業位置）を表す言葉です。騒音計の周波数重み付け特性（A 特性・C 特性）の違いではないので、選択肢2は誤りです。
+
+
+    騒音の作業環境測定では、等価騒音レベルを A 特性で測ります。「A 測定」の A と「A 特性」の A は別のものです。'
   figures:
   - file: 2024-08-ippan-13-1.png
     alt: 問13の図
   law_note: null
   _key_choice: 等価騒音レベルの測定では、騒音計の周波数重み付け特性Aを用いて行う測定をA測定、周波数重み付け特性Cを用いて行う測定をC測定という。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -317,13 +348,15 @@ questions:
   - 硫化水素による慢性中毒では、歯への黄色の色素沈着、歯牙酸蝕症などがみられる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '歯への色素沈着や歯牙酸蝕症は、硫化水素の慢性中毒の症状ではありません。歯牙酸蝕症は硫酸ミストなどの酸による障害、歯の黄色の色素沈着はカドミウムなどでみられる症状です。選択肢5は誤りです。
+
+
+    硫化水素で押さえるのは、高濃度での呼吸麻痺、肺水腫、眼の刺激（角膜の障害）、嗅覚の麻痺です。'
   figures: []
   law_note: null
   _key_choice: 硫化水素による慢性中毒では、歯への黄色の色素沈着、歯牙酸蝕症などしょくがみられる。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -339,13 +372,15 @@ questions:
   - レーザー光は、粉じん濃度の測定に用いる光散乱方式の相対濃度計の光源として用いられている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '作業環境測定で使われる吸光光度分析法は、通常、**可視**領域の光を用います。試料を発色させて、その色の濃さを測る方法が多いからです。「通常、紫外領域」とする選択肢3は誤りです。
+
+
+    可視の光源はタングステンランプ、セルはガラスや石英、紫外の光源は重水素ランプ、セルは石英です。'
   figures: []
   law_note: null
   _key_choice: 吸光光度分析では、可視から紫外領域の波長の光が利用されるが、作業環境測定で使われるのは、通常、紫外領域の波長の光である。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -361,13 +396,15 @@ questions:
   - 皮膚と神経を比べると、皮膚の方が放射線感受性が高い。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ガスクロマトグラフの電子捕獲検出器（ECD）は、一般に **ニッケル63** から放出される β 線を利用しています。コバルト60 とする選択肢3は誤りです。
+
+
+    コバルト60 は γ 線の線源として、非破壊検査（ガンマ線透過写真）などに使われる核種です。'
   figures: []
   law_note: null
   _key_choice: ガスクロマトグラフの検出器であるECDは、コバルト60から放出されるβ線を利用したものが一般的である。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -383,13 +420,15 @@ questions:
   - 空気清浄装置を付設する局所排気装置では、一般に、排風機は空気清浄装置の後に設ける。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'フードの開口部の周囲にフランジを付けると、フードの後ろ側など余計な方向から空気を吸い込まなくなるので、同じ制御風速を得るのに必要な排風量を**少なく**できます。「大きな排風量が必要になる」とする選択肢2は誤りです。
+
+
+    令和5年度第1回でも、フランジで排風量を少なくできる、という正しい記述で出題されています。'
   figures: []
   law_note: null
   _key_choice: フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -405,13 +444,15 @@ questions:
   - 化学防護手袋の耐浸透性は、クラス1からクラス4までに区分されており、有害性が高い物質を取り扱う際には数値が小さいものを選択する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '聴覚保護具は、作業の状況に合わせて適切な遮音性能のものを選びます。必要以上に遮音効果の大きいものを使うと、会話や警報音が聞こえにくくなり、かえって危険です。「作業の状況にかかわらず、できるだけ遮音効果が大きいもの」とする選択肢3は誤りです。
+
+
+    保護具は「強ければ強いほどよい」ではなく、作業に合ったものを選ぶ、という考え方は、呼吸用保護具や化学防護手袋でも同じです。'
   figures: []
   law_note: null
   _key_choice: 聴覚保護具を選定するときは、作業の状況にかかわらず、できるだけ、遮音効果が大きいものを選定する。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -427,13 +468,15 @@ questions:
   - 防毒マスクを着用するときは、ヘルメットの上からしめひもを使用するようにすると、面体と顔との密着性を高めることができる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '防毒マスクのしめひもをヘルメットの上から使うと、面体を顔に押し付ける力が弱くなったり、ずれたりして、密着性が**悪く**なります。しめひもは頭に直接かけるので、選択肢5は誤りです。
+
+
+    密着性の確認には、陰圧法や陽圧法などのフィットチェックを使います。面体と顔の間にタオルなどを挟むのも、密着性を損なうので避けます。'
   figures: []
   law_note: null
   _key_choice: 防毒マスクを着用するときは、ヘルメットの上からしめひもを使用するようにすると、面体と顔との密着性を高めることができる。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -449,8 +492,16 @@ questions:
   - 許容濃度等の勧告における感作性物質には、アレルギー性呼吸器疾患を誘発する気道感作性物質と、アレルギー性皮膚反応を誘発する皮膚感作性物質がある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '鉱物性粉じんの管理濃度は、遊離けい酸の含有率を Q（％）としたとき、
+
+
+    E ＝ 3.0 ÷ (1.19Q ＋ 1)
+
+
+    で求めます。1.49Q とする選択肢1は誤りです。
+
+
+    遊離けい酸の含有率が高いほど、管理濃度は小さく（厳しく）なります。遊離けい酸を含まない（Q ＝ 0）とき、管理濃度は 3.0 mg/m³ です。'
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度E（mg/m
-  _review: true

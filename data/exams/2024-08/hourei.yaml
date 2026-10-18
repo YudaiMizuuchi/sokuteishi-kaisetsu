@@ -1,10 +1,10 @@
 exam: 2024-08
 date: null
 subject: hourei
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - law-system
   traps:
@@ -20,13 +20,15 @@ questions:
   - クロムの粉じんを発散する場所における業務に常時 50 人の労働者を従事させる場合は、その事業場に専属の産業医を選任しなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '専属の産業医が必要になるのは、常時1,000人以上の事業場か、クロムの粉じんを発散する場所での業務など法令で定める有害業務に、常時**500人以上**を従事させる事業場です。800人の事業場で、有害業務に50人を従事させているだけでは、専属の産業医は必要ありません。選択肢5は誤りです。
+
+
+    一方、500人を超える事業場で、暑熱の業務などの一定の有害業務に常時30人以上を従事させる場合は、衛生管理者のうち1人を専任にします（選択肢3）。「専属の産業医は500人」「専任の衛生管理者は30人」と数字を区別しましょう。'
   figures: []
   law_note: null
   _key_choice: クロムの粉じんを発散する場所における業務に常時50人の労働者を従事させる場合は、その事業場に専属の産業医を選任しなければならない。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -42,13 +44,12 @@ questions:
   - 50 人以上の労働者に対し、雇入時の健康診断を行った場合、その結果を所轄労働基準監督署長に報告しなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 雇入時の健康診断の結果は、労働者数にかかわらず、所轄労働基準監督署長に報告する必要はありません。50人以上で報告が必要なのは、定期健康診断です。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 50人以上の労働者に対し、雇入時の健康診断を行った場合、その結果を所轄労働基準監督署長に報告しなければならない。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -64,13 +65,16 @@ questions:
   - 法令で定める教育のうち、特別の教育を行ったときは、その受講者、科目等の記録を作成して、これを3年間保存しておかなければならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '特別の教育の講師について、法令で資格などの要件は定められていません。講師は、教育の科目について十分な知識と経験をもつ者であればよいとされています。「法令で定める要件を満たす者でなければならない」とする選択肢4は誤りです。
+
+
+    特別教育の記録の3年間保存（選択肢5）は、繰り返し出題されている数字です。'
   figures: []
   law_note: null
   _key_choice: 法令で定める教育のうち、特別の教育の講師は、法令で定める要件を満たす者でなければならない。
-  _review: true
+  review_note: 特別教育の講師に法令上の資格要件はない、と説明しています。確認中です。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -79,14 +83,17 @@ questions:
   summary: null
   stem: 法令により、定期に作業環境測定を行うべき作業環境測定対象Ⓐ、測定頻度Ⓑ及び記録の保存期間Ⓒの組合せとして、誤っているものはどれか。
   choices:
-  - 空気中の 1,2- ジクロルエチレ ／ 6か月以内ごとに1回 ／ 3年ンの濃度
-  - 空気中の 1,2- ジクロロエタン ／ 6か月以内ごとに1回 ／ 30 年の濃度
+  - 空気中の 1,2-ジクロルエチレンの濃度 ／ 6か月以内ごとに1回 ／ 3年
+  - 空気中の 1,2-ジクロロエタンの濃度 ／ 6か月以内ごとに1回 ／ 30年
   - 空気中のシアン化水素の濃度 ／ 6か月以内ごとに1回 ／ 3年
-  - 空気中のマンガンの濃度 ／ 6か月以内ごとに1回 ／ 30 年
+  - 空気中のマンガンの濃度 ／ 6か月以内ごとに1回 ／ 30年
   - 空気中の鉛の濃度 ／ 1年以内ごとに1回 ／ 3年
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'マンガンは特定化学物質の第2類物質（管理第2類物質）で、特別管理物質に当たらないので、作業環境測定の記録は**3年間**保存します。30年とする選択肢4は誤りです。
+
+
+    1,2-ジクロロエタンは特別有機溶剤で、記録は30年間保存します（選択肢2）。1,2-ジクロルエチレンは第1種有機溶剤で3年間です（選択肢1）。名前の似た2つの物質で、区分と保存期間が違う点が罠です。'
   figures: []
   law_note: null
   _key_choice: 空気中のマンガンの濃度６か月以内ごとに１回30年
@@ -94,9 +101,8 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -112,13 +118,15 @@ questions:
   - 第2種酸素欠乏危険作業を行う場合には、その日の作業を開始する前に、当該作業場における空気中の酸素及び硫化水素の濃度を測定しなければならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '炭酸ガスが停滞するおそれのある坑内の作業場の炭酸ガス濃度の測定は、**1か月以内ごとに1回**です。半月以内ごととする選択肢2は誤りです。
+
+
+    坑内の作業場の測定は、炭酸ガス濃度が1か月以内ごと、気温（28℃を超えるおそれのある場合）と通気量が半月以内ごとです。令和6年度第2回でも、同じ数字が出題されています。'
   figures: []
   law_note: null
   _key_choice: 炭酸ガスが停滞するおそれのある坑内の作業場においては、半月以内ごとに１回、定期に、炭酸ガス濃度を測定しなければならない。
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -134,13 +142,15 @@ questions:
   - 鉛蓄電池を解体する工程における鉛等の溶融の業務に係る作業
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'セメントを袋詰めする作業は粉じん作業ですが、粉じん作業には作業主任者の選任は定められていません。よって答えは（1）です。
+
+
+    石炭を入れてあるホッパーの内部、ドライアイスで冷蔵している冷蔵庫の内部は酸素欠乏危険場所（酸素欠乏危険作業主任者）、圧気工法の作業室は高圧室内作業主任者、鉛等の溶融は鉛作業主任者の選任が必要です。'
   figures: []
   law_note: null
   _key_choice: セメント製造工程においてセメントを袋詰めする作業
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -156,13 +166,12 @@ questions:
   - 有機ガス用防毒マスク
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 型式検定の対象となる防毒マスクは、ハロゲンガス用、有機ガス用、一酸化炭素用、アンモニア用、亜硫酸ガス用の5種類です。酸性ガス用防毒マスクは含まれないので、答えは（3）です。
   figures: []
   law_note: null
   _key_choice: 酸性ガス用防毒マスク
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   traps:
@@ -178,13 +187,15 @@ questions:
   - 作業環境測定機関は、作業環境測定を行ったときは、当該作業環境測定を行った作業場の名称及び所在地、測定年月日、当該作業環境測定を実施した作業環境測定士の氏名、測定方法並びに測定結果を記載した書類を作成し、3年間保存しなければならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ずい道等の建設の作業を行う坑内作業場の粉じん濃度の測定は、指定作業場の作業環境測定ではないので、作業環境測定士に行わせなければならないものではありません。選択肢2は誤りです。
+
+
+    指定作業場に当たる粉じんの作業場は、土石・岩石・鉱物などの特定粉じん作業を行う**屋内**作業場です。坑内の作業場は含まれません。'
   figures: []
   law_note: null
   _key_choice: 粉じん作業を行う坑内作業場のうち、ずい道等の内部において、ずい道等の建設の作業を行うものについて、空気中の粉じんの濃度を測定するときは、第１種作業環境測定士に行
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   - a-b-measurement
@@ -201,13 +212,15 @@ questions:
   - ベリリウム及びその化合物の捕集には、鉱物性粉じんを捕集する場合と同じ特性を有する分粒装置を用いなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '分粒装置を用いて捕集しなければならないのは、鉱物性粉じん、マンガン及びその化合物、インジウム化合物などで、ベリリウム及びその化合物は含まれません。選択肢5は誤りです。
+
+
+    令和6年度第1回のデザイン・サンプリングでも、分粒装置が必要な物質がマンガン、インジウム、鉱物性粉じんであることが出題されています。'
   figures: []
   law_note: null
   _key_choice: ベリリウム及びその化合物の捕集には、鉱物性粉じんを捕集する場合と同じ特性を有する分粒装置を用いなければならない。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - evaluation
   - statistics
@@ -224,13 +237,15 @@ questions:
   - C測定とD 測定を行った単位作業場所において、C 測定の第2評価値が管理濃度を超える場合は、D 測定の測定値に関係なく、第3管理区分に区分される。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'C 測定を行った場合も、A 測定と同じく、測定値から第1評価値と第2評価値を計算し、それをもとに管理区分を決めます。測定値の最大値と最小値で区分するのではないので、選択肢4は誤りです。
+
+
+    インジウム化合物は、管理区分ではなく、測定結果の値の区分に応じた措置（呼吸用保護具の選定など）が定められている点が特殊です（選択肢1）。'
   figures: []
   law_note: null
   _key_choice: A測定を行った場合には、計算により第１評価値及び第２評価値を求めて管理区分に区分するが、C測定を行った場合には、測定値のうちの最大値及び最小値をもとに管理区分に
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - personal-sampling
   traps:
@@ -246,13 +261,16 @@ questions:
   - 作業の実情にかかわらず、A 測定の評価値及びD 測定の測定値をもとに管理区分の区分を行うことはできない。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '個人サンプリング法について登録を受ける作業環境測定機関には、個人サンプリング法について登録を受けた作業環境測定士を置くことが求められますが、指定作業場の種類ごとに「第1種作業環境測定士」を置かなければならない、という定めではありません。選択肢1は誤りです。
+
+
+    個人サンプリング法の登録はデザイン・サンプリングに関わるもので、第2種の測定士も受けることができます（令和5年度第2回 法令 問11）。'
   figures: []
   law_note: null
   _key_choice: 個人サンプリング法について登録を受けようとする作業環境測定機関には、指定作業場の種類ごとに、少なくとも１人、個人サンプリング法について登録を受けた第１種作業環境
-  _review: true
+  review_note: 個人サンプリング法の登録を受ける測定機関に置く測定士について、「指定作業場の種類ごとに第1種」という定めではない、と説明しています。条文を確認中です。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -269,13 +287,15 @@ questions:
   - 二酸化硫黄は、第3類物質である。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '第2類物質は、特定第2類物質、特別有機溶剤等、オーラミン等、管理第2類物質に区分されます。特別有機溶剤は特定第2類物質とは別の区分なので、「特別有機溶剤は特定第2類物質に該当する」とする選択肢3は誤りです。
+
+
+    特別有機溶剤は、もとは有機溶剤だったものが移された区分で、有機溶剤中毒予防規則の規定の多くを準用する特別な扱いになっています。'
   figures: []
   law_note: null
   _key_choice: 第２類物質は、特定第２類物質及び管理第２類物質に区分され、特別有機溶剤は特定第２類物質に該当する。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -292,13 +312,15 @@ questions:
   - 特別管理物質を製造する作業場において常時作業に従事する労働者について、1か月を超えない期間ごとに所定の事項を記録し、これを 30 年間保存するものとされている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '第2類物質の作業環境測定が必要なのは、第2類物質を取り扱う**屋内**作業場です。屋外作業場では作業環境測定は求められていないので、選択肢3は誤りです。
+
+
+    一方、管理第2類物質を取り扱う業務の特殊健康診断は、屋外作業場で従事する労働者にも行います（選択肢4）。金属アーク溶接の作業主任者も、屋外で行う場合を含めて選任が必要です（選択肢2）。測定・健診・作業主任者で、屋外の扱いが違う点が罠です。'
   figures: []
   law_note: null
   _key_choice: 第２類物質を取り扱う作業場については、屋外作業場であっても、６か月以内ごとに１回、定期に、作業環境測定を実施しなければならない。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -315,13 +337,15 @@ questions:
   - クレゾールは、第2種有機溶剤等である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '第1種有機溶剤等が4％、第2種が6％の混合物は、第1種が5％を超えないので第1種有機溶剤等には当たりません。第1種と第2種の合計が10％で5％を超えるので、**第2種有機溶剤等**です。第1種有機溶剤等とする選択肢2は誤りです。
+
+
+    二硫化炭素は第1種有機溶剤、クレゾールは第2種有機溶剤です（選択肢4・5）。'
   figures: []
   law_note: null
   _key_choice: 第１種有機溶剤等を重量の４％、第２種有機溶剤等を重量の６％、第３種有機溶剤等を重量の90％含有する混合物は、第１種有機溶剤等である。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -338,13 +362,15 @@ questions:
   - 第3種有機溶剤等を用いて、屋内作業場で塗装の業務を行う場合は、有機溶剤作業主任者を選任しなければならない。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '有機溶剤業務の局所排気装置で外付け式フードを用いる場合、制御風速は、側方吸引型・下方吸引型で **0.5 m/s**、上方吸引型で **1.0 m/s** です。0.4 m/s とする選択肢1は誤りです。囲い式フードは 0.4 m/s なので、数字を取り違えないようにしましょう。
+
+
+    令和8年度第1回では、下方吸引型 0.5 m/s が正しい記述として出題されています。'
   figures: []
   law_note: null
   _key_choice: 第２種有機溶剤等を用いて、屋内作業場で洗浄の業務を行うとき、作業場所に設ける局所排気装置は、そのフードを外付け式のものとした場合、0.4m/秒の制御風速を出し得
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - law-radiation
   traps:
@@ -360,15 +386,15 @@ questions:
   - 放射線業務に常時従事する労働者で管理区域に立ち入るものに対して、雇入れの際に行う健康診断においては、使用する線源の種類等に応じて、白内障に関する眼の検査を省略することができる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '管理区域には、放射線業務従事者以外の者でも、必要のある者は立ち入ることができます。電離放射線障害防止規則が禁止しているのは、**必要のある者以外**の立入りです。「放射線業務従事者以外の者を立ち入らせてはならない」とする選択肢2は誤りです。
+
+
+    令和5年度第1回でも、管理区域に一時的に立ち入る労働者についての規定（線量の測定は必要、健康診断は不要）が出題されています。'
   figures: []
   law_note: null
   _key_choice: を超えるおそれのある区域については、管理区域として、標識によって明示しなければならない。
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.28）
 - num: 17
-  status: draft
+  status: published
   chapters:
   - law-dust
   - dust-disease
@@ -385,13 +411,15 @@ questions:
   - 作業環境測定の結果、第3管理区分に区分された場所については、労働者に有効な呼吸用保護具を使用させなければならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '粉じんの濃度の作業環境測定が義務づけられているのは、常時**特定粉じん作業**を行う屋内作業場です。特定粉じん作業以外の粉じん作業を行う屋内作業場には、定期の測定の義務はないので、選択肢4は誤りです。
+
+
+    特定粉じん作業以外の粉じん作業では、全体換気装置による換気などが求められます（選択肢2）。'
   figures: []
   law_note: null
   _key_choice: 常時特定粉じん作業以外の粉じん作業を行う屋内作業場については、１年以内ごとに１回、定期に、当該作業場における空気中の粉じんの濃度の測定を行い、その測定結果等を記
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - law-other
   - other-workplaces
@@ -408,13 +436,15 @@ questions:
   - 燃焼器具を使用するときは、発熱量が著しく少ないものを除き、1週間以内ごとに1回、定期に、当該器具の異常の有無を点検しなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '燃焼器具を使用するときは、発熱量が著しく少ないものを除き、**毎日**、器具の異常の有無を点検しなければなりません。1週間以内ごととする選択肢5は誤りです。
+
+
+    事務所の空気環境では、ホルムアルデヒドの量 0.1 mg/m³ 以下（選択肢3）、気流 0.5 m/s 以下（選択肢1）なども頻出の数字です。'
   figures: []
   law_note: null
   _key_choice: 燃焼器具を使用するときは、発熱量が著しく少ないものを除き、１週間以内ごとに１回、定期に、当該器具の異常の有無を点検しなければならない。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - law-other
   - oxygen-deficiency
@@ -431,13 +461,15 @@ questions:
   - 労働者が酸素欠乏症等にかかったときは、直ちに医師の診察又は処置を受けさせなければならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '酸素欠乏危険作業に従事する労働者について、医師による特別の項目についての健康診断（特殊健康診断）は定められていません。選択肢4は誤りです。
+
+
+    酸素欠乏症は、慢性の健康影響ではなく、その場の事故として起こるものです。そのため、酸素欠乏症等防止規則は、作業前の測定、換気、保護具、監視人の配置などの事故の防止に重点を置いています。'
   figures: []
   law_note: null
   _key_choice: 酸素欠乏危険作業に常時従事する労働者に対しては、６か月以内ごとに１回、定期に、医師による特別の項目についての健康診断を実施しなければならない。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - law-dust
   - ventilation
@@ -454,8 +486,10 @@ questions:
   - 石綿等を取り扱う作業場には、石綿により生ずるおそれのある疾病の種類及びその症状、石綿等の取扱い上の注意事項等、所定の事項を見やすい箇所に掲示しなければならない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '石綿等の粉じんを発散する屋内作業場に設ける局所排気装置の除じん装置は、**ろ過除じん方式**またはこれと同等以上の性能のものとしなければなりません。マルチサイクロン方式で足りるとする選択肢3は誤りです。
+
+
+    石綿の繊維はとても細かいので、遠心力で分けるサイクロンでは十分に除けません。令和5年度第2回の一般でも、マルチサイクロンは細かい粒子の除去が苦手だと出題されています。'
   figures: []
   law_note: null
   _key_choice: 石綿等の粉じんが発散する屋内作業場に設置する局所排気装置に設ける除じん装置は、粉じんの粒径にかかわらず、マルチサイクロン方式によるものとすることができる。
-  _review: true

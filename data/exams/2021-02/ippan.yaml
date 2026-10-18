@@ -1,10 +1,10 @@
 exam: 2021-02
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -20,13 +20,15 @@ questions:
   - 対象の化学物質等への労働者のばく露の程度及び当該化学物質等による有害性を相対的に尺度化し、それらを縦軸と横軸とし、あらかじめばく露の程度及び有害性の程度に応じてリスクが割り付けられた表を使用する方法。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '管理濃度は、作業環境測定の結果を作業環境評価基準で評価し、管理区分を決めるための値です。労働者のばく露の程度（個人ばく露濃度）を測って、管理濃度と直接比べる方法は、指針で示された見積り方法ではないので、（1）が不適切です。
+
+
+    個人ばく露濃度と比べる相手は、濃度基準値や許容濃度などのばく露限界です。比べる「物差し」と「測定値」の組合せを正しく押さえましょう。'
   figures: []
   law_note: null
   _key_choice: 対象の化学物質等への労働者のばく露の程度を測定し、測定結果を厚生労働省の「作業環境評価基準」に示されている当該化学物質の管理濃度と比較する方法。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - oh-management
   traps:
@@ -42,13 +44,15 @@ questions:
   - このシステムの全般的な見直しとは、事業場の安全衛生水準の向上の状況、社会情勢の変化等を考慮して、事業者自らがシステムの妥当性及び有効性を評価し、その結果を踏まえて必要な改善を実施することをいう。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '労働安全衛生マネジメントシステムに関する指針は、事業者が安全衛生方針の表明、計画、実施、評価、改善という一連の仕組みを自主的に回すための基本的な事項を定めたものです。機械や化学物質による危険・健康障害を防ぐための具体的な措置を定めるものではないので、選択肢1は誤りです。
+
+
+    具体的な措置は、労働安全衛生法や各規則で定められています。マネジメントシステムは、それらを確実に実行し、改善し続けるための「仕組み」です。'
   figures: []
   law_note: null
   _key_choice: この指針は、労働安全衛生法の規定に基づき、機械、設備、化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めるものである。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -64,13 +68,15 @@ questions:
   - 体内に取り込まれた有機溶剤の生物学的半減期は比較的短いので、有機溶剤等健康診断における尿中代謝物の検査のための採尿時刻は、正確にチェックする必要がある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'キシレンは、体内で代謝されて、尿中に主に**メチル馬尿酸**として排泄されます。エチル馬尿酸とする選択肢2は誤りです。
+
+
+    トルエンは馬尿酸、キシレンはメチル馬尿酸、エチルベンゼンとスチレンはマンデル酸、と覚えましょう。ベンゼン環にメチル基が2つあるキシレンが、メチルの付いた馬尿酸になる、と構造から結びつけられます。'
   figures: []
   law_note: null
   _key_choice: キシレンは、代謝されて、尿中にエチル馬尿酸として排泄される。せつ
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -86,13 +92,15 @@ questions:
   - シアン化水素は、体の細胞内の酸素の利用を阻害し、呼吸困難や呼吸麻痺を起こす。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '一酸化炭素は、赤血球中のヘモグロビンと強く**結合**して、酸素を運べなくすることで、体内組織を酸素欠乏にします。ヘモグロビンの合成を阻害するのではないので、選択肢3は誤りです。
+
+
+    一酸化炭素がヘモグロビンと結合する力は、酸素の200倍以上です。ヘモグロビンの合成を妨げて貧血を起こすのは、鉛の特徴です。'
   figures: []
   law_note: null
   _key_choice: 一酸化炭素は、赤血球中のヘモグロビンの合成を阻害し、酸素欠乏を生じさせる。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -108,16 +116,18 @@ questions:
   - n-ヘキサン ／ 肺がん
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'n-ヘキサンの代表的な健康障害は、多発性神経炎（末梢神経障害）で、肺がんを起こす物質とはされていません。選択肢5は誤りです。
+
+
+    塩化ビニルの肝血管肉腫、ベンジジンの膀胱がん、無機ヒ素化合物の肺がん、ベンゼンの白血病は、いずれも職業がんの代表例です。'
   figures: []
   law_note: null
   _key_choice: ??
-  _review: true
   columns:
   - Ａ
   - Ｂ
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -133,15 +143,15 @@ questions:
   - 吸入性粉じんの捕集には、空気力学相当径 4 µm の粉じん粒子を 50 ％透過する性能を有する分粒装置を用いる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '胸膜の中皮腫を起こすのは石綿です。遊離けい酸は、肺を線維化させてけい肺を起こす物質で、中皮腫の原因ではないので、選択肢3は誤りです。
+
+
+    遊離けい酸はけい肺（じん肺）、石綿は石綿肺・肺がん・中皮腫、と原因物質と病気を対で覚えましょう。'
   figures: []
   law_note: null
   _key_choice: の球形粒子の直径である。
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.05）
 - num: 7
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -157,13 +167,15 @@ questions:
   - マンガンによる慢性中毒では、精神症状、歩行障害、発語障害などパーキンソン病に似た症状がみられる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'カドミウム中毒の代表的な症状は、腎障害（低分子蛋白尿）や、歯の黄色環、慢性の肺気腫などです。溶血性貧血はヒ化水素、鼻中隔穿孔は6価クロムやヒ素の症状なので、選択肢4は誤りです。
+
+
+    溶血性貧血と鼻中隔穿孔は、他の回でも別の物質と組み合わせて出題されています。症状から物質を逆にたどれるようにしておきましょう。'
   figures: []
   law_note: null
   _key_choice: カドミウム中毒では、溶血性貧血や鼻中隔穿孔がみられる。せん
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
@@ -179,13 +191,15 @@ questions:
   - 二硫化炭素の高濃度ばく露では、精神障害を生じる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '網膜の微細動脈瘤を伴う脳血管障害は、**二硫化炭素**の慢性中毒の特徴です。酢酸メチルの健康障害として顕著なのは、視神経の障害です。選択肢4は誤りです。
+
+
+    酢酸メチルは、体内でメタノールを生じるため、メタノールと同じく視神経障害を起こします。'
   figures: []
   law_note: null
   _key_choice: 酢酸メチルによる健康障害として顕著なものは、網膜微細動脈瘤を伴うりゅう脳血管障害である。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -201,13 +215,15 @@ questions:
   - 算出したWBGTの値が、作業内容に応じて設定されたWBGT基準値未満である場合には、熱中症が発生するリスクが高まる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '算出した WBGT 値が、作業内容に応じた WBGT 基準値を**超える**と、熱中症のリスクが高まります。基準値未満であればリスクは低いので、「基準値未満である場合にリスクが高まる」とする選択肢5は誤りです。
+
+
+    WBGT 基準値は、作業の負荷が大きいほど、また暑熱に順化していない人ほど小さい（厳しい）値になります（選択肢1・4）。'
   figures: []
   law_note: null
   _key_choice: 算出したＷＢＧＴの値が、作業内容に応じて設定されたＷＢＧＴ基準値未満である場合には、熱中症が発生するリスクが高まる。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -223,13 +239,15 @@ questions:
   - 喫煙は、レイノー現象発現の増悪因子である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '局所振動障害を起こしやすいのは、数 Hz から数百 Hz 程度の比較的低い周波数の振動で、1,000 Hz を超えるとほとんど影響がないとされています。4,000 Hz 以上で発生しやすいとする選択肢2は誤りです。
+
+
+    令和8年度第1回でも、手腕への影響が最も大きいのは 12 Hz 前後で、1,000 Hz 以上ではほとんど影響しない、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動周波数が4,000Hz以上の振動で発生しやすい。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -245,13 +263,15 @@ questions:
   - 騒音の A 測定の平均値の算定には 80 dB 未満の測定値は含めない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '等価騒音レベルは、時間とともに変動する騒音のエネルギーを、測定時間で平均した値です。特定の周波数帯（オクターブバンド）の騒音レベルを平均したものではないので、選択肢4は誤りです。
+
+
+    500 Hz〜4,000 Hz の4つの周波数は、聴力検査で使う周波数の話と混同させるための数字です。'
   figures: []
   law_note: null
   _key_choice: 等価騒音レベルは、中心周波数500Hz、1,000Hz、2,000Hz及び4,000Hzの各オクターブバンドの騒音レベルの平均値である。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
@@ -267,13 +287,15 @@ questions:
   - 海水が滞留している暗きょの内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '飼料の貯蔵や果菜の熟成に使う倉庫の内部は、飼料や果菜の呼吸で酸素が消費されるため、酸素欠乏症の危険がある場所ですが、硫化水素中毒の危険がある場所ではありません（第1種酸素欠乏危険作業）。選択肢2は誤りです。
+
+
+    硫化水素中毒の危険まであるのは、海水が滞留している暗きょや、汚水・腐泥などがある場所です（選択肢5）。「腐敗するもの」があるかで判断しましょう。'
   figures: []
   law_note: null
   _key_choice: 飼料の貯蔵又は果菜の熟成のために使用している倉庫の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -289,13 +311,15 @@ questions:
   - マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'マイクロ波は、赤外線より波長が**長い**電磁波です。「赤外線より波長が短い」とする選択肢5は誤りです。照射部位を加熱する作用がある点は正しい記述です。
+
+
+    電磁波は波長の短い方から、γ 線・X 線、紫外線、可視光線、赤外線、マイクロ波、電波の順です。令和6年度第2回でも、同じ並びが出題されています。'
   figures: []
   law_note: null
   _key_choice: マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -311,13 +335,15 @@ questions:
   - 再生不良性貧血は、晩発影響である。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'X 線と γ 線は、波長（エネルギー）の大きさで区別されるのではなく、**発生のしかた**で区別されます。原子核の外（電子の状態の変化など）から出るものが X 線、原子核から出るものが γ 線です。選択肢1は誤りです。
+
+
+    X 線と γ 線は波長の範囲が重なっていて、同じ波長の X 線と γ 線もあります。'
   figures: []
   law_note: null
   _key_choice: Ｘ線及びγ線のうち、波長が10nm程度以上の低エネルギーのものをＸ線、それより高エネルギーのものをγ線と呼ぶ。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -333,13 +359,15 @@ questions:
   - メタノールの極性は、ベンゼンの極性よりも大きい。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ヒュームの一次粒子の粒径は、一般に **1 µm 以下**です。5 µm 程度とする選択肢3は誤りです。
+
+
+    同じ回のデザイン・サンプリングでも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子の粒径は、一般に、５µm程度である。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -355,13 +383,15 @@ questions:
   - ダクトの断面積が同じである場合、断面が円形のダクトは長方形のダクトに比べて圧力損失が大きい。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ダクトの断面積が同じなら、断面が円形のダクトの方が、長方形のダクトよりも圧力損失は**小さく**なります。円形は、同じ断面積で周の長さが最も短く、壁との摩擦が少ないからです。「円形の方が圧力損失が大きい」とする選択肢5は誤りです。
+
+
+    令和5年度第2回では、円形の方が圧力損失が小さい、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: ダクトの断面積が同じである場合、断面が円形のダクトは長方形のダクトに比べて圧力損失が大きい。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -377,13 +407,15 @@ questions:
   - アーク溶接作業に用いられる遮光保護具は、レーザー機器取扱作業でのレーザー保護めがねとして使用することはできない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '電動ファン付き呼吸用保護具は、周りの空気をファンで吸い込み、ろ過して供給する保護具なので、酸素濃度 18 ％ 未満の場所では使用できません。選択肢4は誤りです。
+
+
+    酸素欠乏の場所で使えるのは、送気マスクと、空気呼吸器・酸素呼吸器などの自給式呼吸器だけです。ろ過式の保護具（防じんマスク、防毒マスク、電動ファン付き呼吸用保護具）は、周りに酸素が十分あることが前提です。'
   figures: []
   law_note: null
   _key_choice: 酸素濃度18％未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -399,13 +431,15 @@ questions:
   - 有機ガス用防毒マスクの吸収缶は、メタノール、二硫化炭素については、除毒能力試験の試験用ガスに比べて破過時間が著しく短くなる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '有機ガス用防毒マスクの吸収缶は、活性炭で有機ガスを吸着します。吸着は温度が低いほど起こりやすいので、使用する環境の温度が**高い**ほど破過時間は短くなります。「温度が低いほど破過時間が短くなる」とする選択肢2は誤りです。
+
+
+    湿度が高い場合も、水分が活性炭に吸着されて、有機ガスの破過時間は短くなります。'
   figures: []
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -421,13 +455,16 @@ questions:
   - ウェルシュ菌、セレウス菌及びカンピロバクターは、いずれも細菌性食中毒の原因菌である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '職場における腰痛予防対策指針では、満18歳以上の男性労働者が人力のみで取り扱う物の重量は、体重のおおむね **40 ％ 以下**となるようにするとされています。60 ％ 以下とする選択肢2は誤りです。
+
+
+    女性労働者の場合は、さらにその60％位までとされています。'
   figures: []
   law_note: null
   _key_choice: 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね60％以下となるようにする。
-  _review: true
+  review_note: 腰痛予防対策指針の重量の目安を「体重のおおむね40％以下」と説明しています。現行の指針の数値を確認中です。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -443,8 +480,10 @@ questions:
   - 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '日本産業衛生学会の許容濃度等の勧告では、ヒトに対する発がん性を、**第1群、第2群A、第2群B の3種類**に分類しています。第3群を加えた4種類とする選択肢5は誤りです。
+
+
+    令和5年度第1回では、3種類という正しい記述が出題されています。生殖毒性は第1群〜第3群の3種類なので、混同しないようにしましょう。'
   figures: []
   law_note: null
   _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の４種類に分類されている。
-  _review: true

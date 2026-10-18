@@ -1,10 +1,10 @@
 exam: 2020-08
 date: null
 subject: design
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -20,13 +20,15 @@ questions:
   - 有機溶剤の管理濃度は、体積分率（ppm）で表されている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '鉱物性粉じんの管理濃度は、E ＝ 3.0 ÷ (1.19Q ＋ 1)（Q は遊離けい酸の含有率 ％）で求めます。遊離けい酸の含有率が**高い**ほど管理濃度は小さく、低いほど大きくなるので、「含有率が低いほど小さな値となる」とする選択肢3は誤りです。
+
+
+    遊離けい酸は肺を線維化させる作用が強いので、多く含む粉じんほど管理を厳しくします。'
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度は、その粉じんの遊離けい酸含有率が低いほど小さな値となる。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - unit-workplace
   traps:
@@ -42,13 +44,15 @@ questions:
   - クロム酸鉛を取り扱っている作業場では、同一の区域をクロム酸と鉛とで、別々の単位作業場所として設定する。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'トルエンによる抽出作業とキシレンによる抽出作業が、同じ場所で別々に行われている場合は、混合溶剤を使う作業場とみなして1つの単位作業場所とすることはできません。それぞれの物質について単位作業場所を設定するので、選択肢2は誤りです。
+
+
+    混合溶剤として扱えるのは、実際に混合物を使っている場合です。令和5年度第2回では、「一つの単位作業場所とすることはできない」という正しい記述として出題されています。'
   figures: []
   law_note: null
   _key_choice: トルエンによる抽出作業とキシレンによる抽出作業が同一の場所で別々に行われている作業場を、トルエンとキシレンの混合溶剤を使用する作業場とみなして一つの単位作業場所として設定する。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -64,13 +68,15 @@ questions:
   - 測定点の数を5未満とすることができる単位作業場所でも、各測定点で繰り返し測定を行うことによって、測定値の総数は5以上とする。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'A 測定の測定点の間隔は、6 m 以下の等間隔であれば、縦方向と横方向で**違っていても構いません**。「縦方向と横方向の間隔を同一にしなければならない」とする選択肢2は誤りです。
+
+
+    それぞれの方向の中では等間隔でなければなりませんが、方向が違えば間隔を変えてよい、という点が令和8年度第1回の問3（測定点の配置図）でも問われています。'
   figures: []
   law_note: null
   _key_choice: 測定点と測定点の間隔は、6m以下の等間隔とし、かつ縦方向と横方向の間隔を同一にしなければならない。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -86,13 +92,15 @@ questions:
   - 相対濃度指示方法を用いて B 測定を行う場合の質量濃度変換係数は、その単位作業場所で行われた A 測定における併行測定の質量濃度変換係数を用いる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'B 測定は、発散源に近接する場所で作業が行われる場合に、濃度が最も高くなると考えられる**作業位置**とその時間の気中濃度を測る測定です。作業者個人のばく露量を測るものではないので、「局所的短時間の個人ばく露量の測定」とする選択肢2は誤りです。
+
+
+    個人のばく露を測るのは、個人サンプリング法の D 測定です。B 測定はあくまで「場」の測定です。'
   figures: []
   law_note: null
   _key_choice: B測定の目的は、局所的短時間の個人ばく露量の測定である。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - noise
   - statistics
@@ -109,13 +117,15 @@ questions:
   - B 測定の値が 90 dB(A)以上のときは、A 測定の値にかかわらず、第Ⅲ管理区分に区分される。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '騒音の管理区分の決定には、A 測定平均値（算術平均）と B 測定値を用い、標準偏差は用いません。「算術平均と標準偏差を用いる」とする選択肢3は誤りです。
+
+
+    令和2年度第2回にも、まったく同じ論点の問題があります。'
   figures: []
   law_note: null
   _key_choice: A測定のみを行った場合における管理区分の決定には、A測定値の算術平均と標準偏差を用いる。
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -131,13 +141,15 @@ questions:
   - ベンゼン
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'キシレンは沸点が約 140℃と、選択肢の中で最も高く、25℃での飽和蒸気圧が最も低い物質です。よって答えは（3）です。
+
+
+    メタノール（約 65℃）、イソプロピルアルコール（約 82℃）、ベンゼン（約 80℃）、トルエン（約 111℃）は、いずれもキシレンより沸点が低く、蒸気圧は高くなります。'
   figures: []
   law_note: null
   _key_choice: キシレン
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -153,13 +165,15 @@ questions:
   - 酢酸エチルは、ベンゼンより極性が大きい。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '四塩化炭素は、4つの塩素が対称に並んでいるため無極性で、クロロホルムより極性は**小さい**物質です。選択肢4は誤りです。
+
+
+    令和6年度第2回・令和6年度第1回でも、同じ組合せが出題されています。'
   figures: []
   law_note: null
   _key_choice: 四塩化炭素は、クロロホルムより極性が大きい。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
@@ -168,23 +182,25 @@ questions:
   summary: null
   stem: 有害物質Ⓐとその空気中の濃度の測定に用いる捕集器具又はろ過材Ⓑとの次の組合せのうち、不適当なものはどれか。
   choices:
-  - リフラクトリー ／ メンブランフィルターセラミックファイバー
+  - リフラクトリーセラミックファイバー ／ メンブランフィルター
   - コールタール ／ ガラス繊維ろ紙
   - 塩化ビニル ／ ミゼットインピンジャー
   - アクリルアミド ／ ガラス繊維ろ紙と活性炭フェルト
   - トリクロロエチレン ／ 活性炭管
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '塩化ビニルは常温で気体の物質で、活性炭管などを用いる固体捕集法や、捕集袋による直接捕集法で捕集します。ミゼットインピンジャーとの組合せは不適当なので、答えは（3）です。
+
+
+    リフラクトリーセラミックファイバーのメンブランフィルター、コールタールのガラス繊維ろ紙、アクリルアミドのガラス繊維ろ紙と活性炭フェルト（粒子と蒸気の両方を捕らえる）、トリクロロエチレンの活性炭管は、いずれも適切です。'
   figures: []
   law_note: null
   _key_choice: 塩化ビニルミゼットインピンジャー
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -200,13 +216,15 @@ questions:
   - ジクロロメタンは、水より密度が大きい。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'クリストバライトは、石英と同じく二酸化けい素の結晶で、**遊離けい酸**です。「遊離けい酸ではない」とする選択肢3は誤りです。
+
+
+    遊離けい酸には、石英、クリストバライト、トリジマイトなどがあります。令和5年度第1回では、クリストバライトは遊離けい酸である、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: クリストバライトは、遊離けい酸ではない。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - solid-sorbent
   traps:
@@ -222,13 +240,15 @@ questions:
   - n-ヘキサンの捕集には、活性炭管を用いる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '活性炭管は、一般に除湿管をつながずに使用します。シリカゲル管は水分を吸着しやすいので除湿（脱水）が必要になることがありますが、活性炭管ではその必要はないとされています。選択肢3は誤りです。
+
+
+    令和8年度第1回でも、活性炭管では水分除去や冷却を行う必要はない、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 活性炭管には、一般に、除湿管をつないで使用する。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
@@ -244,13 +264,15 @@ questions:
   - 粒径が 0.1 µm よりも小さな粒子の捕集では、慣性効果よりも拡散効果による捕集の割合が大きい。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ナフタレンは昇華性があり、空気中では蒸気と粒子が共存するので、ガラス繊維ろ紙だけでは蒸気を捕らえられません。ろ過材と固体捕集剤を組み合わせるなどの方法で捕集するので、選択肢2は誤りです。
+
+
+    粒子と蒸気が共存する物質（アクリルアミドなど）は、ろ過材と吸着剤を組み合わせて捕集する、という考え方を押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: ナフタレンの捕集には、ガラス繊維ろ紙を用いる。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
@@ -266,13 +288,15 @@ questions:
   - 小型ガス吸収管によるガス状物質の捕集では、流量が大きいほど捕集率は低くなる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ミゼットインピンジャーでガス状物質を捕集するときは、流量が大きいほど捕集液と接する時間が短くなり、捕集率は**低く**なります。「高くなる」とする選択肢2は誤りです。
+
+
+    粒子の捕集では逆に、流量が大きいほど慣性衝突が起こりやすく、捕集率が高くなります。令和5年度第1回の問19でも、粒子とガスの違いが問われています。'
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによるガス状物質の捕集では、流量が大きいほど捕集率は高くなる。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -288,13 +312,15 @@ questions:
   - 相対濃度計を用いて測定を行う場合、1測定点におけるサンプリング時間は10分未満でよい。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '相対濃度計で測定時間に比例するのは、カウント数の**積算値**です。相対濃度（単位時間あたりのカウント数）は、濃度が一定なら測定時間によらず一定です。選択肢2は誤りです。
+
+
+    令和5年度第1回にも、まったく同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -310,13 +336,15 @@ questions:
   - 直読式検知管の濃度目盛りは、温度 20 ℃ の場合の変色層の長さとして表示されている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '検知管の定量下限は、測定範囲の下限（箱や取扱説明書に記載された目盛りの下限）です。変色がわずかに認められる最低濃度である検知限度とは別のものなので、選択肢3は誤りです。
+
+
+    検知限度は「変色が見える最低濃度」、定量下限は「数値として読める最低濃度」です。令和5年度第1回・第2回でも、両者の違いが出題されています。'
   figures: []
   law_note: null
   _key_choice: 検知管の定量下限は、変色がわずかでも認められる検知限度のことである。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -332,13 +360,16 @@ questions:
   - 検知管の変色層の長さは、有害物質の濃度に必ずしも比例しない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '光散乱方式の相対濃度計は、粒子に光を当てたときの散乱光のうち、決まった方向（角度）の散乱光の強さを測っています。全方向の散乱光を測るものではないので、選択肢3は誤りです。
+
+
+    0.1 µm 以下の小さな粒子では散乱光が弱く、感度が低くなります（選択肢1）。'
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計では、全方向の散乱光の強度を測定している。
-  _review: true
+  review_note: 光散乱方式の相対濃度計は決まった方向の散乱光を測る、と説明しています。確認中です。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   traps:
@@ -354,16 +385,18 @@ questions:
   - 放射性ストロンチウム ／ ろ過捕集法
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '放射性セシウムは粒子として空気中に存在するので、**ろ過捕集法**で捕集します。液体捕集法との組合せは不適当なので、答えは（2）です。
+
+
+    令和2年度第2回では固体捕集方法との組合せで、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 放射性セシウム液体捕集法
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   - units
@@ -380,13 +413,24 @@ questions:
   - 30 時間
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '測りたい濃度の試料を採取したとき、計数率が検出下限計数率に届くまでの時間を求めます。
+
+
+    測りたい濃度 ＝ 1.0 × 10⁻⁶ ÷ 10 ＝ 1.0 × 10⁻⁷ Bq/cm³、吸引流量 ＝ 120 L/min ＝ 2,000 cm³/s
+
+
+    計数率 ＝ 1.0 × 10⁻⁷ × 2,000 × t × 1.00 × 0.40 ＝ 8.0 × 10⁻⁵ × t
+
+
+    t ＝ 4.3 ÷ (8.0 × 10⁻⁵) ≒ 5.4 × 10⁴ 秒 ≒ 15 時間
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 15時間
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -403,13 +447,15 @@ questions:
   - 正規分布の平均値と標準偏差をそれぞれ μ 、σ とすると、この分布に従う変数が μ -2σ から μ ＋ 2σ の範囲に入る確率は、およそ 68 ％ である。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '正規分布で、μ − 2σ から μ ＋ 2σ の範囲に入る確率は、およそ **95 ％**です。約68 ％になるのは ±1σ の範囲なので、選択肢5は誤りです。
+
+
+    令和6年度第1回にも、同じ形の誤りがあります。'
   figures: []
   law_note: null
   _key_choice: 正規分布の平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ-2σからμ+2σの範囲に入る確率は、およそ68%である。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -425,13 +471,15 @@ questions:
   - 気体を液体捕集によって試料採取する場合、有機溶剤等の揮発性物質の捕集率は、一般に、捕集液の温度が低いほど高くなる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '捕集装置を付けない状態で流量を調整したポンプに捕集装置を付けると、捕集装置の圧力損失のために実際の流量は設定より**少なく**なります。実際に吸引した空気の量は設定値から計算した量より少ないのに、計算では多いものとして割るので、測定される濃度は**低く**なります。「高くなる」とする選択肢1は誤りです。
+
+
+    流量の校正・調整は、捕集装置を取り付けた状態で行うのが原則です。'
   figures: []
   law_note: null
   _key_choice: 捕集装置を取り付けない状態で流量調整した吸引ポンプを用いて、有機溶剤を捕集した場合、測定される濃度は高くなる。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
@@ -447,8 +495,10 @@ questions:
   - 同じ単位作業場所について、1日測定で第2管理区分となっても、2日間測定では第1管理区分になることがある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'A 測定の第1評価値と B 測定値がともに管理濃度より小さければ、管理区分は**第1管理区分**です。「第1管理区分になるとは限らない」とする選択肢2は誤りです。
+
+
+    令和5年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とB測定の測定値がともに管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。
-  _review: true

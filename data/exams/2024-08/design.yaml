@@ -1,10 +1,10 @@
 exam: 2024-08
 date: null
 subject: design
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -20,13 +20,18 @@ questions:
   - 250 ppm
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'mg/m³ を ppm に直すときは、24.45 を掛けて分子量で割ります。メチルイソブチルケトン（CH₃COC₄H₉）の分子量は 100.2 です。
+
+
+    C [ppm] ＝ 100 × 24.45 ÷ 100.2 ≒ 24.4
+
+
+    よって、最も近いのは 25 ppm です。分子量がほぼ100なので、ppm と mg/m³ の値の比が 24.45 にほぼ等しくなる、と気づけば計算が楽になります。'
   figures: []
   law_note: null
   _key_choice: 25ppm
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - unit-workplace
   traps:
@@ -42,13 +47,15 @@ questions:
   - 有機溶剤による金属の洗浄を行う工場で働く作業者の行動範囲が当該工場内全体であるが、有機溶剤の分布が発生源周辺に限定されると考えられる場合には、発生源周辺の区域を単位作業場所としてよい。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '測定点の数が多く、1作業日中にサンプリングを終えられない場合は、測定を2作業日に分けるのではなく、単位作業場所の範囲をさらに幾つかの単位作業場所に分けます。選択肢2は誤りです。
+
+
+    1つの単位作業場所の測定は、同じ日のうちに終えるのが原則です。日をまたぐと、日によって濃度が違う影響が入ってしまうからです。令和8年度第1回にも同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 単位作業場所が広く測定点の数が多いため、1作業日中にサンプリングを終了できない場合には、測定を2作業日に分けて行うようにする。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -64,15 +71,17 @@ questions:
   - 単位作業場所が著しく狭く、かつ、単位作業場所における空気中の有害物質の濃度がほぼ均一であることが明らかなため、測定点の数を4点とした場合には、4点のうちいずれか1点で2回繰り返し測定を行うことによって、測定値の総数を5とする。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '測定点が5未満で繰り返し測定を行う場合は、**各測定点の繰り返しの回数を同じ**にします。4点のうち1点だけを2回測る方法は、その点の重みだけが大きくなるので、選択肢5は誤りです。4点なら各点2回ずつで8とします。
+
+
+    令和7年度第2回でも、3点のうち2点だけを繰り返す形で同じ論点が出題されています。'
   figures:
   - file: 2024-08-design-03-1.png
     alt: 問3の図
   law_note: null
   _key_choice: 単位作業場所が著しく狭く、かつ、単位作業場所における空気中の有害物質の濃度がほぼ均一であることが明らかなため、測定点の数を4点とした場合には、4点のうちいずれか1点で2回繰り返し測定を行うことによって、測定値の総数を5とする。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -88,13 +97,15 @@ questions:
   - B 測定の試料採取方法と分析方法は、A 測定と同じ方法を用いる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '圧電天秤方式の相対濃度計で B 測定を行うときは、2分間の測定を連続して5回行い、その**算術平均値**を B 測定値とします。最大値とする選択肢4は誤りです。
+
+
+    B 測定値は「10分間の値」として求めるので、短い測定を積み上げたときは平均をとります。検知管を10分間に5本使う場合と同じ考え方です。'
   figures: []
   law_note: null
   _key_choice: 圧電天秤方式の相対濃度計を用いて鉱物性粉じんのB測定を行う場合びんは、測定時間を2分に合わせて、連続して5回の測定を行い、指示値の最大値をB測定値とする。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - personal-sampling
   traps:
@@ -110,13 +121,15 @@ questions:
   - 鉛及びその化合物の測定は、作業方法、対象物質にかかわらず、個人サンプリング法による測定の対象となる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '粉じん（土石・岩石・鉱物などの粉じん）の測定も、個人サンプリング法による測定の対象です。「対象とはならない」とする選択肢1は誤りです。
+
+
+    個人サンプリング法の対象は、有機溶剤、特別有機溶剤、鉛、粉じん、そして特定化学物質のうち定められた物質です。特定化学物質には対象外の物質がある（選択肢4）点もあわせて押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: 粉じんの測定は、個人サンプリング法による測定の対象とはならない。
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - personal-sampling
   traps:
@@ -132,13 +145,15 @@ questions:
   - 有害物質の発生源に近接する場所において作業が行われる場合であって、気中濃度が最も高くなると思われる時間が 15 分未満で複数回生じるときは、その時間の合計が 15 分となるように D 測定の試料空気の採取を行う。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'D 測定の試料空気の採取は、濃度が最も高くなると思われる時間に、**連続した15分間**で行います。濃度が高い時間が15分未満で複数回ある場合でも、その時間を合計して15分とすることはできないので、選択肢5は誤りです。
+
+
+    令和8年度第1回でも、合わせて15分としても D 測定とはできない、という形で出題されています。'
   figures: []
   law_note: null
   _key_choice: 有害物質の発生源に近接する場所において作業が行われる場合であって、気中濃度が最も高くなると思われる時間が15分未満で複数回生じるときは、その時間の合計が15分となるようにD測定の試料空気の採取を行う。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -154,13 +169,15 @@ questions:
   - スチレン
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'アクリルアミドは、融点が約 84℃の白色の固体です。p-キシレン、1,4-ジオキサン、シクロヘキサノン、スチレンは、いずれも常温で液体の有機溶剤です。よって答えは（1）です。
+
+
+    アクリルアミドは、常温で固体ですが、蒸気や粉じんとして吸い込まれたり、皮膚から吸収されたりして、神経障害を起こします。'
   figures: []
   law_note: null
   _key_choice: アクリルアミド2p-キシレン31,4-ジオキサン4シクロヘキサノン5スチレン
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -176,13 +193,15 @@ questions:
   - N,N-ジメチルホルムアミドは、水に任意の割合で溶解する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'シアン化水素（HCN）の分子量は 27 で、空気の平均分子量（約 29）より小さいので、蒸気密度は空気より**小さく**なります。選択肢3は誤りです。
+
+
+    気体の密度は分子量で比べます。令和5年度第2回では、同じく分子量の小さいフッ化水素が出題されています。'
   figures: []
   law_note: null
   _key_choice: シアン化水素の蒸気密度は、空気より大きい。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
@@ -198,16 +217,18 @@ questions:
   - 硫化水素 ／ 小型ガス吸収管
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ヨウ化メチルの捕集には、シリカゲル管は適しません。活性炭管などを用います。よって（4）が不適当です。
+
+
+    ヨウ化メチルとシリカゲル管の組合せは、令和7年度第2回でも誤りとして出題されている、繰り返し狙われる型です。'
   figures: []
   law_note: null
   _key_choice: ヨウ化メチルシリカゲル管
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -223,13 +244,15 @@ questions:
   - 湿式ガスメーターを用いて、流量計を校正する場合、湿式ガスメーターは、原則として、ポンプより下流側に接続する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '捕集装置とポンプの間に接続した面積式流量計は、捕集装置の圧力損失が大きいほど、指示値が真の流量より**大きく**なります。「小さくなる」とする選択肢3は誤りです。
+
+
+    この論点は、令和5年度第1回・第2回でも出題されています。圧力損失で流量計の部分が減圧されると、空気が膨張して浮子が押し上げられる、とイメージしておきましょう。'
   figures: []
   law_note: null
   _key_choice: 捕集装置とポンプの間に接続した面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - solid-sorbent
   traps:
@@ -245,13 +268,16 @@ questions:
   - 混合有機溶剤を捕集する場合、含まれる有機溶剤の種類によっては、異なる種類の捕集管を用意し、同時に捕集することが必要になる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '二硫化炭素は、活性炭管で捕集した有機溶剤を脱着させるときの溶媒として使われるため、二硫化炭素そのものの測定には活性炭管を使いにくく、シリカゲル管などで捕集します。「シリカゲル管は適さない」とする選択肢2は誤りです。
+
+
+    活性炭管では、捕集力の弱い（沸点の低い）物質ほど早く破過します（選択肢3）。混合溶剤で、物質によって捕集管を使い分けることがある（選択肢5）のも、このためです。'
   figures: []
   law_note: null
   _key_choice: 二硫化炭素の捕集には、シリカゲル管は適さない。
-  _review: true
+  review_note: 二硫化炭素はシリカゲル管などで捕集する、と説明しています。捕集方法を確認中です。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
@@ -267,13 +293,15 @@ questions:
   - 粒径が 1 µm より大きな粒子では、慣性、重力及びさえぎり効果が有効であり、粒径が大きいほど捕集率は上昇する。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '多孔状フィルター（メンブランフィルター）のポアサイズは、孔の大きさの目安で、捕集できる粒子の大きさの下限を示すものではありません。拡散や慣性衝突などの作用で、ポアサイズより小さな粒子も捕集されます。選択肢2は誤りです。
+
+
+    令和5年度第2回でも、ポアサイズは捕集できる粒子の大きさを表すものではない、という同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 多孔状フィルターのポアサイズは、捕集できる粒子の大きさの下限を示すものである。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
@@ -289,13 +317,15 @@ questions:
   - セロソルブ類やケトン類を直接捕集する場合には、捕集袋を用いる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '液体捕集法では、測定対象物質を溶かすだけでなく、反応させて捕らえる捕集液もよく用います（たとえば、フッ化水素やシアン化水素を水酸化ナトリウム溶液で捕らえる）。「測定対象物質と反応しない捕集液を用いる」とする選択肢1は誤りです。
+
+
+    反応させることで、物質を捕集液の中に確実にとどめ、その後の分析もしやすくなります。'
   figures: []
   law_note: null
   _key_choice: 液体捕集では、測定対象物質と反応しない捕集液を用いる。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -311,13 +341,15 @@ questions:
   - 粉じんの発生源の近くでは質量濃度変換係数の値は大きく、発生源から離れるに従ってその値は小さくなる傾向がある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '相対濃度計の感度合わせに使う標準散乱板の値は、同じ型式であっても**機器ごとに**定められています。同じ型式なら同じ値とする選択肢1は誤りです。
+
+
+    標準散乱板の値は、その機器の感度を校正したときの値なので、機器ごとに違います。相対濃度計を使うときは、その機器に付いた値で感度を合わせます。'
   figures: []
   law_note: null
   _key_choice: 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -333,13 +365,16 @@ questions:
   - 個人サンプリング法による C 測定では、妨害物質の有無にかかわらず、検知管を使用することはできない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '個人サンプリング法による C 測定でも、作業環境測定基準で認められた物質については、検知管方式を用いることができます。「妨害物質の有無にかかわらず検知管を使用できない」とする選択肢5は誤りです。
+
+
+    検知管には、電動ポンプで連続して試料空気を吸引する連続吸引式のものもあります。'
   figures: []
   law_note: null
   _key_choice: 個人サンプリング法によるC測定では、妨害物質の有無にかかわらず、検知管を使用することはできない。
-  _review: true
+  review_note: 個人サンプリング法の C 測定でも検知管を使える場合がある、と説明しています。作業環境測定基準の規定を確認中です。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   traps:
@@ -355,16 +390,18 @@ questions:
   - トリチウム化水蒸気 ／ 液体捕集法
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '放射性タリウムは、粒子として空気中に存在するので、**ろ過捕集法**で捕集します。固体捕集法との組合せは不適当なので、答えは（4）です。
+
+
+    放射性クリプトンのような希ガスは直接捕集法、トリチウム化水蒸気は液体捕集法、ガリウム・セシウムのような金属の放射性物質はろ過捕集法、という組合せは適切です。'
   figures: []
   law_note: null
   _key_choice: 放射性タリウム固体捕集法
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   - units
@@ -381,13 +418,24 @@ questions:
   - 108 時間
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '測りたい濃度の試料を採取したとき、計数率が検出下限計数率に届くまでの時間を求めます。
+
+
+    測りたい濃度 ＝ 2.0 × 10⁻⁵ ÷ 10 ＝ 2.0 × 10⁻⁶ Bq/cm³、吸引流量 ＝ 60 L/min ＝ 1,000 cm³/s
+
+
+    計数率 ＝ 2.0 × 10⁻⁶ × 1,000 × t × 0.90 × 0.30 ＝ 5.4 × 10⁻⁴ × t
+
+
+    t ＝ 3.5 ÷ (5.4 × 10⁻⁴) ≒ 6,500 秒 ≒ 108 分
+
+
+    よって（3）が正しい値です。秒を分に直すところで、時間と取り違えないようにしましょう。'
   figures: []
   law_note: null
   _key_choice: 108分
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -404,13 +452,15 @@ questions:
   - 横軸を変数の対数変換値とし、縦軸を確率密度とすると、対数正規分布の曲線の形は、幾何平均の対数変換値を中心として左右対称になる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '正規分布で、μ − 2σ から μ ＋ 2σ の範囲に入る確率は、およそ **95 ％**です。約68 ％になるのは μ − σ から μ ＋ σ の範囲なので、選択肢2は誤りです。
+
+
+    「±1σ で約68％、±2σ で約95％、上側5％点は ＋1.645σ」の3つを、セットで覚えておきましょう。'
   figures: []
   law_note: null
   _key_choice: 正規分布の算術平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ-2σからμ+2σの範囲に入る確率は、およそ68%である。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-workplaces
   traps:
@@ -420,22 +470,24 @@ questions:
   stem: 作業環境測定において測定すべき事項Ⓐと、その測定点の床面からの高さⒷとの次の組合せのうち、誤っているものはどれか。
   choices:
   - 有機溶剤の濃度 ／ 50 cm ～ 150 cm
-  - 酸素欠乏危険場所における酸素及び硫化 ／ 50 cm ～ 150 cm水素の濃度
+  - 酸素欠乏危険場所における酸素及び硫化水素の濃度 ／ 50 cm ～ 150 cm
   - 暑熱の屋内作業場における気温及び湿度 ／ 50 cm ～ 150 cm
-  - 中央管理方式の空気調和設備を設けてい ／ 75 cm ～ 120 cmる建築物の室における一酸化炭素の含有率
-  - 著しい騒音を発する屋内作業場における ／ 120 cm ～ 150 cm等価騒音レベル
+  - 中央管理方式の空気調和設備を設けている建築物の室における一酸化炭素の含有率 ／ 75 cm ～ 120 cm
+  - 著しい騒音を発する屋内作業場における等価騒音レベル ／ 120 cm ～ 150 cm
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '酸素欠乏危険場所の酸素・硫化水素の濃度の測定点は、作業場の空気中の濃度の分布を知るために適当な位置（たとえば、上・中・下の高さ）に5以上とするもので、床上 50〜150 cm に限るものではありません。選択肢2は誤りです。
+
+
+    酸素欠乏の空気や硫化水素は、場所によって濃度が大きく違い、特に低いところにたまりやすいので、高さを変えて測ります。有機溶剤と暑熱は 50〜150 cm、事務所の一酸化炭素は 75〜120 cm、騒音は 120〜150 cm です。'
   figures: []
   law_note: null
   _key_choice: 酸素欠乏危険場所における酸素及び硫化50cm~150cm水素の濃度
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
@@ -451,8 +503,10 @@ questions:
   - 同じ単位作業場所について、1日測定で第2管理区分となっても、2日間測定では第1管理区分になることがある。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'C 測定と D 測定を行った場合、D 測定の測定値が管理濃度の **1.5倍**を超えれば、C 測定の結果にかかわらず第3管理区分になります。D 測定値が管理濃度を超えただけでは、第3管理区分になるとは限らないので、選択肢4は誤りです。
+
+
+    C・D 測定の管理区分の決め方は、A・B 測定と同じ形です。D 測定値は B 測定値と同じく、管理濃度と1.5倍の2つの境目で判断します。'
   figures: []
   law_note: null
   _key_choice: C測定及びD測定が行われた場合、D測定の測定値が、管理濃度を超えていれば、C測定の結果にかかわらず、第3管理区分となる。
-  _review: true

@@ -1,10 +1,10 @@
 exam: 2021-02
 date: null
 subject: hourei
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - law-system
   traps:
@@ -20,13 +20,15 @@ questions:
   - 事業者は、常時50人以上の労働者を使用する事業場においては、その業種に応じて、衛生委員会又は安全衛生委員会を設けなければならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '総括安全衛生管理者には、その事業場で事業の実施を統括管理する者（工場長など）を充てなければなりません。「これに準ずる者」を充てることはできないので、選択肢2は誤りです。
+
+
+    「これに準ずる者」が出てくるのは、衛生委員会の議長（総括安全衛生管理者、または事業の実施を統括管理する者もしくはこれに準ずる者から指名）の規定です。'
   figures: []
   law_note: null
   _key_choice: 事業者は、総括安全衛生管理者には、当該事業場においてその事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -42,13 +44,15 @@ questions:
   - 常時50人以上の労働者を使用する事業者は、雇入時の健康診断を行ったときは、遅滞なく、雇入時の健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '雇入時の健康診断の結果は、労働者数にかかわらず、所轄労働基準監督署長に報告する必要はありません。選択肢5は誤りです。
+
+
+    この論点は、令和5年度第2回・令和6年度第1回でも出題されている定番の罠です。'
   figures: []
   law_note: null
   _key_choice: 常時50人以上の労働者を使用する事業者は、雇入時の健康診断を行ったときは、遅滞なく、雇入時の健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。法
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -64,13 +68,15 @@ questions:
   - 特定化学物質を取り扱う業務に労働者を就かせるときは、原則として、特別教育を行わなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '特定化学物質を取り扱う業務は、特別教育の対象ではありません。選択肢5は誤りです。
+
+
+    特定化学物質の業務は、技能講習を修了した特定化学物質作業主任者を選任して管理します。酸素欠乏危険作業は特別教育の対象です（選択肢3）。'
   figures: []
   law_note: null
   _key_choice: 特定化学物質を取り扱う業務に労働者を就かせるときは、原則として、特別教育を行わなければならない。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -79,14 +85,17 @@ questions:
   summary: null
   stem: 法令により、定期に作業環境測定を行うべき作業環境測定対象Ⓐ、測定頻度Ⓑ及び記録の保存期間Ⓒの組合せとして、誤っているものはどれか。
   choices:
-  - 空気中の3,3'-ジクロロ-4,4'- ／ 6か月以内ごとに1回 ／ 30年ジアミノジフェニルメタン（MOCA）の濃度
+  - 空気中の3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）の濃度 ／ 6か月以内ごとに1回 ／ 30年
   - 空気中の石綿の濃度 ／ 6か月以内ごとに1回 ／ 40年
   - 空気中の鉛の濃度 ／ 1年以内ごとに1回 ／ 3年
   - 空気中のカドミウムの濃度 ／ 6か月以内ごとに1回 ／ 3年
   - 空気中の粉じんの濃度 ／ 6か月以内ごとに1回 ／ 5年
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '常時特定粉じん作業を行う屋内作業場の粉じんの濃度の測定記録は、**7年間**保存します。5年とする選択肢5は誤りです。
+
+
+    MOCA は特別管理物質で30年、石綿は40年、鉛とカドミウムは3年です。カドミウムは特別管理物質に当たらないことも、あわせて押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: 空気中の粉じんの濃度６か月以内ごとに１回５年
@@ -94,9 +103,8 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -112,13 +120,15 @@ questions:
   - 通気設備が設けられている坑内の作業場については、半月以内ごとに1回、定期に、当該作業場における通気量を測定しなければならない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '中央管理方式の空気調和設備を設けている事務室の空気環境の測定は、**2か月以内ごとに1回**です。1か月以内ごととする選択肢3は誤りです。
+
+
+    令和5年度第2回でも、同じ測定の頻度が出題されています。'
   figures: []
   law_note: null
   _key_choice: 中央管理方式の空気調和設備を設けている建築物の事務室については、原則として、１か月以内ごとに１回、定期に、一酸化炭素及び二酸化炭素の含有率、室温、外気温並びに相
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -135,13 +145,15 @@ questions:
   - ジメチル-2,2-ジクロロビニルホスフェイト（DDVP）
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ベリリウム化合物（ベリリウム及びその化合物）は特定化学物質の**第1類物質**で、製造には厚生労働大臣の許可が必要です。よって答えは（3）です。
+
+
+    インジウム化合物、アルキル水銀化合物、クロロメチルメチルエーテル、DDVP は、いずれも第2類物質で、製造の許可は必要ありません。第1類物質は、ジクロルベンジジン、α-ナフチルアミン、オルト-トリジン、ジアニシジン、ベリリウム、ベンゾトリクロリド、PCB などです。'
   figures: []
   law_note: null
   _key_choice: ベリリウム化合物
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -157,13 +169,12 @@ questions:
   - ろ過材及び面体を有する防じんマスク
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 規格を備えなければ譲渡・貸与してはならない防毒マスクは、ハロゲンガス用、有機ガス用、一酸化炭素用、アンモニア用、亜硫酸ガス用の5種類です。硫化水素用防毒マスクは含まれないので、答えは（4）です。
   figures: []
   law_note: null
   _key_choice: 硫化水素用防毒マスク
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   traps:
@@ -179,13 +190,15 @@ questions:
   - 第1種作業環境測定士は、登録を受けた作業場の種類以外の指定作業場についても、デザイン及びサンプリングの業務を行うことができる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '管理区域の外部放射線による線量当量率などの測定は、指定作業場の作業環境測定ではないので、作業環境測定士に行わせなければならないものではありません。選択肢2は誤りです。
+
+
+    令和5年度第2回でも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 事業者は、放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   - a-b-measurement
@@ -202,13 +215,16 @@ questions:
   - ろ過捕集方法に用いるろ過材は、0.3 μm の粒子を 95 % 以上捕集する性能を有するものに限られる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '鉱物性粉じんの濃度の測定で相対濃度指示方法を用いるときは、原則として、ろ過捕集方法と重量分析方法による併行測定を行って質量濃度変換係数を求めます。単位作業場所が著しく狭く濃度がほぼ均一であれば相対濃度指示方法のみの測定が認められる、という定めではないので、選択肢2は誤りです。
+
+
+    「著しく狭く、かつ濃度がほぼ均一」は、A 測定の測定点を5未満にできる条件です。別の規定の条件を組み合わせた誤りです。'
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
-  _review: true
+  review_note: 相対濃度指示方法のみによる測定の可否についての説明です。作業環境測定基準の規定を確認中です。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
@@ -224,13 +240,15 @@ questions:
   - 測定値が管理濃度の10分の1に満たない測定点がある単位作業場所にあっては、管理濃度の10分の1を当該測定点における測定値とみなして、管理区分の区分を行うことができる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'A 測定と B 測定を行った場合、B 測定値が**管理濃度**の1.5倍を超えれば第3管理区分です。比べる相手は第1評価値ではないので、選択肢3は誤りです。
+
+
+    令和5年度第2回にも、まったく同じ誤りの選択肢があります。'
   figures: []
   law_note: null
   _key_choice: Ａ測定とＢ測定を行った場合、Ｂ測定の測定値がＡ測定の第１評価値の1.5倍を超えている単位作業場所の管理区分は、第３管理区分である。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - law-other
   traps:
@@ -246,13 +264,15 @@ questions:
   - 労働者を常時就業させる屋内作業場の気温が 10 ℃ 以下であるときは、換気に際し、労働者を 1 m/s 以上の気流にさらしてはならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '強烈な騒音を発する場所については、標識によってその旨を明示する等の措置を講じることとされていますが、関係者以外の立入禁止までは定められていません。選択肢4は誤りです。
+
+
+    立入禁止が定められているのは、硫化水素 10 ppm 超、酸素 18 ％ 未満、炭酸ガス 1.5 ％ 超、多量の高熱物体を取り扱う場所などです（選択肢1）。'
   figures: []
   law_note: null
   _key_choice: 強烈な騒音を発する場所には、関係者以外の者が立ち入ることを禁止しなければならない。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -269,13 +289,15 @@ questions:
   - シアン化水素は、第2類物質である。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ホスゲンは、特定化学物質の**第3類物質**です。第2類物質とする選択肢3は誤りです。
+
+
+    第3類物質は、大量に漏えいしたときの急性中毒が問題になる物質で、アンモニア、一酸化炭素、塩化水素、硝酸、二酸化硫黄、ホスゲン、硫酸などがあります。令和5年度第1回でも、ホスゲンが第3類物質として出題されています。'
   figures: []
   law_note: null
   _key_choice: ホスゲンは、第２類物質である。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -291,13 +313,15 @@ questions:
   - 第2類物質であるマンガンを取り扱う屋内作業場については、6か月以内ごとに1回、定期に、マンガンの空気中における濃度を測定しなければならない。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '特定化学物質作業主任者の選任は、第3類物質を含めて特定化学物質を製造し、または取り扱う作業で必要です。アンモニアを取り扱う作業についても作業主任者を選任しなければならないので、選択肢1は誤りです。
+
+
+    第3類物質は、作業環境測定や特殊健康診断の対象にはなりませんが、作業主任者の選任は必要です。規定ごとの第3類物質の扱いを区別して覚えましょう。'
   figures: []
   law_note: null
   _key_choice: 第３類物質であるアンモニアを取り扱う作業については、作業主任者を選任する必要はない。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -314,13 +338,15 @@ questions:
   - 有機溶剤等を入れたことのあるタンクで有機溶剤の蒸気が発散するおそれのあるものの内部における業務に労働者を従事させるときは、当該労働者に送気マスクを使用させなければならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '屋内作業場で第2種有機溶剤等を用いる洗浄の業務では、発散源を密閉する設備、局所排気装置またはプッシュプル型換気装置を設けなければなりません。全体換気装置で足りるとする選択肢4は誤りです。
+
+
+    全体換気装置で足りるのは、第3種有機溶剤等をタンク等の内部で用いる一部の業務などに限られます。'
   figures: []
   law_note: null
   _key_choice: 屋内作業場において、第２種有機溶剤等を用いる洗浄の業務に労働者を従事させるときは、当該業務を行う作業場所に、全体換気装置を設けなければならない。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - law-radiation
   traps:
@@ -336,13 +362,15 @@ questions:
   - 放射線業務に常時従事する労働者で管理区域に立ち入るものに対し、雇入れ又は当該業務に配置替えの際及びその後6か月以内ごとに1回、定期に、法定の項目について医師による健康診断を行わなければならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '管理区域内で受ける外部・内部被ばくによる線量の測定は、放射線業務従事者だけでなく、放射線業務以外の業務のため管理区域に一時的に立ち入る労働者についても行わなければなりません。一時的に立ち入る労働者を除くとする選択肢2は誤りです。
+
+
+    令和5年度第1回でも、一時的に立ち入る労働者も線量の測定は必要（健康診断は不要）、という形で出題されています。'
   figures: []
   law_note: null
   _key_choice: 放射線業務以外の業務のため管理区域に一時的に立ち入る労働者を除き、管理区域内において受ける外部及び内部被ばくによる線量を測定しなければならない。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -358,13 +386,15 @@ questions:
   - 土石、岩石又は鉱物に係る特定粉じん作業が常時行われる屋内作業場について粉じん濃度の測定を行うときは、原則として、当該粉じん中の遊離けい酸の含有率を測定しなければならない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '特定粉じん作業には、作業主任者の選任は定められていません。選択肢3は誤りです。
+
+
+    粉じん作業は「作業主任者なし・特別教育あり」です。この論点は、令和5年度第2回でも出題されています。'
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業に該当する作業については、法令に定める技能講習を修了した者のうちから、作業主任者を選任しなければならない。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - law-other
   - other-workplaces
@@ -381,13 +411,15 @@ questions:
   - 中央管理方式の空気調和設備を設けている場合は、室に供給される空気中の浮遊粉じんの量（1気圧、 25 ℃ とした場合の空気 1 m³ 中に含まれる浮遊粉じんの重量）を、0.15 mg 以下としなければならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '事務所衛生基準規則で、室の二酸化炭素の含有率は **5,000 ppm 以下**としなければなりません。1,000 ppm 以下は、空気調和設備を設けた場合に、室に供給される空気について努める値です。選択肢2は誤りです。
+
+
+    一酸化炭素は 50 ppm 以下、二酸化炭素は 5,000 ppm 以下、が事務室の基準です。空気調和設備の調整の目標（二酸化炭素 1,000 ppm 以下、一酸化炭素 10 ppm 以下）と区別しましょう。'
   figures: []
   law_note: null
   _key_choice: 室における二酸化炭素の含有率（１気圧、25℃とした場合の空気中に占める二酸化炭素の容積の割合）を1,000ppm以下としなければならない。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - law-other
   - oxygen-deficiency
@@ -404,13 +436,15 @@ questions:
   - 硫化水素中毒とは、硫化水素の濃度が 10 ppm を超える空気を吸入することにより生ずる症状が認められる状態をいう。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '相当期間密閉されていた鋼製のボイラーやタンクなど、内壁が酸化されやすい施設の内部は、鉄の錆びによって酸素が消費されるため、酸素欠乏の危険がある場所ですが、硫化水素の危険はありません。**第1種**酸素欠乏危険作業なので、第2種とする選択肢2は誤りです。
+
+
+    海水が滞留しているピットの内部は、硫化水素の危険もあるので第2種です（選択肢4）。'
   figures: []
   law_note: null
   _key_choice: 相当期間密閉されていた鋼製のボイラー、タンクその他その内壁が酸化されやすい施設の内部における作業は、第２種酸素欠乏危険作業である。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - law-dust
   - ventilation
@@ -427,13 +461,16 @@ questions:
   - 法令に基づき局所排気装置に設ける除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '鉛中毒予防規則に基づいて局所排気装置に設ける除じん装置は、粉じんの種類に応じて、ヒュームはろ過除じん方式など、それ以外の粉じんはサイクロン以上の性能をもつ方式などとされています。全ての粉じんについてサイクロンによる方式で足りるとする選択肢5は誤りです。
+
+
+    細かいヒュームは、サイクロンでは十分に除けません。粉じん則や石綿則の除じん装置の規定と同じ考え方です。'
   figures: []
   law_note: null
   _key_choice: 法令に基づき局所排気装置に設ける除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
-  _review: true
+  review_note: 鉛則の除じん装置の方式（ヒュームはろ過除じん方式など）の説明です。条文を確認中です。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - law-dust
   traps:
@@ -449,8 +486,10 @@ questions:
   - 高気圧障害とは、高気圧による減圧症、酸素、窒素又は炭酸ガスによる中毒その他の高気圧による健康障害をいう。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'じん肺管理区分のうち、療養を要するとされているのは**管理4**です。管理3 は療養を要する区分ではないので、選択肢2は誤りです。
+
+
+    管理2・管理3の労働者には、1年以内ごとにじん肺健康診断を行います（選択肢1）。管理3には、作業の転換などの措置が定められています。'
   figures: []
   law_note: null
   _key_choice: じん肺管理区分が管理３又は管理４と決定された者は、療養を要する。
-  _review: true

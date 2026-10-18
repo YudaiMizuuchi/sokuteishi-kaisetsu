@@ -1,10 +1,10 @@
 exam: 2024-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -20,7 +20,10 @@ questions:
   - 気体定数 ／ J･K⁻¹･mol⁻¹
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '圧力の SI 単位は Pa（パスカル）で、N・m⁻²（1 m² あたりの力）です。N・m⁻³ とする選択肢4は誤りです。
+
+
+    圧力は「力 ÷ 面積」なので、面積の m² で割ります。m³ で割ると、体積あたりの量になってしまいます。'
   figures: []
   law_note: null
   _key_choice: 圧力N･m-３
@@ -28,9 +31,8 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -49,16 +51,22 @@ questions:
   - 249.6786 g･mol⁻¹
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '原子量を足し合わせるときは、足し算の有効数字のルール（小数点以下の桁数が最も少ないものに合わせる）を使います。
+
+
+    63.546 ＋ 32.059 ＋ 15.9994 × 9 ＋ 1.0079 × 10 ＝ 63.546 ＋ 32.059 ＋ 143.9946 ＋ 10.079 ＝ 249.6786
+
+
+    小数点以下の桁数が最も少ないのは、63.546、32.059、10.079 の3桁なので、結果も小数点以下3桁に丸めて **249.679 g/mol** です。よって（4）が正しいものです。
+
+
+    掛け算・割り算は「有効数字の桁数」、足し算・引き算は「小数点以下の桁数」で合わせる、と区別して覚えましょう。'
   figures: []
   law_note: null
   _key_choice: ･5H
   _stem_head: CuSO
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.00）
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -74,14 +82,16 @@ questions:
   - キノンはフェノールの酸化で得られる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ジメチルエーテルは、メタノール2分子から水がとれる脱水反応などで得られる物質で、酢酸を酸化して得られるものではありません。選択肢4は誤りです。
+
+
+    アルコールを酸化すると、第一級アルコールはアルデヒド → カルボン酸に、第二級アルコール（イソプロピルアルコール）はケトン（アセトン）になります。酢酸はエタノールの酸化の行き着く先で、さらに酸化してもエーテルにはなりません。'
   figures: []
   law_note: null
   _key_choice: ジメチルエーテルは酢酸の酸化で得られる。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   - reaction
@@ -98,14 +108,16 @@ questions:
   - 2.0 気圧
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '炭素の燃焼 C ＋ O₂ → CO₂ では、酸素 1 mol から二酸化炭素 1 mol ができるので、気体の物質量は変わりません。温度が 25℃ に戻れば、圧力も燃焼前と同じ 1.0 気圧です。よって（3）が正しい値です。
+
+
+    容器の容積（2.0 L）は答えに関係しません。令和7年度第2回では 5.0 L の容器で、同じ問題が出題されています。'
   figures: []
   law_note: null
   _key_choice: 1.0気圧
   _stem_head: 容積2.0Lの密閉容器に炭素と、温度25℃で圧力1.0気圧の酸素を封入してから燃焼させ、酸素をすべて二酸化炭素へ変換した。燃焼後の容器内の温
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -125,14 +137,22 @@ questions:
   - '280'
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '水に残った A は 50 − 45 ＝ 5 mg です。
+
+
+    [A]ヘキサン ＝ 45 mg ÷ 10 mL ＝ 4.5 mg/mL、[A]水 ＝ 5 mg ÷ 200 mL ＝ 0.025 mg/mL
+
+
+    分配係数 ＝ 4.5 ÷ 0.025 ＝ 180
+
+
+    よって（3）が正しい値です。体積の違いを入れて、濃度の比で計算するのがポイントです。'
   figures: []
   law_note: null
   _key_choice: '180'
   _stem_head: 有機化合物Aを50mg含む水溶液200mLにヘキサン10mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は45mgであった。有機
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -149,14 +169,25 @@ questions:
   - 11.0 ％
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '薄めても、溶質（塩化水素）の質量は変わりません。
+
+
+    20.0 ％ 塩酸 100 mL の質量 ＝ 100 × 1.10 ＝ 110 g、その中の塩化水素 ＝ 110 × 0.200 ＝ 22.0 g
+
+
+    加えた精製水 ＝ 100 g なので、希釈後の溶液 ＝ 210 g
+
+
+    質量パーセント濃度 ＝ 22.0 ÷ 210 × 100 ≒ 10.5 ％
+
+
+    よって（3）が正しい値です。体積の比で単純に半分（10.0 ％）とすると誤ります。'
   figures: []
   law_note: null
   _key_choice: 10.5％
   _stem_head: 質量パーセント濃度が20.0％の塩酸（密度1.10g･cm-３）100mLに、精製水（密度1.00g･cm-３）100mLを加え、希釈した。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -172,14 +203,16 @@ questions:
   - マイクロシリンジは、体積計としての基準はなく、その精度はメーカーが独自に制定したものである。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'メスフラスコは、標線まで入れたときの**中身の体積**が正しくなるように作られた「受用」の体積計です。容量の検定は、標線まで入れた水の質量と温度から行い、排出した水で量るものではないので、選択肢3は誤りです。
+
+
+    排出した量が正しくなるように作られた「出用」の体積計は、ホールピペットやビュレットです。メスフラスコとピペットでは、量る体積の意味が違います。'
   figures: []
   law_note: null
   _key_choice: メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   - gas
@@ -196,14 +229,22 @@ questions:
   - 6.0 mg
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '10 ppm の標準ガス 100 L に含まれるメチルエチルケトンの蒸気は、100 L × 10 × 10⁻⁶ ＝ 1.0 × 10⁻³ L です。
+
+
+    物質量 ＝ 1.0 × 10⁻³ L ÷ 24.45 L/mol ≒ 4.09 × 10⁻⁵ mol
+
+
+    質量 ＝ 4.09 × 10⁻⁵ mol × 72 g/mol ≒ 2.9 × 10⁻³ g ≒ 3.0 mg
+
+
+    よって、最も近いのは（4）です。'
   figures: []
   law_note: null
   _key_choice: 3.0mg
   _stem_head: 液体のメチルエチルケトンを捕集袋内の清浄空気中で完全に気化させ、10ppmの標準ガス100Lを調製するとき、必要なメチルエチルケトンの質量に
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -219,14 +260,16 @@ questions:
   - 酸類と塩基類は、災害時の危険を避けるために別々の場所に保管する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '一次標準物質は、純度が高く正確に分かっている物質で、滴定でほかの溶液の濃度を決める基準になるものです。一次標準物質の純度を滴定で規定しなければならないわけではないので、選択肢3は誤りです。
+
+
+    令和5年度第1回でも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 一次標準物質は、滴定により純度を規定する必要がある。
   _stem_head: 分析に用いる試薬及びその取扱に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -242,7 +285,10 @@ questions:
   - 多元素の同時測定 ／ 可能
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ICP 発光分析法で、アルカリ金属などのイオン化しやすい元素が共存することで起こるイオン化干渉は、プラズマの中心部の光を長い光路で取り込む**軸方向観測**の方が影響を受けやすいとされています。横方向観測の方が影響が大きいとする選択肢2は誤りです。
+
+
+    軸方向観測は感度が高い代わりに干渉を受けやすく、横方向観測は感度は下がるが干渉が少ない、という関係です。令和5年度第2回の解説とあわせて押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: イオン化干渉軸方向観察に比べ横方向観察の方が、より影響が大きい
@@ -250,9 +296,9 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
+  review_note: ICP-AES のイオン化干渉は軸方向観測の方が影響を受けやすい、と説明しています。確認中です。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -268,16 +314,22 @@ questions:
   - 6.35 mg
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '硫酸銅の物質量を求め、銅の原子量を掛けます。
+
+
+    1.00 × 10⁻⁴ mol/L × 1.00 × 10⁻³ L ＝ 1.00 × 10⁻⁷ mol
+
+
+    銅の質量 ＝ 1.00 × 10⁻⁷ mol × 63.5 g/mol ＝ 6.35 × 10⁻⁶ g ＝ 6.35 × 10⁻³ mg
+
+
+    よって（2）が正しい値です。g と mg の換算（× 1,000）を忘れないようにしましょう。'
   figures: []
   law_note: null
   _key_choice: O）を水に溶解して、硫酸銅の濃度1.00×10-４mol･L-１の水溶液を調製した。この水溶液1.00mLに含まれる銅の質量として正しい値は次のうちどれか。ただし、銅の原子量は63
   _stem_head: 硫酸銅五水和物（CuSO
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.09）
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -294,14 +346,16 @@ questions:
   - 過マンガン酸カリウム溶液の標定には、シュウ酸ナトリウムが用いられる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '水酸化ナトリウム溶液の標定には、フタル酸水素カリウムやアミド硫酸を用います。硝酸カリウムは標定には使わないので、選択肢3は誤りです。
+
+
+    標定する溶液と標準物質の組合せは、毎回のように出題されます。塩酸には炭酸ナトリウム、硝酸銀には塩化ナトリウム、過マンガン酸カリウムにはシュウ酸ナトリウムです。'
   figures: []
   law_note: null
   _key_choice: 水酸化ナトリウム溶液の標定には、硝酸カリウムが用いられる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
@@ -317,14 +371,16 @@ questions:
   - 吸収極大波長は、溶媒の種類を変えても変化しない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '吸収極大波長は、溶媒の種類によって変化することがあります。溶媒が変わると、物質のまわりの環境が変わり、吸収のしかたも変わるためです。「変化しない」とする選択肢5は誤りです。
+
+
+    吸光光度分析で検量線を作るときに、試料と標準溶液の溶媒をそろえるのは、このためです。'
   figures: []
   law_note: null
   _key_choice: 吸収極大波長は、溶媒の種類を変えても変化しない。
   _stem_head: 吸光光度分析法における測定対象物質の光吸収に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -341,14 +397,22 @@ questions:
   - 360 µg
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則 A ＝ ε × c × l から濃度を求め、質量に直します。
+
+
+    c ＝ 0.480 ÷ (1.2 × 10⁴ × 2.0) ＝ 2.0 × 10⁻⁵ mol/L
+
+
+    物質量 ＝ 2.0 × 10⁻⁵ × 0.100 L ＝ 2.0 × 10⁻⁶ mol、質量 ＝ 2.0 × 10⁻⁶ × 60 ＝ 1.2 × 10⁻⁴ g ＝ 120 µg
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 120µg
   _stem_head: モル質量が60g･mol-１の物質Aの溶液が100mLある。この溶液の一部を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -364,14 +428,16 @@ questions:
   - 定量は、検量線法により行う。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は、入射光と透過光の強さの比から求める値なので、光源光の強さには比例しません。選択肢3は誤りです。
+
+
+    令和5年度第2回でも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 吸光度は、光源光の強度に比例する。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -387,14 +453,16 @@ questions:
   - 検出器として光電子増倍管が用いられる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '分光蛍光光度計の光源には、紫外から可視まで強い連続光を出す**キセノンランプ**が用いられます。タングステンランプとする選択肢1は誤りです。
+
+
+    タングステンランプは可視部の吸光光度計の光源です。蛍光分析では、励起に紫外光が必要なことが多いため、キセノンランプを使います。'
   figures: []
   law_note: null
   _key_choice: 光源にはタングステンランプが用いられる。
   _stem_head: 分光蛍光光度計に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -410,14 +478,16 @@ questions:
   - 無極性液相では、無極性化合物は一般に沸点の低い順に溶出する。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '理論段数は、カラムの長さを理論段相当高さで割ったものなので、理論段相当高さが**高い**ほど、理論段数は**小さく**なります。「理論段相当高さが高いほど理論段数は大きくなる」とする選択肢1は誤りです。
+
+
+    理論段相当高さは「1段あたりの長さ」です。1段が長いほど、同じ長さのカラムに入る段の数は少なくなり、分離の効率は下がります。'
   figures: []
   law_note: null
   _key_choice: 理論段相当高さが高いほど理論段数は大きくなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法に用いられるカラムに関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -433,7 +503,10 @@ questions:
   - 熱イオン化検出器（TID，FTD） ／ 有機リン化合物
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '炎光光度検出器（FPD）は、硫黄やリンを含む化合物が出す特有の発光を測る検出器で、飽和炭化水素の検出には適しません。（2）が不適切です。
+
+
+    FPD は「硫黄・リン」、ECD は「ハロゲン」、TID は「窒素・リン」、PID は「芳香族・不飽和」、FID は「炭化水素全般」と覚えましょう。'
   figures: []
   law_note: null
   _key_choice: 炎光光度検出器（FPD）飽和炭化水素化合物
@@ -441,16 +514,15 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-02
   rank: null
   summary: null
-  stem: X 線回折分析法に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「X 線回折分析法では、X 線管から生じる［㋑］を利用する。［㋑］にはK 線や K 線など波長の異なる X 線が混在しているため、金属薄膜を用いα βた除去フィルターやブラッグ反射角の差異を利用した［㋺］により選択したX 線を試料に照射する。試料から回折した X 線の回折角を［㋩］で測定し、ブラッグの法則を用いて試料の格子面間隔を求める。」
+  stem: X 線回折分析法に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「X 線回折分析法では、X 線管から生じる［㋑］を利用する。［㋑］にはKα 線や Kβ 線など波長の異なる X 線が混在しているため、金属薄膜を用いた除去フィルターやブラッグ反射角の差異を利用した［㋺］により選択したX 線を試料に照射する。試料から回折した X 線の回折角を［㋩］で測定し、ブラッグの法則を用いて試料の格子面間隔を求める。」
   choices:
   - 特性 X 線 ／ モノクロメーター ／ コリメーター
   - 特性 X 線 ／ モノクロメーター ／ ゴニオメーター
@@ -459,7 +531,10 @@ questions:
   - 連続 X 線 ／ ポリクロメーター ／ コリメーター
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法では、X 線管から出る**特性 X 線**を使います。特性 X 線には Kα 線や Kβ 線など波長の違う X 線が混ざっているので、金属薄膜のフィルターや**モノクロメーター**で1つの波長の X 線を選び、試料に当てます。回折した X 線の角度は**ゴニオメーター**で測ります。よって（2）が正しい組合せです。
+
+
+    コリメーターは X 線の束を細く絞る部品、ポリクロメーターは複数の波長を同時に分ける分光器です。'
   figures: []
   law_note: null
   _key_choice: 特性X線モノクロメーターゴニオメーター
@@ -468,9 +543,8 @@ questions:
   - ㋑
   - ㋺
   - ㋩
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   - logarithm
@@ -487,9 +561,14 @@ questions:
   - 250 Bq
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '半減期の何倍の時間がたったかを考えます。6年は半減期12年のちょうど半分なので、
+
+
+    放射能 ＝ 1000 × (1/2)^(6/12) ＝ 1000 × 1/√2 ≒ 707 Bq
+
+
+    よって、最も近いのは（2）の 700 Bq です。半分の時間で半分（500 Bq）になるわけではない点が罠です。'
   figures: []
   law_note: null
   _key_choice: 700Bq
   _stem_head: 半減期12年の放射性核種の放射能が1000Bqであるとき、６年後の放射能として正しい値に最も近いものは次のうちどれか。
-  _review: true
