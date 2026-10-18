@@ -310,6 +310,8 @@ for subj, fname in SUBJECT_FILES.items():
             "reason": clean(r.get("なぜそうなるか（理由）")),
             "confidence": conf,
             "verify": bool(conf and "要確認" in conf),
+            # 確度に「非公開」と書いた罠の型は、サイトに出さない（誤りに気づいたときの一時停止用）
+            "hidden": bool(conf and "非公開" in conf),
         }
         if subj == "bunseki":
             trap["calculation"] = clean(r["計算"]) == "○"

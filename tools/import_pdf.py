@@ -159,7 +159,7 @@ def build_lines(page, pno):
 
 NOISE = [
     re.compile(r"^[0-9０-９\s]{6,}$"),  # 右上の試験コード
-    re.compile(r"^(分析|ﾃﾞｻﾞｲﾝ|デザイン|一般|法令|有機|粉じん|特化|金属|放射).{0,6}\d+\s*/\s*\d+$"),
+    re.compile(r"^(分析|ﾃﾞｻﾞｲﾝ|デザイン|衛生|一般|法令|有機|粉じん|特化|金属|放射).{0,6}\d+\s*/\s*\d+$"),
     re.compile(r"^（\s*終\s*り\s*）$"),
 ]
 
@@ -383,8 +383,8 @@ def save_crop(pg, box, path, pad=6):
     bbox = (max(0, box[0] - pad), max(0, box[1] - pad), min(page.width, box[2] + pad), min(page.height, box[3] + pad))
     im = page.crop(bbox).to_image(resolution=200)
     for m in pg["marks"]:  # ○印（正答）を白で消す
-        if m[0] >= bbox[0] - 2 and m[2] <= bbox[2] + 2 and m[1] >= bbox[1] - 2 and m[3] <= bbox[3] + 2:
-            im.draw_rect((m[0] - 1, m[1] - 1, m[2] + 1, m[3] + 1), fill=(255, 255, 255), stroke=(255, 255, 255), stroke_width=0)
+        if m[2] > bbox[0] and m[0] < bbox[2] and m[3] > bbox[1] and m[1] < bbox[3]:  # 一部でも入っていれば消す
+            im.draw_rect((max(m[0] - 1, bbox[0]), max(m[1] - 1, bbox[1]), min(m[2] + 1, bbox[2]), min(m[3] + 1, bbox[3])), fill=(255, 255, 255), stroke=(255, 255, 255), stroke_width=0)
     path.parent.mkdir(parents=True, exist_ok=True)
     im.save(path, format="PNG")
 

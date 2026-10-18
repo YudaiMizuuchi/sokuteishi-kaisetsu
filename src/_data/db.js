@@ -54,8 +54,8 @@ const traps = book.traps.map((t) => {
     ...t,
     // 「その他（単発）」は寄せ集めなので、独立したページを作らない
     misc: t.name.includes("その他"),
-    // 「その他（単発）」と、裏取り前（verify: true）の罠の型はページを作らない
-    url: t.name.includes("その他") || t.verify ? null : `/trap/${t.id}/`,
+    // 「その他（単発）」と、非公開にした（hidden: true）罠の型はページを作らない
+    url: t.name.includes("その他") || t.hidden ? null : `/trap/${t.id}/`,
     chapterLabel: chapterById[t.chapter] ? chapterLabel(chapterById[t.chapter]) : "",
     chapterUrl: `/chapter/${t.chapter}/`,
     subjectName: subjectById[t.subject]?.name,
@@ -187,7 +187,7 @@ const listItem = (q) => ({
   id: q.id, url: q.url, exam: q.exam.key, examLabel: q.exam.label, held: q.exam.held,
   subject: q.subject, subjectName: q.subjectName, num: q.num, rank: q.rank,
   chapters: q.chapters.map((c) => c.id), chapterLabels: q.chapters.map((c) => c.label),
-  traps: q.traps.filter((t) => !t.misc && !t.verify).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
+  traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
   explanationHtml: q.explanationHtml, lawNote: q.lawNote, sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,

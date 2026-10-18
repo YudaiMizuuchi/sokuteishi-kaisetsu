@@ -24,7 +24,7 @@ https://aoi-s-office.jp/sokuteishi/ で公開する前提の Eleventy プロジ�
 4. git push すると Netlify が自動でビルドする
 
 published の問題は、問題文・選択肢・正答・解説がそろっていないとビルドが止まる。
-罠の型の解説は、book.yaml で verify: true（要確認）のもの、「その他（単発）」のものは表示しない。裏取りが済んだら verify を false にする。
+罠の型は、裏取り前（verify: true）でも公開する。誤りに気づいたら、罠の型一覧のExcelで確度に「非公開」と書いて convert_wana.py を実行し直すと、その型はサイトから外れる。問題そのものを外すときは status を draft に戻す。「その他（単発）」の型は表示しない。
 
 ## 既存サイト（aoi-s-office.jp）からの配信
 

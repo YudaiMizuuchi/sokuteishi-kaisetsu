@@ -38,7 +38,7 @@
       {% for n in q.choiceNotes %}<li{% if n.isAnswer %} class="is-answer"{% endif %}><span class="n">({{ loop.index }})</span><span>{{ n.html | safe }}</span></li>{% endfor %}
     </ol>
     {% endif %}
-    {% for t in q.traps %}{% if not t.misc and not t.verify %}
+    {% for t in q.traps %}{% if not t.misc and not t.hidden %}
     <section class="trap">
       <h3>この問題で狙われた罠：{% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>
       {{ t.understandingHtml | safe }}
