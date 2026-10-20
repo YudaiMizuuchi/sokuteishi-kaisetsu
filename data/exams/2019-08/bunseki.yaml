@@ -11,15 +11,24 @@ questions:
   - an-mole-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量及び物理定数Ⓐとその SI 単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 絶対温度（熱力学温度） ／ K
+  - 大気圧 ／ Pa
+  - 気体定数 ／ J･K⁻¹ mol⁻¹
+  - アボガドロ定数 ／ mol
+  - 電気量（電荷） ／ C
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: アボガドロ定数mol
   _stem_head: 物理量及び物理定数ⒶとそのSI単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -28,15 +37,24 @@ questions:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 'CaSO₄･2 H₂O のモル質量を有効数字で表した場合、正しいものは下のうちどれか。ただし、各元素の原子量は次のとおりとする。
+
+
+    Ca 40.08、S 32.06、O 15.9994、H 1.0079'
+  choices:
+  - 172 g･mol⁻¹
+  - 172.2 g･mol⁻¹
+  - 172.17 g･mol⁻¹
+  - 172.168 g･mol⁻¹
+  - 172.1680 g･mol⁻¹
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 172.17g･mol-１
   _stem_head: CaSO
+  _review: true
 - num: 3
   status: draft
   chapters:
@@ -45,15 +63,21 @@ questions:
   - an-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 1 mol の理想気体に関する次の記述のうち、誤っているものはどれか。ただし、温度は絶対温度（熱力学温度）で表している。
+  choices:
+  - 温度が一定の条件で体積を2倍にすると、圧力は1/2倍になる。
+  - 体積が一定の条件で温度を2倍にすると、圧力は2倍になる。
+  - 圧力が一定の条件で温度を2倍にすると、体積は2倍になる。
+  - 温度を2倍にして体積を1/2倍にすると、圧力は4倍になる。
+  - 温度と体積の両方を2倍にすると、圧力は2倍になる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 温度と体積の両方を２倍にすると、圧力は２倍になる。
   _stem_head: null
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -62,15 +86,21 @@ questions:
   - an-organic-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - エタノールは、-OH 基をもっている。
+  - 酢酸は、-COOH 基をもっている。
+  - ベンゼンは、-CH₃ 基をもっている。
+  - アセトンは、 C = O 基をもっている。
+  - アニリンは、-NH₂ 基をもっている。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ベンゼンは、-CH基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -80,15 +110,21 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃塩酸（12 mol･L⁻¹）を水で希釈して pH が 1.0 となる溶液 200 mL をつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 1.2 mL
+  - 1.7 mL
+  - 2.2 mL
+  - 2.7 mL
+  - 3.2 mL
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 1.7mL
   _stem_head: 濃塩酸（12mol･L-１）を水で希釈してpHが1.0となる溶液200mLをつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次の
+  _review: true
 - num: 6
   status: draft
   chapters:
@@ -98,15 +134,21 @@ questions:
   - an-solution-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 質量パーセント濃度 20％の水酸化ナトリウム溶液の密度は 1.20 g･cm⁻³である。この溶液のモル濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を 40.0 g･mol⁻¹ とする。
+  choices:
+  - 2 mol･L⁻¹
+  - 3 mol･L⁻¹
+  - 4 mol･L⁻¹
+  - 5 mol･L⁻¹
+  - 6 mol･L⁻¹
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ６mol･L-１
   _stem_head: 質量パーセント濃度20％の水酸化ナトリウム溶液の密度は1.20g･cm-３である。この溶液のモル濃度として、正しい値は次のうちどれか。ただし
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -115,15 +157,21 @@ questions:
   - an-lab-equipment-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 液体の二酸化炭素が必要な場合は、サイフォン管付き容器を使用する。
+  - ヘリウム用の減圧弁のねじは、左ねじである。
+  - アセチレンの配管には、純度の高い銅管を用いる。
+  - 酸素の容器の塗色は、黒色である。
+  - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らないようにする。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: アセチレンの配管には、純度の高い銅管を用いる。
   _stem_head: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -132,15 +180,21 @@ questions:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 拡散セルは、全体を均一の温度にして使用する。
+  - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない。
+  - 標準ガスの濃度の微調整は、希釈空気の流量を変えるよりも拡散セルの温度を変える方が、短時間で行うことができる。
+  - 標準ガスの濃度は、拡散セルの温度が高いほど高くなる。
+  - 標準ガスの濃度は、拡散セルの拡散チューブの内径が大きいほど高くなる。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 標準ガスの濃度の微調整は、希釈空気の流量を変えるよりも拡散セルの温度を変える方が、短時間で行うことができる。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -149,15 +203,21 @@ questions:
   - an-reagents-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フッ化水素酸は弱酸である。
+  - 王水は、濃塩酸と濃硝酸を3：1の体積比で混合した溶液である。
+  - 金属塩化物は、全て水によく溶ける。
+  - 酢酸水溶液と酢酸ナトリウム水溶液を混合することにより、弱酸性の緩衝液を調製することができる。
+  - 濃硝酸は、酸化力を有する。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 金属塩化物は、全て水によく溶ける。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -166,15 +226,21 @@ questions:
   - an-detector-tube-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検知管には、測定対象ガス又はその反応生成物と反応して変色する試薬が使用されている。
+  - 補助反応試薬を別のガラス管に充塡して、検知管と二段にして使用するものがある。
+  - pH 指示薬を使用する検知管は、他の酸性ガス又は塩基性ガスが共存すると妨害を受けることがある。
+  - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある。
+  - 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -184,15 +250,21 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 塩酸溶液 50 mL を、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0 × 10⁻¹ mol･L⁻¹）で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は 10 mL であった。塩酸溶液の濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0 × 10⁻² mol･L⁻¹
+  - 2.0 × 10⁻² mol･L⁻¹
+  - 4.0 × 10⁻² mol･L⁻¹
+  - 6.0 × 10⁻² mol･L⁻¹
+  - 8.0 × 10⁻² mol･L⁻¹
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 4.0×10-２mol･L-１
   _stem_head: 塩酸溶液50mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0×10-１mol･L-１）で滴定したところ、終点までに要し
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -202,15 +274,21 @@ questions:
   - an-titration-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
+  - 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
+  - フタル酸水素カリウムは、アルカリ溶液の標定に用いる。
+  - シュウ酸は、アルカリ溶液の標定に用いる。
+  - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 13
   status: draft
   chapters:
@@ -220,15 +298,21 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは20％減少した。このときの吸光度として正しい値に最も近いものは次のうちどれか。ただし、log₁₀8 = 0.903 とする。
+  choices:
+  - '0.1'
+  - '0.3'
+  - '0.5'
+  - '0.7'
+  - '0.9'
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: '0.1'
   _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは20％減少した。このときの吸光度として正しい値に最も近いものは次のうちどれ
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -237,15 +321,21 @@ questions:
   - an-spectrophotometry-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 透過率は、入射光の強さに対する透過光の強さの比である。
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 吸光度は、試料セルの光路長に比例する。
+  - 吸光度の測定は、通常、吸収極大波長で行う。
+  - モル吸光係数の単位は、mol･L⁻¹ cm である。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: モル吸光係数の単位は、mol･L-１cmである。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -254,15 +344,21 @@ questions:
   - an-aas-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 基底状態にある原子は、その原子に特有の光を吸収する。
+  - 試料は噴霧室に噴霧され、微粒子がバーナーに送られる。
+  - フレームは、一般にアセチレンの燃焼によりつくられる。
+  - バーナーヘッドのスリットの向きを光路と直角方向にしたときに感度が最も高くなる。
+  - 中空陰極ランプの陰極は、分析する金属又はその金属を含んだ合金でつくられる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: バーナーヘッドのスリットの向きを光路と直角方向にしたときに感度が最も高くなる。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -271,15 +367,21 @@ questions:
   - an-fluorescence-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、照射光で励起された分子が一部のエネルギーを放出したのちに基底状態に遷移する際に生じる。
+  - 照射光に対して直角方向の蛍光強度から定量分析を行う。
+  - 溶媒には、紫外吸収や蛍光を示さない液体が用いられる。
+  - 試料の濃度が高くなると、濃度と蛍光強度の間の直線関係が成立しなくなる。
+  - 溶存酸素は、蛍光強度を増加させる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 溶存酸素は、蛍光強度を増加させる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -288,15 +390,21 @@ questions:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 炎光光度検出器（FPD）は、飽和炭化水素化合物の測定に適している。
+  - 電子捕獲検出器（ECD）は、有機ハロゲン化合物の測定に適している。
+  - 水素炎イオン化検出器（FID）は、ほとんどの有機化合物の測定に適している。
+  - 光イオン化検出器（PID）は、芳香族炭化水素化合物の測定に適している。
+  - 質量分析器（MS）は、分子構造に関する情報も得ることができる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 炎光光度検出器（FPD）は、飽和炭化水素化合物の測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -305,15 +413,23 @@ questions:
   - an-gc-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、式中の第1項はカラム内での渦流拡散に起因する定数A、第2項は成分分子がカラム中で進行方向に拡散移動することに起因する項、第3項は移動相と固定相間の平衡の遅れに起因する項である。また、B及びCは定数、vは移動相の平均線速度である。
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 4
   choice_notes: []
   explanation: null
-  figures: []
+  figures:
+  - file: 2019-08-bunseki-18-choices.png
+    alt: 問18の選択肢
   law_note: null
   _key_choice: ??
   _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さＨを表す式として、正しいものは次のうちどれか。ただし、式中の第１項はカラム内での渦流拡散に起
+  columns: null
 - num: 19
   status: draft
   chapters:
@@ -322,15 +438,21 @@ questions:
   - an-xrd-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法では、通常、Cu-Kα線が用いられる。
+  - この分析法は、石英の同定や定量に使われる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - フィルターに採取した試料は、酸で溶解してから測定する。
+  - この分析法は、X線の回折角度及び回折線強度の測定により行われる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: フィルターに採取した試料は、酸で溶解してから測定する。
   _stem_head: 作業環境測定におけるＸ線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -339,12 +461,23 @@ questions:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子又は素粒子Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - α 壊変 ／ ⁴He の原子核
+  - 核異性体転位 ／ 光子
+  - β⁻ 壊変 ／ 陰電子
+  - β⁺ 壊変 ／ 陽子
+  - 軌道電子捕獲 ／ 光子
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: Heの原子核
   _stem_head: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子又は素粒子Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.17）

@@ -11,14 +11,20 @@ questions:
   - gn-risk-assessment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 厚生労働省の「化学物質等による危険性又は有害性等の調査等に関する指針」に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 個人用保護具の使用によるばく露低減対策は、機械設備の密閉化等の衛生工学的対策、マニュアルの整備等の管理的対策等を講じても十分にリスクを低減できない場合に行うべき対策である。
+  - ハザードは、労働災害発生の可能性と負傷又は疾病の重大性（重篤度）の組合せであると定義される。
+  - リスクの見積りは、リスク低減の優先度を定めるために行うものであるので、必ずしも数値化する必要はなく、相対的な分類でも差し支えない。
+  - 個人ばく露濃度をばく露限界と比較する手法によりリスクを見積もった結果、ばく露濃度がばく露限界を相当程度下回る場合は、リスク低減措置を検討する必要はない。
+  - 化学物質等の適切な管理について必要な能力を有する者のうちから、化学物質管理者を指名してリスクアセスメント等に関する技術的業務を行わせる。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性（重篤度）の組合せであると定義される。
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -27,14 +33,20 @@ questions:
   - gn-oh-management-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 厚生労働省の｢職場における腰痛予防対策指針｣に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 取り扱う物の重量を明示し、著しく重心の偏っている荷物は、その旨を明示する。
+  - 満18歳以上の女子労働者が人力のみにより取り扱う物の重量は、男性が取り扱うことのできる重量の 60％位までとする。
+  - 腰部保護ベルトを、全員一律に使用するように指導する。
+  - 直接床に座る座作業は、仙腸関節、股関節等に負担がかかることに留意する。
+  - 重量物取扱い作業を2人以上で行う場合、身長差の大きな労働者同士を組み合わせないようにする。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 腰部保護ベルトを、全員一律に使用するように指導する。
+  _review: true
 - num: 3
   status: draft
   chapters:
@@ -43,14 +55,20 @@ questions:
   - gn-absorption-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質の吸収、代謝、蓄積等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 多くの有機化合物は、肝臓で代謝されて排泄される。
+  - スチレンは、代謝され、尿中にマンデル酸やフェニルグリオキシル酸として排泄される。
+  - キシレンは、代謝され、尿中にメチル馬尿酸として排泄される。
+  - 鉛の生物学的モニタリングの指標として、血液中の鉛、尿中のδ-アミノレブリン酸の量などがある。
+  - トルエンは、代謝され、尿中にトリクロロ酢酸として排泄される。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: トルエンは、代謝され、尿中にトリクロロ酢酸として排泄される。
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -59,14 +77,20 @@ questions:
   - gn-toxicity-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - マンガンによる中毒では、筋のこわばり、歩行困難、発語障害などの症状がみられる。
+  - 粉状のニッケル化合物は、生殖毒性、皮膚感作性のほか、ヒトに対する発がん性があるとされている。
+  - 塩化ビニルによる中毒では、レイノー現象、指端骨溶解や肝血管肉腫などがみられる。
+  - ベンゼンによる中毒では、白血病や再生不良性貧血などがみられる。
+  - フッ化水素は、細胞内の呼吸酵素の障害による呼吸麻痺などを生じる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: フッ化水素は、細胞内の呼吸酵素の障害による呼吸麻痺などを生じる。ひ
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -75,14 +99,25 @@ questions:
   - gn-occupational-cancer-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとそれによって生じる主要ながんⒷとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - クロム酸 ／ 肺がん
+  - o-フタロジニトリル ／ 皮膚がん
+  - ビス（クロロメチル）エーテル ／ 肺がん
+  - ベンゾトリクロリド ／ 肺がん
+  - コールタール ／ 皮膚がん
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ??
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.00）
 - num: 6
   status: draft
   chapters:
@@ -91,14 +126,20 @@ questions:
   - gn-dust-disease-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 鉱物性粉じん等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、けい肺、石綿肺、炭素肺などがある。
+  - ヒュームの一次粒子の粒径は、一般に、1 µm 以下である。
+  - じん肺の合併症としては、肺結核、続発性気管支炎、原発性肺がんなどがある。
+  - 遊離けい酸は、胸膜プラークの主要な原因である。
+  - じん肺の呼吸器症状は、喫煙によって悪化する。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 遊離けい酸は、胸膜プラークの主要な原因である。
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -107,14 +148,20 @@ questions:
   - gn-metals-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - カドミウムは、主として腎臓皮質に蓄積し、腎障害を起こす。
+  - 金属熱は、鉄、アルミニウムなどの金属を溶融する作業などに長時間従事した際に、高温により体温調節機能が障害を受けたことにより発生する。
+  - 金属水銀中毒では、感情不安定、幻覚などの精神障害や手指の震えなどがみられる。
+  - インジウム化合物は、間質性肺炎を引き起こすほか、ヒトに対する発がん性が疑われている。
+  - ヒ素中毒では、角化症、黒皮症などの皮膚障害、末梢神経障害などがみられる。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 金属熱は、鉄、アルミニウムなどの金属を溶融する作業などに長時間従事した際に、高温により体温調節機能が障害を受けたことにより発生する。
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -123,14 +170,20 @@ questions:
   - gn-organic-solvents-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 二硫化炭素は、高濃度ばく露により、精神障害を起こす。
+  - ハロゲン化炭化水素系有機溶剤は、一般に、肝臓に対する毒性が強い。
+  - N,N-ジメチルホルムアミドは、長期ばく露により、肝機能障害を起こす。
+  - n-ヘキサンは、多発性末梢神経炎を起こす。
+  - 酢酸メチルは、骨髄の造血細胞に障害を起こす。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 酢酸メチルは、骨髄の造血細胞に障害を起こす。
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -139,14 +192,20 @@ questions:
   - gn-heat-cold-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 温熱環境及び熱中症に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 温度感覚を左右する環境要素は、気温、湿度、気圧及びふく射熱であり、この四要素によって温熱環境が定まる。
+  - 熱中症はⅠ度からⅢ度までに分類され、このうちⅢ度が最も重症である。
+  - WBGT 値は、屋外で太陽光照射がある場合は、自然湿球温度、黒球温度及び乾球温度の測定値から算出される。
+  - WBGT 値が基準値を超えるおそれのあるときには、冷房の利用、代謝率レベルの低い作業に変更することなどが必要である。
+  - WBGT 基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、低い値となる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 温度感覚を左右する環境要素は、気温、湿度、気圧及びふく射熱であり、この四要素によって温熱環境が定まる。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -155,14 +214,20 @@ questions:
   - gn-vibration-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所振動障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 振動障害は、振動加速度が大きいほど起こりやすい。
+  - 振動障害は、振動周波数が 4,000 Hz 以上の振動で発生しやすい。
+  - 振動工具の取扱いにおける「日振動ばく露量」は、周波数補正振動加速度実効値の3軸合成値と振動ばく露時間から算出される。
+  - 日振動ばく露限界値は、5.0 m/s² である。
+  - 喫煙は、レイノー現象発現の増悪因子である。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動周波数が4,000Hz以上の振動で発生しやすい。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -171,14 +236,20 @@ questions:
   - gn-noise-health-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 騒音に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 騒音は、自律神経や内分泌系へも影響を与え、交感神経の活動の亢進や副腎皮質ホルモンの分泌の増加が認められることがある。
+  - ヒトが感じることのできる音の周波数の範囲は、20 Hz から 20,000 Hz程度で、会話領域は 500 Hz から 2,000 Hz 程度である。
+  - 騒音性難聴では、内耳の有毛細胞が変性して聴力低下が起こる。
+  - 等価騒音レベルは、変動する騒音のある時間範囲について、1,000、2,000、4,000、8,000 Hz の音圧レベルの平均値として表した量である。
+  - 騒音のA測定の平均の値の算定には 80 dB(A)未満の測定値は含めない。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 等価騒音レベルは、変動する騒音のある時間範囲について、1,000、2,000、4,000、8,000Hzの音圧レベルの平均値として表した量である。
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -187,14 +258,20 @@ questions:
   - gn-oxygen-deficiency-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酸素欠乏症及び硫化水素中毒に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 硫化鉱や魚油を入れてある貯蔵施設の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  - 爆発、酸化等を防止するため、酸素欠乏危険作業を行う場所の換気を行うことができない場合には、空気呼吸器、酸素呼吸器又は送気マスクを備え、労働者に使用させる。
+  - 第一鉄塩類を含有している地層に接するたて坑の内部での作業では、酸素欠乏症の危険がある。
+  - 海水が滞留している暗きょの内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  - 空気中の酸素濃度が 16％程度以下になると、頭痛、吐き気などの自覚症状が現れ、10％程度以下になると、意識喪失やけいれんが現れる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 硫化鉱や魚油を入れてある貯蔵施設の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  _review: true
 - num: 13
   status: draft
   chapters:
@@ -203,14 +280,20 @@ questions:
   - gn-em-waves-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電磁波に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - マイクロ波は、紫外線より波長が短い電磁波で、組織壊死を起こすことがある。
+  - 短波や長波などの電波は、電磁波である。
+  - 赤外線は、可視光線より波長が長い電磁波で、白内障を起こすことがある。
+  - 可視光線は、波長がおよそ 400 nm ～ 760 nm 領域の電磁波である。
+  - 紫外線は、可視光線より波長が短い電磁波で、電気性（電光性）眼炎を起こすことがある。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: マイクロ波は、紫外線より波長が短い電磁波で、組織壊死を起こすことえがある。
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -219,14 +302,20 @@ questions:
   - gn-radiation-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電離放射線及びその影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 放射線皮膚炎は、確定的影響であり、かつ、早期障害である。
+  - α線、β線及びX線の中で、透過力がもっとも弱いものはα線である。
+  - 生殖器障害（無精子症、不妊）は、確率的影響であり、かつ、晩発障害である。
+  - X線とγ線は、波長の長短ではなく、その発生過程の違いによって区別される。
+  - 電離放射線の被ばくによる生体影響は、遺伝的影響と身体的影響に大きく分類される。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 生殖器障害（無精子症、不妊）は、確率的影響であり、かつ、晩発障害である。
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -235,14 +324,20 @@ questions:
   - gn-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質などの性状及び挙動に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - メタノールの極性は、トルエンの極性より大きい。
+  - 臨界温度以下において、気体として存在するものを蒸気という。
+  - 気体の液体への溶解度は、一般に、液体の温度が高いほど小さい。
+  - 有機溶剤の蒸気は、空気より密度が小さいため、拡散しやすい。
+  - ミストの粒径は、一般に、ヒュームの一次粒子の粒径よりも大きい。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 有機溶剤の蒸気は、空気より密度が小さいため、拡散しやすい。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -251,14 +346,20 @@ questions:
   - gn-ventilation-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所排気装置等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ドラフトチェンバー型フードは、囲い式フードに分類される。
+  - 空気清浄装置を付設する局所排気装置では、一般に、排風機は空気清浄装置の後に設ける。
+  - ダクトの形状には、円形、角形などがあるが、その断面積を大きくすると、ダクトの圧力損失は減少する。
+  - フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
+  - 囲い式フードの制御風速とは、フード開口面における最小風速をいう。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -267,14 +368,20 @@ questions:
   - gn-ppe-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 労働衛生保護具に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 使い捨て式防じんマスクは、厚生労働大臣が定める規格があり、検定の対象である。
+  - 送気マスクは、酸素濃度が 18％未満の空気中でも使用することができる。
+  - 使い捨て式防じんマスクは、ヒュームにも使用できる。
+  - 耳栓の2つのタイプのうち、1種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
+  - 防じんマスクの面体の接顔部に、接顔メリヤスを使用すると、マスクと顔面との密着性が低下する。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 耳栓の２つのタイプのうち、１種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -283,14 +390,20 @@ questions:
   - gn-ppe-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 防毒マスクに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 隔離式防毒マスクは、直結式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
+  - 有機ガス用防毒マスクの吸収缶は、ジクロロメタン、アセトン等については、試験用ガスに比べて破過時間が著しく短くなる。
+  - シアン化水素用防毒マスクの吸収缶の色は、青色である。
+  - 有機ガス用防毒マスクの吸収缶の色は、黒色である。
+  - 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -299,14 +412,20 @@ questions:
   - gn-other-environment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 職場環境等における健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 感染型食中毒は、食物に付着している細菌そのものの感染によって起こる食中毒で、サルモネラ菌によるものなどがある。
+  - 減圧症は、潜函作業者や潜水作業者などに発症するもので、高圧下作業からの減圧に伴い、血液中や組織中に溶け込んでいた窒素の気泡化が関与して発生する。
+  - 腰痛予防のため、満18歳以上の男子労働者が人力のみにより取り扱う物の重量は、体重のおおむね 40％以下とする。
+  - ノロウイルスは、ベロ毒素を産生するウイルスで、腹痛や出血を伴う水様性の下痢などを起こす。
+  - 低体温症は、低温下の作業で全身が冷やされ、体の中心部の温度が 35 ℃程度以下に低下した状態をいい、意識消失、筋の硬直などの症状がみられる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ノロウイルスは、ベロ毒素を産生するウイルスで、腹痛や出血を伴う水様性の下痢などを起こす。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -315,11 +434,19 @@ questions:
   - gn-exposure-limits-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境評価基準に定める「管理濃度」及び日本産業衛生学会の「許容濃度」に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定対象物質の中には、管理濃度が定められていない物質がある。
+  - 遊離けい酸を含まない鉱物性粉じんの管理濃度は、3.0 mg/m³ である。
+  - 許容濃度は、経皮吸収を考慮して定められている。
+  - 許容濃度は、作業中のばく露濃度の変動があまり大きくない場合に利用される。
+  - 許容濃度等の勧告における発がん性分類表で「第1群」とされた物質は、ヒトに対して発がん性があると判断できる物質である。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: である。
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.08）

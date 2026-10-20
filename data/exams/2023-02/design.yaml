@@ -1,74 +1,109 @@
 exam: 2023-02
 date: null
 subject: design
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - ds-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 25 ℃、1気圧における環境空気中のメチルエチルケトン（CH₃COC₂H₅）の体積分率が 200 ppm であるとき、その質量濃度（mg･m⁻³）に最も近いものは、次のうちどれか。
+  choices:
+  - 70 mg･m⁻³
+  - 140 mg･m⁻³
+  - 290 mg･m⁻³
+  - 590 mg･m⁻³
+  - 730 mg･m⁻³
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ppm を mg/m³ に直すときは、ppm に分子量を掛けて 24.45 で割ります。メチルエチルケトン（CH₃COC₂H₅）の分子量は 72.1 です。
+
+
+    C [mg/m³] ＝ 200 × 72.1 ÷ 24.45 ≒ 590
+
+
+    よって、最も近いのは 590 mg/m³ です。逆向きに 200 × 24.45 ÷ 72.1 と計算すると約 68（選択肢1）になります。'
   figures: []
   law_note: null
   _key_choice: 590mg・m-3
 - num: 2
-  status: draft
+  status: published
   chapters:
   - unit-workplace
   traps:
   - ds-unit-workplace-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: A・B 測定の単位作業場所の設定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 単位作業場所の範囲は、有害業務を行う作業場を、作業環境管理の対象となる区域に層別化したものである。
+  - 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間なども考慮する必要がある。
+  - 有害物質の濃度が、他の場所より常に高かったり、常に低かったりすることが予測される場所は、それぞれ別の単位作業場所とする。
+  - 塗料の調合作業とそこで調合された塗料を用いる塗装作業が同時に行われる区域を、1つの単位作業場所として設定することができる。
+  - 単位作業場所の設定に当たっては、作業場内の気流、換気設備の稼働状況なども考慮すべきである。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間は考慮しません。「考慮する必要がある」とする選択肢2は誤りです。
+
+
+    考慮するのは、有害物質の濃度の分布と、労働者の行動範囲、作業場内の気流や換気設備の稼働状況です（選択肢5）。この区別は毎回のように出題されています。'
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間なども考慮する必要がある。
 - num: 3
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
   - ds-a-b-measurement-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質の A 測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 単位作業場所が著しく狭く、かつ、有害物質の濃度がほぼ均一であることが明らかなときは、測定点の数を5未満とすることができる。
+  - 測定時間が10分間未満の検知管を使用する場合には、各測定点において複数の検知管を使用して10分間以上連続して測定を行わなければならない。
+  - 測定点の高さは、床上 50 cm 以上 150 cm 以下の位置とする。
+  - 測定点と測定点との間隔は、原則として、6 m 以下の等間隔とするが、縦方向と横方向の間隔は、必ずしも同一でなくてもよい。
+  - 測定を行うことによって、管理区分を決めるための評価値を求めることができる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '検知管のように測定時間が10分未満の方法では、1つの測定点で10分間以上連続して測定する必要はありません。複数の検知管で10分間以上にしなければならないとする選択肢2は誤りです。
+
+
+    令和5年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 測定時間が10分間未満の検知管を使用する場合には、各測定点において複数の検知管を使用して10分間以上連続して測定を行わなければならない。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
   - ds-a-b-measurement-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質の B 測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 有害物質の濃度が高くなると考えられる作業位置が複数ある場合は、それらの全ての作業位置で測定を行い、各々の測定値の算術平均値を B 測定値とする。
+  - 検知管5本を用いても測定時間の合計が10分に満たない場合は、10分の間に均等な間隔をおいて測定した5本の検知管の指示値の算術平均値を B測定値とする。
+  - 相対濃度指示方法によって B 測定を行った場合、質量濃度変換係数はA 測定で用いる係数と同じものを用いる。
+  - 圧電天秤方式の相対濃度計を用いて鉱物性粉じんの B 測定を行う場合は、測定時間を2分に合わせて、連続して5回の測定を行い、指示値の算術平均値を B 測定値とする。
+  - B 測定に真空捕集びんを用いる場合には、真空捕集びんの本数は5本程度を目安にする。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'B 測定で、濃度が高くなると考えられる作業位置が複数ある場合は、全ての位置で測定し、そのうちの**最大値**を B 測定値とします。算術平均値とする選択肢1は誤りです。
+
+
+    短時間の測定を積み上げる場合（検知管5本、圧電天秤5回）は平均、複数の位置や複数の日のまとめは最大、と使い分けます。'
   figures: []
   law_note: null
   _key_choice: 有害物質の濃度が高くなると考えられる作業位置が複数ある場合は、それらの全ての作業位置で測定を行い、各々の測定値の算術平均値をB測定値とする。
 - num: 5
-  status: draft
+  status: published
   chapters:
   - noise
   - statistics
@@ -76,192 +111,294 @@ questions:
   - ds-noise-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 騒音の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 単位作業場所の範囲は、作業者が常時作業するために立ち入る場所で、おおむね 80 dB(A) 以上の騒音レベルの範囲とする。
+  - A 測定点の位置は、単位作業場所の床面上に任意の基点を定め、原則として、この基点を軸として 6 m 以下の等間隔で引いた縦の線と横の線との交点の全てを測定点とする。
+  - 測定点の高さは床上 1.2 m 以上 1.5 m 以下とするが、作業者が上下方向に作業の位置を移動する場合は、当該作業が行われる作業床から 1.2 m以上 1.5 m 以下とする。
+  - A 測定点が5に満たない場合は、縦の線若しくは横の線の間隔の変更又は基点の移動を行うことにより、測定点を5以上になるようにする。
+  - A 測定及び B 測定を実施した場合の管理区分の決定は、A 測定の算術平均値及び標準偏差並びに B 測定値を用いる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '騒音の管理区分の決定には、A 測定平均値（算術平均）と B 測定値を用い、標準偏差は用いません。選択肢5は誤りです。
+
+
+    単位作業場所をおおむね 80 dB(A) 以上の範囲とする（選択肢1）ことも、騒音の測定の基本として押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: A測定及びB測定を実施した場合の管理区分の決定は、A測定の算術平均値及び標準偏差並びにB測定値を用いる。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - personal-sampling
   traps:
   - ds-personal-sampling-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤を対象とした作業環境測定を実施しなければならない次の作業のうち、個人サンプリング法による測定（C・D 測定）の対象とならないものはどれか。
+  choices:
+  - 労働者が塗装ブース前の定点で移動せずに行う吹付塗装作業
+  - 労働者が作業場内を移動しながら行う吹付塗装作業
+  - 労働者が作業場内を移動しながら行う手塗り補修塗装（タッチアップ）作業
+  - 印刷機の幅の広いロールを労働者が作業場内を移動しながら洗浄剤で拭き取る作業
+  - 労働者が作業場内を移動しながら行う塗型剤を鋳型に塗布する作業
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '個人サンプリング法（C・D 測定）は、有機溶剤の場合、塗装作業などで発散源とともに労働者が移動しながら作業する場合などに対象とされています。塗装ブースの前の定点で移動せずに行う吹付塗装作業は対象とならないので、答えは（1）です。
+
+
+    発散源とともに移動する作業では、場所を固定した A・B 測定ではばく露をとらえにくいので、個人に機器を着ける測定が向いています。
+
+
+    （参考：『作業環境測定のためのデザイン・サンプリングの実務―C・D測定編―』（2020年 初版） 第2章 2.1.1）'
   figures: []
-  law_note: null
+  law_note: 令和5年10月1日以降は、有機溶剤等について「発散源の場所が一定しない作業」に限る取扱いが廃止され、全ての作業が個人サンプリング法の対象となりました（令和5年厚生労働省告示第174号）。現行法では、この問題の選択肢1も対象となります。
   _key_choice: 労働者が塗装ブース前の定点で移動せずに行う吹付塗装作業
 - num: 7
-  status: draft
+  status: published
   chapters:
   - personal-sampling
   traps:
   - ds-personal-sampling-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 個人サンプリング法による測定（C・D 測定）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 単位作業場所において労働者がばく露される測定対象物質の量がほぼ均一であると見込まれる作業ごとに、適切な数の労働者を選択して測定対象労働者とする。
+  - 試料空気の採取は、測定対象労働者の身体に装着する試料採取機器等を用いる方法により行う。
+  - 試料空気の採取等の時間は、原則として、労働者が1作業日のうち単位作業場所において作業に従事する全時間とする。
+  - D 測定では、複数の測定対象労働者を選択する場合があるが、その場合は測定値のうちの最大値を D 測定値とする。
+  - D 測定の試料空気の採取等の時間は、10分間である。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'D 測定の試料空気の採取時間は、連続した**15分間**です。10分間とする選択肢5は誤りです。
+
+
+    B 測定（10分間）と D 測定（15分間）で時間が違う点が、繰り返し狙われる罠です。'
   figures: []
   law_note: null
   _key_choice: D測定の試料空気の採取等の時間は、10分間である。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
   - ds-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質の物性、空気中における挙動等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - コールタールは、常温・常圧で固体である。
+  - 混合した有機溶剤から蒸発する蒸気の成分の組成比は、必ずしもその混合有機溶剤の混合割合とは一致しない。
+  - メッキ、充電などの電解を伴う工程では、ミストが発生する。
+  - 鉛の蒸気は、空気中で冷却され、酸化物の微細な粒子となる。
+  - 溶接で発生する金属ヒュームは、個数濃度が高いほど凝集速度が大きくなる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'コールタールは、常温・常圧で黒い粘りのある**液体**です。固体とする選択肢1は誤りです。
+
+
+    令和2年度第1回でも、コールタールは常温・常圧で液体という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: コールタールは、常温・常圧で固体である。
 - num: 9
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
   - ds-sampler-selection-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境空気中の有害物質Ⓐと、その濃度の測定に用いる捕集器具等Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - メタノール ／ シリカゲル管
+  - 水銀 ／ ミゼットインピンジャー
+  - トルエン ／ 活性炭管
+  - アクリルアミド ／ 小型バブラー
+  - 三酸化二アンチモン ／ メンブランフィルター
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'アクリルアミドは、常温で固体ですが、粒子と蒸気の両方で空気中に存在するので、ガラス繊維ろ紙と活性炭フェルトなどを組み合わせて捕集します。小型バブラーとの組合せは不適当なので、答えは（4）です。
+
+
+    令和2年度第1回では、ガラス繊維ろ紙と活性炭フェルトの組合せが正しいものとして出題されています。'
   figures: []
   law_note: null
   _key_choice: アクリルアミド小型バブラー
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
   - ds-flowmeter-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 絞り式（オリフィス）流量計は、ハイボリウムエアサンプラーの校正に用いる。
+  - 面積式流量計は、テーパー管内の浮子が停止したとき、浮子とテーパー管の間隙の面積とそこを流れている流量とが比例することを利用している。
+  - 湿式ガスメーターは、原則として、吸引ポンプより上流側に接続する。
+  - 石けん膜流量計は、所定の距離を石けん膜が移動する時間を測定して流量を求める。
+  - サンプリングに用いる流量計の校正は、捕集装置を取り付けた状態で行う。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '湿式ガスメーターは、原則としてポンプの**下流側**に接続します。上流側とする選択肢3は誤りです。
+
+
+    令和7年度第2回でも、同じ論点が出題されています。'
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターは、原則として、吸引ポンプより上流側に接続する。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - solid-sorbent
   traps:
   - ds-solid-sorbent-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 固体捕集法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 固体捕集管に破過が生じた場合、捕集した試料から求めた測定値は、真の値より小さくなる。
+  - 一般に、シリカゲルは極性の小さい有機溶剤、活性炭は極性の大きい有機溶剤の捕集に適している。
+  - ポーラスポリマー管に捕集された試料は、活性炭管と比べて、加熱脱着が容易である。
+  - アセトンの捕集には、シリカゲル管が用いられる。
+  - 塩素化ビフェニルの捕集には、フロリジル管が用いられる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'シリカゲルは極性の**大きい**物質、活性炭は極性の**小さい**有機溶剤の捕集に適しています。選択肢2は逆になっていて誤りです。
+
+
+    シリカゲルは表面に -OH 基をもつ極性の吸着剤なので、アセトン（選択肢4）やメタノールのような極性の物質をよく捕らえます。'
   figures: []
   law_note: null
   _key_choice: 一般に、シリカゲルは極性の小さい有機溶剤、活性炭は極性の大きい有機溶剤の捕集に適している。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
   - ds-filter-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ろ過捕集法及び捕集用ろ過材に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - メンブランフィルターのポアサイズ（孔径）は、捕集できる最小の粒子の大きさを表している。
+  - メンブランフィルターは、ガラス繊維ろ紙に比べ、粉じんの堆積による通気抵抗の増加が大きい。
+  - ポアサイズの異なるメンブランフィルターを同じ吸引速度でサンプリングした場合、ポアサイズが小さいほど圧力損失は大きい。
+  - ガラス繊維ろ紙は、フッ素樹脂加工をしたろ紙の方がしていないろ紙よりも吸湿性が小さい。
+  - メンブランフィルターは、五酸化バナジウムやベリリウムの捕集に用いられる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'メンブランフィルターのポアサイズは、孔の大きさの目安で、捕集できる最小の粒子の大きさを表すものではありません。選択肢1は誤りです。
+
+
+    ポアサイズより小さな粒子も、拡散やさえぎりの作用で捕集されます。この論点は繰り返し出題されています。'
   figures: []
   law_note: null
   _key_choice: メンブランフィルターのポアサイズ(孔径)は、捕集できる最小の粒子の大きさを表している。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
   - ds-liquid-direct-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体捕集法及び直接捕集法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 使用後の捕集袋を再使用するためには、水又は洗剤で内面を十分に洗浄しなければならない。
+  - 真空捕集びんのコックには、漏れを防止するためのグリースの使用は避ける。
+  - ミゼットインピンジャーによる粒子状物質の捕集は、慣性衝突効果によるものである。
+  - ミゼットインピンジャーによるガス状物質の捕集では、吸引流量が大きいほど捕集率は低くなる。
+  - 気体を液体捕集によって試料採取する場合、有機溶剤等の揮発性物質の捕集率は、捕集液の温度が低いほど高い。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '捕集袋を再使用するときは、窒素や清浄空気の送気・排気を繰り返して内面を洗浄します。水や洗剤で洗うと、水分や洗剤の成分が残り、次の測定の妨げになるので、選択肢1は誤りです。
+
+
+    令和元年度第2回では、窒素又は清浄空気の送気・排気を繰り返す、という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 使用後の捕集袋を再使用するためには、水又は洗剤で内面を十分に洗浄しなければならない。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
   - ds-relative-meter-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 光散乱方式の相対濃度計及び相対濃度計による測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸引流量は、相対濃度に影響しない。
+  - 質量濃度変換係数、粉じんの質量濃度、相対濃度をそれぞれ K、C、Rとするとその関係は、K = R / C で表される。
+  - A 測定における1測定点の測定時間は10分未満でもよい。
+  - A 測定の全測定点の数は、10分間を1測定点における測定時間で除した値の数以上となるようにする。
+  - 光散乱方式の相対濃度計において、粒子の組成と粒度分布が一定で、濃度に変動がなければ、測定中の相対濃度計の積算値は、測定時間に比例する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '質量濃度変換係数 K は、質量濃度 C を相対濃度 R で割ったもの（K ＝ C ÷ R）で、C ＝ R × K の関係になります。K ＝ R ÷ C とする選択肢2は、分子と分母が逆で誤りです。
+
+
+    変換係数は「相対濃度を質量濃度に換算する係数」なので、相対濃度に掛けて質量濃度にする、と考えれば式を取り違えません。'
   figures: []
   law_note: null
   _key_choice: 質量濃度変換係数、粉じんの質量濃度、相対濃度をそれぞれK、C、Rとするとその関係は、K=R/Cで表される。
 - num: 15
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
   - ds-detector-tube-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検知管の濃度目盛は温度 20 ℃ を基準にしているため、場合によっては付属の温度補正表により読み取り値を温度補正する必要がある。
+  - ガス採取器からの漏れを防ぐため、ピストン及びシリンダー内部にグリースを塗布する。
+  - 検知限度とは、変色がわずかに認められる最低濃度のことである。
+  - 通気終了後、濃度の読み取りは速やかに行う。
+  - 変色層が斜めに現れた場合は、変色した部分の最先端を読み取る。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 検知管の変色層が斜めに現れたときは、変色した部分の最先端と、斜めに変色が始まった点との**中央**の値を読み取ります。最先端を読み取るとする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 変色層が斜めに現れた場合は、変色した部分の最先端を読み取る。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   traps:
   - ds-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の記述の㋑及び㋺の［　］に入る用語の組合せとして、正しいものは下のうちどれか。「環境空気中の放射性物質の濃度を測定するために用いられる試料の採取方法として、［㋑］に対しては直接捕集方法、［㋺］に対してはろ過捕集方法が用いられる。」
+  choices:
+  - 放射性アルゴン ／ 放射性セシウム
+  - 放射性コバルト ／ 放射性水銀
+  - 放射性ヨウ素 ／ 放射性硫黄
+  - 放射性水銀 ／ トリチウム化水蒸気
+  - 放射性タリウム ／ 放射性ヨウ素
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '放射性アルゴンは希ガスなので、容器にそのまま採る**直接捕集方法**で、放射性セシウムは粒子として存在するので**ろ過捕集方法**で捕集します。よって（1）が正しい組合せです。
+
+
+    放射性ヨウ素は固体捕集（活性炭）、トリチウム化水蒸気は液体・冷却凝縮・固体捕集などです。'
   figures: []
   law_note: null
   _key_choice: 放射性アルゴン放射性セシウム
+  columns:
+  - ㋑
+  - ㋺
 - num: 17
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   - units
@@ -269,16 +406,30 @@ questions:
   - ds-radiation-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 放射性物質を取り扱っている作業場において、試料空気をサンプリングし、その試料を測定した結果、空気中の放射性物質の濃度は、2.7 × 10⁻⁵ Bq･cm⁻³であった。この試料の放射能として、正しい値に最も近いものは次のうちどれか。ただし、試料空気の吸引流量は 65 L･min⁻¹、試料採取時間は168時間、捕集材の捕集率は 80 ％ とする。
+  choices:
+  - 1.4 × 10 Bq
+  - 2.4 × 10² Bq
+  - 2.2 × 10³ Bq
+  - 1.4 × 10⁴ Bq
+  - 2.2 × 10⁴ Bq
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '濃度に、吸引した空気の体積と捕集率を掛けて、試料の放射能を求めます。
+
+
+    吸引した空気の体積 ＝ 65 L/min × 168 時間 × 60 分 ＝ 655,200 L ≒ 6.55 × 10⁸ cm³
+
+
+    放射能 ＝ 2.7 × 10⁻⁵ × 6.55 × 10⁸ × 0.80 ≒ 1.4 × 10⁴ Bq
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 1.4×104Bq
 - num: 18
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -286,43 +437,67 @@ questions:
   - ds-statistics-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 正規分布、対数正規分布及び環境空気中の有害物質の濃度分布に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 対数正規分布の幾何標準偏差の値は、1以上である。
+  - 環境空気中の有害物質の濃度の分布は、対数正規分布で近似される。
+  - 正規分布の算術平均値と標準偏差をそれぞれ μ、σとすると、この分布に従う変数が μ - σ から μ ＋ σ の範囲に入る確率は、およそ 68 ％ である。
+  - 正規分布では、平均値と標準偏差は、互いに独立している。
+  - 対数正規分布の幾何平均値と幾何標準偏差とは同じ次元を持つ。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '対数正規分布の幾何平均値は測定値と同じ単位をもちますが、幾何標準偏差は倍率なので無次元です。両者が同じ次元をもつとする選択肢5は誤りです。
+
+
+    令和5年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 対数正規分布の幾何平均値と幾何標準偏差とは同じ次元を持つ。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
   - ds-size-selector-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 環境空気中の有害物質の捕集に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 一般に、ろ過捕集法による粒子の捕集率は、粒径 0.1 ～ 0.3 μm 程度の粒子で低くなる。
+  - 多段平行板式分粒装置を用いる場合、吸引流量が所定の値より大きいと、分粒装置を通過する粒子の 50 ％ 分粒粒径は大きくなる。
+  - ミゼットインピンジャーによる粒子の捕集では、粒径が小さいほど捕集率は小さくなる。
+  - 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、測定値は小さくなる。
+  - 捕集装置とポンプとの間に接続された面積式流量計は、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より大きくなる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '慣性衝突式分粒装置では、吸引流量が所定の値より小さいと、50 ％ 分粒粒径が大きくなり、本来は除かれるはずの大きな粒子も通過するので、測定値は**大きく**なります。「小さくなる」とする選択肢4は誤りです。
+
+
+    令和2年度第2回では、流量が小さいと50％分粒粒径が大きくなる、という同じ仕組みが出題されています。'
   figures: []
   law_note: null
   _key_choice: 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、測定値は小さくなる。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
   - ds-evaluation-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質の A 測定及び B 測定が行われた場合の作業環境評価等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - A 測定の第1評価値が管理濃度より小さい単位作業場所内の気中有害物質濃度が管理濃度を超える確率は、5％ 未満である。
+  - A 測定の第1評価値が管理濃度を超えておらず、B 測定の測定値が管理濃度の1.5倍であった場合の管理区分は、第2管理区分になる。
+  - A 測定の第1評価値と B 測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。
+  - 幾何標準偏差（σ）の値は、2日間測定では、1以上の値であるが、1日測定の場合には、1.95 以上の値になる。
+  - A 測定の第2評価値が管理濃度を超えていれば、B 測定値の結果にかかわらず、管理区分は第3管理区分になる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'A 測定の第1評価値と B 測定値がともに管理濃度より小さければ、管理区分は**第1管理区分**です。「第1管理区分になるとは限らない」とする選択肢3は誤りです。
+
+
+    この選択肢は、令和2年度第1回・令和5年度第2回にもまったく同じ形で出題されています。'
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とB測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。

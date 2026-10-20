@@ -1,0 +1,424 @@
+exam: 2021-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 吸光光度分析法では、分子やイオンの電子遷移による光の吸収を利用する。
+  - 吸光度と光の波長の関係を示す図は、吸収スペクトルである。
+  - 透過光の強度は、溶液中の目的物質の濃度が増加するとともに指数関数的に増加する。
+  - 光源光から、回折格子により特定の波長の光を選別する。
+  - 石英製のセルは、紫外部領域の測定に使用できる。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ある化合物の水溶液を吸光光度分析法で測定したところ、測定波長における透過率は 50 ％ であった。その波長におけるモル吸光係数を 8.26 × 10³ cm⁻¹･mol⁻¹･L、セルの光路長を 2.0 cm とすると、この化合物のモル濃度に最も近いものは次のうちどれか。ただし、log₁₀2 = 0.301 とする。
+  columns: null
+  choices:
+  - 1.8 × 10⁻⁵ mol･L⁻¹
+  - 3.6 × 10⁻⁵ mol･L⁻¹
+  - 6.1 × 10⁻⁵ mol･L⁻¹
+  - 7.3 × 10⁻⁵ mol･L⁻¹
+  - 8.3 × 10⁻⁵ mol･L⁻¹
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法で測定する場合に、ジアゾカップリング反応による発色を利用する物質は次のうちどれか。
+  columns: null
+  choices:
+  - 塩素化ビフェニル
+  - オーラミン
+  - p-ニトロクロロベンゼン
+  - p-ジメチルアミノアゾベンゼン
+  - ニトログリコール
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 硫化水素を液体捕集し、得られた試料液に塩化鉄（Ⅲ）と p- アミノジメチルアニリンを加えて、生成する物質の吸光度を測定して定量した。この分析に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集液には硫酸カリウム水溶液を用いる。
+  - 塩化鉄（Ⅲ）は酸化剤として働く。
+  - 生成する物質はメチレンブルーである。
+  - 標準原液は硫化ナトリウムから調製する。
+  - 標準原液の調製には、煮沸して放冷した精製水を用いる。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析に用いる検出器Ⓑとの次の組合せとして、不適当なものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - アクリロニトリル ／ アルカリ熱イオン化検出器（FTD）
+  - ホルムアルデヒド ／ 水素炎イオン化検出器（FID）
+  - 3,3'-ジクロロ-4,4'-ジアミノ ／ 電子捕獲検出器（ECD）ジフェニルメタン(MOCA)
+  - ナフタレン ／ 質量分析器（MS）
+  - 硫酸ジメチル ／ 炎光光度検出器（FPD）
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ガスクロマトグラフ分析に用いる充塡カラムのエージングに関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - カラム充塡剤中に残っている溶媒や揮発性成分を除去するために行う。
+  - カラムを試料導入部及び検出器に接続して行う。
+  - キャリアガスを約 10 mL･min⁻¹ の流量で流す。
+  - 室温から徐々に温度を上昇させて行う。
+  - ベースラインが安定しない場合は、さらにエージングを行う。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 加熱脱着法を用いた o-フタロジニトリルのガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 捕集には、充塡したポーラスポリマービーズの後ろにガラス繊維ろ紙を装着した相補型ろ過捕集管を用いる。
+  - 捕集管は、捕集前に加熱処理して分析の妨害となる物質を除去する。
+  - 検量線は、捕集管に標準液を添加し、未知試料と同一条件で分析して作成する。
+  - 試料を捕集した捕集管は、両端を真鍮製保存キャップで密栓して保管する。
+  - 分析後のポーラスポリマービーズは、コンディショニング後に再利用することができる。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気中のエチレンオキシドのガスクロマトグラフ質量分析法に関する次の記述の㋑から㋩の［　］に入る用語の組合せとして、正しいものは下のうちどれか。「活性炭に［㋑］を含浸・乾燥させたものを充塡した捕集管に試料空気を通気し、エチレンオキシドを誘導体化して［㋺］として捕集する。この［㋺］をトルエン/アセトニトリルで抽出し、［㋩］を加えて1時間以上放置した後、ガスクロマトグラフ質量分析法で分析する。」
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  choices:
+  - 臭化水素酸 ／ 1-ブロモエタノール ／ 炭酸ナトリウム
+  - 臭化水素酸 ／ 1-ブロモエタノール ／ 塩化ナトリウム
+  - 臭化水素酸 ／ 2-ブロモエタノール ／ 炭酸ナトリウム
+  - 臭化カリウム ／ 2-ブロモエタノール ／ 炭酸ナトリウム
+  - 臭化カリウム ／ 2-ブロモエタノール ／ 塩化ナトリウム
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 作業環境測定に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 25 ℃、1気圧におけるガス又は蒸気の1モルの体積は、22.4 L である。
+  - 空気中の有害物質は、粒子、ガス又は蒸気の状態で存在する。
+  - 標準液の濃度は、所定の濃度に厳密に合わせる必要はない。
+  - 試薬、水、器具からの分析対象物質の汚染に注意すべきである。
+  - 分析対象物質の危険性や有害性を、事前にチェックしておく。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 特定化学物質用の検知管Ⓐと、それに利用される反応Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - アクリロニトリル用検知管 ／ アクリロニトリルが酸化剤と反応してシアン化水素を発生する。
+  - 四塩化炭素用検知管 ／ 四塩化炭素が酸化剤と反応してホスゲンとなる。
+  - フッ化水素用検知管 ／ フッ化水素が五酸化ヨウ素と反応してヨウ素を生じる。
+  - ホルムアルデヒド用検知管 ／ ホルムアルデヒドがリン酸ヒドロキシルアミンと反応してリン酸を遊離する。
+  - 硫化水素用検知管 ／ 硫化水素が酢酸鉛と反応して硫化鉛を生成する。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 吸着クロマトグラフ法は、分析成分の固定相への吸着力の違いを利用して分離する。
+  - 分配クロマトグラフ法は、分析成分の固定相と移動相への分配の違いを利用して分離する。
+  - 逆相分配クロマトグラフ法は、高極性の固定相と低極性の移動相間における分析成分の分配の違いを利用して分離する。
+  - イオン交換クロマトグラフ法は、分析成分の固定相へのイオン交換能の違いを利用して分離する。
+  - サイズ排除クロマトグラフ法は、分析成分の固定相粒子の細孔内部への浸透性の違いを利用して分離する。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気（25 ℃、1気圧）中のトルエンジイソシアネート（TDI）の濃度を測定するため、1.0 L･min⁻¹ で10分間試料空気を1-(2-ピリジル)ピペラジン（2-PP）含浸ろ紙に通気した。得られた TDI-2-PP誘導体を抽出液 4.0 mL で抽出し試料液とした。高速液体クロマトグラフで分析した結果、試料液中のこの誘導体の濃度は 0.21 µg･mL⁻¹であった。環境空気中の TDI 濃度として、正しい値に最も近いものは次のうちどれか。ただし、TDI と TDI-2-PP誘導体のモル質量は、それぞれ 174 g･mol⁻¹ と501 g･mol⁻¹ 、ろ紙への捕集率は 100 ％ とし、TDI は全て2,4-TDI の形で存在しているものとする。
+  columns: null
+  choices:
+  - 1 ppb
+  - 2 ppb
+  - 3 ppb
+  - 4 ppb
+  - 5 ppb
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の特定化学物質Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2021-08-tokka-13-1.png
+    alt: 問13の図
+  - file: 2021-08-tokka-13-choices.png
+    alt: 問13の選択肢
+  law_note: null
+  _review: true
+  _import_flags:
+  - 選択肢を画像にした（文字で入れられるなら手で直す）
+  - 組合せの列を分けられない選択肢がある
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 図の1
+  - 図の2
+  - 図の3
+  - 図の4
+  - 図の5
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2021-08-tokka-14-choices.png
+    alt: 問14の選択肢
+  law_note: null
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: クロロメチルメチルエーテル 1.00 g を容量 1 L の真空容器に密封し、温度を20 ℃ にした。このとき容器内に液体として存在するクロロメチルメチルエーテルの質量に最も近いものは、次のうちどれか。ただし、20 ℃ でのクロロメチルメチルエーテルの飽和蒸気圧は、22.0 kPaであり、クロロメチルメチルエーテルのモル質量は、80.51 g･mol⁻¹ とする。また、気体定数は、8.31 × 10³ Pa･L･mol⁻¹･K⁻¹とする。
+  columns: null
+  choices:
+  - 0 g
+  - 0.27 g
+  - 0.42 g
+  - 0.58 g
+  - 0.73 g
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法における測定対象物質Ⓐとその標準系列液の調製に用いる溶媒Ⓑとの組合せとして、誤っているものは次のうちどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - シアン化カリウム ／ 精製水
+  - エチレンイミン ／ 精製水
+  - クロロメチルメチルエーテル ／ 希硫酸
+  - ペンタクロロフェノール ／ 精製水
+  - α- ナフチルアミン ／ 希硫酸
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸光光度分析法における測定対象物質Ⓐとその標準溶液の調製に使用する標準物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  choices:
+  - シアン化水素 ／ シアン化カリウム
+  - 臭化メチル ／ 臭化カリウム
+  - 塩素 ／ 塩化ナトリウム
+  - 硫酸ジメチル ／ メタノール
+  - フッ化水素 ／ フッ化ナトリウム
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - シリカゲルは、活性炭と比べて、極性が小さい物質の捕集に適している。
+  - ベンゼンの捕集には、活性炭を用いる。
+  - β- プロピオラクトンの捕集には、ポーラスポリマービーズを用いる。
+  - 塩素化ビフェニル（PCB）の捕集には、フロリジルを用いる。
+  - ポーラスポリマービーズは、活性炭と比べて、有機化合物の蒸気に対する捕集容量が小さい。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: バブラーを2本直列に接続し、試料空気を吸引した後、捕集された成分量をそれぞれ分析したところ1本目がa₁、2本目がa₂であった。2つのバブラーの捕集効率が同じであるとすると、バブラー1本の捕集効率を表す式として、正しいものは次のうちどれか。a₂
+  columns: null
+  choices:
+  - a₁a₁
+  - a₁ ＋ a₂a₂
+  - a₁ ＋ a₂a₁ - a₂
+  - a₁ ＋ a₂a₂
+  - 1-a₁
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気中の測定対象物質の捕集法及び分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - コールタールは、ろ過捕集法により捕集し、重量分析法により測定する。
+  - ヨウ化メチルは、直接捕集法により捕集し、ガスクロマトグラフ分析法により測定する。
+  - o-トリジンは、液体捕集法により捕集し、吸光光度分析法により測定する。
+  - メチルイソブチルケトン（MIBK）は、ろ過捕集法により捕集し、吸光光度分析法により測定する。
+  - ベンゾトリクロリドは、固体捕集法により捕集し、ガスクロマトグラフ分析法により測定する。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

@@ -11,15 +11,21 @@ questions:
   - an-mole-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - アボガドロ定数の数の物質粒子（原子、分子、イオンなど）の物質量は、1モルである。
+  - 陽子数が同じで、中性子数が異なるものを同位体という。
+  - 分子量は、分子を構成する原子の原子量の総和である。
+  - アボガドロ定数は、天然の炭素 12 g に含まれる原子数と同じである。
+  - 原子量は、¹²C の質量を基準として定められている。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: アボガドロ定数は、天然の炭素12gに含まれる原子数と同じである。
   _stem_head: 次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -28,15 +34,25 @@ questions:
   - an-units-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の5つの数値の合計を有効数字で表した場合、正しいものは下のうちどれか。
+
+
+    数値：201.4、23.7、5.75、2.47、0.7593'
+  choices:
+  - '234.0793'
+  - '234.079'
+  - '234.08'
+  - '234.1'
+  - '234'
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: '234.1'
   _stem_head: 次の５つの数値の合計を有効数字で表した場合、正しいものは下のうちどれか。数値：201.423.75.752.470.7593
+  _review: true
+  columns: null
 - num: 3
   status: draft
   chapters:
@@ -45,15 +61,24 @@ questions:
   - an-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 理想気体の体積に関する次の記述の㋑及び㋺の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「圧力一定では、絶対温度を2倍にすると体積は［㋑］。また、温度一定で圧力を2倍にすると体積は［㋺］。」
+  choices:
+  - 2倍になる ／ 2倍になる
+  - 2倍になる ／ 0.5倍になる
+  - 変化しない ／ 変化しない
+  - 0.5倍になる ／ 2倍になる
+  - 0.5倍になる ／ 0.5倍になる
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ２倍になる0.5倍になる
   _stem_head: 理想気体の体積に関する次の記述の㋑及び㋺のに入る語句の組合せとして、正しいものは下のうちどれか。「圧力一定では、絶対温度を２倍にすると体積は
+  columns:
+  - ㋑
+  - ㋺
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -62,15 +87,21 @@ questions:
   - an-organic-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アルコールは、-OH 基をもっている。
+  - カルボン酸は、-COOH 基をもっている。
+  - アルデヒドは、-CN 基をもっている。
+  - ケトンは、 CO 基をもっている。
+  - 第一アミンは、-NH₂ 基をもっている。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: アルデヒドは、-CN基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -79,15 +110,30 @@ questions:
   - an-equilibrium-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
+
+
+    A ＋ B ⇄ C ＋ q（q は熱エネルギーで q ＜ 0）
+
+
+    ただし、平衡定数は次の式で表される。
+
+
+    平衡定数 ＝ [C] ÷ ([A][B])'
+  choices:
+  - 平衡状態での正方向と逆方向の反応速度は等しい。
+  - 温度を上げると、反応は右に進む。
+  - 平衡定数の単位は、mol⁻¹･L である。
+  - 平衡定数は、反応開始時の物質の濃度比に依存する。
+  - 平衡定数は、温度に依存する。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 平衡定数は、反応開始時の物質の濃度比に依存する。
   _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。A＋BC＋q（qは熱エネルギーでq＜０）た
+  _review: true
 - num: 6
   status: draft
   chapters:
@@ -97,15 +143,24 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '有機化合物Aを 0.050 g 含む水溶液 100 mL にヘキサン 5 mL を加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は 0.045 g であった。有機化合物Aの水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次の式で表される。
+
+
+    分配係数 ＝ [A]<sub>ヘキサン相</sub> ÷ [A]<sub>水相</sub>'
+  choices:
+  - '90'
+  - '120'
+  - '150'
+  - '180'
+  - '210'
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: '180'
   _stem_head: 有機化合物Ａを0.050g含む水溶液100mLにヘキサン
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -114,15 +169,21 @@ questions:
   - an-lab-equipment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ホールピペットの容量に対する許容誤差の割合は、一般に、容量の小さなものの方が大きい。
+  - メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる。
+  - 一般的なマイクロシリンジでは、針の容積は目盛りに含まれない。
+  - メスフラスコで水溶液を定容するときは、標線の上端とメニスカスの下端を合わせる。
+  - 同じ容量のホールピペットとメスピペットでは、一般に、メスピペットの方が許容誤差は大きく設定されている。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -131,15 +192,21 @@ questions:
   - an-lab-equipment-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 石けん膜流量計は、一定の体積の気体が流れるのに要する時間から流量を測定する。
+  - ロータメーター（面積式流量計）の内径は、下部より上部が大きい。
+  - ロータメーターの検量線は、気体の種類・圧力によって異なる。
+  - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する。
+  - 石けん膜流量計の校正は、ロータメーターを用いて行う。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 石けん膜流量計の校正は、ロータメーターを用いて行う。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -148,15 +215,21 @@ questions:
   - an-reagents-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 高純度の蒸留水を得るためには、ガラス製ではなく金属製の蒸留器を用いる。
+  - 逆浸透膜法では、水に不溶の不純物やイオンを除去できるが、溶存気体を完全に取り除くことはできない。
+  - メンブランフィルターは、水中の粒子を除去できる。
+  - イオン交換法には、陽イオン交換樹脂と陰イオン交換樹脂のそれぞれの充塡層を連結する複床法と、陽イオン交換樹脂と陰イオン交換樹脂を混合充塡する混床法がある。
+  - イオン交換水の純度の指標として、比抵抗値（Ω･cm）が用いられる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 高純度の蒸留水を得るためには、ガラス製ではなく金属製の蒸留器を用いる。
   _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -165,15 +238,21 @@ questions:
   - an-quantification-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検量線に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定結果が検量線の濃度範囲を超えた場合は、試料溶液を希釈する。
+  - 検量線の濃度範囲は、検量線が直線となる範囲とする。
+  - 検量線の標準液の成分組成は、分析試料の成分組成と近くなるように調製する。
+  - 検量線が直線にならないときは、標準添加法を用いる。
+  - 内標準法における内標準物質は、測定対象物質と物理的、化学的によく似た性質の物質を用いる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 検量線が直線にならないときは、標準添加法を用いる。
   _stem_head: 検量線に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -183,15 +262,21 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度 1.0 × 10⁻² mol･L⁻¹ の塩酸 20 mL と濃度 1.0 × 10⁻² mol･L⁻¹ の水酸化ナトリウム水溶液 5.0 mL とを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0 × 10⁻³ mol･L⁻¹
+  - 2.0 × 10⁻³ mol･L⁻¹
+  - 4.0 × 10⁻³ mol･L⁻¹
+  - 6.0 × 10⁻³ mol･L⁻¹
+  - 8.0 × 10⁻³ mol･L⁻¹
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 6.0×10-３mol･L-１
   _stem_head: 濃度1.0×10-２mol･L-１の塩酸20mLと濃度1.0×10-２mol･L-１の水酸化ナトリウム水溶液5.0mLとを混合した溶液の水素
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -201,15 +286,23 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 空気中でメタン（CH₄）を完全燃焼させたときに、消費された酸素の物質量に関する次の記述のうち、正しいものはどれか。
+  choices:
+  - メタンの 0.5 倍の物質量である。
+  - メタンの等倍の物質量である。
+  - メタンの 1.5 倍の物質量である。
+  - メタンの2倍の物質量である。
+  - メタンの3倍の物質量である。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: に関する次の記述のうち、正しいものはどれか。
   _stem_head: 空気中でメタン（CH）を完全燃焼させたときに、消費された酸素の物質量
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.12）
 - num: 13
   status: draft
   chapters:
@@ -219,15 +312,21 @@ questions:
   - an-spectrophotometry-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 透過率は、入射光の強さ（I₀）に対する透過光の強さ（I）の比 I / I₀ である。
+  - 透過率は、試料セルの光路長に比例する。
+  - 吸光度は、透過率の逆数の対数で表せる。
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 吸光度の測定は、通常、極大吸収波長で行う。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 透過率は、試料セルの光路長に比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -237,15 +336,21 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの濃度が 3.0 × 10⁻⁵ mol･L⁻¹ の溶液を光路長 2.0 cm の試料セルに入れ、波長 550 nm における吸光度を測定したところ、0.360 であった。この溶液中の物質Aの 550 nm におけるモル吸光係数として、正しい値は次のうちどれか。
+  choices:
+  - 3.0 × 10³ mol⁻¹･L･cm⁻¹
+  - 6.0 × 10³ mol⁻¹･L･cm⁻¹
+  - 1.2 × 10⁴ mol⁻¹･L･cm⁻¹
+  - 2.4 × 10⁴ mol⁻¹･L･cm⁻¹
+  - 3.0 × 10⁴ mol⁻¹･L･cm⁻¹
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 6.0×10
   _stem_head: 物質Ａの濃度が3.0×10-５mol･L-１の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.36
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -254,15 +359,21 @@ questions:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光の吸収は、励起状態の原子によって生じる。
+  - 主として、金属元素の定量に用いられる。
+  - 吸収層が長いほど、吸光度が大きくなる。
+  - フレームの種類により感度が変化する。
+  - 中空陰極ランプは、光源として用いられる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 光の吸収は、励起状態の原子によって生じる。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -271,15 +382,21 @@ questions:
   - an-fluorescence-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、励起光よりも波長が長い。
+  - 励起光に対して直角方向の蛍光を測定する。
+  - 蛍光の強度は、低濃度領域で励起光の強度に比例する。
+  - 蛍光の強度は、低濃度領域で蛍光物質の濃度に比例する。
+  - 溶媒には、紫外部に強い吸収を持つ液体を用いる。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 溶媒には、紫外部に強い吸収を持つ液体を用いる。
   _stem_head: 作業環境測定における蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -288,15 +405,24 @@ questions:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 炎光光度検出器（FPD） ／ 有機硫黄化合物
+  - 水素炎イオン化検出器（FID） ／ 不飽和炭化水素化合物
+  - 電子捕獲検出器（ECD） ／ 脂肪族炭化水素化合物
+  - 質量分析器（MS） ／ ハロゲン化炭化水素化合物
+  - 光イオン化検出器（PID） ／ 芳香族炭化水素化合物
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 電子捕獲検出器（ECD）脂肪族炭化水素化合物
   _stem_head: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -305,15 +431,21 @@ questions:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 理論段相当高さは変化しない。
+  - 分離度は √2 倍になる。
+  - ピーク幅は2倍になる。
+  - 理論段数は2倍になる。
+  - 保持時間は2倍になる。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ピーク幅は２倍になる。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを２倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -322,15 +454,21 @@ questions:
   - an-xrd-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定試料は、一般に粒径が 1 µm ～ 10 µm の粉末が適当である。
+  - 測定試料量の多少にかかわらず、質量吸収補正は必要としない。
+  - 作業環境測定では、フィルターに捕集した試料をそのまま測定する。
+  - 結晶物質の定量は、回折線の強度の測定で行う。
+  - X線の回折角の測定には、ゴニオメーターを用いる。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 測定試料量の多少にかかわらず、質量吸収補正は必要としない。
   _stem_head: Ｘ線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -339,12 +477,18 @@ questions:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - α 壊変では、原子番号は2つ減少する。
+  - β⁻ 壊変では、原子番号は1つ増加する。
+  - 軌道電子捕獲では、原子番号は1つ増加する。
+  - β⁺ 壊変では、原子番号は1つ減少する。
+  - 自発核分裂では、複数の原子核に分裂する。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 軌道電子捕獲では、原子番号は１つ増加する。
   _stem_head: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
+  _review: true

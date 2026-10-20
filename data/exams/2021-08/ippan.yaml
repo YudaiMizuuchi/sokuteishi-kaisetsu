@@ -1,10 +1,10 @@
 exam: 2021-08
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -20,13 +20,12 @@ questions:
   - ハザードは、労働災害発生の可能性と負傷又は疾病の重大性（重篤度）の組合せとして定義される。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: ハザード（危険性又は有害性）は、労働者に負傷や疾病を生じさせる潜在的な根源です。労働災害発生の可能性と重篤度の組合せは「リスク」の定義なので、選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性（重篤度）の組合せとして定義される。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -42,13 +41,18 @@ questions:
   - 直接床に座る座作業は、仙腸関節、股関節等に負担がかかることに留意する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '腰痛予防対策指針では、腰部保護ベルトは一律に使用させるのではなく、個人ごとに効果を確認してから使用の適否を判断するとされています。「必ず使用するよう指導する」とする選択肢3は誤りです。
+
+
+    令和6年度第1回にも、腰部保護ベルトについての同じ論点があります。
+
+
+    根拠：職場における腰痛予防対策指針（「腰部保護ベルトは、個人により効果が異なるため、一律に使用するのではなく、個人毎に効果を確認してから使用の適否を判断すること」）。'
   figures: []
   law_note: null
   _key_choice: 重量物取扱い作業では、腰部保護ベルトを、必ず使用するよう指導する。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -64,13 +68,12 @@ questions:
   - スチレンは、代謝されて、尿中にマンデル酸が排泄される。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: トリクロロエチレンの生物学的モニタリングの指標は、尿中の**トリクロロ酢酸**や総三塩化物です。フェニルグリオキシル酸は、スチレンやエチルベンゼンの指標（マンデル酸とともに）なので、選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: トリクロロエチレンの生物学的モニタリングの指標として、尿中のフェニルグリオキシル酸の濃度がある。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -86,13 +89,15 @@ questions:
   - 鉛中毒では、ヘム合成過程の阻害による貧血が起こる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '溶血性貧血や尿の赤色化（血色素尿）は、ヒ化水素（アルシン）の中毒の特徴です。ベリリウムの代表的な健康障害は、肺の肉芽腫（ベリリウム肺）や皮膚炎なので、選択肢4は誤りです。
+
+
+    令和7年度第1回にも、同じ組合せの誤りがあります。'
   figures: []
   law_note: null
   _key_choice: ベリリウム中毒では、溶血性貧血、尿の赤色化などの症状がみられる。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -108,16 +113,18 @@ questions:
   - フッ化水素 ／ 肺がん
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'フッ化水素は、ヒトに肺がんを起こす物質とはされていません。選択肢5は誤りです。
+
+
+    令和4年度第2回・令和8年度第1回でも、フッ化水素の発がん性が誤りとして出題されています。'
   figures: []
   law_note: null
   _key_choice: フッ化水素肺がん
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -133,13 +140,15 @@ questions:
   - 同一の鉱物の破砕により発散した粉じんであっても、その浮遊粉じんと堆積粉じんとでは遊離けい酸の含有率が異なることが多い。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '空気力学相当径は、その粒子と同じ沈降速度を示す、密度 1 g/cm³ の球形粒子の直径で、沈み方から求める値です。光学顕微鏡による粒径測定で求めるものではないので、選択肢1は誤りです。
+
+
+    令和5年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -155,13 +164,12 @@ questions:
   - カドミウムによる慢性中毒では、腎機能障害、肺気腫、肺がんなどを生じる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: レイノー現象、指端骨溶解、肝血管肉腫は、**塩化ビニル**による健康障害の特徴です。コバルトの代表的な健康障害は、気管支ぜんそくやアレルギー性皮膚炎などの感作性によるものなので、選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: コバルトによる中毒では、レイノー現象、指端骨溶解や肝血管肉腫などがみられる。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -177,13 +185,15 @@ questions:
   - 脂溶性と水溶性を共に有しているアセトンは、皮膚や粘膜から吸収されやすい。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'メトヘモグロビン形成によるチアノーゼは、アニリンやニトロベンゼンなどの中毒の特徴です。二硫化炭素の中毒では、精神障害や動脈硬化、網膜の微細動脈瘤などがみられるので、選択肢4は誤りです。
+
+
+    令和2年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 二硫化炭素による中毒では、メトヘモグロビン形成によるチアノーゼがみられる。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -199,13 +209,15 @@ questions:
   - 相対湿度とは、ある温度における飽和水蒸気量に対する空気中の水蒸気量の比を百分率で示したものである。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '温度感覚を左右する環境要素は、気温、湿度、**気流**及びふく射熱の四要素です。気圧とする選択肢1は誤りです。
+
+
+    令和5年度第1回でも、温熱の要素が問われています。'
   figures: []
   law_note: null
   _key_choice: 温度感覚を左右する環境要素は、気温、湿度、気圧及びふく射熱であり、この四要素によって温熱環境が定まる。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -221,13 +233,15 @@ questions:
   - 厚生労働省の「チェーンソー取扱い作業指針」によれば、一連続の振動ばく露時間は、10分以内とする。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '振動障害では、レイノー現象は**末梢循環障害**、手指のしびれは**末梢神経障害**です。選択肢1は、2つの分類が入れ替わっていて誤りです。
+
+
+    振動工具取扱い作業者の特殊健康診断を年2回行う場合、そのうち1回は冬季に行うとよい（選択肢3）という正しい記述も、あわせて押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手しょう指のしびれなど末梢循環障害が発生するおそれがある。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -243,13 +257,12 @@ questions:
   - 騒音の A 測定の平均値は、算術平均値を用いる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 騒音性難聴は、内耳の有毛細胞の障害による**感音性難聴**です。伝音性難聴とする選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: 騒音性難聴は、伝音性難聴である。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
@@ -265,13 +278,15 @@ questions:
   - 相当期間密閉されていた鋼製のタンクの内部での作業では、酸素欠乏症の危険がある。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '窒素で置換したタンク内のように、ほとんど酸素のない空気を吸うと、**一呼吸**で意識を失い、昏倒することがあります。「徐々に窒息し、5分程度で呼吸停止」とする選択肢4は誤りです。
+
+
+    令和5年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 窒素ガスで置換したタンク内など、ほとんど無酸素状態で呼吸をすると徐々に窒息の状態になり、この状態が５分程度継続すると呼吸停止する。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -287,13 +302,12 @@ questions:
   - 可視光線のうち、黄色の光の波長は緑色の光の波長より長い。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: レーザー光線は、単一波長で位相のそろった光ですが、可視光線に限らず、紫外線や赤外線の領域のものもあります。「可視光線のことで」とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: レーザー光線は、単一波長で位相のそろった可視光線のことで、指向性や集束性が強く、エネルギー密度が高いという特徴を持つ。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation-effects
   traps:
@@ -309,13 +323,15 @@ questions:
   - 放射線による皮膚障害のうち、脱毛には潜伏期があり、晩発影響に分類される。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '脱毛は、被ばく後数週間程度で現れる確定的影響で、**早期影響**（急性影響）に分類されます。晩発影響とする選択肢5は誤りです。
+
+
+    晩発影響は、被ばくから数か月〜数十年後に現れるもので、がんや白内障などです。'
   figures: []
   law_note: null
   _key_choice: 放射線による皮膚障害のうち、脱毛には潜伏期があり、晩発影響に分類される。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -331,13 +347,15 @@ questions:
   - アセトンの極性は、トルエンの極性より大きい。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '1,4-ジオキサンは、脂溶性と水溶性を**ともに**もつ有機溶剤です。「水溶性はない」とする選択肢4は誤りです。
+
+
+    令和8年度第1回にも、ともに有するという正しい記述があります。'
   figures: []
   law_note: null
   _key_choice: 1,4-ジオキサンは、脂溶性は有しているが水溶性はない。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -353,13 +371,15 @@ questions:
   - ダクトの圧力損失は、ダクトの長さが増すほど大きくなる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '外付け式フードの制御風速は、吸引しようとする範囲内で、フードの開口面から最も離れた作業位置での風速です。作業者の呼吸位置とする選択肢2は誤りです。
+
+
+    令和8年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 外付け式フードの制御風速とは、作業者の呼吸位置において必要となる最小の風速である。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -375,13 +395,15 @@ questions:
   - 防じんマスクの装着の際、面体と顔面の密着性が低下するので、原則として、面体の接顔部に、接顔メリヤスを装着して使用してはならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '使い捨て式防じんマスクも、型式検定に合格したものは溶接ヒュームなどの粒子に対して効果があります。「ヒュームには使用できない」とする選択肢2は誤りです。
+
+
+    令和5年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 使い捨て式防じんマスクは、粒径１µm程度のヒュームには使用できない。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -397,13 +419,16 @@ questions:
   - 有機ガス用防毒マスクの吸収缶の色は黒色であり、一酸化炭素用防毒マスクの吸収缶の色は赤色である。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '防毒マスクの吸収缶の交換時期の判断に、臭気を感知したかどうかを使うことは、一般には適切ではありませんが、ばく露限界濃度が臭気の閾値よりも十分高い物質などでは、補助的な目安として使える場合があります。「物質のばく露限界濃度にかかわらず」一律に判断基準にしてはならないとする選択肢1は誤りです。
+
+
+    吸収缶の交換は、破過曲線図や使用時間の記録などから判断するのが基本です。'
   figures: []
   law_note: null
   _key_choice: 物質のばく露限界濃度にかかわらず、臭気を感知するかどうかという人の知覚の有無を、吸収缶の交換時期の判断基準としてはならない。
-  _review: true
+  review_note: 臭気による吸収缶の交換時期の判断について、「ばく露限界濃度が臭気の閾値より十分高い物質などでは補助的な目安になる場合がある」と説明しています。確認中です。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -419,13 +444,15 @@ questions:
   - ノロウイルスによる食中毒は、ウイルスに汚染された食品等を摂取することで発症し、主として冬季に発生する。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'O-157 は、腸管出血性大腸菌の一種で、**細菌**です。ウイルスとする選択肢4は誤りです。
+
+
+    令和4年度第2回にも、腸管出血性大腸菌についての出題があります。'
   figures: []
   law_note: null
   _key_choice: O-157は、腸管出血性ウイルスの一種で、加熱不足の食肉等から摂取され、潜伏期間は３～５日である。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -441,8 +468,7 @@ questions:
   - 測定対象物質の中には、管理濃度が定められていない物質がある。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 日本産業衛生学会の許容濃度は、経皮吸収がないことを前提に提案されている数値です。経皮吸収が無視できない物質には「皮」の表示を付けて注意を促しています。「経皮吸収があることを考慮して定められている」とする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 許容濃度の値は、経皮吸収があることを考慮して定められている。
-  _review: true

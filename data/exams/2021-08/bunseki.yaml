@@ -1,78 +1,113 @@
 exam: 2021-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
   - an-mole-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 絶対温度 ／ K
+  - 気体定数 ／ J･K⁻¹･mol⁻¹
+  - アボガドロ定数 ／ mol
+  - 電気量（電荷） ／ C
+  - エネルギー ／ J
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'アボガドロ定数の単位は **mol⁻¹**（1 mol あたりの粒子の数）です。mol とする選択肢3は誤りです。
+
+
+    令和7年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: アボガドロ定数mol
   _stem_head: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の式の計算結果のうち、有効数字の桁数が3ではないものはどれか。
+  choices:
+  - 5.31 ＋ 0.352
+  - 6.34-2.3
+  - 2.57 × 0.860
+  - 4.44 ÷ 0.0623
+  - (3.14 ＋ 0.96) × 1.83
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '足し算・引き算は、小数点以下の桁数が最も少ないものに合わせます。6.34 − 2.3 ＝ 4.04 は、2.3 に合わせて小数点以下1桁の **4.0**（有効数字2桁）になります。よって（2）です。
+
+
+    5.31 ＋ 0.352 ＝ 5.66、2.57 × 0.860 ≒ 2.21、4.44 ÷ 0.0623 ≒ 71.3、(3.14 ＋ 0.96) × 1.83 ＝ 4.10 × 1.83 ≒ 7.50 は、いずれも3桁です。'
   figures: []
   law_note: null
   _key_choice: 6.34－2.3
   _stem_head: 次の式の計算結果のうち、有効数字の桁数が３ではないものはどれか。
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 1 mol の理想気体に関する次の記述の Ⓐ と Ⓑ に入る数値の組合せとして、正しいものは下のうちどれか。ただし、温度は絶対温度で表している。「温度が一定の条件で圧力を2倍にすると、体積は Ⓐ 倍になる。また、圧力が一定の条件で温度を2倍にすると、体積は Ⓑ 倍になる。」
+  choices:
+  - 2 ／ 2
+  - 2 ／ √2
+  - 2 ／ 1/2
+  - 1/2 ／ 2
+  - 1/2 ／ √2
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 温度が一定なら、体積は圧力に反比例するので、圧力を2倍にすると体積は **1/2** 倍（ボイルの法則）です。圧力が一定なら、体積は絶対温度に比例するので、温度を2倍にすると体積は **2** 倍（シャルルの法則）です。よって（4）が正しい組合せです。
   figures: []
   law_note: null
   _key_choice: １/２
   _stem_head: null
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 25 ℃ における物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい。
+  - 酢酸ナトリウムの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  - ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
+  - グルコースの水に対する溶解度は、エタノールに対する溶解度よりも大きい。
+  - グリシンの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ベンゼンは無極性の物質なので、水にはほとんど溶けず、クロロホルムにはよく溶けます。水への溶解度の方が大きいとする選択肢3は誤りです。
+
+
+    令和6年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
   _stem_head: 25℃における物質の溶解に関する次の記述のうち、誤っているものはどれか。
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -80,17 +115,34 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '有機化合物 A を 0.05 g 含む水溶液 200 mL にヘキサン 5 mL を加えて振り混ぜ、A をヘキサンに抽出したところ、その質量は 0.045 g であった。有機化合物 A の水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次式で表される。
+
+
+    分配係数 ＝ [A]<sub>ヘキサン</sub> ÷ [A]<sub>水</sub>'
+  choices:
+  - '90'
+  - '180'
+  - '270'
+  - '360'
+  - '450'
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ヘキサン層に移った A は 0.045 g、水に残った A は 0.005 g です。
+
+
+    [A]ヘキサン ＝ 0.045 ÷ 5 ＝ 0.009 g/mL、[A]水 ＝ 0.005 ÷ 200 ＝ 0.000025 g/mL
+
+
+    分配係数 ＝ 0.009 ÷ 0.000025 ＝ 360
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: '360'
   _stem_head: 有機化合物Aを0.05g含む水溶液200mLにヘキサン5mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は0.045gであった。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -98,34 +150,56 @@ questions:
   - an-solution-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度 2.00 mol･L⁻¹ の水酸化ナトリウム溶液の密度は 1.08 g･cm⁻³ である。この溶液の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。ただし、水酸化ナトリウムのモル質量を 40.0 g･mol⁻¹ とする。
+  choices:
+  - 7.40 ％
+  - 7.80 ％
+  - 8.00 ％
+  - 8.40 ％
+  - 8.80 ％
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '溶液 1 L について考えます。
+
+
+    溶液の質量 ＝ 1,000 × 1.08 ＝ 1,080 g、NaOH の質量 ＝ 2.00 × 40.0 ＝ 80.0 g
+
+
+    質量パーセント濃度 ＝ 80.0 ÷ 1,080 × 100 ≒ 7.41 ％
+
+
+    よって、最も近いのは（1）の 7.40 ％ です。'
   figures: []
   law_note: null
   _key_choice: 7.40％
   _stem_head: 濃度2.00mol･L-１の水酸化ナトリウム溶液の密度は1.08g･cm-３である。この溶液の質量パーセント濃度として、正しい値に最も近いも
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 液体の二酸化炭素が必要な場合は、サイフォン管付き容器を使用する。
+  - ヘリウム用の減圧弁のねじは、左ねじである。
+  - アセチレンの配管に銅管を用いると、爆発性の化合物を生成するおそれがある。
+  - 酸素の容器の塗色は、黒色である。
+  - 容器は、容器内のガスを大気圧になるまで使い切ってから返却する必要がある。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '高圧ガスの容器は、内部のガスを大気圧になるまで使い切らずに、少し圧力を残した状態で返却します。空にすると、空気や水分が入り込んで容器の内部が汚れたり、次に充塡したガスの純度が下がったりするおそれがあるためです。選択肢5は誤りです。
+
+
+    酸素の容器は黒色、水素は赤色、アセチレンは褐色、二酸化炭素は緑色です。'
   figures: []
   law_note: null
   _key_choice: 容器は、容器内のガスを大気圧になるまで使い切ってから返却する必要がある。
   _stem_head: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   - gas
@@ -133,68 +207,113 @@ questions:
   - an-gas-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体のメチルエチルケトン 2.2 mg を捕集袋内の清浄空気中で気化させて、メチルエチルケトンの標準ガス 50 L を調製した。その濃度として、正しい値に最も近いものは次のうちどれか。ただし、メチルエチルケトンのモル質量は 72 g･mol⁻¹ とする。また、調製した標準ガスの温度は 25 ℃、圧力は1気圧とする。
+  choices:
+  - 1 ppm
+  - 2 ppm
+  - 10 ppm
+  - 15 ppm
+  - 20 ppm
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '気化させたメチルエチルケトンの物質量を求め、気体の体積に直してから、50 L に対する割合を出します。
+
+
+    物質量 ＝ 2.2 × 10⁻³ g ÷ 72 g/mol ≒ 3.06 × 10⁻⁵ mol
+
+
+    気体の体積 ＝ 3.06 × 10⁻⁵ × 24.45 ≒ 7.47 × 10⁻⁴ L
+
+
+    濃度 ＝ 7.47 × 10⁻⁴ ÷ 50 ≒ 1.5 × 10⁻⁵ ＝ 15 ppm
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 15ppm
   _stem_head: 液体のメチルエチルケトン2.2mgを捕集袋内の清浄空気中で気化させて、メチルエチルケトンの標準ガス50Lを調製した。その濃度として、正しい値
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-reagents-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蒸留水製造装置では、不揮発性の不純物のみを除去することが可能である。
+  - 金属製やガラス製の蒸留水製造装置からは、イオンの溶出がある。
+  - イオン交換水の純度は、電気伝導度で評価する。
+  - メンブランフィルターは、水中の粒子を除去できる。
+  - 逆浸透膜法では、溶存気体を完全に取り除くことはできない。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '蒸留では、不揮発性の不純物は除けますが、水と一緒に蒸発しやすい揮発性の不純物は取り除きにくくなります。「不揮発性の不純物のみを除去することが可能」という言い方は、蒸留の性質を正しく表していないので、選択肢1は誤りです。
+
+
+    精製水の製造法は、蒸留、イオン交換、逆浸透、メンブランフィルターによるろ過などを組み合わせて、それぞれの方法で除けない不純物を補い合います。'
   figures: []
   law_note: null
   _key_choice: 蒸留水製造装置では、不揮発性の不純物のみを除去することが可能である。
   _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  review_note: 蒸留水製造装置の誤りの理由を「不揮発性の不純物のみ」という言い方の不正確さとして説明しています。出題の意図と合っているか確認中です。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
   - an-detector-tube-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: シアン化水素用ガス検知管を用いてシアン化水素の濃度測定をする際に、共存すると負の妨害を与える物質は次のうちどれか。ただし、用いる検知管は、シアン化水素が塩化水銀（Ⅱ）と反応して生成する物質による pH 指示薬の変色を利用したものである。
+  choices:
+  - 二酸化窒素
+  - 硝酸
+  - アンモニア
+  - フッ化水素
+  - 塩化水素
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'シアン化水素の検知管は、反応で生じる酸を pH 指示薬の変色で検知するので、塩基性のアンモニアが共存すると酸が中和されて変色が短くなり、負の妨害になります。よって答えは（3）です。
+
+
+    令和7年度第2回にも、同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: アンモニア
   _stem_head: シアン化水素用ガス検知管を用いてシアン化水素の濃度測定をする際に、共存すると負の妨害を与える物質は次のうちどれか。ただし、用いる検知管は、シ
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   traps:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。ただし、塩化銀の溶解度積 K は、次式で表される。
+
+
+    K ＝ [Ag⁺][Cl⁻]'
+  choices:
+  - 溶解度積 K は、AgCl ⇄ Ag⁺ ＋ Cl⁻ で示される塩化銀の溶解平衡の平衡定数である。
+  - 溶解度積 K の単位は、mol²･L⁻²である。
+  - 溶解度積 K は、水溶液中の塩化物イオンのモル濃度によって変化する。
+  - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積 K より大きくならない。
+  - 溶解度積 K は、温度によって変化する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '溶解度積は、一定の温度で決まった値で、塩化物イオンのモル濃度によって変化することはありません。選択肢3は誤りです。
+
+
+    令和7年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 溶解度積Kは、水溶液中の塩化物イオンのモル濃度によって変化する。
   _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。ただし、塩化銀の溶解度積Kは、次式で表される。K＝\[Ag+\]\[Cl\]
 - num: 12
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -202,34 +321,44 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の塩 0.1 mol を水 1 L に溶かしたとき、その水溶液の pH が最も高くなるものはどれか。
+  choices:
+  - 塩化ナトリウム
+  - 硫酸ナトリウム
+  - 硝酸ナトリウム
+  - 酢酸ナトリウム
+  - 過塩素酸ナトリウム
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 強酸と強塩基からできた塩（塩化ナトリウム、硫酸ナトリウム、硝酸ナトリウム、過塩素酸ナトリウム）の水溶液は中性です。弱酸の酢酸と強塩基の水酸化ナトリウムからできた酢酸ナトリウムの水溶液は、酢酸イオンが水と反応して弱い**アルカリ性**を示すので、pH が最も高くなります。よって（4）です。
   figures: []
   law_note: null
   _key_choice: 酢酸ナトリウム
   _stem_head: 次の塩0.1molを水１Lに溶かしたとき、その水溶液のpHが最も高くなるものはどれか。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 可視部の測定には、光源として重水素放電管を用いる。
+  - 石英セルは、紫外部の測定に用いることができる。
+  - ダブルビーム方式により、測定対象物質の溶解に用いた溶媒の吸収が補正される。
+  - 吸光度の測定は、通常、測定対象物質の吸収極大波長で行う。
+  - 測定対象物質の吸収極大波長は、溶媒の種類により異なることがある。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 可視部の吸光光度分析の光源には、タングステンランプ（ハロゲンランプ）を用います。重水素放電管は紫外部の光源なので、選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: 可視部の測定には、光源として重水素放電管を用いる。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -237,113 +366,175 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質 A の濃度が 3.0 × 10⁻⁵ mol･L⁻¹の溶液を光路長 2.0 cm の試料セルに入れ、波長 550 nm における吸光度を測定したところ、0.24 であった。物質 A の濃度が 1.5 × 10⁻⁵ mol･L⁻¹ の溶液を光路長 1.0 cm の試料セルに入れ、波長 550 nm における吸光度を測定した。その値として、正しい値は次のうちどれか。
+  choices:
+  - '0.06'
+  - '0.12'
+  - '0.24'
+  - '0.36'
+  - '0.48'
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '既知の溶液からモル吸光係数を求め、もう一方の溶液の吸光度を計算します。
+
+
+    ε ＝ 0.24 ÷ (3.0 × 10⁻⁵ × 2.0) ＝ 4.0 × 10³ L・mol⁻¹・cm⁻¹
+
+
+    A ＝ 4.0 × 10³ × 1.5 × 10⁻⁵ × 1.0 ＝ 0.06
+
+
+    よって（1）が正しい値です。濃度も光路長も半分なので、吸光度は 1/4 になる、と比例で考えても求められます。'
   figures: []
   law_note: null
   _key_choice: '0.06'
   _stem_head: 物質Aの濃度が3.0×10-５mol･L-１の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.24
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法における吸光度に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸収層中の基底状態の原子数の増加とともに大きくなる。
+  - 吸収層が長いほど大きくなる。
+  - 燃料ガスの種類によって異なる。
+  - 原子番号の大きい元素ほど大きくなる。
+  - フレーム中の光路の位置によって異なる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '原子吸光分析の吸光度は、吸収層中の基底状態の原子の数や吸収層の長さ、フレームの条件などで決まり、原子番号の大きさとは関係ありません。選択肢4は誤りです。
+
+
+    吸光度は「光の通り道に、光を吸収できる原子がどれだけあるか」で決まります。'
   figures: []
   law_note: null
   _key_choice: 原子番号の大きい元素ほど大きくなる。
   _stem_head: フレーム原子吸光分析法における吸光度に関する次の記述のうち、誤っているものはどれか。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分光蛍光光度計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源にはタングステンランプが使用される。
+  - 光源の光が分光器で分光され励起光となる。
+  - 石英製の試料セルが用いられる。
+  - 試料からの蛍光は分光器で分光される。
+  - 検出器として光電子増倍管が用いられる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '分光蛍光光度計の光源には、**キセノンランプ**が用いられます。タングステンランプとする選択肢1は誤りです。
+
+
+    令和6年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 光源にはタングステンランプが使用される。
   _stem_head: 分光蛍光光度計に関する次の記述のうち、誤っているものはどれか。
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ 脂肪族炭化水素化合物
+  - 炎光光度検出器（FPD） ／ 芳香族炭化水素化合物
+  - 電子捕獲検出器（ECD） ／ ハロゲン化炭化水素化合物
+  - 光イオン化検出器（PID） ／ 不飽和炭化水素化合物
+  - 熱イオン化検出器（TID） ／ 有機リン化合物
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 炎光光度検出器（FPD）は、硫黄やリンを含む化合物に感度の高い検出器で、芳香族炭化水素の分析には適しません。（2）が不適切です。
   figures: []
   law_note: null
   _key_choice: 炎光光度検出器（FPD）芳香族炭化水素化合物
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリーガスクロマトグラフ分析法に用いられるカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 移動相の種類により異なる。
+  - 移動相の流速が大きいほど大きくなる。
+  - カラム長が長いほど大きくなる。
+  - カラム内径が小さいほど大きくなる。
+  - カラムの液相の膜厚が小さいほど大きくなる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '理論段数は、移動相の流速に対して最大になる最適な流速があり、流速が大きいほど大きくなるわけではありません。流速が大きすぎると、移動相と固定相の間の平衡が追いつかず、理論段数は小さくなります。選択肢2は誤りです。
+
+
+    ファン・デームター式 H ＝ A ＋ B/v ＋ Cv の第3項（Cv）が、流速を上げると理論段相当高さが大きくなる（理論段数が小さくなる）ことを表しています。'
   figures: []
   law_note: null
   _key_choice: 移動相の流速が大きいほど大きくなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法に用いられるカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X 線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - X 線管からは、特性 X 線と連続 X 線が生じる。
+  - 分析には、連続 X 線を用いる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - 結晶物質の定量には、回折 X 線の強度を用いる。
+  - 回折角の測定には、ゴニオメーターを用いる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法には、単一の波長の**特性 X 線**を用います。連続 X 線とする選択肢2は誤りです。
+
+
+    令和2年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 分析には、連続X線を用いる。
   _stem_head: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - α 壊変では、原子番号は2つ減少する。
+  - β⁻ 壊変では、原子番号は1つ増加する。
+  - β⁺ 壊変では、原子番号は1つ減少する。
+  - 軌道電子捕獲では、原子番号は1つ増加する。
+  - 自発核分裂では、複数の原子核に分裂する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '軌道電子捕獲では、原子核が軌道電子を取り込み、陽子が中性子に変わるので、原子番号は1つ**減少**します。「増加する」とする選択肢4は誤りです。
+
+
+    令和元年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 軌道電子捕獲では、原子番号は１つ増加する。

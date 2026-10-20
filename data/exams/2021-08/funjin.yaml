@@ -1,0 +1,405 @@
+exam: 2021-08
+date: null
+subject: funjin
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 次の記述の［　］に入る語句として、誤っているものは下のうちどれか。「粒径 5 µm 程度の球形粒子が空気中を落下する際の終末速度は、に比例する。」
+  columns: null
+  choices:
+  - 粒子の直径の二乗
+  - 粒子の密度
+  - 空気の密度
+  - 重力加速度
+  - 空気の粘性係数の逆数
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 媒質中の粒子の挙動に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 空気中でブラウン運動する粒子の個数濃度が半減するのに要する時間は、濃度が1/10になれば約10倍となる。
+  - 空気中に浮遊する粒子を捕集して、それぞれの大きさを計測し、平均粒子径を求める場合、個数基準平均径の方が質量基準平均径より小さくなる。
+  - 平衡帯電状態では粒子が大きいほど1個当たりの平均帯電量は多い。
+  - 空気力学相当径は粒子の密度を 1 g･cm⁻³ と定めている。
+  - 遠心力場における粒子の移動速度は、回転半径の二乗に反比例する。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 密度 2.6 g･cm⁻³ 、粒径 10.0 µm の球形粒子について、25 ℃ の水中で終末沈降速度を測定して 9.8 × 10⁻³ cm･s⁻¹ を得た。この粒子を 5 ℃ の水中で終末沈降速度を測定した場合に期待される値に最も近いものは次のうちどれか。ただし、粒子の終末沈降速度はストークスの式に従い、水の密度と粘性係数は、25 ℃ と 5 ℃ ではそれぞれ以下のとおりとする。温度 水の密度（g･cm⁻³） 水の粘性係数（g･cm⁻¹･s⁻¹）25 ℃ 0.9970 0.00895 5 ℃ 0.9999 0.01525
+  columns: null
+  choices:
+  - 5.7 × 10⁻³ cm･s⁻¹
+  - 8.1 × 10⁻³ cm･s⁻¹
+  - 1.2 × 10⁻² cm･s⁻¹
+  - 1.4 × 10⁻² cm･s⁻¹
+  - 1.7 × 10⁻² cm･s⁻¹
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 吸入性粉じん濃度の測定に用いられる分粒装置に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 測定に用いられる分粒装置は、空気力学相当径 4 µm の粒子を 100 ％除去する。
+  - 慣性衝突式分粒装置では、総粉じんと吸入性粉じんの濃度を求めることができる。
+  - 慣性衝突式分粒装置の吸引流量を所定の流量より大きくすると、分粒装置を通過する粒子の 50 ％ 分粒粒径は小さくなる。
+  - 多段平行板式分粒装置の吸引流量を所定の流量より大きくすると、分粒装置を通過する粒子の 50 ％ 分粒粒径は大きくなる。
+  - 慣性衝突式分粒装置では、分粒装置の衝突板に付着する粉じんが多くなると、分粒装置を通過する粒子の粒径は大きい方へ移行する。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 粉じん粒子のろ過に用いられるフィルターに関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 繊維層フィルターは、1本1本の繊維が独立した平行円柱群モデルフィルターとみなすことができる。
+  - 粒径が 0.1 µm より小さい粒子では、拡散効果が有効であり、粒径が小さくなるほど捕集効率は低下する。
+  - 繊維層フィルターは、構成する繊維の表面に粒子を捕集する。
+  - メンブランフィルターは、繊維層フィルターに比べ空間率の低い多孔質フィルターである。
+  - 粉じんを測定する場合には、0.3 µm の粒子に対する捕集率が 95 ％以上でなければならない。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 環境空気中に浮遊する粉じんのろ過捕集に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 繊維層フィルターの粉じん捕集効率は、粒径 0.1 ～ 0.3 µm 付近で最も低くなる。
+  - ろ過捕集の際のろ過材の圧力損失は、ろ過面における流速の二乗にほぼ比例する。
+  - 繊維層フィルターの方がメンブランフィルターより圧力損失が少ないので、多量の粉じんを捕集するのに適している。
+  - メンブランフィルターでは、粉じんの多くはフィルター表面で捕集される。
+  - 浮遊粉じんの採じん量は、測定濃度に対する相対誤差を少なくするために、天秤の読み取り限度の20倍以上必要である。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 粉じんのろ過捕集に用いられる流量計に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 石けん膜流量計を用いてローボリウムエアサンプラーの流量計の校正を行ってもよい。
+  - ハイボリウムエアサンプラーに表示される流量の校正には、ルーツメーターによって校正されたオリフィス流量計を用いてもよい。
+  - 面積式流量計は、テーパー管と浮子との間隙の面積とそこを流れる空気量が比例することを利用しているので、流量計が傾いていても流量測定には影響しない。
+  - 面積式流量計はあらかじめ目盛りが刻まれているが、使用する際には適正な機器により流量の校正をしなければならない。
+  - 面積式流量計の浮子が脈動して指示が読み取りにくい場合は、流量計と吸引ポンプの間に空気だめを設けるとよい。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 光散乱方式の相対濃度計の特性等に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 計数値は、清浄空気においてもゼロではないので、この数値を差し引いた計数値を相対濃度とする。
+  - 計数値は、空気吸引流量にほとんど影響されない。
+  - 光散乱特性は、粒子の屈折率によって異なる。
+  - 白色光やレーザー光を光源とするが、同じ粉じんであっても光源が異なれば質量濃度変換係数は異なる値となる。
+  - 同じ組成、同じ質量濃度の粉じんは、粒径 10 µm の粒子の方が 1 µmの粒子より計数値が大きくなる。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 光散乱方式の相対濃度計に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 質量濃度変換係数は、併行測定によって得られた質量濃度を相対濃度で除した値である。
+  - 質量濃度変換係数は、同一物質の場合、粒径が大きくなるほど小さくなる。
+  - 測定を行う前には、光散乱部を清浄空気で満たした状態で零点調整と感度合わせを行う必要がある。
+  - 光学系には、前方散乱光や側方散乱光を計測する方式のものがある。
+  - 入射光の強度が同じでも波長が異なると、散乱光の強度は変わる。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 空気調和されている室内に設置されている電子天秤及びフィルターの秤量操作等に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 粉じん濃度の測定には、読み取り限度 0.01 mg 以下の天秤を使用する。
+  - 天秤の水平が保たれていない状態で秤量すると、秤量値は真値より小さくなる。
+  - 周囲温度より温度の低い試料を秤量すると、秤量値は真値より大きくなる。
+  - 秤量しようとするフィルターは、汚染を防ぐために、秤量の直前までデシケーター等の乾燥剤入りの密閉された容器に保存する。
+  - フィルターが静電気を帯びていると、その影響により秤量値がばらつくことがある。
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: ローボリウムエアサンプラーを用いて粉じんの質量濃度を測定し、 0.8 mg･m⁻³という結果を得た。吸引流量 20 L･min⁻¹、サンプリング時間100分、捕集前及び捕集後のろ紙の秤量誤差は、それぞれ 0.04 mg、吸引試料空気量の計測値の相対誤差は 5 ％ 、ろ過材の捕集率は 100 ％ とする。この場合の粉じん質量濃度の測定値の相対誤差（％）に最も近い値は下のうちどれか。なお、粉じん質量濃度の測定値の相対誤差（δC/C）は、次式で表されるものとする。δC 2｜δW｜ ｜δQ｜＝ +C W Qただし、δW は秤量誤差、W は粉じん捕集量、δQ/Q は吸引試料空気量の計測値の相対誤差である。
+  columns: null
+  choices:
+  - 8.0 ％
+  - 8.5 ％
+  - 9.0 ％
+  - 9.5 ％
+  - 10.0 ％
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 遊離けい酸に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 石英は、常圧下の 573 ℃ において可逆的に転移し、低温型をα石英、高温型をβ石英と呼ぶ。
+  - 石英が長時間高温にさらされると、トリジマイトやクリストバライトに変化する。
+  - オパール（たんぱく石）は、化学組成が SiO₂･nH₂O で表される鉱物であり、遊離けい酸含有率の測定の対象とならない。
+  - 化学組成が Al₂O₃･2SiO₂･2H₂O で表されるカオリンは、遊離けい酸含有率の測定の対象とならない。
+  - 作業環境における粉じん中の遊離けい酸の大部分は、石英である。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 遊離けい酸含有率の測定に用いる試料の採取や処理に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 浮遊粉じんの採取には、オープンフェース型ホルダーを付けたろ過捕集装置が用いられる。
+  - 浮遊粉じんの採取の際の採取量の目安を得るためには、あらかじめ圧力計の指示値と粉じんの採取量との関係を求めておくとよい。
+  - 浮遊粉じんを採取した試料は、X線回折分析法の分析用試料として用いられる。
+  - 堆積粉じんは、単位作業場所内の腰より高い位置に堆積しているものを採取する。
+  - 堆積粉じんを採取した試料は、粒度調整を行った上で、X線回折分析法又はりん酸法の分析用試料として用いられる。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 遊離けい酸の分析に用いる粒子の再発じん法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 再発じん装置として、ビニール袋を用いる場合には、分粒装置として多段平行板式のものを用いるとよい。
+  - 目開き 75 µm 程度のふるいを通し、乾燥させたものを再発じん用の試料とする。
+  - 粉じん採取量は、フィルター上に 1 cm² あたり約 1 mg を目安とする。
+  - 厚さの薄いフィルターを用いる場合は、採取量が多くなると変形することがあるので、フィルターを2枚重ねにして用いるとよい。
+  - 採取した堆積粉じん中に油等の混入がある場合は、加熱処理し、処理前後の試料の質量を秤量しておく。
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 王水添加りん酸法による遊離けい酸の分析において、使用しない試薬は次のうちどれか。
+  columns: null
+  choices:
+  - ホウフッ化水素酸
+  - 酢酸
+  - 塩酸
+  - 硫酸
+  - 硝酸
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: りん酸法により、石英含有率を求めるため、液相沈降法により 10 µm 以下に粒度調整した試料 200.00 mg を熱リン酸で処理し、りん酸残渣として 40.00 mg を得た。このりん酸残渣を白金るつぼに移し、フッ化水素酸で処理したところ、ふっ化水素酸残渣 0.50 mg が得られた。石英含有率（％）の値に最も近いものは次のうちどれか。ただし、標準石英について求めたりん酸残渣率は 96.0 ％ であったものとする。
+  columns: null
+  choices:
+  - '19.0'
+  - '19.4'
+  - '19.8'
+  - '20.6'
+  - '21.1'
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - K 線とは、L殻の電子がK殻に落ち込んだ際に放出される特性X線のαことをいい、原子番号が大きくなるほど波長が短くなる。
+  - 対陰極が Cu の場合のX線の単色化には、原子番号が1大きい Zn が用いられる。
+  - 対陰極が Cu のX線回折分析法で測定された石英の主回折線の回折角度（2θ）は、26.66°である。
+  - ゴニオメーターの走査速度は、回折線のピーク位置や回折線強度に影響を及ぼす。
+  - 石英の主回折線に近接する回折線をもつ鉱物には、シリマナイトやグラファイトなどがある。
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: Cu のK 線を用いてX線回折分析を行った。得られた回折線の回折角度α（2θ）がクリストバライトのものは次のうちどれか。
+  columns: null
+  choices:
+  - 20.53°
+  - 20.87°
+  - 21.63°
+  - 22.00°
+  - 50.18°
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: X線回折基底標準吸収補正法によって、粉じん中の石英を定量する方法に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 基底標準吸収補正法は、試料による吸収の影響を補正して、遊離けい酸含有率の多少にかかわらず、標準試料で作った検量線をそのまま適用できるようにした方法である。
+  - 金属基底標準板には、石英の測定回折線より高角度側でそれに近い回折線をもつ材質を選ぶ。
+  - 試料の採取にフッ素樹脂加工グラスファイバーフィルターを用いた場合には、フィルターに固有の測定回折線を用いることができる。
+  - 検量線は、縦軸にX線吸収補正係数を乗じた石英の回折線強度をとり、横軸に石英量をとって作成する。
+  - 吸収補正を行うことにより、夾雑物の吸収の影響を少なくすることができるが、定量範囲は狭くなる。
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  summary: null
+  stem: 位相差顕微鏡による石綿粉じんの計数に関する次の記述のうち、誤っているものはどれか。
+  columns: null
+  choices:
+  - 石綿繊維数濃度の計算にあたっては、ブランク値を求めておかなければならない。
+  - 見えにくい繊維を探すために、常に微動装置を調節して、計数する部位にピントを合わせながら計数する。
+  - アイピースグレーティクルの小円内（直径 0.1 mm）を計数する場合には、繊維数100本以上あるいは検鏡した視野の数が50視野になるまで行う。
+  - 付着した粒子によって繊維の片方の端が隠れている場合は、繊維が見えている部分の長さのみで判断する。
+  - 繊維の一部が計数視野に入っていたとしても、両端が計数視野の外にある場合は0本とする。
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: true

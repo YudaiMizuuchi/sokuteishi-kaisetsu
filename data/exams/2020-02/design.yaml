@@ -11,14 +11,20 @@ questions:
   - ds-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 25 ℃、1気圧における環境空気中のメチルエチルケトン（CH₃COC₂H₅）の体積分率が 50 ppm であるとき、その質量濃度（mg･m⁻³）に最も近いものは、次のうちどれか。
+  choices:
+  - 100 mg･m⁻³
+  - 150 mg･m⁻³
+  - 200 mg･m⁻³
+  - 250 mg･m⁻³
+  - 300 mg･m⁻³
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 150mg・m-3
+  _review: true
 - num: 2
   status: draft
   chapters:
@@ -27,14 +33,20 @@ questions:
   - ds-unit-workplace-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 単位作業場所の設定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 単位作業場所の設定に当たっては、作業場内で働く労働者の保護具の使用状況や作業時間の長さなども考慮する必要がある。
+  - 連続する2作業日にわたって測定を行う場合、第1日目と第2日目の単位作業場所の範囲は一致しなければならない。
+  - 塗料の調合の作業とそこで調合された塗料を用いる塗装作業が同時に行われる区域を、1つの単位作業場所として設定することができる。
+  - 初めての測定で有害物質の濃度分布が予測できなかったので、当該作業場で働く労働者の行動範囲を単位作業場所として設定した。
+  - 有機溶剤の発散状況が時間帯によって異なることが明らかな場合は、それぞれの時間帯ごとに別の単位作業場所として設定する。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の保護具の使用状況や作業時間の長さなども考慮する必要がある。
+  _review: true
 - num: 3
   status: draft
   chapters:
@@ -44,14 +56,20 @@ questions:
   - ds-a-b-measurement-11
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 空気中の有害物質のA測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - A測定は、当該単位作業場所における気中有害物質の平均的な濃度とその変動を把握するための測定である。
+  - A測定を行うことによって、管理区分を決めるための評価値を求めることができる。
+  - 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は、有害物質の濃度はほぼ均一であるとみなすことができる。
+  - 単位作業場所が著しく狭く、かつ、有害物質の濃度がほぼ均一であることが明らかなときは、測定点の数を5未満とすることができる。
+  - 単位作業場所における有害物質の濃度がほぼ均一であることが明らかなときは、測定点の間隔は、6 m を超える等間隔で引いた縦の線と横の線との交点としてもよい。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は、有害物質の濃度はほぼ均一であるとみなすことができる。
+  _review: true
 - num: 4
   status: draft
   chapters:
@@ -60,14 +78,20 @@ questions:
   - ds-a-b-measurement-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 空気中の有害物質のB測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - B測定は、当該単位作業場所の中で、有害物質の発散源に近接する場所において作業が行われる場合に、有害物質の濃度が最も高くなると考えられる作業位置とその時間に行う測定である。
+  - B測定は、測定時に労働者がいなくても、労働者が立ち入るならば、その作業位置で行う。
+  - 発生源とともに労働者が移動しながら行う作業の場合には、労働者の作業位置が変わるので、B測定は、作業位置の移動に沿って行う。
+  - 5本の検知管を用いてB測定を行った場合は、10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする。
+  - 相対濃度指示方法を用いてB測定を行う場合の質量濃度変換係数は、その単位作業場所で行われた併行測定の質量濃度変換係数を用いる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 5本の検知管を用いてB測定を行った場合は、10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする。
+  _review: true
 - num: 5
   status: draft
   chapters:
@@ -76,14 +100,35 @@ questions:
   - ds-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の有害物質㋑～㋭について、常温･常圧（25 ℃、1気圧）において環境空気中に蒸気の状態で存在する物質の組合せとして、正しいものは下のうちどれか。ただし、ここで、ガスとは常温･常圧において気体のものをいい、蒸気とは常温･常圧において液体又は固体の物質がその蒸気圧に応じて蒸発又は昇華して気体となっているものをいう。
+
+
+    ㋑ エチレンオキシド
+
+
+    ㋺ 塩化ビニル
+
+
+    ㋩ 水銀
+
+
+    ㋥ フッ化水素
+
+
+    ㋭ 硫酸ジメチル'
+  choices:
+  - ㋑ ㋺
+  - ㋑ ㋭
+  - ㋺ ㋥
+  - ㋩ ㋥
+  - ㋩ ㋭
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ハホ
+  _review: true
 - num: 6
   status: draft
   chapters:
@@ -92,14 +137,20 @@ questions:
   - ds-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の有害物質のうち、25 ℃において、飽和蒸気圧が最も高いものはどれか。
+  choices:
+  - ベンゼン
+  - n-ヘキサン
+  - メチルイソブチルケトン
+  - 酢酸メチル
+  - ジクロロメタン
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ジクロロメタン（25℃の飽和蒸気圧が最も高い）
+  _review: true
 - num: 7
   status: draft
   chapters:
@@ -108,14 +159,20 @@ questions:
   - ds-states-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質の物性、空気中における挙動等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 塩素系有機溶剤には、空気中で加熱されるとホスゲンを発生するものがある。
+  - 混合した有機溶剤から蒸発する蒸気の成分の組成比は、必ずしもその混合有機溶剤の混合割合とは一致しない。
+  - メッキ、充電などの電解を伴う工程では、ミストが発生する。
+  - 鉛の蒸気は、空気中で冷却され、酸化物の微細な粒子となる。
+  - ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
+  answer: 5
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
+  _review: true
 - num: 8
   status: draft
   chapters:
@@ -124,14 +181,23 @@ questions:
   - ds-sampler-selection-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質Ⓐと、その環境空気中の濃度の測定に用いられる捕集器具又はろ過材Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - クロム酸 ／ ミゼットインピンジャー
+  - コールタール ／ セルロースエステルメンブランフィルター
+  - イソプロピルアルコール ／ シリカゲル管
+  - 石綿 ／ セルロースエステルメンブランフィルター
+  - カドミウム ／ ガラス繊維ろ紙
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: コールタールセルロースエステルメンブランフィルター
+  columns:
+  - Ⓐ
+  - Ⓑ
+  _review: true
 - num: 9
   status: draft
   chapters:
@@ -140,14 +206,20 @@ questions:
   - ds-flowmeter-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - サンプリングに用いる流量計の校正は、捕集装置を取り付けた状態で行う。
+  - 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
+  - 面積式流量計（ローターメーター）は、垂直に立てたテーパー管に浮子（フロート）を入れたものである。
+  - 石けん膜流量計は、所定の距離を石けん膜が移動する時間を測定して流量を求める。
+  - 絞り式（オリフィス）流量計は、ハイボリウムエアサンプラーの校正に用いる。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
+  _review: true
 - num: 10
   status: draft
   chapters:
@@ -156,14 +228,20 @@ questions:
   - ds-solid-sorbent-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 固体捕集法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 活性炭管の前層に捕集されたガス状物質は、管内で後層に移動することはない。
+  - 活性炭管に同一濃度のトルエンとアセトンの混合物を捕集する場合、破過するまでの時間はアセトンの方が短い。
+  - ポーラスポリマー管に捕集された試料は、活性炭管と比べて、加熱脱着が容易である。
+  - メタノールの捕集には、シリカゲル管が用いられる。
+  - 塩素化ビフェニルの捕集には、フロリジル管が用いられる。
+  answer: 1
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 活性炭管の前層に捕集されたガス状物質は、管内で後層に移動することはない。
+  _review: true
 - num: 11
   status: draft
   chapters:
@@ -172,14 +250,20 @@ questions:
   - ds-filter-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 粒子状物質の捕集用ろ過材に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - メンブランフィルターのポアサイズ（孔径）は、捕集できる粒子の大きさの下限を示すものではない。
+  - メンブランフィルターは、ガラス繊維ろ紙に比べて、粉じんの捕集に伴う通気抵抗の増加が大きい。
+  - メンブランフィルターでは、粒子状物質はフィルターの表面よりも内部に捕集される。
+  - ガラス繊維ろ紙は、フッ素樹脂加工をしたものの方がしていないものよりも吸湿性が小さい。
+  - ガラス繊維ろ紙では、粒径の小さな粒子は、大きな粒子に比べ、繊維層の内部に、より多く捕集される。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: メンブランフィルターでは、粒子状物質はフィルターの表面よりも内部に捕集される。
+  _review: true
 - num: 12
   status: draft
   chapters:
@@ -188,14 +272,22 @@ questions:
   - ds-liquid-direct-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体捕集法及び直接捕集法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ミゼットインピンジャーによるガス状物質の捕集では、流量が大きいほど捕集率は低くなる。
+  - 気体を液体捕集によって試料採取する場合、有機溶剤等の揮発性物質の捕集率は、捕集液の温度が低いほど高い。
+  - ミゼットインピンジャーに粒径 3～5 mm のガラスビーズを入れると、ガス状物質の捕集率を高めることができる。
+  - 真空捕集びんは、13.3 kPa 以下の圧力に減圧してから使用する。
+  - 捕集袋の洗浄は、窒素又は清浄空気の送気・排気を数回繰り返して行う。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーに粒径3~5mmのガラスビーズを入れると、ガス状物質の捕集率を高めることができる。
+  _review: true
+  _import_flags:
+  - 正答肢と一致しない（類似度0.08）
 - num: 13
   status: draft
   chapters:
@@ -204,14 +296,20 @@ questions:
   - ds-relative-meter-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 光散乱方式の相対濃度計による鉱物性粉じんの測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 質量濃度が同じであれば、粒径 5 µm の粉じん粒子の散乱光強度は、粒径 0.3 µm の粉じん粒子の散乱光強度より小さい。
+  - 質量濃度変換係数は、粉じんの発生源の近くでは一般に大きく、発生源から離れるに従って小さくなる傾向がある。
+  - A測定の測定点の数を10個と設定した場合の1測定点当たりのサンプリング時間は1分間以上であればよい。
+  - 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
+  - 相対濃度計には、側方散乱光や前方散乱光を計測する方式のものがある。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
+  _review: true
 - num: 14
   status: draft
   chapters:
@@ -220,14 +318,20 @@ questions:
   - ds-detector-tube-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検知管による測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検知限度とは、変色がわずかに認められる最低濃度のことである。
+  - キシレン用検知管の指示値は、共存するトルエンにより正の妨害を受けることがある。
+  - 直読式検知管の濃度目盛りは、温度 20 ℃を基準としており、必要な場合には読み取り値の温度補正をする。
+  - 検知管用真空法ガス採取器の漏れを防ぐために、ピストン及びシリンダー内部にグリースを塗布してはならない。
+  - 通気終了後、時間の経過とともに着色が変化する場合があるので、速やかに指示値を読み取る。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 検知管用真空法ガス採取器の漏れを防ぐために、ピストン及びシリンダー内部にグリースを塗布してはならない。
+  _review: true
 - num: 15
   status: draft
   chapters:
@@ -236,14 +340,20 @@ questions:
   - ds-relative-meter-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 簡易測定機器による測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光散乱方式の相対濃度計の光源としては、半導体レーザーが用いられる。
+  - 圧電天秤方式の相対濃度計は、一定の周波数で振動している圧電結晶板上に粉じんが付着すると、その質量に応じて周波数が変わることを利用したものである。
+  - 圧電天秤方式の相対濃度計の測定値は、Hz･min⁻¹の単位で表示される。
+  - 検知管の変色層の長さは、測定対象物質の濃度に必ずしも比例しない。
+  - 検知管の検知試薬は、測定対象物質以外の物質にも反応するものが用いられることがある。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min-1の単位で表示される。
+  _review: true
 - num: 16
   status: draft
   chapters:
@@ -252,14 +362,23 @@ questions:
   - ds-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の記述の㋑及び㋺の［　］に入る用語の組合せとして、正しいものは下のうちどれか。「環境空気中の放射性物質の濃度を測定するために用いられる試料の採取方法として、［㋑］に対しては固体捕集方法、［㋺］に対しては液体捕集方法が用いられる。」
+  choices:
+  - 放射性炭素 ／ 放射性コバルト
+  - 放射性ヨウ素 ／ トリチウム化水蒸気
+  - 放射性セシウム ／ 放射性硫黄
+  - 放射性水銀 ／ 放射性アルゴン
+  - 放射性タリウム ／ トリチウム化水蒸気
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 放射性ヨウ素トリチウム化水蒸気
+  columns:
+  - ㋑
+  - ㋺
+  _review: true
 - num: 17
   status: draft
   chapters:
@@ -269,14 +388,20 @@ questions:
   - ds-radiation-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 放射性物質を取り扱っている作業場において、試料空気を採取し、その試料を測定した結果、空気中の放射性物質の濃度は、2.7 × 10⁻⁵ Bq･cm⁻³であった。この試料の放射能として、正しい値に最も近いものは次のうちどれか。ただし、試料空気の吸引流量は 65 L･min⁻¹、試料採取時間は168時間、捕集材の捕集率は 80％とする。
+  choices:
+  - 1.4 × 10 Bq
+  - 2.4 × 10² Bq
+  - 2.2 × 10³ Bq
+  - 1.4 × 10⁴ Bq
+  - 2.2 × 10⁴ Bq
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 1.4×104Bq
+  _review: true
 - num: 18
   status: draft
   chapters:
@@ -286,14 +411,20 @@ questions:
   - ds-statistics-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 正規分布、対数正規分布及び環境空気中の有害物質の濃度分布に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 環境空気中の有害物質の濃度の分布は、対数正規分布で近似される。
+  - 正規分布の平均（算術平均）及び標準偏差をそれぞれ μ 及び σ とすると、この分布の 95％上限値は、μ ＋ 2σ である。
+  - 正規分布の平均と標準偏差とは同じ次元を持つ。
+  - 対数正規分布の幾何標準偏差は、無次元である。
+  - 対数正規分布の幾何標準偏差の値は、1以上である。
+  answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ+2σである。
+  _review: true
 - num: 19
   status: draft
   chapters:
@@ -303,14 +434,20 @@ questions:
   - ds-statistics-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 測定誤差に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定誤差は、系統誤差、偶然誤差及び過失誤差の3種類に分けることができる。
+  - 系統誤差には、個人の習慣により、常に目盛りを大きめに読むことによる誤差も含まれる。
+  - 系統誤差は、その原因を明らかにしても補正することができない。
+  - 一つのサンプルを同一条件で繰り返し測定したとき、測定値がばらつくのは、偶然誤差のためである。
+  - 偶然誤差の大きさは、一般に、測定値の標準偏差の大きさで評価される。
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: 系統誤差は、その原因を明らかにしても補正することができない。
+  _review: true
 - num: 20
   status: draft
   chapters:
@@ -319,11 +456,17 @@ questions:
   - ds-a-b-measurement-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質のA測定及びB測定が行われた場合の作業環境評価に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - A測定の第1評価値と第2評価値は、いずれも幾何平均値より小さな値になることはない。
+  - A測定の第2評価値とB測定の測定値が、管理濃度より共に小さければ、管理区分は第1又は第2管理区分になる。
+  - 1日測定では、日間変動を表すσD については、σD ＝ 1.95 とみなして評価を行う。
+  - B測定を複数行った場合は、全てのB測定点の測定値の平均値をB測定値とする。
+  - A測定の第1評価値が管理濃度を超えておらず、B測定の測定値が管理濃度の1.5倍であった場合の管理区分は、第2管理区分になる。
+  answer: 4
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
   _key_choice: B測定を複数行った場合は、全てのB測定点の測定値の平均値をB測定値とする。
+  _review: true
