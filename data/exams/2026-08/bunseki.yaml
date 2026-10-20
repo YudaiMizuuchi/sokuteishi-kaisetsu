@@ -37,8 +37,8 @@ questions:
     組立単位は、暗記するより「定義の式」から組み立てる方が確実です。力 ＝ 質量 × 加速度、圧力 ＝ 力 ÷ 面積、エネルギー ＝ 力 × 距離、電荷 ＝ 電流 × 時間、という関係を押さえておけば、この種の問題はすべて導けます。'
   figures: []
   law_note: null
-  _key_choice: 圧力mkgs-２
-  _stem_head: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _key_choice: 圧力mkgs-2
+  _stem_head: 物理量又は物理定数Aとその単位記号Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -74,8 +74,8 @@ questions:
   - file: 2026-08-bunseki-02-choices.png
     alt: 問2の選択肢
   law_note: null
-  _key_choice: Σ_nni_=1(_xi_\-_x_)2-１Σ-1_ni_=1(_xi_\-_x_)-１_n_Σ_nni_=1(_xi_\-_x_)-１Σ_nni_=1(_xi_\-_x_)2Σ_
-  _stem_head: 分析値とそのばらつきに関する次の記述の㋑及び㋺のに入る式の組合せとして、正しいものは下のうちどれか。「_n_回の分析で分析値_x_
+  _key_choice: Σ_nni_=1(_xi_\-_x_)2-1Σ-1_ni_=1(_xi_\-_x_)-1_n_Σ_nni_=1(_xi_\-_x_)-1Σ_nni_=1(_xi_\-_x_)2Σ_
+  _stem_head: 分析値とそのばらつきに関する次の記述のイ及びロのに入る式の組合せとして、正しいものは下のうちどれか。「_n_回の分析で分析値_x_
   columns: null
 - num: 3
   status: published
@@ -106,7 +106,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: ??
-  _stem_head: 有機化合物Ⓐとその化合物がもつ官能基Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 有機化合物Aとその化合物がもつ官能基Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -146,7 +146,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '57'
-  _stem_head: 液体の純物質2.3gを1.23Lの真空容器に入れて加熱すると完全に気化し、温度が97℃になったときに圧力が1.0気圧になった。この物質の分子
+  _stem_head: 液体の純物質2.3gを1.23Lの真空容器に入れて加熱すると完全に気化し、温度が97°Cになったときに圧力が1.0気圧になった。この物質の分子量として、正しい値に最も近いものは次のうちどれか。なお、気体定数は0.082atm・L・K-1・m
 - num: 5
   status: published
   chapters:
@@ -183,8 +183,8 @@ questions:
     1 L の質量を 100 g と取り違えると 20 ％（選択肢4）を選んでしまいます。「1 L ＝ 1,000 cm³」と密度から、まず溶液の質量を出すのが確実です。'
   figures: []
   law_note: null
-  _key_choice: 2％
-  _stem_head: 0.5mol･L-１の水酸化ナトリウム溶液の質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0
+  _key_choice: 2%
+  _stem_head: 0.5mol・L-1の水酸化ナトリウム溶液の質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g・mol-1とし、この溶液の密度は1.0g・cm-3とする。
 - num: 6
   status: published
   chapters:
@@ -224,7 +224,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '9'
-  _stem_head: 水素H
+  _stem_head: 水素H21.0molと臭素Br21.0molを10Lの容器に入れて、一定温度に保ったところ、次の反応により、臭化水素HBrが1.2mol生成して平衡状態となった。H2+Br22HBrこの反応の平衡定数として、正しい値は次のうちどれか。
 - num: 7
   status: published
   chapters:
@@ -250,7 +250,7 @@ questions:
   - file: 2026-08-bunseki-07-1.png
     alt: 問7の図
   law_note: null
-  _key_choice: （図・数式の問題）
+  _key_choice: （図・組合せの問題）
   _stem_head: 図に示すガラス製体積計のうち、ビュレットはどれか。
   columns: null
 - num: 8
@@ -310,7 +310,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: メチルイソブチルケトンキレート滴定
-  _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 化学物質Aとその使用例Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -374,8 +374,8 @@ questions:
     問題文に五水和物や各原子の原子量が書かれているので、硫酸銅や五水和物の式量を計算したくなりますが、問われているのは「銅」の質量です。硫酸銅（CuSO₄、式量 159.6）で計算すると 1.60 × 10⁻¹ mg（選択肢5）になります。何の質量を求めるのかを最初に確認しましょう。'
   figures: []
   law_note: null
-  _key_choice: ･5H
-  _stem_head: 硫酸銅五水和物（CuSO
+  _key_choice: ・5H
+  _stem_head: 硫酸銅五水和物(CuSO4・5H2O)を水に溶解して、硫酸銅の濃度2.00×10-4mol・L-1の水溶液を調製した。この水溶液5.00mLに含まれる銅の質量(mg)として、正しい値は次のうちどれか。ただし、水素、酸素、硫黄、銅の原子量はそ
 - num: 12
   status: published
   chapters:
@@ -415,7 +415,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: H
-  _stem_head: エチレン（C
+  _stem_head: エチレン(C2H4)とエタン(C2H6)の燃焼に関する次の記述のうち、誤っているものはどれか。
 - num: 13
   status: published
   chapters:
@@ -444,7 +444,7 @@ questions:
     単位は式から逆算すると確実に求められます。「吸光度は単位なし」という一点を押さえておけば、ε の単位は c と l の単位の逆数を掛け合わせたもの、と導けます。'
   figures: []
   law_note: null
-  _key_choice: モル吸光係数の単位は、mol･L-１･cmで表される。
+  _key_choice: モル吸光係数の単位は、mol・L-1・cmで表される。
   _stem_head: 可視光を用いた吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   review_note: 肢3（検出器には一般に光電子増倍管）を「正しい」としています。実際の装置ではシリコンフォトダイオードも多く使われるため、補足が必要か確認中です。
 - num: 14
@@ -480,8 +480,8 @@ questions:
     濃度が半分になっても、透過率は2倍（100 ％）にはなりません。比例するのは吸光度で、透過率ではないことがこの問題のポイントです。濃度が半分になると、透過率は元の透過率の平方根になる（√0.50 ≒ 0.71）と覚えておくと、計算も速くなります。'
   figures: []
   law_note: null
-  _key_choice: 70％
-  _stem_head: 物質Aの濃度が2.0×10-５mol･L-１の溶液に、波長550nmの光を当てたところ、透過率は50％であった。同様の方法で、物質Aの濃度が
+  _key_choice: 70%
+  _stem_head: 物質Aの濃度が2.0×10-5mol・L-1の溶液に、波長550nmの光を当てたところ、透過率は50%であった。同様の方法で、物質Aの濃度が1.0×10-5mol・L-1の溶液に、波長550nmの光を当てたとき、その透過率に最も近い値は次の
 - num: 15
   status: published
   chapters:
@@ -518,7 +518,7 @@ questions:
   chapters:
   - fluorescence
   traps:
-  - an-fluorescence-04
+  - an-fluorescence-05
   rank: null
   summary: null
   stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -566,7 +566,7 @@ questions:
     ガスクロマトグラフの検出器は、「何に強いか」でまとめて覚えます。FID はほとんどの有機化合物、ECD はハロゲンを含む化合物、FPD は硫黄・リン化合物、TID（FTD）は窒素・リン化合物、PID は芳香族などイオン化しやすい化合物、が目安です。'
   figures: []
   law_note: null
-  _key_choice: 炎光光度検出器（FPD）では、水素炎中で臭素又は塩素に特有な発光を利用する。
+  _key_choice: 炎光光度検出器(FPD)では、水素炎中で臭素又は塩素に特有な発光を利用する。
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
 - num: 18
   status: published
@@ -626,8 +626,8 @@ questions:
     X線回折は、多数の小さな結晶がいろいろな向きを向いていて、その一部がちょうど回折の条件を満たすことを利用しています。粒子が大きいと「いろいろな向き」がそろわず、同じ試料でも測るたびに強度が変わってしまいます。作業環境測定で捕集する吸入性粉じんは、もともと十分に細かい粒子です。'
   figures: []
   law_note: null
-  _key_choice: 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。
-  _stem_head: 作業環境測定におけるＸ線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  _key_choice: 測定試料は、一般に粒径が0.1mm~1mmの粉末が適当である。
+  _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
   status: published
   chapters:

@@ -1,10 +1,10 @@
 exam: 2020-02
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -20,13 +20,15 @@ questions:
   - リスクの見積りは、リスク低減の優先度を定めるために行うものであるので、必ずしも数値化する必要はない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '負傷又は疾病の重篤度は、過去に実際に起きた負傷・疾病の程度ではなく、**予想される**最も重篤な負傷・疾病の程度として見積もります。選択肢3は誤りです。
+
+
+    過去にたまたま軽い被害で済んでいても、同じ状況でより重い被害が起こりうるからです。'
   figures: []
   law_note: null
   _key_choice: 負傷又は疾病の重篤度の見積りでは、過去に実際に発生した負傷又は疾病の重篤度を、最も重篤な負傷又は疾病の重篤度として見積もる。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -42,13 +44,12 @@ questions:
   - ディスプレイ画面の明るさ、書類及びキーボード面における明るさと、周辺の明るさの差は、なるべく大きく明瞭にする。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 情報機器作業のガイドラインでは、ディスプレイ画面の明るさ、書類・キーボード面の明るさと、周辺の明るさの差は、**なるべく小さく**するとされています。明るさの差が大きいと、視線を動かすたびに目が順応し直す必要があり、目が疲れるからです。「なるべく大きく」とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: ディスプレイ画面の明るさ、書類及びキーボード面における明るさと、周辺の明るさの差は、なるべく大きく明瞭にする。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -64,13 +65,15 @@ questions:
   - 体内に取り込まれた有機溶剤の生物学的半減期は比較的短いので、有機溶剤等健康診断における尿中代謝物の検査のための採尿時刻は、正確にチェックする必要がある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '安息香酸は、体内で馬尿酸に変わります。飲食物に含まれる安息香酸（保存料など）を摂ると、尿中の馬尿酸量は**増加**します。「減少する」とする選択肢3は誤りです。
+
+
+    トルエンの生物学的モニタリングの指標である馬尿酸は、食事の影響を受けやすい指標です。'
   figures: []
   law_note: null
   _key_choice: トルエンの生物学的モニタリングでは、飲食物中の安息香酸の影響を受けると、尿中馬尿酸量は減少する。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -86,13 +89,15 @@ questions:
   - フッ化水素による慢性中毒では、骨の硬化や斑状歯がみられる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '一酸化炭素は、赤血球中のヘモグロビンと強く**結合**して、酸素を運べなくします。ヘモグロビンの合成を阻害するのではないので、選択肢4は誤りです。
+
+
+    令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 一酸化炭素は、無色、無臭の気体で、赤血球中のヘモグロビンの合成を阻害する。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -108,16 +113,18 @@ questions:
   - ビス（クロロメチル）エーテル ／ 肺がん
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ベリリウムによる主要ながんは**肺がん**です。膀胱がんとする選択肢3は誤りです。
+
+
+    膀胱がんを起こす物質は、β-ナフチルアミン、ベンジジン、オーラミン、マゼンタ、o-トルイジンなどの芳香族アミン類です。'
   figures: []
   law_note: null
   _key_choice: ベリリウム膀胱がんぼうこう
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -133,13 +140,15 @@ questions:
   - 吸入性粉じんの捕集には、空気力学相当径 4 µm の粉じん粒子を 50％透過する性能を有する分粒装置を用いる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '胸膜プラークの主な原因は**石綿**です。遊離けい酸は、けい肺の原因です。選択肢4は誤りです。
+
+
+    令和4年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じん中の遊離けい酸は、胸膜プラークの主要な原因である。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -155,13 +164,12 @@ questions:
   - クロム酸は、皮膚に接触すると充血や潰瘍を生じるほか、長期間のばく露によって鼻中隔穿孔や肺がんなどを生じる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 歩行困難や発語障害などのパーキンソン病に似た症状は、**マンガン**の慢性中毒の特徴です。鉛の慢性中毒では、貧血、末梢神経障害、腹部の疝痛などがみられるので、選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 鉛による慢性中毒では､中枢神経障害を生じ、歩行困難、発語障害などのパーキンソン病に似た症状を呈する。
-  _review: true
+  _key_choice: 鉛による慢性中毒では、中枢神経障害を生じ、歩行困難、発語障害などのパーキンソン病に似た症状を呈する。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
@@ -177,13 +185,12 @@ questions:
   - メタノールによる健康障害として顕著なものは、網膜細動脈瘤を伴う脳血管障害である。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: メタノールによる健康障害で顕著なのは、**視神経**の障害（視力低下・失明）です。網膜の細動脈瘤を伴う脳血管障害は、二硫化炭素の慢性中毒の特徴なので、選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: メタノールによる健康障害として顕著なものは、網膜細動脈瘤を伴う脳りゅう血管障害である。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -199,13 +206,15 @@ questions:
   - 放熱は、ふく射、伝導、蒸発などの物理的な過程で行われ、蒸発には発汗と不感蒸泄によるものがある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'WBGT 基準値は、同じ作業でも、暑熱に順化していない人の方が**小さい**（厳しい）値になります。順化していない人ほど熱中症になりやすいからです。「大きい値となる」とする選択肢1は誤りです。
+
+
+    実効温度は、気温・湿度・気流の総合効果を温度の目盛りで表した指標です（選択肢4）。'
   figures: []
   law_note: null
-  _key_choice: ＷＢＧＴ基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、大きい値となる。
-  _review: true
+  _key_choice: WBGT基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、大きい値となる。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -221,13 +230,15 @@ questions:
   - チェーンソーによる一連続の振動ばく露時間は、10分以内とする。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '振動障害で、レイノー現象は**末梢循環障害**、手指のしびれは**末梢神経障害**です。選択肢3は、2つの分類が入れ替わっていて誤りです。
+
+
+    令和3年度第1回にも、同じ形の誤りがあります。'
   figures: []
   law_note: null
   _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手しょう指のしびれなど末梢循環障害が発生するおそれがある。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -243,13 +254,15 @@ questions:
   - 騒音性難聴は、中耳の障害による感音性難聴である。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '騒音性難聴は、**内耳**の蝸牛の有毛細胞の障害による感音性難聴です。中耳の障害とする選択肢5は誤りです。
+
+
+    中耳の障害で起こるのは、音が内耳まで伝わりにくくなる伝音性難聴です。'
   figures: []
   law_note: null
-  _key_choice: ５騒音性難聴は、中耳の障害による感音性難聴である。
-  _review: true
+  _key_choice: 5騒音性難聴は、中耳の障害による感音性難聴である。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -265,13 +278,12 @@ questions:
   - 硫化鉱や魚油を入れてある貯蔵施設の内部での作業では、酸素欠乏症の危険がある。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 酸素欠乏症が発生したときの救助作業では、救出する労働者に、空気呼吸器・酸素呼吸器又は送気マスクを使用させます。電動ファン付き呼吸用保護具は、周りの空気をろ過して供給するものなので使えません。選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: 酸素欠乏症発生時の救助活動では、救出作業に従事する労働者に電動ファン付き呼吸用保護具、酸素呼吸器又は送気マスクを使用させる。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -299,13 +311,12 @@ questions:
   - ㋥ - ㋑ - ㋩ - ㋺
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 電磁波を波長の短いものから並べると、γ 線（㋩）、可視光線（㋺）、赤外線（㋑）、マイクロ波（㋥）の順です。よって（4）が正しいものです。
   figures: []
   law_note: null
-  _key_choice: ㋩－㋺－㋑－㋥
-  _review: true
+  _key_choice: ハ-ロ-イ-ニ
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -321,17 +332,19 @@ questions:
   - 放射線皮膚炎は、確定的影響であり、かつ、早期障害である。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'β 線は、電子（または陽電子）の流れで、電離作用を有する**粒子線**です。電磁波とする選択肢4は誤りです。
+
+
+    電離放射線のうち、電磁波は X 線と γ 線、粒子線は α 線、β 線、中性子線などです。'
   figures: []
   law_note: null
   _key_choice: β線は、電離作用を有する電磁波である。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
-  - gn-properties-05
+  - gn-properties-07
   rank: null
   summary: null
   stem: 化学物質等の性状及び挙動に関する次の記述のうち、誤っているものはどれか。
@@ -343,17 +356,19 @@ questions:
   - アーク溶接作業で発生するヒュームの主成分は、一般に、酸化鉄である。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '空気中に浮遊する粉じんの沈降速度は、粒径の2乗に比例するので、粒径が小さいほど**遅く**なります。「速くなる」とする選択肢1は誤りです。
+
+
+    細かい粒子ほど空気中に長く漂うので、吸い込まれやすくなります。'
   figures: []
   law_note: null
   _key_choice: 空気中に浮遊する粉じんは、密度が同じであれば粒径が小さくなるほど、沈降速度は速くなる。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
-  - gn-ventilation-05
+  - gn-ventilation-07
   rank: null
   summary: null
   stem: 局所排気装置等に関する次の記述のうち、誤っているものはどれか。
@@ -365,13 +380,15 @@ questions:
   - 空気清浄装置を付設する局所排気装置では、一般に、フードに接続した吸引ダクトと空気清浄装置の間に排風機を設ける。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '空気清浄装置を付設する局所排気装置では、排風機は、一般に、空気清浄装置の**後ろ**（清浄にした空気が通る側）に設けます。フードと空気清浄装置の間に設けると、汚れた空気が排風機を通るので、排風機が粉じんで傷んだり腐食したりするからです。選択肢5は誤りです。
+
+
+    令和元年度第1回 一般 問16でも、「空気清浄装置を付設する局所排気装置では、一般に、排風機は空気清浄装置の後に設ける」という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 空気清浄装置を付設する局所排気装置では、一般に、フードに接続した吸引ダクトと空気清浄装置の間に排風機を設ける。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -387,13 +404,12 @@ questions:
   - 防じんマスクの選定では、顔面とマスクの面体との高い密着性が要求される有害性の高い物質を取り扱う作業については、取替え式のものを選ぶ。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 耳栓の1種は、低音から高音までを遮音するもの、2種は主として高音を遮音し、会話程度の低音を比較的通すものです。選択肢4は、1種と2種が逆になっていて誤りです。
   figures: []
   law_note: null
-  _key_choice: 耳栓の２つのタイプのうち、１種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
-  _review: true
+  _key_choice: 耳栓の2つのタイプのうち、1種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -409,13 +425,16 @@ questions:
   - 防毒マスクのアンモニア用吸収缶は、アンモニアの濃度が低いと触媒作用が緩慢になり、効率が悪い。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '触媒作用で有害ガスを除くのは、一酸化炭素用の吸収缶（ホプカライトなどの触媒で一酸化炭素を酸化する）です。アンモニア用の吸収缶は、薬剤による化学的な吸収でアンモニアを除くもので、「触媒作用が緩慢になる」という説明は当てはまりません。選択肢5は誤りです。
+
+
+    有機ガス用吸収缶は、メタノールや二硫化炭素では破過時間が著しく短くなる（選択肢3）点も、出題されやすい論点です。'
   figures: []
   law_note: null
   _key_choice: 防毒マスクのアンモニア用吸収缶は、アンモニアの濃度が低いと触媒作用が緩慢になり、効率が悪い。
-  _review: true
+  review_note: アンモニア用吸収缶は触媒作用ではなく化学的な吸収による、と説明しています。確認中です。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -431,13 +450,15 @@ questions:
   - 毒素型食中毒は、食物に付着した細菌により産生された毒素によって起こる食中毒で、ボツリヌス菌によるものなどがある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ベロ毒素を産生するのは、O157 などの**腸管出血性大腸菌**（細菌）です。ノロウイルスは毒素を産生しないので、選択肢3は誤りです。
+
+
+    令和4年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: ノロウイルスは、ベロ毒素を産生するウイルスで、腹痛や出血を伴う水様性の下痢などを起こす。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -453,8 +474,10 @@ questions:
   - 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '日本産業衛生学会の許容濃度等の勧告では、ヒトに対する発がん性を、**第1群、第2群A、第2群B の3種類**に分類しています。第3群を加えた4種類とする選択肢5は誤りです。
+
+
+    令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第１群、第２群Ａ、第２群Ｂ及び第３群の４種類に分類されている。
-  _review: true
+  _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。

@@ -1,0 +1,328 @@
+exam: 2015-02
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ロニホ
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 連続する2作業日にわたって測定を行う場合,第1日目と第2日目の単位作業場所の範囲は必ずしも一致している必要はない.
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  - statistics
+  traps:
+  - ds-a-b-measurement-11
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は,有害物質の濃度はほぼ均一であるとみなすことができる.
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の中で最大の測定値を示すと考えられる場所については,労働者が立ち入る可能性がなくてもその場所でB測定を行わなければならない.
+- num: 5
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: n-ヘキサン
+- num: 6
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: AホルムアルデヒドB蒸気
+- num: 7
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: メタノールは,トルエンよりも極性が小さい.
+- num: 8
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 正長石は,遊離けい酸である.
+- num: 9
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A石綿Bガラス繊維ろ紙
+- num: 10
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: シリカゲル管は,極性の小さい蒸気の捕集に適している.
+- num: 11
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ポアサイズ0.8μmのメンブランフィルターは,粒径0.3μmの粒子をほとんど捕集できない.
+- num: 12
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: クロム酸のミストの捕集には,ミゼットインピンジャーを用いることはできない.
+- num: 13
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-09
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 相対濃度計の感度較正には,0.3μmの石英粒子が用いられる.
+- num: 14
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: シアン化水素用検知管によりシアン化水素の濃度を測定する場合には,混在するアンモニアによるプラスの影響を受ける.
+- num: 15
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-08
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 光散乱方式の相対濃度計による測定では,粉じんの発生源の近くでは質量濃度変換係数(K値)は小さく,発生源から離れるにしたがってK値が大きくなる傾向がある.
+- num: 16
+  status: draft
+  chapters:
+  - radiation-sampling
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: イトリチウム化水蒸気ロ天然ウラン
+- num: 17
+  status: draft
+  chapters:
+  - radiation-sampling
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 240分
+- num: 18
+  status: draft
+  chapters:
+  - stats-error
+  - statistics
+  traps:
+  - ds-statistics-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 正規分布では,平均値と標準偏差は互いに従属している.
+- num: 19
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 繊維ろ紙による粒子の捕集では,ろ過流速が速いほど,拡散効果による捕集率は増大する.
+- num: 20
+  status: draft
+  chapters:
+  - evaluation
+  traps:
+  - ds-evaluation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定値及びB測定値のすべてが管理濃度より低ければ,管理区分は必ず第1管理区分になる.

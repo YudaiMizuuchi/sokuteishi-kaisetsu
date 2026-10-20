@@ -1,10 +1,10 @@
 exam: 2019-08
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -20,13 +20,12 @@ questions:
   - 化学物質等の適切な管理について必要な能力を有する者のうちから、化学物質管理者を指名してリスクアセスメント等に関する技術的業務を行わせる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: ハザード（危険性又は有害性）は、労働者に負傷や疾病を生じさせる潜在的な根源です。労働災害発生の可能性と重篤度の組合せは「リスク」の定義なので、選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性（重篤度）の組合せであると定義される。
-  _review: true
+  _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される。
 - num: 2
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -42,13 +41,15 @@ questions:
   - 重量物取扱い作業を2人以上で行う場合、身長差の大きな労働者同士を組み合わせないようにする。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '腰部保護ベルトは、個人により効果が異なるため、全員に一律に使用させるのではなく、個人ごとに効果を確認してから使用の適否を判断します。選択肢3は誤りです。
+
+
+    根拠：職場における腰痛予防対策指針。'
   figures: []
   law_note: null
   _key_choice: 腰部保護ベルトを、全員一律に使用するように指導する。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -64,13 +65,12 @@ questions:
   - トルエンは、代謝され、尿中にトリクロロ酢酸として排泄される。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: トルエンは、代謝されて尿中に**馬尿酸**として排泄されます。トリクロロ酢酸は、トリクロロエチレンなどの代謝物なので、選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: トルエンは、代謝され、尿中にトリクロロ酢酸として排泄される。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -86,13 +86,15 @@ questions:
   - フッ化水素は、細胞内の呼吸酵素の障害による呼吸麻痺などを生じる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '細胞内の呼吸酵素を障害して呼吸麻痺を起こすのは、シアン化水素や硫化水素です。フッ化水素の主な健康障害は、皮膚や粘膜の深い化学熱傷と、慢性の骨や歯の障害なので、選択肢5は誤りです。
+
+
+    令和5年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: フッ化水素は、細胞内の呼吸酵素の障害による呼吸麻痺などを生じる。ひ
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -108,18 +110,18 @@ questions:
   - コールタール ／ 皮膚がん
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'o-フタロジニトリルは、皮膚がんを起こす物質とはされていません。選択肢2は誤りです。
+
+
+    令和6年度第1回にも、同じ組合せの誤りがあります。'
   figures: []
   law_note: null
   _key_choice: ??
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.00）
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -135,13 +137,12 @@ questions:
   - じん肺の呼吸器症状は、喫煙によって悪化する。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 胸膜プラークの主な原因は**石綿**です。遊離けい酸はけい肺の原因なので、選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: 遊離けい酸は、胸膜プラークの主要な原因である。
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -157,13 +158,15 @@ questions:
   - ヒ素中毒では、角化症、黒皮症などの皮膚障害、末梢神経障害などがみられる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '金属熱は、亜鉛や銅などの金属の**ヒュームを吸入**して起こる疾病です。高温により体温調節機能が障害されて起こるもの（熱中症）ではないので、選択肢2は誤りです。
+
+
+    名前に「熱」が付きますが、暑さによる障害ではなく、金属ヒュームを吸い込んだことへの体の反応です。'
   figures: []
   law_note: null
   _key_choice: 金属熱は、鉄、アルミニウムなどの金属を溶融する作業などに長時間従事した際に、高温により体温調節機能が障害を受けたことにより発生する。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
@@ -179,13 +182,12 @@ questions:
   - 酢酸メチルは、骨髄の造血細胞に障害を起こす。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 骨髄の造血細胞を障害する有機溶剤は**ベンゼン**です。酢酸メチルの健康障害として顕著なのは、視神経の障害です。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 酢酸メチルは、骨髄の造血細胞に障害を起こす。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -201,13 +203,15 @@ questions:
   - WBGT 基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、低い値となる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '温度感覚を左右する環境要素は、気温、湿度、**気流**及びふく射熱の四要素です。気圧とする選択肢1は誤りです。
+
+
+    令和3年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 温度感覚を左右する環境要素は、気温、湿度、気圧及びふく射熱であり、この四要素によって温熱環境が定まる。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -223,13 +227,12 @@ questions:
   - 喫煙は、レイノー現象発現の増悪因子である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 局所振動障害は、比較的低い周波数の振動で起こりやすく、1,000 Hz を超えるとほとんど影響しないとされています。4,000 Hz 以上で発生しやすいとする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動周波数が4,000Hz以上の振動で発生しやすい。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -245,13 +248,15 @@ questions:
   - 騒音のA測定の平均の値の算定には 80 dB(A)未満の測定値は含めない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '等価騒音レベルは、変動する騒音のエネルギーを時間で平均した値です。特定の周波数の音圧レベルの平均値ではないので、選択肢4は誤りです。
+
+
+    令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 等価騒音レベルは、変動する騒音のある時間範囲について、1,000、2,000、4,000、8,000Hzの音圧レベルの平均値として表した量である。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
@@ -267,13 +272,12 @@ questions:
   - 空気中の酸素濃度が 16％程度以下になると、頭痛、吐き気などの自覚症状が現れ、10％程度以下になると、意識喪失やけいれんが現れる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 硫化鉱や魚油を入れてある貯蔵施設の内部は、酸化によって酸素が消費されるため酸素欠乏症の危険がある場所ですが、硫化水素中毒の危険はありません。選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: 硫化鉱や魚油を入れてある貯蔵施設の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -289,13 +293,15 @@ questions:
   - 紫外線は、可視光線より波長が短い電磁波で、電気性（電光性）眼炎を起こすことがある。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'マイクロ波は、紫外線より波長が**長い**電磁波です。「紫外線より波長が短い」とする選択肢1は誤りです。
+
+
+    電磁波の並びは、波長の短い方から、γ 線・X 線、紫外線、可視光線、赤外線、マイクロ波、電波です。'
   figures: []
   law_note: null
   _key_choice: マイクロ波は、紫外線より波長が短い電磁波で、組織壊死を起こすことえがある。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation-effects
   traps:
@@ -311,13 +317,15 @@ questions:
   - 電離放射線の被ばくによる生体影響は、遺伝的影響と身体的影響に大きく分類される。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '生殖器障害（無精子症、不妊）は、しきい値がある**確定的影響**です。確率的影響とする選択肢3は誤りです。
+
+
+    確率的影響は、がんと遺伝的影響です。'
   figures: []
   law_note: null
-  _key_choice: 生殖器障害（無精子症、不妊）は、確率的影響であり、かつ、晩発障害である。
-  _review: true
+  _key_choice: 生殖器障害(無精子症、不妊)は、確率的影響であり、かつ、晩発障害である。
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -333,13 +341,12 @@ questions:
   - ミストの粒径は、一般に、ヒュームの一次粒子の粒径よりも大きい。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 有機溶剤の蒸気は、ほとんどが空気より分子量が大きく、密度が空気より**大きい**ので、低いところにたまりやすくなります。「空気より密度が小さい」とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: 有機溶剤の蒸気は、空気より密度が小さいため、拡散しやすい。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -355,13 +362,12 @@ questions:
   - 囲い式フードの制御風速とは、フード開口面における最小風速をいう。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: フードの開口部の周囲にフランジを付けると、余計な方向から空気を吸い込まなくなるので、必要な排風量を**少なく**できます。「大きな排風量が必要となる」とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -377,13 +383,15 @@ questions:
   - 防じんマスクの面体の接顔部に、接顔メリヤスを使用すると、マスクと顔面との密着性が低下する。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '耳栓の1種は、低音から高音までを遮音するもの、2種は主として高音を遮音し、会話程度の低音を比較的通すものです。選択肢4は、1種と2種が逆になっていて誤りです。
+
+
+    令和元年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: 耳栓の２つのタイプのうち、１種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
-  _review: true
+  _key_choice: 耳栓の2つのタイプのうち、1種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -399,13 +407,15 @@ questions:
   - 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '有機ガス用吸収缶の活性炭による吸着は、温度が低いほど起こりやすいので、使用する環境の温度が**高い**ほど破過時間は短くなります。「温度が低いほど短くなる」とする選択肢5は誤りです。
+
+
+    令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -421,13 +431,12 @@ questions:
   - 低体温症は、低温下の作業で全身が冷やされ、体の中心部の温度が 35 ℃程度以下に低下した状態をいい、意識消失、筋の硬直などの症状がみられる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: ベロ毒素を産生するのは、腸管出血性大腸菌（細菌）です。ノロウイルスは毒素を産生しないので、選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: ノロウイルスは、ベロ毒素を産生するウイルスで、腹痛や出血を伴う水様性の下痢などを起こす。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -443,10 +452,7 @@ questions:
   - 許容濃度等の勧告における発がん性分類表で「第1群」とされた物質は、ヒトに対して発がん性があると判断できる物質である。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 日本産業衛生学会の許容濃度は、経皮吸収がないことを前提に定められた数値です。「経皮吸収を考慮して定められている」とする選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: である。
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.08）

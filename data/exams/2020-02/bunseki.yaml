@@ -1,10 +1,10 @@
 exam: 2020-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -20,14 +20,16 @@ questions:
   - 原子量は、¹²C の質量を基準として定められている。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'アボガドロ定数は、¹²C（炭素12）**12 g** に含まれる原子の数をもとに定められた値です。天然の炭素には ¹³C なども含まれるので、「天然の炭素 12 g」とする選択肢4は誤りです。
+
+
+    なお、2019年の SI の改定で、アボガドロ定数は 6.02214076 × 10²³ mol⁻¹ という定義値になりました。'
   figures: []
   law_note: null
   _key_choice: アボガドロ定数は、天然の炭素12gに含まれる原子数と同じである。
   _stem_head: 次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -46,15 +48,14 @@ questions:
   - '234'
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 足し算では、小数点以下の桁数が最も少ないものに合わせます。最も少ないのは 201.4 と 23.7 の小数点以下1桁なので、合計 234.0793 も小数点以下1桁に丸めて **234.1** とします。よって（4）が正しいものです。
   figures: []
   law_note: null
   _key_choice: '234.1'
-  _stem_head: 次の５つの数値の合計を有効数字で表した場合、正しいものは下のうちどれか。数値：201.423.75.752.470.7593
-  _review: true
+  _stem_head: 次の5つの数値の合計を有効数字で表した場合、正しいものは下のうちどれか。数値:201.423.75.752.470.7593
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -70,17 +71,16 @@ questions:
   - 0.5倍になる ／ 0.5倍になる
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 圧力が一定なら、体積は絶対温度に比例するので、温度を2倍にすると体積は**2倍**（シャルルの法則）です。温度が一定なら、体積は圧力に反比例するので、圧力を2倍にすると体積は**0.5倍**（ボイルの法則）です。よって（2）が正しい組合せです。
   figures: []
   law_note: null
-  _key_choice: ２倍になる0.5倍になる
-  _stem_head: 理想気体の体積に関する次の記述の㋑及び㋺のに入る語句の組合せとして、正しいものは下のうちどれか。「圧力一定では、絶対温度を２倍にすると体積は
+  _key_choice: 2倍になる0.5倍になる
+  _stem_head: 理想気体の体積に関する次の記述のイ及びロのに入る語句の組合せとして、正しいものは下のうちどれか。「圧力一定では、絶対温度を2倍にすると体積はイ。また、温度一定で圧力を2倍にすると体積はロ。」イロ
   columns:
   - ㋑
   - ㋺
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -92,18 +92,17 @@ questions:
   - アルコールは、-OH 基をもっている。
   - カルボン酸は、-COOH 基をもっている。
   - アルデヒドは、-CN 基をもっている。
-  - ケトンは、 CO 基をもっている。
+  - ケトンは、＞C＝O 基をもっている。
   - 第一アミンは、-NH₂ 基をもっている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: アルデヒドがもつのは、-CHO 基（アルデヒド基）です。-CN 基はニトリルの官能基なので、選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: アルデヒドは、-CN基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   traps:
@@ -128,14 +127,16 @@ questions:
   - 平衡定数は、温度に依存する。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '平衡定数は、温度が決まれば一定の値で、反応を始めたときの物質の濃度比には依存しません。選択肢4は誤りです。
+
+
+    始めの濃度が違っても、平衡に達すれば、平衡定数の式の値は同じになります。平衡定数を変えるのは温度だけです（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: 平衡定数は、反応開始時の物質の濃度比に依存する。
-  _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。A＋BC＋q（qは熱エネルギーでq＜０）た
-  _review: true
+  _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。A+BC+q(qは熱エネルギーでq<0)ただし、平衡定数は次の式で表される。平衡定数=\[C\]\[A\]\[B\]
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -144,6 +145,9 @@ questions:
   rank: null
   summary: null
   stem: '有機化合物Aを 0.050 g 含む水溶液 100 mL にヘキサン 5 mL を加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は 0.045 g であった。有機化合物Aの水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次の式で表される。
+
+
+    分配係数 ＝ [A]<sub>ヘキサン相</sub> ÷ [A]<sub>水相</sub>
 
 
     分配係数 ＝ [A]<sub>ヘキサン相</sub> ÷ [A]<sub>水相</sub>'
@@ -155,14 +159,22 @@ questions:
   - '210'
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ヘキサン層に移った A は 0.045 g、水に残った A は 0.005 g です。
+
+
+    [A]ヘキサン相 ＝ 0.045 ÷ 5 ＝ 0.009 g/mL、[A]水相 ＝ 0.005 ÷ 100 ＝ 0.00005 g/mL
+
+
+    分配係数 ＝ 0.009 ÷ 0.00005 ＝ 180
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: '180'
-  _stem_head: 有機化合物Ａを0.050g含む水溶液100mLにヘキサン
-  _review: true
+  _stem_head: 有機化合物Aを0.050g含む水溶液100mLにヘキサン5mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は0.045gであった。有機化合物Aの水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次の
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -178,14 +190,16 @@ questions:
   - 同じ容量のホールピペットとメスピペットでは、一般に、メスピペットの方が許容誤差は大きく設定されている。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'メスフラスコは、標線まで入れたときの中身の体積が正しくなるように作られた「受用」の体積計なので、容量の検定は、標線まで入れた水の質量と温度で行います。排出した水で量るとする選択肢2は誤りです。
+
+
+    令和6年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -201,14 +215,13 @@ questions:
   - 石けん膜流量計の校正は、ロータメーターを用いて行う。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 石けん膜流量計は、石けん膜が一定の体積を通過する時間を測って流量を求めるもので、それ自体が流量の基準になります。他の流量計（ロータメーターなど）の校正に石けん膜流量計を使うのであって、石けん膜流量計をロータメーターで校正するのではありません。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 石けん膜流量計の校正は、ロータメーターを用いて行う。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -224,14 +237,17 @@ questions:
   - イオン交換水の純度の指標として、比抵抗値（Ω･cm）が用いられる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '金属製の蒸留器では、金属イオンが溶け出すおそれがあります。高純度の蒸留水を得るには、石英ガラスなどの容器を用います。「金属製の蒸留器を用いる」とする選択肢1は誤りです。
+
+
+    令和7年度第2回にも、金属製やガラス製の蒸留装置からはイオンの溶出がある、という記述があります。'
   figures: []
   law_note: null
   _key_choice: 高純度の蒸留水を得るためには、ガラス製ではなく金属製の蒸留器を用いる。
   _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
-  _review: true
+  review_note: 高純度の蒸留水を得るには石英ガラスなどの容器を用いる、と説明しています。確認中です。
 - num: 10
-  status: draft
+  status: published
   chapters:
   - quantification
   traps:
@@ -247,14 +263,16 @@ questions:
   - 内標準法における内標準物質は、測定対象物質と物理的、化学的によく似た性質の物質を用いる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '検量線が直線にならないときは、直線となる濃度範囲で検量線を作るか、試料を希釈して直線範囲に収めます。標準添加法は、検量線が直線であることを前提とする方法なので、直線にならないときに用いるのは誤りです。選択肢4は誤りです。
+
+
+    令和7年度第1回にも、標準添加法は検量線が直線であることが前提、という記述があります。'
   figures: []
   law_note: null
   _key_choice: 検量線が直線にならないときは、標準添加法を用いる。
   _stem_head: 検量線に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -271,14 +289,22 @@ questions:
   - 8.0 × 10⁻³ mol･L⁻¹
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '混合した酸と塩基の物質量を比べ、余った分の濃度を求めます。
+
+
+    HCl ＝ 1.0 × 10⁻² × 0.020 ＝ 2.0 × 10⁻⁴ mol、NaOH ＝ 1.0 × 10⁻² × 0.0050 ＝ 0.5 × 10⁻⁴ mol
+
+
+    余る H⁺ ＝ 1.5 × 10⁻⁴ mol、溶液は 25 mL なので、[H⁺] ＝ 1.5 × 10⁻⁴ ÷ 0.025 ＝ 6.0 × 10⁻³ mol/L
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6.0×10-３mol･L-１
-  _stem_head: 濃度1.0×10-２mol･L-１の塩酸20mLと濃度1.0×10-２mol･L-１の水酸化ナトリウム水溶液5.0mLとを混合した溶液の水素
-  _review: true
+  _key_choice: 6.0×10-3mol・L-1
+  _stem_head: 濃度1.0×10-2mol・L-1の塩酸20mLと濃度1.0×10-2mol・L-1の水酸化ナトリウム水溶液5.0mLとを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -295,16 +321,16 @@ questions:
   - メタンの3倍の物質量である。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'メタンの完全燃焼は CH₄ ＋ 2O₂ → CO₂ ＋ 2H₂O なので、消費される酸素の物質量はメタンの**2倍**です。よって（4）が正しいものです。
+
+
+    令和2年度第2回では、同じ反応式から生成する二酸化炭素（等倍）が問われています。'
   figures: []
   law_note: null
   _key_choice: に関する次の記述のうち、正しいものはどれか。
-  _stem_head: 空気中でメタン（CH）を完全燃焼させたときに、消費された酸素の物質量
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.12）
+  _stem_head: 空気中でメタン(CH)を完全燃焼させたときに、消費された酸素の物質量4に関する次の記述のうち、正しいものはどれか。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -321,14 +347,13 @@ questions:
   - 吸光度の測定は、通常、極大吸収波長で行う。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 透過率は、光路長が長くなると指数的に減少し、光路長に比例するわけではありません。光路長に比例するのは吸光度です。選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 透過率は、試料セルの光路長に比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -345,14 +370,19 @@ questions:
   - 3.0 × 10⁴ mol⁻¹･L･cm⁻¹
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則から、
+
+
+    ε ＝ A ÷ (c × l) ＝ 0.360 ÷ (3.0 × 10⁻⁵ × 2.0) ＝ 6.0 × 10³ L・mol⁻¹・cm⁻¹
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 6.0×10
-  _stem_head: 物質Ａの濃度が3.0×10-５mol･L-１の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.36
-  _review: true
+  _stem_head: 物質Aの濃度が3.0×10-5mol・L-1の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.360であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -368,14 +398,16 @@ questions:
   - 中空陰極ランプは、光源として用いられる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '原子吸光分析法で光を吸収するのは、**基底状態**の原子です。励起状態の原子とする選択肢1は誤りです。
+
+
+    令和2年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 光の吸収は、励起状態の原子によって生じる。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -391,14 +423,13 @@ questions:
   - 溶媒には、紫外部に強い吸収を持つ液体を用いる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 蛍光光度分析法の溶媒には、紫外部に吸収の**少ない**液体を用います。溶媒が励起光を吸収してしまうと、試料に届く励起光が弱くなり、測定ができなくなるからです。「紫外部に強い吸収を持つ液体を用いる」とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 溶媒には、紫外部に強い吸収を持つ液体を用いる。
   _stem_head: 作業環境測定における蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -414,17 +445,16 @@ questions:
   - 光イオン化検出器（PID） ／ 芳香族炭化水素化合物
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 電子捕獲検出器（ECD）は、ハロゲンを含む化合物など、電子を捕らえやすい化合物に高い感度をもつ検出器で、脂肪族炭化水素の検出には適しません。（3）が不適切です。
   figures: []
   law_note: null
-  _key_choice: 電子捕獲検出器（ECD）脂肪族炭化水素化合物
-  _stem_head: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  _key_choice: 電子捕獲検出器(ECD)脂肪族炭化水素化合物
+  _stem_head: ガスクロマトグラフ分析に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -440,14 +470,16 @@ questions:
   - 保持時間は2倍になる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'カラムの長さを2倍にすると、ピーク幅は理論段数の平方根に関係するので、**√2 倍**にしかなりません。「2倍になる」とする選択肢3は誤りです。
+
+
+    令和2年度第2回・令和5年度第2回・令和7年度第1回にも、同じ型の問題があります。'
   figures: []
   law_note: null
-  _key_choice: ピーク幅は２倍になる。
-  _stem_head: ガスクロマトグラフ分析法において、カラムの長さを２倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
-  _review: true
+  _key_choice: ピーク幅は2倍になる。
+  _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -463,14 +495,16 @@ questions:
   - X線の回折角の測定には、ゴニオメーターを用いる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法で回折線の強度から定量するときは、試料の量が多いと試料自身による X 線の吸収（質量吸収）の影響を受けるので、試料量によっては質量吸収の補正が必要です。「試料量の多少にかかわらず補正は必要としない」とする選択肢2は誤りです。
+
+
+    内標準物質を混ぜて質量吸収係数の影響をなくす方法（令和7年度第2回）も、この補正の一つです。'
   figures: []
   law_note: null
   _key_choice: 測定試料量の多少にかかわらず、質量吸収補正は必要としない。
-  _stem_head: Ｘ線回折分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
+  _stem_head: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -486,9 +520,11 @@ questions:
   - 自発核分裂では、複数の原子核に分裂する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '軌道電子捕獲では、原子核が軌道電子を取り込んで陽子が中性子に変わるので、原子番号は1つ**減少**します。「増加する」とする選択肢3は誤りです。
+
+
+    令和3年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 軌道電子捕獲では、原子番号は１つ増加する。
+  _key_choice: 軌道電子捕獲では、原子番号は1つ増加する。
   _stem_head: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
-  _review: true

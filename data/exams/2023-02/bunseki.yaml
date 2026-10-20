@@ -26,7 +26,7 @@ questions:
     令和6年度第2回にも、同じ換算の問題があります。'
   figures: []
   law_note: null
-  _key_choice: 濃度1.0µmol･g-１は、1.0mol･kg-１である。
+  _key_choice: 濃度1.0μmol・g-1は、1.0mol・kg-1である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
   status: published
@@ -53,7 +53,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 偶然系統減少
-  _stem_head: 誤差に関する次の記述の㋑から㋩のに入る語句の組合せとして、正しいものは下のうちどれか。「誤差には、反復測定において、予測が不可能な変化をする
+  _stem_head: 誤差に関する次の記述のイからハのに入る語句の組合せとして、正しいものは下のうちどれか。「誤差には、反復測定において、予測が不可能な変化をするイ誤差と、一定のままであるか又は予測可能な変化をするロ誤差がある。通常、イ誤差は正規分布に従い、繰り
   columns:
   - ㋑
   - ㋺
@@ -82,7 +82,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: PV=nRT
-  _stem_head: n(mol)の理想気体の圧力P(atm)、体積V(L)、温度T(K)の間に成立する関係式として正しいものはどれか。ただし、気体定数Rは0.0
+  _stem_head: n(mol)の理想気体の圧力P(atm)、体積V(L)、温度T(K)の間に成立する関係式として正しいものはどれか。ただし、気体定数Rは0.08206atm・L・K-1・mol-1とする。
 - num: 4
   status: published
   chapters:
@@ -113,7 +113,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 0.6気圧
-  _stem_head: 一酸化炭素84gと二酸化炭素88gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。ただし
+  _stem_head: 一酸化炭素84gと二酸化炭素88gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。ただし、炭素及び酸素の原子量は、それぞれ12及び16とする。
 - num: 5
   status: published
   chapters:
@@ -142,7 +142,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '1.7'
-  _stem_head: pH1.0の硝酸溶液を水で５倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log102
+  _stem_head: pH1.0の硝酸溶液を水で5倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log102=0.301とする。pH=-log10[H+]なお、式中の[H+]は水素イオンのモル濃度を表す。
 - num: 6
   status: published
   chapters:
@@ -176,8 +176,8 @@ questions:
     よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 10.5％
-  _stem_head: 質量パーセント濃度が20.0％の塩酸（密度1.10g･cm-３）50.0mLに、精製水（密度1.00g･cm-３）50.0mLを加え、希釈し
+  _key_choice: 10.5%
+  _stem_head: 質量パーセント濃度が20.0%の塩酸(密度1.10g・cm-3)50.0mLに、精製水(密度1.00g・cm-3)50.0mLを加え、希釈した。この塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
 - num: 7
   status: published
   chapters:
@@ -252,7 +252,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 水酸化カルシウム乾燥剤
-  _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 化学物質Aとその使用例Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -310,8 +310,8 @@ questions:
     よって（2）が正しい値です。六水和物の式量は使いません。'
   figures: []
   law_note: null
-  _key_choice: ･６H
-  _stem_head: 塩化コバルト(Ⅱ)六水和物（CoCl
+  _key_choice: ・6H
+  _stem_head: 塩化コバルト(II)六水和物(CoCl2・6H2O)を水に溶解して、塩化コバルトの濃度1.00×10-4mol・L-1の溶液を調製した。この水溶液1.00mLに含まれるコバルトの質量として正しい値は次のうちどれか。ただし、Coの原子量は58
 - num: 12
   status: published
   chapters:
@@ -390,8 +390,8 @@ questions:
     よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: mol-１･L･cm-１
-  _stem_head: 物質Ａの濃度が2.0×10-５mol･L-１の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.48
+  _key_choice: mol-1・L・cm-1
+  _stem_head: 物質Aの濃度が2.0×10-5mol・L-1の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.480であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
 - num: 15
   status: published
   chapters:
@@ -415,7 +415,7 @@ questions:
     令和5年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: As(Ⅲ)やSb(Ⅲ)は、水素化ホウ素ナトリウムで原子化できる。
+  _key_choice: As(III)やSb(III)は、水素化ホウ素ナトリウムで原子化できる。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
   status: published
@@ -492,8 +492,8 @@ questions:
   - file: 2023-02-bunseki-18-choices.png
     alt: 問18の選択肢
   law_note: null
-  _key_choice: Ｈ=Ａｖ+Ｂｖ+ＣＨ_=_Ａ_\+_Ｂｖ_\+_ＣＨ=Ａｖ+Ｂ+ＣｖＨ_=_Ａｖ_\+_Ｂ_\+_ＣｖＨ=Ａ+Ｂｖ+Ｃｖ
-  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さＨを表す式として、正しいものは次のうちどれか。ただし、右辺の第１項はカラム内の渦流拡散に起因
+  _key_choice: H=Av+Bv+CH_=_A_\+_Bv_\+_CH=Av+B+CvH_=_Av_\+_B_\+_CvH=A+Bv+Cv
+  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、右辺の第1項はカラム内の渦流拡散に起因する項、第2項は成分分子がカラム中で拡散移動することに起因する項、第3項は移動相と固定相間の平衡の遅
   columns: null
 - num: 19
   status: published
@@ -518,8 +518,8 @@ questions:
     繰り返し出題されている、X 線回折の定番の罠です。'
   figures: []
   law_note: null
-  _key_choice: Ｘ線検出器は、Ｘ線のスペクトル分析ができるものでなければならない。
-  _stem_head: 作業環境測定におけるＸ線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
+  _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
   status: published
   chapters:
@@ -544,7 +544,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: β+壊変陽子
-  _stem_head: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ

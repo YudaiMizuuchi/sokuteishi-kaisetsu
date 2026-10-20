@@ -1,10 +1,10 @@
 exam: 2019-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -20,17 +20,16 @@ questions:
   - 電気量（電荷） ／ C
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: アボガドロ定数の単位は **mol⁻¹** です。mol とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: アボガドロ定数mol
-  _stem_head: 物理量及び物理定数ⒶとそのSI単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 物理量及び物理定数AとそのSI単位記号Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -49,14 +48,22 @@ questions:
   - 172.1680 g･mol⁻¹
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '原子量を足し合わせるときは、小数点以下の桁数が最も少ないものに合わせます。
+
+
+    40.08 ＋ 32.06 ＋ 15.9994 × 6 ＋ 1.0079 × 4 ＝ 40.08 ＋ 32.06 ＋ 95.9964 ＋ 4.0316 ＝ 172.1680
+
+
+    小数点以下の桁数が最も少ないのは、Ca と S の小数点以下2桁なので、結果も小数点以下2桁に丸めて **172.17 g/mol** です。よって（3）が正しいものです。
+
+
+    令和6年度第1回にも、同じ型の問題があります。'
   figures: []
   law_note: null
-  _key_choice: 172.17g･mol-１
-  _stem_head: CaSO
-  _review: true
+  _key_choice: 172.17g・mol-1
+  _stem_head: CaSO4・2H2Oのモル質量を有効数字で表した場合、正しいものは下のうちどれか。ただし、各元素の原子量は次のとおりとする。Ca40.08S32.06O15.9994H1.0079
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -72,14 +79,13 @@ questions:
   - 温度と体積の両方を2倍にすると、圧力は2倍になる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 理想気体の圧力は、絶対温度に比例し、体積に反比例します（P ＝ nRT／V）。温度と体積の両方を2倍にすると、圧力は 2 ÷ 2 ＝ 1 倍で、**変わりません**。「2倍になる」とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 温度と体積の両方を２倍にすると、圧力は２倍になる。
-  _stem_head: null
-  _review: true
+  _key_choice: 温度と体積の両方を2倍にすると、圧力は2倍になる。
+  _stem_head: 1molの理想気体に関する次の記述のうち、誤っているものはどれか。ただし、温度は絶対温度(熱力学温度)で表している。
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -91,18 +97,20 @@ questions:
   - エタノールは、-OH 基をもっている。
   - 酢酸は、-COOH 基をもっている。
   - ベンゼンは、-CH₃ 基をもっている。
-  - アセトンは、 C = O 基をもっている。
+  - アセトンは、＞C＝O 基をもっている。
   - アニリンは、-NH₂ 基をもっている。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ベンゼンは、炭素6個と水素6個からなる環状の炭化水素で、-CH₃ 基（メチル基）はもっていません。選択肢3は誤りです。
+
+
+    -CH₃ 基をもつのは、ベンゼン環にメチル基が付いたトルエンです。'
   figures: []
   law_note: null
   _key_choice: ベンゼンは、-CH基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -119,14 +127,19 @@ questions:
   - 3.2 mL
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'pH 1.0 の塩酸の濃度は 0.10 mol/L です。薄めても塩化水素の物質量は変わらないので、
+
+
+    必要な濃塩酸 ＝ 0.10 mol/L × 200 mL ÷ 12 mol/L ≒ 1.7 mL
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 1.7mL
-  _stem_head: 濃塩酸（12mol･L-１）を水で希釈してpHが1.0となる溶液200mLをつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次の
-  _review: true
+  _stem_head: 濃塩酸(12mol・L-1)を水で希釈してpHが1.0となる溶液200mLをつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次のうちどれか。
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -143,14 +156,22 @@ questions:
   - 6 mol･L⁻¹
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '溶液 1 L（1,000 cm³）について考えます。
+
+
+    溶液の質量 ＝ 1,000 × 1.20 ＝ 1,200 g、NaOH の質量 ＝ 1,200 × 0.20 ＝ 240 g
+
+
+    モル濃度 ＝ 240 ÷ 40.0 ＝ 6 mol/L
+
+
+    よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: ６mol･L-１
-  _stem_head: 質量パーセント濃度20％の水酸化ナトリウム溶液の密度は1.20g･cm-３である。この溶液のモル濃度として、正しい値は次のうちどれか。ただし
-  _review: true
+  _key_choice: 6mol・L-1
+  _stem_head: 質量パーセント濃度20%の水酸化ナトリウム溶液の密度は1.20g・cm-3である。この溶液のモル濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g・mol-1とする。
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -166,14 +187,16 @@ questions:
   - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らないようにする。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'アセチレンは、銅と反応して爆発性の銅アセチリドを作るので、配管に純度の高い銅管を使ってはいけません。選択肢3は誤りです。
+
+
+    液体の二酸化炭素を取り出すにはサイフォン管付き容器を使う、酸素の容器は黒色、などの高圧ガスの決まりもあわせて出題されます。'
   figures: []
   law_note: null
   _key_choice: アセチレンの配管には、純度の高い銅管を用いる。
   _stem_head: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
@@ -189,14 +212,16 @@ questions:
   - 標準ガスの濃度は、拡散セルの拡散チューブの内径が大きいほど高くなる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '標準ガスの濃度の微調整は、拡散セルの温度を変えるよりも、希釈空気の流量を変える方が短時間で行えます。温度を変えても、セルの温度が安定するまで時間がかかるからです。選択肢3は、逆になっていて誤りです。
+
+
+    令和2年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 標準ガスの濃度の微調整は、希釈空気の流量を変えるよりも拡散セルの温度を変える方が、短時間で行うことができる。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -212,14 +237,16 @@ questions:
   - 濃硝酸は、酸化力を有する。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '金属塩化物の中には、塩化銀（AgCl）や塩化鉛（PbCl₂）のように、水に溶けにくいものがあります。「全て水によく溶ける」とする選択肢3は誤りです。
+
+
+    塩化銀が水に溶けにくいことは、塩化ナトリウムによる硝酸銀溶液の標定（沈殿滴定）にも使われています。'
   figures: []
   law_note: null
   _key_choice: 金属塩化物は、全て水によく溶ける。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -235,14 +262,13 @@ questions:
   - 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 検知管は、試料空気の吸引が終わったら、**速やかに**濃度を読み取ります。「所定の時間経過後に読み取る」とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。
   _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -259,14 +285,19 @@ questions:
   - 8.0 × 10⁻² mol･L⁻¹
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '中和の量的関係から求めます。HCl と NaOH は 1：1 で反応するので、
+
+
+    塩酸の濃度 ＝ 2.0 × 10⁻¹ × 10 ÷ 50 ＝ 4.0 × 10⁻² mol/L
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 4.0×10-２mol･L-１
-  _stem_head: 塩酸溶液50mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0×10-１mol･L-１）で滴定したところ、終点までに要し
-  _review: true
+  _key_choice: 4.0×10-2mol・L-1
+  _stem_head: 塩酸溶液50mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10-1mol・L-1)で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は10mLであった。塩酸溶液の濃度として、正しい値は次のうちどれか。
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -283,14 +314,13 @@ questions:
   - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 炭酸ナトリウムは、塩酸や硫酸などの**酸**の標定に用いる標準物質です。アルカリ溶液の標定に用いるとする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -307,14 +337,19 @@ questions:
   - '0.9'
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '透過光の強さが20％減少したので、透過率は 80 ％（T ＝ 0.8）です。
+
+
+    A ＝ −log 0.8 ＝ −(log 8 − log 10) ＝ −(0.903 − 1) ≒ 0.097
+
+
+    よって、最も近いのは 0.1 です。'
   figures: []
   law_note: null
   _key_choice: '0.1'
-  _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは20％減少した。このときの吸光度として正しい値に最も近いものは次のうちどれ
-  _review: true
+  _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは20%減少した。このときの吸光度として正しい値に最も近いものは次のうちどれか。ただし、log108=0.903とする。
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
@@ -330,14 +365,13 @@ questions:
   - モル吸光係数の単位は、mol･L⁻¹ cm である。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: モル吸光係数の単位は **L・mol⁻¹・cm⁻¹** です。mol・L⁻¹・cm とする選択肢5は、逆数になっていて誤りです。
   figures: []
   law_note: null
-  _key_choice: モル吸光係数の単位は、mol･L-１cmである。
+  _key_choice: モル吸光係数の単位は、mol・L-1cmである。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -353,14 +387,16 @@ questions:
   - 中空陰極ランプの陰極は、分析する金属又はその金属を含んだ合金でつくられる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'バーナーヘッドのスリットは、光路と**平行**な向きにしたときに、光が原子の層を通る距離（吸収層の長さ）が最も長くなり、感度が最も高くなります。直角方向とする選択肢4は誤りです。
+
+
+    吸収層が長いほど吸光度が大きくなる（令和元年度第2回）ことから考えれば、向きを判断できます。'
   figures: []
   law_note: null
   _key_choice: バーナーヘッドのスリットの向きを光路と直角方向にしたときに感度が最も高くなる。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -376,14 +412,13 @@ questions:
   - 溶存酸素は、蛍光強度を増加させる。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 溶存酸素は、励起された分子からエネルギーを奪い、蛍光を弱める（消光する）働きがあります。「蛍光強度を増加させる」とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 溶存酸素は、蛍光強度を増加させる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -399,14 +434,13 @@ questions:
   - 質量分析器（MS）は、分子構造に関する情報も得ることができる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 炎光光度検出器（FPD）は、硫黄やリンを含む化合物に感度の高い検出器で、飽和炭化水素の測定には適しません。選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 炎光光度検出器（FPD）は、飽和炭化水素化合物の測定に適している。
+  _key_choice: 炎光光度検出器(FPD)は、飽和炭化水素化合物の測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -422,16 +456,19 @@ questions:
   - 図の5
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '理論段相当高さは、ファン・デームター式 H ＝ A ＋ B/v ＋ Cv で表されます。第2項（分子の拡散）は流速 v に反比例、第3項（平衡の遅れ）は v に比例します。よって（4）が正しい式です。
+
+
+    令和4年度第2回にも、同じ問題があります。'
   figures:
   - file: 2019-08-bunseki-18-choices.png
     alt: 問18の選択肢
   law_note: null
   _key_choice: ??
-  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さＨを表す式として、正しいものは次のうちどれか。ただし、式中の第１項はカラム内での渦流拡散に起
+  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、式中の第1項はカラム内での渦流拡散に起因する定数A、第2項は成分分子がカラム中で進行方向に拡散移動することに起因する項、第3項は移動相と固
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -447,14 +484,13 @@ questions:
   - この分析法は、X線の回折角度及び回折線強度の測定により行われる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 作業環境測定の X 線回折分析法では、フィルターに捕集した試料を、酸で溶かしたりせずに**そのまま**測定します。選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: フィルターに採取した試料は、酸で溶解してから測定する。
-  _stem_head: 作業環境測定におけるＸ線回折分析法に関する次の記述のうち、誤っているものはどれか。
-  _review: true
+  _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -470,14 +506,11 @@ questions:
   - 軌道電子捕獲 ／ 光子
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: β⁺ 壊変で放出されるのは、陽子ではなく**陽電子**です。選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: Heの原子核
-  _stem_head: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子又は素粒子Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子又は素粒子Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.17）

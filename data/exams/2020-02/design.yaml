@@ -1,10 +1,10 @@
 exam: 2020-02
 date: null
 subject: design
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -20,13 +20,18 @@ questions:
   - 300 mg･m⁻³
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ppm を mg/m³ に直すときは、ppm に分子量を掛けて 24.45 で割ります。メチルエチルケトン（CH₃COC₂H₅）の分子量は 72.1 です。
+
+
+    C [mg/m³] ＝ 50 × 72.1 ÷ 24.45 ≒ 147
+
+
+    よって、最も近いのは 150 mg/m³ です。'
   figures: []
   law_note: null
   _key_choice: 150mg・m-3
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - unit-workplace
   traps:
@@ -42,13 +47,15 @@ questions:
   - 有機溶剤の発散状況が時間帯によって異なることが明らかな場合は、それぞれの時間帯ごとに別の単位作業場所として設定する。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '単位作業場所は、有害物質の濃度分布と労働者の行動範囲から決めるもので、保護具の使用状況や作業時間の長さは考慮しません。「考慮する必要がある」とする選択肢1は誤りです。
+
+
+    連続する2作業日に測定する場合は、2日とも同じ範囲の単位作業場所で測ります（選択肢2）。範囲が違うと、2日分の結果をまとめて評価できないからです。'
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の保護具の使用状況や作業時間の長さなども考慮する必要がある。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   - statistics
@@ -65,13 +72,15 @@ questions:
   - 単位作業場所における有害物質の濃度がほぼ均一であることが明らかなときは、測定点の間隔は、6 m を超える等間隔で引いた縦の線と横の線との交点としてもよい。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '有害物質の濃度がほぼ均一であるとみなせるのは、過去の測定で幾何標準偏差がおおむね **1.2 以下**であることが明らかな場合です。1.5 以下とする選択肢3は誤りです。
+
+
+    濃度がほぼ均一なら、測定点の間隔を6 m を超える等間隔にでき（選択肢5）、単位作業場所が著しく狭ければ測定点を5未満にもできます（選択肢4）。'
   figures: []
   law_note: null
   _key_choice: 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は、有害物質の濃度はほぼ均一であるとみなすことができる。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -87,13 +96,15 @@ questions:
   - 相対濃度指示方法を用いてB測定を行う場合の質量濃度変換係数は、その単位作業場所で行われた併行測定の質量濃度変換係数を用いる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '検知管を10分間に均等な間隔で5本使って B 測定を行った場合は、5本の指示値の**算術平均値**を B 測定値とします。幾何平均値とする選択肢4は誤りです。
+
+
+    短時間の測定を積み上げて「10分間の値」を求めるときは、算術平均をとります。圧電天秤方式で2分間の測定を5回行う場合も同じです。'
   figures: []
   law_note: null
   _key_choice: 5本の検知管を用いてB測定を行った場合は、10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -124,13 +135,15 @@ questions:
   - ㋩ ㋭
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '常温・常圧で液体の水銀（㋩）と硫酸ジメチル（㋭）は、蒸気として存在します。エチレンオキシド（沸点約 11℃）、塩化ビニル（約 −13℃）、フッ化水素（約 20℃）は、25℃では気体（ガス）です。よって（5）が正しい組合せです。
+
+
+    フッ化水素は沸点がほぼ常温なので迷いやすいですが、25℃では沸点を超えているのでガスです。'
   figures: []
   law_note: null
   _key_choice: ハホ
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -146,13 +159,15 @@ questions:
   - ジクロロメタン
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ジクロロメタンは沸点が約 40℃と、選択肢の中で最も低く、25℃での飽和蒸気圧が最も高い物質です。よって答えは（5）です。
+
+
+    酢酸メチル（約 57℃）、n-ヘキサン（約 69℃）、ベンゼン（約 80℃）、メチルイソブチルケトン（約 116℃）の順に沸点が高くなり、蒸気圧は低くなります。'
   figures: []
   law_note: null
-  _key_choice: ジクロロメタン（25℃の飽和蒸気圧が最も高い）
-  _review: true
+  _key_choice: ジクロロメタン(25°Cの飽和蒸気圧が最も高い)
 - num: 7
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -168,13 +183,16 @@ questions:
   - ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ヒュームの一次粒子は、気化した物質が空気中で冷やされて固まったもので、表面張力のために**球形**に近いものが多くなります。不規則な形状のものが多いとする選択肢5は誤りです。
+
+
+    不規則な形の粒子が多いのは、固体を砕いたり削ったりしてできる粉じんです。ヒュームの一次粒子は球形でも、それがつながった凝集体（二次粒子）は不規則な形になります。'
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
-  _review: true
+  review_note: ヒュームの一次粒子は表面張力のために球形に近いものが多い、と説明しています。確認中です。
 - num: 8
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
@@ -190,16 +208,18 @@ questions:
   - カドミウム ／ ガラス繊維ろ紙
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'コールタールは、ガラス繊維ろ紙などで捕集して重量分析方法で分析します。セルロースエステルメンブランフィルターとの組合せは不適切なので、答えは（2）です。
+
+
+    作業環境測定基準の別表第一でも、コールタールは「ろ過捕集方法・重量分析方法」とされています。セルロースエステルメンブランフィルターは、石綿のように繊維を顕微鏡で数えるための試料に向いたろ過材です。'
   figures: []
   law_note: null
   _key_choice: コールタールセルロースエステルメンブランフィルター
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -215,13 +235,15 @@ questions:
   - 絞り式（オリフィス）流量計は、ハイボリウムエアサンプラーの校正に用いる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '湿式ガスメーターは、原則としてポンプの**下流側**に接続します。上流側とする選択肢2は誤りです。
+
+
+    令和4年度第2回・令和7年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - solid-sorbent
   traps:
@@ -237,13 +259,15 @@ questions:
   - 塩素化ビフェニルの捕集には、フロリジル管が用いられる。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '活性炭管の前層に捕集されたガス状物質も、吸引を続けるうちに少しずつ後層へ移動していきます（このために、後層で破過を確かめます）。「後層に移動することはない」とする選択肢1は誤りです。
+
+
+    活性炭管が前層と後層に分かれているのは、後層に物質が移っていないかを分析して、破過していないことを確認するためです。'
   figures: []
   law_note: null
   _key_choice: 活性炭管の前層に捕集されたガス状物質は、管内で後層に移動することはない。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
@@ -259,13 +283,15 @@ questions:
   - ガラス繊維ろ紙では、粒径の小さな粒子は、大きな粒子に比べ、繊維層の内部に、より多く捕集される。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'メンブランフィルターは、細かい孔の膜でできているので、粒子状物質は主にフィルターの**表面**に捕集されます。内部に捕集されるとする選択肢3は誤りです。
+
+
+    表面で捕らえるので、顕微鏡で粒子や繊維を数えるのに向いています。一方、粒子が表面にたまるため、粉じんの捕集に伴う通気抵抗の増加は、内部で捕らえるガラス繊維ろ紙より大きくなります（選択肢2）。'
   figures: []
   law_note: null
   _key_choice: メンブランフィルターでは、粒子状物質はフィルターの表面よりも内部に捕集される。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
@@ -281,15 +307,15 @@ questions:
   - 捕集袋の洗浄は、窒素又は清浄空気の送気・排気を数回繰り返して行う。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '真空捕集びんは、**1.33 kPa 以下**に減圧してから使用します。13.3 kPa とする選択肢4は、桁が違うので誤りです。
+
+
+    令和2年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーに粒径3~5mmのガラスビーズを入れると、ガス状物質の捕集率を高めることができる。
-  _review: true
-  _import_flags:
-  - 正答肢と一致しない（類似度0.08）
 - num: 13
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -305,17 +331,19 @@ questions:
   - 相対濃度計には、側方散乱光や前方散乱光を計測する方式のものがある。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '光散乱方式の相対濃度計の標準散乱板の値は、同じ型式であっても**機器ごとに**定められています。「同じ型式であれば同じ値」とする選択肢4は誤りです。
+
+
+    令和6年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
-  - ds-detector-tube-04
+  - ds-detector-tube-05
   rank: null
   summary: null
   stem: 検知管による測定に関する次の記述のうち、誤っているものはどれか。
@@ -327,13 +355,15 @@ questions:
   - 通気終了後、時間の経過とともに着色が変化する場合があるので、速やかに指示値を読み取る。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '検知管用の真空法ガス採取器では、漏れを防ぐために、ピストンやシリンダーの内部に**グリースを塗布**します。「グリースを塗布してはならない」とする選択肢4は誤りです。
+
+
+    ガス採取器の漏れは、試料空気の吸引量が減る系統誤差の原因になります。グリースで気密を保つことが、正しい測定の前提です。'
   figures: []
   law_note: null
   _key_choice: 検知管用真空法ガス採取器の漏れを防ぐために、ピストン及びシリンダー内部にグリースを塗布してはならない。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -349,13 +379,15 @@ questions:
   - 検知管の検知試薬は、測定対象物質以外の物質にも反応するものが用いられることがある。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '圧電天秤方式の相対濃度計の相対濃度は、**mg/m³** で示されます。Hz･min⁻¹ とする選択肢3は誤りです。
+
+
+    圧電天秤方式は、圧電結晶板に付着した粉じんの質量に応じて振動数が変わることを利用して、質量に対応する値を求めます（選択肢2）。光散乱方式の相対濃度は cpm（カウント／分）で示されます。令和元年度第1回 デザイン 問15でも、「相対濃度指示方法における相対濃度は、光散乱方式では cpm、圧電天秤方式では mg･m⁻³ で示される」という正しい記述が出題されています。'
   figures: []
   law_note: null
   _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min-1の単位で表示される。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   traps:
@@ -371,16 +403,18 @@ questions:
   - 放射性タリウム ／ トリチウム化水蒸気
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '放射性ヨウ素は活性炭などを用いる**固体捕集方法**、トリチウム化水蒸気は水などを捕集液とする**液体捕集方法**で捕集します。よって（2）が正しい組合せです。
+
+
+    放射性セシウム、コバルト、タリウムなど粒子状のものはろ過捕集方法、放射性アルゴンなど希ガスは直接捕集方法です。'
   figures: []
   law_note: null
   _key_choice: 放射性ヨウ素トリチウム化水蒸気
   columns:
   - ㋑
   - ㋺
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   - units
@@ -397,13 +431,21 @@ questions:
   - 2.2 × 10⁴ Bq
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '濃度に、吸引した空気の体積と捕集率を掛けて、試料の放射能を求めます。
+
+
+    吸引した空気の体積 ＝ 65 L/min × 168 時間 × 60 分 ＝ 655,200 L ≒ 6.55 × 10⁸ cm³
+
+
+    放射能 ＝ 2.7 × 10⁻⁵ × 6.55 × 10⁸ × 0.80 ≒ 1.4 × 10⁴ Bq
+
+
+    よって（4）が正しい値です。令和4年度第2回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: 1.4×104Bq
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -420,13 +462,15 @@ questions:
   - 対数正規分布の幾何標準偏差の値は、1以上である。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '正規分布の95％上限値は、μ ＋ **1.645**σ です。μ ＋ 2σ とする選択肢2は誤りです。
+
+
+    μ ± 2σ の範囲に約95％が入るのは「両側」の話で、上側5％点（片側）は 1.645σ です。'
   figures: []
   law_note: null
   _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ+2σである。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -443,13 +487,15 @@ questions:
   - 偶然誤差の大きさは、一般に、測定値の標準偏差の大きさで評価される。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '系統誤差は、原因が分かれば補正して取り除くことができます。「原因を明らかにしても補正することができない」とする選択肢3は誤りです。
+
+
+    令和5年度第2回・令和7年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 系統誤差は、その原因を明らかにしても補正することができない。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -465,8 +511,10 @@ questions:
   - A測定の第1評価値が管理濃度を超えておらず、B測定の測定値が管理濃度の1.5倍であった場合の管理区分は、第2管理区分になる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'B 測定を複数の点で行った場合は、測定値の**最大値**を B 測定値とします。平均値とする選択肢4は誤りです。
+
+
+    B 測定値が管理濃度の1.5倍ちょうどなら「1.5倍を超える」に当たらないので、第1評価値が管理濃度を超えていなければ第2管理区分です（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: B測定を複数行った場合は、全てのB測定点の測定値の平均値をB測定値とする。
-  _review: true

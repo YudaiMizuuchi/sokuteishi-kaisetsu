@@ -17,10 +17,10 @@ SRC = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else "data")
 
 SUBJECT_FILES = {
-    "design": "デザイン_サンプリング_罠の型一覧.xlsx",
-    "bunseki": "分析に関する概論_罠の型一覧.xlsx",
-    "ippan": "労働衛生一般_罠の型一覧.xlsx",
-    "hourei": "労働衛生関係法令_罠の型一覧.xlsx",
+    "design": "デザイン_サンプリング_罠の型一覧_22回.xlsx",
+    "bunseki": "分析に関する概論_罠の型一覧_22回.xlsx",
+    "ippan": "労働衛生一般_罠の型一覧_22回.xlsx",
+    "hourei": "労働衛生関係法令_罠の型一覧_22回.xlsx",
 }
 TRAP_PREFIX = {"design": "ds", "bunseki": "an", "ippan": "gn", "hourei": "lw"}
 
@@ -205,7 +205,7 @@ TRAP_OVERRIDE = {
         "変異原性試験の意味": ("absorption", None),
         "粉じん・ヒュームの発生と粒径": ("dust-disease", None),
         "情報機器作業（VDT）": ("other-environment", None),
-        "腰痛予防（腰部保護ベルト）": ("other-environment", None),
+        "腰痛予防（腰部保護ベルト・重量物・座作業）": ("other-environment", None),
         "確定的影響と確率的影響": ("radiation-effects", None),
         "壊変と半減期": ("radiation", "logarithm"),
         "WBGTと基準値": ("heat-cold", None),
@@ -273,10 +273,33 @@ if (OUT / "master" / "book.yaml").exists():
         prev_ids[(t["subject"], t["seat"], t["name"])] = t["id"]
         used_ids.add(t["id"])
 
+# 既存の問題ファイルで、各問題に付いている罠の型ID（名前を直した型のIDを引き継ぐのに使う）
+prev_q_trap = {}
+for f in (OUT / "exams").glob("*/*.yaml"):
+    d = load(f) or {}
+    for it in d.get("questions") or []:
+        if it.get("traps"):
+            prev_q_trap[(d.get("exam"), d.get("subject"), it["num"])] = it["traps"][0]
+
 for subj, fname in SUBJECT_FILES.items():
     t = pd.read_excel(SRC / fname, sheet_name="罠の型一覧")
     q = pd.read_excel(SRC / fname, sheet_name="正答肢一覧")
     q["exam"] = q["回"].map(exam_key)
+
+    # 名前が同じ型は前回のID。名前を直した型は、同じ問題に付いていた旧IDを引き継ぐ
+    exact = {(r["席"], r["罠の型"]): prev_ids.get((subj, r["席"], r["罠の型"])) for _, r in t.iterrows()}
+    taken = {v for v in exact.values() if v}
+    inherit = {}
+    for (seat, name), v in exact.items():
+        if v:
+            continue
+        hits = q[(q["席"] == seat) & (q["罠の型"] == name)]
+        cand = [prev_q_trap.get((e, subj, int(n))) for e, n in zip(hits["exam"], hits["問"])]
+        cand = [c for c in cand if c and c not in taken]
+        if cand:
+            best = max(set(cand), key=cand.count)
+            inherit[(seat, name)] = best
+            taken.add(best)
 
     trap_id = {}
     seq = {}
@@ -285,7 +308,7 @@ for subj, fname in SUBJECT_FILES.items():
         chap, found = TRAP_OVERRIDE[subj].get(
             name, (SEAT_CHAPTER[subj][seat], SEAT_FOUNDATION.get(subj, {}).get(seat)))
         assert chap in chapter_ids and (found is None or found in chapter_ids), name
-        tid = prev_ids.get((subj, seat, name))
+        tid = exact.get((seat, name)) or inherit.get((seat, name))
         if not tid:
             while True:
                 seq[chap] = seq.get(chap, 0) + 1
@@ -303,7 +326,8 @@ for subj, fname in SUBJECT_FILES.items():
             "foundation": found,
             "seat": seat,
             "name": name,
-            "rank": rank_of(name, len(hits)),
+            # ランクは罠の型一覧のExcelの値を使う（22回版は A＝5回以上、法令は重み付き回数で判定）
+            "rank": clean(r.get("ランク")) or rank_of(name, len(hits)),
             "count": int(len(hits)),
             "exams": sorted(hits["exam"].unique().tolist()),
             "understanding": clean(r["正しい理解"]),
@@ -314,7 +338,7 @@ for subj, fname in SUBJECT_FILES.items():
             "hidden": bool(conf and "非公開" in conf),
         }
         if subj == "bunseki":
-            trap["calculation"] = clean(r["計算"]) == "○"
+            trap["calculation"] = clean(r.get("計算")) == "○"
         traps_out.append(trap)
 
     unmatched = set(zip(q["席"], q["罠の型"])) - set(trap_id)

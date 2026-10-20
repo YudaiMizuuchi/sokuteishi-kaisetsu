@@ -1,0 +1,329 @@
+exam: 2016-08
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - ds-gas-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 50ppm
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ハホ
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  - statistics
+  traps:
+  - ds-a-b-measurement-11
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は,有害物質の濃度はほぼ均一であるとみなすことができる.
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の中で最大の測定値を示す箇所については,労働者が立ち入る可能性がなくてもその箇所でB測定を行わなければならない.
+- num: 5
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: メタノール
+- num: 6
+  status: draft
+  chapters:
+  - dust-disease
+  traps:
+  - ds-states-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 遊離けい酸含有率が0%の鉱物性粉じんの管理濃度は,5.0mg/m3である.
+- num: 7
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: アセトンは,n-ヘキサンより極性が小さい.
+- num: 8
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A塩化ビニルBミゼットインピンジャー
+- num: 9
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 面積式流量計では,捕集装置の圧力損失が大きくなるに従って,流量計の指示値は真の流量より小さくなる.
+- num: 10
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 一般に,シリカゲルは極性の小さい有機溶剤,活性炭は極性の大きい有機溶剤の蒸気の捕集に適している.
+- num: 11
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 粉砕機から発生する鉱物性粉じんは,主として拡散作用によりガラス繊維ろ紙に捕集される.
+- num: 12
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ミゼットインピンジャーによるガス状物質の捕集では,流量が大きいほど捕集率は高くなる.
+- num: 13
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-08
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 質量濃度変換係数は,粉じんの発生源の近くでは小さく,発生源から離れるに従って大きくなるという傾向がある.
+- num: 14
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 検知管の定量下限は,変色がわずかでも認められる検知限度のことである.
+- num: 15
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 光散乱方式の相対濃度計による鉱物性粉じんの測定では,相対濃度計の吸引口に分粒装置を接続して行う.
+- num: 16
+  status: draft
+  chapters:
+  - radiation-sampling
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A放射性セシウムB固体捕集方法
+- num: 17
+  status: draft
+  chapters:
+  - radiation-sampling
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 40分
+- num: 18
+  status: draft
+  chapters:
+  - stats-error
+  - statistics
+  traps:
+  - ds-statistics-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 正規分布の算術平均と標準偏差をそれぞれx̄,σとすると,この分布に従う変数がx̄-σからx̄+σの範囲に入る確率は,およそ95%である.
+- num: 19
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-size-selector-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 多段平行板式分粒装置を用いて鉱物性粉じんの捕集をする場合,吸引流速が所定の値より大きいと測定値は低くなる.
+- num: 20
+  status: draft
+  chapters:
+  - evaluation
+  - statistics
+  traps:
+  - ds-evaluation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A測定の第2評価値とは,気中有害物質の幾何平均濃度の推定値をいう.

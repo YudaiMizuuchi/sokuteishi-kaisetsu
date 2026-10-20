@@ -1,0 +1,328 @@
+exam: 2018-08
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - dust-disease
+  traps:
+  - ds-states-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 石綿の管理濃度は,本/cm3で表されている.
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 同一の場所でトルエンによる抽出作業とキシレンによる抽出作業が別々に行われている場合,トルエンとキシレンの混合溶剤を使用する作業場とみなして一つの単位作業場所として設定した.
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 測定点と測定点の間隔は,原則として,6m以下の等間隔とし,かつ,縦方向と横方向の間隔を同一にしなければならない.
+- num: 4
+  status: draft
+  chapters:
+  - noise
+  traps:
+  - ds-noise-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 騒音の測定は,騒音計の周波数補正回路のC特性で行う.
+- num: 5
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の中で有害物質の濃度が最大になると考えられる箇所については,作業者が立ち入る可能性がなくても,その箇所でB測定を行わなければならない.
+- num: 6
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A塩化ビニルB蒸気
+- num: 7
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ジクロロメタン
+- num: 8
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: コールタールは,常温・常圧で固体である.
+- num: 9
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A鉛ヒュームB活性炭管
+- num: 10
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ポーラスポリマービーズは,活性炭に比べて有機溶剤蒸気に対する単位重量当たりの捕集容量が大きい.
+- num: 11
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ポアサイズ0.8μmのメンブランフィルターは,粒径0.3μm以下の粒子をほとんど捕集できない.
+- num: 12
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 使用後の捕集袋を再使用するためには,水又は洗剤で内面を十分に洗浄しなければならない.
+- num: 13
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 吸引流量が大きくなるほど相対濃度の値は増大する.
+- num: 14
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 光散乱方式の相対濃度計による測定において,粒子の組成と粒径分布が一定で,濃度に変動がなければ,相対濃度の値は,測定時間に比例する.
+- num: 15
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-05
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 検知管のガス採取器のピストン及びシリンダー内部にグリースを塗布してはならない.
+- num: 16
+  status: draft
+  chapters:
+  - radiation-sampling
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A放射性アルゴンB液体捕集法
+- num: 17
+  status: draft
+  chapters:
+  - radiation-sampling
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 9.6×103Bq
+- num: 18
+  status: draft
+  chapters:
+  - stats-error
+  - statistics
+  traps:
+  - ds-statistics-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 環境空気中の有害物質の濃度の分布は,正規分布で近似される.
+- num: 19
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-size-selector-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 慣性衝突式分粒装置を用いて,所定の吸引流量より大きい流量で吸引すると,分粒装置を通過する粒子の50%分粒粒径は大きくなる.
+- num: 20
+  status: draft
+  chapters:
+  - noise
+  - statistics
+  traps:
+  - ds-noise-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 騒音のA測定の平均値は,測定値の幾何平均の値とする.

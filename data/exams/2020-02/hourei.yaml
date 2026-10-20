@@ -1,10 +1,10 @@
 exam: 2020-02
 date: null
 subject: hourei
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - law-system
   traps:
@@ -20,13 +20,15 @@ questions:
   - 総括安全衛生管理者には、当該事業場において、その事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '総括安全衛生管理者には、その事業場で事業の実施を統括管理する者を充てます。「これに準ずる者」を充てることはできないので、選択肢5は誤りです。
+
+
+    令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 総括安全衛生管理者には、当該事業場において、その事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -42,13 +44,15 @@ questions:
   - 常時50人以上の労働者を使用する事業場であっても、雇入時の健康診断の結果については、所轄労働基準監督署長に報告する必要はない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '貧血検査や肝機能検査などを医師が必要でないと認めるときに省略できるのは、**定期**健康診断です。雇入時の健康診断では省略できないので、選択肢3は誤りです。
+
+
+    令和5年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 雇入時の健康診断項目のうち、貧血検査、肝機能検査等一定の検査項目については、厚生労働大臣が定める基準に基づき、医師が必要でないと認めるときは、省略することができ
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -64,13 +68,15 @@ questions:
   - 特別教育の講師は、法令で定める資格を有する者のうちから選任しなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '特別教育の講師について、法令で資格は定められていません。選択肢5は誤りです。
+
+
+    根拠：労働安全衛生規則第36条〜第39条（講師の資格要件の定めはない）。'
   figures: []
   law_note: null
   _key_choice: 特別教育の講師は、法令で定める資格を有する者のうちから選任しなければならない。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -86,17 +92,19 @@ questions:
   - 空気中のトルエンの濃度 ／ 6か月以内ごとに1回 ／ 3年
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '常時特定粉じん作業を行う屋内作業場の粉じんの濃度の測定記録は、**7年間**保存します。5年とする選択肢3は誤りです。
+
+
+    ベンゼンは特別管理物質で30年、放射性物質は1か月以内ごと・5年、カドミウムとトルエンは3年です。'
   figures: []
   law_note: null
-  _key_choice: 空気中の鉱物性粉じんの濃度６か月以内ごとに１回５年
+  _key_choice: 空気中の鉱物性粉じんの濃度6か月以内ごとに1回5年
   columns:
   - Ⓐ
   - Ⓑ
   - Ⓒ
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -112,13 +120,12 @@ questions:
   - 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものについては、原則として、6か月以内ごとに1回、定期に、一酸化炭素及び二酸化炭素の含有率、室温及び外気温並びに相対湿度を測定しなければならない。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 中央管理方式の空気調和設備を設けている事務所の室の空気環境の測定は、**2か月以内ごとに1回**です。6か月以内ごととする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものについては、原則として、６か月以内ごとに１回、定期に、一酸化炭素及び二酸化炭素の含有
-  _review: true
+  _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものについては、原則として、6か月以内ごとに1回、定期に、一酸化炭素及び二酸化炭素の含有
 - num: 6
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -134,13 +141,12 @@ questions:
   - 特定化学物質を製造し又は取り扱う作業
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 特定粉じん作業には、作業主任者の選任は定められていません。よって答えは（2）です。
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -156,13 +162,12 @@ questions:
   - 放射線測定器
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 放射線測定器は、厚生労働大臣が定める規格を備えなければならないものに含まれていません。よって答えは（5）です。
   figures: []
   law_note: null
   _key_choice: 放射線測定器
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   traps:
@@ -178,13 +183,15 @@ questions:
   - 指定作業場について、作業環境測定機関等への委託によらず作業環境測定を行う事業者は、その使用する作業環境測定士にこれを実施させなければならない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '管理区域の外部放射線による線量当量率又は線量当量の測定は、指定作業場の作業環境測定ではないので、作業環境測定士に行わせなければならないものではありません。選択肢3は誤りです。
+
+
+    根拠：作業環境測定法施行令第1条第1項、作業環境測定法施行規則第1条（放射線業務の指定作業場は、電離放射線障害防止規則第53条第2号・第2号の2の作業場に限られる）。'
   figures: []
   law_note: null
   _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   - a-b-measurement
@@ -201,13 +208,15 @@ questions:
   - 騒音の測定点は、原則として、単位作業場所の床面上に 6 m 以下の等間隔で引いた縦の線と横の線との交点の床上 120 cm 以上 150 cm 以下の位置としなければならない。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '鉱物性粉じんの濃度の測定で相対濃度指示方法を用いるときは、単位作業場所の1以上の測定点で、ろ過捕集方法と重量分析方法による測定を同時に行わなければなりません。単位作業場所が著しく狭く濃度がほぼ均一であれば相対濃度指示方法のみで測定できる、という定めはないので、選択肢1は誤りです。
+
+
+    根拠：作業環境測定基準第2条第1項第4号ロ。'
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
@@ -223,13 +232,15 @@ questions:
   - 2以上の測定点においてB測定を実施した場合には、そのうちの最大値をB測定の測定値とする。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '連続する二作業日に測定を行ったときの評価値は、2日分の幾何平均値と幾何標準偏差を組み合わせた式で計算します。2日の幾何標準偏差のうち大きい方を用いる、という方法は定められていないので、選択肢2は誤りです。
+
+
+    根拠：作業環境評価基準第3条第2項。'
   figures: []
   law_note: null
-  _key_choice: 連続する二作業日について作業環境測定を行った場合の評価は、それぞれの日についてのＡ測定の測定値に基づいて求めた幾何標準偏差のうち、大きい値を用いて行うことができ
-  _review: true
+  _key_choice: 連続する二作業日について作業環境測定を行った場合の評価は、それぞれの日についてのA測定の測定値に基づいて求めた幾何標準偏差のうち、大きい値を用いて行うことができ
 - num: 11
-  status: draft
+  status: published
   chapters:
   - law-other
   traps:
@@ -245,13 +256,15 @@ questions:
   - 粉じんを著しく飛散する屋外又は坑内の作業場においては、注水その他の粉じんの飛散を防止するため必要な措置を講じなければならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '強烈な騒音を発する場所については、標識による明示などの措置が求められますが、関係者以外の立入禁止までは定められていません。選択肢4は誤りです。
+
+
+    令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 強烈な騒音にさらされる場所には、関係者以外の者が立ち入ることを禁止しなければならない。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -268,13 +281,15 @@ questions:
   - アルファ-ナフチルアミンは、第2類物質であり、かつ、特別管理物質である。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'アルファ-ナフチルアミンは、特定化学物質の**第1類物質**です。第2類物質とする選択肢5は誤りです。
+
+
+    令和3年度第1回では、アルファ-ナフチルアミンの製造に厚生労働大臣の許可が必要（第1類物質）であることが出題されています。'
   figures: []
   law_note: null
-  _key_choice: アルファ-ナフチルアミンは、第２類物質であり、かつ、特別管理物質である。
-  _review: true
+  _key_choice: アルファ-ナフチルアミンは、第2類物質であり、かつ、特別管理物質である。
 - num: 13
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -291,13 +306,15 @@ questions:
   - 第2類物質であるマンガンを取り扱う業務に常時従事する労働者に対し、6か月以内ごとに1回、定期に、所定の項目について医師による健康診断を行い、その結果に基づき、特定化学物質健康診断個人票を作成し、これを30年間保存するものとされている。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'マンガンは管理第2類物質で、特別管理物質ではありません。特定化学物質健康診断個人票の保存期間は**5年間**なので、30年間とする選択肢5は誤りです。
+
+
+    30年間保存するのは、特別管理物質に係る健康診断個人票です（令和8年度第1回）。'
   figures: []
   law_note: null
-  _key_choice: 第２類物質であるマンガンを取り扱う業務に常時従事する労働者に対し、６か月以内ごとに１回、定期に、所定の項目について医師による健康診断を行い、その結果に基づき、特
-  _review: true
+  _key_choice: 第2類物質であるマンガンを取り扱う業務に常時従事する労働者に対し、6か月以内ごとに1回、定期に、所定の項目について医師による健康診断を行い、その結果に基づき、特
 - num: 14
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -314,13 +331,15 @@ questions:
   - テトラヒドロフラン
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '1,2-ジクロルエチレンは、**第1種有機溶剤**です。よって答えは（3）です。
+
+
+    N,N-ジメチルホルムアミド、1,1,1-トリクロルエタン、オルト-ジクロルベンゼン、テトラヒドロフランは、いずれも第2種有機溶剤です。'
   figures: []
   law_note: null
   _key_choice: 1,2-ジクロルエチレン
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -337,13 +356,15 @@ questions:
   - 屋内作業場において、第3種有機溶剤等を用いて洗浄の業務を行う場合には、作業環境測定を行う必要はない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '第2種有機溶剤等の区分の色分けによる表示は、**黄色**です。赤色は第1種有機溶剤等なので、選択肢3は誤りです。
+
+
+    色分けは、第1種が赤、第2種が黄、第3種が青です。'
   figures: []
   law_note: null
-  _key_choice: 屋内作業場において、第２種有機溶剤等を用いて洗浄の業務に労働者を従事させる場合における有機溶剤等の区分の色分けによる表示は、赤色で行わなければならない。
-  _review: true
+  _key_choice: 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務に労働者を従事させる場合における有機溶剤等の区分の色分けによる表示は、赤色で行わなければならない。
 - num: 16
-  status: draft
+  status: published
   chapters:
   - law-radiation
   traps:
@@ -359,13 +380,15 @@ questions:
   - 外部放射線による実効線量の算定は、1 cm 線量当量によって行うものとする。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '放射線業務従事者の外部被ばくによる線量の測定結果は、本人に知らせるものです。管理区域内の見やすい場所に掲示しなければならない、という定めではないので、選択肢4は誤りです。
+
+
+    令和6年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 管理区域内の労働者の見やすい場所に、放射線業務従事者が受けた外部被ばくによる線量の測定結果の一定期間ごとの記録を掲示しなければならない。
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - law-dust
   - ventilation
@@ -382,13 +405,15 @@ questions:
   - 粉じん作業に労働者を従事させるときは、坑内等の特殊な作業場でやむを得ない事由がある場合を除き、粉じん作業を行う作業場以外の場所に休憩設備を設けなければならない。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '粉じん障害防止規則で、ヒュームの除じん装置は、**ろ過除じん方式又は電気除じん方式**とされています。サイクロン又はスクラバとする選択肢4は誤りです。
+
+
+    根拠：粉じん障害防止規則第13条。'
   figures: []
   law_note: null
   _key_choice: 法令に基づき局所排気装置に設ける除じん装置は、粉じんの種類がヒュームである場合は、サイクロン又はスクラバによる除じん方式による除じん装置としなければならない。
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - law-other
   - other-workplaces
@@ -405,13 +430,16 @@ questions:
   - 空気調和設備により流入する空気による室の気流を 0.5 m/s 以下としなければならない。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '事務所衛生基準規則で、室の一酸化炭素の含有率は **50 ppm 以下**としなければなりません。10 ppm 以下とする選択肢2は誤りです。
+
+
+    10 ppm は、空気調和設備を設けた場合に、室に供給される空気について努める値です。'
   figures: []
   law_note: null
   _key_choice: 室における一酸化炭素の含有率を10ppm以下としなければならない。
-  _review: true
+  review_note: 室の一酸化炭素は50 ppm以下、10 ppm は供給空気についての値、と説明しています。事務所衛生基準規則（プロジェクト未格納）で確認中です。
 - num: 19
-  status: draft
+  status: published
   chapters:
   - law-other
   - metals
@@ -428,13 +456,12 @@ questions:
   - 法定の鉛業務に常時従事する労働者に対して行う医師による健康診断は、雇入れの際、当該業務に配置替えの際、及びその後業務の種類に応じて6か月又は1年以内ごとに1回、定期に、実施しなければならない。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 鉛業務を行う屋内作業場の空気中の鉛の濃度の測定は、**1年以内ごとに1回**です。6か月以内ごととする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 法定の鉛業務を行う屋内作業場については、６か月以内ごとに１回、定期に、空気中における鉛の濃度を測定しなければならない。
-  _review: true
+  _key_choice: 法定の鉛業務を行う屋内作業場については、6か月以内ごとに1回、定期に、空気中における鉛の濃度を測定しなければならない。
 - num: 20
-  status: draft
+  status: published
   chapters:
   - law-other
   - oxygen-deficiency
@@ -451,8 +478,10 @@ questions:
   - 石綿等が使用されている建築物の解体作業に係る業務に労働者を就かせるときは、その業務に関する衛生のための特別教育を行わなければならない。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '第一鉄塩類を含有している地層に接する井戸の内部は、酸素欠乏の危険がある場所ですが、硫化水素の危険はないので、**第1種**酸素欠乏危険作業です。第2種とする選択肢1は誤りです。
+
+
+    根拠：労働安全衛生法施行令別表第六第一号ロ。'
   figures: []
   law_note: null
-  _key_choice: 第一鉄塩類を含有している地層に接する井戸の内部における作業は、第２種酸素欠乏危険作業である。
-  _review: true
+  _key_choice: 第一鉄塩類を含有している地層に接する井戸の内部における作業は、第2種酸素欠乏危険作業である。

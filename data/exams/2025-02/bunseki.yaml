@@ -32,7 +32,7 @@ questions:
     分数の形の単位は、分子と分母を別々に換算してから割るのが確実です。'
   figures: []
   law_note: null
-  _key_choice: 濃度1.0µmol･g-１は、1.0mol･kg-１である。
+  _key_choice: 濃度1.0μmol・g-1は、1.0mol・kg-1である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
   status: published
@@ -60,8 +60,8 @@ questions:
   - file: 2025-02-bunseki-02-choices.png
     alt: 問2の選択肢
   law_note: null
-  _key_choice: ４
-  _stem_head: 互いに独立な物理量１と物理量２の差を求める際、その差の標準偏差を示す式は次のうちどれか。ただし、物理量１及び物理量２の測定値の標準偏差をそれ
+  _key_choice: '4'
+  _stem_head: 互いに独立な物理量1と物理量2の差を求める際、その差の標準偏差を示す式は次のうちどれか。ただし、物理量1及び物理量2の測定値の標準偏差をそれぞれσ
   columns: null
 - num: 3
   status: published
@@ -87,7 +87,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
-  _stem_head: 25℃における物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  _stem_head: 25°Cにおける物質の溶解に関する次の記述のうち、誤っているものはどれか。
 - num: 4
   status: published
   chapters:
@@ -118,7 +118,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '78'
-  _stem_head: 容積5.0Lの容器に液体物質Xを1.0g入れて密閉し、127℃にするとXは完全に気化して0.084気圧の分圧を示した。Xの分子量として、最も
+  _stem_head: 容積5.0Lの容器に液体物質Xを1.0g入れて密閉し、127°CにするとXは完全に気化して0.084気圧の分圧を示した。Xの分子量として、最も近い値は次のうちどれか。ただし、気体定数は0.082atm・L・mol-1・K-1とする。
 - num: 5
   status: published
   chapters:
@@ -146,8 +146,8 @@ questions:
     よって（4）が正しい値です。令和7年度第1回でも、同じ型の問題が 200 mL への希釈で出題されています。'
   figures: []
   law_note: null
-  _key_choice: 0.14mol･L-１
-  _stem_head: 濃度14mol･L-１の硝酸溶液10mLを水で希釈して1000mLにした溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  _key_choice: 0.14mol・L-1
+  _stem_head: 濃度14mol・L-1の硝酸溶液10mLを水で希釈して1000mLにした溶液の水素イオン濃度として、正しい値は次のうちどれか。
 - num: 6
   status: published
   chapters:
@@ -185,7 +185,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 10mg
-  _stem_head: 有機化合物Aを60mg含む水溶液100mLからヘキサン10mLにAを抽出した。水溶液中に残ったAの質量として、正しい値は次のうちどれか。ただ
+  _stem_head: 有機化合物Aを60mg含む水溶液100mLからヘキサン10mLにAを抽出した。水溶液中に残ったAの質量として、正しい値は次のうちどれか。ただし、水とヘキサン間のAの分配係数(K)は次の式で表される。K=\[A\]ヘキサン=50\[A\]水
 - num: 7
   status: published
   chapters:
@@ -238,7 +238,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤の拡散係数と飽和蒸気圧が同じなら、分子量の大きな物質ほど高くなる。
-  _stem_head: 拡散セルを用いた有機溶剤の標準ガス発生において、定常状態となったときの標準ガスの濃度（ppm）に関する次の記述のうち、誤っているものはどれか
+  _stem_head: 拡散セルを用いた有機溶剤の標準ガス発生において、定常状態となったときの標準ガスの濃度(ppm)に関する次の記述のうち、誤っているものはどれか。
 - num: 9
   status: published
   chapters:
@@ -263,7 +263,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: ヒドロキシルアミン酸化剤
-  _stem_head: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 化学物質Aとその使用例Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -291,7 +291,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 内標準物質として、測定対象物質の安定同位体を使用する。
-  _stem_head: 誘導結合プラズマ発光分光分析法（ICP-AES法）に関する次の記述のうち、誤っているものはどれか。
+  _stem_head: 誘導結合プラズマ発光分光分析法(ICP-AES法)に関する次の記述のうち、誤っているものはどれか。
 - num: 11
   status: published
   chapters:
@@ -322,7 +322,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 20.4mg
-  _stem_head: フタル酸水素カリウムを水に溶解して、0.100mol･L-１の水溶液を調製した。この水溶液1.00mLに含まれるフタル酸水素カリウムの質量と
+  _stem_head: フタル酸水素カリウムを水に溶解して、0.100mol・L-1の水溶液を調製した。この水溶液1.00mLに含まれるフタル酸水素カリウムの質量として、正しい値は次のうちどれか。ただし、フタル酸水素カリウムのモル質量は204g・mol-1とする。
 - num: 12
   status: published
   chapters:
@@ -347,8 +347,8 @@ questions:
     終点の判別には、「当量点を過ぎたときに初めて起こる変化」を使います。沈殿滴定なら指示薬の沈殿や吸着指示薬の色の変化がこれに当たります。'
   figures: []
   law_note: null
-  _key_choice: 塩化ナトリウム-硝酸銀塩化銀の沈殿生成（沈殿滴定）
-  _stem_head: 反応Ⓐによる容量分析とその終点判別法Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _key_choice: 塩化ナトリウム-硝酸銀塩化銀の沈殿生成(沈殿滴定)
+  _stem_head: 反応Aによる容量分析とその終点判別法Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -404,8 +404,8 @@ questions:
     よって（2）が正しい値です。光路長 2.0 cm を掛け忘れると 8.0 × 10⁻⁵（選択肢4）になります。'
   figures: []
   law_note: null
-  _key_choice: 4.0×10‐５mol･L-１
-  _stem_head: 物質Aの溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.480であった。この溶液中の物質Aの濃度と
+  _key_choice: 4.0×10‐5mol・L-1
+  _stem_head: 物質Aの溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.480であった。この溶液中の物質Aの濃度として、正しい値は次のうちどれか。ただし、この溶液中の物質Aの550nmにおけるモル吸光係数は6.0×
 - num: 15
   status: published
   chapters:
@@ -555,7 +555,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: β+壊変陽子
-  _stem_head: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ

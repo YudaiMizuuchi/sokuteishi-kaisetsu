@@ -27,7 +27,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 気体定数JKmol
-  _stem_head: 次の物理量、物理定数又は単位名称ⒶとそのSI基本単位による表現Ⓑとの組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 次の物理量、物理定数又は単位名称AとそのSI基本単位による表現Bとの組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -67,7 +67,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '11'
-  _stem_head: 捕集材に空気を流量100mL･min-１で60.0分間通気して物質Aを50.30µg捕集した。捕集材の物質Aに対する捕集効率が75％であると
+  _stem_head: 捕集材に空気を流量100mL・min-1で60.0分間通気して物質Aを50.30μg捕集した。捕集材の物質Aに対する捕集効率が75%であるとき、物質Aの空気中濃度(μg・L-1)の数値として適切なものは次のうちどれか。
 - num: 3
   status: published
   chapters:
@@ -118,7 +118,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1.0気圧
-  _stem_head: 容積5.0Lの密閉容器に炭素と、温度25℃で圧力1.0気圧の酸素を封入してから燃焼させ、酸素を全て二酸化炭素へ変換した。燃焼後の容器内の温度
+  _stem_head: 容積5.0Lの密閉容器に炭素と、温度25°Cで圧力1.0気圧の酸素を封入してから燃焼させ、酸素を全て二酸化炭素へ変換した。燃焼後の容器内の温度が25°Cになったときの二酸化炭素が示す圧力は次のうちどれか。なお、炭素の体積は無視できるものとす
 - num: 5
   status: published
   chapters:
@@ -159,7 +159,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 390mL
-  _stem_head: 質量パーセント濃度が40.0％の硫酸（密度1.30g･cm-３）100mLを精製水（密度1.00g･cm-３）で希釈し、質量パーセント濃度を
+  _stem_head: 質量パーセント濃度が40.0%の硫酸(密度1.30g・cm-3)100mLを精製水(密度1.00g・cm-3)で希釈し、質量パーセント濃度を10.0%としたい。このときに必要な精製水の量として、正しい値は次のうちどれか。
 - num: 6
   status: published
   chapters:
@@ -185,7 +185,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: フッ化水素酸
-  _stem_head: 濃度0.1mol･L-１の次の水溶液のうち、そのpHの値が最も大きいものはどれか。
+  _stem_head: 濃度0.1mol・L-1の次の水溶液のうち、そのpHの値が最も大きいものはどれか。
 - num: 7
   status: published
   chapters:
@@ -235,7 +235,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: ディフュージョンチューブはテフロンなどのガス透過性材料でできている。
-  _stem_head: ディフュージョンチューブ（拡散セル）を用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  _stem_head: ディフュージョンチューブ(拡散セル)を用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
 - num: 9
   status: published
   chapters:
@@ -285,7 +285,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: アンモニア
-  _stem_head: シアン化水素の検知管は、シアン化水素が塩化水銀（Ⅱ）と反応して生成する物質によるpH指示薬の変色を利用して濃度を測定する。共存すると、変色の
+  _stem_head: シアン化水素の検知管は、シアン化水素が塩化水銀(II)と反応して生成する物質によるpH指示薬の変色を利用して濃度を測定する。共存すると、変色の長さが短くなる物質は次のうちどれか。
 - num: 11
   status: published
   chapters:
@@ -325,8 +325,8 @@ questions:
     混合すると体積が2倍の 20 mL になることを忘れると、[OH⁻] が2倍になり、答えがずれます。'
   figures: []
   law_note: null
-  _key_choice: 1.0×10-12mol･L-１
-  _stem_head: 濃度1.0×10-２mol･L-１の塩酸10mLと濃度3.0×10-２mol･L-１の水酸化ナトリウム水溶液10mLとを混合した溶液の水素イ
+  _key_choice: 1.0×10-12mol・L-1
+  _stem_head: 濃度1.0×10-2mol・L-1の塩酸10mLと濃度3.0×10-2mol・L-1の水酸化ナトリウム水溶液10mLとを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。ただし、水のイオン積は1.0×10-14mol2・L-2と
 - num: 12
   status: published
   chapters:
@@ -415,8 +415,8 @@ questions:
     光路長 2.0 cm を掛け忘れると 120 µg（選択肢4）になります。'
   figures: []
   law_note: null
-  _key_choice: 60µg
-  _stem_head: モル質量が50g･mol-１の物質Aの溶液が100mLある。この溶液の一部を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を
+  _key_choice: 60μg
+  _stem_head: モル質量が50g・mol-1の物質Aの溶液が100mLある。この溶液の一部を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.480であった。この溶液100mL中に含まれる物質Aの質量として、正しい値は次の
 - num: 15
   status: published
   chapters:
@@ -467,8 +467,8 @@ questions:
   - file: 2026-02-bunseki-16-1.png
     alt: 問16の図
   law_note: null
-  _key_choice: りん光蛍光吸光電子基底状態（一重項）振動準位振動準位振動緩和電子励起状態（一重項）一重項❘三重項遷移振動準位振動緩和ⒶⒷⒸ電子励起状態（三重項）
-  _stem_head: 図はある分子のエネルギー準位の模式図で、ⒶⒷⒸで示した矢印は状態の遷移方向を示している。それぞれの遷移過程の名称として、適切なものの組合せは
+  _key_choice: りん光蛍光吸光電子基底状態(一重項)振動準位振動準位振動緩和電子励起状態(一重項)一重項❘三重項遷移振動準位振動緩和ABC電子励起状態(三重項)
+  _stem_head: 図はある分子のエネルギー準位の模式図で、ABCで示した矢印は状態の遷移方向を示している。それぞれの遷移過程の名称として、適切なものの組合せは次のうちどれか。ABC
   columns:
   - Ⓐ
   - Ⓑ
@@ -521,8 +521,8 @@ questions:
     検出器は「何に強いか」で覚えます。FID は炭化水素全般、FPD は硫黄・リン化合物、ECD は有機ハロゲン化合物、PID は芳香族などイオン化しやすい化合物、TID は窒素・リン化合物です。'
   figures: []
   law_note: null
-  _key_choice: 熱イオン化検出器（TID、FTD）飽和炭化水素化合物
-  _stem_head: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  _key_choice: 熱イオン化検出器(TID、FTD)飽和炭化水素化合物
+  _stem_head: ガスクロマトグラフ分析に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -575,4 +575,4 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位時間当たりの壊変数
-  _stem_head: 放射能の単位（Bq）の定義として正しいものは、次のうちどれか。
+  _stem_head: 放射能の単位(Bq)の定義として正しいものは、次のうちどれか。

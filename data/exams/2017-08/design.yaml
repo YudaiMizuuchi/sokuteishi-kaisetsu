@@ -1,0 +1,328 @@
+exam: 2017-08
+date: null
+subject: design
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters:
+  - gas
+  traps:
+  - ds-gas-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 490mg/m3
+- num: 2
+  status: draft
+  chapters:
+  - unit-workplace
+  traps:
+  - ds-unit-workplace-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 連続する2作業日にわたって測定を行う場合,第1日目と第2日目の単位作業場所の範囲は一致している必要はない
+- num: 3
+  status: draft
+  chapters:
+  - a-b-measurement
+  - statistics
+  traps:
+  - ds-a-b-measurement-11
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 過去に実施した作業環境測定の記録により,測定値の幾何標準偏差がおおむね1.5以下であることが明らかなときは,有害物質の濃度がほぼ均一であるとみなすことができる.
+- num: 4
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-08
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: B測定は,局所的短時間の個人ばく露の評価のために行う.
+- num: 5
+  status: draft
+  chapters:
+  - dust-disease
+  traps:
+  - ds-states-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: ヒュームの一次粒子の粒径は,1~5μm程度である.
+- num: 6
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: n-ヘキサン
+- num: 7
+  status: draft
+  chapters:
+  - properties
+  traps:
+  - ds-properties-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: アルコール系の有機溶剤は,一般に,極性が弱い.
+- num: 8
+  status: draft
+  chapters:
+  - sampler-selection
+  traps:
+  - ds-sampler-selection-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: Aクロム酸ミストBシリカゲル管
+- num: 9
+  status: draft
+  chapters:
+  - flowmeter
+  traps:
+  - ds-flowmeter-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 面積式流量計(ロータメータ)では,捕集装置の圧力損失が大きくなるに従って,流量計の指示値は真の流量より小さくなる.
+- num: 10
+  status: draft
+  chapters:
+  - solid-sorbent
+  traps:
+  - ds-solid-sorbent-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 活性炭管は,温度が高いほど,吸着能力は高くなる.
+- num: 11
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-filter-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 鉱物性粉じん中に含まれる遊離けい酸の分析に用いるサンプルの捕集には,オープンフェース型ホルダーを用いる.
+- num: 12
+  status: draft
+  chapters:
+  - liquid-direct
+  traps:
+  - ds-liquid-direct-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: バブラーによるガス状物質の捕集では,気泡が大きいほど捕集率は高くなる.
+- num: 13
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-03
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 質量濃度変換係数(K),相対濃度(R)及び質量濃度(C)の関係は,K=R/Cで表される.
+- num: 14
+  status: draft
+  chapters:
+  - detector-tube
+  traps:
+  - ds-detector-tube-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 有機溶剤の測定に用いる検知管は,その有機溶剤の管理濃度の5分の1の濃度を精度よく測定できるものであればよい.
+- num: 15
+  status: draft
+  chapters:
+  - relative-meter
+  traps:
+  - ds-relative-meter-07
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 光散乱方式の相対濃度計による鉱物性粉じんの測定では,相対濃度計の吸引口に分粒装置を接続して用いる.
+- num: 16
+  status: draft
+  chapters:
+  - radiation-sampling
+  traps:
+  - ds-radiation-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: A放射性ヨウ素B液体捕集法
+- num: 17
+  status: draft
+  chapters:
+  - radiation-sampling
+  - units
+  traps:
+  - ds-radiation-02
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 20時間
+- num: 18
+  status: draft
+  chapters:
+  - stats-error
+  - statistics
+  traps:
+  - ds-statistics-04
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 正規分布では,平均値と標準偏差は互いに従属している.
+- num: 19
+  status: draft
+  chapters:
+  - filter
+  traps:
+  - ds-size-selector-01
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 多段平行板式分粒装置を用いて鉱物性粉じん濃度を測定する場合,吸引流速が所定の値より大きいと測定値は低くなる.
+- num: 20
+  status: draft
+  chapters:
+  - a-b-measurement
+  traps:
+  - ds-a-b-measurement-06
+  rank: null
+  summary: null
+  stem: null
+  choices: []
+  answer: null
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _key_choice: 単位作業場所の中の複数の測定点においてB測定を行った場合は,全てのB測定点の測定値の平均値をB測定値とする.

@@ -1,10 +1,10 @@
 exam: 2019-08
 date: null
 subject: design
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -20,13 +20,15 @@ questions:
   - 鉱物性粉じんの管理濃度は、その粉じん中の遊離けい酸含有率が大きいほど小さな値になる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '体積分率 1 ％ は 10,000 ppm なので、0.1 ％ は **1,000 ppm** です。10,000 ppm とする選択肢3は誤りです。
+
+
+    ppm は100万分の1（10⁻⁶）、％ は100分の1（10⁻²）なので、1 ％ ＝ 10⁴ ppm です。桁を1つずらさないように注意しましょう。'
   figures: []
   law_note: null
   _key_choice: 空気中の有機溶剤の体積分率0.1%は、10,000ppmに相当する。
-  _review: true
 - num: 2
-  status: draft
+  status: published
   chapters:
   - unit-workplace
   traps:
@@ -42,13 +44,15 @@ questions:
   - クロム酸鉛を取り扱っている作業場では、同一の区域をクロム酸と鉛とで別々の単位作業場所として設定する。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間は考慮しません。選択肢4は誤りです。
+
+
+    単位作業場所どうしの範囲が重なってもよい（選択肢1）、クロム酸鉛はクロム酸と鉛で別々の単位作業場所とする（選択肢5）点も、繰り返し出題されています。'
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間を考慮する必要がある。
-  _review: true
 - num: 3
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -64,13 +68,15 @@ questions:
   - 測定点の数を5未満とすることができる単位作業場所でも、各測定点で繰り返し測定を行うことによって、測定値の総数は5以上とする。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'A 測定の測定点の高さは、床上 **50 cm 以上 150 cm 以下**です。120〜150 cm とする選択肢3は誤りです。
+
+
+    120〜150 cm は、騒音の測定点の高さです。'
   figures: []
   law_note: null
   _key_choice: 測定点の高さは、床上120~150cmの呼吸域の高さとする。
-  _review: true
 - num: 4
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -86,13 +92,15 @@ questions:
   - 圧電天秤方式の相対濃度計を用いて鉱物性粉じんのB測定を行うときは、測定時間を2分に合わせて、連続して5回行う。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '相対濃度指示方法で B 測定を行うときは、A 測定で求めた質量濃度変換係数を**そのまま用います**。A 測定とは別に求めなければならないとする選択肢3は誤りです。
+
+
+    令和5年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: 相対濃度指示方法によってB測定を行った場合に用いる質量濃度変換係数は、A測定とは別に求めなければならない。
-  _review: true
 - num: 5
-  status: draft
+  status: published
   chapters:
   - noise
   - statistics
@@ -109,13 +117,15 @@ questions:
   - 過去の測定結果の記録から、測定値の標準偏差が 3 dB 以下であることが明らかであり、かつ、その測定の実施後、施設又は作業工程等の変更による騒音レベルの分布に変化がないときは、騒音レベルがほぼ均一であるとすることができる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '騒音の管理区分は、A 測定平均値（算術平均）と B 測定値で決め、標準偏差は用いません。選択肢3は誤りです。
+
+
+    騒音レベルがほぼ均一かどうかの判断には、過去の測定値の標準偏差が 3 dB 以下であることを用います（選択肢5）。管理区分の決定と、均一の判断とで、標準偏差の使い方が違う点に注意しましょう。'
   figures: []
   law_note: null
   _key_choice: 騒音の管理区分の決定には、測定値の算術平均と標準偏差を用いる。
-  _review: true
 - num: 6
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -131,13 +141,15 @@ questions:
   - 1-ブタノール
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'メタノールは沸点が約 65℃と、選択肢の中で最も低く、25℃での飽和蒸気圧が最も高い物質です。よって答えは（3）です。
+
+
+    イソプロピルアルコール（約 82℃）、トルエン（約 111℃）、1-ブタノール（約 118℃）、キシレン（約 140℃）の順に沸点が高くなります。'
   figures: []
   law_note: null
   _key_choice: メタノール
-  _review: true
 - num: 7
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -153,13 +165,15 @@ questions:
   - イソプロピルアルコールは、キシレンより極性が大きい。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'トルエンは極性の小さい炭化水素で、ヒドロキシ基をもつメタノールより極性は**小さい**物質です。選択肢3は誤りです。
+
+
+    アルコールやケトンのように酸素を含む官能基をもつ物質は極性が大きく、n-ヘキサン、トルエン、キシレン、二硫化炭素のような物質は極性が小さい、と整理しておきましょう。'
   figures: []
   law_note: null
   _key_choice: トルエンは、メタノールよりも極性が大きい。
-  _review: true
 - num: 8
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
@@ -175,16 +189,18 @@ questions:
   - 酢酸エチル ／ 活性炭管
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'クロム酸ミストは粒子なので、ろ過捕集法やインピンジャーで捕集します。シリカゲル管との組合せは不適当なので、答えは（1）です。
+
+
+    この組合せの誤りは、令和3年度第1回・令和6年度第2回にもあります。'
   figures: []
   law_note: null
   _key_choice: クロム酸ミストシリカゲル管
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 9
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -200,13 +216,15 @@ questions:
   - 圧力損失の大きい捕集装置によるサンプリングに用いる流量計の校正は、当該捕集装置を取り付けた状態で行う。
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '湿式ガスメーターは、原則としてポンプの**下流側**に接続します。上流側とする選択肢1は誤りです。
+
+
+    繰り返し出題されている論点です。'
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
-  _review: true
 - num: 10
-  status: draft
+  status: published
   chapters:
   - solid-sorbent
   traps:
@@ -222,13 +240,12 @@ questions:
   - 放射性ヨウ素の捕集には、活性炭が用いられる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: ポーラスポリマービーズは、活性炭に比べて有機溶剤蒸気に対する捕集容量が**小さい**吸着剤です。「大きい」とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、一般に、活性炭に比べて有機溶剤蒸気に対する捕集容量が大きい。
-  _review: true
 - num: 11
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
@@ -244,13 +261,12 @@ questions:
   - インジウム化合物の捕集には、分粒装置付きの捕集装置を用いる。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 遊離けい酸の分析に用いるサンプルも、吸入性粉じんとして**分粒装置付きのホルダー**で捕集します。オープンフェース型ホルダーとする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じん中に含まれる遊離けい酸の分析に用いるサンプルの捕集には、オープンフェース型ホルダーを用いる。
-  _review: true
 - num: 12
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
@@ -266,13 +282,15 @@ questions:
   - 真空捕集びんは、1.33 kPa 以下の圧力にして使用する。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ミゼットインピンジャーでミストのような粒子を捕集するのは、空気を捕集液に勢いよく吹き付けたときの**慣性衝突**の作用です。拡散効果とする選択肢4は誤りです。
+
+
+    拡散効果で捕集されるのは、0.1 µm より小さい非常に細かい粒子をろ過材で捕らえる場合です（同じ回の問11 選択肢3）。'
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによるミストの捕集では、拡散効果により捕集される。
-  _review: true
 - num: 13
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -288,13 +306,12 @@ questions:
   - 光散乱方式の相対濃度計において、粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 光散乱方式の相対濃度計で、測定時間に比例するのはカウント数の**積算値**です。相対濃度（単位時間あたりのカウント数）は、濃度が一定なら測定時間によらず一定です。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計において、粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
-  _review: true
 - num: 14
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -310,13 +327,12 @@ questions:
   - アクリロニトリルは、妨害物質がない場合には、検知管で測定することができる。
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 検知管の定量下限は、測定範囲の下限（目盛りの下限）です。変色がわずかでも認められる最低濃度は「検知限度」なので、選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: 検知管の定量下限は、変色がわずかでも認められる検知限度のことである。
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -332,13 +348,15 @@ questions:
   - 検知管による測定において変色層が斜めに現れたときは、斜めに変色した部分の中間値を読み取る。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '光散乱方式の相対濃度計の指示値は、検出部の中の粉じんの濃度で決まるので、吸引流量によってはほとんど変わりません。「吸引流量が大きくなるほど相対濃度の値は増大する」とする選択肢3は誤りです。
+
+
+    相対濃度は、光散乱方式では cpm、圧電天秤方式では mg/m³ で示されます（選択肢1）。'
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計では、吸引流量が大きくなるほど相対濃度の値は増大する。
-  _review: true
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   traps:
@@ -354,16 +372,15 @@ questions:
   - 放射性コバルト ／ ろ過捕集法
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 放射性セシウムは、粒子として存在するので**ろ過捕集法**で捕集します。固体捕集法との組合せは不適当なので、答えは（2）です。
   figures: []
   law_note: null
   _key_choice: 放射性セシウム固体捕集法
   columns:
   - Ⓐ
   - Ⓑ
-  _review: true
 - num: 17
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   - units
@@ -380,13 +397,18 @@ questions:
   - 155分
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '試料の放射能 ＝ 濃度 × 吸引流量 × 時間 × 捕集率 から、時間を求めます。吸引流量は 60 L/min ＝ 60,000 cm³/min です。
+
+
+    t ＝ 200 ÷ (3.1 × 10⁻⁵ × 60,000 × 0.75) ＝ 200 ÷ 1.395 ≒ 143 分
+
+
+    よって、最も近いのは 145 分です。'
   figures: []
   law_note: null
   _key_choice: 145分
-  _review: true
 - num: 18
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -403,13 +425,12 @@ questions:
   - 正規分布の平均値と標準偏差とは同じ次元を持つ。
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 環境空気中の有害物質の濃度の分布は、**対数正規分布**で近似されます。正規分布とする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 環境空気中の有害物質の濃度の分布は、正規分布で近似される。
-  _review: true
 - num: 19
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
@@ -425,13 +446,15 @@ questions:
   - 慣性衝突式分粒装置を用いて鉱物性粉じんの濃度を測定する場合、吸引流量が所定の値より大きいと測定値は低くなる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ミゼットインピンジャーで粒子状物質を捕集するのは慣性衝突の作用で、流量が大きいほど空気の噴出の勢いが増し、捕集率は**高く**なります。「流量が大きいほど捕集率は低くなる」とする選択肢3は誤りです。
+
+
+    ガス状物質を小型ガス吸収管で捕集する場合は逆に、流量が大きいほど捕集率は低くなります（選択肢2）。'
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによる粒子状物質の捕集では、流量が大きいほど捕集率は低くなる。
-  _review: true
 - num: 20
-  status: draft
+  status: published
   chapters:
   - evaluation
   - statistics
@@ -448,8 +471,7 @@ questions:
   - A測定の第1評価値は、空気中濃度の幾何平均値と幾何標準偏差により求められる。
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: A 測定の第1評価値は、上側5％（95％上限値）の推定値です。算術平均値の推定値は第2評価値なので、選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とは、気中有害物質濃度の算術平均値の推定値をいう。
-  _review: true

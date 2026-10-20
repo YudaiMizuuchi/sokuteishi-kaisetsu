@@ -27,7 +27,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: アボガドロ定数mol
-  _stem_head: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。ⒶⒷ
+  _stem_head: 物理量又は物理定数Aとその単位記号Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -54,8 +54,8 @@ questions:
     5.31 ＋ 0.352 ＝ 5.66、2.57 × 0.860 ≒ 2.21、4.44 ÷ 0.0623 ≒ 71.3、(3.14 ＋ 0.96) × 1.83 ＝ 4.10 × 1.83 ≒ 7.50 は、いずれも3桁です。'
   figures: []
   law_note: null
-  _key_choice: 6.34－2.3
-  _stem_head: 次の式の計算結果のうち、有効数字の桁数が３ではないものはどれか。
+  _key_choice: 6.34-2.3
+  _stem_head: 次の式の計算結果のうち、有効数字の桁数が3ではないものはどれか。
 - num: 3
   status: published
   chapters:
@@ -76,8 +76,8 @@ questions:
   explanation: 温度が一定なら、体積は圧力に反比例するので、圧力を2倍にすると体積は **1/2** 倍（ボイルの法則）です。圧力が一定なら、体積は絶対温度に比例するので、温度を2倍にすると体積は **2** 倍（シャルルの法則）です。よって（4）が正しい組合せです。
   figures: []
   law_note: null
-  _key_choice: １/２
-  _stem_head: null
+  _key_choice: 1/2
+  _stem_head: 1molの理想気体に関する次の記述のAとBに入る数値の組合せとして、正しいものは下のうちどれか。ただし、温度は絶対温度で表している。「温度が一定の条件で圧力を2倍にすると、体積はA倍になる。また、圧力が一定の条件で温度を2倍にすると、体積は
   columns:
   - Ⓐ
   - Ⓑ
@@ -105,7 +105,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
-  _stem_head: 25℃における物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  _stem_head: 25°Cにおける物質の溶解に関する次の記述のうち、誤っているものはどれか。
 - num: 5
   status: published
   chapters:
@@ -140,7 +140,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '360'
-  _stem_head: 有機化合物Aを0.05g含む水溶液200mLにヘキサン5mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は0.045gであった。
+  _stem_head: 有機化合物Aを0.05g含む水溶液200mLにヘキサン5mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は0.045gであった。有機化合物Aの水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次式で
 - num: 6
   status: published
   chapters:
@@ -171,8 +171,8 @@ questions:
     よって、最も近いのは（1）の 7.40 ％ です。'
   figures: []
   law_note: null
-  _key_choice: 7.40％
-  _stem_head: 濃度2.00mol･L-１の水酸化ナトリウム溶液の密度は1.08g･cm-３である。この溶液の質量パーセント濃度として、正しい値に最も近いも
+  _key_choice: 7.40%
+  _stem_head: 濃度2.00mol・L-1の水酸化ナトリウム溶液の密度は1.08g・cm-3である。この溶液の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g・mol-1とする。
 - num: 7
   status: published
   chapters:
@@ -232,7 +232,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 15ppm
-  _stem_head: 液体のメチルエチルケトン2.2mgを捕集袋内の清浄空気中で気化させて、メチルエチルケトンの標準ガス50Lを調製した。その濃度として、正しい値
+  _stem_head: 液体のメチルエチルケトン2.2mgを捕集袋内の清浄空気中で気化させて、メチルエチルケトンの標準ガス50Lを調製した。その濃度として、正しい値に最も近いものは次のうちどれか。ただし、メチルエチルケトンのモル質量は72g・mol-1とする。また
 - num: 9
   status: published
   chapters:
@@ -283,7 +283,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: アンモニア
-  _stem_head: シアン化水素用ガス検知管を用いてシアン化水素の濃度測定をする際に、共存すると負の妨害を与える物質は次のうちどれか。ただし、用いる検知管は、シ
+  _stem_head: シアン化水素用ガス検知管を用いてシアン化水素の濃度測定をする際に、共存すると負の妨害を与える物質は次のうちどれか。ただし、用いる検知管は、シアン化水素が塩化水銀(II)と反応して生成する物質によるpH指示薬の変色を利用したものである。
 - num: 11
   status: published
   chapters:
@@ -311,7 +311,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 溶解度積Kは、水溶液中の塩化物イオンのモル濃度によって変化する。
-  _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。ただし、塩化銀の溶解度積Kは、次式で表される。K＝\[Ag+\]\[Cl\]
+  _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。ただし、塩化銀の溶解度積Kは、次式で表される。K=\[Ag+\]\[Cl\]
 - num: 12
   status: published
   chapters:
@@ -334,7 +334,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酢酸ナトリウム
-  _stem_head: 次の塩0.1molを水１Lに溶かしたとき、その水溶液のpHが最も高くなるものはどれか。
+  _stem_head: 次の塩0.1molを水1Lに溶かしたとき、その水溶液のpHが最も高くなるものはどれか。
 - num: 13
   status: published
   chapters:
@@ -388,7 +388,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '0.06'
-  _stem_head: 物質Aの濃度が3.0×10-５mol･L-１の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.24
+  _stem_head: 物質Aの濃度が3.0×10-5mol・L-1の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.24であった。物質Aの濃度が1.5×10-5mol・L-1の溶液を光路長1.0cmの試料セルに入れ、波長
 - num: 15
   status: published
   chapters:
@@ -459,8 +459,8 @@ questions:
   explanation: 炎光光度検出器（FPD）は、硫黄やリンを含む化合物に感度の高い検出器で、芳香族炭化水素の分析には適しません。（2）が不適切です。
   figures: []
   law_note: null
-  _key_choice: 炎光光度検出器（FPD）芳香族炭化水素化合物
-  _stem_head: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。ⒶⒷ
+  _key_choice: 炎光光度検出器(FPD)芳香族炭化水素化合物
+  _stem_head: ガスクロマトグラフ分析法に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。AB
   columns:
   - Ⓐ
   - Ⓑ
@@ -537,5 +537,5 @@ questions:
     令和元年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 軌道電子捕獲では、原子番号は１つ増加する。
+  _key_choice: 軌道電子捕獲では、原子番号は1つ増加する。
   _stem_head: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
