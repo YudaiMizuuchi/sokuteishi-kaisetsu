@@ -1,10 +1,30 @@
 ---
 layout: base.njk
+fulltitle: 作業環境測定士試験 過去問と解説｜第2種の全科目を全問解説付きで無料公開
+description: 作業環境測定士（第2種）試験の過去問を、平成26年度から令和8年度までの各回について全問解説付きで無料公開。年度・科目・参考書の章・繰り返し狙われる罠の型で絞り込んで学べます。
 ---
 <div class="intro">
-  <h1>過去問を探す</h1>
-  <p>科目・年度・参考書の章で絞り込み、自分で解いてから解説を開いて確認できます。</p>
+  <h1>作業環境測定士試験 過去問と解説</h1>
+  <p>作業環境測定士試験（第2種）の共通科目「労働衛生一般」「労働衛生関係法令」「デザイン・サンプリング」「分析に関する概論」の過去問を、{{ db.examPages | length }}回分・{{ db.questions | length }}問、全問解説付きで掲載しています。問題を自分で解いてから、解説と正答を確認できます。</p>
+  <p>解説では、正答の理由だけでなく、過去の試験で繰り返し狙われてきた「罠の型」と、関係する法令の条文も示しています。法改正で扱いが変わった問題には、注意書きを付けています。</p>
 </div>
+<section class="entry" aria-label="探し方">
+  <div class="entry-col">
+    <h2>科目から探す</h2>
+    <ul>{% for s in db.subjectPages %}<li><a href="{{ s.url }}">{{ s.name }}</a>（{{ s.count }}問）</li>{% endfor %}</ul>
+  </div>
+  <div class="entry-col">
+    <h2>年度・回から探す</h2>
+    <ul>{% for e in db.examPages | head(6) %}<li><a href="{{ e.url }}">{{ e.label }}</a></li>{% endfor %}</ul>
+    <p><a href="/exam/">すべての回を見る（{{ db.examPages | length }}回）</a></p>
+  </div>
+  <div class="entry-col">
+    <h2>参考書の章から探す</h2>
+    <p>「A測定とB測定」「捕集方法」「有機溶剤」など、テーマごとに過去問と罠の型をまとめています。</p>
+    <p><a href="/chapter/">章の一覧を見る</a></p>
+  </div>
+</section>
+<h2 class="filter-title">条件を組み合わせて絞り込む</h2>
 <div class="layout">
   <aside class="filters" aria-label="問題の絞り込み">
     <fieldset>

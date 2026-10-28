@@ -1,0 +1,23 @@
+---
+layout: base.njk
+pagination:
+  data: db.subjectPages
+  size: 1
+  alias: s
+permalink: "{{ s.url }}"
+eleventyComputed:
+  fulltitle: "作業環境測定士試験「{{ s.name }}」過去問と解説"
+  description: "作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、年度・回ごとに全問解説付きで掲載。繰り返し狙われる罠の型もあわせて確認できます。"
+---
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: s.name}]) }}
+<h1>{{ s.name }}の過去問と解説</h1>
+<p class="lead">作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、新しい回から順に並べています。各問題のページで、解いてから解説を確認できます。</p>
+{% for e in s.exams %}
+<section class="exam-subject">
+  <h2><a href="{{ e.url }}#{{ s.id }}">{{ e.label }}（{{ e.held }}）</a></h2>
+  <ol class="qindex">
+  {% for q in e.questions %}<li><a href="{{ q.url }}">問{{ q.num }}　{{ q.title }}</a></li>{% endfor %}
+  </ol>
+</section>
+{% endfor %}

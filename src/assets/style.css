@@ -157,3 +157,19 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82r
 /* 確認中の注記 */
 .review-note { margin: 12px 0; padding: 8px 12px; border: 1px dashed var(--amber); border-radius: 6px; background: var(--surface); font-size: .9rem; }
 .review-note b { display: block; color: var(--amber); font-size: .85rem; margin-bottom: 2px; }
+
+/* トップの入口・一覧ページ */
+.entry { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 8px 0 28px; }
+.entry-col { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; }
+.entry-col h2 { font-size: 1.05rem; margin: 0 0 8px; color: var(--deep); }
+.entry-col ul { margin: 0; padding-left: 1.2em; }
+.filter-title { font-size: 1.1rem; margin: 8px 0 12px; }
+.toc ul.inline { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.exam-subject { margin: 24px 0; }
+.exam-subject h2 { font-size: 1.15rem; border-bottom: 2px solid var(--deep); padding-bottom: 4px; }
+.qindex { padding-left: 0; list-style: none; margin: 0; }
+.qindex li { padding: 5px 0; border-bottom: 1px solid var(--line); }
+.more-link { font-size: .92rem; margin-top: 8px; }
+.exam-list { list-style: none; padding: 0; }
+.exam-list li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.exam-list span { color: var(--muted); font-size: .9rem; }

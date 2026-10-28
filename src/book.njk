@@ -9,7 +9,8 @@ eleventyComputed:
   title: "{{ c.label }}｜参考書"
   description: "作業環境測定士試験の参考書「{{ c.label }}」。過去問で繰り返し狙われる罠の型を、理由から理解できるように解説します。"
 ---
-<nav class="crumbs" aria-label="現在の位置"><a href="/book/">参考書</a> › 第{{ c.partNum }}部 {{ c.partName }}</nav>
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: "参考書", url: "/book/"}, {name: c.label}]) }}
 <article class="book">
   <h1>{{ c.label }}</h1>
   {% if c.bookToc.length %}

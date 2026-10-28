@@ -1,0 +1,25 @@
+---
+layout: base.njk
+pagination:
+  data: db.examPages
+  size: 1
+  alias: e
+permalink: "{{ e.url }}"
+eleventyComputed:
+  fulltitle: "{{ e.label }}（{{ e.held }}）作業環境測定士試験 過去問と解説"
+  description: "{{ e.label }}（{{ e.held }}）の作業環境測定士試験の過去問{{ e.count }}問を、科目ごとに全問解説付きで掲載。問題を解いてから解説と正答を確認できます。"
+---
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: "年度・回から探す", url: "/exam/"}, {name: e.label}]) }}
+<h1>{{ e.label }}（{{ e.held }}） 作業環境測定士試験 過去問と解説</h1>
+<p class="lead">{{ e.label }}に実施された作業環境測定士試験の過去問{{ e.count }}問です。各問題のページで、問題を解いてから「解説を見る」で正答と解説を確認できます。</p>
+<nav class="toc" aria-label="科目"><p class="toc-title">科目</p><ul class="inline">{% for s in e.subjects %}<li><a href="#{{ s.id }}">{{ s.name }}（{{ s.questions.length }}問）</a></li>{% endfor %}</ul></nav>
+{% for s in e.subjects %}
+<section class="exam-subject" id="{{ s.id }}">
+  <h2>{{ s.name }}</h2>
+  <ol class="qindex">
+  {% for q in s.questions %}<li><a href="{{ q.url }}">問{{ q.num }}　{{ q.title }}</a></li>{% endfor %}
+  </ol>
+  <p class="more-link"><a href="{{ s.url }}">{{ s.name }}の過去問を他の回も見る</a> ／ <a href="/#exam={{ e.key }}&subject={{ s.id }}">絞り込み画面で解く</a></p>
+</section>
+{% endfor %}

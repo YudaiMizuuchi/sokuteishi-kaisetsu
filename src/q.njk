@@ -10,7 +10,8 @@ eleventyComputed:
   description: "{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}の解説。{{ (q.stemPlain or q.summary or '') | truncate(80) }}"
 ---
 {% from "card.njk" import card %}
-<nav class="crumbs" aria-label="現在の位置"><a href="/">問題を探す</a> › <a href="/#exam={{ q.exam.key }}&subject={{ q.subject }}">{{ q.exam.label }} {{ q.subjectName }}</a> › 問{{ q.num }}</nav>
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: q.exam.label, url: q.examUrl}, {name: q.subjectName, url: q.examUrl + "#" + q.subject}, {name: "問" + q.num}]) }}
 {{ card(q, site) }}
 <nav class="pager" aria-label="同じ回の前後の問題">
   {% if q.prev %}<a href="{{ q.prev.url }}" rel="prev">問{{ q.prev.num }}へ戻る</a>{% else %}<span></span>{% endif %}
