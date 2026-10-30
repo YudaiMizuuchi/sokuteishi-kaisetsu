@@ -25,12 +25,10 @@ function examInfo(key) {
   const [y, m] = key.split("-").map(Number);
   const fy = m <= 3 ? y - 1 : y;
   const round = m <= 3 ? 2 : 1;
-  // 2019年度から令和（2019年度＝令和元年度）、それより前は平成
-  const era = fy >= 2019 ? "令和" : "平成";
-  const n = fy >= 2019 ? fy - 2018 : fy - 1988;
+  const reiwa = fy - 2018;
   return {
     key, fy, round,
-    label: `${era}${n === 1 ? "元" : n}年度 第${round}回`,
+    label: `令和${reiwa === 1 ? "元" : reiwa}年度 第${round}回`,
     held: `${y}年${m}月実施`,
   };
 }
@@ -239,41 +237,10 @@ const bookParts = book.parts
   .map((p) => ({ ...p, chapters: chapters.filter((c) => c.part === p.id) }))
   .filter((p) => p.chapters.length);
 
-// ---- 回ごと・科目ごとの一覧ページ（検索エンジンにも読める静的なリンク集）
-const shortTitle = (q) => {
-  const t = q.traps.find((x) => !x.misc);
-  if (t) return t.name;
-  const st = (q.stemPlain || q.summary || "").replace(/[「」]/g, "");
-  return st.length > 40 ? st.slice(0, 40) + "…" : st;
-};
-const qLink = (q) => ({ num: q.num, url: q.url, title: shortTitle(q), rank: q.rank });
-const examPages = [...new Set(questions.map((q) => q.exam.key))].sort().reverse().map((key) => {
-  const info = examInfo(key);
-  const qs = questions.filter((q) => q.exam.key === key);
-  const subs = subjects
-    .map((sj) => ({ id: sj.id, name: sj.name, url: `/subject/${sj.id}/`,
-      questions: qs.filter((q) => q.subject === sj.id).sort((a, b) => a.num - b.num).map(qLink) }))
-    .filter((x) => x.questions.length);
-  return { ...info, url: `/exam/${key}/`, subjects: subs, count: qs.length };
-});
-const subjectPages = subjects
-  .map((sj) => {
-    const qs = questions.filter((q) => q.subject === sj.id);
-    const ex = [...new Set(qs.map((q) => q.exam.key))].sort().reverse().map((key) => ({
-      ...examInfo(key), url: `/exam/${key}/`,
-      questions: qs.filter((q) => q.exam.key === key).sort((a, b) => a.num - b.num).map(qLink),
-    }));
-    return { id: sj.id, name: sj.name, url: `/subject/${sj.id}/`, exams: ex, count: qs.length };
-  })
-  .filter((x) => x.count);
-questions.forEach((q) => { q.examUrl = `/exam/${q.exam.key}/`; q.subjectUrl = `/subject/${q.subject}/`; });
-
 // 確認中の解説の一覧（/review/ ページ用）
 const reviewQuestions = questions.filter((q) => q.reviewNote);
 
 export default {
-  examPages,
-  subjectPages,
   reviewQuestions,
   bookChapters,
   bookParts,

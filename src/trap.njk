@@ -10,8 +10,7 @@ eleventyComputed:
   description: "作業環境測定士試験 {{ t.subjectName }}で{{ t.count }}回狙われた罠「{{ t.name }}」の正しい理解と理由。"
 ---
 {% from "card.njk" import card %}
-{% from "crumbs.njk" import crumbs %}
-{{ crumbs([{name: "ホーム", url: "/"}, {name: "章から探す", url: "/chapter/"}, {name: t.chapterLabel, url: t.chapterUrl}, {name: t.name}]) }}
+<nav class="crumbs" aria-label="現在の位置"><a href="/chapter/">参考書の章から探す</a> › <a href="{{ t.chapterUrl }}">{{ t.chapterLabel }}</a></nav>
 <h1>{{ t.name }}</h1>
 <p class="trapmeta"><span class="rank rank-{{ t.rank }}">ランク{{ t.rank }}</span> {{ t.subjectName }}・{{ t.count }}回出題</p>
 <section class="trapbody">
