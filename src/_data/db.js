@@ -247,6 +247,7 @@ export default {
   subjects,
   subjectsWithData,
   exams,
+  examPages: exams, // ← この1行を追加（exam.njk の要求に応える）
   parts,
   chapters: usedChapters,
   traps: traps.filter((t) => t.questions.length && t.url),
