@@ -1,5 +1,0 @@
-{#- パンくずリスト（画面の表示と、検索エンジン向けの構造化データ BreadcrumbList） -#}
-{% macro crumbs(items) %}
-<nav class="crumbs" aria-label="現在の位置">{% for it in items %}{% if not loop.first %} › {% endif %}{% if it.url and not loop.last %}<a href="{{ it.url }}">{{ it.name }}</a>{% else %}{{ it.name }}{% endif %}{% endfor %}</nav>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for it in items %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ it.name | json | safe }}{% if it.url %},"item":{{ it.url | absUrl | json | safe }}{% endif %}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
-{% endmacro %}
