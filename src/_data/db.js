@@ -245,6 +245,7 @@ export default {
   bookChapters,
   bookParts,
   subjects,
+  subjectPages: subjects, // ←この行を追加
   subjectsWithData,
   exams,
   examPages: exams, // ← この1行を追加（exam.njk の要求に応える）
