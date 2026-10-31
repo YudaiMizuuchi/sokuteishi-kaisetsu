@@ -441,13 +441,13 @@ traps:
   rank: A
   count: 7
   exams:
-  - 2015-08
   - 2016-08
   - 2018-02
   - 2018-08
   - 2020-08
   - 2024-02
   - 2025-02
+  - 2026-08
   understanding: 鉱物性粉じんは遊離けい酸含有率から式で求め、含有率が高いほど小さい（質量濃度）。RCFは長さ5µm以上の繊維の本数濃度。
   reason: じん肺の主因は遊離けい酸なので含有率が高いほど厳しくする。繊維は形（長さ）が健康影響を左右するので本数で数える。
   confidence: 中
@@ -460,9 +460,8 @@ traps:
   seat: 濃度と物質の状態
   name: 粉じん・ヒューム・ミストの粒径と形
   rank: A
-  count: 7
+  count: 5
   exams:
-  - 2016-02
   - 2017-08
   - 2019-02
   - 2020-02
@@ -488,21 +487,6 @@ traps:
   confidence: 高
   verify: false
   hidden: false
-- id: ds-dust-disease-01
-  subject: design
-  chapter: dust-disease
-  foundation: null
-  seat: 濃度と物質の状態
-  name: 空気力学相当径の意味
-  rank: C
-  count: 1
-  exams:
-  - 2015-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
 - id: ds-unit-workplace-01
   subject: design
   chapter: unit-workplace
@@ -510,9 +494,8 @@ traps:
   seat: 単位作業場所
   name: 人数・作業時間・保護具は考慮しない
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2015-02
   - 2016-08
   - 2018-02
   - 2019-08
@@ -541,23 +524,6 @@ traps:
   - 2025-08
   understanding: 別々の場所・時間で使う物質を混合溶剤とみなさない。壁で仕切られた区域は別。同じ区域で同時に行う一連の作業は一つ。
   reason: 単位作業場所は「同じ濃度分布を持つ空間」。空間がつながっているか、同時に発散しているかで決まり、作業内容や人で決まるのではない。
-  confidence: 中
-  verify: false
-  hidden: false
-- id: ds-unit-workplace-06
-  subject: design
-  chapter: unit-workplace
-  foundation: null
-  seat: 単位作業場所
-  name: 2作業日の単位作業場所の範囲
-  rank: B
-  count: 3
-  exams:
-  - 2015-02
-  - 2016-02
-  - 2017-08
-  understanding: 連続2作業日で測定する場合、両日の単位作業場所の範囲は一致させる。
-  reason: 同じ場の2日分として評価するため。
   confidence: 中
   verify: false
   hidden: false
@@ -609,6 +575,21 @@ traps:
   confidence: 高
   verify: false
   hidden: false
+- id: ds-unit-workplace-06
+  subject: design
+  chapter: unit-workplace
+  foundation: null
+  seat: 単位作業場所
+  name: 2作業日の単位作業場所の範囲
+  rank: C
+  count: 1
+  exams:
+  - 2017-08
+  understanding: 連続2作業日で測定する場合、両日の単位作業場所の範囲は一致させる。
+  reason: 同じ場の2日分として評価するため。
+  confidence: 中
+  verify: false
+  hidden: false
 - id: ds-unit-workplace-05
   subject: design
   chapter: unit-workplace
@@ -616,54 +597,13 @@ traps:
   seat: 単位作業場所
   name: その他（面積・C測定の単位作業場所）
   rank: C
-  count: 3
+  count: 2
   exams:
-  - 2015-08
   - 2024-02
   - 2026-08
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
   confidence: null
-  verify: false
-  hidden: false
-- id: ds-a-b-measurement-07
-  subject: design
-  chapter: a-b-measurement
-  foundation: null
-  seat: A測定・B測定
-  name: B測定の実施時間・実施の要否
-  rank: A
-  count: 6
-  exams:
-  - 2015-02
-  - 2015-08
-  - 2016-08
-  - 2018-08
-  - 2021-02
-  - 2024-02
-  understanding: B測定は濃度が最も高くなる時間に行い、A測定の時間外でもよい。発散源に近接する作業がある単位作業場所だけで行う。
-  reason: 目的が局所・短時間の高濃度の把握だから、時間も場所もそれに合わせる。
-  confidence: 高
-  verify: false
-  hidden: false
-- id: ds-a-b-measurement-01
-  subject: design
-  chapter: a-b-measurement
-  foundation: null
-  seat: A測定・B測定
-  name: 測定点の線の引き方（等間隔系統抽出）
-  rank: A
-  count: 6
-  exams:
-  - 2015-08
-  - 2018-08
-  - 2020-08
-  - 2025-08
-  - 2026-02
-  - 2026-08
-  understanding: 6m以下の等間隔で縦横の線を引き、その交点を全て測定点にする。縦横の間隔は違ってよく、直交しなくてもよい。設備と重なる交点は除き、線は引き直さない。交点から任意に選ばない。
-  reason: 等間隔系統抽出で、測定者の判断を入れずに場を偏りなく代表させるため。
-  confidence: 高
   verify: false
   hidden: false
 - id: ds-a-b-measurement-03
@@ -685,6 +625,43 @@ traps:
   confidence: 中
   verify: false
   hidden: false
+- id: ds-a-b-measurement-01
+  subject: design
+  chapter: a-b-measurement
+  foundation: null
+  seat: A測定・B測定
+  name: 測定点の線の引き方（等間隔系統抽出）
+  rank: A
+  count: 5
+  exams:
+  - 2018-08
+  - 2020-08
+  - 2025-08
+  - 2026-02
+  - 2026-08
+  understanding: 6m以下の等間隔で縦横の線を引き、その交点を全て測定点にする。縦横の間隔は違ってよく、直交しなくてもよい。設備と重なる交点は除き、線は引き直さない。交点から任意に選ばない。
+  reason: 等間隔系統抽出で、測定者の判断を入れずに場を偏りなく代表させるため。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: ds-a-b-measurement-07
+  subject: design
+  chapter: a-b-measurement
+  foundation: null
+  seat: A測定・B測定
+  name: B測定の実施時間・実施の要否
+  rank: A
+  count: 4
+  exams:
+  - 2016-08
+  - 2018-08
+  - 2021-02
+  - 2024-02
+  understanding: B測定は濃度が最も高くなる時間に行い、A測定の時間外でもよい。発散源に近接する作業がある単位作業場所だけで行う。
+  reason: 目的が局所・短時間の高濃度の把握だから、時間も場所もそれに合わせる。
+  confidence: 高
+  verify: false
+  hidden: false
 - id: ds-a-b-measurement-05
   subject: design
   chapter: a-b-measurement
@@ -692,9 +669,8 @@ traps:
   seat: A測定・B測定
   name: 短時間測定の積み上げは平均（10分間値）
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2016-02
   - 2019-02
   - 2020-02
   - 2024-08
@@ -703,60 +679,6 @@ traps:
   reason: B測定値は「最も高い時間帯の10分間の濃度」なので、短時間値を並べたらそれをならす。
   confidence: 中（根拠資料で要確認）
   verify: true
-  hidden: false
-- id: ds-a-b-measurement-09
-  subject: design
-  chapter: a-b-measurement
-  foundation: null
-  seat: A測定・B測定
-  name: 測定点を5未満にできる条件と測定値総数5
-  rank: B
-  count: 4
-  exams:
-  - 2016-02
-  - 2019-02
-  - 2021-08
-  - 2023-08
-  understanding: 「著しく狭い」かつ「濃度がほぼ均一」の両方を満たすときだけ測定点を5未満にできる。その場合も繰り返し測定で測定値の総数は5以上。
-  reason: 評価値（幾何平均・幾何標準偏差）を計算するには最低5個のデータが必要だから。過去の管理区分は条件にならない。
-  confidence: 高
-  verify: false
-  hidden: false
-- id: ds-a-b-measurement-11
-  subject: design
-  chapter: a-b-measurement
-  foundation: statistics
-  seat: A測定・B測定
-  name: 濃度がほぼ均一の判断（幾何標準偏差）
-  rank: B
-  count: 4
-  exams:
-  - 2015-02
-  - 2016-08
-  - 2017-08
-  - 2020-02
-  understanding: 過去の測定で幾何標準偏差がおおむね1.2以下なら「ほぼ均一」とみなせる（1.5ではない）。
-  reason: 幾何標準偏差1.2はばらつきが非常に小さい状態。
-  confidence: 高
-  verify: false
-  hidden: false
-- id: ds-a-b-measurement-06
-  subject: design
-  chapter: a-b-measurement
-  foundation: null
-  seat: A測定・B測定
-  name: 複数の作業位置・B測定点は最大値を採る
-  rank: B
-  count: 4
-  exams:
-  - 2017-08
-  - 2020-02
-  - 2023-02
-  - 2026-02
-  understanding: 最大濃度になる位置が予測できず複数測った場合、B測定値はその最大値。
-  reason: B測定は「最悪の箇所」を押さえる測定なので、平均すると意味を失う。
-  confidence: 高
-  verify: false
   hidden: false
 - id: ds-a-b-measurement-02
   subject: design
@@ -809,6 +731,40 @@ traps:
   confidence: 高
   verify: false
   hidden: false
+- id: ds-a-b-measurement-09
+  subject: design
+  chapter: a-b-measurement
+  foundation: null
+  seat: A測定・B測定
+  name: 測定点を5未満にできる条件と測定値総数5
+  rank: B
+  count: 3
+  exams:
+  - 2019-02
+  - 2021-08
+  - 2023-08
+  understanding: 「著しく狭い」かつ「濃度がほぼ均一」の両方を満たすときだけ測定点を5未満にできる。その場合も繰り返し測定で測定値の総数は5以上。
+  reason: 評価値（幾何平均・幾何標準偏差）を計算するには最低5個のデータが必要だから。過去の管理区分は条件にならない。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: ds-a-b-measurement-11
+  subject: design
+  chapter: a-b-measurement
+  foundation: statistics
+  seat: A測定・B測定
+  name: 濃度がほぼ均一の判断（幾何標準偏差）
+  rank: B
+  count: 3
+  exams:
+  - 2016-08
+  - 2017-08
+  - 2020-02
+  understanding: 過去の測定で幾何標準偏差がおおむね1.2以下なら「ほぼ均一」とみなせる（1.5ではない）。
+  reason: 幾何標準偏差1.2はばらつきが非常に小さい状態。
+  confidence: 高
+  verify: false
+  hidden: false
 - id: ds-a-b-measurement-10
   subject: design
   chapter: a-b-measurement
@@ -822,6 +778,22 @@ traps:
   - 2026-02
   understanding: 繰り返し測定をする場合、各測定点の回数は同一にする（一部の点だけ繰り返さない）。
   reason: 回数が違うと特定の点の重みが大きくなり、場の代表値が偏る。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: ds-a-b-measurement-06
+  subject: design
+  chapter: a-b-measurement
+  foundation: null
+  seat: A測定・B測定
+  name: 複数の作業位置・B測定点は最大値を採る
+  rank: B
+  count: 2
+  exams:
+  - 2023-02
+  - 2026-02
+  understanding: 最大濃度になる位置が予測できず複数測った場合、B測定値はその最大値。
+  reason: B測定は「最悪の箇所」を押さえる測定なので、平均すると意味を失う。
   confidence: 高
   verify: false
   hidden: false
@@ -853,7 +825,7 @@ traps:
   foundation: null
   seat: 個人サンプリング法
   name: C・D測定の人数と時間
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2021-08
@@ -905,11 +877,8 @@ traps:
   seat: 物性
   name: 物性の比較（蒸気圧・沸点・融点・状態）
   rank: A
-  count: 29
+  count: 24
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -939,9 +908,8 @@ traps:
   seat: 物性
   name: 極性の大小
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-02
   - 2016-08
   - 2017-08
   - 2019-08
@@ -959,32 +927,14 @@ traps:
   seat: 物性
   name: 蒸気の密度（空気より重いか）
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2015-08
   - 2021-02
   - 2024-02
   - 2024-08
   understanding: 空気の平均分子量（約29）と比べる。多くの有機溶剤は重く床付近にたまる。フッ化水素（20）やシアン化水素（27）は軽い。
   reason: 同じ温度・圧力なら気体の密度は分子量に比例する。
   confidence: 高
-  verify: false
-  hidden: false
-- id: ds-properties-06
-  subject: design
-  chapter: properties
-  foundation: null
-  seat: 物性
-  name: 遊離けい酸を含む粉じん・含まない粉じん
-  rank: B
-  count: 3
-  exams:
-  - 2015-02
-  - 2017-02
-  - 2019-02
-  understanding: 長石のように、けい素が化合物として結合している鉱物の粉じんには、遊離けい酸がほとんど含まれない。
-  reason: null
-  confidence: 中
   verify: false
   hidden: false
 - id: ds-properties-04
@@ -1001,6 +951,22 @@ traps:
   understanding: クリストバライトは遊離けい酸（結晶質シリカ）の一種。
   reason: 石英・クリストバライト・トリジマイトが遊離けい酸の結晶形。
   confidence: 高
+  verify: false
+  hidden: false
+- id: ds-properties-06
+  subject: design
+  chapter: properties
+  foundation: null
+  seat: 物性
+  name: 遊離けい酸を含む粉じん・含まない粉じん
+  rank: B
+  count: 2
+  exams:
+  - 2017-02
+  - 2019-02
+  understanding: 長石のように、けい素が化合物として結合している鉱物の粉じんには、遊離けい酸がほとんど含まれない。
+  reason: null
+  confidence: 中
   verify: false
   hidden: false
 - id: ds-properties-05
@@ -1091,9 +1057,8 @@ traps:
   seat: 捕集器具の組合せ
   name: クロム酸ミストにシリカゲル管
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-08
   - 2017-08
   - 2018-08
   - 2019-08
@@ -1102,22 +1067,6 @@ traps:
   understanding: クロム酸ミストは粒子状物質なのでろ過捕集（フィルター）で採る。
   reason: シリカゲル管・活性炭管はガス・蒸気を吸着する道具。状態（粒子かガスか）で捕集法が決まる。
   confidence: 高
-  verify: false
-  hidden: false
-- id: ds-sampler-selection-04
-  subject: design
-  chapter: sampler-selection
-  foundation: null
-  seat: 捕集器具の組合せ
-  name: ニッケル化合物（粉状）にバブラー
-  rank: B
-  count: 2
-  exams:
-  - 2016-02
-  - 2019-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
   verify: false
   hidden: false
 - id: ds-sampler-selection-02
@@ -1136,6 +1085,21 @@ traps:
   confidence: 要確認
   verify: true
   hidden: false
+- id: ds-sampler-selection-04
+  subject: design
+  chapter: sampler-selection
+  foundation: null
+  seat: 捕集器具の組合せ
+  name: ニッケル化合物（粉状）にバブラー
+  rank: C
+  count: 1
+  exams:
+  - 2019-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+  hidden: false
 - id: ds-sampler-selection-03
   subject: design
   chapter: sampler-selection
@@ -1143,10 +1107,8 @@ traps:
   seat: 捕集器具の組合せ
   name: その他の組合せ（単発）
   rank: C
-  count: 12
+  count: 10
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2020-02
@@ -1209,9 +1171,8 @@ traps:
   seat: 流量計
   name: 湿式ガスメーターの接続位置
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2015-08
   - 2019-08
   - 2020-02
   - 2023-02
@@ -1236,21 +1197,6 @@ traps:
   understanding: 絞り式は前後の差圧から、石けん膜流量計は膜が一定体積を通過する時間から求める（石けん液の密度は無関係）。面積式は温度による補正が必要。
   reason: それぞれの測定原理を一度理解すれば誤りの記述は見抜ける。
   confidence: 中
-  verify: false
-  hidden: false
-- id: ds-flowmeter-04
-  subject: design
-  chapter: flowmeter
-  foundation: null
-  seat: 流量計
-  name: その他（単発）
-  rank: C
-  count: 1
-  exams:
-  - 2017-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
   verify: false
   hidden: false
 - id: ds-solid-sorbent-01
@@ -1281,9 +1227,8 @@ traps:
   seat: 固体捕集法
   name: 活性炭の吸着は温度が低いほど強い
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2015-08
   - 2017-02
   - 2017-08
   - 2018-02
@@ -1299,31 +1244,13 @@ traps:
   seat: 固体捕集法
   name: シリカゲルは極性の大きい物質、活性炭は極性の小さい物質向き
   rank: B
-  count: 3
+  count: 2
   exams:
-  - 2015-02
   - 2016-08
   - 2023-02
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
   confidence: null
-  verify: false
-  hidden: false
-- id: ds-solid-sorbent-06
-  subject: design
-  chapter: solid-sorbent
-  foundation: null
-  seat: 固体捕集法
-  name: 除湿管は一般には使わない
-  rank: B
-  count: 3
-  exams:
-  - 2016-02
-  - 2019-02
-  - 2020-08
-  understanding: 活性炭管に、一般に除湿管をつないで使うことはない。
-  reason: null
-  confidence: 中
   verify: false
   hidden: false
 - id: ds-solid-sorbent-02
@@ -1339,6 +1266,22 @@ traps:
   - 2021-08
   understanding: 前層に捕集された物質は後層へ移動しうる。混合物では吸着の弱いもの（例：アセトン）が先に破過する。
   reason: 吸着は平衡なので、より強く吸着する物質に押し出される。
+  confidence: 中
+  verify: false
+  hidden: false
+- id: ds-solid-sorbent-06
+  subject: design
+  chapter: solid-sorbent
+  foundation: null
+  seat: 固体捕集法
+  name: 除湿管は一般には使わない
+  rank: B
+  count: 2
+  exams:
+  - 2019-02
+  - 2020-08
+  understanding: 活性炭管に、一般に除湿管をつないで使うことはない。
+  reason: null
   confidence: 中
   verify: false
   hidden: false
@@ -1366,10 +1309,8 @@ traps:
   seat: ろ過捕集法
   name: ポアサイズの意味
   rank: A
-  count: 10
+  count: 8
   exams:
-  - 2015-02
-  - 2016-02
   - 2017-02
   - 2018-02
   - 2018-08
@@ -1389,7 +1330,7 @@ traps:
   foundation: null
   seat: ろ過捕集法
   name: 遊離けい酸の試料は分粒装置付きで採る
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2017-08
@@ -1399,23 +1340,6 @@ traps:
   understanding: 遊離けい酸分析用の試料は分粒装置付きのホルダーで採る（オープンフェースではない）。
   reason: じん肺を起こすのは肺の奥まで届く吸入性の粒子だから。
   confidence: 中
-  verify: false
-  hidden: false
-- id: ds-filter-04
-  subject: design
-  chapter: filter
-  foundation: null
-  seat: ろ過捕集法
-  name: 拡散による捕集と流速
-  rank: B
-  count: 3
-  exams:
-  - 2015-02
-  - 2025-02
-  - 2026-02
-  understanding: 拡散による捕集率は、ろ過流速が遅いほど高い。
-  reason: 流速が遅いほど粒子が繊維の近くに長くとどまり、ブラウン運動で繊維に触れやすい。
-  confidence: 高
   verify: false
   hidden: false
 - id: ds-filter-06
@@ -1450,16 +1374,31 @@ traps:
   confidence: 中
   verify: false
   hidden: false
+- id: ds-filter-04
+  subject: design
+  chapter: filter
+  foundation: null
+  seat: ろ過捕集法
+  name: 拡散による捕集と流速
+  rank: B
+  count: 2
+  exams:
+  - 2025-02
+  - 2026-02
+  understanding: 拡散による捕集率は、ろ過流速が遅いほど高い。
+  reason: 流速が遅いほど粒子が繊維の近くに長くとどまり、ブラウン運動で繊維に触れやすい。
+  confidence: 高
+  verify: false
+  hidden: false
 - id: ds-filter-07
   subject: design
   chapter: filter
   foundation: null
   seat: ろ過捕集法
   name: 粒径と捕集の仕組み（大きい粒子は慣性、小さい粒子は拡散）
-  rank: B
-  count: 2
+  rank: C
+  count: 1
   exams:
-  - 2015-08
   - 2016-08
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
@@ -1490,15 +1429,12 @@ traps:
   seat: 液体捕集・直接捕集
   name: ミゼットインピンジャーの捕集率（流量・粒径）
   rank: A
-  count: 12
+  count: 9
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
   - 2019-08
-  - 2020-02
   - 2020-08
   - 2021-08
   - 2023-08
@@ -1515,10 +1451,11 @@ traps:
   seat: 液体捕集・直接捕集
   name: 真空捕集びん・捕集袋
   rank: A
-  count: 5
+  count: 6
   exams:
   - 2018-08
   - 2019-02
+  - 2020-02
   - 2021-02
   - 2023-02
   - 2026-02
@@ -1551,9 +1488,8 @@ traps:
   seat: 液体捕集・直接捕集
   name: その他（単発）
   rank: C
-  count: 4
+  count: 3
   exams:
-  - 2015-02
   - 2024-08
   - 2025-08
   - 2026-08
@@ -1569,9 +1505,8 @@ traps:
   seat: 相対濃度計
   name: 相対濃度は測定時間に比例しない（cpm）
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2016-02
   - 2018-02
   - 2018-08
   - 2019-08
@@ -1590,9 +1525,8 @@ traps:
   seat: 相対濃度計
   name: 表示単位と質量濃度変換係数
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-08
   - 2017-08
   - 2019-02
   - 2020-02
@@ -1603,13 +1537,31 @@ traps:
   confidence: 中
   verify: false
   hidden: false
+- id: ds-relative-meter-07
+  subject: design
+  chapter: relative-meter
+  foundation: null
+  seat: 相対濃度計
+  name: 光散乱方式の相対濃度計と分粒装置
+  rank: A
+  count: 4
+  exams:
+  - 2016-08
+  - 2017-08
+  - 2019-02
+  - 2021-02
+  understanding: 光散乱方式の相対濃度計で鉱物性粉じんを測るときの分粒装置の扱い。
+  reason: null
+  confidence: 要確認
+  verify: true
+  hidden: false
 - id: ds-relative-meter-02
   subject: design
   chapter: relative-meter
   foundation: null
   seat: 相対濃度計
   name: 吸引流量と相対濃度
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2018-08
@@ -1619,40 +1571,6 @@ traps:
   understanding: 光散乱方式の相対濃度は、吸引流量が変わってもほぼ変わらない。
   reason: 光が当たる空間にある粒子の濃度を見ているため、通過する空気の量ではない。
   confidence: 中
-  verify: false
-  hidden: false
-- id: ds-relative-meter-07
-  subject: design
-  chapter: relative-meter
-  foundation: null
-  seat: 相対濃度計
-  name: 光散乱方式の相対濃度計と分粒装置
-  rank: B
-  count: 3
-  exams:
-  - 2016-08
-  - 2017-08
-  - 2019-02
-  understanding: 光散乱方式の相対濃度計で鉱物性粉じんを測るときの分粒装置の扱い。
-  reason: null
-  confidence: 要確認
-  verify: true
-  hidden: false
-- id: ds-relative-meter-08
-  subject: design
-  chapter: relative-meter
-  foundation: null
-  seat: 相対濃度計
-  name: 質量濃度変換係数と発生源からの距離
-  rank: B
-  count: 3
-  exams:
-  - 2015-02
-  - 2015-08
-  - 2016-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
   verify: false
   hidden: false
 - id: ds-relative-meter-04
@@ -1668,6 +1586,22 @@ traps:
   - 2026-02
   understanding: 相対濃度計を使うA測定でも、1単位作業場所の採取開始から終了までは1時間以上。
   reason: 時間的な濃度変動を評価に含めるため。
+  confidence: 中
+  verify: false
+  hidden: false
+- id: ds-relative-meter-10
+  subject: design
+  chapter: relative-meter
+  foundation: null
+  seat: 相対濃度計
+  name: 光散乱方式は特定の角度の散乱光を測る
+  rank: B
+  count: 2
+  exams:
+  - 2018-02
+  - 2020-08
+  understanding: 光散乱方式は、特定の角度に散乱した光を測る（全方位の散乱光ではない）。
+  reason: null
   confidence: 中
   verify: false
   hidden: false
@@ -1687,35 +1621,34 @@ traps:
   confidence: 高
   verify: false
   hidden: false
-- id: ds-relative-meter-09
+- id: ds-flowmeter-04
   subject: design
   chapter: relative-meter
   foundation: null
   seat: 相対濃度計
-  name: 相対濃度計の較正に使う粒子
-  rank: B
-  count: 2
-  exams:
-  - 2015-02
-  - 2016-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
-- id: ds-relative-meter-10
-  subject: design
-  chapter: relative-meter
-  foundation: null
-  seat: 相対濃度計
-  name: 光散乱方式は特定の角度の散乱光を測る
+  name: B測定の計算（カウント数と質量濃度変換係数）
   rank: C
   count: 1
   exams:
-  - 2018-02
-  understanding: 光散乱方式は、特定の角度に散乱した光を測る（全方位の散乱光ではない）。
-  reason: null
+  - 2017-02
+  understanding: B測定値の上限は管理濃度の1.5倍。質量濃度を、質量濃度変換係数で割って相対濃度（cpm）にし、バックグラウンドを足して、測定時間を掛けるとカウント数になる。
+  reason: 手順：1.5×管理濃度→÷K→＋バックグラウンド→×時間。
   confidence: 中
+  verify: false
+  hidden: false
+- id: ds-relative-meter-08
+  subject: design
+  chapter: relative-meter
+  foundation: null
+  seat: 相対濃度計
+  name: 質量濃度変換係数と発生源からの距離
+  rank: C
+  count: 1
+  exams:
+  - 2016-08
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
   verify: false
   hidden: false
 - id: ds-relative-meter-06
@@ -1740,9 +1673,8 @@ traps:
   seat: 検知管
   name: 変色層が斜めの読み方
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2015-08
   - 2017-02
   - 2019-02
   - 2021-02
@@ -1758,7 +1690,7 @@ traps:
   foundation: null
   seat: 検知管
   name: 定量下限の意味
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2016-08
@@ -1826,10 +1758,9 @@ traps:
   foundation: null
   seat: 検知管
   name: 検知管の原理
-  rank: B
-  count: 2
+  rank: C
+  count: 1
   exams:
-  - 2016-02
   - 2018-02
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
@@ -1843,11 +1774,8 @@ traps:
   seat: 検知管
   name: その他（単発）
   rank: C
-  count: 6
+  count: 3
   exams:
-  - 2015-02
-  - 2020-08
-  - 2021-02
   - 2025-08
   - 2026-02
   - 2026-08
@@ -1863,11 +1791,8 @@ traps:
   seat: 放射性物質
   name: 放射性物質と捕集方法の組合せ
   rank: A
-  count: 22
+  count: 19
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -1899,11 +1824,8 @@ traps:
   seat: 放射性物質
   name: 放射能濃度の計算
   rank: A
-  count: 22
+  count: 19
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -1935,7 +1857,7 @@ traps:
   seat: 統計
   name: 正規分布の範囲（±1σ・±2σ・95%上限）
   rank: A
-  count: 7
+  count: 6
   exams:
   - 2016-08
   - 2020-02
@@ -1943,7 +1865,6 @@ traps:
   - 2021-02
   - 2023-08
   - 2024-08
-  - 2026-08
   understanding: ±1σに約68%、±2σに約95%。95%上限値はμ＋1.645σ。
   reason: 片側5%か両側5%かで係数が変わる。
   confidence: 高
@@ -1968,25 +1889,6 @@ traps:
   confidence: 高
   verify: false
   hidden: false
-- id: ds-statistics-04
-  subject: design
-  chapter: stats-error
-  foundation: statistics
-  seat: 統計
-  name: 正規分布の平均と標準偏差は独立
-  rank: A
-  count: 5
-  exams:
-  - 2015-02
-  - 2016-02
-  - 2017-08
-  - 2018-02
-  - 2025-08
-  understanding: 正規分布では、平均と標準偏差は互いに独立に決まる。
-  reason: null
-  confidence: 高
-  verify: false
-  hidden: false
 - id: ds-statistics-03
   subject: design
   chapter: stats-error
@@ -1994,15 +1896,31 @@ traps:
   seat: 統計
   name: 濃度分布は対数正規分布
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2015-08
   - 2017-02
   - 2018-08
   - 2019-08
   - 2021-08
   understanding: 作業環境中の濃度分布は対数正規分布で近似される。
   reason: 濃度は0より小さくならず、高い方に裾が長く伸びるため。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: ds-statistics-04
+  subject: design
+  chapter: stats-error
+  foundation: statistics
+  seat: 統計
+  name: 正規分布の平均と標準偏差は独立
+  rank: B
+  count: 3
+  exams:
+  - 2017-08
+  - 2018-02
+  - 2025-08
+  understanding: 正規分布では、平均と標準偏差は互いに独立に決まる。
+  reason: null
   confidence: 高
   verify: false
   hidden: false
@@ -2062,10 +1980,8 @@ traps:
   seat: 分粒装置
   name: 慣性衝突式分粒装置と流量
   rank: A
-  count: 8
+  count: 6
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-08
   - 2018-08
@@ -2099,9 +2015,8 @@ traps:
   seat: 評価
   name: 第1評価値は上側5%の推定値（算術平均ではない）
   rank: A
-  count: 8
+  count: 7
   exams:
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-02
@@ -2121,10 +2036,8 @@ traps:
   seat: 評価
   name: 第1管理区分になる条件
   rank: A
-  count: 6
+  count: 4
   exams:
-  - 2015-02
-  - 2015-08
   - 2019-02
   - 2020-08
   - 2023-02
@@ -2167,6 +2080,22 @@ traps:
   confidence: 中
   verify: false
   hidden: false
+- id: ds-evaluation-06
+  subject: design
+  chapter: evaluation
+  foundation: null
+  seat: 評価
+  name: 複数の作業位置・B測定点は最大値を採る
+  rank: B
+  count: 2
+  exams:
+  - 2017-08
+  - 2020-02
+  understanding: 最大濃度になる位置が予測できず複数測った場合、B測定値はその最大値。
+  reason: B測定は「最悪の箇所」を押さえる測定なので、平均すると意味を失う。
+  confidence: 高
+  verify: false
+  hidden: false
 - id: ds-evaluation-05
   subject: design
   chapter: evaluation
@@ -2189,9 +2118,8 @@ traps:
   seat: 単位と原子
   name: SI単位の組立（圧力・エネルギー・気体定数など）
   rank: A
-  count: 10
+  count: 9
   exams:
-  - 2015-02
   - 2016-08
   - 2017-08
   - 2018-02
@@ -2214,10 +2142,8 @@ traps:
   seat: 単位と原子
   name: 単位の換算（µmol/g＝mmol/kg）
   rank: A
-  count: 6
+  count: 4
   exams:
-  - 2015-08
-  - 2016-02
   - 2017-02
   - 2018-08
   - 2023-02
@@ -2264,22 +2190,6 @@ traps:
   verify: false
   hidden: false
   calculation: false
-- id: an-units-04
-  subject: bunseki
-  chapter: units
-  foundation: null
-  seat: 単位と原子
-  name: その他（単発）
-  rank: C
-  count: 2
-  exams:
-  - 2015-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
-  calculation: false
 - id: an-units-03
   subject: bunseki
   chapter: units
@@ -2287,10 +2197,8 @@ traps:
   seat: データの扱い
   name: 有効数字
   rank: A
-  count: 8
+  count: 6
   exams:
-  - 2015-08
-  - 2016-02
   - 2017-02
   - 2017-08
   - 2018-02
@@ -2309,7 +2217,7 @@ traps:
   foundation: statistics
   seat: データの扱い
   name: 平均・分散・標準偏差の式
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2023-08
@@ -2328,7 +2236,7 @@ traps:
   foundation: null
   seat: データの扱い
   name: 捕集量と通気量からの気中濃度（計算）
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2016-08
@@ -2366,10 +2274,8 @@ traps:
   seat: 物質量の計算
   name: モル質量と物質の質量（水和物を含む・計算）
   rank: A
-  count: 9
+  count: 7
   exams:
-  - 2015-02
-  - 2015-08
   - 2017-08
   - 2019-08
   - 2023-02
@@ -2412,9 +2318,8 @@ traps:
   seat: 有機化合物
   name: 有機化合物の性質と反応（酸性・酸化・水溶性）
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-02
   - 2016-08
   - 2020-08
   - 2023-08
@@ -2433,9 +2338,8 @@ traps:
   seat: 有機化合物
   name: 溶解の原則（似たもの同士が溶け合う）
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2016-02
   - 2017-08
   - 2021-08
   - 2025-02
@@ -2451,11 +2355,10 @@ traps:
   foundation: null
   seat: 有機化合物
   name: 酸化数
-  rank: B
-  count: 2
+  rank: C
+  count: 1
   exams:
   - 2018-02
-  - 2021-02
   understanding: 化合物中のHは＋1、Oは−2として、全体の和が0（イオンなら電荷）になるように求める。
   reason: null
   confidence: 高
@@ -2469,9 +2372,8 @@ traps:
   seat: 気体
   name: 混合気体の分圧（計算）
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2015-08
   - 2017-02
   - 2018-02
   - 2019-02
@@ -2491,10 +2393,8 @@ traps:
   seat: 気体
   name: 理想気体の法則（PV=nRT）
   rank: A
-  count: 7
+  count: 5
   exams:
-  - 2015-02
-  - 2016-02
   - 2017-08
   - 2019-08
   - 2020-02
@@ -2559,6 +2459,22 @@ traps:
   verify: false
   hidden: false
   calculation: false
+- id: an-reaction-04
+  subject: bunseki
+  chapter: reaction
+  foundation: null
+  seat: 酸化数・酸化還元
+  name: 酸化数
+  rank: C
+  count: 1
+  exams:
+  - 2021-02
+  understanding: 化合物中のHは＋1、Oは−2として、全体の和が0（イオンなら電荷）になるように求める。
+  reason: null
+  confidence: 高
+  verify: false
+  hidden: false
+  calculation: false
 - id: an-solution-02
   subject: bunseki
   chapter: solution-chem
@@ -2566,9 +2482,8 @@ traps:
   seat: 溶液
   name: 溶媒抽出と分配係数（計算）
   rank: A
-  count: 10
+  count: 9
   exams:
-  - 2015-02
   - 2017-02
   - 2017-08
   - 2018-02
@@ -2584,29 +2499,6 @@ traps:
   verify: false
   hidden: false
   calculation: false
-- id: an-reaction-01
-  subject: bunseki
-  chapter: solution-chem
-  foundation: reaction
-  seat: 溶液
-  name: 酸・塩の水溶液のpHの大小
-  rank: A
-  count: 10
-  exams:
-  - 2015-08
-  - 2016-08
-  - 2017-08
-  - 2020-08
-  - 2021-08
-  - 2024-02
-  - 2025-08
-  - 2026-02
-  understanding: 同じ濃度なら、2価の強酸（硫酸）＜1価の強酸＜弱酸。弱酸と強塩基の塩（酢酸ナトリウム）は塩基性。フッ化水素酸は弱酸。
-  reason: 強酸か弱酸か、何価かの2点で順位が決まる。
-  confidence: 高
-  verify: false
-  hidden: false
-  calculation: false
 - id: an-logarithm-01
   subject: bunseki
   chapter: solution-chem
@@ -2614,9 +2506,8 @@ traps:
   seat: 溶液
   name: 強酸の希釈とpH（計算）
   rank: A
-  count: 9
+  count: 8
   exams:
-  - 2015-08
   - 2016-08
   - 2018-02
   - 2019-02
@@ -2631,6 +2522,28 @@ traps:
   verify: false
   hidden: false
   calculation: false
+- id: an-reaction-01
+  subject: bunseki
+  chapter: solution-chem
+  foundation: reaction
+  seat: 溶液
+  name: 酸・塩の水溶液のpHの大小
+  rank: A
+  count: 8
+  exams:
+  - 2016-08
+  - 2017-08
+  - 2020-08
+  - 2021-08
+  - 2024-02
+  - 2025-08
+  - 2026-02
+  understanding: 同じ濃度なら、2価の強酸（硫酸）＜1価の強酸＜弱酸。弱酸と強塩基の塩（酢酸ナトリウム）は塩基性。フッ化水素酸は弱酸。
+  reason: 強酸か弱酸か、何価かの2点で順位が決まる。
+  confidence: 高
+  verify: false
+  hidden: false
+  calculation: false
 - id: an-solution-03
   subject: bunseki
   chapter: solution-chem
@@ -2638,9 +2551,8 @@ traps:
   seat: 溶液
   name: 質量パーセント濃度とモル濃度の換算（計算）
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2015-08
   - 2016-08
   - 2019-08
   - 2020-08
@@ -2660,9 +2572,8 @@ traps:
   seat: 溶液
   name: 質量パーセント濃度の溶液の希釈（計算）
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2016-02
   - 2017-02
   - 2018-08
   - 2019-02
@@ -2681,7 +2592,7 @@ traps:
   foundation: null
   seat: 溶液
   name: 化学平衡の移動（ルシャトリエの原理）
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2018-08
@@ -2739,10 +2650,8 @@ traps:
   seat: 器具
   name: 気体用流量計（石けん膜・面積式）
   rank: A
-  count: 6
+  count: 4
   exams:
-  - 2015-02
-  - 2016-02
   - 2018-08
   - 2020-02
   - 2021-02
@@ -2759,7 +2668,7 @@ traps:
   foundation: null
   seat: 器具
   name: 高圧ガス容器の扱い
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2016-08
@@ -2813,10 +2722,8 @@ traps:
   seat: 器具
   name: その他（単発）
   rank: C
-  count: 5
+  count: 3
   exams:
-  - 2015-08
-  - 2016-02
   - 2017-08
   - 2020-08
   - 2023-08
@@ -2833,9 +2740,8 @@ traps:
   seat: 標準ガス
   name: 拡散セルの濃度を決める要因（温度・流量・寸法・分子量）
   rank: A
-  count: 10
+  count: 9
   exams:
-  - 2015-08
   - 2017-02
   - 2018-08
   - 2019-08
@@ -2879,9 +2785,8 @@ traps:
   seat: 標準ガス
   name: 拡散セルとパーミエーションチューブの混同
   rank: B
-  count: 3
+  count: 2
   exams:
-  - 2015-02
   - 2023-02
   - 2026-02
   understanding: 拡散セルは液面から出た蒸気が細いチューブを拡散して出てくる。壁面を透過させるのはパーミエーションチューブ。
@@ -2919,9 +2824,8 @@ traps:
   seat: 試薬
   name: 精製水の製造方法
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2016-02
   - 2018-02
   - 2020-02
   - 2021-08
@@ -2998,7 +2902,7 @@ traps:
   foundation: null
   seat: 検知管・定量法
   name: 検量線と定量法（絶対検量線・標準添加・内標準）
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2020-02
@@ -3046,23 +2950,6 @@ traps:
   verify: false
   hidden: false
   calculation: false
-- id: an-quantification-04
-  subject: bunseki
-  chapter: quantification
-  foundation: null
-  seat: 検知管・定量法
-  name: 検知管の変色層の長さと通気量
-  rank: B
-  count: 2
-  exams:
-  - 2015-02
-  - 2015-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
-  calculation: false
 - id: an-quantification-03
   subject: bunseki
   chapter: quantification
@@ -3086,10 +2973,8 @@ traps:
   seat: 容量分析
   name: 中和反応の量的関係（計算）
   rank: A
-  count: 12
+  count: 9
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-08
@@ -3112,10 +2997,8 @@ traps:
   seat: 容量分析
   name: 反応式の量的関係（炭酸カルシウム・燃焼）
   rank: A
-  count: 10
+  count: 8
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-02
@@ -3126,29 +3009,6 @@ traps:
   - 2026-08
   understanding: CaCO₃＋2HCl、CH₄＋2O₂→CO₂＋2H₂O など、反応式の係数がmolの比。
   reason: null
-  confidence: 高
-  verify: false
-  hidden: false
-  calculation: false
-- id: an-equilibrium-03
-  subject: bunseki
-  chapter: titration
-  foundation: null
-  seat: 容量分析
-  name: 溶解度積
-  rank: A
-  count: 8
-  exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
-  - 2017-08
-  - 2018-08
-  - 2019-02
-  - 2021-08
-  - 2025-08
-  understanding: 溶解度積は温度だけで決まり、イオン濃度では変わらない。
-  reason: 共通イオンで変わるのは溶解度であって、溶解度積ではない。
   confidence: 高
   verify: false
   hidden: false
@@ -3171,6 +3031,26 @@ traps:
   understanding: 炭酸ナトリウムは酸の標定に使う（水酸化ナトリウムの標定にはアミド硫酸やフタル酸水素カリウム）。
   reason: 酸は塩基で、塩基は酸で標定する。
   confidence: 中
+  verify: false
+  hidden: false
+  calculation: false
+- id: an-equilibrium-03
+  subject: bunseki
+  chapter: titration
+  foundation: null
+  seat: 容量分析
+  name: 溶解度積
+  rank: A
+  count: 5
+  exams:
+  - 2017-08
+  - 2018-08
+  - 2019-02
+  - 2021-08
+  - 2025-08
+  understanding: 溶解度積は温度だけで決まり、イオン濃度では変わらない。
+  reason: 共通イオンで変わるのは溶解度であって、溶解度積ではない。
+  confidence: 高
   verify: false
   hidden: false
   calculation: false
@@ -3197,10 +3077,8 @@ traps:
   seat: 吸光光度法
   name: 吸光度・透過率・濃度の計算（ランベルト・ベール）
   rank: A
-  count: 20
+  count: 17
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -3245,33 +3123,13 @@ traps:
   verify: false
   hidden: false
   calculation: false
-- id: an-spectrophotometry-06
-  subject: bunseki
-  chapter: spectrophotometry
-  foundation: null
-  seat: 吸光光度法
-  name: 吸光度と透過率の定義
-  rank: A
-  count: 5
-  exams:
-  - 2015-02
-  - 2016-02
-  - 2016-08
-  - 2017-08
-  - 2018-02
-  understanding: 吸光度＝log（I₀／I）＝−log T。透過光の強さは濃度に比例しない。
-  reason: null
-  confidence: 高
-  verify: false
-  hidden: false
-  calculation: false
 - id: an-spectrophotometry-02
   subject: bunseki
   chapter: spectrophotometry
   foundation: null
   seat: 吸光光度法
   name: 光源（可視はタングステン、紫外は重水素）
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2019-02
@@ -3279,6 +3137,24 @@ traps:
   - 2021-08
   - 2025-02
   understanding: 可視部はタングステン（ハロゲン）ランプ、紫外部は重水素放電管。
+  reason: null
+  confidence: 高
+  verify: false
+  hidden: false
+  calculation: false
+- id: an-spectrophotometry-06
+  subject: bunseki
+  chapter: spectrophotometry
+  foundation: null
+  seat: 吸光光度法
+  name: 吸光度と透過率の定義
+  rank: B
+  count: 3
+  exams:
+  - 2016-08
+  - 2017-08
+  - 2018-02
+  understanding: 吸光度＝log（I₀／I）＝−log T。透過光の強さは濃度に比例しない。
   reason: null
   confidence: 高
   verify: false
@@ -3344,11 +3220,8 @@ traps:
   seat: 原子吸光
   name: 光を吸収するのは基底状態の原子
   rank: A
-  count: 10
+  count: 7
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2017-08
   - 2018-02
   - 2019-02
@@ -3426,9 +3299,8 @@ traps:
   seat: 蛍光光度法
   name: 光源キセノンランプ（タングステンではない）
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-02
   - 2018-08
   - 2021-08
   - 2023-08
@@ -3447,9 +3319,8 @@ traps:
   seat: 蛍光光度法
   name: 蛍光強度を左右する要因（励起光の波長・強さ）
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2016-02
   - 2016-08
   - 2017-08
   - 2018-02
@@ -3468,9 +3339,8 @@ traps:
   seat: 蛍光光度法
   name: 蛍光が生じる仕組み（エネルギー準位）
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2015-08
   - 2017-02
   - 2023-02
   - 2024-02
@@ -3523,10 +3393,8 @@ traps:
   seat: ガスクロマトグラフ
   name: 検出器と対象物質（FPD・ECD・PID・TID）
   rank: A
-  count: 18
+  count: 16
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -3556,10 +3424,8 @@ traps:
   seat: ガスクロマトグラフ
   name: 理論段数・理論段相当高さ・ピーク幅とカラム長
   rank: A
-  count: 15
+  count: 13
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -3586,32 +3452,13 @@ traps:
   seat: ガスクロマトグラフ
   name: van Deemter式
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2015-08
   - 2018-02
   - 2019-08
   - 2023-02
   understanding: H＝A＋B/v＋Cv。
   reason: null
-  confidence: 高
-  verify: false
-  hidden: false
-  calculation: false
-- id: an-gc-06
-  subject: bunseki
-  chapter: gc
-  foundation: null
-  seat: ガスクロマトグラフ
-  name: 溶出順（沸点・極性）
-  rank: B
-  count: 3
-  exams:
-  - 2015-08
-  - 2023-08
-  - 2025-02
-  understanding: 無極性液相では沸点の低い順に出る。極性液相では極性の化合物が遅れて出る。
-  reason: 似たもの同士が引き合う（液相に長くとどまる）。
   confidence: 高
   verify: false
   hidden: false
@@ -3650,6 +3497,23 @@ traps:
   verify: false
   hidden: false
   calculation: false
+- id: an-gc-06
+  subject: bunseki
+  chapter: gc
+  foundation: null
+  seat: ガスクロマトグラフ
+  name: 溶出順（沸点・極性）
+  rank: B
+  count: 2
+  exams:
+  - 2023-08
+  - 2025-02
+  understanding: 無極性液相では沸点の低い順に出る。極性液相では極性の化合物が遅れて出る。
+  reason: 似たもの同士が引き合う（液相に長くとどまる）。
+  confidence: 高
+  verify: false
+  hidden: false
+  calculation: false
 - id: an-xrd-02
   subject: bunseki
   chapter: xrd
@@ -3657,10 +3521,8 @@ traps:
   seat: X線回折
   name: 特性X線を使う（連続X線ではない）
   rank: A
-  count: 11
+  count: 9
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-02
@@ -3672,26 +3534,6 @@ traps:
   - 2025-08
   understanding: 単色化した特性X線を使う。特性X線の波長はターゲットの元素で決まり、電圧では変わらない。
   reason: null
-  confidence: 高
-  verify: false
-  hidden: false
-  calculation: false
-- id: an-xrd-01
-  subject: bunseki
-  chapter: xrd
-  foundation: null
-  seat: X線回折
-  name: X線検出器はスペクトル分析不要
-  rank: A
-  count: 5
-  exams:
-  - 2015-08
-  - 2023-02
-  - 2024-02
-  - 2025-02
-  - 2026-02
-  understanding: 回折角で物質を見分けるので、検出器にスペクトル分析の機能は要らない。
-  reason: 単色のX線を当て、どの角度で強く回折するかを測る方法だから。
   confidence: 高
   verify: false
   hidden: false
@@ -3712,6 +3554,25 @@ traps:
   - 2023-08
   understanding: フィルターに捕集した試料は、溶かしたり抽出したりせずにそのまま測る。
   reason: 結晶構造を測る方法なので、溶かすと測る対象がなくなる。
+  confidence: 高
+  verify: false
+  hidden: false
+  calculation: false
+- id: an-xrd-01
+  subject: bunseki
+  chapter: xrd
+  foundation: null
+  seat: X線回折
+  name: X線検出器はスペクトル分析不要
+  rank: A
+  count: 4
+  exams:
+  - 2023-02
+  - 2024-02
+  - 2025-02
+  - 2026-02
+  understanding: 回折角で物質を見分けるので、検出器にスペクトル分析の機能は要らない。
+  reason: 単色のX線を当て、どの角度で強く回折するかを測る方法だから。
   confidence: 高
   verify: false
   hidden: false
@@ -3756,9 +3617,8 @@ traps:
   seat: 放射能
   name: 壊変形式と原子番号・質量数の変化
   rank: A
-  count: 11
+  count: 10
   exams:
-  - 2015-02
   - 2017-02
   - 2018-08
   - 2019-08
@@ -3782,9 +3642,8 @@ traps:
   seat: 放射能
   name: 半減期の計算
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-08
   - 2016-08
   - 2017-08
   - 2019-02
@@ -3803,9 +3662,8 @@ traps:
   seat: 放射能
   name: Bqの定義と壊変速度
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2016-02
   - 2018-02
   - 2021-02
   - 2026-02
@@ -3823,9 +3681,8 @@ traps:
   seat: リスクアセスメント
   name: ハザードとリスクの定義の取り違え
   rank: A
-  count: 8
+  count: 7
   exams:
-  - 2015-08
   - 2017-02
   - 2019-02
   - 2019-08
@@ -3845,9 +3702,8 @@ traps:
   seat: リスクアセスメント
   name: リスクの見積り方法（ばく露限界・管理濃度との比較）
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-02
   - 2018-08
   - 2021-02
   - 2023-08
@@ -3857,23 +3713,6 @@ traps:
   reason: null
   confidence: 中（根拠資料で要確認）
   verify: true
-  hidden: false
-- id: gn-risk-assessment-04
-  subject: ippan
-  chapter: risk-assessment
-  foundation: null
-  seat: リスクアセスメント
-  name: 重篤度の見積り・付加的影響
-  rank: B
-  count: 3
-  exams:
-  - 2016-02
-  - 2020-02
-  - 2025-08
-  understanding: 重篤度は、予想される最も重篤なものを見積もる。疲労などの付加的影響も考慮する。
-  reason: null
-  confidence: 中
-  verify: false
   hidden: false
 - id: gn-risk-assessment-05
   subject: ippan
@@ -3907,19 +3746,35 @@ traps:
   confidence: 中
   verify: false
   hidden: false
+- id: gn-risk-assessment-04
+  subject: ippan
+  chapter: risk-assessment
+  foundation: null
+  seat: リスクアセスメント
+  name: 重篤度の見積り・付加的影響
+  rank: B
+  count: 2
+  exams:
+  - 2020-02
+  - 2025-08
+  understanding: 重篤度は、予想される最も重篤なものを見積もる。疲労などの付加的影響も考慮する。
+  reason: null
+  confidence: 中
+  verify: false
+  hidden: false
 - id: gn-risk-assessment-06
   subject: ippan
   chapter: risk-assessment
   foundation: null
   seat: リスクアセスメント
-  name: その他（単発）
+  name: リスク低減措置の優先順位（代替→工学→管理→保護具）
   rank: C
   count: 1
   exams:
   - 2016-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
+  understanding: 優先順位は、①有害性のより低い物質への代替、②衛生工学的対策（局所排気装置など）、③管理的対策（作業手順の改善、立入禁止など）、④有効な保護具の使用。
+  reason: 保護具は最後の手段（1-3）。
+  confidence: 高
   verify: false
   hidden: false
 - id: gn-oh-management-01
@@ -3949,7 +3804,7 @@ traps:
   foundation: null
   seat: 労働衛生管理
   name: 腰痛予防（腰部保護ベルト・重量物・座作業）
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2016-08
@@ -3970,9 +3825,9 @@ traps:
   rank: B
   count: 3
   exams:
-  - 2015-08
   - 2017-02
   - 2018-02
+  - 2021-02
   understanding: この指針は、事業者が自主的に安全衛生管理を進める仕組みを示すもので、法令に基づく具体的な措置を定めるものではない。
   reason: null
   confidence: 中
@@ -3984,28 +3839,10 @@ traps:
   foundation: null
   seat: 労働衛生管理
   name: 三管理の分類（作業環境管理・作業管理・健康管理）
-  rank: B
-  count: 2
-  exams:
-  - 2015-02
-  - 2016-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
-- id: gn-oh-management-03
-  subject: ippan
-  chapter: oh-management
-  foundation: null
-  seat: 労働衛生管理
-  name: その他（単発）
   rank: C
-  count: 3
+  count: 1
   exams:
-  - 2015-08
   - 2020-08
-  - 2021-02
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
   confidence: null
@@ -4067,11 +3904,8 @@ traps:
   seat: 吸収・代謝
   name: 有機溶剤の尿中代謝物
   rank: A
-  count: 18
+  count: 15
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-02
@@ -4114,10 +3948,9 @@ traps:
   foundation: null
   seat: 吸収・代謝
   name: 解毒・代謝は主に肝臓
-  rank: B
-  count: 2
+  rank: C
+  count: 1
   exams:
-  - 2015-02
   - 2017-08
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
@@ -4139,29 +3972,6 @@ traps:
   confidence: null
   verify: false
   hidden: false
-- id: gn-toxicity-05
-  subject: ippan
-  chapter: toxicity
-  foundation: null
-  seat: 毒性と健康障害
-  name: 一酸化炭素（ヘモグロビンとの結合）
-  rank: A
-  count: 9
-  exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
-  - 2016-08
-  - 2017-02
-  - 2018-02
-  - 2018-08
-  - 2020-02
-  - 2021-02
-  understanding: 一酸化炭素はヘモグロビンと強く結合して酸素の運搬を妨げる（合成を阻害するのではない）。
-  reason: null
-  confidence: 高
-  verify: false
-  hidden: false
 - id: gn-toxicity-01
   subject: ippan
   chapter: toxicity
@@ -4169,9 +3979,8 @@ traps:
   seat: 毒性と健康障害
   name: フッ化水素の健康影響
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2016-02
   - 2017-08
   - 2019-08
   - 2023-02
@@ -4181,6 +3990,26 @@ traps:
   understanding: 呼吸酵素の阻害はシアン化水素。フッ化水素は骨硬化・斑状歯を起こし、皮膚から深部まで浸透して障害する。
   reason: null
   confidence: 中
+  verify: false
+  hidden: false
+- id: gn-toxicity-05
+  subject: ippan
+  chapter: toxicity
+  foundation: null
+  seat: 毒性と健康障害
+  name: 一酸化炭素（ヘモグロビンとの結合）
+  rank: A
+  count: 6
+  exams:
+  - 2016-08
+  - 2017-02
+  - 2018-02
+  - 2018-08
+  - 2020-02
+  - 2021-02
+  understanding: 一酸化炭素はヘモグロビンと強く結合して酸素の運搬を妨げる（合成を阻害するのではない）。
+  reason: null
+  confidence: 高
   verify: false
   hidden: false
 - id: gn-toxicity-02
@@ -4208,7 +4037,7 @@ traps:
   foundation: null
   seat: 毒性と健康障害
   name: 溶血性貧血・尿の赤色化の原因物質
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2019-02
@@ -4227,10 +4056,9 @@ traps:
   seat: 毒性と健康障害
   name: メトヘモグロビン血症の原因物質
   rank: B
-  count: 3
+  count: 2
   exams:
   - 2020-08
-  - 2021-08
   - 2026-02
   understanding: メトヘモグロビン血症の代表はアニリン、ニトロベンゼンなど。二硫化炭素やTDIではない。
   reason: null
@@ -4259,11 +4087,10 @@ traps:
   foundation: null
   seat: 毒性と健康障害
   name: 歯の黄色環・色素沈着の原因物質
-  rank: B
-  count: 2
+  rank: C
+  count: 1
   exams:
   - 2023-08
-  - 2024-08
   understanding: 歯の黄色環はカドミウム。
   reason: null
   confidence: 中
@@ -4292,9 +4119,8 @@ traps:
   seat: 物質の性状
   name: 蒸気密度・液体の密度
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2019-08
@@ -4306,32 +4132,13 @@ traps:
   confidence: 高
   verify: false
   hidden: false
-- id: gn-properties-04
-  subject: ippan
-  chapter: dust-disease
-  foundation: null
-  seat: 物質の性状
-  name: 粉じん・ヒュームの発生と粒径
-  rank: A
-  count: 5
-  exams:
-  - 2015-02
-  - 2015-08
-  - 2018-08
-  - 2020-08
-  - 2021-02
-  understanding: 研磨で出るのは粉じん、溶融・溶接で出るのがヒューム。ヒュームの一次粒子は1µm以下。
-  reason: null
-  confidence: 高
-  verify: false
-  hidden: false
 - id: gn-properties-03
   subject: ippan
   chapter: properties
   foundation: null
   seat: 物質の性状
   name: 気体の溶解度と温度
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2017-02
@@ -4350,15 +4157,31 @@ traps:
   seat: 物質の性状
   name: 水への溶けやすさと液性
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2015-08
   - 2021-08
   - 2025-02
   - 2026-08
   understanding: 1,4-ジオキサンやテトラヒドロフランは水とよく混ざる。クレゾールは弱酸性。
   reason: null
   confidence: 中
+  verify: false
+  hidden: false
+- id: gn-properties-04
+  subject: ippan
+  chapter: dust-disease
+  foundation: null
+  seat: 物質の性状
+  name: 粉じん・ヒュームの発生と粒径
+  rank: B
+  count: 3
+  exams:
+  - 2018-08
+  - 2020-08
+  - 2021-02
+  understanding: 研磨で出るのは粉じん、溶融・溶接で出るのがヒューム。ヒュームの一次粒子は1µm以下。
+  reason: null
+  confidence: 高
   verify: false
   hidden: false
 - id: gn-properties-06
@@ -4416,11 +4239,8 @@ traps:
   seat: 職業がん
   name: 化学物質と職業がんの組合せ
   rank: A
-  count: 22
+  count: 19
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -4467,14 +4287,13 @@ traps:
   seat: 粉じん
   name: 胸膜プラークの原因は石綿
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2015-02
-  - 2016-02
   - 2017-02
   - 2017-08
   - 2019-08
   - 2020-02
+  - 2021-02
   - 2023-02
   understanding: 胸膜プラークの主な原因は石綿。遊離けい酸ではない。
   reason: null
@@ -4488,12 +4307,11 @@ traps:
   seat: 粉じん
   name: 空気力学相当径の意味
   rank: A
-  count: 6
+  count: 5
   exams:
   - 2016-08
   - 2018-02
   - 2019-02
-  - 2021-02
   - 2021-08
   - 2024-02
   understanding: 空気力学相当径は、同じ沈降速度を持つ密度1g/cm³の球の直径。顕微鏡では求められない。
@@ -4572,9 +4390,8 @@ traps:
   seat: 金属
   name: 金属ごとの健康障害の取り違え
   rank: A
-  count: 10
+  count: 9
   exams:
-  - 2015-08
   - 2017-02
   - 2017-08
   - 2018-02
@@ -4596,10 +4413,8 @@ traps:
   seat: 金属
   name: 金属熱
   rank: A
-  count: 8
+  count: 6
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2017-08
   - 2018-08
@@ -4627,26 +4442,6 @@ traps:
   confidence: 高
   verify: false
   hidden: false
-- id: gn-organic-solvents-03
-  subject: ippan
-  chapter: organic-solvents
-  foundation: null
-  seat: 有機溶剤
-  name: トルエンは造血障害を起こさない
-  rank: A
-  count: 6
-  exams:
-  - 2016-02
-  - 2018-02
-  - 2018-08
-  - 2019-02
-  - 2020-08
-  - 2026-02
-  understanding: 再生不良性貧血などの造血障害はベンゼン。
-  reason: null
-  confidence: 高
-  verify: false
-  hidden: false
 - id: gn-organic-solvents-01
   subject: ippan
   chapter: organic-solvents
@@ -4667,6 +4462,25 @@ traps:
   confidence: 中
   verify: false
   hidden: false
+- id: gn-organic-solvents-03
+  subject: ippan
+  chapter: organic-solvents
+  foundation: null
+  seat: 有機溶剤
+  name: トルエンは造血障害を起こさない
+  rank: A
+  count: 5
+  exams:
+  - 2018-02
+  - 2018-08
+  - 2019-02
+  - 2020-08
+  - 2026-02
+  understanding: 再生不良性貧血などの造血障害はベンゼン。
+  reason: null
+  confidence: 高
+  verify: false
+  hidden: false
 - id: gn-organic-solvents-02
   subject: ippan
   chapter: organic-solvents
@@ -4674,13 +4488,27 @@ traps:
   seat: 有機溶剤
   name: 有機溶剤の一般的性質（経皮吸収・引火性）
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2015-08
   - 2023-08
   - 2024-02
   - 2026-08
   understanding: 有機溶剤は皮膚からも吸収される。ハロゲン化炭化水素は不燃性のものが多く、全ての有機溶剤が引火性ではない。
+  reason: null
+  confidence: 高
+  verify: false
+  hidden: false
+- id: gn-organic-solvents-05
+  subject: ippan
+  chapter: organic-solvents
+  foundation: null
+  seat: 有機溶剤
+  name: メトヘモグロビン血症の原因物質
+  rank: C
+  count: 1
+  exams:
+  - 2021-08
+  understanding: メトヘモグロビン血症の代表はアニリン、ニトロベンゼンなど。二硫化炭素やTDIではない。
   reason: null
   confidence: 高
   verify: false
@@ -4707,9 +4535,8 @@ traps:
   seat: 温熱・寒冷
   name: WBGTと基準値
   rank: A
-  count: 9
+  count: 8
   exams:
-  - 2015-08
   - 2016-08
   - 2017-08
   - 2018-02
@@ -4730,9 +4557,8 @@ traps:
   seat: 温熱・寒冷
   name: 温熱環境の4要素（気温・湿度・気流・ふく射熱）
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2015-02
   - 2017-02
   - 2019-08
   - 2021-08
@@ -4749,9 +4575,8 @@ traps:
   seat: 温熱・寒冷
   name: 熱中症・低体温症・凍傷の症状と対応
   rank: A
-  count: 5
+  count: 4
   exams:
-  - 2016-02
   - 2024-02
   - 2024-08
   - 2026-02
@@ -4785,10 +4610,8 @@ traps:
   seat: 振動
   name: 振動障害と周波数
   rank: A
-  count: 7
+  count: 5
   exams:
-  - 2015-02
-  - 2015-08
   - 2018-08
   - 2019-08
   - 2020-08
@@ -4806,9 +4629,8 @@ traps:
   seat: 振動
   name: 末梢循環障害と末梢神経障害の取り違え
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2016-02
   - 2018-02
   - 2019-02
   - 2020-02
@@ -4874,10 +4696,8 @@ traps:
   seat: 騒音
   name: 騒音性難聴（感音性・内耳・4000Hz）
   rank: A
-  count: 8
+  count: 6
   exams:
-  - 2015-02
-  - 2015-08
   - 2016-08
   - 2018-08
   - 2020-02
@@ -4896,9 +4716,8 @@ traps:
   seat: 騒音
   name: 等価騒音レベルと周波数重み付け
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2016-02
   - 2017-02
   - 2017-08
   - 2019-08
@@ -4915,7 +4734,7 @@ traps:
   foundation: null
   seat: 騒音
   name: 騒音のA測定の平均は算術平均
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2018-02
@@ -4959,162 +4778,6 @@ traps:
   confidence: null
   verify: false
   hidden: false
-- id: gn-ppe-01
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 防毒マスクの選択と使用
-  rank: A
-  count: 14
-  exams:
-  - 2015-08
-  - 2016-08
-  - 2017-02
-  - 2017-08
-  - 2018-02
-  - 2018-08
-  - 2019-02
-  - 2020-08
-  - 2021-08
-  - 2023-02
-  - 2023-08
-  - 2024-02
-  - 2024-08
-  - 2026-02
-  understanding: 隔離式の方が直結式より高濃度まで使える。しめひもはヘルメットの上からではなく下に。粉じんが混在するときは防じん機能付き吸収缶を使う。複数のガスにはそれぞれに有効な吸収缶を使う。
-  reason: null
-  confidence: 中
-  verify: false
-  hidden: false
-- id: gn-ppe-02
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 防じんマスクの選択と使用
-  rank: A
-  count: 8
-  exams:
-  - 2015-08
-  - 2017-02
-  - 2017-08
-  - 2020-08
-  - 2021-08
-  - 2023-02
-  - 2023-08
-  - 2024-02
-  understanding: ろ過材を圧縮空気で吹き飛ばさない。接顔メリヤスは密着性を損なうので使わない。使い捨て式も区分の性能があればヒュームに使える。
-  reason: null
-  confidence: 中
-  verify: false
-  hidden: false
-- id: gn-ppe-04
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 送気マスク・空気呼吸器（酸欠場所の保護具）
-  rank: A
-  count: 7
-  exams:
-  - 2017-02
-  - 2018-02
-  - 2018-08
-  - 2020-02
-  - 2021-02
-  - 2025-02
-  - 2026-02
-  understanding: 酸欠場所で使えるのは送気マスクと自給式呼吸器（空気呼吸器など）。電動ファン付き呼吸用保護具や防毒マスクは不可。ホースマスクは自然の大気、エアラインマスクは圧縮空気が空気源。
-  reason: 周囲の空気をろ過する保護具は、酸素が足りない空気には無力。
-  confidence: 高
-  verify: false
-  hidden: false
-- id: gn-ppe-03
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 聴覚保護具（耳栓の種類・選定・併用）
-  rank: A
-  count: 6
-  exams:
-  - 2016-08
-  - 2019-02
-  - 2019-08
-  - 2020-02
-  - 2024-08
-  - 2025-02
-  understanding: 耳栓1種は低音から高音まで遮音、2種は主に高音を遮音し会話域を通す。作業に必要な音が聞こえるよう選定し、非常に大きい騒音では耳栓とイヤーマフを併用する。
-  reason: null
-  confidence: 高
-  verify: false
-  hidden: false
-- id: gn-ppe-05
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 吸収缶の破過時間（温度・濃度）
-  rank: B
-  count: 4
-  exams:
-  - 2016-02
-  - 2019-08
-  - 2020-02
-  - 2021-02
-  understanding: 有機ガス用吸収缶は、温度・湿度・濃度が高いほど破過時間が短い。
-  reason: 吸着は高温・高湿で弱くなる。
-  confidence: 中
-  verify: false
-  hidden: false
-- id: gn-ppe-07
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 保護めがねと遮光保護具の区別
-  rank: B
-  count: 2
-  exams:
-  - 2015-02
-  - 2016-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
-- id: gn-ppe-08
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: 吸収缶の交換時期（臭気に頼らない）
-  rank: C
-  count: 1
-  exams:
-  - 2015-02
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
-- id: gn-ppe-06
-  subject: ippan
-  chapter: ppe
-  foundation: null
-  seat: 保護具
-  name: その他（単発）
-  rank: C
-  count: 4
-  exams:
-  - 2025-08
-  - 2026-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
-  hidden: false
 - id: gn-oxygen-deficiency-01
   subject: ippan
   chapter: oxygen-deficiency
@@ -5136,32 +4799,13 @@ traps:
   confidence: 中（根拠資料で要確認）
   verify: true
   hidden: false
-- id: gn-oxygen-deficiency-02
-  subject: ippan
-  chapter: oxygen-deficiency
-  foundation: null
-  seat: 酸欠・硫化水素
-  name: 硫化水素の性質と健康影響
-  rank: A
-  count: 5
-  exams:
-  - 2015-02
-  - 2019-02
-  - 2024-02
-  - 2025-02
-  - 2026-08
-  understanding: 硫化水素は無色・腐卵臭で空気より重く、高濃度では嗅覚が麻痺する。主な障害は呼吸麻痺など。
-  reason: null
-  confidence: 中
-  verify: false
-  hidden: false
 - id: gn-oxygen-deficiency-03
   subject: ippan
   chapter: oxygen-deficiency
   foundation: null
   seat: 酸欠・硫化水素
   name: 無酸素空気は一呼吸で意識を失う
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2016-08
@@ -5171,6 +4815,55 @@ traps:
   understanding: ほぼ無酸素の空気は、一呼吸で意識を失うことがある（徐々に窒息するのではない）。
   reason: null
   confidence: 高
+  verify: false
+  hidden: false
+- id: gn-oxygen-deficiency-02
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: 硫化水素の性質と健康影響
+  rank: A
+  count: 4
+  exams:
+  - 2019-02
+  - 2024-02
+  - 2025-02
+  - 2026-08
+  understanding: 硫化水素は無色・腐卵臭で空気より重く、高濃度では嗅覚が麻痺する。主な障害は呼吸麻痺など。
+  reason: null
+  confidence: 中
+  verify: false
+  hidden: false
+- id: gn-oxygen-deficiency-05
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: 送気マスク・空気呼吸器（酸欠場所の保護具）
+  rank: B
+  count: 2
+  exams:
+  - 2017-02
+  - 2020-02
+  understanding: 酸欠場所で使えるのは送気マスクと自給式呼吸器（空気呼吸器など）。電動ファン付き呼吸用保護具や防毒マスクは不可。ホースマスクは自然の大気、エアラインマスクは圧縮空気が空気源。
+  reason: 周囲の空気をろ過する保護具は、酸素が足りない空気には無力。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: gn-oxygen-deficiency-06
+  subject: ippan
+  chapter: oxygen-deficiency
+  foundation: null
+  seat: 酸欠・硫化水素
+  name: 歯の黄色環・色素沈着の原因物質
+  rank: C
+  count: 1
+  exams:
+  - 2024-08
+  understanding: 歯の黄色環はカドミウム。
+  reason: null
+  confidence: 中
   verify: false
   hidden: false
 - id: gn-oxygen-deficiency-04
@@ -5196,10 +4889,8 @@ traps:
   seat: 電磁波
   name: 電磁波の波長の順序
   rank: A
-  count: 14
+  count: 12
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-02
@@ -5256,24 +4947,34 @@ traps:
   chapter: radiation
   foundation: null
   seat: 電離放射線
-  name: 放射線の種類と性質
+  name: X線とγ線の区別（発生過程の違い。波長・エネルギーの大小ではない）
   rank: A
-  count: 13
+  count: 4
   exams:
-  - 2015-02
   - 2016-08
-  - 2017-02
-  - 2018-02
   - 2018-08
-  - 2019-02
-  - 2020-02
   - 2021-02
   - 2023-02
-  - 2023-08
-  - 2024-08
-  - 2025-02
-  understanding: β線は電子の粒子線。X線とγ線は発生のしかたで区別する。透過力はγ線、電離作用はα線が最大。
-  reason: null
+  understanding: X線は原子核の外（電子）、γ線は原子核の中の現象から出る電磁波。波長や、エネルギーの大小では区別しない。
+  reason: 発生のしかたの違いで名前が決まる。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: gn-radiation-05
+  subject: ippan
+  chapter: radiation
+  foundation: null
+  seat: 電離放射線
+  name: β線は粒子線（電磁波ではない）
+  rank: A
+  count: 4
+  exams:
+  - 2017-02
+  - 2018-02
+  - 2019-02
+  - 2020-02
+  understanding: β線は電子の流れ（粒子線）。電磁波なのは、X線とγ線。α線、β線、中性子線は粒子線。
+  reason: 電磁波＝光の仲間。電子は粒なので、粒子線。
   confidence: 高
   verify: false
   hidden: false
@@ -5282,19 +4983,16 @@ traps:
   chapter: radiation-effects
   foundation: null
   seat: 電離放射線
-  name: 確定的影響と確率的影響
+  name: 確定的影響と確率的影響の分類・しきい値・重篤度
   rank: A
-  count: 7
+  count: 4
   exams:
-  - 2015-08
-  - 2016-02
   - 2017-08
   - 2019-08
   - 2020-08
-  - 2021-08
   - 2024-02
-  understanding: 確定的影響はしきい値があり、線量とともに重篤度が増す（不妊・白内障・脱毛など）。確率的影響（がん・遺伝的影響）はしきい値がなく、発生確率が増す。
-  reason: null
+  understanding: 確定的影響にはしきい値があり、線量が増すと重篤度が増す。確率的影響にはしきい値がなく、線量が増すと発生率が増す（重篤度は変わらない）。白血病・発がん・遺伝的影響は確率的、皮膚炎・白内障・生殖器障害・造血障害は確定的。
+  reason: 確定的＝線量で重さが決まる。確率的＝線量で起こる確率が決まる。
   confidence: 高
   verify: false
   hidden: false
@@ -5303,30 +5001,76 @@ traps:
   chapter: radiation
   foundation: logarithm
   seat: 電離放射線
-  name: 壊変と半減期
+  name: 壊変（α壊変の質量数・半減期は温度に無関係）
   rank: B
   count: 2
   exams:
   - 2026-02
   - 2026-08
-  understanding: 半減期は温度に依存しない。α壊変で質量数は4、原子番号は2減る。
-  reason: null
+  understanding: α壊変で、質量数は4、原子番号は2減る。半減期は、温度などに関係しない。
+  reason: 6-1参照。
   confidence: 高
   verify: false
   hidden: false
 - id: gn-radiation-04
   subject: ippan
+  chapter: radiation-effects
+  foundation: null
+  seat: 電離放射線
+  name: 早期影響と晩発影響（脱毛・白内障の潜伏期）
+  rank: B
+  count: 2
+  exams:
+  - 2021-08
+  - 2025-08
+  understanding: 脱毛、皮膚炎は早期（急性）影響。白内障は、潜伏期が長い（半年〜30年）晩発影響で、確定的影響。
+  reason: 潜伏期の長さで、早期か晩発かが決まる。
+  confidence: 中
+  verify: false
+  hidden: false
+- id: gn-radiation-06
+  subject: ippan
   chapter: radiation
   foundation: null
   seat: 電離放射線
-  name: その他（単発）
+  name: ECDの線源（ニッケル63）
   rank: C
   count: 1
   exams:
-  - 2025-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
+  - 2024-08
+  understanding: ガスクロマトグラフのECDは、ニッケル63から出るβ線を利用するものが一般的（コバルト60ではない）。
+  reason: ECDは、電子を放出する線源が必要。
+  confidence: 中
+  verify: false
+  hidden: false
+- id: gn-radiation-07
+  subject: ippan
+  chapter: radiation
+  foundation: null
+  seat: 電離放射線
+  name: 透過力と電離作用の大小（電離作用はα線が最大、透過力はγ線が最大）
+  rank: C
+  count: 1
+  exams:
+  - 2023-08
+  understanding: 電離作用はα線＞β線＞γ線。透過力は、その逆で、γ線が最大。
+  reason: 電離作用が大きいほど、エネルギーを早く渡して止まる。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: gn-radiation-08
+  subject: ippan
+  chapter: radiation
+  foundation: null
+  seat: 電離放射線
+  name: 電離放射線と非電離放射線の定義
+  rank: C
+  count: 1
+  exams:
+  - 2025-02
+  understanding: X線、γ線、中性子線など、物質を電離させる放射線が電離放射線。電荷をもたないことが、非電離の意味ではない。
+  reason: 電離させるかどうかで分ける。
+  confidence: 高
   verify: false
   hidden: false
 - id: gn-ventilation-01
@@ -5356,9 +5100,8 @@ traps:
   seat: 局所排気・換気
   name: 局所排気の制御風速の定義
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2016-02
   - 2017-02
   - 2018-08
   - 2021-08
@@ -5376,9 +5119,8 @@ traps:
   seat: 局所排気・換気
   name: ダクトの形と圧力損失
   rank: B
-  count: 3
+  count: 2
   exams:
-  - 2015-02
   - 2017-08
   - 2021-02
   understanding: 単発の論点（正答肢一覧で個別に確認）
@@ -5424,10 +5166,9 @@ traps:
   foundation: null
   seat: 局所排気・換気
   name: 排風機は空気清浄装置の後ろに置く
-  rank: B
-  count: 2
+  rank: C
+  count: 1
   exams:
-  - 2015-08
   - 2020-02
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
@@ -5444,6 +5185,126 @@ traps:
   count: 1
   exams:
   - 2024-02
+  understanding: 単発の論点（正答肢一覧で個別に確認）
+  reason: null
+  confidence: null
+  verify: false
+  hidden: false
+- id: gn-ppe-01
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 防毒マスクの選択と使用
+  rank: A
+  count: 13
+  exams:
+  - 2016-08
+  - 2017-02
+  - 2017-08
+  - 2018-02
+  - 2018-08
+  - 2019-02
+  - 2020-08
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  - 2024-08
+  - 2026-02
+  understanding: 隔離式の方が直結式より高濃度まで使える。しめひもはヘルメットの上からではなく下に。粉じんが混在するときは防じん機能付き吸収缶を使う。複数のガスにはそれぞれに有効な吸収缶を使う。
+  reason: null
+  confidence: 中
+  verify: false
+  hidden: false
+- id: gn-ppe-02
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 防じんマスクの選択と使用
+  rank: A
+  count: 7
+  exams:
+  - 2017-02
+  - 2017-08
+  - 2020-08
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  understanding: ろ過材を圧縮空気で吹き飛ばさない。接顔メリヤスは密着性を損なうので使わない。使い捨て式も区分の性能があればヒュームに使える。
+  reason: null
+  confidence: 中
+  verify: false
+  hidden: false
+- id: gn-ppe-03
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 聴覚保護具（耳栓の種類・選定・併用）
+  rank: A
+  count: 6
+  exams:
+  - 2016-08
+  - 2019-02
+  - 2019-08
+  - 2020-02
+  - 2024-08
+  - 2025-02
+  understanding: 耳栓1種は低音から高音まで遮音、2種は主に高音を遮音し会話域を通す。作業に必要な音が聞こえるよう選定し、非常に大きい騒音では耳栓とイヤーマフを併用する。
+  reason: null
+  confidence: 高
+  verify: false
+  hidden: false
+- id: gn-ppe-04
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 送気マスク・空気呼吸器（酸欠場所の保護具）
+  rank: A
+  count: 5
+  exams:
+  - 2018-02
+  - 2018-08
+  - 2021-02
+  - 2025-02
+  - 2026-02
+  understanding: 酸欠場所で使えるのは送気マスクと自給式呼吸器（空気呼吸器など）。電動ファン付き呼吸用保護具や防毒マスクは不可。ホースマスクは自然の大気、エアラインマスクは圧縮空気が空気源。
+  reason: 周囲の空気をろ過する保護具は、酸素が足りない空気には無力。
+  confidence: 高
+  verify: false
+  hidden: false
+- id: gn-ppe-05
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: 吸収缶の破過時間（温度・濃度）
+  rank: B
+  count: 3
+  exams:
+  - 2019-08
+  - 2020-02
+  - 2021-02
+  understanding: 有機ガス用吸収缶は、温度・湿度・濃度が高いほど破過時間が短い。
+  reason: 吸着は高温・高湿で弱くなる。
+  confidence: 中
+  verify: false
+  hidden: false
+- id: gn-ppe-06
+  subject: ippan
+  chapter: ppe
+  foundation: null
+  seat: 保護具
+  name: その他（単発）
+  rank: C
+  count: 4
+  exams:
+  - 2025-08
+  - 2026-08
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
   confidence: null
@@ -5475,11 +5336,9 @@ traps:
   foundation: null
   seat: その他の職場環境
   name: 減圧症は窒素の気泡
-  rank: A
-  count: 5
+  rank: B
+  count: 3
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2018-02
   - 2020-08
@@ -5510,14 +5369,11 @@ traps:
   seat: 管理濃度・許容濃度
   name: 管理濃度の決め方（粉じん・混合溶剤・発がん物質）
   rank: A
-  count: 9
+  count: 6
   exams:
-  - 2015-02
   - 2017-08
   - 2018-08
-  - 2019-08
   - 2020-08
-  - 2023-08
   - 2024-08
   - 2025-08
   - 2026-08
@@ -5533,12 +5389,13 @@ traps:
   seat: 管理濃度・許容濃度
   name: 許容濃度の性質（経皮吸収・相対尺度ではない）
   rank: A
-  count: 5
+  count: 6
   exams:
-  - 2015-08
   - 2016-08
+  - 2019-08
   - 2021-08
   - 2023-02
+  - 2023-08
   - 2025-02
   understanding: 許容濃度は経皮吸収を考慮していない（「皮」の印は経皮吸収に注意という意味）。物質間の毒性の強さを比べる尺度には使えない。
   reason: null
@@ -5551,7 +5408,7 @@ traps:
   foundation: null
   seat: 管理濃度・許容濃度
   name: 発がん性分類（第1群・第2群A/B）
-  rank: B
+  rank: A
   count: 4
   exams:
   - 2019-02
@@ -5570,10 +5427,8 @@ traps:
   seat: 管理濃度・許容濃度
   name: 管理濃度の性格（ばく露限界・天井値ではない）
   rank: B
-  count: 4
+  count: 2
   exams:
-  - 2015-08
-  - 2016-02
   - 2017-02
   - 2018-02
   understanding: 管理濃度は作業環境管理の良否を判断するための指標で、個人のばく露限界ではない。天井値として定められたものはない。
@@ -5603,9 +5458,8 @@ traps:
   seat: 衛生管理体制
   name: 総括安全衛生管理者（選任要件・充てる者）
   rank: A
-  count: 11
+  count: 10
   exams:
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-02
@@ -5664,30 +5518,14 @@ traps:
   seat: 衛生管理体制
   name: 衛生管理者・産業医の選任（常時50人以上）
   rank: C
-  count: 3
+  count: 2
   exams:
-  - 2015-02
   - 2017-08
   - 2018-08
   understanding: 常時50人以上の事業場では、業種にかかわらず衛生管理者と産業医を選任する。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
-  hidden: false
-- id: lw-law-system-05
-  subject: hourei
-  chapter: law-system
-  foundation: null
-  seat: 衛生管理体制
-  name: その他（単発）
-  rank: C
-  count: 1
-  exams:
-  - 2015-08
-  understanding: 単発の論点（正答肢一覧で個別に確認）
-  reason: null
-  confidence: null
-  verify: false
   hidden: false
 - id: lw-law-health-exam-01
   subject: hourei
@@ -5696,10 +5534,8 @@ traps:
   seat: 健康診断
   name: 健康診断結果の報告（50人以上・定期と雇入時）
   rank: A
-  count: 11
+  count: 9
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-08
   - 2018-02
@@ -5721,9 +5557,8 @@ traps:
   seat: 健康診断
   name: 雇入時の健康診断（省略・項目）
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2015-02
   - 2017-02
   - 2019-02
   - 2020-02
@@ -5741,9 +5576,8 @@ traps:
   seat: 健康診断
   name: 健康診断結果の通知と事後措置
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2016-02
   - 2018-08
   - 2020-08
   - 2025-08
@@ -5783,6 +5617,21 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
+- id: lw-risk-assessment-01
+  subject: hourei
+  chapter: risk-assessment
+  foundation: null
+  seat: 化学物質管理
+  name: 第3管理区分の措置（作業環境管理専門家・保護具）
+  rank: C
+  count: 1
+  exams:
+  - 2026-08
+  understanding: 第3管理区分の場所は、作業環境管理専門家の意見を聴いて、改善の可否を判断し、改善できないときは、有効な呼吸用保護具を使用させるなどの措置をとる。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
 - id: lw-law-chem-management-02
   subject: hourei
   chapter: risk-assessment
@@ -5805,10 +5654,8 @@ traps:
   seat: 安全衛生教育
   name: 特別教育の対象業務（有機・特化は対象外）
   rank: A
-  count: 13
+  count: 11
   exams:
-  - 2015-02
-  - 2016-02
   - 2016-08
   - 2018-02
   - 2019-02
@@ -5849,10 +5696,9 @@ traps:
   foundation: null
   seat: 安全衛生教育
   name: 職長教育の対象業種
-  rank: B
-  count: 3
+  rank: C
+  count: 2
   exams:
-  - 2015-08
   - 2017-02
   - 2019-08
   understanding: 職長教育は、製造業など政令で定める業種に限られる。
@@ -5867,9 +5713,8 @@ traps:
   seat: 作業主任者
   name: 作業主任者の要否（特定粉じん作業・試験研究・第3類物質など）
   rank: A
-  count: 18
+  count: 17
   exams:
-  - 2015-08
   - 2016-08
   - 2017-02
   - 2017-08
@@ -5927,11 +5772,8 @@ traps:
   seat: 測定の対象と頻度
   name: 測定の頻度と記録の保存年限
   rank: A
-  count: 22
+  count: 19
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -5963,9 +5805,8 @@ traps:
   seat: 測定の対象と頻度
   name: 温熱（気温・湿度・ふく射熱）測定の対象と頻度
   rank: A
-  count: 9
+  count: 8
   exams:
-  - 2016-02
   - 2017-02
   - 2018-02
   - 2019-02
@@ -6021,9 +5862,8 @@ traps:
   seat: 測定の対象と頻度
   name: その他（単発）
   rank: C
-  count: 6
+  count: 4
   exams:
-  - 2018-08
   - 2020-08
   - 2024-08
   - 2026-02
@@ -6040,11 +5880,8 @@ traps:
   seat: 規格・型式検定
   name: 規格具備・型式検定の対象（呼吸用保護具など）
   rank: A
-  count: 22
+  count: 19
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -6076,11 +5913,8 @@ traps:
   seat: 特化則
   name: 特定化学物質の区分（第1類・特定第2類・特別管理物質など）
   rank: A
-  count: 22
+  count: 19
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -6112,11 +5946,8 @@ traps:
   seat: 特化則
   name: 製造許可物質（第1類物質）
   rank: A
-  count: 11
+  count: 8
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2020-08
@@ -6126,27 +5957,6 @@ traps:
   - 2026-02
   - 2026-08
   understanding: 製造に厚生労働大臣の許可が必要なのは第1類物質（ジクロルベンジジン、α-ナフチルアミン、塩素化ビフェニル、オルト-トリジンなど）。許可は製造に対するもので、取扱いには不要。
-  reason: null
-  confidence: 中（現行法で要確認）
-  verify: true
-  hidden: false
-- id: lw-law-tokka-03
-  subject: hourei
-  chapter: law-tokka
-  foundation: toxicity
-  seat: 特化則
-  name: 特別有機溶剤と有機溶剤の区別
-  rank: A
-  count: 7
-  exams:
-  - 2015-08
-  - 2016-02
-  - 2016-08
-  - 2021-08
-  - 2023-02
-  - 2023-08
-  - 2024-02
-  understanding: 特別有機溶剤（クロロホルム、ジクロロメタン、1,2-ジクロロプロパンなど）は特化則の第2類物質。1,2-ジクロロエタンは特別有機溶剤。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6172,6 +5982,25 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
+- id: lw-law-tokka-03
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 特別有機溶剤と有機溶剤の区別
+  rank: A
+  count: 5
+  exams:
+  - 2016-08
+  - 2021-08
+  - 2023-02
+  - 2023-08
+  - 2024-02
+  understanding: 特別有機溶剤（クロロホルム、ジクロロメタン、1,2-ジクロロプロパンなど）は特化則の第2類物質。1,2-ジクロロエタンは特別有機溶剤。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
 - id: lw-law-tokka-05
   subject: hourei
   chapter: law-tokka
@@ -6185,6 +6014,21 @@ traps:
   - 2021-08
   - 2024-02
   understanding: 特別管理物質の作業の記録は1か月を超えない期間ごとに作成し、30年保存。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
+- id: lw-law-tokka-07
+  subject: hourei
+  chapter: law-tokka
+  foundation: toxicity
+  seat: 特化則
+  name: 区分の色分け表示
+  rank: C
+  count: 1
+  exams:
+  - 2023-08
+  understanding: 有機溶剤の区分の色分けは第1種赤、第2種黄、第3種青。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6227,26 +6071,6 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
-- id: lw-law-sokuteishi-03
-  subject: hourei
-  chapter: law-sokuteishi
-  foundation: null
-  seat: 作業環境測定士
-  name: 測定士の登録（欠格・登録区分）
-  rank: A
-  count: 7
-  exams:
-  - 2015-02
-  - 2015-08
-  - 2018-02
-  - 2023-02
-  - 2026-02
-  - 2026-08
-  understanding: 登録を取り消された者は2年間測定士になれない。第1種は登録した作業場の種類ごとに測定できる。
-  reason: null
-  confidence: 中（現行法で要確認）
-  verify: true
-  hidden: false
 - id: lw-law-sokuteishi-02
   subject: hourei
   chapter: law-sokuteishi
@@ -6254,9 +6078,8 @@ traps:
   seat: 作業環境測定士
   name: 外部放射線の線量当量率の測定は測定士でなくてよい
   rank: A
-  count: 6
+  count: 5
   exams:
-  - 2016-02
   - 2017-02
   - 2019-08
   - 2020-02
@@ -6267,21 +6090,20 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
-- id: lw-law-measurement-standard-03
+- id: lw-law-sokuteishi-03
   subject: hourei
   chapter: law-sokuteishi
-  foundation: a-b-measurement
-  seat: 作業環境測定基準
-  name: 相対濃度指示方法のみで測れる条件
-  rank: B
-  count: 5
+  foundation: null
+  seat: 作業環境測定士
+  name: 測定士の登録（欠格・登録区分）
+  rank: A
+  count: 4
   exams:
-  - 2016-02
-  - 2019-02
-  - 2020-02
-  - 2020-08
-  - 2021-02
-  understanding: 相対濃度指示方法のみの測定は、第1管理区分が続いた場合などに認められる（狭く均一だからではない）。
+  - 2018-02
+  - 2023-02
+  - 2026-02
+  - 2026-08
+  understanding: 登録を取り消された者は2年間測定士になれない。第1種は登録した作業場の種類ごとに測定できる。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6322,16 +6144,33 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
+- id: lw-law-measurement-standard-03
+  subject: hourei
+  chapter: law-sokuteishi
+  foundation: a-b-measurement
+  seat: 作業環境測定基準
+  name: 相対濃度指示方法のみで測れる条件
+  rank: B
+  count: 4
+  exams:
+  - 2019-02
+  - 2020-02
+  - 2020-08
+  - 2021-02
+  understanding: 相対濃度指示方法のみの測定は、第1管理区分が続いた場合などに認められる（狭く均一だからではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
 - id: lw-law-sokuteishi-04
   subject: hourei
   chapter: law-sokuteishi
   foundation: a-b-measurement
   seat: 作業環境測定基準
   name: ろ過材の性能（作業環境測定基準）
-  rank: B
-  count: 3
+  rank: C
+  count: 2
   exams:
-  - 2015-08
   - 2017-08
   - 2024-02
   understanding: ろ過材は、0.3µmの粒子を95%以上捕集する性能のもの。
@@ -6346,9 +6185,8 @@ traps:
   seat: 作業環境測定基準
   name: 騒音の測定点（作業環境測定基準）
   rank: C
-  count: 3
+  count: 2
   exams:
-  - 2015-02
   - 2017-02
   - 2018-08
   understanding: 騒音の測定点の高さは、床上120cm以上150cm以下。
@@ -6431,9 +6269,8 @@ traps:
   seat: 作業環境評価基準
   name: 管理区分の決め方（第1評価値・B測定値・1.5倍）
   rank: A
-  count: 7
+  count: 6
   exams:
-  - 2015-02
   - 2018-08
   - 2019-08
   - 2021-02
@@ -6487,11 +6324,9 @@ traps:
   foundation: null
   seat: 作業環境評価基準
   name: 管理濃度に比べて低い測定値の扱い
-  rank: B
-  count: 4
+  rank: C
+  count: 2
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-08
   understanding: 単発の論点（正答肢一覧で個別に確認）
@@ -6537,32 +6372,13 @@ traps:
   seat: 安衛則の衛生基準
   name: 関係者以外立入禁止の場所
   rank: B
-  count: 5
+  count: 4
   exams:
-  - 2016-02
   - 2018-02
   - 2019-08
   - 2020-02
   - 2021-02
   understanding: 炭酸ガス濃度1.5%を超える場所などは立入禁止。
-  reason: null
-  confidence: 中（現行法で要確認）
-  verify: true
-  hidden: false
-- id: lw-law-other-01
-  subject: hourei
-  chapter: law-other
-  foundation: null
-  seat: 安衛則の衛生基準
-  name: 気積（労働者1人あたり10m³以上）
-  rank: B
-  count: 4
-  exams:
-  - 2015-08
-  - 2016-08
-  - 2017-08
-  - 2018-02
-  understanding: 気積は、設備の容積と床上4mを超える空間を除き、労働者1人あたり10m³以上。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6583,6 +6399,37 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
+- id: lw-law-other-01
+  subject: hourei
+  chapter: law-other
+  foundation: null
+  seat: 安衛則の衛生基準
+  name: 気積（労働者1人あたり10m³以上）
+  rank: C
+  count: 2
+  exams:
+  - 2016-08
+  - 2017-08
+  understanding: 気積は、設備の容積と床上4mを超える空間を除き、労働者1人あたり10m³以上。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
+- id: lw-law-other-03
+  subject: hourei
+  chapter: law-other
+  foundation: null
+  seat: 安衛則の衛生基準
+  name: 換気の開口部面積（床面積の1/20）
+  rank: C
+  count: 1
+  exams:
+  - 2018-08
+  understanding: 換気設備がない屋内作業場では、直接外気に向かって開放できる部分の面積を、常時、床面積の20分の1以上にする（25分の1は誤り）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
 - id: lw-law-other-02
   subject: hourei
   chapter: law-other
@@ -6590,9 +6437,8 @@ traps:
   seat: 安衛則の衛生基準
   name: 有害な作業場の休憩設備は作業場の外に
   rank: C
-  count: 2
+  count: 1
   exams:
-  - 2015-02
   - 2017-02
   understanding: 単発の論点（正答肢一覧で個別に確認）
   reason: null
@@ -6633,9 +6479,8 @@ traps:
   seat: 有機則
   name: 有機溶剤業務の換気設備（第2種は全体換気不可）
   rank: A
-  count: 9
+  count: 8
   exams:
-  - 2015-08
   - 2016-08
   - 2017-08
   - 2018-02
@@ -6656,31 +6501,12 @@ traps:
   seat: 有機則
   name: タンク内作業と送気マスク
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2016-02
   - 2021-08
   - 2023-02
   - 2026-02
   understanding: タンク内部の業務では送気マスクを使用させる。
-  reason: null
-  confidence: 中（現行法で要確認）
-  verify: true
-  hidden: false
-- id: lw-law-organic-05
-  subject: hourei
-  chapter: law-organic
-  foundation: organic-solvents
-  seat: 有機則
-  name: 区分の色分け表示
-  rank: B
-  count: 4
-  exams:
-  - 2015-02
-  - 2017-02
-  - 2020-02
-  - 2023-08
-  understanding: 有機溶剤の区分の色分けは第1種赤、第2種黄、第3種青。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6698,6 +6524,22 @@ traps:
   - 2024-08
   - 2025-02
   understanding: 定期自主検査は1年以内ごとに1回。有機則では排ガス処理装置の設置は義務ではない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
+- id: lw-law-organic-05
+  subject: hourei
+  chapter: law-organic
+  foundation: organic-solvents
+  seat: 有機則
+  name: 区分の色分け表示
+  rank: C
+  count: 2
+  exams:
+  - 2017-02
+  - 2020-02
+  understanding: 有機溶剤の区分の色分けは第1種赤、第2種黄、第3種青。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6740,11 +6582,8 @@ traps:
   seat: 電離則
   name: 線量限度（皮膚の等価線量など）
   rank: A
-  count: 9
+  count: 6
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2017-02
   - 2017-08
   - 2018-08
@@ -6832,11 +6671,8 @@ traps:
   seat: 事務所則
   name: 事務所の空気環境の基準値
   rank: A
-  count: 13
+  count: 10
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2017-02
   - 2017-08
   - 2018-08
@@ -6869,28 +6705,17 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
-- id: lw-law-dust-01
+- id: lw-law-other-04
   subject: hourei
-  chapter: law-dust
-  foundation: ventilation
-  seat: 粉じん則・じん肺法
-  name: 除じん装置の方式（ヒュームはろ過式）
-  rank: A
-  count: 12
+  chapter: law-other
+  foundation: other-workplaces
+  seat: 事務所則
+  name: 気積（労働者1人あたり10m³以上）
+  rank: C
+  count: 1
   exams:
-  - 2015-02
-  - 2016-02
-  - 2017-02
-  - 2017-08
-  - 2018-08
-  - 2019-08
-  - 2020-02
-  - 2021-02
-  - 2021-08
-  - 2023-02
-  - 2024-08
-  - 2026-02
-  understanding: ヒュームの除じん装置はろ過除じん方式または電気除じん方式（サイクロンやスクラバではない）。
+  - 2018-02
+  understanding: 気積は、設備の容積と床上4mを超える空間を除き、労働者1人あたり10m³以上。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6902,10 +6727,8 @@ traps:
   seat: 粉じん則・じん肺法
   name: 特定粉じん発生源の対策
   rank: A
-  count: 8
+  count: 6
   exams:
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2018-08
@@ -6913,6 +6736,26 @@ traps:
   - 2019-08
   - 2023-08
   understanding: 特定粉じん発生源には局所排気装置等が必要で、全体換気では足りない。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
+- id: lw-law-dust-01
+  subject: hourei
+  chapter: law-dust
+  foundation: ventilation
+  seat: 粉じん則・じん肺法
+  name: 除じん装置の方式（ヒュームはろ過式）
+  rank: A
+  count: 6
+  exams:
+  - 2017-02
+  - 2017-08
+  - 2020-02
+  - 2021-08
+  - 2023-02
+  - 2026-02
+  understanding: ヒュームの除じん装置はろ過除じん方式または電気除じん方式（サイクロンやスクラバではない）。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -6966,6 +6809,21 @@ traps:
   confidence: null
   verify: false
   hidden: false
+- id: lw-law-dust-06
+  subject: hourei
+  chapter: law-dust
+  foundation: ventilation
+  seat: 石綿則
+  name: 除じん装置の方式（ヒュームはろ過式）
+  rank: C
+  count: 1
+  exams:
+  - 2024-08
+  understanding: ヒュームの除じん装置はろ過除じん方式または電気除じん方式（サイクロンやスクラバではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
 - id: lw-law-asbestos-01
   subject: hourei
   chapter: law-dust
@@ -6993,11 +6851,8 @@ traps:
   seat: 酸欠則
   name: 第1種・第2種酸素欠乏危険作業の区分
   rank: A
-  count: 21
+  count: 14
   exams:
-  - 2015-02
-  - 2015-08
-  - 2016-02
   - 2016-08
   - 2017-02
   - 2017-08
@@ -7017,6 +6872,23 @@ traps:
   confidence: 中（現行法で要確認）
   verify: true
   hidden: false
+- id: lw-law-other-05
+  subject: hourei
+  chapter: law-other
+  foundation: oxygen-deficiency
+  seat: 酸欠則
+  name: 酸欠の測定（作業開始前に、第1種は酸素、第2種は酸素と硫化水素）
+  rank: C
+  count: 3
+  exams:
+  - 2016-08
+  - 2017-08
+  - 2018-08
+  understanding: その日の作業を開始する前に測定する（開始後や直後ではない）。第1種は酸素、第2種は酸素と硫化水素の濃度を測る。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
 - id: lw-law-oxygen-02
   subject: hourei
   chapter: law-other
@@ -7024,9 +6896,8 @@ traps:
   seat: 酸欠則
   name: その他（単発）
   rank: C
-  count: 5
+  count: 4
   exams:
-  - 2015-08
   - 2021-08
   - 2023-08
   - 2024-08
@@ -7043,13 +6914,29 @@ traps:
   seat: 鉛則
   name: 鉛の濃度測定の頻度
   rank: B
-  count: 4
+  count: 3
   exams:
-  - 2015-02
   - 2020-02
   - 2023-02
   - 2025-08
   understanding: 鉛業務の屋内作業場は1年以内ごとに1回（6か月ではない）。
+  reason: null
+  confidence: 中（現行法で要確認）
+  verify: true
+  hidden: false
+- id: lw-law-dust-07
+  subject: hourei
+  chapter: law-dust
+  foundation: ventilation
+  seat: 鉛則
+  name: 除じん装置の方式（ヒュームはろ過式）
+  rank: B
+  count: 3
+  exams:
+  - 2018-08
+  - 2019-08
+  - 2021-02
+  understanding: ヒュームの除じん装置はろ過除じん方式または電気除じん方式（サイクロンやスクラバではない）。
   reason: null
   confidence: 中（現行法で要確認）
   verify: true
@@ -7076,11 +6963,9 @@ traps:
   foundation: null
   seat: 関係法令雑問
   name: じん肺健康診断と記録の保存
-  rank: A
-  count: 6
+  rank: B
+  count: 4
   exams:
-  - 2015-02
-  - 2015-08
   - 2017-02
   - 2019-02
   - 2020-08

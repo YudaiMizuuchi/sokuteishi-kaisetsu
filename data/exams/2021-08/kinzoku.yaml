@@ -4,31 +4,29 @@ subject: kinzoku
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 次の合金の主たる成分ⒶとⒷとの組合せとして誤っているものはどれか。1☆真鍮☆ 銅 亜鉛2 青銅 銅 ニッケル3 はんだ 鉛 スズ4 ステンレス鋼 鉄 クロム5 金アマルガム 金 水銀
-  columns: null
+  stem: 次の合金の主たる成分ⒶとⒷとの組合せとして誤っているものはどれか。
+  columns:
+  - 合金
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - 真鍮 ／ 銅 ／ 亜鉛
+  - 青銅 ／ 銅 ／ ニッケル
+  - はんだ ／ 鉛 ／ スズ
+  - ステンレス鋼 ／ 鉄 ／ クロム
+  - 金アマルガム ／ 金 ／ 水銀
   answer: 2
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2021-08-kinzoku-01-choices.png
-    alt: 問1の選択肢
+  figures: []
   law_note: null
-  _review: true
-  _import_flags:
-  - 選択肢を画像にした（文字で入れられるなら手で直す）
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -48,7 +46,7 @@ questions:
   law_note: null
   _review: true
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -61,8 +59,8 @@ questions:
   - 吸光光度分析法 ／ 物質による可視光の吸収
   - 蛍光光度分析法 ／ 物質による蛍光の発生
   - 原子吸光分析法 ／ 励起状態の原子の光吸収
-  - 高周波誘導結合プラズマ ／ 励起状態の原子又はイオンの発光発光分析法（ICP-AES）
-  - 高周波誘導結合プラズマ ／ 原子のイオン化質量分析法（ICP-MS）
+  - 高周波誘導結合プラズマ発光分析法（ICP-AES） ／ 励起状態の原子又はイオンの発光
+  - 高周波誘導結合プラズマ質量分析法（ICP-MS） ／ 原子のイオン化
   answer: 3
   choice_notes: []
   explanation: null
@@ -70,7 +68,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -90,7 +88,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -110,7 +108,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -130,7 +128,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -150,7 +148,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -170,7 +168,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -190,7 +188,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -210,7 +208,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -230,7 +228,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -250,7 +248,7 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -270,7 +268,7 @@ questions:
   law_note: null
   _review: true
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -290,7 +288,7 @@ questions:
   law_note: null
   _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -310,7 +308,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -330,7 +328,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -350,7 +348,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -370,7 +368,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -390,7 +388,7 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null

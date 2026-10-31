@@ -4,7 +4,7 @@ subject: tokka
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -24,7 +24,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -44,7 +44,7 @@ questions:
   law_note: null
   _review: true
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -64,7 +64,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -87,7 +87,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -107,7 +107,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -127,7 +127,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -147,7 +147,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -170,7 +170,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -192,7 +192,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -212,7 +212,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -232,7 +232,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -252,28 +252,30 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
   stem: 次の特定化学物質Ⓐについて、その構造式Ⓑが誤っているものはどれか。
-  columns: null
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - エチレンオキシド ／ 図の1
+  - ベンゾトリクロリド ／ 図の2
+  - o-フタロジニトリル ／ 図の3
+  - β-プロピオラクトン ／ 図の4
+  - ジクロロベンジジン ／ 図の5
   answer: 3
   choice_notes: []
   explanation: null
   figures:
-  - file: 2024-08-tokka-13-choices.png
-    alt: 問13の選択肢
+  - file: 2024-08-tokka-13-fig.png
+    alt: Ⓐ（名称）とⒷ（構造式）の2列。1＝エチレンオキシド、Ⓑは H₂C と CH₂ が結合し、その下の O とで三員環をつくる。2＝ベンゾトリクロリド、Ⓑは中心の C に Cl が3つ（上・左・右）結合し、下でベンゼン環に結合する。3＝o-フタロジニトリル、Ⓑは2つの6員環が縮合した環（ナフタレン環）で、隣り合う2つの炭素に NO₂ がそれぞれ結合する。4＝β-プロピオラクトン、Ⓑは O=C、CH₂、CH₂、O による四員環。5＝ジクロロベンジジン、Ⓑは2つのベンゼン環が結合した構造で、左の環に H₂N と Cl、右の環に Cl と NH₂ が結合する
   law_note: null
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -293,7 +295,7 @@ questions:
   law_note: null
   _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -313,7 +315,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -335,7 +337,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -355,7 +357,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -375,7 +377,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -395,23 +397,48 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中の A、B、C が表すものの組合せとして、正しいものは下のうちどれか。ただし、捕集液の全量を分析に用いるものとし、単位は次のとおりとする。（単位、式及び選択肢は下の図のとおり）
-  columns: null
+  stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q(L)を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
+
+
+    ただし、捕集液の全量を分析に用いるものとし、単位は次のとおりとする。
+
+
+    吸引流量（L・min⁻¹）
+
+
+    捕集時間（min）
+
+
+    最終試料液の総量（mL）
+
+
+    検出下限濃度（µg・mL⁻¹）
+
+
+    定量下限濃度（µg・mL⁻¹）
+
+
+    管理濃度（mg・m⁻³）
+
+
+    Q=(定量下限濃度× A)/(B× C)'
+  columns:
+  - Ⓐ
+  - Ⓑ
+  - Ⓒ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - 最終試料液の総量 ／ 0.01 ／ 検出下限濃度
+  - 最終試料液の総量 ／ 0.1 ／ 管理濃度
+  - 捕集時間 ／ 0.01 ／ 管理濃度
+  - 捕集時間 ／ 0.1 ／ 管理濃度
+  - 吸引流量 ／ 0.01 ／ 検出下限濃度
   answer: 2
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2024-08-tokka-20-choices.png
-    alt: 問20の選択肢
+  figures: []
   law_note: null

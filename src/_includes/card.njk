@@ -28,12 +28,13 @@
   <div class="tags">
     {% for c in q.chapters %}<a class="tag" href="{{ c.url }}">{{ c.label }}</a>{% endfor %}
   </div>
-  <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-{{ q.id }}" data-answer="{{ q.answer | join(',') }}">解説を見る</button>
+  <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-{{ q.id }}" data-answer="{{ q.answer | join(',') }}"{% if not q.hasExplanation %} data-noexp="1"{% endif %}>{% if q.hasExplanation %}解説を見る{% else %}正答を見る{% endif %}</button>
   <div class="answer" id="ans-{{ q.id }}" hidden>
     {% if q.answer.length %}<p class="seikai">正答 <b>{% if q.answer[0] == 'all' %}全員正解{% else %}({{ q.answer | join(')・(') }}){% endif %}</b></p>{% endif %}
+    {% if q.textNote %}<p class="lawnote">原文について：{{ q.textNote }}</p>{% endif %}
     {% if q.examNote %}<p class="lawnote">協会の注記：{{ q.examNote }}</p>{% endif %}
     {% if q.lawNote %}<p class="lawnote">法改正に関する注意：{{ q.lawNote }}</p>{% endif %}
-    {{ q.explanationHtml | safe }}
+    {% if q.hasExplanation %}{{ q.explanationHtml | safe }}{% else %}<p class="no-exp">この問題の解説は準備中です。</p>{% endif %}
     {% if q.reviewNote %}<p class="review-note"><b>現在、管理者にて確認中</b>{{ q.reviewNote }}</p>{% endif %}
     {% if q.choiceNotes.length %}
     <ol class="notes">
@@ -42,7 +43,7 @@
     {% endif %}
     {% for t in q.traps %}{% if not t.misc and not t.hidden %}
     <section class="trap">
-      <h3>この問題で狙われた罠：{% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>
+      <h3>この問題のひっかけパターン：{% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>
       {{ t.understandingHtml | safe }}
       {% if t.reasonHtml %}<div class="why"><span>なぜ？</span>{{ t.reasonHtml | safe }}</div>{% endif %}
     </section>

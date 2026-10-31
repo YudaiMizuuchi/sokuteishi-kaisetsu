@@ -1,0 +1,406 @@
+exam: 2015-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: ピリジン-ピラゾロン法による環境空気中のシアン化水素濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - シアン化水素の捕集液として、水酸化ナトリウム水溶液を用いる。
+  - 標準物質として、シアン化カリウムを用いる。
+  - 捕集液に酢酸を加える。
+  - 最終試料液の色は、赤色である。
+  - 試料空気中に臭素ガスが共存すると、分析の妨害となる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '吸光光度分析法における検量線に関する次の記述の㋑と㋺の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「［㋑］は、検量線の傾きに関係するが、［㋺］は関係しない。」'
+  choices:
+  - 発色試薬の濃度 ／ 入射光の強度
+  - 発色試薬の濃度 ／ セルの光路長
+  - セルの光路長 ／ 溶質のモル吸光係数
+  - 溶質のモル吸光係数 ／ 入射光の強度
+  - 入射光の強度 ／ 発色試薬の濃度
+  columns:
+  - ㋑
+  - ㋺
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気(25℃、1気圧)中のフッ化水素の濃度を吸光光度分析法で測定した。捕集液に1.0L·min⁻¹の流量で試料空気を10分間吸引して得られた試料液10mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.100であった。フッ化水素の濃度が、4.58×10⁻³mol·L⁻¹の標準溶液10mLにつき試料液と同様の定量操作を行って測定した吸光度は0.320であった。フッ化水素の環境空気中濃度(体積分率)として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は100%とする。
+  choices:
+  - 0.15ppm
+  - 0.25ppm
+  - 0.35ppm
+  - 0.45ppm
+  - 0.55ppm
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法で測定する場合に、ジアゾカップリング反応による発色を利用する物質は次のうちどれか。
+  choices:
+  - 塩素化ビフェニル
+  - オーラミン
+  - コールタール
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン
+  - ニトログリコール
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法による環境空気中のベンゼン濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 直接捕集法には、捕集袋又は真空捕集びんを用いる。
+  - 固体捕集法には、活性炭管を用いる。
+  - 活性炭からのベンゼンの脱着には、二硫化炭素が用いられる。
+  - 直接捕集した試料ガスは、ガスタイトシリンジでガスクロマトグラフに導入する。
+  - 検出器には、電子捕獲検出器(ECD)を用いる。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に用いられる水素炎イオン化検出器(FID)に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検出器に水素と空気を供給する。
+  - 水素炎中で燃焼し、イオン化する物質のみを検出する。
+  - 直線性を示す測定範囲は、電子捕獲検出器(ECD)よりも広い、
+  - 1モル当たりの感度は、炭素数が増えると高くなる。
+  - 有機ハロゲン化物を選択的に検出する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'ガスクロマトグラフ分析法に用いられる固定相液体に関する次の記述の㋑、㋺、㋩の［　］に入る語句の組合せとして、適切なものは下のうちどれか。
+
+
+    「固定相として用いられる液体は、蒸気圧が［㋑］、かつ、分析対象物質に対して［㋺］があって、しかも反応性や熱分解性の［㋩］ものが推奨される。」'
+  choices:
+  - 高く ／ 溶解力 ／ 低い
+  - 低く ／ 吸着力 ／ 低い
+  - 低く ／ 溶解力 ／ 低い
+  - 高く ／ 吸着力 ／ 高い
+  - 低く ／ 溶解力 ／ 高い
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析法に用いる検出器Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - アクリルアミド炎光光度検出器(FPD)
+  - アクリロニトリルアルカリ熱イオン化検出器(FTD)
+  - 塩素化ビフェニル電子捕獲検出器(ECD)
+  - o-フタロジニトリル質量分析器(MS)
+  - 臭化メチル水素炎イオン化検出器(FID)
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 移動相は、脱気して用いる。
+  - 逆相クロマトグラフ用のカラムは、基材にアルキル鎖を化学結合させたものが多く用いられる。
+  - 分離の原理の一つとして、分配作用がある。
+  - メタノールノ水(1:1)の移動相は、アセトニトリル/水(1:1)の移動相よりも粘性が低い
+  - 電気化学検出器は、電極反応により酸化又は還元される物質を検出する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気(25℃、1気圧)中のトルエンジイソシアネート(TDI)の濃度を測定するため、1.0L·min⁻¹で10分間試料空気を2-PP含浸ろ紙に通気した。得られたTDI-2-PP誘導体を抽出液4.0mLで抽出し試料液とした。高速液体クロマトグラフで分析した結果、試料液中のこの誘導体の濃度は0.16μg·mL⁻¹であった。環境空気中のTDI濃度として、正しい値に最も近いものは次のうちどれか。ただし、TDI-2-PP誘導体のモル質量は501g·mol⁻¹、ろ紙への捕集率は100%とし、TDIは全て2,4-TDIの形で存在しているものとする。
+  choices:
+  - 1ppb
+  - 2ppb
+  - 3ppb
+  - 4ppb
+  - 5ppb
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: コールタールの分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 捕集には、フッ素樹脂バインダーグラスファイバーろ紙を使用することができる。
+  - コールタールの抽出には、ベンゼン又はメチルエチルケトンを使用する。
+  - 捕集用ろ紙は、ベンゼン可溶成分を除くためにあらかじめ洗浄する。
+  - ベンゼン抽出法及びメチルエチルケトン抽出法の超音波抽出時間は、いずれも30分程度である。
+  - 抽出後の溶媒の除去のための加熱操作は、2回以上繰り返してはならない。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質用検知管Ⓐと、それに利用されている反応Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - シアン化水素用検知管 ／ シアン化水素が塩化水銀(Ⅱ)と反応して塩化水素を生じる。
+  - ホルムアルデヒド用検知管 ／ ホルムアルデヒドがリン酸ヒドロキシルアミンと反応してリン酸を遊離する。
+  - フッ化水素用検知管 ／ フッ化水素が五酸化ヨウ素と反応してヨウ素を生じる。
+  - 硫化水素用検知管 ／ 硫化水素が酢酸鉛と反応して硫化鉛を生成する。
+  - スチレン用検知管 ／ スチレンが発煙硫酸により重合する。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+
+
+    ※選択肢の構造式はPDFでは図。ここでは構造を文章で表記。'
+  choices:
+  - クロロメチルメチルエーテル ／ H₃C－O－CH₂Cl
+  - β-プロピオラクトン ／ H₂C－CH₂－C＝O(Oを含む四員環)
+  - アクリロニトリル ／ H₂C＝CH－CN
+  - α-ナフチルアミン ／ ナフタレン環の1位に－NH₂
+  - p-ニトロクロロベンゼン ／ ベンゼン環のパラ位にClとNO₂
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: 原本に図あり（図あり（構造式。選択肢は文章で表記））。文章で表記している。
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物のうち、1気圧における沸点が最も低いものはどれか。
+  choices:
+  - ベンゼン
+  - エチレンオキシド
+  - アクリロニトリル
+  - 臭化メチル
+  - フッ化水素
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '体積2Lの3個の真空の容器に、エチレンイミン(A)、シアン化水素(B)、ヨウ化メチル(C)をそれぞれ下表に示す質量ずつ別々に入れて密封して蒸発させた。定常状態になったときの各容器中のそれぞれの物質の気体の圧力(PA、PB、PC)を大きい順に並べたものは下のうちどれか。ただし、それぞれの物質のモル質量及び飽和蒸気圧は下表のとおりとし、温度は20℃とする。
+
+
+    物質／容器に入れた質量(g)／モル質量(g·mol⁻¹)／20℃における飽和蒸気圧(kPa)
+
+
+    エチレンイミン(A)／1.0／43／21
+
+
+    シアン化水素(B)／0.5／27／83
+
+
+    ヨウ化メチル(C)／2.0／142／50'
+  choices:
+  - PC＞PB＞PA
+  - PA＞PC＞PB
+  - PB＞PA＞PC
+  - PC＞PA＞PB
+  - PB＞PC＞PA
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質の分析に用いられる次の標準液のうち、分析の都度、標定する必要のあるものはどれか。
+  choices:
+  - トルエンジイソシアネート溶液
+  - フッ化ナトリウム溶液
+  - 次亜塩素酸ナトリウム溶液
+  - 2-ブロモエタノール溶液
+  - エチレンイミン溶液
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 拡散速度は、液体の質量の減少量から算出する。
+  - 拡散速度は、恒温槽の温度が高いと増加する。
+  - 拡散係数は、温度が高くなると大きくなる。
+  - 拡散速度は、拡散チューブの内径に比例する。
+  - 拡散速度は、拡散チューブの有効長に反比例する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '固体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q(L)を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。ただし、単位は次のとおりとする。
+
+
+    吸引流量(L·min⁻¹)、捕集時間(min)、最終試料液の総量(mL)、定量下限濃度(μg·mL⁻¹)、管理濃度(mg·m⁻³)
+
+
+    Q＝(A×B)／(0.1×C)'
+  choices:
+  - 吸引流量 ／ 管理濃度 ／ 捕集時間
+  - 管理濃度 ／ 最終試料液の総量 ／ 定量下限濃度
+  - 定量下限濃度 ／ 吸引流量 ／ 管理濃度
+  - 定量下限濃度 ／ 最終試料液の総量 ／ 管理濃度
+  - 捕集時間 ／ 管理濃度 ／ 定量下限濃度
+  columns:
+  - A
+  - B
+  - C
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法による定量下限濃度を求めるため、管理濃度の1/10の濃度の空気を2.0L捕集した試料に相当する溶液を5回繰り返し測定したところ、気中濃度として平均値0.30ppm、標準偏差0.02ppmであった。この測定法の定量下限濃度に相当する気中濃度として、適切な値は次のうちどれか。
+  choices:
+  - 0.02ppm
+  - 0.06ppm
+  - 0.1ppm
+  - 0.2ppm
+  - 0.4ppm
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の測定対象物質のうち、相補型ろ過捕集法による捕集が適切なものはどれか。
+  choices:
+  - アクリロニトリル
+  - ベンゼン
+  - シアン化ナトリウム
+  - アクリルアミド
+  - コールタール
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

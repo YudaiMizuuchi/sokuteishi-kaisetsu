@@ -29,7 +29,7 @@ questions:
     よって、最も近いのは 150 mg/m³ です。'
   figures: []
   law_note: null
-  _key_choice: 150mg・m-3
+  _key_choice: 150 mg・m⁻³
 - num: 2
   status: published
   chapters:
@@ -141,7 +141,7 @@ questions:
     フッ化水素は沸点がほぼ常温なので迷いやすいですが、25℃では沸点を超えているのでガスです。'
   figures: []
   law_note: null
-  _key_choice: ハホ
+  _key_choice: ㋩ ㋭
 - num: 6
   status: published
   chapters:
@@ -165,7 +165,7 @@ questions:
     酢酸メチル（約 57℃）、n-ヘキサン（約 69℃）、ベンゼン（約 80℃）、メチルイソブチルケトン（約 116℃）の順に沸点が高くなり、蒸気圧は低くなります。'
   figures: []
   law_note: null
-  _key_choice: ジクロロメタン(25°Cの飽和蒸気圧が最も高い)
+  _key_choice: ジクロロメタン
 - num: 7
   status: published
   chapters:
@@ -186,11 +186,13 @@ questions:
   explanation: 'ヒュームの一次粒子は、気化した物質が空気中で冷やされて固まったもので、表面張力のために**球形**に近いものが多くなります。不規則な形状のものが多いとする選択肢5は誤りです。
 
 
-    不規則な形の粒子が多いのは、固体を砕いたり削ったりしてできる粉じんです。ヒュームの一次粒子は球形でも、それがつながった凝集体（二次粒子）は不規則な形になります。'
+    不規則な形の粒子が多いのは、固体を砕いたり削ったりしてできる粉じんです。ヒュームの一次粒子は球形でも、それがつながった凝集体（二次粒子）は不規則な形になります。
+
+
+    （参考：『作業環境測定のための労働衛生の知識』「ヒューム」の項（p.109）。ヒュームは生成の途中で液体の状態を通るため、表面張力によって球形のものが多いとされています）'
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
-  review_note: ヒュームの一次粒子は表面張力のために球形に近いものが多い、と説明しています。確認中です。
 - num: 8
   status: published
   chapters:
@@ -214,7 +216,7 @@ questions:
     作業環境測定基準の別表第一でも、コールタールは「ろ過捕集方法・重量分析方法」とされています。セルロースエステルメンブランフィルターは、石綿のように繊維を顕微鏡で数えるための試料に向いたろ過材です。'
   figures: []
   law_note: null
-  _key_choice: コールタールセルロースエステルメンブランフィルター
+  _key_choice: Ⓐコールタール Ⓑセルロースエステルメンブランフィルター
   columns:
   - Ⓐ
   - Ⓑ
@@ -295,7 +297,7 @@ questions:
   chapters:
   - liquid-direct
   traps:
-  - ds-liquid-direct-01
+  - ds-liquid-direct-02
   rank: null
   summary: null
   stem: 液体捕集法及び直接捕集法に関する次の記述のうち、誤っているものはどれか。
@@ -313,7 +315,7 @@ questions:
     令和2年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: ミゼットインピンジャーに粒径3~5mmのガラスビーズを入れると、ガス状物質の捕集率を高めることができる。
+  _key_choice: 真空捕集びんは、13.3 kPa以下の圧力に減圧してから使用する。
 - num: 13
   status: published
   chapters:
@@ -385,7 +387,7 @@ questions:
     圧電天秤方式は、圧電結晶板に付着した粉じんの質量に応じて振動数が変わることを利用して、質量に対応する値を求めます（選択肢2）。光散乱方式の相対濃度は cpm（カウント／分）で示されます。令和元年度第1回 デザイン 問15でも、「相対濃度指示方法における相対濃度は、光散乱方式では cpm、圧電天秤方式では mg･m⁻³ で示される」という正しい記述が出題されています。'
   figures: []
   law_note: null
-  _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min-1の単位で表示される。
+  _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min⁻¹の単位で表示される。
 - num: 16
   status: published
   chapters:
@@ -409,7 +411,7 @@ questions:
     放射性セシウム、コバルト、タリウムなど粒子状のものはろ過捕集方法、放射性アルゴンなど希ガスは直接捕集方法です。'
   figures: []
   law_note: null
-  _key_choice: 放射性ヨウ素トリチウム化水蒸気
+  _key_choice: ㋑放射性ヨウ素 ㋺トリチウム化水蒸気
   columns:
   - ㋑
   - ㋺
@@ -443,7 +445,7 @@ questions:
     よって（4）が正しい値です。令和4年度第2回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
-  _key_choice: 1.4×104Bq
+  _key_choice: 1.4×10⁴ Bq
 - num: 18
   status: published
   chapters:
@@ -468,7 +470,7 @@ questions:
     μ ± 2σ の範囲に約95％が入るのは「両側」の話で、上側5％点（片側）は 1.645σ です。'
   figures: []
   law_note: null
-  _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ+2σである。
+  _key_choice: 正規分布の平均（算術平均）及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ＋2σである。
 - num: 19
   status: published
   chapters:
@@ -497,9 +499,9 @@ questions:
 - num: 20
   status: published
   chapters:
-  - a-b-measurement
+  - evaluation
   traps:
-  - ds-a-b-measurement-06
+  - ds-evaluation-06
   rank: null
   summary: null
   stem: 有害物質のA測定及びB測定が行われた場合の作業環境評価に関する次の記述のうち、誤っているものはどれか。

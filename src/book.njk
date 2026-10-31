@@ -7,9 +7,10 @@ pagination:
 permalink: "{{ c.bookUrl }}"
 eleventyComputed:
   title: "{{ c.label }}｜参考書"
-  description: "作業環境測定士試験の参考書「{{ c.label }}」。過去問で繰り返し狙われる罠の型を、理由から理解できるように解説します。"
+  description: "作業環境測定士試験の参考書「{{ c.label }}」。過去問で繰り返し出るひっかけパターンを、理由から理解できるように解説します。"
 ---
-<nav class="crumbs" aria-label="現在の位置"><a href="/book/">参考書</a> › 第{{ c.partNum }}部 {{ c.partName }}</nav>
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: "参考書", url: "/book/"}, {name: c.label}]) }}
 <article class="book">
   <h1>{{ c.label }}</h1>
   {% if c.bookToc.length %}
@@ -21,7 +22,7 @@ eleventyComputed:
   <div class="book-body">{{ c.bookHtml | safe }}</div>
   <div class="book-actions">
     {% if c.questions.length %}<a class="button" href="/#chapter={{ c.id }}">この章の過去問を解く（{{ c.questions.length }}問）</a>{% endif %}
-    <a class="button ghost" href="{{ c.url }}">この章で狙われる罠の型</a>
+    <a class="button ghost" href="{{ c.url }}">この章のひっかけパターン</a>
   </div>
   <nav class="pager" aria-label="前後の章">
     {% if c.bookPrev %}<a href="{{ c.bookPrev.url }}" rel="prev">← {{ c.bookPrev.label }}</a>{% else %}<span></span>{% endif %}

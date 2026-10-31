@@ -1,0 +1,12 @@
+---
+layout: base.njk
+fulltitle: 作業環境測定士試験 過去問を年度・回から探す
+description: 作業環境測定士試験の過去問を、実施年度・回ごとに一覧できます。平成28年度（2016年度）から令和8年度までの19回分の過去問を掲載しています（第2種の共通科目は全問解説付き）。
+---
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: "年度・回から探す"}]) }}
+<h1>年度・回から探す</h1>
+<p class="lead">作業環境測定士試験の過去問を、実施された年度・回ごとにまとめています。</p>
+<ul class="exam-list">
+{% for e in db.examPages %}<li><a href="{{ e.url }}">{{ e.label }}（{{ e.held }}）</a><span>{{ e.count }}問</span></li>{% endfor %}
+</ul>

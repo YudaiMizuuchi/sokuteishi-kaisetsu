@@ -1,0 +1,402 @@
+exam: 2016-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ガラス製のセルは、紫外部の光を吸収する。
+  - 吸光度は、呈色後の時間によって変化することがある。
+  - 吸光度測定は、0.2～0.8程度の吸光度で行うことが望ましい。
+  - 検量線の傾きは、入射光の強度に比例する。
+  - 液層の長さが一定であれば、吸光度は濃度に比例する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気(25℃、1気圧)中のシアン化水素の濃度を測定するため、10mLの捕集液に0.70L·min⁻¹の流量で試料空気を10分間吸引した。この試料液5.0mLをとり、定量操作を行って得られた溶液の吸光度を測定したところ、0.26であった。シアン化カリウム濃度が2.8×10⁻⁴mol·L⁻¹の標準溶液5.0mLを、試料液と同様の操作を行って測定したところ、吸光度は0.48であった。この場合、シアン化水素の環境空気中濃度の値として、正しい値に最も近いものは次のうちどれか。ただし、試料捕集時に捕集液の損失はなく、かつ、捕集率は100%であったとする。
+  choices:
+  - 1.8ppm
+  - 2.7ppm
+  - 3.6ppm
+  - 4.2ppm
+  - 5.3ppm
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '定量下限に関する次の記述の㋑、㋺の［　］に入る数値及び用語の組合せとして、正しいものは下のうちどれか。
+
+
+    「吸光光度分析法における定量下限は、検量線上の吸光度［㋑］に相当する測定対象物質の［㋺］中の濃度とする。」'
+  choices:
+  - 0.06 ／ 標準溶液
+  - 0.03 ／ 環境空気
+  - 0.03 ／ 標準溶液
+  - 0.01 ／ 環境空気
+  - 0.01 ／ 標準溶液
+  columns:
+  - ㋑
+  - ㋺
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '吸光光度分析法による環境空気中の濃度測定に関する次の記述の［　　］に入る物質として、正しいものは下のうちどれか。
+
+
+    「捕集液として水酸化ナトリウム溶液を用いて、これに［　　］を捕集して試料液とする。試料液のpHを弱酸性に調整した後、ランタン及びアリザリンコンプレクソンを加えて発色させ、620 nmにおける吸光度を測定し、［　　］の空気中濃度を求める。」'
+  choices:
+  - 硫化水素
+  - フッ化水素
+  - 塩素
+  - トルエンジイソシアネート
+  - o-トリジン
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 試料溶液中のベンゼン濃度の測定をガスクロマトグラフ分析法で行い、ベンゼンのピーク面積5.0×10⁴を得た。この溶液4.0mLと、ベンゼン濃度10μg·mL⁻¹の標準溶液1.0mLを混合し、同様に分析したところ、ベンゼンのピーク面積は6.0×10⁴であった。試料溶液中のベンゼン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0μg·mL⁻¹
+  - 2.0μg·mL⁻¹
+  - 3.0μg·mL⁻¹
+  - 4.0μg·mL⁻¹
+  - 5.0μg·mL⁻¹
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法において、キャピラリーカラムを使用する場合に用いられる次の試料導入法のうち、低濃度試料の分析に適していないものはどれか。
+  choices:
+  - 加熱脱着法
+  - クール・オンカラム注入法
+  - スプリット注入法
+  - スプリットレス注入法
+  - ダイレクト注入法
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: キャピラリーカラムを使用するガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリアガスの流量は、カラムの理論段数が最小となるように設定するのが望ましい。
+  - カラムの内径が小さいほど、理論段数は大きくなる。
+  - カラム槽温度が低いほど、保持時間が長くなる。
+  - 液相の膜厚が厚いほど、保持時間が長くなる。
+  - キャリアガスとして、主にヘリウムが使用されるが、窒素や水素が使用されることもある。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '環境空気中のエチレンオキシドのガスクロマトグラフ質量分析法に関する次の記述の㋑、㋺、㋩の［　］に入る用語の組合せとして、正しいものは下のうちどれか。
+
+
+    「活性炭に［㋑］を含浸・乾燥させたものを充填した捕集管に試料空気を通気し、エチレンオキシドを［㋺］して2-ブロモエタノールとして捕集する。この2-ブロモエタノールをトルエン/アセトニトリルで抽出し、［㋩］を加えて1時間以上放置した後、ガスクロマトグラフ質量分析法で分析する。」'
+  choices:
+  - 臭化水素酸 ／ 誘導体化 ／ 炭酸ナトリウム
+  - 臭化水素酸 ／ 加水分解 ／ 塩化ナトリウム
+  - 臭化カリウム ／ 誘導体化 ／ 炭酸ナトリウム
+  - 臭化カリウム ／ 誘導体化 ／ 塩化ナトリウム
+  - 臭化水素酸 ／ 加水分解 ／ 炭酸ナトリウム
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質用検知管Ⓐと、それに利用される反応Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 四塩化炭素用検知管 ／ 四塩化炭素が酸化剤により酸化されてホスゲンとなる。
+  - アクリロニトリル用検知管 ／ アクリロニトリルが酸化剤と反応してシアン化水素を発生する。
+  - スチレン用検知管 ／ スチレンが発煙硫酸により重合する。
+  - ベンゼン用検知管 ／ ベンゼンがpH指示薬と反応し変色させる。
+  - シアン化水素用検知管 ／ シアン化水素が塩化水銀(Ⅱ)と反応して塩化水素を生成する。
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法に使用される検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 示差屈折検出器は、溶媒と試料溶液の屈折率の違いを利用している。
+  - 紫外可視吸光光度検出器は、紫外可視部に吸収のある物質の分析に用いられる。
+  - 蛍光光度検出器は、可視光を照射して励起した物質から発生する紫外光を測定する。
+  - 電気化学検出器は、酸化あるいは還元できる物質の分析に用いられる。
+  - 電気伝導度検出器は、イオン性物質の分析に用いられる。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 逆相クロマトグラフ法では、固定相より移動相の極性が低い。
+  - 移動相中でイオン化する物質の分析には、移動相に緩衝液を加えることがある。
+  - 逆相クロマトグラフ法では、一般に、移動相として水と水溶性有機溶媒の混合液が用いられる。
+  - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+  - 逆相クロマトグラフ法では、カラム温度を上げるとカラム圧が低くなる。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光強度は、温度の影響を受ける。
+  - 蛍光強度は、溶液のpHにより変化することがある。
+  - 一般に、吸光光度分析法に比べて選択性が高い。
+  - 蛍光強度と濃度との直線関係は、低濃度範囲で成立する。
+  - 飽和炭化水素は、蛍光強度が大きい。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: シアン化水素及び硫化水素の1気圧における物性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 両物質とも水に溶け、酸性を呈する。
+  - 両物質とも、その融点は水の融点より低い。
+  - 両物質とも、その沸点は水の沸点より低い。
+  - 硫化水素の方が、シアン化水素より沸点が高い。
+  - シアン化水素の方が、硫化水素より融点が高い。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  choices:
+  - ニトログリコール ／ 図の1
+  - o-フタロジニトリル ／ 図の2
+  - アクリルアミド ／ 図の3
+  - α-ナフチルアミン ／ 図の4
+  - エチレンイミン ／ 図の5
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2016-08-tokka-14-fig.png
+    alt: Ⓐ（化合物名）とⒷ（構造式）の2列の表。1＝ニトログリコール、Ⓑは、O₂N-O-CH₂-CH₂-O-NO₂。2＝o-フタロジニトリル、Ⓑは、ベンゼン環の隣り合う炭素にそれぞれCNが結合。3＝アクリルアミド、Ⓑは、H₃C-CH=CH-C-NH₂で、末尾側のCの下にOが二重結合で結合。4＝α-ナフチルアミン、Ⓑは、2つの六員環が縮合した環の上部の炭素にNH₂が結合。5＝エチレンイミン、Ⓑは、H₂CとCH₂が結合し、その下側のNH（Hが結合したN）がH₂CとCH₂の両方に結合した三員環
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 塩化ビニル及び臭化メチルの1気圧における物性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 塩化ビニルの方が、臭化メチルより沸点が高い。
+  - 臭化メチルの方が、塩化ビニルより融点が高い。
+  - 両物質とも25℃で気体である。
+  - 両物質とも、その融点は水の融点より低い。
+  - 臭化メチルの沸点は、水の融点より高い。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法による分析において、測定対象物質Ⓐと、標準溶液調製時に標準物質として使用する物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 塩素 ／ 塩化ナトリウム
+  - 臭化メチル ／ 臭化カリウム
+  - フッ化水素 ／ フッ化ナトリウム
+  - 硫化水素 ／ 硫化ナトリウム
+  - 硫酸ジメチル ／ メタノール
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 測定対象物質Ⓐ、分析法Ⓑ及びその標準系列液の調製に用いる溶媒Ⓒの組合せとして、誤っているものは次のうちどれか。
+  choices:
+  - β-プロピオラクトン ／ ガスクロマトグラフ分析法 ／ ジエチルエーテル
+  - シアン化カリウム ／ 吸光光度分析法 ／ 水酸化ナトリウム溶液
+  - エチレンイミン ／ 吸光光度分析法 ／ 精製水
+  - ペンタクロロフェノール ／ ガスクロマトグラフ分析法 ／ 水酸化ナトリウム溶液
+  - α-ナフチルアミン ／ 吸光光度分析法 ／ 硫酸溶液
+  columns:
+  - Ⓐ
+  - Ⓑ
+  - Ⓒ
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の測定対象物質のうち、固体捕集法による捕集が不適当なものはどれか。
+  choices:
+  - ベンゼン
+  - アクリロニトリル
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン(MOCA)
+  - クロロホルム
+  - 酸化プロピレン
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中の測定対象物質の捕集法及び分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 塩素化ビフェニル(PCB)を、液体捕集法により捕集し、ガスクロマトグラフ分析法により測定する。
+  - ヨウ化メチルを、直接捕集法により捕集し、ガスクロマトグラフ分析法により測定する。
+  - o-トリジンを、液体捕集法により捕集し、吸光光度分析法により測定する。
+  - クロロメチルメチルエーテルを、ろ過捕集法により捕集し、吸光光度分析法により測定する。
+  - ベンゾトリクロリドを、固体捕集法により捕集し、ガスクロマトグラフ分析法により測定する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '次の㋑から㋥の測定対象物質について、相補型ろ過捕集方法(ろ過捕集材と吸着剤とを組み合わせた捕集方法)により捕集することが必要であるものの組合せは下のうちどれか。
+
+
+    ㋑塩化ビニル
+
+
+    ㋺ o-フタロジニトリル
+
+
+    ㋩オーラミン
+
+
+    ㋥アクリルアミド'
+  choices:
+  - ㋑㋺
+  - ㋑㋥
+  - ㋺㋩
+  - ㋺㋥
+  - ㋩㋥
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

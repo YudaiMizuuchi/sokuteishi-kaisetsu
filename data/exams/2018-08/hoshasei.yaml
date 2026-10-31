@@ -1,0 +1,390 @@
+exam: 2018-08
+date: null
+subject: hoshasei
+source_pdf: null
+questions:
+- num: 1
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - 誘導空気中濃度(DAC)とは、年摂取限度を標準的な放射線業務従事者の年間作業時呼吸量で割った値である。
+  - 男性の放射線業務従事者の実効線量限度は、5年間につき100mSv、かつ、1年間につき50mSvである。
+  - 実効線量は、人体の臓器・組織の等価線量に放射線加重係数を乗じたものの和として定義される。
+  - 作業環境測定における1cm線量当量は、均一で単一方向からの平行ビームでICRU球全体を照射したとき、照射軸上の深さ1cmにおける線量当量として定義される。
+  - 眼の水晶体の等価線量の算定は、放射線の種類及びエネルギーに応じて、1cm線量当量又は70μm線量当量のうちいずれか適切なものによって行う。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 放射線に関連した量Ⓐとその単位Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 放射能濃度 ／ Bq·kg⁻¹
+  - 周辺線量当量率 ／ Sv·h⁻¹
+  - 1cm線量当量 ／ Sv·cm⁻²
+  - 吸収線量 ／ J·kg⁻¹
+  - 照射線量 ／ C·kg⁻¹
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の核種のうち、半減期が最も長いものはどれか。
+  choices:
+  - ³H
+  - ¹⁴C
+  - ¹³⁷Cs
+  - ²²⁶Ra
+  - ²³⁹Pu
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '放射線に関する次の記述の㋑から㋥の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「NaI(Tl)シンチレーション検出器に¹³⁷Csからの光子が入射する場合、［㋑］により光子が全部のエネルギーを検出器内で失うと［㋺］の位置にピークが観測される。一方、［㋩］により光子がエネルギーの一部のみを検出器に与えると、コンプトンスペクトルと呼ばれる［㋥］が現れる。検出器とは逆の方向に放出された光子が周辺の物質に散乱されて検出器に入射すると、この［㋥］の200～250keV付近に緩い傾斜のピークが観測されることがある。これは後方散乱ピークと呼ばれている。」'
+  choices:
+  - 多重散乱 ／ 511keV ／ 非弾性散乱 ／ 共鳴帯
+  - 多重散乱 ／ 662keV ／ 弾性散乱 ／ 共鳴帯
+  - 光電効果 ／ 662keV ／ 非弾性散乱 ／ 連続部
+  - 光電効果 ／ 511keV ／ 非弾性散乱 ／ 共鳴帯
+  - 電子対生成 ／ 1,022keV ／ 弾性散乱 ／ 連続部
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  - ㋥
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - ⁹⁰Srの娘核種である⁹⁰Yからのβ線の空気中における最大飛程は5mを超える。
+  - ⁶⁰Coはβ崩壊により⁶⁰Niの励起状態に変わり、1.17MeVのγ線と1.33MeVのγ線を放出する。
+  - α線などの高速の荷電粒子が物質を電離する際には、二次電子を発生させる。
+  - α粒子は人体組織中で約40μmの飛程を持つが、この距離で全エネルギーを失うことから比電離は小さい。
+  - 熱中性子線に対しては、鉛よりもポリエチレンのほうが減速させやすい。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '次の崩壊様式をもつ放射性核種から放出される88keVのγ線（γ₁）の数が毎秒5.0×10²であるとき、その核種の放射能の正しい値に最も近いものは下のうちどれか。ただし、励起レベル88keVからの内部転換電子（ce）の放出率は60%であり、γ₂とγ₃の放出率は等しいものとする。
+
+
+    【崩壊図】β₁⁻（30%）→736keV準位、β₂⁻（50%）→88keV準位、β₃⁻（20%）→基底状態。736keV準位からγ₂（→88keV）とγ₃（→0）、88keV準位からγ₁、ce（→0）。'
+  choices:
+  - 7.7×10²Bq
+  - 1.0×10³Bq
+  - 1.6×10³Bq
+  - 1.9×10³Bq
+  - 2.5×10³Bq
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  _review: 原本に図あり（図あり（崩壊図。記述・条件欄に文章で表記））。文章で表記している。
+- num: 7
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の放射性物質の測定に関する記述のうち、誤っているものはどれか。
+  choices:
+  - NaI(Tl)シンチレーション検出器を用いて、³Hを測定した。
+  - 通気型電離箱を用いて、ガス状の¹⁴Cを測定した。
+  - GM計数管を用いて、⁶⁰Coを測定した。
+  - 液体シンチレーション検出器を用いて、⁹⁰Srを測定した。
+  - ZnS(Ag)シンチレーション検出器を用いて、²⁴¹Amを測定した。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 試料測定時間t₁とバックグラウンド測定時間t₂の和（t₁＋t₂）が一定であるとき、正味の計数率の精度が最良となる時間配分（t₁/t₂）を正しく表しているものは次のうちどれか。ただし、n₁とn₂は、それぞれ試料とバックグラウンドの計数率である。
+  choices:
+  - t₁/t₂＝√(n₂/n₁)
+  - t₁/t₂＝√(n₁/n₂)
+  - t₁/t₂＝√((n₁－n₂)/n₂)
+  - t₁/t₂＝n₁/n₂
+  - t₁/t₂＝(n₁－n₂)/n₂
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 放射能測定において、試料の500秒間測定で3,600カウント、バックグラウンドの1,000秒間測定で250カウントであるとき、試料の正味計数率の標準偏差の値に最も近いものは次のうちどれか。ただし、これらの測定において試料の有無と測定時間以外の測定条件は同じとする。
+  choices:
+  - 0.08s⁻¹
+  - 0.10s⁻¹
+  - 0.12s⁻¹
+  - 0.20s⁻¹
+  - 0.26s⁻¹
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'α線測定に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「²³⁹Puの付着した粒子が、ろ紙の内部に捕集されると［㋑］によってα線の［㋺］が生じるので、捕集には表面捕集率の高いろ紙を使用することが望ましい。ろ紙に捕集した²³⁹Puの同定と定量のために、荷電粒子測定用Si半導体検出器でスペクトル分析をする場合、［㋩］の違いによって、ラドン及びトロン崩壊生成物の影響を除くことができる。」'
+  choices:
+  - イオン化 ／ 偽計数 ／ エネルギー
+  - 自己吸収 ／ 計数損失 ／ エネルギー
+  - 自己吸収 ／ 計数損失 ／ 計数率
+  - 静電気 ／ 偽計数 ／ 計数率
+  - 静電気 ／ 反射作用 ／ 質量
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: トリチウムを含む溶液の放射能濃度測定に最も適した測定器は次のうちどれか。
+  choices:
+  - Si半導体検出器
+  - Ge半導体検出器
+  - NaI(Tl)シンチレーション検出器
+  - 液体シンチレーション検出器
+  - 薄窓型GM計数管
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: γ線エネルギー分析装置の校正用線源として、適当な核種のみの組合せは次のうちどれか。
+  choices:
+  - ¹¹C ／ ¹⁵O ／ ¹⁸F
+  - ²²Na ／ ⁵⁷Co ／ ¹⁵²Eu
+  - ¹⁴C ／ ³⁶Cl ／ ¹⁴⁷Pm
+  - ²¹⁰Po ／ ²³⁹Pu ／ ²⁴¹Am
+  - ³⁵S ／ ⁶⁰Co ／ ¹³⁷Cs
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 液体シンチレーション検出器による放射能測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 放射能測定は、試料液をシンチレータ溶液に乳化又は溶解させて行う。
+  - α線及びβ線の測定に適している。
+  - 化学発光は、放射能の過大評価をもたらすことがある。
+  - 試料の化学成分によるクエンチングは、放射能の過大評価をもたらすことがある。
+  - 低エネルギーのβ線よりも高エネルギーβ線に対して計数効率が高い。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 14
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中の放射性物質測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸引式水バブラーは、水蒸気捕集効率が高く、空気中のトリチウム濃度測定に適している。
+  - 捕集用ガス容器を用いて環境空気を直接採取する方式は、バックグラウンドレベルのトリチウム測定に適している。
+  - 通気型の電離箱は、天然のラドン・トロンの影響を評価することが必要である。
+  - 表面捕集率とは、α線の飛程以内のろ紙表面に捕集される粉じんの、全捕集粉じん量に対する割合である。
+  - ガス捕集用電離箱の電離効率は、放出されるβ線の電離箱内のエネルギー損失に比例する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: '次の記述の㋑、㋺の［　］に入る用語の組合せとして、正しいものは下のうちどれか。
+
+
+    「環境空気中の放射性物質の濃度を測定するために用いられる試料の捕集剤又は捕集器具として、CH₃¹³¹Iに対しては［㋑］、⁶⁰Co₃O₄に対しては［㋺］が用いられる。」'
+  choices:
+  - 活性炭カートリッジ ／ セルローズ・ガラス系ろ紙
+  - コールドトラップ ／ 活性炭カートリッジ
+  - バブラー ／ シリカゲル
+  - シリカゲル ／ コールドトラップ
+  - 捕集用電離箱 ／ セルローズ・ガラス系ろ紙
+  columns:
+  - ㋑
+  - ㋺
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中の放射性物質を、水バブラーを用いて168時間採取したとき、環境空気中の放射性物質の濃度は3×10⁻⁵Bq·cm⁻³であった。このときの吸引流量は0.7L·min⁻¹、水バブラーに用いた捕集水量は80cm³、水バブラーの水蒸気捕集効率は90%とすると、水バブラーの試料水中の放射能濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 2.4Bq·cm⁻³
+  - 2.9Bq·cm⁻³
+  - 4.9Bq·cm⁻³
+  - 5.8×10²Bq·cm⁻³
+  - 4.9×10⁴Bq·cm⁻³
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中のトリチウムの放射能測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 空気中のトリチウムは、大部分が水蒸気として存在する。
+  - 電離箱によるトリチウム化水蒸気の捕集は、その内壁に放射能汚染を生じやすい。
+  - ガス状トリチウムは、酸化させることにより、トリチウム化水蒸気として測定が可能である。
+  - トリチウム化水蒸気のシリカゲルによる捕集は、1か月程度の長期の連続サンプリングが可能である。
+  - ガス捕集用電離箱による測定では、水蒸気成分とガス成分を分離して測定できる。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 放射性物質を取り扱う作業場において、環境空気中の放射能濃度が、取扱い核種の濃度限度の100分の1を超えないように管理するために必要な測定装置の検出下限計数率（s⁻¹）の値として、正しい値に最も近いものは次のうちどれか。なお、取扱い核種の濃度限度は3×10⁻⁴Bq·cm⁻³、測定装置の計数効率は32%、使用する捕集材の捕集効率は100%、捕集時間は40時間、試料空気の吸引流量は、捕集開始直後に120L·min⁻¹、捕集終了直前に105L·min⁻¹であった。ただし、吸引流量は直線的に変化するものとする。
+  choices:
+  - 200s⁻¹
+  - 220s⁻¹
+  - 240s⁻¹
+  - 260s⁻¹
+  - 280s⁻¹
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境中の放射性物質の試料採取方式に関する次の記述のうち、不適当なものはどれか。
+  choices:
+  - ゼネラルサンプリングは、放射性物質取扱室全体の中で、発生源の位置を確認するために行う。
+  - セントラルサンプリングは、放射性物質取扱室が多数ある場合、サンプリング配管を通じて各室の試料空気を1箇所に集めて採取する方式である。
+  - ローカルサンプリングは、局所的に発生する空気汚染の検出及び室内の空気中放射性物質の濃度分布を知ることを目的とする。
+  - スポットサンプリングは、空気汚染が発生するおそれのある特定の作業を行う際に実施する。
+  - パーソナルサンプリングは、作業者が吸入する空気中の濃度を知るため、作業者の呼吸域の高さで、携帯型の個人サンプラでモニタする。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: draft
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中のガス状放射性物質の放射能測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 端窓型GM計数管を使用したサンプラ型ガスモニタは、ガス状β線放出核種の測定に使用される。
+  - 通気型電離箱の検出下限濃度は、電離箱の容積に依存する。
+  - ガス捕集用電離箱の動作電圧は、飽和電離電流とならないように設定する。
+  - ガス捕集用電離箱において、α線に対する電離効率は、β線に対する電離効率より高い。
+  - 捕集用ガス容器を用いた直接捕集方法による測定では、ガス容器は原則として、容積1,000cm³以上のものを用いる。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+excluded: 第1種の放射線関係（放射性物質）は対象外。データは残し、公開しない

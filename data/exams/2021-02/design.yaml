@@ -26,7 +26,7 @@ questions:
     ヒュームは、気化した物質が空気中で冷やされて固まってできる粒子なので、とても細かくなります。粉じんやミストは、これより大きい粒子です。'
   figures: []
   law_note: null
-  _key_choice: ヒュームの一次粒子の粒径は、5~10μm程度である。
+  _key_choice: ヒュームの一次粒子の粒径は、5～10 µm程度である。
 - num: 2
   status: published
   chapters:
@@ -74,7 +74,7 @@ questions:
     120〜150 cm は、騒音の測定点の高さです。有害物質と騒音で、測定点の高さが違う点を押さえておきましょう。'
   figures: []
   law_note: null
-  _key_choice: 測定点の高さの範囲は、床上120cm以上150cm以下である。
+  _key_choice: 測定点の高さの範囲は、床上120 cm以上150 cm以下である。
 - num: 4
   status: published
   chapters:
@@ -195,7 +195,7 @@ questions:
     繊維状のフィルターでは、捕らえた石綿の繊維とフィルターの繊維を見分けられません。リフラクトリーセラミックファイバーも、同じくメンブランフィルターを使います。'
   figures: []
   law_note: null
-  _key_choice: 石綿石英繊維フィルター
+  _key_choice: Ⓐ石綿 Ⓑ石英繊維フィルター
   columns:
   - Ⓐ
   - Ⓑ
@@ -219,7 +219,7 @@ questions:
   explanation: '捕集装置とポンプの間に接続した面積式流量計は、捕集装置の圧力損失が大きいほど、指示値が真の流量より**大きく**なります。「小さくなる」とする選択肢3は誤りです。
 
 
-    この論点は、令和5年度・令和6年度の回でも繰り返し出題されている定番の罠です。'
+    この論点は、令和5年度・令和6年度の回でも繰り返し出題されている定番のひっかけパターンです。'
   figures: []
   law_note: null
   _key_choice: 捕集装置とポンプの間に接続した面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
@@ -270,7 +270,7 @@ questions:
     ポアサイズは孔の大きさの目安で、捕集できる粒子の大きさの下限ではありません。令和5年度第2回・令和6年度第1回でも同じ論点が出題されています。'
   figures: []
   law_note: null
-  _key_choice: ポアサイズ0.8μmのメンブランフィルターは、粒径0.3μm以下の粒子をほとんど捕集できない。
+  _key_choice: ポアサイズ0.8 µmのメンブランフィルターは、粒径0.3 µm以下の粒子をほとんど捕集できない。
 - num: 12
   status: published
   chapters:
@@ -294,7 +294,7 @@ questions:
     減圧が不十分だと、びんの中に残った空気で試料が薄まり、十分な量の試料も採れません。令和7年度第2回でも、1.33 kPa 以下が正しい記述として出題されています。'
   figures: []
   law_note: null
-  _key_choice: 真空捕集びんは、13.3kPa以下の圧力に減圧してから使用する。
+  _key_choice: 真空捕集びんは、13.3 kPa以下の圧力に減圧してから使用する。
 - num: 13
   status: published
   chapters:
@@ -346,9 +346,9 @@ questions:
 - num: 15
   status: published
   chapters:
-  - detector-tube
+  - relative-meter
   traps:
-  - ds-detector-tube-04
+  - ds-relative-meter-07
   rank: null
   summary: null
   stem: 簡易測定機器による作業環境測定に関する次の記述のうち、誤っているものはどれか。
@@ -390,7 +390,7 @@ questions:
     放射性ヨウ素は活性炭などの固体捕集、放射性クリプトンのような希ガスは直接捕集、トリチウム化水蒸気は冷却凝縮捕集、プルトニウムはろ過捕集と、物質の状態で方法が決まります。'
   figures: []
   law_note: null
-  _key_choice: 放射性セシウム固体捕集方法
+  _key_choice: Ⓐ放射性セシウム Ⓑ固体捕集方法
   columns:
   - Ⓐ
   - Ⓑ
@@ -424,7 +424,7 @@ questions:
     よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 4.0×10-4Bq・cm-3
+  _key_choice: 4.0×10⁻⁴ Bq・cm⁻³
 - num: 18
   status: published
   chapters:
@@ -449,7 +449,7 @@ questions:
     令和5年度第1回でも、同じ形の誤りが出題されています。'
   figures: []
   law_note: null
-  _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値はμ+3σである。
+  _key_choice: 正規分布の平均（算術平均）及び標準偏差をそれぞれμ及びσとすると、この分布の95 %上限値はμ＋3σである。
 - num: 19
   status: published
   chapters:
@@ -476,7 +476,7 @@ questions:
     令和2年度第1回 鉱物性粉じん 問3でも、慣性衝突式分粒装置の吸引流量が低下すると50％分粒粒径は大きくなる、という形で出題されています。'
   figures: []
   law_note: null
-  _key_choice: 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、分粒装置を通過する粒子の50%分粒粒径は小さくなる。
+  _key_choice: 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、分粒装置を通過する粒子の50 %分粒粒径は小さくなる。
 - num: 20
   status: published
   chapters:

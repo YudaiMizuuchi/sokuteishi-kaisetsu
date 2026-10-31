@@ -23,7 +23,7 @@ questions:
   explanation: アボガドロ定数の単位は **mol⁻¹** です。mol とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: アボガドロ定数mol
+  _key_choice: Ⓐアボガドロ定数 Ⓑmol
   _stem_head: 物理量及び物理定数AとそのSI単位記号Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
@@ -60,7 +60,7 @@ questions:
     令和6年度第1回にも、同じ型の問題があります。'
   figures: []
   law_note: null
-  _key_choice: 172.17g・mol-1
+  _key_choice: 172.17 g・mol⁻¹
   _stem_head: CaSO4・2H2Oのモル質量を有効数字で表した場合、正しいものは下のうちどれか。ただし、各元素の原子量は次のとおりとする。Ca40.08S32.06O15.9994H1.0079
 - num: 3
   status: published
@@ -107,7 +107,7 @@ questions:
     -CH₃ 基をもつのは、ベンゼン環にメチル基が付いたトルエンです。'
   figures: []
   law_note: null
-  _key_choice: ベンゼンは、-CH基をもっている。
+  _key_choice: ベンゼンは、-CH₃基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 5
   status: published
@@ -136,7 +136,7 @@ questions:
     よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 1.7mL
+  _key_choice: 1.7 mL
   _stem_head: 濃塩酸(12mol・L-1)を水で希釈してpHが1.0となる溶液200mLをつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次のうちどれか。
 - num: 6
   status: published
@@ -168,7 +168,7 @@ questions:
     よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6mol・L-1
+  _key_choice: 6 mol・L⁻¹
   _stem_head: 質量パーセント濃度20%の水酸化ナトリウム溶液の密度は1.20g・cm-3である。この溶液のモル濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g・mol-1とする。
 - num: 7
   status: published
@@ -294,7 +294,7 @@ questions:
     よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 4.0×10-2mol・L-1
+  _key_choice: 4.0×10⁻² mol・L⁻¹
   _stem_head: 塩酸溶液50mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10-1mol・L-1)で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は10mLであった。塩酸溶液の濃度として、正しい値は次のうちどれか。
 - num: 12
   status: published
@@ -368,7 +368,7 @@ questions:
   explanation: モル吸光係数の単位は **L・mol⁻¹・cm⁻¹** です。mol・L⁻¹・cm とする選択肢5は、逆数になっていて誤りです。
   figures: []
   law_note: null
-  _key_choice: モル吸光係数の単位は、mol・L-1cmである。
+  _key_choice: モル吸光係数の単位は、mol・L⁻¹ cmである。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 15
   status: published
@@ -437,7 +437,7 @@ questions:
   explanation: 炎光光度検出器（FPD）は、硫黄やリンを含む化合物に感度の高い検出器で、飽和炭化水素の測定には適しません。選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 炎光光度検出器(FPD)は、飽和炭化水素化合物の測定に適している。
+  _key_choice: 炎光光度検出器（FPD）は、飽和炭化水素化合物の測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
 - num: 18
   status: published
@@ -449,22 +449,20 @@ questions:
   summary: null
   stem: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、式中の第1項はカラム内での渦流拡散に起因する定数A、第2項は成分分子がカラム中で進行方向に拡散移動することに起因する項、第3項は移動相と固定相間の平衡の遅れに起因する項である。また、B及びCは定数、vは移動相の平均線速度である。
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - H ＝ A ＋ Bv ＋ C
+  - H ＝ A ＋ Bv ＋ Cv
+  - H ＝ A ＋ Bv ＋ C/v
+  - H ＝ A ＋ B/v ＋ Cv
+  - H ＝ A ＋ B/v ＋ C/v
   answer: 4
   choice_notes: []
   explanation: '理論段相当高さは、ファン・デームター式 H ＝ A ＋ B/v ＋ Cv で表されます。第2項（分子の拡散）は流速 v に反比例、第3項（平衡の遅れ）は v に比例します。よって（4）が正しい式です。
 
 
     令和4年度第2回にも、同じ問題があります。'
-  figures:
-  - file: 2019-08-bunseki-18-choices.png
-    alt: 問18の選択肢
+  figures: []
   law_note: null
-  _key_choice: ??
+  _key_choice: H=A+\dfrac{B}{v}+Cv
   _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、式中の第1項はカラム内での渦流拡散に起因する定数A、第2項は成分分子がカラム中で進行方向に拡散移動することに起因する項、第3項は移動相と固
   columns: null
 - num: 19
@@ -509,7 +507,7 @@ questions:
   explanation: β⁺ 壊変で放出されるのは、陽子ではなく**陽電子**です。選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: Heの原子核
+  _key_choice: Ⓐβ⁺壊変 Ⓑ陽子
   _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子又は素粒子Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ

@@ -4,7 +4,7 @@ subject: tokka
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -24,7 +24,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -44,7 +44,7 @@ questions:
   law_note: null
   _review: true
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -67,7 +67,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -87,7 +87,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -107,7 +107,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -130,7 +130,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -150,7 +150,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -172,7 +172,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -192,7 +192,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -214,7 +214,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -234,7 +234,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -254,28 +254,30 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
-  columns: null
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - 1,1-ジメチルヒドラジン ／ 図の1
+  - o-トリジン ／ 図の2
+  - アクリルアミド ／ 図の3
+  - クロロメチルメチルエーテル ／ 図の4
+  - 酸化プロピレン ／ 図の5
   answer: 5
   choice_notes: []
   explanation: null
   figures:
-  - file: 2023-08-tokka-13-choices.png
-    alt: 問13の選択肢
+  - file: 2023-08-tokka-13-fig.png
+    alt: Ⓐ（化合物名）とⒷ（構造式）の2列の表。1＝1,1-ジメチルヒドラジン、Ⓑは、中央のNに、左上・左下のH₃Cと、右のNH₂が結合。2＝o-トリジン、Ⓑは、2つのベンゼン環が単結合でつながり、左の環には左端にH₂N-、下にH₃C、右の環には上にCH₃、右端に-NH₂が結合。3＝アクリルアミド、Ⓑは、H₂C=CH-C-NH₂で、右側のCの上にOが二重結合で結合。4＝クロロメチルメチルエーテル、Ⓑは、CH₃-O-CH₂Cl。5＝酸化プロピレン、Ⓑは、H₂C-C=CH₂で、左のH₂Cと中央のCの下にOが結合した三員環
   law_note: null
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -285,19 +287,20 @@ questions:
   - Ⓐ
   - Ⓑ
   choices:
-  - アミノ基 ／ - NH₂
-  - イソシアネート基 ／ - OCN
-  - カルボニル基 ／ C O
-  - ニトリル基 ／ - CN
-  - ビニル基 ／ - CH ＝ CH₂
+  - アミノ基 ／ 図の1
+  - イソシアネート基 ／ 図の2
+  - カルボニル基 ／ 図の3
+  - ニトリル基 ／ 図の4
+  - ビニル基 ／ 図の5
   answer: 2
   choice_notes: []
   explanation: null
-  figures: []
+  figures:
+  - file: 2023-08-tokka-14-fig.png
+    alt: Ⓐ（名称）とⒷ（式）の2列の表。1＝アミノ基、Ⓑは、-NH₂。2＝イソシアネート基、Ⓑは、-OCN。3＝カルボニル基、Ⓑは、Cの左上と右上に結合の線があり、Cの下にOが二重結合で結合。4＝ニトリル基、Ⓑは、-CN。5＝ビニル基、Ⓑは、-CH=CH₂
   law_note: null
-  _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -317,7 +320,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -339,7 +342,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -362,7 +365,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -382,7 +385,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -402,7 +405,7 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null

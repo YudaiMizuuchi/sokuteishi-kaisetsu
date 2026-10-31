@@ -26,7 +26,7 @@ questions:
     石綿やリフラクトリーセラミックファイバーの管理濃度が本/cm³ で表されるのも、粒子（繊維）の数で表す濃度だからです。'
   figures: []
   law_note: null
-  _key_choice: 粒子数濃度mg・cm-3
+  _key_choice: Ⓐ粒子数濃度 Ⓑmg・cm⁻³
   _stem_head: 物理量AとそのSI単位記号Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
@@ -148,7 +148,7 @@ questions:
     よって（2）が正しい値です。2倍に薄めても pH が2倍になるわけではなく、log 2 ≒ 0.3 だけ大きくなります。'
   figures: []
   law_note: null
-  _key_choice: =0.301とする。pH=-log10[H+]なお、式中の[H+]は水素イオンのモル濃度を表す。
+  _key_choice: '1.3'
   _stem_head: pH1.0の硝酸溶液を水で2倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log102=0.301とする。pH=-log10[H+]なお、式中の[H+]は水素イオンのモル濃度を表す。
 - num: 6
   status: published
@@ -180,7 +180,7 @@ questions:
     よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 10.0%
+  _key_choice: 10.0 %
   _stem_head: 濃度2.75mol・L-1の水酸化ナトリウム溶液の密度は1.10g・cm-3である。この溶液の質量パーセント濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g・mol-1とする。
 - num: 7
   status: published
@@ -255,7 +255,7 @@ questions:
     溶媒抽出では、水と分離する溶媒であることが前提です。'
   figures: []
   law_note: null
-  _key_choice: メタノール金属キレートの抽出
+  _key_choice: Ⓐメタノール Ⓑ金属キレートの抽出
   _stem_head: 化学物質Aとその使用例Bとの次の組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
@@ -312,7 +312,7 @@ questions:
     よって、発生する CO₂ も 0.002 mol で、（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 0.002mol
+  _key_choice: 0.002 mol
   _stem_head: 炭酸カルシウム(CaCO3)0.200gを塩酸で完全に溶解した。このときに発生した二酸化炭素の物質量として正しい値は、次のうちどれか。ただし、それぞれの原子の原子量は次のとおりとする。Ca:40.0、C:12.0、O:16.0、H:1.00
 - num: 12
   status: published
@@ -370,7 +370,7 @@ questions:
     よって（4）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6.0×10-5mol・L-1
+  _key_choice: 6.0×10⁻⁵ mol・L⁻¹
   _stem_head: 物質Aの濃度が2.0×10-5mol・L-1の溶液を光路長2.0cmのセルに入れ、波長550nmにおける吸光度を測定したところ、0.360であった。濃度が不明な物質Aの溶液を光路長1.0cmのセルに入れ、波長550nmにおける吸光度を測定し
 - num: 14
   status: published
@@ -467,7 +467,7 @@ questions:
     ベンゼンには FID や PID が適しています。トリクロロエチレンのようなハロゲン化合物は ECD、質量分析器（MS）はほとんどの化合物に使えます。'
   figures: []
   law_note: null
-  _key_choice: 炎光光度検出器(FPD)ベンゼン
+  _key_choice: Ⓐ炎光光度検出器（FPD） Ⓑベンゼン
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。AB
   columns:
   - Ⓐ
@@ -549,5 +549,5 @@ questions:
     よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 125Bq
+  _key_choice: 125 Bq
   _stem_head: 半減期8日の放射性核種の放射能が1000Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。

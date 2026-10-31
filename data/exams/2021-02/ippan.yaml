@@ -32,7 +32,7 @@ questions:
   chapters:
   - oh-management
   traps:
-  - gn-oh-management-03
+  - gn-oh-management-04
   rank: null
   summary: null
   stem: 厚生労働省の「労働安全衛生マネジメントシステムに関する指針」に関する次の記述のうち、誤っているものはどれか。
@@ -74,7 +74,7 @@ questions:
     トルエンは馬尿酸、キシレンはメチル馬尿酸、エチルベンゼンとスチレンはマンデル酸、と覚えましょう。ベンゼン環にメチル基が2つあるキシレンが、メチルの付いた馬尿酸になる、と構造から結びつけられます。'
   figures: []
   law_note: null
-  _key_choice: キシレンは、代謝されて、尿中にエチル馬尿酸として排泄される。せつ
+  _key_choice: キシレンは、代謝されて、尿中にエチル馬尿酸として排泄される。
 - num: 4
   status: published
   chapters:
@@ -122,7 +122,7 @@ questions:
     塩化ビニルの肝血管肉腫、ベンジジンの膀胱がん、無機ヒ素化合物の肺がん、ベンゼンの白血病は、いずれも職業がんの代表例です。'
   figures: []
   law_note: null
-  _key_choice: ??
+  _key_choice: An-ヘキサン B肺がん
   columns:
   - Ａ
   - Ｂ
@@ -131,7 +131,7 @@ questions:
   chapters:
   - dust-disease
   traps:
-  - gn-dust-disease-01
+  - gn-dust-disease-02
   rank: null
   summary: null
   stem: 鉱物性粉じん等に関する次の記述のうち、誤っているものはどれか。
@@ -149,7 +149,7 @@ questions:
     遊離けい酸はけい肺（じん肺）、石綿は石綿肺・肺がん・中皮腫、と原因物質と病気を対で覚えましょう。'
   figures: []
   law_note: null
-  _key_choice: の球形粒子の直径である。
+  _key_choice: 鉱物性粉じんに含まれる遊離けい酸は、胸膜の中皮腫を生じさせる。
 - num: 7
   status: published
   chapters:
@@ -173,7 +173,7 @@ questions:
     溶血性貧血と鼻中隔穿孔は、他の回でも別の物質と組み合わせて出題されています。症状から物質を逆にたどれるようにしておきましょう。'
   figures: []
   law_note: null
-  _key_choice: カドミウム中毒では、溶血性貧血や鼻中隔穿孔がみられる。せん
+  _key_choice: カドミウム中毒では、溶血性貧血や鼻中隔穿孔がみられる。
 - num: 8
   status: published
   chapters:
@@ -197,7 +197,7 @@ questions:
     酢酸メチルは、体内でメタノールを生じるため、メタノールと同じく視神経障害を起こします。'
   figures: []
   law_note: null
-  _key_choice: 酢酸メチルによる健康障害として顕著なものは、網膜微細動脈瘤を伴うりゅう脳血管障害である。
+  _key_choice: 酢酸メチルによる健康障害として顕著なものは、網膜微細動脈瘤を伴う脳血管障害である。
 - num: 9
   status: published
   chapters:
@@ -245,7 +245,7 @@ questions:
     令和8年度第1回でも、手腕への影響が最も大きいのは 12 Hz 前後で、1,000 Hz 以上ではほとんど影響しない、という正しい記述が出題されています。'
   figures: []
   law_note: null
-  _key_choice: 振動障害は、振動周波数が4,000Hz以上の振動で発生しやすい。
+  _key_choice: 振動障害は、振動周波数が4,000 Hz以上の振動で発生しやすい。
 - num: 11
   status: published
   chapters:
@@ -269,7 +269,7 @@ questions:
     500 Hz〜4,000 Hz の4つの周波数は、聴力検査で使う周波数の話と混同させるための数字です。'
   figures: []
   law_note: null
-  _key_choice: 等価騒音レベルは、中心周波数500Hz、1,000Hz、2,000Hz及び4,000Hzの各オクターブバンドの騒音レベルの平均値である。
+  _key_choice: 等価騒音レベルは、中心周波数500 Hz、1,000 Hz、2,000 Hz及び4,000 Hzの各オクターブバンドの騒音レベルの平均値である。
 - num: 12
   status: published
   chapters:
@@ -341,7 +341,7 @@ questions:
     X 線と γ 線は波長の範囲が重なっていて、同じ波長の X 線と γ 線もあります。'
   figures: []
   law_note: null
-  _key_choice: X線及びγ線のうち、波長が10nm程度以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
+  _key_choice: X線及びγ線のうち、波長が10 nm程度以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
 - num: 15
   status: published
   chapters:
@@ -365,7 +365,7 @@ questions:
     同じ回のデザイン・サンプリングでも、同じ論点が出題されています。'
   figures: []
   law_note: null
-  _key_choice: ヒュームの一次粒子の粒径は、一般に、5μm程度である。
+  _key_choice: ヒュームの一次粒子の粒径は、一般に、5 µm程度である。
 - num: 16
   status: published
   chapters:
@@ -413,7 +413,7 @@ questions:
     酸素欠乏の場所で使えるのは、送気マスクと、空気呼吸器・酸素呼吸器などの自給式呼吸器だけです。ろ過式の保護具（防じんマスク、防毒マスク、電動ファン付き呼吸用保護具）は、周りに酸素が十分あることが前提です。'
   figures: []
   law_note: null
-  _key_choice: 酸素濃度18%未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
+  _key_choice: 酸素濃度18 %未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
 - num: 18
   status: published
   chapters:
@@ -464,7 +464,7 @@ questions:
     根拠：職場における腰痛予防対策指針（満18歳以上の男子労働者は体重のおおむね40％以下、女子労働者はさらにその60％位まで）。'
   figures: []
   law_note: null
-  _key_choice: 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね60%以下となるようにする。
+  _key_choice: 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね60 %以下となるようにする。
 - num: 20
   status: published
   chapters:

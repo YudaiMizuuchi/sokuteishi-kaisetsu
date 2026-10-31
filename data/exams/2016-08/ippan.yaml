@@ -1,325 +1,498 @@
 exam: 2016-08
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
   - gn-risk-assessment-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '「化学物質等による危険性又は有害性等の調査等に関する指針(厚生労働省)」に基づいて、有害な化学物質のばく露によるリスクを低減するための措置を検討する場合、次の㋑から㋥について優先度の高い措置から順に並べたものは下のうちどれか。
+
+
+    ㋑作業手順の改善、立入禁止等の管理的対策
+
+
+    ㋺化学物質等の有害性に応じた有効な保護具の使用
+
+
+    ㋩有害性のより低い物質への代替
+
+
+    ㋥局所排気装置の設置等の衛生工学的対策'
+  choices:
+  - ㋑―㋩―㋥―㋺
+  - ㋩―㋥―㋑―㋺
+  - ㋩―㋥―㋺―㋑
+  - ㋥―㋩―㋑―㋺
+  - ㋥―㋩―㋺―㋑
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'リスク低減措置は、次の優先順位で検討します。
+
+
+    1. 有害性のより低い物質への代替など、危険性・有害性そのものをなくす・減らす措置（㋩）
+
+    2. 局所排気装置の設置などの衛生工学的対策（㋥）
+
+    3. 作業手順の改善、立入禁止などの管理的対策（㋑）
+
+    4. 有害性に応じた有効な保護具の使用（㋺）
+
+
+    よって、㋩ → ㋥ → ㋑ → ㋺ の（2）が正しいものです。
+
+
+    保護具は、ほかの対策を尽くしたうえでの最後の手段です。
+
+
+    根拠：化学物質等による危険性又は有害性等の調査等に関する指針 10(1)。'
   figures: []
   law_note: null
-  _key_choice: ロ―イ―ハ―ニ
+  _key_choice: ㋩―㋥―㋑―㋺
+  columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
   - gn-oh-management-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 厚生労働省の「VDT作業における労働衛生管理のためのガイドライン」に基づく措置に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ディスプレイは、おおむね40cm以上の視距離が確保できるようにし、画面の上端が、眼と同じ高さか、やや下になるようにする。
+  - ディスプレイ画面上における照度は、500ルクス以上になるようにする。
+  - 書類上及びキーボード上における照度は、300ルクス以上になるようにする。
+  - 単純入力型及び拘束型に該当するVDT作業については、一連続作業時間が1時間を超えないようにする。
+  - VDT作業者の健康診断は、一般健康診断を実施する際に、併せて実施してもよい。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ディスプレイ画面上の照度は **500 ルクス以下**とします。画面が明るすぎると表示が見えにくくなるからです。「500 ルクス以上」とする選択肢2は誤りです。
+
+
+    平成30年度第1回にも、同じ選択肢があります。'
   figures: []
-  law_note: null
-  _key_choice: ディスプレイ画面上における照度は,500ルクス以上になるようにする.
+  law_note: この問題の「VDT作業における労働衛生管理のためのガイドライン」は、令和元年7月12日に「情報機器作業における労働衛生管理のためのガイドライン」（基発0712第3号）に改められています。
+  _key_choice: ディスプレイ画面上における照度は、500ルクス以上になるようにする。
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
   - gn-oh-management-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 厚生労働省の「職場における腰痛予防対策指針」に基づく、腰痛予防対策に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 満18歳以上の男子労働者が人力のみにより取り扱う物の重量は、体重のおおむね40%以下とする。
+  - 重量物を持ち上げるときには、できるだけ身体を対象物に近づけ、重心を低くするような姿勢をとる。
+  - 腰掛け作業では、膝や足先を自由に動かせる空間をとる。
+  - 直接床に座る座作業は、腰掛け作業に比べ、仙腸関節、股関節等にかかる負担が少ない。
+  - 腰部保護ベルトは、個人により効果が異なるため、一律に使用することは避ける。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '直接床に座る座作業は、腰掛け作業に比べて、仙腸関節や股関節などにかかる負担が**大きく**なります。「負担が少ない」とする選択肢4は誤りです。
+
+
+    体重のおおむね40％以下（選択肢1）、腰部保護ベルトは一律に使用しない（選択肢5）は、腰痛予防対策指針の正しい内容です。'
   figures: []
   law_note: null
-  _key_choice: 直接床に座る座作業は,腰掛け作業に比べ,仙腸関節,股関節等にかかる負担が少ない.
+  _key_choice: 直接床に座る座作業は、腰掛け作業に比べ、仙腸関節、股関節等にかかる負担が少ない。
+  columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
   - gn-absorption-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質の吸収、代謝、蓄積等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 生物学的半減期が長い物質ほど、体内での蓄積性が大きい。
+  - 多くの有機化合物は、肝臓で代謝されて排泄される。
+  - スチレンは、代謝されて、尿中にマンデル酸が排泄される。
+  - キシレンは、代謝されて、尿中にトリクロロ酢酸が排泄される。
+  - カドミウムは、主として腎臓皮質に蓄積される。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: キシレンは、代謝されて尿中に**メチル馬尿酸**として排泄されます。トリクロロ酢酸は、トリクロロエチレンなどの代謝物なので、選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: キシレンは,代謝されて,尿中にトリクロロ酢酸が排泄される.
+  _key_choice: キシレンは、代謝されて、尿中にトリクロロ酢酸が排泄される。
+  columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
   - gn-toxicity-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 無機水銀中毒の症状には、腎障害がある。
+  - ベンゼンによる中毒では、再生不良性貧血などの造血器障害が起こる。
+  - 二硫化炭素中毒では、微細動脈瘤などの網膜の変化が起こる。
+  - 砒素中毒では、角化症、黒皮症などの皮膚障害、末梢神経障害などがみられる。
+  - 一酸化炭素中毒では、血液中のグロブリンと一酸化炭素が強く結合し、体内の各組織が酸素欠乏状態を起こす。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '一酸化炭素は、血液中の**ヘモグロビン**と強く結合して、体内の組織を酸素欠乏状態にします。グロブリンとする選択肢5は誤りです。
+
+
+    平成30年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: 一酸化炭素中毒では,血液中のグロプリンと一酸化炭素が強く結合し,体内の各組織が酸素欠乏状態を起こす.
+  _key_choice: 一酸化炭素中毒では、血液中のグロブリンと一酸化炭素が強く結合し、体内の各組織が酸素欠乏状態を起こす。
+  columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
   - gn-dust-disease-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 鉱物性粉じんに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アーク溶接ヒュームは、じん肺を引き起こす原因となる。
+  - じん肺の合併症としては、肺結核、続発性気管支炎、続発性気胸などがある。
+  - 吸入された鉱物性粉じんの各呼吸部位での沈着率は、その空気力学相当径によって異なる。
+  - 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
+  - アルミニウムの粉じんや炭素の粉じんは、じん肺を引き起こす原因となる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 空気力学相当径は、その粒子と同じ沈降速度を示す、密度 1 g/cm³ の球形粒子の直径で、沈み方から求める値です。光学顕微鏡による粒径測定で求めるものではないので、選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 粉じんの空気力学相当径は,光学顕微鏡による粒径測定によって求められる.
+  _key_choice: 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
+  columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
   - gn-occupational-cancer-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとそれによって生じる主要ながんⒷとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - クロム酸 ／ 肺がん
+  - β-ナフチルアミン ／ 膀胱がん
+  - コールタール ／ 皮膚がん
+  - 塩化ビニル ／ 肝血管肉腫
+  - o-フタロジニトリル ／ 皮膚がん
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'o-フタロジニトリルは、皮膚がんを起こす物質とはされていません。主な健康障害は、てんかん様発作などの中枢神経の障害です。選択肢5は誤りです。
+
+
+    令和6年度第1回・令和元年度第1回にも、同じ組合せの誤りがあります。'
   figures: []
   law_note: null
-  _key_choice: Ao-フタロジニトリルB皮膚がん
+  _key_choice: Ⓐo-フタロジニトリル Ⓑ皮膚がん
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 8
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
   - gn-metals-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属等による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - マンガンによる慢性中毒では、筋のこわばり、歩行困難などの症状がみられる。
+  - 鉛中毒では、ヘム合成過程の阻害による貧血が起こる。
+  - コバルト及びその無機化合物は、接触性皮膚炎、気管支ぜんそくなどを引き起こすほか、ヒトに対する発がん性が疑われている。
+  - 粉状のニッケル化合物は、生殖毒性、皮膚感作性のほか、ヒトに対する発がん性があるとされている。
+  - 金属熱は、鉄、アルミニウムなどの金属を溶融する作業などに長時間従事した際に、高温下での体温調節中枢の障害により発生する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 金属熱は、亜鉛や銅などの金属の**ヒュームを吸入**して起こる疾病で、高温下での体温調節中枢の障害によるもの（熱中症）ではありません。選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 金属熱は,鉄,アルミニウムなどの金属を溶融する作業などに長時間従事した際に,高温下での体温調節中枢の障害により発生する.
+  _key_choice: 金属熱は、鉄、アルミニウムなどの金属を溶融する作業などに長時間従事した際に、高温下での体温調節中枢の障害により発生する。
+  columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
   - gn-absorption-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤による健康障害等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 酢酸メチルのばく露では、視力低下、視野狭窄などがみられる。
+  - ハロゲン化炭化水素系有機溶剤は、一般に、肝臓に対する毒性が強い。
+  - 二硫化炭素の高濃度ばく露では、精神障害を生じる。
+  - トルエンの生物学的モニタリングでは、飲食物中の安息香酸の影響を受けると、尿中馬尿酸量は低くなる。
+  - N,N-ジメチルホルムアミドは、長期ばく露により、肝機能障害を生じる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 安息香酸は体内で馬尿酸に変わるので、飲食物中の安息香酸を摂ると、尿中の馬尿酸量は**高く**なります。「低くなる」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: トルエンの生物学的モニタリングでは,飲食物中の安息香酸の影響を受けると,尿中馬尿酸量は低くなる.
+  _key_choice: トルエンの生物学的モニタリングでは、飲食物中の安息香酸の影響を受けると、尿中馬尿酸量は低くなる。
+  columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
   - gn-heat-cold-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 温熱条件及びその生体影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 屋外で太陽照射がある場合のWBGTの値は、自然湿球温度、黒球温度及び乾球温度の測定値から算出される。
+  - 屋内でのWBGTの値は、自然湿球温度及び乾球温度の測定値から算出される。
+  - 熱痙攣は、大量の発汗があり、水のみを補給した場合に血液中の塩分濃度が低下して生じる。
+  - 熱射病は、暑熱環境下での体温調節機能の失調による重篤な熱中症で、発汗の停止と体温の著しい上昇のほか、意識障害、呼吸困難などがみられる。
+  - 放熱は、輻射、伝導、蒸発などの物理的な過程で行われ、蒸発には、発汗と不感蒸泄によるものがある。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '屋内での WBGT は、**自然湿球温度と黒球温度**の測定値から算出します（0.7 × 自然湿球温度 ＋ 0.3 × 黒球温度）。乾球温度とする選択肢2は誤りです。
+
+
+    乾球温度を使うのは、屋外で日射がある場合です（選択肢1）。'
   figures: []
   law_note: null
-  _key_choice: 屋内でのWBGTの値は,自然湿球温度及び乾球温度の測定値から算出される.
+  _key_choice: 屋内でのWBGTの値は、自然湿球温度及び乾球温度の測定値から算出される。
+  columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
   - gn-noise-health-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 騒音に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 等価騒音レベルの測定は、A測定、B測定のいずれも各測定点で10分間以上連続して行う。
+  - 騒音のA測定の平均値は、80dB(A)以上の測定値の算術平均とする。
+  - 騒音性難聴は、4,000Hz付近の聴力低下から始まる。
+  - 騒音性難聴は、内耳の障害による伝音性難聴である。
+  - 騒音は、自律神経系や内分泌系へも影響を与え、交感神経の活動の亢進や副腎皮質ホルモンの分泌の増加が認められることがある。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 騒音性難聴は、内耳の障害による**感音性難聴**です。伝音性難聴とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 内耳の障害による伝音性難聴である.
+  _key_choice: 騒音性難聴は、内耳の障害による伝音性難聴である。
+  columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
   - gn-oxygen-deficiency-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酸素欠乏症及び硫化水素中毒に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 空気中の酸素濃度が15～16%程度の酸素欠乏症では、一般に頭痛、吐き気などの症状がみられる。
+  - 硫化水素中毒では、意識消失、呼吸麻痺などがみられる。
+  - 窒素ガスで置換したタンク内など、ほとんど無酸素状態で呼吸をすると徐々に窒息の状態になり、この状態が5分程度継続すると呼吸停止する。
+  - 海水が滞留している暗きょの内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  - 酒類その他発酵する物を入れてある醸造槽の内部での作業では、酸素欠乏症の危険がある。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 窒素ガスで置換したタンク内のような、ほとんど酸素のない空気を吸うと、**一呼吸**で意識を失い、昏倒することがあります。「徐々に窒息し、5分程度で呼吸停止」とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 窒素ガスで置換したタンク内など,ほとんど無酸素状態で呼吸をすると徐々に窒息の状態になり,この状態が5分程度継続すると呼吸停止する.
+  _key_choice: 窒素ガスで置換したタンク内など、ほとんど無酸素状態で呼吸をすると徐々に窒息の状態になり、この状態が5分程度継続すると呼吸停止する。
+  columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
   - gn-em-waves-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電磁波及びその健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 紫外線は、可視光線より波長が短い電磁波で、電光性眼炎を起こすことがある。
+  - 赤外線は、溶解炉などの高温の物体から放射される電磁波で、白内障を起こすことがある。
+  - 可視光線は、波長がおよそ400～760nm領域の電磁波である。
+  - 放送用の中波や短波、電離放射線であるX線やγ線は、いずれも電磁波である。
+  - マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'マイクロ波は、赤外線より波長が**長い**電磁波です。「赤外線より波長が短い」とする選択肢5は誤りです。
+
+
+    令和2年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: マイクロ波は,赤外線より波長が短い電磁波で,照射部位の組織を加熱する作用がある.
+  _key_choice: マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
+  columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - gn-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電離放射線及びその影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - X線及びγ線のうち、波長が10nm以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
+  - α線、β線及び中性子線は、粒子線である。
+  - 発がんは、晩発障害に分類される確率的影響である。
+  - 放射線皮膚炎は、早期障害に分類される確定的影響である。
+  - しきい値は、確定的影響にはあるが、確率的影響にはないとされている。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: X 線と γ 線は、波長（エネルギー）の大小で区別されるのではなく、発生のしかたで区別されます（原子核の外から出るものが X 線、原子核から出るものが γ 線）。選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: X線及びγ線のうち,波長が10nm以上の低エネルギーのものをX線,それより高エネルギーのものをγ線と呼ぶ.
+  _key_choice: X線及びγ線のうち、波長が10 nm以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
+  columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
   - gn-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質等の性状及び挙動に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 臨界温度以下において、気体として存在するものを蒸気という。
+  - アセトンは水に溶ける有機溶剤であり、トルエンは水に難溶性の有機溶剤である。
+  - 空気中に浮遊する粉じんは、密度が同じであれば粒径が小さくなるほど、沈降速度は遅くなる。
+  - 有機溶剤の蒸気は、空気より軽いので蒸発して発散しやすい。
+  - 環境空気中の有害物質濃度の分布は、時間的にも空間的にも対数正規型の分布に近い。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 有機溶剤の蒸気は、ほとんどが空気より**重い**ので、低いところに滞留しやすくなります。「空気より軽い」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 有機溶剤の蒸気は,空気より軽いので蒸発して発散しやすい.
+  _key_choice: 有機溶剤の蒸気は、空気より軽いので蒸発して発散しやすい。
+  columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
   - gn-ventilation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所排気装置に取り付ける次の型式のフードのうち、一般に最も排気効果の高いものはどれか。
+  choices:
+  - 外付け式スロット型
+  - 外付け式グリッド型
+  - 囲い式カバー型
+  - 囲い式建築ブース型
+  - レシーバー式キャノピー型
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'フードは、発散源を囲うほど少ない排風量で効率よく有害物質を捕らえられます。選択肢の中では、発散源をほぼ完全に囲む**囲い式カバー型**が、最も排気効果が高いものです。よって答えは（3）です。
+
+
+    一般に、囲い式（カバー型 → グローブボックス型 → ドラフトチェンバ型 → 建築ブース型）、外付け式、レシーバー式の順に効果が下がります。'
   figures: []
   law_note: null
   _key_choice: 囲い式カバー型
+  columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
   - gn-ppe-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 労働衛生保護具に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 酸素濃度が18%未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器及び酸素呼吸器がある。
+  - 防じんマスクの手入れでは、ろ過材に付着した粉じんを除去するとき、圧縮空気で吹き飛ばしたり、ろ過材を強くたたいて払い落としたりしてはならない。
+  - 耳栓の2つのタイプのうち、1種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
+  - 防じんマスクの選定では、顔面とマスクの面体との高い密着性が要求される有害性の高い物質を取り扱う作業については、取替え式のものを選ぶ。
+  - 電動ファン付き呼吸用保護具は、酸素濃度が18%未満の場所では使用できない。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 耳栓の1種は、低音から高音までを遮音するものです。主として高音を遮音し、会話程度の低音を比較的通すのは**2種**なので、選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 耳栓の2つのタイプのうち,1種に分類されるものは主として高音を遮音し,会話程度の低音を比較的通すタイプである.
+  _key_choice: 耳栓の2つのタイプのうち、1種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
+  columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
   - gn-ppe-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 防毒マスクに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸収缶が除毒能力を喪失するまでの時間を破過時間という。
+  - 有機ガス用防毒マスクの吸収缶の色は、赤色である。
+  - 隔離式防毒マスクは、直結式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
+  - アンモニア用防毒マスクの吸収缶の色は、緑色である。
+  - 一酸化炭素用防毒マスクの吸収缶は、使用する環境の湿度が高いほど破過時間が短くなる傾向がある。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 有機ガス用防毒マスクの吸収缶の色は**黒色**です。赤色は一酸化炭素用なので、選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 有機ガス用防毒マスクの吸収缶の色は,赤色である.
+  _key_choice: 有機ガス用防毒マスクの吸収缶の色は、赤色である。
+  columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
   - gn-other-environment-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 職場における有害因子に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - レーザー光線は、誘導放出による光の増幅によって人工的に作られた電磁波で、ばく露によって網膜の損傷を起こすことがある。
+  - 減圧症は、潜函作業者や潜水作業者などに発症するもので、高圧下作業からの急な減圧に伴い、血液中や組織中に溶け込んでいた酸素の気泡化により発生する。
+  - ノロウイルスによる食中毒は、食品、患者の嘔吐物などの飛沫から経口摂取されたウイルスが人間の小腸で増殖して起こる食中毒で、主として冬季に集団食中毒として多発する。
+  - 低体温症は、低温下の作業で全身が冷やされ、体内温度が35℃程度以下に低下したとき発生し、意識消失、筋の硬直などの症状がみられる。
+  - 長時間の姿勢維持を伴うVDT作業などでは、持続的な筋収縮を必要とする等尺性収縮が主体となるため、血行不良や筋疲労が生じやすい。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 減圧症は、高い圧力のもとで血液や組織に溶け込んでいた**窒素**が、急な減圧で気泡になることで起こります。酸素とする選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 減圧症は,潜函作業者や潜水作業者などに発症するもので,高圧下作業からの急な減圧に伴い,血液中や組織中に溶け込んでいた酸素の気泡化により発生する.
+  _key_choice: 減圧症は、潜函作業者や潜水作業者などに発症するもので、高圧下作業からの急な減圧に伴い、血液中や組織中に溶け込んでいた酸素の気泡化により発生する。
+  columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
   - gn-exposure-limits-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 管理濃度及び日本産業衛生学会の許容濃度に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 管理濃度は、有害環境下での労働者の労働時間に関係なく、その作業場所の作業環境に対して用いられる。
+  - 管理濃度は、作業環境の状態を評価するために、作業環境測定で得られた個々の測定値を統計的に処理して得た評価値と比較して用いる指標である。
+  - 許容濃度の数値は、経皮吸収による摂取量を考慮して定められたものである。
+  - 許容濃度は、労働者が1日8時間、1週40時間程度の肉体的に激しくない労働を想定して定められたものである。
+  - 許容濃度は、作業中のばく露濃度の変動があまり大きくない場合に利用される。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 日本産業衛生学会の許容濃度は、経皮吸収がないことを前提に定められた数値です。「経皮吸収による摂取量を考慮して定められた」とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 許容濃度の数値は,経皮吸収による摂取量を考慮して定められたものである.
+  _key_choice: 許容濃度の数値は、経皮吸収による摂取量を考慮して定められたものである。
+  columns: null

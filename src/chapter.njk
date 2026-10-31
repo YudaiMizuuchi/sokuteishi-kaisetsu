@@ -7,13 +7,14 @@ pagination:
 permalink: "{{ c.url }}"
 eleventyComputed:
   title: "{{ c.label }}の過去問"
-  description: "作業環境測定士試験で「{{ c.name }}」に関する過去問と、繰り返し狙われる罠の型の解説。"
+  description: "作業環境測定士試験で「{{ c.name }}」に関する過去問と、繰り返し出るひっかけパターンの解説。"
 ---
-<nav class="crumbs" aria-label="現在の位置"><a href="/chapter/">参考書の章から探す</a> › 第{{ c.partNum }}部 {{ c.partName }}</nav>
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: "章から探す", url: "/chapter/"}, {name: c.label}]) }}
 <h1>{{ c.label }}</h1>
 {% if c.bookUrl %}<p><a class="book-link" href="{{ c.bookUrl }}" target="_blank" rel="noopener">参考書「{{ c.label }}」を読む<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a></p>{% endif %}
 {{ c.descriptionHtml | safe }}
-<p class="lead">この章に関わる過去問は {{ c.questions.length }} 問です。{% if c.traps.length %}繰り返し狙われる罠の型は次のとおりです。{% endif %}</p>
+<p class="lead">この章に関わる過去問は {{ c.questions.length }} 問です。{% if c.traps.length %}繰り返し出るひっかけパターンは次のとおりです。{% endif %}</p>
 {% for t in c.traps %}
 <section class="trapblock">
   <h2><span class="rank rank-{{ t.rank }}">ランク{{ t.rank }}</span> {% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h2>

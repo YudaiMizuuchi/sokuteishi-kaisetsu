@@ -98,7 +98,7 @@ questions:
     座って作業する人の呼吸域も含めるため、下限は 50 cm です。B 測定も A 測定と同じ方法で測る、という原則に沿って覚えましょう。'
   figures: []
   law_note: null
-  _key_choice: B測定点の高さは、床上100cm以上150cm以下の範囲で作業の実態に応じて選定する。
+  _key_choice: B測定点の高さは、床上100 cm以上150 cm以下の範囲で作業の実態に応じて選定する。
 - num: 5
   status: published
   chapters:
@@ -132,7 +132,16 @@ questions:
   - ds-noise-02
   rank: null
   summary: null
-  stem: ある作業場で騒音レベルの測定を行ったところ以下のような結果を得た。この単位作業場所（広さ 3 m ×10 m）の測定結果に関する次の記述のうち、誤っているものはどれか。
+  stem: 'ある作業場で騒音レベルの測定を行ったところ以下のような結果を得た。この単位作業場所（広さ3 m×10 m）の測定結果に関する次の記述のうち、誤っているものはどれか。
+
+
+    【測定結果】
+
+
+    A測定：① 81 dB　② 82 dB　③ 83 dB　④ 78 dB　⑤ 78 dB　⑥ 81 dB　⑦ 82 dB　⑧ 83 dB
+
+
+    B測定：87 dB'
   choices:
   - A 測定平均値は、81 dB である。
   - A 測定の測定値の標準偏差は、3 dB より小さい。
@@ -145,11 +154,9 @@ questions:
 
 
     A 測定平均値 82 dB は 85 dB 未満ですが、B 測定値が 87 dB（85 dB 以上 90 dB 未満）なので、管理区分は第Ⅱ管理区分になります（選択肢4）。80 dB 未満の値を除くのは、聴力への影響を考える必要がない低い騒音で平均を下げないためです。'
-  figures:
-  - file: 2025-02-design-06-1.png
-    alt: 問6の図
+  figures: []
   law_note: null
-  _key_choice: A測定平均値は、81dBである。
+  _key_choice: A測定平均値は、81 dBである。
 - num: 7
   status: published
   chapters:
@@ -221,7 +228,7 @@ questions:
     「粒子か、ガス・蒸気か」で捕集方法を分けるのが基本です。ミストやヒュームはフィルター、ガス・蒸気は吸着剤や捕集液と覚えましょう。'
   figures: []
   law_note: null
-  _key_choice: クロム酸ミストシリカゲル管
+  _key_choice: Ⓐクロム酸ミスト Ⓑシリカゲル管
   columns:
   - Ⓐ
   - Ⓑ
@@ -398,7 +405,7 @@ questions:
     トリチウム化水蒸気の捕集には、冷却凝縮捕集法や固体捕集法なども用いられます。放射性物質の捕集方法は、物質の状態と分析方法に合わせて複数の方法から選ぶ、と理解しておきましょう。'
   figures: []
   law_note: null
-  _key_choice: 放射性水銀トリチウム化水蒸気
+  _key_choice: ㋑放射性水銀 ㋺トリチウム化水蒸気
   columns:
   - ㋑
   - ㋺
@@ -441,7 +448,7 @@ questions:
     濃度限度が低い核種では、試料採取時間がとても長くなります。単位をそろえる手順は毎回同じなので、型として覚えておきましょう。'
   figures: []
   law_note: null
-  _key_choice: 215時間
+  _key_choice: 215 時間
 - num: 18
   status: published
   chapters:

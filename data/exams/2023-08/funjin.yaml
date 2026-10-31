@@ -4,7 +4,7 @@ subject: funjin
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -24,7 +24,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -45,22 +45,20 @@ questions:
 
 
     dp ：粒子の直径（cm）とする。'
-  columns: null
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - $d_p=\sqrt{\frac{V_s\cdot 18\eta}{(\rho-\rho_0)\cdot g}}$
+  - $d_p=\sqrt{\frac{V_s\cdot 18g}{(\rho-\rho_0)\cdot\eta}}$
+  - $d_p=\sqrt{\frac{V_s\cdot 18\eta}{(\rho_0-\rho)\cdot g}}$
+  - $d_p=\frac{V_s\cdot 18g}{(\rho_0-\rho)\cdot\eta}$
+  - $d_p=\frac{V_s\cdot 18\eta}{(\rho-\rho_0)\cdot g}$
   answer: 1
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2023-08-funjin-02-choices.png
-    alt: 問2の選択肢
+  figures: []
   law_note: null
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -80,7 +78,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -100,12 +98,25 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 下表は、繊維層フィルターによる粒子の捕集機構別に粒径、ろ過速度、繊維径の捕集率に与える影響を表したものである。表中のⒶ、Ⓑ、Ⓒに入る語句の組合せとして正しいものは下のうちどれか。
+  stem: '下表は、繊維層フィルターによる粒子の捕集機構別に粒径、ろ過速度、繊維径の捕集率に与える影響を表したものである。表中のⒶ、Ⓑ、Ⓒに入る語句の組合せとして正しいものは下のうちどれか。
+
+
+    |  | 粒径 | ろ過速度 | 繊維径 |
+
+    |---|---|---|---|
+
+    | さえぎり効果 | 大きいほど効果大 | — | Ⓐ |
+
+    | 重力効果 | 大きいほど効果大 | Ⓑ | 小さいほど効果大 |
+
+    | 慣性効果 | Ⓒ | 大きいほど効果大 | 小さいほど効果大 |
+
+    | 静電沈着 | — | 小さいほど効果大 | 小さいほど効果大 |'
   columns:
   - Ⓐ
   - Ⓑ
@@ -119,13 +130,11 @@ questions:
   answer: 2
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2023-08-funjin-05-1.png
-    alt: 問5の図
+  figures: []
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -145,7 +154,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -165,7 +174,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -185,7 +194,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -205,7 +214,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -225,7 +234,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -245,7 +254,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -265,7 +274,7 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -275,7 +284,7 @@ questions:
   choices:
   - X 線回折分析装置による定性分析で、遊離けい酸が確認できなかった試料は、管電流及び管電圧を見直し、感度を上げて再度分析し、それでも遊離けい酸の存在が認められない場合は、遊離けい酸含有率は 0 ％として取り扱う。
   - X 線回折分析装置による定性分析で、クリストバライトの含有が認められた場合、りん酸法による定量操作を選択してはならない。
-  - X 線回折分析法の定量下限を簡易的に求めるときは、測定された1回のX 線計数値がN（cps）であるとき、 N を検量線の勾配で除した値となる。
+  - X線回折分析法の定量下限を簡易的に求めるときは、測定された1回のX線計数値がN（cps）であるとき、√Nを検量線の勾配で除した値となる。
   - X 線回折分析装置による定性分析により炭酸カルシウムの存在が確認された試料では、基底標準板として亜鉛を用いてはならない。
   - 分析試料中に石英以外の遊離けい酸が混入していないことが明らかであり、硫化物や金属類も含まれていない試料については、王水を添加しないりん酸法を行ってもよい。
   answer: 3
@@ -285,7 +294,7 @@ questions:
   law_note: null
   _review: true
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -305,7 +314,7 @@ questions:
   law_note: null
   _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -325,7 +334,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -336,7 +345,7 @@ questions:
   - 対陰極が Cu の X 線管球を用いて分析した場合、トリジマイト（単斜晶系）の主回折線（d：3.34 Å）は、2θ：26.66 °に出現する。
   - 特性 X 線の波長は、K、L 系列ごとに異なるが、原子番号が大きくなると短くなる。
   - 受光スリットの幅は、回折線の分解能に影響し、スリット幅を大きくすると回折線強度は増大するが、回折線はブロードになる。
-  - モノクロメーターによって K 線はほとんど除去されるが、K フィルタβ βーを用いた場合より回折 X 線の強度は弱くなる。
+  - モノクロメーターによってK<sub>β</sub>線はほとんど除去されるが、K<sub>β</sub>フィルターを用いた場合より回折X線の強度は弱くなる。
   - ゴニオメータの走査速度が標準的な速度より速いと回折線のピーク位置のずれや回折線強度の低下をきたすことがある。
   answer: 1
   choice_notes: []
@@ -345,7 +354,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -365,7 +374,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -385,7 +394,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -405,7 +414,7 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null

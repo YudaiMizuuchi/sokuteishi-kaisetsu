@@ -74,7 +74,7 @@ questions:
     それぞれの方向の中では等間隔でなければなりませんが、方向が違えば間隔を変えてよい、という点が令和8年度第1回の問3（測定点の配置図）でも問われています。'
   figures: []
   law_note: null
-  _key_choice: 測定点と測定点の間隔は、6m以下の等間隔とし、かつ縦方向と横方向の間隔を同一にしなければならない。
+  _key_choice: 測定点と測定点の間隔は、6 m以下の等間隔とし、かつ縦方向と横方向の間隔を同一にしなければならない。
 - num: 4
   status: published
   chapters:
@@ -195,7 +195,7 @@ questions:
     リフラクトリーセラミックファイバーのメンブランフィルター、コールタールのガラス繊維ろ紙、アクリルアミドのガラス繊維ろ紙と活性炭フェルト（粒子と蒸気の両方を捕らえる）、トリクロロエチレンの活性炭管は、いずれも適切です。'
   figures: []
   law_note: null
-  _key_choice: 塩化ビニルミゼットインピンジャー
+  _key_choice: Ⓐ塩化ビニル Ⓑミゼットインピンジャー
   columns:
   - Ⓐ
   - Ⓑ
@@ -346,9 +346,9 @@ questions:
 - num: 15
   status: published
   chapters:
-  - detector-tube
+  - relative-meter
   traps:
-  - ds-detector-tube-04
+  - ds-relative-meter-10
   rank: null
   summary: null
   stem: 簡易測定機器による測定に関する次の記述のうち、誤っているものはどれか。
@@ -393,7 +393,7 @@ questions:
     令和2年度第2回では固体捕集方法との組合せで、同じ論点が出題されています。'
   figures: []
   law_note: null
-  _key_choice: 放射性セシウム液体捕集法
+  _key_choice: Ⓐ放射性セシウム Ⓑ液体捕集法
   columns:
   - Ⓐ
   - Ⓑ
@@ -430,7 +430,7 @@ questions:
     よって（4）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 15時間
+  _key_choice: 15 時間
 - num: 18
   status: published
   chapters:
@@ -455,7 +455,7 @@ questions:
     令和6年度第1回にも、同じ形の誤りがあります。'
   figures: []
   law_note: null
-  _key_choice: 正規分布の平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ-2σからμ+2σの範囲に入る確率は、およそ68%である。
+  _key_choice: 正規分布の平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ−2σからμ＋2σの範囲に入る確率は、およそ68 %である。
 - num: 19
   status: published
   chapters:

@@ -29,7 +29,7 @@ questions:
     よって、最も近いのは 590 mg/m³ です。逆向きに 200 × 24.45 ÷ 72.1 と計算すると約 68（選択肢1）になります。'
   figures: []
   law_note: null
-  _key_choice: 590mg・m-3
+  _key_choice: 590 mg・m⁻³
 - num: 2
   status: published
   chapters:
@@ -174,7 +174,7 @@ questions:
   explanation: 'D 測定の試料空気の採取時間は、連続した**15分間**です。10分間とする選択肢5は誤りです。
 
 
-    B 測定（10分間）と D 測定（15分間）で時間が違う点が、繰り返し狙われる罠です。'
+    B 測定（10分間）と D 測定（15分間）で時間が違う点が、繰り返し出るひっかけパターンです。'
   figures: []
   law_note: null
   _key_choice: D測定の試料空気の採取等の時間は、10分間である。
@@ -225,7 +225,7 @@ questions:
     令和2年度第1回では、ガラス繊維ろ紙と活性炭フェルトの組合せが正しいものとして出題されています。'
   figures: []
   law_note: null
-  _key_choice: アクリルアミド小型バブラー
+  _key_choice: Ⓐアクリルアミド Ⓑ小型バブラー
   columns:
   - Ⓐ
   - Ⓑ
@@ -300,7 +300,7 @@ questions:
     ポアサイズより小さな粒子も、拡散やさえぎりの作用で捕集されます。この論点は繰り返し出題されています。'
   figures: []
   law_note: null
-  _key_choice: メンブランフィルターのポアサイズ(孔径)は、捕集できる最小の粒子の大きさを表している。
+  _key_choice: メンブランフィルターのポアサイズ（孔径）は、捕集できる最小の粒子の大きさを表している。
 - num: 13
   status: published
   chapters:
@@ -348,7 +348,7 @@ questions:
     変換係数は「相対濃度を質量濃度に換算する係数」なので、相対濃度に掛けて質量濃度にする、と考えれば式を取り違えません。'
   figures: []
   law_note: null
-  _key_choice: 質量濃度変換係数、粉じんの質量濃度、相対濃度をそれぞれK、C、Rとするとその関係は、K=R/Cで表される。
+  _key_choice: 質量濃度変換係数、粉じんの質量濃度、相対濃度をそれぞれK、C、Rとするとその関係は、K = R / Cで表される。
 - num: 15
   status: published
   chapters:
@@ -393,7 +393,7 @@ questions:
     放射性ヨウ素は固体捕集（活性炭）、トリチウム化水蒸気は液体・冷却凝縮・固体捕集などです。'
   figures: []
   law_note: null
-  _key_choice: 放射性アルゴン放射性セシウム
+  _key_choice: ㋑放射性アルゴン ㋺放射性セシウム
   columns:
   - ㋑
   - ㋺
@@ -427,7 +427,7 @@ questions:
     よって（4）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 1.4×104Bq
+  _key_choice: 1.4×10⁴ Bq
 - num: 18
   status: published
   chapters:

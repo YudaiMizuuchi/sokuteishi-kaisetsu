@@ -4,7 +4,7 @@ subject: funjin
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -24,7 +24,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -45,22 +45,20 @@ questions:
 
 
     dp ：粒子の直径（cm）とする。'
-  columns: null
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - $d_p=\sqrt{\dfrac{Vs\cdot 9\eta}{(\rho_0-\rho)\cdot g}}$
+  - $d_p=\dfrac{Vs\cdot 9\eta}{(\rho-\rho_0)\cdot g}$
+  - $d_p=\sqrt{\dfrac{Vs\cdot 18\eta}{(\rho_0-\rho)\cdot g}}$
+  - $d_p=\dfrac{Vs\cdot 18\eta}{(\rho-\rho_0)\cdot g}$
+  - $d_p=\sqrt{\dfrac{Vs\cdot 18\eta}{(\rho-\rho_0)\cdot g}}$
   answer: 5
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2020-08-funjin-02-choices.png
-    alt: 問2の選択肢
+  figures: []
   law_note: null
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -83,7 +81,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -103,7 +101,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -123,7 +121,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -143,7 +141,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -163,7 +161,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -183,7 +181,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -203,7 +201,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -223,7 +221,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -243,7 +241,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -263,7 +261,7 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -283,7 +281,7 @@ questions:
   law_note: null
   _review: true
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -303,7 +301,7 @@ questions:
   law_note: null
   _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -313,8 +311,8 @@ questions:
   choices:
   - 対陰極が Cu のX線管球を用いて分析した場合、トリジマイトの主回折線（d：4.33 Å）は、2θ：20.5 °に出現する。
   - 特性X線の波長は、K、L系列ごとに異なるが、原子番号が大きくなると長くなる。
-  - 対陰極が Cu の場合のX線の単色化に用いるK フィルターは、原子番β号が1小さいNiが用いられる。
-  - モノクロメーターによってK 線はほとんど除去されるが、K フィルタβ βーを用いた場合より回折X線の強度は弱くなる。
+  - 対陰極がCuの場合のX線の単色化に用いるKβフィルターは、原子番号が1小さいNiが用いられる。
+  - モノクロメーターによってKβ線はほとんど除去されるが、Kβフィルターを用いた場合より回折X線の強度は弱くなる。
   - ゴニオメータの走査速度は、回折線のピーク位置や回折線強度に影響を及ぼす。
   answer: 2
   choice_notes: []
@@ -323,7 +321,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -343,7 +341,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -363,7 +361,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -383,7 +381,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -403,7 +401,7 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null

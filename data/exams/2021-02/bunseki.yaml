@@ -82,9 +82,9 @@ questions:
 - num: 4
   status: published
   chapters:
-  - organic
+  - reaction
   traps:
-  - an-organic-04
+  - an-reaction-04
   rank: null
   summary: null
   stem: 次の硫黄を含む化合物Ⓐとその化合物の硫黄の酸化数Ⓑとの組合せのうち、誤っているものはどれか。
@@ -102,7 +102,7 @@ questions:
     硫黄の酸化数は −2 から ＋6 までで、＋8 にはなりません。硫化水素 −2、二酸化硫黄 ＋4、三酸化硫黄と硫酸と六フッ化硫黄が ＋6 です。'
   figures: []
   law_note: null
-  _key_choice: HSO+824
+  _key_choice: ⒶH₂SO₄ Ⓑ+8
   _stem_head: 次の硫黄を含む化合物Aとその化合物の硫黄の酸化数Bとの組合せのうち、誤っているものはどれか。AB
   columns:
   - Ⓐ
@@ -174,7 +174,7 @@ questions:
     よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 0.050g
+  _key_choice: 0.050 g
   _stem_head: 有機化合物Aを0.060g含む水溶液50mLからヘキサン5.0mLにAを抽出した。ヘキサンに抽出されたAの質量として、正しい値は次のうちどれか。ただし、水とヘキサン間のAの分配係数(K)は次の式で表される。K=\[A\]ヘキサン=50\[A
 - num: 7
   status: published
@@ -224,7 +224,7 @@ questions:
     内径が一定の管では、浮子の位置で流量を表すことができません。'
   figures: []
   law_note: null
-  _key_choice: ロータメーター(面積式流量計)の内径は、一定である。
+  _key_choice: ロータメーター（面積式流量計）の内径は、一定である。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
 - num: 9
   status: published
@@ -246,12 +246,14 @@ questions:
   explanation: '市販の濃硫酸（約 96 ％）の濃度は、約 **18 mol/L** です。密度 1.84 g/cm³ と純度から、1 L 中の硫酸は 1,840 × 0.96 ≒ 1,770 g、これを分子量 98 で割ると約 18 mol になります。約 36 mol/L とする選択肢4は誤りです。
 
 
-    36 という数字は、濃塩酸の濃度（約 36 ％）と取り違えやすい値です。'
+    36 という数字は、濃塩酸の濃度（約 36 ％）と取り違えやすい値です。
+
+
+    平成28年度第1回 分析 問9でも、「市販の濃硫酸の濃度は、ほぼ 18 mol・L⁻¹ である」という正しい記述が出題されています。'
   figures: []
   law_note: null
-  _key_choice: 市販の濃硫酸の濃度は、約36mol・L-1である。
+  _key_choice: 市販の濃硫酸の濃度は、約36 mol・L⁻¹である。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
-  review_note: 市販の濃硫酸の濃度を約 18 mol/L とし、密度と純度から計算しています。純度（96％）の値を確認中です。
 - num: 10
   status: published
   chapters:
@@ -304,7 +306,7 @@ questions:
     よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 4.0×10-2mol・L-1
+  _key_choice: 4.0×10⁻² mol・L⁻¹
   _stem_head: 塩酸溶液25mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10-1mol・L-1)で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は5.0mLであった。塩酸溶液の濃度として、正しい値は次のうちどれか。
 - num: 12
   status: published
@@ -384,7 +386,7 @@ questions:
     令和8年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: モル吸光係数の単位は、mol・L-1・cmである。
+  _key_choice: モル吸光係数の単位は、mol・L⁻¹・cmである。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 15
   status: published
@@ -456,7 +458,7 @@ questions:
   explanation: 電子捕獲検出器（ECD）は、ハロゲンを含む化合物など、電子を捕らえやすい化合物に高い感度をもつ検出器です。飽和炭化水素の測定には適しないので、選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 電子捕獲検出器(ECD)は、飽和炭化水素化合物の測定に適している。
+  _key_choice: 電子捕獲検出器（ECD）は、飽和炭化水素化合物の測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
 - num: 18
   status: published
@@ -506,7 +508,7 @@ questions:
     令和8年度第1回にも、まったく同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: 測定試料は、一般に粒径が0.1mm~1mmの粉末が適当である。
+  _key_choice: 測定試料は、一般に粒径が0.1 mm～1 mmの粉末が適当である。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
   status: published

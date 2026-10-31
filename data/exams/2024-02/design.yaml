@@ -26,7 +26,7 @@ questions:
     管理濃度の単位は、ガス・蒸気は ppm、粉じんや金属などの粒子は mg/m³、繊維は本/cm³ と、物質の状態で決まります。'
   figures: []
   law_note: null
-  _key_choice: リフラクトリーセラミックファイバーの管理濃度の単位は、mg/m3である。
+  _key_choice: リフラクトリーセラミックファイバーの管理濃度の単位は、mg/m³である。
 - num: 2
   status: published
   chapters:
@@ -50,7 +50,7 @@ questions:
     狭い作業場では、単位作業場所が著しく狭い場合の例外として、条件がそろえば測定点を5未満にすることができます。狭いことは測定点の数の問題で、単位作業場所を設定するかどうかとは関係ありません。'
   figures: []
   law_note: null
-  _key_choice: 単位作業場所は、面積20m2以下の作業場については設定することができない。
+  _key_choice: 単位作業場所は、面積20 m²以下の作業場については設定することができない。
 - num: 3
   status: published
   chapters:
@@ -156,7 +156,19 @@ questions:
   - ds-noise-02
   rank: null
   summary: null
-  stem: ある作業場で騒音レベルの測定を行ったところ以下のような結果を得た。この単位作業場所（広さ 3 m ×10 m）の測定結果に関する次の記述のうち、誤っているものはどれか。
+  stem: 'ある作業場で騒音レベルの測定を行ったところ以下のような結果を得た。
+
+
+    この単位作業場所（広さ3 m × 10 m）の測定結果に関する次の記述のうち、誤っているものはどれか。
+
+
+    【測定結果】
+
+
+    A測定　①86 dB　②84 dB　③82 dB　④78 dB　⑤82 dB　⑥84 dB　⑦86 dB　⑧84 dB
+
+
+    B測定　90 dB'
   choices:
   - A 測定の平均値は、84 dB である。
   - A 測定の標準偏差は、3 dB より小さい。
@@ -172,11 +184,9 @@ questions:
 
 
     騒音の管理区分は、85 dB と 90 dB の2つの境目で決まります。A 測定平均値と B 測定値のうち、悪い方で決まると覚えましょう。'
-  figures:
-  - file: 2024-02-design-07-1.png
-    alt: 問7の図
+  figures: []
   law_note: null
-  _key_choice: この単位作業場所は、第II管理区分に区分される。
+  _key_choice: この単位作業場所は、第Ⅱ管理区分に区分される。
 - num: 8
   status: published
   chapters:
@@ -224,7 +234,7 @@ questions:
     酸性のガスは、アルカリ性の捕集液に吸収させて捕らえるのが基本です。フッ化水素をミゼットインピンジャーで捕集する（選択肢4）のも同じ考え方です。'
   figures: []
   law_note: null
-  _key_choice: シアン化水素活性炭管
+  _key_choice: Ⓐシアン化水素 Ⓑ活性炭管
   columns:
   - Ⓐ
   - Ⓑ
@@ -395,7 +405,7 @@ questions:
     トリチウム化水蒸気は、液体捕集法のほか、冷却凝縮捕集法、固体捕集法、直接捕集法など、複数の方法が出題されています。問題文の空欄がどの捕集方法かを確かめてから選びましょう。'
   figures: []
   law_note: null
-  _key_choice: プルトニウムトリチウム化水蒸気
+  _key_choice: ㋑プルトニウム ㋺トリチウム化水蒸気
   columns:
   - ㋑
   - ㋺
@@ -429,7 +439,7 @@ questions:
     よって（3）が正しい値です。168時間（1週間）のように採取時間が長いときは、分に直す計算を落ち着いて行いましょう。'
   figures: []
   law_note: null
-  _key_choice: 1.9×10-5Bq・cm-3
+  _key_choice: 1.9 × 10⁻⁵ Bq・cm⁻³
 - num: 18
   status: published
   chapters:

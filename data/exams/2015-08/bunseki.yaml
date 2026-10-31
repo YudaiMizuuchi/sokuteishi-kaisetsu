@@ -1,7 +1,7 @@
 exam: 2015-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
   status: draft
@@ -11,15 +11,26 @@ questions:
   - an-units-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: SI単位に使われる接頭語の記号Ⓐとその大きさⒷとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - M ／ 10⁶
+  - k ／ 10³
+  - d ／ 10
+  - m ／ 10⁻³
+  - μ ／ 10⁻⁶
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '接頭語 d（デシ）は **10⁻¹** です。10 とする選択肢3は誤りです。
+
+
+    10 を表す接頭語は da（デカ）です。'
   figures: []
   law_note: null
   _key_choice: AdB10
   _stem_head: SI単位に使われる接頭語の記号Aとその大きさBとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
   status: draft
   chapters:
@@ -28,15 +39,24 @@ questions:
   - an-units-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次のデータの和を正しく表しているものは下のうちどれか。ただし、各数値は有効数字で表されている。
+
+
+    22.5　15.3　6.71　3.24　0.456'
+  choices:
+  - '48.2060'
+  - '48.206'
+  - '48.21'
+  - '48.2'
+  - '48'
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 足し算では、小数点以下の桁数が最も少ないものに合わせます。最も少ないのは 22.5 と 15.3 の小数点以下1桁なので、合計 48.206 も小数点以下1桁に丸めて **48.2** とします。よって（4）が正しいものです。
   figures: []
   law_note: null
   _key_choice: '48.2'
   _stem_head: 次のデータの和を正しく表しているものは下のうちどれか.ただし,各数値は有効数字で表されている.
+  columns: null
 - num: 3
   status: draft
   chapters:
@@ -46,15 +66,24 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 水に対する溶解度は、ベンゼンよりもフェノールの方が大きい。
+  - ヘキサンに対する溶解度は、酢酸ナトリウムよりも酢酸の方が大きい。
+  - グルコースの水に対する溶解度は、エチルアルコールに対する溶解度よりも大きい。
+  - 塩酸は、水に溶解すると完全に解離する。
+  - 酢酸は、水に溶解すると完全に解離する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '酢酸は弱酸で、水に溶けても一部しか電離しません。「完全に解離する」とする選択肢5は誤りです。
+
+
+    塩酸のような強酸は、水中でほぼ完全に電離します（選択肢4）。'
   figures: []
   law_note: null
   _key_choice: 酢酸は,水に溶解すると完全に解離する.
   _stem_head: 物質の溶解に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 4
   status: draft
   chapters:
@@ -63,15 +92,27 @@ questions:
   - an-gas-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 二酸化炭素88gと一酸化炭素28gとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として、正しい値に最も近いものは、次のうちどれか。ただし、炭素及び酸素の原子量は、それぞれ12及び16とする。
+  choices:
+  - 0.33気圧
+  - 0.44気圧
+  - 0.56気圧
+  - 0.67気圧
+  - 0.88気圧
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '二酸化炭素 88 g は 2.0 mol、一酸化炭素 28 g は 1.0 mol です。
+
+
+    二酸化炭素の分圧 ＝ 1.0 × 2 ÷ (2 ＋ 1) ≒ 0.67 気圧
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 0.67気圧
   _stem_head: 二酸化炭素88gと一酸化炭素28gとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として,正しい値に最も近いものは,次のうちどれか.ただし,炭素及び酸素の原子量は,それぞれ12及び16とする.
+  columns: null
 - num: 5
   status: draft
   chapters:
@@ -81,15 +122,30 @@ questions:
   - an-solution-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: モル濃度4.80mol·L⁻¹の水酸化ナトリウム溶液の密度は1.18g·cm⁻³である。この溶液の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g·mol⁻¹とする。
+  choices:
+  - 15.3%
+  - 16.3%
+  - 17.3%
+  - 18.3%
+  - 19.3%
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '溶液 1 L について、
+
+
+    溶液の質量 ＝ 1,000 × 1.18 ＝ 1,180 g、NaOH の質量 ＝ 4.80 × 40.0 ＝ 192 g
+
+
+    質量パーセント濃度 ＝ 192 ÷ 1,180 × 100 ≒ 16.3 ％
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 16.3%
   _stem_head: モル濃度4.80mol·L−1の水酸化ナトリウム溶液の密度は1.18g·cm−3である.この溶液の質量パーセント濃度として,正しい値に最も近いものは次のうちどれか.ただし,水酸化ナトリウムのモル質量を40.0g·mol−1とする.
+  columns: null
 - num: 6
   status: draft
   chapters:
@@ -99,15 +155,30 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 'pH3.0の硝酸溶液を水で2倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log₁₀5＝0.699とする。
+
+
+    pH＝－log₁₀[H⁺]'
+  choices:
+  - '3.0'
+  - '3.3'
+  - '4.3'
+  - '5.3'
+  - '6.0'
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'pH 3.0 の硝酸の水素イオン濃度は 1.0 × 10⁻³ mol/L で、2倍に希釈すると 5.0 × 10⁻⁴ mol/L です。
+
+
+    pH ＝ 4 − log 5 ＝ 4 − 0.699 ≒ 3.3
+
+
+    よって（2）が正しい値です。平成28年度第1回にも、まったく同じ計算の問題があります。'
   figures: []
   law_note: null
   _key_choice: '3.3'
   _stem_head: pH3.0の硝酸溶液を水で2倍に希釈した溶液のpHとして,正しい値に最も近いものは下のうちどれか.ただし,pHは次の式で計算し,log105=0.699とする.
+  columns: null
 - num: 7
   status: draft
   chapters:
@@ -116,15 +187,21 @@ questions:
   - an-lab-equipment-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定に使用する機器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 電子天秤は、気温の安定した場所に設置する。
+  - 電子天秤は、標準分銅により定期的に校正する。
+  - 水銀温度計は、アルコール温度計より高い温度まで測定できる。
+  - 真空捕集びんの内圧は、水銀マノメーターにより測定することができる。
+  - ロータリーポンプにより、1×10⁻⁸mmHg(約1.3×10⁻⁶Pa)程度の高真空を得ることができる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: ロータリーポンプで得られる真空度は、およそ 0.1 Pa 程度までで、1.3 × 10⁻⁶ Pa のような高真空は得られません。高真空には、拡散ポンプやターボ分子ポンプを組み合わせます。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: ロータリーポンプにより,1×10−8mmHg(約1.3×10−6Pa)程度の高真空を得ることができる.
   _stem_head: 作業環境測定に使用する機器に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 8
   status: draft
   chapters:
@@ -133,15 +210,21 @@ questions:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準ガスの濃度は、拡散セル内の標準物質の減少速度から計算する。
+  - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない。
+  - 標準ガスの濃度を微調整するためには、希釈空気の流量よりも拡散セルの温度を変える方が良い。
+  - 標準ガスの濃度は、拡散セルの温度を高くすると、高くなる。
+  - 拡散セルの出口には、乾燥した空気を流す。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 標準ガスの濃度の微調整は、拡散セルの温度を変えるよりも、希釈空気の流量を変える方が容易です。選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: 標準ガスの濃度を微調整するためには,希釈空気の流量よりも拡散セルの温度を変える方が良い.
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 9
   status: draft
   chapters:
@@ -151,32 +234,47 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混合した溶液である。
+  - 王水は、酸化剤として使用できる。
+  - 濃硝酸は、濃硫酸より比重が小さい。
+  - 濃硫酸は、乾燥剤として用いられる。
+  - フッ化水素酸は、強酸である。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: フッ化水素酸は、水中での電離度が小さい**弱酸**です。強酸とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: フッ化水素酸は,強酸である.
   _stem_head: 試薬に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 10
   status: draft
   chapters:
   - quantification
-  traps:
-  - an-quantification-04
+  traps: []
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ガス検知管には、測定対象ガス又はその反応生成物と反応して変色する試薬が使用されている。
+  - 補助反応試薬を別のガラス管に充填して、検知管と二段にして使用するものがある。
+  - pH指示薬を使用する検知管は、酸性ガス又は塩基性ガスが共存すると妨害を受けることがある。
+  - 吸引空気量を増やすことで、より高濃度の測定が可能になる検知管がある。
+  - 検知管には有効期限がある。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '検知管は、決められた吸引空気量で目盛りが付けられています。吸引空気量を増やすと、より**低い**濃度まで測定できるようになる検知管はありますが、高濃度の測定が可能になるわけではありません。選択肢4は誤りです。
+
+
+    高濃度を測るときは、逆に吸引空気量を減らして（半回吸引など）、読み取り値を換算します。'
   figures: []
   law_note: null
   _key_choice: 吸引空気量を増やすことで,より高濃度の測定が可能になる検知管がある.
   _stem_head: 検知管に関する次の記述のうち,誤っているものはどれか.
+  columns: null
+  review_note: 検知管の吸引空気量を増やすと低濃度側の測定が可能になる、という理由の説明です。確認中です。
 - num: 11
   status: draft
   chapters:
@@ -185,15 +283,27 @@ questions:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 硫酸マンガン五水和物(MnSO₄·5H₂O)を水に溶解して1.00×10⁻⁴mol·L⁻¹の濃度の溶液に調製した。この水溶液1.00mLに含まれるマンガンの質量として正しい値は次のうちどれか。ただし、Mnの原子量は54.9とする。
+  choices:
+  - 5.49×10⁻¹μg
+  - 5.49μg
+  - 5.49×10μg
+  - 5.49×10²μg
+  - 5.49×10³μg
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '1.00 × 10⁻⁴ mol/L × 1.00 × 10⁻³ L ＝ 1.00 × 10⁻⁷ mol
+
+
+    マンガンの質量 ＝ 1.00 × 10⁻⁷ × 54.9 ＝ 5.49 × 10⁻⁶ g ＝ 5.49 µg
+
+
+    よって（2）が正しい値です。五水和物の式量は使いません。'
   figures: []
   law_note: null
   _key_choice: 5.49μg
   _stem_head: 硫酸マンガン五水和物(MnSO4·5H2O)を水に溶解して1.00×10−4mol·L−1の濃度の溶液に調製した.この水溶液1.00mLに含まれるマンガンの質量として正しい値は次のうちどれか.ただし,Mnの原子量は54.9とする.
+  columns: null
 - num: 12
   status: draft
   chapters:
@@ -202,15 +312,24 @@ questions:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の化合物のうち、その溶解度積の単位が(mol·L⁻¹)²ではないものはどれか。
+  choices:
+  - AgCl
+  - Ag₂CrO₄
+  - ZnCO₃
+  - PbSO₄
+  - PbCrO₄
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'Ag₂CrO₄ は、Ag⁺ 2個と CrO₄²⁻ 1個に電離するので、溶解度積は [Ag⁺]²[CrO₄²⁻] となり、単位は **(mol/L)³** です。よって答えは（2）です。
+
+
+    平成27年度第2回にも、同じ型の問題（PbCl₂）があります。'
   figures: []
   law_note: null
   _key_choice: Ag2CrO4
   _stem_head: 次の化合物のうち,その溶解度積の単位が(mol·L−1)2ではないものはどれか.
+  columns: null
 - num: 13
   status: draft
   chapters:
@@ -220,15 +339,27 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの濃度が3.0×10⁻⁵mol·L⁻¹の溶液を、光路長1.0cmのセル中に入れ、波長550nmにおける吸光度を測定したところ、0.36であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
+  choices:
+  - 8.0×10³mol⁻¹·L·cm⁻¹
+  - 1.0×10⁴mol⁻¹·L·cm⁻¹
+  - 1.2×10⁴mol⁻¹·L·cm⁻¹
+  - 1.4×10⁴mol⁻¹·L·cm⁻¹
+  - 1.6×10⁴mol⁻¹·L·cm⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則から、
+
+
+    ε ＝ 0.36 ÷ (3.0 × 10⁻⁵ × 1.0) ＝ 1.2 × 10⁴ L・mol⁻¹・cm⁻¹
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 1.2×104mol−1·L·cm−1
   _stem_head: 物質Aの濃度が3.0×10−5mol·L−1の溶液を,光路長1.0cmのセル中に入れ,波長550nmにおける吸光度を測定したところ,0.36であった.この溶液中の物質Aの550nmにおけるモル吸光係数として,正しい値は次のうちどれか.
+  columns: null
 - num: 14
   status: draft
   chapters:
@@ -238,15 +369,27 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過率は50%であった。このときの吸光度として正しい値に最も近いものは次のうちどれか。ただし、log₁₀5＝0.699とする。
+  choices:
+  - '0.1'
+  - '0.3'
+  - '0.5'
+  - '0.7'
+  - '0.9'
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '透過率が 50 ％（T ＝ 0.5）なので、
+
+
+    A ＝ −log 0.5 ＝ log 2 ＝ 1 − log 5 ＝ 1 − 0.699 ≒ 0.3
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: '0.3'
   _stem_head: 測定対象物質の水溶液に,ある波長の光を当てたところ,透過率は50%であった.このときの吸光度として正しい値に最も近いものは次のうちどれか.ただし,log105=0.699とする.
+  columns: null
 - num: 15
   status: draft
   chapters:
@@ -255,15 +398,21 @@ questions:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレームを用いる原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料の吸引速度により感度が変化する。
+  - 中空陰極ランプは、光源として用いられる。
+  - フレームの種類により感度が変化する。
+  - 主として、金属元素の定量に用いられる。
+  - 励起された原子の吸光を測定する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 原子吸光分析法で光を吸収するのは、**基底状態**の原子です。励起された原子の吸光を測定するとする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 励起された原子の吸光を測定する.
   _stem_head: フレームを用いる原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
   status: draft
   chapters:
@@ -272,15 +421,21 @@ questions:
   - an-fluorescence-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
+  - 蛍光は、励起光よりも短波長側に生じる。
+  - 励起光に対して直角方向の蛍光を測定する。
+  - 蛍光強度は、蛍光物質の低濃度領域で励起光強度に比例する。
+  - 蛍光強度は、低濃度領域で蛍光物質の濃度に比例する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 蛍光は、励起光よりも**長波長側**に生じます。「短波長側」とする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 蛍光は,励起光よりも短波長側に生じる.
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
   status: draft
   chapters:
@@ -289,15 +444,21 @@ questions:
   - an-gc-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析に用いるカラムの理論段高さ(H)を表す式として、正しいものは次のうちどれか。ただし、Aはカラム内での渦流拡散に起因する定数、Bはその成分自身のカラム軸方向の分子拡散に起因する定数、Cは固定相と移動相間の物質移動に起因する定数、vは移動相の平均線速度とする。
+  choices:
+  - H＝A＋B/v＋Cv
+  - H＝A＋Bv＋C/v
+  - H＝A/v＋B＋Cv
+  - H＝Av＋B＋C/v
+  - H＝Av＋B/v＋C
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 理論段高さは、ファン・デームター式 H ＝ A ＋ B/v ＋ Cv で表されます。よって（1）が正しい式です。
   figures: []
   law_note: null
   _key_choice: H=A+B/v+Cv
   _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さ(H)を表す式として,正しいものは次のうちどれか.ただし,Aはカラム内での渦流拡散に起因する定数,Bはその成分自身のカラム軸方向の分子拡散に起因する定数,Cは固定相と移動相間の物質移動に起因す
+  columns: null
 - num: 18
   status: draft
   chapters:
@@ -306,15 +467,24 @@ questions:
   - an-gc-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検出器の温度は、カラム温度よりも高く保つ。
+  - ピークの分離度は、カラム温度が高いほど小さくなる。
+  - 設定カラム温度において、飽和蒸気圧が等しい2物質は、分離できない。
+  - 保持時間は、カラム温度が高いほど短くなる。
+  - カラム温度を上げると、カラムの通気抵抗は大きくなる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ガスクロマトグラフの固定相と物質の相互作用は、蒸気圧（沸点）だけでなく、極性などによっても変わります。そのため、設定したカラム温度で飽和蒸気圧が等しい2物質でも、液相を選べば分離できることがあります。「分離できない」とする選択肢3は誤りです。
+
+
+    カラム温度を上げると、気体の粘度が大きくなるので通気抵抗は大きくなります（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: 設定カラム温度において,飽和蒸気圧が等しい2物質は,分離できない.
   _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 19
   status: draft
   chapters:
@@ -323,15 +493,21 @@ questions:
   - an-xrd-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法では、通常、Cu-KαX線が用いられる。
+  - この分析法は、結晶物質の同定や定量に使われる。
+  - X線検出器は、X線のスペクトル分析ができるものでなければならない。
+  - 定性分析の試料には、乳鉢などですり潰した粉末が用いられている。
+  - 回折線は、ブラッグの条件に従って生じる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 作業環境測定の X 線回折分析法では、単一の波長の Cu-Kα 線を使い、回折角で物質を見分けるので、X 線のスペクトルを分析できる検出器である必要はありません。選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: X線検出器は,X線のスペクトル分析ができるものでなければならない.
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
   status: draft
   chapters:
@@ -341,12 +517,25 @@ questions:
   - an-logarithm-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 半減期12年の放射性核種の放射能が10分の1に減衰するまでの時間として、正しい値に最も近いものは次のうちどれか。ただし、log₁₀2＝0.301とする。
+  choices:
+  - 25年
+  - 30年
+  - 35年
+  - 40年
+  - 50年
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '放射能が 1/10 になるまでの時間を t とすると、(1/2)^(t/12) ＝ 1/10 です。
+
+
+    t ＝ 12 × log 10 ÷ log 2 ＝ 12 × 1 ÷ 0.301 ≒ 40 年
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 40年
   _stem_head: 半減期12年の放射性核種の放射能が10分の1に減衰するまでの時間として,正しい値に最も近いものは次のうちどれか.ただし,log102=0.301とする.
+  columns: null
+excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

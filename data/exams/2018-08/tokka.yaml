@@ -1,0 +1,391 @@
+exam: 2018-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ガラス製のセルは、紫外部の光を吸収する。
+  - 発色試薬として、主に有機試薬が用いられる。
+  - 光源からの光をモノクロメーターによって単色光として測定に用いる。
+  - 吸光度は、入射光の強さに対する透過光の強さの比に比例する。
+  - 吸光度は、試料液の濃度と液層の長さの積に比例する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: シアン化水素の吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - シアン化水素は、ミゼットインピンジャーを用いて、水酸化ナトリウム溶液に捕集する。
+  - シアン化水素の標準原液は、シアン化カリウムを用いて調製する。
+  - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で滴定して標定する。
+  - シアン化水素を捕集した溶液は、酢酸で中和してから発色操作を行う。
+  - 発色試薬として、ジフェニルカルバジドを用いる。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気（25℃、1気圧）中のフッ化水素の濃度を吸光光度分析法で測定した。捕集液に0.70L·min⁻¹の流量で試料空気を10分間吸引して得られた試料液10mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.100であった。フッ化水素の濃度が、1.00×10⁻³g·L⁻¹の標準溶液10mLにつき試料液と同様の定量操作を行って測定した吸光度は0.350であった。フッ化水素の環境空気中濃度（体積分率）として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は100%とし、フッ化水素のモル質量を20.01g·mol⁻¹とする。
+  choices:
+  - 0.30ppm
+  - 0.35ppm
+  - 0.40ppm
+  - 0.45ppm
+  - 0.50ppm
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化学物質のうち可視部の吸光光度分析法で定量する場合に発色操作を必要としないものはどれか。
+  choices:
+  - マゼンタ
+  - アクリロニトリル
+  - トルエンジイソシアネート
+  - p-ニトロクロロベンゼン
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン(MOCA)
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'ガスクロマトグラフ分析法に用いられる固定相液体に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、適切なものは下のうちどれか。
+
+
+    「固定相として用いられる液相の比率が高くなると、カラムの試料保持容量は［㋑］なるが、試料成分がカラム内で液相に分配される比率が［㋺］なるため、ピーク幅が［㋩］なる。」'
+  choices:
+  - 小さく ／ 高く ／ 狭く
+  - 小さく ／ 低く ／ 狭く
+  - 大きく ／ 高く ／ 狭く
+  - 大きく ／ 高く ／ 広く
+  - 大きく ／ 低く ／ 広く
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: カラムAとBを用いて、ある化合物を溶出させたとき、保持時間が同じであった。カラムAの理論段数が5,000、カラムBの理論段数が9,000の場合、カラムBにおけるピーク幅(W_B)とカラムAにおけるピーク幅(W_A)の比(W_B/W_A)に最も近い値は、次のうちどれか。
+  choices:
+  - '0.38'
+  - '0.56'
+  - '0.75'
+  - '1.34'
+  - '1.80'
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析法に用いる検出器Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 硫化水素 ／ 炎光光度検出器(FPD)
+  - アクリロニトリル ／ アルカリ熱イオン化検出器(FTD)
+  - ナフタレン ／ 電子捕獲検出器(ECD)
+  - ジメチル-2,2-ジクロロビニルホスフェイト(DDVP) ／ 質量分析器(MS)
+  - 臭化メチル ／ 水素炎イオン化検出器(FID)
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中の酸化プロピレンのガスクロマトグラフ分析法（GC-MS法を除く。）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 捕集には、直接捕集法又は固体捕集法を用いる。
+  - 固体捕集法では、球状活性炭管を用いる。
+  - 活性炭からの脱着には、二硫化炭素を用いる。
+  - 検出器には、水素炎イオン化検出器（FID）を用いる。
+  - 捕集後の活性炭管は、冷蔵保存し一週間以内に分析を行う。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 加熱脱着法を用いたo-フタロジニトリルのガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ポーラスポリマービーズとガラス繊維ろ紙を組み合わせた相補型ろ過捕集法で捕集する。
+  - 捕集剤とろ紙の入った捕集管は、あらかじめ加熱処理して分析の妨害となる物質を除去する。
+  - 溶媒抽出には、アセトニトリルを使用する。
+  - 試料を捕集した捕集管は、両端を真ちゅう製保存キャップで密栓して保管する。
+  - 検出器には、質量分析器（MS）を使用する。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気（25℃、1気圧）中のエチレンイミンの濃度を測定するため、試料空気を流量0.50L·min⁻¹で10分間、捕集液10mLに通気した。捕集液5.0mLを取り、クロロホルム5.0mLにエチレンイミンを抽出し、試料液とした。高速液体クロマトグラフで分析した結果、試料液中のピーク面積は3,600であった。エチレンイミン濃度が、0.50μg·mL⁻¹の標準液5.0mLを試料液と同様に処理して分析したところ、ピーク面積は10,000であった。環境空気中のエチレンイミン濃度として、正しい値に最も近いものは次のうちどれか。ただし、エチレンイミンのモル質量は43.07g·mol⁻¹とし、捕集率及び抽出率は100%とする。
+  choices:
+  - 0.10ppm
+  - 0.20ppm
+  - 0.40ppm
+  - 0.60ppm
+  - 0.80ppm
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 検知管法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検知管法は、化学反応による検知剤の色の変化を利用した分析法である。
+  - 変色層の長さは、試料空気中の対象成分の濃度に対応する。
+  - 検知管の目盛りは、通常20℃で校正されている。
+  - 変色層が斜めになったときは、最長部分の値を測定値とする。
+  - 検知管には、有効期限が定められている。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ODSカラムは、シリカゲル担体に無極性アルキル基を結合している。
+  - 逆相クロマトグラフィーは、固定相が高極性で移動相が低極性である。
+  - ODSカラムは、強塩基性の移動相によって化学的な劣化を受ける。
+  - カラムの劣化は、分離能の低下をまねく。
+  - 蛍光光度検出器は、一般に、吸光光度検出器より検出感度が高い。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  choices:
+  - アクリルアミド ／ 図の1
+  - ベンゾトリクロリド ／ 図の2
+  - エチレンオキシド ／ 図の3
+  - o-トルイジン ／ 図の4
+  - o-フタロジニトリル ／ 図の5
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2018-08-tokka-13-fig.png
+    alt: Ⓐ（化合物名）とⒷ（構造式）の2列の表。1＝アクリルアミド、Ⓑは、H₂C=CH-C-NH₂ で、中央のCの下にOが二重結合で結合。2＝ベンゾトリクロリド、Ⓑは、ベンゼン環にCCl₃が結合。3＝エチレンオキシド、Ⓑは、H₂CとCH₂が結合し、その下側のOがH₂CとCH₂の両方に結合した三員環。4＝o-トルイジン、Ⓑは、ベンゼン環の隣り合う炭素にNH₂とCH₃が結合。5＝o-フタロジニトリル、Ⓑは、ベンゼン環の隣り合う炭素に、それぞれN=C=Oが結合
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: エチレンイミン1gを容量1Lの真空容器に密封し、温度を20℃にした。このとき容器内に液体として存在するエチレンイミンの量に最も近いものは、次のうちどれか。ただし、20℃でのエチレンイミンの飽和蒸気圧は、21.3kPaであり、エチレンイミンのモル質量は、43.07g·mol⁻¹とする。
+  choices:
+  - 0g
+  - 0.38g
+  - 0.43g
+  - 0.62g
+  - 0.79g
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物のうち、1気圧における沸点が最も低いものはどれか。
+  choices:
+  - ベンゾトリクロリド
+  - アクリロニトリル
+  - ホルムアルデヒド
+  - ベンゼン
+  - クロロメチルメチルエーテル
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '拡散セルを用い、ベンゼンの標準ガスを発生させた。標準ガスの発生流量は、1.0L·min⁻¹、拡散セルの温度は25℃であった。5時間ごとに拡散セル全体の質量を測定したところ、以下のようになった。この標準ガスの濃度として、正しい値に最も近いものは次のうちどれか。ただし、ベンゼンのモル質量は78.11g·mol⁻¹とする。
+
+
+    時間（hr）／質量（g）
+
+
+    0／25.4110
+
+
+    5／25.3989
+
+
+    10／25.3866'
+  choices:
+  - 9.8ppm
+  - 13ppm
+  - 24ppm
+  - 38ppm
+  - 54ppm
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 測定対象物質Ⓐとその捕集又は分析で使用される試薬Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - エチレンオキシド ／ ナフトキノンスルホン酸
+  - ジアニシジン ／ p-ジメチルアミノベンズアルデヒド
+  - フッ化水素 ／ アリザリンコンプレクソン
+  - ニトログリコール ／ N、N'-ジフェニルベンジジン
+  - ホルムアルデヒド ／ 2,4-ジニトロフェニルヒドラジン(DNPH)
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法による定量下限濃度を求めるため、管理濃度の1/10に相当する標準試料ガスを5回繰り返し分析し、平均値cppm、標準偏差σppmの結果を得た。この測定法の定量下限濃度に相当する濃度として、適切なものは次のうちどれか。
+  choices:
+  - σppm
+  - 3σppm
+  - 5σppm
+  - 10σppm
+  - 20σppm
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - アクリロニトリルの捕集には、シリカゲルを用いる。
+  - ベンゼンの捕集には、活性炭を用いる。
+  - β-プロピオラクトンの捕集には、ポーラスポリマービーズを用いる。
+  - 塩素化ビフェニル(PCB)の捕集には、フロリジルを用いる。
+  - ポーラスポリマービーズは、活性炭と比べて、有機化合物の蒸気に対する捕集容量が大きい。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の測定対象物質のうち、ろ過捕集法による捕集が不適当なものはどれか。
+  choices:
+  - p-ジメチルアミノアゾベンゼン
+  - 塩化ビニル
+  - オーラミン
+  - コールタール
+  - マゼンタ
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

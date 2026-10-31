@@ -119,7 +119,7 @@ questions:
     膀胱がんを起こす物質は、β-ナフチルアミン、ベンジジン、オーラミン、マゼンタ、o-トルイジンなどの芳香族アミン類です。'
   figures: []
   law_note: null
-  _key_choice: ベリリウム膀胱がんぼうこう
+  _key_choice: Ⓐベリリウム Ⓑ膀胱がん
   columns:
   - Ⓐ
   - Ⓑ
@@ -188,7 +188,7 @@ questions:
   explanation: メタノールによる健康障害で顕著なのは、**視神経**の障害（視力低下・失明）です。網膜の細動脈瘤を伴う脳血管障害は、二硫化炭素の慢性中毒の特徴なので、選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: メタノールによる健康障害として顕著なものは、網膜細動脈瘤を伴う脳りゅう血管障害である。
+  _key_choice: メタノールによる健康障害として顕著なものは、網膜細動脈瘤を伴う脳血管障害である。
 - num: 9
   status: published
   chapters:
@@ -236,7 +236,7 @@ questions:
     令和3年度第1回にも、同じ形の誤りがあります。'
   figures: []
   law_note: null
-  _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手しょう指のしびれなど末梢循環障害が発生するおそれがある。
+  _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手指のしびれなど末梢循環障害が発生するおそれがある。
 - num: 11
   status: published
   chapters:
@@ -260,13 +260,13 @@ questions:
     中耳の障害で起こるのは、音が内耳まで伝わりにくくなる伝音性難聴です。'
   figures: []
   law_note: null
-  _key_choice: 5騒音性難聴は、中耳の障害による感音性難聴である。
+  _key_choice: 騒音性難聴は、中耳の障害による感音性難聴である。
 - num: 12
   status: published
   chapters:
-  - ppe
+  - oxygen-deficiency
   traps:
-  - gn-ppe-04
+  - gn-oxygen-deficiency-05
   rank: null
   summary: null
   stem: 酸素欠乏症及び硫化水素中毒に関する次の記述のうち、誤っているものはどれか。
@@ -314,13 +314,13 @@ questions:
   explanation: 電磁波を波長の短いものから並べると、γ 線（㋩）、可視光線（㋺）、赤外線（㋑）、マイクロ波（㋥）の順です。よって（4）が正しいものです。
   figures: []
   law_note: null
-  _key_choice: ハ-ロ-イ-ニ
+  _key_choice: ㋩ - ㋺ - ㋑ - ㋥
 - num: 14
   status: published
   chapters:
   - radiation
   traps:
-  - gn-radiation-01
+  - gn-radiation-05
   rank: null
   summary: null
   stem: 電離放射線及びその影響に関する次の記述のうち、誤っているものはどれか。
@@ -428,11 +428,13 @@ questions:
   explanation: '触媒作用で有害ガスを除くのは、一酸化炭素用の吸収缶（ホプカライトなどの触媒で一酸化炭素を酸化する）です。アンモニア用の吸収缶は、薬剤による化学的な吸収でアンモニアを除くもので、「触媒作用が緩慢になる」という説明は当てはまりません。選択肢5は誤りです。
 
 
-    有機ガス用吸収缶は、メタノールや二硫化炭素では破過時間が著しく短くなる（選択肢3）点も、出題されやすい論点です。'
+    有機ガス用吸収缶は、メタノールや二硫化炭素では破過時間が著しく短くなる（選択肢3）点も、出題されやすい論点です。
+
+
+    （参考：『作業環境測定のための労働衛生の知識』「防毒マスク」の項（p.163）。触媒作用によるのは一酸化炭素用の吸収缶で、一酸化炭素は低濃度では触媒作用が緩慢なため効率が悪く、送気マスクの使用が勧められています）'
   figures: []
   law_note: null
   _key_choice: 防毒マスクのアンモニア用吸収缶は、アンモニアの濃度が低いと触媒作用が緩慢になり、効率が悪い。
-  review_note: アンモニア用吸収缶は触媒作用ではなく化学的な吸収による、と説明しています。確認中です。
 - num: 19
   status: published
   chapters:

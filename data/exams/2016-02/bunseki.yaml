@@ -1,7 +1,7 @@
 exam: 2016-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
   status: draft
@@ -11,15 +11,24 @@ questions:
   - an-units-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 単位に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 長さ1Åは、1×10⁻⁸mである。
+  - 体積1Lは、1×10⁻³m³である。
+  - 時間1hは、3,600sである。
+  - 圧力1mmH₂Oは、約9.81Paである。
+  - 温度0℃は、273.15Kである。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '長さ 1 Å（オングストローム）は **1 × 10⁻¹⁰ m**（0.1 nm）です。1 × 10⁻⁸ m とする選択肢1は誤りです。
+
+
+    X 線の波長や結晶の格子面の間隔は、Å で表されることがあります。'
   figures: []
   law_note: null
   _key_choice: 長さ1Åは,1×10−8mである.
   _stem_head: 単位に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 2
   status: draft
   chapters:
@@ -28,15 +37,24 @@ questions:
   - an-units-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の1及び2の数値並びに3から5の計算の結果のうち、有効数字の桁数が3ではないものはどれか。
+  choices:
+  - '0.0515'
+  - 1.270×10⁻³
+  - 2.170×6.02
+  - 3.15＋0.16
+  - 6.235÷5.00
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '1.270 × 10⁻³ の有効数字は、末尾の0も含めて **4桁**です。よって、3桁ではないのは（2）です。
+
+
+    0.0515 は先頭の0を数えないので3桁、2.170 × 6.02 は3桁に、3.15 ＋ 0.16 ＝ 3.31 は3桁、6.235 ÷ 5.00 は3桁になります。'
   figures: []
   law_note: null
   _key_choice: 1.270×10−3
   _stem_head: 次の1及び2の数値並びに3から5の計算の結果のうち,有効数字の桁数が3ではないものはどれか.
+  columns: null
 - num: 3
   status: draft
   chapters:
@@ -45,15 +63,21 @@ questions:
   - an-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体に関する次の記述のうち、誤っているものはどれか。ただし、明示されていない条件は一定であるとする。
+  choices:
+  - 気体の体積は、絶対温度に比例する。
+  - 気体の圧力は、絶対温度に比例する。
+  - 気体の体積は、圧力に比例する。
+  - 液体と反応しない気体の液体に対する溶解度は、その圧力に比例する。
+  - 混合気体の全圧は、各成分気体の分圧の合計に等しい。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 温度が一定なら、気体の体積は圧力に**反比例**します（ボイルの法則）。「圧力に比例する」とする選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: 気体の体積は,圧力に比例する.
   _stem_head: 気体に関する次の記述のうち,誤っているものはどれか.ただし,明示されていない条件は一定であるとする.
+  columns: null
 - num: 4
   status: draft
   chapters:
@@ -62,15 +86,21 @@ questions:
   - an-organic-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ペンゼンは、水に対する溶解度よりも四塩化炭素に対する溶解度の方が大きい。
+  - 塩化ナトリウムは、水に対する溶解度よりもエタノールに対する溶解度の方が大きい。
+  - 硝酸カリウムの水に対する溶解度は、温度により変化する。
+  - グルコースは、フェノールに対する溶解度よりも水に対する溶解度の方が大きい。
+  - 塩化カリウムの水に対する溶解度は、塩化銀の水に対する溶解度よりも大きい。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 塩化ナトリウムはイオン性の物質なので、極性の大きい水によく溶け、エタノールにはほとんど溶けません。「エタノールに対する溶解度の方が大きい」とする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 塩化ナトリウムは,水に対する溶解度よりもエタノールに対する溶解度の方が大きい.
   _stem_head: 物質の溶解に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 5
   status: draft
   chapters:
@@ -80,15 +110,27 @@ questions:
   - an-solution-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 質量パーセント濃度が10.0%の塩酸の水溶液(密度1.05g·cm⁻³)100mLと精製水(密度1.00g·cm⁻³)100mLとを混合した水溶液の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 5.0%
+  - 5.1%
+  - 5.2%
+  - 5.3%
+  - 5.4%
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '10.0 ％ 塩酸 100 mL の質量 ＝ 105 g、塩化水素 ＝ 10.5 g、混合後の溶液 ＝ 105 ＋ 100 ＝ 205 g
+
+
+    質量パーセント濃度 ＝ 10.5 ÷ 205 × 100 ≒ 5.1 ％
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 5.1%
   _stem_head: 質量パーセント濃度が10.0%の塩酸の水溶液(密度1.05g·cm−3)100mLと精製水(密度1.00g·cm−3)100mLとを混合した水溶液の質量パーセント濃度として,正しい値に最も近いものは次のうちどれか.
+  columns: null
 - num: 6
   status: draft
   chapters:
@@ -97,15 +139,24 @@ questions:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の化合物のうち、その溶解度積の単位が(mol·L⁻¹)²ではないものはどれか。
+  choices:
+  - PbS
+  - PbCl₂
+  - PbCO₃
+  - PbCrO₄
+  - PbSO₄
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'PbCl₂ は、Pb²⁺ 1個と Cl⁻ 2個に電離するので、溶解度積は [Pb²⁺][Cl⁻]² となり、単位は **(mol/L)³** です。よって答えは（2）です。
+
+
+    他の4つは、いずれも1：1で電離する塩なので、溶解度積の単位は (mol/L)² です。'
   figures: []
   law_note: null
   _key_choice: PbCl2
   _stem_head: 次の化合物のうち,その溶解度積の単位が(mol·L−1)2ではないものはどれか.
+  columns: null
 - num: 7
   status: draft
   chapters:
@@ -115,15 +166,30 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ヨウ素(I₂)を0.20g含む水溶液100mLに四塩化炭素10mLを加えてI₂を抽出した。水溶液に残存するI₂の質量(g)として、正しい値は次のうちどれか。ただし、この抽出操作でI₂は分配平衡に到達したものとし、その分配係数を90とする。また、分配平衡にあるI₂の四塩化炭素と水中における質量濃度をそれぞれ[I₂]orgと[I₂]aqとすると、分配係数は、[I₂]org/[I₂]aqで定義される。
+  choices:
+  - 2.0×10⁻³
+  - 1.0×10⁻²
+  - 2.0×10⁻²
+  - 4.0×10⁻²
+  - 5.0×10⁻²
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '四塩化炭素に抽出された I₂ を x g とすると、
+
+
+    90 ＝ (x ÷ 10) ÷ [(0.20 − x) ÷ 100] → 10x ＝ 90 × (0.20 − x) → x ＝ 0.18 g
+
+
+    水溶液に残る I₂ ＝ 0.20 − 0.18 ＝ 0.020 g ＝ 2.0 × 10⁻² g
+
+
+    よって（3）が正しい値です。平成28年度第2回にも、同じ条件で抽出された量を問う問題があります。'
   figures: []
   law_note: null
   _key_choice: 2.0×10−2
   _stem_head: ヨウ素(I2)を0.20g含む水溶液100mLに四塩化炭素10mLを加えてI2を抽出した.水溶液に残存するI2の質量(g)として,正しい値は次のうちどれか.ただし,この抽出操作でI2は分配平衡に到達したものとし,その分配係数を90とする.ま
+  columns: null
 - num: 8
   status: draft
   chapters:
@@ -132,15 +198,23 @@ questions:
   - an-lab-equipment-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定における操作Ⓐと、それに用いる器具Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - 標準液の標定 ／ ビュレット
+  - 液-液抽出 ／ 分液ロート
+  - 乾式灰化 ／ ロータリーエバポレータ
+  - 標準液の調製 ／ メスフラスコ
+  - 蒸気の捕集 ／ 小型ガス吸収管
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 乾式灰化は、試料を電気炉などで高温に加熱して有機物を灰にする操作です。ロータリーエバポレーターは、減圧下で溶媒を蒸発させて試料を濃縮する器具なので、（3）が不適当です。
   figures: []
   law_note: null
   _key_choice: A乾式灰化Bロータリーエバポレータ
   _stem_head: 作業環境測定における操作Aと,それに用いる器具Bとの次の組合せのうち,不適当なものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 9
   status: draft
   chapters:
@@ -149,15 +223,24 @@ questions:
   - an-lab-equipment-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 石けん膜流量計では、一定の径のガラス管に石けん膜を張り、流れる気体により石けん膜が移動する。
+  - ロータメーター(面積式流量計)は、垂直に立てたテーパー管にフロート(浮子)を入れたものである。
+  - ロータメーターの指示値は、流れた気体の体積を示している。
+  - 石けん膜流量計は、ロータメーターの較正に用いられる。
+  - 湿式ガスメーターでは、ドラム内のローターの1回転で送られる気体の量が検量されている。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ロータメーター（面積式流量計）の指示値は、単位時間あたりに流れる気体の量（**流量**）です。流れた気体の体積を示すものではないので、選択肢3は誤りです。
+
+
+    流れた気体の体積（積算量）を量るのは、湿式ガスメーターなどです。'
   figures: []
   law_note: null
   _key_choice: ロータメーターの指示値は,流れた気体の体積を示している.
   _stem_head: 気体用流量計に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 10
   status: draft
   chapters:
@@ -166,15 +249,24 @@ questions:
   - an-reagents-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蒸留法では、水よりも沸点の高い成分を除去できる。
+  - イオン交換法では、原水中の金属イオンを除去できる。
+  - メンブランフィルターは、原水中の粒子を除去できる。
+  - 陽イオン交換樹脂は、原水中のハロゲン化物イオンを吸着し水素イオンを放出する。
+  - イオン交換水の純度の指標として比抵抗(Ω·cm)が用いられる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '陽イオン交換樹脂は、水中の**陽イオン**を吸着して水素イオンを放出します。ハロゲン化物イオンなどの陰イオンを吸着して水酸化物イオンを放出するのは、陰イオン交換樹脂です。選択肢4は誤りです。
+
+
+    平成29年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 陽イオン交換樹脂は,原水中のハロゲン化物イオンを吸着し水素イオンを放出する.
   _stem_head: 精製水の製造に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 11
   status: draft
   chapters:
@@ -184,15 +276,27 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酢酸溶液10.0mLを精製水で50.0mLにした後、フェノールフタレインを指示薬として水酸化ナトリウム溶液(0.100mol/L)で滴定したところ、終点までに要した水酸化ナトリウム溶液は10.4mLであった。酢酸溶液10.0mLに含まれていた酢酸の物質量(mmol)として正しい値は、次のうちどれか。
+  choices:
+  - 2.08×10⁻²
+  - 1.04×10⁻¹
+  - 2.08×10⁻¹
+  - '1.04'
+  - '2.08'
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '酢酸と水酸化ナトリウムは 1：1 で反応するので、酢酸の物質量は水酸化ナトリウムの物質量と同じです。
+
+
+    0.100 mol/L × 10.4 mL ＝ 1.04 mmol
+
+
+    よって（4）が正しい値です。精製水で 50.0 mL に薄めても、酢酸の物質量は変わりません。'
   figures: []
   law_note: null
   _key_choice: '1.04'
   _stem_head: 酢酸溶液10.0mLを精製水で50.0mLにした後,フェノールフタレインを指示薬として水酸化ナトリウム溶液(0.100mol/L)で滴定したところ,終点までに要した水酸化ナトリウム溶液は10.4mLであった.酢酸溶液10.0mLに含まれてい
+  columns: null
 - num: 12
   status: draft
   chapters:
@@ -202,15 +306,21 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: メタンを酸素過剰の状態で燃焼させたとき、生成する二酸化炭素の物質量に関する次の記述のうち、正しいものはどれか。
+  choices:
+  - メタンの1/2の物質量である。
+  - メタンと同じ物質量である。
+  - メタンの2倍の物質量である。
+  - メタンの3倍の物質量である。
+  - メタンの4倍の物質量である。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: メタンの完全燃焼は CH₄ ＋ 2O₂ → CO₂ ＋ 2H₂O なので、生成する二酸化炭素の物質量はメタンと**同じ**です。よって（2）が正しいものです。
   figures: []
   law_note: null
   _key_choice: メタンと同じ物質量である.
   _stem_head: メタンを酸素過剰の状態で燃焼させたとき,生成する二酸化炭素の物質量に関する次の記述のうち,正しいものはどれか.
+  columns: null
 - num: 13
   status: draft
   chapters:
@@ -220,15 +330,27 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの水溶液の波長450nmにおけるモル吸光係数は、12,000mol⁻¹·L·cm⁻¹である。物質Aの水溶液の吸光度を光路長1.0cmのセルを用いて450nmで測定したところ0.36であった。水溶液中の物質Aの濃度として、正しい値は次のうちどれか。
+  choices:
+  - 3.0×10⁻⁵mol·L⁻¹
+  - 8.0×10⁻⁵mol·L⁻¹
+  - 2.0×10⁻⁴mol·L⁻¹
+  - 2.0×10⁻³mol·L⁻¹
+  - 3.0×10⁻²mol·L⁻¹
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則から、
+
+
+    c ＝ 0.36 ÷ (12,000 × 1.0) ＝ 3.0 × 10⁻⁵ mol/L
+
+
+    よって（1）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 3.0×10−5mol·L−1
   _stem_head: 物質Aの水溶液の波長450nmにおけるモル吸光係数は,12,000mol−1·L·cm−1である.物質Aの水溶液の吸光度を光路長1.0cmのセルを用いて450nmで測定したところ0.36であった.水溶液中の物質Aの濃度として,正しい値は次の
+  columns: null
 - num: 14
   status: draft
   chapters:
@@ -237,15 +359,24 @@ questions:
   - an-spectrophotometry-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光度Eと透過率T(%)との関係は、E＝log₁₀(T/100)である。
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 吸光度は、試料セルの光路長に比例する。
+  - 吸光度は、呈色後の時間により変化することがある。
+  - モル吸光係数は、波長により異なる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '吸光度 E と透過率 T（％）の関係は、E ＝ log₁₀(100/T) です。E ＝ log₁₀(T/100) とする選択肢1は、分子と分母が逆で誤りです。
+
+
+    T/100 は1以下なので、その対数は負になってしまいます。'
   figures: []
   law_note: null
   _key_choice: 吸光度Eと透過率T(%)との関係は,E=log10(T/100)である.
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 15
   status: draft
   chapters:
@@ -254,15 +385,24 @@ questions:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレーム原子吸光分析法によるカドミウムの分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - カドミウムは、フレーム中で原子の蒸気になる。
+  - 原子化効率は、フレームの燃料組成により異なる。
+  - 光源は、カドミウム原子に固有の波長の光を発する。
+  - 吸光度は、試料溶液のカドミウムイオン濃度に比例する。
+  - フレーム中のカドミウム原子の発光強度を測定する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '原子吸光分析法は、フレーム中のカドミウム原子が光源の光を**吸収**する量を測定する方法です。発光強度を測定するとする選択肢5は誤りです。
+
+
+    令和6年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: フレーム中のカドミウム原子の発光強度を測定する.
   _stem_head: フレーム原子吸光分析法によるカドミウムの分析に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
   status: draft
   chapters:
@@ -271,15 +411,24 @@ questions:
   - an-fluorescence-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、入射光よりも長波長側に現れる。
+  - 蛍光強度は、入射光の強度に依存しない。
+  - 測定物質は、入射光を吸収する。
+  - 蛍光強度は、測定物質の濃度に比例する。
+  - 蛍光強度は、溶液の温度の影響を受ける。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '蛍光強度は、入射光（励起光）の強度に**比例**します（濃度が低い領域で）。「依存しない」とする選択肢2は誤りです。
+
+
+    平成28年度第1回にも、蛍光強度は励起光の強度に比例する、という正しい記述があります。'
   figures: []
   law_note: null
   _key_choice: 蛍光強度は,入射光の強度に依存しない.
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
   status: draft
   chapters:
@@ -288,15 +437,23 @@ questions:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 炎光光度検出器(FPD) ／ 硫化水素
+  - 水素炎イオン化検出器(FID) ／ n-ヘキサン
+  - 電子捕獲検出器(ECD) ／ ベンゼン
+  - 質量分析器(MS) ／ トルエン
+  - 光イオン化検出器(PID) ／ キシレン
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 電子捕獲検出器（ECD）は、ハロゲンを含む化合物などに高い感度をもつ検出器で、ベンゼンの分析には適しません。（3）が不適切です。
   figures: []
   law_note: null
   _key_choice: A電子捕獲検出器(ECD)Bベンゼン
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Aと分析対象物質Bとの次の組合せのうち,不適切なものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 18
   status: draft
   chapters:
@@ -305,15 +462,24 @@ questions:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - カラムの理論段数は、キャリヤーガスの種類により異なる。
+  - カラムの理論段数は、移動相の線速度により変化する。
+  - カラムの理論段数は、カラム内径が小さいほど小さくなる。
+  - カラムの理論段数は、カラム長が長いほど大きくなる。
+  - カラムの理論段数は、測定する物質によって異なる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'カラムの内径が小さいほど、理論段数は**大きく**なります。「小さくなる」とする選択肢3は誤りです。
+
+
+    平成30年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: カラムの理論段数は,カラム内径が小さいほど小さくなる.
   _stem_head: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 19
   status: draft
   chapters:
@@ -322,15 +488,21 @@ questions:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法には、連続X線が用いられる。
+  - この分析法は、石英の同定と定量に使われる。
+  - この分析法は、X線の回折角及び回折線の強度の測定により行われる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - フィルターに捕集した試料をそのまま分析することができる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: X 線回折分析法には、単一の波長の**特性 X 線**を用います。連続 X 線とする選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: この分析法には,連続X線が用いられる.
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
   status: draft
   chapters:
@@ -339,12 +511,19 @@ questions:
   - an-radiation-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 放射能の単位(Bq)を表す次の説明のうち、正しいものはどれか。
+  choices:
+  - 放射線のエネルギー
+  - 放射性原子の数
+  - 単位時間当たりの放射線の数
+  - 単位時間当たりに壊変する原子の数
+  - 単位質量当たりの放射性原子の数
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 放射能の単位 Bq は、**単位時間（1秒）あたりに壊変する原子の数**です。よって（4）が正しいものです。
   figures: []
   law_note: null
   _key_choice: 単位時間当たりに壊変する原子の数
   _stem_head: 放射能の単位(Bq)を表す次の説明のうち,正しいものはどれか.
+  columns: null
+excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

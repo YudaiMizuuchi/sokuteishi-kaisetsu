@@ -17,10 +17,10 @@ SRC = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else "data")
 
 SUBJECT_FILES = {
-    "design": "デザイン_サンプリング_罠の型一覧_22回.xlsx",
-    "bunseki": "分析に関する概論_罠の型一覧_22回.xlsx",
-    "ippan": "労働衛生一般_罠の型一覧_22回.xlsx",
-    "hourei": "労働衛生関係法令_罠の型一覧_22回.xlsx",
+    "design": "デザイン_サンプリング_ひっかけパターン一覧_19回.xlsx",
+    "bunseki": "分析に関する概論_ひっかけパターン一覧_19回.xlsx",
+    "ippan": "労働衛生一般_ひっかけパターン一覧_19回.xlsx",
+    "hourei": "労働衛生関係法令_ひっかけパターン一覧_19回.xlsx",
 }
 TRAP_PREFIX = {"design": "ds", "bunseki": "an", "ippan": "gn", "hourei": "lw"}
 
@@ -132,7 +132,7 @@ SEAT_CHAPTER = {
         "検知管": "detector-tube", "放射性物質": "radiation-sampling",
     },
     "bunseki": {
-        "単位と原子": "units", "データの扱い": "quantification", "物質量の計算": "mole",
+        "単位と原子": "units", "データの扱い": "quantification", "酸化数・酸化還元": "reaction", "物質量の計算": "mole",
         "気体": "gas", "有機化合物": "organic", "溶液": "solution-chem",
         "容量分析": "titration", "器具": "lab-equipment", "標準ガス": "standard-gas",
         "試薬": "lab-equipment", "検知管・定量法": "quantification",
@@ -206,8 +206,9 @@ TRAP_OVERRIDE = {
         "粉じん・ヒュームの発生と粒径": ("dust-disease", None),
         "情報機器作業（VDT）": ("other-environment", None),
         "腰痛予防（腰部保護ベルト・重量物・座作業）": ("other-environment", None),
-        "確定的影響と確率的影響": ("radiation-effects", None),
-        "壊変と半減期": ("radiation", "logarithm"),
+        "確定的影響と確率的影響の分類・しきい値・重篤度": ("radiation-effects", None),
+        "早期影響と晩発影響（脱毛・白内障の潜伏期）": ("radiation-effects", None),
+        "壊変（α壊変の質量数・半減期は温度に無関係）": ("radiation", "logarithm"),
         "WBGTと基準値": ("heat-cold", None),
     },
     "hourei": {
@@ -238,10 +239,20 @@ def exam_key(label):
     return f"{y}-08" if n == 1 else f"{y + 1}-02"
 
 
-def rank_of(name, count):
+def rank_of(name, count, subj=None, exams=()):
+    """19回版の基準でランクを決める（Excelのランク欄は数式で、値が入っていないため）。
+    A＝19回中4回以上、B＝2〜3回、C＝1回または「その他」。
+    法令は、2023年度以降を1.0、2019〜2022年度を0.7、2016〜2018年度を0.4とした重み付き回数で、A＝3.0以上、B＝1.5以上。"""
     if "その他" in name:
         return "C"
-    return "A" if count >= 3 else "B" if count == 2 else "C"
+    if subj == "hourei":
+        w = 0.0
+        for e in exams:
+            y, m = int(e[:4]), int(e[5:7])
+            fy = y - 1 if m <= 3 else y
+            w += 1.0 if fy >= 2023 else 0.7 if fy >= 2019 else 0.4
+        return "A" if w >= 3.0 - 1e-9 else "B" if w >= 1.5 - 1e-9 else "C"
+    return "A" if count >= 4 else "B" if count >= 2 else "C"
 
 
 def clean(v):
@@ -282,8 +293,11 @@ for f in (OUT / "exams").glob("*/*.yaml"):
             prev_q_trap[(d.get("exam"), d.get("subject"), it["num"])] = it["traps"][0]
 
 for subj, fname in SUBJECT_FILES.items():
-    t = pd.read_excel(SRC / fname, sheet_name="罠の型一覧")
-    q = pd.read_excel(SRC / fname, sheet_name="正答肢一覧")
+    # 19回版は「頻出テーマ」「ひっかけパターン」の表記。内部では従来の「席」「罠の型」の名前で扱う
+    REN = {"頻出テーマ": "席", "ひっかけパターン": "罠の型"}
+    sheet = "ひっかけパターン一覧" if "ひっかけパターン一覧" in pd.ExcelFile(SRC / fname).sheet_names else "罠の型一覧"
+    t = pd.read_excel(SRC / fname, sheet_name=sheet).rename(columns=REN)
+    q = pd.read_excel(SRC / fname, sheet_name="正答肢一覧").rename(columns=REN)
     q["exam"] = q["回"].map(exam_key)
 
     # 名前が同じ型は前回のID。名前を直した型は、同じ問題に付いていた旧IDを引き継ぐ
@@ -327,7 +341,7 @@ for subj, fname in SUBJECT_FILES.items():
             "seat": seat,
             "name": name,
             # ランクは罠の型一覧のExcelの値を使う（22回版は A＝5回以上、法令は重み付き回数で判定）
-            "rank": clean(r.get("ランク")) or rank_of(name, len(hits)),
+            "rank": clean(r.get("ランク")) or rank_of(name, len(hits), subj, list(hits["exam"])),
             "count": int(len(hits)),
             "exams": sorted(hits["exam"].unique().tolist()),
             "understanding": clean(r["正しい理解"]),

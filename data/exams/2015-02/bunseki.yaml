@@ -1,7 +1,7 @@
 exam: 2015-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
   status: draft
@@ -11,15 +11,23 @@ questions:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量Ⓐとそれを表す単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 質量濃度 ／ mg·m⁻³
+  - モル濃度 ／ mol·L⁻¹
+  - 圧力 ／ Pa·m⁻²
+  - 放射能濃度 ／ Bq·cm⁻³
+  - 実効線量 ／ Sv
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 圧力の SI 単位は Pa（N・m⁻²）で、Pa・m⁻² ではありません。選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: A圧力BPa·m−2
   _stem_head: 物理量Aとそれを表す単位記号Bとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
   status: draft
   chapters:
@@ -28,15 +36,30 @@ questions:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の計算で求めた分析値の表し方として、正しいものは下のうちどれか。ただし、各数値は有効数字で表されている。
+
+
+    (131＋33.5－0.236)×10⁻³／ (32.06×0.753)'
+  choices:
+  - 6.8043×10⁻³
+  - 6.804×10⁻³
+  - 6.80×10⁻³
+  - 6.8×10⁻³
+  - 7×10⁻³
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'まず足し算と引き算を行います。131 ＋ 33.5 − 0.236 ＝ 164.264 は、小数点以下の桁数が最も少ない 131（小数点以下0桁）に合わせて 164（3桁）です。次の掛け算・割り算は、有効数字の桁数が最も少ない 0.753（3桁）に合わせて、結果も3桁にします。
+
+
+    164 × 10⁻³ ÷ (32.06 × 0.753) ≒ 6.80 × 10⁻³
+
+
+    よって（3）が正しい表し方です。'
   figures: []
   law_note: null
   _key_choice: 6.80×10−3
   _stem_head: 次の計算で求めた分析値の表し方として,正しいものは下のうちどれか.ただし,各数値は有効数字で表されている.
+  columns: null
 - num: 3
   status: draft
   chapters:
@@ -45,15 +68,21 @@ questions:
   - an-organic-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フェノールの水溶液は、アルカリ性を示す。
+  - アニリンの水溶液は、アルカリ性を示す。
+  - プロピオン酸の水溶液は、酸性を示す。
+  - エタンは常温・常圧で気体である。
+  - 酢酸は、エタノールを酸化して合成できる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: フェノールの水溶液は、弱い**酸性**を示します。アルカリ性とする選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: フェノールの水溶液は,アルカリ性を示す.
   _stem_head: 有機化合物に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 4
   status: draft
   chapters:
@@ -62,15 +91,24 @@ questions:
   - an-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 1molの気体に関する次の記述のうち、正しいものはどれか。ただし、温度は絶対温度で表している。
+  choices:
+  - 温度が一定の条件では、体積を2倍にすると圧力は1/2倍になる。
+  - 体積が一定の条件で、温度を2倍にすると圧力は1/2倍になる。
+  - 圧力が一定の条件で、温度を2倍にすると体積は1/2倍になる。
+  - 温度と体積の両方を2倍にすると、圧力は1/2倍になる。
+  - 温度と圧力の両方を2倍にすると、体積は1/2倍になる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '温度が一定なら、気体の体積と圧力は反比例するので、体積を2倍にすると圧力は1/2倍になります（ボイルの法則）。よって（1）が正しいものです。
+
+
+    体積一定で温度を2倍にすると圧力は2倍、圧力一定で温度を2倍にすると体積は2倍、温度と体積を2倍にすると圧力は変わらず、温度と圧力を2倍にすると体積は変わりません。'
   figures: []
   law_note: null
   _key_choice: 温度が一定の条件では,体積を2倍にすると圧力は1/2倍になる.
   _stem_head: 1molの気体に関する次の記述のうち,正しいものはどれか.ただし,温度は絶対温度で表している.
+  columns: null
 - num: 5
   status: draft
   chapters:
@@ -79,15 +117,21 @@ questions:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 難溶性塩の溶解及び溶解度積に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 難溶性塩ABの溶解度積は、[A][B]で表される。
+  - 難溶性塩ABの溶解度積の単位は、mol²·L⁻²で表される。
+  - 溶解度積は、温度の影響を受ける。
+  - 溶解度積は、平衡定数である。
+  - ある温度における難溶性塩ABの溶解度は、その溶解度積が小さいものほど大きい。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 同じ形の塩（AB 型）どうしなら、溶解度積が**大きい**ものほど溶解度は大きくなります。「溶解度積が小さいものほど大きい」とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: ある温度における難溶性塩ABの溶解度は,その溶解度積が小さいものほど大きい.
   _stem_head: 難溶性塩の溶解及び溶解度積に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 6
   status: draft
   chapters:
@@ -97,15 +141,27 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物Aを0.040g含む水溶液100mLからヘキサン20mLにAを抽出した。ヘキサンに抽出されたAの質量として、正しい値は次のうちどれか。ただし、水とヘキサン間のAの分配係数[A]ヘキサン/[A]水は5.0とする。
+  choices:
+  - 0.016g
+  - 0.020g
+  - 0.024g
+  - 0.030g
+  - 0.033g
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ヘキサンに抽出された A を x g とすると、
+
+
+    5.0 ＝ (x ÷ 20) ÷ [(0.040 − x) ÷ 100] → 5x ＝ 5.0 × (0.040 − x) → x ＝ 0.020 g
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 0.020g
   _stem_head: 有機化合物Aを0.040g含む水溶液100mLからヘキサン20mLにAを抽出した.ヘキサンに抽出されたAの質量として,正しい値は次のうちどれか.ただし,水とヘキサン間のAの分配係数[A]ヘキサン/[A]水は5.0とする.
+  columns: null
 - num: 7
   status: draft
   chapters:
@@ -114,15 +170,24 @@ questions:
   - an-lab-equipment-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試料の捕集や分析に使用するガラス製体積計と流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 全量ビベットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい。
+  - 全量ピペットは、出用のガラス製体積計である。
+  - メスフラスコで水溶液を定容するときは、標線の上端とメニスカスの下端を合わせる。
+  - ロータメーター(面積式流量計)は、垂直に立てたテーパー管に浮子(フロート)を入れたものである。
+  - ロータメーター(面積式流量計)は、流れた気体の全体積を示す。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ロータメーター（面積式流量計）は、単位時間あたりに流れる気体の量（流量）を示すもので、流れた気体の全体積を示すものではありません。選択肢5は誤りです。
+
+
+    平成27年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: ロータメーター(面積式流量計)は,流れた気体の全体積を示す.
   _stem_head: 試料の捕集や分析に使用するガラス製体積計と流量計に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 8
   status: draft
   chapters:
@@ -131,49 +196,76 @@ questions:
   - an-standard-gas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '標準ガスの調製に関する次の記述の㋑、㋺、㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「［㋑］はテフロン管の壁面のガス透過性を利用したものであり、塩素や［㋺］など、加圧により［㋩］しやすい物質の標準ガスの調製に利用できる。」'
+  choices:
+  - ディフュージョンチューブ ／ 一酸化炭素 ／ 気化
+  - ディフュージョンチューブ ／ 硫化水素 ／ 液化
+  - パーミエーションチューブ ／ 一酸化炭素 ／ 液化
+  - パーミエーションチューブ ／ 硫化水素 ／ 気化
+  - パーミエーションチューブ ／ 硫化水素 ／ 液化
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'テフロン管の壁面のガス透過性を利用するのは**パーミエーションチューブ**（㋑）で、塩素や**硫化水素**（㋺）など、加圧すると**液化**（㋩）しやすい物質の標準ガスの調製に利用できます。よって（5）が正しい組合せです。
+
+
+    液化したガスをテフロン管に封入し、壁面を透過して出てくる量から濃度を決めます。'
   figures: []
   law_note: null
   _key_choice: イパーミエーションチューブロ硫化水素ハ液化
   _stem_head: 標準ガスの調製に関する次の記述のイ,ロ,ハの[]に入る語句の組合せとして,正しいものは下のうちどれか.
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
 - num: 9
   status: draft
   chapters:
   - units
-  traps:
-  - an-units-04
+  traps: []
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試料処理の操作Ⓐとその実際の操作例Ⓑとの次の組合せのうち、誤っているものはどれか。なお、Ⓑの操作は、いずれも作業環境測定における分析の試料処理として実際に行われている操作である。
+  choices:
+  - 溶解 ／ ろ紙上に捕集したカドミウムからその硝酸溶液を得る。
+  - 抽出 ／ 塩酸溶液中のo-トリジンからそのクロロホルム溶液を得る。
+  - 脱着 ／ シリカゲルに吸着したトルエンからそのアセトン溶液を得る。
+  - 濃縮 ／ PCBのトルエン溶液から大部分のトルエンを蒸留して除く。
+  - 発色 ／ α-ナフチルアミンのエチルエーテル溶液に無水硫酸ナトリウムを加える。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 無水硫酸ナトリウムを加える操作は、エチルエーテル溶液から水分を除く**脱水**の操作で、発色の操作ではありません。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: A発色Bα-ナフチルアミンのエチルエーテル溶液に無水硫酸ナトリウムを加える.
   _stem_head: 試料処理の操作Aとその実際の操作例Bとの次の組合せのうち,誤っているものはどれか.なお,Bの操作は,いずれも作業環境測定における分析の試料処理として実際に行われている操作である.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
   status: draft
   chapters:
   - quantification
-  traps:
-  - an-quantification-04
+  traps: []
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 直読式ガス検知管に関する次の記述のうち、不適当なものはどれか。
+  choices:
+  - 変色層の長さから濃度を読み取る。
+  - 変色層の長さは通気量に依存しない。
+  - 試料空気を取り入れる方向が決まっている。
+  - 測定対象物質によっては、同じ物質用でも測定可能な濃度範囲が異なるものがある。
+  - 冷暗所保存には、冷蔵庫保存が含まれる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 検知管の変色層の長さは、通気量（吸引した空気の量）に**依存します**。検知管は、決められた吸引量で目盛りが付けられているので、吸引量が違えば変色層の長さも変わります。「依存しない」とする選択肢2は不適当です。
   figures: []
   law_note: null
   _key_choice: 変色層の長さは通気量に依存しない.
   _stem_head: 直読式ガス検知管に関する次の記述のうち,不適当なものはどれか.
+  columns: null
 - num: 11
   status: draft
   chapters:
@@ -183,15 +275,39 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '鉄(Ⅱ)イオンの水溶液を過マンガン酸カリウム溶液(0.010mol·L⁻¹)で滴定したところ、終点までに10mLを要した。溶液中に含まれていた鉄(Ⅱ)イオンの質量として、正しい値は下のうちどれか。
+
+
+    この酸化還元滴定での鉄(Ⅱ)イオンと過マンガン酸イオンとの反応は、次の反応式に示すように進行する。
+
+
+    5Fe²⁺＋MnO₄⁻＋8H⁺→5Fe³⁺＋Mn²⁺＋4H₂O
+
+
+    また、鉄の原子量は56とする。'
+  choices:
+  - 5.6mg
+  - 12mg
+  - 18mg
+  - 24mg
+  - 28mg
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '反応式から、MnO₄⁻ 1 mol は Fe²⁺ 5 mol と反応します。
+
+
+    MnO₄⁻ ＝ 0.010 × 0.010 ＝ 1.0 × 10⁻⁴ mol → Fe²⁺ ＝ 5.0 × 10⁻⁴ mol
+
+
+    鉄の質量 ＝ 5.0 × 10⁻⁴ × 56 ＝ 28 mg
+
+
+    よって（5）が正しい値です。平成28年度第1回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: 28mg
   _stem_head: 鉄(II)イオンの水溶液を過マンガン酸カリウム溶液(0.010mol·L−1)で滴定したところ,終点までに10mLを要した.溶液中に含まれていた鉄(II)イオンの質量として,正しい値は下のうちどれか.
+  columns: null
 - num: 12
   status: draft
   chapters:
@@ -201,32 +317,49 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度1.0×10⁻²mol·L⁻¹の塩酸5.0mLと濃度5.0×10⁻³mol·L⁻¹の水酸化ナトリウム水溶液5.0mLとを混合した溶液の水素イオン濃度(mol·L⁻¹)は次のうちどれか。
+  choices:
+  - 1.0×10⁻³mol·L⁻¹
+  - 2.5×10⁻³mol·L⁻¹
+  - 5.0×10⁻³mol·L⁻¹
+  - 7.5×10⁻³mol·L⁻¹
+  - 9.0×10⁻³mol·L⁻¹
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'HCl ＝ 1.0 × 10⁻² × 0.0050 ＝ 5.0 × 10⁻⁵ mol、NaOH ＝ 5.0 × 10⁻³ × 0.0050 ＝ 2.5 × 10⁻⁵ mol
+
+
+    余る H⁺ ＝ 2.5 × 10⁻⁵ mol、溶液は 10 mL なので、[H⁺] ＝ 2.5 × 10⁻⁵ ÷ 0.010 ＝ 2.5 × 10⁻³ mol/L
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 2.5×10−3mol·L−1
   _stem_head: 濃度1.0×10−2mol·L−1の塩酸5.0mLと濃度5.0×10−3mol·L−1の水酸化ナトリウム水溶液5.0mLとを混合した溶液の水素イオン濃度(mol·L−1)は次のうちどれか.
+  columns: null
 - num: 13
   status: draft
   chapters:
   - units
-  traps:
-  - an-units-04
+  traps: []
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 光に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光光度分析法には、紫外から近赤外の領域の光が利用される。
+  - 紫外線は、赤外線より波長が長い。
+  - 紫外線は、可視光線より振動数が大きい。
+  - 波長と振動数の積は、光の速度に等しい。
+  - 光子のエネルギーは、光の振動数に比例する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 紫外線は、赤外線より波長が**短い**電磁波です。「長い」とする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 紫外線は,赤外線より波長が長い.
   _stem_head: 光に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 14
   status: draft
   chapters:
@@ -235,15 +368,21 @@ questions:
   - an-spectrophotometry-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光光度分析法は、ランベルトーベールの法則を利用する。
+  - 試料溶液を透過する光の強さは、測定対象物質の濃度に比例する。
+  - 透過度(透過光の強度/入射光の強度)の逆数の対数が吸光度である。
+  - 吸光度は、溶液層の厚さ(光路長)に比例する。
+  - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表すことができる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 試料溶液を透過する光の強さは、測定対象物質の濃度に比例するのではなく、濃度が増えると指数的に減少します。濃度に比例するのは吸光度です。選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 試料溶液を透過する光の強さは,測定対象物質の濃度に比例する.
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 15
   status: draft
   chapters:
@@ -252,15 +391,21 @@ questions:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属の原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料溶液中の測定対象金属を原子の蒸気にする。
+  - 光源は、測定対象金属に固有の波長の光を発する。
+  - 励起状態にある測定対象金属が光を吸収する。
+  - 吸光度は試料溶液中の測定対象金属の濃度に比例する。
+  - 吸光度は燃料ガスと助燃ガスの組成により変化する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 原子吸光分析法で光を吸収するのは、**基底状態**の原子です。励起状態とする選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: 励起状態にある測定対象金属が光を吸収する.
   _stem_head: 金属の原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
   status: draft
   chapters:
@@ -269,15 +414,21 @@ questions:
   - an-fluorescence-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 通常、液体の試料を用いる。
+  - 励起光は、一般に、赤外線を用いる。
+  - 励起光に対し、直角方向の蛍光を測定する。
+  - 蛍光は、励起光よりも長波長側に生じる。
+  - 蛍光強度は、濃度が薄い溶液において、測定物質の濃度に比例する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 蛍光光度分析法の励起光には、一般に**紫外線**（または短波長の可視光）を用います。赤外線とする選択肢2は誤りです。
   figures: []
   law_note: null
   _key_choice: 励起光は,一般に,赤外線を用いる.
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
   status: draft
   chapters:
@@ -286,15 +437,24 @@ questions:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリカラムを用いたガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリヤーガスには、ヘリウムや窒素が用いられる。
+  - キャリヤーガスの流速が小さいほど、カラムの理論段数は大きくなる。
+  - カラム内径が小さいほど、カラムの理論段数は大きくなる。
+  - カラム長が長いほど、カラムの理論段数は大きくなる。
+  - カラム温度が低いほど、保持時間は長くなる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '理論段数は、移動相の流速に対して最大になる最適な流速があり、流速が小さいほど大きくなるわけではありません。流速が小さすぎると、分子の拡散でピークが広がり、理論段数は小さくなります。選択肢2は誤りです。
+
+
+    ファン・デームター式 H ＝ A ＋ B/v ＋ Cv の第2項（B/v）が、流速が小さいときの影響を表しています。'
   figures: []
   law_note: null
   _key_choice: キャリヤーガスの流速が小さいほど,カラムの理論段数は大きくなる.
   _stem_head: キャピラリカラムを用いたガスクロマトグラフ分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 18
   status: draft
   chapters:
@@ -303,15 +463,21 @@ questions:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 水素炎イオン化検出器(FID)では、水素炎で試料がイオン化される。
+  - 電子捕獲検出器(ECD)では、β線照射で生じた電子が親電子化合物に捕獲されることを利用する。
+  - 水素炎イオン化検出器(FID)は、無機ガスの測定に用いられる。
+  - 電子捕獲検出器(ECD)は、有機ハロゲン化合物の測定に用いられる。
+  - 質量分析器(MS)は、有機化合物の測定に用いられる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 水素炎イオン化検出器（FID）は、有機化合物の測定に用いる検出器で、無機ガスにはほとんど応答しません。選択肢3は誤りです。
   figures: []
   law_note: null
   _key_choice: 水素炎イオン化検出器(FID)は,無機ガスの測定に用いられる.
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 19
   status: draft
   chapters:
@@ -320,15 +486,21 @@ questions:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X線に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - X線は、物質に対して電離作用がある。
+  - X線管から放射されるX線には、連続X線と特性X線がある。
+  - 特性X線は、原子の内殻電子が外殻へ遷移したときに発生する。
+  - KαX線の波長は、X線を発生する元素の原子番号が大きくなると短くなる。
+  - 連続X線は、高エネルギーの電子が物質に衝突したときに発生する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 特性 X 線は、原子の内殻の電子がはじき出されたあとに、**外殻の電子が内殻へ移る**ときに発生します。「内殻電子が外殻へ遷移したとき」とする選択肢3は、向きが逆で誤りです。
   figures: []
   law_note: null
   _key_choice: 特性X線は,原子の内殻電子が外殻へ遷移したときに発生する.
   _stem_head: X線に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
   status: draft
   chapters:
@@ -337,12 +509,19 @@ questions:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子核壊変の種類と原子の質量数の変化に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - α壊変では、質量数は4減少する。
+  - β⁻壊変では、質量数は変化しない。
+  - β⁺壊変では、質量数は変化しない。
+  - 軌道電子捕獲では、質量数は1減少する。
+  - 自発核分裂では、原子番号が減少した複数の原子が生成する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 軌道電子捕獲では、陽子が中性子に変わるだけなので、**質量数は変化しません**（原子番号が1減少）。「質量数は1減少する」とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: 軌道電子捕獲では,質量数は1減少する.
   _stem_head: 原子核壊変の種類と原子の質量数の変化に関する次の記述のうち,誤っているものはどれか.
+  columns: null
+excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

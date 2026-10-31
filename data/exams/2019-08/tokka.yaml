@@ -4,7 +4,7 @@ subject: tokka
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -26,7 +26,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -46,7 +46,7 @@ questions:
   law_note: null
   _review: true
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -66,7 +66,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -86,7 +86,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -106,7 +106,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -129,7 +129,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -149,7 +149,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -171,7 +171,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -191,7 +191,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -211,7 +211,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -231,7 +231,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -251,28 +251,30 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。H₃C CH₃
-  columns: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - 1,1-ジメチルヒドラジン ／ 図の1
+  - β-プロピオラクトン ／ 図の2
+  - クロロメチルメチルエーテル ／ 図の3
+  - α-ナフチルアミン ／ 図の4
+  - エチレンイミン ／ 図の5
   answer: 1
   choice_notes: []
   explanation: null
   figures:
-  - file: 2019-08-tokka-13-choices.png
-    alt: 問13の選択肢
+  - file: 2019-08-tokka-13-fig.png
+    alt: Ⓐ（名称）とⒷ（構造式）の2列。1＝1,1-ジメチルヒドラジン、ⒷはN−Nの単結合で、左のNにH₃CとH、右のNにCH₃とHが付いた式。2＝β-プロピオラクトン、ⒷはO＝C、CH₂、CH₂、Oの4つが四角形の環を作る式（C（＝O）の上にCH₂、右にCH₂、下にO）。3＝クロロメチルメチルエーテル、ⒷはCH₃−O−CH₂Clの式。4＝α-ナフチルアミン、Ⓑはベンゼン環が2つ縮合した環（ナフタレン骨格）の端の位置にNH₂が付いた式。5＝エチレンイミン、ⒷはH₂C−CH₂とNHが三角形の環を作る式。
   law_note: null
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -294,7 +296,7 @@ questions:
   law_note: null
   _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -314,7 +316,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -334,7 +336,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -356,7 +358,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -376,7 +378,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -396,22 +398,48 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。ただし、単位は次のとおりとする。吸引流量（L･min⁻¹）捕集時間（min）捕集液の量（mL）最終試料液の総量（mL）定量下限濃度（µg･mL⁻¹）管理濃度（mg･m⁻³）A×B Q ＝C×管理濃度A B C
-  columns: null
+  stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
+
+
+    ただし、単位は次のとおりとする。
+
+
+    吸引流量（L・min⁻¹）
+
+
+    捕集時間（min）
+
+
+    捕集液の量（mL）
+
+
+    最終試料液の総量（mL）
+
+
+    定量下限濃度（µg・mL⁻¹）
+
+
+    管理濃度（mg・m⁻³）
+
+
+    $Q=(A×B)/(C×管理濃度)$'
+  columns:
+  - Ⓐ
+  - Ⓑ
+  - Ⓒ
   choices:
-  - 吸引流量 捕集時間 0.01
-  - 定量下限濃度 最終試料液の総量 0.1
-  - 定量下限濃度 捕集時間 0.01
-  - 定量下限濃度 捕集液の量 0.01
-  - 吸引流量 捕集液の量 0.1
+  - 吸引流量 ／ 捕集時間 ／ 0.01
+  - 定量下限濃度 ／ 最終試料液の総量 ／ 0.1
+  - 定量下限濃度 ／ 捕集時間 ／ 0.01
+  - 定量下限濃度 ／ 捕集液の量 ／ 0.01
+  - 吸引流量 ／ 捕集液の量 ／ 0.1
   answer: 2
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
-  _review: true

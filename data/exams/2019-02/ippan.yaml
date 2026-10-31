@@ -1,325 +1,528 @@
 exam: 2019-02
 date: null
 subject: ippan
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
   - gn-risk-assessment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '厚生労働省の「化学物質等による危険性又は有害性等の調査等に関する指針」に関する次の㋑から㋥の記述について、誤っているものの組合せは、下のうちどれか。
+
+
+    ㋑ 発生可能性及び重篤度を考慮して行うリスクの見積りでは、必ずしも数値化する必要はなく、相対的な分類でも差し支えない。
+
+
+    ㋺ リスクの見積りにおいては、過去に発生した最も重篤な負傷又は疾病の重篤度を見積もる。
+
+
+    ㋩ 「ハザード（hazard）」とは、この指針における「危険性又は有害性」に相当する。
+
+
+    ㋥ 化学物質のばく露限界には、管理濃度、日本産業衛生学会の許容濃度、ACGIH（米国産業衛生専門家会議）のTLV-TWAなどが含まれる。'
+  choices:
+  - ㋑㋺
+  - ㋑㋩
+  - ㋑㋥
+  - ㋺㋩
+  - ㋺㋥
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '㋺ リスクの見積りでは、過去に発生した重篤度ではなく、**予想される最も重篤な**負傷又は疾病の重篤度を見積もります。㋥ 管理濃度は、作業環境測定の結果を評価するための行政上の値で、指針でいう「ばく露限界」（許容濃度や TLV-TWA など）には含まれません。よって、誤っているのは㋺と㋥の組合せ（5）です。
+
+
+    ㋑ 見積りは相対的な分類でもよい、㋩ ハザードは「危険性又は有害性」に当たる、は正しい記述です。
+
+
+    根拠：化学物質等による危険性又は有害性等の調査等に関する指針 8イ（管理濃度・濃度基準値と、それらが設定されていない場合の許容濃度や TLV-TWA 等の「ばく露限界」を分けて定めている）、9(3)ア（過去に実際に発生した重篤度ではなく、最悪の状況を想定した最も重篤な負傷又は疾病の重篤度を見積もる）。'
   figures: []
   law_note: null
-  _key_choice: ロニ
+  _key_choice: ㋺ ㋥
+  columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
   - gn-oh-management-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '厚生労働省の「VDT作業における労働衛生管理のためのガイドライン」に基づく対応に関する次の㋑から㋥の記述について、誤っているものの組合せは、下のうちどれか。
+
+
+    ㋑ ディスプレイ画面上における照度は、500ルクス以上になるようにする。
+
+
+    ㋺ 書類上及びキーボード上における照度は、300ルクス以上になるようにする。
+
+
+    ㋩ ディスプレイは、おおむね30cm以上の視距離が確保できるようにし、画面の上端が、眼と同じ高さか、やや上になるようにしている。
+
+
+    ㋥ VDT作業健康診断では、視力検査などの眼科学的検査のほか、上肢の運動機能などの筋骨格系に関する検査も行っている。'
+  choices:
+  - ㋑㋺
+  - ㋑㋩
+  - ㋺㋩
+  - ㋺㋥
+  - ㋩㋥
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '㋑ ディスプレイ画面上の照度は **500 ルクス以下**とします（画面が明るすぎると見えにくくなるため）。㋩ ディスプレイはおおむね **40 cm 以上**の視距離を確保し、画面の上端が眼と同じ高さか、やや**下**になるようにします。よって、誤っているのは㋑と㋩の組合せ（2）です。
+
+
+    令和4年度第2回にも、40 cm 以上・やや下という同じ論点があります。'
   figures: []
-  law_note: null
-  _key_choice: イハ
+  law_note: この問題の「VDT作業における労働衛生管理のためのガイドライン」は、令和元年7月12日に「情報機器作業における労働衛生管理のためのガイドライン」（基発0712第3号）に改められています。照度や視距離の考え方は引き継がれています。
+  _key_choice: ㋑ ㋩
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
   - gn-absorption-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質の代謝、吸収、蓄積等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 化学物質の生物学的半減期とは、体内に吸収された化学物質の量が半分に減るのに要する時間である。
+  - キシレンの生物学的モニタリング指標は、尿中のトリクロロ酢酸である。
+  - n-ヘキサンの生物学的モニタリング指標は、尿中の2,5-ヘキサンジオンである。
+  - スチレンの生物学的モニタリング指標は、尿中のマンデル酸である。
+  - 粒子状物質が経気道的に侵入した場合、空気力学相当径が1～2μm程度の大きさの粒子は肺胞に沈着しやすい。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'キシレンの生物学的モニタリングの指標は、尿中の**メチル馬尿酸**です。トリクロロ酢酸は、トリクロロエチレンなどの代謝物なので、選択肢2は誤りです。
+
+
+    令和2年度第2回・令和4年度第2回にも、キシレンとメチル馬尿酸の論点があります。'
   figures: []
   law_note: null
-  _key_choice: キシレンの生物学的モニタリング指標は,尿中のトリクロロ酢酸である.
+  _key_choice: キシレンの生物学的モニタリング指標は、尿中のトリクロロ酢酸である。
+  columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
   - gn-oxygen-deficiency-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 1,2-ジクロロプロパンは、肝臓及び腎臓の障害などのほか、長期間の高濃度ばく露により胆管がん発症につながる蓋然性が高い。
+  - 二硫化炭素中毒では、微細動脈瘤などの網膜の変化が起こる。
+  - ジメチル-2,2-ジクロロビニルフォスフェート(DDVP)は、神経系や肝臓の障害などのほか、ヒトに対する発がん性が疑われている。
+  - 硫化水素は、無色・無臭の気体であり、酸素欠乏症を起こす。
+  - コバルト及びその無機化合物は、接触性皮膚炎、気管支ぜんそくなどを引き起こすほか、ヒトに対する発がん性が疑われている。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '硫化水素は無色ですが、腐った卵のような**特有の臭い**がある気体です。「無色・無臭」とする選択肢4は誤りです。
+
+
+    ただし、高い濃度では嗅覚が麻痺して臭いを感じなくなるので、臭いで安全を判断することはできません。'
   figures: []
   law_note: null
-  _key_choice: 硫化水素は,無色・無臭の気体であり,酸素欠乏症を起こす.
+  _key_choice: 硫化水素は、無色・無臭の気体であり、酸素欠乏症を起こす。
+  columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
   - gn-occupational-cancer-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐとそれによって生じる主要ながんⒷとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 塩化ビニル ／ 肝血管肉腫
+  - ベンゾトリクロリド ／ 膀胱がん
+  - ビス(クロロメチル)エーテル ／ 肺がん
+  - ベンゼン ／ 白血病
+  - 石綿 ／ 胸膜中皮腫
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ベンゾトリクロリドによる主要ながんは**肺がん**です。膀胱がんとする選択肢2は誤りです。
+
+
+    令和5年度第1回にも、ベンゾトリクロリドと肺がんの正しい組合せがあります。'
   figures: []
   law_note: null
-  _key_choice: AベンゾトリクロリドB膀胱がん
+  _key_choice: Ⓐベンゾトリクロリド Ⓑ膀胱がん
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
   - gn-dust-disease-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 鉱物性粉じん及びそれによる健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
+  - じん肺は、ある程度進行すると、ばく露を中止しても、更に進行することがある。
+  - 遊離けい酸を含まない鉱物性粉じんの管理濃度は、3.0mg/m³である。
+  - じん肺の合併症としては、肺結核、続発性気管支炎、原発性肺がんなどがある。
+  - 鉱物性粉じんの有害性の程度は、遊離けい酸含有率によって異なる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '空気力学相当径は、その粒子と同じ沈降速度を示す、密度 1 g/cm³ の球形粒子の直径で、沈み方から求める値です。光学顕微鏡による粒径測定で求めるものではないので、選択肢1は誤りです。
+
+
+    令和5年度第2回・令和3年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 粉じんの空気力学相当径は,光学顕微鏡による粒径測定によって求められる.
+  _key_choice: 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
+  columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
   - gn-toxicity-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属による健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - カドミウム中毒では、上気道炎、肺炎、腎機能障害などがみられる。
+  - ヒ素中毒では、角化症、黒皮症などの皮膚障害、鼻中隔穿孔などの障害がみられる。
+  - ベリリウム中毒では、溶血性貧血、尿の赤色化などの症状がみられる。
+  - マンガンの慢性中毒では、神経質になるなどの精神症状のほか、歩行障害、発語障害、筋緊張亢進といったパーキンソン病に似た症状がみられる
+  - クロム酸や二クロム酸は、皮膚に接触すると充血や潰瘍を生じるほか、長期間のばく露によって鼻中隔穿孔、肺がんなどを生じる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '溶血性貧血や尿の赤色化は、**ヒ化水素（アルシン）**の中毒の特徴です。ベリリウムの代表的な健康障害は、肺の肉芽腫（ベリリウム肺）や皮膚炎なので、選択肢3は誤りです。
+
+
+    この組合せの誤りは、令和3年度第1回・令和7年度第1回にもあります。'
   figures: []
   law_note: null
-  _key_choice: ベリリウム中毒では,溶血性貧血,尿の赤色化などの症状がみられる.
+  _key_choice: ベリリウム中毒では、溶血性貧血、尿の赤色化などの症状がみられる。
+  columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
   - gn-organic-solvents-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機溶剤に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ハロゲン化炭化水素系有機溶剤は、一般に、肝臓に対する毒性が強い。
+  - トルエンによる健康障害として顕著なものは、再生不良性貧血などの造血器障害である。
+  - 有機溶剤による皮膚又は粘膜の障害としては、皮膚の角化、結膜炎などがある。
+  - メタノールは、トルエンより極性が大きい。
+  - 酢酸メチルは、視神経に障害を起こす。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 再生不良性貧血などの造血器障害を起こす有機溶剤は**ベンゼン**です。トルエンは、造血器障害を起こさないので、選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: トルエンによる健康障害として顕著なものは,再生不良性貧血などの造血器障害である.
+  _key_choice: トルエンによる健康障害として顕著なものは、再生不良性貧血などの造血器障害である。
+  columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
   - gn-heat-cold-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 温熱環境に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 温度感覚を左右する環境要素は、気温、湿度、気流及びふく射(放射)熱であり、この4要素によって温熱環境が定まる。
+  - 熱中症はⅠ度からⅢ度までに分類され、このうちⅢ度が最も重症である。
+  - WBGTには、基準値が定められており、WBGT値が基準値を超えている場合は、熱中症にかかるリスクが高まっていると判断される。
+  - WBGTの基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、高い値となる。
+  - 熱の放散は、ふく射(放射)、伝導、蒸発などにより行われ、蒸発には発汗と不感蒸泄によるものがある。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'WBGT 基準値は、同じ作業でも、熱に順化していない人の方が**低い**（厳しい）値になります。「高い値となる」とする選択肢4は誤りです。
+
+
+    令和元年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: WBGTの基準値は,同一作業であっても,熱に順化していない人の方が熱に順化している人よりも,高い値となる.
+  _key_choice: WBGTの基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、高い値となる。
+  columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
   - gn-vibration-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所振動障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 振動工具の日振動ばく露量は、周波数補正振動加速度実効値の3軸合成値が大きいほど大きくなる。
+  - 振動工具の日振動ばく露量は、振動ばく露時間が長いほど大きくなる。
+  - 日振動ばく露量が、5.0m/s²を超えないように、振動ばく露時間の抑制、低振動の振動工具の選定などを行う。
+  - 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手指のしびれなどの末梢循環障害が発生するおそれがある。
+  - 振動工具取扱い作業者に対する特殊健康診断を1年に2回実施する場合、そのうち1回は冬季に行うとよい。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '振動工具を使う作業で起こるレイノー現象は**末梢循環障害**、手指のしびれは**末梢神経障害**です。選択肢4は、2つの分類が入れ替わっていて誤りです。
+
+
+    振動工具の特殊健康診断を年2回行う場合、そのうち1回は冬季に行うとよい（選択肢5）という記述も、繰り返し出題されています。'
   figures: []
   law_note: null
-  _key_choice: 振動工具を使用する作業では,レイノー現象などの末梢神経障害及び手指のしびれなどの末梢循環障害が発生するおそれがある.
+  _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手指のしびれなどの末梢循環障害が発生するおそれがある。
+  columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
   - gn-noise-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 騒音に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - A測定の平均値及びB測定値が共に85dB(A)未満である単位作業場所は、第1管理区分に区分される。
+  - A測定の平均値又はB測定値のいずれかが90dB(A)以上である単位作業場所は、第3管理区分に区分される。
+  - A測定の平均値の算定には、80dB(A)未満の測定値は含めない。
+  - A測定の平均値は、測定値を幾何平均して求める。
+  - 騒音による聴力低下は、通常、会話領域より高い音域から始まる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 騒音の A 測定平均値は、80 dB(A) 以上の測定値の**算術平均**として求めます。幾何平均とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: A測定の平均値は,測定値を幾何平均して求める.
+  _key_choice: A測定の平均値は、測定値を幾何平均して求める。
+  columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - oxygen-deficiency
   traps:
   - gn-oxygen-deficiency-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酸素欠乏症及び硫化水素中毒に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 酸素欠乏症発生時の救助活動では、救出作業に従事する労働者に空気呼吸器、酸素呼吸器又は送気マスクを使用させる必要がある。
+  - 海水が滞留している暗きょの内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  - ドライアイスを使用して冷蔵を行っている冷蔵庫の内部での作業では、酸素欠乏症の危険がある。
+  - 石炭、硫化鉱又は鋼材を入れてあるタンクの内部での作業では、硫化水素中毒の危険がある。
+  - 空気中の酸素濃度が16%程度以下になると、頭痛、吐き気などの自覚症状が現れ、10%程度以下になると、意識喪失やけいれんが生じる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 石炭、硫化鉱、鋼材を入れてあるタンクの内部は、酸化によって酸素が消費されるため、酸素欠乏症の危険がある場所ですが、硫化水素中毒の危険はありません。選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 石炭,硫化鉱又は鋼材を入れてあるタンクの内部での作業では,硫化水素中毒の危険がある.
+  _key_choice: 石炭、硫化鉱又は鋼材を入れてあるタンクの内部での作業では、硫化水素中毒の危険がある。
+  columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
   - gn-em-waves-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の㋑から㋥の電磁波を波長の短いものから順に並べたものは下のうちどれか。
+
+
+    ㋑ 赤外線
+
+
+    ㋺ 可視光線
+
+
+    ㋩ γ線
+
+
+    ㋥ マイクロ波'
+  choices:
+  - ㋑―㋺―㋩―㋥
+  - ㋺―㋑―㋩―㋥
+  - ㋩―㋑―㋥―㋺
+  - ㋩―㋺―㋑―㋥
+  - ㋥―㋑―㋩―㋺
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '電磁波を波長の短いものから並べると、γ 線（㋩）、可視光線（㋺）、赤外線（㋑）、マイクロ波（㋥）の順です。よって（4）が正しいものです。
+
+
+    令和元年度第2回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
-  _key_choice: ハ―ロ―イ―ニ
+  _key_choice: ㋩―㋺―㋑―㋥
+  columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
-  - gn-radiation-01
+  - gn-radiation-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 電離放射線及びその影響に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 白血病は、晩発障害に分類される確率的影響である。
+  - しきい値は、確定的影響には存在するが、確率的影響には存在しないとされている。
+  - X線とγ線は、波長の長短ではなく、その発生過程の違いによって区別される。
+  - β線は、電離作用を有する電磁波である。
+  - α線、β線及びX線の中で、透過力が最も強いものはX線である。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'β 線は、電子（または陽電子）の流れで、電離作用を有する**粒子線**です。電磁波とする選択肢4は誤りです。
+
+
+    令和元年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: β線は,電離作用を有する電磁波である.
+  _key_choice: β線は、電離作用を有する電磁波である。
+  columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
   - gn-properties-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質などの性状及び挙動に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 気体の液体への溶解度は、一般に、液体の温度が高いほど大きい。
+  - 空気中に浮遊する粉じんは、密度が同じであれば粒径が小さくなるほど、沈降速度は遅くなる。
+  - 有機溶剤の蒸気密度は、空気の密度より大きいため、低いところに滞留しやすい。
+  - 混合有機溶剤から出る蒸気の組成は、一般に、元の混合有機溶剤の組成と異なる。
+  - 環境空気中の有害物質濃度の分布は、時間的にも空間的にも対数正規型に近い。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '気体の液体への溶解度は、一般に、液体の温度が**低い**ほど大きくなります。「温度が高いほど大きい」とする選択肢1は誤りです。
+
+
+    混合有機溶剤から出る蒸気の組成は、蒸気圧の高い成分ほど多くなるので、元の液体の組成とは異なります（選択肢4）。'
   figures: []
   law_note: null
-  _key_choice: 気体の液体への溶解度は,一般に,液体の温度が高いほど大きい.
+  _key_choice: 気体の液体への溶解度は、一般に、液体の温度が高いほど大きい。
+  columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
   - gn-ventilation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 局所排気装置に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 囲い式フードの制御風速とは、フード開口面における最小風速をいう。
+  - キャノピー型フードは、発生源からの熱による上昇気流を利用して捕捉するもので、レシーバ式フードに分類される。
+  - 空気清浄装置を付設する局所排気装置では、空気清浄装置は、フードに接続した吸引ダクトと排風機の間に設ける。
+  - ダクトの断面積が同じである場合、断面が長方形のダクトは円形のダクトに比べて圧力損失が大きい。
+  - スロット型フードは、発生源の周囲が覆われているもので、囲い式フードに分類される。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'スロット型フードは、細長いすき間から作業面の空気を吸い込むフードで、**外付け式フード**に分類されます。囲い式とする選択肢5は誤りです。
+
+
+    令和4年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: スロット型フードは,発生源の周囲が覆われているもので,囲い式フードに分類される.
+  _key_choice: スロット型フードは、発生源の周囲が覆われているもので、囲い式フードに分類される。
+  columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
   - gn-ppe-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 労働衛生保護具に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 粉じん用の電動ファン付き呼吸用保護具は、酸素濃度が18%未満の場所では使用できない。
+  - 耳栓には、主として高音を遮音し会話程度の低音を比較的通す1種と低音から高音までを遮音する2種の2つのタイプがある。
+  - レーザー用保護めがねは、直接のレーザービーム内観察には使用できない。
+  - 放射性物質による汚染のおそれのある区域内の作業で、オイルミストが混在する場合に使用する防じんマスクの区分は、RL3である。
+  - 使い捨て式防じんマスクは、厚生労働大臣が定める規格があり、検定の対象である。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '耳栓の1種は低音から高音までを遮音するもの、2種は主として高音を遮音し会話程度の低音を比較的通すものです。選択肢2は、1種と2種が逆になっていて誤りです。
+
+
+    令和元年度第1回・第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: 耳栓には,主として高音を遮音し会話程度の低音を比較的通す1種と低音から高音までを遮音する2種の2つのタイプがある.
+  _key_choice: 耳栓には、主として高音を遮音し会話程度の低音を比較的通す1種と低音から高音までを遮音する2種の2つのタイプがある。
+  columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
   - gn-ppe-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 防毒マスクに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 防毒マスクの有機ガス用の吸収缶の色は、黒である。
+  - 防毒マスクのアンモニア用の吸収缶の色は、緑である。
+  - 隔離式防毒マスクは、直結式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
+  - 有害物質の臭気等を感知できる濃度がばく露限界濃度より著しく小さい物質では、防毒マスクの使用中に臭気等を感知したときを吸収缶の交換時期とすることができるものがある。
+  - 顔への密着性を確認する方法の一つである陽圧法は、息を吸って、防毒マスクの面体と顔面との隙間から空気が面体内に漏れ込まず、面体が顔面に吸いつけられるかどうかを確認する方法である。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 面体を手で押さえて**息を吸い**、面体が顔面に吸いつけられるかを確認するのは「**陰圧法**」です。陽圧法は、排気弁をふさいで息を吐き、面体と顔面の間から空気が漏れないかを確認する方法なので、選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 顔への密着性を確認する方法の一つである陽圧法は,息を吸って,防毒マスクの面体と顔面との隙間から空気が面体内に漏れ込まず,面体が顔面に吸いつけられるかどうかを確認する方法である.
+  _key_choice: 顔への密着性を確認する方法の一つである陽圧法は、息を吸って、防毒マスクの面体と顔面との隙間から空気が面体内に漏れ込まず、面体が顔面に吸いつけられるかどうかを確認する方法である。
+  columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
   - gn-other-environment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 職場環境における健康障害に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 人間の抵抗力が非常に弱い場合は、通常、多くの人には感染しない菌が病気を発症させることがあり、これを日和見感染という。
+  - インフルエンザウイルスにはA型、B型及びC型の三つの型があるが、流行するのは、主としてA型及びB型である。
+  - 高気圧作業における減圧症は、急激な減圧に伴い、血液中や組織中に溶け込んでいた窒素の気泡化が関与して発生する。
+  - レーザー光線は、誘導放出による光の増幅によって人工的に作られた電磁波で、網膜の損傷を起こすことがある。
+  - ノロウイルスの食中毒は、主として夏季に集団食中毒として発生し、潜伏期間は、1～2日間である。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: ノロウイルスによる食中毒は、主として**冬季**に多く発生します。夏季とする選択肢5は誤りです。潜伏期間が1〜2日程度である点は正しい記述です。
   figures: []
   law_note: null
-  _key_choice: ノロウイルスの食中毒は,主として夏季に集団食中毒として発生し,潜伏期間は,1~2日間である.
+  _key_choice: ノロウイルスの食中毒は、主として夏季に集団食中毒として発生し、潜伏期間は、1～2日間である。
+  columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
   - gn-exposure-limits-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境評価基準に定める「管理濃度」及び日本産業衛生学会が勧告する「許容濃度等」に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 管理濃度は、有害環境下での労働者の労働時間に関係なく、その作業場所の作業環境に対して用いられる。
+  - 管理濃度が天井値として定められている有害物質はない。
+  - 許容濃度は、労働者が1日8時間、1週40時間程度、肉体的に激しくない労働を想定して定められたものである。
+  - 許容濃度の数値は、種類の異なる物質の毒性の強さの相対的な尺度に用いることはできない。
+  - 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 日本産業衛生学会の許容濃度等の勧告では、ヒトに対する発がん性を、**第1群、第2群A、第2群B の3種類**に分類しています。第3群を加えた4種類とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 許容濃度等の勧告において,ヒトに対する発がん性については,第1群,第2群A,第2群B及び第3群の4種類に分類されている.
+  _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
+  columns: null

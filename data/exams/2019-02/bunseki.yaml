@@ -1,78 +1,122 @@
 exam: 2019-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量ⒶとそのSI単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 質量濃度 ／ mg·m⁻³
+  - 質量モル濃度 ／ mol·kg⁻¹
+  - 粒子数濃度 ／ mg·cm⁻³
+  - 物質量 ／ mol
+  - 放射能面密度 ／ Bq·cm⁻²
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '粒子数濃度は、単位体積あたりの粒子の**個数**で表すので、単位は個/cm³ などです。mg・cm⁻³ は質量濃度の単位なので、選択肢3は誤りです。
+
+
+    令和2年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: A粒子数濃度Bmg·cm−3
+  _key_choice: Ⓐ粒子数濃度 Ⓑmg・cm⁻³
   _stem_head: 物理量AとそのSI単位記号Bとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - solution
   traps:
   - an-solution-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 捕集材に空気を流量100mL·min⁻¹で30.0分間通気して物質Aを23.60μg捕集した。捕集材の物質Aに対する捕集効率が85%であるとき、物質Aの空気中濃度（μg·L⁻¹）の数値の表示として適切なものは次のうちどれか。
+  choices:
+  - '9'
+  - '9.3'
+  - '9.25'
+  - '9.255'
+  - '9.2549'
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '捕集量を捕集効率で割って空気中にあった量に直し、通気量で割ります。
+
+
+    通気量 ＝ 100 mL/min × 30.0 分 ＝ 3.00 L、空気中の量 ＝ 23.60 ÷ 0.85 ≒ 27.8 µg
+
+
+    濃度 ＝ 27.8 ÷ 3.00 ≒ 9.25 µg/L
+
+
+    捕集効率 85 ％ は有効数字2桁なので、結果も2桁の **9.3** とします。よって（2）が適切です。
+
+
+    令和2年度第1回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: '9.3'
   _stem_head: 捕集材に空気を流量100mL·min−1で30.0分間通気して物質Aを23.60μg捕集した.捕集材の物質Aに対する捕集効率が85%であるとき,物質Aの空気中濃度(μg·L−1)の数値の表示として適切なものは次のうちどれか.
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体の一般的な性質に関する次の記述のうち、誤っているものはどれか。ただし、気体は水とは反応しないものとし、明示されていない条件は一定であるとする。
+  choices:
+  - 気体の体積は、絶対温度に比例する。
+  - 気体の圧力は、絶対温度に比例する。
+  - 気体の体積は、圧力に反比例する。
+  - 気体の水に対する溶解度は、その圧力に比例する。
+  - 気体の水に対する溶解度は、温度が高いほど高くなる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '気体の水に対する溶解度は、温度が**低い**ほど高くなります。「温度が高いほど高くなる」とする選択肢5は誤りです。
+
+
+    気体の溶解度が圧力に比例する（選択肢4）のは、ヘンリーの法則です。'
   figures: []
   law_note: null
-  _key_choice: 気体の水に対する溶解度は,温度が高いほど高くなる.
+  _key_choice: 気体の水に対する溶解度は、温度が高いほど高くなる。
   _stem_head: 気体の一般的な性質に関する次の記述のうち,誤っているものはどれか.ただし,気体は水とは反応しないものとし,明示されていない条件は一定であるとする.
+  columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 二酸化炭素2molと一酸化炭素3molとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として、正しい値は次のうちどれか。
+  choices:
+  - 0.3気圧
+  - 0.4気圧
+  - 0.5気圧
+  - 0.6気圧
+  - 0.7気圧
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 分圧は物質量の比で決まります。二酸化炭素の分圧 ＝ 1.0 × 2 ÷ (2 ＋ 3) ＝ 0.4 気圧です。よって（2）が正しい値です。
   figures: []
   law_note: null
   _key_choice: 0.4気圧
   _stem_head: 二酸化炭素2molと一酸化炭素3molとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として,正しい値は次のうちどれか.
+  columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -80,17 +124,35 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 'pH2.0の塩酸溶液を水で2倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log₁₀2＝0.301とする。
+
+
+    pH＝－log₁₀[H⁺]
+
+
+    なお、式中の[H⁺]は水素イオンのモル濃度を表す。'
+  choices:
+  - '2.0'
+  - '2.3'
+  - '3.0'
+  - '3.3'
+  - '4.0'
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'pH 2.0 の塩酸の水素イオン濃度は 0.010 mol/L で、2倍に希釈すると 0.0050 mol/L になります。
+
+
+    pH ＝ −log(0.0050) ＝ −log(0.010 ÷ 2) ＝ 2.0 ＋ 0.301 ≒ 2.3
+
+
+    よって（2）が正しい値です。令和2年度第1回にも、同じ型の問題があります。'
   figures: []
   law_note: null
   _key_choice: '2.3'
   _stem_head: pH2.0の塩酸溶液を水で2倍に希釈した溶液のpHとして,正しい値に最も近いものは下のうちどれか.ただし,pHは次の式で計算し,log102=0.301とする.
+  columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -98,34 +160,58 @@ questions:
   - an-solution-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 質量パーセント濃度が20.0%の塩酸(密度1.10g·cm⁻³)100mLに、精製水(密度1.00g·cm⁻³)100mLを加え、希釈した。この塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 10.0%
+  - 10.3%
+  - 10.5%
+  - 10.8%
+  - 11.0%
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '薄めても、溶質の質量は変わりません。
+
+
+    20.0 ％ 塩酸 100 mL の質量 ＝ 110 g、塩化水素 ＝ 22.0 g、希釈後の溶液 ＝ 110 ＋ 100 ＝ 210 g
+
+
+    質量パーセント濃度 ＝ 22.0 ÷ 210 × 100 ≒ 10.5 ％
+
+
+    よって（3）が正しい値です。令和6年度第1回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
   _key_choice: 10.5%
   _stem_head: 質量パーセント濃度が20.0%の塩酸(密度1.10g·cm−3)100mLに,精製水(密度1.00g·cm−3)100mLを加え,希釈した.この塩酸の質量パーセント濃度として,正しい値に最も近いものは次のうちどれか.
+  columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ホールピペットの容量に対する許容誤差の割合は、一般に、容量の小さなものの方が大きい。
+  - ガラス製体積計の検定は、20℃の水を用いて行われる。
+  - 一般的なマイクロシリンジでは、針の容積は目盛りに含まれない。
+  - メスフラスコで水溶液を定容するときは、標線の上端とメニスカスの下端を合わせる。
+  - メスフラスコを用いて溶液を希釈するときは、希釈前の溶液を用いてメスフラスコを共洗いする。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'メスフラスコを用いて溶液を希釈するときは、メスフラスコを希釈前の溶液で共洗いしてはいけません。共洗いすると、メスフラスコの内壁に残った溶液の分だけ溶質が多くなり、正しい濃度にならないからです。選択肢5は誤りです。
+
+
+    共洗いをするのは、ホールピペットやビュレットのように、中の液を「出して」使う器具です。中に液を「入れて」量を決めるメスフラスコでは、精製水でぬれたまま使って構いません。'
   figures: []
   law_note: null
-  _key_choice: メスフラスコを用いて溶液を希釈するときは,希釈前の溶液を用いてメスフラスコを共洗いする.
+  _key_choice: メスフラスコを用いて溶液を希釈するときは、希釈前の溶液を用いてメスフラスコを共洗いする。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   - gas
@@ -133,51 +219,86 @@ questions:
   - an-gas-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体のアセトン1.2mgを捕集袋内の清浄空気中で気化させて、標準ガス50Lを調製した。アセトンの標準ガス濃度として、最も近い値は次のうちどれか。ただし、アセトンのモル質量は58.08g·mol⁻¹とする。また、調製した標準ガスの温度は25℃、圧力は1気圧とする。
+  choices:
+  - 1.0ppm
+  - 5.0ppm
+  - 10ppm
+  - 15ppm
+  - 20ppm
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'アセトンの物質量を求め、気体の体積に直してから、50 L に対する割合を出します。
+
+
+    物質量 ＝ 1.2 × 10⁻³ g ÷ 58.08 ≒ 2.07 × 10⁻⁵ mol、体積 ＝ 2.07 × 10⁻⁵ × 24.45 ≒ 5.05 × 10⁻⁴ L
+
+
+    濃度 ＝ 5.05 × 10⁻⁴ ÷ 50 ≒ 1.0 × 10⁻⁵ ＝ 10 ppm
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 10ppm
+  _key_choice: 10 ppm
   _stem_head: 液体のアセトン1.2mgを捕集袋内の清浄空気中で気化させて,標準ガス50Lを調製した.アセトンの標準ガス濃度として,最も近い値は次のうちどれか.ただし,アセトンのモル質量は58.08g·mol−1とする.また,調製した標準ガスの温度は25°
+  columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試料の前処理Ⓐとその分析法Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - 酸溶解 ／ X線回折分析法
+  - 発色試薬添加 ／ 吸光光度分析法
+  - 溶媒脱着 ／ ガスクロマトグラフ分析法
+  - ろ過 ／ 高速液体クロマトグラフ分析法
+  - 有機溶媒抽出 ／ 原子吸光分析法
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法は、固体の結晶をそのまま測る方法なので、試料を酸で溶かす前処理はしません。（1）が不適当です。
+
+
+    令和元年度第1回・令和5年度第1回でも、試料をそのまま（溶かさずに）分析することが出題されています。'
   figures: []
   law_note: null
-  _key_choice: A酸溶解BX線回折分析法
+  _key_choice: Ⓐ酸溶解 ⒷX線回折分析法
   _stem_head: 試料の前処理Aとその分析法Bとの次の組合せのうち,不適当なものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ICP発光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - プラズマは、高周波電流を用いて発生させる。
+  - 試料溶液の粘性の違いは、測定値に影響を与える。
+  - 多元素を同時に測定することができる。
+  - 元素固有のスペクトル線を用いて分析する。
+  - 原子吸光分析法に比べて検量線の直線範囲が狭い。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ICP 発光分析法は、原子吸光分析法に比べて検量線の直線範囲が**広い**のが特徴です。「狭い」とする選択肢5は誤りです。
+
+
+    令和7年度第2回にも、ICP 発光分析法は検量線の直線範囲が広い、という記述があります。'
   figures: []
   law_note: null
-  _key_choice: 原子吸光分析法に比べて検量線の直線範囲が狭い.
+  _key_choice: 原子吸光分析法に比べて検量線の直線範囲が狭い。
   _stem_head: ICP発光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -185,34 +306,67 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度1.0×10⁻²mol·L⁻¹の塩酸30mLと濃度1.0×10⁻²mol·L⁻¹の水酸化ナトリウム水溶液10mLとを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0×10⁻³mol·L⁻¹
+  - 3.0×10⁻³mol·L⁻¹
+  - 5.0×10⁻³mol·L⁻¹
+  - 7.0×10⁻³mol·L⁻¹
+  - 9.0×10⁻³mol·L⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '混合した酸と塩基の物質量を比べ、余った分の濃度を求めます。
+
+
+    HCl ＝ 1.0 × 10⁻² × 0.030 ＝ 3.0 × 10⁻⁴ mol、NaOH ＝ 1.0 × 10⁻² × 0.010 ＝ 1.0 × 10⁻⁴ mol
+
+
+    余る H⁺ ＝ 2.0 × 10⁻⁴ mol、溶液は 40 mL なので、[H⁺] ＝ 2.0 × 10⁻⁴ ÷ 0.040 ＝ 5.0 × 10⁻³ mol/L
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 5.0×10−3mol·L−1
+  _key_choice: 5.0 × 10⁻³ mol・L⁻¹
   _stem_head: 濃度1.0×10−2mol·L−1の塩酸30mLと濃度1.0×10−2mol·L−1の水酸化ナトリウム水溶液10mLとを混合した溶液の水素イオン濃度として,正しい値は次のうちどれか.
+  columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   traps:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '難溶性の塩であるハロゲン化銀の溶解度積及び溶解度に関する次の記述のうち、誤っているものはどれか。ただし、各ハロゲン化銀の溶解度積は、以下の式で表され、その大きさはK_AgCl＞K_AgBr＞K_AgIの順であり、[ ]は、それぞれのイオンのモル濃度を表す。
+
+
+    K_AgCl＝[Ag⁺][Cl⁻]
+
+
+    K_AgBr＝[Ag⁺][Br⁻]
+
+
+    K_AgI＝[Ag⁺][I⁻]'
+  choices:
+  - 各溶解度積Kは、AgX(固体)⇄Ag⁺＋X⁻で示されるハロゲン化銀の溶解平衡の平衡定数である。ただし、X⁻はCl⁻、Br⁻、I⁻を表す。
+  - 平衡状態の溶液では、ハロゲン化銀の溶解する速度と生成する速度が等しい。
+  - 各溶解度積Kは、温度にかかわらず一定である。
+  - 各溶解度積Kの単位は、mol²·L⁻²である。
+  - 水へのモル溶解度が一番大きいのは、AgClである。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '溶解度積は平衡定数なので、**温度によって変化**します。「温度にかかわらず一定」とする選択肢3は誤りです。
+
+
+    溶解度積は、温度が一定なら、溶液中の他のイオンの濃度によらず一定です（令和7年度第1回）。「温度で変わる、共存イオンでは変わらない」と区別しましょう。'
   figures: []
   law_note: null
-  _key_choice: 各溶解度積Kは,温度にかかわらず一定である.
+  _key_choice: 各溶解度積Kは、温度にかかわらず一定である。
   _stem_head: 難溶性の塩であるハロゲン化銀の溶解度積及び溶解度に関する次の記述のうち,誤っているものはどれか.ただし,各ハロゲン化銀の溶解度積は,以下の式で表され,その大きさはK_AgCl>K_AgBr>K_AgIの順であり,[]は,それぞれのイオンのモ
+  columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -220,119 +374,179 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの濃度が2.0×10⁻⁵mol·L⁻¹の溶液を光路長1.0cmのセルに入れ、波長550nmの吸光度を測定したところ、0.360であった。濃度が不明な物質Aの溶液を光路長2.0cmのセルに入れ、波長550nmの吸光度を測定したところ、0.540であった。この溶液の物質Aの濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0×10⁻⁵mol·L⁻¹
+  - 1.5×10⁻⁵mol·L⁻¹
+  - 3.0×10⁻⁵mol·L⁻¹
+  - 4.5×10⁻⁵mol·L⁻¹
+  - 6.0×10⁻⁵mol·L⁻¹
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '既知の溶液からモル吸光係数を求め、未知の溶液の濃度を求めます。
+
+
+    ε ＝ 0.360 ÷ (2.0 × 10⁻⁵ × 1.0) ＝ 1.8 × 10⁴ L・mol⁻¹・cm⁻¹
+
+
+    c ＝ 0.540 ÷ (1.8 × 10⁴ × 2.0) ＝ 1.5 × 10⁻⁵ mol/L
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 1.5×10−5mol·L−1
+  _key_choice: 1.5 × 10⁻⁵ mol・L⁻¹
   _stem_head: 物質Aの濃度が2.0×10−5mol·L−1の溶液を光路長1.0cmのセルに入れ,波長550nmの吸光度を測定したところ,0.360であった.濃度が不明な物質Aの溶液を光路長2.0cmのセルに入れ,波長550nmの吸光度を測定したところ,0
+  columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 紫外部の測定には、光源として重水素放電管を用いる。
+  - ガラスセルは、紫外部の測定に用いることができる。
+  - ダブルビーム方式では、測定対象物質の溶解に用いた溶媒の吸収を補正できる。
+  - 吸光度の測定は、通常、測定対象物質の吸収極大の波長で行う。
+  - 測定対象物質の吸収極大の波長は、溶媒の種類により異なることがある。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ガラスは紫外線を吸収するので、紫外部の測定にはガラスセルは使えず、**石英セル**を用います。選択肢2は誤りです。
+
+
+    光源も、紫外部は重水素放電管、可視部はタングステンランプと使い分けます（選択肢1）。'
   figures: []
   law_note: null
-  _key_choice: ガラスセルは,紫外部の測定に用いることができる.
+  _key_choice: ガラスセルは、紫外部の測定に用いることができる。
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレームを用いる原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 中空陰極ランプは、光源として用いられる。
+  - フレームの種類により感度が変化する。
+  - 主として、金属元素の定量に用いられる。
+  - 励起状態の原子による吸光を測定する。
+  - 噴霧室では、噴霧された試料のうち大きい粒子が除かれる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 原子吸光分析法で光を吸収するのは、**基底状態**の原子です。励起状態の原子とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 励起状態の原子による吸光を測定する.
+  _key_choice: 励起状態の原子による吸光を測定する。
   _stem_head: フレームを用いる原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、電子励起状態から電子基底状態への電子の遷移で生じる。
+  - 励起光に対して直角方向の蛍光を測定する。
+  - 蛍光の強度は、励起光の波長を変えても変化しない。
+  - 蛍光の強度は、低濃度領域で励起光の強度に比例する。
+  - 蛍光の強度は、低濃度領域で蛍光物質の濃度に比例する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '蛍光の強度は、励起光の波長によって変化します。物質がよく吸収する波長の光で励起するほど、強い蛍光が得られます。「励起光の波長を変えても変化しない」とする選択肢3は誤りです。
+
+
+    蛍光分析では、励起波長と蛍光波長の両方を、目的物質に合わせて選びます。'
   figures: []
   law_note: null
-  _key_choice: 蛍光の強度は,励起光の波長を変えても変化しない.
+  _key_choice: 蛍光の強度は、励起光の波長を変えても変化しない。
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID）では、水素炎中で試料がイオン化される。
+  - 水素炎イオン化検出器（FID）は、無機ガスの定量に用いられる。
+  - 炎光光度検出器（FPD）は、水素過剰の水素炎中における測定対象物質中の特定の元素からの発光を分光し、定量する。
+  - 炎光光度検出器（FPD）は、硫黄化合物やリン化合物の定量に用いられる。
+  - 電子捕獲検出器（ECD）は、ハロゲン化合物の定量に用いられる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 水素炎イオン化検出器（FID）は、水素炎の中で有機化合物がイオン化することを利用した検出器で、炭素を含む有機化合物の定量に用いられます。無機ガスにはほとんど応答しないので、選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 水素炎イオン化検出器(FID)は,無機ガスの定量に用いられる.
+  _key_choice: 水素炎イオン化検出器（FID）は、無機ガスの定量に用いられる。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリーガスクロマトグラフ分析法に用いられるカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - カラムの温度に依存する。
+  - 固定相の種類により異なる。
+  - 移動相の流速に依存する。
+  - カラム長が長いほど大きくなる。
+  - カラム内径が小さいほど小さくなる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'カラムの内径が小さいほど、物質がカラムの断面方向に移動する距離が短くなり、ピークの広がりが抑えられるので、理論段数は**大きく**なります。「内径が小さいほど小さくなる」とする選択肢5は誤りです。
+
+
+    キャピラリーカラムが高い分離能をもつのは、内径が細いためです。'
   figures: []
   law_note: null
-  _key_choice: カラム内径が小さいほど小さくなる.
+  _key_choice: カラム内径が小さいほど小さくなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法に用いられるカラムの理論段数に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - X線管から出るX線は、特性X線と連続X線で構成される。
+  - 分析にはX線管から出るX線のうち連続X線が用いられる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - 結晶物質の定量は、回折X線の強度測定で求める。
+  - X線の回折角の測定にゴニオメーターを用いる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: X 線回折分析法には、X 線管から出る X 線のうち、**特性 X 線**を用います。連続 X 線とする選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 分析にはX線管から出るX線のうち連続X線が用いられる.
+  _key_choice: 分析にはX線管から出るX線のうち連続X線が用いられる。
   _stem_head: X線回折分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   - logarithm
@@ -340,12 +554,24 @@ questions:
   - an-logarithm-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 半減期8.0日の放射性核種の放射能が100分の1に減衰するまでの時間として、正しい値に最も近いものは次のうちどれか。ただし、log₁₀2＝0.301とする。
+  choices:
+  - 32日
+  - 41日
+  - 48日
+  - 53日
+  - 64日
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '放射能が 1/100 になるまでの時間を t とすると、(1/2)^(t/8.0) ＝ 1/100 です。両辺の対数をとると、
+
+
+    t ＝ 8.0 × log 100 ÷ log 2 ＝ 8.0 × 2 ÷ 0.301 ≒ 53 日
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 53日
   _stem_head: 半減期8.0日の放射性核種の放射能が100分の1に減衰するまでの時間として,正しい値に最も近いものは次のうちどれか.ただし,log102=0.301とする.
+  columns: null

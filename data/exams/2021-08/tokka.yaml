@@ -4,7 +4,7 @@ subject: tokka
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -24,7 +24,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -44,7 +44,7 @@ questions:
   law_note: null
   _review: true
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -64,7 +64,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -84,7 +84,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -96,7 +96,7 @@ questions:
   choices:
   - アクリロニトリル ／ アルカリ熱イオン化検出器（FTD）
   - ホルムアルデヒド ／ 水素炎イオン化検出器（FID）
-  - 3,3'-ジクロロ-4,4'-ジアミノ ／ 電子捕獲検出器（ECD）ジフェニルメタン(MOCA)
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA） ／ 電子捕獲検出器（ECD）
   - ナフタレン ／ 質量分析器（MS）
   - 硫酸ジメチル ／ 炎光光度検出器（FPD）
   answer: 2
@@ -106,7 +106,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -126,7 +126,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -146,7 +146,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -169,7 +169,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -189,7 +189,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -211,7 +211,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -231,7 +231,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -251,55 +251,51 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
   stem: 次の特定化学物質Ⓐについて、その構造式Ⓑが誤っているものはどれか。
-  columns: null
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - ニトログリコール ／ 図の1
+  - ジクロロベンジジン ／ 図の2
+  - ベンゾトリクロリド ／ 図の3
+  - o-トリジン ／ 図の4
+  - エチレンイミン ／ 図の5
   answer: 1
   choice_notes: []
   explanation: null
   figures:
-  - file: 2021-08-tokka-13-1.png
-    alt: 問13の図
-  - file: 2021-08-tokka-13-choices.png
-    alt: 問13の選択肢
+  - file: 2021-08-tokka-13-fig.png
+    alt: Ⓐ（名称）とⒷ（構造式）の2列。1＝ニトログリコール、Ⓑは2個のCが単結合し、各Cに上からOH・下からH・外側にNO₂（左はO₂N）が結合した式。2＝ジクロロベンジジン、Ⓑはベンゼン環2個が結合し、両端にNH₂（左はH₂N）、各環のNH₂の隣（左環は下、右環は上）にClが付いた式。3＝ベンゾトリクロリド、Ⓑはベンゼン環にCが結合し、そのCに3個のClが付いた式。4＝o-トリジン、Ⓑは2の式のClをCH₃（左環はH₃C）に替えた式。5＝エチレンイミン、Ⓑは2個のCH₂（左はH₂C）とNが三角形の環を作り、NにHが付いた式。
   law_note: null
-  _review: true
-  _import_flags:
-  - 選択肢を画像にした（文字で入れられるなら手で直す）
-  - 組合せの列を分けられない選択肢がある
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
   stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
-  columns: null
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - アミノ基 ／ −NH₂
+  - ビニル基 ／ −CH=CH₂
+  - イソシアネート基 ／ −O−C≡N
+  - アゾ基 ／ −N=N−
+  - カルボニル基 ／ −C(=O)−
   answer: 3
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2021-08-tokka-14-choices.png
-    alt: 問14の選択肢
+  figures: []
   law_note: null
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -319,7 +315,7 @@ questions:
   law_note: null
   _review: true
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -341,7 +337,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -363,7 +359,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -383,19 +379,19 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: バブラーを2本直列に接続し、試料空気を吸引した後、捕集された成分量をそれぞれ分析したところ1本目がa₁、2本目がa₂であった。2つのバブラーの捕集効率が同じであるとすると、バブラー1本の捕集効率を表す式として、正しいものは次のうちどれか。a₂
+  stem: バブラーを2本直列に接続し、試料空気を吸引した後、捕集された成分量をそれぞれ分析したところ1本目がa₁、2本目がa₂であった。2つのバブラーの捕集効率が同じであるとすると、バブラー1本の捕集効率を表す式として、正しいものは次のうちどれか。
   columns: null
   choices:
-  - a₁a₁
-  - a₁ ＋ a₂a₂
-  - a₁ ＋ a₂a₁ - a₂
-  - a₁ ＋ a₂a₂
-  - 1-a₁
+  - a<sub>2</sub>/a<sub>1</sub>
+  - a<sub>1</sub>/(a<sub>1</sub> ＋ a<sub>2</sub>)
+  - a<sub>2</sub>/(a<sub>1</sub> ＋ a<sub>2</sub>)
+  - (a<sub>1</sub>-a<sub>2</sub>)/(a<sub>1</sub> ＋ a<sub>2</sub>)
+  - 1-a<sub>2</sub>/a<sub>1</sub>
   answer: 5
   choice_notes: []
   explanation: null
@@ -403,7 +399,7 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null

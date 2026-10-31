@@ -1,78 +1,111 @@
 exam: 2017-02
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 単位に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 温度21.0℃は、約294.2Kである。
+  - 時間2.0hは、7.2×10³sである。
+  - 電流1.0Aは、1.0C·s⁻¹である。
+  - 体積1Lは、0.01dm³である。
+  - 気圧760.0mmHgは、約101.3kPaである。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 1 L は 1 dm³ です（1 dm ＝ 10 cm なので、1 dm³ ＝ 1,000 cm³ ＝ 1 L）。0.01 dm³ とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 体積1Lは,0.01dm3である.
+  _key_choice: 体積1 Lは、0.01 dm³である。
   _stem_head: 単位に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有効数字に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 5.43＋0.576の答えの有効数字の桁数は、3である。
+  - 0.145の有効数字の桁数は、3である。
+  - 4.642÷2.0の答えの有効数字の桁数は、4である。
+  - 3.640×10⁻⁶の有効数字の桁数は、4である。
+  - 7.01の2乗の答えの有効数字の桁数は、3である。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '割り算の結果は、有効数字の桁数が最も少ないものに合わせます。4.642（4桁）÷ 2.0（2桁）の答えは、**2桁**になります。4桁とする選択肢3は誤りです。
+
+
+    5.43 ＋ 0.576 ＝ 6.006 → 6.01（小数点以下2桁で3桁）、7.01² ＝ 49.14 → 49.1（3桁）は、いずれも正しい記述です。'
   figures: []
   law_note: null
-  _key_choice: 4.642÷2.0の答えの有効数字の桁数は,4である.
+  _key_choice: 4.642 ÷ 2.0の答えの有効数字の桁数は、4である。
   _stem_head: 有効数字に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体に関する次の記述のうち、誤っているものはどれか。ただし、明示されていない条件は一定であるとする。
+  choices:
+  - 気体の体積は、絶対温度に比例する。
+  - 気体の圧力は、絶対温度に比例する。
+  - 気体の体積は、圧力に反比例する。
+  - 水と反応しない気体の水に対する溶解度は、その圧力に比例する。
+  - 水と反応しない気体の水に対する溶解度は、温度が高いと高くなる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 水と反応しない気体の水に対する溶解度は、温度が**低い**ほど高くなります。「温度が高いと高くなる」とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 水と反応しない気体の水に対する溶解度は,温度が高いと高くなる.
+  _key_choice: 水と反応しない気体の水に対する溶解度は、温度が高いと高くなる。
   _stem_head: 気体に関する次の記述のうち,誤っているものはどれか.ただし,明示されていない条件は一定であるとする.
+  columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 二酸化炭素44gと一酸化炭素56gとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として、正しい値に最も近いものは、次のうちどれか。ただし、炭素及び酸素の原子量は、それぞれ12及び16とする。
+  choices:
+  - 0.33気圧
+  - 0.44気圧
+  - 0.56気圧
+  - 0.67気圧
+  - 0.88気圧
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '二酸化炭素 44 g は 1 mol、一酸化炭素 56 g は 2 mol です。
+
+
+    二酸化炭素の分圧 ＝ 1.0 × 1 ÷ (1 ＋ 2) ≒ 0.33 気圧
+
+
+    よって（1）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 0.33気圧
   _stem_head: 二酸化炭素44gと一酸化炭素56gとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として,正しい値に最も近いものは,次のうちどれか.ただし,炭素及び酸素の原子量は,それぞれ12及び16とする.
+  columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -80,17 +113,32 @@ questions:
   - an-solution-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 質量パーセント濃度が10.0%の塩酸（密度1.05g·cm⁻³）100mLに、精製水（密度1.00g·cm⁻³）50.0mLを加えて希釈した塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 6.6%
+  - 6.7%
+  - 6.8%
+  - 6.9%
+  - 7.0%
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '薄めても、溶質（塩化水素）の質量は変わりません。
+
+
+    10.0 ％ 塩酸 100 mL の質量 ＝ 105 g、塩化水素 ＝ 10.5 g、希釈後の溶液 ＝ 105 ＋ 50.0 ＝ 155 g
+
+
+    質量パーセント濃度 ＝ 10.5 ÷ 155 × 100 ≒ 6.8 ％
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 6.8%
   _stem_head: 質量パーセント濃度が10.0%の塩酸(密度1.05g·cm−3)100mLに,精製水(密度1.00g·cm−3)50.0mLを加えて希釈した塩酸の質量パーセント濃度として,正しい値に最も近いものは次のうちどれか.
+  columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -98,85 +146,129 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ヨウ素（I₂）を0.20g含む水溶液100mLに四塩化炭素10mLを加えてI₂を抽出した。四塩化炭素に抽出されたI₂の質量（g）として、正しい値は次のうちどれか。ただし、この抽出操作でI₂は分配平衡に到達したものとし、その分配係数を90とする。また、分配平衡にあるI₂の四塩化炭素相及び水相における質量濃度をそれぞれ[I₂]org及び[I₂]aqとすると、分配係数は、[I₂]org/[I₂]aqで定義される。
+  choices:
+  - '0.12'
+  - '0.14'
+  - '0.16'
+  - '0.18'
+  - '0.20'
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '四塩化炭素に抽出された I₂ を x g とすると、
+
+
+    90 ＝ (x ÷ 10) ÷ [(0.20 − x) ÷ 100] → 10x ＝ 90 × (0.20 − x) → 100x ＝ 18 → x ＝ 0.18 g
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: '0.18'
   _stem_head: ヨウ素(I2)を0.20g含む水溶液100mLに四塩化炭素10mLを加えてI2を抽出した.四塩化炭素に抽出されたI2の質量(g)として,正しい値は次のうちどれか.ただし,この抽出操作でI2は分配平衡に到達したものとし,その分配係数を90とす
+  columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試料の捕集や分析に使用する流量計とガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ロータメータは、垂直に立てたテーパー管に浮子(フロート)を入れたものである。
+  - ロータメータは、気体の流量の測定に用いる。
+  - ホールピペットの許容誤差の容量に対する割合は、容量の大きいものの方が大きい。
+  - 標準液の調製のように液体の体積を正確に量りとるときは、ホールピペットを使用する。
+  - メスフラスコで水溶液を定容するときは、標線の上端とメニスカスの下端を合わせる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ホールピペットの許容誤差の容量に対する割合は、容量の**小さい**ものの方が大きくなります。「容量の大きいものの方が大きい」とする選択肢3は誤りです。
+
+
+    小さなホールピペットは、わずかな誤差でも容量に対する割合が大きくなるためです。令和7年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: ホールピペットの許容誤差の容量に対する割合は,容量の大きいものの方が大きい.
+  _key_choice: ホールピペットの許容誤差の容量に対する割合は、容量の大きいものの方が大きい。
   _stem_head: 試料の捕集や分析に使用する流量計とガラス製体積計に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
   - an-standard-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準ガスの濃度は、拡散セル内の標準物質の減少速度から計算する。
+  - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない。
+  - 標準ガスの濃度を微調整するためには、希釈空気の流量よりも拡散セルの温度を変える方が容易である。
+  - 標準ガスの濃度は、拡散セルの温度を高くすると、高くなる。
+  - 標準ガスの濃度は、拡散セルの拡散チューブの内径が大きいほど高くなる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 標準ガスの濃度の微調整は、拡散セルの温度を変えるよりも、希釈空気の流量を変える方が容易です。選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 標準ガスの濃度を微調整するためには,希釈空気の流量よりも拡散セルの温度を変える方が容易である.
+  _key_choice: 標準ガスの濃度を微調整するためには、希釈空気の流量よりも拡散セルの温度を変える方が容易である。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試料の前処理Ⓐとその分析法Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - 酸溶解 ／ X線回折分析法
+  - 発色試薬添加 ／ 吸光光度分析法
+  - 加熱脱着 ／ ガスクロマトグラフ分析法
+  - 溶解 ／ 高速液体クロマトグラフ分析法
+  - 有機溶媒抽出 ／ 原子吸光分析法
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法は、固体の結晶をそのまま測る方法なので、試料を酸で溶かす前処理は行いません。（1）が不適当です。
+
+
+    平成30年度第2回にも、同じ問題があります。'
   figures: []
   law_note: null
-  _key_choice: A酸溶解BX線回折分析法
+  _key_choice: Ⓐ酸溶解 ⒷX線回折分析法
   _stem_head: 試料の前処理Aとその分析法Bとの次の組合せのうち,不適当なものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ICP発光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - プラズマは、高周波電流を用いて発生させる。
+  - 励起状態の原子又はイオンからの発光を測定する。
+  - 多元素を同時に測定することができる。
+  - 元素固有のスペクトル線を用いて分析する。
+  - 原子吸光分析法に比べて検量線の直線範囲が狭い。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: ICP 発光分析法は、原子吸光分析法に比べて検量線の直線範囲が**広い**のが特徴です。「狭い」とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 原子吸光分析法に比べて検量線の直線範囲が狭い.
+  _key_choice: 原子吸光分析法に比べて検量線の直線範囲が狭い。
   _stem_head: ICP発光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -184,17 +276,29 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 酢酸溶液10.0mLを精製水で50.0mLに希釈した後、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0×10⁻¹mol·L⁻¹）で滴定したところ、終点までに要した水酸化ナトリウム溶液は5.0mLであった。酢酸溶液の濃度として、正しい値は次のうちどれか。
+  choices:
+  - 2.0×10⁻²mol·L⁻¹
+  - 5.0×10⁻²mol·L⁻¹
+  - 1.0×10⁻¹mol·L⁻¹
+  - 2.0×10⁻¹mol·L⁻¹
+  - 4.0×10⁻¹mol·L⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '酢酸と水酸化ナトリウムは 1：1 で反応します。希釈しても酢酸の物質量は変わらないので、元の酢酸溶液 10.0 mL について、
+
+
+    酢酸の濃度 ＝ 2.0 × 10⁻¹ × 5.0 ÷ 10.0 ＝ 1.0 × 10⁻¹ mol/L
+
+
+    よって（3）が正しい値です。希釈後の 50.0 mL で割らないように注意しましょう。'
   figures: []
   law_note: null
-  _key_choice: 1.0×10−1mol·L−1
+  _key_choice: 1.0 × 10⁻¹ mol・L⁻¹
   _stem_head: 酢酸溶液10.0mLを精製水で50.0mLに希釈した後,フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10−1mol·L−1)で滴定したところ,終点までに要した水酸化ナトリウム溶液は5.0mLであった.酢酸溶液の濃度として
+  columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -202,17 +306,23 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: エタンを酸素過剰の状態で燃焼させたとき、生成する二酸化炭素の物質量に関する次の記述のうち、正しいものはどれか。
+  choices:
+  - エタンの1/2の物質量である。
+  - エタンと同じ物質量である。
+  - エタンの2倍の物質量である。
+  - エタンの3倍の物質量である。
+  - エタンの4倍の物質量である。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: エタン（C₂H₆）1分子の燃焼で、二酸化炭素は2分子できます。よって、生成する二酸化炭素の物質量はエタンの**2倍**で、（3）が正しいものです。
   figures: []
   law_note: null
-  _key_choice: エタンの2倍の物質量である.
+  _key_choice: エタンの2倍の物質量である。
   _stem_head: エタンを酸素過剰の状態で燃焼させたとき,生成する二酸化炭素の物質量に関する次の記述のうち,正しいものはどれか.
+  columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -220,131 +330,200 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの溶液を、光路長1.0cmのセル中に入れ、波長550nmにおける吸光度を測定したところ、0.36であった。この溶液中の物質Aの550nmにおけるモル吸光係数は1.2×10⁴mol⁻¹·L·cm⁻¹である。この溶液中の物質Aの濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0×10⁻⁵mol·L⁻¹
+  - 2.0×10⁻⁵mol·L⁻¹
+  - 3.0×10⁻⁵mol·L⁻¹
+  - 4.0×10⁻⁵mol·L⁻¹
+  - 5.0×10⁻⁵mol·L⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則から、
+
+
+    c ＝ A ÷ (ε × l) ＝ 0.36 ÷ (1.2 × 10⁴ × 1.0) ＝ 3.0 × 10⁻⁵ mol/L
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 3.0×10−5mol·L−1
+  _key_choice: 3.0 × 10⁻⁵ mol・L⁻¹
   _stem_head: 物質Aの溶液を,光路長1.0cmのセル中に入れ,波長550nmにおける吸光度を測定したところ,0.36であった.この溶液中の物質Aの550nmにおけるモル吸光係数は1.2×104mol−1·L·cm−1である.この溶液中の物質Aの濃度として
+  columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 可視部の測定には、光源としてタングステンランプを用いる。
+  - ダブルビーム方式では、測定対象物質の溶解に用いた溶媒の吸収を補正できる。
+  - 分析を妨害する成分は、あらかじめこれを分離、除去するか又はマスキングする。
+  - 吸光度の測定は、通常、極大吸収波長で行う。
+  - モル吸光係数は、光路長に比例する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: モル吸光係数は、物質と波長（と溶媒）で決まる値で、光路長には関係しません。光路長に比例するのは吸光度なので、選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: モル吸光係数は,光路長に比例する.
+  _key_choice: モル吸光係数は、光路長に比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: フレームを用いるカドミウムの原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光度の測定は、光源より照射されるカドミウムの原子スペクトルの波長で行う。
+  - 吸光度は、試料溶液中のカドミウム濃度に比例する。
+  - 吸光度は、バーナーの高さを変えても変化しない。
+  - 感度は、フレームの種類により変化する。
+  - 定量は、カドミウムの標準溶液を用いた検量線法で行う。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'フレーム原子吸光分析法では、バーナーの高さを変えると、光が通るフレームの部分（原子の多い部分かどうか）が変わるので、吸光度は**変化します**。「変化しない」とする選択肢3は誤りです。
+
+
+    バーナーの高さは、感度が最も高くなる位置に調整します。'
   figures: []
   law_note: null
-  _key_choice: 吸光度は,バーナーの高さを変えても変化しない.
+  _key_choice: 吸光度は、バーナーの高さを変えても変化しない。
   _stem_head: フレームを用いるカドミウムの原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
+  - 蛍光は、励起光よりも短波長側に生じる。
+  - 励起光に対して直角方向の蛍光を測定する。
+  - 蛍光強度は、励起光の波長により変化する。
+  - 蛍光強度は、低濃度領域で蛍光物質の濃度に比例する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 蛍光は、励起光よりも**長波長側**に生じます。励起された分子がエネルギーの一部を熱として失ってから光を出すからです。「短波長側」とする選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 蛍光は,励起光よりも短波長側に生じる.
+  _key_choice: 蛍光は、励起光よりも短波長側に生じる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: あるカラムを用いて一定の温度で物質Aをガスクロマトグラフ分析法で分析した。そのときの保持時間はt、ピークの半値幅はWであった。このカラムを2本直列につなぎ、同一の流量で分析した時の保持時間Ⓐとピークの半値幅Ⓑとの組合せとして、正しいものは次のうちどれか。なお、カラムは理想的につながれたものとする。
+  choices:
+  - t ／ W
+  - t ／ 2W
+  - 2t ／ W
+  - 2t ／ √2W
+  - 2t ／ 2W
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: カラムを2本つなぐと、カラムの長さが2倍になるので、保持時間は**2倍**になり、ピーク幅（半値幅）は理論段数の平方根に関係するので **√2 倍**になります。よって（4）が正しい組合せです。
   figures: []
   law_note: null
-  _key_choice: A2tB√2W
+  _key_choice: Ⓐ2t Ⓑ\sqrt{2}W
   _stem_head: あるカラムを用いて一定の温度で物質Aをガスクロマトグラフ分析法で分析した.そのときの保持時間はt,ピークの半値幅はWであった.このカラムを2本直列につなぎ,同一の流量で分析した時の保持時間Aとピークの半値幅Bとの組合せとして,正しいものは次
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフ分析に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 炎光光度検出器（FPD） ／ 硫化水素
+  - 水素炎イオン化検出器（FID） ／ ホルムアルデヒド
+  - 電子捕獲検出器（ECD） ／ トリクロロエチレン
+  - 質量分析器（MS） ／ トルエン
+  - 光イオン化検出器（PID） ／ キシレン
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '水素炎イオン化検出器（FID）は、水素炎の中で燃焼してイオン化する物質を検出するもので、ほとんどの有機化合物を検出しますが、例外的に、ホルムアルデヒド、ギ酸、二硫化炭素などは検出されません。（2）が不適切です。
+
+
+    ハロゲン化物や酸化物のような燃えにくい有機化合物にも、FID の感度は低くなります。ホルムアルデヒドの分析には、誘導体化して高速液体クロマトグラフ分析法を用いるなどの方法がとられます。
+
+
+    （参考：『作業環境測定のための機器分析の実務［特定化学物質・金属類・有機溶剤］』（2019年 初版） 2.6 ガスクロマトグラフ分析法「水素炎イオン化検出器（FID）」）'
   figures: []
   law_note: null
-  _key_choice: A水素炎イオン化検出器(FID)Bホルムアルデヒド
+  _key_choice: Ⓐ水素炎イオン化検出器（FID） Ⓑホルムアルデヒド
   _stem_head: ガスクロマトグラフ分析に用いられる検出器Aと分析対象物質Bとの次の組合せのうち,不適切なものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法は、結晶性の物質の同定や定量に使われる。
+  - この分析法は、ガラスプリズムで単色化させたX線を試料に照射して行われる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - フィルターに捕集した試料を、そのまま分析することができる。
+  - X線の回折角度の測定にゴニオメータを用いる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: X 線は、ガラスプリズムでは単色化できません。X 線回折分析法では、金属薄膜のフィルターやモノクロメーター（結晶）で単一の波長の X 線を取り出します。選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: この分析法は,ガラスプリズムで単色化させたX線を試料に照射して行われる.
+  _key_choice: この分析法は、ガラスプリズムで単色化させたX線を試料に照射して行われる。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
   - an-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子又は素粒子Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - α壊変 ／ ⁴He原子核
+  - β⁻壊変 ／ 陰電子
+  - β⁺壊変 ／ 陽電子
+  - 自発核分裂 ／ 中性子
+  - 軌道電子捕獲 ／ 陽子
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 軌道電子捕獲は、原子核が軌道電子を取り込む壊変で、陽子を放出するものではありません。壊変に伴って特性 X 線などが出ます。「陽子」とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: A軌道電子捕獲B陽子
+  _key_choice: Ⓐ軌道電子捕獲 Ⓑ陽子
   _stem_head: 壊変形式Aと,壊変に伴って原子から放出される粒子又は素粒子Bとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ

@@ -4,7 +4,7 @@ subject: tokka
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -24,7 +24,7 @@ questions:
   law_note: null
   _review: true
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -44,7 +44,7 @@ questions:
   law_note: null
   _review: true
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -64,7 +64,7 @@ questions:
   law_note: null
   _review: true
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -87,7 +87,7 @@ questions:
   law_note: null
   _review: true
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -107,7 +107,7 @@ questions:
   law_note: null
   _review: true
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -127,7 +127,7 @@ questions:
   law_note: null
   _review: true
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -147,7 +147,7 @@ questions:
   law_note: null
   _review: true
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -170,7 +170,7 @@ questions:
   law_note: null
   _review: true
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -190,7 +190,7 @@ questions:
   law_note: null
   _review: true
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -212,7 +212,7 @@ questions:
   law_note: null
   _review: true
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -232,7 +232,7 @@ questions:
   law_note: null
   _review: true
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -252,33 +252,49 @@ questions:
   law_note: null
   _review: true
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
   stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
-  columns: null
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - フェニル基 ／ 図の1
+  - アミド基 ／ 図の2
+  - カルボニル基 ／ 図の3
+  - シアノ基 ／ 図の4
+  - ニトロ基 ／ 図の5
   answer: 1
   choice_notes: []
   explanation: null
   figures:
-  - file: 2026-08-tokka-13-choices.png
-    alt: 問13の選択肢
+  - file: 2026-08-tokka-13-fig.png
+    alt: Ⓐ（名称）とⒷ（式）の2列の表。1＝フェニル基、Ⓑは左に結合手が伸びた酸素原子（-O-）にベンゼン環が結合した式。2＝アミド基、Ⓑは炭素原子に酸素原子が二重結合し（C=O）、アミノ基（NH$_2$）が結合した式で、炭素の左下に結合手が伸びる。3＝カルボニル基、Ⓑは炭素原子に酸素原子が二重結合し、炭素の左上と右上に結合手が伸びた式。4＝シアノ基、Ⓑは-CN。5＝ニトロ基、Ⓑは-NO$_2$。
   law_note: null
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 体積 2 L の3個の容器に、アクリロニトリル（A）、酸化プロピレン（B）、ヨウ化メチル（C）をそれぞれ 1 g ずつ別々に入れて密封し 20 ℃に保った｡定常状態になったとき、各容器中のそれぞれの物質の分圧（PA、PB、PC）を大きい順に並べたものは下のうちどれか。ただし、アクリロニトリル、酸化プロピレン、ヨウ化メチルの物性等は次の表のとおりとする。
+  stem: '体積2 Lの3個の容器に、アクリロニトリル（A）、酸化プロピレン（B）、ヨウ化メチル（C）をそれぞれ1 gずつ別々に入れて密封し20 ℃に保った。定常状態になったとき、各容器中のそれぞれの物質の分圧（P<sub>A</sub>、P<sub>B</sub>、P<sub>C</sub>）を大きい順に並べたものは下のうちどれか。
+
+
+    ただし、アクリロニトリル、酸化プロピレン、ヨウ化メチルの物性等は次の表のとおりとする。
+
+
+    |  | モル質量（g・mol⁻¹） | 20 ℃における飽和蒸気圧 |
+
+    |---|---|---|
+
+    | アクリロニトリル（A） | 53 | 15 kPa |
+
+    | 酸化プロピレン（B） | 58 | 59 kPa |
+
+    | ヨウ化メチル（C） | 142 | 54 kPa |'
   columns: null
   choices:
   - PA ＞ PC ＞ PB
@@ -289,34 +305,34 @@ questions:
   answer: 2
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2026-08-tokka-14-1.png
-    alt: 問14の図
+  figures: []
   law_note: null
   _review: true
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
   stem: 化合物Ⓐとその構造式Ⓑとの次の組合せのうち、誤っているものはどれか。
-  columns: null
+  columns:
+  - Ⓐ
+  - Ⓑ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - ベンゾトリクロリド ／ 図の1
+  - エチレンオキシド ／ 図の2
+  - p-ジメチルアミノアゾベンゼン ／ 図の3
+  - クロロメチルメチルエーテル ／ 図の4
+  - β-プロピオラクトン ／ 図の5
   answer: 1
   choice_notes: []
   explanation: null
   figures:
-  - file: 2026-08-tokka-15-choices.png
-    alt: 問15の選択肢
+  - file: 2026-08-tokka-15-fig.png
+    alt: Ⓐ（名称）とⒷ（構造式）の2列の表。1＝ベンゾトリクロリド、Ⓑはベンゼン環の隣り合う3つの炭素にそれぞれClが結合した式（Clは環の上・左上・右上）。2＝エチレンオキシド、ⒷはH$_2$CとCH$_2$を結ぶ結合と、両者の上に位置する酸素原子Oとで三角形の環をつくった式。3＝p-ジメチルアミノアゾベンゼン、Ⓑは2つのベンゼン環がN=Nで結合し、右のベンゼン環の反対側にNがあり、そのNに2つのCH$_3$が結合した式。4＝クロロメチルメチルエーテル、ⒷはCH$_3$-O-CH$_2$Cl。5＝β-プロピオラクトン、ⒷはO=C、CH$_2$、CH$_2$、Oの4つが環をつくった四員環の式（C=Oは環外の酸素と二重結合）。
   law_note: null
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -336,7 +352,7 @@ questions:
   law_note: null
   _review: true
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -358,7 +374,7 @@ questions:
   law_note: null
   _review: true
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -378,7 +394,7 @@ questions:
   law_note: null
   _review: true
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -398,23 +414,54 @@ questions:
   law_note: null
   _review: true
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   summary: null
-  stem: 液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。ただし、単位は次のとおりとする。（単位、式及び選択肢は下の図のとおり）
-  columns: null
+  stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量 Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
+
+
+    ただし、単位は次のとおりとする。
+
+
+    吸引流量（L・min⁻¹）
+
+
+    捕集時間（min）
+
+
+    捕集液の量（mL）
+
+
+    最終試料液の総量（mL）
+
+
+    検出下限濃度（μg・mL⁻¹）
+
+
+    定量下限濃度（μg・mL⁻¹）
+
+
+    管理濃度（mg・m<sup>-3</sup>）
+
+
+    抑制濃度（mg・m<sup>-3</sup>）
+
+
+    Q=(A× B)/(0.1× C)'
+  columns:
+  - Ⓐ
+  - Ⓑ
+  - Ⓒ
   choices:
-  - 図の1
-  - 図の2
-  - 図の3
-  - 図の4
-  - 図の5
+  - 定量下限濃度 ／ 最終試料液の総量 ／ 管理濃度
+  - 定量下限濃度 ／ 最終試料液の総量 ／ 抑制濃度
+  - 検出下限濃度 ／ 最終試料液の総量 ／ 管理濃度
+  - 吸引流量 ／ 捕集時間 ／ 管理濃度
+  - 吸引流量 ／ 捕集液の量 ／ 抑制濃度
   answer: 1
   choice_notes: []
   explanation: null
-  figures:
-  - file: 2026-08-tokka-20-choices.png
-    alt: 問20の選択肢
+  figures: []
   law_note: null

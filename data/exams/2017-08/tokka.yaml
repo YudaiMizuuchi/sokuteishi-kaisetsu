@@ -1,0 +1,385 @@
+exam: 2017-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光度は、試料液の濃度と液層の長さの積に比例する。
+  - 発色試薬には、無機試薬と有機試薬がある。
+  - 着色液は、時間の経過とともに退色することがある。
+  - 試料液を透過した光の強さは、試料液の濃度に比例する。
+  - ガラス製のセルは、紫外部の光を吸収する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ある化合物を含む水溶液の濃度を吸光光度分析法で測定したところ、測定波長における透過率は50%であった。その波長におけるモル吸光係数を8.26×10³cm⁻¹·mol⁻¹·L、セルの光路長を1.0cmとすると、この化合物のモル濃度に最も近いものは次のうちどれか。ただし、log₁₀2＝0.301とする。
+  choices:
+  - 1.8×10⁻⁵mol·L⁻¹
+  - 3.6×10⁻⁵mol·L⁻¹
+  - 6.1×10⁻⁵mol·L⁻¹
+  - 7.3×10⁻⁵mol·L⁻¹
+  - 8.3×10⁻⁵mol·L⁻¹
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気（25℃、1気圧）中のシアン化水素濃度を液体捕集法－吸光光度分析法により測定した。ミゼットインピンジャーに捕集液10mLを入れ、シアン化水素を含む環境空気を、流量0.50L/minで15分間吸引し、シアン化水素を捕集した。捕集後の捕集液10mLのうちの2mLを取り、これに必要な試薬を加え、発色操作を行い15.2mLの最終試料液を調製した。この最終試料液中のシアン化物イオン（CN⁻）の濃度を測定したところ、0.31μg/mLであった。この環境空気中のシアン化水素濃度に最も近いものは、次のうちどれか。ただし、捕集率は100%とする。
+  choices:
+  - 1ppm
+  - 2ppm
+  - 3ppm
+  - 4ppm
+  - 5ppm
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '吸光光度分析法における次の㋑から㋥の項目のうち、検量線の傾きに関係があるもののみの組合せは下のうちどれか。
+
+
+    ㋑ 光源の光の強度
+
+
+    ㋺ セルの光路長
+
+
+    ㋩ 溶質のモル吸光係数
+
+
+    ㋥ 発色試薬の濃度'
+  choices:
+  - ㋑㋺
+  - ㋑㋩
+  - ㋺㋩
+  - ㋺㋥
+  - ㋩㋥
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に用いる充塡カラムのコンディショニング（エージング）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリアガスを流して行う。
+  - 検出器に接続しないで行う。
+  - 室温からカラム最高使用温度まで速やかに昇温させて行う。
+  - 通常、一昼夜程度行う。
+  - ベースラインが安定するまで行う。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法による環境空気中のエチルベンゼン濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - エチルベンゼンの捕集は、直接捕集法で行うことができる。
+  - 活性炭管を用いた固体捕集法では、0.2L/minの流量で試料空気を吸引する。
+  - 活性炭からの脱着には、二硫化炭素が用いられる。
+  - 石油系合成（球状）活性炭管で捕集した試料は、捕集後2週間程度保存できる。
+  - 検出器には、電子捕獲検出器（ECD）を用いる。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: キャピラリガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 混合有機溶剤の分析に有効である。
+  - 水素炎イオン化検出器（FID）を用いる場合は、検出器部にメイクアップガスを追加する。
+  - キャリアガスとしては、窒素よりヘリウムを使用する方が理論段数が大きい。
+  - 試料負荷量が小さいため、多量の試料を導入することができない。
+  - 液相の膜厚が厚いほど、高沸点物質の分析に適している。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析法に用いる検出器Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - アクリルアミド ／ アルカリ熱イオン化検出器（FTD）
+  - ホルムアルデヒド ／ 水素炎イオン化検出器（FID）
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA） ／ 電子捕獲検出器（ECD）
+  - o-フタロジニトリル ／ 質量分析器（MS）
+  - 硫酸ジメチル ／ 炎光光度検出器（FPD）
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 1-(2-ピリジル)ピペラジンとの反応を利用して、高速液体クロマトグラフ分析法で測定する物質は、次のうちどれか。
+  choices:
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）
+  - 1,1-ジメチルヒドラジン
+  - p-ジメチルアミノアゾベンゼン
+  - トルエンジイソシアネート
+  - p-ニトロクロロベンゼン
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中のコールタール濃度を測定するため、試料空気を流量0.50m³/minで45分間グラスファイバーろ紙に吸引した。このろ紙をメチルエチルケトンで抽出し、100mLの溶液を得た。その全量を濃縮し、残渣を秤量したところ5.04mgであった。次に未使用のグラスファイバーろ紙のみをメチルエチルケトンで抽出し、100mLの溶液を得た。その全量を濃縮し、残渣を秤量したところ0.30mgであった。環境空気中のコールタール濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 0.15mg/m³
+  - 0.17mg/m³
+  - 0.19mg/m³
+  - 0.21mg/m³
+  - 0.23mg/m³
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光の波長と強度をプロットした図を蛍光スペクトルと呼ぶ。
+  - 蛍光の極大波長は、励起光の波長よりも短波長側に現れる。
+  - 蛍光強度と濃度との直線関係は、低濃度範囲で成立する。
+  - 蛍光の極大波長は、励起光の波長を変えても変わらない
+  - 励起光の波長は、溶媒のラマン光が妨害とならないように選択する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 逆相クロマトグラフ法は、順相クロマトグラフ法よりも、分離可能な化合物の種類が多い。
+  - 紫外可視吸光光度検出器は、不飽和炭化水素の検出に使用できる。
+  - 蛍光光度検出器は、紫外可視吸光光度検出器よりも、選択性が高い。
+  - イオン性化合物を分析する際には、移動相に緩衝液を加えることがある。
+  - 逆相クロマトグラフ法は、固定相を高極性、移動相を低極性で行う。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  choices:
+  - α-ナフチルアミン ／ 図の1
+  - ベンゾトリクロリド ／ 図の2
+  - ベンゼン ／ 図の3
+  - p-ニトロクロロベンゼン ／ 図の4
+  - o-トルイジン ／ 図の5
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2017-08-tokka-13-fig.png
+    alt: Ⓐ（化合物名）とⒷ（構造式）の2列の表。1＝α-ナフチルアミン、Ⓑは、2つの六員環が縮合した環で、右側の環の上部の炭素にNH₂が結合。2＝ベンゾトリクロリド、Ⓑは、ベンゼン環の1つおきの3つの炭素にClが結合。3＝ベンゼン、Ⓑは、六員環のみ。4＝p-ニトロクロロベンゼン、Ⓑは、ベンゼン環の対向する炭素にClとNO₂が結合。5＝o-トルイジン、Ⓑは、ベンゼン環の隣り合う炭素にCH₃とNH₂が結合
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物Ⓐについて、その分子式Ⓑが誤っているものはどれか。
+  choices:
+  - アクリロニトリル ／ C₃H₃N
+  - 酸化プロピレン ／ C₃H₆O
+  - β-プロピオラクトン ／ C₃H₄O₂
+  - ホルムアルデヒド ／ CH₂O
+  - 塩化ビニル ／ C₂H₂Cl₂
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物のうち、25℃、1気圧で液体であるものはどれか。
+  choices:
+  - オーラミン
+  - 臭化メチル
+  - 硫化水素
+  - エチレンイミン
+  - アクリルアミド
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 拡散セルは、液体から標準ガスを調製する際に用いる。
+  - 拡散速度は、拡散セルを入れた液体の質量の減少から算出できる。
+  - 拡散速度は、拡散セルを保持する恒温槽の温度が高いと増加する。
+  - 拡散速度は、拡散チューブの内径に比例する。
+  - 拡散速度は、拡散チューブの有効長に反比例する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: バブラーを2本直列に接続し、試料空気を吸引した後、捕集された成分量をそれぞれ分析したところ、分析値は1本目がa₁、2本目がa₂であった。2つのバブラーの捕集率が同じであるとすると、バブラーの捕集率を表す式として、正しいものは次のうちどれか。
+  choices:
+  - a₁/a₂
+  - a₂/a₁
+  - 1－a₁/a₂
+  - 1－a₂/a₁
+  - (a₁－a₂)/(a₁＋a₂)
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の特定化学物質のうち、液体捕集法による試料採取が適切でないものはどれか。
+  choices:
+  - 塩化ビニル
+  - アクリロニトリル
+  - 硫化水素
+  - フッ化水素
+  - 硫酸ジメチル
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の測定対象物質のうち、ガラス繊維ろ紙と固体捕集用充填剤を組み合わせた相補型ろ過捕集法により捕集するものはどれか。
+  choices:
+  - エチレンイミン
+  - o-フタロジニトリル
+  - o-トリジン
+  - フッ化水素
+  - ペンタクロロフェノール
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の測定対象物質のうち、直接捕集法でも固体捕集法でも捕集・分析が可能なものはどれか。
+  choices:
+  - 硫酸ジメチル
+  - ニトログリコール
+  - アクリロニトリル
+  - p-ニトロクロロベンゼン
+  - ニッケルカルボニル
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

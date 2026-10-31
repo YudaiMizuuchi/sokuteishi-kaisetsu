@@ -1,10 +1,44 @@
 ---
 layout: base.njk
+fulltitle: 作業環境測定士試験 過去問と解説｜2016年度以降の19回分を無料公開（第2種は全問解説付き）
+description: 作業環境測定士試験の過去問を、平成28年度（2016年度）から令和8年度までの19回分無料公開。第2種の共通科目は全問解説付き。年度・科目・参考書の章・ひっかけパターンで絞り込んで学べます。
 ---
 <div class="intro">
-  <h1>過去問を探す</h1>
-  <p>科目・年度・参考書の章で絞り込み、自分で解いてから解説を開いて確認できます。</p>
+  <h1>作業環境測定士試験 過去問と解説</h1>
+  <p>作業環境測定士試験の過去問を、平成28年度（2016年度）第1回から令和8年度第1回までの{{ db.stats.exams }}回分掲載しています。第2種の共通科目「労働衛生一般」「労働衛生関係法令」「デザイン・サンプリング」「分析に関する概論」の計{{ db.stats.common | num }}問には、全問に解説を付けています。第1種の選択科目（有機溶剤・鉱物性粉じん・特定化学物質・金属類の計{{ db.stats.selective | num }}問）は、いまのところ問題と正答のみで、解説は準備中です。</p>
+  <p>解説では、正答の理由だけでなく、過去の試験で繰り返し出てきた「ひっかけパターン」と、関係する法令の条文も示しています。法改正で扱いが変わった問題には、注意書きを付けています。</p>
 </div>
+<section class="about" aria-labelledby="about-title">
+  <h2 id="about-title">このサイトについて</h2>
+  <p>作業環境測定の業界を盛り上げたい。その一心で、趣味として運営しているサイトです。趣味とはいえ、自己研鑽も兼ねて、化学物質管理専門家の名に恥じない内容を心がけています。作業環境測定士を目指す方や、現場で測定に携わる方の学びの助けになれば、これほどうれしいことはありません。応援していただけると励みになります。どうぞよろしくお願いします。</p>
+  <p>誤りや不備に気づかれたときは、<a href="{{ site.contactUrl }}">お問い合わせフォーム</a>よりご連絡ください。確認のうえ、すみやかに直します。</p>
+  <h3>掲載の範囲と、制作の状況</h3>
+  <ul>
+    <li><strong>対象</strong>：平成28年度第1回から令和8年度第1回までの{{ db.stats.exams }}回分です。{% if site.missingExams | length %}{{ site.missingExams | join("と") }}は、まだ掲載できていません。{% endif %}</li>
+    <li><strong>解説</strong>：第2種の共通科目は全問に付けています。第1種の選択科目は、問題と正答のみです。</li>
+    <li><strong>放射線関係</strong>：第1種の放射線関係（放射性物質）は、取得者や測定機関が少ないことから、しばらくは対象外とさせてください。</li>
+    <li><strong>制作中</strong>：掲載できていない回や、解説が未作成の問題は、鋭意制作中です。できたものから順に追加していきます。</li>
+  </ul>
+</section>
+<section class="entry" aria-label="探し方">
+  <div class="entry-col">
+    <h2>科目から探す</h2>
+    <ul>{% for s in db.subjectPages %}{% if s.kind == "共通" %}<li><a href="{{ s.url }}">{{ s.name }}</a>（{{ s.count }}問）</li>{% endif %}{% endfor %}</ul>
+    <p class="sub-kind">選択科目（問題と正答）</p>
+    <ul>{% for s in db.subjectPages %}{% if s.kind == "選択" %}<li><a href="{{ s.url }}">{{ s.name }}</a>（{{ s.count }}問）</li>{% endif %}{% endfor %}</ul>
+  </div>
+  <div class="entry-col">
+    <h2>年度・回から探す</h2>
+    <ul>{% for e in db.examPages | head(6) %}<li><a href="{{ e.url }}">{{ e.label }}</a></li>{% endfor %}</ul>
+    <p><a href="/exam/">すべての回を見る（{{ db.examPages | length }}回）</a></p>
+  </div>
+  <div class="entry-col">
+    <h2>参考書の章から探す</h2>
+    <p>「A測定とB測定」「捕集方法」「有機溶剤」など、テーマごとに過去問とひっかけパターンをまとめています。</p>
+    <p><a href="/chapter/">章の一覧を見る</a></p>
+  </div>
+</section>
+<h2 class="filter-title">条件を組み合わせて絞り込む</h2>
 <div class="layout">
   <aside class="filters" aria-label="問題の絞り込み">
     <fieldset>
@@ -34,7 +68,7 @@ layout: base.njk
       <div class="chips">
         {% for r in ["A","B","C"] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r }}"><span>{{ r }}</span></label>{% endfor %}
       </div>
-      <p class="hint">A：22回中5回以上出た罠、B：2〜4回、C：1回（法令は、法改正を考えて新しい回ほど重く数えた回数で判定）</p>
+      <p class="hint">A：19回中4回以上出たひっかけパターン、B：2〜3回、C：1回（法令は、法改正を考えて新しい回ほど重く数えた回数で判定）</p>
     </fieldset>
     <button type="button" class="reset" id="reset">条件をすべて解除</button>
   </aside>

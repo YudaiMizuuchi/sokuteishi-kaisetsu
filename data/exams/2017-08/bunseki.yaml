@@ -1,78 +1,107 @@
 exam: 2017-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量Ⓐとその単位の記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 質量濃度 ／ mg·m⁻³
+  - モル濃度 ／ mol·dm⁻³
+  - 質量モル濃度 ／ mol·kg⁻¹
+  - 粒子数濃度 ／ mg·cm⁻³
+  - 放射能濃度 ／ Bq·cm⁻³
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 粒子数濃度は、単位体積あたりの粒子の**個数**で表すので、単位は個/cm³ などです。mg・cm⁻³ は質量濃度の単位なので、選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: A粒子数濃度Bmg·cm−3
+  _key_choice: Ⓐ粒子数濃度 Ⓑmg・cm⁻³
   _stem_head: 物理量Aとその単位の記号Bとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の数値の合計を有効数字で表した場合、正しいものは下のうちどれか。
+
+
+    数値：121.0　10.6　3.46　1.23　0.523'
+  choices:
+  - 1.4×10²
+  - '137'
+  - '136.8'
+  - '136.81'
+  - '136.813'
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 足し算では、小数点以下の桁数が最も少ないものに合わせます。最も少ないのは 121.0 と 10.6 の小数点以下1桁なので、合計 136.813 も小数点以下1桁に丸めて **136.8** とします。よって（3）が正しいものです。
   figures: []
   law_note: null
   _key_choice: '136.8'
   _stem_head: 次の数値の合計を有効数字で表した場合,正しいものは下のうちどれか.
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 25℃における物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ベンゼンの水に対する溶解度は、四塩化炭素に対する溶解度より大きい。
+  - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度より大きい。
+  - 塩化銀の水に対する溶解度は、塩化ナトリウム水溶液に対する溶解度より大きい。
+  - グルコースの水に対する溶解度は、エタノールに対する溶解度より大きい。
+  - 塩化カリウムの水に対する溶解度は、塩化銀の水に対する溶解度より大きい。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: ベンゼンは無極性の物質なので、水にはほとんど溶けず、四塩化炭素によく溶けます。水への溶解度の方が大きいとする選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: ベンゼンの水に対する溶解度は,四塩化炭素に対する溶解度より大きい.
+  _key_choice: ベンゼンの水に対する溶解度は、四塩化炭素に対する溶解度より大きい。
   _stem_head: 25°Cにおける物質の溶解に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
   - an-gas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 1molの気体に関する次の記述のうち、誤っているものはどれか。ただし、温度は絶対温度で表している。
+  choices:
+  - 温度が一定の条件で、体積を2倍にすると圧力は1/2倍になる。
+  - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+  - 圧力が一定の条件で、温度を2倍にすると体積は1/2倍になる。
+  - 温度を2倍にして、体積を1/2倍にした場合、圧力は4倍になる。
+  - 温度と体積の両方を2倍にした場合、圧力は変化しない。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 圧力が一定なら、体積は絶対温度に比例するので、温度を2倍にすると体積は**2倍**になります。1/2倍とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 圧力が一定の条件で,温度を2倍にすると体積は1/2倍になる.
+  _key_choice: 圧力が一定の条件で、温度を2倍にすると体積は1/2倍になる。
   _stem_head: 1molの気体に関する次の記述のうち,誤っているものはどれか.ただし,温度は絶対温度で表している.
+  columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -80,17 +109,23 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の0.1mol·L⁻¹の酸溶液のうち、pHが最も低いものはどれか。
+  choices:
+  - 塩酸
+  - 硝酸
+  - 硫酸
+  - フッ化水素酸
+  - 酢酸
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 同じ濃度の酸では、強酸で、1分子から出す水素イオンの数が多いほど pH が低くなります。硫酸は2価の強酸なので、pH が最も低くなります。よって答えは（3）です。
   figures: []
   law_note: null
   _key_choice: 硫酸
   _stem_head: 次の0.1mol·L−1の酸溶液のうち,pHが最も低いものはどれか.
+  columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -98,34 +133,55 @@ questions:
   - an-solution-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物Aを0.060g含む水溶液100mLからヘキサン10mLにAを抽出した。ヘキサンに抽出されたAの質量として、正しい値は次のうちどれか。ただし、水とヘキサン間のAの分配係数[A]ヘキサン/[A]水は50.0とする。
+  choices:
+  - 0.010g
+  - 0.020g
+  - 0.030g
+  - 0.040g
+  - 0.050g
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ヘキサンに抽出された A を x g とすると、
+
+
+    K ＝ (x ÷ 10) ÷ [(0.060 − x) ÷ 100] ＝ 50.0 → 10x ＝ 50 × (0.060 − x) → 60x ＝ 3.0 → x ＝ 0.050 g
+
+
+    よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 0.050g
+  _key_choice: 0.050 g
   _stem_head: 有機化合物Aを0.060g含む水溶液100mLからヘキサン10mLにAを抽出した.ヘキサンに抽出されたAの質量として,正しい値は次のうちどれか.ただし,水とヘキサン間のAの分配係数[A]ヘキサン/[A]水は50.0とする.
+  columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定に使用する種々の器具等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - バブラーによる蒸気の捕集効率は、通気速度のみに依存する。
+  - 直読式ガス検知管の変色層の長さは、通常、濃度に比例しない。
+  - インピンジャーによる粒子の捕集効率は、粒子の径に依存する。
+  - 圧電天秤方式の相対濃度計による粉じん濃度の測定では、質量濃度変換係数を用いる。
+  - 光散乱方式の相対濃度計の質量濃度変換係数は、粉じんの粒子の種類によって異なる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'バブラーによる蒸気の捕集効率は、通気速度のほか、気泡の大きさ、捕集液の種類や温度などにも依存します。「通気速度のみに依存する」とする選択肢1は誤りです。
+
+
+    令和2年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: バブラーによる蒸気の捕集効率は,通気速度のみに依存する.
+  _key_choice: バブラーによる蒸気の捕集効率は、通気速度のみに依存する。
   _stem_head: 作業環境測定に使用する種々の器具等に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   - gas
@@ -133,102 +189,165 @@ questions:
   - an-gas-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体のメチルエチルケトン1.5mgを捕集袋内の50Lの清浄空気中で全量気化させて標準ガスを調製した。メチルエチルケトンの標準ガス濃度（体積分率）として、最も近い値は次のうちどれか。ただし、メチルエチルケトンのモル質量は72.11g·mol⁻¹とする。また、調製した標準ガスの温度は25℃、圧力は1気圧とする。
+  choices:
+  - 1.0ppm
+  - 5.0ppm
+  - 10ppm
+  - 15ppm
+  - 20ppm
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'メチルエチルケトンの物質量を求め、気体の体積に直してから、50 L に対する割合を出します。
+
+
+    物質量 ＝ 1.5 × 10⁻³ g ÷ 72.11 ≒ 2.08 × 10⁻⁵ mol、体積 ＝ 2.08 × 10⁻⁵ × 24.45 ≒ 5.09 × 10⁻⁴ L
+
+
+    濃度 ＝ 5.09 × 10⁻⁴ ÷ 50 ≒ 1.0 × 10⁻⁵ ＝ 10 ppm
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 10ppm
+  _key_choice: 10 ppm
   _stem_head: 液体のメチルエチルケトン1.5mgを捕集袋内の50Lの清浄空気中で全量気化させて標準ガスを調製した.メチルエチルケトンの標準ガス濃度(体積分率)として,最も近い値は次のうちどれか.ただし,メチルエチルケトンのモル質量は72.11g·mol−
+  columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-reagents-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 市販の濃塩酸の濃度は、ほぼ12mol·L⁻¹である。
+  - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混ぜた溶液である。
+  - 金属塩化物は、すべて水によく溶ける。
+  - 酢酸水溶液と酢酸ナトリウム水溶液を混合することにより、弱酸性の緩衝溶液を調製することができる。
+  - 炭酸ナトリウムは、酸の濃度決定のための一次標準物質として用いることができる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '塩化銀（AgCl）や塩化鉛（PbCl₂）のように、水に溶けにくい金属塩化物もあります。「すべて水によく溶ける」とする選択肢3は誤りです。
+
+
+    令和元年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: 金属塩化物は,すべて水によく溶ける.
+  _key_choice: 金属塩化物は、すべて水によく溶ける。
   _stem_head: 試薬に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 誘導結合プラズマ発光分析法(ICP-AES法)に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 原子吸光分析法と異なり、測定元素に対応したランプを必要としない。
+  - プラズマの生成には、アルゴンガスを用いる。
+  - 試料溶液の粘性が測定結果に影響を与える場合がある。
+  - ネブライザーによって供給された試料の全量が、プラズマ中に導入される。
+  - 原子の発光又はイオンの発光を測定する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ネブライザーで霧状にした試料のうち、プラズマに導入されるのは、スプレーチャンバーで粗い液滴を除いた**ごく一部**（数％程度）です。「全量がプラズマ中に導入される」とする選択肢4は誤りです。
+
+
+    平成29年度第2回にも、スプレーチャンバーで粗大な液滴を除くという記述があります。'
   figures: []
   law_note: null
-  _key_choice: ネブライザーによって供給された試料の全量が,プラズマ中に導入される.
+  _key_choice: ネブライザーによって供給された試料の全量が、プラズマ中に導入される。
   _stem_head: 誘導結合プラズマ発光分析法(ICP-AES法)に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
   - an-mole-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 硫酸マンガン五水和物(MnSO₄·5H₂O)を水に溶解して1.00×10⁻⁴mol·L⁻¹の濃度の溶液に調製した。この水溶液1.00mLに含まれるマンガンの質量として正しい値は次のうちどれか。ただし、Mnの原子量は54.9とする。
+  choices:
+  - 5.49×10⁻⁴mg
+  - 5.49×10⁻³mg
+  - 5.49×10⁻²mg
+  - 5.49×10⁻¹mg
+  - 5.49mg
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '硫酸マンガンの物質量を求め、マンガンの原子量を掛けます。
+
+
+    1.00 × 10⁻⁴ mol/L × 1.00 × 10⁻³ L ＝ 1.00 × 10⁻⁷ mol
+
+
+    マンガンの質量 ＝ 1.00 × 10⁻⁷ × 54.9 ＝ 5.49 × 10⁻⁶ g ＝ 5.49 × 10⁻³ mg
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 5.49×10−3mg
+  _key_choice: 5.49 × 10⁻³ mg
   _stem_head: 硫酸マンガン五水和物(MnSO4·5H2O)を水に溶解して1.00×10−4mol·L−1の濃度の溶液に調製した.この水溶液1.00mLに含まれるマンガンの質量として正しい値は次のうちどれか.ただし,Mnの原子量は54.9とする.
+  columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   traps:
   - an-equilibrium-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の銀化合物それぞれ1gを25℃の水1Lに入れた場合、水に溶けた銀イオン濃度が最も高くなるものはどれか。ただし、括弧内の値は25℃における溶解度積を示す。
+  choices:
+  - AgCN(8×10⁻¹⁷mol²·L⁻²)
+  - AgBr(4×10⁻¹³mol²·L⁻²)
+  - AgI(1×10⁻¹⁶mol²·L⁻²)
+  - AgSCN(1×10⁻¹²mol²·L⁻²)
+  - AgOH(2×10⁻⁸mol²·L⁻²)
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: いずれも1：1で電離する塩なので、飽和溶液の銀イオン濃度は溶解度積の平方根になります。溶解度積が最も大きい AgOH（2 × 10⁻⁸）の銀イオン濃度が最も高く、約 1.4 × 10⁻⁴ mol/L です。よって答えは（5）です。
   figures: []
   law_note: null
-  _key_choice: AgOH(2×10−8mol2·L−2)
+  _key_choice: AgOH（2 × 10⁻⁸ mol²・L⁻²）
   _stem_head: 次の銀化合物それぞれ1gを25°Cの水1Lに入れた場合,水に溶けた銀イオン濃度が最も高くなるものはどれか.ただし,括弧内の値は25°Cにおける溶解度積を示す.
+  columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。ただし、I₀を入射光の強さ、Iを透過光の強さとする。
+  choices:
+  - 透過パーセントは、(I/I₀)×100である。
+  - 吸光度は、log(I/I₀)である。
+  - 吸光度は、測定対象物質の濃度に比例する。
+  - 吸光度は、試料セルの光路長に比例する。
+  - 吸光度の測定は、通常、極大吸収波長で行う。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は、透過率の逆数の対数、つまり **log(I₀/I)** です。log(I/I₀) とする選択肢2は、分子と分母が逆で誤りです。
+
+
+    log(I/I₀) は透過率の対数で、負の値になります。'
   figures: []
   law_note: null
-  _key_choice: 吸光度は,log(I/I0)である.
+  _key_choice: 吸光度は、log(I/I₀)である。
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.ただし,I0を入射光の強さ,Iを透過光の強さとする.
+  columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -236,102 +355,147 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの濃度が2.0×10⁻⁵mol·L⁻¹の溶液を光路長1.0cmのセルに入れ、波長550nmにおける吸光度を測定したところ、0.440であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
+  choices:
+  - 5.5×10³mol⁻¹·L·cm⁻¹
+  - 1.1×10⁴mol⁻¹·L·cm⁻¹
+  - 2.2×10⁴mol⁻¹·L·cm⁻¹
+  - 4.4×10⁴mol⁻¹·L·cm⁻¹
+  - 8.8×10⁴mol⁻¹·L·cm⁻¹
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則から、
+
+
+    ε ＝ A ÷ (c × l) ＝ 0.440 ÷ (2.0 × 10⁻⁵ × 1.0) ＝ 2.2 × 10⁴ L・mol⁻¹・cm⁻¹
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 2.2×104mol−1·L·cm−1
+  _key_choice: 2.2 × 10⁴ mol⁻¹・L・cm⁻¹
   _stem_head: 物質Aの濃度が2.0×10−5mol·L−1の溶液を光路長1.0cmのセルに入れ,波長550nmにおける吸光度を測定したところ,0.440であった.この溶液中の物質Aの550nmにおけるモル吸光係数として,正しい値は次のうちどれか.
+  columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 金属の原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料溶液中の測定対象金属を気体状の原子にして測定する。
+  - 中空陰極ランプの陰極は、測定対象金属と同一の金属又はその合金からできている。
+  - 励起状態である測定対象金属の光の吸収を測定する。
+  - 吸光度は、試料溶液中の測定対象金属の濃度に比例する。
+  - 吸光度は、燃料ガスと助燃ガスの組成により変化する。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 原子吸光分析法で光を吸収するのは、**基底状態**の原子です。励起状態とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 励起状態である測定対象金属の光の吸収を測定する.
+  _key_choice: 励起状態である測定対象金属の光の吸収を測定する。
   _stem_head: 金属の原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、電子励起状態から電子基底状態への電子の遷移で生じる。
+  - 蛍光は、励起光よりも長波長側に生じる。
+  - 励起光に対して直角方向の蛍光を測定する。
+  - 蛍光強度は、励起光の波長を変えても変化しない。
+  - 蛍光強度は、低濃度領域で蛍光物質の濃度に比例する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 蛍光の強度は、励起光の波長によって変化します。「励起光の波長を変えても変化しない」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 蛍光強度は,励起光の波長を変えても変化しない.
+  _key_choice: 蛍光強度は、励起光の波長を変えても変化しない。
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: キャピラリーガスクロマトグラフ分析法におけるキャピラリーカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリヤーガスの種類により異なる。
+  - 移動相の流速が大きいほど大きくなる。
+  - カラム内径が小さいほど大きくなる。
+  - カラム長が長いほど大きくなる。
+  - 固定相の種類により異なる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '理論段数は、移動相の流速に対して最大になる最適な流速があり、流速が大きいほど大きくなるわけではありません。選択肢2は誤りです。
+
+
+    令和3年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 移動相の流速が大きいほど大きくなる.
+  _key_choice: 移動相の流速が大きいほど大きくなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法におけるキャピラリーカラムの理論段数に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 炎光光度検出器（FPD）は、有機硫黄化合物の測定に適している。
+  - 電子捕獲検出器（ECD）は、有機ハロゲン化合物の測定に適している。
+  - 水素炎イオン化検出器（FID）は、無機ガスの測定に適している。
+  - 光イオン化検出器（PID）は、芳香族炭化水素の測定に適している。
+  - 質量分析器（MS）は、分子構造に関する情報を得ることができる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 水素炎イオン化検出器（FID）は、有機化合物の測定に適した検出器で、無機ガスにはほとんど応答しません。選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 水素炎イオン化検出器(FID)は,無機ガスの測定に適している.
+  _key_choice: 水素炎イオン化検出器（FID）は、無機ガスの測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 結晶物質の同定や定量に使われる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - KαX線が用いられる。
+  - 測定には溶解した試料を用いる。
+  - X線の回折角及び回折線の強度の測定を行う。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: X 線回折分析法は、固体の結晶をそのまま測る方法なので、試料を溶解すると測れなくなります。「溶解した試料を用いる」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 測定には溶解した試料を用いる.
+  _key_choice: 測定には溶解した試料を用いる。
   _stem_head: X線回折分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   - logarithm
@@ -339,12 +503,24 @@ questions:
   - an-logarithm-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 半減期8.0時間の放射性核種の放射能1,000Bqが200Bqに減衰するまでの時間として、正しい値に最も近いものは次のうちどれか。ただし、log₁₀5＝0.699とする。
+  choices:
+  - 10時間
+  - 14時間
+  - 18時間
+  - 22時間
+  - 26時間
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '放射能が 1/5 になるまでの時間を t とすると、(1/2)^(t/8.0) ＝ 1/5 です。両辺の対数をとると、
+
+
+    t ＝ 8.0 × log 5 ÷ log 2 ＝ 8.0 × 0.699 ÷ 0.301 ≒ 18.6 時間
+
+
+    よって、最も近いのは（3）の 18 時間です。'
   figures: []
   law_note: null
   _key_choice: 18時間
   _stem_head: 半減期8.0時間の放射性核種の放射能1,000Bqが200Bqに減衰するまでの時間として,正しい値に最も近いものは次のうちどれか.ただし,log105=0.699とする.
+  columns: null

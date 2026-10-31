@@ -1,7 +1,7 @@
 // サイト全体の設定。
 export default {
   title: "作業環境測定士試験 過去問解説",
-  description: "作業環境測定士試験の過去問を、年度・科目・参考書の章・罠の型で絞り込んで学べる解説サイト。",
+  description: "作業環境測定士試験の過去問を、年度・科目・参考書の章・ひっかけパターンで絞り込んで学べる解説サイト。",
   // 公開するドメインと、その下のフォルダ（既存のツール群と同じドメインに置く）
   origin: "https://aoi-s-office.jp",
   pathPrefix: "/sokuteishi/",
@@ -13,4 +13,8 @@ export default {
   // npm run dev / preview のときだけ draft の問題も表示する（その場合は noindex）
   showDrafts: process.env.SHOW_DRAFTS === "1",
   pageSize: 20,
+  // お問い合わせフォームのURL（Googleフォーム）
+  contactUrl: "https://forms.gle/KxzPPomLpmS2L1L76",
+  // まだ掲載できていない回（掲載したら、ここから消す）
+  missingExams: ["令和3年度第2回（2022年2月実施）", "令和4年度第1回（2022年8月実施）"],
 };

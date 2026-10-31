@@ -1,5 +1,6 @@
 // data/ のYAMLを読み込み、ページ生成に使う形に整える。
 // 整合性のチェックもここで行い、問題があればビルドを止める。
+import katex from "katex";
 import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
@@ -9,8 +10,24 @@ import site from "./site.js";
 const ROOT = path.join(process.cwd(), "data");
 const md = new MarkdownIt({ html: true, breaks: true });
 const load = (p) => yaml.load(fs.readFileSync(p, "utf8"));
-const render = (s) => (s ? md.render(String(s)) : "");
-const renderInline = (s) => (s ? md.renderInline(String(s)) : "");
+// 「に**コック（活栓）**が」のように、太字の記号が括弧や句読点に接していると markdown-it が太字にしないので、先に <strong> に直す
+const bold = (s) => String(s).replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
+// $…$ の LaTeX を、ビルド時に KaTeX で HTML にする。markdown-it に壊されないよう、いったん目印に置き換えてから戻す
+function withMath(s, fn) {
+  const store = [];
+  const t = String(s).replace(/\$([^$]+)\$/g, (m, tex) => {
+    let html;
+    try { html = katex.renderToString(tex.replace(/\\frac/g, "\\dfrac"), { throwOnError: true, output: "htmlAndMathml" }); }
+    catch (e) { throw new Error(`LaTeX を変換できません: ${tex}（${e.message}）`); }
+    store.push(html);
+    return `\uE000${store.length - 1}\uE001`;
+  });
+  return fn(t).replace(/\uE000(\d+)\uE001/g, (m, i) => store[Number(i)]);
+}
+const render = (s) => (s ? withMath(bold(s), (t) => md.render(t)) : "");
+const renderInline = (s) => (s ? withMath(bold(s), (t) => md.renderInline(t)) : "");
+// 検索や構造化データ用の、LaTeX の記号を除いた文字列
+const plainTex = (s) => String(s).replace(/\$([^$]+)\$/g, (m, t) => t.replace(/\\[a-zA-Z]+/g, "").replace(/[{}]/g, ""));
 const errors = [];
 
 const subjects = load(path.join(ROOT, "master/subjects.yaml"));
@@ -25,10 +42,12 @@ function examInfo(key) {
   const [y, m] = key.split("-").map(Number);
   const fy = m <= 3 ? y - 1 : y;
   const round = m <= 3 ? 2 : 1;
-  const reiwa = fy - 2018;
+  // 2019年度から令和（2019年度＝令和元年度）、それより前は平成
+  const era = fy >= 2019 ? "令和" : "平成";
+  const n = fy >= 2019 ? fy - 2018 : fy - 1988;
   return {
     key, fy, round,
-    label: `令和${reiwa === 1 ? "元" : reiwa}年度 第${round}回`,
+    label: `${era}${n === 1 ? "元" : n}年度 第${round}回`,
     held: `${y}年${m}月実施`,
   };
 }
@@ -47,7 +66,7 @@ function renderBook(mdText) {
   return { html, toc };
 }
 
-// ---- 章・罠の型
+// ---- 章・ひっかけパターン
 const chapters = book.chapters.map((c) => ({
   ...c,
   label: chapterLabel(c),
@@ -67,13 +86,13 @@ const chapters = book.chapters.map((c) => ({
 const chapterOut = Object.fromEntries(chapters.map((c) => [c.id, c]));
 
 const traps = book.traps.map((t) => {
-  if (!chapterById[t.chapter]) errors.push(`罠の型 ${t.id}: 章 ${t.chapter} がない`);
-  if (t.foundation && !chapterById[t.foundation]) errors.push(`罠の型 ${t.id}: 章 ${t.foundation} がない`);
+  if (!chapterById[t.chapter]) errors.push(`ひっかけパターン ${t.id}: 章 ${t.chapter} がない`);
+  if (t.foundation && !chapterById[t.foundation]) errors.push(`ひっかけパターン ${t.id}: 章 ${t.foundation} がない`);
   return {
     ...t,
     // 「その他（単発）」は寄せ集めなので、独立したページを作らない
     misc: t.name.includes("その他"),
-    // 「その他（単発）」と、非公開にした（hidden: true）罠の型はページを作らない
+    // 「その他（単発）」と、非公開にした（hidden: true）ひっかけパターンはページを作らない
     url: t.name.includes("その他") || t.hidden ? null : `/trap/${t.id}/`,
     chapterLabel: chapterById[t.chapter] ? chapterLabel(chapterById[t.chapter]) : "",
     chapterUrl: `/chapter/${t.chapter}/`,
@@ -100,13 +119,15 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
       if (seen.has(q.num)) errors.push(`${where}: 問${q.num} が重複`);
       seen.add(q.num);
       for (const c of q.chapters || []) if (!chapterById[c]) errors.push(`${where} 問${q.num}: 章 ${c} がない`);
-      for (const t of q.traps || []) if (!trapById[t]) errors.push(`${where} 問${q.num}: 罠の型 ${t} がない`);
+      for (const t of q.traps || []) if (!trapById[t]) errors.push(`${where} 問${q.num}: ひっかけパターン ${t} がない`);
       const answers = q.answer == null ? [] : Array.isArray(q.answer) ? q.answer : [q.answer];
       if (q.choices?.length)
         for (const a of answers)
           if (a !== "all" && !(a >= 1 && a <= q.choices.length)) errors.push(`${where} 問${q.num}: 正答 ${a} が選択肢の範囲外`);
       if (q.status === "published") {
-        if (!q.explanation) errors.push(`${where} 問${q.num}: published なのに解説がない`);
+        // 選択科目は、ひとまず問題と正答だけで公開してよい
+        const kind = (subjectById[doc.subject] || {}).kind;
+        if (!q.explanation && kind !== "選択") errors.push(`${where} 問${q.num}: published なのに解説がない`);
         if (site.showStem && (!q.stem || !(q.choices || []).length || !answers.length))
           errors.push(`${where} 問${q.num}: published なのに問題文・選択肢・正答のどれかがない`);
       }
@@ -137,9 +158,9 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         traps: qTraps.map((t) => trapOut[t.id]),
         summary: q.summary || null,
         stemHtml: site.showStem ? render(q.stem) : "",
-        stemPlain: site.showStem ? String(q.stem || "").replace(/\s+/g, " ").trim() : "",
+        stemPlain: site.showStem ? plainTex(q.stem || "").replace(/\s+/g, " ").trim() : "",
         choices: site.showStem ? (q.choices || []).map(renderInline) : [],
-        choicesPlain: site.showStem ? (q.choices || []).map((c) => String(c)) : [],
+        choicesPlain: site.showStem ? (q.choices || []).map((c) => plainTex(c)) : [],
         // 組合せ問題：見出し（Ⓐ Ⓑ など）と、選択肢を列ごとに分けたもの
         columns: site.showStem && q.columns ? q.columns : null,
         choiceCells: site.showStem && q.columns
@@ -148,11 +169,13 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         choiceNotes: site.showStem ? (q.choice_notes || []).map((n, i) => ({ html: renderInline(n), isAnswer: answers.includes(i + 1) })) : [],
         source: `${site.sourceName}（${examInfo(exam).label}・${examInfo(exam).held}）`,
         explanationHtml: render(q.explanation),
+        hasExplanation: !!(q.explanation && String(q.explanation).trim()),
         // figures: [{file: "2024-08-design-07.png", alt: "…"}]（src/assets/figures/ に置く）
         figures: (q.figures || []).map((f) => (typeof f === "string" ? { file: f, alt: "" } : f))
           .map((f) => ({ src: `/assets/figures/${f.file}`, alt: f.alt || "" })),
         lawNote: q.law_note || null,
         examNote: q.exam_note || null, // 協会による正答の注記（複数正答など）
+        textNote: q.text_note || null, // 原本の印字（誤植など）をそのまま掲載している箇所の注記
         reviewNote: q.review_note || null, // 管理者が確認中の点（確認が済んだら消す）
         sourcePdf: doc.source_pdf || site.officialIndex,
       });
@@ -214,7 +237,7 @@ const listItem = (q) => ({
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   books: q.books,
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
-  explanationHtml: q.explanationHtml, lawNote: q.lawNote, examNote: q.examNote, reviewNote: q.reviewNote, sourcePdf: q.sourcePdf, source: q.source,
+  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
 });
 const subjectsWithData = subjects
@@ -237,10 +260,50 @@ const bookParts = book.parts
   .map((p) => ({ ...p, chapters: chapters.filter((c) => c.part === p.id) }))
   .filter((p) => p.chapters.length);
 
+// ---- 件数（トップページの紹介文用）
+const kindOf = Object.fromEntries(subjects.map((sj) => [sj.id, sj.kind]));
+const stats = {
+  exams: new Set(questions.map((q) => q.exam.key)).size,
+  common: questions.filter((q) => kindOf[q.subject] === "共通").length,
+  selective: questions.filter((q) => kindOf[q.subject] === "選択").length,
+};
+
+// ---- 回ごと・科目ごとの一覧ページ（検索エンジンにも読める静的なリンク集）
+const shortTitle = (q) => {
+  const t = q.traps.find((x) => !x.misc);
+  if (t) return t.name;
+  const st = (q.stemPlain || q.summary || "").replace(/[「」]/g, "");
+  return st.length > 40 ? st.slice(0, 40) + "…" : st;
+};
+const qLink = (q) => ({ num: q.num, url: q.url, title: shortTitle(q), rank: q.rank });
+const examPages = [...new Set(questions.map((q) => q.exam.key))].sort().reverse().map((key) => {
+  const info = examInfo(key);
+  const qs = questions.filter((q) => q.exam.key === key);
+  const subs = subjects
+    .map((sj) => ({ id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`,
+      questions: qs.filter((q) => q.subject === sj.id).sort((a, b) => a.num - b.num).map(qLink) }))
+    .filter((x) => x.questions.length);
+  return { ...info, url: `/exam/${key}/`, subjects: subs, count: qs.length };
+});
+const subjectPages = subjects
+  .map((sj) => {
+    const qs = questions.filter((q) => q.subject === sj.id);
+    const ex = [...new Set(qs.map((q) => q.exam.key))].sort().reverse().map((key) => ({
+      ...examInfo(key), url: `/exam/${key}/`,
+      questions: qs.filter((q) => q.exam.key === key).sort((a, b) => a.num - b.num).map(qLink),
+    }));
+    return { id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`, exams: ex, count: qs.length };
+  })
+  .filter((x) => x.count);
+questions.forEach((q) => { q.examUrl = `/exam/${q.exam.key}/`; q.subjectUrl = `/subject/${q.subject}/`; });
+
 // 確認中の解説の一覧（/review/ ページ用）
 const reviewQuestions = questions.filter((q) => q.reviewNote);
 
 export default {
+  stats,
+  examPages,
+  subjectPages,
   reviewQuestions,
   bookChapters,
   bookParts,

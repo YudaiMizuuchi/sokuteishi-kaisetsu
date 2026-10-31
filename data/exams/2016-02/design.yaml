@@ -1,7 +1,7 @@
 exam: 2016-02
 date: null
 subject: design
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
   status: draft
@@ -11,14 +11,20 @@ questions:
   - ds-states-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定の対象物質の状態に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 粒子状物質には、粉じん、ミスト及びヒュームがある。
+  - 臨界温度以下において気体として存在するものを蒸気という。
+  - 固体に研磨、切削などの機械的な作用を加えて発生した固体微粒子が空気中に浮遊しているものは、粉じんである。
+  - 液体の微粒子が空気中に浮遊しているものは、ミストである。
+  - ヒュームの一次粒子の粒径は、5～10μm程度である。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: ヒュームの一次粒子の粒径は、一般に **1 µm 以下**です。5〜10 µm 程度とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子の粒径は,5~10μm程度である.
+  columns: null
 - num: 2
   status: draft
   chapters:
@@ -27,14 +33,23 @@ questions:
   - ds-unit-workplace-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 単位作業場所の設定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 単位作業場所の設定に当たっては、作業場内の気流、換気設備の稼働状況なども考慮する必要がある。
+  - 連続する2作業日にわたって測定を行う場合、第1日目と第2日目の単位作業場所の範囲は必ずしも一致する必要はない。
+  - 塗料の調合の作業とそこで調合された塗料を用いる塗装作業が同時に行われる区域を、1つの単位作業場所として設定することができる。
+  - クロム酸鉛を取り扱っている作業場では、同一の区域をクロム酸と鉛のそれぞれの単位作業場所として設定する。
+  - 有機溶剤の発散状況が時間帯によって異なることが明らかな場合は、それぞれの時間帯ごとに別の単位作業場所として設定する。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '連続する2作業日にわたって測定を行う場合は、2日とも**同じ範囲**の単位作業場所で測定します。「必ずしも一致する必要はない」とする選択肢2は誤りです。
+
+
+    平成29年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 連続する2作業日にわたって測定を行う場合,第1日目と第2日目の単位作業場所の範囲は必ずしも一致する必要はない.
+  columns: null
 - num: 3
   status: draft
   chapters:
@@ -43,14 +58,23 @@ questions:
   - ds-a-b-measurement-09
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質のA測定における測定点の位置又は数に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定点を決める縦の線と横の線の間隔は、6m以下の任意でよいが、等間隔の原則はくずしてはならない。
+  - 測定点は、前回行われた測定における測定点と同じでなくてもよい。
+  - 2年間にわたって第1管理区分であった単位作業場所では、測定点の数は5未満としてもよい。
+  - 単位作業場所が直線で区切れない場合にあっては、測定点を定める線は、単位作業場所の形に沿って曲率をもってもよい。
+  - 環境空気中の有害物質の濃度がほぼ均一であることが明らかであるときは、6m を超える等間隔で引いた縦の線と横の線との交点を測定点とすることができる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'A 測定の測定点を5未満にできるのは、単位作業場所が著しく狭く、かつ濃度がほぼ均一であることが明らかな場合です。過去2年間第1管理区分であったことは、測定点を減らす理由にはならないので、選択肢3は誤りです。
+
+
+    根拠：作業環境測定基準第2条第1項第1号の2。'
   figures: []
   law_note: null
   _key_choice: 2年間にわたって第1管理区分であった単位作業場所では,測定点の数は5未満としてもよい.
+  columns: null
 - num: 4
   status: draft
   chapters:
@@ -59,14 +83,20 @@ questions:
   - ds-a-b-measurement-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質のB測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - B測定は、環境空気中の濃度が最大になると考えられる場所と時間で行う。
+  - B測定は、測定時に労働者がいなくても立ち入るならば、その作業位置で行う。
+  - 圧電天秤方式の測定器を用いてB測定を行う場合は、2分間の測定を連続して5 回行う。
+  - 5本の検知管を用いてB測定を行った場合は、10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする。
+  - 相対濃度指示方法を用いてB測定を行う場合の質量濃度変換係数は、その単位作業場所で行われた併行測定の質量濃度変換係数を用いる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 検知管を10分間に均等な間隔で5本使って B 測定を行った場合は、指示値の**算術平均値**を測定値とします。幾何平均値とする選択肢4は誤りです。
   figures: []
   law_note: null
   _key_choice: 5本の検知管を用いてB測定を行った場合は,10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする.
+  columns: null
 - num: 5
   status: draft
   chapters:
@@ -75,14 +105,23 @@ questions:
   - ds-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 次の有害物質のうち、常温・常圧(25℃,1気圧)において飽和蒸気圧が最も高いものはどれか。
+  choices:
+  - クロロホルム
+  - ベンゼン
+  - スチレン
+  - イソプロピルアルコール
+  - 四塩化炭素
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'クロロホルムは沸点が約 61℃と、選択肢の中で最も低く、25℃での飽和蒸気圧が最も高い物質です。よって答えは（1）です。
+
+
+    四塩化炭素（約 77℃）、ベンゼン（約 80℃）、イソプロピルアルコール（約 82℃）、スチレン（約 145℃）の順に沸点が高くなります。'
   figures: []
   law_note: null
   _key_choice: クロロホルム
+  columns: null
 - num: 6
   status: draft
   chapters:
@@ -91,14 +130,25 @@ questions:
   - ds-properties-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 化学物質Ⓐと、その常温・常圧(25℃、1気圧)における状態Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - アクリロニトリル ／ 液体
+  - アクリルアミド ／ 液体
+  - 硫酸ジメチル ／ 液体
+  - 臭化メチル ／ 気体
+  - 酢酸メチル ／ 液体
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'アクリルアミドは、常温・常圧で**固体**（融点約 84℃）です。液体とする選択肢2は誤りです。
+
+
+    令和6年度第1回にも、アクリルアミドが最も融点の高い物質として出題されています。'
   figures: []
   law_note: null
   _key_choice: AアクリルアミドB液体
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 7
   status: draft
   chapters:
@@ -107,14 +157,23 @@ questions:
   - ds-states-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質の物性、空気中における挙動等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 鋳物工場では、鋳物砂の粘結剤の有機物が注湯作業時に高温で分解して一酸化炭素を発生することがある。
+  - 混合有機溶剤の各成分のある温度における蒸気圧は、一般に、等しくないので、蒸気の組成比は液相の組成比とは異なる。
+  - メッキ、充電などの電解を伴う工程では、ミストが発散する。
+  - ヒュームが凝集する速度は、個数濃度が高いほど速い。
+  - ヒュームの一次粒子は、球形のものよりも不規則な形状をしたものが多い。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ヒュームは、生成の途中で液体の状態を通るので、表面張力によって**球形**のものが多くなります。「球形のものよりも不規則な形状をしたものが多い」とする選択肢5は誤りです。
+
+
+    令和元年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子は,球形のものよりも不規則な形状をしたものが多い.
+  columns: null
 - num: 8
   status: draft
   chapters:
@@ -123,14 +182,22 @@ questions:
   - ds-sampler-selection-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 粒子状物質Ⓐと、その環境空気中の濃度の測定に用いるろ過材Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - 二酸化マンガン ／ ガラス繊維ろ紙
+  - コールタール ／ ガラス繊維ろ紙
+  - インジウム化合物 ／ セルローズエステルメンブランフィルター
+  - 酸化鉛 ／ 石英繊維ろ紙
+  - 石綿 ／ ガラス繊維ろ紙
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 石綿の濃度の測定は、繊維を顕微鏡で数えるので、表面で繊維を捕らえる**セルロースエステルメンブランフィルター**を用います。ガラス繊維ろ紙との組合せは不適当なので、答えは（5）です。
   figures: []
   law_note: null
   _key_choice: A石綿Bガラス繊維ろ紙
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 9
   status: draft
   chapters:
@@ -139,14 +206,25 @@ questions:
   - ds-sampler-selection-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 環境空気中の有害物質Ⓐと、その濃度の測定のために用いる捕集器具Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - トルエン ／ 活性炭管
+  - メタノール ／ 小型ガス吸収管
+  - 水銀 ／ 金添着珪藻土吸着剤を充填した捕集管
+  - シアン化カリウム ／ ミゼットインピンジャー
+  - ニッケル化合物(粉状のもの) ／ バブラー
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'ニッケル化合物（粉状のもの）は粒子なので、ろ過捕集法で捕集します。バブラー（液体捕集法）との組合せは不適当なので、答えは（5）です。
+
+
+    平成30年度第2回にも、同じ組合せの誤りがあります。'
   figures: []
   law_note: null
   _key_choice: Aニッケル化合物(粉状のもの)Bバブラー
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 10
   status: draft
   chapters:
@@ -155,14 +233,20 @@ questions:
   - ds-solid-sorbent-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 固体捕集法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - スチレンの捕集には、活性炭管を用いることができる。
+  - メチルエチルケトンの捕集には、シリカゲル管を用いることができる。
+  - アクリロニトリルの捕集には、シリカゲル管を用いることができる。
+  - 活性炭管は、極性のない有機溶剤蒸気に対する吸着力が大きい。
+  - 活性炭管には、一般に、除湿管をつないで使用する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 活性炭管は、一般に、除湿管をつながずに使用します。「除湿管をつないで使用する」とする選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 活性炭管には,一般に,除湿管をつないで使用する.
+  columns: null
 - num: 11
   status: draft
   chapters:
@@ -171,14 +255,20 @@ questions:
   - ds-filter-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 捕集用ろ過材に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - メンブランフィルターは、そのポアサイズよりも小さな粒子を捕集することができない。
+  - メンブランフィルターは、ガラス繊維ろ紙に比べて、粉じんの堆積による通気抵抗の増加が大きい。
+  - 石英繊維ろ紙は、金属不純物の含有量が少ないので、金属類の捕集・分析に適している。
+  - ガラス繊維ろ紙は、フッ素樹脂加工をしたものの方がしていないものよりも吸湿性が小さい。
+  - ガラス繊維ろ紙でヒュームを捕集した場合、粒径の小さな粒子は、繊維層の内部に捕集される。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: メンブランフィルターは、拡散やさえぎりの作用で、ポアサイズより小さな粒子も捕集できます。「捕集することができない」とする選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: メンブランフィルターは,そのポアサイズよりも小さな粒子を捕集することができない.
+  columns: null
 - num: 12
   status: draft
   chapters:
@@ -187,14 +277,23 @@ questions:
   - ds-liquid-direct-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体捕集法及び直接捕集法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ミゼットインピンジャーによる粒子状物質の捕集では、粒径が小さいほど捕集率は高くなる。
+  - バブラーによるガス状物質の捕集では、気泡が小さいほど捕集率は高くなる。
+  - 小型ガス吸収管による有機溶剤など揮発性物質の捕集では、捕集液の温度が低いほど捕集率は高くなる。
+  - 真空捕集びんの洗浄には、窒素や清浄空気を用いる。
+  - 捕集袋は、5L以上のものを用いる。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'ミゼットインピンジャーで粒子を捕集するのは慣性衝突の作用で、粒径が小さいほど捕集液にぶつかりにくく、捕集率は**低く**なります。「高くなる」とする選択肢1は誤りです。
+
+
+    捕集袋は 5 L 以上のもの（選択肢5）、真空捕集びんは 1 L 以上のものを用います。'
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによる粒子状物質の捕集では,粒径が小さいほど捕集率は高くなる.
+  columns: null
 - num: 13
   status: draft
   chapters:
@@ -203,14 +302,20 @@ questions:
   - ds-relative-meter-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 光散乱方式の相対濃度計の鉱物性粉じんの測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 粉じんの質量濃度(C)、相対濃度(R)及び質量濃度変換係数(K)の関係は、次の式によって表される。 K=C/R
+  - 質量濃度変換係数は、発生源の近くでは大きく、発生源から離れるにしたがって小さくなる傾向がある。
+  - 質量濃度変換係数は、同一の作業場であっても併行測定を行う時間帯によって変わることがある。
+  - 散乱光検出部を通過する空気の速度と散乱光の強さとは無関係である。
+  - 粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 光散乱方式の相対濃度計で、測定時間に比例するのはカウント数の**積算値**です。相対濃度は、濃度に変動がなければ測定時間によらず一定です。選択肢5は誤りです。
   figures: []
   law_note: null
   _key_choice: 粒子の組成と粒径分布が一定で,濃度に変動がなければ,相対濃度の値は,測定時間に比例する.
+  columns: null
 - num: 14
   status: draft
   chapters:
@@ -219,30 +324,47 @@ questions:
   - ds-detector-tube-07
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガス検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 変色層の長さは、通気速度によって変わることがある。
+  - 変色層が斜めに現れたときは、斜めに変色した部分の中間値を読み取る。
+  - 検知管は、化学反応による紫外領域の光の吸収の変化を利用したものである。
+  - 有機溶剤を検知管により測定する場合は、管理濃度の10分の1の濃度を精度よく測定できる検知管を使用する。
+  - 検知管で測定を行う際は、前もってガス採取器の空気漏れ試験を行う。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '検知管は、検知剤が測定対象物質と化学反応して**色が変わる**ことを利用したもので、紫外領域の光の吸収の変化を測るものではありません。選択肢3は誤りです。
+
+
+    平成29年度第2回にも、同じ選択肢があります。'
   figures: []
   law_note: null
   _key_choice: 検知管は,化学反応による紫外領域の光の吸収の変化を利用したものである.
+  columns: null
 - num: 15
   status: draft
   chapters:
   - relative-meter
-  traps:
-  - ds-relative-meter-09
+  traps: []
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 簡易測定機器による測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 圧電天秤方式の相対濃度計の測定値は、mg/m³で表示される。
+  - 光散乱方式の相対濃度計の感度較正には、粒径0.3μmの石英粒子が用いられる。
+  - 光散乱方式の相対濃度計の光源としては、白色ランプ又は半導体レーザーが使用されている。
+  - 検知管の変色層の鮮明さは、通気速度に影響される。
+  - 検知管の内径を太くすると、一般に、変色層は短くなる。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '光散乱方式の相対濃度計の感度較正には、粒径 0.3 µm の**ステアリン酸粒子**が用いられます。石英粒子とする選択肢2は誤りです。
+
+
+    平成28年度第1回にも、ステアリン酸粒子が用いられるという正しい記述があります。'
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計の感度較正には,粒径0.3μmの石英粒子が用いられる.
+  columns: null
 - num: 16
   status: draft
   chapters:
@@ -251,14 +373,28 @@ questions:
   - ds-radiation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '次の記述の㋑及び㋺の［　］に入る用語の組合せとして、正しいものは下のうちどれか。
+
+
+    「環境空気中の放射性物質の濃度を測定するために用いられる試料の採取方法として、［㋑］に対しては固体捕集方法、［㋺］に対しては液体捕集方法が用いられる。」'
+  choices:
+  - 放射性アルゴン ／ 放射性コバルト
+  - 放射性ヨウ素 ／ トリチウム化水蒸気
+  - 放射性タリウム ／ トリチウム化水蒸気
+  - 放射性コバルト ／ 放射性アルゴン
+  - 放射性ヨウ素 ／ 放射性アルゴン
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '固体捕集方法で捕集するのは放射性ヨウ素（活性炭など）、液体捕集方法で捕集するのはトリチウム化水蒸気です。よって（2）が正しい組合せです。
+
+
+    放射性アルゴンは直接捕集、放射性コバルトやタリウムはろ過捕集です。'
   figures: []
   law_note: null
   _key_choice: イ放射性ヨウ素ロトリチウム化水蒸気
+  columns:
+  - ㋑
+  - ㋺
 - num: 17
   status: draft
   chapters:
@@ -268,14 +404,32 @@ questions:
   - ds-radiation-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 放射性物質を取り扱っている作業場において、取り扱い核種の濃度限度の10分の1の空気中放射能濃度を測定するための最小試料採取時間に最も近い値は次のうちどれか。ただし、取り扱い核種の濃度限度は7×10⁻⁷Bq/cm³、測定装置の検出下限計数率は2.8(s⁻¹)、測定装置の計数効率は35%、試料空気の吸引流量は100L/分、使用する捕集材の捕集率は100%とする。
+  choices:
+  - 20分
+  - 80分
+  - 140分
+  - 8時間
+  - 19時間
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '測りたい濃度の試料を採取したとき、計数率が検出下限計数率に届くまでの時間を求めます。
+
+
+    測りたい濃度 ＝ 7 × 10⁻⁷ ÷ 10 ＝ 7 × 10⁻⁸ Bq/cm³、吸引流量 ＝ 100 L/min ≒ 1,667 cm³/s
+
+
+    計数率 ＝ 7 × 10⁻⁸ × 1,667 × t × 1.00 × 0.35 ≒ 4.08 × 10⁻⁵ × t
+
+
+    t ＝ 2.8 ÷ (4.08 × 10⁻⁵) ≒ 6.9 × 10⁴ 秒 ≒ 19 時間
+
+
+    よって（5）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 19時間
+  columns: null
 - num: 18
   status: draft
   chapters:
@@ -285,14 +439,20 @@ questions:
   - ds-statistics-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 正規分布及び対数正規分布に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 正規分布では、平均値と標準偏差は互いに従属している。
+  - 正規分布の平均値と標準偏差は、同じ次元を持つ。
+  - 正規分布の算術平均と標準偏差をそれぞれx̄、σとすると、この分布に従う変数がx̄－σからx̄＋σの範囲に入る確率は、およそ68%である。
+  - 対数正規分布では、幾何平均値と幾何標準偏差は、互いに独立している。
+  - 対数正規分布の幾何標準偏差の値は、必ず1以上である。
+  answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 正規分布では、平均値と標準偏差は互いに**独立**です。「従属している」とする選択肢1は誤りです。
   figures: []
   law_note: null
   _key_choice: 正規分布では,平均値と標準偏差は互いに従属している.
+  columns: null
 - num: 19
   status: draft
   chapters:
@@ -301,14 +461,23 @@ questions:
   - ds-size-selector-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 環境空気中の有害物質の捕集に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 多段平行板式分粒装置を用いる場合、吸引流量が所定の値より小さいと測定値は低くなる。
+  - 慣性衝突式分粒装置では、衝突捕集板上で再飛散を生ずることがある。
+  - 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値より大きいと、分粒装置を通過する粒子の50%分粒粒径は大きくなる。
+  - 捕集時の流量は、捕集装置を取り付けた状態であらかじめ調整しておく。
+  - ハイボリウムエアサンプラーの流量計の較正には、ルーツメーターによって較正されたオリフィス流量計を用いてよい。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '慣性衝突式分粒装置を所定より**大きい**流量で吸引すると、50 ％ 分粒粒径は**小さく**なります。「大きくなる」とする選択肢3は誤りです。
+
+
+    多段平行板式分粒装置では、流量が所定より小さいと粒子が沈降しやすくなるので、測定値は低くなります（選択肢1）。'
   figures: []
   law_note: null
   _key_choice: 慣性衝突式分粒装置を用いる場合,吸引流量が所定の値より大きいと,分粒装置を通過する粒子の50%分粒粒径は大きくなる.
+  columns: null
 - num: 20
   status: draft
   chapters:
@@ -318,11 +487,21 @@ questions:
   - ds-evaluation-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有害物質のA測定及びB測定が行われた場合の作業環境評価に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - A測定の第1評価値が管理濃度を超えていれば、管理区分は第2又は第3管理区分になる。
+  - A測定の第2評価値とB測定の測定値が、ともに管理濃度より小さければ、管理区分は第1又は第2管理区分になる。
+  - 第1評価値とは、気中有害物質の算術平均濃度の推定値をいう。
+  - 1日測定では、測定結果の評価に際して、日間変動を考慮するために、経験的に得られた推定値が用いられている。
+  - A測定の第1評価値が管理濃度を超えておらず、B測定の測定値が、管理濃度の 1.5倍であった場合の管理区分は第2管理区分になる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '第1評価値は、気中有害物質の濃度分布の**上側5％の推定値**です。算術平均濃度の推定値は第2評価値なので、選択肢3は誤りです。
+
+
+    B 測定値が管理濃度の1.5倍ちょうどは「1.5倍を超える」に当たらないので、第1評価値が管理濃度以下なら第2管理区分です（選択肢5）。'
   figures: []
   law_note: null
   _key_choice: 第1評価値とは,気中有害物質の算術平均濃度の推定値をいう.
+  columns: null
+excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

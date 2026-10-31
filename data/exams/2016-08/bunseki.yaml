@@ -1,61 +1,90 @@
 exam: 2016-08
 date: null
 subject: bunseki
-source_pdf: null
+source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
   - an-units-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物理量ⒶとそのSI単位の記号Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - エネルギー ／ J
+  - 圧力 ／ Pa
+  - 電荷(電気量) ／ C
+  - 物質量 ／ kg
+  - 放射能 ／ Bq
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 物質量の SI 単位は **mol**（モル）です。kg は質量の単位なので、選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: A物質量Bkg
+  _key_choice: Ⓐ物質量 Ⓑkg
   _stem_head: 物理量AとそのSI単位の記号Bとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - solution
   traps:
   - an-solution-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 空気を50.0mL·min⁻¹で1.0時間捕集材に通気し、物質Aを捕集した。捕集した物質Aの質量は、10.5μgであった。物質Aの空気中濃度(mg·m⁻³)の数値の表示として適切なものは次のうちどれか。ただし、捕集材の物質Aに対する捕集効率は99.0%とする。
+  choices:
+  - '4'
+  - '3.5'
+  - '3.54'
+  - '3.535'
+  - '3.5354'
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '通気量は 50.0 mL/min × 60 分 ＝ 3.0 L です。
+
+
+    空気中の量 ＝ 10.5 ÷ 0.990 ≒ 10.6 µg、濃度 ＝ 10.6 ÷ 3.0 ≒ 3.5 µg/L ＝ 3.5 mg/m³
+
+
+    通気時間「1.0 時間」の有効数字が2桁なので、結果も2桁の **3.5** とします。よって（2）が適切です。
+
+
+    µg/L と mg/m³ は同じ値になる（1 µg/L ＝ 1 mg/m³）ことも押さえておきましょう。'
   figures: []
   law_note: null
   _key_choice: '3.5'
   _stem_head: 空気を50.0mL·min−1で1.0時間捕集材に通気し,物質Aを捕集した.捕集した物質Aの質量は,10.5μgであった.物質Aの空気中濃度(mg·m−3)の数値の表示として適切なものは次のうちどれか.ただし,捕集材の物質Aに対する捕集効率
+  columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
   - an-organic-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フェノールの水溶液は、酸性を示す。
+  - アニリンの水溶液は、アルカリ性を示す。
+  - プロピオン酸の水溶液は、酸性を示す。
+  - エタンは、常温・常圧(25℃,1気圧)で気体である。
+  - 酢酸を酸化するとエタノールを生じる。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: エタノールを酸化すると、アセトアルデヒドを経て酢酸になります。向きが逆で、酢酸を酸化してもエタノールは生じないので、選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 酢酸を酸化するとエタノールを生じる.
+  _key_choice: 酢酸を酸化するとエタノールを生じる。
   _stem_head: 有機化合物に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -63,17 +92,25 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 気体Ⓐとその化学的性質Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - H₂ ／ 無色無臭で、水に溶けにくい。
+  - HF ／ 水溶液は酸性で、ガラスを腐食する。
+  - HCl ／ 水によく溶け、水溶液は酸性を示す。
+  - NH₃ ／ 水によく溶け、水溶液はアルカリ性を示す。
+  - CO₂ ／ 水に通じると、水溶液はアルカリ性を示す。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 二酸化炭素を水に通じると炭酸ができるので、水溶液は弱い**酸性**を示します。アルカリ性とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: ACO2B水に通じると,水溶液はアルカリ性を示す.
+  _key_choice: ⒶCO₂ Ⓑ水に通じると、水溶液はアルカリ性を示す。
   _stem_head: 気体Aとその化学的性質Bとの次の組合せのうち,誤っているものはどれか.
+  columns:
+  - Ⓐ
+  - Ⓑ
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -81,17 +118,32 @@ questions:
   - an-logarithm-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '水素イオン濃度が1.0×10⁻³mol·L⁻¹の塩酸を水で2倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。ただし、pHは次の式で計算し、log₁₀5＝0.699とする。
+
+
+    pH＝－log₁₀[H⁺]'
+  choices:
+  - '3.0'
+  - '3.3'
+  - '4.3'
+  - '5.3'
+  - '6.0'
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '2倍に希釈すると、水素イオン濃度は 5.0 × 10⁻⁴ mol/L になります。
+
+
+    pH ＝ −log(5.0 × 10⁻⁴) ＝ 4 − log 5 ＝ 4 − 0.699 ≒ 3.3
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: '3.3'
   _stem_head: 水素イオン濃度が1.0×10−3mol·L−1の塩酸を水で2倍に希釈した溶液のpHとして,正しい値に最も近いものは下のうちどれか.ただし,pHは次の式で計算し,log105=0.699とする.
+  columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -99,34 +151,58 @@ questions:
   - an-solution-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 質量パーセント濃度65.0%、密度1.40g·cm⁻³の硝酸を希釈して、濃度が0.20mol·L⁻¹の硝酸水溶液を100mLつくるのに必要なこの硝酸の体積として、正しい値に最も近いものは次のうちどれか。ただし、硝酸のモル質量を63.0g·mol⁻¹とする。
+  choices:
+  - 1.0mL
+  - 1.4mL
+  - 1.8mL
+  - 2.2mL
+  - 2.6mL
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '65.0 ％ の硝酸 1 mL に含まれる硝酸は、1.40 g × 0.650 ＝ 0.910 g ＝ 0.910 ÷ 63.0 ≒ 0.01444 mol です。
+
+
+    必要な硝酸 ＝ 0.20 mol/L × 0.100 L ＝ 0.020 mol
+
+
+    必要な体積 ＝ 0.020 ÷ 0.01444 ≒ 1.4 mL
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 1.4mL
+  _key_choice: 1.4 mL
   _stem_head: 質量パーセント濃度65.0%,密度1.40g·cm−3の硝酸を希釈して,濃度が0.20mol·L−1の硝酸水溶液を100mLつくるのに必要なこの硝酸の体積として,正しい値に最も近いものは次のうちどれか.ただし,硝酸のモル質量を63.0g·m
+  columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
   - an-lab-equipment-04
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 高圧ガス容器からガスを取り出す時には、減圧弁を使用する。
+  - ヘリウム用の減圧弁のねじは、左ねじである。
+  - アセチレンの配管には、ステンレス製のものが使用できる。
+  - アセチレンの容器の塗色は、黒色である。
+  - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らない。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'アセチレンの容器の塗色は**褐色**です。黒色は酸素の容器なので、選択肢4は誤りです。
+
+
+    平成29年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: アセチレンの容器の塗色は,黒色である.
+  _key_choice: アセチレンの容器の塗色は、黒色である。
   _stem_head: 高圧ガスの容器及びその使用に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   - gas
@@ -134,17 +210,29 @@ questions:
   - an-gas-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 液体のメチルエチルケトン1.5mgを捕集袋内の50Lの清浄空気中で全量気化させて標準ガスを調製した。メチルエチルケトンの標準ガス濃度として、最も近い値は次のうちどれか。ただし、メチルエチルケトンのモル質量は72.11g·mol⁻¹とする。また、調製した標準ガスの温度は25℃、圧力は1気圧とする。
+  choices:
+  - 1.0ppm
+  - 5.0ppm
+  - 10ppm
+  - 15ppm
+  - 20ppm
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'メチルエチルケトン 1.5 mg の物質量は 1.5 × 10⁻³ ÷ 72.11 ≒ 2.08 × 10⁻⁵ mol、その気体の体積は × 24.45 ≒ 5.09 × 10⁻⁴ L です。
+
+
+    濃度 ＝ 5.09 × 10⁻⁴ ÷ 50 ≒ 1.0 × 10⁻⁵ ＝ 10 ppm
+
+
+    よって（3）が正しい値です。平成29年度第1回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
-  _key_choice: 10ppm
+  _key_choice: 10 ppm
   _stem_head: 液体のメチルエチルケトン1.5mgを捕集袋内の50Lの清浄空気中で全量気化させて標準ガスを調製した.メチルエチルケトンの標準ガス濃度として,最も近い値は次のうちどれか.ただし,メチルエチルケトンのモル質量は72.11g·mol−1とする.ま
+  columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -152,34 +240,49 @@ questions:
   - an-reaction-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 市販の濃硫酸の濃度は、ほぼ18mol·L⁻¹である。
+  - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混合した溶液である。
+  - 濃硫酸には、脱水作用がある。
+  - 濃硝酸は、酸化力を有する。
+  - フッ化水素酸は、強酸である。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'フッ化水素酸は、水中での電離度が小さい**弱酸**です。強酸とする選択肢5は誤りです。
+
+
+    市販の濃硫酸の濃度はほぼ 18 mol/L（選択肢1）、王水は濃硝酸と濃塩酸の体積比 1：3（選択肢2）で、いずれも正しい記述です。'
   figures: []
   law_note: null
-  _key_choice: フッ化水素酸は,強酸である.
+  _key_choice: フッ化水素酸は、強酸である。
   _stem_head: 試薬に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-quantification-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ICP発光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - プラズマは、高周波電流を用いて発生させる。
+  - プラズマの生成には、アルゴンガスが用いられる。
+  - プラズマにより励起状態の原子及びイオンが生成する。
+  - 元素固有のスペクトル線を用いて分析する。
+  - 原子吸光分析法に比べてダイナミックレンジが狭い。
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: ICP 発光分析法は、原子吸光分析法に比べて検量線の直線範囲（ダイナミックレンジ）が**広い**のが特徴です。「狭い」とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 原子吸光分析法に比べてダイナミックレンジが狭い.
+  _key_choice: 原子吸光分析法に比べてダイナミックレンジが狭い。
   _stem_head: ICP発光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -187,17 +290,29 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 濃度1.0×10⁻²mol·L⁻¹の塩酸20mLと濃度5.0×10⁻³mol·L⁻¹の水酸化ナトリウム水溶液20mLとを混合した溶液の水素イオン濃度(mol·L⁻¹)は次のうちどれか。
+  choices:
+  - 1.0×10⁻³mol·L⁻¹
+  - 2.5×10⁻³mol·L⁻¹
+  - 5.0×10⁻³mol·L⁻¹
+  - 7.5×10⁻³mol·L⁻¹
+  - 9.0×10⁻³mol·L⁻¹
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'HCl ＝ 1.0 × 10⁻² × 0.020 ＝ 2.0 × 10⁻⁴ mol、NaOH ＝ 5.0 × 10⁻³ × 0.020 ＝ 1.0 × 10⁻⁴ mol
+
+
+    余る H⁺ ＝ 1.0 × 10⁻⁴ mol、溶液は 40 mL なので、[H⁺] ＝ 1.0 × 10⁻⁴ ÷ 0.040 ＝ 2.5 × 10⁻³ mol/L
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 2.5×10−3mol·L−1
+  _key_choice: 2.5 × 10⁻³ mol・L⁻¹
   _stem_head: 濃度1.0×10−2mol·L−1の塩酸20mLと濃度5.0×10−3mol·L−1の水酸化ナトリウム水溶液20mLとを混合した溶液の水素イオン濃度(mol·L−1)は次のうちどれか.
+  columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -205,34 +320,67 @@ questions:
   - an-reaction-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: '鉄(Ⅱ)イオンの水溶液を過マンガン酸カリウム溶液(0.010mol·L⁻¹)で滴定したところ、終点までに10mLを要した。溶液中に含まれていた鉄(Ⅱ)イオンの質量として、正しい値は下のうちどれか。
+
+
+    この酸化還元滴定での鉄(Ⅱ)イオンと過マンガン酸イオンとの反応は、次の反応式に示すように進行する。
+
+
+    5Fe²⁺＋MnO₄⁻＋8H⁺→5Fe³⁺＋Mn²⁺＋4H₂O
+
+
+    また、鉄の原子量は56とする。'
+  choices:
+  - 5.6mg
+  - 12mg
+  - 18mg
+  - 24mg
+  - 28mg
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '反応式から、MnO₄⁻ 1 mol は Fe²⁺ 5 mol と反応します。
+
+
+    MnO₄⁻ ＝ 0.010 × 0.010 ＝ 1.0 × 10⁻⁴ mol → Fe²⁺ ＝ 5.0 × 10⁻⁴ mol
+
+
+    鉄の質量 ＝ 5.0 × 10⁻⁴ × 56 ＝ 2.8 × 10⁻² g ＝ 28 mg
+
+
+    よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 28mg
+  _key_choice: 28 mg
   _stem_head: 鉄(II)イオンの水溶液を過マンガン酸カリウム溶液(0.010mol·L−1)で滴定したところ,終点までに10mLを要した.溶液中に含まれていた鉄(II)イオンの質量として,正しい値は下のうちどれか.
+  columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
   - an-spectrophotometry-06
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸光度は、透過度(透過光の強度(入射光の強度)の逆数の対数で表される。
+  - 試料溶液を透過する光の強さは、試料セルの光路長に比例する。
+  - 試料溶液を透過する光の強さは、測定対象物質の濃度が増加するとともに指数関数的に減少する。
+  - モル吸光係数は、波長により異なる。
+  - モル吸光係数は、溶媒の種類により異なることがある。
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '試料溶液を透過する光の強さは、光路長に比例するのではなく、光路長が長くなると指数的に減少します。選択肢2は誤りです。
+
+
+    光路長に比例するのは吸光度です。'
   figures: []
   law_note: null
-  _key_choice: 試料溶液を透過する光の強さは,試料セルの光路長に比例する.
+  _key_choice: 試料溶液を透過する光の強さは、試料セルの光路長に比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -240,102 +388,153 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 物質Aの濃度が2.0×10⁻⁵mol·L⁻¹の溶液を光路長2.0cmのセル中に入れ、波長550nmにおける吸光度を測定したところ、0.440であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
+  choices:
+  - 5.5×10³mol⁻¹·L·cm⁻¹
+  - 1.1×10⁴mol⁻¹·L·cm⁻¹
+  - 2.2×10⁴mol⁻¹·L·cm⁻¹
+  - 4.4×10⁴mol⁻¹·L·cm⁻¹
+  - 8.8×10⁴mol⁻¹·L·cm⁻¹
+  answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則から、
+
+
+    ε ＝ 0.440 ÷ (2.0 × 10⁻⁵ × 2.0) ＝ 1.1 × 10⁴ L・mol⁻¹・cm⁻¹
+
+
+    よって（2）が正しい値です。光路長 2.0 cm を忘れると 2.2 × 10⁴（選択肢3）になります。'
   figures: []
   law_note: null
-  _key_choice: 1.1×104mol−1·L·cm−1
+  _key_choice: 1.1 × 10⁴ mol⁻¹・L・cm⁻¹
   _stem_head: 物質Aの濃度が2.0×10−5mol·L−1の溶液を光路長2.0cmのセル中に入れ,波長550nmにおける吸光度を測定したところ,0.440であった.この溶液中の物質Aの550nmにおけるモル吸光係数として,正しい値は次のうちどれか.
+  columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
   - an-aas-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光の吸収は、基底状態の原子によって起こる。
+  - 光源には、測定対象の金属に固有の光を発するものを用いる。
+  - 吸光度は、吸収層の長さに依存しない。
+  - 吸光度は、原子の濃度に比例する。
+  - 原子化効率は、化学炎の燃料組成により異なる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '原子吸光分析法の吸光度は、吸収層の長さに**比例**します。光が原子の層を通る距離が長いほど、多くの光が吸収されるからです。「依存しない」とする選択肢3は誤りです。
+
+
+    令和元年度第1回にも、スリットを光路と平行にすると吸収層が長くなって感度が上がる、という論点があります。'
   figures: []
   law_note: null
-  _key_choice: 吸光度は,吸収層の長さに依存しない.
+  _key_choice: 吸光度は、吸収層の長さに依存しない。
   _stem_head: 原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
   - an-fluorescence-05
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、紫外部又は可視部の光を吸収して励起した分子により生じる。
+  - 蛍光の強度は、測定対象物質の濃度が低い領域で濃度に比例する。
+  - 蛍光の強度は、測定対象物質の濃度が低い領域で励起光の強度に比例する。
+  - 蛍光の強度は、励起光の波長を変えても変化しない。
+  - 蛍光の強度は、励起光の照射を止めると急速に減衰する。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 蛍光の強度は、励起光の波長によって変化します。「励起光の波長を変えても変化しない」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 蛍光の強度は,励起光の波長を変えても変化しない.
+  _key_choice: 蛍光の強度は、励起光の波長を変えても変化しない。
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 長さ1.5mのカラムを用いてある物質をガスクロマトグラフ分析したところ、保持時間は11.0分で、そのピークのピーク幅は44秒であった。この条件下での理論段数として、正しい値は次のうちどれか。
+  choices:
+  - '15'
+  - '225'
+  - '450'
+  - '900'
+  - 3,600
+  answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '理論段数は N ＝ 16 × (保持時間 ÷ ピーク幅)² で求めます。保持時間 11.0 分 ＝ 660 秒、ピーク幅 44 秒なので、
+
+
+    N ＝ 16 × (660 ÷ 44)² ＝ 16 × 15² ＝ 3,600
+
+
+    よって（5）が正しい値です。カラムの長さ 1.5 m は使いません。'
   figures: []
   law_note: null
   _key_choice: 3,600
   _stem_head: 長さ1.5mのカラムを用いてある物質をガスクロマトグラフ分析したところ,保持時間は11.0分で,そのピークのピーク幅は44秒であった.この条件下での理論段数として,正しい値は次のうちどれか.
+  columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
   - an-gc-01
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 水素炎イオン化検出器(FID)では、水素炎中で試料がイオン化される。
+  - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する。
+  - 水素炎イオン化検出器(FID)は、多くの有機化合物を高感度で検出できる。
+  - 電子捕獲検出器(ECD)は、n-ヘキサンなどの飽和炭化水素を選択的に検出できる。
+  - 質量分析器(MS)は、分子構造に関する情報も得ることができる。
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 電子捕獲検出器（ECD）は、ハロゲンを含む化合物など、電子を捕らえやすい化合物に高い感度をもつ検出器です。n-ヘキサンなどの飽和炭化水素の検出には向かないので、選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 電子捕獲検出器(ECD)は,n-ヘキサンなどの飽和炭化水素を選択的に検出できる.
+  _key_choice: 電子捕獲検出器（ECD）は、n-ヘキサンなどの飽和炭化水素を選択的に検出できる。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
   - an-xrd-02
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法は、結晶性の物質の同定や定量に使われる。
+  - 回折線は、ブラッグの条件に従って生じる。
+  - この分析には、連続X線が用いられる。
+  - フィルターに捕集した試料は、その状態のまま分析することができる。
+  - この分析法は、X線の回折角及び回折線の強度の測定により行われる。
+  answer: 3
   choice_notes: []
-  explanation: null
+  explanation: X 線回折分析法には、単一の波長の**特性 X 線**を用います。連続 X 線とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: この分析には,連続X線が用いられる.
+  _key_choice: この分析には、連続X線が用いられる。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち,誤っているものはどれか.
+  columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   - logarithm
@@ -343,12 +542,24 @@ questions:
   - an-logarithm-03
   rank: null
   summary: null
-  stem: null
-  choices: []
-  answer: null
+  stem: 半減期15時間の放射性核種の放射能が100分の1に減衰するまでの時間として、正しい値に最も近いものは次のうちどれか。ただし、log₁₀2＝0.301とする。
+  choices:
+  - 40時間
+  - 60時間
+  - 80時間
+  - 100時間
+  - 120時間
+  answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '放射能が 1/100 になるまでの時間を t とすると、(1/2)^(t/15) ＝ 1/100 です。
+
+
+    t ＝ 15 × log 100 ÷ log 2 ＝ 15 × 2 ÷ 0.301 ≒ 100 時間
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
   _key_choice: 100時間
   _stem_head: 半減期15時間の放射性核種の放射能が100分の1に減衰するまでの時間として,正しい値に最も近いものは次のうちどれか.ただし,log102=0.301とする.
+  columns: null

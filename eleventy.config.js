@@ -10,6 +10,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("json", (v) => JSON.stringify(v).replace(/</g, "\\u003c"));
   eleventyConfig.addFilter("pluck", (arr, key) => arr.map((x) => x[key]));
   // 絶対URL（canonical・サイトマップ・構造化データ用）
+  eleventyConfig.addFilter("num", (n) => Number(n).toLocaleString("ja-JP"));
+  eleventyConfig.addFilter("head", (a, n) => (a || []).slice(0, n));
   eleventyConfig.addFilter("absUrl", (p) => site.origin + site.pathPrefix.replace(/\/$/, "") + p);
   eleventyConfig.addFilter("plain", (html) => String(html || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim());
   eleventyConfig.addFilter("truncate", (s, n) => (s.length > n ? s.slice(0, n) + "…" : s));
