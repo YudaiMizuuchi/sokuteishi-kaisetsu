@@ -1,0 +1,377 @@
+exam: 2022-08
+date: null
+subject: kinzoku
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 元素に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ヒ素は、典型元素である。
+  - カドミウムは、遷移元素である。
+  - ベリリウムは、軽金属元素である。
+  - 水銀は、常温で液体である。
+  - 鉛は、両性金属である。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 金属元素の性質に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 金属元素の原子半径は、周期表の横の列（周期）にそって左から右へとしだいに増大する。
+  - 金属元素のイオン半径は、周期表の縦の列（族）にそって上から下へとしだいに増大する。
+  - アルカリ金属元素のイオン化エネルギーは、原子番号が大きくなるにつれて減少する。
+  - 金属元素の化合物の多くは、金属の酸化数が正である。
+  - 同一の金属の酸化物は、金属の酸化数が大きくなるにつれて、酸性を示す傾向にある。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境空気中の金属分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フレーム原子吸光分析法の感度は、フレームの種類に影響される。
+  - 吸光光度分析法において、石英セルは可視光の波長では、使用することはできない。
+  - ろ過捕集法においては、フィルターの空試験が必要である。
+  - 使用するガラス容器は、硝酸酸性溶液に浸した後、精製水で十分に洗浄してから用いる。
+  - ろ過捕集後の金属の溶出には、アルカリを用いる場合がある。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '金属の分析に用いられる次の㋑から㋥までの試薬とその化学式のうち、化学式が誤っているものの組合せは下のうちどれか。
+
+
+    ㋑　過マンガン酸カリウム　KMnO₃
+
+
+    ㋺　リン酸　H₃PO₄
+
+
+    ㋩　硫酸アンモニウム　(NH₃)₂SO₄
+
+
+    ㋥　臭素酸カリウム　KBrO₃'
+  choices:
+  - ㋑ ㋺
+  - ㋑ ㋩
+  - ㋺ ㋩
+  - ㋺ ㋥
+  - ㋩ ㋥
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 感度は、モル吸光係数が大きいほど高い。
+  - 吸光度は、値が大きいほど測定誤差が小さい。
+  - セルの光路長が長くなると、吸光度は大きくなる。
+  - 測定誤差は、透過率が37%付近で最小となる。
+  - 測定誤差は、吸光度が0.43付近で最小となる。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 中空陰極ランプは、陰極が測定対象金属又はその合金からなり、金属固有の輝線スペクトルを発する。
+  - 試料液に高濃度のハロゲン化アルカリ金属が共存すると、その分子吸収のため、負の誤差が生じる。
+  - 検量線が直線性を示す吸光度の範囲は、吸光光度分析法に比べて狭く、その範囲も金属の種類により異なる。
+  - 測定中の吸光度の時間的変動は、吸光光度分析法と比べて大きい。
+  - 吸光度は以下の式で示される。吸光度＝吸光係数×光路長×基底状態の金属原子の濃度
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 誘導結合プラズマ発光分光分析法（ICP-AES）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 物理干渉が発生する要因としては、試料液の酸濃度や塩の濃度などがあり、補正には一般的に内標準法が用いられる。
+  - アルゴンプラズマの温度は、フレーム原子吸光の空気-アセチレン炎の温度よりも高温である。
+  - 分析には、励起状態の中性原子の発光のみを利用する。
+  - 多元素同時分析が可能である。
+  - プラズマの測光方式には、ラジアル（径方向）測光とアクシャル（軸方向）測光がある。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 金属分析の前処理で行う有機溶媒抽出法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 有機溶媒抽出により、金属を濃縮することができる。
+  - 有機溶媒効果により、原子吸光分析法の分析感度が良くなることがある。
+  - 陰イオンを除去することはできない。
+  - キレートを形成しない金属イオンを除去できる。
+  - 有機溶媒層に抽出された後、速やかに加水分解され、水層に逆抽出される金属キレートがある。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - pH指示薬のチモールブルーは、アルカリ性側では黄色から青色に変色する。
+  - 塩酸ヒドロキシルアミンは、キレート剤として用いられる。
+  - ジチゾン（ジフェニルチオカルバゾン）は、多くの金属とキレートを形成する。
+  - ジフェニルカルバジドは、硫酸酸性下でクロム（Ⅵ）の発色に用いられる。
+  - 硫酸アンモニウムは、溶媒抽出の際に塩析剤として用いられる。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ジチゾン（ジフェニルチオカルバゾン）は、クロムの発色に用いられる。
+  - シアン化カリウムは、金属キレート生成の選択性を高める隠蔽剤として用いられる。
+  - 水素化ホウ素ナトリウムは、ヒ素の水素化物の発生に用いられる。
+  - DDTCは、キレート剤として用いられる。
+  - 過酸化水素水は、酸化剤あるいは還元剤として用いられる。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ベリリウムの蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準液の調製には、硫酸ベリリウム（四水和物）を用いる。
+  - 最終試料液に365 nmの励起光を照射し、蛍光強度を測定する。
+  - モリン試薬を用いる蛍光光度分析法は、ベリロン（Ⅲ）を用いる吸光光度分析法より感度が高い。
+  - モリン錯体の蛍光強度は、水酸化ナトリウム濃度が2 mol・L⁻¹で最大となる。
+  - 塩化スズ（Ⅱ）溶液は、モリン試薬の酸化を防ぎ、蛍光を安定に保つ作用がある。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境測定におけるカドミウムの分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 誘導結合プラズマ発光分光分析法（ICP-AES）において、波長226.502 nmを使用するが、共存物質の干渉などがある場合は、228.802 nmなど他の波長を使用してもよい。
+  - 誘導結合プラズマ質量分析法（ICP-MS）において、試料液にモリブデンが大量に存在する場合は、ICP内で生成するモリブデン酸化物により、カドミウムの測定に正の誤差を生じる。
+  - 原子吸光分析法において、APDC-カドミウム錯体は、pH4未満では不安定となり、有機溶媒層への抽出率が低くなる。
+  - 原子吸光分析法において、APDC-カドミウム錯体を抽出したMIBK溶液を最終試料液とする。
+  - 原子吸光分析法において、バーナーを点火した後、抽出に用いた溶媒を噴霧しながら、青白い酸化炎が得られるように燃料ガス及び助燃ガスの流量を調整する。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 原子吸光分析法によるクロム酸及びその塩の分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料の捕集には、液体捕集法又はろ過捕集法を用いる。
+  - ろ過捕集法を用いる場合は、混合セルロースメンブランフィルターをろ過材に使用する。
+  - クロム（Ⅵ）の標準液は、二クロム酸カリウムを精製水に溶かして調製することができる。
+  - フィルター上に捕集したクロム酸及びその塩は、炭酸ナトリウム溶液を用いて抽出する。
+  - 液体捕集法での捕集液中のクロム（Ⅵ）は、APDC錯体とした後、MIBKに抽出する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境空気中の五酸化バナジウムの分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 電気加熱式原子吸光分析法の試料の溶解には、硝酸と過酸化水素水を用いる。
+  - 標準液の調製には、メタバナジン酸アンモニウムを用いる。
+  - 吸光光度分析法の発色試薬には、N-ベンゾイル-N-フェニルヒドロキシルアミンを用いる。
+  - 電気加熱式原子吸光分析法での原子化には、高温（2,700℃）が必要である。
+  - 誘導結合プラズマ発光分光分析法（ICP-AES）の発光強度には、試料液の酸濃度は影響しない。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 原子吸光分析法による作業環境空気中のマンガンの測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料の捕集を行う際には、分粒装置を使用する。
+  - 捕集のろ過材には、石英繊維ろ紙を使用する。
+  - 試料の分解には、塩酸と硝酸の混酸を用いる。
+  - 試料の分解時に分解液が着色した場合は、過酸化水素水を加えて脱色する。
+  - 試料を分解した溶液は、5%硝酸で定容とした後、測定する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 水素化物発生原子吸光分析法によるヒ素の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 石英繊維ろ紙に捕集した試料の加熱溶解には、硝酸と硫酸の混酸が用いられる。
+  - 試料液のヒ素を三価にする予備還元には、塩化スズ（Ⅳ）溶液とヨウ化カリウム溶液が用いられる。
+  - 水素化ヒ素の発生には、亜鉛粉末懸濁液が用いられる。
+  - ヒ素の原子化には、水素-アルゴンフレームが用いられる。
+  - ヒ素の標準原液は、三酸化二ヒ素を水酸化ナトリウム溶液に溶解した後、硫酸と塩酸を加えて調製する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 液体捕集法-原子吸光分析法による水銀の分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 標準系列液の調製には、0.5 mol・L⁻¹硫酸を用いる。
+  - バブラーの壁面は、捕集液を用いて洗い、その洗液も合わせて試料液とする。
+  - 試料液中の過剰の過マンガン酸カリウムの還元には、塩化スズ（Ⅱ）溶液を用いる。
+  - 測定には、253.7 nmの紫外吸収を用いる。
+  - 排気系には、水銀吸収装置を取り付ける必要がある。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境測定における鉛の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フレーム原子吸光分析法の直接法では、還元炎を使用する。
+  - フレーム原子吸光分析法の直接法では、鉄が多量に共存すると鉛の測定値に負の誤差を生じる。
+  - 電気加熱式原子吸光分析法では、鉛の塩化物が低い温度で蒸発しやすいため、灰化温度を高くできない。
+  - 誘導結合プラズマ発光分光分析法（ICP-AES）による鉛の測定では、鉄が多量に共存する場合、測定値に正の誤差を生じることがある。
+  - 誘導結合プラズマ質量分析法（ICP-MS）による鉛の測定では、質量数208のイオン強度（カウント数）を測定し、定量する。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境空気中の粉状のニッケル化合物の分析に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料の溶解には、硝酸もしくは塩酸、又は硝酸と塩酸の混酸を用いる。
+  - 試料の溶解には、温浴を用いる。
+  - 標準液の酸濃度は、試料液の酸濃度に等しくする。
+  - フレーム原子吸光分析法は、電気加熱式原子吸光分析法に比べて定量下限値が小さい。
+  - 誘導結合プラズマ質量分析法（ICP-MS）の検量線の縦軸には、ニッケルの質量数60のイオン強度（カウント数）を用いる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 個人サンプリング法において、空気中のマンガンを、2.5 L・min⁻¹の一定流量で300分間ろ紙に捕集した。そのろ紙を共栓試験管に入れ、50 mLの酸でマンガンを抽出した。その後、抽出液を200 mLメスフラスコ中に吸引ろ過し、洗液を加え精製水で200 mLに調製した。このろ液を原子吸光光度計で測定したところ、マンガン濃度は0.24 µg・mL⁻¹となった。空気中のマンガン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 0.008 mg・m⁻³
+  - 0.016 mg・m⁻³
+  - 0.032 mg・m⁻³
+  - 0.064 mg・m⁻³
+  - 0.128 mg・m⁻³
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

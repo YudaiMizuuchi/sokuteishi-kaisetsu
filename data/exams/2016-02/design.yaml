@@ -4,7 +4,7 @@ subject: design
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -26,7 +26,7 @@ questions:
   _key_choice: ヒュームの一次粒子の粒径は,5~10μm程度である.
   columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - unit-workplace
   traps:
@@ -51,7 +51,7 @@ questions:
   _key_choice: 連続する2作業日にわたって測定を行う場合,第1日目と第2日目の単位作業場所の範囲は必ずしも一致する必要はない.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -76,7 +76,7 @@ questions:
   _key_choice: 2年間にわたって第1管理区分であった単位作業場所では,測定点の数は5未満としてもよい.
   columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - a-b-measurement
   traps:
@@ -98,7 +98,7 @@ questions:
   _key_choice: 5本の検知管を用いてB測定を行った場合は,10分間に均等な間隔で測定した検知管指示値の幾何平均値を測定値とする.
   columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -123,7 +123,7 @@ questions:
   _key_choice: クロロホルム
   columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -150,7 +150,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 7
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -175,7 +175,7 @@ questions:
   _key_choice: ヒュームの一次粒子は,球形のものよりも不規則な形状をしたものが多い.
   columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
@@ -199,7 +199,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 9
-  status: draft
+  status: published
   chapters:
   - sampler-selection
   traps:
@@ -226,7 +226,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 10
-  status: draft
+  status: published
   chapters:
   - solid-sorbent
   traps:
@@ -248,7 +248,7 @@ questions:
   _key_choice: 活性炭管には,一般に,除湿管をつないで使用する.
   columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
@@ -270,7 +270,7 @@ questions:
   _key_choice: メンブランフィルターは,そのポアサイズよりも小さな粒子を捕集することができない.
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - liquid-direct
   traps:
@@ -295,7 +295,7 @@ questions:
   _key_choice: ミゼットインピンジャーによる粒子状物質の捕集では,粒径が小さいほど捕集率は高くなる.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps:
@@ -317,7 +317,7 @@ questions:
   _key_choice: 粒子の組成と粒径分布が一定で,濃度に変動がなければ,相対濃度の値は,測定時間に比例する.
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - detector-tube
   traps:
@@ -342,7 +342,7 @@ questions:
   _key_choice: 検知管は,化学反応による紫外領域の光の吸収の変化を利用したものである.
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - relative-meter
   traps: []
@@ -366,7 +366,7 @@ questions:
   _key_choice: 光散乱方式の相対濃度計の感度較正には,粒径0.3μmの石英粒子が用いられる.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   traps:
@@ -396,7 +396,7 @@ questions:
   - ㋑
   - ㋺
 - num: 17
-  status: draft
+  status: published
   chapters:
   - radiation-sampling
   - units
@@ -431,7 +431,7 @@ questions:
   _key_choice: 19時間
   columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - stats-error
   - statistics
@@ -454,7 +454,7 @@ questions:
   _key_choice: 正規分布では,平均値と標準偏差は互いに従属している.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - filter
   traps:
@@ -479,7 +479,7 @@ questions:
   _key_choice: 慣性衝突式分粒装置を用いる場合,吸引流量が所定の値より大きいと,分粒装置を通過する粒子の50%分粒粒径は大きくなる.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - evaluation
   - statistics
@@ -504,4 +504,3 @@ questions:
   law_note: null
   _key_choice: 第1評価値とは,気中有害物質の算術平均濃度の推定値をいう.
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

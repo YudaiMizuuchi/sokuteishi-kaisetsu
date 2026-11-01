@@ -1,0 +1,377 @@
+exam: 2022-08
+date: null
+subject: yuki
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の有機溶剤のうち、25℃における密度が最も小さいものはどれか。
+  choices:
+  - n-ヘキサン
+  - 酢酸メチル
+  - トルエン
+  - メタノール
+  - エチルエーテル
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の有機溶剤のうち、極性が最も高いものはどれか。
+  choices:
+  - 酢酸エチル
+  - イソブチルアルコール
+  - 二硫化炭素
+  - シクロヘキサン
+  - クロロベンゼン
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の有機溶剤の組合せのうち、25℃において、一方だけが水に限りなく溶解するものはどれか。
+  choices:
+  - アセトン　イソプロピルアルコール
+  - エチルエーテル　テトラヒドロフラン
+  - イソブチルアルコール　酢酸イソプロピル
+  - メタノール　N,N-ジメチルホルムアミド
+  - メチルエチルケトン　o-ジクロロベンゼン
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '捕集率が同じ2本のミゼットインピンジャーを直列に連結して、ある有機溶剤蒸気の捕集を行ったところ、1本目には800 µgの有機溶剤が、2本目には120 µgの有機溶剤が捕集された。
+
+
+    このミゼットインピンジャー1本の捕集率（%）として、正しい値に最も近いものは次のうちどれか。'
+  choices:
+  - 82%
+  - 85%
+  - 87%
+  - 90%
+  - 92%
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 活性炭は、窒素又は乾燥空気の加熱気流中で脱水したものが使用されている。
+  - 活性炭は、一般に、シリカゲルに比べて単位重量当たりの表面積が小さい。
+  - シリカゲルは、水分含有率によって、測定対象物質の吸着容量に差が生じる。
+  - ポーラスポリマービーズは反応性が低いので、試料の重合、酸化などが起こりにくい。
+  - ポーラスポリマービーズは、活性炭に比べて、加熱脱着が容易である。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 有機溶剤の受動型試料採取機器（以下、パッシブサンプラー）に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - パッシブサンプラーは、拡散現象を利用して固体捕集を行う。
+  - パッシブサンプラーは、流量校正の必要がない。
+  - パッシブサンプラーは、捕集面開口部の気流の影響を受けやすい。
+  - パッシブサンプラーの測定時間は、捕集面開口部の開放時間と等しい。
+  - パッシブサンプラーの捕集速度は、有機溶剤の種類によらず一定である。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 検知管法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 検知剤と測定対象物質との反応は、多くの場合、非特異的な反応である。
+  - 検知管の指示値は、高気圧下では高くなる。
+  - 検知管は、作業場所の室温にしてから使用する。
+  - 試料空気の吸引に電動吸引ポンプを用いる場合がある。
+  - 個人サンプリング法（C・D測定）では、検知管法を用いることはできない。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: キャピラリーカラムを用いたガスクロマトグラフ分析法における試料注入法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャピラリーカラムは、一般に、充填カラムと比較すると導入できる試料は少量である。
+  - スプリット注入法では、試料導入部の温度は、目的成分が瞬時に気化し、均一化する温度に設定する。
+  - スプリット注入法では、スプリット比は、排出される部分を1として、通常1:10～1:100の任意の比率に設定できる。
+  - スプリットレス注入法は、スプリット注入法と比較して低濃度成分分析に向いている。
+  - スプリットレス注入法は、スプリット注入法と比較して溶媒ピークの影響を受けやすい。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 充填カラムとキャピラリーカラムの比較に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 充填カラムの方が、単位長さ当たりの理論段数が小さい。
+  - 充填カラムの方が、試料負荷量を多くできる。
+  - キャピラリーカラムの方が、渦流拡散が小さいので、ピーク幅の広がりは抑制される。
+  - キャピラリーカラムの方が、キャリアガス流量が多い。
+  - キャピラリーカラムの方が、一般に、試料導入部の構造が複雑である。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法のキャリアガス等に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリアガスの種類によらず最適線速度は同じである。
+  - キャリアガスには、ヘリウム、窒素、水素などが用いられる。
+  - カラムの理論段数は、キャリアガスの種類の影響を受ける。
+  - カラムと検出器には、それぞれに適したガス流量がある。
+  - 電子捕獲検出器（ECD）を用いる場合には、キャリアガスとしてアルゴンを用いることができる。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 電子捕獲検出器（ECD）は、フィラメントから放出される熱電子を利用する方法で、ハロゲンを含む有機化合物の高感度検出に適している。
+  - 水素炎イオン化検出器（FID）は、水素炎中で燃焼しイオン化する物質を検出する方法で、ほとんどの有機化合物は検出するが、ホルムアルデヒドやギ酸などは検出されない。
+  - 熱伝導度検出器（TCD）は、キャリアガスと対象物質蒸気の熱伝導度の差を利用した検出器で、物質選択性がない。
+  - 炎光光度検出器（FPD）は、水素炎を利用する方法で、リンや硫黄を含む化合物に対して選択性のある検出器である。
+  - 光イオン化検出器（PID）は、紫外線を照射して対象物質をイオン化し、イオン電流を検出する方法で、多くの有機化合物を高感度で検出できる。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 代表的なイオン化法には、電子イオン化法がある。
+  - イオン化は、高圧下で行われる。
+  - イオン化条件によっては、分子イオンが検出されない場合がある。
+  - 重水素で置換した測定対象物質を内標準物質として用いる場合がある。
+  - 定量は、ターゲットイオンのピーク面積を用いて行う。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ポリエチレングリコール20Mを固定相液体としたカラムを用いるガスクロマトグラフ分析において、トルエンより保持時間の短い有機溶剤は、次のうちどれか。
+  choices:
+  - 酢酸イソペンチル
+  - エチレングリコールモノエチルエーテルアセテート
+  - エチレングリコールモノエチルエーテル
+  - シクロヘキサノン
+  - メチルエチルケトン
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラム上にピークA及びピークBがあり、保持時間に相当する長さがそれぞれ50 mm及び61 mm、ピーク幅に相当する長さがそれぞれ4 mm及び5 mmであった。分離度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - '1.0'
+  - '1.5'
+  - '2.0'
+  - '2.5'
+  - '3.0'
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 通常、青色溶液の可視部の主な吸収波長域は、赤色溶液のそれより短波長側にある。
+  - 定量分析の測定波長は、吸収極大を示す波長のみでなく、共存物質や発色試薬自身による影響のない波長を選ぶこともある。
+  - 液層の長さが同一の場合、透過率（%）の値が大きいほど、対象物質の試料液中の濃度は低い。
+  - 溶液の濃度1 mol・L⁻¹、かつ、液層の長さ1 cmのときの吸光度の値をモル吸光係数という。
+  - 発色させた液は、時間の経過とともに退色することがあるので、発色の状態が安定しているうちに測定する。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '吸光光度分析法に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「520 nmにおいて吸光度を測定する場合、光源には［㋑］を使用し、光源からの光を［㋺］によって単色光とした後、［㋩］に入れた試料液を透過させる。」'
+  choices:
+  - 重水素ランプ ／ モノクロメータ ／ ガラスセル
+  - 重水素ランプ ／ モノクロメータ ／ 石英セル
+  - タングステンランプ ／ スリット ／ プラスチックセル
+  - タングステンランプ ／ スリット ／ 石英セル
+  - タングステンランプ ／ モノクロメータ ／ ガラスセル
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 吸収極大波長や吸光度は、pHや呈色後の時間などにより変わることがある。
+  - 定量下限の値は、吸光度0.03に相当する標準液の濃度とする。
+  - 石英セルは、すべての測定波長領域で用いることができる。
+  - 吸収極大波長が2つ以上ある場合、通常、モル吸光係数の大きい方の波長を選定する。
+  - 発色反応のために試料液を加熱した場合は、できるだけ早く吸光度を測定する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 長さ27 mのキャピラリーカラムを装着したガスクロマトグラフを用いて、ある有機溶剤を分析したところ、ピークの保持時間に相当する長さがA mm、ピーク幅がB mmであった。このピークについて計算した理論段相当高さは0.3 mmであった。A/Bの値として、正しいものは次のうちどれか。
+  choices:
+  - '20'
+  - '45'
+  - '75'
+  - '100'
+  - '125'
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '作業者は、酢酸エチルを含む塗料が入ったスプレーガンを持って、製品の周囲を移動しながら吹付塗装作業を行っていた。そこで、作業者に能動型試料採取機器（アクティブサンプラー）を装着して、3時間のサンプリングを行った。捕集された酢酸エチルを溶媒2 mLで脱着し、ガスクロマトグラフで分析したところ、酢酸エチル520 µg・mL⁻¹の結果が得られた。C測定値として、正しい値に最も近いものは次のうちどれか。
+
+
+    ただし、吸引流量：0.1 L・min⁻¹、酢酸エチルのモル質量：88.1 g・mol⁻¹、脱着率：100%とする。また、25℃、1気圧下とする。'
+  choices:
+  - 6 ppm
+  - 8 ppm
+  - 12 ppm
+  - 16 ppm
+  - 18 ppm
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定により求められた数値は有効数字を考慮して表す。
+  - 検量線範囲を超えた高濃度の試料液については、検量線を外挿して定量値を求める。
+  - 内標準物質には、目的物質と物理的・化学的によく似ており、測定を妨害しない物質を選択する。
+  - GC-MSを用いる場合には、定性された対象成分のマススペクトルから代表的なイオンを選んで、検量線を作成する。
+  - 検量線は、測定の都度、作成する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

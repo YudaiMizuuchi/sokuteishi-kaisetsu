@@ -1,0 +1,425 @@
+exam: 2022-08
+date: null
+subject: tokka
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光電子増倍管は、光の強度を電気信号に変換し、増幅する。
+  - 試料溶液に照射する光は、単色光である。
+  - 試料液を透過した光の強さは、試料液の濃度に比例する。
+  - ガラス製のセルは、可視部の吸収の測定に用いる。
+  - 着色液は、時間の経過とともに退色することがある。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: シアン化水素の吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - シアン化水素は、ミゼットインピンジャーを用いて、水酸化ナトリウム溶液に捕集する。
+  - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で滴定して標定する。
+  - シアン化水素を捕集した溶液は、酢酸で中和した後、発色操作を行う。
+  - 発色操作には、クロラミンTとピリジン-ピラゾロンを用いる。
+  - 発色した溶液は、赤色を呈する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '吸光光度分析法における次の㋑から㋥までの項目のうち、検量線の傾きに関係があるものの組合せは下のうちどれか。
+
+
+    ㋑　光源の光の強度
+
+
+    ㋺　セルの光路長
+
+
+    ㋩　発色試薬の濃度
+
+
+    ㋥　測定物質のモル吸光係数'
+  choices:
+  - ㋑ ㋺
+  - ㋑ ㋥
+  - ㋺ ㋩
+  - ㋺ ㋥
+  - ㋩ ㋥
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化学物質のうち、可視部の吸光光度分析法で定量する場合に発色操作を必要としないものはどれか。
+  choices:
+  - アクリロニトリル
+  - ペンタクロロフェノール
+  - トルエンジイソシアネート
+  - オーラミン
+  - p-ニトロクロロベンゼン
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 試料溶液中のベンゼン濃度の測定をガスクロマトグラフ分析法で行い、ベンゼンのピーク面積4.0×10⁴を得た。この溶液4.0 mLと、ベンゼン濃度15 µg・mL⁻¹の標準溶液2.0 mLを混合し、同様に分析したところ、ベンゼンのピーク面積は6.0×10⁴であった。試料溶液中のベンゼン濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0 µg・mL⁻¹
+  - 2.0 µg・mL⁻¹
+  - 4.0 µg・mL⁻¹
+  - 6.0 µg・mL⁻¹
+  - 8.0 µg・mL⁻¹
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'ガスクロマトグラフ分析法に用いられる固定相液体に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、適切なものは下のうちどれか。
+
+
+    「固定相として用いられる液体は、蒸気圧が［㋑］、かつ、分析対象物質を［㋺］し、しかも反応性や熱分解性の［㋩］ものが推奨される。」'
+  choices:
+  - 高く ／ 溶解 ／ 低い
+  - 低く ／ 吸着 ／ 高い
+  - 低く ／ 溶解 ／ 低い
+  - 高く ／ 吸着 ／ 高い
+  - 低く ／ 溶解 ／ 高い
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法による環境空気中のホルムアルデヒド濃度の測定に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - ホルムアルデヒドの捕集は、2,4-ジニトロフェニルヒドラジン（DNPH）含浸シリカゲルを充填した捕集管が用いられる。
+  - 捕集後の捕集管は、冷凍又は冷蔵して保存する。
+  - 捕集管から抽出された試料液は、強カチオン交換樹脂に通して処理される。
+  - 検出器には、炎光光度検出器（FPD）が用いられる。
+  - 他のアルデヒド類やケトン類が、妨害物質となる場合がある。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 環境空気中の酸化プロピレンのガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 酸化プロピレンの分子量は、58.1である。
+  - 捕集には、直接捕集法又は固体捕集法を用いる。
+  - 固体捕集法では、球状活性炭管を用いる。
+  - 活性炭からの脱着には、トルエン-アセトニトリル溶液を用いる。
+  - 捕集後の活性炭管は、冷蔵保存し一週間以内に分析を行う。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 分配クロマトグラフ法に用いる固定相の性質は、担体表面に存在する官能基で決まる。
+  - イオン交換クロマトグラフ法では、移動相のpHやイオン強度が分離効率に大きく影響する。
+  - 移動相として用いる溶液は、化学的に安定で、粘度の高いものを選ぶ。
+  - 汎用的な分離カラムは、内径1～8 mm、長さ15～30 cmである。
+  - 移動相は、通常0.1～5 mL・min⁻¹の一定流量とする。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質用の検知管Ⓐとマイナスの妨害を示す物質Ⓑとの組合せとして、正しいものは次のうちどれか。
+  choices:
+  - エチレンオキシド用検知管 ／ ホルムアルデヒド
+  - 塩化ビニル用検知管 ／ 塩化水素
+  - シアン化水素用検知管 ／ アンモニア
+  - ホルムアルデヒド用検知管 ／ アセトアルデヒド
+  - 硫化水素用検知管 ／ 二酸化硫黄
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 高速液体クロマトグラフ分析法による環境空気中の1,1-ジメチルヒドラジンの測定法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 捕集には硫酸含浸ろ紙を用いる。
+  - 捕集後は純水で抽出し、遠心分離した上澄み液を分析に用いる。
+  - フルフラールで誘導体化して、分析する。
+  - 順相分配クロマトグラフ法を用いて分離する。
+  - 検出には、紫外部の吸収を用いる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 1-(2-ピリジル)ピペラジンとの反応を利用して、高速液体クロマトグラフ分析法で測定する物質は、次のうちどれか。
+  choices:
+  - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）
+  - o-トルイジン
+  - ジメチル-2,2-ジクロロビニルホスフェイト（DDVP）
+  - トルエンジイソシアネート
+  - β-プロピオラクトン
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
+  choices:
+  - アクリロニトリル ／ 図の1
+  - クロロメチルメチルエーテル ／ 図の2
+  - p-ジメチルアミノアゾベンゼン ／ 図の3
+  - o-トルイジン ／ 図の4
+  - β-プロピオラクトン ／ 図の5
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures:
+  - file: 2022-08-tokka-13-fig.png
+    alt: Ⓐ（名称）とⒷ（構造式）の2列の表。1＝アクリロニトリル（C=Cの一方の炭素にH・H、他方の炭素にHとC≡N）。2＝クロロメチルメチルエーテル（H₃C-O-CH₂Cl）。3＝p-ジメチルアミノアゾベンゼン（ベンゼン環-N=N-ベンゼン環で、右のベンゼン環にCH₃が2つとNH₂が1つ結合）。4＝o-トルイジン（ベンゼン環にCH₃とNH₂が隣り合って結合）。5＝β-プロピオラクトン（O=C、CH₂、CH₂、Oからなる四員環）
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'o-フタロジニトリルの構造に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、適切なものは下のうちどれか。
+
+
+    「o-フタロジニトリルは芳香環である［㋑］に、2つの［㋺］が結合した構造となっている。2つの［㋺］は芳香環の［㋩］に結合している。」'
+  choices:
+  - ベンゼン環 ／ シアノ基 ／ 隣り合った位置
+  - ベンゼン環 ／ ニトロ基 ／ 隣り合った位置
+  - ベンゼン環 ／ ニトロ基 ／ 対角線上の位置
+  - ナフタレン環 ／ ニトロ基 ／ 隣り合った位置
+  - ナフタレン環 ／ シアノ基 ／ 対角線上の位置
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 1気圧におけるエチレンイミン及びエチレンオキシドの物性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - エチレンイミンの方が、エチレンオキシドより融点が高い。
+  - エチレンイミンの分子量の方が、エチレンオキシドの分子量より小さい。
+  - 20℃において、エチレンイミンの蒸気圧の方が、エチレンオキシドの蒸気圧より小さい。
+  - 両物質とも25℃で液体である。
+  - 両物質とも、沸点は水の沸点より低い。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 特定化学物質の分析に使用する標準原液のうち、分析のつど調製して標定する必要があるものは次のうちどれか。
+  choices:
+  - 次亜塩素酸ナトリウム溶液
+  - トルエンジイソシアネート溶液
+  - フッ化ナトリウム溶液
+  - ペンタクロロフェノール溶液
+  - α-ナフチルアミン溶液
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 拡散セルは、一定の蒸気圧を有する液体から標準ガスを調製する際に用いる。
+  - 拡散速度は、拡散セルを入れた液体の質量の減少から算出できる。
+  - 拡散速度は、拡散セルを保持する恒温槽の温度が高いと増加する。
+  - 拡散速度は、拡散チューブの内径の2乗に比例する。
+  - 拡散速度は、拡散チューブの有効長に比例する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法により、管理濃度の1/10に相当する標準試料ガスを5回繰り返し分析し、平均値c ppm、標準偏差σ ppmの結果を得た。この測定法の検出下限濃度に相当する濃度として、適切なものは次のうちどれか。
+  choices:
+  - σ ppm
+  - 3σ ppm
+  - 10σ ppm
+  - c-σ ppm
+  - c-3σ ppm
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の測定対象物質のうち、ろ過捕集法と固体捕集法を組合せた相補型ろ過捕集法により捕集するものはどれか。
+  choices:
+  - エチレンイミン
+  - アクリルアミド
+  - o-トルイジン
+  - フッ化水素
+  - ペンタクロロフェノール
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
+
+
+    ただし、単位は次のとおりとする。
+
+
+    吸引流量（L・min⁻¹）
+
+
+    捕集時間（min）
+
+
+    捕集液の量（mL）
+
+
+    最終試料液の総量（mL）
+
+
+    検出下限濃度（µg・mL⁻¹）
+
+
+    定量下限濃度（µg・mL⁻¹）
+
+
+    管理濃度（mg・m⁻³）
+
+
+    Q=(A× B)/(C×管理濃度)'
+  choices:
+  - 吸引流量 ／ 捕集時間 ／ 0.01
+  - 吸引流量 ／ 捕集液の量 ／ 0.1
+  - 定量下限濃度 ／ 最終試料液の総量 ／ 0.1
+  - 定量下限濃度 ／ 捕集時間 ／ 0.01
+  - 検出下限濃度 ／ 最終試料液の総量 ／ 0.1
+  columns:
+  - Ⓐ
+  - Ⓑ
+  - Ⓒ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

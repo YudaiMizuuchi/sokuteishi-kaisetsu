@@ -1,0 +1,411 @@
+exam: 2022-08
+date: null
+subject: bunseki
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - アボガドロ定数の数の物質粒子（原子、分子、イオン等）の物質量は、1モルである。
+  - 原子量は、¹²Cの質量を基準として定められている。
+  - 分子量は、分子を構成する原子の原子量の総和である。
+  - 陽子数が同じで、中性子数が異なる原子どうしを互いに同位体という。
+  - 中性の原子又は分子は、電子を失うと負に帯電する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '互いに独立な物理量1と物理量2の差を求める際、その差の標準偏差を示す式は次のうちどれか。
+
+
+    ただし、物理量1及び物理量2の測定値の標準偏差をそれぞれσ₁及びσ₂とする。'
+  choices:
+  - '|σ₁-σ₂|'
+  - √(σ<sub>1</sub>² ＋ σ<sub>2</sub>²)
+  - σ₁+σ₂
+  - √(|σ<sub>1</sub>² ＋ σ<sub>2</sub>²|)
+  - √(σ<sub>1</sub> × σ<sub>2</sub>)
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '一酸化炭素42 gと二酸化炭素66 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。
+
+
+    ただし、炭素及び酸素の原子量は、それぞれ12及び16とする。'
+  choices:
+  - 0.3気圧
+  - 0.4気圧
+  - 0.5気圧
+  - 0.6気圧
+  - 0.7気圧
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フェノールは、-OH基をもっている。
+  - カルボン酸は、-COOH基をもっている。
+  - アルデヒドは、-CHO基をもっている。
+  - ケトンは、>CO基をもっている。
+  - アミンは、-CN基をもっている。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
+
+
+    A+B⇄C+Q（Qは熱エネルギーでQ<0）
+
+
+    ただし、平衡定数（K）は次の式で表される。
+
+
+    K=([C])/([A][B])'
+  choices:
+  - 平衡状態での右方向と左方向の反応速度は等しい。
+  - 温度を上げると、反応は左方向に進む。
+  - 平衡定数（K）の単位は、mol⁻¹・Lである。
+  - 平衡定数（K）は、平衡状態での物質の濃度から計算できる。
+  - Aの濃度を高くすると、反応は右方向に進む。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 濃度18.0 mol・L⁻¹の濃硫酸1.0 mLを水で希釈して希硫酸100 mLを調製した。濃硫酸と希硫酸に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 濃硫酸は、水より粘性が高い。
+  - 濃硫酸は、希釈時に発熱する。
+  - 希釈時には、水に濃硫酸を少量ずつ加える。
+  - この希硫酸10 mLを中和するには、濃度0.18 mol・L⁻¹の水酸化ナトリウム溶液10 mLが必要である。
+  - 希硫酸の正確な硫酸濃度は、炭酸ナトリウム標準液を用いた標定により求められる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 石けん膜流量計は、一定の体積の気体が流れるのに要する時間から流量を測定する。
+  - 石けん膜流量計の石けん膜は、気体の流れにそって、管内をほとんど抵抗なく移動する。
+  - ロータメーター（面積式流量計）の検量線は、気体の種類・圧力によって異なる。
+  - ロータメーターの内径は、管の上部ほど小さくなっている。
+  - ロータメーターの校正に石けん膜流量計を用いることができる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '拡散チューブを用い一定濃度の標準ガスを発生させるとき、チューブの選定に必要となる定常状態で拡散チューブから流出する標準物質の流出速度は、あらかじめ次の式により推定することができる。
+
+
+    この標準ガス発生法に関する以下の記述のうち、誤っているものはどれか。
+
+
+    m=DS/L(C-C<sub>l</sub>)
+
+
+    ただし、C\gg C<sub>l</sub>なのでC<sub>l</sub>=0として計算して良い。
+
+
+    m：流出速度（ng・s⁻¹）
+
+
+    D：拡散係数
+
+
+    S：拡散チューブの断面積（cm²）
+
+
+    L：拡散チューブの長さ（cm）
+
+
+    C：液だめ内の蒸気濃度（ng・cm⁻³）
+
+
+    C<sub>l</sub>：拡散チューブ出口の蒸気濃度（ng・cm⁻³）'
+  choices:
+  - 流出速度は、拡散チューブの断面積に比例する。
+  - 流出速度は、拡散チューブの長さに反比例する。
+  - 流出速度の計算には、標準物質の蒸気圧の値が必要である。
+  - 拡散係数の次元は、体積/時間である。
+  - 拡散係数は、物質によって異なる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 試料の前処理Ⓐとその分析法Ⓑとの次の組合せのうち、不適当なものはどれか。
+  choices:
+  - 酸溶解 ／ X線回折分析法
+  - pH調整 ／ 吸光光度分析法
+  - 溶媒脱着 ／ ガスクロマトグラフ分析法
+  - ろ過 ／ 高速液体クロマトグラフ分析法
+  - 有機溶媒抽出 ／ 原子吸光分析法
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 検知管に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定対象ガスと妨害ガスが共存する場合は、個々のガス濃度もガス濃度の合計も測定できない。
+  - 直読式の検知管の目盛りは、一般に、等間隔ではない。
+  - 変色層の先端が斜めになった場合は、最長部分を測定値とする。
+  - 一般に、測定対象ガスの濃度と検知管の変色層の長さとは比例しない。
+  - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 酢酸溶液50.0 mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0×10⁻¹ mol・L⁻¹）で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は10.0 mLであった。酢酸溶液の濃度として、正しい値は次のうちどれか。
+  choices:
+  - 1.0×10⁻² mol・L⁻¹
+  - 2.0×10⁻² mol・L⁻¹
+  - 3.0×10⁻² mol・L⁻¹
+  - 4.0×10⁻² mol・L⁻¹
+  - 5.0×10⁻² mol・L⁻¹
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 空気中でメタン（CH₄）、エタン（C₂H₆）を完全燃焼させたときの反応に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - メタンの完全燃焼に必要な酸素量は、メタンの物質量の2倍である。
+  - エタンの完全燃焼に必要な酸素量は、エタンの物質量の3.5倍である。
+  - メタンの完全燃焼で生成する二酸化炭素量は、メタンの物質量と等しい。
+  - エタンの完全燃焼で生成する二酸化炭素量は、エタンの物質量と等しい。
+  - いずれの反応でも、二酸化炭素の他に水蒸気が発生する。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析計に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 重水素ランプは、紫外部の測定の光源に用いられる。
+  - モノクロメーターは、光源の光を単色光とする。
+  - 回折格子は、モノクロメーターに用いられる。
+  - ガラス製セルは、300 nmよりも短波長の光の吸収の測定に使用できる。
+  - 光電子増倍管は、紫外・可視の光を検出することができる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 物質Aの濃度が1.5×10⁻⁵ mol・L⁻¹の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度を測定したところ、0.24であった。物質Aの濃度が3.0×10⁻⁵ mol・L⁻¹の溶液を光路長1.0 cmの試料セルに入れ、波長550 nmにおける吸光度を測定した。その値として、正しい値は次のうちどれか。
+  choices:
+  - '0.06'
+  - '0.12'
+  - '0.24'
+  - '0.36'
+  - '0.48'
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 原子蒸気は、その原子に固有の波長の光を吸収する。
+  - フレーム中における目的原子の原子蒸気は、ほとんどが基底状態にある。
+  - 吸光度は、光源光がフレーム中を通過する位置に影響される。
+  - 吸光度は、光源光の強度に比例する。
+  - 中空陰極ランプの陰極には、測定対象金属と同一の金属、又はこの金属を含む合金が用いられる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 紫外部あるいは可視部の光が励起光として用いられる。
+  - 試料の濃度が高くなると、観測される蛍光スペクトルの形が変化することがある。
+  - 蛍光の強度は、励起光の強度に比例する。
+  - 蛍光は、励起光に対して直角方向だけに放射される。
+  - 蛍光の波長は、励起光の波長より長い。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
+  choices:
+  - 水素炎イオン化検出器（FID） ／ ベンゼン
+  - 炎光光度検出器（FPD） ／ 硫化水素
+  - 電子捕獲検出器（ECD） ／ トリクロロエチレン
+  - 光イオン化検出器（PID） ／ トルエン
+  - 熱イオン化検出器（TID、FTD） ／ キシレン
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 理論段相当高さは変化しない。
+  - ピーク面積は変化しない。
+  - 分離度は2倍になる。
+  - 保持時間は2倍になる。
+  - 理論段数は2倍になる。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法では、特性X線が用いられる。
+  - この分析法では、X線の回折角及び回折線の強度を測定する。
+  - フィルターに捕集した試料をそのまま測定することができる。
+  - 測定試料は、一般に粒径が0.1 mm～1 mmの粉末が適当である。
+  - 測定試料の捕集量が多い場合は、その質量に見合ったX線の吸収の補正をする必要がある。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 半減期8日の放射性核種の放射能が1,000 Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。
+  choices:
+  - 500 Bq
+  - 333 Bq
+  - 250 Bq
+  - 125 Bq
+  - 63 Bq
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

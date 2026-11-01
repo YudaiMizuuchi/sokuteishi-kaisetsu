@@ -125,9 +125,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         for (const a of answers)
           if (a !== "all" && !(a >= 1 && a <= q.choices.length)) errors.push(`${where} 問${q.num}: 正答 ${a} が選択肢の範囲外`);
       if (q.status === "published") {
-        // 選択科目は、ひとまず問題と正答だけで公開してよい
-        const kind = (subjectById[doc.subject] || {}).kind;
-        if (!q.explanation && kind !== "選択") errors.push(`${where} 問${q.num}: published なのに解説がない`);
+        // 解説がなくても、問題と正答だけで公開してよい（画面には「解説は準備中」と出る）
         if (site.showStem && (!q.stem || !(q.choices || []).length || !answers.length))
           errors.push(`${where} 問${q.num}: published なのに問題文・選択肢・正答のどれかがない`);
       }
@@ -262,10 +260,18 @@ const bookParts = book.parts
 
 // ---- 件数（トップページの紹介文用）
 const kindOf = Object.fromEntries(subjects.map((sj) => [sj.id, sj.kind]));
+const examKeys = [...new Set(questions.map((q) => q.exam.key))].sort();
+const commonQs = questions.filter((q) => kindOf[q.subject] === "共通");
 const stats = {
-  exams: new Set(questions.map((q) => q.exam.key)).size,
-  common: questions.filter((q) => kindOf[q.subject] === "共通").length,
+  exams: examKeys.length,
+  firstLabel: examKeys.length ? examInfo(examKeys[0]).label.replace(" ", "") : "",
+  lastLabel: examKeys.length ? examInfo(examKeys[examKeys.length - 1]).label.replace(" ", "") : "",
+  common: commonQs.length,
   selective: questions.filter((q) => kindOf[q.subject] === "選択").length,
+  explained: questions.filter((q) => q.hasExplanation).length,
+  explainedCommon: commonQs.filter((q) => q.hasExplanation).length,
+  // 共通科目に、解説のない問題がある回（トップページの案内用）
+  pendingCommonExams: examKeys.filter((k) => commonQs.some((q) => q.exam.key === k && !q.hasExplanation)).map((k) => examInfo(k).label.replace(" ", "")),
 };
 
 // ---- 回ごと・科目ごとの一覧ページ（検索エンジンにも読める静的なリンク集）
@@ -283,7 +289,7 @@ const examPages = [...new Set(questions.map((q) => q.exam.key))].sort().reverse(
     .map((sj) => ({ id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`,
       questions: qs.filter((q) => q.subject === sj.id).sort((a, b) => a.num - b.num).map(qLink) }))
     .filter((x) => x.questions.length);
-  return { ...info, url: `/exam/${key}/`, subjects: subs, count: qs.length };
+  return { ...info, url: `/exam/${key}/`, subjects: subs, count: qs.length, explained: qs.filter((q) => q.hasExplanation).length };
 });
 const subjectPages = subjects
   .map((sj) => {
@@ -292,7 +298,7 @@ const subjectPages = subjects
       ...examInfo(key), url: `/exam/${key}/`,
       questions: qs.filter((q) => q.exam.key === key).sort((a, b) => a.num - b.num).map(qLink),
     }));
-    return { id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`, exams: ex, count: qs.length };
+    return { id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`, exams: ex, count: qs.length, explained: qs.filter((q) => q.hasExplanation).length };
   })
   .filter((x) => x.count);
 questions.forEach((q) => { q.examUrl = `/exam/${q.exam.key}/`; q.subjectUrl = `/subject/${q.subject}/`; });

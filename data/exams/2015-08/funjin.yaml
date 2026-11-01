@@ -4,14 +4,14 @@ subject: funjin
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
-  stem: '粉じんの光散乱に関する次の記述の□に入る語句として、正しいものは下のうちどれか。
+  stem: '粉じんの光散乱に関する次の記述の［　　］に入る語句として、正しいものは下のうちどれか。
 
 
-    「粉じん粒子に光を照射したときの光散乱の強度は、粒子の□に影響されない。」'
+    「粉じん粒子に光を照射したときの光散乱の強度は、粒子の［　　］に影響されない。」'
   choices:
   - 化学組成
   - 形状
@@ -25,7 +25,7 @@ questions:
   figures: []
   law_note: null
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -43,7 +43,7 @@ questions:
   figures: []
   law_note: null
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -55,13 +55,13 @@ questions:
   - 7.0μm
   - 8.0μm
   columns: null
-  answer: 1
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -80,13 +80,13 @@ questions:
   - ㋺
   - ㋩
   - ㋥
-  answer: 1
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -104,7 +104,7 @@ questions:
   figures: []
   law_note: null
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -122,7 +122,7 @@ questions:
   figures: []
   law_note: null
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -140,7 +140,7 @@ questions:
   figures: []
   law_note: null
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -158,7 +158,7 @@ questions:
   figures: []
   law_note: null
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -176,7 +176,7 @@ questions:
   figures: []
   law_note: null
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -194,20 +194,35 @@ questions:
   figures: []
   law_note: null
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
-  stem: '粉じんの相対濃度計の質量濃度変換係数(K値)を求めるため、サンプリング時間を60minとして併行測定を行い、次の結果を得た。これらの値から求められたK値の誤差として、正しい値に最も近いものは下のうちどれか。
+  stem: '粉じんの相対濃度計の質量濃度変換係数（K値）を求めるため、サンプリング時間を60 minとして併行測定を行い、次の結果を得た。これらの値から求められたK値の誤差として、正しい値に最も近いものは下のうちどれか。
 
 
-    捕集された粉じんの質量：0.95mg
+    【結果】
+
+
+    捕集された粉じんの質量：0.95 mg
 
 
     相対濃度計の計数値：2,260カウント
 
 
-    ただし、粉じんの捕集流量：20L/min、粉じん捕集前後のろ紙の秤量誤差：それぞれ0.005mg、吸引空気量の測定誤差：4%、計数値の誤差：10カウントとする。'
+    【ただし】
+
+
+    粉じんの捕集流量：20 L/min
+
+
+    粉じん捕集前後のろ紙の秤量誤差：それぞれ0.005 mg
+
+
+    吸引空気量の測定誤差：4%
+
+
+    計数値の誤差：10カウント'
   choices:
   - 4.5%
   - 5.0%
@@ -221,7 +236,7 @@ questions:
   figures: []
   law_note: null
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -230,7 +245,7 @@ questions:
 
     「液相沈降法により、粒度調整を行う場合、単位作業場所で採取した堆積粉じんのうち目開き75μmふるいを通過した堆積粉じんを用い、約500mLの媒体に対し約［㋑］gの試料を加え、懸濁液を作製する。沈降距離を［㋺］cm～20cmの間に設定し、所定粒径以下の試料を得るための所定時間、静置する。このようにして得られた試料は、多くの場合［㋩］の分析試料として用いられる。」'
   choices:
-  - 1 ／ 1 ／ X線回折分析法
+  - 1 ／ 5 ／ X線回折分析法
   - 1 ／ 5 ／ りん酸法
   - 5 ／ 10 ／ X線回折分析法
   - 5 ／ 10 ／ りん酸法
@@ -245,7 +260,7 @@ questions:
   figures: []
   law_note: null
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -263,7 +278,7 @@ questions:
   figures: []
   law_note: null
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -281,7 +296,7 @@ questions:
   figures: []
   law_note: null
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -299,35 +314,28 @@ questions:
   figures: []
   law_note: null
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   stem: '次のX線回折図形及び表は、石英、クリストバライト及びトリジマイトが含まれた試料について測定された結果である。この図形及び表の中で石英の回折線のみの組合せは、下のうちどれか。
 
 
-    【図：X線回折図形(2θ 15～35度、ピーク①～⑥)】
+    | 強度順 | 2θ角度 | 強度比 |
 
+    |---|---|---|
 
-    強度順／2θ角度(度)／強度比
+    | ① | 22.00 | 100 |
 
+    | ② | 26.66 | 95 |
 
-    ①／22.00／100
+    | ③ | 20.55 | 72 |
 
+    | ④ | 21.68 | 60 |
 
-    ②／26.66／95
+    | ⑤ | 23.31 | 30 |
 
-
-    ③／20.55／72
-
-
-    ④／21.68／60
-
-
-    ⑤／23.31／30
-
-
-    ⑥／20.86／19'
+    | ⑥ | 20.86 | 19 |'
   choices:
   - ①③
   - ①⑤
@@ -338,11 +346,12 @@ questions:
   answer: 4
   choice_notes: []
   explanation: null
-  figures: []
+  figures:
+  - file: 2015-08-funjin-16-fig.png
+    alt: X線回折図形。横軸は2θ（Cu-Kα）（度）で15～35、縦軸は強度（cap）で0～6000。ピークに①〜⑥の番号が付されている。
   law_note: null
-  _review: 原本に図あり（図あり（X線回折図形。数値表は記述・条件欄に表記））。文章で表記している。
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -360,7 +369,7 @@ questions:
   figures: []
   law_note: null
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -378,7 +387,7 @@ questions:
   figures: []
   law_note: null
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -386,7 +395,7 @@ questions:
   choices:
   - フィルターの平均孔径は、水の表面張力を利用したバブルポイントテスト法によって測定した値である。
   - フィルターの屈折率は、クリソタイルとほぼ等しい1.3である。
-  - アセトン蒸気が用いられる。
+  - フィルターの透明化には、アセトン蒸気が用いられる。
   - フィルターの捕集率は、粒径0.3μmの粒子に対して99%以上である。
   - 石綿粉じんの測定には、直径25mm又は47mmのフィルターを用いる。
   columns: null
@@ -396,7 +405,7 @@ questions:
   figures: []
   law_note: null
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -404,7 +413,7 @@ questions:
   choices:
   - 位相差用対物レンズには、位相板が内蔵されている。
   - 試料を通過した光は、直接光と回折光に分かれ、両者には約1/2波長の位相のずれが生じる。
-  - 位相差顕微鏡による観察でのコントラストには、ダークコントラストとプライトコントラストの2種類がある。
+  - 位相差顕微鏡による観察でのコントラストには、ダークコントラストとブライトコントラストの2種類がある。
   - 顕微鏡の分解能は、対物レンズの開口数に左右される。
   - アイピースグレーティクルの目盛りの寸法は、対物測微計の目盛りによって確認する。
   columns: null
@@ -413,4 +422,3 @@ questions:
   explanation: null
   figures: []
   law_note: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

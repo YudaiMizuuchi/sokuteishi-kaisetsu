@@ -4,7 +4,7 @@ subject: hourei
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - law-system
   traps: []
@@ -28,7 +28,7 @@ questions:
   _key_choice: 衛生管理者は,少なくとも毎月1回作業場等を巡視し,設備,作業方法等に有害のおそれがあるときは,直ちに,労働者の健康障害防止に必要な措置を講じなければならない.
   columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -50,7 +50,7 @@ questions:
   _key_choice: 常時50人以上の労働者を使用する事業者は,雇入れ時の健康診断を行ったときは、遅滞なく,健康診断結果報告書を所轄労働基準監督署長に提出しなければならない.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -75,7 +75,7 @@ questions:
   _key_choice: 事業者は,その事業場の属する業種にかかわらず,新たに職務に就くこととなった職長に対し,法令で定める安全又は衛生のための教育を行わなければならない.
   columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -97,7 +97,7 @@ questions:
   _key_choice: 特定粉じん作業
   columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -124,7 +124,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 6
-  status: draft
+  status: published
   chapters:
   - law-other
   - oxygen-deficiency
@@ -150,7 +150,7 @@ questions:
   _key_choice: 第1種酸素欠乏危険作業を行うときは,その日の作業を開始した直後に,当該作業場における空気中の酸素の濃度を測定しなければならない.
   columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -175,7 +175,7 @@ questions:
   _key_choice: 送気マスク
   columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -198,7 +198,7 @@ questions:
   _key_choice: ベリリウム化合物
   columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   traps:
@@ -220,7 +220,7 @@ questions:
   _key_choice: 第1種作業環境測定士は,登録を受けた作業場の種類以外の指定作業場についてのデザイン及びサンプリングの業務を行うことができない.
   columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   - a-b-measurement
@@ -246,7 +246,7 @@ questions:
   _key_choice: ろ過捕集方法に用いるろ過材は,0.5μmの粒子を95%以上捕集する性能を有するものでなければならない.
   columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
@@ -271,7 +271,7 @@ questions:
   _key_choice: 測定値が管理濃度の5分の1に満たない測定点がある単位作業場所にあっては,管理濃度の5分の1を当該測定点における測定値とみなして,管理区分の区分を行うことができる.
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - law-other
   traps:
@@ -283,7 +283,7 @@ questions:
   - 事業者は、日常行う清掃のほか、大掃除を、6か月以内ごとに1回、定期に、統一的に行わなければならない。
   - 事業者は、労働者を常時就業させる屋内作業場の気積を、設備の占める容積及び床面から3mをこえる高さにある空間を除き、労働者1人について、10m³以上としなければならない。
   - 事業者は、硫化水素濃度が10ppmを超える場所には、関係者以外の者が立ち入ることを禁止しなければならない。
-  - 事業者は、強烈な騒音を発する屋内作業場においては、その伝ばを防ぐため、隔壁を設ける等必要な措置を講じなければならない。
+  - 事業者は、強烈な騒音を発する屋内作業場においては、その伝ぱを防ぐため、隔壁を設ける等必要な措置を講じなければならない。
   - 事業者は、タンクの内部その他の場所で、自然換気が不十分なところにおいては、当該場所を換気するときを除き、内燃機関を有する機械を使用してはならない。
   answer: 2
   choice_notes: []
@@ -296,7 +296,7 @@ questions:
   _key_choice: 事業者は,労働者を常時就業させる屋内作業場の気積を,設備の占める容積及び床面から3mをこえる高さにある空間を除き,労働者1人について,10m3以上としなければならない.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -319,7 +319,7 @@ questions:
   _key_choice: アンモニアは,第2類物質である.
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -345,7 +345,7 @@ questions:
   _key_choice: ノルマルヘキサン
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -368,7 +368,7 @@ questions:
   _key_choice: 屋内作業場において,第2種有機溶剤等を用いて洗浄の業務を行う場合には,当該業務を行う作業場に,全体換気装置を設けなければならない.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - law-radiation
   traps:
@@ -398,7 +398,7 @@ questions:
   - ㋑
   - ㋺
 - num: 17
-  status: draft
+  status: published
   chapters:
   - law-dust
   - dust-disease
@@ -424,7 +424,7 @@ questions:
   _key_choice: 特定粉じん作業を行う屋内作業場については,全体換気装置による換気の実施又はこれと同等以上の措置を講じなければならない.
   columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - law-other
   - other-workplaces
@@ -450,7 +450,7 @@ questions:
   _key_choice: 事業者は,室における二酸化炭素の含有率を1,000ppm以下としなければならない.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - law-other
   - oxygen-deficiency
@@ -473,7 +473,7 @@ questions:
   _key_choice: 酸素欠乏危険作業に労働者を従事させる場合に,作業の性質上,当該作業を行う場所を換気することが著しく困難なときには,労働者に空気呼吸器又は電動ファン付き呼吸用保護具を使用させなければならない.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - law-dust
   traps:
@@ -494,4 +494,3 @@ questions:
   law_note: null
   _key_choice: 事業者は,その行ったじん肺健康診断に関する記録及びエックス線写真を5年間保存しなければならない.
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

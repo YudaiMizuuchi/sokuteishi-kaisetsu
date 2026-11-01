@@ -4,7 +4,7 @@ subject: hourei
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - law-system
   traps:
@@ -26,7 +26,7 @@ questions:
   _key_choice: 事業者は,常時300人以上の労働者を使用する事業場においては,その業種に関係なく,総括安全衛生管理者を選任しなければならない.
   columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -48,7 +48,7 @@ questions:
   _key_choice: 事業者は,定期健康診断を受けた労働者のうち,無所見と診断された者を除き,遅滞なく,健康診断の結果を通知しなければならない.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -73,7 +73,7 @@ questions:
   _key_choice: 事業者は,労働者に対して特別教育を行ったときは,遅滞なく,その実施結果を所轄労働基準監督署長に報告しなければならない.
   columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - law-health-education
   traps:
@@ -98,7 +98,7 @@ questions:
   _key_choice: 特定粉じん作業に係る業務
   columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -123,7 +123,7 @@ questions:
   - Ⓑ
   - Ⓒ
 - num: 6
-  status: draft
+  status: published
   chapters:
   - law-measurement-scope
   traps:
@@ -145,7 +145,7 @@ questions:
   _key_choice: 溶融ガラスからガラス製品を成型する業務を行う屋内作業場については,1か月以内ごとに1回,定期に,当該作業場における気温,湿度及びふく射熱を測定しなければならない.
   columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - law-chief
   traps:
@@ -167,7 +167,7 @@ questions:
   _key_choice: 酸性ガス用防毒マスク
   columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -193,7 +193,7 @@ questions:
   _key_choice: アルファ-ナフチルアミン
   columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   traps:
@@ -218,7 +218,7 @@ questions:
   _key_choice: 放射線業務を行う作業場のうち,管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は,作業環境測定士に行わせなければならない.
   columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - law-sokuteishi
   - a-b-measurement
@@ -244,7 +244,7 @@ questions:
   _key_choice: 単位作業場所が著しく狭く,かつ,粉じんの濃度がほぼ均一であることが明らかなときは,相対濃度指示方法のみによる測定が認められている.
   columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - evaluation
   traps:
@@ -269,7 +269,7 @@ questions:
   _key_choice: 測定値が管理濃度の5分の1に満たない測定点がある単位作業場所にあっては,管理濃度の5分の1を当該測定点における測定値とみなして,管理区分の区分を行うことができる.
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - law-other
   traps:
@@ -291,7 +291,7 @@ questions:
   _key_choice: 事業者は,炭酸ガス(二酸化炭素)濃度が1.0%である場所には,関係者以外の者が立ち入ることを禁止しなければならない.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -314,7 +314,7 @@ questions:
   _key_choice: 塩化ビニルは,第3類物質である.
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - law-tokka
   - toxicity
@@ -340,7 +340,7 @@ questions:
   _key_choice: 二硫化炭素
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - law-organic
   - organic-solvents
@@ -363,7 +363,7 @@ questions:
   _key_choice: 有機溶剤等を入れたことのあるタンクで有機溶剤の蒸気の発散するおそれのあるものの内部における業務に労働者を従事させるときは,当該業務に従事する労働者に有機ガス用防毒マスクを使用させなければならない.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - law-radiation
   traps:
@@ -388,7 +388,7 @@ questions:
   _key_choice: 男性の放射線業務従事者の受ける実効線量は,3年間につき50mSvを超えず,かつ,1年間につき20mSvを超えないようにしなければならない.
   columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - law-dust
   - ventilation
@@ -414,7 +414,7 @@ questions:
   _key_choice: 局所排気装置に法令に基づいて設置する除じん装置は,サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない.
   columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - law-dust
   - dust-disease
@@ -440,7 +440,7 @@ questions:
   _key_choice: 特定粉じん作業を行う屋内作業場については,当該粉じん作業に係る粉じんを減少させるため,全体換気装置による換気を実施しなければならない.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - law-other
   - other-workplaces
@@ -466,7 +466,7 @@ questions:
   _key_choice: 事業者は,空気調和設備を設けている場合は,室に供給される空気中の一酸化炭素の含有率を50ppm以下としなければならない.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - law-other
   - oxygen-deficiency
@@ -503,4 +503,3 @@ questions:
   law_note: null
   _key_choice: イハ
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

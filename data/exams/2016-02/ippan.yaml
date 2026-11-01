@@ -4,7 +4,7 @@ subject: ippan
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - oh-management
   traps:
@@ -29,7 +29,7 @@ questions:
   _key_choice: 外部放射線による実効線量が3か月間に一定の線量を超えるおそれのある区域を管理区域として設定し,標識によって明示する.
   columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -54,7 +54,7 @@ questions:
   _key_choice: 負傷又は疾病の重篤度の見積りでは,過去に実際に発生した負傷又は疾病の重篤度を,最も重篤な負傷又は疾病の重篤度として見積もる.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -78,7 +78,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 4
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -100,7 +100,7 @@ questions:
   _key_choice: フッ化水素は,細胞内の呼吸の障害による痙攣,呼吸麻痺などを生じる.
   columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -109,7 +109,7 @@ questions:
   summary: null
   stem: 化学物質による健康障害に関する次の記述のうち、誤っているものはどれか。
   choices:
-  - 1,2-ジクロロプロパンは、肝臓及び腎臓の障害などのほか、長期間の高濃度ぼく露により胆管がん発症につながる蓋然性が高い。
+  - 1,2-ジクロロプロパンは、肝臓及び腎臓の障害などのほか、長期間の高濃度ばく露により胆管がん発症につながる蓋然性が高い。
   - ジメチル-2.2-ジクロロビニルホスフェイト(DDVP)は、神経系や肝臓に対する毒性のほか、ヒトに対する発がん性が疑われている。
   - インジウム化合物は、間質性肺炎を引き起こすほか、ヒトに対する発がん性が疑われている。
   - 二酸化硫黄は、慢性気管支炎、歯牙酸蝕症などを生じる。
@@ -122,7 +122,7 @@ questions:
   _key_choice: 一酸化炭素は,ヘモグロビンの合成を阻害し,貧血の原因となる.
   columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -144,7 +144,7 @@ questions:
   _key_choice: 鉱物性粉じんに含まれる遊離けい酸は,胸膜に悪性の中皮腫を生じる.
   columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -168,7 +168,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 8
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -190,7 +190,7 @@ questions:
   _key_choice: 金属熱は,鉄,アルミニウムなどの金属を溶融する作業などに長時間従事した際に,高温により体温調節機能が障害を受けたことにより発生する.
   columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
@@ -212,7 +212,7 @@ questions:
   _key_choice: トルエンによる健康障害として顕著なものは,再生不良性貧血などの造血器障害である.
   columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -234,7 +234,7 @@ questions:
   _key_choice: 寒冷にさらされ体温が正常以下になると,皮膚の血管が拡張して血流量を増し,皮膚温を上昇させる.
   columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -256,7 +256,7 @@ questions:
   _key_choice: 等価騒音レベルは,ある時間範囲において変動する騒音の250,500,1,000,2,000,4,000及び8,000Hzの音圧レベルの平均値である.
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -281,7 +281,7 @@ questions:
   _key_choice: 振動工具を使用する作業では,レイノー現象などの末梢神経障害及び手指のしびれなど末梢循環障害が発生するおそれがある.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -315,7 +315,7 @@ questions:
   _key_choice: ハ―イ―ロ―ニ
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation-effects
   traps:
@@ -337,7 +337,7 @@ questions:
   _key_choice: しきい値は,確率的影響には存在するが,確定的影響には存在しない.
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -359,7 +359,7 @@ questions:
   _key_choice: 有機溶剤の蒸気は,空気より軽いため蒸発しやすい.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - other-environment
   traps:
@@ -381,7 +381,7 @@ questions:
   _key_choice: 高気圧作業における減圧症は,急激な減圧に伴い,血液中や組織中に溶け込んでいた酸素の気泡化が関与して発生する.
   columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -392,7 +392,7 @@ questions:
   choices:
   - 囲い式フードの制御風速とは、フード開口面における平均風速をいう。
   - ダクトの断面積が同じである場合、断面が長方形のダクトは円形のダクトに比べて圧力損失が大きい。
-  - 外付け式フードの関口部の周囲にフランジを設けると、フランジがないときに比べ、少ない排風量で所要の効果を上げることができる。
+  - 外付け式フードの開口部の周囲にフランジを設けると、フランジがないときに比べ、少ない排風量で所要の効果を上げることができる。
   - 排風量一定のもとでは、ダクトの断面積を大きくすると、圧力損失は小さくなるが搬送速度は遅くなる。
   - ダクトの圧力損失は、ダクトの長さが増すほど大きくなる。
   answer: 1
@@ -403,7 +403,7 @@ questions:
   _key_choice: 囲い式フードの制御風速とは,フード開口面における平均風速をいう.
   columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps: []
@@ -424,7 +424,7 @@ questions:
   _key_choice: 保護めがねは,紫外線などの有害光線による眼の障害を防ぐ目的で使用するもので,飛散粒子や薬品の飛沫などによる眼の障害を防ぐ目的で使用するものではない.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -446,7 +446,7 @@ questions:
   _key_choice: 有機ガス用防毒マスクの吸収缶は,使用する環境の温度が低いほど破過時間が短くなる傾向がある.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -470,4 +470,3 @@ questions:
   law_note: null
   _key_choice: 管理濃度の値は,労働者に対する化学物質のばく露限界を示している.
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

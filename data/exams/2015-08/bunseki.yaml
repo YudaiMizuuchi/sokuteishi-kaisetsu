@@ -4,7 +4,7 @@ subject: bunseki
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -32,7 +32,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 2
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -58,7 +58,7 @@ questions:
   _stem_head: 次のデータの和を正しく表しているものは下のうちどれか.ただし,各数値は有効数字で表されている.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -85,7 +85,7 @@ questions:
   _stem_head: 物質の溶解に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -114,7 +114,7 @@ questions:
   _stem_head: 二酸化炭素88gと一酸化炭素28gとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として,正しい値に最も近いものは,次のうちどれか.ただし,炭素及び酸素の原子量は,それぞれ12及び16とする.
   columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -147,7 +147,7 @@ questions:
   _stem_head: モル濃度4.80mol·L−1の水酸化ナトリウム溶液の密度は1.18g·cm−3である.この溶液の質量パーセント濃度として,正しい値に最も近いものは次のうちどれか.ただし,水酸化ナトリウムのモル質量を40.0g·mol−1とする.
   columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - logarithm
@@ -180,7 +180,7 @@ questions:
   _stem_head: pH3.0の硝酸溶液を水で2倍に希釈した溶液のpHとして,正しい値に最も近いものは下のうちどれか.ただし,pHは次の式で計算し,log105=0.699とする.
   columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -203,7 +203,7 @@ questions:
   _stem_head: 作業環境測定に使用する機器に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - standard-gas
   traps:
@@ -226,7 +226,7 @@ questions:
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - reaction
@@ -250,7 +250,7 @@ questions:
   _stem_head: 試薬に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - quantification
   traps: []
@@ -276,7 +276,7 @@ questions:
   columns: null
   review_note: 検知管の吸引空気量を増やすと低濃度側の測定が可能になる、という理由の説明です。確認中です。
 - num: 11
-  status: draft
+  status: published
   chapters:
   - mole
   traps:
@@ -305,7 +305,7 @@ questions:
   _stem_head: 硫酸マンガン五水和物(MnSO4·5H2O)を水に溶解して1.00×10−4mol·L−1の濃度の溶液に調製した.この水溶液1.00mLに含まれるマンガンの質量として正しい値は次のうちどれか.ただし,Mnの原子量は54.9とする.
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   traps:
@@ -331,7 +331,7 @@ questions:
   _stem_head: 次の化合物のうち,その溶解度積の単位が(mol·L−1)2ではないものはどれか.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -339,7 +339,7 @@ questions:
   - an-logarithm-02
   rank: null
   summary: null
-  stem: 物質Aの濃度が3.0×10⁻⁵mol·L⁻¹の溶液を、光路長1.0cmのセル中に入れ、波長550nmにおける吸光度を測定したところ、0.36であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
+  stem: 物質Aの濃度が3.0×10⁻⁵ mol・L⁻¹の溶液を、光路長1.0 cmのセル中に入れ、波長550 nmにおける吸光度を測定したところ、0.36であった。この溶液中のAの550 nmにおけるモル吸光係数として、正しい値は次のうちどれか。
   choices:
   - 8.0×10³mol⁻¹·L·cm⁻¹
   - 1.0×10⁴mol⁻¹·L·cm⁻¹
@@ -361,7 +361,7 @@ questions:
   _stem_head: 物質Aの濃度が3.0×10−5mol·L−1の溶液を,光路長1.0cmのセル中に入れ,波長550nmにおける吸光度を測定したところ,0.36であった.この溶液中の物質Aの550nmにおけるモル吸光係数として,正しい値は次のうちどれか.
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -391,7 +391,7 @@ questions:
   _stem_head: 測定対象物質の水溶液に,ある波長の光を当てたところ,透過率は50%であった.このときの吸光度として正しい値に最も近いものは次のうちどれか.ただし,log105=0.699とする.
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -414,7 +414,7 @@ questions:
   _stem_head: フレームを用いる原子吸光分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -437,7 +437,7 @@ questions:
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -460,7 +460,7 @@ questions:
   _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さ(H)を表す式として,正しいものは次のうちどれか.ただし,Aはカラム内での渦流拡散に起因する定数,Bはその成分自身のカラム軸方向の分子拡散に起因する定数,Cは固定相と移動相間の物質移動に起因す
   columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -486,7 +486,7 @@ questions:
   _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -509,7 +509,7 @@ questions:
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   - logarithm
@@ -538,4 +538,3 @@ questions:
   _key_choice: 40年
   _stem_head: 半減期12年の放射性核種の放射能が10分の1に減衰するまでの時間として,正しい値に最も近いものは次のうちどれか.ただし,log102=0.301とする.
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

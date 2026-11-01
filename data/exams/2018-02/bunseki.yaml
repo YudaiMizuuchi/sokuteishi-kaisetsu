@@ -90,16 +90,13 @@ questions:
   - an-organic-04
   rank: null
   summary: null
-  stem: '次の反応のうち、下線を付した元素の還元反応が起こっているものはどれか。
-
-
-    ※下線部(PDFでは下線表示)：1 Na、2 Mn、3 Fe、4 Ca、5 Al'
+  stem: 次の反応のうち、下線を付した元素の還元反応が起こっているものはどれか。
   choices:
-  - NaOH＋HCl→NaCl＋H₂O
-  - MnO₂＋4HCl→MnCl₂＋2H₂O＋Cl₂
-  - FeO＋2HCl→FeCl₂＋H₂O
-  - CaCO₃＋2HCl→CaCl₂＋H₂O＋CO₂
-  - Al₂O₃＋6HCl→2AlCl₃＋3H₂O
+  - <u>Na</u>OH＋HCl→NaCl＋H₂O
+  - <u>Mn</u>O₂＋4HCl→MnCl₂＋2H₂O＋Cl₂
+  - <u>Fe</u>O＋2HCl→FeCl₂＋H₂O
+  - <u>Ca</u>CO₃＋2HCl→CaCl₂＋H₂O＋CO₂
+  - <u>Al</u>₂O₃＋6HCl→2AlCl₃＋3H₂O
   answer: 2
   choice_notes: []
   explanation: '還元は、酸化数が減少する変化です。（2）では、マンガンの酸化数が MnO₂ の ＋4 から MnCl₂ の ＋2 に減っているので、マンガンが還元されています。よって答えは（2）です。

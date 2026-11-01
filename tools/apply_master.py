@@ -131,6 +131,7 @@ def split_choice(c):
         m = re.match(f"^([{MARK}])\\s*(.*)$", p)
         if m: heads.append(m.group(1)); bodies.append(m.group(2).strip())
         else: heads.append(None); bodies.append(p.strip())
+    if all(heads) and not any(bodies): return " ".join(heads), None      # 「㋑ ㋺」のように、印だけの選択肢
     if all(heads): return " ／ ".join(bodies), heads
     # 印が ASCII の A, B, C（Ⓐ が通常の A になっているもの）：A, B, C と順に並ぶときだけ印とみなす
     letters = "ABCDE"
@@ -191,17 +192,13 @@ def clean_text(q):
 SKIP_STEM = {"H29-1-C2-14", "R7-1-C2-11", "R7-1-C2-14", "R7-2-C2-14", "R8-1-C2-14", "H29-2-C4-04", "H30-1-C4-04"}
 SKIP_CHOICES = {"R8-1-C2-14", "H29-2-C4-04"}
 DATA_IN_TEXT = {"R5-2-C3-07", "R6-2-C3-06"}
-FORCE_STEM = {"R3-1-C6-19"}     # サイト側の本文に読み取りの残骸があるもの
+FORCE_STEM = {"R3-1-C6-19", "H27-1-C6-13"}     # サイト側の本文に読み取りの残骸があるもの
 # 選択肢が絵そのもの（文字の選択肢にすると答えの手がかりになる）なので「図の1〜5」のままにする
 KEEP_FIGLABEL = {"R8-1-C1-02", "R8-1-C4-07"}
 # 分数と根号の入った式は、LaTeX のまま選択肢にする（サイトのビルド時に KaTeX で表示する）
 LATEX_CHOICES = {"R2-1-C5-02", "R5-1-C5-02"}
 # 原本の印字そのままにしている箇所の注記
-TEXT_NOTES = {
-    "H28-2-C3-05": "条件文の「個体」は、原本の印字のとおりです（「固体」の誤植とみられますが、原文のまま掲載しています）。",
-    "H29-1-C2-11": "選択肢5の「労働者1人にいて」は、原本の印字のとおりです（「について」の「つ」が抜けていますが、原文のまま掲載しています）。",
-    "R8-1-C1-06": "選択肢3の「蛋白変成作用」は、一般には「蛋白変性」と表記されますが、原本の印字のとおり掲載しています。",
-}
+TEXT_NOTES = {}   # 手で書く注記（原本の誤植の訂正は、マスタの corrections から自動で作る）
 # 図の代替テキストから、答えの手がかりになる語を除く
 ALT_STRIP = [(r"（?(メスシリンダー|ビュレット|ホールピペット|メスピペット|メスフラスコ)）?", ""), (r"（健康有害性の絵表示）", "")]
 
@@ -212,6 +209,7 @@ def main():
     ap.add_argument("--data", default="data")
     ap.add_argument("--figures", default=None, help="マスタの図（<ID>_1.png）のあるフォルダ")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--create", action="store_true", help="サイトにない回・問題を、マスタから新しく作る")
     ap.add_argument("--only", nargs="*", default=None, help="この ID だけ処理する")
     a = ap.parse_args()
     figdir = Path(a.figures) if a.figures else None
@@ -221,12 +219,27 @@ def main():
             if a.only and q["id"] not in a.only: continue
             key, subj = exam_key(q["exam"]["code"]), SUB[q["subject"]["no"]]
             p = Path(a.data) / "exams" / key / f"{subj}.yaml"
-            if not p.exists(): continue
+            if not p.exists() and p not in files:
+                if not a.create: continue
+                p.parent.mkdir(parents=True, exist_ok=True)
+                files[p] = {"exam": key, "date": None, "subject": subj, "source_pdf": None, "questions": []}
             if p not in files: files[p] = yaml.safe_load(p.read_text(encoding="utf-8"))
             d = files[p]
             if d.get("excluded"): continue
             s = next((x for x in d["questions"] if x["num"] == q["number"]), None)
+            created = False
+            if not s and a.create:
+                s = {"num": q["number"], "status": "draft", "chapters": [], "traps": [], "rank": None,
+                     "stem": clean_text(q)[0], "choices": [""] * len(q["choices"]), "columns": None,
+                     "answer": q["answer"][0] if len(q["answer"]) == 1 else q["answer"],
+                     "choice_notes": [], "explanation": None, "figures": [], "law_note": None}
+                d["questions"].append(s); d["questions"].sort(key=lambda x: x["num"])
+                created = True; changed.append((q["id"], "問題を新しく作った", "", s["stem"][:30]))
             if not s or not s.get("stem"): continue
+            # マスタに記録された、原本の誤植の訂正（承認済み）を、注記にする
+            for c in q.get("corrections") or []:
+                if c.get("original") and c.get("corrected"):
+                    s["text_note"] = f"原本では「{c['original']}」と印字されていますが、誤植と判断し、「{c['corrected']}」に直して掲載しています。"
             if q["id"] in TEXT_NOTES: s["text_note"] = TEXT_NOTES[q["id"]]
             # --- 正答
             ans = q["answer"]
@@ -278,6 +291,8 @@ def main():
                 flagged.append((q["id"], "選択肢の数が違う", len(s["choices"]), len(new)))
             else:
                 for i, (o, n) in enumerate(zip(s["choices"], new)):
+                    if not str(o).strip():                      # 新しく作った問題の空の選択肢
+                        s["choices"][i] = n; continue
                     if re.search(r"図の\d$", o.strip()) and "／" in o and q["figure"]["has_figure"]:
                         continue            # 「物質名 ／ 図の3」：Ⓑの列は画像のまま
                     if o.strip().startswith("図の"):
@@ -316,6 +331,12 @@ def main():
                     changed.append((q["id"], "図", old, name))
                 else:
                     flagged.append((q["id"], "マスタの図の画像が見つからない", q["figure"]["files"], ""))
+    # 新しく作った問題は、問題文・選択肢・正答がそろっていれば公開にする
+    for pth, d in files.items():
+        for s in d["questions"]:
+            if s.get("status") == "draft" and s.get("stem") and s.get("choices") and all(s["choices"]) and s.get("answer"):
+                if (s.get("rank") is None and not s.get("chapters") and not s.get("traps")) and not s.get("_review"):
+                    s["status"] = "published"
     # 選択肢を文字にできた問題の、選択肢用の旧画像を外す
     for pth, d in files.items():
         for s in d["questions"]:

@@ -4,7 +4,7 @@ subject: bunseki
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -30,7 +30,7 @@ questions:
   _stem_head: 単位に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - units
   traps:
@@ -56,7 +56,7 @@ questions:
   _stem_head: 次の1及び2の数値並びに3から5の計算の結果のうち,有効数字の桁数が3ではないものはどれか.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - gas
   traps:
@@ -79,7 +79,7 @@ questions:
   _stem_head: 気体に関する次の記述のうち,誤っているものはどれか.ただし,明示されていない条件は一定であるとする.
   columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - organic
   traps:
@@ -88,7 +88,7 @@ questions:
   summary: null
   stem: 物質の溶解に関する次の記述のうち、誤っているものはどれか。
   choices:
-  - ペンゼンは、水に対する溶解度よりも四塩化炭素に対する溶解度の方が大きい。
+  - ベンゼンは、水に対する溶解度よりも四塩化炭素に対する溶解度の方が大きい。
   - 塩化ナトリウムは、水に対する溶解度よりもエタノールに対する溶解度の方が大きい。
   - 硝酸カリウムの水に対する溶解度は、温度により変化する。
   - グルコースは、フェノールに対する溶解度よりも水に対する溶解度の方が大きい。
@@ -102,7 +102,7 @@ questions:
   _stem_head: 物質の溶解に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 5
-  status: draft
+  status: published
   chapters:
   - solution-chem
   - solution
@@ -132,7 +132,7 @@ questions:
   _stem_head: 質量パーセント濃度が10.0%の塩酸の水溶液(密度1.05g·cm−3)100mLと精製水(密度1.00g·cm−3)100mLとを混合した水溶液の質量パーセント濃度として,正しい値に最も近いものは次のうちどれか.
   columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - titration
   traps:
@@ -158,7 +158,7 @@ questions:
   _stem_head: 次の化合物のうち,その溶解度積の単位が(mol·L−1)2ではないものはどれか.
   columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -166,7 +166,10 @@ questions:
   - an-reaction-02
   rank: null
   summary: null
-  stem: ヨウ素(I₂)を0.20g含む水溶液100mLに四塩化炭素10mLを加えてI₂を抽出した。水溶液に残存するI₂の質量(g)として、正しい値は次のうちどれか。ただし、この抽出操作でI₂は分配平衡に到達したものとし、その分配係数を90とする。また、分配平衡にあるI₂の四塩化炭素と水中における質量濃度をそれぞれ[I₂]orgと[I₂]aqとすると、分配係数は、[I₂]org/[I₂]aqで定義される。
+  stem: 'ヨウ素（I₂）を0.20 g含む水溶液100 mLに四塩化炭素10 mLを加えてI₂を抽出した。水溶液に残存するI₂の質量（g）として、正しい値は次のうちどれか。
+
+
+    ただし、この抽出操作でI₂は分配平衡に到達したものとし、その分配係数を90とする。また、分配平衡にあるI₂の四塩化炭素と水中における質量濃度をそれぞれ[I<sub>2</sub>]<sub>org</sub>及び[I<sub>2</sub>]<sub>aq</sub>とすると、分配係数は、[I<sub>2</sub>]<sub>org</sub>/[I<sub>2</sub>]<sub>aq</sub>で定義される。'
   choices:
   - 2.0×10⁻³
   - 1.0×10⁻²
@@ -191,7 +194,7 @@ questions:
   _stem_head: ヨウ素(I2)を0.20g含む水溶液100mLに四塩化炭素10mLを加えてI2を抽出した.水溶液に残存するI2の質量(g)として,正しい値は次のうちどれか.ただし,この抽出操作でI2は分配平衡に到達したものとし,その分配係数を90とする.ま
   columns: null
 - num: 8
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -216,7 +219,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 9
-  status: draft
+  status: published
   chapters:
   - flowmeter
   traps:
@@ -242,7 +245,7 @@ questions:
   _stem_head: 気体用流量計に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - lab-equipment
   traps:
@@ -255,7 +258,7 @@ questions:
   - イオン交換法では、原水中の金属イオンを除去できる。
   - メンブランフィルターは、原水中の粒子を除去できる。
   - 陽イオン交換樹脂は、原水中のハロゲン化物イオンを吸着し水素イオンを放出する。
-  - イオン交換水の純度の指標として比抵抗(Ω·cm)が用いられる。
+  - イオン交換水の純度の指標として比抵抗値（Ω・cm）が用いられる。
   answer: 4
   choice_notes: []
   explanation: '陽イオン交換樹脂は、水中の**陽イオン**を吸着して水素イオンを放出します。ハロゲン化物イオンなどの陰イオンを吸着して水酸化物イオンを放出するのは、陰イオン交換樹脂です。選択肢4は誤りです。
@@ -268,7 +271,7 @@ questions:
   _stem_head: 精製水の製造に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -298,7 +301,7 @@ questions:
   _stem_head: 酢酸溶液10.0mLを精製水で50.0mLにした後,フェノールフタレインを指示薬として水酸化ナトリウム溶液(0.100mol/L)で滴定したところ,終点までに要した水酸化ナトリウム溶液は10.4mLであった.酢酸溶液10.0mLに含まれてい
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - titration
   - reaction
@@ -322,7 +325,7 @@ questions:
   _stem_head: メタンを酸素過剰の状態で燃焼させたとき,生成する二酸化炭素の物質量に関する次の記述のうち,正しいものはどれか.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   - logarithm
@@ -352,7 +355,7 @@ questions:
   _stem_head: 物質Aの水溶液の波長450nmにおけるモル吸光係数は,12,000mol−1·L·cm−1である.物質Aの水溶液の吸光度を光路長1.0cmのセルを用いて450nmで測定したところ0.36であった.水溶液中の物質Aの濃度として,正しい値は次の
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - spectrophotometry
   traps:
@@ -378,7 +381,7 @@ questions:
   _stem_head: 吸光光度分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - aas
   traps:
@@ -404,7 +407,7 @@ questions:
   _stem_head: フレーム原子吸光分析法によるカドミウムの分析に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - fluorescence
   traps:
@@ -430,7 +433,7 @@ questions:
   _stem_head: 蛍光光度分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -455,7 +458,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 18
-  status: draft
+  status: published
   chapters:
   - gc
   traps:
@@ -481,7 +484,7 @@ questions:
   _stem_head: キャピラリーガスクロマトグラフ分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - xrd
   traps:
@@ -504,7 +507,7 @@ questions:
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち,誤っているものはどれか.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - radiation
   traps:
@@ -526,4 +529,3 @@ questions:
   _key_choice: 単位時間当たりに壊変する原子の数
   _stem_head: 放射能の単位(Bq)を表す次の説明のうち,正しいものはどれか.
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

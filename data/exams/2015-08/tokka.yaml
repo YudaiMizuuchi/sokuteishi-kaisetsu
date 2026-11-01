@@ -4,7 +4,7 @@ subject: tokka
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -12,7 +12,7 @@ questions:
   choices:
   - シアン化水素の捕集液として、水酸化ナトリウム水溶液を用いる。
   - 標準物質として、シアン化カリウムを用いる。
-  - 捕集液に酢酸を加える。
+  - 捕集液に酢酸を加え中和した後、発色試薬を加える。
   - 最終試料液の色は、赤色である。
   - 試料空気中に臭素ガスが共存すると、分析の妨害となる。
   columns: null
@@ -22,7 +22,7 @@ questions:
   figures: []
   law_note: null
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -45,11 +45,11 @@ questions:
   figures: []
   law_note: null
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
-  stem: 環境空気(25℃、1気圧)中のフッ化水素の濃度を吸光光度分析法で測定した。捕集液に1.0L·min⁻¹の流量で試料空気を10分間吸引して得られた試料液10mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.100であった。フッ化水素の濃度が、4.58×10⁻³mol·L⁻¹の標準溶液10mLにつき試料液と同様の定量操作を行って測定した吸光度は0.320であった。フッ化水素の環境空気中濃度(体積分率)として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は100%とする。
+  stem: 環境空気（25℃、1気圧）中のフッ化水素の濃度を吸光光度分析法で測定した。捕集液に1.0 L・min⁻¹の流量で試料空気を10分間吸引して得られた試料液10 mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.100であった。フッ化水素の濃度が、4.58×10⁻⁵ mol・L⁻¹の標準溶液10 mLにつき試料液と同様の定量操作を行って測定した吸光度は0.320であった。フッ化水素の環境空気中濃度（体積分率）として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は100%とする。
   choices:
   - 0.15ppm
   - 0.25ppm
@@ -57,13 +57,13 @@ questions:
   - 0.45ppm
   - 0.55ppm
   columns: null
-  answer: 1
+  answer: 3
   choice_notes: []
   explanation: null
   figures: []
   law_note: null
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -81,7 +81,7 @@ questions:
   figures: []
   law_note: null
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -99,7 +99,7 @@ questions:
   figures: []
   law_note: null
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -117,7 +117,7 @@ questions:
   figures: []
   law_note: null
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -141,7 +141,7 @@ questions:
   figures: []
   law_note: null
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -159,7 +159,7 @@ questions:
   figures: []
   law_note: null
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -168,7 +168,7 @@ questions:
   - 移動相は、脱気して用いる。
   - 逆相クロマトグラフ用のカラムは、基材にアルキル鎖を化学結合させたものが多く用いられる。
   - 分離の原理の一つとして、分配作用がある。
-  - メタノールノ水(1:1)の移動相は、アセトニトリル/水(1:1)の移動相よりも粘性が低い
+  - メタノール/水（1:1）の移動相は、アセトニトリル/水（1:1）の移動相よりも粘性が低い。
   - 電気化学検出器は、電極反応により酸化又は還元される物質を検出する。
   columns: null
   answer: 4
@@ -177,7 +177,7 @@ questions:
   figures: []
   law_note: null
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -195,7 +195,7 @@ questions:
   figures: []
   law_note: null
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -213,7 +213,7 @@ questions:
   figures: []
   law_note: null
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -233,31 +233,29 @@ questions:
   figures: []
   law_note: null
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
-  stem: '次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
-
-
-    ※選択肢の構造式はPDFでは図。ここでは構造を文章で表記。'
+  stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
   choices:
-  - クロロメチルメチルエーテル ／ H₃C－O－CH₂Cl
-  - β-プロピオラクトン ／ H₂C－CH₂－C＝O(Oを含む四員環)
-  - アクリロニトリル ／ H₂C＝CH－CN
-  - α-ナフチルアミン ／ ナフタレン環の1位に－NH₂
-  - p-ニトロクロロベンゼン ／ ベンゼン環のパラ位にClとNO₂
+  - クロロメチルメチルエーテル ／ 図の1
+  - β-プロピオラクトン ／ 図の2
+  - アクリロニトリル ／ 図の3
+  - α-ナフチルアミン ／ 図の4
+  - p-ニトロクロロベンゼン ／ 図の5
   columns:
   - Ⓐ
   - Ⓑ
   answer: 2
   choice_notes: []
   explanation: null
-  figures: []
+  figures:
+  - file: 2015-08-tokka-13-fig.png
+    alt: Ⓐ（名称）とⒷ（構造式）の2列の表。1＝クロロメチルメチルエーテル、Ⓑは H₃C-O-CH₂Cl。2＝β-プロピオラクトン、Ⓑは H₃C-CH-C=O で、CH と C=O が下側の O で結ばれた3員環。3＝アクリロニトリル、Ⓑは H₂C=CH-CN。4＝α-ナフチルアミン、Ⓑはナフタレン環の一方の環の上端の炭素に NH₂ が結合。5＝p-ニトロクロロベンゼン、Ⓑはベンゼン環の両端に Cl と NO₂ が結合。
   law_note: null
-  _review: 原本に図あり（図あり（構造式。選択肢は文章で表記））。文章で表記している。
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -275,23 +273,22 @@ questions:
   figures: []
   law_note: null
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
-  stem: '体積2Lの3個の真空の容器に、エチレンイミン(A)、シアン化水素(B)、ヨウ化メチル(C)をそれぞれ下表に示す質量ずつ別々に入れて密封して蒸発させた。定常状態になったときの各容器中のそれぞれの物質の気体の圧力(PA、PB、PC)を大きい順に並べたものは下のうちどれか。ただし、それぞれの物質のモル質量及び飽和蒸気圧は下表のとおりとし、温度は20℃とする。
+  stem: '体積2 Lの3個の真空の容器に、エチレンイミン（A）、シアン化水素（B）、ヨウ化メチル（C）をそれぞれ下表に示す質量ずつ別々に入れて密封して蒸発させた。定常状態になったときの各容器中のそれぞれの物質の気体の圧力（P<sub>A</sub>、P<sub>B</sub>、P<sub>C</sub>）を大きい順に並べたものは下のうちどれか。ただし、それぞれの物質のモル質量及び飽和蒸気圧は下表のとおりとし、温度は20℃とする。
 
 
-    物質／容器に入れた質量(g)／モル質量(g·mol⁻¹)／20℃における飽和蒸気圧(kPa)
+    |  | 容器に入れた質量（g） | モル質量（g・mol⁻¹） | 20℃における飽和蒸気圧（kPa） |
 
+    |---|---|---|---|
 
-    エチレンイミン(A)／1.0／43／21
+    | エチレンイミン（A） | 1.0 | 43 | 21 |
 
+    | シアン化水素（B） | 0.5 | 27 | 83 |
 
-    シアン化水素(B)／0.5／27／83
-
-
-    ヨウ化メチル(C)／2.0／142／50'
+    | ヨウ化メチル（C） | 2.0 | 142 | 50 |'
   choices:
   - PC＞PB＞PA
   - PA＞PC＞PB
@@ -305,7 +302,7 @@ questions:
   figures: []
   law_note: null
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -323,7 +320,7 @@ questions:
   figures: []
   law_note: null
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -341,7 +338,7 @@ questions:
   figures: []
   law_note: null
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -368,7 +365,7 @@ questions:
   figures: []
   law_note: null
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -386,7 +383,7 @@ questions:
   figures: []
   law_note: null
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -403,4 +400,3 @@ questions:
   explanation: null
   figures: []
   law_note: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

@@ -4,7 +4,7 @@ subject: kinzoku
 source_pdf: null
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -22,7 +22,7 @@ questions:
   figures: []
   law_note: null
 - num: 2
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -40,7 +40,7 @@ questions:
   figures: []
   law_note: null
 - num: 3
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -58,7 +58,7 @@ questions:
   figures: []
   law_note: null
 - num: 4
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -76,7 +76,7 @@ questions:
   figures: []
   law_note: null
 - num: 5
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -94,7 +94,7 @@ questions:
   figures: []
   law_note: null
 - num: 6
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -112,7 +112,7 @@ questions:
   figures: []
   law_note: null
 - num: 7
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -130,7 +130,7 @@ questions:
   figures: []
   law_note: null
 - num: 8
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -148,7 +148,7 @@ questions:
   figures: []
   law_note: null
 - num: 9
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -166,7 +166,7 @@ questions:
   figures: []
   law_note: null
 - num: 10
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -184,7 +184,7 @@ questions:
   figures: []
   law_note: null
 - num: 11
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -202,7 +202,7 @@ questions:
   figures: []
   law_note: null
 - num: 12
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -220,7 +220,7 @@ questions:
   figures: []
   law_note: null
 - num: 13
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -238,7 +238,7 @@ questions:
   figures: []
   law_note: null
 - num: 14
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -256,7 +256,7 @@ questions:
   figures: []
   law_note: null
 - num: 15
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -274,7 +274,7 @@ questions:
   figures: []
   law_note: null
 - num: 16
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -292,14 +292,14 @@ questions:
   figures: []
   law_note: null
 - num: 17
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
   stem: 水銀の測定法に関する次の記述のうち、誤っているものはどれか。
   choices:
   - 金を用いる固体捕集法では、金に捕集された水銀を加熱脱着した後、原子吸光分析法で分析する。
-  - 液体補集-還元気化原子吸光分析法では、分析の際、過マンガン酸の色が消えるまで、塩酸ヒドロキシルアミン溶液を捕集液に加える。
+  - 液体捕集-還元気化原子吸光分析法では、分析の際、過マンガン酸の色が消えるまで、塩酸ヒドロキシルアミン溶液を捕集液に加える。
   - 原子吸光分析法では、測定波長253.7nmの紫外吸収を用いる。
   - 塩化スズ(Ⅱ)による還元を行う際には、試料液を弱アルカリ性とする。
   - 循環方式還元気化法で気化した水銀は、ヨウ素-ヨウ化カリウム溶液中に回収する。
@@ -310,7 +310,7 @@ questions:
   figures: []
   law_note: null
 - num: 18
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -328,7 +328,7 @@ questions:
   figures: []
   law_note: null
 - num: 19
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -346,7 +346,7 @@ questions:
   figures: []
   law_note: null
 - num: 20
-  status: draft
+  status: published
   chapters: []
   traps: []
   rank: null
@@ -363,4 +363,3 @@ questions:
   explanation: null
   figures: []
   law_note: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

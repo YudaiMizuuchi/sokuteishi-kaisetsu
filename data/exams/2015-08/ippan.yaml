@@ -4,7 +4,7 @@ subject: ippan
 source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
-  status: draft
+  status: published
   chapters:
   - oh-management
   traps:
@@ -29,7 +29,7 @@ questions:
   _key_choice: マネジメントシステムの中における安全衛生活動としては,従来型の危険予知(KY)活動,ヒヤリ・ハット事例の収集などを盛り込むべきではない.
   columns: null
 - num: 2
-  status: draft
+  status: published
   chapters:
   - oh-management
   traps: []
@@ -50,7 +50,7 @@ questions:
   _key_choice: メンタルヘルスケアは,「セルフケア」,「家族によるケア」及び「事業場内産業保健スタッフ等によるケア」の3つのケアを効果的に推進することをいう.
   columns: null
 - num: 3
-  status: draft
+  status: published
   chapters:
   - risk-assessment
   traps:
@@ -72,7 +72,7 @@ questions:
   _key_choice: ハザードは,労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される.
   columns: null
 - num: 4
-  status: draft
+  status: published
   chapters:
   - absorption
   traps:
@@ -96,7 +96,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 5
-  status: draft
+  status: published
   chapters:
   - toxicity
   traps:
@@ -107,7 +107,7 @@ questions:
   choices:
   - ヒ素では、角化症、黒皮症などの皮膚障害がみられる。
   - 二硫化炭素では、網膜の微細動脈瘤などがみられる。
-  - 一酸化炭素では、ヘモグロビン合成の障害による貧血や溶血がみられる。
+  - 一酸化炭素では、ヘモグロビン合成の障害による貧血や溶血などがみられる。
   - 硫化水素では、意識消失、呼吸麻痺などがみられる。
   - 金属水銀では、感情不安定、幻覚などの精神症状や手指の震えがみられる。
   answer: 3
@@ -118,7 +118,7 @@ questions:
   _key_choice: 一酸化炭素では,ヘモグロビン合成の障害による貧血や溶血がみられる.
   columns: null
 - num: 6
-  status: draft
+  status: published
   chapters:
   - dust-disease
   traps:
@@ -140,7 +140,7 @@ questions:
   _key_choice: アーク溶接作業で発生するヒュームの1次粒子の粒径は,多くが10μm以上である.
   columns: null
 - num: 7
-  status: draft
+  status: published
   chapters:
   - occupational-cancer
   traps:
@@ -167,7 +167,7 @@ questions:
   - Ⓐ
   - Ⓑ
 - num: 8
-  status: draft
+  status: published
   chapters:
   - metals
   traps:
@@ -189,7 +189,7 @@ questions:
   _key_choice: カドミウムでは,接触性皮膚炎や鼻中隔穿孔がみられる.
   columns: null
 - num: 9
-  status: draft
+  status: published
   chapters:
   - organic-solvents
   traps:
@@ -211,7 +211,7 @@ questions:
   _key_choice: 有機溶剤は,呼吸器から吸収され,皮膚からは吸収されない.
   columns: null
 - num: 10
-  status: draft
+  status: published
   chapters:
   - heat-cold
   traps:
@@ -233,7 +233,7 @@ questions:
   _key_choice: 屋外で太陽照射のある場合は,WBGTの値は自然湿球温度及び乾球温度の数値から算出される.
   columns: null
 - num: 11
-  status: draft
+  status: published
   chapters:
   - noise
   traps:
@@ -255,7 +255,7 @@ questions:
   _key_choice: 騒音による聴力低下は,進行しても老人性の聴力低下との区別は容易である.
   columns: null
 - num: 12
-  status: draft
+  status: published
   chapters:
   - vibration
   traps:
@@ -277,7 +277,7 @@ questions:
   _key_choice: 振動障害は,振動の周波数が高いほど起こりやすい.
   columns: null
 - num: 13
-  status: draft
+  status: published
   chapters:
   - em-waves
   traps:
@@ -311,7 +311,7 @@ questions:
   _key_choice: ハ―ロ―イ―ニ
   columns: null
 - num: 14
-  status: draft
+  status: published
   chapters:
   - radiation-effects
   traps:
@@ -333,7 +333,7 @@ questions:
   _key_choice: 白血病は,晩発障害に分類される確定的影響である.
   columns: null
 - num: 15
-  status: draft
+  status: published
   chapters:
   - properties
   traps:
@@ -355,7 +355,7 @@ questions:
   _key_choice: 有機溶剤は脂溶性であり,水に溶ける有機溶剤は,ほとんどない.
   columns: null
 - num: 16
-  status: draft
+  status: published
   chapters:
   - ventilation
   traps:
@@ -380,7 +380,7 @@ questions:
   _key_choice: 空気清浄装置を付設する局所排気装置では,一般に,排風機をフードに接続した吸引ダクトと空気清浄装置の間に設ける.
   columns: null
 - num: 17
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -405,7 +405,7 @@ questions:
   _key_choice: 防じんマスクの装着の際,面体と顔面の密着性を高めるため,面体の接顔部に,接顔メリヤスを装着して使用するのがよい.
   columns: null
 - num: 18
-  status: draft
+  status: published
   chapters:
   - ppe
   traps:
@@ -427,7 +427,7 @@ questions:
   _key_choice: 直結式防毒マスクは,隔離式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い.
   columns: null
 - num: 19
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -452,7 +452,7 @@ questions:
   _key_choice: 測定対象物質の中には,管理濃度が天井値として定められているものがある.
   columns: null
 - num: 20
-  status: draft
+  status: published
   chapters:
   - exposure-limits
   traps:
@@ -473,4 +473,3 @@ questions:
   law_note: null
   _key_choice: 許容濃度は,その値を作業環境測定の結果から得られる第1評価値及び第2評価値と比較して用いる指標である.
   columns: null
-excluded: 19回の対象外（平成26年度第2回〜平成27年度第2回）。データは残し、公開しない

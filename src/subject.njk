@@ -7,7 +7,7 @@ pagination:
 permalink: "{{ s.url }}"
 eleventyComputed:
   fulltitle: "作業環境測定士試験「{{ s.name }}」過去問と解説"
-  description: "作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、年度・回ごとに掲載。{% if s.kind == '共通' %}全問解説付きで、繰り返し出るひっかけパターンもあわせて確認できます。{% else %}問題と正答を掲載しています（解説は準備中）。{% endif %}"
+  description: "作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、年度・回ごとに掲載。{% if s.kind == '共通' %}解説付きは{{ s.explained }}問で、繰り返し出るひっかけパターンもあわせて確認できます。{% else %}問題と正答を掲載しています（解説は準備中）。{% endif %}"
 ---
 {% from "crumbs.njk" import crumbs %}
 {{ crumbs([{name: "ホーム", url: "/"}, {name: s.name}]) }}

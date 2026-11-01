@@ -1,0 +1,399 @@
+exam: 2022-02
+date: null
+subject: bunseki
+source_pdf: null
+questions:
+- num: 1
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 次の記述のうち、誤っているものはどれか。
+  choices:
+  - 温度21℃は、約294 Kである。
+  - 時間2.0 hは、7.2×10³ sである。
+  - 電流1.0 Aは、1.0 C・s⁻¹である。
+  - 体積1.0 Lは、1.0×10⁻³ m³である。
+  - 濃度1.0 µmol・g⁻¹は、1.0 mol・kg⁻¹である。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '誤差に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「誤差には、反復測定において、予測が不可能な変化をする［㋑］誤差と、一定のままであるか又は予測可能な変化をする［㋺］誤差がある。通常、［㋑］誤差は正規分布に従い、繰り返し測定して平均することで［㋩］する。」'
+  choices:
+  - 偶然 ／ 系統 ／ 増加
+  - 相対 ／ 偶然 ／ 減少
+  - 偶然 ／ 相対 ／ 増加
+  - 相対 ／ 系統 ／ 増加
+  - 偶然 ／ 系統 ／ 減少
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 3
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'n（mol）の理想気体の圧力P（atm）、体積V（L）、温度T（K）の間に成立する関係式として正しいものはどれか。
+
+
+    ただし、気体定数Rは0.08206 atm・L・K⁻¹・mol⁻¹とする。'
+  choices:
+  - PT=nRV
+  - TV=nRP
+  - PV=nRT
+  - PT=nR/V
+  - PV=nT/R
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 4
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '一酸化炭素84 gと二酸化炭素88 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。
+
+
+    ただし、炭素及び酸素の原子量は、それぞれ12及び16とする。'
+  choices:
+  - 0.3気圧
+  - 0.4気圧
+  - 0.5気圧
+  - 0.6気圧
+  - 0.7気圧
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 5
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'pH1.0の硝酸溶液を水で5倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。
+
+
+    ただし、pHは次の式で計算し、log₁₀2=0.301とする。
+
+
+    pH=-log₁₀[H⁺]
+
+
+    なお、式中の[H⁺]は水素イオンのモル濃度を表す。'
+  choices:
+  - '1.0'
+  - '1.7'
+  - '2.3'
+  - '3.0'
+  - '5.0'
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 6
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 質量パーセント濃度が20.0%の塩酸（密度1.10 g・cm⁻³）50.0 mLに、精製水（密度1.00 g・cm⁻³）50.0 mLを加え、希釈した。この塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 10.0%
+  - 10.3%
+  - 10.5%
+  - 10.8%
+  - 11.0%
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 7
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 熱電対温度計は使用温度範囲が広いという利点を持つが、応答速度が遅いという欠点を有する。
+  - アスマン通風乾湿計による温湿度の測定は、ファンを回転させてから5分程度後に行う。
+  - 石けん膜流量計では、一定体積の気体が流量計の計量部を流れるのに要する時間を測定し、流量を計算する。
+  - ガラス製体積計の校正は、体積計に受け入れられる水又は排出される水の質量と温度を正確に測定することで実施する。
+  - マイクロシリンジの計量目盛りは、針の部分の体積を含まない。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 8
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 気体の標準試料の調製方法には静的な方法と動的な方法があるが、拡散セルを用いる方法は動的な方法の一つである。
+  - 拡散セルでは、一定温度に保つと内部の液体が一定速度で壁面を透過して蒸発してくることを利用する。
+  - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+  - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる。
+  - 標準ガスの濃度は拡散セルの拡散チューブの内径に依存する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 9
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - 水酸化カルシウム ／ 乾燥剤
+  - メチルレッド ／ pH指示薬
+  - メチルイソブチルケトン ／ 金属キレートの抽出
+  - 酒石酸ナトリウムカリウム ／ 妨害金属のマスキング
+  - 二硫化炭素 ／ 有機溶剤の脱着
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 10
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 検量線に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 測定結果が検量線の濃度範囲を超えた場合は、試料溶液を希釈して再測定する。
+  - 標準添加法を用いる場合は、検量線は直線でなくてはならない。
+  - 検量線の標準液は、分析試料の成分組成と近くなるようにする。
+  - 内標準物質としては、測定対象物質と物理的、化学的によく似た物質を選択する。
+  - 検量線の直線範囲内であれば、測定結果の誤差は一定である。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 11
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '塩化コバルト（Ⅱ）六水和物（CoCl₂・6H₂O）を水に溶解して、塩化コバルトの濃度1.00×10⁻⁴ mol・L⁻¹の溶液を調製した。この水溶液1.00 mLに含まれるコバルトの質量として正しい値は次のうちどれか。
+
+
+    ただし、Coの原子量は58.9とする。'
+  choices:
+  - 5.89×10⁻⁴ mg
+  - 5.89×10⁻³ mg
+  - 5.89×10⁻² mg
+  - 5.89×10⁻¹ mg
+  - 5.89 mg
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 12
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
+  - 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
+  - フタル酸水素カリウムは、アルカリ溶液の標定に用いる。
+  - シュウ酸は、アルカリ溶液の標定に用いる。
+  - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 13
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 透過率は、入射光の強さに対する透過光の強さの比である。
+  - 透過率は、光が通過する溶液層の厚さに比例する。
+  - 吸光度は、透過率の逆数の対数である。
+  - 吸光度は、溶液の濃度に比例する。
+  - 吸光度は、通常、極大吸収波長で測定する。
+  columns: null
+  answer: 2
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 14
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: '物質Aの濃度が2.0×10⁻⁵ mol・L⁻¹の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度を測定したところ、0.480であった。
+
+
+    この溶液中の物質Aの550 nmにおけるモル吸光係数として、正しい値は次のうちどれか。'
+  choices:
+  - 3.0×10³ mol⁻¹・L・cm⁻¹
+  - 6.0×10³ mol⁻¹・L・cm⁻¹
+  - 1.2×10⁴ mol⁻¹・L・cm⁻¹
+  - 2.4×10⁴ mol⁻¹・L・cm⁻¹
+  - 4.8×10⁴ mol⁻¹・L・cm⁻¹
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源には中空陰極ランプが用いられる。
+  - 重水素放電管はバックグラウンドの補正に用いられる。
+  - フレーム法では、燃料ガスの燃焼で生じる化学炎の中で目的元素が原子化される。
+  - 黒鉛炉法では、黒鉛炉に通電することで生じるジュール熱で目的元素が原子化される。
+  - As（Ⅲ）やSb（Ⅲ）は、水素化ホウ素ナトリウムで原子化できる。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 蛍光は、電子基底状態にある分子の振動準位間の遷移で生じる。
+  - 蛍光の波長は、励起光よりも長い。
+  - 蛍光の強度は、励起光の波長により変化する。
+  - 蛍光の強度は、低濃度領域で励起光の強度に比例する。
+  - 蛍光の強度は、低濃度領域で蛍光物質の濃度に比例する。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 熱伝導度検出器（TCD）では、成分気体とキャリヤーガスとの熱伝導率の差を利用する。
+  - 水素炎イオン化検出器（FID）では、水素炎中で試料がイオン化される。
+  - 電子捕獲検出器（ECD）では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する。
+  - 光イオン化検出器（PID）では、グロー放電で放射される紫外線で試料がイオン化される。
+  - 炎光光度検出器（FPD）では、酸素過剰の酸化炎中で発光する試料特有の波長の光を利用する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 18
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。
+
+
+    ただし、右辺の第1項はカラム内の渦流拡散に起因する項、第2項は成分分子がカラム中で拡散移動することに起因する項、第3項は移動相と固定相間の平衡の遅れに起因する項である。また、A、B、Cは定数、vは移動相の平均線速度である。'
+  choices:
+  - H ＝ Av ＋ B/v ＋ C
+  - H=A+Bv+C
+  - H ＝ Av ＋ B ＋ C/v
+  - H ＝ A/v ＋ B ＋ Cv
+  - H ＝ A ＋ B/v ＋ Cv
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - この分析法では、通常、Cu-K<sub>α</sub>X線が用いられる。
+  - この分析法は、結晶物質の同定や定量に使われる。
+  - X線検出器は、X線のスペクトル分析ができるものでなければならない。
+  - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
+  - 結晶物質から回折するX線の回折角から、その物質の格子面間隔を求めることができる。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+- num: 20
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。
+  choices:
+  - α壊変 ／ ⁴Heの原子核
+  - β⁻壊変 ／ 電子
+  - β⁺壊変 ／ 陽子
+  - 軌道電子捕獲 ／ X線
+  - 核異性体転移 ／ γ線
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null

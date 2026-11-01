@@ -13,8 +13,10 @@ export default {
   // npm run dev / preview のときだけ draft の問題も表示する（その場合は noindex）
   showDrafts: process.env.SHOW_DRAFTS === "1",
   pageSize: 20,
+  // 「管理人を応援する」のリンク先（Amazon 欲しいものリスト）
+  supportUrl: "https://www.amazon.co.jp/hz/wishlist/ls/SPA8YXBIA6NM?ref_=wl_share",
   // お問い合わせフォームのURL（Googleフォーム）
   contactUrl: "https://forms.gle/KxzPPomLpmS2L1L76",
-  // まだ掲載できていない回（掲載したら、ここから消す）
-  missingExams: ["令和3年度第2回（2022年2月実施）", "令和4年度第1回（2022年8月実施）"],
+  // まだ掲載できていない回があるときは、ここに書く（トップページの案内に出る）
+  missingExams: [],
 };
