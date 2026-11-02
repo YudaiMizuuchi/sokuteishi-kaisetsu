@@ -26,13 +26,14 @@ questions:
     マネジメントシステムは、既存の安全衛生活動を、計画・実施・評価・改善の仕組みの中に位置付けて回していくものです。'
   figures: []
   law_note: null
-  _key_choice: マネジメントシステムの中における安全衛生活動としては,従来型の危険予知(KY)活動,ヒヤリ・ハット事例の収集などを盛り込むべきではない.
+  _key_choice: マネジメントシステムの中における安全衛生活動としては、従来型の危険予知(KY)活動、ヒヤリ・ハット事例の収集などを盛り込むべきではない。
   columns: null
 - num: 2
   status: published
   chapters:
   - oh-management
-  traps: []
+  traps:
+  - gn-oh-management-06
   rank: null
   summary: null
   stem: 「労働者の心の健康の保持増進のための指針(厚生労働省)」に基づくメンタルヘルス対策に関する次の記述のうち、誤っているものはどれか。
@@ -47,7 +48,7 @@ questions:
   explanation: 「労働者の心の健康の保持増進のための指針」のメンタルヘルスケアは、「セルフケア」「ラインによるケア」「事業場内産業保健スタッフ等によるケア」「事業場外資源によるケア」の**4つのケア**です。「家族によるケア」を含めた3つとする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: メンタルヘルスケアは,「セルフケア」,「家族によるケア」及び「事業場内産業保健スタッフ等によるケア」の3つのケアを効果的に推進することをいう.
+  _key_choice: メンタルヘルスケアは、「セルフケア」、「家族によるケア」及び「事業場内産業保健スタッフ等によるケア」の3つのケアを効果的に推進することをいう。
   columns: null
 - num: 3
   status: published
@@ -69,7 +70,7 @@ questions:
   explanation: ハザード（危険性又は有害性）は、労働者に負傷や疾病を生じさせる潜在的な根源です。労働災害発生の可能性と重篤度の組合せは「リスク」の定義なので、選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: ハザードは,労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される.
+  _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される。
   columns: null
 - num: 4
   status: published
@@ -91,7 +92,7 @@ questions:
   explanation: キシレンの生物学的モニタリングの指標は、尿中の**メチル馬尿酸**です。マンデル酸は、スチレンやエチルベンゼンの指標なので、選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: AキシレンBマンデル酸
+  _key_choice: Aキシレン Bマンデル酸
   columns:
   - Ⓐ
   - Ⓑ
@@ -115,7 +116,7 @@ questions:
   explanation: 一酸化炭素は、ヘモグロビンの合成を阻害するのではなく、ヘモグロビンと強く**結合**して酸素を運べなくします。ヘモグロビン合成の障害による貧血は鉛、溶血はヒ化水素の特徴なので、選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 一酸化炭素では,ヘモグロビン合成の障害による貧血や溶血がみられる.
+  _key_choice: 一酸化炭素では、ヘモグロビン合成の障害による貧血や溶血などがみられる。
   columns: null
 - num: 6
   status: published
@@ -137,7 +138,7 @@ questions:
   explanation: ヒュームの一次粒子の粒径は、一般に **1 µm 以下**です。アーク溶接のヒュームの一次粒子の多くが 10 µm 以上とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: アーク溶接作業で発生するヒュームの1次粒子の粒径は,多くが10μm以上である.
+  _key_choice: アーク溶接作業で発生するヒュームの1次粒子の粒径は、多くが10 μm以上である。
   columns: null
 - num: 7
   status: published
@@ -162,7 +163,7 @@ questions:
     ベンジジンは膀胱がん、ビス（クロロメチル）エーテルは肺がん、コールタールは皮膚がん・肺がん、石綿は肺がん・中皮腫です。'
   figures: []
   law_note: null
-  _key_choice: AベンゼンB白血病
+  _key_choice: Aベンゼン B白血病
   columns:
   - Ⓐ
   - Ⓑ
@@ -186,7 +187,7 @@ questions:
   explanation: 接触性皮膚炎や鼻中隔穿孔は、**6価クロム**（クロム酸など）の特徴です。カドミウムの主な健康障害は腎臓障害なので、選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: カドミウムでは,接触性皮膚炎や鼻中隔穿孔がみられる.
+  _key_choice: カドミウムでは、接触性皮膚炎や鼻中隔穿孔がみられる。
   columns: null
 - num: 9
   status: published
@@ -208,7 +209,7 @@ questions:
   explanation: 有機溶剤は、呼吸器から吸収されるだけでなく、脂溶性があるため**皮膚からも吸収されます**。選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 有機溶剤は,呼吸器から吸収され,皮膚からは吸収されない.
+  _key_choice: 有機溶剤は、呼吸器から吸収され、皮膚からは吸収されない。
   columns: null
 - num: 10
   status: published
@@ -230,7 +231,7 @@ questions:
   explanation: 屋外で日射がある場合の WBGT は、自然湿球温度・**黒球温度**・乾球温度の3つから算出します（0.7 × 自然湿球温度 ＋ 0.2 × 黒球温度 ＋ 0.1 × 乾球温度）。黒球温度を含めていない選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 屋外で太陽照射のある場合は,WBGTの値は自然湿球温度及び乾球温度の数値から算出される.
+  _key_choice: 屋外で太陽照射のある場合は、WBGTの値は自然湿球温度及び乾球温度の数値から算出される。
   columns: null
 - num: 11
   status: published
@@ -252,7 +253,7 @@ questions:
   explanation: 騒音による聴力低下が進行すると、4,000 Hz 付近の低下（C⁵ dip）がはっきりしなくなり、老人性の聴力低下との区別は**難しく**なります。「区別は容易」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 騒音による聴力低下は,進行しても老人性の聴力低下との区別は容易である.
+  _key_choice: 騒音による聴力低下は、進行しても老人性の聴力低下との区別は容易である。
   columns: null
 - num: 12
   status: published
@@ -274,7 +275,7 @@ questions:
   explanation: 局所振動障害は、周波数が高いほど起こりやすいわけではありません。影響が大きいのは比較的低い周波数で、1,000 Hz を超えるとほとんど影響しないとされています。選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 振動障害は,振動の周波数が高いほど起こりやすい.
+  _key_choice: 振動障害は、振動の周波数が高いほど起こりやすい。
   columns: null
 - num: 13
   status: published
@@ -308,7 +309,7 @@ questions:
   explanation: 電磁波を波長の短いものから並べると、γ 線（㋩）、可視光線（㋺）、赤外線（㋑）、マイクロ波（㋥）の順です。よって（4）が正しいものです。
   figures: []
   law_note: null
-  _key_choice: ハ―ロ―イ―ニ
+  _key_choice: ハ—ロ—イ—ニ
   columns: null
 - num: 14
   status: published
@@ -330,7 +331,7 @@ questions:
   explanation: 白血病は、晩発障害で、しきい値がないとされる**確率的影響**に分類されます。確定的影響とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 白血病は,晩発障害に分類される確定的影響である.
+  _key_choice: 白血病は、晩発障害に分類される確定的影響である。
   columns: null
 - num: 15
   status: published
@@ -352,7 +353,7 @@ questions:
   explanation: アセトン、メタノール、1,4-ジオキサンなど、水に溶ける有機溶剤も少なくありません。「水に溶ける有機溶剤はほとんどない」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 有機溶剤は脂溶性であり,水に溶ける有機溶剤は,ほとんどない.
+  _key_choice: 有機溶剤は脂溶性であり、水に溶ける有機溶剤は、ほとんどない。
   columns: null
 - num: 16
   status: published
@@ -377,7 +378,7 @@ questions:
     令和元年度第1回・第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 空気清浄装置を付設する局所排気装置では,一般に,排風機をフードに接続した吸引ダクトと空気清浄装置の間に設ける.
+  _key_choice: 空気清浄装置を付設する局所排気装置では、一般に、排風機をフードに接続した吸引ダクトと空気清浄装置の間に設ける。
   columns: null
 - num: 17
   status: published
@@ -402,7 +403,7 @@ questions:
     令和4年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 防じんマスクの装着の際,面体と顔面の密着性を高めるため,面体の接顔部に,接顔メリヤスを装着して使用するのがよい.
+  _key_choice: 防じんマスクの装着の際、面体と顔面の密着性を高めるため、面体の接顔部に、接顔メリヤスを装着して使用するのがよい。
   columns: null
 - num: 18
   status: published
@@ -424,7 +425,7 @@ questions:
   explanation: 直結式防毒マスクは、隔離式防毒マスクより吸収缶が小さく、使用できる対象ガスの濃度の範囲は**狭く**なります。選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 直結式防毒マスクは,隔離式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い.
+  _key_choice: 直結式防毒マスクは、隔離式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
   columns: null
 - num: 19
   status: published
@@ -449,7 +450,7 @@ questions:
     平成28年度第2回・平成29年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 測定対象物質の中には,管理濃度が天井値として定められているものがある.
+  _key_choice: 測定対象物質の中には、管理濃度が天井値として定められているものがある。
   columns: null
 - num: 20
   status: published
@@ -471,5 +472,5 @@ questions:
   explanation: 許容濃度は、労働者の健康障害を予防するためのばく露の目安で、作業環境測定の第1評価値や第2評価値と比べて用いる指標ではありません。評価値と比べるのは、管理濃度です。選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 許容濃度は,その値を作業環境測定の結果から得られる第1評価値及び第2評価値と比較して用いる指標である.
+  _key_choice: 許容濃度は、その値を作業環境測定の結果から得られる第1評価値及び第2評価値と比較して用いる指標である。
   columns: null

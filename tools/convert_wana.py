@@ -17,10 +17,10 @@ SRC = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else "data")
 
 SUBJECT_FILES = {
-    "design": "デザイン_サンプリング_ひっかけパターン一覧_19回.xlsx",
-    "bunseki": "分析に関する概論_ひっかけパターン一覧_19回.xlsx",
-    "ippan": "労働衛生一般_ひっかけパターン一覧_19回.xlsx",
-    "hourei": "労働衛生関係法令_ひっかけパターン一覧_19回.xlsx",
+    "design": "デザイン_サンプリング_ひっかけパターン一覧_23回.xlsx",
+    "bunseki": "分析に関する概論_ひっかけパターン一覧_23回.xlsx",
+    "ippan": "労働衛生一般_ひっかけパターン一覧_23回.xlsx",
+    "hourei": "労働衛生関係法令_ひっかけパターン一覧_23回.xlsx",
 }
 TRAP_PREFIX = {"design": "ds", "bunseki": "an", "ippan": "gn", "hourei": "lw"}
 
@@ -240,7 +240,7 @@ def exam_key(label):
 
 
 def rank_of(name, count, subj=None, exams=()):
-    """19回版の基準でランクを決める（Excelのランク欄は数式で、値が入っていないため）。
+    """ランクを決める。23回版のExcelはランク欄に値（S・A・B・C）が入っているので、通常はそちらを使う。以下は、値がないときの代わり（19回版の基準）。
     A＝19回中4回以上、B＝2〜3回、C＝1回または「その他」。
     法令は、2023年度以降を1.0、2019〜2022年度を0.7、2016〜2018年度を0.4とした重み付き回数で、A＝3.0以上、B＝1.5以上。"""
     if "その他" in name:
@@ -294,7 +294,7 @@ for f in (OUT / "exams").glob("*/*.yaml"):
 
 for subj, fname in SUBJECT_FILES.items():
     # 19回版は「頻出テーマ」「ひっかけパターン」の表記。内部では従来の「席」「罠の型」の名前で扱う
-    REN = {"頻出テーマ": "席", "ひっかけパターン": "罠の型"}
+    REN = {"頻出テーマ": "席", "典型テーマ": "席", "ひっかけパターン": "罠の型"}
     sheet = "ひっかけパターン一覧" if "ひっかけパターン一覧" in pd.ExcelFile(SRC / fname).sheet_names else "罠の型一覧"
     t = pd.read_excel(SRC / fname, sheet_name=sheet).rename(columns=REN)
     q = pd.read_excel(SRC / fname, sheet_name="正答肢一覧").rename(columns=REN)

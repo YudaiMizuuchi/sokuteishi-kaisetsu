@@ -71,9 +71,9 @@ eleventyComputed:
     <fieldset>
       <legend>ランク</legend>
       <div class="chips">
-        {% for r in ["A","B","C"] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r }}"><span>{{ r }}</span></label>{% endfor %}
+        {% for r in ["S","A","B","C"] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r }}"><span>{{ r }}</span></label>{% endfor %}
       </div>
-      <p class="hint">A：過去19回（平成28年度第1回〜令和8年度第1回）の分析で4回以上出たひっかけパターン、B：2〜3回、C：1回（法令は、法改正を考えて新しい回ほど重く数えた回数で判定）</p>
+      <p class="hint">ひっかけパターンごとの、23回での出題数。S：10問以上、A：5〜9問、B：3〜4問、C：1〜2問または単発。覚える範囲は、S・A・B。</p>
     </fieldset>
     <button type="button" class="reset" id="reset">条件をすべて解除</button>
   </aside>

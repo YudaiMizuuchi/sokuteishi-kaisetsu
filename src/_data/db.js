@@ -105,7 +105,7 @@ const traps = book.traps.map((t) => {
 const trapOut = Object.fromEntries(traps.map((t) => [t.id, t]));
 
 // ---- 問題
-const RANK_ORDER = { A: 0, B: 1, C: 2 };
+const RANK_ORDER = { S: 0, A: 1, B: 2, C: 3 };
 const questions = [];
 const examsDir = path.join(ROOT, "exams");
 for (const exam of fs.readdirSync(examsDir).sort()) {

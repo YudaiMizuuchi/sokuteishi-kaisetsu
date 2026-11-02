@@ -26,7 +26,7 @@ questions:
     業種に関係なく選任が必要になるのは、常時1,000人以上の事業場です。'
   figures: []
   law_note: null
-  _key_choice: 常時100人以上の労働者を使用する事業場においては、その業種に関係なく総括安全衛生管理者を選任しなければならない。
+  _key_choice: 常時100人以上の労働者を使用する事業場においては、その業種にかかわらず総括安全衛生管理者を選任しなければならない。
 - num: 2
   status: published
   chapters:
@@ -47,7 +47,7 @@ questions:
   explanation: 定期健康診断の結果報告書の提出が必要なのは、常時**50人以上**の労働者を使用する事業場です。「事業場の規模にかかわらず」とする選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 定期健康診断を行ったときは、事業場の規模にかかわらず、遅滞なく、定期健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
+  _key_choice: 医師による定期健康診断を行ったときは、使用する労働者数にかかわらず、遅滞なく、定期健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
 - num: 3
   status: published
   chapters:
@@ -68,7 +68,7 @@ questions:
   explanation: 特定化学物質を取り扱う業務は、特別教育の対象ではありません。選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 特定化学物質を取り扱う業務に労働者を就かせるときは、原則として、法令で定める特別の教育を行わなければならない。
+  _key_choice: 特定化学物質を取り扱う作業に労働者を就かせるときは、原則として、法定の科目について特別教育を行わなければならない。
 - num: 4
   status: published
   chapters:
@@ -92,7 +92,7 @@ questions:
     トリクロロエチレン（特別有機溶剤）とオルト-トルイジンは特別管理物質で30年、放射性物質は1か月以内ごと・5年です。'
   figures: []
   law_note: null
-  _key_choice: Ⓐ空気中のカドミウムの濃度 Ⓑ6か月以内ごとに1回 Ⓒ30年
+  _key_choice: A管理区域について定期に行う外部放射線による線量当量率 B1か月以内ごとに1回 C30年
   columns:
   - Ⓐ
   - Ⓑ
@@ -100,9 +100,10 @@ questions:
 - num: 5
   status: published
   chapters:
-  - law-measurement-scope
+  - law-other
+  - oxygen-deficiency
   traps:
-  - lw-law-measurement-scope-03
+  - lw-law-other-05
   rank: null
   summary: null
   stem: 作業環境測定に関する次の記述のうち、法令上、誤っているものはどれか。
@@ -120,7 +121,7 @@ questions:
     令和6年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 熱源を用いる乾燥室により物を乾燥する業務を行う屋内作業場については、半月以内ごとに1回、定期に当該屋内作業場における気温、湿度及びふく射熱を測定しなければならない。
+  _key_choice: 穀物の貯蔵のために使用している倉庫の内部において作業を行う場合の当該作業場については、その日の作業を開始する前に、当該作業場の酸素及び硫化水素の濃度を測定しなければならない。
 - num: 6
   status: published
   chapters:
@@ -145,7 +146,7 @@ questions:
     MOCA、リフラクトリーセラミックファイバー、クロロメチルメチルエーテル、パラ-ジメチルアミノアゾベンゼンは第2類物質です。'
   figures: []
   law_note: null
-  _key_choice: オルト-トリジン
+  _key_choice: ベンゾトリクロリド
 - num: 7
   status: published
   chapters:
@@ -189,7 +190,7 @@ questions:
 
     根拠：作業環境測定法第6条第2号。'
   figures: []
-  law_note: null
+  law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 作業環境測定の業務に関する不正の行為により、作業環境測定士の登録を取り消された者は、その日から起算して1年間は、作業環境測定士となることができない。
 - num: 9
   status: published
@@ -197,7 +198,7 @@ questions:
   - law-sokuteishi
   - a-b-measurement
   traps:
-  - lw-law-measurement-standard-02
+  - lw-law-measurement-standard-03
   rank: null
   summary: null
   stem: 作業環境測定基準に関する次の記述のうち、誤っているものはどれか。
@@ -215,13 +216,13 @@ questions:
     令和6年度第2回にも、2つの条件がそろわない形の誤りがあります。'
   figures: []
   law_note: null
-  _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭ければ、単位作業場所における測定点の数を5未満とすることができる。
+  _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
 - num: 10
   status: published
   chapters:
   - evaluation
   traps:
-  - lw-law-evaluation-01
+  - lw-law-evaluation-02
   rank: null
   summary: null
   stem: 作業環境評価基準に関する次の記述のうち、誤っているものはどれか。
@@ -236,13 +237,13 @@ questions:
   explanation: B 測定値が**管理濃度**の1.5倍を超えれば第3管理区分です。比べる相手は第1評価値ではないので、選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: A測定とB測定を行った場合、B測定値がA測定の第1評価値の1.5倍を超えている単位作業場所の管理区分は、第3管理区分である。
+  _key_choice: 特別有機溶剤を除き、2種類以上の特定化学物質を含有する混合物に係る単位作業場所にあっては、測定点ごとに、定められた算定式により求めた換算値を測定値とみなし、管理濃度に相当する値を1として管理区分の区分を行う。
 - num: 11
   status: published
   chapters:
   - personal-sampling
   traps:
-  - lw-law-personal-sampling-01
+  - lw-personal-sampling-01
   rank: null
   summary: null
   stem: 指定作業場について行う個人サンプリング法による作業環境測定に関する次の記述のうち、法令上、誤っているものはどれか。
@@ -260,7 +261,7 @@ questions:
     令和5年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 第1種作業環境測定士でなければ個人サンプリング法についての登録を受けることはできない。
+  _key_choice: 作業の実情に応じて、A測定の評価値及びD測定の測定値をもとに評価を行うことができる。
 - num: 12
   status: published
   chapters:
@@ -282,13 +283,14 @@ questions:
   explanation: フェノールは特定化学物質の**第3類物質**です。特定第2類物質とする選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: フェノールは、特定第2類物質である。
+  _key_choice: シアン化水素は、特定第2類物質であり、かつ、特別管理物質である。
 - num: 13
   status: published
   chapters:
-  - law-chief
+  - law-tokka
+  - toxicity
   traps:
-  - lw-law-chief-01
+  - lw-law-tokka-05
   rank: null
   summary: null
   stem: 特定化学物質障害予防規則に関する次の記述のうち、誤っているものはどれか。ただし、同規則に定める適用除外及び設備の特例はないものとする。
@@ -306,7 +308,7 @@ questions:
     第3類物質の作業でも作業主任者は必要ですが、試験研究の作業は例外です。'
   figures: []
   law_note: null
-  _key_choice: 第3類物質である二酸化硫黄を試験研究のために取り扱う作業については、作業主任者を選任しなければならない。
+  _key_choice: 第2類物質であり、かつ、特別管理物質である塩化ビニルを取り扱う作業場において常時作業に従事する労働者について、6か月を超えない期間ごとに所定の事項を記録した作業の記録を作成し、これを30年間保存するものとされている。
 - num: 14
   status: published
   chapters:
@@ -331,7 +333,7 @@ questions:
     1,2-ジクロルエチレンは第1種、エチルベンゼンは特別有機溶剤、コールタールナフサは第3種、1,1,1-トリクロルエタンは第2種です。'
   figures: []
   law_note: null
-  _key_choice: Ⓐクロルベンゼン Ⓑ特別有機溶剤
+  _key_choice: Aジクロロメタン B第2種有機溶剤等
   columns:
   - Ⓐ
   - Ⓑ
@@ -341,7 +343,7 @@ questions:
   - law-organic
   - organic-solvents
   traps:
-  - lw-law-organic-02
+  - lw-law-organic-04
   rank: null
   summary: null
   stem: 有機溶剤中毒予防規則に関する次の記述のうち、誤っているものはどれか。ただし、同規則に定める適用除外及び設備の特例はないものとする。
@@ -359,7 +361,7 @@ questions:
     タンク内部は、高濃度の蒸気や酸素欠乏のおそれがあるため、ろ過式の防毒マスクでは安全が確保できません。'
   figures: []
   law_note: null
-  _key_choice: 有機溶剤等を入れたことのあるタンクで有機溶剤の蒸気を発散するおそれのあるものの内部における業務に労働者を従事させるときは、当該業務に従事する労働者に有機ガス用防毒マスク又は電動ファン付き呼吸用保護具を使用させなければならない。
+  _key_choice: 第2種有機溶剤等を用いて屋内作業場で洗浄の作業に係る業務に労働者を就かせるときは、当該労働者に対し、原則として、法定の科目について特別教育を行わなければならない。
 - num: 16
   status: published
   chapters:
@@ -383,14 +385,13 @@ questions:
     眼の水晶体の等価線量限度が5年間で100 mSv・1年間で50 mSv（選択肢5）であることも、令和の改正で変わった数値として押さえておきましょう。'
   figures: []
   law_note: null
-  _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分については、原則として、3か月以内ごとに1回、定期に外部放射線による線量当量率又は線量当量を測定しなければならない。
+  _key_choice: 管理区域に立ち入る労働者については、放射線業務以外の業務のため管理区域に一時的に立ち入るものを除き、管理区域内において受ける外部及び内部被ばくによる線量を測定しなければならない。
 - num: 17
   status: published
   chapters:
-  - law-dust
-  - ventilation
+  - law-chief
   traps:
-  - lw-law-dust-01
+  - lw-law-chief-01
   rank: null
   summary: null
   stem: 粉じん障害防止規則に関する次の記述のうち、誤っているものはどれか。ただし、同規則に定める適用除外及び特例はないものとする。
@@ -408,13 +409,14 @@ questions:
     ヒューム以外の粉じんでは、サイクロン、スクラバ、ろ過、電気除じん方式が認められています。'
   figures: []
   law_note: null
-  _key_choice: 法令に基づき局所排気装置に設ける除じん装置は、粉じんの種類がヒュームである場合は、スクラバによる除じん方式による除じん装置としなければならない。
+  _key_choice: 粉じん作業のうち特定粉じん作業に該当する作業については、法令に定める技能講習を修了した者のうちから、作業主任者を選任しなければならない。
 - num: 18
   status: published
   chapters:
-  - law-measurement-scope
+  - law-other
+  - other-workplaces
   traps:
-  - lw-law-measurement-scope-02
+  - lw-law-office-01
   rank: null
   summary: null
   stem: 事務所衛生基準規則に関する次の記述のうち、誤っているものはどれか。
@@ -429,7 +431,7 @@ questions:
   explanation: 中央管理方式の空気調和設備を設けた事務所の室の空気環境の測定は、**2か月以内ごとに1回**です。6か月以内ごととする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものについては、原則として、6か月以内ごとに1回、定期に、一酸化炭素及び二酸化炭素の含有率、室温及び外気温並びに相対湿度を測定しなければならない。
+  _key_choice: 空気調和設備を設けている場合は、室に供給される空気中の二酸化炭素の含有率(1気圧、25°Cとした場合の空気中に占める二酸化炭素の容積の割合)を5,000 ppm以下としなければならない。
 - num: 19
   status: published
   chapters:
@@ -457,7 +459,7 @@ questions:
     根拠：労働安全衛生法施行令別表第六第一号ロ（「第一鉄塩類又は第一マンガン塩類を含有している地層」）。'
   figures: []
   law_note: null
-  _key_choice: 第二鉄塩類を含有している地層に接する井戸の内部における作業は、第1種酸素欠乏危険作業である。
+  _key_choice: 第二鉄塩類を含有している地層に接する井戸の内部における作業は、第2種酸素欠乏危険作業である。
 - num: 20
   status: published
   chapters:
@@ -479,4 +481,4 @@ questions:
   explanation: 鉛業務を行う屋内作業場の空気中の鉛の濃度の測定は、**1年以内ごとに1回**です。6か月以内ごととする選択肢2は誤りです。
   figures: []
   law_note: null
-  _key_choice: 鉛合金の製品を製造する工程における鉛合金の溶接又は溶断の業務を行う屋内作業場については、6か月以内ごとに1回、定期に空気中における鉛の濃度を測定しなければならない。
+  _key_choice: 鉛合金の製品を製造する工程における鉛合金の溶接又は溶断の業務を行う屋内作業場については、6か月以内ごとに1回、定期に、空気中における鉛の濃度を測定しなければならない。

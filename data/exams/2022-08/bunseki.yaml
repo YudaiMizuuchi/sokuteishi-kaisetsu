@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - mole
+  traps:
+  - an-mole-02
   rank: null
   stem: 次の記述のうち、誤っているものはどれか。
   choices:
@@ -18,13 +20,21 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '中性の原子や分子が電子を失うと、負の電荷をもつ電子が減るので、**正**に帯電します。「負に帯電する」とする選択肢5は誤りです。
+
+
+    電子を失えば陽イオン（正）、電子を受け取れば陰イオン（負）です。アボガドロ定数個の粒子の物質量が1モルで（選択肢1）、原子量は ¹²C の質量を基準に定められ（選択肢2）、陽子数が同じで中性子数が異なる原子が同位体です（選択肢4）。'
   figures: []
   law_note: null
+  _key_choice: 中性の原子又は分子は、電子を失うと負に帯電する。
+  _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - quantification
+  - statistics
+  traps:
+  - an-statistics-01
   rank: null
   stem: '互いに独立な物理量1と物理量2の差を求める際、その差の標準偏差を示す式は次のうちどれか。
 
@@ -39,13 +49,20 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '互いに独立な2つの量の差（または和）の標準偏差は、それぞれの標準偏差を2乗して足し、平方根をとった √(σ₁² ＋ σ₂²) です。よって（2）が正しい式です。
+
+
+    ばらつきは打ち消し合わないので、差をとっても分散（標準偏差の2乗）は足し算になります。「差だから引き算」と考えて |σ₁ − σ₂| を選ばないようにしましょう。'
   figures: []
   law_note: null
+  _key_choice: '{_1^2+_2^2}'
+  _stem_head: 互いに独立な物理量1と物理量2の差を求める際、その差の標準偏差を示す式は次のうちどれか。
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gas
+  traps:
+  - an-gas-03
   rank: null
   stem: '一酸化炭素42 gと二酸化炭素66 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。
 
@@ -60,13 +77,26 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '分圧は物質量の比で決まります。
+
+
+    一酸化炭素 42 g ＝ 42 ÷ 28 ＝ 1.5 mol、二酸化炭素 66 g ＝ 66 ÷ 44 ＝ 1.5 mol
+
+
+    一酸化炭素の分圧 ＝ 1.0 × 1.5 ÷ (1.5 ＋ 1.5) ＝ 0.5 気圧
+
+
+    よって（3）が正しい値です。質量の比（42：66）で分けないように注意しましょう。'
   figures: []
   law_note: null
+  _key_choice: 0.5気圧
+  _stem_head: 一酸化炭素42 gと二酸化炭素66 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - organic
+  traps:
+  - an-organic-01
   rank: null
   stem: 有機化合物に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -78,13 +108,20 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 'アミンがもつのは、アミノ基（-NH₂ など）です。-CN 基（シアノ基、ニトリル基）をもつのはニトリルなので、選択肢5は誤りです。
+
+
+    フェノールの -OH（選択肢1）、カルボン酸の -COOH（選択肢2）、アルデヒドの -CHO（選択肢3）、ケトンの >CO（選択肢4）は、いずれも正しい組合せです。'
   figures: []
   law_note: null
+  _key_choice: アミンは、-CN基をもっている。
+  _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - solution-chem
+  traps:
+  - an-equilibrium-01
   rank: null
   stem: '次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
 
@@ -105,13 +142,21 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '熱化学反応式の Q が負（Q ＜ 0）なので、右向きの反応は熱を**吸収する**吸熱反応です。温度を上げると、平衡は熱を吸収する向き、つまり**右**に移動します。「左方向に進む」とする選択肢2は誤りです。
+
+
+    平衡状態では正反応と逆反応の速度が等しく（選択肢1）、K ＝ [C]／([A][B]) の単位は mol⁻¹・L です（選択肢3）。A の濃度を高くすると、その分を減らす右向きに反応が進みます（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 温度を上げると、反応は左方向に進む。
+  _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - solution-chem
+  - solution
+  traps:
+  - an-solution-chem-01
   rank: null
   stem: 濃度18.0 mol・L⁻¹の濃硫酸1.0 mLを水で希釈して希硫酸100 mLを調製した。濃硫酸と希硫酸に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -123,13 +168,20 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '濃度 18.0 mol/L の濃硫酸 1.0 mL に含まれる硫酸は 18 mmol で、100 mL に薄めた希硫酸の濃度は 0.18 mol/L です。硫酸は2価の酸なので、この希硫酸 10 mL（硫酸 1.8 mmol）を中和するには、水酸化ナトリウムが 3.6 mmol 必要で、0.18 mol/L の水酸化ナトリウム溶液では **20 mL** になります。「10 mL」とする選択肢4は誤りです。
+
+
+    濃硫酸は水より粘性が高く（選択肢1）、希釈時に発熱するので（選択肢2）、水に濃硫酸を少量ずつ加えます（選択肢3）。希硫酸の正確な濃度は、炭酸ナトリウム標準液で標定して求めます（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: この希硫酸10 mLを中和するには、濃度0.18 mol・L−1の水酸化ナトリウム溶液10 mLが必要である。
+  _stem_head: 濃度18.0 mol・L−1の濃硫酸1.0 mLを水で希釈して希硫酸100 mLを調製した。濃硫酸と希硫酸に関する次の記
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - flowmeter
+  traps:
+  - an-lab-equipment-02
   rank: null
   stem: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -141,13 +193,20 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ロータメーター（面積式流量計）は、上に行くほど内径が**太く**なるテーパー管の中に浮子を入れたものです。「上部ほど小さくなっている」とする選択肢4は誤りです。
+
+
+    流量が増えると浮子が上がり、浮子と管のすき間が広がって釣り合います。検量線は気体の種類・圧力で変わり（選択肢3）、校正には石けん膜流量計を使うことができます（選択肢5）。石けん膜流量計は、一定の体積の気体が流れる時間から流量を求め（選択肢1）、石けん膜はほとんど抵抗なく動きます（選択肢2）。'
   figures: []
   law_note: null
+  _key_choice: ロータメーターの内径は、管の上部ほど小さくなっている。
+  _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - standard-gas
+  traps:
+  - an-standard-gas-03
   rank: null
   stem: '拡散チューブを用い一定濃度の標準ガスを発生させるとき、チューブの選定に必要となる定常状態で拡散チューブから流出する標準物質の流出速度は、あらかじめ次の式により推定することができる。
 
@@ -186,13 +245,20 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '式 m ＝ D･S／L･(C − Cₗ) を変形すると、拡散係数 D ＝ m･L／(S･C) です。m は質量÷時間、L は長さ、S は面積、C は質量÷体積なので、D の次元は（長さ）²÷時間、つまり**面積/時間**です。「体積/時間」とする選択肢4は誤りです。
+
+
+    流出速度は断面積 S に比例し（選択肢1）、長さ L に反比例します（選択肢2）。C は飽和蒸気の濃度なので、計算には標準物質の蒸気圧の値が必要で（選択肢3）、拡散係数は物質によって異なります（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 拡散係数の次元は、体積/時間である。
+  _stem_head: 拡散チューブを用い一定濃度の標準ガスを発生させるとき、チューブの選定に必要となる定常状態で拡散チューブから流出する標準物
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - xrd
+  traps:
+  - an-xrd-04
   rank: null
   stem: 試料の前処理Ⓐとその分析法Ⓑとの次の組合せのうち、不適当なものはどれか。
   choices:
@@ -206,13 +272,20 @@ questions:
   - Ⓑ
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法は、固体の結晶を**そのまま**測る方法なので、試料を酸で溶かす前処理は行いません。「酸溶解」との組合せ（1）が不適当です。
+
+
+    pH 調整は発色させる吸光光度分析の前処理、溶媒脱着はガスクロマトグラフ分析で活性炭管などから溶媒で抽出する前処理、ろ過は高速液体クロマトグラフ分析で試料中の粒子を除く前処理、有機溶媒抽出は金属キレートを抽出して原子吸光分析にかける前処理で、いずれも適切です。'
   figures: []
   law_note: null
+  _key_choice: A酸溶解 BX線回折分析法
+  _stem_head: 試料の前処理Aとその分析法Bとの次の組合せのうち、不適当なものはどれか。
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - detector-tube
+  traps:
+  - an-detector-tube-01
   rank: null
   stem: 検知管に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -224,13 +297,21 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '検知管の変色層の先端が斜めになったときは、最長部分ではなく、最短部分と最長部分の**中央**の値を読み取ります。選択肢3は誤りです。
+
+
+    直読式の検知管の目盛りは一般に等間隔ではなく（選択肢2）、濃度と変色層の長さは比例しません（選択肢4）。吸引空気量を増やすと、より低濃度まで測れるようになる検知管があります（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 変色層の先端が斜めになった場合は、最長部分を測定値とする。
+  _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - titration
+  - reaction
+  traps:
+  - an-reaction-02
   rank: null
   stem: 酢酸溶液50.0 mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液（2.0×10⁻¹ mol・L⁻¹）で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は10.0 mLであった。酢酸溶液の濃度として、正しい値は次のうちどれか。
   choices:
@@ -242,13 +323,27 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '酢酸と水酸化ナトリウムは 1：1 で反応するので、酢酸の物質量は水酸化ナトリウムの物質量と同じです。
+
+
+    NaOH ＝ 2.0 × 10⁻¹ mol/L × 10.0 mL ＝ 2.0 mmol
+
+
+    酢酸の濃度 ＝ 2.0 mmol ÷ 50.0 mL ＝ 4.0 × 10⁻² mol/L
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
+  _key_choice: 4.0×10−2 mol・L−1
+  _stem_head: 酢酸溶液50.0 mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10−1 mol・L−1)で滴
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - titration
+  - reaction
+  traps:
+  - an-reaction-03
   rank: null
   stem: 空気中でメタン（CH₄）、エタン（C₂H₆）を完全燃焼させたときの反応に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -260,13 +355,20 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'エタン（C₂H₆）の完全燃焼は 2C₂H₆ ＋ 7O₂ → 4CO₂ ＋ 6H₂O なので、エタン1 mol から二酸化炭素は **2 mol** できます。エタンの物質量と「等しい」とする選択肢4は誤りです。
+
+
+    メタンは CH₄ ＋ 2O₂ → CO₂ ＋ 2H₂O で、酸素量はメタンの2倍、二酸化炭素量はメタンと等しくなります（選択肢1・3）。エタンの酸素量は 3.5 倍（選択肢2）で、どちらも水蒸気が発生します（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: エタンの完全燃焼で生成する二酸化炭素量は、エタンの物質量と等しい。
+  _stem_head: 空気中でメタン(CH4)、エタン(C2H6)を完全燃焼させたときの反応に関する次の記述のうち、誤っているものはどれか。
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - spectrophotometry
+  traps:
+  - an-spectrophotometry-02
   rank: null
   stem: 吸光光度分析計に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -278,13 +380,21 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'ガラスは紫外線を吸収するので、ガラス製セルは 300 nm よりも短い波長の光の測定には使えません。紫外部の測定には**石英セル**を用います。選択肢4は誤りです。
+
+
+    紫外部の光源は重水素ランプ（選択肢1）、光源の光を単色光にするのがモノクロメーターで、回折格子が用いられます（選択肢2・3）。光電子増倍管は紫外・可視の光を検出できます（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: ガラス製セルは、300 nmよりも短波長の光の吸収の測定に使用できる。
+  _stem_head: 吸光光度分析計に関する次の記述のうち、誤っているものはどれか。
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - spectrophotometry
+  - logarithm
+  traps:
+  - an-logarithm-02
   rank: null
   stem: 物質Aの濃度が1.5×10⁻⁵ mol・L⁻¹の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度を測定したところ、0.24であった。物質Aの濃度が3.0×10⁻⁵ mol・L⁻¹の溶液を光路長1.0 cmの試料セルに入れ、波長550 nmにおける吸光度を測定した。その値として、正しい値は次のうちどれか。
   choices:
@@ -296,13 +406,20 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '吸光度は、ランベルト・ベールの法則 A ＝ ε × c × l（濃度 c と光路長 l の積に比例）です。
+
+
+    1回目は c × l ＝ 1.5 × 10⁻⁵ × 2.0 ＝ 3.0 × 10⁻⁵、2回目は c × l ＝ 3.0 × 10⁻⁵ × 1.0 ＝ 3.0 × 10⁻⁵ で、同じ値です。同じ物質・同じ波長ならモル吸光係数も同じなので、吸光度も同じ **0.24** になります。よって（3）が正しい値です。'
   figures: []
   law_note: null
+  _key_choice: '0.24'
+  _stem_head: 物質Aの濃度が1.5×10−5 mol・L−1の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - aas
+  traps:
+  - an-aas-02
   rank: null
   stem: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -314,13 +431,20 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '原子吸光分析法の吸光度は、光の通り道にある基底状態の原子の数で決まり、光源光の強度には比例しません。吸光度は、入射光と透過光の強さの比から求めるからです。選択肢4は誤りです。
+
+
+    フレーム中の原子はほとんどが基底状態で（選択肢2）、その原子に固有の波長の光を吸収します（選択肢1）。光源光がフレームを通る位置で原子の量が違うので、吸光度は通る位置に影響されます（選択肢3）。中空陰極ランプの陰極には、測定対象と同じ金属か、それを含む合金を使います（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 吸光度は、光源光の強度に比例する。
+  _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - fluorescence
+  traps:
+  - an-fluorescence-06
   rank: null
   stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -332,13 +456,20 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '蛍光は、試料から**全方向**に放射されます。励起光が検出器に直接入らないように、励起光に対して直角方向の蛍光を観測しているだけで、「直角方向だけに放射される」とする選択肢4は誤りです。
+
+
+    蛍光の強度は励起光の強度に比例し（選択肢3）、波長は励起光より長くなります（選択肢5）。濃度が高いと、蛍光スペクトルの形が変わることがあります（選択肢2）。'
   figures: []
   law_note: null
+  _key_choice: 蛍光は、励起光に対して直角方向だけに放射される。
+  _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gc
+  traps:
+  - an-gc-01
   rank: null
   stem: ガスクロマトグラフ分析法に用いられる検出器Ⓐと分析対象物質Ⓑとの次の組合せのうち、不適切なものはどれか。
   choices:
@@ -352,13 +483,20 @@ questions:
   - Ⓑ
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '熱イオン化検出器（TID、FTD）は、窒素やリンを含む化合物に感度の高い検出器で、キシレンのような炭化水素の分析には適しません。（5）が不適切です。
+
+
+    水素炎イオン化検出器（FID）は炭化水素全般、炎光光度検出器（FPD）は硫黄・リン、電子捕獲検出器（ECD）はハロゲン、光イオン化検出器（PID）は芳香族などに感度が高く、選択肢1〜4は適切です。'
   figures: []
   law_note: null
+  _key_choice: A熱イオン化検出器(TID、FTD) Bキシレン
+  _stem_head: ガスクロマトグラフ分析法に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gc
+  traps:
+  - an-gc-02
   rank: null
   stem: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -370,13 +508,20 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'カラムの長さを2倍にすると、分離度は2倍ではなく **√2 倍**（約1.4倍）になります。選択肢3は誤りです。
+
+
+    理論段数と保持時間は2倍になり（選択肢4・5）、1段あたりの長さである理論段相当高さは変わりません（選択肢1）。ピーク面積も、注入した量が同じなら変わりません（選択肢2）。'
   figures: []
   law_note: null
+  _key_choice: 分離度は2倍になる。
+  _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - xrd
+  traps:
+  - an-xrd-03
   rank: null
   stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -388,13 +533,21 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法の測定試料は、一般に粒径 1 µm〜10 µm 程度の細かい粉末が適当で、0.1 mm〜1 mm では粗すぎます。選択肢4は誤りです。
+
+
+    特性 X 線を使い（選択肢1）、回折角と回折線の強度を測ります（選択肢2）。フィルターに捕集した試料をそのまま測定でき（選択肢3）、捕集量が多いときは、試料自身による X 線の吸収の補正が必要です（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 測定試料は、一般に粒径が0.1 mm~1 mmの粉末が適当である。
+  _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - radiation
+  - logarithm
+  traps:
+  - an-logarithm-03
   rank: null
   stem: 半減期8日の放射性核種の放射能が1,000 Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。
   choices:
@@ -406,6 +559,14 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '24日は半減期 8日の3倍なので、放射能は (1/2)³ ＝ 1/8 になります。
+
+
+    1000 Bq × 1/8 ＝ 125 Bq
+
+
+    よって（4）が正しい値です。半分の時間で半分、と考えて 500 Bq にしないようにしましょう。'
   figures: []
   law_note: null
+  _key_choice: 125 Bq
+  _stem_head: 半減期8日の放射性核種の放射能が1,000 Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。

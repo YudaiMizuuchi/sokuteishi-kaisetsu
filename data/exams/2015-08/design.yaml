@@ -26,7 +26,7 @@ questions:
     平成30年度第1回にも、同じ選択肢があります。'
   figures: []
   law_note: null
-  _key_choice: 鉱物性粉じんの管理濃度は,その粉じんの遊離けい酸含有率が高いほど大きな値となる.
+  _key_choice: 鉱物性粉じんの管理濃度は、その粉じんの遊離けい酸含有率が高いほど大きな値となる。
   columns: null
 - num: 2
   status: published
@@ -51,7 +51,7 @@ questions:
     令和5年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 単位作業場所の範囲は,30m2以下としてはならない.
+  _key_choice: 単位作業場所の範囲は、30 m2以下としてはならない。
   columns: null
 - num: 3
   status: published
@@ -73,7 +73,7 @@ questions:
   explanation: A 測定の測定点の間隔は、6 m 以下の等間隔であれば、縦方向と横方向で違っていても構いません。「同一でなければならない」とする選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 測定点の縦方向の間隔と横方向の間隔は,同一でなければならない.
+  _key_choice: 測定点の縦方向の間隔と横方向の間隔は、同一でなければならない。
   columns: null
 - num: 4
   status: published
@@ -98,7 +98,7 @@ questions:
     令和2年度第2回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: B測定は,必ずA測定の実施時間内に行わなければならない.
+  _key_choice: B測定は、必ずA測定の実施時間内に行わなければならない。
   columns: null
 - num: 5
   status: published
@@ -145,13 +145,14 @@ questions:
   explanation: 有機溶剤の蒸気は、ほとんどが空気より分子量が大きく、同じ体積の空気より**重く**なります。「軽い」とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: 一般に,有機溶剤の蒸気は,同一体積の空気より軽い.
+  _key_choice: 一般に、有機溶剤の蒸気は、同一体積の空気より軽い。
   columns: null
 - num: 7
   status: published
   chapters:
   - dust-disease
-  traps: []
+  traps:
+  - ds-dust-disease-01
   rank: null
   summary: null
   stem: 粉じんに関する次の記述のうち、誤っているものはどれか。
@@ -166,7 +167,7 @@ questions:
   explanation: 空気力学相当径は、その粒子と同じ沈降速度を示す、密度 1 g/cm³ の球形粒子の直径です。幾何学的粒径に密度を掛けた値ではないので、選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 粉じんの空気力学相当径とは,幾何学的粒径に密度を乗じた値である.
+  _key_choice: 粉じんの空気力学相当径とは、幾何学的粒径に密度を乗じた値である。
   columns: null
 - num: 8
   status: published
@@ -188,7 +189,7 @@ questions:
   explanation: クロム酸ミストは粒子なので、ろ過捕集法やインピンジャーで捕集します。ガス・蒸気を吸着する活性炭管との組合せは不適当なので、答えは（4）です。
   figures: []
   law_note: null
-  _key_choice: Aクロム酸ミストB活性炭管
+  _key_choice: Aクロム酸ミスト B活性炭管
   columns:
   - Ⓐ
   - Ⓑ
@@ -215,7 +216,7 @@ questions:
     平成28年度第1回にも、押し込み方式という正しい記述があります。'
   figures: []
   law_note: null
-  _key_choice: 湿式ガスメーターは,原則として,吸引方式で使用する.
+  _key_choice: 湿式ガスメーターは、原則として、吸引方式で使用する。
   columns: null
 - num: 10
   status: published
@@ -237,7 +238,7 @@ questions:
   explanation: 活性炭への吸着は、温度が**低い**ほど起こりやすく、温度が高いほど吸着能力は低くなります。選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 活性炭管は,温度が高いほど,吸着能力は高くなる.
+  _key_choice: 活性炭管は、温度が高いほど、吸着能力は高くなる。
   columns: null
 - num: 11
   status: published
@@ -262,7 +263,7 @@ questions:
     拡散も慣性衝突も効きにくい 0.1〜0.3 µm 付近の粒子は、捕集率が低くなります（選択肢1）。'
   figures: []
   law_note: null
-  _key_choice: 粒径が1μmより大きい粒子は,主として拡散効果により捕集される.
+  _key_choice: 粒径が1 μmより大きい粒子は、主として拡散効果により捕集される。
   columns: null
 - num: 12
   status: published
@@ -284,7 +285,7 @@ questions:
   explanation: ミゼットインピンジャーで粒子状物質を捕集するのは、**慣性衝突**の作用です。拡散効果とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: ミゼットインピンジャーでは,拡散効果により粒子状物質が捕集される.
+  _key_choice: ミゼットインピンジャーでは、拡散効果により粒子状物質が捕集される。
   columns: null
 - num: 13
   status: published
@@ -306,7 +307,7 @@ questions:
   explanation: 質量濃度変換係数 K は、質量濃度 C を相対濃度 R で割ったもの（K ＝ C ÷ R）です。K ＝ R ÷ C とする選択肢1は、分子と分母が逆で誤りです。
   figures: []
   law_note: null
-  _key_choice: 質量濃度変換係数(K),粉じんの質量濃度(C)及び相対濃度(R)の関係は,K=R/Cによって表される.
+  _key_choice: 質量濃度変換係数(K)、粉じんの質量濃度(C)及び相対濃度(R)の関係は、K=R/Cによって表される。
   columns: null
 - num: 14
   status: published
@@ -328,7 +329,7 @@ questions:
   explanation: 検知管の変色層が斜めに現れたときは、変色した部分の最先端と、斜めに変色が始まった点との**中央**の値を読み取ります。先端の値とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 変色層が斜めに現れたときは,先端の値を読み取る.
+  _key_choice: 変色層が斜めに現れたときは、先端の値を読み取る。
   columns: null
 - num: 15
   status: published
@@ -353,7 +354,7 @@ questions:
     平成28年度第1回にも、同じ論点があります。'
   figures: []
   law_note: null
-  _key_choice: 鉱物性粉じんの質量濃度変換係数(K値)は,一般に,発生源の近くでは小さく,発生源から離れるに従って大きくなる.
+  _key_choice: 鉱物性粉じんの質量濃度変換係数(K値)は、一般に、発生源の近くでは小さく、発生源から離れるに従って大きくなる。
   columns: null
 - num: 16
   status: published
@@ -375,7 +376,7 @@ questions:
   explanation: 放射性セシウムは、粒子として存在するので**ろ過捕集方法**で捕集します。固体捕集方法との組合せは不適当なので、答えは（4）です。
   figures: []
   law_note: null
-  _key_choice: A放射性セシウムB固体捕集方法
+  _key_choice: A放射性セシウム B固体捕集方法
   columns:
   - Ⓐ
   - Ⓑ
@@ -409,7 +410,7 @@ questions:
     よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6.7×102Bq
+  _key_choice: 6.7×102 Bq
   columns: null
 - num: 18
   status: published
@@ -432,7 +433,7 @@ questions:
   explanation: 環境空気中の有害物質の濃度の分布は、多くの場合、**対数正規分布**で近似されます。正規分布とする選択肢3は誤りです。
   figures: []
   law_note: null
-  _key_choice: 環境空気中の有害物質の濃度の分布は,多くの場合,正規分布で近似される.
+  _key_choice: 環境空気中の有害物質の濃度の分布は、多くの場合、正規分布で近似される。
   columns: null
 - num: 19
   status: published
@@ -457,7 +458,7 @@ questions:
     慣性衝突式分粒装置では逆に、流量が大きいと50％分粒粒径は小さくなります（選択肢4）。2つの分粒装置で、流量の影響が逆になる点がひっかけです。'
   figures: []
   law_note: null
-  _key_choice: 多段平行板式分粒装置を用いて,所定の吸引流量より大きい流量で吸引すると,分粒装置を通過する粒子の50%分粒粒径は小さくなる.
+  _key_choice: 多段平行板式分粒装置を用いて、所定の吸引流量より大きい流量で吸引すると、分粒装置を通過する粒子の50%分粒粒径は小さくなる。
   columns: null
 - num: 20
   status: published
@@ -482,5 +483,5 @@ questions:
     根拠：作業環境評価基準第2条第1項第2号。'
   figures: []
   law_note: null
-  _key_choice: A測定の第1評価値が管理濃度より小さければ,管理区分は必ず第1管理区分になる.
+  _key_choice: A測定の第1評価値が管理濃度より小さければ、管理区分は必ず第1管理区分になる。
   columns: null

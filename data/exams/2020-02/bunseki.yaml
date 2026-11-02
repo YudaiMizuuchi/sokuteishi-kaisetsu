@@ -52,7 +52,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '234.1'
-  _stem_head: 次の5つの数値の合計を有効数字で表した場合、正しいものは下のうちどれか。数値:201.423.75.752.470.7593
+  _stem_head: 次の5つの数値の合計を有効数字で表した場合、正しいものは下のうちどれか。
   columns: null
 - num: 3
   status: published
@@ -74,8 +74,8 @@ questions:
   explanation: 圧力が一定なら、体積は絶対温度に比例するので、温度を2倍にすると体積は**2倍**（シャルルの法則）です。温度が一定なら、体積は圧力に反比例するので、圧力を2倍にすると体積は**0.5倍**（ボイルの法則）です。よって（2）が正しい組合せです。
   figures: []
   law_note: null
-  _key_choice: ㋑2倍になる ㋺0.5倍になる
-  _stem_head: 理想気体の体積に関する次の記述のイ及びロのに入る語句の組合せとして、正しいものは下のうちどれか。「圧力一定では、絶対温度を2倍にすると体積はイ。また、温度一定で圧力を2倍にすると体積はロ。」イロ
+  _key_choice: イ2倍になる ロ0.5倍になる
+  _stem_head: 理想気体の体積に関する次の記述のイ及びロの[ ]に入る語句の組合せとして、正しいものは下のうちどれか。
   columns:
   - ㋑
   - ㋺
@@ -134,7 +134,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 平衡定数は、反応開始時の物質の濃度比に依存する。
-  _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。A+BC+q(qは熱エネルギーでq<0)ただし、平衡定数は次の式で表される。平衡定数=\[C\]\[A\]\[B\]
+  _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
 - num: 6
   status: published
   chapters:
@@ -172,7 +172,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '180'
-  _stem_head: 有機化合物Aを0.050g含む水溶液100mLにヘキサン5mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その質量は0.045gであった。有機化合物Aの水とヘキサン間の分配係数の値として、正しい値は次のうちどれか。ただし、分配係数は次の
+  _stem_head: 有機化合物Aを0.050 g含む水溶液100 mLにヘキサン5 mLを加えて振り混ぜ、Aをヘキサンに抽出したところ、その
 - num: 7
   status: published
   chapters:
@@ -303,8 +303,8 @@ questions:
     よって（4）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6.0×10⁻³ mol・L⁻¹
-  _stem_head: 濃度1.0×10-2mol・L-1の塩酸20mLと濃度1.0×10-2mol・L-1の水酸化ナトリウム水溶液5.0mLとを混合した溶液の水素イオン濃度として、正しい値は次のうちどれか。
+  _key_choice: 6.0×10−3 mol・L−1
+  _stem_head: 濃度1.0×10−2 mol・L−1の塩酸20 mLと濃度1.0×10−2 mol・L−1の水酸化ナトリウム水溶液5.0
 - num: 12
   status: published
   chapters:
@@ -330,7 +330,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: メタンの2倍の物質量である。
-  _stem_head: 空気中でメタン(CH)を完全燃焼させたときに、消費された酸素の物質量4に関する次の記述のうち、正しいものはどれか。
+  _stem_head: 空気中でメタン(CH4)を完全燃焼させたときに、消費された酸素の物質量に関する次の記述のうち、正しいものはどれか。
 - num: 13
   status: published
   chapters:
@@ -381,8 +381,8 @@ questions:
     よって（2）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6.0×10³ mol⁻¹・L・cm⁻¹
-  _stem_head: 物質Aの濃度が3.0×10-5mol・L-1の溶液を光路長2.0cmの試料セルに入れ、波長550nmにおける吸光度を測定したところ、0.360であった。この溶液中の物質Aの550nmにおけるモル吸光係数として、正しい値は次のうちどれか。
+  _key_choice: 6.0×103 mol−1・L・cm−1
+  _stem_head: 物質Aの濃度が3.0×10−5 mol・L−1の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度
 - num: 15
   status: published
   chapters:
@@ -450,8 +450,8 @@ questions:
   explanation: 電子捕獲検出器（ECD）は、ハロゲンを含む化合物など、電子を捕らえやすい化合物に高い感度をもつ検出器で、脂肪族炭化水素の検出には適しません。（3）が不適切です。
   figures: []
   law_note: null
-  _key_choice: Ⓐ電子捕獲検出器（ECD） Ⓑ脂肪族炭化水素化合物
-  _stem_head: ガスクロマトグラフ分析に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。AB
+  _key_choice: A電子捕獲検出器(ECD) B脂肪族炭化水素化合物
+  _stem_head: ガスクロマトグラフ分析に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。
   columns:
   - Ⓐ
   - Ⓑ
@@ -479,7 +479,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: ピーク幅は2倍になる。
-  _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか。
+  _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか
 - num: 19
   status: published
   chapters:

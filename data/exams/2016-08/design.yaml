@@ -66,7 +66,7 @@ questions:
   explanation: 単位作業場所の設定で考慮しないのは、作業場で就業する労働者の**数**（㋩）と**就業時間**（㋭）です。労働者の行動範囲、物質の物性や発散状況、気流や局所排気装置の稼働状況は考慮します。よって（4）が正しい組合せです。
   figures: []
   law_note: null
-  _key_choice: ㋩ ㋭
+  _key_choice: ハ ホ
   columns: null
 - num: 3
   status: published
@@ -167,7 +167,7 @@ questions:
     トリジマイト・石英・クリストバライトはいずれも遊離けい酸（SiO₂）、正長石はけい酸塩で遊離けい酸ではありません。'
   figures: []
   law_note: null
-  _key_choice: 遊離けい酸含有率が0%の鉱物性粉じんの管理濃度は、5.0 mg/m³である。
+  _key_choice: 遊離けい酸含有率が0%の鉱物性粉じんの管理濃度は、5.0 mg/m3である。
   columns: null
 - num: 7
   status: published
@@ -214,7 +214,7 @@ questions:
     令和2年度第1回にも、同じ組合せの誤りがあります。'
   figures: []
   law_note: null
-  _key_choice: Ⓐ塩化ビニル Ⓑミゼットインピンジャー
+  _key_choice: A塩化ビニル Bミゼットインピンジャー
   columns:
   - Ⓐ
   - Ⓑ
@@ -404,7 +404,7 @@ questions:
   explanation: 放射性セシウムは、粒子として存在するので**ろ過捕集方法**で捕集します。固体捕集方法との組合せは不適当なので、答えは（2）です。
   figures: []
   law_note: null
-  _key_choice: Ⓐ放射性セシウム Ⓑ固体捕集方法
+  _key_choice: A放射性セシウム B固体捕集方法
   columns:
   - Ⓐ
   - Ⓑ
@@ -458,7 +458,7 @@ questions:
   explanation: 正規分布で、x̄ − σ から x̄ ＋ σ の範囲に入る確率は、およそ **68 ％**です。約95 ％ になるのは ±2σ の範囲なので、選択肢5は誤りです。
   figures: []
   law_note: null
-  _key_choice: 正規分布の算術平均と標準偏差をそれぞれ\bar{x}、σとすると、この分布に従う変数が\bar{x}-\sigmaから\bar{x}+\sigmaの範囲に入る確率は、およそ95%である。
+  _key_choice: 正規分布の算術平均と標準偏差をそれぞれ{x}、σとすると、この分布に従う変数が{x}-から{x}+の範囲に入る確率は、およそ95%である。
   columns: null
 - num: 19
   status: published

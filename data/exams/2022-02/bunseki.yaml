@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - units
+  traps:
+  - an-units-02
   rank: null
   stem: 次の記述のうち、誤っているものはどれか。
   choices:
@@ -18,13 +20,21 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '1.0 µmol/g を mol/kg に直すと、分子が 10⁻⁶ mol、分母が 10⁻³ kg なので、**1.0 × 10⁻³ mol/kg** です。1.0 mol/kg とする選択肢5は誤りです。
+
+
+    21℃ は 294 K（273＋21）、2.0 h は 7.2 × 10³ s、1.0 A は 1.0 C/s、1.0 L は 1.0 × 10⁻³ m³ で、選択肢1〜4は正しい記述です。'
   figures: []
   law_note: null
+  _key_choice: 濃度1.0 μmol・g−1は、1.0 mol・kg−1である。
+  _stem_head: 次の記述のうち、誤っているものはどれか。
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - quantification
+  - statistics
+  traps:
+  - an-statistics-02
   rank: null
   stem: '誤差に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
 
@@ -42,13 +52,17 @@ questions:
   - ㋩
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 誤差には、反復測定で予測できない変化をする**偶然**誤差と、一定のままか予測可能な変化をする**系統**誤差があります。偶然誤差は正規分布に従い、繰り返し測定して平均すると**減少**します。よって（5）が正しい組合せです。
   figures: []
   law_note: null
+  _key_choice: イ偶然 ロ系統 ハ減少
+  _stem_head: 誤差に関する次の記述のイからハの[ ]に入る語句の組合せとして、正しいものは下のうちどれか。
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gas
+  traps:
+  - an-gas-01
   rank: null
   stem: 'n（mol）の理想気体の圧力P（atm）、体積V（L）、温度T（K）の間に成立する関係式として正しいものはどれか。
 
@@ -63,13 +77,17 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: n mol の理想気体について、圧力 P、体積 V、温度 T の間には、**PV ＝ nRT** が成り立ちます（理想気体の状態方程式）。よって（3）が正しい式です。
   figures: []
   law_note: null
+  _key_choice: PV=nRT
+  _stem_head: n(mol)の理想気体の圧力P(atm)、体積V(L)、温度T(K)の間に成立する関係式として正しいものはどれか。
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gas
+  traps:
+  - an-gas-03
   rank: null
   stem: '一酸化炭素84 gと二酸化炭素88 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。
 
@@ -84,13 +102,27 @@ questions:
   columns: null
   answer: 4
   choice_notes: []
-  explanation: null
+  explanation: '分圧は物質量の比で決まります。
+
+
+    一酸化炭素 84 g ＝ 84 ÷ 28 ＝ 3.0 mol、二酸化炭素 88 g ＝ 88 ÷ 44 ＝ 2.0 mol
+
+
+    一酸化炭素の分圧 ＝ 1.0 × 3.0 ÷ (3.0 ＋ 2.0) ＝ 0.6 気圧
+
+
+    よって（4）が正しい値です。'
   figures: []
   law_note: null
+  _key_choice: 0.6気圧
+  _stem_head: 一酸化炭素84 gと二酸化炭素88 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - solution-chem
+  - logarithm
+  traps:
+  - an-logarithm-01
   rank: null
   stem: 'pH1.0の硝酸溶液を水で5倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。
 
@@ -111,13 +143,24 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: 'pH 1.0 の硝酸溶液の水素イオン濃度は 0.10 mol/L で、5倍に希釈すると 0.020 mol/L になります。
+
+
+    pH ＝ −log(0.020) ＝ −log(2 × 10⁻²) ＝ 2 − 0.301 ＝ 1.699 ≒ 1.7
+
+
+    よって（2）が正しい値です。'
   figures: []
   law_note: null
+  _key_choice: '1.7'
+  _stem_head: pH1.0の硝酸溶液を水で5倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - solution-chem
+  - solution
+  traps:
+  - an-solution-04
   rank: null
   stem: 質量パーセント濃度が20.0%の塩酸（密度1.10 g・cm⁻³）50.0 mLに、精製水（密度1.00 g・cm⁻³）50.0 mLを加え、希釈した。この塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
   choices:
@@ -129,13 +172,26 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: '薄めても、溶質（塩化水素）の質量は変わりません。
+
+
+    20.0 ％ 塩酸 50.0 mL の質量 ＝ 50.0 × 1.10 ＝ 55.0 g、塩化水素 ＝ 55.0 × 0.200 ＝ 11.0 g、希釈後の溶液 ＝ 55.0 ＋ 50.0 ＝ 105 g
+
+
+    質量パーセント濃度 ＝ 11.0 ÷ 105 × 100 ≒ 10.5 ％
+
+
+    よって（3）が正しい値です。'
   figures: []
   law_note: null
+  _key_choice: 10.5%
+  _stem_head: 質量パーセント濃度が20.0%の塩酸(密度1.10 g・cm−3)50.0 mLに、精製水(密度1.00 g・cm−3)
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - lab-equipment
+  traps:
+  - an-lab-equipment-03
   rank: null
   stem: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -147,13 +203,21 @@ questions:
   columns: null
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '熱電対温度計は、使用温度範囲が広く、応答速度も**速い**ことが特徴です。「応答速度が遅い」とする選択肢1は誤りです。
+
+
+    アスマン通風乾湿計は、ファンを回転させて5分程度後に測定します（選択肢2）。石けん膜流量計は、一定体積の気体が流れる時間から流量を計算します（選択肢3）。ガラス製体積計の校正は、受け入れた水や排出した水の質量と温度から行い（選択肢4）、マイクロシリンジの目盛りは、針の部分の体積を含みません（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 熱電対温度計は使用温度範囲が広いという利点を持つが、応答速度が遅いという欠点を有する。
+  _stem_head: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
+  review_note: 熱電対温度計は応答が速い、という説明は、プロジェクトの教科書に記述がなく、一般的な知識によるもので、未確認です。
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - standard-gas
+  traps:
+  - an-standard-gas-02
   rank: null
   stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -165,13 +229,20 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '拡散セルは、セル内の液体が**拡散チューブの中を拡散して蒸発**することを利用します。「液体が壁面を透過して蒸発する」のは、パーミエーションチューブの原理なので、選択肢2は誤りです。
+
+
+    標準ガスの調製には静的な方法と動的な方法があり、拡散セルは動的な方法の一つです（選択肢1）。濃度は温度が高いほど高くなり（選択肢3）、拡散チューブの内径にも依存します（選択肢5）。濃度の微調整は、セルの温度を変えるより、希釈空気の流量を変えるほうが短時間でできます（選択肢4）。'
   figures: []
   law_note: null
+  _key_choice: 拡散セルでは、一定温度に保つと内部の液体が一定速度で壁面を透過して蒸発してくることを利用する。
+  _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - lab-equipment
+  traps:
+  - an-reagents-01
   rank: null
   stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
   choices:
@@ -185,13 +256,20 @@ questions:
   - Ⓑ
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '乾燥剤として使われるのは、酸化カルシウム（生石灰）や塩化カルシウムです。水酸化カルシウム（消石灰）は乾燥剤ではないので、選択肢1は誤りです。
+
+
+    メチルレッドは pH 指示薬、メチルイソブチルケトンは金属キレートの抽出、酒石酸ナトリウムカリウムは妨害金属のマスキング、二硫化炭素は活性炭に捕集した有機溶剤の脱着に使います。'
   figures: []
   law_note: null
+  _key_choice: A水酸化カルシウム B乾燥剤
+  _stem_head: 化学物質Aとその使用例Bとの次の組合せのうち、誤っているものはどれか。
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - quantification
+  traps:
+  - an-quantification-01
   rank: null
   stem: 検量線に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -203,13 +281,20 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '検量線の直線範囲内でも、測定結果の誤差が濃度によらず一定になるわけではありません。選択肢5は誤りです。
+
+
+    濃度範囲を超えたときは試料を希釈して再測定し（選択肢1）、標準添加法では検量線が直線である必要があります（選択肢2）。標準液は試料の成分組成に近づけ（選択肢3）、内標準物質は、測定対象物質と物理的・化学的によく似たものを選びます（選択肢4）。'
   figures: []
   law_note: null
+  _key_choice: 検量線の直線範囲内であれば、測定結果の誤差は一定である。
+  _stem_head: 検量線に関する次の記述のうち、誤っているものはどれか。
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - mole
+  traps:
+  - an-mole-03
   rank: null
   stem: '塩化コバルト（Ⅱ）六水和物（CoCl₂・6H₂O）を水に溶解して、塩化コバルトの濃度1.00×10⁻⁴ mol・L⁻¹の溶液を調製した。この水溶液1.00 mLに含まれるコバルトの質量として正しい値は次のうちどれか。
 
@@ -224,13 +309,27 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '塩化コバルト（Ⅱ）六水和物を溶かしても、コバルトの物質量は塩化コバルトの物質量と同じです。
+
+
+    Co の物質量 ＝ 1.00 × 10⁻⁴ mol/L × 1.00 × 10⁻³ L ＝ 1.00 × 10⁻⁷ mol
+
+
+    Co の質量 ＝ 1.00 × 10⁻⁷ × 58.9 ＝ 5.89 × 10⁻⁶ g ＝ 5.89 × 10⁻³ mg
+
+
+    よって（2）が正しい値です。六水和物の式量は使いません。'
   figures: []
   law_note: null
+  _key_choice: 5.89×10−3 mg
+  _stem_head: 塩化コバルト(II)六水和物(CoCl2・6H2O)を水に溶解して、塩化コバルトの濃度1.00×10−4 mol・L−1
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - titration
+  - reaction
+  traps:
+  - an-titration-01
   rank: null
   stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -242,13 +341,21 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '炭酸ナトリウムは、**酸**（塩酸など）の溶液の標定に用います。アルカリ溶液の標定に用いるとする選択肢2は誤りです。
+
+
+    一次標準液には、化学的に安定な固体試薬を使います（選択肢1）。フタル酸水素カリウムとシュウ酸は、アルカリ溶液の標定に（選択肢3・4）、塩化ナトリウムは硝酸銀溶液の標定に使います（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
+  _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - spectrophotometry
+  - logarithm
+  traps:
+  - an-spectrophotometry-03
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -260,13 +367,20 @@ questions:
   columns: null
   answer: 2
   choice_notes: []
-  explanation: null
+  explanation: '透過率は、光が通る溶液層の厚さに比例するのではなく、厚さが増すと**指数的に減少**します。選択肢2は誤りです。厚さに比例するのは吸光度です。
+
+
+    透過率は、入射光に対する透過光の強さの比で（選択肢1）、吸光度は透過率の逆数の対数です（選択肢3）。吸光度は溶液の濃度に比例し（選択肢4）、通常、極大吸収波長で測定します（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: 透過率は、光が通過する溶液層の厚さに比例する。
+  _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - spectrophotometry
+  traps:
+  - an-spectrophotometry-01
   rank: null
   stem: '物質Aの濃度が2.0×10⁻⁵ mol・L⁻¹の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度を測定したところ、0.480であった。
 
@@ -281,13 +395,23 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'ランベルト・ベールの法則 A ＝ ε × c × l から、
+
+
+    ε ＝ A ÷ (c × l) ＝ 0.480 ÷ (2.0 × 10⁻⁵ × 2.0) ＝ 1.2 × 10⁴ mol⁻¹・L・cm⁻¹
+
+
+    よって（3）が正しい値です。光路長 2.0 cm を忘れると 2.4 × 10⁴（選択肢4）になります。'
   figures: []
   law_note: null
+  _key_choice: 1.2×104 mol−1・L・cm−1
+  _stem_head: 物質Aの濃度が2.0×10−5 mol・L−1の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - aas
+  traps:
+  - an-aas-03
   rank: null
   stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -299,13 +423,21 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '水素化ホウ素ナトリウムは、As（Ⅲ）や Sb（Ⅲ）を**水素化物**（アルシンなど）にして気体で導入するための還元剤で、原子化そのものは、加熱した石英セルなどで行います。「水素化ホウ素ナトリウムで原子化できる」とする選択肢5は誤りです。
+
+
+    光源には中空陰極ランプを使い（選択肢1）、バックグラウンドの補正には重水素放電管を使います（選択肢2）。フレーム法では化学炎の中で、黒鉛炉法では通電によるジュール熱で、目的元素を原子化します（選択肢3・4）。'
   figures: []
   law_note: null
+  _key_choice: As(III)やSb(III)は、水素化ホウ素ナトリウムで原子化できる。
+  _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  review_note: 水素化ホウ素ナトリウムは水素化物を発生させる還元剤で、原子化は加熱で行う、という説明は、プロジェクトの教科書に記述がなく、一般的な知識によるもので、未確認です。
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - fluorescence
+  traps:
+  - an-fluorescence-02
   rank: null
   stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -317,13 +449,20 @@ questions:
   columns: null
   answer: 1
   choice_notes: []
-  explanation: null
+  explanation: '蛍光は、励起された分子が**電子励起状態**の最低の振動準位から基底状態に戻るときに出る光です。「電子基底状態の振動準位間の遷移で生じる」とする選択肢1は誤りです。
+
+
+    蛍光の波長は励起光より長く（選択肢2）、強度は励起光の波長によって変わります（選択肢3）。低濃度の領域では、励起光の強度にも（選択肢4）、蛍光物質の濃度にも（選択肢5）比例します。'
   figures: []
   law_note: null
+  _key_choice: 蛍光は、電子基底状態にある分子の振動準位間の遷移で生じる。
+  _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gc
+  traps:
+  - an-gc-05
   rank: null
   stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -335,13 +474,23 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: '炎光光度検出器（FPD）は、水素の量を FID より多くした**還元炎**（水素に富む炎）を使います。「酸素過剰の酸化炎」とする選択肢5は誤りです。
+
+
+    熱伝導度検出器は成分気体とキャリヤーガスの熱伝導率の差を（選択肢1）、水素炎イオン化検出器は水素炎中のイオン化を（選択肢2）、電子捕獲検出器は β線で生じた二次電子が対象化合物に捕獲されることを（選択肢3）、光イオン化検出器は紫外線によるイオン化を（選択肢4）、それぞれ利用します。
+
+
+    （参考：『作業環境測定のための機器分析の実務［特定化学物質・金属類・有機溶剤］』（2019年 初版） 2.6 ガスクロマトグラフ分析法「炎光光度検出器（FPD）」）'
   figures: []
   law_note: null
+  _key_choice: 炎光光度検出器(FPD)では、酸素過剰の酸化炎中で発光する試料特有の波長の光を利用する。
+  _stem_head: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - gc
+  traps:
+  - an-gc-03
   rank: null
   stem: 'ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。
 
@@ -356,13 +505,17 @@ questions:
   columns: null
   answer: 5
   choice_notes: []
-  explanation: null
+  explanation: 理論段相当高さ H は、ファン・デームター式 **H ＝ A ＋ B/v ＋ Cv** で表されます。A は渦流拡散、B/v は成分分子の拡散、Cv は移動相と固定相の間の平衡の遅れによる項です。よって（5）が正しい式です。
   figures: []
   law_note: null
+  _key_choice: H=A+{B}{v}+Cv
+  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - xrd
+  traps:
+  - an-xrd-01
   rank: null
   stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -374,13 +527,20 @@ questions:
   columns: null
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'X 線回折分析法の検出器は、回折線の**強度**を測定するもので、X 線のスペクトル分析ができるものでなければならないわけではありません。選択肢3は誤りです。
+
+
+    通常 Cu-Kα 線を使い（選択肢1）、結晶物質の同定や定量に使われます（選択肢2）。定性分析の試料は乳鉢ですり潰した粉末などで（選択肢4）、回折角から格子面間隔を求められます（選択肢5）。'
   figures: []
   law_note: null
+  _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
+  _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - radiation
+  traps:
+  - an-radiation-01
   rank: null
   stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。
   choices:
@@ -394,6 +554,11 @@ questions:
   - Ⓑ
   answer: 3
   choice_notes: []
-  explanation: null
+  explanation: 'β⁺ 壊変で放出されるのは、陽子ではなく**陽電子**です。選択肢3は誤りです。
+
+
+    α 壊変は ⁴He の原子核、β⁻ 壊変は電子、軌道電子捕獲は（特性）X 線、核異性体転移はγ線を放出します。'
   figures: []
   law_note: null
+  _key_choice: Aβ+壊変 B陽子
+  _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Bとの次の組合せのうち、誤っているものはどれか。

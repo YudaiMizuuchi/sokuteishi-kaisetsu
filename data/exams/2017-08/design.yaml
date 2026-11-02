@@ -29,7 +29,7 @@ questions:
     よって、最も近いのは 490 mg/m³ です。'
   figures: []
   law_note: null
-  _key_choice: 490 mg/m³
+  _key_choice: 490 mg/m3
   columns: null
 - num: 2
   status: published
@@ -124,7 +124,7 @@ questions:
   explanation: ヒュームの一次粒子の粒径は、一般に **1 µm 以下**です。1〜5 µm 程度とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: ヒュームの一次粒子の粒径は、1～5 µm程度である。
+  _key_choice: ヒュームの一次粒子の粒径は、1~5 μm程度である。
   columns: null
 - num: 6
   status: published
@@ -193,7 +193,7 @@ questions:
   explanation: クロム酸ミストは粒子なので、ろ過捕集法やインピンジャーで捕集します。シリカゲル管との組合せは不適当なので、答えは（2）です。
   figures: []
   law_note: null
-  _key_choice: Ⓐクロム酸ミスト Ⓑシリカゲル管
+  _key_choice: Aクロム酸ミスト Bシリカゲル管
   columns:
   - Ⓐ
   - Ⓑ
@@ -217,7 +217,7 @@ questions:
   explanation: 面積式流量計では、捕集装置の圧力損失が大きくなるに従って、指示値は真の流量より**大きく**なります。「小さくなる」とする選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 面積式流量計（ロータメータ）では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
+  _key_choice: 面積式流量計(ロータメータ)では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
   columns: null
 - num: 10
   status: published
@@ -308,7 +308,7 @@ questions:
   explanation: 質量濃度変換係数 K は、質量濃度 C を相対濃度 R で割ったもの（K ＝ C ÷ R）です。K ＝ R ÷ C とする選択肢2は、分子と分母が逆で誤りです。
   figures: []
   law_note: null
-  _key_choice: 質量濃度変換係数（K）、相対濃度（R）及び質量濃度（C）の関係は、K=R/Cで表される。
+  _key_choice: 質量濃度変換係数(K)、相対濃度(R)及び質量濃度(C)の関係は、K=R/Cで表される。
   columns: null
 - num: 14
   status: published
@@ -376,8 +376,11 @@ questions:
   choice_notes: []
   explanation: 放射性ヨウ素は、活性炭などを用いる**固体捕集法**で捕集します。液体捕集法との組合せは不適当なので、答えは（4）です。
   figures: []
-  law_note: null
-  _key_choice: Ⓐ放射性ヨウ素 Ⓑ液体捕集法
+  law_note: '作業環境測定基準第9条第1号の表では、放射性物質の状態が粒子状のときは液体捕集方法又はろ過捕集方法、ガス状のときは液体捕集方法、固体捕集方法、直接捕集方法又は冷却凝縮捕集方法とされています。条文の表は、状態ごとに選べる方法を広く示しているため、この問題の「不適当」という答えは、条文の表だけでは決まらず、物質ごとの代表的な捕集方法に基づいています。
+
+
+    参考：『作業環境測定ガイドブック2』3.2「試料採取方法の選定」、表2では、性状に適する方法の例として、粒子状の物質（コバルト、ウラン、プルトニウム、タリウムなど）はろ過捕集、揮発性のヨウ素などは活性炭による固体捕集、放射性希ガスは直接捕集が挙げられています。'
+  _key_choice: A放射性ヨウ素 B液体捕集法
   columns:
   - Ⓐ
   - Ⓑ

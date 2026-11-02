@@ -23,8 +23,8 @@ questions:
   explanation: アボガドロ定数の単位は **mol⁻¹** です。mol とする選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: Ⓐアボガドロ定数 Ⓑmol
-  _stem_head: 物理量及び物理定数AとそのSI単位記号Bとの次の組合せのうち、誤っているものはどれか。AB
+  _key_choice: Aアボガドロ定数 Bmol
+  _stem_head: 物理量及び物理定数AとそのSI単位記号Bとの次の組合せのうち、誤っているものはどれか。
   columns:
   - Ⓐ
   - Ⓑ
@@ -60,8 +60,8 @@ questions:
     令和6年度第1回にも、同じ型の問題があります。'
   figures: []
   law_note: null
-  _key_choice: 172.17 g・mol⁻¹
-  _stem_head: CaSO4・2H2Oのモル質量を有効数字で表した場合、正しいものは下のうちどれか。ただし、各元素の原子量は次のとおりとする。Ca40.08S32.06O15.9994H1.0079
+  _key_choice: 172.17 g・mol−1
+  _stem_head: CaSO4・2H2Oのモル質量を有効数字で表した場合、正しいものは下のうちどれか。
 - num: 3
   status: published
   chapters:
@@ -83,7 +83,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 温度と体積の両方を2倍にすると、圧力は2倍になる。
-  _stem_head: 1molの理想気体に関する次の記述のうち、誤っているものはどれか。ただし、温度は絶対温度(熱力学温度)で表している。
+  _stem_head: 1 molの理想気体に関する次の記述のうち、誤っているものはどれか。
 - num: 4
   status: published
   chapters:
@@ -107,7 +107,7 @@ questions:
     -CH₃ 基をもつのは、ベンゼン環にメチル基が付いたトルエンです。'
   figures: []
   law_note: null
-  _key_choice: ベンゼンは、-CH₃基をもっている。
+  _key_choice: ベンゼンは、-CH3基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
 - num: 5
   status: published
@@ -137,7 +137,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1.7 mL
-  _stem_head: 濃塩酸(12mol・L-1)を水で希釈してpHが1.0となる溶液200mLをつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次のうちどれか。
+  _stem_head: 濃塩酸(12 mol・L−1)を水で希釈してpHが1.0となる溶液200 mLをつくるのに必要な濃塩酸の体積として、正し
 - num: 6
   status: published
   chapters:
@@ -168,8 +168,8 @@ questions:
     よって（5）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 6 mol・L⁻¹
-  _stem_head: 質量パーセント濃度20%の水酸化ナトリウム溶液の密度は1.20g・cm-3である。この溶液のモル濃度として、正しい値は次のうちどれか。ただし、水酸化ナトリウムのモル質量を40.0g・mol-1とする。
+  _key_choice: 6 mol・L−1
+  _stem_head: 質量パーセント濃度20%の水酸化ナトリウム溶液の密度は1.20 g・cm−3である。この溶液のモル濃度として、正しい値は
 - num: 7
   status: published
   chapters:
@@ -294,8 +294,8 @@ questions:
     よって（3）が正しい値です。'
   figures: []
   law_note: null
-  _key_choice: 4.0×10⁻² mol・L⁻¹
-  _stem_head: 塩酸溶液50mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10-1mol・L-1)で滴定したところ、終点までに要した水酸化ナトリウム溶液の量は10mLであった。塩酸溶液の濃度として、正しい値は次のうちどれか。
+  _key_choice: 4.0×10−2 mol・L−1
+  _stem_head: 塩酸溶液50 mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10−1 mol・L−1)で滴定し
 - num: 12
   status: published
   chapters:
@@ -347,7 +347,7 @@ questions:
   figures: []
   law_note: null
   _key_choice: '0.1'
-  _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは20%減少した。このときの吸光度として正しい値に最も近いものは次のうちどれか。ただし、log108=0.903とする。
+  _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過光の強さは20%減少した。このときの吸光度として正しい値に最も近
 - num: 14
   status: published
   chapters:
@@ -368,7 +368,7 @@ questions:
   explanation: モル吸光係数の単位は **L・mol⁻¹・cm⁻¹** です。mol・L⁻¹・cm とする選択肢5は、逆数になっていて誤りです。
   figures: []
   law_note: null
-  _key_choice: モル吸光係数の単位は、mol・L⁻¹ cmである。
+  _key_choice: モル吸光係数の単位は、mol・L−1 cmである。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
 - num: 15
   status: published
@@ -437,7 +437,7 @@ questions:
   explanation: 炎光光度検出器（FPD）は、硫黄やリンを含む化合物に感度の高い検出器で、飽和炭化水素の測定には適しません。選択肢1は誤りです。
   figures: []
   law_note: null
-  _key_choice: 炎光光度検出器（FPD）は、飽和炭化水素化合物の測定に適している。
+  _key_choice: 炎光光度検出器(FPD)は、飽和炭化水素化合物の測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
 - num: 18
   status: published
@@ -462,8 +462,8 @@ questions:
     令和4年度第2回にも、同じ問題があります。'
   figures: []
   law_note: null
-  _key_choice: H=A+\dfrac{B}{v}+Cv
-  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、式中の第1項はカラム内での渦流拡散に起因する定数A、第2項は成分分子がカラム中で進行方向に拡散移動することに起因する項、第3項は移動相と固
+  _key_choice: H=A+{B}{v}+Cv
+  _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。
   columns: null
 - num: 19
   status: published
@@ -507,8 +507,8 @@ questions:
   explanation: β⁺ 壊変で放出されるのは、陽子ではなく**陽電子**です。選択肢4は誤りです。
   figures: []
   law_note: null
-  _key_choice: Ⓐβ⁺壊変 Ⓑ陽子
-  _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子又は素粒子Bとの次の組合せのうち、誤っているものはどれか。AB
+  _key_choice: Aβ+壊変 B陽子
+  _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子又は素粒子Bとの次の組合せのうち、誤っているものはどれか。
   columns:
   - Ⓐ
   - Ⓑ

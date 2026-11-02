@@ -29,7 +29,7 @@ questions:
     よって、最も近いのは 150 mg/m³ です。'
   figures: []
   law_note: null
-  _key_choice: 150 mg・m⁻³
+  _key_choice: 150 mg・m−3
 - num: 2
   status: published
   chapters:
@@ -141,7 +141,7 @@ questions:
     フッ化水素は沸点がほぼ常温なので迷いやすいですが、25℃では沸点を超えているのでガスです。'
   figures: []
   law_note: null
-  _key_choice: ㋩ ㋭
+  _key_choice: ハ ホ
 - num: 6
   status: published
   chapters:
@@ -216,7 +216,7 @@ questions:
     作業環境測定基準の別表第一でも、コールタールは「ろ過捕集方法・重量分析方法」とされています。セルロースエステルメンブランフィルターは、石綿のように繊維を顕微鏡で数えるための試料に向いたろ過材です。'
   figures: []
   law_note: null
-  _key_choice: Ⓐコールタール Ⓑセルロースエステルメンブランフィルター
+  _key_choice: Aコールタール Bセルロースエステルメンブランフィルター
   columns:
   - Ⓐ
   - Ⓑ
@@ -387,7 +387,7 @@ questions:
     圧電天秤方式は、圧電結晶板に付着した粉じんの質量に応じて振動数が変わることを利用して、質量に対応する値を求めます（選択肢2）。光散乱方式の相対濃度は cpm（カウント／分）で示されます。令和元年度第1回 デザイン 問15でも、「相対濃度指示方法における相対濃度は、光散乱方式では cpm、圧電天秤方式では mg･m⁻³ で示される」という正しい記述が出題されています。'
   figures: []
   law_note: null
-  _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min⁻¹の単位で表示される。
+  _key_choice: 圧電天秤方式の相対濃度計の測定値は、Hz・min−1の単位で表示される。
 - num: 16
   status: published
   chapters:
@@ -411,7 +411,7 @@ questions:
     放射性セシウム、コバルト、タリウムなど粒子状のものはろ過捕集方法、放射性アルゴンなど希ガスは直接捕集方法です。'
   figures: []
   law_note: null
-  _key_choice: ㋑放射性ヨウ素 ㋺トリチウム化水蒸気
+  _key_choice: イ放射性ヨウ素 ロトリチウム化水蒸気
   columns:
   - ㋑
   - ㋺
@@ -445,7 +445,7 @@ questions:
     よって（4）が正しい値です。令和4年度第2回にも、まったく同じ問題があります。'
   figures: []
   law_note: null
-  _key_choice: 1.4×10⁴ Bq
+  _key_choice: 1.4×104 Bq
 - num: 18
   status: published
   chapters:
@@ -470,7 +470,7 @@ questions:
     μ ± 2σ の範囲に約95％が入るのは「両側」の話で、上側5％点（片側）は 1.645σ です。'
   figures: []
   law_note: null
-  _key_choice: 正規分布の平均（算術平均）及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ＋2σである。
+  _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値は、μ+2σである。
 - num: 19
   status: published
   chapters:
