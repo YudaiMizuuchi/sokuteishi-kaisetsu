@@ -175,6 +175,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         examNote: q.exam_note || null, // 協会による正答の注記（複数正答など）
         textNote: q.text_note || null, // 原本の印字（誤植など）をそのまま掲載している箇所の注記
         reviewNote: q.review_note || null, // 管理者が確認中の点（確認が済んだら消す）
+        minorNote: q.minor_note || null, // 細かい論点（試験対策としては深追い不要。根拠の確認は後回し）
         sourcePdf: doc.source_pdf || site.officialIndex,
       });
     }
@@ -235,7 +236,7 @@ const listItem = (q) => ({
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   books: q.books,
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
-  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, sourcePdf: q.sourcePdf, source: q.source,
+  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, minorNote: q.minorNote, sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
 });
 const subjectsWithData = subjects
@@ -305,12 +306,14 @@ questions.forEach((q) => { q.examUrl = `/exam/${q.exam.key}/`; q.subjectUrl = `/
 
 // 確認中の解説の一覧（/review/ ページ用）
 const reviewQuestions = questions.filter((q) => q.reviewNote);
+const minorQuestions = questions.filter((q) => q.minorNote);
 
 export default {
   stats,
   examPages,
   subjectPages,
   reviewQuestions,
+  minorQuestions,
   bookChapters,
   bookParts,
   subjects,

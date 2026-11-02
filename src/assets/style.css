@@ -157,6 +157,9 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82r
 /* 確認中の注記 */
 .review-note { margin: 12px 0; padding: 8px 12px; border: 1px dashed var(--amber); border-radius: 6px; background: var(--surface); font-size: .9rem; }
 .review-note b { display: block; color: var(--amber); font-size: .85rem; margin-bottom: 2px; }
+/* 細かい論点（深追い不要）の注記：確認中より目立たない表示 */
+.minor-note { margin: 10px 0; padding: 0; border: 0; color: var(--muted); font-size: .82rem; }
+.minor-note b { color: var(--muted); font-weight: 600; margin-right: .4em; }
 
 /* トップの入口・一覧ページ */
 .entry { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 8px 0 28px; }

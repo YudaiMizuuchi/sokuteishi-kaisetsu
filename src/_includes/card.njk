@@ -36,6 +36,7 @@
     {% if q.lawNote %}<p class="lawnote">法改正に関する注意：{{ q.lawNote }}</p>{% endif %}
     {% if q.hasExplanation %}{{ q.explanationHtml | safe }}{% else %}<p class="no-exp">この問題の解説は準備中です。</p>{% endif %}
     {% if q.reviewNote %}<p class="review-note"><b>現在、管理者にて確認中</b>{{ q.reviewNote }}</p>{% endif %}
+    {% if q.minorNote %}<p class="minor-note"><b>細かい論点なので、深追いは禁物です。</b>{{ q.minorNote }}</p>{% endif %}
     {% if q.choiceNotes.length %}
     <ol class="notes">
       {% for n in q.choiceNotes %}<li{% if n.isAnswer %} class="is-answer"{% endif %}><span class="n">({{ loop.index }})</span><span>{{ n.html | safe }}</span></li>{% endfor %}

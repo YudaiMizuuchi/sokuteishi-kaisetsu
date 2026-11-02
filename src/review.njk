@@ -6,8 +6,13 @@ eleventyExcludeFromCollections: true
 noindex: true
 ---
 <h1>確認中の解説（管理用）</h1>
-<p class="lead">問題データに review_note がある問題の一覧です。確認が済んだら review_note を消すと、ここと解説欄から外れます。このページはメニューやサイトマップには載りません。</p>
+<p class="lead">問題データに review_note がある問題（確認中）と、minor_note がある問題（細かい論点・根拠の確認は後回し）の一覧です。確認が済んだら、該当の行を消すと、ここと解説欄から外れます。このページはメニューやサイトマップには載りません。</p>
 <p>{{ db.reviewQuestions.length }} 問</p>
 <ul class="qlinks" style="display:block">
 {% for q in db.reviewQuestions %}<li style="margin-bottom:10px"><a href="{{ q.url }}">{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}</a><br><span class="trapmeta">{{ q.reviewNote }}</span></li>{% endfor %}
+</ul>
+<h2>細かい論点（根拠の確認は後回し）</h2>
+<p>{{ db.minorQuestions.length }} 問</p>
+<ul class="qlinks" style="display:block">
+{% for q in db.minorQuestions %}<li style="margin-bottom:10px"><a href="{{ q.url }}">{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}</a><br><span class="trapmeta">{{ q.minorNote }}</span></li>{% endfor %}
 </ul>
