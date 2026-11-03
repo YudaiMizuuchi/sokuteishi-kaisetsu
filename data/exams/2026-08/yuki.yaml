@@ -33,8 +33,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: sl-yuki-000
 - num: 2
   status: published
   chapters:
@@ -62,8 +63,9 @@ questions:
     denom: 12
     count: 3
     form: 選択肢が物質名などの問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: sl-yuki-002
 - num: 3
   status: published
   chapters:
@@ -97,7 +99,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: 3
+    level: C
     why: q_new
 - num: 4
   status: published
@@ -143,7 +145,7 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -192,7 +194,7 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -244,7 +246,7 @@ questions:
     - 2
     - 1
     truths: 正正誤正正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -294,7 +296,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -335,7 +337,7 @@ questions:
     denom: 12
     count: 3
     form: 選択肢が物質名などの問題
-    level: 1
+    level: A
     why: q_hi
 - num: 9
   status: published
@@ -369,7 +371,7 @@ questions:
     kind: choice
     denom: 12
     counts:
-    - 1
+    - 4
     - 5
     - 3
     - 4
@@ -381,10 +383,10 @@ questions:
     - 4
     - 5
     truths: 誤正正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: ans_hi
     tags:
-    - ans_b
+    - ans_hi
     - odo
     - odo
     - odo
@@ -419,7 +421,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: 2
+    level: B
     why: q_b
 - num: 11
   status: published
@@ -465,7 +467,7 @@ questions:
     - 3
     - 1
     truths: 誤正正正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - ans_new
@@ -517,7 +519,7 @@ questions:
     - 1
     - 2
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -566,7 +568,7 @@ questions:
     - 5
     - 2
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -610,7 +612,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: 3
+    level: C
     why: q_new
 - num: 15
   status: published
@@ -653,7 +655,7 @@ questions:
     - 1
     - 4
     truths: 正正誤正正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -702,7 +704,7 @@ questions:
     - 2
     - 3
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - new
@@ -743,8 +745,9 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: 2
-    why: q_b
+    level: B
+    why: pat_B
+    pat: sl-yuki-028
 - num: 18
   status: published
   chapters:
@@ -781,8 +784,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: sl-yuki-001
 - num: 19
   status: published
   chapters:
@@ -824,7 +828,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: 3
+    level: C
     why: q_new
 - num: 20
   status: published
@@ -867,7 +871,7 @@ questions:
     - 1
     - 4
     truths: 正正正誤正
-    level: 2
+    level: B
     why: elim_all
     tags:
     - odo

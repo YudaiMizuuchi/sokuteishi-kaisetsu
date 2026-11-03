@@ -109,9 +109,10 @@ const RANK_ORDER = { S: 0, A: 1, B: 2, C: 3 };
 
 // 出題頻度（tools/compute_freq.py の結果）を、表示用の文に直す
 const LEVELS = {
-  1: { code: "S", label: "得点必須", head: "この問題は、試験本番では得点しなければならない問題です。" },
-  2: { code: "B", label: "何とか得点", head: "この問題は、何とか得点したい問題です。" },
-  3: { code: "C", label: "失点やむなし", head: "この問題は、失点しても仕方がない問題です。" },
+  S: { code: "S", label: "得点必須S", head: "この問題は、試験本番では得点しなければならない問題です（学習の優先度：最高）。" },
+  A: { code: "A", label: "得点必須A", head: "この問題は、試験本番では得点しなければならない問題です（学習の優先度：高）。" },
+  B: { code: "B", label: "何とか得点B", head: "この問題は、何とか得点したい問題です（学習の優先度：中）。" },
+  C: { code: "C", label: "失点やむなしC", head: "この問題は、失点しても仕方がない問題です（学習の優先度：低）。" },
 };
 const WHY = {
   ans_hi: "下記の通り、ひっかけパターンである選択肢（正答）から、容易に正答を割り出すことができるからです。",
@@ -120,14 +121,17 @@ const WHY = {
   elim_two: "下記の通り、頻出のおとりパターンである選択肢を除外して、残り2つまで絞り込めるからです。2択になるので、2回に1回は得点できます。",
   none: "いずれも初見の選択肢であり、問題のテーマとしても頻出テーマではないからです。",
 };
-const TAGS = { ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
+const TAGS = { ans_pat: "正答（ひっかけパターンに該当）", ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
 function freqOut(f) {
   if (!f || !f.denom) return null;
   const pct = (m) => Math.round((m / f.denom) * 100);
   const text = (m) => `全${f.denom}回中${m}回出題（出題確率${pct(m)}％）`;
   const lv = LEVELS[f.level] || null;
   let reason = "";
-  if (f.kind === "choice") reason = WHY[f.why] || "";
+  const pt = f.pat ? trapById[f.pat] : null;
+  if (pt && (f.why === "pat_S" || f.why === "pat_A")) reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢から、容易に正答を割り出すことができるからです。`;
+  else if (pt && f.why === "pat_B") reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢であり、押さえておけば、何とか正答を割り出せるからです。`;
+  else if (f.kind === "choice") reason = WHY[f.why] || "";
   else if (f.why === "q_hi") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、確実に得点できるからです。`;
   else if (f.why === "q_b") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、何とか得点できるからです。`;
   else reason = `この形式の問題（${f.form}）は、過去の出題が少なく、初見になる可能性が高いからです。`;

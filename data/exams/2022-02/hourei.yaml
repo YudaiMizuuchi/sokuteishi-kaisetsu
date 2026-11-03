@@ -43,14 +43,15 @@ questions:
     - 2
     - 8
     truths: 誤正正正正
-    level: 1
-    why: ans_hi
+    level: S
+    why: pat_S
     tags:
-    - ans_hi
+    - ans_pat
     - ''
     - odo
     - ''
     - odo
+    pat: lw-law-system-01
 - num: 2
   status: published
   chapters:
@@ -91,14 +92,15 @@ questions:
     - 7
     - 4
     truths: 正正正正誤
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - ''
     - odo
-    - ans_b
+    - ans_pat
+    pat: lw-law-health-exam-01
 - num: 3
   status: published
   chapters:
@@ -142,14 +144,15 @@ questions:
     - 3
     - 4
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
+    pat: lw-law-education-01
 - num: 4
   status: published
   chapters:
@@ -185,8 +188,9 @@ questions:
     denom: 23
     count: 5
     form: 穴埋め・組合せの問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: lw-law-measurement-scope-01
 - num: 5
   status: published
   chapters:
@@ -230,14 +234,15 @@ questions:
     - 2
     - 12
     truths: 正正正誤正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
     - ''
-    - ans_new
+    - ans_pat
     - odo
+    pat: lw-law-measurement-scope-03
 - num: 6
   status: published
   chapters:
@@ -268,8 +273,9 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
-    level: 2
-    why: q_b
+    level: S
+    why: pat_S
+    pat: lw-law-tokka-02
 - num: 7
   status: published
   chapters:
@@ -299,8 +305,9 @@ questions:
     denom: 23
     count: 5
     form: 選択肢が物質名などの問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: lw-law-certification-01
 - num: 8
   status: published
   chapters:
@@ -344,14 +351,15 @@ questions:
     - 4
     - 11
     truths: 正正誤正正
-    level: 2
-    why: elim_all
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - odo
+    pat: lw-law-sokuteishi-03
 - num: 9
   status: published
   chapters:
@@ -396,7 +404,7 @@ questions:
     - 5
     - 4
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -447,7 +455,7 @@ questions:
     - 7
     - 4
     truths: 誤正正正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - ans_hi
@@ -498,14 +506,15 @@ questions:
     - 3
     - 4
     truths: 誤正正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
-    - ans_b
+    - ans_pat
     - ''
     - ''
     - odo
     - odo
+    pat: lw-law-personal-sampling-01
 - num: 12
   status: published
   chapters:
@@ -547,14 +556,15 @@ questions:
     - 4
     - 2
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - ''
+    pat: lw-law-tokka-01
 - num: 13
   status: published
   chapters:
@@ -598,14 +608,15 @@ questions:
     - 8
     - 6
     truths: 正正誤正正
-    level: 2
-    why: elim_two
+    level: S
+    why: pat_S
     tags:
     - odo
     - ''
-    - ans_new
+    - ans_pat
     - odo
     - odo
+    pat: lw-law-chief-01
 - num: 14
   status: published
   chapters:
@@ -638,8 +649,9 @@ questions:
     denom: 23
     count: 5
     form: 穴埋め・組合せの問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: lw-law-tokka-03
 - num: 15
   status: published
   chapters:
@@ -684,7 +696,7 @@ questions:
     - 5
     - 12
     truths: 正正正誤正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -735,7 +747,7 @@ questions:
     - 3
     - 5
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -790,14 +802,15 @@ questions:
     - 4
     - 2
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - ''
+    pat: lw-law-dust-01
 - num: 18
   status: published
   chapters:
@@ -841,7 +854,7 @@ questions:
     - 5
     - 9
     truths: 正正正誤正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -893,14 +906,15 @@ questions:
     - 8
     - 5
     truths: 正正正正誤
-    level: 1
-    why: ans_hi
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - ''
     - odo
-    - ans_hi
+    - ans_pat
+    pat: lw-law-oxygen-01
 - num: 20
   status: published
   chapters:
@@ -931,7 +945,7 @@ questions:
     denom: 23
     counts:
     - 11
-    - 2
+    - 3
     - 2
     - 7
     - 3
@@ -942,7 +956,7 @@ questions:
     - 7
     - 3
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo

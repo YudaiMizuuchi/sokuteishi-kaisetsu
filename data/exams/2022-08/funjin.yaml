@@ -36,8 +36,9 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: 2
-    why: q_b
+    level: B
+    why: pat_B
+    pat: sl-funjin-139
 - num: 2
   status: published
   chapters:
@@ -80,7 +81,7 @@ questions:
     - 2
     - 2
     truths: 誤正正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - ans_b
@@ -127,8 +128,9 @@ questions:
     denom: 12
     count: 7
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: sl-funjin-117
 - num: 4
   status: published
   chapters:
@@ -171,7 +173,7 @@ questions:
     - 2
     - 2
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - new
@@ -221,7 +223,7 @@ questions:
     - 3
     - 1
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - new
@@ -271,7 +273,7 @@ questions:
     - 2
     - 3
     truths: 誤正正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - ans_b
@@ -321,7 +323,7 @@ questions:
     - 2
     - 2
     truths: 誤正正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - ans_b
@@ -371,7 +373,7 @@ questions:
     - 4
     - 5
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -415,7 +417,7 @@ questions:
     - 1
     - 2
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -465,7 +467,7 @@ questions:
     - 1
     - 2
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -515,7 +517,7 @@ questions:
     - 2
     - 2
     truths: 誤正正正正
-    level: 2
+    level: B
     why: elim_all
     tags:
     - ans_new
@@ -565,7 +567,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -609,7 +611,7 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -659,7 +661,7 @@ questions:
     - 3
     - 3
     truths: 正正正正誤
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -709,7 +711,7 @@ questions:
     - 2
     - 1
     truths: 正正正正誤
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo
@@ -745,7 +747,7 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: 2
+    level: B
     why: q_b
 - num: 17
   status: published
@@ -787,8 +789,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: 2
-    why: q_b
+    level: S
+    why: pat_S
+    pat: sl-funjin-119
 - num: 18
   status: published
   chapters:
@@ -831,7 +834,7 @@ questions:
     - 3
     - 3
     truths: 正誤正正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -890,7 +893,7 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: 1
+    level: A
     why: q_hi
 - num: 20
   status: published
@@ -934,7 +937,7 @@ questions:
     - 2
     - 1
     truths: 正正正正誤
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo

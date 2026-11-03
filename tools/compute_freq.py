@@ -31,28 +31,54 @@ def rank_of(m,D):
     """出題回数の水準。共通科目（23回）はS≧10・A≧5・B≧3、選択科目（12回）はS≧5・A≧3・B≧2。"""
     t=(10,5,3) if D>=20 else (5,3,2)
     return 'S' if m>=t[0] else 'A' if m>=t[1] else 'B' if m>=t[2] else 'C'
-def judge(fr,answers):
-    """問題の区分：1＝得点必須、2＝何とか得点したい、3＝失点しても仕方がない。
-    選択肢の問題：正答がS・A（同じ記述）→1／正答がB（同じ記述または似た記述）→2／他の選択肢のうち、頻出のおとり（似た記述を含めてB以上）を除いて、残りが1つ（全部除外）または2つ（2択）→2／それ以外→3。
-    問題単位の集計：出題回数がS・A→1、B→2、C→3。"""
-    D=fr['denom']
+def judge(fr,answers,prank=None,pat=None):
+    """問題の区分：S＝得点必須（最優先）、A＝得点必須、B＝何とか得点したい、C＝失点しても仕方がない。
+    正答の選択肢の頻度は、『選択肢の文の出題回数（同じ記述）』と『紐づくひっかけパターンの出題水準』の、高いほうを使う。
+    ・S：正答の頻度がS（共通23回中10回以上／選択12回中5回以上）
+    ・A：正答の頻度がA（共通5〜9回／選択3〜4回）
+    ・B：正答の頻度がB（共通3〜4回／選択2回。似た記述を含めてもよい）、または、頻出のおとり（似た記述を含めてB水準以上）を除いて、残りが1つ（全部除外）か2つ（2択）
+    ・C：上のどれにも当てはまらない
+    問題単位の集計（穴埋め・組合せ・計算問題など）：問題の出題回数とパターンの水準の、高いほう。"""
+    D=fr['denom']; order={'S':0,'A':1,'B':2,'C':3}
+    def best(*rs): return min((r for r in rs if r),key=lambda r:order[r],default='C')
     if fr['kind']=='question':
-        r=rank_of(fr['count'],D)
-        return (1,'q_hi',None) if r in 'SA' else ((2,'q_b',None) if r=='B' else (3,'q_new',None))
+        r=best(rank_of(fr['count'],D),prank)
+        if r in 'SA': return r,('pat_'+r if prank==r else 'q_hi'),None
+        if r=='B': return 'B',('pat_B' if prank=='B' else 'q_b'),None
+        return 'C','q_new',None
     a=answers[0]-1; ms=fr['counts']; sm=fr['similar']; n=len(ms)
     tags=[]
+    ra=best(rank_of(ms[a],D),prank); r2=rank_of(sm[a],D)
     for i in range(n):
         if i==a:
-            r=rank_of(ms[i],D); r2=rank_of(sm[i],D)
-            tags.append('ans_hi' if r in 'SA' else 'ans_b' if (r=='B' or r2 in 'SAB') else 'ans_new')
+            rc=rank_of(ms[a],D)
+            if prank and order[prank]<order[rc]: tags.append('ans_pat')   # 選択肢の文は初見でも、ひっかけパターンに該当
+            else: tags.append('ans_hi' if ra in 'SA' else 'ans_b' if (ra=='B' or r2 in 'SAB') else 'ans_new')
         else:
             tags.append('odo' if rank_of(sm[i],D)!='C' else ('new' if sm[i]<=1 else ''))
-    if tags[a]=='ans_hi': return 1,'ans_hi',tags
-    if tags[a]=='ans_b': return 2,'ans_b',tags
+    if ra in 'SA': return ra,('pat_'+ra if prank==ra and rank_of(ms[a],D)!=ra else 'ans_hi'),tags
+    if ra=='B' or r2 in 'SAB': return 'B',('pat_B' if prank=='B' and rank_of(ms[a],D)!='B' else 'ans_b'),tags
     k=sum(1 for i in range(n) if i!=a and tags[i]=='odo'); left=n-k
-    if left==1: return 2,'elim_all',tags
-    if left==2: return 2,'elim_two',tags
-    return 3,'none',tags
+    if left==1: return 'B','elim_all',tags
+    if left==2: return 'B','elim_two',tags
+    return 'C','none',tags
+
+# ひっかけパターン（data/master/book.yaml）：各問に紐づくパターンのうち、最も水準の高いものを使う
+_BOOK=yaml.safe_load(open('data/master/book.yaml',encoding='utf-8'))
+TRAPS={t['id']:t for t in _BOOK['traps']}
+def best_pattern(q):
+    c=[TRAPS[t] for t in (q.get('traps') or []) if t in TRAPS and 'other' not in t and 'その他' not in TRAPS[t]['name']]
+    if not c: return None,None
+    o={'S':0,'A':1,'B':2,'C':3}
+    t=min(c,key=lambda x:o[x['rank']]); return t['rank'],t['id']
+
+# 手動の対応表（data/master/choice_links.yaml）：言い回しが違うが同じ内容と判定した選択肢の組
+import os
+LINKS=collections.defaultdict(set)
+_lp='data/master/choice_links.yaml'
+if os.path.exists(_lp):
+    for l in (yaml.safe_load(open(_lp,encoding='utf-8')) or {}).get('links',[]):
+        LINKS[(l['subject'],l['a'])].add(l['b']); LINKS[(l['subject'],l['b'])].add(l['a'])
 
 docs=collections.defaultdict(dict)   # subject -> exam -> (file, data)
 for f in sorted(glob.glob('data/exams/*/*.yaml')):
@@ -98,7 +124,8 @@ for subj,exams in docs.items():
             if j==i or S[j][3]!=s[3] or S[j][0]==s[0]: continue
             if c<0.4*min(len(G[i]),len(G[j])): continue
             r=difflib.SequenceMatcher(None,s[4],S[j][4]).ratio()
-            if r>=THR_STMT: exs.add(S[j][0]); exs2.add(S[j][0])
+            linked=f"{S[j][0]}|{S[j][1]}|{S[j][2]}" in LINKS.get((subj,f"{s[0]}|{s[1]}|{s[2]}"),())
+            if r>=THR_STMT or linked: exs.add(S[j][0]); exs2.add(S[j][0])
             elif r>=THR_SIM and similar_guard(s[4],S[j][4]): exs2.add(S[j][0])
         match[i]=exs; match2[i]=exs2
     idx={(s[0],s[1],s[2]):i for i,s in enumerate(S)}
@@ -122,10 +149,14 @@ for subj,exams in docs.items():
                 counts=[];counts2=[];truths=''
                 for i,c in enumerate(q['choices'],1):
                     counts.append(len(match[idx[(e,q['num'],i)]])); counts2.append(len(match2[idx[(e,q['num'],i)]])); truths+=('正' if ((i not in ans) if neg else (i in ans)) else '誤')
-                fr=dict(kind='choice',denom=D,counts=counts,similar=counts2,truths=truths); lv,why,tags=judge(fr,ans); fr.update(level=lv,why=why,tags=tags); stats[(f,q['num'])]=fr
+                fr=dict(kind='choice',denom=D,counts=counts,similar=counts2,truths=truths); pr,pid=best_pattern(q); lv,why,tags=judge(fr,ans,pr,pid); fr.update(level=lv,why=why,tags=tags)
+                if why.startswith('pat_') and pid: fr['pat']=pid
+                stats[(f,q['num'])]=fr
             else:
                 kk,m=qm[(e,q['num'])]
-                fr=dict(kind='question',denom=D,count=m,form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k]); lv,why,_=judge(fr,ans); fr.update(level=lv,why=why); stats[(f,q['num'])]=fr
+                fr=dict(kind='question',denom=D,count=m,form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k]); pr,pid=best_pattern(q); lv,why,_=judge(fr,ans,pr,pid); fr.update(level=lv,why=why)
+                if why.startswith('pat_') and pid: fr['pat']=pid
+                stats[(f,q['num'])]=fr
     print(subj,'回数',D,'問題',sum(len(x[1]['questions']) for x in exams.values()))
 print('統計',len(stats),'問')
 if APPLY:

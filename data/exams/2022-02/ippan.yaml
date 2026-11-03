@@ -46,14 +46,15 @@ questions:
     - 5
     - 2
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
-    - ans_new
+    - ans_pat
     - odo
     - ''
     - odo
     - ''
+    pat: gn-risk-assessment-01
 - num: 2
   status: published
   chapters:
@@ -94,14 +95,15 @@ questions:
     - 2
     - 2
     truths: 誤正正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
-    - ans_b
+    - ans_pat
     - ''
     - odo
     - ''
     - ''
+    pat: gn-oh-management-01
 - num: 3
   status: published
   chapters:
@@ -142,14 +144,15 @@ questions:
     - 2
     - 3
     truths: 正正正正誤
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - ''
     - ''
-    - ans_b
+    - ans_pat
+    pat: gn-absorption-01
 - num: 4
   status: published
   chapters:
@@ -190,14 +193,15 @@ questions:
     - 7
     - 5
     truths: 正誤正正正
-    level: 2
-    why: elim_all
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: gn-toxicity-01
 - num: 5
   status: published
   chapters:
@@ -229,8 +233,9 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: gn-occupational-cancer-01
 - num: 6
   status: published
   chapters:
@@ -263,7 +268,7 @@ questions:
     denom: 23
     counts:
     - 2
-    - 4
+    - 5
     - 4
     - 2
     - 4
@@ -274,11 +279,11 @@ questions:
     - 3
     - 4
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: ans_hi
     tags:
     - ''
-    - ans_b
+    - ans_hi
     - odo
     - odo
     - odo
@@ -322,7 +327,7 @@ questions:
     - 6
     - 4
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -370,7 +375,7 @@ questions:
     - 3
     - 3
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -418,7 +423,7 @@ questions:
     - 3
     - 6
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -466,14 +471,15 @@ questions:
     - 2
     - 3
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_pat
     - ''
     - odo
+    pat: gn-vibration-01
 - num: 11
   status: published
   chapters:
@@ -514,14 +520,15 @@ questions:
     - 2
     - 8
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: B
+    why: pat_B
     tags:
-    - ans_new
+    - ans_pat
     - odo
     - ''
     - ''
     - odo
+    pat: gn-noise-01
 - num: 12
   status: published
   chapters:
@@ -562,14 +569,15 @@ questions:
     - 6
     - 7
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
+    pat: gn-oxygen-deficiency-01
 - num: 13
   status: published
   chapters:
@@ -610,14 +618,15 @@ questions:
     - 5
     - 3
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
+    pat: gn-em-waves-01
 - num: 14
   status: published
   chapters:
@@ -658,14 +667,15 @@ questions:
     - 2
     - 3
     truths: 正正正誤正
-    level: 2
-    why: elim_two
+    level: B
+    why: pat_B
     tags:
     - odo
     - ''
     - odo
-    - ans_new
+    - ans_pat
     - odo
+    pat: gn-radiation-01
 - num: 15
   status: published
   chapters:
@@ -706,7 +716,7 @@ questions:
     - 2
     - 3
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -754,14 +764,15 @@ questions:
     - 9
     - 7
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
+    pat: gn-ventilation-01
 - num: 17
   status: published
   chapters:
@@ -802,14 +813,15 @@ questions:
     - 3
     - 3
     truths: 正正正正誤
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - ''
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_pat
+    pat: gn-ppe-02
 - num: 18
   status: published
   chapters:
@@ -850,14 +862,15 @@ questions:
     - 7
     - 2
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - ''
+    pat: gn-ppe-01
 - num: 19
   status: published
   chapters:
@@ -898,7 +911,7 @@ questions:
     - 3
     - 3
     truths: 誤正正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - ans_b
@@ -946,11 +959,12 @@ questions:
     - 11
     - 3
     truths: 正正誤正正
-    level: 2
-    why: elim_two
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
-    - ans_new
+    - ans_pat
     - odo
     - odo
+    pat: gn-exposure-limits-03

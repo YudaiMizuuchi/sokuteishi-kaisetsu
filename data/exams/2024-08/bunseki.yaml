@@ -36,8 +36,9 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -77,8 +78,9 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: 3
-    why: q_new
+    level: A
+    why: pat_A
+    pat: an-mole-03
 - num: 3
   status: published
   chapters:
@@ -120,14 +122,15 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - new
     - new
     - new
-    - ans_new
+    - ans_pat
     - new
+    pat: an-organic-02
 - num: 4
   status: published
   chapters:
@@ -159,7 +162,7 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: 3
+    level: C
     why: q_new
 - num: 5
   status: published
@@ -201,8 +204,9 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: 2
-    why: q_b
+    level: S
+    why: pat_S
+    pat: an-solution-02
 - num: 6
   status: published
   chapters:
@@ -243,8 +247,9 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: an-solution-04
 - num: 7
   status: published
   chapters:
@@ -286,14 +291,15 @@ questions:
     - 3
     - 1
     truths: 正正誤正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - new
+    pat: an-lab-equipment-01
 - num: 8
   status: published
   chapters:
@@ -331,8 +337,9 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: 2
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-gas-05
 - num: 9
   status: published
   chapters:
@@ -374,14 +381,15 @@ questions:
     - 1
     - 1
     truths: 正正誤正正
-    level: 3
-    why: none
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''
-    - ans_new
+    - ans_pat
     - new
     - new
+    pat: an-reagents-03
 - num: 10
   status: published
   chapters:
@@ -418,8 +426,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: an-quantification-02
 - num: 11
   status: published
   chapters:
@@ -456,8 +465,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: an-mole-03
 - num: 12
   status: published
   chapters:
@@ -500,14 +510,15 @@ questions:
     - 2
     - 2
     truths: 正正誤正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
-    - ans_new
+    - ans_pat
     - ''
     - ''
+    pat: an-titration-01
 - num: 13
   status: published
   chapters:
@@ -549,14 +560,15 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 2
-    why: elim_two
+    level: B
+    why: pat_B
     tags:
     - odo
     - odo
     - odo
     - new
-    - ans_new
+    - ans_pat
+    pat: an-spectrophotometry-05
 - num: 14
   status: published
   chapters:
@@ -594,8 +606,9 @@ questions:
     denom: 23
     count: 11
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: an-logarithm-02
 - num: 15
   status: published
   chapters:
@@ -637,14 +650,15 @@ questions:
     - 1
     - 2
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_pat
     - new
     - ''
+    pat: an-aas-02
 - num: 16
   status: published
   chapters:
@@ -686,14 +700,15 @@ questions:
     - 2
     - 3
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
-    - ans_new
+    - ans_pat
     - new
     - ''
     - ''
     - odo
+    pat: an-fluorescence-01
 - num: 17
   status: published
   chapters:
@@ -735,14 +750,15 @@ questions:
     - 1
     - 1
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
-    - ans_new
+    - ans_pat
     - odo
     - ''
     - new
     - new
+    pat: an-gc-02
 - num: 18
   status: published
   chapters:
@@ -776,8 +792,9 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
-    level: 2
-    why: q_b
+    level: S
+    why: pat_S
+    pat: an-gc-01
 - num: 19
   status: published
   chapters:
@@ -812,8 +829,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -848,5 +866,6 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: an-logarithm-03

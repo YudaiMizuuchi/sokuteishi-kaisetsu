@@ -34,7 +34,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: 2
+    level: B
     why: q_b
 - num: 2
   status: published
@@ -78,7 +78,7 @@ questions:
     - 2
     - 2
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -128,8 +128,9 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: sl-funjin-117
 - num: 4
   status: published
   chapters:
@@ -165,7 +166,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 5
   status: published
@@ -209,7 +210,7 @@ questions:
     - 1
     - 2
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -259,7 +260,7 @@ questions:
     - 4
     - 1
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -309,7 +310,7 @@ questions:
     - 1
     - 1
     truths: 正誤正正正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -359,7 +360,7 @@ questions:
     - 3
     - 1
     truths: 正正正正誤
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -409,7 +410,7 @@ questions:
     - 4
     - 2
     truths: 正正誤正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - new
@@ -459,7 +460,7 @@ questions:
     - 1
     - 5
     truths: 正正誤正正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -528,8 +529,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: sl-funjin-118
 - num: 12
   status: published
   chapters:
@@ -574,7 +576,7 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: 1
+    level: A
     why: q_hi
 - num: 13
   status: published
@@ -619,7 +621,7 @@ questions:
     - 3
     - 2
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -669,7 +671,7 @@ questions:
     - 3
     - 3
     truths: 正誤正正正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -719,7 +721,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -784,7 +786,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 17
   status: published
@@ -828,7 +830,7 @@ questions:
     - 8
     - 2
     truths: 誤正正正正
-    level: 2
+    level: B
     why: elim_all
     tags:
     - ans_new
@@ -875,8 +877,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: sl-funjin-119
 - num: 19
   status: published
   chapters:
@@ -919,7 +922,7 @@ questions:
     - 3
     - 1
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -969,7 +972,7 @@ questions:
     - 3
     - 1
     truths: 正誤正正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo

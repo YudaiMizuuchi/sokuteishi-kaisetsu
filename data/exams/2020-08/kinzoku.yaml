@@ -33,7 +33,7 @@ questions:
     denom: 12
     count: 5
     form: 選択肢が物質名などの問題
-    level: 1
+    level: S
     why: q_hi
 - num: 2
   status: published
@@ -62,7 +62,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 3
   status: published
@@ -102,7 +102,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: 2
+    level: B
     why: q_b
 - num: 4
   status: published
@@ -134,7 +134,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 5
   status: published
@@ -183,7 +183,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -238,7 +238,7 @@ questions:
     - 1
     - 7
     truths: 誤正正正正
-    level: 1
+    level: S
     why: ans_hi
     tags:
     - ans_hi
@@ -290,7 +290,7 @@ questions:
     - 1
     - 2
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -342,7 +342,7 @@ questions:
     - 3
     - 1
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -394,7 +394,7 @@ questions:
     - 2
     - 3
     truths: 誤正正正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - ans_new
@@ -446,7 +446,7 @@ questions:
     - 1
     - 3
     truths: 正正正正誤
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -499,7 +499,7 @@ questions:
     - 2
     - 1
     truths: 正正正正誤
-    level: 2
+    level: B
     why: elim_all
     tags:
     - odo
@@ -541,7 +541,7 @@ questions:
     counts:
     - 1
     - 2
-    - 3
+    - 4
     - 3
     - 3
     similar:
@@ -551,7 +551,7 @@ questions:
     - 3
     - 4
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - new
@@ -603,7 +603,7 @@ questions:
     - 2
     - 4
     truths: 正正誤正正
-    level: 2
+    level: B
     why: elim_all
     tags:
     - odo
@@ -646,7 +646,7 @@ questions:
     - 5
     - 7
     - 1
-    - 2
+    - 3
     - 4
     similar:
     - 5
@@ -655,13 +655,13 @@ questions:
     - 3
     - 4
     truths: 正正正誤正
-    level: 2
-    why: ans_b
+    level: A
+    why: ans_hi
     tags:
     - odo
     - odo
     - new
-    - ans_b
+    - ans_hi
     - odo
 - num: 15
   status: published
@@ -707,7 +707,7 @@ questions:
     - 1
     - 5
     truths: 正正正誤正
-    level: 2
+    level: B
     why: elim_all
     tags:
     - odo
@@ -759,7 +759,7 @@ questions:
     - 5
     - 3
     truths: 正正正正誤
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -811,7 +811,7 @@ questions:
     - 2
     - 1
     truths: 正誤正正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -863,7 +863,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -905,7 +905,7 @@ questions:
     counts:
     - 6
     - 1
-    - 3
+    - 4
     - 4
     - 3
     similar:
@@ -915,7 +915,7 @@ questions:
     - 4
     - 3
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -960,5 +960,6 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: 2
-    why: q_b
+    level: B
+    why: pat_B
+    pat: sl-kinzoku-114

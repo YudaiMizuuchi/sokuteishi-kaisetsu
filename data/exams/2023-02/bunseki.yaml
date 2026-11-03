@@ -44,14 +44,15 @@ questions:
     - 5
     - 4
     truths: 正正正正誤
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_pat
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -87,8 +88,9 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: A
+    why: pat_A
+    pat: an-statistics-01
 - num: 3
   status: published
   chapters:
@@ -119,8 +121,9 @@ questions:
     denom: 23
     count: 2
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: A
+    why: pat_A
+    pat: an-organic-03
 - num: 4
   status: published
   chapters:
@@ -157,8 +160,9 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: an-gas-01
 - num: 5
   status: published
   chapters:
@@ -193,8 +197,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: an-logarithm-01
 - num: 6
   status: published
   chapters:
@@ -235,8 +240,9 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: an-solution-02
 - num: 7
   status: published
   chapters:
@@ -278,14 +284,15 @@ questions:
     - 2
     - 3
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
-    - ans_new
+    - ans_pat
     - ''
     - odo
     - ''
     - odo
+    pat: an-lab-equipment-01
 - num: 8
   status: published
   chapters:
@@ -328,14 +335,15 @@ questions:
     - 4
     - 2
     truths: 正誤正正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - ''
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - ''
+    pat: an-gas-05
 - num: 9
   status: published
   chapters:
@@ -369,8 +377,9 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
-    level: 2
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-reagents-02
 - num: 10
   status: published
   chapters:
@@ -412,14 +421,15 @@ questions:
     - 3
     - 2
     truths: 正正正正誤
-    level: 2
-    why: elim_all
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pat
+    pat: an-quantification-02
 - num: 11
   status: published
   chapters:
@@ -456,8 +466,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: an-equilibrium-03
 - num: 12
   status: published
   chapters:
@@ -500,14 +511,15 @@ questions:
     - 3
     - 4
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: an-reaction-01
 - num: 13
   status: published
   chapters:
@@ -549,14 +561,15 @@ questions:
     - 5
     - 3
     truths: 正誤正正正
-    level: 2
-    why: elim_all
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: an-spectrophotometry-02
 - num: 14
   status: published
   chapters:
@@ -591,8 +604,9 @@ questions:
     denom: 23
     count: 16
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: an-logarithm-02
 - num: 15
   status: published
   chapters:
@@ -634,14 +648,15 @@ questions:
     - 2
     - 2
     truths: 正正正正誤
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - odo
     - ''
     - ''
     - ''
-    - ans_new
+    - ans_pat
+    pat: an-aas-01
 - num: 16
   status: published
   chapters:
@@ -683,14 +698,15 @@ questions:
     - 13
     - 10
     truths: 誤正正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - odo
     - odo
+    pat: an-fluorescence-02
 - num: 17
   status: published
   chapters:
@@ -732,14 +748,15 @@ questions:
     - 4
     - 2
     truths: 正正正正誤
-    level: 2
-    why: elim_all
+    level: B
+    why: pat_B
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pat
+    pat: an-gc-04
 - num: 18
   status: published
   chapters:
@@ -771,8 +788,9 @@ questions:
     denom: 23
     count: 5
     form: 選択肢が物質名などの問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: an-gc-02
 - num: 19
   status: published
   chapters:
@@ -814,14 +832,15 @@ questions:
     - 5
     - 5
     truths: 正正誤正正
-    level: 1
-    why: ans_hi
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
-    - ans_hi
+    - ans_pat
     - odo
     - odo
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -856,5 +875,6 @@ questions:
     denom: 23
     count: 4
     form: 穴埋め・組合せの問題
-    level: 2
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-logarithm-03

@@ -32,8 +32,9 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: sl-kinzoku-093
 - num: 2
   status: published
   chapters:
@@ -62,7 +63,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 3
   status: published
@@ -97,7 +98,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 4
   status: published
@@ -133,7 +134,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 5
   status: published
@@ -178,7 +179,7 @@ questions:
     - 1
     - 2
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -228,7 +229,7 @@ questions:
     - 1
     - 2
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - new
@@ -279,7 +280,7 @@ questions:
     - 2
     - 2
     truths: 正正誤正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo
@@ -329,7 +330,7 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -379,7 +380,7 @@ questions:
     - 1
     - 2
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -429,7 +430,7 @@ questions:
     - 2
     - 3
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -479,7 +480,7 @@ questions:
     - 2
     - 1
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -519,7 +520,7 @@ questions:
     counts:
     - 2
     - 1
-    - 3
+    - 4
     - 3
     - 3
     similar:
@@ -529,7 +530,7 @@ questions:
     - 3
     - 4
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -579,7 +580,7 @@ questions:
     - 2
     - 7
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -629,7 +630,7 @@ questions:
     - 2
     - 4
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -679,7 +680,7 @@ questions:
     - 2
     - 2
     truths: 誤正正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - ans_b
@@ -729,7 +730,7 @@ questions:
     - 5
     - 3
     truths: 正正正正誤
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -779,7 +780,7 @@ questions:
     - 2
     - 3
     truths: 正正誤正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo
@@ -829,7 +830,7 @@ questions:
     - 2
     - 2
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -869,7 +870,7 @@ questions:
     counts:
     - 6
     - 2
-    - 3
+    - 4
     - 4
     - 3
     similar:
@@ -879,7 +880,7 @@ questions:
     - 4
     - 3
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -918,5 +919,6 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: sl-kinzoku-088

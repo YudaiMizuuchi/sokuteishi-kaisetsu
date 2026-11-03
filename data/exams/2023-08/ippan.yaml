@@ -43,14 +43,15 @@ questions:
     - 7
     - 3
     truths: 正正誤正正
-    level: 2
-    why: elim_two
+    level: A
+    why: pat_A
     tags:
     - new
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - odo
+    pat: gn-risk-assessment-02
 - num: 2
   status: published
   chapters:
@@ -91,7 +92,7 @@ questions:
     - 1
     - 1
     truths: 正正誤正正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -142,14 +143,15 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - ''
     - new
     - odo
-    - ans_new
+    - ans_pat
     - new
+    pat: gn-toxicity-02
 - num: 4
   status: published
   chapters:
@@ -190,14 +192,15 @@ questions:
     - 2
     - 5
     truths: 正正正誤正
-    level: 2
-    why: elim_two
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - ''
-    - ans_new
+    - ans_pat
     - odo
+    pat: gn-absorption-01
 - num: 5
   status: published
   chapters:
@@ -238,7 +241,7 @@ questions:
     - 4
     - 6
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -286,7 +289,7 @@ questions:
     - 3
     - 1
     truths: 正正正正誤
-    level: 2
+    level: B
     why: elim_two
     tags:
     - new
@@ -326,8 +329,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: gn-occupational-cancer-01
 - num: 8
   status: published
   chapters:
@@ -368,7 +372,7 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -416,14 +420,15 @@ questions:
     - 1
     - 2
     truths: 正誤正正正
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - new
     - ''
+    pat: gn-metals-01
 - num: 10
   status: published
   chapters:
@@ -464,14 +469,15 @@ questions:
     - 1
     - 1
     truths: 正誤正正正
-    level: 3
-    why: none
+    level: B
+    why: pat_B
     tags:
     - new
-    - ans_new
+    - ans_pat
     - new
     - new
     - new
+    pat: gn-organic-solvents-02
 - num: 11
   status: published
   chapters:
@@ -512,14 +518,15 @@ questions:
     - 1
     - 4
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: B
+    why: pat_B
     tags:
-    - ans_new
+    - ans_pat
     - new
     - ''
     - new
     - odo
+    pat: gn-heat-cold-03
 - num: 12
   status: published
   chapters:
@@ -560,14 +567,15 @@ questions:
     - 8
     - 1
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
-    - ans_new
+    - ans_pat
     - new
     - ''
     - odo
     - new
+    pat: gn-vibration-02
 - num: 13
   status: published
   chapters:
@@ -608,14 +616,15 @@ questions:
     - 1
     - 4
     truths: 正誤正正正
-    level: 2
-    why: elim_two
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - new
     - odo
+    pat: gn-noise-health-01
 - num: 14
   status: published
   chapters:
@@ -656,7 +665,7 @@ questions:
     - 1
     - 2
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -704,14 +713,15 @@ questions:
     - 3
     - 1
     truths: 正正正正誤
-    level: 2
-    why: elim_all
+    level: B
+    why: pat_B
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pat
+    pat: gn-em-waves-02
 - num: 16
   status: published
   chapters:
@@ -752,7 +762,7 @@ questions:
     - 1
     - 1
     truths: 正誤正正正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -800,14 +810,15 @@ questions:
     - 5
     - 1
     truths: 正正誤正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - new
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - new
+    pat: gn-ventilation-01
 - num: 18
   status: published
   chapters:
@@ -848,14 +859,15 @@ questions:
     - 1
     - 1
     truths: 正正正正誤
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - new
     - new
     - ''
     - new
-    - ans_new
+    - ans_pat
+    pat: gn-ppe-02
 - num: 19
   status: published
   chapters:
@@ -896,14 +908,15 @@ questions:
     - 5
     - 1
     truths: 誤正正正正
-    level: 2
-    why: elim_two
+    level: S
+    why: pat_S
     tags:
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - odo
     - new
+    pat: gn-ppe-01
 - num: 20
   status: published
   chapters:
@@ -937,7 +950,7 @@ questions:
     counts:
     - 4
     - 1
-    - 1
+    - 2
     - 1
     - 1
     similar:
@@ -947,11 +960,12 @@ questions:
     - 1
     - 1
     truths: 正正誤正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - odo
     - new
-    - ans_new
+    - ans_pat
     - new
     - new
+    pat: gn-exposure-limits-03

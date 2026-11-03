@@ -28,7 +28,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 2
   status: published
@@ -69,7 +69,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 3
   status: published
@@ -113,7 +113,7 @@ questions:
     - 3
     - 1
     truths: 正誤正正正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo
@@ -152,7 +152,7 @@ questions:
     denom: 12
     counts:
     - 2
-    - 1
+    - 2
     - 1
     - 1
     - 1
@@ -163,7 +163,7 @@ questions:
     - 1
     - 1
     truths: 正誤正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -213,7 +213,7 @@ questions:
     - 3
     - 1
     truths: 誤正正正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - ans_b
@@ -263,7 +263,7 @@ questions:
     - 4
     - 1
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -313,7 +313,7 @@ questions:
     - 5
     - 7
     truths: 誤正正正正
-    level: 1
+    level: S
     why: ans_hi
     tags:
     - ans_hi
@@ -363,7 +363,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -413,7 +413,7 @@ questions:
     - 1
     - 3
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -463,7 +463,7 @@ questions:
     - 3
     - 1
     truths: 正正誤正正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -503,7 +503,7 @@ questions:
     counts:
     - 1
     - 1
-    - 1
+    - 2
     - 1
     - 1
     similar:
@@ -513,7 +513,7 @@ questions:
     - 2
     - 1
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -563,7 +563,7 @@ questions:
     - 1
     - 1
     truths: 正正誤正正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -613,7 +613,7 @@ questions:
     - 4
     - 4
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -654,7 +654,7 @@ questions:
     - 5
     - 7
     - 4
-    - 2
+    - 3
     - 3
     similar:
     - 5
@@ -663,13 +663,13 @@ questions:
     - 3
     - 3
     truths: 正正正誤正
-    level: 2
-    why: ans_b
+    level: A
+    why: ans_hi
     tags:
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - odo
 - num: 15
   status: published
@@ -704,7 +704,7 @@ questions:
     - 3
     - 6
     - 6
-    - 1
+    - 2
     - 5
     similar:
     - 3
@@ -713,7 +713,7 @@ questions:
     - 2
     - 5
     truths: 正正正誤正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -763,7 +763,7 @@ questions:
     - 4
     - 2
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -814,7 +814,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -864,7 +864,7 @@ questions:
     - 1
     - 2
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -904,7 +904,7 @@ questions:
     counts:
     - 6
     - 2
-    - 3
+    - 4
     - 4
     - 1
     similar:
@@ -914,7 +914,7 @@ questions:
     - 4
     - 1
     truths: 正正誤正正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -957,5 +957,6 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: 2
-    why: q_b
+    level: B
+    why: pat_B
+    pat: sl-kinzoku-107

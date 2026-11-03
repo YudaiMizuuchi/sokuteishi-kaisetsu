@@ -41,14 +41,15 @@ questions:
     - 5
     - 7
     truths: 正正正正誤
-    level: 1
-    why: ans_hi
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_hi
+    - ans_pat
+    pat: lw-law-system-01
 - num: 2
   status: published
   chapters:
@@ -87,14 +88,15 @@ questions:
     - 7
     - 7
     truths: 正誤正正正
-    level: 2
-    why: elim_two
+    level: B
+    why: pat_B
     tags:
     - new
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: lw-law-health-exam-03
 - num: 3
   status: published
   chapters:
@@ -136,7 +138,7 @@ questions:
     - 6
     - 1
     truths: 正正正正誤
-    level: 2
+    level: B
     why: elim_two
     tags:
     - new
@@ -185,14 +187,15 @@ questions:
     - 1
     - 2
     truths: 誤誤誤誤正
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - ''
     - odo
     - ''
     - new
-    - ans_new
+    - ans_pat
+    pat: lw-law-education-01
 - num: 5
   status: published
   chapters:
@@ -223,8 +226,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: lw-law-measurement-scope-01
 - num: 6
   status: published
   chapters:
@@ -263,14 +267,15 @@ questions:
     - 10
     - 7
     truths: 正誤正正正
-    level: 2
-    why: elim_two
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - new
     - odo
     - odo
+    pat: lw-law-measurement-scope-03
 - num: 7
   status: published
   chapters:
@@ -298,8 +303,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: lw-law-certification-01
 - num: 8
   status: published
   chapters:
@@ -331,8 +337,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: lw-law-tokka-02
 - num: 9
   status: published
   chapters:
@@ -374,7 +381,7 @@ questions:
     - 6
     - 4
     truths: 正正正誤正
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -412,7 +419,7 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 5
     - 6
     - 8
     - 7
@@ -424,10 +431,10 @@ questions:
     - 7
     - 2
     truths: 誤正正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: ans_hi
     tags:
-    - ans_b
+    - ans_hi
     - odo
     - odo
     - odo
@@ -473,7 +480,7 @@ questions:
     - 5
     - 4
     truths: 正正正正誤
-    level: 2
+    level: B
     why: ans_b
     tags:
     - odo
@@ -519,14 +526,15 @@ questions:
     - 11
     - 1
     truths: 正正正正誤
-    level: 2
-    why: elim_two
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pat
+    pat: lw-law-general-hygiene-01
 - num: 13
   status: published
   chapters:
@@ -566,14 +574,15 @@ questions:
     - 1
     - 8
     truths: 正正正誤正
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - ''
     - odo
     - new
-    - ans_new
+    - ans_pat
     - odo
+    pat: lw-law-tokka-01
 - num: 14
   status: published
   chapters:
@@ -605,8 +614,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: A
+    why: pat_A
+    pat: lw-law-tokka-03
 - num: 15
   status: published
   chapters:
@@ -646,7 +656,7 @@ questions:
     - 3
     - 5
     truths: 正正正正誤
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - odo
@@ -695,14 +705,15 @@ questions:
     - 11
     - 6
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: lw-law-radiation-03
 - num: 17
   status: published
   chapters:
@@ -734,7 +745,7 @@ questions:
     denom: 23
     counts:
     - 4
-    - 4
+    - 6
     - 7
     - 6
     - 1
@@ -745,11 +756,11 @@ questions:
     - 6
     - 1
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: ans_hi
     tags:
     - odo
-    - ans_b
+    - ans_hi
     - odo
     - odo
     - new
@@ -784,7 +795,7 @@ questions:
     denom: 23
     counts:
     - 8
-    - 2
+    - 3
     - 7
     - 7
     - 4
@@ -795,14 +806,15 @@ questions:
     - 8
     - 4
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: lw-law-dust-03
 - num: 19
   status: published
   chapters:
@@ -845,14 +857,15 @@ questions:
     - 2
     - 1
     truths: 正誤正正正
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - ''
     - new
+    pat: lw-law-office-01
 - num: 20
   status: published
   chapters:
@@ -896,5 +909,6 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: lw-law-oxygen-01

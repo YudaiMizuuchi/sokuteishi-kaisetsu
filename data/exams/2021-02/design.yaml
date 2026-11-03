@@ -43,14 +43,15 @@ questions:
     - 4
     - 3
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: ds-states-02
 - num: 2
   status: published
   chapters:
@@ -91,7 +92,7 @@ questions:
     - 1
     - 7
     truths: 正正正誤正
-    level: 2
+    level: B
     why: elim_all
     tags:
     - odo
@@ -139,14 +140,15 @@ questions:
     - 2
     - 12
     truths: 正正誤正正
-    level: 2
-    why: elim_two
+    level: B
+    why: pat_B
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_pat
     - ''
     - odo
+    pat: ds-a-b-measurement-04
 - num: 4
   status: published
   chapters:
@@ -187,14 +189,15 @@ questions:
     - 3
     - 3
     truths: 正誤正正正
-    level: 2
-    why: elim_all
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: ds-a-b-measurement-07
 - num: 5
   status: published
   chapters:
@@ -236,14 +239,15 @@ questions:
     - 4
     - 2
     truths: 正正誤正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
     - new
     - new
-    - ans_new
+    - ans_pat
     - odo
     - ''
+    pat: ds-noise-01
 - num: 6
   status: published
   chapters:
@@ -273,8 +277,9 @@ questions:
     denom: 23
     count: 2
     form: 選択肢が物質名などの問題
-    level: 3
-    why: q_new
+    level: S
+    why: pat_S
+    pat: ds-properties-01
 - num: 7
   status: published
   chapters:
@@ -315,14 +320,15 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
-    why: none
+    level: B
+    why: pat_B
     tags:
     - odo
     - ''
     - odo
-    - ans_new
+    - ans_pat
     - new
+    pat: ds-properties-03
 - num: 8
   status: published
   chapters:
@@ -355,7 +361,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 9
   status: published
@@ -387,7 +393,7 @@ questions:
     counts:
     - 1
     - 7
-    - 2
+    - 6
     - 8
     - 6
     similar:
@@ -397,14 +403,15 @@ questions:
     - 8
     - 6
     truths: 正正誤正正
-    level: 2
-    why: ans_b
+    level: S
+    why: pat_S
     tags:
     - new
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
+    pat: ds-flowmeter-01
 - num: 10
   status: published
   chapters:
@@ -445,7 +452,7 @@ questions:
     - 3
     - 5
     truths: 正正正正誤
-    level: 1
+    level: A
     why: ans_hi
     tags:
     - new
@@ -493,14 +500,15 @@ questions:
     - 3
     - 1
     truths: 正誤正正正
-    level: 3
-    why: none
+    level: S
+    why: pat_S
     tags:
     - new
-    - ans_new
+    - ans_pat
     - ''
     - odo
     - new
+    pat: ds-filter-01
 - num: 12
   status: published
   chapters:
@@ -541,14 +549,15 @@ questions:
     - 2
     - 9
     truths: 正正正誤正
-    level: 2
-    why: elim_all
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pat
     - odo
+    pat: ds-liquid-direct-02
 - num: 13
   status: published
   chapters:
@@ -589,14 +598,15 @@ questions:
     - 5
     - 11
     truths: 誤正正正正
-    level: 2
-    why: elim_all
+    level: A
+    why: pat_A
     tags:
-    - ans_new
+    - ans_pat
     - odo
     - odo
     - odo
     - odo
+    pat: ds-relative-meter-02
 - num: 14
   status: published
   chapters:
@@ -625,7 +635,7 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 1
+    - 2
     - 1
     - 2
     - 3
@@ -637,14 +647,15 @@ questions:
     - 3
     - 2
     truths: 誤正正正正
-    level: 3
-    why: none
+    level: A
+    why: pat_A
     tags:
-    - ans_new
+    - ans_pat
     - new
     - ''
     - odo
     - ''
+    pat: ds-detector-tube-03
 - num: 15
   status: published
   chapters:
@@ -685,7 +696,7 @@ questions:
     - 6
     - 7
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - new
@@ -725,8 +736,9 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: ds-radiation-01
 - num: 17
   status: published
   chapters:
@@ -763,8 +775,9 @@ questions:
     denom: 23
     count: 12
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: ds-radiation-02
 - num: 18
   status: published
   chapters:
@@ -806,14 +819,15 @@ questions:
     - 7
     - 10
     truths: 正誤正正正
-    level: 2
-    why: ans_b
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_b
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: ds-statistics-01
 - num: 19
   status: published
   chapters:
@@ -857,14 +871,15 @@ questions:
     - 2
     - 4
     truths: 正正誤正正
-    level: 2
-    why: elim_two
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_pat
     - ''
     - odo
+    pat: ds-size-selector-01
 - num: 20
   status: published
   chapters:
@@ -905,11 +920,12 @@ questions:
     - 10
     - 2
     truths: 正正正正誤
-    level: 2
-    why: elim_two
+    level: B
+    why: pat_B
     tags:
     - odo
     - odo
     - ''
     - odo
-    - ans_new
+    - ans_pat
+    pat: ds-evaluation-03

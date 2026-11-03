@@ -45,7 +45,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - odo
@@ -94,8 +94,9 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
-    level: 1
-    why: q_hi
+    level: S
+    why: pat_S
+    pat: sl-tokka-038
 - num: 3
   status: published
   chapters:
@@ -129,8 +130,9 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: 2
-    why: q_b
+    level: B
+    why: pat_B
+    pat: sl-tokka-059
 - num: 4
   status: published
   chapters:
@@ -162,7 +164,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 5
   status: published
@@ -205,8 +207,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: 2
-    why: q_b
+    level: B
+    why: pat_B
+    pat: sl-tokka-060
 - num: 6
   status: published
   chapters:
@@ -238,8 +241,9 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
-    level: 1
-    why: q_hi
+    level: A
+    why: pat_A
+    pat: sl-tokka-040
 - num: 7
   status: published
   chapters:
@@ -282,7 +286,7 @@ questions:
     - 1
     - 1
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -324,7 +328,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 9
   status: published
@@ -356,7 +360,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: 2
+    level: B
     why: q_b
 - num: 10
   status: published
@@ -400,7 +404,7 @@ questions:
     - 2
     - 2
     truths: 正正誤正正
-    level: 2
+    level: B
     why: ans_b
     tags:
     - new
@@ -450,7 +454,7 @@ questions:
     - 4
     - 1
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -500,7 +504,7 @@ questions:
     - 2
     - 1
     truths: 正正正正誤
-    level: 2
+    level: B
     why: elim_two
     tags:
     - odo
@@ -547,7 +551,7 @@ questions:
     - 1
     - 1
     truths: 正正正誤正
-    level: 3
+    level: C
     why: none
     tags:
     - new
@@ -592,7 +596,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 15
   status: published
@@ -633,7 +637,7 @@ questions:
     - 2
     - 1
     truths: 誤正正正正
-    level: 3
+    level: C
     why: none
     tags:
     - ans_new
@@ -674,8 +678,9 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
-    why: q_new
+    level: B
+    why: pat_B
+    pat: sl-tokka-062
 - num: 17
   status: published
   chapters:
@@ -711,7 +716,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: 3
+    level: C
     why: q_new
 - num: 18
   status: published
@@ -744,7 +749,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new
 - num: 19
   status: published
@@ -788,7 +793,7 @@ questions:
     - 1
     - 2
     truths: 正正正誤正
-    level: 2
+    level: B
     why: elim_two
     tags:
     - new
@@ -846,5 +851,5 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: 3
+    level: C
     why: q_new

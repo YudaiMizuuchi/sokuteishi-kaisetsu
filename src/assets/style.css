@@ -205,21 +205,28 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82r
   .support-btn .ico-ext { display: none; }
 }
 
+/* 区分・ランクの塗りつぶし色（白文字。ライト・ダーク共通） */
+:root { --fill-s: #A12626; --fill-a: #C4551B; --fill-b: #9A6A00; --fill-c: #5B6B70; }
+.rank { border: 0; color: #fff; padding: 1px 9px; }
+.rank-S { background: var(--fill-s); color: #fff; } .rank-A { background: var(--fill-a); color: #fff; }
+.rank-B { background: var(--fill-b); color: #fff; } .rank-C { background: var(--fill-c); color: #fff; }
+
 /* 出題頻度（その科目の過去の全回のうち、同じ内容が出題された回数） */
-.freq { margin: 14px 0; padding: 10px 12px; border: 1px solid var(--line, #ddd); border-radius: 8px; background: var(--panel, #fafafa); }
-.freq h3 { margin: 0 0 4px; font-size: .95rem; }
+.freq { margin: 14px 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.freq h3 { margin: 10px 0 4px; font-size: .95rem; color: var(--ink); }
 .freq-lead { margin: 0 0 6px; font-size: .8rem; color: var(--muted); }
-.freq-list { margin: 0; padding: 0; list-style: none; font-size: .88rem; }
-.freq-list li { padding: 2px 0; }
+.freq-list { margin: 0; padding: 0; list-style: none; font-size: .88rem; color: var(--ink); }
+.freq-list li { padding: 3px 0; }
 .freq-list li .n { display: inline-block; min-width: 2.4em; color: var(--muted); }
 .freq-list li.hi { font-weight: 600; }
-
 .freq-list .sim { color: var(--muted); font-weight: 400; font-size: .84rem; }
-
-/* 問題の区分（得点必須／何とか得点／失点やむなし）と、理由 */
-.freq .level { margin: 0 0 2px; font-size: 1rem; }
-.freq .lv-S b { color: var(--rank-s); } .freq .lv-B b { color: var(--rank-b); } .freq .lv-C b { color: var(--rank-c); }
-.freq .level-why { margin: 0 0 4px; font-size: .88rem; }
+/* 問題の区分（得点必須S・A／何とか得点B／失点やむなしC）と、理由 */
+.freq .level { margin: 0 0 6px; padding: 7px 12px; border-radius: 6px; color: #fff; font-size: 1rem; }
+.freq .level b { color: #fff; }
+.freq .lv-S { background: var(--fill-s); } .freq .lv-A { background: var(--fill-a); } .freq .lv-B { background: var(--fill-b); } .freq .lv-C { background: var(--fill-c); }
+.freq .level-why { margin: 0 0 4px; font-size: .88rem; color: var(--ink); }
 .freq .freq-note { margin: 0 0 8px; font-size: .78rem; color: var(--muted); }
-.tagt { display: inline-block; margin: 0 4px; padding: 0 6px; font-size: .74rem; border: 1px solid currentColor; border-radius: 4px; }
-.t-ans_hi { color: var(--rank-s); } .t-ans_b { color: var(--rank-b); } .t-ans_new { color: var(--rank-c); } .t-odo { color: var(--rank-a); } .t-new { color: var(--rank-c); }
+/* 選択肢の印（正答・頻出のおとり・初見）：塗りつぶし・白文字 */
+.tagt { display: inline-block; margin: 0 6px 0 4px; padding: 0 8px; font-size: .74rem; font-weight: 700; color: #fff; border-radius: 4px; }
+.t-ans_hi { background: var(--fill-s); } .t-ans_pat { background: var(--fill-s); } .t-ans_b { background: var(--fill-b); } .t-ans_new { background: var(--fill-c); }
+.t-odo { background: var(--fill-a); } .t-new { background: var(--fill-c); }
