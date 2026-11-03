@@ -33,8 +33,8 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -67,8 +67,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-03
 - num: 3
   status: published
@@ -102,22 +102,71 @@ questions:
     - 1
     - 3
     - 2
-    similar:
-    - 1
-    - 3
+    truths: 誤正正正正
+    pcounts:
+    - 4
+    - 4
     - 1
     - 3
     - 2
-    truths: 誤正正正正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0054
+    - pt-bunseki-0084
+    - pt-bunseki-0409
+    - pt-bunseki-0132
+    - pt-bunseki-0217
+    pnames:
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい
+    - 塩化銀の水に対する溶解度は、塩化ナトリウム水溶液に対する溶解度より大きい
+    - グルコースの水に対する溶解度は、エタノールに対する溶解度より大きい
+    - 塩化カリウムの水に対する溶解度は、塩化銀の水に対する溶解度より大きい
+    prcounts:
+    - 5
+    - 5
+    - 10
+    - 5
+    - 5
+    principles:
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0018
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    prnames:
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 化学平衡と平衡定数
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    trend:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2016-02
+      - 2021-08
+      - 2025-02
+    - - 2016-02
+    - []
+    - []
+    - []
+    level: B
+    why: pr_B
     tags:
-    - ans_pat
-    - odo
-    - new
+    - ans_pr
+    - ''
     - odo
     - ''
-    pat: an-organic-03
+    - ''
 - num: 4
   status: published
   chapters:
@@ -150,21 +199,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 2
-    - 2
-    - 1
-    - 2
-    - 1
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0145
+    - pt-bunseki-0145
+    - pt-bunseki-0145
+    - pt-bunseki-0145
+    - pt-bunseki-0176
+    pnames:
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 温度と体積の両方を2倍にした場合、圧力は変化しない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''
     - ans_pat
     - ''
-    - new
+    - ''
     pat: an-gas-01
 - num: 5
   status: published
@@ -195,8 +292,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 6
   status: published
@@ -233,8 +330,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -271,20 +368,68 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 2
-    - 1
-    - 2
-    - 1
-    - 2
     truths: 誤正正正正
+    pcounts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0177
+    - pt-bunseki-0293
+    - pt-bunseki-0202
+    - pt-bunseki-0147
+    - pt-bunseki-0147
+    pnames:
+    - バブラーによる蒸気の捕集効率は、通気速度のみに依存する。（誤りの記述）
+    - 直読式ガス検知管の変色層の長さは、通常、濃度に比例しない。
+    - インピンジャーによる粒子の捕集効率は、粒子の径に依存する。
+    - 鉱物性粉じん用の相対濃度計には、圧電天秤方式と光散乱方式がある。
+    - 鉱物性粉じん用の相対濃度計には、圧電天秤方式と光散乱方式がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: C
-    why: none
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - new
     - ''
-    - new
+    - ''
     - ''
 - num: 8
   status: published
@@ -324,8 +469,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-gas-05
 - num: 9
   status: published
@@ -357,27 +502,74 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 1
     - 2
-    - 1
-    - 1
-    - 1
-    similar:
-    - 1
+    - 3
     - 2
-    - 1
-    - 1
+    - 2
     - 1
     truths: 正正誤正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 1
+    - 5
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-bunseki-0366
+    - pt-bunseki-0034
+    - pt-bunseki-0233
+    - pt-bunseki-0163
+    - pt-bunseki-0329
+    pnames:
+    - 市販の濃塩酸の濃度は、ほぼ12mol·L⁻¹である。
+    - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混ぜた溶液である。
+    - 金属塩化物は、全て水によく溶ける。（誤りの記述）
+    - 酢酸水溶液と酢酸ナトリウム水溶液を混合することにより、弱酸性の緩衝液を調製することができる
+    - 炭酸ナトリウムは、酸の濃度決定のための一次標準物質として用いることができる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
     - ''
-    - ans_pat
+    - ans_seen
+    - ''
     - new
-    - new
-    pat: an-reagents-04
 - num: 10
   status: published
   chapters:
@@ -413,15 +605,63 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 2
     truths: 正正正誤正
-    level: S
-    why: pat_S
+    pcounts:
+    - 1
+    - 3
+    - 2
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0294
+    - pt-bunseki-0125
+    - pt-bunseki-0188
+    - pt-bunseki-0330
+    - pt-bunseki-0175
+    pnames:
+    - 原子吸光分析法と異なり、測定元素に対応したランプを必要としない。
+    - プラズマの生成には、アルゴンガスを用いる。
+    - 試料溶液の粘性の違いは、測定値に影響を与える。
+    - ネブライザーによって供給された試料の全量が、プラズマ中に導入される（誤りの記述）
+    - 原子の発光又はイオンの発光を測定する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - new
     - ''
@@ -466,9 +706,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-mole-03
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -497,8 +736,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-equilibrium-03
 - num: 13
   status: published
@@ -535,22 +774,70 @@ questions:
     - 8
     - 4
     - 4
-    similar:
-    - 1
-    - 1
-    - 10
-    - 6
-    - 7
     truths: 正誤正正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 1
+    - 1
+    - 9
+    - 4
+    - 11
+    points:
+    - pt-bunseki-0444
+    - pt-bunseki-0473
+    - pt-bunseki-0008
+    - pt-bunseki-0077
+    - pt-bunseki-0003
+    pnames:
+    - 透過パーセントは、(I/I₀)×100である。
+    - 吸光度は、log(I/I₀)である。（誤りの記述）
+    - 測定対象物質ごとに異なる。
+    - 吸光度は、試料セルの光路長に比例する。
+    - 吸光度は、通常、極大吸収波長で測定する。
+    prcounts:
+    - 0
+    - 11
+    - 0
+    - 12
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0002
+    - ''
+    - pr-bunseki-0001
+    - ''
+    prnames:
+    - ''
+    - 吸光度と透過率の関係
+    - ''
+    - ランベルト・ベールの法則
+    - ''
+    trend:
+    - 0
+    - 0
+    - 3
+    - 0
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-08
+      - 2020-02
+    - []
+    level: A
+    why: pr_A
     tags:
     - new
-    - ans_pat
+    - ans_pr
     - odo
     - odo
     - odo
-    pat: an-spectrophotometry-06
 - num: 14
   status: published
   chapters:
@@ -587,8 +874,7 @@ questions:
     count: 14
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -621,22 +907,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 1
-    - 3
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 1
+    - 4
+    - 4
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0245
+    - pt-bunseki-0057
+    - pt-bunseki-0068
+    - pt-bunseki-0245
+    - pt-bunseki-0367
+    pnames:
+    - 吸光度は、試料溶液中の測定対象金属の濃度に比例する。
+    - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
+    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 吸光度は、試料溶液中の測定対象金属の濃度に比例する。
+    - 吸光度は、燃料ガスと助燃ガスの組成により変化する。
+    prcounts:
+    - 0
+    - 14
+    - 16
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0009
+    - pr-bunseki-0008
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 原子吸光の光源は線光源
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - new
-    - ''
-    - ans_pat
     - odo
+    - ans_pr
     - new
-    pat: an-aas-01
+    - new
 - num: 16
   status: published
   chapters:
@@ -666,25 +999,73 @@ questions:
     counts:
     - 4
     - 1
-    - 6
+    - 7
     - 4
     - 8
-    similar:
-    - 4
-    - 1
-    - 6
-    - 4
-    - 9
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 7
+    - 2
+    - 9
+    - 13
+    - 16
+    points:
+    - pt-bunseki-0015
+    - pt-bunseki-0219
+    - pt-bunseki-0009
+    - pt-bunseki-0002
+    - pt-bunseki-0001
+    pnames:
+    - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
+    - 蛍光は、入射光よりも長波長側に現れる。
+    - 励起光に対して直角方向の蛍光を測定する。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光の強度は、試料濃度に比例する。
+    prcounts:
+    - 0
+    - 15
+    - 10
+    - 15
+    - 16
+    principles:
+    - ''
+    - pr-bunseki-0004
+    - pr-bunseki-0006
+    - pr-bunseki-0004
+    - pr-bunseki-0005
+    prnames:
+    - ''
+    - 蛍光は励起光より長波長
+    - 蛍光は励起光と直角方向で測る
+    - 蛍光は励起光より長波長
+    - 蛍光強度は低濃度で濃度に比例
+    trend:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 2
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2015-08
+      - 2017-02
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
+    - ''
     - odo
-    - new
     - odo
-    - ans_pat
+    - ans_hi
     - odo
-    pat: an-fluorescence-05
 - num: 17
   status: published
   chapters:
@@ -717,24 +1098,72 @@ questions:
     counts:
     - 1
     - 2
+    - 4
     - 3
     - 2
-    - 1
-    similar:
-    - 2
-    - 2
-    - 5
-    - 3
-    - 1
     truths: 正誤正正正
+    pcounts:
+    - 1
+    - 4
+    - 4
+    - 5
+    - 2
+    points:
+    - pt-bunseki-0474
+    - pt-bunseki-0088
+    - pt-bunseki-0090
+    - pt-bunseki-0028
+    - pt-bunseki-0234
+    pnames:
+    - キャリヤーガスの種類により異なる。
+    - 移動相の流速に依存する。
+    - カラム内径が小さいほど大きくなる。
+    - カラムの温度に依存する。
+    - 固定相の種類により異なる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2019-02
+    - []
+    - []
     level: S
     why: pat_S
     tags:
-    - ''
-    - ans_pat
-    - odo
-    - odo
     - new
+    - ans_pat
+    - ''
+    - ''
+    - ''
     pat: an-gc-02
 - num: 18
   status: published
@@ -768,13 +1197,62 @@ questions:
     - 1
     - 3
     - 3
-    similar:
-    - 3
-    - 3
-    - 2
-    - 3
-    - 3
     truths: 正正誤正正
+    pcounts:
+    - 3
+    - 4
+    - 2
+    - 4
+    - 3
+    points:
+    - pt-bunseki-0106
+    - pt-bunseki-0058
+    - pt-bunseki-0168
+    - pt-bunseki-0060
+    - pt-bunseki-0112
+    pnames:
+    - 炎光光度検出器（FPD）は、有機硫黄化合物の測定に適している。
+    - 電子捕獲検出器（ECD）は、ハロゲン化合物の定量に用いられる。
+    - 水素炎イオン化検出器（FID）は、無機ガスの測定に適している。（誤りの記述）
+    - 光イオン化検出器（PID）は、芳香族炭化水素を検出できる。
+    - 質量分析器(MS)は、分子構造に関する情報も得ることができる。
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 0
+    principles:
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - ''
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2019-08
+    - - 2021-02
+    - - 2019-08
+      - 2021-02
+    - []
+    - []
     level: S
     why: pat_S
     tags:
@@ -782,7 +1260,7 @@ questions:
     - odo
     - ans_pat
     - odo
-    - odo
+    - ''
     pat: an-gc-01
 - num: 19
   status: published
@@ -808,12 +1286,77 @@ questions:
   _stem_head: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
+    counts:
+    - 1
+    - 9
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 9
+    - 9
+    - 1
+    - 1
+    - 7
+    points:
+    - pt-bunseki-0010
+    - pt-bunseki-0011
+    - pt-bunseki-0497
+    - pt-bunseki-0492
+    - pt-bunseki-0021
+    pnames:
+    - この分析法は、石英の同定と定量に使われる。
+    - 回折線は、ブラッグの条件に従って生じる。
+    - KαX線が用いられる。
+    - 測定には溶解した試料を用いる。（誤りの記述）
+    - この分析法では、X線の回折角及び回折線の強度を測定する。
+    prcounts:
+    - 0
+    - 17
+    - 0
+    - 0
+    - 17
+    principles:
+    - ''
+    - pr-bunseki-0011
+    - ''
+    - ''
+    - pr-bunseki-0011
+    prnames:
+    - ''
+    - X線回折のブラッグの条件
+    - ''
+    - ''
+    - X線回折のブラッグの条件
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_pat
+    - odo
     pat: an-xrd-04
 - num: 20
   status: published
@@ -850,6 +1393,6 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-logarithm-03

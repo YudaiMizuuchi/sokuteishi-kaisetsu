@@ -42,7 +42,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 2
   status: published
@@ -76,20 +76,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-yuki-0238
+    - pt-yuki-0136
+    - pt-yuki-0263
+    - pt-yuki-0264
+    - pt-yuki-0265
+    pnames:
+    - 酢酸エチルの蒸気圧は、トルエンの蒸気圧より大きい。
+    - 1-ブタノールの融点は、イソブチルアルコールの融点より高い。
+    - シクロヘキサノンの密度は、イソプロピルアルコールの密度より大きい
+    - アセトンの沸点は、n-ヘキサンの沸点より高い。（誤りの記述）
+    - 二硫化炭素の分子量は、N,N-ジメチルホルムアミドの分子量より大きい
+    prcounts:
+    - 4
+    - 0
+    - 0
+    - 4
+    - 0
+    principles:
+    - pr-yuki-0023
+    - ''
+    - ''
+    - pr-yuki-0023
+    - ''
+    prnames:
+    - 沸点・蒸気圧・融点・分子量の比較
+    - ''
+    - ''
+    - 沸点・蒸気圧・融点・分子量の比較
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2023-08
+    - []
+    - []
+    - []
+    level: A
+    why: pr_A
     tags:
+    - odo
+    - ''
     - new
-    - new
-    - new
-    - ans_new
+    - ans_pr
     - new
 - num: 3
   status: published
@@ -116,9 +164,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-015
+    level: D
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -158,14 +205,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正誤誤誤誤
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-yuki-0150
+    - pt-yuki-0150
+    - pt-yuki-0150
+    - pt-yuki-0150
+    - pt-yuki-0150
+    pnames:
+    - アセトン、エチルエーテル及び1,1,1-トリクロロエタンの3物質とも、容器中の濃度は管理濃度を下回っている
+    - アセトン、エチルエーテル及び1,1,1-トリクロロエタンの3物質とも、容器中の濃度は管理濃度を下回っている
+    - アセトン、エチルエーテル及び1,1,1-トリクロロエタンの3物質とも、容器中の濃度は管理濃度を下回っている
+    - アセトン、エチルエーテル及び1,1,1-トリクロロエタンの3物質とも、容器中の濃度は管理濃度を下回っている
+    - アセトン、エチルエーテル及び1,1,1-トリクロロエタンの3物質とも、容器中の濃度は管理濃度を下回っている
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - ans_new
@@ -208,20 +303,68 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 2
+    truths: 正正正正誤
+    pcounts:
+    - 3
     - 2
     - 3
+    - 2
     - 1
-    - 1
-    truths: 正正正正誤
+    points:
+    - pt-yuki-0082
+    - pt-yuki-0116
+    - pt-yuki-0084
+    - pt-yuki-0146
+    - pt-yuki-0173
+    pnames:
+    - 試料空気の気泡を細かくすると、捕集率が高まる。
+    - 試料空気との接触面積を大きくするため、ガラスビーズを入れることがある
+    - 捕集液に溶解させて捕集する場合は、捕集液を冷却すると一般に捕集率を高めることができる
+    - 捕集液との化学反応により捕集することがある。
+    - 試料空気を液体と接触させ、慣性衝突を利用して捕集する方法である。（誤りの記述）
+    prcounts:
+    - 6
+    - 0
+    - 6
+    - 6
+    - 0
+    principles:
+    - pr-yuki-0019
+    - ''
+    - pr-yuki-0019
+    - pr-yuki-0019
+    - ''
+    prnames:
+    - 液体捕集の捕集率
+    - ''
+    - 液体捕集の捕集率
+    - 液体捕集の捕集率
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+    - []
+    - []
     level: B
     why: elim_two
     tags:
     - odo
+    - ''
     - odo
     - odo
-    - new
     - ans_new
 - num: 6
   status: published
@@ -258,21 +401,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 4
     - 1
     - 1
-    - 1
-    - 1
-    truths: 正正正正誤
-    level: C
-    why: none
+    - 3
+    - 4
+    points:
+    - pt-yuki-0033
+    - pt-yuki-0239
+    - pt-yuki-0201
+    - pt-yuki-0061
+    - pt-yuki-0032
+    pnames:
+    - 活性炭は、窒素又は乾燥空気の気流の中で加熱脱水したものを用いる。
+    - シリカゲルの吸着力は、温度の影響を受ける。
+    - 活性炭管の第1層(前層)に捕集された試料は、保存中に第2層(後層)に移動することがある
+    - シリカゲルは、一般に、活性炭に比べて単位質量当たりの表面積は小さい
+    - ポーラスポリマービーズは反応性が低いので、試料の重合、酸化などが起こりにくい
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0018
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2022-08
+    - - 2020-08
+    level: A
+    why: pr_A
     tags:
     - odo
     - new
     - new
-    - new
-    - ans_new
+    - odo
+    - ans_pr
 - num: 7
   status: published
   chapters:
@@ -305,23 +496,74 @@ questions:
     counts:
     - 1
     - 1
-    - 2
     - 1
-    - 1
-    similar:
-    - 1
-    - 1
-    - 2
     - 1
     - 1
     truths: 誤正誤誤誤
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 3
+    - 6
+    - 3
+    - 1
+    points:
+    - pt-yuki-0174
+    - pt-yuki-0062
+    - pt-yuki-0010
+    - pt-yuki-0049
+    - pt-yuki-0162
+    pnames:
+    - サンプリング時間は、管理濃度の1/10以下の濃度まで測定可能であれば10分未満でもよい（誤りの記述）
+    - 校正した流量計を用いても、捕集装置の圧力損失が著しく大きいと、差圧計の値を用いた流量補正が必要な場合がある
+    - 真空捕集びんに試料を採取する際の空気吸引流量は一定ではない。
+    - 真空捕集瓶による試料空気の採取には、内容積が 1 L 以上のガラス製の捕集瓶が用いられるが、その内面は測定対象物質に対して不活性でなければならない
+    - 種類の異なる活性炭管を使用する場合、電動ポンプの流量較正は、最初に使用する活性炭管を接続した状態で行う（誤りの記述）
+    prcounts:
+    - 0
+    - 8
+    - 10
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0020
+    - pr-yuki-0021
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 流量計の校正と圧力損失
+    - 真空捕集びんと捕集袋の使い方
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 2
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+      - 2020-08
+      - 2021-08
+      - 2026-08
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - new
-    - ans_new
+    - ans_pr
     - odo
-    - new
+    - odo
     - new
 - num: 8
   status: published
@@ -355,20 +597,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 誤誤正誤誤
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-yuki-0213
+    - pt-yuki-0090
+    - pt-yuki-0090
+    - pt-yuki-0137
+    - pt-yuki-0240
+    pnames:
+    - 検知管による測定は、一般に、検知管を10℃以下に冷却してから行う（誤りの記述）
+    - 検知剤は、測定対象物質以外と反応することがある。
+    - 検知剤は、測定対象物質以外と反応することがある。
+    - 検知剤の変色層の長さは、担体粒子径の影響を受ける。
+    - 変色層が斜めの場合、最長部の値を測定値とする。（誤りの記述）
+    prcounts:
+    - 6
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-yuki-0022
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 検知管の原理と使い方
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2023-08
+    - []
+    - - 2023-08
+    - []
     level: C
-    why: none
+    why: seen
     tags:
-    - new
-    - new
-    - ans_new
-    - new
+    - odo
+    - ''
+    - ans_seen
+    - ''
     - new
 - num: 9
   status: published
@@ -402,21 +692,70 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 2
-    - 3
-    - 3
-    - 1
-    - 2
     truths: 正正正正誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 4
+    - 2
+    - 3
+    - 4
+    - 4
+    points:
+    - pt-yuki-0031
+    - pt-yuki-0117
+    - pt-yuki-0070
+    - pt-yuki-0028
+    - pt-yuki-0028
+    pnames:
+    - 管理濃度の1/10に相当する標準試料を調製する。
+    - 標準試料を5回分析し、濃度を検量線から求める。
+    - 標準試料の測定濃度から標準偏差を求める。
+    - 標準偏差の10倍の濃度を定量下限とする。
+    - 標準偏差の10倍の濃度を定量下限とする。
+    prcounts:
+    - 4
+    - 0
+    - 4
+    - 4
+    - 4
+    principles:
+    - pr-yuki-0016
+    - ''
+    - pr-yuki-0016
+    - pr-yuki-0016
+    - pr-yuki-0016
+    prnames:
+    - 定量下限と標準偏差
+    - ''
+    - 定量下限と標準偏差
+    - 定量下限と標準偏差
+    - 定量下限と標準偏差
+    trend:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+      - 2025-08
+    - - 2018-08
+    level: A
+    why: pr_A
     tags:
     - odo
+    - ''
     - odo
     - odo
-    - new
-    - ans_b
+    - ans_pr
 - num: 10
   status: published
   chapters:
@@ -452,18 +791,69 @@ questions:
     - 2
     - 5
     - 5
-    similar:
-    - 3
-    - 3
-    - 3
-    - 5
-    - 5
     truths: 正誤正正正
-    level: A
-    why: ans_hi
+    pcounts:
+    - 4
+    - 5
+    - 11
+    - 8
+    - 9
+    points:
+    - pt-yuki-0038
+    - pt-yuki-0023
+    - pt-yuki-0001
+    - pt-yuki-0003
+    - pt-yuki-0002
+    pnames:
+    - 検出器の感度は、キャリアガス流量の影響を受ける。
+    - 保持時間は、キャリアガスの線速度にほぼ反比例する。
+    - カラムの理論段数は、キャリアガスの種類が関係する。
+    - キャリアガスには、ヘリウムを用いることができる。
+    - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる
+    prcounts:
+    - 0
+    - 12
+    - 12
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0008
+    - pr-yuki-0008
+    - ''
+    - ''
+    prnames:
+    - ''
+    - キャリアガスの流速とカラム効率
+    - キャリアガスの流速とカラム効率
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2015-08
+      - 2019-08
+    - - 2015-08
+      - 2019-08
+      - 2021-08
+    - []
+    - - 2025-08
+    level: S
+    why: pr_S
     tags:
     - odo
-    - ans_hi
+    - ans_pr
     - odo
     - odo
     - odo
@@ -496,21 +886,69 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 3
-    - 1
-    - 1
     truths: 誤正正正正
-    level: C
-    why: none
+    pcounts:
+    - 5
+    - 2
+    - 6
+    - 1
+    - 2
+    points:
+    - pt-yuki-0048
+    - pt-yuki-0118
+    - pt-yuki-0007
+    - pt-yuki-0166
+    - pt-yuki-0129
+    pnames:
+    - 電子捕獲検出器（ECD）は、放射性同位元素から放出されるβ線を利用する方法で、電子親和力の強い物質の測定に適している
+    - 質量分析器により、同じ保持時間の有機溶剤でも、定量分析できることがある
+    - 炎光光度検出器は、リンや硫黄を含む化合物の分析に適している。
+    - 熱伝導度検出器は、キャリアガスと対象物質の加熱フィラメントに対する熱伝導度の差を利用している
+    - 水素炎イオン化検出器は、ほとんどの有機化合物を検出できる。
+    prcounts:
+    - 9
+    - 8
+    - 9
+    - 9
+    - 9
+    principles:
+    - pr-yuki-0011
+    - pr-yuki-0014
+    - pr-yuki-0011
+    - pr-yuki-0011
+    - pr-yuki-0011
+    prnames:
+    - 検出器の原理
+    - GC-MSのイオン化と質量分離
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    trend:
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_new
-    - new
+    - ans_pr
     - odo
-    - new
-    - new
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -547,18 +985,66 @@ questions:
     - 1
     - 5
     - 5
-    similar:
-    - 4
-    - 1
-    - 1
-    - 5
-    - 5
     truths: 正正誤正正
+    pcounts:
+    - 4
+    - 3
+    - 1
+    - 5
+    - 6
+    points:
+    - pt-yuki-0035
+    - pt-yuki-0063
+    - pt-yuki-0190
+    - pt-yuki-0021
+    - pt-yuki-0011
+    pnames:
+    - 保持時間が同一の場合、理論段数が大きいほどピーク幅は狭くなる。
+    - 充填カラムでは渦流拡散が大きく、キャリアガスの種類による分離度の差は少ない
+    - キャピラリカラム内に流すキャリアガス流量は、検出器にとって適切な流量となるように設定する（誤りの記述）
+    - 移動相と固定相との分配平衡は、速やかに成立する。
+    - カラム長さが2倍になると、保持時間及び理論段数はともに約2倍になる
+    prcounts:
+    - 8
+    - 9
+    - 0
+    - 5
+    - 8
+    principles:
+    - pr-yuki-0007
+    - pr-yuki-0013
+    - ''
+    - pr-yuki-0010
+    - pr-yuki-0007
+    prnames:
+    - 理論段数と理論段相当高さ
+    - カラムの種類と性能（キャピラリーと充填）
+    - ''
+    - 分配平衡と分離
+    - 理論段数と理論段相当高さ
+    trend:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2019-08
+    - []
+    - []
+    - []
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
-    - new
+    - odo
     - ans_new
     - odo
     - odo
@@ -597,14 +1083,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-yuki-0191
+    - pt-yuki-0214
+    - pt-yuki-0215
+    - pt-yuki-0216
+    - pt-yuki-0217
+    pnames:
+    - 成分の分離能は、一般に、担体表面に活性部位があると低下する。
+    - 固定相液体は、使用温度で蒸気圧の低いものがよい。
+    - 液相/担体の質量比は、通常1～20%程度である。
+    - 液相/担体の質量比が大きくなると、カラム保持容量は、小さくなる。（誤りの記述）
+    - パラフィン系炭化水素は、無極性液相として使用される。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -649,9 +1183,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-005
+    level: B
+    why: q_b
 - num: 15
   status: published
   chapters:
@@ -687,20 +1220,68 @@ questions:
     - 3
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 5
     - 1
     - 3
     - 1
-    - 2
-    truths: 正正正誤正
-    level: B
-    why: elim_two
+    - 3
+    points:
+    - pt-yuki-0024
+    - pt-yuki-0241
+    - pt-yuki-0065
+    - pt-yuki-0175
+    - pt-yuki-0054
+    pnames:
+    - Tを透過率(%)、Aを吸光度とすると、log₁₀T＝2－Aが成り立つ
+    - 透過率(%)としては、15～65%程度が望ましい。
+    - 一般に、測定波長は、吸収スペクトルの吸収極大を示す波長とする。
+    - 紫外部の吸光度測定には、400nm以下の光を吸収するガラスセルが適している（誤りの記述）
+    - 吸収極大波長や吸光度は、pHや呈色後の時間などにより変わることがある
+    prcounts:
+    - 12
+    - 0
+    - 7
+    - 10
+    - 7
+    principles:
+    - pr-yuki-0002
+    - ''
+    - pr-yuki-0006
+    - pr-yuki-0004
+    - pr-yuki-0006
+    prnames:
+    - 吸光度と透過率の関係
+    - ''
+    - 発色反応の測定条件
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - 発色反応の測定条件
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2020-08
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
     - new
     - odo
-    - ans_new
+    - ans_pr
     - odo
 - num: 16
   status: published
@@ -735,9 +1316,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-017
+    level: C
+    why: q_seen
 - num: 17
   status: published
   chapters:
@@ -772,9 +1352,8 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-018
+    level: D
+    why: q_new
 - num: 18
   status: published
   chapters:
@@ -812,9 +1391,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-019
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -849,9 +1427,8 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-yuki-001
+    level: A
+    why: q_hi
 - num: 20
   status: published
   chapters:
@@ -879,23 +1456,71 @@ questions:
     kind: choice
     denom: 12
     counts:
-    - 2
     - 1
     - 1
-    - 2
-    - 2
-    similar:
-    - 2
     - 1
-    - 2
     - 2
     - 2
     truths: 誤正正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    points:
+    - pt-yuki-0102
+    - pt-yuki-0242
+    - pt-yuki-0243
+    - pt-yuki-0086
+    - pt-yuki-0086
+    pnames:
+    - 秤量容器としては、小型ビーカーを使用する。（誤りの記述）
+    - 全量ピペットの標線は、20℃を基準に定められている。
+    - 標準原液は、室温に戻してから使用する。
+    - 標準液を容量で調製する場合、モル濃度(mol·L⁻¹)は、温度の影響を受ける
+    - 標準液を容量で調製する場合、モル濃度(mol·L⁻¹)は、温度の影響を受ける
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0017
+    - pr-yuki-0017
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 標準液の調製と保存
+    - 標準液の調製と保存
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-08
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_b
+    - ans_seen
     - new
-    - odo
+    - new
     - odo
     - odo

@@ -40,20 +40,69 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 1
-    - 1
-    - 2
-    - 2
-    - 2
     truths: 正誤正正正
+    pcounts:
+    - 5
+    - 2
+    - 8
+    - 2
+    - 6
+    points:
+    - pt-funjin-0033
+    - pt-funjin-0133
+    - pt-funjin-0005
+    - pt-funjin-0144
+    - pt-funjin-0022
+    pnames:
+    - 遠心力場の加速度は、角速度が同じであれば、回転半径に比例する。
+    - 密度 4 g･cm⁻³、直径 1 µmの球形粒子の空気力学相当径は 2 µmである
+    - 電界中での帯電している粒子の移動速度は、粒径が小さいほど大きい。
+    - ブラウン運動による粒子の平均移動距離は、拡散係数の平方根に比例する
+    - 粒子のブラウン運動による拡散係数は、温度が高いほど大きい。
+    prcounts:
+    - 8
+    - 0
+    - 8
+    - 0
+    - 12
+    principles:
+    - pr-funjin-0003
+    - ''
+    - pr-funjin-0002
+    - ''
+    - pr-funjin-0001
+    prnames:
+    - 遠心力場の粒子の運動
+    - ''
+    - 帯電粒子の電界中の移動
+    - ''
+    - 粒子のブラウン運動と拡散
+    trend:
+    - 1
+    - 1
+    - 2
+    - 0
+    - 3
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2020-08
+      - 2026-08
+    - - 2026-08
+    - []
+    - []
+    - []
     level: B
     why: elim_two
     tags:
-    - new
+    - odo
     - ans_new
     - odo
-    - odo
+    - ''
     - odo
 - num: 2
   status: published
@@ -105,9 +154,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: sl-funjin-145
+    level: C
+    why: q_seen
 - num: 3
   status: published
   chapters:
@@ -145,20 +193,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 4
+    - 2
+    - 4
     - 1
-    - 1
-    - 1
-    truths: 誤正正正正
-    level: C
+    points:
+    - pt-funjin-0208
+    - pt-funjin-0044
+    - pt-funjin-0148
+    - pt-funjin-0044
+    - pt-funjin-0302
+    pnames:
+    - 円形ノズル式分粒装置で分粒される50％透過粒径は、ノズルを通過する空気の速度の1/2乗に比例する（誤りの記述）
+    - 吸入性粉じんは、フィルターに捕集される。
+    - ノズルの下流にある衝突板上に、グリースガイド等を用いてシリコン油を塗布する
+    - 吸入性粉じんは、フィルターに捕集される。
+    - 規定の流量で使用すると、4µmの粒径の粉じんは50％捕集される。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2018-08
+      - 2024-08
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - ans_new
     - odo
-    - new
-    - new
+    - ''
+    - odo
     - new
 - num: 4
   status: published
@@ -192,22 +289,71 @@ questions:
     kind: choice
     denom: 12
     counts:
-    - 2
+    - 1
     - 3
-    - 3
-    - 2
-    - 2
-    similar:
-    - 2
-    - 4
     - 3
     - 2
     - 2
     truths: 誤正正正正
+    pcounts:
+    - 2
+    - 10
+    - 8
+    - 3
+    - 3
+    points:
+    - pt-funjin-0180
+    - pt-funjin-0025
+    - pt-funjin-0023
+    - pt-funjin-0112
+    - pt-funjin-0115
+    pnames:
+    - 粒径が1 µm より大きな粒子は、繊維層フィルターの繊維と繊維の隙間にはさまって捕集される（誤りの記述）
+    - 拡散効果による捕集効率は、粒径が小さいほど高くなる。
+    - メンブランフィルターは、繊維層フィルターに比べ空間率の低い多孔質フィルターである
+    - 平均孔径が 0.8 µmのメンブランフィルターは、粒径が 0.3 µmの粒子を99.5 ％ 以上捕集できる
+    - メンブランフィルターは、帯電しやすいので質量濃度を求めるためのろ過材としては不向きである
+    prcounts:
+    - 0
+    - 11
+    - 12
+    - 0
+    - 12
+    principles:
+    - ''
+    - pr-funjin-0004
+    - pr-funjin-0017
+    - ''
+    - pr-funjin-0017
+    prnames:
+    - ''
+    - ろ過捕集の機構（慣性・さえぎり・拡散・重力）
+    - フィルターの性質（空間率・吸湿・帯電）
+    - ''
+    - フィルターの性質（空間率・吸湿・帯電）
+    trend:
+    - 0
+    - 2
+    - 2
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2017-08
+      - 2018-08
+    - []
+    - []
     level: B
-    why: ans_b
+    why: elim_all
     tags:
-    - ans_b
+    - ans_new
     - odo
     - odo
     - odo
@@ -268,7 +414,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 6
   status: published
@@ -307,21 +453,73 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 3
-    - 5
-    - 2
-    - 1
-    - 1
     truths: 正正正正誤
-    level: B
-    why: elim_two
+    pcounts:
+    - 3
+    - 8
+    - 4
+    - 7
+    - 9
+    points:
+    - pt-funjin-0103
+    - pt-funjin-0007
+    - pt-funjin-0050
+    - pt-funjin-0024
+    - pt-funjin-0004
+    pnames:
+    - 面積式流量計は、使用する前に使用条件に合わせた状態で流量の校正を行う
+    - 面積式流量計は、浮子とテーパー管との間隙の面積と、そこを流れる試料空気の体積流量が比例することを利用した流量計である
+    - 圧力損失の大きなフィルターを用いたサンプリングでは、ろ過捕集器具と吸引ポンプの間に接続された面積式流量計の指示値は、真の流量よりも大きい
+    - 石けん膜流量計は、ローボリウムエアサンプラー用流量計の校正に用いられる
+    - ハイボリウムエアサンプラーに表示される流量の校正に、ルーツメーターを用いる
+    prcounts:
+    - 12
+    - 12
+    - 11
+    - 12
+    - 12
+    principles:
+    - pr-funjin-0009
+    - pr-funjin-0009
+    - pr-funjin-0005
+    - pr-funjin-0009
+    - pr-funjin-0009
+    prnames:
+    - 流量計の原理と校正
+    - 流量計の原理と校正
+    - ろ過材の圧力損失
+    - 流量計の原理と校正
+    - 流量計の原理と校正
+    trend:
+    - 0
+    - 1
+    - 1
+    - 2
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2017-08
+      - 2022-08
+    - - 2020-08
+    - - 2015-08
+    - - 2020-08
+      - 2021-08
+      - 2024-08
+      - 2026-08
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
-    - new
-    - ans_new
+    - odo
+    - ans_hi
 - num: 7
   status: published
   chapters:
@@ -360,21 +558,69 @@ questions:
     - 3
     - 2
     - 1
-    similar:
-    - 4
-    - 1
-    - 6
-    - 2
-    - 1
     truths: 正誤正正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 4
+    - 4
+    - 5
+    - 2
+    - 7
+    points:
+    - pt-funjin-0061
+    - pt-funjin-0075
+    - pt-funjin-0038
+    - pt-funjin-0181
+    - pt-funjin-0076
+    pnames:
+    - 散乱光の強さは、光学系と粒子の系が一定であれば粉じんの濃度に比例する
+    - 入射光の強度が同じでも波長が異なると、散乱光の強度は変わる。
+    - 指示値は、空気吸引流量には影響されない。
+    - 0.1 µmよりも小さい粒子と数 µmの粒子では、個々の粒子の散乱光の強度は、数 µmの粒子の方が大きい
+    - 数µmの粒子における散乱光の強度は、散乱する方向によって異なる。
+    prcounts:
+    - 0
+    - 12
+    - 0
+    - 0
+    - 12
+    principles:
+    - ''
+    - pr-funjin-0007
+    - ''
+    - ''
+    - pr-funjin-0007
+    prnames:
+    - ''
+    - 光散乱の原理（粒径・屈折率・波長・角度）
+    - ''
+    - ''
+    - 光散乱の原理（粒径・屈折率・波長・角度）
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 3
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2026-08
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
-    - ans_new
+    - ans_pr
     - odo
+    - ''
     - odo
-    - new
 - num: 8
   status: published
   chapters:
@@ -406,19 +652,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 1
+    - 4
+    - 4
+    - 1
+    - 1
+    points:
+    - pt-funjin-0213
+    - pt-funjin-0046
+    - pt-funjin-0051
+    - pt-funjin-0199
+    - pt-funjin-0195
+    pnames:
+    - 併行測定点は、その単位作業場所を代表する粉じんの質量濃度変換係数が得られると思われる位置とする
+    - 併行測定で得られた粉じん濃度が 1.50 mg/m³ で圧電天秤方式の粉じん計の5回の平均濃度が 1.20 mg/m³ の場合の質量濃度変換係数は、1.25である
+    - 粒度分布が同じであっても、石英粉じんよりも酸化鉄粉じんの方が質量濃度変換係数は大きくなる
+    - 併行測定に使用する相対濃度計は、A 測定に使用した相対濃度計と同じ型式の機器とすることが望ましいが、厚生労働大臣の登録を受けた機関で校正された機器を用いる場合は必ずしも同じ型式とする必要はない（誤りの記述）
+    - 併行測定を行うことなしに作業環境測定を実施する許可を所轄労働基準監督署長より受けた場合の質量濃度変換係数は、厚生労働省労働基準局長が示す値を用いることができる
+    prcounts:
+    - 0
+    - 0
+    - 10
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-funjin-0008
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 質量濃度変換係数の定義と変動要因
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-08
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
-    - new
-    - new
+    - odo
+    - odo
     - ans_new
     - new
 - num: 9
@@ -458,19 +752,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 6
-    - 1
+    - 5
     - 2
     - 1
     - 1
-    truths: 正正正正誤
-    level: C
+    points:
+    - pt-funjin-0020
+    - pt-funjin-0077
+    - pt-funjin-0177
+    - pt-funjin-0317
+    - pt-funjin-0243
+    pnames:
+    - 粉じん濃度の測定には、読み取り限度 0.01 mg 以下の天秤を使用する
+    - 天秤の水平が保たれていない状態で秤量すると、秤量値は真値より小さくなる
+    - 秤量開始の30分以上前に天秤の電源を入れておく。
+    - 秤量するフィルターは、少なくとも秤量開始の2時間前に天秤室内に静置する
+    - 測定精度が高く感度の変化も少ないので、設置時に校正を行えば、設置場所を変える等の特別な理由がなければ、改めて校正を行う必要はない（誤りの記述）
+    prcounts:
+    - 0
+    - 11
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-funjin-0010
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 天秤の誤差要因
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - odo
-    - new
     - odo
+    - ''
     - new
     - ans_new
 - num: 10
@@ -511,21 +853,70 @@ questions:
     - 5
     - 1
     - 1
-    similar:
-    - 4
-    - 5
-    - 5
-    - 1
-    - 2
     truths: 正正正正誤
+    pcounts:
+    - 5
+    - 6
+    - 5
+    - 3
+    - 2
+    points:
+    - pt-funjin-0039
+    - pt-funjin-0034
+    - pt-funjin-0036
+    - pt-funjin-0084
+    - pt-funjin-0129
+    pnames:
+    - 石英が長時間高温にさらされると、トリジマイトに変化する。
+    - 石英は、常圧下の 573 ℃ において可逆的に転移し、低温型を α 石英、高温型を β 石英と呼ぶ
+    - 作業環境における粉じん中の遊離けい酸の大部分は石英である。
+    - オパール(たんぱく石)は、遊離けい酸含有率の測定の対象となる。
+    - 滑石は、遊離けい酸含有率の測定対象ではない。
+    prcounts:
+    - 6
+    - 6
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-funjin-0014
+    - pr-funjin-0014
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 石英の多形と遊離けい酸
+    - 石英の多形と遊離けい酸
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2018-08
+      - 2021-08
+    - []
     level: B
-    why: ans_b
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - new
-    - ans_b
+    - odo
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -557,20 +948,68 @@ questions:
     - 4
     - 1
     - 3
-    similar:
-    - 2
-    - 4
-    - 4
-    - 1
-    - 3
     truths: 正正正誤正
+    pcounts:
+    - 2
+    - 7
+    - 6
+    - 3
+    - 4
+    points:
+    - pt-funjin-0146
+    - pt-funjin-0060
+    - pt-funjin-0021
+    - pt-funjin-0100
+    - pt-funjin-0059
+    pnames:
+    - 再発じん装置は、試料の再発じん部分、粉じん流動部分、サンプリング部分から構成され、サンプリング部分には分粒装置付きサンプラーを用いる
+    - 目開き 75 µm 程度のふるいを通し、乾燥させたものを再発じん用の試料とする
+    - フィルターは、粉じん採取量が多くなると変形しやすいので、2枚重ねにして用いるとよい
+    - 1回の捕集で十分な質量が得られなかった場合は、小型インピンジャー内の残った試料を再度発じんさせて、サンプリングを行う（誤りの記述）
+    - 帯電性の高い粉じんの場合は、装置の内壁に帯電防止剤をスプレーしてから行うとよい
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 2
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: elim_all
+    why: pt_B
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - ans_new
+    - ans_b
     - odo
 - num: 12
   status: published
@@ -606,20 +1045,70 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 3
-    - 4
-    - 2
-    - 2
-    - 4
     truths: 正正正誤正
+    pcounts:
+    - 3
+    - 5
+    - 3
+    - 2
+    - 7
+    points:
+    - pt-funjin-0096
+    - pt-funjin-0035
+    - pt-funjin-0088
+    - pt-funjin-0168
+    - pt-funjin-0060
+    pnames:
+    - 浮遊粉じんの採取には、多段平行板式、慣性衝突式などの分粒装置を付けたろ過捕集装置が用いられる
+    - 浮遊粉じん採取の際の採取量の目安として、あらかじめ圧力計の指示値と粉じんの採取量との関係を求めておくとよい
+    - 浮遊粉じんを採取するときは、あらかじめフィルターを装着した金属基底標準板又はフィルター固有の回折強度を求めておく必要がある
+    - 堆積粉じんは、単位作業場所内の床面から50～150 cmの高さに堆積しているものを採取する（誤りの記述）
+    - 目開き 75 µm 程度のふるいを通し、乾燥させたものを再発じん用の試料とする
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 2
+    near:
+    - false
+    - true
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2025-08
+    - []
+    - - 2016-08
+      - 2021-08
+      - 2025-08
+    - - 2016-08
     level: B
-    why: ans_b
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_new
     - odo
 - num: 13
   status: published
@@ -658,13 +1147,62 @@ questions:
     - 1
     - 2
     - 3
-    similar:
-    - 4
-    - 6
-    - 1
-    - 2
-    - 3
     truths: 正正誤正正
+    pcounts:
+    - 8
+    - 6
+    - 2
+    - 7
+    - 3
+    points:
+    - pt-funjin-0006
+    - pt-funjin-0019
+    - pt-funjin-0135
+    - pt-funjin-0012
+    - pt-funjin-0089
+    pnames:
+    - 定性分析で遊離けい酸のピークが確認できなかった試料は、更に感度を上げて行い、ピークの存在が認められない場合には、遊離けい酸含有率を0%として取り扱う
+    - X線回折分析装置による定性分析で、トリジマイトの含有が認められた場合は、りん酸法による定量操作を選択してはならない
+    - X 線回折分析法の定量下限を簡易的に求めるときは、測定された1回のX 線計数値が N（cps）であるとき、√N の 10 倍を検量線の勾配で除した値となる
+    - 定性分析により炭酸カルシウムの存在が確認された試料の場合、金属基底標準板として亜鉛板ではなくアルミニウム板を用いる
+    - 分析試料中に石英以外の遊離けい酸が混入していないことが明らかであり、硫化物や金属類も含まれていない試料については、王水を添加しないりん酸法を行ってもよい
+    prcounts:
+    - 0
+    - 10
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-funjin-0015
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - りん酸法の原理
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 1
+    - 3
+    - 2
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2026-08
+    - - 2019-08
+      - 2026-08
+    - []
     level: B
     why: elim_all
     tags:
@@ -710,21 +1248,72 @@ questions:
     - 3
     - 2
     - 2
-    similar:
-    - 2
-    - 2
-    - 3
-    - 2
-    - 2
     truths: 誤正正正正
+    pcounts:
+    - 2
+    - 5
+    - 3
+    - 8
+    - 2
+    points:
+    - pt-funjin-0161
+    - pt-funjin-0026
+    - pt-funjin-0098
+    - pt-funjin-0010
+    - pt-funjin-0139
+    pnames:
+    - X 線回折分析装置による定性分析の結果、トリジマイトの含有が認められる場合、王水添加りん酸法による分析を行う（誤りの記述）
+    - 約200 mgの分析対象試料を精秤し、リン酸15 mL、王水5 mLを加えて加熱する
+    - 最適加熱条件を設定するための標準試料は、液相沈降法により10μm以下に粒度調整したものを用いる
+    - 最適加熱条件は、石英のりん酸残渣が95%以上で、かつ、微斜長石のりん酸残渣が1%以下になるように決める
+    - 王水添加りん酸法では、使用する天秤感度と分析条件との兼ね合いから定量下限値は 1 ％ とする
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 10
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-funjin-0015
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - りん酸法の原理
+    - ''
+    trend:
+    - 1
+    - 2
+    - 0
+    - 2
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2015-08
+      - 2018-08
+    - []
+    - []
+    - - 2018-08
+      - 2022-08
+      - 2025-08
+    - []
     level: B
-    why: ans_b
+    why: elim_two
     tags:
-    - ans_b
+    - ans_new
     - odo
     - odo
     - odo
-    - odo
+    - ''
 - num: 15
   status: published
   chapters:
@@ -762,7 +1351,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: S
+    level: A
     why: q_hi
 - num: 16
   status: published
@@ -801,21 +1390,71 @@ questions:
     - 1
     - 3
     - 1
-    similar:
+    truths: 誤正正正正
+    pcounts:
+    - 2
+    - 3
+    - 2
+    - 4
+    - 7
+    points:
+    - pt-funjin-0154
+    - pt-funjin-0125
+    - pt-funjin-0162
+    - pt-funjin-0069
+    - pt-funjin-0013
+    pnames:
+    - 対陰極が Cu の X 線管球を用いて分析した場合、石英の主回折線（d：3.34 Å）は、2θ：26.66 °に出現する
+    - 特性 X 線の波長は、K、L 系列ごとに異なるが、原子番号が大きくなると短くなる
+    - 受光スリットの幅を広くすると、回折線強度は増大する。
+    - モノクロメーターによってKβ線はほとんど除去されるが、Kβフィルターを用いた場合より回折X線の強度は弱くなる
+    - ゴニオメータの走査速度は、回折線のピーク位置や回折線強度に影響を及ぼす
+    prcounts:
+    - 0
+    - 10
+    - 0
+    - 10
+    - 7
+    principles:
+    - ''
+    - pr-funjin-0012
+    - ''
+    - pr-funjin-0012
+    - pr-funjin-0011
+    prnames:
+    - ''
+    - 特性X線とフィルター
+    - ''
+    - 特性X線とフィルター
+    - X線回折のブラッグの条件と回折線
+    trend:
+    - 1
+    - 1
     - 1
     - 2
-    - 1
-    - 3
-    - 1
-    truths: 誤正正正正
-    level: C
-    why: none
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2017-08
+      - 2020-08
+      - 2026-08
+    - - 2020-08
+    - []
+    - []
+    - []
+    level: B
+    why: elim_two
     tags:
     - ans_new
     - odo
-    - new
+    - ''
     - odo
-    - new
+    - odo
 - num: 17
   status: published
   chapters:
@@ -853,21 +1492,71 @@ questions:
     - 2
     - 3
     - 2
-    similar:
-    - 4
-    - 4
-    - 2
-    - 3
-    - 2
     truths: 誤誤正誤誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 4
+    - 4
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-funjin-0041
+    - pt-funjin-0041
+    - pt-funjin-0189
+    - pt-funjin-0193
+    - pt-funjin-0188
+    pnames:
+    - 発散スリットの幅の設定が広かった。
+    - 発散スリットの幅の設定が広かった。
+    - 分析試料中に玉ずい粒子が多く含まれていた。
+    - ゴニオメータの光軸が正しい位置からわずかにずれていた。（誤りの記述）
+    - ゴニオメータの走査速度の設定が速すぎた。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2020-08
+      - 2024-08
+    - - 2020-08
+      - 2024-08
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - odo
     - odo
-    - ans_b
-    - odo
-    - odo
+    - ans_seen
+    - ''
+    - ''
 - num: 18
   status: published
   chapters:
@@ -899,20 +1588,72 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
-    - 3
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
-    why: none
+    pcounts:
+    - 7
+    - 5
+    - 1
+    - 11
+    - 1
+    points:
+    - pt-funjin-0048
+    - pt-funjin-0031
+    - pt-funjin-0196
+    - pt-funjin-0001
+    - pt-funjin-0229
+    pnames:
+    - 基底標準吸収補正法は、試料による吸収の影響を補正して、遊離けい酸含有率の多少にかかわらず、標準試料で作った検量線をそのまま適用できるようにした方法である
+    - 吸収補正を行うことにより、定量範囲は広くなり、夾雑物の吸収の影響を少なくして精度を向上させることができる
+    - X 線吸収補正係数は、使用 X 線の波長が一定であれば、粉じん採取前後の基底標準物質の X 線回折強度減少率の関数である
+    - 金属基底標準板には、石英の測定回折線より高角度側でそれに近い回折線をもつ材質を選ぶ
+    - フィルターが湾曲していて、金属基底標準板との間に多少の空隙があっても、定量分析結果に影響はない（誤りの記述）
+    prcounts:
+    - 12
+    - 12
+    - 0
+    - 12
+    - 0
+    principles:
+    - pr-funjin-0013
+    - pr-funjin-0013
+    - ''
+    - pr-funjin-0013
+    - ''
+    prnames:
+    - 基底標準吸収補正法
+    - 基底標準吸収補正法
+    - ''
+    - 基底標準吸収補正法
+    - ''
+    trend:
+    - 3
+    - 3
+    - 0
+    - 3
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2016-08
+      - 2021-08
+      - 2024-08
+      - 2026-08
+    - []
+    - - 2020-08
+      - 2025-08
+    - []
+    level: B
+    why: elim_two
     tags:
     - odo
     - odo
     - new
-    - new
+    - odo
     - ans_new
 - num: 19
   status: published
@@ -953,9 +1694,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-funjin-119
+    level: C
+    why: q_seen
 - num: 20
   status: published
   chapters:
@@ -999,5 +1739,5 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b

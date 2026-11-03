@@ -30,8 +30,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 2
   status: published
   chapters:
@@ -63,21 +63,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 2
     - 1
+    - 2
     - 1
-    - 1
-    - 1
-    truths: 正正正正誤
-    level: C
-    why: none
+    - 3
+    points:
+    - pt-yuki-0133
+    - pt-yuki-0251
+    - pt-yuki-0142
+    - pt-yuki-0252
+    - pt-yuki-0083
+    pnames:
+    - 25 ℃において、酢酸イソプロピルの蒸気圧は、イソプロピルアルコールの蒸気圧より大きい
+    - メタノールの沸点は、酢酸メチルの沸点より高い。
+    - キシレンの融点は、トルエンの融点より高い。
+    - 25 ℃ において、o-ジクロロベンゼンの密度は、クロロベンゼンの密度より大きい
+    - シクロヘキサノンの分子量は、シクロヘキサノールの分子量より小さい
+    prcounts:
+    - 4
+    - 4
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-yuki-0023
+    - pr-yuki-0023
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 沸点・蒸気圧・融点・分子量の比較
+    - 沸点・蒸気圧・融点・分子量の比較
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2023-08
+    level: B
+    why: pt_B
     tags:
     - odo
+    - odo
+    - ''
     - new
-    - new
-    - new
-    - ans_new
+    - ans_b
 - num: 3
   status: published
   chapters:
@@ -108,9 +156,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-015
+    level: D
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -151,21 +198,70 @@ questions:
     - 3
     - 3
     - 1
-    similar:
-    - 2
-    - 4
-    - 3
-    - 3
-    - 1
     truths: 正正正正誤
-    level: B
-    why: elim_all
+    pcounts:
+    - 3
+    - 6
+    - 7
+    - 3
+    - 2
+    points:
+    - pt-yuki-0049
+    - pt-yuki-0010
+    - pt-yuki-0004
+    - pt-yuki-0052
+    - pt-yuki-0093
+    pnames:
+    - 真空捕集瓶による試料空気の採取には、内容積が 1 L 以上のガラス製の捕集瓶が用いられるが、その内面は測定対象物質に対して不活性でなければならない
+    - 真空捕集びんに試料を採取する際の空気吸引流量は一定ではない。
+    - 活性炭管に試料を捕集する際に用いる電動ポンプは、活性炭管を接続して流量を調整する
+    - 小型バブラーに試料空気を捕集する際は、吸引する電動ポンプの流量を石けん膜流量計で校正する
+    - ミゼットインピンジャーに粒径 3 ～ 5 mmのグラスビーズを入れておくと、ガス状物質の捕集率が高まるのは、試料空気と液体の接触面積が大きくなるからである
+    prcounts:
+    - 0
+    - 10
+    - 8
+    - 8
+    - 6
+    principles:
+    - ''
+    - pr-yuki-0021
+    - pr-yuki-0020
+    - pr-yuki-0020
+    - pr-yuki-0019
+    prnames:
+    - ''
+    - 真空捕集びんと捕集袋の使い方
+    - 流量計の校正と圧力損失
+    - 流量計の校正と圧力損失
+    - 液体捕集の捕集率
+    trend:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2016-08
+      - 2024-08
+    - []
+    - []
+    - - 2024-08
+    level: S
+    why: pr_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pr
 - num: 5
   status: published
   chapters:
@@ -203,13 +299,61 @@ questions:
     - 2
     - 2
     - 3
-    similar:
+    truths: 正誤正正正
+    pcounts:
+    - 5
+    - 2
+    - 5
+    - 3
+    - 3
+    points:
+    - pt-yuki-0025
+    - pt-yuki-0109
+    - pt-yuki-0080
+    - pt-yuki-0074
+    - pt-yuki-0069
+    pnames:
+    - 真空捕集瓶のコックには、グリースは使用しない。
+    - 新しい捕集袋を使用する場合、内面からの分析妨害物質の発生を考慮する
+    - 捕集袋に試料を採取する際に内容積5L以上のものを用いる。
+    - 採取した試料空気は、できるだけその日のうちに分析する。
+    - 採取した試料空気を保存する場合は、温度変化が少ない場所に保存する
+    prcounts:
+    - 10
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-yuki-0021
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 真空捕集びんと捕集袋の使い方
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
     - 2
     - 1
     - 2
-    - 2
-    - 3
-    truths: 正誤正正正
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2026-08
+    - []
+    - []
+    - []
     level: B
     why: elim_all
     tags:
@@ -249,13 +393,62 @@ questions:
     - 3
     - 1
     - 2
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 3
     - 4
-    - 2
-    - 2
-    truths: 誤正正正正
+    - 4
+    - 3
+    points:
+    - pt-yuki-0179
+    - pt-yuki-0055
+    - pt-yuki-0033
+    - pt-yuki-0032
+    - pt-yuki-0071
+    pnames:
+    - 捕集剤を2層に分けて充塡された捕集管では、後層から検出された対象物質の量が、前層からの検出量の 10 ％ を超えた場合、両充塡層からの検出量の和を用いて濃度計算する（誤りの記述）
+    - シリカゲルは、水分含有率によって、測定対象物質の吸着容量が異なる
+    - 活性炭は、窒素又は乾燥空気の気流の中で加熱脱水したものを用いる。
+    - ポーラスポリマービーズは反応性が低いので、試料の重合、酸化などが起こりにくい
+    - ポーラスポリマービーズは、活性炭に比べて、加熱脱着が容易である。
+    prcounts:
+    - 0
+    - 5
+    - 0
+    - 5
+    - 5
+    principles:
+    - ''
+    - pr-yuki-0018
+    - ''
+    - pr-yuki-0018
+    - pr-yuki-0018
+    prnames:
+    - ''
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    - ''
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-08
+      - 2017-08
+    - []
     level: B
     why: elim_all
     tags:
@@ -291,9 +484,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-008
+    level: B
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -324,8 +516,8 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 9
   status: published
   chapters:
@@ -363,21 +555,69 @@ questions:
     - 1
     - 3
     - 2
-    similar:
-    - 1
-    - 1
-    - 1
-    - 3
-    - 2
     truths: 誤正正正正
-    level: C
-    why: none
+    pcounts:
+    - 2
+    - 2
+    - 1
+    - 6
+    - 2
+    points:
+    - pt-yuki-0119
+    - pt-yuki-0140
+    - pt-yuki-0253
+    - pt-yuki-0007
+    - pt-yuki-0107
+    pnames:
+    - 電子捕獲検出器は、ハロゲンを含む化合物の分析に適している。
+    - 質量分析器は、イオン化されにくい化合物の分析には適していない。
+    - 光イオン化検出器は、紫外線でイオン化する化合物に適している。
+    - 炎光光度検出器は、リンや硫黄を含む化合物の分析に適している。
+    - アルカリ熱イオン化検出器は、窒素やリンを含む化合物の分析に適している
+    prcounts:
+    - 9
+    - 8
+    - 9
+    - 9
+    - 0
+    principles:
+    - pr-yuki-0011
+    - pr-yuki-0014
+    - pr-yuki-0011
+    - pr-yuki-0011
+    - ''
+    prnames:
+    - 検出器の原理
+    - GC-MSのイオン化と質量分離
+    - 検出器の原理
+    - 検出器の原理
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2018-08
+    - - 2018-08
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_new
-    - new
-    - new
+    - ans_pr
     - odo
     - odo
+    - odo
+    - ''
 - num: 10
   status: published
   chapters:
@@ -415,21 +655,70 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 1
-    - 3
-    - 3
-    - 1
-    - 1
     truths: 誤正正正正
-    level: C
-    why: none
+    pcounts:
+    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    points:
+    - pt-yuki-0037
+    - pt-yuki-0081
+    - pt-yuki-0076
+    - pt-yuki-0079
+    - pt-yuki-0072
+    pnames:
+    - 充填カラムの方が、単位長さ当たりの理論段数が小さい。
+    - 充塡カラムの方が、試料負荷量を多くできる。
+    - キャピラリーカラムでは、渦流拡散が小さいので、ピーク幅の広がりは抑制される
+    - キャピラリーカラムの方が、キャリアガス流量が少ない。
+    - キャピラリーカラムの方が、複雑な構造を有する試料導入部がある。
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 9
+    - 0
+    principles:
+    - pr-yuki-0013
+    - pr-yuki-0013
+    - pr-yuki-0013
+    - pr-yuki-0013
+    - ''
+    prnames:
+    - カラムの種類と性能（キャピラリーと充填）
+    - カラムの種類と性能（キャピラリーと充填）
+    - カラムの種類と性能（キャピラリーと充填）
+    - カラムの種類と性能（キャピラリーと充填）
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2015-08
+      - 2022-08
+    - []
+    - []
+    - - 2022-08
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_new
+    - ans_pr
     - odo
     - odo
-    - new
-    - new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -467,18 +756,67 @@ questions:
     - 2
     - 5
     - 2
-    similar:
-    - 2
-    - 1
+    truths: 正誤正正正
+    pcounts:
+    - 3
+    - 3
     - 2
     - 5
-    - 2
-    truths: 正誤正正正
-    level: B
-    why: elim_all
+    - 4
+    points:
+    - pt-yuki-0077
+    - pt-yuki-0063
+    - pt-yuki-0134
+    - pt-yuki-0021
+    - pt-yuki-0046
+    pnames:
+    - 理論段数はカラムの長さ及び内径によって変化する。
+    - 充填カラムでは渦流拡散が大きく、キャリアガスの種類による分離度の差は少ない
+    - カラムの分離能は移動相の線速度の影響を受ける。
+    - 移動相と固定相との分配平衡は、速やかに成立する。
+    - カラムの液相の膜厚が厚くなると、保持時間は長くなる。
+    prcounts:
+    - 8
+    - 9
+    - 12
+    - 5
+    - 5
+    principles:
+    - pr-yuki-0007
+    - pr-yuki-0013
+    - pr-yuki-0008
+    - pr-yuki-0010
+    - pr-yuki-0009
+    prnames:
+    - 理論段数と理論段相当高さ
+    - カラムの種類と性能（キャピラリーと充填）
+    - キャリアガスの流速とカラム効率
+    - 分配平衡と分離
+    - 保持時間と溶出順（沸点・極性・温度）
+    trend:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2026-08
+    level: S
+    why: pr_S
     tags:
     - odo
-    - ans_new
+    - ans_pr
     - odo
     - odo
     - odo
@@ -519,19 +857,67 @@ questions:
     - 2
     - 1
     - 4
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 4
     - 4
     - 2
+    - 2
+    - 6
+    points:
+    - pt-yuki-0045
+    - pt-yuki-0040
+    - pt-yuki-0143
+    - pt-yuki-0100
+    - pt-yuki-0012
+    pnames:
+    - 代表的なイオン化法には、電子イオン化法がある。
+    - イオン化条件によっては、分子イオンが観察されない場合がある。
+    - 代表的な質量分離装置には、四重極型がある。
+    - 安定同位体で置換した測定対象物質は、内部標準物質として使用できる
+    - 定量は代表的なイオンのピーク面積又は高さで行う。
+    prcounts:
+    - 0
+    - 8
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0014
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - GC-MSのイオン化と質量分離
+    - ''
+    - ''
+    - ''
+    trend:
     - 1
-    - 4
-    truths: 正正正誤正
+    - 1
+    - 0
+    - 1
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2025-08
+    - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_new
     - odo
 - num: 13
@@ -561,8 +947,8 @@ questions:
     denom: 12
     count: 3
     form: 選択肢が物質名などの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 14
   status: published
   chapters:
@@ -602,9 +988,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-031
+    level: C
+    why: q_seen
 - num: 15
   status: published
   chapters:
@@ -637,7 +1022,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 16
   status: published
@@ -676,18 +1061,72 @@ questions:
     - 4
     - 4
     - 4
-    similar:
-    - 1
-    - 1
-    - 4
-    - 5
-    - 4
     truths: 正誤正正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 4
+    - 6
+    - 6
+    - 5
+    points:
+    - pt-yuki-0180
+    - pt-yuki-0041
+    - pt-yuki-0009
+    - pt-yuki-0006
+    - pt-yuki-0020
+    pnames:
+    - 透過率（％）をアナログメータから読み取る場合は、15 ～ 65 ％ 程度の範囲で測定することが望ましい
+    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    - 通常、青色溶液の可視部の主な吸収波長域は、赤色溶液のそれより長波長側にある
+    - プラスチック製セルは、可視領域の測定に用いられる。
+    - 光路長が同一の場合、透過率（％）の値が大きいほど、対象物質の試料液中の濃度は低い
+    prcounts:
+    - 0
+    - 12
+    - 6
+    - 10
+    - 12
+    principles:
+    - ''
+    - pr-yuki-0002
+    - pr-yuki-0005
+    - pr-yuki-0004
+    - pr-yuki-0002
+    prnames:
+    - ''
+    - 吸光度と透過率の関係
+    - 溶液の色と吸収波長（補色の関係）
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - 吸光度と透過率の関係
+    trend:
+    - 0
+    - 1
+    - 2
+    - 1
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2015-08
+      - 2016-08
+      - 2018-08
+      - 2023-08
+      - 2024-08
+    - - 2018-08
+      - 2022-08
+    - []
+    - - 2024-08
+      - 2026-08
+    level: S
+    why: pr_S
     tags:
     - new
-    - ans_new
+    - ans_pr
     - odo
     - odo
     - odo
@@ -728,17 +1167,66 @@ questions:
     - 5
     - 3
     - 2
-    similar:
-    - 1
-    - 1
-    - 5
-    - 3
-    - 2
     truths: 誤正正正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 7
+    - 1
+    - 6
+    - 3
+    - 3
+    points:
+    - pt-yuki-0005
+    - pt-yuki-0203
+    - pt-yuki-0013
+    - pt-yuki-0065
+    - pt-yuki-0066
+    pnames:
+    - 検出器には、光電子増倍管が用いられる。
+    - 相対誤差の少ない吸光度の範囲としては、0.2～0.8が望ましい。
+    - 石英セルは、紫外領域の測定に用いられる。
+    - 一般に、測定波長は、吸収スペクトルの吸収極大を示す波長とする。
+    - 発色反応のために試料液を加熱した場合は、常温に戻してから吸光度を測定する
+    prcounts:
+    - 0
+    - 0
+    - 10
+    - 7
+    - 7
+    principles:
+    - ''
+    - ''
+    - pr-yuki-0004
+    - pr-yuki-0006
+    - pr-yuki-0006
+    prnames:
+    - ''
+    - ''
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - 発色反応の測定条件
+    - 発色反応の測定条件
+    trend:
+    - 2
+    - 0
+    - 2
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2018-08
+      - 2023-08
+    - []
+    - []
+    - []
+    - - 2022-08
+    level: A
+    why: pt_A
     tags:
-    - ans_new
+    - ans_hi
     - new
     - odo
     - odo
@@ -782,7 +1270,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 19
   status: published
@@ -820,9 +1308,8 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-yuki-001
+    level: A
+    why: q_hi
 - num: 20
   status: published
   chapters:
@@ -857,18 +1344,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正誤正正正
-    level: C
+    pcounts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    points:
+    - pt-yuki-0104
+    - pt-yuki-0181
+    - pt-yuki-0193
+    - pt-yuki-0121
+    - pt-yuki-0194
+    pnames:
+    - 冷蔵保存した有機溶剤は、室温に戻してから使用する。
+    - 一度正確に調製した標準液中の標準物質の濃度は、時間経過や保管によって変化しない（誤りの記述）
+    - 調製方法の異なる標準液などについて、クロスチェックすることは、測定結果の信頼性を高める
+    - 標準液に使用する溶質、溶媒は蒸気圧が高い場合が多いので、できる限り短時間で調製する
+    - 標準液を調製する際は、ドラフト等の局所排気装置を使用する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
-    - odo
+    - ''
     - ans_new
     - new
-    - new
+    - ''
     - new

@@ -599,7 +599,7 @@ traps:
   foundation: null
   seat: 捕集器具の組合せ
   name: その他の組合せ（単発）
-  rank: C
+  rank: A
   count: 13
   exams:
   - 2016-02
@@ -626,7 +626,7 @@ traps:
   foundation: null
   seat: 個人サンプリング法
   name: C・D測定の対象（物質・作業）
-  rank: S
+  rank: B
   count: 10
   exams:
   - 2021-08
@@ -650,7 +650,7 @@ traps:
   foundation: null
   seat: 液体捕集・直接捕集
   name: ミゼットインピンジャーの捕集率（流量・粒径）
-  rank: S
+  rank: A
   count: 13
   exams:
   - 2015-08
@@ -676,7 +676,7 @@ traps:
   foundation: null
   seat: 流量計
   name: 捕集器具の圧力損失と流量（面積式流量計・ポンプ調整）
-  rank: S
+  rank: A
   count: 12
   exams:
   - 2016-08
@@ -702,7 +702,7 @@ traps:
   foundation: null
   seat: 濃度と物質の状態
   name: ppm⇔mg/m³の換算（計算）
-  rank: S
+  rank: B
   count: 10
   exams:
   - 2016-08
@@ -726,7 +726,7 @@ traps:
   foundation: null
   seat: ろ過捕集法
   name: ポアサイズの意味
-  rank: S
+  rank: B
   count: 10
   exams:
   - 2016-02
@@ -750,7 +750,7 @@ traps:
   foundation: null
   seat: 濃度と物質の状態
   name: 管理濃度の表し方（粉じん・RCF）
-  rank: A
+  rank: B
   count: 9
   exams:
   - 2015-08
@@ -773,7 +773,7 @@ traps:
   foundation: null
   seat: 固体捕集法
   name: ポーラスポリマービーズと活性炭の比較
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2018-08
@@ -794,7 +794,7 @@ traps:
   foundation: statistics
   seat: 評価
   name: 第1評価値は上側5%の推定値（算術平均ではない）
-  rank: A
+  rank: B
   count: 9
   exams:
   - 2016-02
@@ -817,7 +817,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: 測定点の線の引き方（等間隔系統抽出）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2015-08
@@ -838,7 +838,7 @@ traps:
   foundation: statistics
   seat: 統計
   name: 幾何平均・幾何標準偏差の性質
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2019-02
@@ -858,7 +858,7 @@ traps:
   foundation: null
   seat: 単位作業場所
   name: 人数・作業時間・保護具は考慮しない
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-08
@@ -879,7 +879,7 @@ traps:
   foundation: null
   seat: 液体捕集・直接捕集
   name: 真空捕集びん・捕集袋
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2018-08
@@ -900,7 +900,7 @@ traps:
   foundation: statistics
   seat: 騒音
   name: 騒音の評価は算術平均のみ（標準偏差は使わない）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2018-08
@@ -921,7 +921,7 @@ traps:
   foundation: statistics
   seat: 統計
   name: 正規分布の範囲（±1σ・±2σ・95%上限）
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2016-08
@@ -941,7 +941,7 @@ traps:
   foundation: null
   seat: 個人サンプリング法
   name: C・D測定の人数と時間
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2021-08
@@ -960,7 +960,7 @@ traps:
   foundation: null
   seat: 相対濃度計
   name: 相対濃度は測定時間に比例しない（cpm）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -981,7 +981,7 @@ traps:
   foundation: null
   seat: 単位作業場所
   name: 作業・物質の違いと単位作業場所の分け方
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2017-02
@@ -1001,7 +1001,7 @@ traps:
   foundation: null
   seat: 流量計
   name: 湿式ガスメーターの接続位置
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2015-08
@@ -1021,7 +1021,7 @@ traps:
   foundation: null
   seat: 濃度と物質の状態
   name: 粉じん・ヒューム・ミストの粒径と形
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -1041,7 +1041,7 @@ traps:
   foundation: null
   seat: 物性
   name: 極性の大小
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2016-08
@@ -1061,7 +1061,7 @@ traps:
   foundation: null
   seat: 分粒装置
   name: 慣性衝突式分粒装置と流量
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -1083,7 +1083,7 @@ traps:
   foundation: null
   seat: 個人サンプリング法
   name: サンプラーの装着（位置・C/D兼用）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2022-08
@@ -1101,7 +1101,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: B測定の実施時間・実施の要否
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2015-08
@@ -1121,7 +1121,7 @@ traps:
   foundation: null
   seat: 捕集器具の組合せ
   name: クロム酸ミストにシリカゲル管
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2015-08
@@ -1141,7 +1141,7 @@ traps:
   foundation: null
   seat: 相対濃度計
   name: 表示単位と質量濃度変換係数
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2015-08
@@ -1161,7 +1161,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: B測定もA測定と同じ方法（K値・分粒装置）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2017-02
@@ -1180,7 +1180,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: 短時間測定の積み上げは平均（10分間値）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -1199,7 +1199,7 @@ traps:
   foundation: null
   seat: 相対濃度計
   name: 吸引流量と相対濃度
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-08
@@ -1218,7 +1218,7 @@ traps:
   foundation: null
   seat: 評価
   name: 第1管理区分になる条件
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2015-08
@@ -1237,7 +1237,7 @@ traps:
   foundation: null
   seat: 物性
   name: 蒸気の密度（空気より重いか）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -1272,7 +1272,7 @@ traps:
   foundation: null
   seat: 指定作業場以外
   name: 指定作業場以外の測定（騒音・酸欠・事務所）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2024-08
@@ -1306,7 +1306,7 @@ traps:
   foundation: null
   seat: 検知管
   name: 検知管を使える場面（特別有機溶剤・C測定）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2023-08
@@ -1323,7 +1323,7 @@ traps:
   foundation: null
   seat: 流量計
   name: 流量計の原理（絞り式・石けん膜・温度補正）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2025-02
@@ -1357,7 +1357,7 @@ traps:
   foundation: statistics
   seat: 統計
   name: 正規分布の平均と標準偏差は独立
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -1376,7 +1376,7 @@ traps:
   foundation: null
   seat: ろ過捕集法
   name: 遊離けい酸の試料は分粒装置付きで採る
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-08
@@ -1394,7 +1394,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: 10分以上連続測定の例外（検知管・相対濃度計）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2022-02
@@ -1428,7 +1428,7 @@ traps:
   foundation: statistics
   seat: 測定誤差
   name: 系統誤差は補正できる
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2020-02
@@ -1445,7 +1445,7 @@ traps:
   foundation: null
   seat: 検知管
   name: 変色層が斜めの読み方
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2015-08
@@ -1464,7 +1464,7 @@ traps:
   foundation: statistics
   seat: 統計
   name: 濃度分布は対数正規分布
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2015-08
@@ -1483,7 +1483,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: B測定の目的（個人ばく露の測定ではない）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-08
@@ -1501,7 +1501,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: 測定点を5未満にできる条件と測定値総数5
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -1519,7 +1519,7 @@ traps:
   foundation: null
   seat: 検知管
   name: 定量下限の意味
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -1537,7 +1537,7 @@ traps:
   foundation: null
   seat: A測定・B測定
   name: 測定点の高さは床上50〜150cm
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2019-08
@@ -1571,7 +1571,7 @@ traps:
   foundation: null
   seat: 液体捕集・直接捕集
   name: 小型ガス吸収管（捕集液と温度）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2018-02
@@ -1588,7 +1588,7 @@ traps:
   foundation: statistics
   seat: A測定・B測定
   name: 濃度がほぼ均一の判断（幾何標準偏差）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -1606,7 +1606,7 @@ traps:
   foundation: null
   seat: 固体捕集法
   name: 除湿管は一般には使わない
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -1624,7 +1624,7 @@ traps:
   foundation: null
   seat: 検知管
   name: 検知管の採取器にはグリースを塗る
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-02
@@ -1642,7 +1642,7 @@ traps:
   foundation: null
   seat: 評価
   name: B測定値と第3管理区分（管理濃度の1.5倍）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-02
@@ -1659,7 +1659,7 @@ traps:
   foundation: null
   seat: ろ過捕集法
   name: ナフタレンはろ紙で捕集しない
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2020-08
@@ -1772,7 +1772,7 @@ traps:
   foundation: null
   seat: 相対濃度計
   name: 光散乱方式の相対濃度計と分粒装置
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -1790,7 +1790,7 @@ traps:
   foundation: null
   seat: 固体捕集法
   name: シリカゲルは極性の大きい物質、活性炭は極性の小さい物質向き
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2016-08
@@ -1807,7 +1807,7 @@ traps:
   foundation: null
   seat: 評価
   name: 複数の作業位置・B測定点は最大値を採る
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-08
@@ -1888,7 +1888,7 @@ traps:
   foundation: null
   seat: 固体捕集法
   name: 活性炭の吸着は温度が低いほど強い
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -1954,7 +1954,7 @@ traps:
   foundation: null
   seat: 単位作業場所
   name: 単位作業場所・測定点の重複は差し支えない
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-02
@@ -2454,7 +2454,7 @@ traps:
   foundation: null
   seat: 放射能
   name: 壊変形式と原子番号・質量数の変化
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2017-02
@@ -2479,7 +2479,7 @@ traps:
   foundation: null
   seat: 標準ガス
   name: 拡散セルの濃度を決める要因（温度・流量・寸法・分子量）
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2015-08
@@ -2554,7 +2554,7 @@ traps:
   foundation: reaction
   seat: 溶液
   name: 酸・塩の水溶液のpHの大小
-  rank: S
+  rank: A
   count: 11
   exams:
   - 2015-08
@@ -2578,7 +2578,7 @@ traps:
   foundation: null
   seat: 単位と原子
   name: SI単位の組立（圧力・エネルギー・気体定数など）
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2016-08
@@ -2603,7 +2603,7 @@ traps:
   foundation: solution
   seat: 溶液
   name: 溶媒抽出と分配係数（計算）
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2017-02
@@ -2628,7 +2628,7 @@ traps:
   foundation: null
   seat: X線回折
   name: 特性X線を使う（連続X線ではない）
-  rank: S
+  rank: A
   count: 11
   exams:
   - 2016-02
@@ -2654,7 +2654,7 @@ traps:
   foundation: reaction
   seat: 容量分析
   name: 反応式の量的関係（炭酸カルシウム・燃焼）
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2016-02
@@ -2679,7 +2679,7 @@ traps:
   foundation: logarithm
   seat: 溶液
   name: 強酸の希釈とpH（計算）
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2015-08
@@ -2704,7 +2704,7 @@ traps:
   foundation: null
   seat: 物質量の計算
   name: モル質量と物質の質量（水和物を含む・計算）
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -2726,7 +2726,7 @@ traps:
   foundation: null
   seat: 原子吸光
   name: 光を吸収するのは基底状態の原子
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2015-08
@@ -2751,7 +2751,7 @@ traps:
   foundation: null
   seat: 検知管・定量法
   name: ICP発光分析法
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2016-08
@@ -2776,7 +2776,7 @@ traps:
   foundation: null
   seat: 器具
   name: ガラス製体積計（受用・出用、扱い方、形）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2017-02
@@ -2798,7 +2798,7 @@ traps:
   foundation: null
   seat: 試薬
   name: 化学物質と使用例の組合せ
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2018-08
@@ -2820,7 +2820,7 @@ traps:
   foundation: statistics
   seat: データの扱い
   name: 平均・分散・標準偏差の式
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2022-08
@@ -2841,7 +2841,7 @@ traps:
   foundation: reaction
   seat: 容量分析
   name: 標定に用いる物質
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2019-08
@@ -2862,7 +2862,7 @@ traps:
   foundation: null
   seat: 原子吸光
   name: 原子吸光の吸光度を決める要因
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-08
@@ -2884,7 +2884,7 @@ traps:
   foundation: solution
   seat: 溶液
   name: 質量パーセント濃度とモル濃度の換算（計算）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2015-08
@@ -2906,7 +2906,7 @@ traps:
   foundation: logarithm
   seat: 放射能
   name: 半減期の計算
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -2929,7 +2929,7 @@ traps:
   foundation: null
   seat: 気体
   name: 混合気体の分圧（計算）
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -2952,7 +2952,7 @@ traps:
   foundation: gas
   seat: 標準ガス
   name: 捕集袋による標準ガス調製（計算）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-08
@@ -2974,7 +2974,7 @@ traps:
   foundation: null
   seat: 吸光光度法
   name: モル吸光係数の単位
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2017-02
@@ -2995,7 +2995,7 @@ traps:
   foundation: null
   seat: 容量分析
   name: 溶解度積
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -3018,7 +3018,7 @@ traps:
   foundation: null
   seat: 気体
   name: 理想気体の法則（PV=nRT）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -3040,7 +3040,7 @@ traps:
   foundation: solution
   seat: 溶液
   name: 質量パーセント濃度の溶液の希釈（計算）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -3062,7 +3062,7 @@ traps:
   foundation: null
   seat: 吸光光度法
   name: 光源（可視はタングステン、紫外は重水素）
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2019-02
@@ -3083,7 +3083,7 @@ traps:
   foundation: null
   seat: 蛍光光度法
   name: 蛍光が生じる仕組み（エネルギー準位）
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2015-08
@@ -3104,7 +3104,7 @@ traps:
   foundation: null
   seat: X線回折
   name: X線検出器はスペクトル分析不要
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2015-08
@@ -3124,7 +3124,7 @@ traps:
   foundation: null
   seat: 有機化合物
   name: 有機化合物の性質と反応（酸性・酸化・水溶性）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-08
@@ -3144,7 +3144,7 @@ traps:
   foundation: null
   seat: 蛍光光度法
   name: 光源キセノンランプ（タングステンではない）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-08
@@ -3164,7 +3164,7 @@ traps:
   foundation: null
   seat: 器具
   name: 気体用流量計（石けん膜・面積式）
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2016-02
@@ -3185,7 +3185,7 @@ traps:
   foundation: null
   seat: 試薬
   name: 精製水の製造方法
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2016-02
@@ -3206,7 +3206,7 @@ traps:
   foundation: null
   seat: データの扱い
   name: 有効数字
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -3229,7 +3229,7 @@ traps:
   foundation: null
   seat: X線回折
   name: 試料はフィルター上のまま測る
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2017-02
@@ -3250,7 +3250,7 @@ traps:
   foundation: null
   seat: 放射能
   name: Bqの定義と壊変速度
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -3270,7 +3270,7 @@ traps:
   foundation: null
   seat: 溶液
   name: 化学平衡の移動（ルシャトリエの原理）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-08
@@ -3290,7 +3290,7 @@ traps:
   foundation: null
   seat: 単位と原子
   name: 原子の構造（電子・陽子・質量数・帯電）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2021-02
@@ -3309,7 +3309,7 @@ traps:
   foundation: null
   seat: 検知管・定量法
   name: 検量線と定量法（絶対検量線・標準添加・内標準）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2020-02
@@ -3328,7 +3328,7 @@ traps:
   foundation: null
   seat: 単位と原子
   name: 単位の換算（µmol/g＝mmol/kg）
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2015-08
@@ -3349,7 +3349,7 @@ traps:
   foundation: null
   seat: 有機化合物
   name: 溶解の原則（似たもの同士が溶け合う）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -3369,7 +3369,7 @@ traps:
   foundation: null
   seat: 気体
   name: 気化した物質のモル質量・気体の密度（計算）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2025-02
@@ -3387,7 +3387,7 @@ traps:
   foundation: null
   seat: 蛍光光度法
   name: 蛍光強度を左右する要因（励起光の波長・強さ）
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2016-02
@@ -3447,7 +3447,7 @@ traps:
   foundation: null
   seat: 検知管・定量法
   name: 検知管の読み取り（吸引終了後すぐ読む）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2019-08
@@ -3466,7 +3466,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ
   name: カラム温度とキャリヤーガスの粘度
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2023-02
@@ -3484,7 +3484,7 @@ traps:
   foundation: null
   seat: データの扱い
   name: 捕集量と通気量からの気中濃度（計算）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -3503,7 +3503,7 @@ traps:
   foundation: null
   seat: X線回折
   name: 測定試料の粒径
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2021-02
@@ -3521,7 +3521,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ
   name: 溶出順（沸点・極性）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2015-08
@@ -3539,7 +3539,7 @@ traps:
   foundation: statistics
   seat: データの扱い
   name: 誤差の定義と種類（系統誤差・偶然誤差）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2021-02
@@ -3557,7 +3557,7 @@ traps:
   foundation: null
   seat: 吸光光度法
   name: 吸収極大波長
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2018-08
@@ -3575,7 +3575,7 @@ traps:
   foundation: logarithm
   seat: 吸光光度法
   name: 透過率と光路長の関係
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2020-02
@@ -3611,7 +3611,7 @@ traps:
   foundation: null
   seat: 試薬
   name: 一次標準物質
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2018-02
@@ -3629,7 +3629,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ
   name: van Deemter式
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -3648,7 +3648,7 @@ traps:
   foundation: null
   seat: 器具
   name: 高圧ガス容器の扱い
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -3667,7 +3667,7 @@ traps:
   foundation: null
   seat: 単位と原子
   name: アボガドロ定数（単位はmol⁻¹・定義）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2019-08
@@ -3736,7 +3736,7 @@ traps:
   foundation: null
   seat: 試薬
   name: 試薬の性質（溶解性・市販濃度）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-08
@@ -3822,7 +3822,7 @@ traps:
   foundation: null
   seat: 吸光光度法
   name: 吸光度と透過率の定義
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -3875,7 +3875,7 @@ traps:
   foundation: null
   seat: 気体
   name: 気体の溶解度と温度
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-02
@@ -4153,7 +4153,7 @@ traps:
   foundation: null
   seat: 電磁波
   name: 電磁波の波長の順序
-  rank: S
+  rank: A
   count: 15
   exams:
   - 2015-08
@@ -4182,7 +4182,7 @@ traps:
   foundation: null
   seat: 金属
   name: 金属ごとの健康障害の取り違え
-  rank: S
+  rank: A
   count: 11
   exams:
   - 2015-08
@@ -4207,7 +4207,7 @@ traps:
   foundation: null
   seat: 保護具
   name: 防じんマスクの選択と使用
-  rank: S
+  rank: A
   count: 10
   exams:
   - 2015-08
@@ -4231,7 +4231,7 @@ traps:
   foundation: null
   seat: 温熱・寒冷
   name: 熱中症・低体温症・凍傷の症状と対応
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -4252,7 +4252,7 @@ traps:
   foundation: null
   seat: 物質の性状
   name: 蒸気密度・液体の密度
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2016-02
@@ -4297,7 +4297,7 @@ traps:
   foundation: null
   seat: 酸欠・硫化水素
   name: 酸欠・硫化水素中毒の危険がある場所
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2018-02
@@ -4319,7 +4319,7 @@ traps:
   foundation: null
   seat: 毒性と健康障害
   name: フッ化水素の健康影響
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -4340,7 +4340,7 @@ traps:
   foundation: null
   seat: 管理濃度・許容濃度
   name: 管理濃度の決め方（粉じん・混合溶剤・発がん物質）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2017-08
@@ -4361,7 +4361,7 @@ traps:
   foundation: null
   seat: その他の職場環境
   name: 食中毒（ノロウイルス・O-157）
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2017-02
@@ -4383,7 +4383,7 @@ traps:
   foundation: null
   seat: リスクアセスメント
   name: ハザードとリスクの定義の取り違え
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2015-08
@@ -4405,7 +4405,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 有機溶剤と健康障害の取り違え（網膜・視神経・造血）
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2017-08
@@ -4427,7 +4427,7 @@ traps:
   foundation: null
   seat: 毒性と健康障害
   name: 毒性の指標（LD50・NOAEL・量-反応関係）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2023-08
@@ -4446,7 +4446,7 @@ traps:
   foundation: null
   seat: 管理濃度・許容濃度
   name: 許容濃度の性質（経皮吸収・相対尺度ではない）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2015-08
@@ -4490,7 +4490,7 @@ traps:
   foundation: null
   seat: 粉じん
   name: 胸膜プラークの原因は石綿
-  rank: A
+  rank: B
   count: 8
   exams:
   - 2016-02
@@ -4512,7 +4512,7 @@ traps:
   foundation: null
   seat: 局所排気・換気
   name: 局所排気の制御風速の定義
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -4533,7 +4533,7 @@ traps:
   foundation: null
   seat: 騒音
   name: 騒音性難聴（感音性・内耳・4000Hz）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2015-08
@@ -4577,7 +4577,7 @@ traps:
   foundation: null
   seat: 局所排気・換気
   name: フードの分類（囲い式・外付け式）
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-08
@@ -4598,7 +4598,7 @@ traps:
   foundation: null
   seat: 振動
   name: 振動障害と周波数
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2015-08
@@ -4619,7 +4619,7 @@ traps:
   foundation: null
   seat: 振動
   name: 末梢循環障害と末梢神経障害の取り違え
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -4640,7 +4640,7 @@ traps:
   foundation: null
   seat: 電離放射線
   name: 確定的影響と確率的影響の分類・しきい値・重篤度
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2015-08
@@ -4661,7 +4661,7 @@ traps:
   foundation: null
   seat: 保護具
   name: 聴覚保護具（耳栓の種類・選定・併用）
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2016-08
@@ -4681,7 +4681,7 @@ traps:
   foundation: null
   seat: リスクアセスメント
   name: リスクの見積り方法（ばく露限界・管理濃度との比較）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-08
@@ -4716,7 +4716,7 @@ traps:
   foundation: null
   seat: 金属
   name: 金属熱
-  rank: A
+  rank: B
   count: 7
   exams:
   - 2016-02
@@ -4737,7 +4737,7 @@ traps:
   foundation: null
   seat: 騒音
   name: 等価騒音レベルと周波数重み付け
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2016-02
@@ -4757,7 +4757,7 @@ traps:
   foundation: null
   seat: リスクアセスメント
   name: 重篤度の見積り・付加的影響
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -4776,7 +4776,7 @@ traps:
   foundation: null
   seat: 保護具
   name: 送気マスク・空気呼吸器（酸欠場所の保護具）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-02
@@ -4795,7 +4795,7 @@ traps:
   foundation: null
   seat: 管理濃度・許容濃度
   name: 発がん性分類（第1群・第2群A/B）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2019-02
@@ -4814,7 +4814,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 有機溶剤の一般的性質（経皮吸収・引火性）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -4832,7 +4832,7 @@ traps:
   foundation: null
   seat: 酸欠・硫化水素
   name: 硫化水素の性質と健康影響
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2019-02
@@ -4850,7 +4850,7 @@ traps:
   foundation: null
   seat: 電磁波
   name: レーザー光の性質
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2021-08
@@ -4868,7 +4868,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: トルエンは造血障害を起こさない
-  rank: A
+  rank: B
   count: 6
   exams:
   - 2016-02
@@ -4888,7 +4888,7 @@ traps:
   foundation: null
   seat: 毒性と健康障害
   name: 溶血性貧血・尿の赤色化の原因物質
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2019-02
@@ -4906,7 +4906,7 @@ traps:
   foundation: null
   seat: 物質の性状
   name: 水への溶けやすさと液性
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -4924,7 +4924,7 @@ traps:
   foundation: null
   seat: GHS
   name: GHSの区分（数字が小さいほど危険）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2024-02
@@ -4941,7 +4941,7 @@ traps:
   foundation: null
   seat: GHS
   name: GHS絵表示と危険有害性クラス
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2024-08
@@ -4958,7 +4958,7 @@ traps:
   foundation: null
   seat: 電磁波
   name: 紫外線の性質と利用
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2024-02
@@ -4975,7 +4975,7 @@ traps:
   foundation: null
   seat: 騒音
   name: 音の物理（0dB・距離減衰・伝わり方）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2025-02
@@ -4992,7 +4992,7 @@ traps:
   foundation: null
   seat: 労働衛生管理
   name: 腰痛予防（腰部保護ベルト・重量物・座作業）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-08
@@ -5011,7 +5011,7 @@ traps:
   foundation: null
   seat: 粉じん
   name: 空気力学相当径の意味
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-08
@@ -5030,7 +5030,7 @@ traps:
   foundation: null
   seat: 温熱・寒冷
   name: 温熱環境の4要素（気温・湿度・気流・ふく射熱）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-02
@@ -5048,7 +5048,7 @@ traps:
   foundation: null
   seat: 物質の性状
   name: 気体の溶解度と温度
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-02
@@ -5066,7 +5066,7 @@ traps:
   foundation: null
   seat: 吸収・代謝
   name: 鉛の生物学的モニタリング
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2020-08
@@ -5083,7 +5083,7 @@ traps:
   foundation: null
   seat: 保護具
   name: 吸収缶の破過時間（温度・濃度）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -5101,7 +5101,7 @@ traps:
   foundation: null
   seat: 酸欠・硫化水素
   name: 無酸素空気は一呼吸で意識を失う
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -5119,7 +5119,7 @@ traps:
   foundation: null
   seat: 電離放射線
   name: 早期影響と晩発影響（脱毛・白内障の潜伏期）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2021-08
@@ -5136,7 +5136,7 @@ traps:
   foundation: null
   seat: 物質の性状
   name: 粉じん・ヒュームの発生と粒径
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -5154,7 +5154,7 @@ traps:
   foundation: null
   seat: 電離放射線
   name: X線とγ線の区別（発生過程の違い。波長・エネルギーの大小ではない）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -5172,7 +5172,7 @@ traps:
   foundation: null
   seat: 騒音
   name: 騒音のA測定の平均は算術平均
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2018-02
@@ -5190,7 +5190,7 @@ traps:
   foundation: null
   seat: 粉じん
   name: じん肺の定義と種類
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2018-08
@@ -5383,7 +5383,7 @@ traps:
   foundation: null
   seat: その他の職場環境
   name: 減圧症は窒素の気泡
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -5401,7 +5401,7 @@ traps:
   foundation: null
   seat: 労働衛生管理
   name: 労働安全衛生マネジメントシステム指針の性格
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -5419,7 +5419,7 @@ traps:
   foundation: null
   seat: 電離放射線
   name: β線は粒子線（電磁波ではない）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-02
@@ -5437,7 +5437,7 @@ traps:
   foundation: null
   seat: 温熱・寒冷
   name: 絶対湿度と相対湿度
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2018-08
@@ -5454,7 +5454,7 @@ traps:
   foundation: null
   seat: 物質の性状
   name: 濃度分布は対数正規分布
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2018-02
@@ -5471,7 +5471,7 @@ traps:
   foundation: null
   seat: 物質の性状
   name: 粒子の沈降速度
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-08
@@ -5488,7 +5488,7 @@ traps:
   foundation: null
   seat: 酸欠・硫化水素
   name: 送気マスク・空気呼吸器（酸欠場所の保護具）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2017-02
@@ -5537,7 +5537,7 @@ traps:
   foundation: null
   seat: 管理濃度・許容濃度
   name: 管理濃度の性格（ばく露限界・天井値ではない）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -6092,7 +6092,7 @@ traps:
   foundation: null
   seat: 作業主任者
   name: 作業主任者の要否（特定粉じん作業・試験研究・第3類物質など）
-  rank: S
+  rank: A
   count: 19
   exams:
   - 2015-08
@@ -6122,7 +6122,7 @@ traps:
   foundation: oxygen-deficiency
   seat: 酸欠則
   name: 第1種・第2種酸素欠乏危険作業の区分
-  rank: S
+  rank: A
   count: 16
   exams:
   - 2016-02
@@ -6152,7 +6152,7 @@ traps:
   foundation: null
   seat: 安全衛生教育
   name: 特別教育の対象業務（有機・特化は対象外）
-  rank: S
+  rank: B
   count: 13
   exams:
   - 2016-02
@@ -6179,7 +6179,7 @@ traps:
   foundation: organic-solvents
   seat: 有機則
   name: 有機溶剤等の区分（物質・混合物の含有率）
-  rank: S
+  rank: B
   count: 13
   exams:
   - 2016-08
@@ -6206,7 +6206,7 @@ traps:
   foundation: other-workplaces
   seat: 事務所則
   name: 事務所の空気環境の基準値
-  rank: S
+  rank: A
   count: 14
   exams:
   - 2015-08
@@ -6234,7 +6234,7 @@ traps:
   foundation: toxicity
   seat: 特化則
   name: 製造許可物質（第1類物質）
-  rank: S
+  rank: B
   count: 12
   exams:
   - 2015-08
@@ -6260,7 +6260,7 @@ traps:
   foundation: null
   seat: 衛生管理体制
   name: 総括安全衛生管理者（選任要件・充てる者）
-  rank: S
+  rank: B
   count: 13
   exams:
   - 2016-02
@@ -6287,7 +6287,7 @@ traps:
   foundation: null
   seat: 健康診断
   name: 健康診断結果の報告（50人以上・定期と雇入時）
-  rank: S
+  rank: B
   count: 11
   exams:
   - 2015-08
@@ -6312,7 +6312,7 @@ traps:
   foundation: null
   seat: 作業環境測定士
   name: 作業環境測定士でなければできない業務の範囲
-  rank: A
+  rank: B
   count: 9
   exams:
   - 2016-08
@@ -6335,7 +6335,7 @@ traps:
   foundation: toxicity
   seat: 特化則
   name: 特別有機溶剤と有機溶剤の区別
-  rank: A
+  rank: B
   count: 9
   exams:
   - 2015-08
@@ -6378,7 +6378,7 @@ traps:
   foundation: null
   seat: 測定の対象と頻度
   name: 温熱（気温・湿度・ふく射熱）測定の対象と頻度
-  rank: A
+  rank: B
   count: 9
   exams:
   - 2016-02
@@ -6401,7 +6401,7 @@ traps:
   foundation: organic-solvents
   seat: 有機則
   name: 有機溶剤業務の換気設備（第2種は全体換気不可）
-  rank: S
+  rank: B
   count: 10
   exams:
   - 2015-08
@@ -6425,7 +6425,7 @@ traps:
   foundation: null
   seat: 衛生管理体制
   name: 専属産業医・専任衛生管理者の要件
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2024-08
@@ -6444,7 +6444,7 @@ traps:
   foundation: null
   seat: 作業環境測定士
   name: 測定士の登録（欠格・登録区分）
-  rank: A
+  rank: C
   count: 7
   exams:
   - 2015-08
@@ -6465,7 +6465,7 @@ traps:
   foundation: null
   seat: 測定の対象と頻度
   name: 中央管理方式の空気調和設備の測定（2か月以内ごと）
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2020-02
@@ -6485,7 +6485,7 @@ traps:
   foundation: null
   seat: 個人サンプリング法
   name: 個人サンプリング法の登録要件
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2022-02
@@ -6504,7 +6504,7 @@ traps:
   foundation: toxicity
   seat: 特化則
   name: 特化物の測定・健康診断の頻度と対象
-  rank: A
+  rank: C
   count: 7
   exams:
   - 2017-08
@@ -6525,7 +6525,7 @@ traps:
   foundation: null
   seat: 作業環境評価基準
   name: 管理区分の決め方（第1評価値・B測定値・1.5倍）
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2018-08
@@ -6545,7 +6545,7 @@ traps:
   foundation: null
   seat: 作業環境評価基準
   name: 混合物の換算値（特化物・有機溶剤）
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2019-02
@@ -6565,7 +6565,7 @@ traps:
   foundation: dust-disease
   seat: 粉じん則・じん肺法
   name: 特定粉じん発生源の対策
-  rank: A
+  rank: C
   count: 8
   exams:
   - 2015-08
@@ -6606,7 +6606,7 @@ traps:
   foundation: null
   seat: 電離則
   name: 線量限度（皮膚の等価線量など）
-  rank: A
+  rank: C
   count: 8
   exams:
   - 2015-08
@@ -6628,7 +6628,7 @@ traps:
   foundation: null
   seat: 作業環境測定士
   name: 外部放射線の線量当量率の測定は測定士でなくてよい
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2016-02
@@ -6648,7 +6648,7 @@ traps:
   foundation: null
   seat: 健康診断
   name: 雇入時の健康診断（省略・項目）
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2017-02
@@ -6668,7 +6668,7 @@ traps:
   foundation: ventilation
   seat: 粉じん則・じん肺法
   name: 除じん装置の方式（ヒュームはろ過式）
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2017-02
@@ -6688,7 +6688,7 @@ traps:
   foundation: toxicity
   seat: 特化則
   name: 特別管理物質の作業の記録
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2020-08
@@ -6707,7 +6707,7 @@ traps:
   foundation: dust-disease
   seat: 粉じん則・じん肺法
   name: 粉じん濃度の測定（頻度・特例）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-02
@@ -6744,7 +6744,7 @@ traps:
   foundation: a-b-measurement
   seat: 作業環境測定基準
   name: 相対濃度指示方法のみで測れる条件
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2016-02
@@ -6764,7 +6764,7 @@ traps:
   foundation: organic-solvents
   seat: 有機則
   name: タンク内作業と送気マスク
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -6783,7 +6783,7 @@ traps:
   foundation: null
   seat: 電離則
   name: 管理区域に一時的に立ち入る者の扱い
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2018-02
@@ -6820,7 +6820,7 @@ traps:
   foundation: null
   seat: 関係法令雑問
   name: じん肺健康診断と記録の保存
-  rank: A
+  rank: C
   count: 6
   exams:
   - 2015-08
@@ -6840,7 +6840,7 @@ traps:
   foundation: a-b-measurement
   seat: 作業環境測定基準
   name: 10分以上の採取時間の例外
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-08
@@ -6858,7 +6858,7 @@ traps:
   foundation: metals
   seat: 鉛則
   name: 鉛の濃度測定の頻度
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2020-02
@@ -6876,7 +6876,7 @@ traps:
   foundation: null
   seat: 電離則
   name: 管理区域と線量当量率の測定頻度
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2022-02
@@ -6911,7 +6911,7 @@ traps:
   foundation: organic-solvents
   seat: 有機則
   name: 局所排気装置等の性能・点検・排ガス処理
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2024-02
@@ -6928,7 +6928,7 @@ traps:
   foundation: null
   seat: 衛生管理体制
   name: 衛生委員会の委員（作業環境測定士・作業主任者）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2023-08
@@ -6945,7 +6945,7 @@ traps:
   foundation: null
   seat: 安衛則の衛生基準
   name: 関係者以外立入禁止の場所
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2016-02
@@ -6964,7 +6964,7 @@ traps:
   foundation: a-b-measurement
   seat: 作業環境測定基準
   name: 測定点を5未満にできる条件（鉱物性粉じん・有害物質）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2018-02
@@ -6982,7 +6982,7 @@ traps:
   foundation: null
   seat: 個人サンプリング法
   name: 個人サンプリング法の対象物質の条件
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2021-08
@@ -6999,7 +6999,7 @@ traps:
   foundation: null
   seat: 作業環境評価基準
   name: 2作業日の評価
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-02
@@ -7017,7 +7017,7 @@ traps:
   foundation: null
   seat: 健康診断
   name: 健康診断結果の通知と事後措置
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -7035,7 +7035,7 @@ traps:
   foundation: null
   seat: 安全衛生教育
   name: 特別教育の講師
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2017-08
@@ -7053,7 +7053,7 @@ traps:
   foundation: null
   seat: 測定の対象と頻度
   name: 指定作業場・ふく射熱測定の対象
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2019-02
@@ -7069,7 +7069,7 @@ traps:
   foundation: oxygen-deficiency
   seat: 酸欠則
   name: 酸欠の測定（作業開始前に、第1種は酸素、第2種は酸素と硫化水素）
-  rank: A
+  rank: C
   count: 5
   exams:
   - 2015-08
@@ -7088,7 +7088,7 @@ traps:
   foundation: null
   seat: 安全衛生教育
   name: 職長教育の対象業種
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -7106,7 +7106,7 @@ traps:
   foundation: ventilation
   seat: 鉛則
   name: 除じん装置の方式（ヒュームはろ過式）
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2016-02
@@ -7124,7 +7124,7 @@ traps:
   foundation: other-workplaces
   seat: 事務所則
   name: 事務所の設備の点検頻度
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2016-08
@@ -7221,7 +7221,7 @@ traps:
   foundation: a-b-measurement
   seat: 作業環境測定基準
   name: ろ過材の性能（作業環境測定基準）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2015-08
@@ -7254,7 +7254,7 @@ traps:
   foundation: null
   seat: 作業環境評価基準
   name: 管理濃度に比べて低い測定値の扱い
-  rank: B
+  rank: C
   count: 4
   exams:
   - 2015-08
@@ -7304,7 +7304,7 @@ traps:
   foundation: null
   seat: 安衛則の衛生基準
   name: 気積（労働者1人あたり10m³以上）
-  rank: B
+  rank: C
   count: 3
   exams:
   - 2015-08
@@ -7669,7 +7669,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: PEG20Mカラムで溶出順を問う（沸点の高い溶剤ほど保持時間が長い）
-  rank: S
+  rank: A
   count: 5
   exams:
   - 2015-08
@@ -7689,7 +7689,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: ミゼットインピンジャー2本直列の捕集率の計算
-  rank: S
+  rank: A
   count: 5
   exams:
   - 2016-08
@@ -7709,7 +7709,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 中沸点溶剤（沸点100〜150℃）の見分け方
-  rank: A
+  rank: B
   count: 4
   exams:
   - 2017-08
@@ -7728,7 +7728,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 理論段数・理論段高さからカラムの長さを求める計算
-  rank: A
+  rank: B
   count: 4
   exams:
   - 2017-08
@@ -7747,7 +7747,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 理論段相当高さからピーク幅と保持時間の比A/Bを求める計算
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -7765,7 +7765,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 真空捕集びんに標準液を蒸発させたときの濃度（ppm）の計算
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -7783,7 +7783,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 保持時間はキャリアガスの線速度にほぼ反比例する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2016-08
@@ -7801,7 +7801,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: メタノールは活性炭管ではなくシリカゲル管（脱着は精製水）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2017-08
@@ -7819,7 +7819,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 検知管の換算値変換係数の計算
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2017-08
@@ -7837,7 +7837,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 吸光度の式はA＝log(I₀/I)（符号を逆にしない）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2017-08
@@ -7855,7 +7855,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 検量線の範囲を超えた試料は外挿せず希釈して測り直す
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -7873,7 +7873,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: n-ヘキサンなどの無極性溶剤は活性炭管・二硫化炭素で脱着（精製水ではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -7890,7 +7890,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: スプリットレス注入法は溶媒ピークの影響を受けやすい
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -7907,7 +7907,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 液相の膜厚が厚いほど保持時間は長くなる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -7924,7 +7924,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 透過率（%）は濃度に反比例せず、指数関数的に減る
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -7941,7 +7941,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 水と任意の割合で混ざる溶剤（テトラヒドロフランなど）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -7958,7 +7958,7 @@ traps:
   foundation: null
   seat: 定量下限と計算問題
   name: 定量下限は標準偏差の10倍（3倍は検出下限）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -7975,7 +7975,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 気体のモル吸光係数の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -7992,7 +7992,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 可視部の吸光度測定の装置構成（タングステンランプ・モノクロメータ・試料セル）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -8009,7 +8009,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 活性炭管・脱着液からの濃度（ppm）の計算（イソプロピルアルコール）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -8026,7 +8026,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 25℃の蒸気圧が最も高い溶剤（エチルエーテル）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8043,7 +8043,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 密度1 g/cm³超・管理濃度10 ppmの溶剤（クロロベンゼン）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8060,7 +8060,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 最適線速度はキャリアガスの種類によって異なる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8077,7 +8077,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: カラム温度が高いほど保持時間は短くピーク間隔は狭い
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8094,7 +8094,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 真空捕集びんの圧力は1.33 kPa以下
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -8111,7 +8111,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: PEG20Mカラムでトルエンより保持時間の長い溶剤（シクロヘキサノンなど）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -8128,7 +8128,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 青色溶液の吸収波長域は赤色溶液より長波長側
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -8145,7 +8145,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: カラム温度が低いほど保持時間は長く分離は良くなる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -8162,7 +8162,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 紫外部の吸光度測定の装置構成（重水素ランプ・モノクロメータ・石英セル）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -8179,7 +8179,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: n-ヘキサン標準ガスの濃度と試料ガスの濃度の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -8196,7 +8196,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 吸光光度分析法による有機溶剤濃度（ppm）の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -8213,7 +8213,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: ピーク幅と保持時間から分離度を求める計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -8230,7 +8230,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: N,N-ジメチルホルムアミドの性質（水への溶解・極性）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2021-08
@@ -8247,7 +8247,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 二硫化炭素の吸光光度法（ジエチルアミン銅・黄金色・420 nm）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2021-08
@@ -8264,7 +8264,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 個人サンプリング（C測定）の濃度の計算（脱着率・移動作業）
-  rank: A
+  rank: B
   count: 4
   exams:
   - 2021-08
@@ -8283,7 +8283,7 @@ traps:
   foundation: null
   seat: 有機溶剤
   name: 個人サンプリング法でも検知管法を使える
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2022-08
@@ -8300,7 +8300,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 透過率が大きいほど試料液の濃度は低い
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2024-08
@@ -8415,7 +8415,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 次亜塩素酸ナトリウム溶液は分析のつど標定する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -8433,7 +8433,7 @@ traps:
   foundation: null
   seat: 分析の一般的事項（試薬・標準液・拡散セル）
   name: 拡散セルの拡散速度は内径の2乗に比例し有効長に反比例
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -8451,7 +8451,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: アクリルアミドは相補型ろ過捕集（ろ紙と活性炭フェルト）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -8469,7 +8469,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: TDIは2-PPで誘導体化して高速液体クロマトグラフで分析
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2017-08
@@ -8487,7 +8487,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 理論段数とピーク幅の比（幅は理論段数の平方根に反比例）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -8505,7 +8505,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 構造式の図：o-フタロジニトリル（ベンゼン環にシアノ基2つ）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -8523,7 +8523,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 真空容器内で液体として残る量の計算（飽和蒸気圧との比較）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -8541,7 +8541,7 @@ traps:
   foundation: null
   seat: 分析の一般的事項（試薬・標準液・拡散セル）
   name: 拡散セルによるベンゼン標準ガス濃度の計算
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -8579,7 +8579,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 検量線の傾きに関係するのはモル吸光係数と光路長（入射光の強度ではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -8596,7 +8596,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 固定相液体の条件（蒸気圧が低い・溶解力がある・反応性が低い）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -8613,7 +8613,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: フッ化水素用検知管の反応（五酸化ヨウ素ではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -8630,7 +8630,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 容器内の気体の圧力の大小の比較（エチレンイミン・シアン化水素・ヨウ化メチル）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -8666,7 +8666,7 @@ traps:
   foundation: null
   seat: 定量下限と計算問題
   name: ガスクロマトグラフ分析法の定量下限の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -8683,7 +8683,7 @@ traps:
   foundation: null
   seat: 定量下限と計算問題
   name: 吸光光度分析法の定量下限は吸光度0.03に相当する濃度
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -8700,7 +8700,7 @@ traps:
   foundation: null
   seat: 定量下限と計算問題
   name: 標準添加法によるベンゼン濃度の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -8717,7 +8717,7 @@ traps:
   foundation: null
   seat: 高速液体クロマトグラフ分析
   name: 蛍光光度検出器は紫外光で励起し長波長の蛍光を測る
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -8734,7 +8734,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 標準溶液の標準物質の組合せ（塩素は次亜塩素酸ナトリウム）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -8751,7 +8751,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 透過光の強さは濃度に比例しない（比例するのは吸光度）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8768,7 +8768,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: ホルムアルデヒドは水素炎イオン化検出器で検出されない
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8785,7 +8785,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 構造式の図：ベンゾトリクロリド（ベンゼン環に−CCl₃）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -8802,7 +8802,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 酸化プロピレンの捕集は固体捕集法（球状活性炭管）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -8819,7 +8819,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 沸点が最も低い物質（ホルムアルデヒドなど）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -8836,7 +8836,7 @@ traps:
   foundation: null
   seat: 定量下限と計算問題
   name: 定量下限は標準偏差の10倍（10σ）の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -8853,7 +8853,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 標準溶液の標準物質の組合せ（硫酸ジメチルは硫酸ナトリウムではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -8870,7 +8870,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 常温（25℃）で液体か気体かの見分け（エチレンオキシド・臭化メチル）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -8887,7 +8887,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 真空捕集びんのコックにグリースを塗らない
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -8904,7 +8904,7 @@ traps:
   foundation: null
   seat: 分析の一般的事項（試薬・標準液・拡散セル）
   name: 25℃・1気圧の気体1 molの体積は24.45 L（22.4 Lではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2021-08
@@ -8921,7 +8921,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: シアン化水素用検知管のマイナス妨害（アンモニア）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2022-08
@@ -8938,7 +8938,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 吸光度0.3では入射光の約50％が吸収される
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2023-08
@@ -8955,7 +8955,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: α-ナフチルアミンの蛍光光度法は誘導体化しない
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2023-08
@@ -8972,7 +8972,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 官能基の図：イソシアネート基は−N＝C＝O
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2023-08
@@ -8989,7 +8989,7 @@ traps:
   foundation: null
   seat: 特定化学物質
   name: 次亜塩素酸ナトリウムの標定（ヨウ素・チオ硫酸ナトリウム・でんぷん）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2023-08
@@ -9006,7 +9006,7 @@ traps:
   foundation: null
   seat: ガスクロマトグラフ分析の実際
   name: 理論段数の異なるカラムでのピーク幅の比の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2025-08
@@ -9023,7 +9023,7 @@ traps:
   foundation: null
   seat: 原子吸光分析の実際
   name: 原子吸光の光源の輝線幅は吸収線の線幅より狭い
-  rank: S
+  rank: A
   count: 5
   exams:
   - 2017-08
@@ -9081,7 +9081,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 加熱して発色させた試料は常温に戻してから測定する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -9099,7 +9099,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ヒ素の水素化物は水素化ホウ素ナトリウムと塩酸による還元で発生
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2015-08
@@ -9117,7 +9117,7 @@ traps:
   foundation: null
   seat: 金属類
   name: カドミウムのAPDC錯体は弱酸性で抽出する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2016-08
@@ -9135,7 +9135,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ヒ素の標準原液は水酸化ナトリウムで溶解する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2016-08
@@ -9153,7 +9153,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ニッケルの試料溶解に硫酸は使わない
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2016-08
@@ -9171,7 +9171,7 @@ traps:
   foundation: null
   seat: 金属類
   name: 三酸化二ヒ素からヒ素濃度を求める計算
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2016-08
@@ -9189,7 +9189,7 @@ traps:
   foundation: null
   seat: 金属類
   name: 酸化クロム(Ⅲ)は塩酸に溶けない
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -9207,7 +9207,7 @@ traps:
   foundation: null
   seat: 金属類
   name: DDTCはキレート剤（緩衝剤ではない）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -9225,7 +9225,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ニッケルの最終試料液の酸濃度は1〜2 mol/L以下
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -9243,7 +9243,7 @@ traps:
   foundation: null
   seat: 原子吸光分析の実際
   name: 原子吸光は基底状態の原子の光吸収を利用する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2019-08
@@ -9280,7 +9280,7 @@ traps:
   foundation: null
   seat: 金属類
   name: 酸化マンガン(Ⅳ)は水に溶けない
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9297,7 +9297,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ベリリウムの電気加熱式原子吸光の灰化温度は1,000℃以下
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9314,7 +9314,7 @@ traps:
   foundation: null
   seat: 金属類
   name: DDTC錯体の分配係数から水相に残る量を求める計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9331,7 +9331,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 紫外部の光源は重水素ランプ（タングステンランプは可視部）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9348,7 +9348,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ジフェニルカルバジドはクロム(Ⅵ)の発色試薬
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9365,7 +9365,7 @@ traps:
   foundation: null
   seat: 金属類
   name: ベリリウムの原子吸光の試料は硫酸と硝酸で溶解する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9382,7 +9382,7 @@ traps:
   foundation: null
   seat: 金属類
   name: クロム酸のろ過捕集試料は炭酸ナトリウム溶液で抽出する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9399,7 +9399,7 @@ traps:
   foundation: null
   seat: 金属類
   name: バナジウムの湿式灰化は硫酸と過酸化水素水
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9416,7 +9416,7 @@ traps:
   foundation: null
   seat: 金属類
   name: マンガンの分析線の近くには近接線がある
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9433,7 +9433,7 @@ traps:
   foundation: null
   seat: 原子吸光分析の実際
   name: 鉛の分析線217.0 nmはノイズが大きい（283.3 nmを使う）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9450,7 +9450,7 @@ traps:
   foundation: null
   seat: 吸光光度分析の実際
   name: 吸光度の誤差が最小になるのは約0.4（透過率約37％）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -9467,7 +9467,7 @@ traps:
   foundation: null
   seat: 金属類
   name: クロム(Ⅵ)の測定波長は543 nm
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -9484,7 +9484,7 @@ traps:
   foundation: null
   seat: 金属類
   name: バナジウムのバックグラウンド補正は重水素ランプ
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -9501,7 +9501,7 @@ traps:
   foundation: null
   seat: 金属類
   name: 鉛の濃度（mg/m³）の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -9518,7 +9518,7 @@ traps:
   foundation: null
   seat: ICP-AES・ICP-MS
   name: ICP-AESでは試料溶液の粘性が測定値に影響する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -9535,7 +9535,7 @@ traps:
   foundation: null
   seat: 分析の一般的事項（試薬・標準液・拡散セル）
   name: 塩酸ヒドロキシルアミンは還元剤（キレート剤ではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -9552,7 +9552,7 @@ traps:
   foundation: null
   seat: 金属類
   name: マンガンは近接線があるのでスリット幅を狭くする
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -9569,7 +9569,7 @@ traps:
   foundation: null
   seat: 金属類
   name: クロム標準液の調製に必要なクロム酸カリウムの質量の計算
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -9586,7 +9586,7 @@ traps:
   foundation: null
   seat: ICP-AES・ICP-MS
   name: ICPのプラズマ炎の中心部は周囲より温度が低い
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -9603,7 +9603,7 @@ traps:
   foundation: null
   seat: 金属類
   name: 鉛の濃度（mg/m³）の計算（電気加熱式原子吸光）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -9620,7 +9620,7 @@ traps:
   foundation: null
   seat: 金属類
   name: 金属元素の原子半径は周期内で左から右へ小さくなる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2022-08
@@ -9637,7 +9637,7 @@ traps:
   foundation: null
   seat: 金属類
   name: マンガンの捕集はガラス繊維ろ紙（混合セルロースエステルではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2023-08
@@ -9677,7 +9677,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 質量濃度変換係数（K値）の誤差の計算
-  rank: S
+  rank: A
   count: 5
   exams:
   - 2015-08
@@ -9722,7 +9722,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: りん酸法による石英含有率の計算
-  rank: S
+  rank: A
   count: 5
   exams:
   - 2016-08
@@ -9742,7 +9742,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 吸入性粉じんの分粒装置は4 µmの粒子を50％除去する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2016-08
@@ -9760,7 +9760,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: フィルターは秤量の2時間前から天びん室に静置する
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2017-08
@@ -9778,7 +9778,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 王水添加りん酸法の最適加熱条件（微斜長石1％以下・石英95％以上）
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -9796,7 +9796,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: X線吸収補正係数は基底標準の回折線強度の減少から求める
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2018-08
@@ -9814,7 +9814,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: Kβ除去フィルターは対陰極より原子番号が1小さい物質
-  rank: A
+  rank: B
   count: 3
   exams:
   - 2019-08
@@ -9832,7 +9832,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 電界中の粒子の移動速度は粒径が小さいほど速い
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9849,7 +9849,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 多段平行板式の50％分粒粒径は流量の1/2乗に比例
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9866,7 +9866,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 再発じん法・X線回折法とりん酸法の含有率の比較
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9883,7 +9883,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: メンブランフィルターの屈折率は約1.5
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2015-08
@@ -9900,7 +9900,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 遠心力場の移動速度は回転半径に比例（反比例ではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9917,7 +9917,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 質量濃度変換係数は粒径が大きいほど大きい
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9934,7 +9934,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 再発じん法で試料が足りないときは試料を新しくする
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9951,7 +9951,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 王水添加りん酸法で使わない試薬（ホウケイ酸カリウム）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2016-08
@@ -9968,7 +9968,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: メンブランフィルターは繊維層フィルターより空間率が低い
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -9985,7 +9985,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 面積式流量計は浮子とテーパー管の間隙の面積と流量が比例
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -10002,7 +10002,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: フィルターの透明化はアセトン蒸気（トリアセチン蒸気ではない）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2017-08
@@ -10019,7 +10019,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 温度の偏りがある空間では粒子は低温側へ向かう（熱泳動）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2018-08
@@ -10036,7 +10036,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 終末速度は粒径の2乗と粘性係数の逆数に比例する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -10053,7 +10053,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: ろ過材の圧力損失は流速にほぼ比例する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -10070,7 +10070,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 繊維層フィルターの捕集効率は0.1〜0.3 µmで最も低い
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -10087,7 +10087,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 粉じんの種類（屈折率）が違えば相対濃度の値は異なる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -10104,7 +10104,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 液相沈降法の手順（目開き75 µm・約500 mL・りん酸法）
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -10121,7 +10121,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 炭酸カルシウムがある試料の基底標準板はアルミニウム板
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2019-08
@@ -10138,7 +10138,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: ストークスの式から粒径を求める式
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -10155,7 +10155,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 数µmの粒子の散乱光強度は散乱角度によって変わる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -10172,7 +10172,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 併行測定は任意の測定点で行う
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -10189,7 +10189,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 堆積粉じんは腰より高い位置のものを採取する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -10206,7 +10206,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 受光スリットを広げると回折ピークがブロードになる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -10223,7 +10223,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 金属基底標準板は石英の主回折線より高角度側の材質
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2020-08
@@ -10240,7 +10240,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 吸収補正で定量範囲は広くなる
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2021-08
@@ -10257,7 +10257,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 石綿の計数は大円内で200本以上または50視野
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2021-08
@@ -10274,7 +10274,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 円形ノズル式インパクターの50％分粒粒径は密度の平方根に反比例
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2022-08
@@ -10291,7 +10291,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: トリジマイト・クリストバライトがあるときはりん酸法を使わない
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2023-08
@@ -10308,7 +10308,7 @@ traps:
   foundation: null
   seat: 鉱物性粉じん
   name: 圧電天びん方式は質量が増えると周波数が減少する
-  rank: B
+  rank: C
   count: 2
   exams:
   - 2024-08
@@ -10325,7 +10325,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：鉱物性粉じん
-  rank: C
+  rank: S
   count: 139
   exams:
   - 2015-08
@@ -10352,7 +10352,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：原子吸光分析の実際
-  rank: C
+  rank: S
   count: 12
   exams:
   - 2015-08
@@ -10376,7 +10376,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：蛍光光度分析の実際
-  rank: C
+  rank: S
   count: 12
   exams:
   - 2016-08
@@ -10399,7 +10399,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：ICP-AES・ICP-MS
-  rank: C
+  rank: S
   count: 14
   exams:
   - 2016-08
@@ -10422,7 +10422,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：金属類
-  rank: C
+  rank: S
   count: 100
   exams:
   - 2015-08
@@ -10449,7 +10449,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：定量下限と計算問題
-  rank: C
+  rank: A
   count: 6
   exams:
   - 2021-08
@@ -10469,7 +10469,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：吸光光度分析の実際
-  rank: C
+  rank: A
   count: 5
   exams:
   - 2015-08
@@ -10489,7 +10489,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：蛍光光度分析の実際
-  rank: C
+  rank: A
   count: 4
   exams:
   - 2016-08
@@ -10508,7 +10508,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：ガスクロマトグラフ分析の実際
-  rank: C
+  rank: S
   count: 12
   exams:
   - 2015-08
@@ -10550,7 +10550,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：高速液体クロマトグラフ分析
-  rank: C
+  rank: S
   count: 9
   exams:
   - 2015-08
@@ -10574,7 +10574,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：定量下限と計算問題
-  rank: C
+  rank: S
   count: 6
   exams:
   - 2017-08
@@ -10593,7 +10593,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：特定化学物質
-  rank: C
+  rank: S
   count: 95
   exams:
   - 2015-08
@@ -10620,7 +10620,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：吸光光度分析の実際
-  rank: C
+  rank: S
   count: 6
   exams:
   - 2016-08
@@ -10641,7 +10641,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：ガスクロマトグラフ分析の実際
-  rank: C
+  rank: S
   count: 51
   exams:
   - 2015-08
@@ -10668,7 +10668,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：分析の一般的事項（試薬・標準液・拡散セル）
-  rank: C
+  rank: A
   count: 7
   exams:
   - 2015-08
@@ -10690,7 +10690,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：定量下限と計算問題
-  rank: C
+  rank: S
   count: 11
   exams:
   - 2017-08
@@ -10713,7 +10713,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：吸光光度分析の実際
-  rank: C
+  rank: S
   count: 16
   exams:
   - 2015-08
@@ -10738,7 +10738,7 @@ traps:
   foundation: null
   seat: その他
   name: その他（単発）：有機溶剤
-  rank: C
+  rank: S
   count: 60
   exams:
   - 2015-08

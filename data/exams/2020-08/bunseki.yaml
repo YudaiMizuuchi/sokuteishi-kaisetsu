@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -78,9 +78,8 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-solution-01
+    level: C
+    why: q_seen
 - num: 3
   status: published
   chapters:
@@ -118,8 +117,7 @@ questions:
     count: 9
     form: 計算問題
     level: A
-    why: pat_A
-    pat: an-gas-03
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -154,22 +152,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 1
+    - 4
+    - 4
+    - 1
+    points:
+    - pt-bunseki-0224
+    - pt-bunseki-0453
+    - pt-bunseki-0055
+    - pt-bunseki-0055
+    - pt-bunseki-0373
+    pnames:
+    - アセトンはイソプロピルアルコールの酸化で得られる。
+    - アセチレンに水を付加すると、アセトアルデヒドが得られる。
+    - 酢酸は、エタノールの酸化によって生じる。
+    - 酢酸は、エタノールの酸化によって生じる。
+    - 酢酸エチルを加水分解すると、酢酸とエタノールを生じる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_pat
+    - ans_seen
     - new
+    - ''
+    - ''
     - new
-    - new
-    - new
-    pat: an-organic-02
 - num: 5
   status: published
   chapters:
@@ -204,8 +249,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -244,9 +289,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-solution-03
+    level: B
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -281,20 +325,68 @@ questions:
     - 3
     - 3
     - 1
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 1
     - 1
     - 7
     - 3
     - 1
-    truths: 正誤正正正
-    level: C
+    points:
+    - pt-bunseki-0374
+    - pt-bunseki-0258
+    - pt-bunseki-0013
+    - pt-bunseki-0120
+    - pt-bunseki-0375
+    pnames:
+    - 天秤は熱源や直射日光を避けた場所に設置する。
+    - 白金抵抗温度計は、2種類の導体接合部に温度に応じた起電力を生じるゼーベック効果を利用して温度測定を行う（誤りの記述）
+    - 石けん膜流量計は、一定の体積の気体が流れるのに要する時間から流量を測定する
+    - マイクロシリンジの計量目盛りは、針の部分の体積を含まない。
+    - ガスの高圧容器の色は、法令により充塡するガスの種類に応じて定められている
+    prcounts:
+    - 0
+    - 0
+    - 11
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0034
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 流量計の原理と校正
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - ans_new
     - odo
-    - odo
+    - ''
     - new
 - num: 8
   status: published
@@ -330,20 +422,68 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 2
-    - 2
-    - 1
-    - 1
-    - 2
     truths: 誤正正正正
+    pcounts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0177
+    - pt-bunseki-0202
+    - pt-bunseki-0261
+    - pt-bunseki-0147
+    - pt-bunseki-0147
+    pnames:
+    - バブラーによる蒸気の捕集効率は、通気速度のみに依存する。（誤りの記述）
+    - インピンジャーによる粒子の捕集効率は、粒子の径に依存する。
+    - 液体捕集法の捕集効率は同じ条件の吸収びん2本を直列に接続し、それぞれの液体吸収びんに捕集された測定対象物質の量を用いて求めることができる
+    - 鉱物性粉じん用の相対濃度計には、圧電天秤方式と光散乱方式がある。
+    - 鉱物性粉じん用の相対濃度計には、圧電天秤方式と光散乱方式がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: C
-    why: none
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - ''
     - new
-    - new
+    - ''
     - ''
 - num: 9
   status: published
@@ -378,8 +518,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-reagents-01
 - num: 10
   status: published
@@ -415,21 +555,69 @@ questions:
     - 3
     - 4
     - 3
-    similar:
-    - 3
-    - 3
-    - 3
-    - 4
-    - 3
     truths: 正正正正誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 5
+    - 3
+    points:
+    - pt-bunseki-0103
+    - pt-bunseki-0105
+    - pt-bunseki-0104
+    - pt-bunseki-0038
+    - pt-bunseki-0108
+    pnames:
+    - 測定対象ガスと妨害ガスが共存する場合は、個々のガス濃度もガス濃度の合計も測定できない
+    - 補助反応試薬を別のガラス管に充填して、検知管と二段にして使用するものがある
+    - 一般に、測定対象ガスの濃度と検知管の変色域の長さとは比例しない。
+    - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある
+    - 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+    - []
+    level: C
+    why: seen
     tags:
-    - odo
-    - odo
-    - odo
-    - odo
-    - ans_b
+    - ''
+    - ''
+    - ''
+    - ''
+    - ans_seen
 - num: 11
   status: published
   chapters:
@@ -464,8 +652,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-03
 - num: 12
   status: published
@@ -498,8 +686,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 13
   status: published
@@ -539,8 +727,7 @@ questions:
     count: 17
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -572,22 +759,69 @@ questions:
     - 1
     - 3
     - 2
-    similar:
+    truths: 正誤正正正
+    pcounts:
+    - 2
+    - 6
+    - 1
+    - 11
+    - 6
+    points:
+    - pt-bunseki-0171
+    - pt-bunseki-0041
+    - pt-bunseki-0376
+    - pt-bunseki-0003
+    - pt-bunseki-0019
+    pnames:
+    - 光が溶液中の試料成分に吸収されると、光の強さは減少する。
+    - 光源にタングステンランプを用いる。
+    - 石英セルは、紫外領域と可視領域の測定に用いることができる。
+    - 吸光度は、通常、極大吸収波長で測定する。
+    - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0003
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - モル吸光係数の性質
+    trend:
+    - 0
+    - 3
+    - 0
     - 2
     - 1
-    - 2
-    - 4
-    - 2
-    truths: 正誤正正正
+    near:
+    - false
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2017-02
+    - - 2019-02
+    - []
+    - - 2026-08
     level: A
-    why: pat_A
+    why: trend_A
     tags:
     - ''
-    - ans_pat
-    - ''
+    - ans_trend
+    - new
     - odo
-    - ''
-    pat: an-spectrophotometry-02
+    - odo
 - num: 15
   status: published
   chapters:
@@ -622,22 +856,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 1
+    - 1
+    - 4
+    - 5
+    - 5
+    points:
+    - pt-bunseki-0377
+    - pt-bunseki-0338
+    - pt-bunseki-0068
+    - pt-bunseki-0042
+    - pt-bunseki-0032
+    pnames:
+    - 光源からは、金属原子の共鳴線が放射される。
+    - 試料溶液中の金属イオンは、フレーム中で原子化される。
+    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 定量は、検量線法で行う。
+    - 重水素放電管はバックグラウンドの補正に用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 16
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0008
+    - ''
+    - pr-bunseki-0010
+    prnames:
+    - ''
+    - ''
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - バックグラウンド補正
+    trend:
+    - 0
+    - 0
+    - 0
+    - 3
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - new
     - new
-    - ans_pat
-    - new
-    - new
-    pat: an-aas-01
+    - ans_pr
+    - ''
+    - ''
 - num: 16
   status: published
   chapters:
@@ -672,21 +953,69 @@ questions:
     - 8
     - 7
     - 2
-    similar:
-    - 1
-    - 3
-    - 11
-    - 11
-    - 2
     truths: 正正正正誤
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 13
+    - 16
+    - 16
+    - 9
+    points:
+    - pt-bunseki-0378
+    - pt-bunseki-0002
+    - pt-bunseki-0001
+    - pt-bunseki-0001
+    - pt-bunseki-0009
+    pnames:
+    - 蛍光のピーク波長は、溶媒の種類で異なる場合がある。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 励起光に対して直角方向の蛍光を測定する。
+    prcounts:
+    - 0
+    - 15
+    - 16
+    - 16
+    - 10
+    principles:
+    - ''
+    - pr-bunseki-0004
+    - pr-bunseki-0005
+    - pr-bunseki-0005
+    - pr-bunseki-0006
+    prnames:
+    - ''
+    - 蛍光は励起光より長波長
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光は励起光と直角方向で測る
+    trend:
+    - 0
+    - 2
+    - 2
+    - 2
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pt_A
     tags:
     - new
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_hi
 - num: 17
   status: published
   chapters:
@@ -749,12 +1078,77 @@ questions:
   _key_choice: カラムの膜厚が厚いほど大きくなる。
   _stem_head: ガスクロマトグラフ分析法に用いられるキャピラリーカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
+    counts:
+    - 1
+    - 1
+    - 4
+    - 1
+    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 9
+    - 1
+    - 4
+    - 5
+    - 5
+    points:
+    - pt-bunseki-0008
+    - pt-bunseki-0454
+    - pt-bunseki-0090
+    - pt-bunseki-0028
+    - pt-bunseki-0028
+    pnames:
+    - 測定対象物質ごとに異なる。
+    - キャリアーガス流量により異なる。
+    - カラム内径が小さいほど大きくなる。
+    - カラムの温度に依存する。
+    - カラムの温度に依存する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2019-02
+    - []
+    - - 2021-08
     level: S
     why: pat_S
+    tags:
+    - odo
+    - new
+    - ''
+    - ''
+    - ans_pat
     pat: an-gc-02
 - num: 19
   status: published
@@ -785,27 +1179,78 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 4
     - 6
     - 2
-    - 3
-    similar:
     - 4
-    - 6
-    - 6
-    - 2
-    - 3
     truths: 誤正正正正
+    pcounts:
+    - 6
+    - 7
+    - 6
+    - 2
+    - 5
+    points:
+    - pt-bunseki-0027
+    - pt-bunseki-0021
+    - pt-bunseki-0023
+    - pt-bunseki-0170
+    - pt-bunseki-0069
+    pnames:
+    - 分析には、連続X線を用いる。（誤りの記述）
+    - この分析法では、X線の回折角及び回折線の強度を測定する。
+    - フィルターに捕集した試料をそのまま分析することができる。
+    - 測定試料は、一般に粒径が1µm～10µmの粉末が適当である。
+    - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある
+    prcounts:
+    - 16
+    - 17
+    - 0
+    - 0
+    - 5
+    principles:
+    - pr-bunseki-0012
+    - pr-bunseki-0011
+    - ''
+    - ''
+    - pr-bunseki-0013
+    prnames:
+    - X線回折の線源は特性X線
+    - X線回折のブラッグの条件
+    - ''
+    - ''
+    - X線の吸収補正
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2021-02
+      - 2022-08
+      - 2025-02
+    - []
+    - []
+    - - 2021-02
+      - 2022-08
+      - 2026-08
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - ans_pat
-    - odo
+    - ans_pr
     - odo
     - ''
-    - odo
-    pat: an-xrd-02
+    - ''
+    - ''
 - num: 20
   status: published
   chapters:
@@ -840,6 +1285,6 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-logarithm-03

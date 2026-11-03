@@ -32,12 +32,79 @@ questions:
   law_note: null
   _review: true
   freq:
-    kind: question
+    kind: choice
     denom: 12
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0002
+    - pt-tokka-0245
+    - pt-tokka-0184
+    - pt-tokka-0122
+    - pt-tokka-0202
+    pnames:
+    - 捕集液は水酸化ナトリウム溶液を用いる。
+    - 捕集器具としてミゼットインピンジャーを用いる。
+    - 標準原液は、ポリエチレン製の容器に保存する。
+    - ランタン-アリザリンコンプレクソン錯体は、フッ化物イオンと複合錯体を形成する
+    - 発色操作はpH2で行う。（誤りの記述）
+    prcounts:
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-tokka-0007
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 酸性ガスは塩基性の捕集液に吸収される
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
+    level: B
+    why: subst
+    tags:
+    - odo
+    - new
+    - new
+    - new
+    - ans_subst
 - num: 2
   status: published
   chapters:
@@ -73,9 +140,8 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-052
+    level: D
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -106,8 +172,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3029
+    subst_name: ベンゼン
+    level: B
+    why: subst
 - num: 4
   status: published
   chapters:
@@ -151,9 +219,10 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-041
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: B
+    why: subst
 - num: 5
   status: published
   chapters:
@@ -191,20 +260,68 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 3
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 1
+    - 4
+    - 5
+    - 1
+    points:
+    - pt-tokka-0185
+    - pt-tokka-0203
+    - pt-tokka-0010
+    - pt-tokka-0003
+    - pt-tokka-0204
+    pnames:
+    - エチレンオキシドの捕集管には、臭化水素酸を含浸させて乾燥させた活性炭を充塡する
+    - エチレンオキシドは、2-ブロモエタノールに誘導体化して捕集する。
+    - 捕集は、30L･min⁻¹の一定流量で試料空気を吸引する。
+    - 活性炭からの脱着には、二硫化炭素を用いる。
+    - 質量分析でのイオン化は、電子イオン化法で行う。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2018-08
+    - []
+    level: S
+    why: pt_S
     tags:
     - new
     - new
     - odo
-    - ans_new
+    - ans_hi
     - new
 - num: 6
   status: published
@@ -243,21 +360,69 @@ questions:
     - 2
     - 2
     - 1
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 3
+    - 2
+    - 2
+    - 4
+    - 2
+    points:
+    - pt-tokka-0028
+    - pt-tokka-0065
+    - pt-tokka-0066
+    - pt-tokka-0009
+    - pt-tokka-0067
+    pnames:
+    - 水素炎中で燃焼し、イオン化する物質のみを検出する。
+    - 水素炎イオン化検出器は、ハロゲン化炭化水素に対して感度が高い。（誤りの記述）
+    - 電子捕獲型検出器は、電子親和力の強い物質が高感度で検出される。
+    - 直線性を示す測定範囲は、電子捕獲検出器(ECD)よりも広い
+    - 炎光光度検出器は、リンや硫黄を含む化合物に選択性がある。
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 0
+    - 9
+    principles:
+    - pr-tokka-0004
+    - pr-tokka-0004
+    - pr-tokka-0004
+    - ''
+    - pr-tokka-0004
+    prnames:
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    trend:
+    - 1
+    - 1
     - 1
     - 2
-    - 3
     - 1
-    truths: 正誤正正正
-    level: B
-    why: elim_two
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2026-08
+    level: S
+    why: pr_S
     tags:
     - odo
-    - ans_new
+    - ans_pr
     - odo
     - odo
-    - new
+    - odo
 - num: 7
   status: published
   chapters:
@@ -295,8 +460,7 @@ questions:
     count: 4
     form: 選択肢が物質名などの問題
     level: A
-    why: pat_A
-    pat: sl-tokka-040
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -367,8 +531,10 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -406,21 +572,69 @@ questions:
     - 2
     - 4
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 2
     - 1
     - 3
-    - 4
+    - 5
+    - 2
+    points:
+    - pt-tokka-0055
+    - pt-tokka-0142
+    - pt-tokka-0025
+    - pt-tokka-0013
+    - pt-tokka-0043
+    pnames:
+    - ガスクロマトグラフ分析法と比較して、多量の試料が導入できる。
+    - 移動相中の溶存空気は、気泡となり分析の妨害になることがある。
+    - ODSカラムは、強塩基性の移動相によって化学的な劣化を受ける。
+    - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+    - 一般的に、検出器の温度が上昇すると、蛍光強度は減少する。
+    prcounts:
+    - 0
+    - 0
+    - 6
+    - 9
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-tokka-0003
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
     - 1
-    truths: 正正正正誤
-    level: B
-    why: elim_two
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - odo
+    - ''
     - new
     - odo
     - odo
-    - ans_new
+    - ans_seen
 - num: 11
   status: published
   chapters:
@@ -467,20 +681,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
-    - 2
-    - 1
-    - 3
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 1
+    - 1
+    points:
+    - pt-tokka-0036
+    - pt-tokka-0030
+    - pt-tokka-0032
+    - pt-tokka-0256
+    - pt-tokka-0143
+    pnames:
+    - α-ナフチルアミンは、インピンジャーを用いて捕集する。
+    - エチルエーテルを用いて捕集液から抽出する。
+    - 亜硝酸ナトリウムとスルファニル酸を加えて、発色させる。（誤りの記述）
+    - 薄層クロマトグラフ法を用いて単離する。
+    - 紫外線を照射し、生じる蛍光の強度を測定して定量する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2022-08
+    - []
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_new
-    - odo
+    - ans_b
+    - new
     - new
 - num: 12
   status: published
@@ -521,9 +783,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-041
+    level: B
+    why: q_b
 - num: 13
   status: published
   chapters:
@@ -562,9 +823,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-048
+    level: B
+    why: q_b
 - num: 14
   status: published
   chapters:
@@ -602,19 +862,67 @@ questions:
     - 2
     - 2
     - 2
-    similar:
+    truths: 正正誤正正
+    pcounts:
+    - 1
     - 1
     - 2
     - 2
-    - 2
-    - 2
-    truths: 正正誤正正
-    level: B
-    why: ans_b
+    - 3
+    points:
+    - pt-tokka-0246
+    - pt-tokka-0230
+    - pt-tokka-0040
+    - pt-tokka-0040
+    - pt-tokka-0034
+    pnames:
+    - 両物質とも、エチルアルコールによく溶ける。
+    - 両物質とも、液体の密度は水の密度より大きい。
+    - 臭化メチルの方が、ヨウ化メチルより常温（25 ℃）での蒸気圧が大きい
+    - 臭化メチルの方が、ヨウ化メチルより常温（25 ℃）での蒸気圧が大きい
+    - 臭化メチルの沸点は、水の融点より高い。
+    prcounts:
+    - 0
+    - 0
+    - 5
+    - 5
+    - 5
+    principles:
+    - ''
+    - ''
+    - pr-tokka-0011
+    - pr-tokka-0011
+    - pr-tokka-0011
+    prnames:
+    - ''
+    - ''
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    trend:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2016-08
+    level: S
+    why: trend_S
     tags:
     - new
-    - odo
-    - ans_b
+    - new
+    - ans_trend
     - odo
     - odo
 - num: 15
@@ -644,8 +952,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 16
   status: published
   chapters:
@@ -681,8 +989,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
+    level: B
+    why: subst
 - num: 17
   status: published
   chapters:
@@ -723,9 +1033,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-050
+    level: B
+    why: q_b
 - num: 18
   status: published
   chapters:
@@ -759,7 +1068,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 19
   status: published
@@ -788,9 +1097,10 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-042
+    subst_id: sb-tokka-3012
+    subst_name: オルト-フタロジニトリル
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:
@@ -828,18 +1138,67 @@ questions:
     - 3
     - 3
     - 4
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 1
-    - 2
-    - 3
+    - 4
     - 3
     - 4
-    truths: 正誤正正正
-    level: B
-    why: ans_b
+    - 4
+    points:
+    - pt-tokka-0144
+    - pt-tokka-0015
+    - pt-tokka-0031
+    - pt-tokka-0008
+    - pt-tokka-0011
+    pnames:
+    - 真空捕集びんは、内圧を、1.33kPa以下にしたものを使用する。
+    - 真空捕集瓶のコックのすり合わせ部には、グリースを使用しない。
+    - 捕集袋は、清浄な乾燥空気又は窒素を用いて洗浄する。
+    - 試料空気から水分を取り除く場合には、ガラス管に無水硫酸カルシウム粒などの乾燥剤を詰めて、試料採取口の前に接続する
+    - 電動ポンプを通して、捕集袋内に試料空気を送り採取する場合、ポンプ内の吸着に注意する必要がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 2
+    - 1
+    - 2
+    - 2
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2025-08
+      - 2026-08
+    - []
+    - - 2026-08
+    - []
+    level: S
+    why: trend_S
     tags:
     - new
-    - ans_b
+    - ans_trend
     - odo
     - odo
     - odo

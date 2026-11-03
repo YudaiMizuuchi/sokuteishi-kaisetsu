@@ -46,7 +46,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 2
   status: published
@@ -79,21 +79,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 誤誤誤誤正
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-yuki-0085
+    - pt-yuki-0085
+    - pt-yuki-0085
+    - pt-yuki-0085
+    - pt-yuki-0085
+    pnames:
+    - アセトン、二硫化炭素、エチルエーテル
+    - アセトン、二硫化炭素、エチルエーテル
+    - アセトン、二硫化炭素、エチルエーテル
+    - アセトン、二硫化炭素、エチルエーテル
+    - アセトン、二硫化炭素、エチルエーテル
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: C
-    why: none
+    why: seen
     tags:
-    - new
-    - new
-    - new
-    - new
-    - ans_new
+    - ''
+    - ''
+    - ''
+    - ''
+    - ans_seen
 - num: 3
   status: published
   chapters:
@@ -124,7 +172,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 4
   status: published
@@ -164,18 +212,67 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 5
-    - 1
-    - 1
-    - 2
-    - 2
     truths: 正誤正正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 5
+    - 7
+    - 1
+    - 4
+    - 5
+    points:
+    - pt-yuki-0026
+    - pt-yuki-0004
+    - pt-yuki-0280
+    - pt-yuki-0036
+    - pt-yuki-0025
+    pnames:
+    - 流量計の校正には、基準流量計として石けん膜流量計を用いることができる
+    - 活性炭管に試料を捕集する際に用いる電動ポンプは、活性炭管を接続して流量を調整する
+    - 捕集管の活性炭量に比べて脱着溶媒の量が少ない場合、脱着率が低くなることがある
+    - 真空捕集びんは、捕集びん内の圧力を1.33kPa以下にしたものを使用する
+    - 真空捕集瓶のコックには、グリースは使用しない。
+    prcounts:
+    - 8
+    - 8
+    - 0
+    - 0
+    - 10
+    principles:
+    - pr-yuki-0020
+    - pr-yuki-0020
+    - ''
+    - ''
+    - pr-yuki-0021
+    prnames:
+    - 流量計の校正と圧力損失
+    - 流量計の校正と圧力損失
+    - ''
+    - ''
+    - 真空捕集びんと捕集袋の使い方
+    trend:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2018-08
+      - 2024-08
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
-    - ans_new
+    - ans_pr
     - new
     - odo
     - odo
@@ -213,8 +310,8 @@ questions:
     denom: 12
     count: 4
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -255,18 +352,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 2
     - 2
     - 1
     - 1
     - 1
-    truths: 正正正誤正
-    level: C
+    points:
+    - pt-yuki-0089
+    - pt-yuki-0089
+    - pt-yuki-0152
+    - pt-yuki-0152
+    - pt-yuki-0281
+    pnames:
+    - サンプリング速度は、拡散係数（cm²・min⁻¹）に比例する。
+    - サンプリング速度は、拡散係数（cm²・min⁻¹）に比例する。
+    - サンプリング速度は、拡散面断面積（cm²）に比例する。
+    - サンプリング速度は、拡散面断面積（cm²）に比例する。
+    - サンプリング速度は、実験により求めた値とは異なる場合がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2026-08
+    - []
+    level: D
     why: none
     tags:
-    - new
-    - odo
+    - ''
+    - ''
     - new
     - ans_new
     - new
@@ -297,9 +442,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-008
+    level: B
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -327,9 +471,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-025
+    level: D
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -366,22 +509,80 @@ questions:
     - 5
     - 3
     - 1
+    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 9
+    - 6
+    - 11
+    - 1
+    - 9
+    points:
+    - pt-yuki-0002
+    - pt-yuki-0019
+    - pt-yuki-0001
+    - pt-yuki-0155
+    - pt-yuki-0002
+    pnames:
+    - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる
+    - 溶出ピークの幅は、カラム内キャリアガスの渦流拡散の影響を受ける。
+    - カラムの理論段数は、キャリアガスの種類が関係する。
+    - 内径0.3 mmのキャピラリーカラムでは、キャリアガス流量が1～3mL･min⁻¹が適切である
+    - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる
+    prcounts:
+    - 0
+    - 12
+    - 12
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0008
+    - pr-yuki-0008
+    - ''
+    - ''
+    prnames:
+    - ''
+    - キャリアガスの流速とカラム効率
+    - キャリアガスの流速とカラム効率
+    - ''
+    - ''
+    trend:
     - 2
-    similar:
-    - 5
-    - 5
-    - 4
+    - 2
+    - 3
     - 1
     - 2
-    truths: 正正正正誤
-    level: B
-    why: ans_b
+    near:
+    - true
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2018-08
+      - 2026-08
+    - []
+    - - 2015-08
+      - 2019-08
+      - 2021-08
+    - - 2023-08
+    - - 2016-08
+      - 2017-08
+      - 2018-08
+      - 2019-08
+      - 2021-08
+      - 2022-08
+      - 2023-08
+      - 2026-08
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
     - new
-    - ans_b
+    - ans_hi
 - num: 10
   status: published
   chapters:
@@ -416,20 +617,71 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 1
-    - 2
-    - 1
-    - 2
     truths: 正誤正正正
-    level: C
-    why: none
+    pcounts:
+    - 5
+    - 6
+    - 2
+    - 1
+    - 2
+    points:
+    - pt-yuki-0048
+    - pt-yuki-0008
+    - pt-yuki-0096
+    - pt-yuki-0161
+    - pt-yuki-0094
+    pnames:
+    - 電子捕獲検出器（ECD）は、放射性同位元素から放出されるβ線を利用する方法で、電子親和力の強い物質の測定に適している
+    - 水素炎中で燃焼し、イオン化する物質の測定に適している。
+    - 熱伝導度検出器（TCD）は、キャリアガスと対象物質蒸気の熱伝導度の差を利用した検出器で、物質選択性がない
+    - 質量分析計（MS）は、分子構造情報を収集でき、未知物質の同定が可能である
+    - 光イオン化検出器（PID）は、紫外線を照射して対象物質をイオン化し、イオン電流を検出する方法で、多くの有機化合物を高感度で検出できる
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 8
+    - 9
+    principles:
+    - pr-yuki-0011
+    - pr-yuki-0011
+    - pr-yuki-0011
+    - pr-yuki-0014
+    - pr-yuki-0011
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - GC-MSのイオン化と質量分離
+    - 検出器の原理
+    trend:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2022-08
+    - - 2017-08
+      - 2018-08
+      - 2022-08
+      - 2024-08
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
-    - ans_new
     - odo
-    - new
+    - ans_pr
+    - odo
+    - odo
     - odo
 - num: 11
   status: published
@@ -461,9 +713,8 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-027
+    level: D
+    why: q_new
 - num: 12
   status: published
   chapters:
@@ -501,18 +752,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
+    truths: 正誤正正正
+    pcounts:
+    - 2
     - 2
     - 1
-    truths: 正誤正正正
+    - 4
+    - 1
+    points:
+    - pt-yuki-0088
+    - pt-yuki-0088
+    - pt-yuki-0198
+    - pt-yuki-0029
+    - pt-yuki-0185
+    pnames:
+    - カラムに導入される部分と排出される部分の比率をスプリット比という
+    - カラムに導入される部分と排出される部分の比率をスプリット比という
+    - スプリットレス注入法と比較して、低濃度成分の分析に不向きである。
+    - スプリットレス注入法と比較して、溶媒ピークの影響を受けにくい。
+    - スプリットレス注入法と比較して、ライナー内で気化した試料がカラムに導入されるまでの時間は短い
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2017-08
+    - []
     level: C
-    why: none
+    why: seen
     tags:
-    - new
-    - ans_new
+    - ''
+    - ans_seen
     - new
     - odo
     - new
@@ -550,21 +850,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 1
+    truths: 正正正正誤
+    pcounts:
     - 1
     - 2
+    - 6
+    - 2
+    - 2
+    points:
+    - pt-yuki-0169
+    - pt-yuki-0100
+    - pt-yuki-0012
+    - pt-yuki-0097
+    - pt-yuki-0118
+    pnames:
+    - 全イオンクロマトグラム（Total Ion Chromatogram）は、分子イオンとフラグメントイオンを合算したクロマトグラムである
+    - 安定同位体で置換した測定対象物質は、内部標準物質として使用できる
+    - 定量は代表的なイオンのピーク面積又は高さで行う。
+    - 定性分析は、測定対象物質と標準物質のマススペクトルを比較して行う
+    - 質量分析器により、同じ保持時間の有機溶剤でも、定量分析できることがある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 8
+    - 8
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0014
+    - pr-yuki-0014
+    prnames:
+    - ''
+    - ''
+    - ''
+    - GC-MSのイオン化と質量分離
+    - GC-MSのイオン化と質量分離
+    trend:
     - 1
     - 1
-    truths: 正正正正誤
-    level: C
-    why: none
+    - 3
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2020-08
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - new
-    - new
+    - ''
     - odo
-    - new
-    - ans_new
+    - odo
+    - ans_pr
 - num: 14
   status: published
   chapters:
@@ -600,21 +948,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
+    truths: 正正誤正正
+    pcounts:
     - 1
     - 2
     - 1
-    truths: 正正誤正正
-    level: C
-    why: none
+    - 7
+    - 1
+    points:
+    - pt-yuki-0209
+    - pt-yuki-0101
+    - pt-yuki-0231
+    - pt-yuki-0005
+    - pt-yuki-0186
+    pnames:
+    - 化学物質のイオン化法には、電子イオン化（EI）法のほかに、化学イオン化（CI）法などがある
+    - 電子イオン化（EI）法によるイオン化では、化学物質の分子イオンとフラグメントイオンが生成される
+    - 質量分離部には、磁場型と四重極型があり、後者の方が質量の分解能が高い（誤りの記述）
+    - 検出器には、光電子増倍管が用いられる。
+    - 質量分析計では、個々の化学物質に特有のマススペクトルが得られる。
+    prcounts:
+    - 0
+    - 8
+    - 0
+    - 0
+    - 8
+    principles:
+    - ''
+    - pr-yuki-0014
+    - ''
+    - ''
+    - pr-yuki-0014
+    prnames:
+    - ''
+    - GC-MSのイオン化と質量分離
+    - ''
+    - ''
+    - GC-MSのイオン化と質量分離
+    trend:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: elim_two
     tags:
     - new
-    - new
+    - odo
     - ans_new
     - odo
-    - new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -649,20 +1045,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 2
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 正正正誤正
-    level: B
-    why: elim_two
+    pcounts:
+    - 4
+    - 4
+    - 2
+    - 4
+    - 1
+    points:
+    - pt-yuki-0043
+    - pt-yuki-0031
+    - pt-yuki-0112
+    - pt-yuki-0028
+    - pt-yuki-0153
+    pnames:
+    - 検量線は、測定の都度、作成する。
+    - 管理濃度の1/10に相当する標準試料を調製する。
+    - 標準試料を5回繰り返し分析し、濃度を検量線から求める。
+    - 標準偏差の10倍の濃度を定量下限とする。
+    - 管理濃度の1/10倍濃度で得た最終試料液濃度が、分析機器の標準的な定量下限よりかなり高い場合は、定量下限は検量線作成時の最低濃度の標準液を用いて求めることが望ましい
+    prcounts:
+    - 0
+    - 4
+    - 0
+    - 4
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0016
+    - ''
+    - pr-yuki-0016
+    - ''
+    prnames:
+    - ''
+    - 定量下限と標準偏差
+    - ''
+    - 定量下限と標準偏差
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-08
+      - 2018-08
+    - []
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
-    - odo
-    - ans_new
+    - ''
+    - ans_pr
     - new
 - num: 16
   status: published
@@ -701,21 +1146,69 @@ questions:
     - 1
     - 5
     - 3
-    similar:
-    - 2
+    truths: 正正正正誤
+    pcounts:
+    - 3
     - 2
     - 1
-    - 5
-    - 3
-    truths: 正正正正誤
-    level: A
-    why: ans_hi
+    - 6
+    - 4
+    points:
+    - pt-yuki-0057
+    - pt-yuki-0125
+    - pt-yuki-0259
+    - pt-yuki-0013
+    - pt-yuki-0041
+    pnames:
+    - 測定可能な波長範囲は、通常200～1000nmである。
+    - 二重結合を持つ化合物は、紫外部の光を吸収する。
+    - 複数の吸収極大を示す化合物もある。
+    - 石英セルは、紫外領域の測定に用いられる。
+    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 10
+    - 12
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0004
+    - pr-yuki-0002
+    prnames:
+    - ''
+    - ''
+    - ''
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - 吸光度と透過率の関係
+    trend:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
-    - odo
+    - ''
     - new
     - odo
-    - ans_hi
+    - ans_pr
 - num: 17
   status: published
   chapters:
@@ -749,9 +1242,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-033
+    level: C
+    why: q_seen
 - num: 18
   status: published
   chapters:
@@ -793,9 +1285,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-034
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -837,7 +1328,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 20
   status: published
@@ -873,18 +1364,66 @@ questions:
     - 4
     - 3
     - 1
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 5
     - 1
     - 4
     - 3
     - 1
-    truths: 正誤正正正
+    points:
+    - pt-yuki-0016
+    - pt-yuki-0164
+    - pt-yuki-0030
+    - pt-yuki-0058
+    - pt-yuki-0165
+    pnames:
+    - 標準液は、対象の標準物質を脱着溶媒で正確な濃度に希釈したものを用いる
+    - 液体の体積の正確な計量が必要な標準液の調製には、メスシリンダーやメスピペットを使用する（誤りの記述）
+    - 比較的高濃度の溶液を標準原液として冷暗所に保管し、検量線作成の都度、適切に希釈して標準系列液を調製する
+    - 標準液の保存可能期間は、溶質と溶媒の組合せによって異なる。
+    - 未知試料中の対象物質の濃度が、標準系列液の最高濃度と最低濃度の間になるように調製する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 6
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0015
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 検量線法・内標準法・標準添加法
+    trend:
+    - 3
+    - 1
+    - 3
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - ans_new
     - odo
     - odo
-    - new
+    - odo

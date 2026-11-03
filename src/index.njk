@@ -71,9 +71,9 @@ eleventyComputed:
     <fieldset>
       <legend>問題の区分</legend>
       <div class="chips">
-        {% for r in [["S","得点必須S"],["A","得点必須A"],["B","何とか得点B"],["C","失点やむなしC"]] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r[0] }}"><span>{{ r[1] }}</span></label>{% endfor %}
+        {% for r in [["S","得点必須S"],["A","得点必須A"],["B","何とか得点B"],["C","余裕があれば得点C"],["D","失点やむなしD"]] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r[0] }}"><span>{{ r[1] }}</span></label>{% endfor %}
       </div>
-      <p class="hint">過去の出題頻度（選択肢・ひっかけパターン）から決めた、この問題の区分と、学習の優先度です。S：最優先、A：優先、B：余裕があれば、C：初見でも仕方がない。過去の全回の出題にもとづく目安です。</p>
+      <p class="hint">過去の出題頻度（選択肢・ひっかけパターン）から決めた、この問題の区分と、学習の優先度です。S：最優先、A：優先、B：押さえる、C：余裕があれば（過去に1回だけ出題）、D：初見で、失点しても仕方がない。捨てるのはDだけ。過去の全回の出題にもとづく目安です。</p>
     </fieldset>
     <button type="button" class="reset" id="reset">条件をすべて解除</button>
   </aside>

@@ -38,21 +38,69 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 2
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-tokka-0150
+    - pt-tokka-0082
+    - pt-tokka-0079
+    - pt-tokka-0057
+    - pt-tokka-0086
+    pnames:
+    - 光電子増倍管は、光の強度を電気信号に変換し、増幅する。
+    - 試料溶液に照射する光は、単色光である。
+    - 試料液を透過した光の強さは、試料液の濃度に比例する。（誤りの記述）
+    - ガラス製のセルは、可視部の吸収の測定に用いる。
+    - 着色液は、時間の経過とともに退色することがある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 8
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0002
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
+    - ''
+    - ans_seen
     - odo
-    - ans_b
-    - new
-    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -88,13 +136,63 @@ questions:
     - 2
     - 2
     - 1
-    similar:
-    - 2
-    - 5
-    - 2
-    - 2
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 5
+    - 5
+    - 3
+    - 4
+    - 1
+    points:
+    - pt-tokka-0002
+    - pt-tokka-0001
+    - pt-tokka-0026
+    - pt-tokka-0014
+    - pt-tokka-0233
+    pnames:
+    - 捕集液は水酸化ナトリウム溶液を用いる。
+    - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で標定する。
+    - 捕集液に酢酸を加え中和した後、発色試薬を加える。
+    - 発色操作には、クロラミンTとピリジン-ピラゾロンを用いる。
+    - 発色した溶液は、赤色を呈する。（誤りの記述）
+    prcounts:
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-tokka-0007
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 酸性ガスは塩基性の捕集液に吸収される
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 0
+    - 2
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2025-08
+    - []
+    - []
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
     level: B
     why: elim_all
     tags:
@@ -143,8 +241,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 4
   status: published
   chapters:
@@ -216,9 +314,10 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    subst_id: sb-tokka-3029
+    subst_name: ベンゼン
     level: B
-    why: pat_B
-    pat: sl-tokka-060
+    why: subst
 - num: 6
   status: published
   chapters:
@@ -253,8 +352,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -288,24 +387,71 @@ questions:
     - 2
     - 1
     - 1
-    - 3
     - 2
-    similar:
-    - 2
-    - 3
-    - 1
-    - 3
     - 2
     truths: 正正正誤正
+    pcounts:
+    - 2
+    - 4
+    - 1
+    - 4
+    - 2
+    points:
+    - pt-tokka-0046
+    - pt-tokka-0007
+    - pt-tokka-0151
+    - pt-tokka-0006
+    - pt-tokka-0080
+    pnames:
+    - ホルムアルデヒドの捕集は、2,4-ジニトロフェニルヒドラジン（DNPH）含浸シリカゲルを充填した捕集管が用いられる
+    - 捕集後の捕集管は、冷蔵保存する。
+    - 捕集管から抽出された試料液は、強カチオン交換樹脂に通して処理される
+    - 炎光光度検出器（FPD）では、還元炎を用いる。
+    - 他のアルデヒド類やケトン類が、妨害物質となる場合がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 9
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - odo
+    - ''
     - odo
     - new
-    - ans_pat
-    - odo
-    pat: sl-tokka-051
+    - ans_pr
+    - ''
 - num: 8
   status: published
   chapters:
@@ -341,15 +487,63 @@ questions:
     - 3
     - 1
     - 2
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 1
-    - 2
+    - 3
     - 3
     - 1
-    - 2
-    truths: 正誤正正正
+    - 4
+    points:
+    - pt-tokka-0208
+    - pt-tokka-0019
+    - pt-tokka-0019
+    - pt-tokka-0189
+    - pt-tokka-0007
+    pnames:
+    - 酸化プロピレンの分子量は、58.1である。
+    - 固体捕集法には、活性炭管を用いる。
+    - 固体捕集法には、活性炭管を用いる。
+    - 活性炭からの脱着には、トルエン-アセトニトリル溶液を用いる。
+    - 捕集後の捕集管は、冷蔵保存する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - new
     - ans_b
@@ -391,14 +585,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0125
+    - pt-tokka-0104
+    - pt-tokka-0209
+    - pt-tokka-0100
+    - pt-tokka-0110
+    pnames:
+    - 分配クロマトグラフ法に用いる固定相の性質は、担体表面に存在する官能基で決まる
+    - イオン交換クロマトグラフ法では、移動相のpHやイオン強度が分離効率に大きく影響する
+    - 移動相として用いる溶液は、化学的に安定で、粘度の高いものを選ぶ。（誤りの記述）
+    - 汎用的な分離カラムは、内径1～8mm、長さ15～30cmである。
+    - 移動相は、通常0.1～5mL・min⁻¹の一定流量とする。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -436,8 +678,10 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: B
+    why: q_b
 - num: 11
   status: published
   chapters:
@@ -482,18 +726,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 2
     - 2
     - 1
     - 1
     - 1
-    truths: 正正正誤正
-    level: C
+    points:
+    - pt-tokka-0049
+    - pt-tokka-0074
+    - pt-tokka-0234
+    - pt-tokka-0235
+    - pt-tokka-0236
+    pnames:
+    - 捕集には硫酸含浸ろ紙を用いる。
+    - 捕集後は純水で抽出し、遠心分離した上澄み液を分析に用いる。
+    - フルフラールで誘導体化して、分析する。
+    - 順相分配クロマトグラフ法を用いて分離する。（誤りの記述）
+    - 検出には、紫外部の吸収を用いる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+    - - 2020-08
+    - []
+    level: D
     why: none
     tags:
-    - new
-    - odo
+    - ''
+    - ''
     - new
     - ans_new
     - new
@@ -523,11 +815,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 2
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-046
+    level: C
+    why: q_seen
 - num: 13
   status: published
   chapters:
@@ -565,7 +856,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -598,7 +889,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 15
   status: published
@@ -632,20 +923,68 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 1
-    - 1
-    - 1
-    - 2
-    - 2
     truths: 正正正誤正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    points:
+    - pt-tokka-0094
+    - pt-tokka-0094
+    - pt-tokka-0210
+    - pt-tokka-0237
+    - pt-tokka-0035
+    pnames:
+    - エチレンイミンの方が、エチレンオキシドより融点が高い。
+    - エチレンイミンの方が、エチレンオキシドより融点が高い。
+    - 20℃において、エチレンイミンの蒸気圧の方が、エチレンオキシドの蒸気圧より小さい
+    - 両物質とも25℃で液体である。（誤りの記述）
+    - 両物質とも、沸点は水の沸点より低い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0011
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-08
+    - []
+    level: D
+    why: none
     tags:
     - new
     - new
     - new
-    - ans_b
+    - ans_new
     - odo
 - num: 16
   status: published
@@ -675,9 +1014,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-043
+    level: D
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -713,21 +1051,71 @@ questions:
     - 2
     - 1
     - 3
-    similar:
-    - 2
-    - 3
-    - 3
-    - 1
-    - 3
     truths: 正正正正誤
+    pcounts:
+    - 3
+    - 3
+    - 4
+    - 3
+    - 3
+    points:
+    - pt-tokka-0022
+    - pt-tokka-0024
+    - pt-tokka-0012
+    - pt-tokka-0027
+    - pt-tokka-0029
+    pnames:
+    - 拡散セルは、液体から標準ガスを調製する際に用いる。
+    - 拡散速度は、液体の質量の減少量から算出する。
+    - 拡散速度は、恒温槽の温度が高いと増加する。
+    - 拡散速度は、拡散チューブの内径の2乗に比例する。
+    - 拡散速度は、拡散チューブの有効長に反比例する。
+    prcounts:
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    principles:
+    - pr-tokka-0005
+    - pr-tokka-0005
+    - pr-tokka-0005
+    - pr-tokka-0005
+    - pr-tokka-0005
+    prnames:
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    trend:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2017-08
+    - - 2015-08
+      - 2017-08
     level: A
-    why: ans_hi
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
-    - new
-    - ans_hi
+    - odo
+    - ans_pr
 - num: 18
   status: published
   chapters:
@@ -753,8 +1141,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -786,9 +1174,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-045
+    subst_id: sb-tokka-3001
+    subst_name: アクリルアミド
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:

@@ -40,7 +40,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 2
   status: published
@@ -76,21 +76,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 2
-    - 1
-    - 2
-    - 1
     truths: 誤正正正正
-    level: C
-    why: none
+    pcounts:
+    - 5
+    - 8
+    - 1
+    - 6
+    - 2
+    points:
+    - pt-funjin-0033
+    - pt-funjin-0005
+    - pt-funjin-0249
+    - pt-funjin-0022
+    - pt-funjin-0133
+    pnames:
+    - 遠心力場の加速度は、角速度が同じであれば、回転半径に比例する。
+    - 電界中での帯電している粒子の移動速度は、粒径が小さいほど大きい。
+    - 拡散効果の影響は、0.1 µmより小さな粒子に対して粒径が小さくなるほど顕著であるが、1 µmより大きな粒子ではほとんど無視できる
+    - 粒子のブラウン運動による拡散係数は、温度が高いほど大きい。
+    - 密度 4 g･cm⁻³、直径 1 µmの球形粒子の空気力学相当径は 2 µmである
+    prcounts:
+    - 8
+    - 8
+    - 0
+    - 12
+    - 0
+    principles:
+    - pr-funjin-0003
+    - pr-funjin-0002
+    - ''
+    - pr-funjin-0001
+    - ''
+    prnames:
+    - 遠心力場の粒子の運動
+    - 帯電粒子の電界中の移動
+    - ''
+    - 粒子のブラウン運動と拡散
+    - ''
+    trend:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2023-08
+    - []
+    - []
+    - []
+    - - 2023-08
+    level: S
+    why: pr_S
     tags:
-    - ans_new
+    - ans_pr
     - odo
     - new
     - odo
-    - new
+    - ''
 - num: 3
   status: published
   chapters:
@@ -144,7 +192,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 4
   status: published
@@ -183,20 +231,68 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 1
-    - 1
-    - 2
-    - 2
-    - 2
     truths: 正正正誤正
-    level: B
-    why: ans_b
+    pcounts:
+    - 6
+    - 2
+    - 4
+    - 5
+    - 6
+    points:
+    - pt-funjin-0063
+    - pt-funjin-0143
+    - pt-funjin-0043
+    - pt-funjin-0028
+    - pt-funjin-0063
+    pnames:
+    - ハイボリウムエアサンプラーでは、分粒装置の衝突板の付着粉じんが多くなると、通過する粒子の粒径は大きい方へ移行する
+    - 慣性衝突式分粒装置は、円形ノズル孔に汚れが付着すると通過する粒子の粒径は小さい方へ移行する
+    - インパクターには、円形ノズル式とスリット式とがある。
+    - 円形ノズル式インパクターで分粒される粒子の粒径は、ノズルを通過する空気の速度の1/2乗に反比例する
+    - ハイボリウムエアサンプラーでは、分粒装置の衝突板の付着粉じんが多くなると、通過する粒子の粒径は大きい方へ移行する
+    prcounts:
+    - 9
+    - 0
+    - 0
+    - 9
+    - 9
+    principles:
+    - pr-funjin-0006
+    - ''
+    - ''
+    - pr-funjin-0006
+    - pr-funjin-0006
+    prnames:
+    - 慣性衝突式分粒の原理
+    - ''
+    - ''
+    - 慣性衝突式分粒の原理
+    - 慣性衝突式分粒の原理
+    trend:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2018-08
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
-    - new
     - odo
-    - ans_b
+    - ''
+    - odo
+    - ans_pr
     - odo
 - num: 5
   status: published
@@ -235,14 +331,62 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 1
-    - 1
-    - 1
-    - 2
-    - 2
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 3
+    points:
+    - pt-funjin-0280
+    - pt-funjin-0201
+    - pt-funjin-0305
+    - pt-funjin-0112
+    - pt-funjin-0115
+    pnames:
+    - 繊維層フィルターの繊維間の距離は繊維径に比べ長いが、フィルター中に空気とともに送られてきた粒子は、1本1本の繊維に衝突して捕集される
+    - 粒径が 0.1 µmより小さな微細粒子の捕集に有効な拡散効果とは、ブラウン運動のため流線から外れた粒子が、ろ過材の繊維に衝突捕捉される現象である
+    - メンブランフィルターは、繊維層フィルターに比べて圧力損失は小さいという特徴がある（誤りの記述）
+    - 平均孔径が 0.8 µmのメンブランフィルターは、粒径が 0.3 µmの粒子を99.5 ％ 以上捕集できる
+    - メンブランフィルターは、帯電しやすいので質量濃度を求めるためのろ過材としては不向きである
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 12
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-funjin-0017
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - フィルターの性質（空間率・吸湿・帯電）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -309,7 +453,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 7
   status: published
@@ -348,20 +492,68 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 2
-    - 2
-    - 1
-    - 1
-    - 6
     truths: 正正誤正正
+    pcounts:
+    - 4
+    - 6
+    - 1
+    - 7
+    - 9
+    points:
+    - pt-funjin-0050
+    - pt-funjin-0017
+    - pt-funjin-0250
+    - pt-funjin-0024
+    - pt-funjin-0004
+    pnames:
+    - 圧力損失の大きなフィルターを用いたサンプリングでは、ろ過捕集器具と吸引ポンプの間に接続された面積式流量計の指示値は、真の流量よりも大きい
+    - 面積式流量計の浮子が脈動して指示値が読みにくい場合は、流量計と吸引ポンプの間に空気だめを設けるとよい
+    - 多段平行板式分粒装置を用いたサンプリングの流量計に、湿式ガスメーターを用いる（誤りの記述）
+    - 石けん膜流量計は、ローボリウムエアサンプラー用流量計の校正に用いられる
+    - ハイボリウムエアサンプラーに表示される流量の校正に、ルーツメーターを用いる
+    prcounts:
+    - 11
+    - 0
+    - 0
+    - 12
+    - 12
+    principles:
+    - pr-funjin-0005
+    - ''
+    - ''
+    - pr-funjin-0009
+    - pr-funjin-0009
+    prnames:
+    - ろ過材の圧力損失
+    - ''
+    - ''
+    - 流量計の原理と校正
+    - 流量計の原理と校正
+    trend:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2020-08
+    - []
+    - []
+    - []
+    - - 2023-08
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
     - ans_new
-    - new
+    - odo
     - odo
 - num: 8
   status: published
@@ -398,19 +590,72 @@ questions:
     - 1
     - 2
     - 5
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 4
-    - 2
+    - 4
+    - 4
+    - 7
+    - 7
+    points:
+    - pt-funjin-0061
+    - pt-funjin-0042
+    - pt-funjin-0042
+    - pt-funjin-0076
+    - pt-funjin-0014
+    pnames:
+    - 散乱光の強さは、光学系と粒子の系が一定であれば粉じんの濃度に比例する
+    - 相対濃度計の計数値は、空気吸引流量に影響されない。
+    - 相対濃度計の計数値は、空気吸引流量に影響されない。
+    - 数µmの粒子における散乱光の強度は、散乱する方向によって異なる。
+    - 同じ組成、同じ質量濃度の粉じんは、粒径 10 µm の粒子の方が 1 µmの粒子より計数値が大きくなる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 12
+    - 12
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-funjin-0007
+    - pr-funjin-0007
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 光散乱の原理（粒径・屈折率・波長・角度）
+    - 光散乱の原理（粒径・屈折率・波長・角度）
+    trend:
     - 1
     - 2
-    - 5
-    truths: 正正誤正正
-    level: B
-    why: elim_all
+    - 2
+    - 3
+    - 3
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2016-08
+      - 2020-08
+      - 2022-08
+      - 2023-08
+    - []
+    - - 2015-08
+      - 2021-08
+      - 2024-08
+    level: A
+    why: trend_A
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_trend
     - odo
     - odo
 - num: 9
@@ -450,20 +695,68 @@ questions:
     - 2
     - 2
     - 1
-    similar:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 1
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 2
+    - 1
+    - 5
+    - 2
+    - 1
+    points:
+    - pt-funjin-0134
+    - pt-funjin-0251
+    - pt-funjin-0027
+    - pt-funjin-0147
+    - pt-funjin-0342
+    pnames:
+    - 試料空気は吸入口から規定流量で吸引され、慣性衝突式の分粒装置（インパクター）により粗大粒子が除かれる
+    - センサー上に揮発性物質を吸着している粒子状物質が捕集された場合、時間の経過とともに測定値が減少する
+    - 圧電結晶板に粉じんが付着し、質量が増加すると増加分に応じて周波数が減少する性質を利用している
+    - 圧電結晶板の周波数の変化量と捕集される粉じん質量の間には、約 2000 Hz以内の範囲で比例関係がある
+    - 色や大きさが異なった粉じん粒子に対しても同一感度を示す。
+    prcounts:
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-funjin-0018
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 圧電天秤式の原理
+    - ''
+    - ''
+    trend:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pt_A
     tags:
-    - odo
+    - ''
     - new
-    - ans_b
-    - odo
+    - ans_hi
+    - ''
     - new
 - num: 10
   status: published
@@ -502,21 +795,69 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 1
+    truths: 誤正正正正
+    pcounts:
+    - 2
     - 1
     - 4
+    - 3
     - 2
-    - 2
-    truths: 誤正正正正
-    level: B
-    why: elim_two
+    points:
+    - pt-funjin-0145
+    - pt-funjin-0331
+    - pt-funjin-0047
+    - pt-funjin-0114
+    - pt-funjin-0132
+    pnames:
+    - 電子天秤は、直示天秤に比べて温度変化による感度の変化が小さい。（誤りの記述）
+    - 帯電した試料を秤量すると真値と異なった値を表示することがある。
+    - 零位（電磁力平衡）方式の電子天秤は、荷重の変化による可動部の微小変位を差動トランス、光電素子等により検出し、変位がゼロになるよう、電磁力により平衡をとる方式である
+    - 電子天秤には、零位方式、力測定方式、偏位方式などがある。
+    - 一般に使用されている読取限界が1 mg以下の電子天秤の多くは、力計（ロードセル）を利用した力測定方式である
+    prcounts:
+    - 0
+    - 0
+    - 11
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-funjin-0010
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 天秤の誤差要因
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - new
     - odo
     - odo
-    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -570,7 +911,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 12
   status: published
@@ -617,8 +958,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 13
   status: published
   chapters:
@@ -656,20 +997,72 @@ questions:
     - 2
     - 1
     - 3
-    similar:
-    - 6
-    - 4
-    - 2
-    - 1
-    - 3
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 6
+    - 8
+    - 7
+    - 2
+    - 3
+    points:
+    - pt-funjin-0019
+    - pt-funjin-0006
+    - pt-funjin-0012
+    - pt-funjin-0135
+    - pt-funjin-0089
+    pnames:
+    - X線回折分析装置による定性分析で、トリジマイトの含有が認められた場合は、りん酸法による定量操作を選択してはならない
+    - 定性分析で遊離けい酸のピークが確認できなかった試料は、更に感度を上げて行い、ピークの存在が認められない場合には、遊離けい酸含有率を0%として取り扱う
+    - 定性分析により炭酸カルシウムの存在が確認された試料の場合、金属基底標準板として亜鉛板ではなくアルミニウム板を用いる
+    - X 線回折分析法の定量下限を簡易的に求めるときは、測定された1回のX 線計数値が N（cps）であるとき、√N の 10 倍を検量線の勾配で除した値となる
+    - 分析試料中に石英以外の遊離けい酸が混入していないことが明らかであり、硫化物や金属類も含まれていない試料については、王水を添加しないりん酸法を行ってもよい
+    prcounts:
+    - 10
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-funjin-0015
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - りん酸法の原理
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+      - 2018-08
+      - 2023-08
+      - 2024-08
+      - 2025-08
+    - - 2023-08
+    - []
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_b
-    - new
+    - ans_hi
+    - ''
     - odo
 - num: 14
   status: published
@@ -708,21 +1101,72 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 2
-    - 2
-    - 3
-    - 2
-    - 2
     truths: 正正正正誤
+    pcounts:
+    - 2
+    - 5
+    - 4
+    - 8
+    - 2
+    points:
+    - pt-funjin-0139
+    - pt-funjin-0026
+    - pt-funjin-0067
+    - pt-funjin-0010
+    - pt-funjin-0161
+    pnames:
+    - 王水添加りん酸法では、使用する天秤感度と分析条件との兼ね合いから定量下限値は 1 ％ とする
+    - 約200 mgの分析対象試料を精秤し、リン酸15 mL、王水5 mLを加えて加熱する
+    - 加熱開始から6分経過後より1分ごとに振とうし、所定時間加熱した後、電熱器から降ろし、約 40 秒間振とうした後、放冷する
+    - 最適加熱条件は、石英のりん酸残渣が95%以上で、かつ、微斜長石のりん酸残渣が1%以下になるように決める
+    - X 線回折分析装置による定性分析の結果、トリジマイトの含有が認められる場合、王水添加りん酸法による分析を行う（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 10
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-funjin-0015
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - りん酸法の原理
+    - ''
+    trend:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2017-08
+    - - 2018-08
+      - 2022-08
+      - 2025-08
+    - - 2015-08
+      - 2018-08
     level: B
-    why: ans_b
+    why: elim_two
     tags:
+    - ''
     - odo
     - odo
     - odo
-    - odo
-    - ans_b
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -760,19 +1204,67 @@ questions:
     - 1
     - 3
     - 3
-    similar:
+    truths: 正正正正誤
+    pcounts:
+    - 2
+    - 3
+    - 2
+    - 4
+    - 9
+    points:
+    - pt-funjin-0154
+    - pt-funjin-0125
+    - pt-funjin-0162
+    - pt-funjin-0069
+    - pt-funjin-0003
+    pnames:
+    - 対陰極が Cu の X 線管球を用いて分析した場合、石英の主回折線（d：3.34 Å）は、2θ：26.66 °に出現する
+    - 特性 X 線の波長は、K、L 系列ごとに異なるが、原子番号が大きくなると短くなる
+    - 受光スリットの幅を広くすると、回折線強度は増大する。
+    - モノクロメーターによってKβ線はほとんど除去されるが、Kβフィルターを用いた場合より回折X線の強度は弱くなる
+    - 対陰極がCuの場合のX線の単色化には、原子番号が1小さい Ni が用いられる
+    prcounts:
+    - 0
+    - 10
+    - 0
+    - 10
+    - 10
+    principles:
+    - ''
+    - pr-funjin-0012
+    - ''
+    - pr-funjin-0012
+    - pr-funjin-0012
+    prnames:
+    - ''
+    - 特性X線とフィルター
+    - ''
+    - 特性X線とフィルター
+    - 特性X線とフィルター
+    trend:
+    - 1
+    - 1
     - 1
     - 2
-    - 1
     - 3
-    - 3
-    truths: 正正正正誤
-    level: A
-    why: ans_hi
+    near:
+    - true
+    - true
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2023-08
+    - - 2020-08
+    - []
+    - []
+    - - 2022-08
+    level: S
+    why: pt_S
     tags:
-    - new
+    - ''
     - odo
-    - new
+    - ''
     - odo
     - ans_hi
 - num: 16
@@ -812,14 +1304,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-funjin-0332
+    - pt-funjin-0333
+    - pt-funjin-0281
+    - pt-funjin-0252
+    - pt-funjin-0306
+    pnames:
+    - 受光スリットの幅を広くすると、回折図形の幅は広くなる。
+    - 結晶度の低いクリストバライトでは、回折図形の幅は広くなる。
+    - トリジマイトは、石英やクリストバライトと同様に、画一的な回折パターンを示す（誤りの記述）
+    - 石英の主回折線を妨害する物質には、正長石、グラファイト、硫化亜鉛等がある
+    - 分析試料に玉ずいが多く含まれていると、尖鋭な回折ピークが得られない
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -864,21 +1404,72 @@ questions:
     - 3
     - 8
     - 2
-    similar:
-    - 4
-    - 3
-    - 3
-    - 8
-    - 2
     truths: 正正正正誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 7
+    - 11
+    - 3
+    - 10
+    - 5
+    points:
+    - pt-funjin-0048
+    - pt-funjin-0001
+    - pt-funjin-0090
+    - pt-funjin-0002
+    - pt-funjin-0031
+    pnames:
+    - 基底標準吸収補正法は、試料による吸収の影響を補正して、遊離けい酸含有率の多少にかかわらず、標準試料で作った検量線をそのまま適用できるようにした方法である
+    - 金属基底標準板には、石英の測定回折線より高角度側でそれに近い回折線をもつ材質を選ぶ
+    - 粉じんを採取する前のフィルターを載せた金属板の回折強度と粉じん採取後のフィルターを載せた金属板及び石英の回折強度を計測する
+    - 検量線は、縦軸にX線吸収補正係数を乗じた石英の回折線強度をとり、横軸に石英量をとって作成する
+    - 吸収補正を行うことにより、定量範囲は広くなり、夾雑物の吸収の影響を少なくして精度を向上させることができる
+    prcounts:
+    - 12
+    - 12
+    - 12
+    - 0
+    - 12
+    principles:
+    - pr-funjin-0013
+    - pr-funjin-0013
+    - pr-funjin-0013
+    - ''
+    - pr-funjin-0013
+    prnames:
+    - 基底標準吸収補正法
+    - 基底標準吸収補正法
+    - 基底標準吸収補正法
+    - ''
+    - 基底標準吸収補正法
+    trend:
+    - 3
+    - 3
+    - 1
+    - 2
+    - 3
+    near:
+    - false
+    - true
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2020-08
+      - 2025-08
+    - []
+    - []
+    - - 2020-08
+      - 2023-08
+      - 2025-08
+    level: S
+    why: pr_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_pr
 - num: 18
   status: published
   chapters:
@@ -918,9 +1509,8 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-funjin-119
+    level: A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -958,21 +1548,71 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 2
-    - 3
-    - 1
-    - 2
-    - 1
     truths: 正正正誤正
-    level: B
-    why: ans_b
+    pcounts:
+    - 2
+    - 4
+    - 1
+    - 5
+    - 3
+    points:
+    - pt-funjin-0169
+    - pt-funjin-0058
+    - pt-funjin-0253
+    - pt-funjin-0040
+    - pt-funjin-0101
+    pnames:
+    - フィルターのごく表面に粒子が捕集されるので、顕微鏡で計数するのに都合が良い
+    - フィルターの孔径は、水の表面張力を利用したバブルポイントテスト法によって求められた値である
+    - フィルターの屈折率はおよそ 1.5であり、同程度の屈折率の不揮発性の液に浸すと透明になり、粒子が計数しやすくなる
+    - フィルターの透明化には、アセトン蒸気が用いられる。
+    - フィルターには、格子（グリッド）が印刷されているものがあるが、細い繊維が格子の線に重なると見えにくいという欠点がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2018-08
+      - 2020-08
+    - []
+    level: A
+    why: pt_A
     tags:
-    - odo
+    - ''
     - odo
     - new
-    - ans_b
-    - new
+    - ans_hi
+    - odo
 - num: 20
   status: published
   chapters:
@@ -1010,18 +1650,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 3
     truths: 正正正誤正
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 4
+    - 3
+    points:
+    - pt-funjin-0197
+    - pt-funjin-0231
+    - pt-funjin-0282
+    - pt-funjin-0054
+    - pt-funjin-0102
+    pnames:
+    - 位相差顕微鏡は、無色透明な検体を染色しなくても、試料によって生じる光の位相差を回折光と光の干渉現象を利用して明暗の差に変換して、観察する光学顕微鏡である
+    - 対物レンズ内には位相板が、コンデンサー部分には環状（リング）絞りが組み込まれており、直接光と回折光の干渉を生じさせている
+    - 直接光と回折光の位相差が1 / 2波長（逆位相）又は 0 （同位相）になるようにして干渉させる
+    - 試料を通過した光は、直接光と回折光に分かれ、両者には1/4波長の位相のずれが生じる
+    - 位相差顕微鏡による観察でのコントラストには、ダークコントラストとブライトコントラストの2種類がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2017-08
+      - 2019-08
+    - []
+    level: B
+    why: pt_B
     tags:
     - new
     - new
     - new
-    - ans_new
+    - ans_b
     - odo

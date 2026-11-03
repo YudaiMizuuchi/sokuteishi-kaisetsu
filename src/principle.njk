@@ -1,0 +1,24 @@
+---
+layout: base.njk
+pagination:
+  data: db.principles
+  size: 1
+  alias: pr
+permalink: "{{ pr.url }}"
+eleventyComputed:
+  title: "{{ pr.name }}｜{{ pr.subjectName }}の原理"
+  description: "作業環境測定士試験 {{ pr.subjectName }}で、過去{{ pr.denom }}回中{{ pr.count }}回、関連する論点が出題された原理「{{ pr.name }}」の説明と、この原理で解ける過去問。"
+---
+{% from "card.njk" import card %}
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: pr.subjectName, url: "/subject/" + pr.subject + "/"}, {name: pr.name}]) }}
+<h1>{{ pr.name }}</h1>
+<p class="trapmeta">{{ pr.subjectName }}・原理・過去{{ pr.denom }}回中{{ pr.count }}回、関連する論点が出題</p>
+<section class="trapbody">
+  <h2>原理</h2>
+  <p>{{ pr.statementHtml | safe }}</p>
+  {% if pr.formula %}<p class="principle-formula">{{ pr.formula }}</p>{% endif %}
+  <p class="hint">この原理で解ける論点は{{ pr.pointsCount }}個あります。丸暗記ではなく、理屈から答えを導けるようにしておくと、初見の選択肢にも対応できます。</p>
+</section>
+<h2 class="sub">この原理で解ける問題（{{ pr.questions.length }}問）</h2>
+{% for q in pr.questions %}{{ card(q, site, true) }}{% endfor %}

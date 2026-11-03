@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -81,9 +81,8 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-solution-01
+    level: C
+    why: q_seen
 - num: 3
   status: published
   chapters:
@@ -118,22 +117,69 @@ questions:
     - 3
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 2
     - 3
     - 3
+    - 2
+    - 3
+    points:
+    - pt-bunseki-0220
+    - pt-bunseki-0098
+    - pt-bunseki-0133
+    - pt-bunseki-0241
+    - pt-bunseki-0144
+    pnames:
+    - フェノールの水溶液は、酸性を示す。
+    - アニリンの水溶液は、アルカリ性を示す。
+    - プロピオン酸の水溶液は、酸性を示す。
+    - トルエンは、-CH₃基をもっている。
+    - アセトンは水によく溶ける。
+    prcounts:
+    - 0
+    - 0
+    - 3
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0038
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 酸・塩の水溶液のpH
+    - ''
+    - ''
+    trend:
     - 1
     - 1
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    - 1
+    - 1
+    - 1
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+    - - 2023-08
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - ''
-    - odo
-    - odo
-    - ans_pat
-    - new
-    pat: an-organic-02
+    - ''
+    - ''
+    - ans_seen
+    - ''
 - num: 4
   status: published
   chapters:
@@ -166,7 +212,7 @@ questions:
     count: 2
     form: 計算問題
     level: C
-    why: q_new
+    why: q_seen
 - num: 5
   status: published
   chapters:
@@ -213,9 +259,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-solution-04
+    level: B
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -247,8 +292,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 7
   status: published
@@ -284,18 +329,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 2
-    - 4
-    - 1
-    - 2
-    - 1
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 6
+    - 1
+    - 6
+    - 1
+    points:
+    - pt-bunseki-0197
+    - pt-bunseki-0017
+    - pt-bunseki-0352
+    - pt-bunseki-0017
+    - pt-bunseki-0290
+    pnames:
+    - ビュレットは最小目盛の1/10までを読みとる。
+    - 全量ピペットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい
+    - ホールピペットに溶液を吸引する際には、中間の膨らんだ部分を持つのがよい（誤りの記述）
+    - 全量ピペットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい
+    - 洗浄後、乾燥器で加熱すると、ガラスが膨張し変形するため正しく体積が測定できなくなる場合がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-02
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
-    - odo
+    - ''
     - ans_pat
     - ''
     - new
@@ -334,19 +427,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正誤正正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 10
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0468
+    - pt-bunseki-0391
+    - pt-bunseki-0004
+    - pt-bunseki-0431
+    - pt-bunseki-0432
+    pnames:
+    - ディフュージョンチューブは液体溜めと拡散管からできている。
+    - ディフュージョンチューブはテフロンなどのガス透過性材料でできている（誤りの記述）
+    - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる
+    - ディフュージョンチューブを用いる際は、チューブ全体を一定の温度に保つ
+    - ディフュージョンチューブの一方の端は解放した状態で使用する。
+    prcounts:
+    - 0
+    - 0
+    - 14
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0033
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - ans_new
-    - new
+    - odo
     - new
     - new
 - num: 9
@@ -383,15 +524,63 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 2
     - 1
     - 1
     - 1
     - 1
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0172
+    - pt-bunseki-0433
+    - pt-bunseki-0248
+    - pt-bunseki-0248
+    - pt-bunseki-0392
+    pnames:
+    - 金属製やガラス製の蒸留水製造装置からは、イオンの溶出がある。
+    - ろ過に用いるメンブランフィルターは、孔径 0.1 ～ 0.2 µmのものを用いる
+    - 逆浸透法では、原料水中の不純物のイオンを除去できる。
+    - 逆浸透法では、原料水中の不純物のイオンを除去できる。
+    - イオン交換法では、中性の有機成分を除くことはできない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
     - new
@@ -429,7 +618,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 11
   status: published
@@ -515,21 +704,70 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 2
-    - 1
-    - 2
-    - 1
-    - 1
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 6
+    - 1
+    - 6
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0020
+    - pt-bunseki-0314
+    - pt-bunseki-0024
+    - pt-bunseki-0315
+    - pt-bunseki-0393
+    pnames:
+    - 塩酸溶液の標定には、炭酸ナトリウムが用いられる。
+    - 水酸化ナトリウム溶液の標定には、アミド硫酸（スルファミン酸）が用いられる
+    - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
+    - エチレンジアミン四酢酸二ナトリウム溶液の標定には、チオ硫酸ナトリウムが用いられる（誤りの記述）
+    - 標定に用いる反応は、平衡定数が大きく、反応速度が大きいことが必要である
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 8
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0023
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 標定と一次標準物質
+    trend:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    near:
+    - true
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+      - 2024-08
+    - - 2024-08
+    - - 2024-08
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
     - new
     - ''
     - ans_pat
-    - new
+    - odo
     pat: an-titration-01
 - num: 13
   status: published
@@ -566,22 +804,69 @@ questions:
     - 8
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 10
-    - 1
-    - 1
     truths: 正誤正正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 6
+    - 1
+    - 9
+    - 1
+    - 4
+    points:
+    - pt-bunseki-0018
+    - pt-bunseki-0487
+    - pt-bunseki-0008
+    - pt-bunseki-0291
+    - pt-bunseki-0070
+    pnames:
+    - 吸光度は、透過率の逆数の対数である。
+    - 透過率は、光路の長さに反比例する。（誤りの記述）
+    - 測定対象物質ごとに異なる。
+    - 測定対象物質の濃度の異なる溶液の吸光度を測定して、検量線を作成する
+    - 定量分析は、検量線の直線範囲内で行う。
+    prcounts:
+    - 11
+    - 11
+    - 0
+    - 0
+    - 7
+    principles:
+    - pr-bunseki-0002
+    - pr-bunseki-0002
+    - ''
+    - ''
+    - pr-bunseki-0032
+    prnames:
+    - 吸光度と透過率の関係
+    - 吸光度と透過率の関係
+    - ''
+    - ''
+    - 検量線法・標準添加法・内標準法
+    trend:
+    - 2
+    - 1
+    - 3
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pr_A
     tags:
-    - new
-    - ans_pat
+    - odo
+    - ans_pr
     - odo
     - new
-    - new
-    pat: an-spectrophotometry-03
+    - ''
 - num: 14
   status: published
   chapters:
@@ -662,21 +947,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0100
+    - pt-bunseki-0353
+    - pt-bunseki-0257
+    - pt-bunseki-0267
+    - pt-bunseki-0162
+    pnames:
+    - フレーム法では、燃料ガスの燃焼で生じる化学炎の中で目的元素が原子化される
+    - フレーム法では、吸引して噴霧された試料溶液のうち数％から10％程度がフレームに送られる
+    - グラファイト炉法では、試料導入の後、炉の温度を100℃程度の乾燥、500～600℃の灰化と段階的に上昇させてから1000～3000℃で原子化を行う
+    - グラファイト炉法で共存元素による化学干渉の影響を受けるときは、重水素ランプを用いたバックグラウンド補正が行われる（誤りの記述）
+    - 水銀の還元気化法では、試料を塩化スズ(Ⅱ)と反応させることで原子状の水銀を生成する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
-    - new
+    - ''
     - new
     - new
     - ans_new
-    - new
+    - ''
 - num: 16
   status: published
   chapters:
@@ -713,8 +1046,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-fluorescence-02
 - num: 17
   status: published
@@ -750,22 +1083,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 3
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0198
+    - pt-bunseki-0131
+    - pt-bunseki-0213
+    - pt-bunseki-0246
+    - pt-bunseki-0246
+    pnames:
+    - ピークの分離度は、カラム温度が高いほど小さくなる。
+    - 保持時間は、カラム温度が高いほど短くなる。
+    - カラム温度を上げると、キャリヤーガスの粘度は低下する。（誤りの記述）
+    - 検出器の温度は、通常、カラム温度よりも高めに設定される。
+    - 検出器の温度は、通常、カラム温度よりも高めに設定される。
+    prcounts:
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0029
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 保持時間と溶出順
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
+    - ''
+    - ''
+    - ans_seen
     - new
-    - odo
-    - ans_pat
     - new
-    - new
-    pat: an-gc-04
 - num: 18
   status: published
   chapters:
@@ -836,19 +1216,67 @@ questions:
     - 6
     - 1
     - 1
-    similar:
-    - 5
-    - 6
-    - 6
-    - 1
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 5
+    - 8
+    - 6
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0040
+    - pt-bunseki-0016
+    - pt-bunseki-0026
+    - pt-bunseki-0273
+    - pt-bunseki-0274
+    pnames:
+    - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
+    - 結晶物質の定量は、回折線の強度測定で行う。
+    - X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
+    - 内標準物質を混合することで、試料の質量吸収係数の影響をなくして定量を行うことができる
+    - 定量成分と同一の純物質を既知量添加して、その回折線強度の増加分と元の回折線強度から定量を行うことができる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 4
+    - 3
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: ans_hi
+    why: trend_A
     tags:
-    - odo
-    - odo
-    - ans_hi
+    - ''
+    - ''
+    - ans_trend
     - new
     - new
 - num: 20
@@ -881,6 +1309,5 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: an-radiation-02
+    level: C
+    why: q_seen

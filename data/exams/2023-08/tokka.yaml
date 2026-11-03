@@ -40,21 +40,69 @@ questions:
     - 1
     - 2
     - 2
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 3
     - 2
     - 1
+    - 6
     - 2
+    points:
+    - pt-tokka-0033
+    - pt-tokka-0068
+    - pt-tokka-0211
+    - pt-tokka-0004
+    - pt-tokka-0069
+    pnames:
+    - 吸光度は、入射光の強度に依存しない。
+    - 吸光度0.3では、入射光の30％が試料液に吸収される。（誤りの記述）
+    - 発色のために加熱した場合は、常温に戻してから測定する。
+    - ガラス製のセルは、紫外部の光を吸収する。
+    - 通常、分析には、吸収スペクトルの極大波長を用いる。
+    prcounts:
+    - 6
+    - 0
+    - 0
+    - 8
+    - 0
+    principles:
+    - pr-tokka-0001
+    - ''
+    - ''
+    - pr-tokka-0002
+    - ''
+    prnames:
+    - ランベルト・ベールの法則
+    - ''
+    - ''
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    - ''
+    trend:
     - 2
-    truths: 正誤正正正
-    level: B
-    why: ans_b
+    - 1
+    - 0
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_b
+    - ans_seen
     - new
     - odo
-    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -96,9 +144,10 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
     level: S
-    why: pat_S
-    pat: sl-tokka-038
+    why: q_hi
 - num: 3
   status: published
   chapters:
@@ -142,7 +191,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 4
   status: published
@@ -181,21 +230,73 @@ questions:
     - 4
     - 3
     - 2
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 2
     - 1
     - 4
-    - 3
+    - 4
     - 2
-    truths: 正誤正正正
+    points:
+    - pt-tokka-0087
+    - pt-tokka-0247
+    - pt-tokka-0018
+    - pt-tokka-0016
+    - pt-tokka-0075
+    pnames:
+    - 捕集液には硫酸亜鉛水溶液を用いる。
+    - 塩化鉄（Ⅲ）は触媒として働く。（誤りの記述）
+    - 生成する物質はメチレンブルーである。
+    - 標準原液は硫化ナトリウムから調製する。
+    - 標準原液の調製には、煮沸して放冷した精製水を用いる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2021-08
+    - - 2019-08
+      - 2021-08
+      - 2026-08
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
     level: B
-    why: elim_all
+    why: subst
     tags:
+    - ''
+    - ans_subst
     - odo
-    - ans_new
     - odo
-    - odo
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -233,20 +334,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    points:
+    - pt-tokka-0111
+    - pt-tokka-0112
+    - pt-tokka-0113
+    - pt-tokka-0023
+    - pt-tokka-0126
+    pnames:
+    - 固定相が液体の場合、試料中の各成分はカラム内で固定相液体と気相間の分配平衡の差によって分離される
+    - 固定相液体には、極性が異なる物質を使用することができるので、多種類の物質の分析が可能である
+    - 保持時間とは、カラムに試料を導入後、分析対象成分のピークが出終わるまでの時間をいう（誤りの記述）
+    - カラムの内径が小さいほど、理論段数は大きくなる。
+    - ピークの重なりの程度を表す分離度が、1.5 のとき二つのピークはほぼ完全に分離される
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 3
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0012
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 理論段数とカラムの内径
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - new
     - ans_new
-    - new
+    - odo
     - new
 - num: 6
   status: published
@@ -281,8 +430,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3001
+    subst_name: アクリルアミド
+    level: B
+    why: subst
 - num: 7
   status: published
   chapters:
@@ -351,7 +502,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 9
   status: published
@@ -390,21 +541,69 @@ questions:
     - 1
     - 2
     - 2
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 1
-    - 1
-    - 1
+    - 5
+    - 2
     - 3
     - 2
-    truths: 正正誤正正
+    points:
+    - pt-tokka-0114
+    - pt-tokka-0005
+    - pt-tokka-0085
+    - pt-tokka-0025
+    - pt-tokka-0055
+    pnames:
+    - 試料中の成分は、移動相と固定相との相互作用（親和性）の差によって分離される
+    - 移動相が固定相よりも極性が高い場合、逆相クロマトグラフ法という。
+    - 逆相クロマトグラフ法では、カラム温度を上げるとカラム圧が低くなる
+    - ODSカラムは、強塩基性の移動相によって化学的な劣化を受ける。
+    - ガスクロマトグラフ分析法と比較して、多量の試料が導入できる。
+    prcounts:
+    - 0
+    - 6
+    - 0
+    - 6
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0003
+    - ''
+    - pr-tokka-0003
+    - ''
+    prnames:
+    - ''
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    - ''
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2016-08
+    - []
+    - []
     level: C
-    why: none
+    why: seen
     tags:
     - new
-    - new
-    - ans_new
     - odo
+    - ans_seen
     - odo
+    - ''
 - num: 10
   status: published
   chapters:
@@ -434,8 +633,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
+    level: B
+    why: subst
 - num: 11
   status: published
   chapters:
@@ -473,20 +674,68 @@ questions:
     - 2
     - 1
     - 1
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
-    - 3
+    - 4
+    - 2
     - 2
     - 1
-    - 1
-    truths: 誤正正正正
-    level: C
+    points:
+    - pt-tokka-0212
+    - pt-tokka-0007
+    - pt-tokka-0076
+    - pt-tokka-0064
+    - pt-tokka-0152
+    pnames:
+    - ホルムアルデヒドの捕集には、フルフラールを含浸させたシリカゲル捕集管が用いられる（誤りの記述）
+    - 捕集後の捕集管は、冷蔵保存する。
+    - ガスクロマトグラフ分析法を用いる場合は、質量分析器が用いられる。
+    - 高速液体クロマトグラフ分析法を用いる場合は、検出には紫外吸光検出器が用いられる
+    - 作業環境空気中に共存するオゾンにより、測定誤差を生じる場合がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - - 2019-08
+    - []
+    - - 2019-08
+    - - 2019-08
+    - []
+    level: D
     why: none
     tags:
     - ans_new
     - odo
-    - odo
-    - new
+    - ''
+    - ''
     - new
 - num: 12
   status: published
@@ -532,21 +781,69 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 3
-    - 2
-    - 2
-    - 3
-    - 2
     truths: 正正誤正正
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 2
+    points:
+    - pt-tokka-0036
+    - pt-tokka-0030
+    - pt-tokka-0032
+    - pt-tokka-0083
+    - pt-tokka-0084
+    pnames:
+    - α-ナフチルアミンは、インピンジャーを用いて捕集する。
+    - エチルエーテルを用いて捕集液から抽出する。
+    - 亜硝酸ナトリウムとスルファニル酸を加えて、発色させる。（誤りの記述）
+    - 薄層クロマトグラフ法を用いて単離し、蛍光強度を測定する。
+    - α-ナフチルアミンをエタノールに溶解して、標準液とする。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - odo
     - odo
     - ans_b
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -585,7 +882,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -625,8 +922,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 15
   status: published
   chapters:
@@ -668,9 +965,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-049
+    level: C
+    why: q_seen
 - num: 16
   status: published
   chapters:
@@ -708,7 +1004,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 17
   status: published
@@ -750,9 +1046,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-078
+    level: C
+    why: q_seen
 - num: 18
   status: published
   chapters:
@@ -786,8 +1081,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -821,9 +1116,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-058
+    level: C
+    why: q_seen
 - num: 20
   status: published
   chapters:
@@ -861,18 +1155,67 @@ questions:
     - 3
     - 3
     - 4
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 1
-    - 2
-    - 3
+    - 4
     - 3
     - 4
-    truths: 正誤正正正
-    level: B
-    why: ans_b
+    - 4
+    points:
+    - pt-tokka-0153
+    - pt-tokka-0015
+    - pt-tokka-0031
+    - pt-tokka-0008
+    - pt-tokka-0011
+    pnames:
+    - 真空捕集瓶の内面は、測定対象物質に対して不活性でなければならない
+    - 真空捕集瓶のコックのすり合わせ部には、グリースを使用しない。
+    - 捕集袋は、清浄な乾燥空気又は窒素を用いて洗浄する。
+    - 試料空気から水分を取り除く場合には、ガラス管に無水硫酸カルシウム粒などの乾燥剤を詰めて、試料採取口の前に接続する
+    - 電動ポンプを通して、捕集袋内に試料空気を送り採取する場合、ポンプ内の吸着に注意する必要がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 2
+    - 1
+    - 2
+    - 2
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2025-08
+      - 2026-08
+    - []
+    - - 2026-08
+    - []
+    level: S
+    why: trend_S
     tags:
     - new
-    - ans_b
+    - ans_trend
     - odo
     - odo
     - odo

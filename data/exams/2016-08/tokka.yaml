@@ -38,21 +38,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 6
+    - 1
+    - 1
+    - 1
+    - 4
+    points:
+    - pt-tokka-0004
+    - pt-tokka-0241
+    - pt-tokka-0195
+    - pt-tokka-0172
+    - pt-tokka-0017
+    pnames:
+    - ガラス製のセルは、紫外部の光を吸収する。
+    - 吸光度は、呈色後の時間によって変化することがある。
+    - 吸光度測定は、0.2～0.8程度の吸光度で行うことが望ましい。
+    - 検量線の傾きは、入射光の強度に比例する。（誤りの記述）
+    - 吸光度は、試料液の濃度と光路長に比例する。
+    prcounts:
+    - 8
+    - 0
+    - 0
+    - 0
+    - 6
+    principles:
+    - pr-tokka-0002
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0001
+    prnames:
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    - ''
+    - ''
+    - ''
+    - ランベルト・ベールの法則
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - odo
     - new
     - new
     - ans_new
-    - new
+    - odo
 - num: 2
   status: published
   chapters:
@@ -95,8 +143,7 @@ questions:
     count: 6
     form: 計算問題
     level: S
-    why: pat_S
-    pat: sl-tokka-038
+    why: q_hi
 - num: 3
   status: published
   chapters:
@@ -130,9 +177,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-059
+    level: C
+    why: q_seen
 - num: 4
   status: published
   chapters:
@@ -164,8 +210,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
+    level: B
+    why: subst
 - num: 5
   status: published
   chapters:
@@ -207,9 +255,10 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    subst_id: sb-tokka-3029
+    subst_name: ベンゼン
     level: B
-    why: pat_B
-    pat: sl-tokka-060
+    why: subst
 - num: 6
   status: published
   chapters:
@@ -242,8 +291,7 @@ questions:
     count: 4
     form: 選択肢が物質名などの問題
     level: A
-    why: pat_A
-    pat: sl-tokka-040
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -279,21 +327,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 誤正正正正
-    level: C
+    pcounts:
+    - 1
+    - 3
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-tokka-0107
+    - pt-tokka-0023
+    - pt-tokka-0038
+    - pt-tokka-0038
+    - pt-tokka-0052
+    pnames:
+    - キャリアガスの流量は、カラムの理論段数が最小となるように設定するのが望ましい（誤りの記述）
+    - カラムの内径が小さいほど、理論段数は大きくなる。
+    - 液相の膜厚が厚いほど、保持時間が長くなる。
+    - 液相の膜厚が厚いほど、保持時間が長くなる。
+    - キャリアガスとしては、窒素よりヘリウムを使用する方が理論段数が大きい
+    prcounts:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0012
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 理論段数とカラムの内径
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - ans_new
     - odo
-    - odo
-    - new
-    - new
+    - ''
+    - ''
+    - ''
 - num: 8
   status: published
   chapters:
@@ -328,7 +424,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 9
   status: published
@@ -360,8 +456,10 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    subst_id: sb-tokka-3029
+    subst_name: ベンゼン
     level: B
-    why: q_b
+    why: subst
 - num: 10
   status: published
   chapters:
@@ -397,21 +495,69 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 2
-    - 2
-    - 2
-    - 2
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 5
+    - 2
+    - 3
+    - 2
+    points:
+    - pt-tokka-0117
+    - pt-tokka-0013
+    - pt-tokka-0042
+    - pt-tokka-0020
+    - pt-tokka-0059
+    pnames:
+    - 示差屈折検出器は、溶媒と試料溶液の屈折率の違いを利用している。
+    - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+    - 蛍光光度検出器は、可視光を照射して励起した物質から発生する紫外光を測定する（誤りの記述）
+    - 電気化学検出器は、酸化性又は還元性の物質の分析に用いられる。
+    - 電気伝導度検出器は、イオン性物質の分析に用いられる。
+    prcounts:
+    - 0
+    - 9
+    - 0
+    - 9
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0004
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
     - odo
-    - ans_b
+    - ans_seen
     - odo
-    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -447,21 +593,69 @@ questions:
     - 1
     - 4
     - 1
-    similar:
-    - 1
-    - 2
-    - 1
-    - 4
-    - 1
     truths: 誤正正正正
-    level: C
-    why: none
+    pcounts:
+    - 5
+    - 1
+    - 1
+    - 5
+    - 2
+    points:
+    - pt-tokka-0005
+    - pt-tokka-0173
+    - pt-tokka-0118
+    - pt-tokka-0013
+    - pt-tokka-0085
+    pnames:
+    - 移動相が固定相よりも極性が高い場合、逆相クロマトグラフ法という。
+    - 移動相中でイオン化する物質の分析には、移動相に緩衝液を加えることがある
+    - 逆相クロマトグラフ法では、一般に、移動相として水と水溶性有機溶媒の混合液が用いられる
+    - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+    - 逆相クロマトグラフ法では、カラム温度を上げるとカラム圧が低くなる
+    prcounts:
+    - 6
+    - 0
+    - 0
+    - 9
+    - 0
+    principles:
+    - pr-tokka-0003
+    - ''
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2023-08
+    level: S
+    why: pt_S
     tags:
-    - ans_new
-    - odo
+    - ans_hi
+    - new
     - new
     - odo
-    - new
+    - ''
 - num: 12
   status: published
   chapters:
@@ -497,20 +691,68 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 1
     truths: 正正正正誤
-    level: B
-    why: elim_two
+    pcounts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-tokka-0047
+    - pt-tokka-0174
+    - pt-tokka-0077
+    - pt-tokka-0051
+    - pt-tokka-0175
+    pnames:
+    - 蛍光強度は、温度の影響を受ける。
+    - 蛍光強度は、溶液のpHにより変化することがある。
+    - 一般に、吸光光度分析法に比べて選択性が高い。
+    - 蛍光強度と濃度との直線関係は、低濃度範囲で成立する。
+    - 飽和炭化水素は、蛍光強度が大きい。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
-    - odo
+    - ''
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_new
 - num: 13
   status: published
@@ -544,18 +786,66 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    points:
+    - pt-tokka-0242
+    - pt-tokka-0095
+    - pt-tokka-0035
+    - pt-tokka-0092
+    - pt-tokka-0092
+    pnames:
+    - 両物質とも水に溶け、酸性を呈する。
+    - 両物質とも、その融点は水の融点より低い。
+    - 両物質とも、沸点は水の沸点より低い。
+    - シアン化水素の方が、硫化水素より融点が高い。
+    - シアン化水素の方が、硫化水素より融点が高い。
+    prcounts:
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-tokka-0011
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
-    - odo
+    - new
     - odo
     - ans_new
     - new
@@ -596,7 +886,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 15
   status: published
@@ -630,21 +920,70 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 2
-    - 1
     truths: 誤正正正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    points:
+    - pt-tokka-0093
+    - pt-tokka-0093
+    - pt-tokka-0224
+    - pt-tokka-0095
+    - pt-tokka-0034
+    pnames:
+    - 臭化メチルの方が、塩化ビニルより融点が高い。
+    - 臭化メチルの方が、塩化ビニルより融点が高い。
+    - 両物質とも25℃で気体である。
+    - 両物質とも、その融点は水の融点より低い。
+    - 臭化メチルの沸点は、水の融点より高い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0011
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - true
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2020-08
+      - 2025-08
+    - []
+    - - 2022-08
+    - []
+    - []
+    level: D
     why: none
     tags:
     - ans_new
     - new
     - new
-    - odo
     - new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -678,9 +1017,8 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-062
+    level: D
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -716,7 +1054,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 18
   status: published
@@ -749,7 +1087,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 19
   status: published
@@ -786,21 +1124,71 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 2
     truths: 正正正誤正
+    pcounts:
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    points:
+    - pt-tokka-0021
+    - pt-tokka-0060
+    - pt-tokka-0061
+    - pt-tokka-0176
+    - pt-tokka-0062
+    pnames:
+    - 塩素化ビフェニル(PCB)の捕集には、フロリジルを用いる。
+    - ヨウ化メチルを、直接捕集法により捕集し、ガスクロマトグラフ分析法により測定する
+    - o-トリジンを、液体捕集法により捕集し、吸光光度分析法により測定する
+    - クロロメチルメチルエーテルを、ろ過捕集法により捕集し、吸光光度分析法により測定する（誤りの記述）
+    - ベンゾトリクロリドを、固体捕集法により捕集し、ガスクロマトグラフ分析法により測定する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2021-08
+    - - 2021-08
+    - []
+    subst_id: sb-tokka-3013
+    subst_name: クロロメチルメチルエーテル
     level: B
-    why: elim_two
+    why: subst
     tags:
-    - new
     - odo
-    - odo
-    - ans_new
-    - odo
+    - ''
+    - ''
+    - ans_subst
+    - ''
 - num: 20
   status: published
   chapters:
@@ -851,5 +1239,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3001
+    subst_name: アクリルアミド
+    level: B
+    why: subst

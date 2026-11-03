@@ -35,9 +35,8 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: ds-gas-01
+    level: B
+    why: q_b
 - num: 2
   status: published
   chapters:
@@ -71,21 +70,71 @@ questions:
     - 2
     - 7
     - 4
-    similar:
-    - 2
-    - 6
+    truths: 正誤正正正
+    pcounts:
     - 2
     - 7
-    - 4
-    truths: 正誤正正正
-    level: A
-    why: ans_hi
+    - 3
+    - 11
+    - 6
+    points:
+    - pt-design-0222
+    - pt-design-0067
+    - pt-design-0184
+    - pt-design-0025
+    - pt-design-0083
+    pnames:
+    - 単位作業場所の範囲は、有害業務を行う作業場を、作業環境管理の対象となる区域に層別化したものである
+    - 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間などを考慮する必要はない
+    - B測定は、単位作業場所の中で、有害物質の濃度が最も高くなると考えられる場所と時間における測定である
+    - 塗料の調合と調合された塗料を用いて塗装が行われている作業場で、両者の作業場所を一つの単位作業場所とした
+    - 単位作業場所の設定に当たっては、作業場内の気流、換気設備の稼働状況なども考慮すべきである
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 2
+    - 0
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2016-02
+      - 2025-08
+      - 2026-02
+    - []
+    - []
+    - - 2021-02
+    level: B
+    why: pt_B
     tags:
     - ''
-    - ans_hi
+    - ans_b
     - ''
     - odo
-    - odo
+    - ''
 - num: 3
   status: published
   chapters:
@@ -122,19 +171,68 @@ questions:
     - 4
     - 3
     - 5
-    similar:
-    - 10
-    - 3
-    - 4
-    - 5
-    - 5
     truths: 正誤正正正
+    pcounts:
+    - 14
+    - 3
+    - 7
+    - 11
+    - 22
+    points:
+    - pt-design-0007
+    - pt-design-0178
+    - pt-design-0060
+    - pt-design-0026
+    - pt-design-0001
+    pnames:
+    - 単位作業場所が著しく狭く、かつ、有害物質の濃度がほぼ均一であることが明らかなときは、測定点の数を5未満とすることができる
+    - 測定時間が10分未満の検知管を使用する場合は、各測定点において複数の検知管を使用して10分間以上連続して測定しなければならない（誤りの記述）
+    - 測定点は、床上50cm以上150cm以下の高さとする。
+    - 測定点と測定点の間隔は、6 mを超えない等間隔であれば、縦方向と横方向は異なってもよい
+    - この単位作業場所は、第Ⅱ管理区分に区分される。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 5
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2021-08
+      - 2022-08
+    - []
+    - []
+    - - 2018-08
+    - []
     level: B
-    why: ans_b
+    why: elim_two
     tags:
     - odo
-    - ans_b
-    - odo
+    - ans_new
+    - ''
     - odo
     - odo
 - num: 4
@@ -165,26 +263,76 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 2
     - 8
     - 4
     - 3
-    - 5
-    similar:
-    - 3
-    - 8
-    - 4
-    - 7
     - 5
     truths: 誤正正正正
+    pcounts:
+    - 8
+    - 12
+    - 13
+    - 11
+    - 6
+    points:
+    - pt-design-0051
+    - pt-design-0015
+    - pt-design-0012
+    - pt-design-0020
+    - pt-design-0077
+    pnames:
+    - 最大濃度を示す可能性のある作業位置が複数あって、どの作業位置で最大濃度になるか予測できない場合には、それらのすべての作業位置で測定を行い、最大の測定値をB測定の測定値とする
+    - 検知管5本を用いても測定時間の合計が 10分に満たない場合は、10分の間に均等な間隔をおいて測定した5本の検知管の指示値のうち、最大値をB 測定値とする
+    - 相対濃度指示方法によって B 測定を行った場合、質量濃度変換係数はA 測定で用いる係数と同じものを用いる
+    - B 測定に圧電天秤方式の粉じん計を用いる場合は、測定時間を2分に合わせて連続して5回測定し、各測定値の算術平均値を B 測定値とする
+    - B測定に検知管を用いる場合には、検知管の本数は5本程度を目安にする
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 4
+    - 2
+    - 3
+    - 0
+    near:
+    - true
+    - true
+    - true
+    - true
+    - false
+    near_exams:
+    - - 2025-02
+    - - 2026-08
+    - - 2018-02
+      - 2019-08
+      - 2023-08
+    - - 2024-08
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - ans_b
     - odo
     - odo
     - odo
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -222,22 +370,69 @@ questions:
     - 3
     - 2
     - 2
-    similar:
-    - 2
-    - 2
+    truths: 正正正正誤
+    pcounts:
+    - 3
+    - 5
     - 3
     - 2
-    - 2
-    truths: 正正正正誤
-    level: A
-    why: pat_A
+    - 7
+    points:
+    - pt-design-0162
+    - pt-design-0098
+    - pt-design-0163
+    - pt-design-0253
+    - pt-design-0065
+    pnames:
+    - 単位作業場所の範囲は、作業者が常時作業するために立ち入る場所で、おおむね 80 dB(A) 以上の騒音レベルの範囲とする
+    - 測定点を決める縦の線と横の線の間隔は、6m以下の任意でよいが、等間隔の原則はくずしてはならない
+    - 測定点の高さは床上1.2 m以上1.5 m以下とするが、作業者が作業台等に乗って作業をする場合は、当該作業が行われる作業床から1.2 m以上1.5 m以下とする
+    - A 測定点が5に満たない場合は、縦の線若しくは横の線の間隔の変更又は基点の移動を行うことにより、測定点を5以上になるようにする
+    - 騒音の管理区分を決定する際には、測定値の標準偏差は用いない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2026-02
+    - []
+    - []
+    - - 2026-02
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
-    - odo
     - ''
-    - ans_pat
-    pat: ds-noise-01
+    - ''
+    - ans_b
 - num: 6
   status: published
   chapters:
@@ -271,15 +466,63 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 2
-    - 2
-    - 2
-    - 2
-    - 2
     truths: 正誤誤誤誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    points:
+    - pt-design-0254
+    - pt-design-0279
+    - pt-design-0255
+    - pt-design-0256
+    - pt-design-0160
+    pnames:
+    - 労働者が塗装ブース前の定点で移動せずに行う吹付塗装作業
+    - 労働者が作業場内を移動しながら行う吹付塗装作業（誤りの記述）
+    - 労働者が作業場内を移動しながら行う手塗り補修塗装（タッチアップ）作業（誤りの記述）
+    - 印刷機の幅の広いロールを労働者が作業場内を移動しながら洗浄剤で拭き取る作業（誤りの記述）
+    - 労働者が作業場内を移動しながら行う塗型剤を鋳型に塗布する作業（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ans_pat
     - ''
@@ -323,21 +566,69 @@ questions:
     - 2
     - 3
     - 2
-    similar:
-    - 2
-    - 2
-    - 2
-    - 3
-    - 2
     truths: 正正正正誤
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 4
+    - 3
+    points:
+    - pt-design-0223
+    - pt-design-0217
+    - pt-design-0230
+    - pt-design-0140
+    - pt-design-0155
+    pnames:
+    - 単位作業場所において労働者がばく露される測定対象物質の量がほぼ均一であると見込まれる作業ごとに、適切な数の労働者を選択して測定対象労働者とする
+    - 試料空気の採取は、測定対象労働者の身体に装着する試料採取機器等を用いる方法により行う
+    - 試料空気の採取等の時間は、原則として、労働者が1作業日のうち単位作業場所において作業に従事する全時間とする
+    - D 測定の測定値が複数ある場合には、得られた測定値のうちの最大値をD 測定の測定値とする
+    - 粉じんの相対濃度計を用いる場合には、一つの測定点における試料空気の採取時間は10分未満でよいが、1単位作業場所における全測定点の数を…
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2021-08
     level: C
-    why: none
+    why: seen
     tags:
     - ''
     - ''
     - ''
-    - odo
-    - ans_new
+    - ''
+    - ans_seen
 - num: 8
   status: published
   chapters:
@@ -366,26 +657,77 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
-    - 4
-    - 4
-    - 5
     - 3
-    similar:
-    - 2
     - 4
     - 4
     - 5
     - 3
     truths: 誤正正正正
+    pcounts:
+    - 7
+    - 6
+    - 4
+    - 5
+    - 4
+    points:
+    - pt-design-0076
+    - pt-design-0084
+    - pt-design-0135
+    - pt-design-0101
+    - pt-design-0128
+    pnames:
+    - コールタールは、常温・常圧で液体である。
+    - 混合有機溶剤の蒸気の成分比は、一般に液相での成分比とは異なる。
+    - メッキ、充電などの電解を伴う工程では、ミストが発散する。
+    - 金属蒸気は、空気中で冷却され、酸化物の微細な粒子となる。
+    - ヒュームが凝集する速度は、個数濃度が高いほど速い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2020-08
+      - 2021-08
+      - 2022-08
+      - 2024-02
+    - []
+    - []
+    - []
+    - []
     level: S
     why: pat_S
     tags:
     - ans_pat
-    - odo
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
+    - ''
     pat: ds-properties-01
 - num: 9
   status: published
@@ -419,7 +761,7 @@ questions:
     count: 2
     form: 穴埋め・組合せの問題
     level: C
-    why: q_new
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -453,22 +795,72 @@ questions:
     - 4
     - 7
     - 8
-    similar:
-    - 4
-    - 8
-    - 4
-    - 7
-    - 10
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 14
+    - 8
+    - 10
+    - 7
+    - 9
+    points:
+    - pt-design-0010
+    - pt-design-0052
+    - pt-design-0033
+    - pt-design-0072
+    - pt-design-0041
+    pnames:
+    - 絞り式（オリフィス）流量計は、ハイボリウムエアサンプラーの校正に用いる
+    - 面積式流量計は、テーパー管内の浮子が停止したとき、浮子とテーパー管の間隙の面積とそこを流れている流量とが比例することを利用している
+    - 湿式ガスメーターは、原則として、ポンプの後に接続する。
+    - 石けん膜流量計は、所定の距離を石けん膜が移動する時間を測定して流量を求める
+    - サンプリングに用いる流量計の較正は、捕集装置を取り付けた状態で行う
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2018-02
+      - 2021-08
+      - 2023-08
+      - 2024-08
+    - []
+    - []
+    level: B
+    why: pt_B
     tags:
     - odo
-    - odo
-    - ans_pat
-    - odo
-    - odo
-    pat: ds-flowmeter-02
+    - ''
+    - ans_b
+    - ''
+    - ''
 - num: 11
   status: published
   chapters:
@@ -502,21 +894,70 @@ questions:
     - 6
     - 2
     - 3
-    similar:
-    - 4
-    - 3
-    - 7
-    - 6
-    - 3
     truths: 正誤正正正
+    pcounts:
+    - 4
+    - 8
+    - 8
+    - 2
+    - 3
+    points:
+    - pt-design-0147
+    - pt-design-0045
+    - pt-design-0058
+    - pt-design-0287
+    - pt-design-0202
+    pnames:
+    - 固体捕集管に破過が生じた場合、捕集した試料から求めた測定値は、真の値より小さくなる
+    - アルコール系の有機溶剤は、一般に極性が大きい。
+    - ポーラスポリマー管に捕集した試料は、活性炭管に比べて加熱脱着が容易である
+    - アセトンの捕集には、シリカゲル管が用いられる。
+    - 塩素化ビフェニルの捕集には、フロリジル管が用いられる。
+    prcounts:
+    - 19
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-design-0003
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 吸着剤の性質（活性炭は無極性、シリカゲルは極性）
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2015-08
+      - 2019-08
+    - []
+    - []
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - odo
     - ans_b
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
 - num: 12
   status: published
   chapters:
@@ -550,22 +991,69 @@ questions:
     - 3
     - 7
     - 2
-    similar:
-    - 3
-    - 10
-    - 4
-    - 7
-    - 2
     truths: 誤正正正正
-    level: S
-    why: pat_S
+    pcounts:
+    - 7
+    - 11
+    - 5
+    - 9
+    - 3
+    points:
+    - pt-design-0073
+    - pt-design-0021
+    - pt-design-0099
+    - pt-design-0039
+    - pt-design-0196
+    pnames:
+    - メンブランフィルターのポアサイズ（孔径）は、捕集できる粒子の大きさの下限を示すものではない
+    - メンブランフィルターは、ガラス繊維ろ紙に比べ、粉じんの堆積による通気抵抗の増加が大きい
+    - ポアサイズの小さなメンブランフィルターほど、同じ吸引速度でサンプリングした場合の圧力損失は大きい
+    - ガラス繊維ろ紙の吸湿率を低くするために、フッ素樹脂を含浸させたものがある
+    - ベリリウムや五酸化バナジウムの捕集に用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2020-02
+    - - 2026-08
+    - - 2017-02
+    - []
+    - []
+    level: B
+    why: pt_B
     tags:
-    - ans_pat
-    - odo
-    - odo
+    - ans_b
     - odo
     - ''
-    pat: ds-filter-01
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -599,21 +1087,74 @@ questions:
     - 5
     - 5
     - 6
-    similar:
-    - 3
-    - 8
-    - 5
-    - 5
-    - 6
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 4
+    - 10
+    - 9
+    - 14
+    - 6
+    points:
+    - pt-design-0142
+    - pt-design-0034
+    - pt-design-0071
+    - pt-design-0005
+    - pt-design-0081
+    pnames:
+    - 直接捕集に用いる捕集袋内面の洗浄に、水や洗剤を用いてはならない。
+    - 真空捕集びんのコックには、グリースの使用は避ける。
+    - ミゼットインピンジャーによる粒子状物質の捕集は、慣性衝突効果によるものである
+    - ミゼットインピンジャーによる粒子の捕集では、粒径が小さいほど捕集率は高くなる
+    - 気体を液体捕集によって試料採取する場合、有機溶剤等の揮発性物質の捕集率は、捕集液の温度が低いほど高い
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 22
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-design-0012
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 粒子の捕集機構（慣性・さえぎり・拡散）と粒径
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-02
+      - 2016-08
+      - 2017-08
+      - 2019-08
+      - 2020-08
+      - 2023-08
+    - []
+    level: B
+    why: pat_B
     tags:
     - ans_pat
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - odo
+    - ''
     pat: ds-liquid-direct-02
 - num: 14
   status: published
@@ -644,26 +1185,79 @@ questions:
     denom: 23
     counts:
     - 3
-    - 3
+    - 2
     - 3
     - 2
     - 2
-    similar:
-    - 3
-    - 3
-    - 3
-    - 2
-    - 4
     truths: 正誤正正正
+    pcounts:
+    - 7
+    - 11
+    - 6
+    - 2
+    - 12
+    points:
+    - pt-design-0062
+    - pt-design-0024
+    - pt-design-0089
+    - pt-design-0284
+    - pt-design-0016
+    pnames:
+    - 吸引流量は、相対濃度に影響しない。
+    - 質量濃度（C）、相対濃度（R）及び質量濃度変換係数（K）の関係は、C ＝ R × K で表される
+    - A測定における1測定点の測定時間は10分未満でもよい。
+    - A 測定の全測定点の数は、10分間を1測定点における測定時間で除した値の数以上となるようにする
+    - 粒子の組成と粒度分布が一定で、濃度に変動がなければ、相対濃度計の積算値は、測定時間に比例する
+    prcounts:
+    - 22
+    - 0
+    - 0
+    - 0
+    - 22
+    principles:
+    - pr-design-0007
+    - ''
+    - ''
+    - ''
+    - pr-design-0007
+    prnames:
+    - 光散乱による相対濃度計の原理
+    - ''
+    - ''
+    - ''
+    - 光散乱による相対濃度計の原理
+    trend:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2016-02
+      - 2018-02
+      - 2018-08
+      - 2019-08
+      - 2020-08
+      - 2021-08
+      - 2023-08
     level: A
-    why: pat_A
+    why: pt_A
     tags:
     - odo
-    - ans_pat
-    - odo
+    - ans_hi
+    - ''
     - ''
     - odo
-    pat: ds-relative-meter-03
 - num: 15
   status: published
   chapters:
@@ -696,18 +1290,70 @@ questions:
     - 3
     - 8
     - 3
-    - 5
-    similar:
-    - 2
-    - 4
-    - 10
-    - 4
-    - 5
+    - 3
     truths: 正正正正誤
-    level: A
-    why: ans_hi
-    tags:
+    pcounts:
+    - 11
+    - 15
+    - 14
+    - 8
+    - 11
+    points:
+    - pt-design-0023
+    - pt-design-0004
+    - pt-design-0009
+    - pt-design-0050
+    - pt-design-0103
+    pnames:
+    - 直読式検知管の濃度目盛りは、温度20℃を基準にしている。
+    - ガス採取器からの漏れを防ぐため、ピストン及びシリンダー内部にグリースを塗布する
+    - 検知限度とは、変色がわずかに認められる最低濃度のことである。
+    - 通気終了後、濃度の読み取りは速やかに行う。
+    - 変色層が斜めに現れたときは、斜めに変色した部分の中間値を読み取る
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 12
+    - 0
+    principles:
     - ''
+    - ''
+    - ''
+    - pr-design-0010
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 検知管の原理（化学反応による比色）
+    - ''
+    trend:
+    - 0
+    - 2
+    - 1
+    - 2
+    - 0
+    near:
+    - false
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2017-02
+      - 2018-08
+      - 2020-02
+      - 2022-08
+    - - 2021-08
+    - []
+    - - 2016-02
+      - 2018-02
+    level: A
+    why: pt_A
+    tags:
+    - odo
     - odo
     - odo
     - odo
@@ -825,22 +1471,89 @@ questions:
     - 8
     - 9
     - 4
-    similar:
-    - 10
-    - 10
-    - 8
-    - 10
-    - 4
     truths: 正正正正誤
+    pcounts:
+    - 21
+    - 16
+    - 12
+    - 8
+    - 21
+    points:
+    - pt-design-0002
+    - pt-design-0003
+    - pt-design-0017
+    - pt-design-0057
+    - pt-design-0002
+    pnames:
+    - 対数正規分布の幾何標準偏差は無次元である。
+    - 有害物質の濃度分布は、対数正規分布で近似される。
+    - 正規分布の算術平均値と標準偏差をそれぞれ μ、σ とすると、この分布に従う変数が μ - σ から μ ＋ σ の範囲に入る確率は、およそ 68 ％ である
+    - 正規分布では、平均値と標準偏差は、互いに独立である。
+    - 対数正規分布の幾何標準偏差は無次元である。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 5
+    - 3
+    - 3
+    - 2
+    - 5
+    near:
+    - true
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2025-02
+    - - 2015-08
+      - 2017-02
+      - 2018-08
+      - 2019-08
+      - 2021-08
+    - - 2016-08
+      - 2020-08
+      - 2024-08
+    - - 2016-02
+      - 2017-08
+      - 2018-02
+      - 2022-08
+    - - 2015-08
+      - 2016-02
+      - 2016-08
+      - 2017-08
+      - 2018-02
+      - 2019-08
+      - 2020-02
+      - 2020-08
+      - 2022-08
+      - 2023-08
+      - 2024-02
+      - 2025-08
     level: A
-    why: pat_A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
-    - odo
-    - ans_pat
-    pat: ds-statistics-02
+    - ''
+    - ans_hi
 - num: 19
   status: published
   chapters:
@@ -874,22 +1587,87 @@ questions:
     - 7
     - 2
     - 3
-    similar:
-    - 8
-    - 2
-    - 7
-    - 2
-    - 6
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 9
+    - 8
+    - 14
+    - 8
+    - 14
+    points:
+    - pt-design-0040
+    - pt-design-0042
+    - pt-design-0005
+    - pt-design-0042
+    - pt-design-0008
+    pnames:
+    - 一般に、ろ過捕集法による粒子の捕集率は、粒径 0.1 ～ 0.3 μm 程度の粒子で低くなる
+    - 多段平行板式分粒装置を用いる場合、吸引流量が所定の値より大きいと、分粒装置を通過する粒子の 50 ％ 分粒粒径は大きくなる
+    - ミゼットインピンジャーによる粒子の捕集では、粒径が小さいほど捕集率は高くなる
+    - 多段平行板式分粒装置を用いる場合、吸引流量が所定の値より大きいと、分粒装置を通過する粒子の 50 ％ 分粒粒径は大きくなる
+    - 面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より大きくなる
+    prcounts:
+    - 22
+    - 0
+    - 22
+    - 0
+    - 0
+    principles:
+    - pr-design-0012
+    - ''
+    - pr-design-0012
+    - ''
+    - ''
+    prnames:
+    - 粒子の捕集機構（慣性・さえぎり・拡散）と粒径
+    - ''
+    - 粒子の捕集機構（慣性・さえぎり・拡散）と粒径
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 3
+    - 0
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2015-08
+      - 2016-02
+      - 2018-08
+      - 2019-02
+      - 2021-02
+    - - 2016-02
+      - 2019-08
+      - 2021-08
+      - 2023-08
+      - 2025-02
+    - - 2016-02
+      - 2019-08
+      - 2021-02
+      - 2023-08
+    - - 2016-08
+      - 2017-02
+      - 2017-08
+      - 2018-02
+      - 2019-02
+      - 2021-02
+      - 2023-08
+      - 2024-08
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
     - odo
-    - ans_pat
+    - ans_b
     - odo
-    pat: ds-size-selector-01
 - num: 20
   status: published
   chapters:
@@ -926,18 +1704,70 @@ questions:
     - 5
     - 4
     - 4
-    similar:
-    - 6
-    - 9
-    - 5
-    - 4
-    - 9
     truths: 正正誤正正
+    pcounts:
+    - 7
+    - 22
+    - 22
+    - 4
+    - 22
+    points:
+    - pt-design-0061
+    - pt-design-0001
+    - pt-design-0001
+    - pt-design-0126
+    - pt-design-0001
+    pnames:
+    - A 測定の第1評価値が管理濃度より小さい単位作業場所内の気中有害物質濃度が管理濃度を超える確率は、5％ 未満である
+    - この単位作業場所は、第Ⅱ管理区分に区分される。
+    - この単位作業場所は、第Ⅱ管理区分に区分される。
+    - 幾何標準偏差(σ)の値は、2日間測定では、1以上の値であるが、1日測定の場合には、1.95以上の値になる
+    - この単位作業場所は、第Ⅱ管理区分に区分される。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-design-0005
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 対数正規分布の性質（値は正、幾何平均）
+    - ''
+    trend:
+    - 2
+    - 5
+    - 5
+    - 1
+    - 5
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2016-02
+      - 2016-08
+      - 2017-08
+      - 2019-08
+    - []
+    - - 2017-02
+      - 2021-02
     level: A
-    why: ans_hi
+    why: pt_A
     tags:
-    - odo
+    - ''
     - odo
     - ans_hi
-    - odo
+    - ''
     - odo

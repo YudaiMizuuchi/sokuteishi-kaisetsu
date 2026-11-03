@@ -1,84 +1,128 @@
 #!/usr/bin/env python3
-"""選択肢ごとの出題頻度（その科目の全回のうち、何回、同じ記述が出題されたか）を計算して、問題データの freq に書き込む。
+"""選択肢ごと・問題ごとの出題頻度と、問題の区分（S・A・B・C）を計算して、問題データの freq に書き込む。
 使い方: python3 tools/compute_freq.py        （試算：件数だけ表示）
         python3 tools/compute_freq.py apply  （data/exams/*/*.yaml の各問に freq を書き込む）
-新しい回を追加したときは、もう一度 apply を実行する（分母が1つ増える）。
-- 統計の単位は「科目」。同じ回で同じ記述が2回出ても、1回と数える。
-- 正誤の向きが同じ記述だけを、同じものとみなす（「比例」と「反比例」のように、正誤が逆のものは別）。
-- 穴埋め・組合せ・計算問題・物質名を選ぶ問題は、選択肢ではなく、問題として数える。"""
+新しい回を追加したら、先に python3 tools/build_points.py --update（論点マスタの更新）を実行する。
+
+区分の判定に使う入力は、次の3つだけ。
+ 1. 論点の出題回数：論点マスタ（data/master/points.yaml）の論点が、その科目で、何回の回に出たか（選択肢のどれかとして）
+ 2. パターンの紐づけ：その問題に紐づく、ひっかけパターン（共通科目：book.yaml の lw-*・ds-* など）の出題回数
+ 3. 問題単位の回数：穴埋め・組合せ・計算問題などは、同じ形式の問題が出た回数
+「同じ記述の回数」（文字の類似度0.86以上）は、表示用の参考値で、判定には使わない。"""
 import yaml,glob,re,sys,collections,difflib
+sys.path.insert(0,'tools')
+import points_master as PM
+import build_points as BP
+import substances as SB
 APPLY=len(sys.argv)>1 and sys.argv[1]=='apply'
-THR_STMT=0.86; THR_SIM=0.70; THR_CALC=0.62; THR_Q=0.90   # THR_SIM：『似た記述』とみなす下限（ガードつき）
+THR_STMT=0.86; THR_CALC=0.62; THR_Q=0.90
+# 改変型：正誤が逆で、文字の類似度（3-gramのJaccard）が0.40以上の記述が、ほかの回にある（過去に正しい記述として出た事実の、数値や範囲を変えたもの）。
+# 令和5年度以降のDの正答のうち、関係法令では約4分の1（39問中10問）が、これに当たる。一般・デザインでは数問、分析ではほぼ無い。
+THR_NEAR=0.40; NEAR_SUBJ={'hourei','ippan','design'}
 NEG=re.compile(r'誤っているもの|不適当|不適切|適切でない|適当でない|正しくないもの|誤っている|あてはまらない|当てはまらない|該当しない')
 def norm(s):
     s=re.sub(r'<[^>]+>','',str(s)); s=re.sub(r'\$[^$]*\$','',s)
     return re.sub(r'[\s　、。，．・「」『』（）()\[\]：:,.\-－]','',s)
 def grams(t): return {t[i:i+3] for i in range(max(1,len(t)-2))}
 
-def _nums(t): return sorted(re.findall(r'\d+(?:\.\d+)?',t.translate(str.maketrans('０１２３４５６７８９','0123456789'))))
-def _cls(t): return sorted(re.findall(r'第[一二三四五六七1-9１-９]+[種類号条]',t))
-_FILL=re.compile(r'(通常|一般に|一般的に|原則として|場合は|場合には|ことが多い|である|です|する|いる|ある|の|は|が|を|に|で|と|も|や|、|。|，)')
-def similar_guard(a,b):
-    """『似た記述』の条件：数字・種類（第○種など）が一致し、差分が、両側とも名詞2文字以上で入れ替わっていない。"""
-    if _nums(a)!=_nums(b) or _cls(a)!=_cls(b): return False
-    sm=difflib.SequenceMatcher(None,a,b)
-    for tag,i1,i2,j1,j2 in sm.get_opcodes():
-        if tag!='equal' and len(_FILL.sub('',a[i1:i2]))>=2 and len(_FILL.sub('',b[j1:j2]))>=2: return False
-    return True
-
-
-def rank_of(m,D):
-    """出題回数の水準。共通科目（23回）はS≧10・A≧5・B≧3、選択科目（12回）はS≧5・A≧3・B≧2。"""
-    t=(10,5,3) if D>=20 else (5,3,2)
+# ランクの境目：科目ごと。頻度（回数）が、S・A・B の各ランクに入る下限（これ未満はC）。
+# 目標の割合（科目内）：S約15％・A約25％・B約30％・C約30％。tools/fit_thresholds.py で、最終の区分（消去法を含む）の分布が目標に近くなるように決めた（2026年11月3日）。論点マスタが大きく変わったら、もう一度実行する。
+THRESHOLDS={
+ 'ippan':(16,9,6), 'hourei':(21,14,9), 'design':(23,11,7), 'bunseki':(12,9,6),
+ 'yuki':(10,5,3), 'tokka':(5,4,3), 'kinzoku':(9,4,3), 'funjin':(8,5,3),   # 選択科目のBの下限は3回（C＝通算2回＝過去に1回だけ既出）。S・Aは fit_thresholds.py（2026年11月3日）
+}
+# 消去法で「除外できるおとり」とみなす論点の水準（この水準以上）。選択科目は、Cが少なくなりすぎないよう、厳しくできる。
+ELIM_KNOWN={'hourei':'A','design':'A','bunseki':'A'}   # 未指定は 'B'
+# 直近トレンド：直近K回（共通6回・選択3回）のうち、TREND_MIN回以上に出た論点は、頻度が低くても、少なくともB（押さえるべき事実）にする
+TREND_K={'ippan':6,'hourei':6,'design':6,'bunseki':6,'yuki':3,'tokka':3,'kinzoku':3,'funjin':3}
+# トレンド（直近に集中）：通算2回以上の論点で、通算回数の半分以上が直近K回にあるとき、水準を1段階上げる（A→S、B→A）。通算1回は対象外
+CUR=None   # 計算中の科目
+ORDER={'S':0,'A':1,'B':2,'C':3,'D':4}
+def rank_of(m,D,subj=None):
+    t=THRESHOLDS.get(subj or CUR) or ((10,5,3) if D>=20 else (5,3,2))
     return 'S' if m>=t[0] else 'A' if m>=t[1] else 'B' if m>=t[2] else 'C'
-def judge(fr,answers,prank=None,pat=None):
-    """問題の区分：S＝得点必須（最優先）、A＝得点必須、B＝何とか得点したい、C＝失点しても仕方がない。
-    正答の選択肢の頻度は、『選択肢の文の出題回数（同じ記述）』と『紐づくひっかけパターンの出題水準』の、高いほうを使う。
-    ・S：正答の頻度がS（共通23回中10回以上／選択12回中5回以上）
-    ・A：正答の頻度がA（共通5〜9回／選択3〜4回）
-    ・B：正答の頻度がB（共通3〜4回／選択2回。似た記述を含めてもよい）、または、頻出のおとり（似た記述を含めてB水準以上）を除いて、残りが1つ（全部除外）か2つ（2択）
-    ・C：上のどれにも当てはまらない
-    問題単位の集計（穴埋め・組合せ・計算問題など）：問題の出題回数とパターンの水準の、高いほう。"""
-    D=fr['denom']; order={'S':0,'A':1,'B':2,'C':3}
-    def best(*rs): return min((r for r in rs if r),key=lambda r:order[r],default='C')
+def best(*rs): return min((r for r in rs if r),key=lambda r:ORDER[r],default='C')
+
+def judge(fr,answers,prank=None):
+    """問題の区分：S＝得点必須（最優先）、A＝得点必須、B＝何とか得点したい、C＝余裕があれば得点（既出だが1回だけ）、D＝失点しても仕方がない（完全な初見）。
+    CとDの境目だけは絶対（既出か初見か）。S・A・Bの境目は科目ごとの相対評価。
+    選択肢の問題：正答の頻度＝『正答の選択肢の論点の回数』と『紐づくパターンの水準』の、高いほう。
+      S・A：正答の頻度がS・Aの境目以上。B：正答の頻度がB、または、頻出のおとり（論点の回数がB水準以上）を除いて、残りが1つ（全部除外）か2つ（2択）。C：上のどれにも当てはまらない。
+    問題単位の集計：問題の出題回数とパターンの水準の、高いほう。"""
+    D=fr['denom']
     if fr['kind']=='question':
-        r=best(rank_of(fr['count'],D),prank)
-        if r in 'SA': return r,('pat_'+r if prank==r else 'q_hi'),None
-        if r=='B': return 'B',('pat_B' if prank=='B' else 'q_b'),None
-        return 'C','q_new',None
-    a=answers[0]-1; ms=fr['counts']; sm=fr['similar']; n=len(ms)
+        rq=rank_of(fr['count'],D); r=best(rq,prank)
+        why=('pat_' if prank==r and rq!=r else 'q_')
+        if r in 'SA': return r,('pat_'+r if why=='pat_' else 'q_hi'),None
+        if r=='B': return 'B',('pat_B' if why=='pat_' else 'q_b'),None
+        if fr.get('subst_id'): return 'B','subst',None
+        seen_min=2 if fr.get('self_counted',True) else 1
+        return ('C','q_seen',None) if fr['count']>=seen_min else ('D','q_new',None)
+    a=answers[0]-1; n=len(fr['counts'])
+    eff=[fr['pcounts'][i] or fr['counts'][i] for i in range(n)]   # 論点の回数（論点がない選択肢は、同じ記述の回数）
+    prc=fr.get('prcounts') or [0]*n
+    rpoint=rank_of(eff[a],D)
+    rprin=pr_rank(prc[a],CUR)
+    ra=best(rpoint,prank,rprin)
     tags=[]
-    ra=best(rank_of(ms[a],D),prank); r2=rank_of(sm[a],D)
     for i in range(n):
         if i==a:
-            rc=rank_of(ms[a],D)
-            if prank and order[prank]<order[rc]: tags.append('ans_pat')   # 選択肢の文は初見でも、ひっかけパターンに該当
-            else: tags.append('ans_hi' if ra in 'SA' else 'ans_b' if (ra=='B' or r2 in 'SAB') else 'ans_new')
+            tags.append('ans_pr' if (ORDER[rprin]<ORDER[rpoint] and ORDER[rprin]<=ORDER.get(prank or 'C')) else 'ans_pat' if (prank and ORDER[prank]<ORDER[rpoint]) else ('ans_hi' if ra in 'SA' else 'ans_b' if ra=='B' else 'ans_new'))
         else:
-            tags.append('odo' if rank_of(sm[i],D)!='C' else ('new' if sm[i]<=1 else ''))
-    if ra in 'SA': return ra,('pat_'+ra if prank==ra and rank_of(ms[a],D)!=ra else 'ans_hi'),tags
-    if ra=='B' or r2 in 'SAB': return 'B',('pat_B' if prank=='B' and rank_of(ms[a],D)!='B' else 'ans_b'),tags
+            kn=ORDER[ELIM_KNOWN.get(CUR,'B')]
+            tags.append('odo' if (ORDER[rank_of(eff[i],D)]<=kn or ORDER[pr_rank(prc[i],CUR)]<=kn) else ('new' if eff[i]<=1 else ''))
+    def why(base):
+        if prank==ra and rpoint!=ra: return 'pat_'+ra
+        if rprin==ra and rpoint!=ra: return 'pr_'+ra
+        if fr['pcounts'][a]: return 'pt_'+ra
+        return base
+    tr=fr.get('trend') or [0]*n
+    def uplift(r):
+        # 直近に集中している論点は、1段階上げる（定番Sはそのまま）
+        if eff[a]>=2 and tr[a]*2>=eff[a] and r in 'AB': return {'A':'S','B':'A'}[r],True
+        return r,False
+    ra,trended=uplift(ra)
+    if trended: tags[a]='ans_trend'
+    if ra in 'SA': return ra,('trend_'+ra if trended else why('ans_hi')),tags
+    if ra=='B': return 'B',why('ans_b'),tags
     k=sum(1 for i in range(n) if i!=a and tags[i]=='odo'); left=n-k
     if left==1: return 'B','elim_all',tags
     if left==2: return 'B','elim_two',tags
-    return 'C','none',tags
+    if fr.get('subst_id'): tags[a]='ans_subst'; return 'B','subst',tags   # 物質別の暗記リスト（確認済み）の表で解ける
+    seen_min=2 if fr.get('self_counted',True) else 1
+    if eff[a]>=seen_min: tags[a]='ans_seen'; return 'C','seen',tags
+    if CUR in NEAR_SUBJ and (fr.get('near') or [False]*n)[a]: tags[a]='ans_near'; return 'C','near',tags   # 改変型：過去に正しい記述として出た事実を、変えたもの
+    return 'D','none',tags
 
-# ひっかけパターン（data/master/book.yaml）：各問に紐づくパターンのうち、最も水準の高いものを使う
+# ひっかけパターン（data/master/book.yaml）：共通科目のパターンだけを、判定に使う（選択科目の sl-* は、論点に置き換わったので、使わない）
 _BOOK=yaml.safe_load(open('data/master/book.yaml',encoding='utf-8'))
-TRAPS={t['id']:t for t in _BOOK['traps']}
+TRAPS={t['id']:t for t in _BOOK['traps'] if not t['id'].startswith('sl-')}
 def best_pattern(q):
     c=[TRAPS[t] for t in (q.get('traps') or []) if t in TRAPS and 'other' not in t and 'その他' not in TRAPS[t]['name']]
     if not c: return None,None
-    o={'S':0,'A':1,'B':2,'C':3}
-    t=min(c,key=lambda x:o[x['rank']]); return t['rank'],t['id']
+    t=min(c,key=lambda x:ORDER[x['rank']])
+    return rank_of(t['count'],0,t['subject']),t['id']
 
-# 手動の対応表（data/master/choice_links.yaml）：言い回しが違うが同じ内容と判定した選択肢の組
+# 原理マスタ（data/master/principles.yaml）：原理に紐づく論点の、出題回の和集合＝原理の出題回数
 import os
-LINKS=collections.defaultdict(set)
-_lp='data/master/choice_links.yaml'
-if os.path.exists(_lp):
-    for l in (yaml.safe_load(open(_lp,encoding='utf-8')) or {}).get('links',[]):
-        LINKS[(l['subject'],l['a'])].add(l['b']); LINKS[(l['subject'],l['b'])].add(l['a'])
+_PRD=yaml.safe_load(open('data/master/principles.yaml',encoding='utf-8')) if os.path.exists('data/master/principles.yaml') else {'principles':[]}
+# 原理用の境目（科目ごと。原理は論点より広いので、論点とは別に決める）。python3 tools/fit_thresholds.py で決める
+# 分析科目：S＝23回中12回以上（半数以上の回で問われた原理）、A＝8回以上、B＝5回以上（2026年11月3日、本人の判断。Sが多く、Cが少なくなるのは、原理を熟知すべき科目の性格として、許容）
+PR_THRESHOLDS={'ippan':(12,8,5),'design':(12,8,5),'bunseki':(12,8,5),'yuki':(6,4,3),'tokka':(6,4,3),'kinzoku':(6,4,3),'funjin':(6,4,3)}   # 一般・デザインは分析と同じ（23回中12／8／5回、2026年11月3日）。有機溶剤以下は、分母12回に対して分析と同じ割合
+def pr_rank(m,subj):
+    t=PR_THRESHOLDS.get(subj)
+    if not t or not m: return 'C'
+    return 'S' if m>=t[0] else 'A' if m>=t[1] else 'B' if m>=t[2] else 'C'
+
+# 論点マスタ
+_PM=PM.load(); _K2P=PM.resolve(_PM); _PNAME=PM.info(_PM)
+_PEX=collections.defaultdict(set)    # (科目, 論点id) -> 回
+for (_s,_k),_pid in _K2P.items(): _PEX[(_s,_pid)].add(_k.split('|')[0])
+PR_BY_POINT=collections.defaultdict(list); PR_EXAMS={}; PR_NAME={}
+for _pr in _PRD['principles']:
+    PR_NAME[_pr['id']]=_pr['name']
+    PR_EXAMS[_pr['id']]=set().union(*[_PEX[(_pr['subject'],x)] for x in _pr['points']]) if _pr['points'] else set()
+    for x in _pr['points']: PR_BY_POINT[(_pr['subject'],x)].append(_pr['id'])
 
 docs=collections.defaultdict(dict)   # subject -> exam -> (file, data)
 for f in sorted(glob.glob('data/exams/*/*.yaml')):
@@ -89,97 +133,145 @@ def qkind(q):
     ch=q.get('choices') or []
     if q.get('columns'): return 'combo'
     if ch and all(re.search(r'\d',str(c)) and not re.search(r'[ぁ-んァ-ヶ一-龥]{3,}',str(c)) for c in ch): return 'calc'
-    if ch and all(len(norm(c))>=12 for c in ch): return 'stmt'
+    if ch and all(BP.stmt_like(c) for c in ch): return 'stmt'
     return 'short'
-total=0; stats={}
-for subj,exams in docs.items():
-    D=len(exams)
-    # 記述（選択肢）の集合
-    S=[]   # (exam, num, idx, truth, text)
-    Qs=[]  # (exam, num, kind, key)
-    for e,(f,d) in exams.items():
+
+_NEAR_CACHE={}
+def compute_near(subj):
+    """(回, 問, 選択肢番号) -> 近い記述（正誤が逆）がある回のリスト"""
+    if subj in _NEAR_CACHE: return _NEAR_CACHE[subj]
+    S=[]
+    for e,(f,d) in docs[subj].items():
         for q in d['questions']:
-            if q.get('status')!='published' or not q.get('choices'): continue
+            if q.get('status')!='published' or not q.get('choices') or q.get('columns'): continue
             ans=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
-            if ans and ans[0]=='all': continue
-            neg=bool(NEG.search(q['stem'])); k=qkind(q)
-            if k=='stmt':
-                for i,c in enumerate(q['choices'],1):
-                    truth=(i not in ans) if neg else (i in ans)
-                    S.append((e,q['num'],i,truth,norm(c)))
-            a0=ans[0]; atxt=norm(q['choices'][a0-1]) if isinstance(a0,int) and a0<=len(q['choices']) else ''
-            key=norm(q['stem'])[:70] if k=='calc' else norm(q['stem'])[:60]+'|'+atxt
-            Qs.append((e,q['num'],k,key))
-    # 記述の索引
-    G=[grams(s[4]) for s in S]; inv=collections.defaultdict(list)
-    for i,g in enumerate(G):
-        for x in g: inv[x].append(i)
-    match={}; match2={}   # index -> set of exams
-    for i,s in enumerate(S):
+            if not ans or ans[0]=='all' or not isinstance(ans[0],int): continue
+            if qkind(q)!='stmt': continue
+            neg=bool(NEG.search(q['stem']))
+            for i,c in enumerate(q['choices'],1): S.append((e,q['num'],i,(i not in ans) if neg else (i in ans),grams(norm(c))))
+    inv=collections.defaultdict(list)
+    for i,s_ in enumerate(S):
+        for x in s_[4]: inv[x].append(i)
+    out={}
+    for i,s_ in enumerate(S):
         cnt=collections.Counter()
-        for x in G[i]:
+        for x in s_[4]:
             for j in inv[x]: cnt[j]+=1
-        exs={s[0]}; exs2={s[0]}
+        exs=set()
         for j,c in cnt.items():
-            if j==i or S[j][3]!=s[3] or S[j][0]==s[0]: continue
-            if c<0.4*min(len(G[i]),len(G[j])): continue
-            r=difflib.SequenceMatcher(None,s[4],S[j][4]).ratio()
-            linked=f"{S[j][0]}|{S[j][1]}|{S[j][2]}" in LINKS.get((subj,f"{s[0]}|{s[1]}|{s[2]}"),())
-            if r>=THR_STMT or linked: exs.add(S[j][0]); exs2.add(S[j][0])
-            elif r>=THR_SIM and similar_guard(s[4],S[j][4]): exs2.add(S[j][0])
-        match[i]=exs; match2[i]=exs2
-    idx={(s[0],s[1],s[2]):i for i,s in enumerate(S)}
-    # 問題の索引
-    qm={}
-    for a,(e,n,k,key) in enumerate(Qs):
-        exs={e}
-        if k!='stmt':
-            for (e2,n2,k2,key2) in Qs:
-                if e2==e or k2!=k or len(key)<8: continue
-                thr=THR_CALC if k=='calc' else THR_Q
-                if difflib.SequenceMatcher(None,key,key2).ratio()>=thr: exs.add(e2)
-        qm[(e,n)]=(k,len(exs))
-    for e,(f,d) in exams.items():
-        for q in d['questions']:
-            if q.get('status')!='published' or not q.get('choices'): continue
-            ans=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
-            if ans and ans[0]=='all': continue
-            neg=bool(NEG.search(q['stem'])); k=qkind(q)
-            if k=='stmt':
-                counts=[];counts2=[];truths=''
-                for i,c in enumerate(q['choices'],1):
-                    counts.append(len(match[idx[(e,q['num'],i)]])); counts2.append(len(match2[idx[(e,q['num'],i)]])); truths+=('正' if ((i not in ans) if neg else (i in ans)) else '誤')
-                fr=dict(kind='choice',denom=D,counts=counts,similar=counts2,truths=truths); pr,pid=best_pattern(q); lv,why,tags=judge(fr,ans,pr,pid); fr.update(level=lv,why=why,tags=tags)
-                if why.startswith('pat_') and pid: fr['pat']=pid
-                stats[(f,q['num'])]=fr
-            else:
-                kk,m=qm[(e,q['num'])]
-                fr=dict(kind='question',denom=D,count=m,form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k]); pr,pid=best_pattern(q); lv,why,_=judge(fr,ans,pr,pid); fr.update(level=lv,why=why)
-                if why.startswith('pat_') and pid: fr['pat']=pid
-                stats[(f,q['num'])]=fr
-    print(subj,'回数',D,'問題',sum(len(x[1]['questions']) for x in exams.values()))
-print('統計',len(stats),'問')
-if APPLY:
-    byfile=collections.defaultdict(dict)
-    for (f,n),v in stats.items(): byfile[f][n]=v
-    for f,m in byfile.items():
-        d=yaml.safe_load(open(f,encoding='utf-8'))
-        for q in d['questions']:
-            if q['num'] in m: q['freq']=m[q['num']]
-        open(f,'w',encoding='utf-8').write(yaml.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000))
-    print('書き込みました')
-else:
-    kc=collections.Counter(v['kind'] for v in stats.values()); print(kc)
-    # 選択肢別の頻度の分布
-    dist=collections.Counter()
-    for v in stats.values():
-        if v['kind']=='choice':
-            for m in v['counts']: dist[min(m,6)]+=1
-    print('記述の出題回数の分布',sorted(dist.items()))
-    d2=collections.Counter(); up=0;tot2=0
-    for v in stats.values():
-        if v['kind']=='choice':
-            for a,b in zip(v['counts'],v['similar']):
-                tot2+=1; up+=(b>a)
-    print('似た記述を含めると回数が増える選択肢',up,'/',tot2)
-    lc=collections.Counter(v['level'] for v in stats.values()); print('区分',dict(sorted(lc.items())))
+            t=S[j]
+            if t[0]==s_[0] or t[3]==s_[3]: continue
+            if len(s_[4]&t[4])/len(s_[4]|t[4])>=THR_NEAR: exs.add(t[0])
+        out[(s_[0],s_[1],s_[2])]=sorted(exs)
+    _NEAR_CACHE[subj]=out
+    return out
+def collect():
+    """各問の、判定の材料（頻度の素データ）を集める。境目に依存しない。"""
+    global CUR
+    feats=[]
+    for subj,exams in docs.items():
+        CUR=subj; D=len(exams)
+        S=[]; Qs=[]
+        for e,(f,d) in exams.items():
+            for q in d['questions']:
+                if q.get('status')!='published' or not q.get('choices'): continue
+                ans=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
+                if ans and ans[0]=='all': continue
+                neg=bool(NEG.search(q['stem'])); k=qkind(q)
+                if k=='stmt':
+                    for i,c in enumerate(q['choices'],1):
+                        S.append((e,q['num'],i,(i not in ans) if neg else (i in ans),norm(c)))
+                a0=ans[0]; atxt=norm(q['choices'][a0-1]) if isinstance(a0,int) and a0<=len(q['choices']) else ''
+                Qs.append((e,q['num'],k,norm(q['stem'])[:70] if k=='calc' else norm(q['stem'])[:60]+'|'+atxt))
+        G=[grams(s[4]) for s in S]; inv=collections.defaultdict(list)
+        for i,g in enumerate(G):
+            for x in g: inv[x].append(i)
+        same={}
+        for i,s_ in enumerate(S):
+            cnt=collections.Counter()
+            for x in G[i]:
+                for j in inv[x]: cnt[j]+=1
+            exs={s_[0]}
+            for j,c in cnt.items():
+                if j==i or S[j][3]!=s_[3] or S[j][0]==s_[0] or c<0.4*min(len(G[i]),len(G[j])): continue
+                if difflib.SequenceMatcher(None,s_[4],S[j][4]).ratio()>=THR_STMT: exs.add(S[j][0])
+            same[(s_[0],s_[1],s_[2])]=len(exs)
+        exam_list=sorted(exams); recent=set(exam_list[-TREND_K[subj]:])
+        pexams=collections.defaultdict(set)
+        for s_ in S:
+            pid=_K2P.get((subj,f"{s_[0]}|{s_[1]}|{s_[2]}"))
+            if pid: pexams[pid].add(s_[0])
+        qm={}
+        for (e,n,k,key) in Qs:
+            exs={e}
+            if k!='stmt':
+                for (e2,n2,k2,key2) in Qs:
+                    if e2==e or k2!=k or len(key)<8: continue
+                    if difflib.SequenceMatcher(None,key,key2).ratio()>=(THR_CALC if k=='calc' else THR_Q): exs.add(e2)
+            qm[(e,n)]=len(exs)
+        for e,(f,d) in exams.items():
+            for q in d['questions']:
+                if q.get('status')!='published' or not q.get('choices'): continue
+                ans=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
+                if ans and ans[0]=='all': continue
+                neg=bool(NEG.search(q['stem'])); k=qkind(q)
+                c=[TRAPS[t] for t in (q.get('traps') or []) if t in TRAPS and 'other' not in t and 'その他' not in TRAPS[t]['name']]
+                pt=max(c,key=lambda x:x['count']) if c else None
+                if k=='stmt':
+                    counts=[];truths='';pcs=[];pids=[];pnames=[];prcs=[];prids=[];prn=[];trend=[]
+                    for i,ch in enumerate(q['choices'],1):
+                        counts.append(same[(e,q['num'],i)])
+                        p=_K2P.get((subj,f"{e}|{q['num']}|{i}")); pids.append(p or ''); pnames.append(_PNAME[p][0] if p else ''); pcs.append(len(pexams[p]) if p else 0)
+                        trend.append(len(pexams[p]&recent) if p else 0)
+                        truths+=('正' if ((i not in ans) if neg else (i in ans)) else '誤')
+                        _cand=PR_BY_POINT.get((subj,p),[]) if p else []
+                        _b=max(_cand,key=lambda r:len(PR_EXAMS[r])) if _cand else None
+                        prids.append(_b or ''); prn.append(PR_NAME[_b] if _b else ''); prcs.append(len(PR_EXAMS[_b]) if _b else 0)
+                    _nm=compute_near(subj); _ne=[_nm.get((e,q['num'],i),[]) for i in range(1,len(q['choices'])+1)]
+                    fr=dict(kind='choice',denom=D,counts=counts,truths=truths,pcounts=pcs,points=pids,pnames=pnames,prcounts=prcs,principles=prids,prnames=prn,trend=trend,near=[bool(x) for x in _ne],near_exams=_ne)
+                else:
+                    fr=dict(kind='question',denom=D,count=qm[(e,q['num'])],form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k])
+                _a=ans[0]; _txt=str(q['stem'])+' '+(str(q['choices'][_a-1]) if isinstance(_a,int) and _a<=len(q['choices']) else '')
+                _tt=SB.table_type(subj,_txt) if subj in ('tokka','kinzoku') else None
+                if _tt and _tt[1]:
+                    fr['subst_id']=f'sb-{subj}-{_tt[0]}'; fr['subst_name']=SB.name_of(subj,_tt[0])
+                feats.append(dict(file=f,num=q['num'],exam=e,subj=subj,ans=ans,fr=fr,pat_count=pt['count'] if pt else 0,pat_id=pt['id'] if pt else None,pat_subj=pt['subject'] if pt else None))
+    return feats
+def decide(feats,thresholds=None,elim=None,pr=None):
+    """境目を与えて、各問の区分を決める。thresholds が None なら、THRESHOLDS を使う"""
+    global CUR,THRESHOLDS,ELIM_KNOWN,PR_THRESHOLDS
+    old=THRESHOLDS; olde=ELIM_KNOWN; oldp=PR_THRESHOLDS
+    if pr is not None: PR_THRESHOLDS=pr
+    if thresholds: THRESHOLDS=thresholds
+    if elim is not None: ELIM_KNOWN=elim
+    out={}
+    try:
+        for ft in feats:
+            CUR=ft['subj']; fr=dict(ft['fr'])
+            pr=rank_of(ft['pat_count'],0,ft['pat_subj']) if ft['pat_id'] else None
+            lv,why,tags=judge(fr,ft['ans'],pr); fr.update(level=lv,why=why)
+            if tags is not None: fr['tags']=tags
+            if why.startswith('pat_') and ft['pat_id']: fr['pat']=ft['pat_id']
+            out[(ft['file'],ft['num'])]=fr
+    finally: THRESHOLDS=old; ELIM_KNOWN=olde; PR_THRESHOLDS=oldp
+    return out
+if __name__=='__main__':
+    feats=collect(); stats=decide(feats)
+    print('統計',len(stats),'問')
+    if APPLY:
+        _bk=yaml.safe_load(open('data/master/book.yaml',encoding='utf-8')); _ch=0
+        for t in _bk['traps']:
+            r=rank_of(t['count'],0,t['subject'])
+            if r!=t['rank']: t['rank']=r; _ch+=1
+        open('data/master/book.yaml','w',encoding='utf-8').write(yaml.safe_dump(_bk,allow_unicode=True,sort_keys=False,width=1000))
+        print('パターンのランクを付け直した件数',_ch)
+        byfile=collections.defaultdict(dict)
+        for (f,n),v in stats.items(): byfile[f][n]=v
+        for f,m in byfile.items():
+            d=yaml.safe_load(open(f,encoding='utf-8'))
+            for q in d['questions']:
+                if q['num'] in m: q['freq']=m[q['num']]
+            open(f,'w',encoding='utf-8').write(yaml.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000))
+        print('書き込みました')
+    else:
+        print('区分',dict(sorted(collections.Counter(v['level'] for v in stats.values()).items())))

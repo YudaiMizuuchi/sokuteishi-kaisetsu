@@ -32,6 +32,8 @@ const errors = [];
 
 const subjects = load(path.join(ROOT, "master/subjects.yaml"));
 const book = load(path.join(ROOT, "master/book.yaml"));
+const principleFile = path.join(ROOT, "master/principles.yaml");
+const principleMaster = fs.existsSync(principleFile) ? load(principleFile).principles : [];
 const subjectById = Object.fromEntries(subjects.map((s) => [s.id, s]));
 const partById = Object.fromEntries(book.parts.map((p) => [p.id, p]));
 const chapterById = Object.fromEntries(book.chapters.map((c) => [c.id, c]));
@@ -112,37 +114,60 @@ const LEVELS = {
   S: { code: "S", label: "得点必須S", head: "この問題は、試験本番では得点しなければならない問題です（学習の優先度：最高）。" },
   A: { code: "A", label: "得点必須A", head: "この問題は、試験本番では得点しなければならない問題です（学習の優先度：高）。" },
   B: { code: "B", label: "何とか得点B", head: "この問題は、何とか得点したい問題です（学習の優先度：中）。" },
-  C: { code: "C", label: "失点やむなしC", head: "この問題は、失点しても仕方がない問題です（学習の優先度：低）。" },
+  C: { code: "C", label: "余裕があれば得点C", head: "この問題は、余裕があれば得点したい問題です（学習の優先度：低。過去に1回だけ出題）。" },
+  D: { code: "D", label: "失点やむなしD", head: "この問題は、失点しても仕方がない問題です（初見）。" },
 };
 const WHY = {
   ans_hi: "下記の通り、ひっかけパターンである選択肢（正答）から、容易に正答を割り出すことができるからです。",
   ans_b: "下記の通り、正答の選択肢が、過去に複数回出題されており、押さえておけば、正答を割り出せるからです。",
   elim_all: "下記の通り、頻出のおとりパターンである選択肢をすべて除外して、正答を割り出すことができるからです。",
   elim_two: "下記の通り、頻出のおとりパターンである選択肢を除外して、残り2つまで絞り込めるからです。2択になるので、2回に1回は得点できます。",
-  none: "いずれも初見の選択肢であり、問題のテーマとしても頻出テーマではないからです。",
+  trend_S: "下記の通り、正答の選択肢の論点は、直近の回に集中して出題されています（トレンド）。通算の回数以上に、次も出やすいので、最優先で押さえるべきだからです。",
+  trend_A: "下記の通り、正答の選択肢の論点は、通算の回数は少なめですが、直近の回に集中して出題されています（トレンド）。押さえておけば、得点できるからです。",
+  seen: "正答の選択肢の論点は、過去に1回だけ出題されています。頻出ではありませんが、既出なので、余裕があれば押さえておくと得点できるからです。",
+  subst: "",
+  near: "正答の選択肢と似た記述が、別の回に出題されており、その記述は正しい内容でした（数値や範囲などを変えたものが、おとりになっています）。その正しい内容を覚えていれば、おとりと見分けられるので、余裕があれば押さえておくと得点できるからです。",
+    none: "いずれも初見の選択肢であり、問題のテーマとしても頻出テーマではないからです。",
 };
-const TAGS = { ans_pat: "正答（ひっかけパターンに該当）", ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
-function freqOut(f) {
+const TAGS = { ans_subst: "正答（物質の表で解ける）", ans_seen: "正答（過去に1回出題）", ans_near: "正答（似た記述が既出）", ans_trend: "正答（直近のトレンド）", ans_pr: "正答（原理から解ける）", ans_pat: "正答（ひっかけパターンに該当）", ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
+function freqOut(f, answers = []) {
   if (!f || !f.denom) return null;
   const pct = (m) => Math.round((m / f.denom) * 100);
   const text = (m) => `全${f.denom}回中${m}回出題（出題確率${pct(m)}％）`;
   const lv = LEVELS[f.level] || null;
   let reason = "";
   const pt = f.pat ? trapById[f.pat] : null;
-  if (pt && (f.why === "pat_S" || f.why === "pat_A")) reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢から、容易に正答を割り出すことができるからです。`;
+  const ai = Number.isInteger(answers[0]) ? answers[0] - 1 : -1;
+  const ptName = ai >= 0 && f.pnames ? f.pnames[ai] : "";
+  const ptCount = ai >= 0 && f.pcounts ? f.pcounts[ai] : 0;
+  const prName = ai >= 0 && f.prnames ? f.prnames[ai] : "";
+  const prCount = ai >= 0 && f.prcounts ? f.prcounts[ai] : 0;
+  const prId = ai >= 0 && f.principles ? f.principles[ai] : "";
+  if (f.why === "subst") reason = `下記の通り、物質別の暗記リスト（ガイドブックの物質別各論の表）の物質「${f.subst_name}」から、解けるからです。過去の出題が少なくても、表を押さえておけば、得点できます。`;
+  else if (prName && /^pr_[SAB]$/.test(f.why || "")) reason = ptCount >= 2
+    ? `下記の通り、原理「${prName}」（過去${f.denom}回中${prCount}回出題）を理解していれば、論点そのものを暗記していなくても、解けるからです。`
+    : `初見の選択肢ですが、原理「${prName}」（過去${f.denom}回中${prCount}回出題）を理解していれば、解けます。`;
+  else if (ptName && (f.why === "pt_S" || f.why === "pt_A")) reason = `下記の通り、論点「${ptName}」（過去${f.denom}回中${ptCount}回出題）に当てはまる選択肢から、容易に正答を割り出すことができるからです。`;
+  else if (ptName && f.why === "pt_B") reason = `下記の通り、論点「${ptName}」（過去${f.denom}回中${ptCount}回出題）に当てはまる選択肢であり、押さえておけば、何とか正答を割り出せるからです。`;
+  else if (pt && (f.why === "pat_S" || f.why === "pat_A")) reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢から、容易に正答を割り出すことができるからです。`;
   else if (pt && f.why === "pat_B") reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢であり、押さえておけば、何とか正答を割り出せるからです。`;
   else if (f.kind === "choice") reason = WHY[f.why] || "";
   else if (f.why === "q_hi") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、確実に得点できるからです。`;
   else if (f.why === "q_b") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、何とか得点できるからです。`;
-  else reason = `この形式の問題（${f.form}）は、過去の出題が少なく、初見になる可能性が高いからです。`;
-  const level = lv ? { code: lv.code, label: lv.label, head: lv.head, reason } : null;
+  else reason = f.why === "q_seen" ? `この形式の問題（${f.form}）は、過去に1回出題されています。余裕があれば、解き方を押さえておくと得点できるからです。` : `この形式の問題（${f.form}）は、過去の出題がなく、初見です。`;
+  const METHOD = (w) => /^pr_/.test(w) ? "原理で解く" : /^elim_/.test(w) ? "消去法で解く" : /^trend_/.test(w) ? "トレンド" : (w === "subst") ? "物質の表で解く" : (w === "near") ? "似た記述で解く" : (w === "none" || w === "q_new") ? "初見" : "暗記で解く";
+  const level = lv ? { code: lv.code, label: lv.label, head: lv.head, reason, method: METHOD(f.why || "") } : null;
   if (f.kind === "choice") {
-    return { kind: "choice", denom: f.denom, level, items: f.counts.map((m, i) => ({
-      truth: f.truths[i] === "正" ? "正しい記述" : "誤った記述", m, pct: pct(m), text: text(m), hi: pct(m) >= 30,
+    // 頻度は、論点の出題回数（論点がない選択肢は、同じ記述の回数）。「同じ記述」の回数は、参考として添える
+    const eff = (i) => (f.pcounts && f.pcounts[i]) || f.counts[i];
+    return { kind: "choice", denom: f.denom, level, subst: f.subst_id ? { id: f.subst_id, name: f.subst_name, url: `/substance/${f.subst_id}/` } : null, principle: prId ? { id: prId, name: prName, count: prCount, url: `/principle/${prId}/` } : null, items: f.counts.map((same, i) => ({
+      truth: f.truths[i] === "正" ? "正しい記述" : "誤った記述", m: eff(i), pct: pct(eff(i)), text: text(eff(i)), hi: pct(eff(i)) >= 30,
       tag: TAGS[(f.tags || [])[i] || ""] || "", tagCode: (f.tags || [])[i] || "",
-      simText: (f.similar && f.similar[i] > m) ? `似た記述を含めると${f.similar[i]}回（${pct(f.similar[i])}％）` : "" })) };
+      pointText: (f.pnames && f.pnames[i]) ? `論点「${f.pnames[i]}」` : "",
+      prText: (f.prnames && f.prnames[i]) ? `原理「${f.prnames[i]}」：全${f.denom}回中${f.prcounts[i]}回出題` : "", prUrl: (f.principles && f.principles[i]) ? `/principle/${f.principles[i]}/` : "",
+      simText: (f.pcounts && f.pcounts[i] && same !== f.pcounts[i]) ? `同じ記述の出題：${same}回` : "" })) };
   }
-  return { kind: "question", denom: f.denom, level, items: [{ truth: `この形式の問題（${f.form}）`, m: f.count, pct: pct(f.count), text: text(f.count), hi: pct(f.count) >= 30, tag: "", tagCode: "", simText: "" }] };
+  return { kind: "question", denom: f.denom, level, subst: f.subst_id ? { id: f.subst_id, name: f.subst_name, url: `/substance/${f.subst_id}/` } : null, items: [{ truth: `この形式の問題（${f.form}）`, m: f.count, pct: pct(f.count), text: text(f.count), hi: pct(f.count) >= 30, tag: "", tagCode: "", simText: "" }] };
 }
 
 const questions = [];
@@ -177,7 +202,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
       if (!published && !site.showDrafts) continue;
 
       const qTraps = (q.traps || []).map((id) => trapById[id]).filter(Boolean);
-      const freqInfo = freqOut(q.freq);
+      const freqInfo = freqOut(q.freq, answers);
       const rank = freqInfo?.level?.code || null;   // 問題のランク＝出題頻度から決めた区分（S：得点必須／B：何とか得点／C：失点やむなし）
       const id = `${exam}-${doc.subject}-${String(q.num).padStart(2, "0")}`;
       questions.push({
@@ -190,12 +215,14 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         published,
         rank,
         rankLabel: freqInfo?.level?.label || null,
+        method: freqInfo?.level?.method || null,
         chapters: (q.chapters || []).map((c) => ({ id: c, label: chapterLabel(chapterById[c]), url: `/chapter/${c}/` })),
         // 参考書のページがある章（主な章が先）
         books: (q.chapters || []).filter((c) => fs.existsSync(path.join(BOOK_DIR, `${c}.md`)))
           .map((c) => ({ label: chapterLabel(chapterById[c]), url: `/book/${c}/` })),
         traps: qTraps.map((t) => trapOut[t.id]),
         summary: q.summary || null,
+        _text: [q.stem, ...(q.choices || [])].join(" "),   // 物質などの照合用（サイトには出さない）
         stemHtml: site.showStem ? render(q.stem) : "",
         stemPlain: site.showStem ? plainTex(q.stem || "").replace(/\s+/g, " ").trim() : "",
         choices: site.showStem ? (q.choices || []).map(renderInline) : [],
@@ -273,7 +300,7 @@ for (const c of chapters) c.traps.sort((a, b) => RANK_ORDER[a.rank] - RANK_ORDER
 // 一覧ページ用の軽いデータ（科目ごとに /data/<科目>.json として書き出す）
 const listItem = (q) => ({
   id: q.id, url: q.url, exam: q.exam.key, examLabel: q.exam.label, held: q.exam.held,
-  subject: q.subject, subjectName: q.subjectName, num: q.num, rank: q.rank, rankLabel: q.rankLabel,
+  subject: q.subject, subjectName: q.subjectName, num: q.num, rank: q.rank, rankLabel: q.rankLabel, method: q.method,
   chapters: q.chapters.map((c) => c.id), chapterLabels: q.chapters.map((c) => c.label),
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   books: q.books,
@@ -334,6 +361,38 @@ const examPages = [...new Set(questions.map((q) => q.exam.key))].sort().reverse(
     .filter((x) => x.questions.length);
   return { ...info, url: `/exam/${key}/`, subjects: subs, count: qs.length, explained: qs.filter((q) => q.hasExplanation).length };
 });
+// 原理：その原理に紐づく論点が出た回の数と、「この原理で解ける問題」（正答の選択肢が、その原理に紐づく問題）
+const principles = principleMaster.map((pm) => {
+  const qs = questions.filter((q) => q.freq && q.freq.principle && q.freq.principle.id === pm.id)
+    .sort((a, b) => b.exam.key.localeCompare(a.exam.key) || a.num - b.num);
+  const cnt = Math.max(0, ...questions.filter((q) => q.subject === pm.subject && q.freq && q.freq.principle && q.freq.principle.id === pm.id).map((q) => q.freq.principle.count));
+  const denom = (questions.find((q) => q.subject === pm.subject && q.freq) || { freq: { denom: 0 } }).freq.denom;
+  return { ...pm, subjectName: subjectById[pm.subject]?.name, url: `/principle/${pm.id}/`, count: cnt, denom,
+    statementHtml: renderInline(pm.statement || ""), pointsCount: (pm.points || []).length, questions: qs };
+}).filter((x) => x.questions.length);
+// 物質別の暗記リスト（ガイドブック3・4の目次・本文から作成。data/master/substances/<科目>.yaml）
+const escapeRe = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const verifiedFile = path.join(ROOT, "master/substances/verified.yaml");
+const verifiedAll = fs.existsSync(verifiedFile) ? load(verifiedFile).verified : {};
+const substances = [];
+for (const key of ["tokka", "kinzoku"]) {
+  const f = path.join(ROOT, `master/substances/${key}.yaml`);
+  if (!fs.existsSync(f)) continue;
+  const doc = load(f);
+  const subjQs = questions.filter((q) => q.subject === key);
+  const denom = new Set(subjQs.map((q) => q.exam.key)).size;
+  for (const sb of doc.substances) {
+    const pats = (sb.match || [sb.name]).map((n) => new RegExp(`(?<![ァ-ヶ])${escapeRe(n)}(?![ァ-ヶ化])`));
+    const qs = subjQs.filter((q) => pats.some((re) => re.test(q._text || ""))).sort((a, b) => b.exam.key.localeCompare(a.exam.key) || a.num - b.num);
+    const exams = new Set(qs.map((q) => q.exam.key));
+    const ver = (verifiedAll[key] || {})[sb.code] || null;
+    const methods = sb.methods.map((m) => ({ ...m, v: ver ? ver[m.no] || null : null }));
+    substances.push({ ...sb, methods, verified: !!ver, id: `sb-${key}-${sb.code}`, subject: key, subjectName: subjectById[key]?.name, book: doc.book,
+      url: `/substance/sb-${key}-${sb.code}/`, questions: qs, examCount: exams.size, denom });
+  }
+}
+const substancesBySubject = (id) => substances.filter((x) => x.subject === id).sort((a, b) => b.examCount - a.examCount || a.code.localeCompare(b.code));
+const principlesBySubject = (id) => principles.filter((x) => x.subject === id).sort((a, b) => b.count - a.count || b.questions.length - a.questions.length);
 const subjectPages = subjects
   .map((sj) => {
     const qs = questions.filter((q) => q.subject === sj.id);
@@ -341,7 +400,7 @@ const subjectPages = subjects
       ...examInfo(key), url: `/exam/${key}/`,
       questions: qs.filter((q) => q.exam.key === key).sort((a, b) => a.num - b.num).map(qLink),
     }));
-    return { id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`, exams: ex, count: qs.length, explained: qs.filter((q) => q.hasExplanation).length };
+    return { id: sj.id, name: sj.name, kind: sj.kind, url: `/subject/${sj.id}/`, principles: principlesBySubject(sj.id), substances: substancesBySubject(sj.id), exams: ex, count: qs.length, explained: qs.filter((q) => q.hasExplanation).length };
   })
   .filter((x) => x.count);
 questions.forEach((q) => { q.examUrl = `/exam/${q.exam.key}/`; q.subjectUrl = `/subject/${q.subject}/`; });
@@ -364,5 +423,7 @@ export default {
   parts,
   chapters: usedChapters,
   traps: traps.filter((t) => t.questions.length && t.url),
+  principles,
+  substances,
   questions,
 };

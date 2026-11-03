@@ -34,21 +34,70 @@ questions:
     - 5
     - 2
     - 4
-    similar:
-    - 1
-    - 1
-    - 5
-    - 2
-    - 4
     truths: 正正誤正正
-    level: A
-    why: ans_hi
+    pcounts:
+    - 2
+    - 3
+    - 5
+    - 3
+    - 6
+    points:
+    - pt-ippan-0277
+    - pt-ippan-0192
+    - pt-ippan-0095
+    - pt-ippan-0191
+    - pt-ippan-0074
+    pnames:
+    - リスクアセスメントは、化学物質等である原材料を新規に採用し、又は変更するときのほか、化学設備等に係る作業方法や作業手順を新規に採用し、又は変更するときなどに実施する
+    - 化学物質等による危険性又は有害性の特定は、化学物質等について、リスクアセスメント等の対象となる業務を洗い出した上で、「化学品の分類及び表示に関する世界調和システム(GHS)」等に即して行う
+    - ハザードは、労働災害発生の可能性と負傷又は疾病の重大性（重篤度）の組合せとして定義される（誤りの記述）
+    - 化学物質等による疾病のリスク低減措置の検討では、個人用保護具の使用よりも局所排気装置の設置等の衛生工学的対策を優先する
+    - リスクの見積りは、リスク低減の優先度を定めるために行うものであるので、必ずしも数値化する必要はない
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2017-08
+    level: B
+    why: pat_B
     tags:
-    - new
-    - new
-    - ans_hi
+    - ''
+    - ''
+    - ans_pat
     - ''
     - odo
+    pat: gn-risk-assessment-01
 - num: 2
   status: published
   chapters:
@@ -80,18 +129,66 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 3
-    - 3
-    - 2
-    - 2
-    - 2
     truths: 誤正正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 4
+    - 4
+    - 3
+    - 2
+    - 2
+    points:
+    - pt-ippan-0134
+    - pt-ippan-0146
+    - pt-ippan-0200
+    - pt-ippan-0278
+    - pt-ippan-0286
+    pnames:
+    - この指針は、法令の規定に基づき機械、設備、化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めるものではない
+    - 安全衛生方針を表明し、労働者及び関係請負人その他の関係者に周知さ…
+    - 安全衛生計画には、日常的な安全衛生活動として、危険予知(KY)活動、ヒヤリ・ハット事例の収集などを盛り込むことができる
+    - 労働安全衛生マネジメントシステムに従って行う措置が適切に実施されているかどうかについて、安全衛生計画の期間を考慮して事業者が行う調査及び評価をシステム監査という
+    - その妥当性及び有効性を確保するため、手順の見直し等マネジメントシ…
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2015-08
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_b
-    - odo
+    - ans_seen
+    - ''
     - ''
     - ''
     - ''
@@ -126,13 +223,64 @@ questions:
     - 2
     - 1
     - 3
-    similar:
-    - 4
-    - 2
-    - 3
-    - 1
-    - 3
     truths: 正正正誤正
+    pcounts:
+    - 9
+    - 2
+    - 6
+    - 4
+    - 3
+    points:
+    - pt-ippan-0029
+    - pt-ippan-0341
+    - pt-ippan-0068
+    - pt-ippan-0156
+    - pt-ippan-0249
+    pnames:
+    - ディスプレイは、おおむね40 cm以上の視距離が確保できるようにし、画面の上端が、眼と同じ高さか、やや下になるようにする
+    - 反射防止型ディスプレイは使用していないが、間接照明を用いてグレアを防いでいる
+    - 書類上及びキーボード上における照度を、300ルクス以上にしている
+    - 単純入力型及び拘束型に該当するVDT作業については、一連続作業時間が1時間を超えないようにする
+    - VDT作業健康診断は、一般健康診断を実施する際に、併せて実施している
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2017-08
+      - 2022-02
+      - 2023-02
+    - []
+    - []
+    - - 2017-08
+      - 2018-08
+    - []
     level: A
     why: pat_A
     tags:
@@ -140,7 +288,7 @@ questions:
     - ''
     - odo
     - ans_pat
-    - odo
+    - ''
     pat: gn-oh-management-01
 - num: 4
   status: published
@@ -204,22 +352,70 @@ questions:
     - 1
     - 9
     - 1
-    - 3
-    similar:
     - 2
-    - 4
-    - 9
-    - 2
-    - 3
     truths: 正正正正誤
+    pcounts:
+    - 10
+    - 2
+    - 10
+    - 2
+    - 3
+    points:
+    - pt-ippan-0018
+    - pt-ippan-0385
+    - pt-ippan-0022
+    - pt-ippan-0367
+    - pt-ippan-0215
+    pnames:
+    - 塩化ビニルでは、指の骨の溶解（指端骨溶解）、肝血管肉腫などがみられる
+    - N,N-ジメチルホルムアミドは、肝臓障害を生じる。
+    - インジウム化合物は、間質性肺炎を引き起こすほか、人に対する発がん性が疑われている
+    - ナフタレンは、皮膚感作性のほか、ヒトに対する発がん性を有する可能性がある
+    - 一酸化炭素は、無色、無臭の気体で、赤血球中のヘモグロビンの合成を阻害する（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0008
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 一酸化炭素はヘモグロビンと強く結合する
+    trend:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
     why: pat_A
     tags:
-    - ''
-    - odo
     - odo
     - ''
-    - ans_pat
+    - odo
+    - ''
+    - ans_pr
     pat: gn-toxicity-05
 - num: 6
   status: published
@@ -252,17 +448,65 @@ questions:
     - 2
     - 1
     - 3
-    similar:
-    - 3
-    - 9
-    - 2
-    - 3
-    - 3
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 4
+    - 10
+    - 2
+    - 12
+    - 3
+    points:
+    - pt-ippan-0144
+    - pt-ippan-0020
+    - pt-ippan-0368
+    - pt-ippan-0004
+    - pt-ippan-0247
+    pnames:
+    - じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、原因となった主な粉じんの種類によって、けい肺、炭素肺、アルミニウム肺などと呼ばれることがある
+    - じん肺は、続発性気管支炎、肺結核などを合併することがある。
+    - じん肺の呼吸器症状は、喫煙によって悪化する。
+    - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率により異なる。
+    - 鉱物性粉じんに含まれる遊離けい酸は、胸膜の中皮腫を生じさせる。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 0
+    - 1
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2024-08
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - odo
     - ''
     - odo
@@ -334,21 +578,69 @@ questions:
     - 7
     - 5
     - 1
-    similar:
-    - 2
-    - 1
-    - 9
-    - 5
-    - 1
     truths: 正誤正正正
-    level: S
-    why: pat_S
+    pcounts:
+    - 2
+    - 2
+    - 10
+    - 5
+    - 7
+    points:
+    - pt-ippan-0355
+    - pt-ippan-0376
+    - pt-ippan-0016
+    - pt-ippan-0111
+    - pt-ippan-0062
+    pnames:
+    - ヒ素の慢性中毒による皮膚症状としては、黒皮症、角化症などのほか、皮膚がんを生じることがある
+    - カドミウムは、主として肝臓障害を起こす。（誤りの記述）
+    - クロム酸への長期間ばく露によって、鼻中隔穿孔や肺がんなどを生じる
+    - 鉛中毒では、貧血、末梢神経障害、腹部の疝痛などがみられる。
+    - 無機水銀は、腎障害を起こす。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - ''
     - ans_pat
     - odo
+    - ''
     - odo
-    - new
     pat: gn-metals-01
 - num: 9
   status: published
@@ -376,27 +668,74 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
+    - 1
     - 1
     - 4
     - 5
     - 1
-    similar:
-    - 2
-    - 1
-    - 4
-    - 5
-    - 5
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 3
+    - 14
+    - 5
+    - 8
+    - 5
+    points:
+    - pt-ippan-0248
+    - pt-ippan-0002
+    - pt-ippan-0118
+    - pt-ippan-0041
+    - pt-ippan-0112
+    pnames:
+    - 有機溶剤の蒸気は、空気より軽いため蒸発しやすい。（誤りの記述）
+    - 塩素化炭化水素は、一般に、肝臓に対する毒性が強い。
+    - 皮膚や粘膜の症状には、皮膚の角化、結膜炎などがある。
+    - 二硫化炭素の高濃度ばく露では、精神障害を生じる。
+    - n-ヘキサンによる健康障害として、多発性神経炎がある。
+    prcounts:
+    - 13
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-ippan-0004
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 蒸気の密度（空気との重さの比較）と滞留
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 4
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_pat
-    - new
+    - ans_pr
     - odo
+    - ''
     - odo
-    - odo
-    pat: gn-properties-01
+    - ''
 - num: 10
   status: published
   chapters:
@@ -428,19 +767,71 @@ questions:
     - 1
     - 4
     - 3
-    similar:
-    - 3
-    - 5
-    - 1
-    - 4
-    - 3
     truths: 誤正正正正
+    pcounts:
+    - 7
+    - 6
+    - 2
+    - 6
+    - 8
+    points:
+    - pt-ippan-0046
+    - pt-ippan-0078
+    - pt-ippan-0342
+    - pt-ippan-0063
+    - pt-ippan-0037
+    pnames:
+    - 温度感覚を左右する環境条件は、気温、湿度、気流及び輻射(放射)熱である
+    - 屋内の場合のWBGTは、自然湿球温度及び黒球温度の数値から算出される
+    - 熱中症のリスク評価指標として、作業強度などに応じたWBGT基準値が示されている
+    - 実効温度とは、気温、湿度及び気流の総合効果を示す温度感覚を表す指標である
+    - 相対湿度とは、空気中の水蒸気圧とその温度における飽和水蒸気圧との比を百分率で示したものである
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - true
+    - true
+    near_exams:
+    - - 2019-02
+    - - 2015-08
+      - 2016-08
+    - []
+    - - 2025-02
+    - - 2018-08
+      - 2020-08
+      - 2022-02
+      - 2023-02
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - ans_b
     - odo
-    - new
+    - ''
     - odo
     - odo
 - num: 11
@@ -474,17 +865,67 @@ questions:
     - 1
     - 2
     - 8
-    similar:
-    - 3
-    - 8
-    - 1
-    - 2
-    - 8
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 5
+    - 15
+    - 1
+    - 4
+    - 12
+    points:
+    - pt-ippan-0096
+    - pt-ippan-0009
+    - pt-ippan-0709
+    - pt-ippan-0135
+    - pt-ippan-0007
+    pnames:
+    - 騒音性難聴では、内耳の有毛細胞が変性して聴力低下が起こる。
+    - 騒音性難聴は、感音性難聴である。
+    - 騒音の測定は、騒音計の周波数補正回路のA特性で行う。
+    - 等価騒音レベルは、1,000Hz及び4,000Hzの音圧レベルの平均値である（誤りの記述）
+    - A測定の平均値の算定には、80dB(A)未満の測定値は含めない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 2
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2018-08
+      - 2020-02
+      - 2021-08
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - odo
     - new
     - ans_pat
@@ -521,22 +962,73 @@ questions:
     - 2
     - 12
     - 1
-    similar:
-    - 1
-    - 7
+    truths: 正正正正誤
+    pcounts:
+    - 2
+    - 3
     - 2
     - 12
     - 1
-    truths: 正正正正誤
-    level: B
-    why: pat_B
+    points:
+    - pt-ippan-0295
+    - pt-ippan-0198
+    - pt-ippan-0343
+    - pt-ippan-0006
+    - pt-ippan-0614
+    pnames:
+    - 硫化水素は、無色、腐卵臭の刺激性の気体で、高濃度では、意識消失、呼吸麻痺などが生じる
+    - 空気中の酸素濃度が16%程度以下になると、頭痛、吐き気などの自覚症状が現れ、10%程度以下になると、意識喪失やけいれんが生じる
+    - 相当期間密閉されていた鋼製のタンクの内部での作業では、酸素欠乏症の危険がある
+    - 海水が滞留している暗きょの内部での作業では、硫化水素中毒の危険がある
+    - 酸素欠乏症の危険のある場所で作業を行うときは、空気呼吸器、送気マスク又は防毒マスクを使用する（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 13
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0029
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ろ過式の呼吸用保護具は酸素を供給しない
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+      - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2023-02
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
-    - odo
+    - ''
+    - ''
     - ''
     - odo
-    - ans_pat
-    pat: gn-oxygen-deficiency-05
+    - ans_pr
 - num: 13
   status: published
   chapters:
@@ -577,10 +1069,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -613,21 +1105,69 @@ questions:
     - 4
     - 1
     - 1
-    similar:
-    - 2
-    - 10
-    - 4
-    - 3
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 2
+    - 12
+    - 6
+    - 5
+    - 5
+    points:
+    - pt-ippan-0356
+    - pt-ippan-0010
+    - pt-ippan-0082
+    - pt-ippan-0121
+    - pt-ippan-0084
+    pnames:
+    - X線とγ線は、エネルギーの大小ではなく、その発生過程の違いによって区別される
+    - β線とγ線では、γ線の方が透過力が大きい。
+    - β線とγ線では、β線の方が電離作用が大きい。
+    - 発がんや遺伝的影響は、確率的影響である。
+    - 白内障は、晩発障害に分類される確定的影響である。
+    prcounts:
+    - 0
+    - 13
+    - 0
+    - 19
+    - 0
+    principles:
+    - ''
+    - pr-ippan-0019
+    - ''
+    - pr-ippan-0021
+    - ''
+    prnames:
+    - ''
+    - 放射線の透過力と遮へい・外部被ばく防護の三原則
+    - ''
+    - しきい値がある影響とない影響
+    - ''
+    trend:
+    - 0
+    - 1
+    - 2
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2020-02
+    - []
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - ''
     - odo
     - ans_b
     - odo
-    - new
+    - ''
 - num: 15
   status: published
   chapters:
@@ -659,21 +1199,73 @@ questions:
     - 2
     - 7
     - 9
-    similar:
-    - 4
+    truths: 誤正正正正
+    pcounts:
+    - 9
     - 6
     - 4
-    - 7
+    - 10
+    - 4
+    points:
+    - pt-ippan-0032
+    - pt-ippan-0073
+    - pt-ippan-0155
+    - pt-ippan-0021
+    - pt-ippan-0182
+    pnames:
+    - 気体の液体への溶解度は、一般に、液体の温度が高いほど小さい。
+    - 混合有機溶剤から出る蒸気の組成は、一般に、元の混合有機溶剤の組成とは異なる
+    - 昇華性を有する化学物質は、環境空気中では気体及び固体粒子として存在する
+    - 空気中に浮遊する粉じんは、粒径が同じであれば密度が小さいほど、沈降速度は遅くなる
+    - ヒュームの一次粒子の粒径は、一般に、1μm以下である。
+    prcounts:
     - 9
-    truths: 誤正正正正
-    level: B
-    why: ans_b
+    - 0
+    - 0
+    - 10
+    - 0
+    principles:
+    - pr-ippan-0005
+    - ''
+    - ''
+    - pr-ippan-0003
+    - ''
+    prnames:
+    - 気体の溶解度は温度が低いほど大きい
+    - ''
+    - ''
+    - 粒子の粒径と沈着する部位
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - - 2019-08
+      - 2021-02
+      - 2021-08
+      - 2022-02
+      - 2023-02
+    - []
+    - []
+    - - 2020-02
+    - - 2021-02
+    level: A
+    why: pt_A
     tags:
-    - ans_b
+    - ans_hi
     - odo
+    - ''
     - odo
-    - odo
-    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -705,22 +1297,76 @@ questions:
     - 4
     - 3
     - 5
-    similar:
-    - 4
-    - 4
-    - 4
-    - 3
-    - 5
     truths: 正正誤正正
+    pcounts:
+    - 6
+    - 5
+    - 12
+    - 3
+    - 17
+    points:
+    - pt-ippan-0077
+    - pt-ippan-0094
+    - pt-ippan-0008
+    - pt-ippan-0203
+    - pt-ippan-0001
+    pnames:
+    - フード開口部の周囲にフランジを付けることにより、フランジがないときと比較して、少ない排風量とすることができる
+    - 外付け式フードでは、熱による上昇気流がある場合などを除き、一般に、上方吸引型より下方吸引型の方が有効である
+    - 囲い式フードの制御風速は、フード開口面における最小風速である。
+    - 外付け式フードの制御風速は、有害物質を吸引しようとする飛散限界(捕捉点)における最小風速である
+    - ダクトの圧力損失は、ダクトの長さが増すほど大きくなる。
+    prcounts:
+    - 7
+    - 0
+    - 0
+    - 0
+    - 18
+    principles:
+    - pr-ippan-0027
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0026
+    prnames:
+    - フードは発散源に近く、囲うほど効率が高い
+    - ''
+    - ''
+    - ''
+    - ダクトの圧力損失と風量・風速
+    trend:
+    - 1
+    - 1
+    - 2
+    - 0
+    - 4
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+      - 2019-02
+      - 2019-08
+      - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2023-02
+      - 2024-08
+    - []
+    - - 2021-02
     level: A
-    why: pat_A
+    why: pt_A
     tags:
     - odo
+    - ''
+    - ans_hi
+    - ''
     - odo
-    - ans_pat
-    - odo
-    - odo
-    pat: gn-ventilation-02
 - num: 17
   status: published
   chapters:
@@ -752,20 +1398,70 @@ questions:
     - 4
     - 2
     - 1
-    similar:
-    - 3
-    - 2
-    - 4
-    - 2
-    - 1
     truths: 正正誤正正
-    level: S
-    why: pat_S
+    pcounts:
+    - 8
+    - 3
+    - 7
+    - 10
+    - 1
+    points:
+    - pt-ippan-0033
+    - pt-ippan-0201
+    - pt-ippan-0053
+    - pt-ippan-0015
+    - pt-ippan-0710
+    pnames:
+    - 空気呼吸器は、酸素濃度が18%未満の空気中でも使用することができる
+    - 電動ファン付き呼吸用保護具は、ろ過式呼吸用保護具の一種である。
+    - 防じんマスクの手入れでは、ろ過材に付着した粉じんを除去するとき、圧縮空気で吹き飛ばしたり、ろ過材を強くたたいて払い落としてはならない
+    - 防じんマスクの面体の接顔部に接顔メリヤスを使用すると、マスクと顔面との密着性が低下する
+    - 耳栓は、1種及び2種に区分されるが、2種の耳栓は、高音域を遮音し、会話域程度の低音域は比較的通すものである
+    prcounts:
+    - 13
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-ippan-0029
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ろ過式の呼吸用保護具は酸素を供給しない
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2022-02
+      - 2023-02
+    - []
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
     - ans_pat
-    - ''
+    - odo
     - new
     pat: gn-ppe-02
 - num: 18
@@ -799,17 +1495,70 @@ questions:
     - 7
     - 7
     - 2
-    similar:
-    - 3
-    - 3
-    - 7
-    - 7
-    - 2
     truths: 正正正正誤
+    pcounts:
+    - 3
+    - 7
+    - 11
+    - 10
+    - 3
+    points:
+    - pt-ippan-0211
+    - pt-ippan-0044
+    - pt-ippan-0012
+    - pt-ippan-0017
+    - pt-ippan-0216
+    pnames:
+    - 有害ガスと粉じんが混在している場合は、防じん機能を有する防毒マスクを用いる
+    - 臭気を感知できる濃度がばく露限界濃度より著しく低い物質に限って、吸収缶の交換時期を臭気を感知した時点とすることができる
+    - 隔離式防毒マスクは、直結式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い
+    - 有機ガス用防毒マスクの吸収缶の色は、黒色である。
+    - 2種類以上の有害ガスが混在している場合には、最も毒性の強いガス用の防毒マスクを使う（誤りの記述）
+    prcounts:
+    - 0
+    - 8
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-ippan-0010
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 嗅覚は慣れ・麻痺で、においは危険の目安にならない
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+      - 2018-02
+      - 2022-02
+      - 2023-02
+    - - 2016-08
+      - 2018-08
+      - 2020-08
+    - []
     level: S
     why: pat_S
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -846,21 +1595,69 @@ questions:
     - 1
     - 4
     - 2
-    similar:
-    - 2
-    - 1
-    - 1
-    - 4
-    - 2
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 5
+    - 1
+    - 1
+    - 7
+    - 4
+    points:
+    - pt-ippan-0097
+    - pt-ippan-0563
+    - pt-ippan-0711
+    - pt-ippan-0051
+    - pt-ippan-0149
+    pnames:
+    - レーザー光線は、誘導放出による光の増幅作用により作られた人工の光であり、一定の波長を持ち、指向性と集束性に優れている
+    - 窒素は、常温・常圧では安定な無色、無臭の気体であり、潜水作業においては減圧症などの原因となる
+    - ノロウイルスによる食中毒は、主として夏季に集団食中毒として多発する（誤りの記述）
+    - 満18歳以上の男子労働者が人力のみにより取り扱う物の重量は、体重のおおむね40%以下とする
+    - 熱痙攣は、大量の発汗があり、水のみを補給した場合に血液の塩分濃度が低下して生じる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 17
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0024
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 熱中症は体温調節の破綻（発汗・気化熱・湿度）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2021-02
+    - []
+    level: D
     why: none
     tags:
     - ''
     - new
     - ans_new
     - odo
-    - ''
+    - odo
 - num: 20
   status: published
   chapters:
@@ -895,19 +1692,71 @@ questions:
     - 3
     - 3
     - 11
-    similar:
-    - 1
-    - 2
-    - 3
-    - 3
-    - 11
     truths: 正誤正正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 10
+    - 3
+    - 13
+    - 11
+    points:
+    - pt-ippan-0300
+    - pt-ippan-0014
+    - pt-ippan-0232
+    - pt-ippan-0003
+    - pt-ippan-0013
+    pnames:
+    - 管理濃度は、単位作業場所ごとに有害物質に係る作業環境の状態を評価するための指標として定められている
+    - 管理濃度が天井値として定められている有害物質はない。
+    - 許容濃度の数値を労働の場以外での環境要因の許容限界値として用いてはならない
+    - 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群 A、第2群 B の3種類に分類されており、ヒトに対して発がん性があると判断できる物質は、第1群に分類されている
+    - 許容濃度は、作業中のばく露濃度の変動があまり大きくない場合に利用される
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2018-02
+      - 2019-02
+      - 2021-02
+    - []
+    - - 2019-02
+      - 2020-02
+      - 2021-02
+      - 2022-08
+    - []
+    level: A
+    why: pt_A
     tags:
-    - new
-    - ans_pat
+    - ''
+    - ans_hi
+    - ''
     - odo
     - odo
-    - odo
-    pat: gn-exposure-limits-05

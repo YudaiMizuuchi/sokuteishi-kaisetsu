@@ -40,21 +40,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 6
+    points:
+    - pt-tokka-0109
+    - pt-tokka-0186
+    - pt-tokka-0102
+    - pt-tokka-0145
+    - pt-tokka-0004
+    pnames:
+    - 吸光光度分析法では、分子やイオンの電子遷移による光の吸収を利用する
+    - 吸光度と光の波長の関係を示す図は、吸収スペクトルである。
+    - 透過光の強度は、溶液中の目的物質の濃度が増加するとともに指数関数的に増加する（誤りの記述）
+    - 光源光から、回折格子により特定の波長の光を選別する。
+    - ガラス製のセルは、紫外部の光を吸収する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 8
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0002
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - new
     - ans_new
     - new
-    - new
+    - odo
 - num: 2
   status: published
   chapters:
@@ -129,7 +177,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 4
   status: published
@@ -168,21 +216,72 @@ questions:
     - 4
     - 3
     - 2
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 3
     - 4
-    - 3
+    - 4
     - 2
-    truths: 誤正正正正
+    points:
+    - pt-tokka-0231
+    - pt-tokka-0037
+    - pt-tokka-0018
+    - pt-tokka-0016
+    - pt-tokka-0075
+    pnames:
+    - 捕集液には硫酸カリウム水溶液を用いる。（誤りの記述）
+    - 塩化鉄（Ⅲ）は酸化剤として働く。
+    - 生成する物質はメチレンブルーである。
+    - 標準原液は硫化ナトリウムから調製する。
+    - 標準原液の調製には、煮沸して放冷した精製水を用いる。
+    prcounts:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0009
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 酸化剤・還元剤の働き
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2019-08
+      - 2023-08
+    - - 2023-08
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - ans_new
     - odo
     - odo
     - odo
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -218,9 +317,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-064
+    level: C
+    why: q_seen
 - num: 6
   status: published
   chapters:
@@ -252,21 +350,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正誤正正正
+    pcounts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    points:
+    - pt-tokka-0147
+    - pt-tokka-0187
+    - pt-tokka-0148
+    - pt-tokka-0232
+    - pt-tokka-0205
+    pnames:
+    - カラム充塡剤中に残っている溶媒や揮発性成分を除去するために行う。
+    - カラムを試料導入部及び検出器に接続して行う。（誤りの記述）
+    - キャリアガスを約10mL･min⁻¹の流量で流す。
+    - 室温から徐々に温度を上昇させて行う。
+    - ベースラインが安定しない場合は、さらにエージングを行う。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: C
-    why: none
+    why: seen
     tags:
     - new
-    - ans_new
+    - ans_seen
     - new
     - new
-    - new
+    - ''
 - num: 7
   status: published
   chapters:
@@ -298,20 +444,70 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 1
+    truths: 誤正正正正
+    pcounts:
+    - 2
+    - 2
     - 1
     - 2
     - 1
-    truths: 誤正正正正
-    level: C
-    why: none
+    points:
+    - pt-tokka-0044
+    - pt-tokka-0053
+    - pt-tokka-0103
+    - pt-tokka-0054
+    - pt-tokka-0206
+    pnames:
+    - ポーラスポリマービーズとガラス繊維ろ紙を組み合わせた相補型ろ過捕集法で捕集する
+    - 捕集管は、捕集前に加熱処理して分析の妨害となる物質を除去する。
+    - 検量線は、捕集管に標準液を添加し、未知試料と同一条件で分析して作成する
+    - 試料を捕集した捕集管は、両端を真鍮製保存キャップで密栓して保管する
+    - 分析後のポーラスポリマービーズは、コンディショニング後に再利用することができる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3012
+    subst_name: オルト-フタロジニトリル
+    level: B
+    why: subst
     tags:
-    - ans_new
+    - ans_subst
+    - ''
     - new
-    - new
-    - odo
+    - ''
     - new
 - num: 8
   status: published
@@ -354,7 +550,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 9
   status: published
@@ -390,19 +586,67 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 2
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 誤正正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    points:
+    - pt-tokka-0056
+    - pt-tokka-0045
+    - pt-tokka-0081
+    - pt-tokka-0123
+    - pt-tokka-0124
+    pnames:
+    - 25 ℃、1気圧におけるガス又は蒸気の1モルの体積は、22.4 L である（誤りの記述）
+    - 空気中の有害物質は、粒子、ガス又は蒸気の状態で存在する。
+    - 標準液の濃度は、所定の濃度に厳密に合わせる必要はない。
+    - 試薬、水、器具からの分析対象物質の汚染に注意すべきである。
+    - 分析対象物質の危険性や有害性を、事前にチェックしておく。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_b
-    - odo
-    - odo
+    - ans_seen
+    - ''
+    - ''
     - new
     - new
 - num: 10
@@ -439,9 +683,10 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
     level: B
-    why: pat_B
-    pat: sl-tokka-055
+    why: subst
 - num: 11
   status: published
   chapters:
@@ -479,14 +724,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0091
+    - pt-tokka-0091
+    - pt-tokka-0091
+    - pt-tokka-0091
+    - pt-tokka-0099
+    pnames:
+    - 吸着クロマトグラフ法は、分析成分の固定相への吸着力の違いを利用して分離する
+    - 吸着クロマトグラフ法は、分析成分の固定相への吸着力の違いを利用して分離する
+    - 吸着クロマトグラフ法は、分析成分の固定相への吸着力の違いを利用して分離する
+    - 吸着クロマトグラフ法は、分析成分の固定相への吸着力の違いを利用して分離する
+    - サイズ排除クロマトグラフ法は、分析成分の固定相粒子の細孔内部への浸透性の違いを利用して分離する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -535,9 +828,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-tokka-039
+    level: A
+    why: q_hi
 - num: 13
   status: published
   chapters:
@@ -576,7 +868,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -609,8 +901,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 15
   status: published
   chapters:
@@ -652,9 +944,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-049
+    level: C
+    why: q_seen
 - num: 16
   status: published
   chapters:
@@ -690,8 +981,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3013
+    subst_name: クロロメチルメチルエーテル
+    level: B
+    why: subst
 - num: 17
   status: published
   chapters:
@@ -727,9 +1020,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-062
+    level: C
+    why: q_seen
 - num: 18
   status: published
   chapters:
@@ -767,21 +1059,69 @@ questions:
     - 2
     - 2
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 2
-    - 1
     truths: 誤正正正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    points:
+    - pt-tokka-0207
+    - pt-tokka-0088
+    - pt-tokka-0089
+    - pt-tokka-0021
+    - pt-tokka-0063
+    pnames:
+    - シリカゲルは、活性炭と比べて、極性が小さい物質の捕集に適している（誤りの記述）
+    - ベンゼンの捕集には、活性炭を用いる。
+    - β-プロピオラクトンの捕集には、ポーラスポリマービーズを用いる。
+    - 塩素化ビフェニル(PCB)の捕集には、フロリジルを用いる。
+    - ポーラスポリマービーズは、活性炭と比べて、有機化合物の蒸気に対する捕集容量が小さい
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2018-08
+    level: D
+    why: none
     tags:
     - ans_new
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - new
+    - ''
 - num: 19
   status: published
   chapters:
@@ -818,7 +1158,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 20
   status: published
@@ -857,18 +1197,66 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 2
     truths: 正正正誤正
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    points:
+    - pt-tokka-0188
+    - pt-tokka-0060
+    - pt-tokka-0061
+    - pt-tokka-0149
+    - pt-tokka-0062
+    pnames:
+    - コールタールは、ろ過捕集法により捕集し、重量分析法により測定する
+    - ヨウ化メチルを、直接捕集法により捕集し、ガスクロマトグラフ分析法により測定する
+    - o-トリジンを、液体捕集法により捕集し、吸光光度分析法により測定する
+    - メチルイソブチルケトン（MIBK）は、ろ過捕集法により捕集し、吸光光度分析法により測定する（誤りの記述）
+    - ベンゾトリクロリドを、固体捕集法により捕集し、ガスクロマトグラフ分析法により測定する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2016-08
+    - - 2016-08
+    - []
+    level: D
+    why: none
     tags:
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_new
-    - odo
+    - ''

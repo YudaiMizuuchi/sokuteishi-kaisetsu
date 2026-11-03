@@ -13,6 +13,20 @@ eleventyComputed:
 {{ crumbs([{name: "ホーム", url: "/"}, {name: s.name}]) }}
 <h1>{{ s.name }}の過去問と解説</h1>
 <p class="lead">作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、新しい回から順に並べています。{% if s.kind == "共通" %}各問題のページで、解いてから解説を確認できます。{% else %}いまは問題と正答のみで、解説は準備中です。{% endif %}</p>
+{% if s.substances.length %}
+<section class="substances">
+  <h2>物質から探す（ガイドブックの物質別各論）</h2>
+  <p class="hint">物質ごとの測定方法（捕集法－分析法）と、その物質が登場した過去問です。出題回数の多い順。</p>
+  <ol class="qindex">{% for b in s.substances %}<li><a href="{{ b.url }}">{{ b.name }}</a>　測定方法{{ b.methods.length }}種・過去{{ b.denom }}回中{{ b.examCount }}回登場</li>{% endfor %}</ol>
+</section>
+{% endif %}
+{% if s.principles.length %}
+<section class="principles">
+  <h2>この科目の原理（解ける問題が多い順）</h2>
+  <p class="hint">暗記ではなく、理屈から解ける部分です。原理を理解しておくと、初見の選択肢にも対応できます。</p>
+  <ol class="qindex">{% for p in s.principles %}<li><a href="{{ p.url }}">{{ p.name }}</a>　過去{{ p.denom }}回中{{ p.count }}回出題・解ける問題{{ p.questions.length }}問</li>{% endfor %}</ol>
+</section>
+{% endif %}
 {% for e in s.exams %}
 <section class="exam-subject">
   <h2><a href="{{ e.url }}#{{ s.id }}">{{ e.label }}（{{ e.held }}）</a></h2>

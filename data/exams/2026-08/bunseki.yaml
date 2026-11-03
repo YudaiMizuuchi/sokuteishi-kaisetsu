@@ -47,8 +47,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -90,8 +90,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-statistics-01
 - num: 3
   status: published
@@ -176,9 +176,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-gas-02
+    level: D
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -222,8 +221,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-03
 - num: 6
   status: published
@@ -271,7 +270,7 @@ questions:
     count: 2
     form: 計算問題
     level: C
-    why: q_new
+    why: q_seen
 - num: 7
   status: published
   chapters:
@@ -305,8 +304,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-lab-equipment-01
 - num: 8
   status: published
@@ -347,22 +346,69 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 7
-    - 2
-    - 1
-    - 1
-    - 2
     truths: 正正正誤正
+    pcounts:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 3
+    points:
+    - pt-bunseki-0096
+    - pt-bunseki-0174
+    - pt-bunseki-0469
+    - pt-bunseki-0214
+    - pt-bunseki-0096
+    pnames:
+    - 拡散チューブの内径が大きいほど高くなる。
+    - 有機溶剤量をセルごと秤量し、蒸発量を求めることにより濃度を計算できる
+    - 拡散速度は、温度が高いほど大きくなる。
+    - 飽和蒸気圧が小さいほど低くなる。
+    - 拡散チューブの内径が大きいほど高くなる。
+    prcounts:
+    - 14
+    - 0
+    - 0
+    - 0
+    - 14
+    principles:
+    - pr-bunseki-0033
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0033
+    prnames:
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - ''
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    trend:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
     - odo
     - ''
     - new
-    - ans_pat
-    - ''
-    pat: an-standard-gas-01
+    - ans_trend
+    - odo
 - num: 9
   status: published
   chapters:
@@ -399,8 +445,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-reagents-01
 - num: 10
   status: published
@@ -436,14 +482,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0292
+    - pt-bunseki-0434
+    - pt-bunseki-0394
+    - pt-bunseki-0395
+    - pt-bunseki-0470
+    pnames:
+    - 検知管は、通常20℃で校正されており、使用温度と検知管の種類によっては温度補正が必要なことがある
+    - 検知剤の変色層の長さは、担体粒子径の影響を受ける。
+    - 検知剤は、対象ガス以外の物質とは反応しない。（誤りの記述）
+    - 変色層が斜めに現れたときは、変色した部分の最先端と斜めに変色が生じ始めた点との中央値を読み取る
+    - 検知管は冷凍保存してはならない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -493,9 +587,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-mole-03
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -545,22 +638,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正誤正正正
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0354
+    - pt-bunseki-0181
+    - pt-bunseki-0146
+    - pt-bunseki-0146
+    - pt-bunseki-0146
+    pnames:
+    - エチレンの完全燃焼に必要な酸素の物質量は、エチレンの物質量の3倍である
+    - エタンの完全燃焼に必要な酸素量は、エタンの物質量の3.5倍である
+    - エチレンの完全燃焼で生成する二酸化炭素と水の物質量は等しい。
+    - エチレンの完全燃焼で生成する二酸化炭素と水の物質量は等しい。
+    - エチレンの完全燃焼で生成する二酸化炭素と水の物質量は等しい。
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
+    principles:
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    prnames:
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2022-08
+    - - 2022-08
+    - - 2022-08
+    - - 2022-08
     level: S
-    why: pat_S
+    why: trend_S
     tags:
-    - new
-    - ans_pat
-    - new
-    - new
-    - new
-    pat: an-reaction-03
+    - odo
+    - ans_trend
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -595,27 +735,75 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 3
-    similar:
     - 2
-    - 2
-    - 3
+    - 1
+    - 1
     - 1
     - 3
     truths: 正正正正誤
+    pcounts:
+    - 6
+    - 4
+    - 3
+    - 1
+    - 6
+    points:
+    - pt-bunseki-0041
+    - pt-bunseki-0138
+    - pt-bunseki-0139
+    - pt-bunseki-0396
+    - pt-bunseki-0019
+    pnames:
+    - 光源にタングステンランプを用いる。
+    - 石英製の試料セルが用いられる。
+    - 検出器として光電子増倍管が用いられる。
+    - 吸光度の測定波長の光の色は、その試料溶液の色とは異なる。
+    - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0003
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - モル吸光係数の性質
+    trend:
+    - 3
+    - 3
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2018-08
+      - 2020-08
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - ''
     - ''
-    - odo
+    - ''
     - new
-    - ans_pat
-    pat: an-spectrophotometry-01
+    - ans_pr
 - num: 14
   status: published
   chapters:
@@ -701,22 +889,69 @@ questions:
     - 4
     - 2
     - 1
-    similar:
-    - 6
-    - 2
+    truths: 正正正正誤
+    pcounts:
+    - 10
+    - 5
     - 4
     - 2
+    - 7
+    points:
+    - pt-bunseki-0005
+    - pt-bunseki-0032
+    - pt-bunseki-0071
+    - pt-bunseki-0211
+    - pt-bunseki-0012
+    pnames:
+    - 光源には中空陰極ランプが用いられる。
+    - 重水素放電管はバックグラウンドの補正に用いられる。
+    - フレーム中における目的原子の原子蒸気は、ほとんどが基底状態にある
+    - グラファイト炉法では、炉に通電することで生じるジュール熱で原子化を行う
+    - 吸光度は、光路長に比例する。
+    prcounts:
+    - 14
+    - 5
+    - 16
+    - 0
+    - 12
+    principles:
+    - pr-bunseki-0009
+    - pr-bunseki-0010
+    - pr-bunseki-0008
+    - ''
+    - pr-bunseki-0001
+    prnames:
+    - 原子吸光の光源は線光源
+    - バックグラウンド補正
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ランベルト・ベールの法則
+    trend:
+    - 3
     - 1
-    truths: 正正正正誤
-    level: A
-    why: pat_A
+    - 3
+    - 1
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2016-08
+    level: S
+    why: pr_S
     tags:
     - odo
     - ''
     - odo
     - ''
-    - ans_pat
-    pat: an-aas-02
+    - ans_pr
 - num: 16
   status: published
   chapters:
@@ -756,22 +991,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 8
-    - 1
-    - 8
-    - 1
-    - 1
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 13
+    - 13
+    - 16
+    - 16
+    - 4
+    points:
+    - pt-bunseki-0002
+    - pt-bunseki-0002
+    - pt-bunseki-0001
+    - pt-bunseki-0001
+    - pt-bunseki-0074
+    pnames:
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 溶存酸素が蛍光の強度を弱めることがある。
+    prcounts:
+    - 15
+    - 15
+    - 16
+    - 16
+    - 5
+    principles:
+    - pr-bunseki-0004
+    - pr-bunseki-0004
+    - pr-bunseki-0005
+    - pr-bunseki-0005
+    - pr-bunseki-0007
+    prnames:
+    - 蛍光は励起光より長波長
+    - 蛍光は励起光より長波長
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光を弱める要因
+    trend:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
     - odo
-    - ans_pat
+    - ans_hi
     - odo
-    - new
-    - new
-    pat: an-fluorescence-05
+    - odo
+    - ''
 - num: 17
   status: published
   chapters:
@@ -806,13 +1088,61 @@ questions:
     - 4
     - 1
     - 1
-    similar:
-    - 7
+    truths: 正正正誤正
+    pcounts:
+    - 9
+    - 5
     - 5
     - 4
     - 1
+    points:
+    - pt-bunseki-0007
+    - pt-bunseki-0031
+    - pt-bunseki-0035
+    - pt-bunseki-0056
+    - pt-bunseki-0262
+    pnames:
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する
+    - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される
+    - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する
+    - 熱イオン化検出器 （TID、FTD） では、窒素やリンを含む化合物の一部が熱イオン化し、増加するイオン電流の値を利用する
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    principles:
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    trend:
+    - 2
+    - 2
+    - 2
+    - 2
     - 1
-    truths: 正正正誤正
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2024-02
+    - - 2024-02
+    - []
     level: S
     why: pat_S
     tags:
@@ -820,7 +1150,7 @@ questions:
     - odo
     - odo
     - ans_pat
-    - new
+    - odo
     pat: an-gc-01
 - num: 18
   status: published
@@ -861,13 +1191,61 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正誤正正
+    pcounts:
+    - 1
+    - 9
+    - 8
+    - 1
+    - 3
+    points:
+    - pt-bunseki-0471
+    - pt-bunseki-0052
+    - pt-bunseki-0229
+    - pt-bunseki-0435
+    - pt-bunseki-0095
+    pnames:
+    - キャリヤーガスの流速には、最適値がある。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - 理論段相当高さが高いほど理論段数は大きくなる。（誤りの記述）
+    - 極性液相を用いると、極性官能基を有する化合物の保持時間は大きくなる
+    - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+    prcounts:
+    - 0
+    - 0
+    - 9
+    - 5
+    - 5
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0028
+    - pr-bunseki-0029
+    - pr-bunseki-0029
+    prnames:
+    - ''
+    - ''
+    - 理論段数と理論段相当高さ
+    - 保持時間と溶出順
+    - 保持時間と溶出順
+    trend:
     - 1
     - 5
+    - 4
     - 1
-    - 1
-    - 1
-    truths: 正正誤正正
+    - 3
+    near:
+    - false
+    - true
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2016-02
+    - - 2025-02
+    - - 2025-02
+    - []
     level: S
     why: pat_S
     tags:
@@ -875,7 +1253,7 @@ questions:
     - odo
     - ans_pat
     - new
-    - new
+    - ''
     pat: an-gc-02
 - num: 19
   status: published
@@ -908,13 +1286,78 @@ questions:
   _key_choice: 測定試料は、一般に粒径が0.1 mm~1 mmの粉末が適当である。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: an-xrd-03
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 4
+    truths: 正正正誤正
+    pcounts:
+    - 4
+    - 8
+    - 1
+    - 3
+    - 5
+    points:
+    - pt-bunseki-0142
+    - pt-bunseki-0016
+    - pt-bunseki-0491
+    - pt-bunseki-0165
+    - pt-bunseki-0069
+    pnames:
+    - この分析法では、特性X線が用いられる。
+    - 結晶物質の定量は、回折線の強度測定で行う。
+    - 回折角により測定物質の同定を行う。
+    - 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。（誤りの記述）
+    - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - pr-bunseki-0012
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0013
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - ''
+    - ''
+    - X線の吸収補正
+    trend:
+    - 2
+    - 4
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2020-02
+      - 2020-08
+    - []
+    level: C
+    why: seen
+    tags:
+    - odo
+    - ''
+    - new
+    - ans_seen
+    - ''
 - num: 20
   status: published
   chapters:
@@ -952,19 +1395,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0397
+    - pt-bunseki-0244
+    - pt-bunseki-0244
+    - pt-bunseki-0244
+    - pt-bunseki-0355
+    pnames:
+    - 放射能は時間経過とともに、指数関数的に減衰する。
+    - 放射性核種の壊変速度は、核種により異なる。
+    - 放射性核種の壊変速度は、核種により異なる。
+    - 放射性核種の壊変速度は、核種により異なる。
+    - 半減期の10倍の時間が経過すると、放射能は約0.1％まで減衰する
+    prcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    principles:
+    - pr-bunseki-0026
+    - pr-bunseki-0026
+    - pr-bunseki-0026
+    - pr-bunseki-0026
+    - pr-bunseki-0026
+    prnames:
+    - 放射能の半減期
+    - 放射能の半減期
+    - 放射能の半減期
+    - 放射能の半減期
+    - 放射能の半減期
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
     - new
     - new
-    - ans_pat
+    - ans_new
     - new
     - new
-    pat: an-radiation-02

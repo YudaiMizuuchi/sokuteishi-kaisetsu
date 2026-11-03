@@ -1,0 +1,47 @@
+---
+layout: base.njk
+pagination:
+  data: db.substances
+  size: 1
+  alias: sb
+permalink: "{{ sb.url }}"
+eleventyComputed:
+  title: "{{ sb.name }}の測定方法｜{{ sb.subjectName }}の物質別まとめ"
+  description: "作業環境測定士試験 {{ sb.subjectName }}：{{ sb.name }}の捕集法・分析法の一覧と、過去{{ sb.denom }}回中{{ sb.examCount }}回出題された過去問。"
+---
+{% from "card.njk" import card %}
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: sb.subjectName, url: "/subject/" + sb.subject + "/"}, {name: sb.name}]) }}
+<h1>{{ sb.name }}</h1>
+<p class="trapmeta">{{ sb.subjectName }}・物質別まとめ・過去{{ sb.denom }}回中{{ sb.examCount }}回、問題に登場</p>
+<section class="trapbody">
+  <h2>測定方法（捕集法－分析法）</h2>
+  {% if sb.verified %}
+  <div class="tablewrap"><table class="subst">
+    <thead><tr><th>方法</th><th>捕集</th><th>前処理・抽出・発色</th><th>分析（装置・波長）</th><th>参照</th></tr></thead>
+    <tbody>{% for m in sb.methods %}<tr>
+      <td>{{ m.method }}</td>
+      <td>{{ m.v["捕集"] if m.v else "" }}</td>
+      <td>{{ m.v["処理"] if m.v else "" }}</td>
+      <td>{{ m.v["分析"] if m.v else "" }}</td>
+      <td>{% if m.pages and m.pages.length %}p.{{ m.pages[0] }}{% if m.pages.length > 1 and m.pages[1] != m.pages[0] %}〜{{ m.pages[1] }}{% endif %}{% endif %}</td>
+    </tr>{% endfor %}</tbody>
+  </table></div>
+  <p class="hint">出典：『{{ sb.book }}』の物質別各論（各方法の「原理」の項）。本文で確認して、書き直したものです。詳しい条件（流量・採取時間・試薬の濃度など）は、ページで確認してください。</p>
+  {% else %}
+  <div class="tablewrap"><table class="subst">
+    <thead><tr><th>方法</th><th>捕集材など</th><th>脱着・抽出</th><th>検出・装置</th><th>波長</th><th>参照</th></tr></thead>
+    <tbody>{% for m in sb.methods %}<tr>
+      <td>{{ m.method }}</td>
+      <td>{{ m["捕集材"] | join("、") }}</td>
+      <td>{{ m["脱着_抽出"] | join("、") }}</td>
+      <td>{{ m["検出"] | join("、") }}</td>
+      <td>{{ m["波長"] | join("、") }}</td>
+      <td>{% if m.pages and m.pages.length %}p.{{ m.pages[0] }}{% if m.pages.length > 1 and m.pages[1] != m.pages[0] %}〜{{ m.pages[1] }}{% endif %}{% endif %}</td>
+    </tr>{% endfor %}</tbody>
+  </table></div>
+  <p class="hint">出典：『{{ sb.book }}』の物質別各論。この物質の表の値は、ガイドブックの本文から機械的に拾ったもので、未確認です（抜けや誤りがあります）。ページ（参照）で、本文を確認してください。</p>
+  {% endif %}
+</section>
+<h2 class="sub">この物質が登場した過去問（{{ sb.questions.length }}問・{{ sb.examCount }}回）</h2>
+{% for q in sb.questions %}{{ card(q, site, true) }}{% endfor %}

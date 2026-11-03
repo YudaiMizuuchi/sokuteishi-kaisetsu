@@ -38,18 +38,66 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 3
-    - 1
-    - 1
-    - 1
-    - 2
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 6
+    - 2
+    - 1
+    - 1
+    - 4
+    points:
+    - pt-tokka-0004
+    - pt-tokka-0078
+    - pt-tokka-0181
+    - pt-tokka-0197
+    - pt-tokka-0017
+    pnames:
+    - ガラス製のセルは、紫外部の光を吸収する。
+    - 発色試薬には、無機試薬と有機試薬がある。
+    - 光源からの光をモノクロメーターによって単色光として測定に用いる。
+    - 吸光度は、入射光の強さに対する透過光の強さの比に比例する。（誤りの記述）
+    - 吸光度は、試料液の濃度と光路長に比例する。
+    prcounts:
+    - 8
+    - 0
+    - 0
+    - 0
+    - 6
+    principles:
+    - pr-tokka-0002
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0001
+    prnames:
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    - ''
+    - ''
+    - ''
+    - ランベルト・ベールの法則
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - odo
-    - new
+    - ''
     - new
     - ans_new
     - odo
@@ -88,18 +136,68 @@ questions:
     - 5
     - 2
     - 1
-    similar:
-    - 2
-    - 1
+    truths: 正正正正誤
+    pcounts:
     - 5
     - 2
+    - 5
+    - 3
     - 1
-    truths: 正正正正誤
+    points:
+    - pt-tokka-0002
+    - pt-tokka-0070
+    - pt-tokka-0001
+    - pt-tokka-0026
+    - pt-tokka-0225
+    pnames:
+    - 捕集液は水酸化ナトリウム溶液を用いる。
+    - 標準原液は、シアン化カリウムを精製水に溶解して調製する。
+    - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で標定する。
+    - 捕集液に酢酸を加え中和した後、発色試薬を加える。
+    - 発色試薬として、ジフェニルカルバジドを用いる。（誤りの記述）
+    prcounts:
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-tokka-0007
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 酸性ガスは塩基性の捕集液に吸収される
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
     level: B
     why: elim_two
     tags:
     - odo
-    - new
+    - ''
     - odo
     - odo
     - ans_new
@@ -142,9 +240,10 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
     level: S
-    why: pat_S
-    pat: sl-tokka-038
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -209,7 +308,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 6
   status: published
@@ -245,9 +344,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-047
+    level: B
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -281,7 +379,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 8
   status: published
@@ -318,20 +416,68 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 2
-    - 3
-    - 3
-    - 1
-    - 2
     truths: 誤正正正正
+    pcounts:
+    - 3
+    - 3
+    - 5
+    - 2
+    - 4
+    points:
+    - pt-tokka-0019
+    - pt-tokka-0019
+    - pt-tokka-0003
+    - pt-tokka-0071
+    - pt-tokka-0007
+    pnames:
+    - 固体捕集法には、活性炭管を用いる。
+    - 固体捕集法には、活性炭管を用いる。
+    - 活性炭からの脱着には、二硫化炭素を用いる。
+    - 臭化メチル水素炎イオン化検出器(FID)
+    - 捕集後の捕集管は、冷蔵保存する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 9
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2020-08
+    - []
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - ans_b
     - odo
     - odo
-    - new
+    - odo
     - odo
 - num: 9
   status: published
@@ -368,21 +514,71 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
+    truths: 正正誤正正
+    pcounts:
+    - 2
     - 2
     - 1
-    truths: 正正誤正正
-    level: C
-    why: none
+    - 2
+    - 2
+    points:
+    - pt-tokka-0044
+    - pt-tokka-0053
+    - pt-tokka-0198
+    - pt-tokka-0054
+    - pt-tokka-0072
+    pnames:
+    - ポーラスポリマービーズとガラス繊維ろ紙を組み合わせた相補型ろ過捕集法で捕集する
+    - 捕集管は、捕集前に加熱処理して分析の妨害となる物質を除去する。
+    - 溶媒抽出には、アセトニトリルを使用する。（誤りの記述）
+    - 試料を捕集した捕集管は、両端を真鍮製保存キャップで密栓して保管する
+    - o-フタロジニトリル質量分析器(MS)
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3012
+    subst_name: オルト-フタロジニトリル
+    level: B
+    why: subst
     tags:
-    - new
-    - new
-    - ans_new
-    - odo
-    - new
+    - ''
+    - ''
+    - ans_subst
+    - ''
+    - ''
 - num: 10
   status: published
   chapters:
@@ -424,9 +620,10 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-tokka-039
+    subst_id: sb-tokka-3005
+    subst_name: エチレンイミン
+    level: B
+    why: subst
 - num: 11
   status: published
   chapters:
@@ -459,14 +656,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0138
+    - pt-tokka-0120
+    - pt-tokka-0182
+    - pt-tokka-0183
+    - pt-tokka-0226
+    pnames:
+    - 検知管法は、化学反応による検知剤の色の変化を利用した分析法である
+    - 変色層の長さは、試料空気中の対象成分の濃度に対応する。
+    - 検知管の目盛りは、通常20℃で校正されている。
+    - 変色層が斜めになったときは、最長部分の値を測定値とする。（誤りの記述）
+    - 検知管には、有効期限が定められている。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -505,22 +750,70 @@ questions:
     denom: 12
     counts:
     - 1
-    - 2
     - 1
     - 1
-    - 1
-    similar:
-    - 1
-    - 2
-    - 3
     - 1
     - 1
     truths: 正誤正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 5
+    - 3
+    - 1
+    - 1
+    points:
+    - pt-tokka-0121
+    - pt-tokka-0005
+    - pt-tokka-0025
+    - pt-tokka-0199
+    - pt-tokka-0139
+    pnames:
+    - ODSカラムは、シリカゲル担体に無極性アルキル基を結合している。
+    - 移動相が固定相よりも極性が高い場合、逆相クロマトグラフ法という。
+    - ODSカラムは、強塩基性の移動相によって化学的な劣化を受ける。
+    - カラムの劣化は、分離能の低下をまねく。
+    - 蛍光光度検出器は、一般に、吸光光度検出器より検出感度が高い。
+    prcounts:
+    - 0
+    - 6
+    - 6
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0003
+    - pr-tokka-0003
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
     - new
-    - ans_b
+    - ans_hi
     - odo
     - new
     - new
@@ -561,9 +854,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-048
+    level: B
+    why: q_b
 - num: 14
   status: published
   chapters:
@@ -603,9 +895,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-049
+    level: B
+    why: q_b
 - num: 15
   status: published
   chapters:
@@ -631,9 +922,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-067
+    level: D
+    why: q_new
 - num: 16
   status: published
   chapters:
@@ -684,9 +974,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-050
+    level: B
+    why: q_b
 - num: 17
   status: published
   chapters:
@@ -720,7 +1009,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 18
   status: published
@@ -747,9 +1036,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-068
+    level: D
+    why: q_new
 - num: 19
   status: published
   chapters:
@@ -785,21 +1073,69 @@ questions:
     - 2
     - 2
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 2
-    - 1
     truths: 正正正正誤
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    points:
+    - pt-tokka-0244
+    - pt-tokka-0088
+    - pt-tokka-0089
+    - pt-tokka-0021
+    - pt-tokka-0063
+    pnames:
+    - アクリロニトリルの捕集には、シリカゲルを用いる。
+    - ベンゼンの捕集には、活性炭を用いる。
+    - β-プロピオラクトンの捕集には、ポーラスポリマービーズを用いる。
+    - 塩素化ビフェニル(PCB)の捕集には、フロリジルを用いる。
+    - ポーラスポリマービーズは、活性炭と比べて、有機化合物の蒸気に対する捕集容量が小さい
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2021-08
+    level: C
+    why: seen
     tags:
     - new
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_new
+    - ans_seen
 - num: 20
   status: published
   chapters:
@@ -831,5 +1167,5 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new

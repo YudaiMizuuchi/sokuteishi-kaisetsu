@@ -49,21 +49,71 @@ questions:
     - 5
     - 1
     - 1
-    similar:
-    - 1
-    - 1
+    truths: 誤正正正正
+    pcounts:
+    - 2
+    - 2
     - 5
     - 1
+    - 4
+    points:
+    - pt-tokka-0049
+    - pt-tokka-0070
+    - pt-tokka-0001
+    - pt-tokka-0159
+    - pt-tokka-0014
+    pnames:
+    - 捕集には硫酸含浸ろ紙を用いる。
+    - 標準原液は、シアン化カリウムを精製水に溶解して調製する。
+    - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で標定する。
+    - 試料溶液は中和し、緩衝液でpHを調整する。
+    - 発色操作には、クロラミンTとピリジン-ピラゾロンを用いる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
     - 1
-    truths: 誤正正正正
-    level: C
-    why: none
+    - 1
+    - 2
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: B
+    why: subst
     tags:
-    - ans_new
-    - new
+    - ans_subst
+    - ''
     - odo
     - new
-    - new
+    - odo
 - num: 2
   status: published
   chapters:
@@ -149,13 +199,63 @@ questions:
     - 4
     - 3
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 1
     - 3
     - 4
-    - 3
+    - 4
     - 1
-    truths: 正正正正誤
+    points:
+    - pt-tokka-0219
+    - pt-tokka-0037
+    - pt-tokka-0018
+    - pt-tokka-0016
+    - pt-tokka-0160
+    pnames:
+    - 捕集液の調製には硫酸亜鉛七水和物を用いる。
+    - 塩化鉄（Ⅲ）は酸化剤として働く。
+    - 生成する物質はメチレンブルーである。
+    - 標準原液は硫化ナトリウムから調製する。
+    - 標準原液の濃度の標定に中和滴定法を用いる。（誤りの記述）
+    prcounts:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0009
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 酸化剤・還元剤の働き
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2023-08
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
     level: B
     why: elim_two
     tags:
@@ -203,8 +303,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3005
+    subst_name: エチレンイミン
+    level: B
+    why: subst
 - num: 5
   status: published
   chapters:
@@ -240,20 +342,68 @@ questions:
     - 2
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 3
     - 2
-    - 3
+    - 4
+    - 2
+    - 1
+    points:
+    - pt-tokka-0028
+    - pt-tokka-0066
+    - pt-tokka-0009
+    - pt-tokka-0067
+    - pt-tokka-0161
+    pnames:
+    - 水素炎中で燃焼し、イオン化する物質のみを検出する。
+    - 電子捕獲型検出器は、電子親和力の強い物質が高感度で検出される。
+    - 直線性を示す測定範囲は、電子捕獲検出器(ECD)よりも広い
+    - 炎光光度検出器は、リンや硫黄を含む化合物に選択性がある。
+    - 質量分析計は、分子構造情報を収集できる。
+    prcounts:
+    - 9
+    - 9
+    - 0
+    - 9
+    - 0
+    principles:
+    - pr-tokka-0004
+    - pr-tokka-0004
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
     - 1
     - 1
-    truths: 正正正誤正
-    level: B
-    why: elim_two
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2020-08
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_pr
     - new
 - num: 6
   status: published
@@ -333,8 +483,7 @@ questions:
     count: 4
     form: 選択肢が物質名などの問題
     level: A
-    why: pat_A
-    pat: sl-tokka-040
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -378,8 +527,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 9
   status: published
   chapters:
@@ -414,20 +563,68 @@ questions:
     - 2
     - 2
     - 1
-    similar:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 1
     truths: 誤正正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-tokka-0056
+    - pt-tokka-0131
+    - pt-tokka-0045
+    - pt-tokka-0081
+    - pt-tokka-0220
+    pnames:
+    - 25 ℃、1気圧におけるガス又は蒸気の1モルの体積は、22.4 L である（誤りの記述）
+    - 空気中に存在する有害物質の濃度は、質量濃度又は体積分率で表す。
+    - 空気中の有害物質は、粒子、ガス又は蒸気の状態で存在する。
+    - 標準液の濃度は、所定の濃度に厳密に合わせる必要はない。
+    - 標準系列液は、原則的に保管はしない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_b
+    - ans_seen
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - new
 - num: 10
   status: published
@@ -464,8 +661,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
+    level: B
+    why: subst
 - num: 11
   status: published
   chapters:
@@ -508,9 +707,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-041
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -557,21 +755,69 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 3
-    - 1
-    - 2
-    - 3
-    - 2
     truths: 正正誤正正
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 2
+    points:
+    - pt-tokka-0036
+    - pt-tokka-0030
+    - pt-tokka-0032
+    - pt-tokka-0083
+    - pt-tokka-0084
+    pnames:
+    - α-ナフチルアミンは、インピンジャーを用いて捕集する。
+    - エチルエーテルを用いて捕集液から抽出する。
+    - 亜硝酸ナトリウムとスルファニル酸を加えて、発色させる。（誤りの記述）
+    - 薄層クロマトグラフ法を用いて単離し、蛍光強度を測定する。
+    - α-ナフチルアミンをエタノールに溶解して、標準液とする。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
     - odo
-    - new
+    - odo
     - ans_b
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -616,7 +862,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -665,13 +911,77 @@ questions:
   law_note: null
   _review: true
   freq:
-    kind: question
+    kind: choice
     denom: 12
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-056
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正誤誤誤
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0090
+    - pt-tokka-0090
+    - pt-tokka-0090
+    - pt-tokka-0090
+    - pt-tokka-0090
+    pnames:
+    - PB＞PA＞PC
+    - PB＞PA＞PC
+    - PB＞PA＞PC
+    - PB＞PA＞PC
+    - PB＞PA＞PC
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 15
   status: published
   chapters:
@@ -716,9 +1026,8 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-065
+    level: D
+    why: q_new
 - num: 16
   status: published
   chapters:
@@ -756,21 +1065,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 4
+    points:
+    - pt-tokka-0132
+    - pt-tokka-0162
+    - pt-tokka-0116
+    - pt-tokka-0163
+    - pt-tokka-0012
+    pnames:
+    - 拡散チューブの上端で希釈用ガスの気流と混合する。
+    - 拡散チューブ内の濃度勾配に従って蒸気が移動する。
+    - 標準ガスの濃度は、拡散速度が一定とみなせるときの液体の減少量から求める
+    - 拡散セルに振動を与えることで拡散速度の安定性を確保する。（誤りの記述）
+    - 拡散速度は、恒温槽の温度が高いと増加する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0005
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 拡散セルによる標準ガスの発生
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - new
     - new
     - ans_new
-    - new
+    - odo
 - num: 17
   status: published
   chapters:
@@ -814,8 +1171,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
+    level: B
+    why: subst
 - num: 18
   status: published
   chapters:
@@ -849,9 +1208,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-042
+    subst_id: sb-tokka-3012
+    subst_name: オルト-フタロジニトリル
+    level: B
+    why: subst
 - num: 19
   status: published
   chapters:
@@ -889,20 +1249,71 @@ questions:
     - 3
     - 1
     - 4
-    similar:
-    - 1
-    - 1
-    - 3
-    - 1
-    - 4
     truths: 正正正誤正
-    level: C
-    why: none
+    pcounts:
+    - 4
+    - 2
+    - 3
+    - 4
+    - 4
+    points:
+    - pt-tokka-0015
+    - pt-tokka-0048
+    - pt-tokka-0031
+    - pt-tokka-0008
+    - pt-tokka-0011
+    pnames:
+    - 真空捕集瓶のコックのすり合わせ部には、グリースを使用しない。
+    - 捕集袋の内容積は、試料採取から分析までの間の濃度減衰を考慮して、5L 以上とする
+    - 捕集袋は、清浄な乾燥空気又は窒素を用いて洗浄する。
+    - 試料空気から水分を取り除く場合には、ガラス管に無水硫酸カルシウム粒などの乾燥剤を詰めて、試料採取口の前に接続する
+    - 電動ポンプを通して、捕集袋内に試料空気を送り採取する場合、ポンプ内の吸着に注意する必要がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    near:
+    - true
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2020-08
+      - 2023-08
+    - - 2025-08
+    - []
+    - - 2020-08
+      - 2023-08
+      - 2025-08
+    - []
+    level: S
+    why: trend_S
     tags:
-    - new
-    - new
     - odo
-    - ans_new
+    - ''
+    - odo
+    - ans_trend
     - odo
 - num: 20
   status: published

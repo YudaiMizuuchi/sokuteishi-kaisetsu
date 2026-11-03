@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -72,8 +72,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-03
 - num: 3
   status: published
@@ -104,8 +104,7 @@ questions:
     count: 9
     form: 計算問題
     level: A
-    why: pat_A
-    pat: an-gas-03
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -141,14 +140,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 誤正誤誤誤
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0445
+    - pt-bunseki-0331
+    - pt-bunseki-0410
+    - pt-bunseki-0368
+    - pt-bunseki-0332
+    pnames:
+    - <u>Na</u>OH＋HCl→NaCl＋H₂O（誤りの記述）
+    - <u>Mn</u>O₂＋4HCl→MnCl₂＋2H₂O＋Cl₂
+    - <u>Fe</u>O＋2HCl→FeCl₂＋H₂O（誤りの記述）
+    - <u>Ca</u>CO₃＋2HCl→CaCl₂＋H₂O＋CO₂（誤りの記述）
+    - <u>Al</u>₂O₃＋6HCl→2AlCl₃＋3H₂O（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -191,8 +238,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -229,8 +276,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -267,20 +314,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
+    truths: 正正正誤正
+    pcounts:
+    - 4
+    - 2
+    - 6
     - 2
     - 1
-    - 1
-    - 1
-    truths: 正正正誤正
+    points:
+    - pt-bunseki-0059
+    - pt-bunseki-0184
+    - pt-bunseki-0017
+    - pt-bunseki-0192
+    - pt-bunseki-0333
+    pnames:
+    - ロータメータは、垂直に立てたテーパー管に浮子(フロート)を入れたものである
+    - 電子天秤は、気温の安定した場所に設置する。
+    - 全量ピペットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい
+    - メスフラスコを使用する前に共洗いを行う。（誤りの記述）
+    - 水流ポンプ(アスピレーター)で得られる真空度は、水の蒸気圧に依存する
+    prcounts:
+    - 11
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0034
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 流量計の原理と校正
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2018-08
+    - []
+    - - 2017-02
+    - []
+    - []
     level: C
-    why: none
+    why: seen
     tags:
     - odo
     - ''
-    - new
-    - ans_new
+    - ''
+    - ans_seen
     - new
 - num: 8
   status: published
@@ -317,22 +412,70 @@ questions:
     - 2
     - 2
     - 3
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 1
     - 4
     - 2
-    - 2
-    - 3
-    truths: 正正正誤正
-    level: B
-    why: pat_B
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0295
+    - pt-bunseki-0085
+    - pt-bunseki-0200
+    - pt-bunseki-0086
+    - pt-bunseki-0078
+    pnames:
+    - 液体二酸化炭素の容器には、液体の二酸化炭素取り出し用と気体の二酸化炭素取り出し用の2種類がある
+    - ヘリウム用の減圧弁のねじは、左ねじである。
+    - アセチレンの配管には、ステンレス製のものが使用できる。
+    - 酸素の容器の塗色は、黒色である。
+    - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+      - 2021-08
+    - []
+    level: C
+    why: seen
     tags:
     - new
-    - odo
     - ''
-    - ans_pat
-    - odo
-    pat: an-lab-equipment-04
+    - ''
+    - ans_seen
+    - ''
 - num: 9
   status: published
   chapters:
@@ -365,21 +508,69 @@ questions:
     - 4
     - 2
     - 3
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 2
     - 3
     - 4
     - 2
     - 3
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0199
+    - pt-bunseki-0102
+    - pt-bunseki-0076
+    - pt-bunseki-0158
+    - pt-bunseki-0110
+    pnames:
+    - 蒸留法では、水よりも沸点の高い成分を除去できる。
+    - 逆浸透膜法では、溶存気体を完全に取り除くことはできない。
+    - メンブランフィルターは、水中の粒子を除去できる。
+    - 陽イオン交換樹脂は、水中のハロゲン化物イオンを吸着し水素イオンを放出する（誤りの記述）
+    - イオン交換水の純度の指標として比抵抗値（Ω・cm）が用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pat
-    - odo
+    - ''
     pat: an-reagents-02
 - num: 10
   status: published
@@ -416,19 +607,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0446
+    - pt-bunseki-0447
+    - pt-bunseki-0125
+    - pt-bunseki-0268
+    - pt-bunseki-0296
+    pnames:
+    - 試料溶液は、ネブライザーにより霧状にされる。
+    - スプレーチャンバーにより粗大な粒径の試料の液滴を除く。
+    - プラズマの生成には、アルゴンガスを用いる。
+    - プラズマ中に霧状の試料溶液を導入し、励起された目的元素の発光を測定する
+    - 窒素パージ型分光器は、赤外領域の発光を感度よく測定するために用いる（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - new
     - new
-    - new
+    - ''
     - new
     - ans_pat
     pat: an-quantification-02
@@ -468,20 +707,79 @@ questions:
     - 4
     - 3
     - 4
-    similar:
-    - 4
-    - 3
-    - 4
-    - 3
-    - 4
     truths: 誤誤誤正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 3
+    - 2
+    - 3
+    - 5
+    - 2
+    points:
+    - pt-bunseki-0135
+    - pt-bunseki-0151
+    - pt-bunseki-0136
+    - pt-bunseki-0029
+    - pt-bunseki-0221
+    pnames:
+    - エタンの0.5倍の物質量である。（誤りの記述）
+    - エタンと同じ物質量である。（誤りの記述）
+    - エタンの1.5倍の物質量である。（誤りの記述）
+    - エタンの2倍の物質量である。
+    - エタンの4倍の物質量である。（誤りの記述）
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
+    principles:
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    prnames:
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2017-02
+      - 2020-02
+      - 2021-02
+    - - 2017-02
+      - 2020-02
+      - 2021-02
+    - - 2017-02
+      - 2020-02
+      - 2021-02
+    - - 2016-02
+      - 2017-02
+      - 2020-02
+      - 2021-02
+    - - 2017-02
+      - 2020-02
+      - 2021-02
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
-    - ans_pat
+    - ans_pr
     - odo
     pat: an-reaction-03
 - num: 12
@@ -515,9 +813,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-03
+    level: D
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -550,22 +847,69 @@ questions:
     - 1
     - 4
     - 2
-    similar:
-    - 2
-    - 1
-    - 3
-    - 4
-    - 2
     truths: 正誤正正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 3
+    - 7
+    - 6
+    - 6
+    points:
+    - pt-bunseki-0189
+    - pt-bunseki-0114
+    - pt-bunseki-0012
+    - pt-bunseki-0022
+    - pt-bunseki-0019
+    pnames:
+    - 試料溶液を透過した光の強さは、ランベルト・ベールの法則に従う。
+    - 透過率は、試料セルの光路長に比例する。（誤りの記述）
+    - 吸光度は、光路長に比例する。
+    - モル吸光係数は、波長により異なる。
+    - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
+    prcounts:
+    - 12
+    - 11
+    - 12
+    - 11
+    - 11
+    principles:
+    - pr-bunseki-0001
+    - pr-bunseki-0002
+    - pr-bunseki-0001
+    - pr-bunseki-0003
+    - pr-bunseki-0003
+    prnames:
+    - ランベルト・ベールの法則
+    - 吸光度と透過率の関係
+    - ランベルト・ベールの法則
+    - モル吸光係数の性質
+    - モル吸光係数の性質
+    trend:
+    - 0
+    - 0
+    - 3
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pr_A
     tags:
-    - ''
-    - ans_pat
+    - odo
+    - ans_pr
     - odo
     - odo
-    - ''
-    pat: an-spectrophotometry-06
+    - odo
 - num: 14
   status: published
   chapters:
@@ -636,22 +980,69 @@ questions:
     - 4
     - 2
     - 1
-    similar:
-    - 2
-    - 6
-    - 4
-    - 2
-    - 1
     truths: 誤正正正正
+    pcounts:
+    - 4
+    - 10
+    - 4
+    - 7
+    - 5
+    points:
+    - pt-bunseki-0068
+    - pt-bunseki-0005
+    - pt-bunseki-0083
+    - pt-bunseki-0012
+    - pt-bunseki-0046
+    pnames:
+    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 光源には中空陰極ランプが用いられる。
+    - 主として、金属元素の定量に用いられる。
+    - 吸光度は、光路長に比例する。
+    - フレームの種類により感度が変化する。
+    prcounts:
+    - 16
+    - 14
+    - 0
+    - 12
+    - 0
+    principles:
+    - pr-bunseki-0008
+    - pr-bunseki-0009
+    - ''
+    - pr-bunseki-0001
+    - ''
+    prnames:
+    - 原子吸光は基底状態の原子の光吸収
+    - 原子吸光の光源は線光源
+    - ''
+    - ランベルト・ベールの法則
+    - ''
+    trend:
+    - 0
+    - 3
+    - 0
+    - 3
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2016-08
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - ans_pat
-    - odo
+    - ans_pr
     - odo
     - ''
-    - new
-    pat: an-aas-01
+    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -687,22 +1078,69 @@ questions:
     - 3
     - 4
     - 4
-    similar:
-    - 2
-    - 6
-    - 12
-    - 8
-    - 4
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 3
+    - 13
+    - 16
+    - 16
+    - 13
+    points:
+    - pt-bunseki-0111
+    - pt-bunseki-0002
+    - pt-bunseki-0001
+    - pt-bunseki-0001
+    - pt-bunseki-0002
+    pnames:
+    - 紫外部あるいは可視部の光が励起光として用いられる。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光は、励起光よりも波長が長い。
+    prcounts:
+    - 0
+    - 15
+    - 16
+    - 16
+    - 15
+    principles:
+    - ''
+    - pr-bunseki-0004
+    - pr-bunseki-0005
+    - pr-bunseki-0005
+    - pr-bunseki-0004
+    prnames:
+    - ''
+    - 蛍光は励起光より長波長
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光は励起光より長波長
+    trend:
+    - 0
+    - 2
+    - 2
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
     - ''
     - odo
     - odo
     - odo
-    - ans_pat
-    pat: an-fluorescence-05
+    - ans_hi
 - num: 17
   status: published
   chapters:
@@ -738,21 +1176,69 @@ questions:
     - 4
     - 1
     - 1
-    similar:
-    - 7
-    - 1
-    - 4
-    - 1
-    - 1
     truths: 正誤正正正
+    pcounts:
+    - 9
+    - 9
+    - 5
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0007
+    - pt-bunseki-0007
+    - pt-bunseki-0035
+    - pt-bunseki-0060
+    - pt-bunseki-0058
+    pnames:
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される
+    - 光イオン化検出器（PID）は、芳香族炭化水素を検出できる。
+    - 電子捕獲検出器（ECD）は、ハロゲン化合物の定量に用いられる。
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    principles:
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    trend:
+    - 2
+    - 2
+    - 2
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2016-08
+    - - 2024-02
+    - []
+    - []
     level: S
     why: pat_S
     tags:
     - odo
     - ans_pat
     - odo
-    - new
-    - new
+    - odo
+    - odo
     pat: an-gc-01
 - num: 18
   status: published
@@ -786,10 +1272,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 3
     form: 選択肢が物質名などの問題
-    level: A
-    why: q_hi
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -819,25 +1305,72 @@ questions:
     counts:
     - 2
     - 2
-    - 8
+    - 9
     - 2
-    - 6
-    similar:
-    - 2
-    - 2
-    - 8
-    - 6
     - 6
     truths: 正誤正正正
-    level: S
-    why: pat_S
-    tags:
+    pcounts:
+    - 3
+    - 6
+    - 9
+    - 8
+    - 5
+    points:
+    - pt-bunseki-0137
+    - pt-bunseki-0027
+    - pt-bunseki-0011
+    - pt-bunseki-0016
+    - pt-bunseki-0049
+    pnames:
+    - X線管からは、特性X線と連続X線が生じる。
+    - 分析には、連続X線を用いる。（誤りの記述）
+    - 回折線は、ブラッグの条件に従って生じる。
+    - 結晶物質の定量は、回折線の強度測定で行う。
+    - 回折角の測定にゴニオメーターを用いる。
+    prcounts:
+    - 16
+    - 16
+    - 17
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0012
+    - pr-bunseki-0012
+    - pr-bunseki-0011
     - ''
-    - ans_pat
+    - ''
+    prnames:
+    - X線回折の線源は特性X線
+    - X線回折の線源は特性X線
+    - X線回折のブラッグの条件
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 4
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
+    tags:
     - odo
+    - ans_pr
     - odo
-    - odo
-    pat: an-xrd-02
+    - ''
+    - ''
 - num: 20
   status: published
   chapters:
@@ -866,6 +1399,5 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: an-radiation-02
+    level: C
+    why: q_seen

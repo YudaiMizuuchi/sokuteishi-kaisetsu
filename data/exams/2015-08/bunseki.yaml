@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-02
 - num: 2
   status: published
@@ -70,8 +70,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-03
 - num: 3
   status: published
@@ -109,19 +109,67 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 3
-    - 1
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0436
+    - pt-bunseki-0398
+    - pt-bunseki-0437
+    - pt-bunseki-0249
+    - pt-bunseki-0249
+    pnames:
+    - 水に対する溶解度は、ベンゼンよりもフェノールの方が大きい。
+    - ヘキサンに対する溶解度は、酢酸ナトリウムよりも酢酸の方が大きい。
+    - グルコースの水に対する溶解度は、エチルアルコールに対する溶解度よりも大きい
+    - 塩酸は、水に溶解すると完全に解離する。
+    - 塩酸は、水に溶解すると完全に解離する。
+    prcounts:
+    - 5
+    - 5
+    - 5
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - ''
+    - ''
+    prnames:
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - new
     - new
-    - odo
+    - new
     - new
     - ans_pat
     pat: an-reaction-01
@@ -160,8 +208,7 @@ questions:
     count: 9
     form: 計算問題
     level: A
-    why: pat_A
-    pat: an-gas-03
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -200,8 +247,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-03
 - num: 6
   status: published
@@ -241,8 +288,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 7
   status: published
@@ -276,14 +323,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 2
     - 1
     - 1
     - 1
     - 1
-    truths: 正正正正誤
-    level: C
+    points:
+    - pt-bunseki-0184
+    - pt-bunseki-0316
+    - pt-bunseki-0399
+    - pt-bunseki-0317
+    - pt-bunseki-0275
+    pnames:
+    - 電子天秤は、気温の安定した場所に設置する。
+    - 電子天秤は、標準分銅により定期的に校正する。
+    - 水銀温度計は、アルコール温度計より高い温度まで測定できる。
+    - 真空捕集びんの内圧は、水銀マノメーターにより測定することができる
+    - ロータリーポンプにより、1×10⁻⁸mmHg(約1.3×10⁻⁶Pa)程度の高真空を得ることができる（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - ''
@@ -323,22 +418,69 @@ questions:
     - 3
     - 2
     - 1
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 3
     - 7
-    - 3
+    - 10
     - 9
     - 1
-    truths: 正正誤正正
+    points:
+    - pt-bunseki-0101
+    - pt-bunseki-0014
+    - pt-bunseki-0004
+    - pt-bunseki-0006
+    - pt-bunseki-0356
+    pnames:
+    - 標準ガスの濃度は、拡散セル内の標準物質の減少速度から計算する。
+    - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない
+    - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    - 拡散セルの出口には、乾燥した空気を流す。
+    prcounts:
+    - 14
+    - 0
+    - 14
+    - 14
+    - 0
+    principles:
+    - pr-bunseki-0033
+    - ''
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - ''
+    prnames:
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    trend:
+    - 0
+    - 1
+    - 2
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - odo
-    - odo
-    - ans_pat
+    - ''
+    - ans_pr
     - odo
     - new
-    pat: an-standard-gas-01
 - num: 9
   status: published
   chapters:
@@ -367,23 +509,71 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 4
+    - 1
+    - 1
+    - 1
     - 2
-    - 1
-    - 1
-    - 1
-    - 1
-    similar:
-    - 2
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 5
+    - 2
+    - 1
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0034
+    - pt-bunseki-0215
+    - pt-bunseki-0438
+    - pt-bunseki-0472
+    - pt-bunseki-0230
+    pnames:
+    - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混ぜた溶液である。
+    - 王水は、使用時に調製する。
+    - 濃硝酸は、濃硫酸より比重が小さい。
+    - 濃硫酸は、乾燥剤として用いられる。
+    - フッ化水素酸は、強酸である。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2019-08
+    level: A
+    why: pat_A
     tags:
     - ''
-    - new
+    - ''
     - new
     - new
     - ans_pat
@@ -424,20 +614,71 @@ questions:
     - 2
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 2
     - 3
     - 2
+    - 5
     - 1
-    - 1
-    truths: 正正正誤正
+    points:
+    - pt-bunseki-0156
+    - pt-bunseki-0105
+    - pt-bunseki-0157
+    - pt-bunseki-0038
+    - pt-bunseki-0439
+    pnames:
+    - 検知管には、測定対象ガス又はその反応生成物と反応して変色する試薬が使用されている
+    - 補助反応試薬を別のガラス管に充填して、検知管と二段にして使用するものがある
+    - pH指示薬を使用する検知管は、酸性ガス又は塩基性ガスが共存すると妨害を受けることがある
+    - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある
+    - 検知管には有効期限がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+      - 2020-08
+      - 2021-02
+      - 2022-08
+    - []
     level: C
-    why: none
+    why: seen
     tags:
     - ''
-    - odo
     - ''
-    - ans_new
+    - ''
+    - ans_seen
     - new
 - num: 11
   status: published
@@ -473,9 +714,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-mole-03
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -507,8 +747,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-equilibrium-03
 - num: 13
   status: published
@@ -546,8 +786,7 @@ questions:
     count: 14
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -618,22 +857,69 @@ questions:
     - 3
     - 4
     - 1
-    similar:
-    - 1
-    - 6
-    - 4
-    - 4
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 1
+    - 10
+    - 5
+    - 4
+    - 2
+    points:
+    - pt-bunseki-0357
+    - pt-bunseki-0005
+    - pt-bunseki-0046
+    - pt-bunseki-0083
+    - pt-bunseki-0193
+    pnames:
+    - 試料の吸引速度により感度が変化する。
+    - 光源には中空陰極ランプが用いられる。
+    - フレームの種類により感度が変化する。
+    - 主として、金属元素の定量に用いられる。
+    - 励起された原子の吸光を測定する。（誤りの記述）
+    prcounts:
+    - 0
+    - 14
+    - 0
+    - 0
+    - 16
+    principles:
+    - ''
+    - pr-bunseki-0009
+    - ''
+    - ''
+    - pr-bunseki-0008
+    prnames:
+    - ''
+    - 原子吸光の光源は線光源
+    - ''
+    - ''
+    - 原子吸光は基底状態の原子の光吸収
+    trend:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - new
     - odo
-    - odo
-    - odo
-    - ans_pat
-    pat: an-aas-01
+    - ''
+    - ''
+    - ans_pr
 - num: 16
   status: published
   chapters:
@@ -663,20 +949,68 @@ questions:
     counts:
     - 4
     - 2
-    - 6
+    - 7
     - 2
     - 8
-    similar:
-    - 4
-    - 2
-    - 6
-    - 9
-    - 9
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 7
+    - 2
+    - 9
+    - 16
+    - 16
+    points:
+    - pt-bunseki-0015
+    - pt-bunseki-0216
+    - pt-bunseki-0009
+    - pt-bunseki-0001
+    - pt-bunseki-0001
+    pnames:
+    - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
+    - 蛍光は、励起光よりも短波長側に生じる。（誤りの記述）
+    - 励起光に対して直角方向の蛍光を測定する。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、試料濃度に比例する。
+    prcounts:
+    - 0
+    - 0
+    - 10
+    - 16
+    - 16
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0006
+    - pr-bunseki-0005
+    - pr-bunseki-0005
+    prnames:
+    - ''
+    - ''
+    - 蛍光は励起光と直角方向で測る
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光強度は低濃度で濃度に比例
+    trend:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 2
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-08
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - ans_pat
     - odo
     - odo
@@ -708,10 +1042,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 3
     form: 選択肢が物質名などの問題
-    level: A
-    why: q_hi
+    level: C
+    why: q_seen
 - num: 18
   status: published
   chapters:
@@ -747,22 +1081,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
+    truths: 正正誤正正
+    pcounts:
+    - 5
+    - 2
     - 1
     - 3
     - 1
-    truths: 正正誤正正
-    level: B
-    why: pat_B
+    points:
+    - pt-bunseki-0028
+    - pt-bunseki-0198
+    - pt-bunseki-0276
+    - pt-bunseki-0131
+    - pt-bunseki-0400
+    pnames:
+    - カラムの温度に依存する。
+    - ピークの分離度は、カラム温度が高いほど小さくなる。
+    - 設定カラム温度において、飽和蒸気圧が等しい2物質は、分離できない（誤りの記述）
+    - 保持時間は、カラム温度が高いほど短くなる。
+    - カラム温度を上げると、カラムの通気抵抗は大きくなる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0029
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 保持時間と溶出順
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 2
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
+    - ''
+    - ''
+    - ans_new
+    - ''
     - new
-    - new
-    - ans_pat
-    - odo
-    - new
-    pat: an-gc-06
 - num: 19
   status: published
   chapters:
@@ -794,21 +1175,69 @@ questions:
     - 6
     - 6
     - 5
-    - 8
-    similar:
+    - 9
+    truths: 正正誤正正
+    pcounts:
     - 6
-    - 6
+    - 9
     - 6
     - 5
-    - 8
-    truths: 正正誤正正
+    - 9
+    points:
+    - pt-bunseki-0025
+    - pt-bunseki-0010
+    - pt-bunseki-0026
+    - pt-bunseki-0040
+    - pt-bunseki-0011
+    pnames:
+    - この分析法では、通常、Cu-Kα線が用いられる。
+    - この分析法は、石英の同定と定量に使われる。
+    - X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
+    - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
+    - 回折線は、ブラッグの条件に従って生じる。
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 0
+    - 17
+    principles:
+    - pr-bunseki-0012
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0011
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - ''
+    - ''
+    - X線回折のブラッグの条件
+    trend:
+    - 1
+    - 0
+    - 3
+    - 2
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: ans_hi
+    why: trend_A
     tags:
     - odo
     - odo
-    - ans_hi
-    - odo
+    - ans_trend
+    - ''
     - odo
 - num: 20
   status: published
@@ -845,6 +1274,6 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-logarithm-03

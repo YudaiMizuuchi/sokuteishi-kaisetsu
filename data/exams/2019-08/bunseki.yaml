@@ -33,9 +33,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-mole-01
+    level: C
+    why: q_seen
 - num: 2
   status: published
   chapters:
@@ -75,8 +74,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-mole-03
 - num: 3
   status: published
@@ -109,19 +108,67 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 2
-    - 2
-    - 1
-    - 2
-    - 1
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0145
+    - pt-bunseki-0145
+    - pt-bunseki-0145
+    - pt-bunseki-0145
+    - pt-bunseki-0176
+    pnames:
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 体積が一定の条件で、温度を2倍にすると圧力は2倍になる。
+    - 温度と体積の両方を2倍にした場合、圧力は変化しない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2017-08
+    - - 2017-08
+    - - 2017-08
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''
-    - new
+    - ''
     - ''
     - ans_pat
     pat: an-gas-01
@@ -159,21 +206,69 @@ questions:
     - 2
     - 4
     - 2
-    similar:
-    - 4
-    - 7
-    - 2
-    - 6
-    - 4
     truths: 正正誤正正
+    pcounts:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 1
+    points:
+    - pt-bunseki-0235
+    - pt-bunseki-0140
+    - pt-bunseki-0236
+    - pt-bunseki-0144
+    - pt-bunseki-0477
+    pnames:
+    - エタノールは、－OH基をもっている。
+    - 酢酸は、－COOH基をもっている。
+    - ベンゼンは、－CH₃基をもっている。（誤りの記述）
+    - アセトンは水によく溶ける。
+    - アニリンは、-NH₂基をもっている。
+    prcounts:
+    - 7
+    - 7
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0037
+    - pr-bunseki-0037
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 官能基と有機化合物の性質
+    - 官能基と有機化合物の性質
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - true
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+    - []
+    - - 2023-08
+    - []
+    - []
     level: A
     why: pat_A
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pat
-    - odo
-    - odo
+    - ''
+    - new
     pat: an-organic-01
 - num: 5
   status: published
@@ -209,8 +304,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -249,8 +344,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-03
 - num: 7
   status: published
@@ -286,22 +381,70 @@ questions:
     - 1
     - 2
     - 3
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 2
     - 4
     - 1
-    - 2
-    - 3
-    truths: 正正誤正正
-    level: B
-    why: pat_B
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0194
+    - pt-bunseki-0085
+    - pt-bunseki-0452
+    - pt-bunseki-0086
+    - pt-bunseki-0078
+    pnames:
+    - 液体の二酸化炭素が必要な場合は、サイフォン管付き容器を使用する。
+    - ヘリウム用の減圧弁のねじは、左ねじである。
+    - アセチレンの配管には、純度の高い銅管を用いる。（誤りの記述）
+    - 酸素の容器の塗色は、黒色である。
+    - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-08
+      - 2018-02
+    - []
+    level: D
+    why: none
     tags:
     - ''
-    - odo
-    - ans_pat
     - ''
-    - odo
-    pat: an-lab-equipment-04
+    - ans_new
+    - ''
+    - ''
 - num: 8
   status: published
   chapters:
@@ -336,22 +479,72 @@ questions:
     - 2
     - 7
     - 5
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 1
     - 7
-    - 2
+    - 10
     - 9
-    - 7
-    truths: 正正誤正正
+    - 9
+    points:
+    - pt-bunseki-0371
+    - pt-bunseki-0014
+    - pt-bunseki-0004
+    - pt-bunseki-0006
+    - pt-bunseki-0006
+    pnames:
+    - 拡散セルは、全体を均一の温度にして使用する。
+    - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない
+    - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    prcounts:
+    - 14
+    - 0
+    - 14
+    - 14
+    - 14
+    principles:
+    - pr-bunseki-0033
+    - ''
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    prnames:
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    trend:
+    - 0
+    - 1
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2022-02
+      - 2023-02
+      - 2023-08
+      - 2024-02
+    - - 2023-08
+    - - 2023-08
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - new
     - odo
-    - ans_pat
+    - ''
+    - ans_pr
     - odo
     - odo
-    pat: an-standard-gas-01
 - num: 9
   status: published
   chapters:
@@ -378,13 +571,78 @@ questions:
   _key_choice: 金属塩化物は、全て水によく溶ける。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-04
+    counts:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    truths: 正正誤正正
+    pcounts:
+    - 1
+    - 5
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0478
+    - pt-bunseki-0034
+    - pt-bunseki-0233
+    - pt-bunseki-0163
+    - pt-bunseki-0231
+    pnames:
+    - フッ化水素酸は弱酸である。
+    - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混ぜた溶液である。
+    - 金属塩化物は、全て水によく溶ける。（誤りの記述）
+    - 酢酸水溶液と酢酸ナトリウム水溶液を混合することにより、弱酸性の緩衝液を調製することができる
+    - 濃硝酸は、酸化力を有する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2015-08
+      - 2016-08
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
+    tags:
+    - new
+    - ''
+    - ans_seen
+    - ''
+    - ''
 - num: 10
   status: published
   chapters:
@@ -416,21 +674,69 @@ questions:
     - 2
     - 4
     - 3
-    similar:
-    - 2
-    - 3
-    - 2
-    - 4
-    - 3
     truths: 正正正正誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 2
+    - 3
+    - 2
+    - 5
+    - 3
+    points:
+    - pt-bunseki-0156
+    - pt-bunseki-0105
+    - pt-bunseki-0157
+    - pt-bunseki-0038
+    - pt-bunseki-0108
+    pnames:
+    - 検知管には、測定対象ガス又はその反応生成物と反応して変色する試薬が使用されている
+    - 補助反応試薬を別のガラス管に充填して、検知管と二段にして使用するものがある
+    - pH指示薬を使用する検知管は、酸性ガス又は塩基性ガスが共存すると妨害を受けることがある
+    - 吸引空気量を増やすことで、より低濃度の測定が可能になる検知管がある
+    - 試料空気の吸引終了後、所定の時間経過後に濃度を読み取る。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+    - []
+    level: C
+    why: seen
     tags:
     - ''
-    - odo
     - ''
-    - odo
-    - ans_b
+    - ''
+    - ''
+    - ans_seen
 - num: 11
   status: published
   chapters:
@@ -500,22 +806,73 @@ questions:
     - 3
     - 3
     - 4
-    similar:
-    - 3
-    - 3
-    - 3
-    - 3
-    - 4
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 5
+    - 6
+    - 4
+    - 3
+    - 6
+    points:
+    - pt-bunseki-0036
+    - pt-bunseki-0020
+    - pt-bunseki-0067
+    - pt-bunseki-0127
+    - pt-bunseki-0024
+    pnames:
+    - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
+    - 塩酸溶液の標定には、炭酸ナトリウムが用いられる。
+    - フタル酸水素カリウムは、アルカリ溶液の標定に用いる。
+    - シュウ酸は、アルカリ溶液の標定に用いる。
+    - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
+    prcounts:
+    - 8
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0023
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 標定と一次標準物質
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 0
+    - 0
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2022-02
+      - 2023-02
+    - - 2022-02
+      - 2023-02
+    - - 2022-02
+      - 2023-02
+    - - 2022-02
+      - 2023-02
+    level: B
+    why: pt_B
     tags:
     - odo
-    - ans_pat
-    - odo
-    - odo
-    - odo
-    pat: an-titration-01
+    - ans_b
+    - ''
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -584,22 +941,70 @@ questions:
     - 4
     - 4
     - 3
-    similar:
-    - 5
-    - 10
-    - 6
-    - 7
-    - 3
     truths: 正正正正誤
+    pcounts:
+    - 5
+    - 9
+    - 4
+    - 11
+    - 6
+    points:
+    - pt-bunseki-0050
+    - pt-bunseki-0008
+    - pt-bunseki-0077
+    - pt-bunseki-0003
+    - pt-bunseki-0019
+    pnames:
+    - 入射光の強さに対する透過光の強さの比が透過率である。
+    - 測定対象物質ごとに異なる。
+    - 吸光度は、試料セルの光路長に比例する。
+    - 吸光度は、通常、極大吸収波長で測定する。
+    - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
+    prcounts:
+    - 11
+    - 0
+    - 12
+    - 0
+    - 11
+    principles:
+    - pr-bunseki-0002
+    - ''
+    - pr-bunseki-0001
+    - ''
+    - pr-bunseki-0003
+    prnames:
+    - 吸光度と透過率の関係
+    - ''
+    - ランベルト・ベールの法則
+    - ''
+    - モル吸光係数の性質
+    trend:
+    - 1
+    - 3
+    - 0
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2016-08
+      - 2020-02
+    - []
+    - []
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pat
-    pat: an-spectrophotometry-01
+    - ans_pr
 - num: 15
   status: published
   chapters:
@@ -631,24 +1036,72 @@ questions:
     counts:
     - 1
     - 2
-    - 2
-    - 1
-    - 1
-    similar:
-    - 1
-    - 2
-    - 2
+    - 3
     - 1
     - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 5
+    - 3
+    - 3
+    - 1
+    - 4
+    points:
+    - pt-bunseki-0044
+    - pt-bunseki-0121
+    - pt-bunseki-0128
+    - pt-bunseki-0299
+    - pt-bunseki-0057
+    pnames:
+    - 光の吸収は、基底状態の原子により生じる。
+    - 試料は噴霧室に噴霧され、微粒子がバーナーに送られる。
+    - フレームは、一般にアセチレンの燃焼でつくられる。
+    - バーナーヘッドのスリットの向きを光路と直角方向にしたときに感度が最も高くなる（誤りの記述）
+    - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 0
+    - 14
+    principles:
+    - pr-bunseki-0008
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0009
+    prnames:
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ''
+    - ''
+    - 原子吸光の光源は線光源
+    trend:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
-    - new
+    - odo
     - ''
     - ''
     - ans_new
-    - new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -680,21 +1133,69 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 1
-    - 1
+    truths: 正正正正誤
+    pcounts:
     - 1
     - 1
     - 2
-    truths: 正正正正誤
-    level: C
-    why: none
+    - 1
+    - 4
+    points:
+    - pt-bunseki-0270
+    - pt-bunseki-0300
+    - pt-bunseki-0205
+    - pt-bunseki-0301
+    - pt-bunseki-0074
+    pnames:
+    - 蛍光は、照射光で励起された分子が一部のエネルギーを放出したのちに基底状態に遷移する際に生じる
+    - 照射光に対して直角方向の蛍光強度から定量分析を行う。
+    - 溶媒には、紫外吸収や蛍光を示さない液体が用いられる。
+    - 試料の濃度が高くなると、濃度と蛍光強度の間の直線関係が成立しなくなる
+    - 溶存酸素が蛍光の強度を弱めることがある。
+    prcounts:
+    - 15
+    - 10
+    - 0
+    - 0
+    - 5
+    principles:
+    - pr-bunseki-0004
+    - pr-bunseki-0006
+    - ''
+    - ''
+    - pr-bunseki-0007
+    prnames:
+    - 蛍光は励起光より長波長
+    - 蛍光は励起光と直角方向で測る
+    - ''
+    - ''
+    - 蛍光を弱める要因
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: trend_A
     tags:
+    - odo
+    - odo
+    - ''
     - new
-    - new
-    - new
-    - new
-    - ans_new
+    - ans_trend
 - num: 17
   status: published
   chapters:
@@ -726,21 +1227,70 @@ questions:
     - 2
     - 3
     - 3
-    similar:
-    - 1
-    - 3
-    - 2
-    - 3
-    - 3
     truths: 誤正正正正
+    pcounts:
+    - 1
+    - 4
+    - 9
+    - 4
+    - 3
+    points:
+    - pt-bunseki-0279
+    - pt-bunseki-0058
+    - pt-bunseki-0007
+    - pt-bunseki-0060
+    - pt-bunseki-0112
+    pnames:
+    - 炎光光度検出器（FPD）は、飽和炭化水素化合物の測定に適している（誤りの記述）
+    - 電子捕獲検出器（ECD）は、ハロゲン化合物の定量に用いられる。
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 光イオン化検出器（PID）は、芳香族炭化水素を検出できる。
+    - 質量分析器(MS)は、分子構造に関する情報も得ることができる。
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 0
+    principles:
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - ''
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - ''
+    trend:
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2017-08
+      - 2021-02
+    - - 2021-02
+    - - 2017-08
+    - []
+    - []
     level: S
     why: pat_S
     tags:
     - ans_pat
     - odo
+    - odo
+    - odo
     - ''
-    - odo
-    - odo
     pat: an-gc-01
 - num: 18
   status: published
@@ -769,12 +1319,77 @@ questions:
   _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。
   columns: null
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 5
-    form: 選択肢が物質名などの問題
-    level: A
-    why: q_hi
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    truths: 誤誤誤正誤
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-bunseki-0148
+    - pt-bunseki-0148
+    - pt-bunseki-0148
+    - pt-bunseki-0152
+    - pt-bunseki-0489
+    pnames:
+    - H＝A＋Bv＋C（誤りの記述）
+    - H＝A＋Bv＋C（誤りの記述）
+    - H＝A＋Bv＋C（誤りの記述）
+    - H＝A＋B/v＋Cv
+    - H＝A＋B/v＋C/v（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - true
+    - true
+    near_exams:
+    - - 2023-02
+    - - 2023-02
+    - []
+    - - 2023-02
+    - - 2023-02
+    level: C
+    why: seen
+    tags:
+    - ''
+    - ''
+    - ''
+    - ans_seen
+    - new
 - num: 19
   status: published
   chapters:
@@ -803,21 +1418,69 @@ questions:
     counts:
     - 6
     - 2
-    - 8
+    - 9
     - 1
     - 4
-    similar:
-    - 6
-    - 2
-    - 8
-    - 1
-    - 6
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 6
+    - 9
+    - 9
+    - 1
+    - 7
+    points:
+    - pt-bunseki-0025
+    - pt-bunseki-0010
+    - pt-bunseki-0011
+    - pt-bunseki-0372
+    - pt-bunseki-0021
+    pnames:
+    - この分析法では、通常、Cu-Kα線が用いられる。
+    - この分析法は、石英の同定と定量に使われる。
+    - 回折線は、ブラッグの条件に従って生じる。
+    - フィルターに採取した試料は、酸で溶解してから測定する。（誤りの記述）
+    - この分析法では、X線の回折角及び回折線の強度を測定する。
+    prcounts:
+    - 16
+    - 0
+    - 17
+    - 0
+    - 17
+    principles:
+    - pr-bunseki-0012
+    - ''
+    - pr-bunseki-0011
+    - ''
+    - pr-bunseki-0011
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - X線回折のブラッグの条件
+    - ''
+    - X線回折のブラッグの条件
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - odo
-    - ''
+    - odo
     - odo
     - ans_pat
     - odo
@@ -852,6 +1515,6 @@ questions:
     denom: 23
     count: 5
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-radiation-01

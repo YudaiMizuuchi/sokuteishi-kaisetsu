@@ -38,18 +38,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 5
-    - 1
-    - 1
-    - 1
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0250
+    - pt-bunseki-0250
+    - pt-bunseki-0440
+    - pt-bunseki-0358
+    - pt-bunseki-0441
+    pnames:
+    - 体積1Lは、1×10⁻³m³である。
+    - 体積1Lは、1×10⁻³m³である。
+    - 時間1hは、3,600sである。
+    - 圧力1mmH₂Oは、約9.81Paである。
+    - 温度0℃は、273.15Kである。
+    prcounts:
+    - 5
+    - 5
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0020
+    - pr-bunseki-0020
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 濃度の換算と単位
+    - 濃度の換算と単位
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
-    - ans_pat
-    - odo
+    - ans_pr
+    - new
     - new
     - new
     - new
@@ -85,8 +133,8 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-03
 - num: 3
   status: published
@@ -120,20 +168,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 3
-    - 3
-    - 1
-    - 3
-    - 1
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 4
+    - 1
+    points:
+    - pt-bunseki-0092
+    - pt-bunseki-0092
+    - pt-bunseki-0092
+    - pt-bunseki-0053
+    - pt-bunseki-0401
+    pnames:
+    - 気体の体積は、絶対温度に比例する。
+    - 気体の体積は、絶対温度に比例する。
+    - 気体の体積は、絶対温度に比例する。
+    - 気体の水に対する溶解度は、その圧力に比例する。
+    - 混合気体の全圧は、各成分気体の分圧の合計に等しい。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 4
+    - 1
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0016
+    - pr-bunseki-0015
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ヘンリーの法則
+    - ドルトンの分圧の法則
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2017-02
+      - 2019-02
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pat
-    - odo
+    - ''
     - new
     pat: an-gas-01
 - num: 4
@@ -168,22 +265,71 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 2
-    - 1
-    - 1
-    - 1
-    - 2
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 4
+    - 4
+    - 3
+    - 3
+    - 2
+    points:
+    - pt-bunseki-0054
+    - pt-bunseki-0084
+    - pt-bunseki-0123
+    - pt-bunseki-0132
+    - pt-bunseki-0217
+    pnames:
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい
+    - 溶解度積は、温度によって変化する。
+    - グルコースの水に対する溶解度は、エタノールに対する溶解度より大きい
+    - 塩化カリウムの水に対する溶解度は、塩化銀の水に対する溶解度より大きい
+    prcounts:
+    - 5
+    - 5
+    - 10
+    - 5
+    - 5
+    principles:
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0018
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    prnames:
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 化学平衡と平衡定数
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2017-08
+    - - 2017-08
+      - 2021-08
+      - 2025-02
+    - []
+    - []
+    - []
+    level: B
+    why: pr_B
     tags:
     - ''
-    - ans_pat
-    - new
-    - new
+    - ans_pr
+    - odo
     - ''
-    pat: an-organic-03
+    - ''
 - num: 5
   status: published
   chapters:
@@ -219,9 +365,8 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-solution-04
+    level: B
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -253,8 +398,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-equilibrium-03
 - num: 7
   status: published
@@ -330,7 +475,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 9
   status: published
@@ -367,22 +512,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 3
-    - 1
-    - 2
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 1
+    - 4
+    - 1
+    - 5
+    - 5
+    points:
+    - pt-bunseki-0318
+    - pt-bunseki-0059
+    - pt-bunseki-0402
+    - pt-bunseki-0047
+    - pt-bunseki-0033
+    pnames:
+    - 石けん膜流量計では、一定の径のガラス管に石けん膜を張り、流れる気体により石けん膜が移動する
+    - ロータメータは、垂直に立てたテーパー管に浮子(フロート)を入れたものである
+    - ロータメーターの指示値は、流れた気体の体積を示している。（誤りの記述）
+    - 石けん膜流量計は、ロータメーターの較正に用いられる。
+    - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する
+    prcounts:
+    - 0
+    - 11
+    - 11
+    - 11
+    - 11
+    principles:
+    - ''
+    - pr-bunseki-0034
+    - pr-bunseki-0034
+    - pr-bunseki-0034
+    - pr-bunseki-0034
+    prnames:
+    - ''
+    - 流量計の原理と校正
+    - 流量計の原理と校正
+    - 流量計の原理と校正
+    - 流量計の原理と校正
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2018-08
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - new
     - odo
-    - ans_pat
-    - ''
-    - new
-    pat: an-lab-equipment-02
+    - ans_pr
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -418,21 +610,69 @@ questions:
     - 4
     - 2
     - 3
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 2
     - 1
     - 4
     - 2
     - 3
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0199
+    - pt-bunseki-0359
+    - pt-bunseki-0076
+    - pt-bunseki-0158
+    - pt-bunseki-0110
+    pnames:
+    - 蒸留法では、水よりも沸点の高い成分を除去できる。
+    - イオン交換法では、原水中の金属イオンを除去できる。
+    - メンブランフィルターは、水中の粒子を除去できる。
+    - 陽イオン交換樹脂は、水中のハロゲン化物イオンを吸着し水素イオンを放出する（誤りの記述）
+    - イオン交換水の純度の指標として比抵抗値（Ω・cm）が用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ''
     - new
-    - odo
+    - ''
     - ans_pat
-    - odo
+    - ''
     pat: an-reagents-02
 - num: 11
   status: published
@@ -505,18 +745,76 @@ questions:
     - 3
     - 4
     - 5
-    similar:
-    - 3
-    - 1
-    - 3
-    - 4
-    - 5
     truths: 誤正誤誤誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 5
+    - 3
+    - 5
+    - 3
+    - 2
+    points:
+    - pt-bunseki-0029
+    - pt-bunseki-0097
+    - pt-bunseki-0029
+    - pt-bunseki-0097
+    - pt-bunseki-0218
+    pnames:
+    - エタンの2倍の物質量である。
+    - メタンと同じ物質量である。
+    - エタンの2倍の物質量である。
+    - メタンと同じ物質量である。
+    - メタンの4倍の物質量である。（誤りの記述）
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
+    principles:
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    prnames:
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2020-02
+      - 2021-02
+    - - 2017-02
+    - - 2017-02
+      - 2018-02
+      - 2020-02
+      - 2021-02
+    - - 2017-02
+      - 2018-02
+      - 2020-02
+      - 2021-02
+    - - 2017-02
+      - 2018-02
+      - 2020-02
+      - 2021-02
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_pat
+    - ans_pr
     - odo
     - odo
     - odo
@@ -594,22 +892,70 @@ questions:
     - 4
     - 1
     - 4
-    similar:
-    - 1
-    - 10
-    - 6
-    - 1
-    - 4
     truths: 誤正正正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 1
+    - 9
+    - 4
+    - 2
+    - 6
+    points:
+    - pt-bunseki-0319
+    - pt-bunseki-0008
+    - pt-bunseki-0077
+    - pt-bunseki-0222
+    - pt-bunseki-0022
+    pnames:
+    - 吸光度Eと透過率T(%)との関係は、E＝log₁₀(T/100)である（誤りの記述）
+    - 測定対象物質ごとに異なる。
+    - 吸光度は、試料セルの光路長に比例する。
+    - 吸光度は、呈色後の時間により変化することがある。
+    - モル吸光係数は、波長により異なる。
+    prcounts:
+    - 11
+    - 0
+    - 12
+    - 0
+    - 11
+    principles:
+    - pr-bunseki-0002
+    - ''
+    - pr-bunseki-0001
+    - ''
+    - pr-bunseki-0003
+    prnames:
+    - 吸光度と透過率の関係
+    - ''
+    - ランベルト・ベールの法則
+    - ''
+    - モル吸光係数の性質
+    trend:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2016-08
+      - 2020-02
+    - []
+    - []
+    level: A
+    why: pr_A
     tags:
-    - ans_pat
+    - ans_pr
     - odo
     - odo
-    - new
+    - ''
     - odo
-    pat: an-spectrophotometry-06
 - num: 15
   status: published
   chapters:
@@ -645,22 +991,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 4
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0150
+    - pt-bunseki-0185
+    - pt-bunseki-0360
+    - pt-bunseki-0167
+    - pt-bunseki-0150
+    pnames:
+    - カドミウムは、フレーム中で原子の蒸気になる。
+    - 原子化効率は、化学炎の燃料組成により異なる。
+    - 光源は、カドミウム原子に固有の波長の光を発する。
+    - 吸光度は、試料溶液中のカドミウム濃度に比例する。
+    - カドミウムは、フレーム中で原子の蒸気になる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
+    - ''
+    - ''
     - new
-    - new
-    - new
-    - odo
-    - ans_pat
-    pat: an-aas-01
+    - ''
+    - ans_trend
 - num: 16
   status: published
   chapters:
@@ -696,17 +1089,65 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 10
-    - 1
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 1
+    - 1
+    - 16
+    - 1
+    points:
+    - pt-bunseki-0219
+    - pt-bunseki-0403
+    - pt-bunseki-0404
+    - pt-bunseki-0001
+    - pt-bunseki-0361
+    pnames:
+    - 蛍光は、入射光よりも長波長側に現れる。
+    - 蛍光強度は、入射光の強度に依存しない。（誤りの記述）
+    - 測定物質は、入射光を吸収する。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光強度は、溶液の温度の影響を受ける。
+    prcounts:
+    - 15
+    - 0
+    - 0
+    - 16
+    - 5
+    principles:
+    - pr-bunseki-0004
+    - ''
+    - ''
+    - pr-bunseki-0005
+    - pr-bunseki-0007
+    prnames:
+    - 蛍光は励起光より長波長
+    - ''
+    - ''
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光を弱める要因
+    trend:
+    - 0
+    - 0
+    - 0
+    - 2
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
-    - new
+    - odo
     - ans_pat
     - new
     - odo
@@ -780,21 +1221,71 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 2
-    - 1
-    - 1
-    - 3
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 9
+    - 1
+    - 9
+    - 9
+    - 9
+    points:
+    - pt-bunseki-0052
+    - pt-bunseki-0320
+    - pt-bunseki-0052
+    - pt-bunseki-0052
+    - pt-bunseki-0052
+    pnames:
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラムの理論段数は、移動相の線速度により変化する。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    prcounts:
+    - 0
+    - 9
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0028
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 理論段数と理論段相当高さ
+    - ''
+    - ''
+    - ''
+    trend:
+    - 5
+    - 0
+    - 5
+    - 5
+    - 5
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2024-08
+      - 2025-02
+      - 2026-08
+    - []
+    - []
     level: S
     why: pat_S
     tags:
-    - ''
-    - new
+    - odo
+    - odo
     - ans_pat
     - odo
-    - new
+    - odo
     pat: an-gc-02
 - num: 19
   status: published
@@ -823,27 +1314,76 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 2
     - 4
-    - 8
-    - 6
-    similar:
-    - 4
-    - 2
-    - 6
-    - 8
+    - 9
     - 6
     truths: 誤正正正正
-    level: S
-    why: pat_S
-    tags:
-    - ans_pat
+    pcounts:
+    - 6
+    - 9
+    - 7
+    - 9
+    - 6
+    points:
+    - pt-bunseki-0027
+    - pt-bunseki-0010
+    - pt-bunseki-0021
+    - pt-bunseki-0011
+    - pt-bunseki-0023
+    pnames:
+    - 分析には、連続X線を用いる。（誤りの記述）
+    - この分析法は、石英の同定と定量に使われる。
+    - この分析法では、X線の回折角及び回折線の強度を測定する。
+    - 回折線は、ブラッグの条件に従って生じる。
+    - フィルターに捕集した試料をそのまま分析することができる。
+    prcounts:
+    - 16
+    - 0
+    - 17
+    - 17
+    - 0
+    principles:
+    - pr-bunseki-0012
     - ''
+    - pr-bunseki-0011
+    - pr-bunseki-0011
+    - ''
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - X線回折のブラッグの条件
+    - X線回折のブラッグの条件
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2021-02
+      - 2022-08
+      - 2025-02
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
+    tags:
+    - ans_pr
     - odo
     - odo
     - odo
-    pat: an-xrd-02
+    - ''
 - num: 20
   status: published
   chapters:
@@ -872,6 +1412,5 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: an-radiation-02
+    level: D
+    why: q_new

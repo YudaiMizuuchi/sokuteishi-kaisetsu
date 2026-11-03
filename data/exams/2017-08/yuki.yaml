@@ -28,9 +28,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-002
+    level: D
+    why: q_new
 - num: 2
   status: published
   chapters:
@@ -56,9 +55,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-020
+    level: C
+    why: q_seen
 - num: 3
   status: published
   chapters:
@@ -98,9 +96,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-021
+    level: D
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -136,20 +133,69 @@ questions:
     - 3
     - 1
     - 2
-    similar:
-    - 4
-    - 1
-    - 3
-    - 1
-    - 2
     truths: 正正正誤正
-    level: B
-    why: elim_two
+    pcounts:
+    - 4
+    - 3
+    - 3
+    - 4
+    - 3
+    points:
+    - pt-yuki-0033
+    - pt-yuki-0061
+    - pt-yuki-0055
+    - pt-yuki-0032
+    - pt-yuki-0071
+    pnames:
+    - 活性炭は、窒素又は乾燥空気の気流の中で加熱脱水したものを用いる。
+    - シリカゲルは、一般に、活性炭に比べて単位質量当たりの表面積は小さい
+    - シリカゲルは、水分含有率によって、測定対象物質の吸着容量が異なる
+    - ポーラスポリマービーズは反応性が低いので、試料の重合、酸化などが起こりにくい
+    - ポーラスポリマービーズは、活性炭に比べて、加熱脱着が容易である。
+    prcounts:
+    - 0
+    - 0
+    - 5
+    - 5
+    - 5
+    principles:
+    - ''
+    - ''
+    - pr-yuki-0018
+    - pr-yuki-0018
+    - pr-yuki-0018
+    prnames:
+    - ''
+    - ''
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2022-08
+    - []
+    - - 2020-08
+      - 2022-08
+    - []
+    level: A
+    why: pr_A
     tags:
     - odo
-    - new
     - odo
-    - ans_new
+    - odo
+    - ans_pr
     - odo
 - num: 5
   status: published
@@ -186,21 +232,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 3
     - 1
+    - 5
+    - 2
     - 1
-    - 1
-    - 1
-    truths: 正正誤正正
-    level: C
-    why: none
+    points:
+    - pt-yuki-0084
+    - pt-yuki-0244
+    - pt-yuki-0025
+    - pt-yuki-0106
+    - pt-yuki-0176
+    pnames:
+    - 捕集液に溶解させて捕集する場合は、捕集液を冷却すると一般に捕集率を高めることができる
+    - 捕集袋は、5L以上のものでフッ素樹脂製バッグなどを用いる。
+    - 真空捕集瓶のコックには、グリースは使用しない。
+    - 捕集には、小型ガス吸収管が用いられる。
+    - 活性炭は一般に無極性有機溶剤に対する吸着力が強く、n-ヘキサン、トルエンなどの捕集に適している
+    prcounts:
+    - 6
+    - 0
+    - 10
+    - 0
+    - 5
+    principles:
+    - pr-yuki-0019
+    - ''
+    - pr-yuki-0021
+    - ''
+    - pr-yuki-0018
+    prnames:
+    - 液体捕集の捕集率
+    - ''
+    - 真空捕集びんと捕集袋の使い方
+    - ''
+    - 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+    trend:
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2019-08
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
     - new
-    - ans_new
-    - new
-    - new
+    - ans_pr
+    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -232,7 +326,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: S
+    level: A
     why: q_hi
 - num: 7
   status: published
@@ -259,9 +353,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-008
+    level: B
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -297,20 +390,70 @@ questions:
     - 3
     - 2
     - 5
-    similar:
-    - 2
-    - 5
-    - 3
-    - 2
-    - 5
     truths: 誤正正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 3
+    - 8
+    - 11
+    - 2
+    - 9
+    points:
+    - pt-yuki-0067
+    - pt-yuki-0003
+    - pt-yuki-0001
+    - pt-yuki-0138
+    - pt-yuki-0002
+    pnames:
+    - キャリアガスの種類によらず最適線速度は同じである。（誤りの記述）
+    - キャリアガスには、ヘリウムを用いることができる。
+    - カラムの理論段数は、キャリアガスの種類が関係する。
+    - カラムと検出器には、それぞれに適したガス流量がある。
+    - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる
+    prcounts:
+    - 12
+    - 0
+    - 12
+    - 0
+    - 0
+    principles:
+    - pr-yuki-0008
+    - ''
+    - pr-yuki-0008
+    - ''
+    - ''
+    prnames:
+    - キャリアガスの流速とカラム効率
+    - ''
+    - キャリアガスの流速とカラム効率
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 3
+    - 0
+    - 2
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+      - 2019-08
+      - 2021-08
+    - []
+    - - 2025-08
+    level: S
+    why: pr_S
     tags:
-    - ans_b
+    - ans_pr
     - odo
     - odo
-    - odo
+    - ''
     - odo
 - num: 9
   status: published
@@ -337,9 +480,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
-    pat: sl-yuki-000
+    level: D
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -375,19 +517,68 @@ questions:
     - 2
     - 2
     - 1
-    similar:
-    - 2
-    - 2
-    - 2
-    - 2
-    - 1
     truths: 正正正誤正
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 4
+    - 1
+    points:
+    - pt-yuki-0130
+    - pt-yuki-0087
+    - pt-yuki-0087
+    - pt-yuki-0029
+    - pt-yuki-0158
+    pnames:
+    - キャピラリーカラム注入口には、不活性ライナーが用いられる。
+    - スプリット注入法では、試料の一部がキャピラリーカラムに導入される
+    - スプリット注入法では、試料の一部がキャピラリーカラムに導入される
+    - スプリットレス注入法と比較して、溶媒ピークの影響を受けにくい。
+    - スプリットレス注入法は、一般に、カラムの初期温度を低く設定してカラムの入口付近に試料を凝縮させる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2022-08
+      - 2025-08
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - ans_b
     - new
 - num: 11
@@ -427,9 +618,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-003
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -461,9 +651,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-023
+    level: C
+    why: q_seen
 - num: 13
   status: published
   chapters:
@@ -499,21 +688,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 3
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
-    why: none
+    pcounts:
+    - 6
+    - 5
+    - 6
+    - 1
+    - 1
+    points:
+    - pt-yuki-0008
+    - pt-yuki-0048
+    - pt-yuki-0007
+    - pt-yuki-0163
+    - pt-yuki-0177
+    pnames:
+    - 水素炎中で燃焼し、イオン化する物質の測定に適している。
+    - 電子捕獲検出器（ECD）は、放射性同位元素から放出されるβ線を利用する方法で、電子親和力の強い物質の測定に適している
+    - 炎光光度検出器は、リンや硫黄を含む化合物の分析に適している。
+    - アルカリ熱イオン化検出器（FTD）は、アルカリ金属塩を利用する方法で、リン化合物の測定に適している
+    - 光イオン化検出器（PID）は、赤外線を利用する方法で、赤外線でイオン化できる物質の測定に適している（誤りの記述）
+    prcounts:
+    - 9
+    - 9
+    - 9
+    - 0
+    - 9
+    principles:
+    - pr-yuki-0011
+    - pr-yuki-0011
+    - pr-yuki-0011
+    - ''
+    - pr-yuki-0011
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - ''
+    - 検出器の原理
+    trend:
+    - 2
+    - 2
+    - 1
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2025-08
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
     - odo
     - odo
+    - odo
     - new
-    - ans_new
+    - ans_pr
 - num: 14
   status: published
   chapters:
@@ -549,21 +786,70 @@ questions:
     - 4
     - 2
     - 3
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 2
     - 5
-    - 4
+    - 5
     - 2
-    - 3
-    truths: 正正正正誤
-    level: A
-    why: ans_hi
+    - 5
+    points:
+    - pt-yuki-0115
+    - pt-yuki-0015
+    - pt-yuki-0027
+    - pt-yuki-0128
+    - pt-yuki-0023
+    pnames:
+    - FIDの応答直線範囲は、熱伝導度検出器より広い。
+    - 脂肪族炭化水素の同族体でのイオン発生量は、化合物中の炭素数にほぼ比例する
+    - 二硫化炭素に対する感度は低い。
+    - 無極性カラムを用いると同族体では沸点の低い順に溶出する。
+    - 保持時間は、キャリアガスの線速度にほぼ反比例する。
+    prcounts:
+    - 0
+    - 5
+    - 5
+    - 5
+    - 12
+    principles:
+    - ''
+    - pr-yuki-0012
+    - pr-yuki-0012
+    - pr-yuki-0009
+    - pr-yuki-0008
+    prnames:
+    - ''
+    - FIDの感度は炭素数に比例する
+    - FIDの感度は炭素数に比例する
+    - 保持時間と溶出順（沸点・極性・温度）
+    - キャリアガスの流速とカラム効率
+    trend:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+    - []
+    - - 2015-08
+      - 2019-08
+    level: S
+    why: pr_S
     tags:
+    - ''
     - odo
     - odo
     - odo
-    - odo
-    - ans_hi
+    - ans_pr
 - num: 15
   status: published
   chapters:
@@ -598,7 +884,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 16
   status: published
@@ -634,7 +920,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 17
   status: published
@@ -671,21 +957,69 @@ questions:
     - 4
     - 3
     - 2
-    similar:
-    - 3
+    truths: 誤正正正正
+    pcounts:
+    - 4
     - 1
-    - 5
+    - 6
     - 3
     - 2
-    truths: 誤正正正正
-    level: A
-    why: ans_hi
+    points:
+    - pt-yuki-0041
+    - pt-yuki-0245
+    - pt-yuki-0006
+    - pt-yuki-0078
+    - pt-yuki-0132
+    pnames:
+    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    - モノクロメータは、波長幅の狭い光を取り出す装置である。
+    - プラスチック製セルは、可視領域の測定に用いられる。
+    - 使用する溶媒は、試料の溶解性の高いものを用いる。
+    - 吸光度の測定は、吸光度が0.2～0.8程度で行うことが望ましい。
+    prcounts:
+    - 12
+    - 0
+    - 10
+    - 0
+    - 0
+    principles:
+    - pr-yuki-0002
+    - ''
+    - pr-yuki-0004
+    - ''
+    - ''
+    prnames:
+    - 吸光度と透過率の関係
+    - ''
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_hi
+    - ans_pr
     - new
     - odo
     - odo
-    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -725,7 +1059,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 19
   status: published
@@ -764,9 +1098,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-005
+    level: B
+    why: q_b
 - num: 20
   status: published
   chapters:
@@ -799,18 +1132,66 @@ questions:
     - 2
     - 1
     - 2
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 3
     - 2
-    - 1
     - 2
-    truths: 誤正正正正
-    level: B
-    why: elim_two
+    - 2
+    points:
+    - pt-yuki-0246
+    - pt-yuki-0058
+    - pt-yuki-0104
+    - pt-yuki-0110
+    - pt-yuki-0131
+    pnames:
+    - ホールピペットの標線は、25℃を基準に定められている。（誤りの記述）
+    - 標準液の保存可能期間は、溶質と溶媒の組合せによって異なる。
+    - 冷蔵保存した有機溶剤は、室温に戻してから使用する。
+    - 容量で調製する場合、標準液の正確さは温度の影響を受ける。
+    - 標準系列液の中には、対象物質の濃度がゼロのものを含める。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 4
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0017
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 標準液の調製と保存
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2016-08
+    - []
+    - []
+    - - 2021-08
+    - []
+    level: D
+    why: none
     tags:
     - ans_new
     - odo
+    - ''
     - odo
-    - new
-    - odo
+    - ''

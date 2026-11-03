@@ -30,9 +30,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-020
+    level: C
+    why: q_seen
 - num: 2
   status: published
   chapters:
@@ -60,9 +59,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-032
+    level: D
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -104,7 +102,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 4
   status: published
@@ -143,13 +141,62 @@ questions:
     - 2
     - 5
     - 4
-    similar:
-    - 1
-    - 2
-    - 2
-    - 5
-    - 4
     truths: 誤正正正正
+    pcounts:
+    - 1
+    - 3
+    - 7
+    - 5
+    - 6
+    points:
+    - pt-yuki-0221
+    - pt-yuki-0050
+    - pt-yuki-0004
+    - pt-yuki-0026
+    - pt-yuki-0010
+    pnames:
+    - 捕集袋により試料を採取する場合には、内容積 0.1 ～ 1 L のものを用いる（誤りの記述）
+    - 小型ガス吸収管による試料採取時の空気吸引流量は、50～100 mL･min⁻¹とする
+    - 活性炭管に試料を捕集する際に用いる電動ポンプは、活性炭管を接続して流量を調整する
+    - 流量計の校正には、基準流量計として石けん膜流量計を用いることができる
+    - 真空捕集びんに試料を採取する際の空気吸引流量は一定ではない。
+    prcounts:
+    - 0
+    - 0
+    - 8
+    - 8
+    - 10
+    principles:
+    - ''
+    - ''
+    - pr-yuki-0020
+    - pr-yuki-0020
+    - pr-yuki-0021
+    prnames:
+    - ''
+    - ''
+    - 流量計の校正と圧力損失
+    - 流量計の校正と圧力損失
+    - 真空捕集びんと捕集袋の使い方
+    trend:
+    - 0
+    - 0
+    - 2
+    - 2
+    - 2
+    near:
+    - true
+    - true
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2023-08
+      - 2024-08
+    - - 2019-08
+    - []
+    - []
+    - - 2016-08
     level: B
     why: elim_all
     tags:
@@ -195,21 +242,69 @@ questions:
     - 2
     - 3
     - 1
-    similar:
-    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 3
     - 1
     - 2
     - 3
     - 1
-    truths: 正正正正誤
-    level: C
-    why: none
+    points:
+    - pt-yuki-0082
+    - pt-yuki-0182
+    - pt-yuki-0148
+    - pt-yuki-0084
+    - pt-yuki-0269
+    pnames:
+    - 試料空気の気泡を細かくすると、捕集率が高まる。
+    - 試料空気採取によって液量が減少した場合は、捕集液を追加して一定量に調整して分析する
+    - 捕集液内での気泡の滞留時間が長いほど、捕集率は高くなる。
+    - 捕集液に溶解させて捕集する場合は、捕集液を冷却すると一般に捕集率を高めることができる
+    - ミゼットインピンジャーによる捕集では、主として慣性効果によって捕集される（誤りの記述）
+    prcounts:
+    - 6
+    - 0
+    - 6
+    - 6
+    - 6
+    principles:
+    - pr-yuki-0019
+    - ''
+    - pr-yuki-0019
+    - pr-yuki-0019
+    - pr-yuki-0019
+    prnames:
+    - 液体捕集の捕集率
+    - ''
+    - 液体捕集の捕集率
+    - 液体捕集の捕集率
+    - 液体捕集の捕集率
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
+    - odo
     - new
     - odo
     - odo
-    - ans_new
+    - ans_pr
 - num: 6
   status: published
   chapters:
@@ -243,7 +338,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: S
+    level: A
     why: q_hi
 - num: 7
   status: published
@@ -272,7 +367,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 8
   status: published
@@ -301,9 +396,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
-    pat: sl-yuki-000
+    level: C
+    why: q_seen
 - num: 9
   status: published
   chapters:
@@ -341,19 +435,74 @@ questions:
     - 1
     - 4
     - 7
-    similar:
-    - 6
-    - 5
-    - 1
-    - 4
-    - 7
     truths: 正正誤正正
-    level: B
-    why: elim_all
+    pcounts:
+    - 8
+    - 6
+    - 11
+    - 5
+    - 9
+    points:
+    - pt-yuki-0003
+    - pt-yuki-0019
+    - pt-yuki-0001
+    - pt-yuki-0014
+    - pt-yuki-0002
+    pnames:
+    - キャリアガスには、ヘリウムを用いることができる。
+    - 溶出ピークの幅は、カラム内キャリアガスの渦流拡散の影響を受ける。
+    - カラムの理論段数は、キャリアガスの種類が関係する。
+    - 内径3mm程度の充填カラムでは、キャリアガス流量が20～30mL·min⁻¹が適切である
+    - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる
+    prcounts:
+    - 0
+    - 12
+    - 12
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0008
+    - pr-yuki-0008
+    - ''
+    - ''
+    prnames:
+    - ''
+    - キャリアガスの流速とカラム効率
+    - キャリアガスの流速とカラム効率
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    near:
+    - true
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2025-08
+    - []
+    - - 2016-08
+      - 2017-08
+      - 2018-08
+      - 2022-08
+      - 2023-08
+      - 2024-08
+      - 2025-08
+      - 2026-08
+    - - 2023-08
+    - - 2025-08
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_hi
     - odo
     - odo
 - num: 10
@@ -389,22 +538,70 @@ questions:
     denom: 12
     counts:
     - 2
-    - 2
-    - 4
-    - 5
-    - 2
-    similar:
-    - 2
-    - 2
+    - 1
     - 4
     - 5
     - 2
     truths: 正誤正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 6
+    - 9
+    - 5
+    - 5
+    - 3
+    points:
+    - pt-yuki-0008
+    - pt-yuki-0002
+    - pt-yuki-0027
+    - pt-yuki-0015
+    - pt-yuki-0064
+    pnames:
+    - 水素炎中で燃焼し、イオン化する物質の測定に適している。
+    - 電子捕獲検出器（ECD）には、キャリアガスとして、窒素を使用することができる
+    - 二硫化炭素に対する感度は低い。
+    - 脂肪族炭化水素の同族体でのイオン発生量は、化合物中の炭素数にほぼ比例する
+    - 応答直線範囲は、電子捕獲検出器（ECD）より広い。
+    prcounts:
+    - 9
+    - 0
+    - 5
+    - 5
+    - 0
+    principles:
+    - pr-yuki-0011
+    - ''
+    - pr-yuki-0012
+    - pr-yuki-0012
+    - ''
+    prnames:
+    - 検出器の原理
+    - ''
+    - FIDの感度は炭素数に比例する
+    - FIDの感度は炭素数に比例する
+    - ''
+    trend:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - - 2015-08
+    - - 2015-08
+    - []
+    - - 2019-08
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_b
+    - ans_hi
     - odo
     - odo
     - odo
@@ -445,21 +642,69 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 1
-    - 1
-    - 1
-    - 2
-    - 2
     truths: 正誤正正正
-    level: C
-    why: none
+    pcounts:
+    - 3
+    - 3
+    - 4
+    - 2
+    - 2
+    points:
+    - pt-yuki-0051
+    - pt-yuki-0067
+    - pt-yuki-0039
+    - pt-yuki-0122
+    - pt-yuki-0098
+    pnames:
+    - キャピラリカラムの材質には、一般に溶融石英ガラスが使用されている
+    - キャリアガスの種類によらず最適線速度は同じである。（誤りの記述）
+    - 充塡カラムに比べて試料負荷量が小さいので、導入量も少量にする必要がある
+    - 理論段数が大きいので、多成分を含む試料の分離分析に適している。
+    - キャリアガス流量が小さいので、FID を取り付けた装置では、検出器部でメイクアップガスを追加する必要がある
+    prcounts:
+    - 0
+    - 12
+    - 9
+    - 8
+    - 0
+    principles:
+    - ''
+    - pr-yuki-0008
+    - pr-yuki-0013
+    - pr-yuki-0007
+    - ''
+    prnames:
+    - ''
+    - キャリアガスの流速とカラム効率
+    - カラムの種類と性能（キャピラリーと充填）
+    - 理論段数と理論段相当高さ
+    - ''
+    trend:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
-    - ans_new
-    - new
+    - odo
+    - ans_pr
     - odo
     - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -497,21 +742,69 @@ questions:
     - 1
     - 3
     - 2
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 4
-    - 1
+    - 4
     - 3
     - 2
-    truths: 誤正正正正
-    level: B
-    why: elim_two
+    points:
+    - pt-yuki-0270
+    - pt-yuki-0035
+    - pt-yuki-0038
+    - pt-yuki-0056
+    - pt-yuki-0135
+    pnames:
+    - カラムの長さが2倍になると、分離度は約2倍になる。（誤りの記述）
+    - 保持時間が同一の場合、理論段数が大きいほどピーク幅は狭くなる。
+    - 検出器の感度は、キャリアガス流量の影響を受ける。
+    - カラムの理論段相当高さを最小にするキャリアガス流速が存在する。
+    - 分離度が1.5より大きいとき、2つのピークはほぼ完全に分離する。
+    prcounts:
+    - 8
+    - 8
+    - 0
+    - 12
+    - 0
+    principles:
+    - pr-yuki-0007
+    - pr-yuki-0007
+    - ''
+    - pr-yuki-0008
+    - ''
+    prnames:
+    - 理論段数と理論段相当高さ
+    - 理論段数と理論段相当高さ
+    - ''
+    - キャリアガスの流速とカラム効率
+    - ''
+    trend:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_new
-    - odo
-    - new
+    - ans_pr
     - odo
     - odo
+    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -542,7 +835,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -583,9 +876,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-003
+    level: B
+    why: q_b
 - num: 15
   status: published
   chapters:
@@ -623,18 +915,67 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 1
-    - 1
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 3
-    - 5
-    truths: 誤正正正正
-    level: C
-    why: none
+    - 1
+    - 7
+    - 6
+    points:
+    - pt-yuki-0271
+    - pt-yuki-0068
+    - pt-yuki-0167
+    - pt-yuki-0005
+    - pt-yuki-0006
+    pnames:
+    - 紫外領域の光源には、ハロゲンタングステンランプが用いられる。（誤りの記述）
+    - 一般に、試料セルは、モノクロメータの後に配置する。
+    - ダブルビーム型分光光度計では、得られるスペクトルは溶媒による吸収の影響が除去されている
+    - 検出器には、光電子増倍管が用いられる。
+    - プラスチック製セルは、可視領域の測定に用いられる。
+    prcounts:
+    - 10
+    - 0
+    - 0
+    - 0
+    - 10
+    principles:
+    - pr-yuki-0004
+    - ''
+    - ''
+    - ''
+    - pr-yuki-0004
+    prnames:
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - ''
+    - ''
+    - ''
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    trend:
+    - 0
+    - 1
+    - 0
+    - 2
+    - 1
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2018-08
+      - 2024-08
+    - - 2024-08
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - ans_new
-    - new
+    - ans_pr
+    - odo
     - new
     - odo
     - odo
@@ -675,21 +1016,69 @@ questions:
     - 4
     - 3
     - 3
-    similar:
+    truths: 正正正正誤
+    pcounts:
+    - 3
+    - 6
+    - 6
+    - 3
+    - 4
+    points:
+    - pt-yuki-0057
+    - pt-yuki-0013
+    - pt-yuki-0006
+    - pt-yuki-0078
+    - pt-yuki-0041
+    pnames:
+    - 測定可能な波長範囲は、通常200～1000nmである。
+    - 石英セルは、紫外領域の測定に用いられる。
+    - プラスチック製セルは、可視領域の測定に用いられる。
+    - 使用する溶媒は、試料の溶解性の高いものを用いる。
+    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    prcounts:
+    - 0
+    - 10
+    - 10
+    - 0
+    - 12
+    principles:
+    - ''
+    - pr-yuki-0004
+    - pr-yuki-0004
+    - ''
+    - pr-yuki-0002
+    prnames:
+    - ''
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - セル・光源の材質と波長（ガラスは紫外を吸収する）
+    - ''
+    - 吸光度と透過率の関係
+    trend:
+    - 1
     - 2
     - 1
-    - 5
-    - 3
-    - 3
-    truths: 正正正正誤
-    level: A
-    why: ans_hi
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - odo
-    - new
     - odo
     - odo
-    - ans_hi
+    - odo
+    - ans_pr
 - num: 17
   status: published
   chapters:
@@ -723,9 +1112,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-033
+    level: C
+    why: q_seen
 - num: 18
   status: published
   chapters:
@@ -765,9 +1153,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-yuki-034
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -809,9 +1196,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: sl-yuki-030
+    level: C
+    why: q_seen
 - num: 20
   status: published
   chapters:
@@ -846,18 +1232,66 @@ questions:
     - 1
     - 3
     - 2
-    similar:
+    truths: 正正誤正正
+    pcounts:
+    - 2
     - 1
-    - 1
-    - 1
+    - 2
     - 3
     - 2
-    truths: 正正誤正正
-    level: C
-    why: none
+    points:
+    - pt-yuki-0121
+    - pt-yuki-0222
+    - pt-yuki-0110
+    - pt-yuki-0058
+    - pt-yuki-0131
+    pnames:
+    - 標準液に使用する溶質、溶媒は蒸気圧が高い場合が多いので、できる限り短時間で調製する
+    - 計量精度は、ガラス体積計の種類によって異なる。
+    - 容量で調製する場合、標準液の正確さは温度の影響を受ける。
+    - 標準液の保存可能期間は、溶質と溶媒の組合せによって異なる。
+    - 標準系列液の中には、対象物質の濃度がゼロのものを含める。
+    prcounts:
+    - 0
+    - 0
+    - 4
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-yuki-0017
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 標準液の調製と保存
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2017-08
+    - []
+    - []
+    level: A
+    why: pr_A
     tags:
+    - ''
     - new
-    - new
-    - ans_new
+    - ans_pr
     - odo
-    - odo
+    - ''

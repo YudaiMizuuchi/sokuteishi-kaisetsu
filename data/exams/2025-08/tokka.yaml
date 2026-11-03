@@ -40,21 +40,69 @@ questions:
     - 1
     - 2
     - 2
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 3
     - 2
     - 1
+    - 6
     - 2
+    points:
+    - pt-tokka-0033
+    - pt-tokka-0068
+    - pt-tokka-0157
+    - pt-tokka-0004
+    - pt-tokka-0069
+    pnames:
+    - 吸光度は、入射光の強度に依存しない。
+    - 吸光度0.3では、入射光の30％が試料液に吸収される。（誤りの記述）
+    - 可視部の測定の光源には、ハロゲンタングステンランプ又はタングステンランプが用いられる
+    - ガラス製のセルは、紫外部の光を吸収する。
+    - 通常、分析には、吸収スペクトルの極大波長を用いる。
+    prcounts:
+    - 6
+    - 0
+    - 0
+    - 8
+    - 0
+    principles:
+    - pr-tokka-0001
+    - ''
+    - ''
+    - pr-tokka-0002
+    - ''
+    prnames:
+    - ランベルト・ベールの法則
+    - ''
+    - ''
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    - ''
+    trend:
     - 2
-    truths: 正誤正正正
-    level: B
-    why: ans_b
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_b
+    - ans_seen
     - new
     - odo
-    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -96,9 +144,10 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
     level: S
-    why: pat_S
-    pat: sl-tokka-038
+    why: q_hi
 - num: 3
   status: published
   chapters:
@@ -137,18 +186,66 @@ questions:
     kind: choice
     denom: 12
     counts:
-    - 1
-    - 1
-    - 5
-    - 1
-    - 2
-    similar:
     - 2
     - 1
     - 5
     - 1
     - 2
     truths: 正正正誤正
+    pcounts:
+    - 5
+    - 1
+    - 5
+    - 1
+    - 4
+    points:
+    - pt-tokka-0002
+    - pt-tokka-0249
+    - pt-tokka-0001
+    - pt-tokka-0129
+    - pt-tokka-0014
+    pnames:
+    - 捕集液は水酸化ナトリウム溶液を用いる。
+    - 捕集される粉じんは、粒径が小さくなるほど捕集率が低下する。
+    - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で標定する。
+    - シアン化ナトリウムを捕集した溶液は、塩酸で中和した後、発色操作を行う（誤りの記述）
+    - 発色操作には、クロラミンTとピリジン-ピラゾロンを用いる。
+    prcounts:
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-tokka-0007
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 酸性ガスは塩基性の捕集液に吸収される
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2022-08
+    - []
     level: B
     why: elim_two
     tags:
@@ -230,8 +327,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3002
+    subst_name: アクリロニトリル
+    level: B
+    why: subst
 - num: 6
   status: published
   chapters:
@@ -265,8 +364,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -300,9 +399,8 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-067
+    level: D
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -378,21 +476,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 5
+    points:
+    - pt-tokka-0096
+    - pt-tokka-0097
+    - pt-tokka-0105
+    - pt-tokka-0217
+    - pt-tokka-0005
+    pnames:
+    - 高速液体クロマトグラフィーの基本構成は、溶離液槽-送液ポンプ-試料導入装置-カラム-検出器-データ処理装置から成る
+    - 分離モードの選択は、分析対象物質の分子量、極性、溶媒に対する溶解性や解離性などの物性を考慮して決定する
+    - 分析対象物質の検出感度を向上させるために、誘導体化反応を利用することがある
+    - 逆相クロマトグラフィーでは、極性の高い成分から順に溶出する。
+    - 移動相が固定相よりも極性が高い場合、逆相クロマトグラフ法という。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 6
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0003
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
     - new
     - new
     - new
     - new
-    - ans_new
+    - ans_hi
 - num: 10
   status: published
   chapters:
@@ -422,8 +568,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 11
   status: published
   chapters:
@@ -457,25 +603,73 @@ questions:
     denom: 12
     counts:
     - 1
-    - 2
     - 1
     - 1
     - 1
-    similar:
     - 1
-    - 2
-    - 2
-    - 1
-    - 2
     truths: 正誤正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    points:
+    - pt-tokka-0130
+    - pt-tokka-0041
+    - pt-tokka-0047
+    - pt-tokka-0158
+    - pt-tokka-0077
+    pnames:
+    - 蛍光は、励起状態の分子が基底状態に遷移する際に観測される。
+    - 蛍光の極大波長は、励起光の波長を変えても変わらない
+    - 蛍光強度は、温度の影響を受ける。
+    - キセノンランプは、分光蛍光光度計の光源に用いられる。
+    - 一般に、吸光光度分析法に比べて選択性が高い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
-    - ans_b
-    - odo
+    - ans_seen
+    - ''
     - new
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -517,9 +711,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-tokka-039
+    level: A
+    why: q_hi
 - num: 13
   status: published
   chapters:
@@ -558,7 +751,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -598,18 +791,66 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 1
-    - 2
-    - 1
-    - 2
-    - 2
     truths: 正正誤正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    points:
+    - pt-tokka-0250
+    - pt-tokka-0218
+    - pt-tokka-0251
+    - pt-tokka-0040
+    - pt-tokka-0034
+    pnames:
+    - 両物質とも、アセトンによく溶ける。
+    - 両物質とも、気体の密度は空気の密度より大きい。
+    - 両物質とも、光に対して安定である。（誤りの記述）
+    - 臭化メチルの方が、ヨウ化メチルより常温（25 ℃）での蒸気圧が大きい
+    - 臭化メチルの沸点は、水の融点より高い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 5
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0011
+    - pr-tokka-0011
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2016-08
+    level: D
+    why: none
     tags:
     - new
-    - odo
+    - new
     - ans_new
     - odo
     - odo
@@ -651,8 +892,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 16
   status: published
   chapters:
@@ -694,9 +935,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-078
+    level: C
+    why: q_seen
 - num: 17
   status: published
   chapters:
@@ -734,7 +974,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 18
   status: published
@@ -766,9 +1006,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-068
+    level: C
+    why: q_seen
 - num: 19
   status: published
   chapters:
@@ -802,8 +1041,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 20
   status: published
   chapters:
@@ -841,18 +1080,67 @@ questions:
     - 1
     - 3
     - 4
-    similar:
-    - 1
-    - 1
-    - 1
-    - 3
-    - 4
     truths: 正正誤正正
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 4
+    - 2
+    - 4
+    - 4
+    points:
+    - pt-tokka-0106
+    - pt-tokka-0015
+    - pt-tokka-0048
+    - pt-tokka-0008
+    - pt-tokka-0011
+    pnames:
+    - 真空捕集瓶による捕集では、あらかじめコックの開き具合を一定にして、試料空気吸引に要する時間を測定しておく
+    - 真空捕集瓶のコックのすり合わせ部には、グリースを使用しない。
+    - 捕集袋の内容積は、試料採取から分析までの間の濃度減衰を考慮して、5L 以上とする
+    - 試料空気から水分を取り除く場合には、ガラス管に無水硫酸カルシウム粒などの乾燥剤を詰めて、試料採取口の前に接続する
+    - 電動ポンプを通して、捕集袋内に試料空気を送り採取する場合、ポンプ内の吸着に注意する必要がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2020-08
+      - 2023-08
+    - - 2026-08
+    - - 2026-08
+    - []
+    level: B
+    why: elim_two
     tags:
     - new
-    - new
+    - odo
     - ans_new
     - odo
     - odo

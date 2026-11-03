@@ -37,22 +37,70 @@ questions:
     - 1
     - 3
     - 2
-    similar:
-    - 5
-    - 5
-    - 1
-    - 4
-    - 2
     truths: 正正誤正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 5
+    - 5
+    - 2
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0037
+    - pt-bunseki-0048
+    - pt-bunseki-0212
+    - pt-bunseki-0082
+    - pt-bunseki-0075
+    pnames:
+    - アボガドロ定数の数の物質粒子（原子、分子、イオン等）の物質量は、1モルである
+    - 原子量は、¹²Cの質量を基準として定められている。
+    - 電子の質量は、陽子の質量と同程度である。（誤りの記述）
+    - 陽子数が同じで、中性子数が異なるものを同位体という。
+    - 中性の原子又は分子は、電子を失うと正に帯電する。
+    prcounts:
+    - 9
+    - 9
+    - 0
+    - 7
+    - 4
+    principles:
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - ''
+    - pr-bunseki-0027
+    - pr-bunseki-0040
+    prnames:
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - ''
+    - 放射壊変と原子番号・質量数
+    - 原子・イオンの電荷
+    trend:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2021-02
+      - 2022-08
+    level: C
+    why: seen
     tags:
     - odo
     - odo
-    - ans_pat
-    - odo
+    - ans_seen
     - ''
-    pat: an-mole-02
+    - ''
 - num: 2
   status: published
   chapters:
@@ -101,8 +149,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-statistics-01
 - num: 3
   status: published
@@ -179,9 +227,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-gas-02
+    level: D
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -216,8 +263,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -262,7 +309,7 @@ questions:
     count: 2
     form: 計算問題
     level: C
-    why: q_new
+    why: q_seen
 - num: 7
   status: published
   chapters:
@@ -296,8 +343,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-lab-equipment-01
 - num: 8
   status: published
@@ -333,22 +380,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
+    pcounts:
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0351
+    - pt-bunseki-0096
+    - pt-bunseki-0149
+    - pt-bunseki-0310
+    - pt-bunseki-0289
+    pnames:
+    - 標準ガスを発生させる物質は、常温常圧で液体である必要がある。
+    - 拡散チューブの内径が大きいほど高くなる。
+    - 流出速度は、拡散チューブの断面積に比例する。
+    - 一定時間ごとに標準物質の残量を秤量し、その減少量から標準物質の流出速度を求めることができる
+    - 所定の濃度の標準ガスを得るために、発生した蒸気を不活性ガスで希釈する
+    prcounts:
+    - 14
+    - 14
+    - 14
+    - 0
+    - 14
+    principles:
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - ''
+    - pr-bunseki-0033
+    prnames:
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    trend:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2022-08
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
+    - odo
+    - odo
+    - ans_pr
     - new
-    - new
-    - ans_pat
-    - new
-    - new
-    pat: an-standard-gas-01
+    - odo
 - num: 9
   status: published
   chapters:
@@ -382,8 +476,8 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-reagents-01
 - num: 10
   status: published
@@ -419,22 +513,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
+    truths: 正誤正正正
+    pcounts:
+    - 4
     - 1
     - 4
     - 1
     - 1
-    truths: 正誤正正正
+    points:
+    - pt-bunseki-0081
+    - pt-bunseki-0311
+    - pt-bunseki-0061
+    - pt-bunseki-0428
+    - pt-bunseki-0312
+    pnames:
+    - 標準添加法を用いる場合は、検量線は直線でなくてはならない。
+    - 標準添加法を用いる場合は、試料溶液中の共存成分が既知である必要がある（誤りの記述）
+    - 検量線の標準液は、分析試料の成分組成と近くなるようにする。
+    - 内標準法と標準添加法を併用することが可能である。
+    - 内標準法では、分析試料溶液と標準溶液の両方に内標準物質を添加する
+    prcounts:
+    - 7
+    - 7
+    - 7
+    - 0
+    - 7
+    principles:
+    - pr-bunseki-0032
+    - pr-bunseki-0032
+    - pr-bunseki-0032
+    - ''
+    - pr-bunseki-0032
+    prnames:
+    - 検量線法・標準添加法・内標準法
+    - 検量線法・標準添加法・内標準法
+    - 検量線法・標準添加法・内標準法
+    - ''
+    - 検量線法・標準添加法・内標準法
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: pat_B
+    why: pr_B
     tags:
-    - odo
-    - ans_pat
-    - odo
+    - ''
+    - ans_pr
+    - ''
     - new
     - new
-    pat: an-quantification-01
 - num: 11
   status: published
   chapters:
@@ -469,22 +610,69 @@ questions:
     - 3
     - 2
     - 1
-    similar:
-    - 3
-    - 3
-    - 3
-    - 2
-    - 1
     truths: 正誤正正正
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 1
+    points:
+    - pt-bunseki-0107
+    - pt-bunseki-0094
+    - pt-bunseki-0094
+    - pt-bunseki-0123
+    - pt-bunseki-0466
+    pnames:
+    - 溶解度積 K は、AgCl ⇄ Ag⁺ ＋ Cl⁻ で示される塩化銀の溶解平衡の平衡定数である
+    - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
+    - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
+    - 溶解度積は、温度によって変化する。
+    - 溶解度積は、難溶性の塩についてのみ定義できる。
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    principles:
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    prnames:
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - odo
-    - ans_pat
+    - ans_pr
     - odo
-    - ''
-    - new
-    pat: an-equilibrium-03
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -516,8 +704,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 13
   status: published
@@ -553,22 +741,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 2
-    - 10
+    truths: 正正正正誤
+    pcounts:
+    - 6
+    - 9
     - 7
     - 1
-    - 1
-    truths: 正正正正誤
-    level: B
-    why: pat_B
-    tags:
+    - 11
+    points:
+    - pt-bunseki-0018
+    - pt-bunseki-0008
+    - pt-bunseki-0012
+    - pt-bunseki-0272
+    - pt-bunseki-0003
+    pnames:
+    - 吸光度は、透過率の逆数の対数である。
+    - 測定対象物質ごとに異なる。
+    - 吸光度は、光路長に比例する。
+    - 単位濃度（mol･L⁻¹）、単位長さ（cm）当たりの吸光度は、モル吸光係数と呼ばれる
+    - 吸光度は、通常、極大吸収波長で測定する。
+    prcounts:
+    - 11
+    - 0
+    - 12
+    - 11
+    - 0
+    principles:
+    - pr-bunseki-0002
     - ''
+    - pr-bunseki-0001
+    - pr-bunseki-0003
+    - ''
+    prnames:
+    - 吸光度と透過率の関係
+    - ''
+    - ランベルト・ベールの法則
+    - モル吸光係数の性質
+    - ''
+    trend:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2017-02
+    - []
+    - []
+    level: A
+    why: pt_A
+    tags:
     - odo
     - odo
-    - new
-    - ans_pat
-    pat: an-spectrophotometry-05
+    - odo
+    - odo
+    - ans_hi
 - num: 14
   status: published
   chapters:
@@ -640,22 +875,69 @@ questions:
     - 1
     - 3
     - 1
-    similar:
-    - 1
-    - 1
-    - 2
-    - 3
-    - 2
     truths: 正誤正正正
+    pcounts:
+    - 1
+    - 1
+    - 4
+    - 10
+    - 5
+    points:
+    - pt-bunseki-0429
+    - pt-bunseki-0313
+    - pt-bunseki-0072
+    - pt-bunseki-0005
+    - pt-bunseki-0042
+    pnames:
+    - 試料溶液がフレームに導入される。
+    - フレーム中でイオン化した目的元素が光源からの共鳴線を吸収する。（誤りの記述）
+    - 光源光がフレームを通過する位置により吸光度が異なる。
+    - 光源には中空陰極ランプが用いられる。
+    - 定量は、検量線法で行う。
+    prcounts:
+    - 0
+    - 16
+    - 0
+    - 14
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0008
+    - ''
+    - pr-bunseki-0009
+    - ''
+    prnames:
+    - ''
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - 原子吸光の光源は線光源
+    - ''
+    trend:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - new
-    - ans_pat
+    - ans_pr
     - ''
     - odo
     - ''
-    pat: an-aas-01
 - num: 16
   status: published
   chapters:
@@ -690,9 +972,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: an-fluorescence-01
+    level: C
+    why: q_seen
 - num: 17
   status: published
   chapters:
@@ -724,12 +1005,78 @@ questions:
   _key_choice: 理論段数は変化しない。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
+    counts:
+    - 4
+    - 1
+    - 5
+    - 3
+    - 5
+    truths: 正誤正正正
+    pcounts:
+    - 8
+    - 9
+    - 6
+    - 5
+    - 5
+    points:
+    - pt-bunseki-0229
+    - pt-bunseki-0052
+    - pt-bunseki-0496
+    - pt-bunseki-0490
+    - pt-bunseki-0495
+    pnames:
+    - 理論段相当高さが高いほど理論段数は大きくなる。（誤りの記述）
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - 分離度は√2倍になる。
+    - ピークの高さは1/√2倍になる。
+    - 保持時間は2倍になる。
+    prcounts:
+    - 9
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0028
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 理論段数と理論段相当高さ
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 4
+    - 5
+    - 2
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2022-08
+    - - 2020-02
+      - 2024-02
+    - []
     level: S
     why: pat_S
+    tags:
+    - odo
+    - ans_pat
+    - ''
+    - ''
+    - ''
     pat: an-gc-02
 - num: 18
   status: published
@@ -801,22 +1148,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 2
-    - 1
-    - 2
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0430
+    - pt-bunseki-0093
+    - pt-bunseki-0093
+    - pt-bunseki-0190
+    - pt-bunseki-0191
+    pnames:
+    - X 線管は、熱電子を発生させる陰極と X 線を発生する陽極を有している
+    - 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
+    - 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
+    - 特性 X 線は、原子の外殻電子が内殻電子の空孔に遷移したときに発生する
+    - 特性X線の波長は、管電圧及び管電流の値に依存しない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2018-08
+    - []
+    - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
     - new
     - ''
-    - new
     - ''
-    - ans_pat
-    pat: an-xrd-02
+    - ''
+    - ans_trend
 - num: 20
   status: published
   chapters:
@@ -851,19 +1245,71 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 4
-    - 4
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 4
+    - 4
+    - 1
+    - 4
+    - 1
+    points:
+    - pt-bunseki-0051
+    - pt-bunseki-0051
+    - pt-bunseki-0467
+    - pt-bunseki-0063
+    - pt-bunseki-0390
+    pnames:
+    - α壊変では、原子番号は2つ減少する。
+    - α壊変では、原子番号は2つ減少する。
+    - β⁺壊変では、質量数は変化しない。
+    - 軌道電子捕獲では、原子番号は1つ減少する。
+    - 核異性体転移では、質量数は1つ増加する。（誤りの記述）
+    prcounts:
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    principles:
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    prnames:
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2018-08
+      - 2020-02
+      - 2021-08
+    - []
+    - - 2018-08
+      - 2020-02
+      - 2021-08
+    - []
+    level: A
+    why: pat_A
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - new
-    - new
+    - ''
     - ans_pat
     pat: an-radiation-01

@@ -28,13 +28,77 @@ questions:
   law_note: null
   minor_note: クロムが王水に溶けにくい（不動態になる）、という点は、プロジェクトの教科書で確認できておらず、一般的な化学の知識による説明です。根拠の確認は後回しにしています。
   freq:
-    kind: question
+    kind: choice
     denom: 12
-    count: 4
-    form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-kinzoku-093
+    counts:
+    - 4
+    - 2
+    - 2
+    - 1
+    - 4
+    truths: 正誤正正正
+    pcounts:
+    - 6
+    - 2
+    - 2
+    - 2
+    - 7
+    points:
+    - pt-kinzoku-0172
+    - pt-kinzoku-0451
+    - pt-kinzoku-0447
+    - pt-kinzoku-0451
+    - pt-kinzoku-0044
+    pnames:
+    - 捕集されたカドミウムは、硝酸を用いて溶解する。
+    - クロムは、王水に溶ける。（誤りの記述）
+    - バナジウムは、希硝酸と過酸化水素水の混合液に溶ける。
+    - クロムは、王水に溶ける。（誤りの記述）
+    - 硝酸には、酸化力がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 8
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-kinzoku-0014
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 酸の性質と試料の溶解
+    trend:
+    - 2
+    - 0
+    - 1
+    - 0
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+    - []
+    level: C
+    why: seen
+    tags:
+    - odo
+    - ans_seen
+    - ''
+    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -59,12 +123,83 @@ questions:
   figures: []
   law_note: null
   freq:
-    kind: question
+    kind: choice
     denom: 12
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    counts:
+    - 2
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 5
+    - 7
+    - 5
+    - 6
+    - 3
+    points:
+    - pt-kinzoku-0034
+    - pt-kinzoku-0044
+    - pt-kinzoku-0034
+    - pt-kinzoku-0066
+    - pt-kinzoku-0183
+    pnames:
+    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
+    - 硝酸には、酸化力がある。
+    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
+    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - 酸化バナジウム(Ⅴ)は、硫酸に溶ける。
+    prcounts:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 0
+    principles:
+    - pr-kinzoku-0014
+    - pr-kinzoku-0014
+    - pr-kinzoku-0014
+    - pr-kinzoku-0014
+    - ''
+    prnames:
+    - 酸の性質と試料の溶解
+    - 酸の性質と試料の溶解
+    - 酸の性質と試料の溶解
+    - 酸の性質と試料の溶解
+    - ''
+    trend:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 0
+    near:
+    - true
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - - 2018-08
+      - 2019-08
+      - 2023-08
+    - []
+    - - 2018-08
+      - 2019-08
+      - 2023-08
+    - - 2018-08
+      - 2019-08
+      - 2023-08
+    - []
+    level: S
+    why: pr_S
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_pr
+    - odo
 - num: 3
   status: published
   chapters:
@@ -98,7 +233,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 4
   status: published
@@ -134,7 +269,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 5
   status: published
@@ -172,21 +307,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 1
     - 1
     - 1
     - 2
-    truths: 誤正正正正
-    level: C
+    points:
+    - pt-kinzoku-0241
+    - pt-kinzoku-0364
+    - pt-kinzoku-0365
+    - pt-kinzoku-0407
+    - pt-kinzoku-0184
+    pnames:
+    - JIS特級試薬の硫酸と塩酸では、含まれる金属不純物の濃度が、硫酸の方が低い（誤りの記述）
+    - 水酸化ナトリウムは、吸湿性試薬である。
+    - ホルムアルドキシムは、マンガンの吸光光度分析法に用いられる。
+    - 25℃におけるMIBKの密度は、水より小さい。
+    - 過酸化水素水は、酸化剤あるいは還元剤として用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - ans_new
     - new
     - new
     - new
-    - odo
+    - ''
 - num: 6
   status: published
   chapters:
@@ -222,21 +405,72 @@ questions:
     - 5
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 5
-    - 1
-    - 2
     truths: 正誤正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 4
+    - 5
+    - 2
+    - 2
+    points:
+    - pt-kinzoku-0323
+    - pt-kinzoku-0051
+    - pt-kinzoku-0040
+    - pt-kinzoku-0117
+    - pt-kinzoku-0153
+    pnames:
+    - ガラスセルは、測定波長が可視部にある場合に用いる。
+    - 測定波長が可視部にある場合は、光源にタングステンランプを用いる。
+    - 吸光度の測定には、通常、極大吸収波長を用いる。
+    - 吸光度が濃度に比例することをベールの法則という。
+    - 吸光度の誤差が最も小さいのは、0.4付近である。
+    prcounts:
+    - 0
+    - 8
+    - 8
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-kinzoku-0002
+    - pr-kinzoku-0002
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 吸光度測定の条件（吸収極大・加熱後は常温）
+    - 吸光度測定の条件（吸収極大・加熱後は常温）
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2015-08
+      - 2017-08
+      - 2018-08
+      - 2026-08
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - new
-    - ans_b
+    - ans_pr
     - odo
-    - new
-    - odo
+    - ''
+    - ''
 - num: 7
   status: published
   chapters:
@@ -273,21 +507,69 @@ questions:
     - 1
     - 1
     - 2
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 3
     - 1
     - 1
+    - 3
     - 2
-    - 2
-    truths: 正正誤正正
-    level: B
-    why: elim_two
+    points:
+    - pt-kinzoku-0070
+    - pt-kinzoku-0266
+    - pt-kinzoku-0202
+    - pt-kinzoku-0078
+    - pt-kinzoku-0154
+    pnames:
+    - 中空陰極ランプは、陰極が測定対象金属又はその合金からなり、金属固有の輝線スペクトルを発する
+    - 化学炎、電気加熱などにより測定対象元素を原子化する。
+    - フレーム原子吸光分析法における試料液の粘性の影響は、高周波誘導結合プラズマ質量分析法(ICP-MS)よりも大きい（誤りの記述）
+    - 金属の種類によって、検量線の直線性を示す濃度範囲は異なる。
+    - 測定中の吸光度の時間的変動は、吸光光度分析法に比べて大きい。
+    prcounts:
+    - 9
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-kinzoku-0006
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 原子吸光の光源は線光源
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
     - odo
     - new
     - ans_new
     - odo
-    - odo
+    - ''
 - num: 8
   status: published
   chapters:
@@ -323,21 +605,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
-    - 3
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 4
+    - 3
+    - 1
+    - 2
+    - 2
+    points:
+    - pt-kinzoku-0062
+    - pt-kinzoku-0102
+    - pt-kinzoku-0291
+    - pt-kinzoku-0155
+    - pt-kinzoku-0140
+    pnames:
+    - 多元素同時分析が可能である。
+    - プラズマの生成には、アルゴンが用いられる。
+    - 多くの金属元素をppb～ppmレベルで測定できる。
+    - 最終試料液は、塩酸又は硝酸酸性が望ましい。
+    - 原子吸光分析法に比べ、化学干渉が少ない。
+    prcounts:
+    - 9
+    - 9
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-kinzoku-0010
+    - pr-kinzoku-0010
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ICPの原理
+    - ICPの原理
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2024-08
+    - []
+    - []
+    - - 2019-08
+    - []
     level: C
-    why: none
+    why: seen
     tags:
     - odo
     - odo
     - new
-    - new
-    - ans_new
+    - ''
+    - ans_seen
 - num: 9
   status: published
   chapters:
@@ -373,17 +703,65 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 4
-    - 1
-    - 1
-    - 2
     truths: 誤正正正正
-    level: C
-    why: none
+    pcounts:
+    - 9
+    - 10
+    - 1
+    - 1
+    - 8
+    points:
+    - pt-kinzoku-0005
+    - pt-kinzoku-0003
+    - pt-kinzoku-0324
+    - pt-kinzoku-0366
+    - pt-kinzoku-0009
+    pnames:
+    - 入射光に対して直角方向の蛍光を測定する。
+    - 蛍光は、励起光より波長が長い。
+    - 物質の同定には、励起・蛍光スペクトルを用いる。
+    - 物質の定量には、蛍光強度を用いる。
+    - 試料液の温度は、蛍光強度に影響を与える。
+    prcounts:
+    - 11
+    - 11
+    - 0
+    - 0
+    - 9
+    principles:
+    - pr-kinzoku-0003
+    - pr-kinzoku-0003
+    - ''
+    - ''
+    - pr-kinzoku-0004
+    prnames:
+    - 蛍光は励起光より長波長・直角方向で測る
+    - 蛍光は励起光より長波長・直角方向で測る
+    - ''
+    - ''
+    - 蛍光を弱める要因と、測るもの
+    trend:
+    - 2
+    - 2
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-08
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
-    - ans_new
+    - ans_hi
     - odo
     - new
     - new
@@ -423,20 +801,68 @@ questions:
     - 4
     - 2
     - 3
-    similar:
-    - 5
-    - 4
-    - 4
-    - 2
-    - 3
     truths: 正正正誤正
+    pcounts:
+    - 6
+    - 8
+    - 6
+    - 2
+    - 7
+    points:
+    - pt-kinzoku-0025
+    - pt-kinzoku-0012
+    - pt-kinzoku-0063
+    - pt-kinzoku-0169
+    - pt-kinzoku-0018
+    pnames:
+    - 酒石酸ナトリウムカリウムは、マスキング剤として用いられる。
+    - 水銀の還元剤として、塩化スズ(Ⅱ)を用いる。
+    - 硫酸アンモニウムは、溶媒抽出の際に抽出効率を高めるために用いられる
+    - ジフェニルカルバジドは、クロム(Ⅲ)の発色試薬として用いることができる（誤りの記述）
+    - 酢酸ナトリウムは、pHの緩衝剤として用いる。
+    prcounts:
+    - 11
+    - 12
+    - 0
+    - 0
+    - 11
+    principles:
+    - pr-kinzoku-0018
+    - pr-kinzoku-0012
+    - ''
+    - ''
+    - pr-kinzoku-0018
+    prnames:
+    - 緩衝剤・マスキング剤・還元剤
+    - 水銀の酸化・還元
+    - ''
+    - ''
+    - 緩衝剤・マスキング剤・還元剤
+    trend:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2023-08
+    - []
+    - []
     level: B
-    why: ans_b
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_new
     - odo
 - num: 11
   status: published
@@ -473,21 +899,71 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 3
-    - 6
-    - 1
-    - 2
-    - 1
     truths: 正正正誤正
+    pcounts:
+    - 5
+    - 7
+    - 6
+    - 2
+    - 5
+    points:
+    - pt-kinzoku-0038
+    - pt-kinzoku-0014
+    - pt-kinzoku-0094
+    - pt-kinzoku-0128
+    - pt-kinzoku-0035
+    pnames:
+    - 蛍光光度分析法では、モリン試薬を用いる。
+    - ガラス繊維ろ紙で試料を捕集する。
+    - 吸光光度分析法では、ベリロンⅢを用いる。
+    - 原子吸光分析法では、試料の溶解に塩酸を用いる。（誤りの記述）
+    - 原子化には、電気加熱炉を用いることができる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-kinzoku-0008
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - フレームの種類と原子化
+    trend:
+    - 0
+    - 2
+    - 2
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2017-08
+    - []
+    subst_id: sb-kinzoku-4006
+    subst_name: ベリリウムおよびその化合物
     level: B
-    why: ans_b
+    why: elim_all
     tags:
     - odo
     - odo
-    - new
-    - ans_b
-    - new
+    - odo
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -520,21 +996,71 @@ questions:
     counts:
     - 2
     - 1
-    - 4
     - 3
     - 3
-    similar:
-    - 2
-    - 1
-    - 4
     - 3
-    - 4
     truths: 正正誤正正
-    level: A
-    why: ans_hi
+    pcounts:
+    - 3
+    - 3
+    - 9
+    - 3
+    - 6
+    points:
+    - pt-kinzoku-0087
+    - pt-kinzoku-0095
+    - pt-kinzoku-0011
+    - pt-kinzoku-0081
+    - pt-kinzoku-0023
+    pnames:
+    - キレート剤のAPDCは、あらかじめMIBKで処理して精製する。
+    - MIBKは、水飽和させて用いる。
+    - カドミウムのAPDC錯体をMIBKで抽出して最終試料液とする。
+    - 検量線の作成には、試料と同様にMIBKに抽出した溶液を用いる。
+    - 塩化ナトリウムが共存すると、分光干渉が起こりやすい。
+    prcounts:
+    - 0
+    - 0
+    - 12
+    - 12
+    - 12
+    principles:
+    - ''
+    - ''
+    - pr-kinzoku-0013
+    - pr-kinzoku-0013
+    - pr-kinzoku-0009
+    prnames:
+    - ''
+    - ''
+    - キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    - キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    - 干渉とその抑制
+    trend:
+    - 0
+    - 0
+    - 2
+    - 0
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-kinzoku-4001
+    subst_name: カドミウムおよびその化合物
+    level: S
+    why: pt_S
     tags:
     - odo
-    - new
+    - odo
     - ans_hi
     - odo
     - odo
@@ -573,19 +1099,70 @@ questions:
     - 2
     - 2
     - 6
-    similar:
-    - 3
-    - 3
-    - 2
-    - 2
-    - 7
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 3
+    - 3
+    - 5
+    - 9
+    - 8
+    points:
+    - pt-kinzoku-0103
+    - pt-kinzoku-0089
+    - pt-kinzoku-0088
+    - pt-kinzoku-0006
+    - pt-kinzoku-0010
+    pnames:
+    - 捕集は、液体捕集法又はろ過捕集法による。
+    - 捕集液中のクロム(Ⅵ)は、APDC錯体としてMIBKに抽出する。
+    - フィルター上に捕集したクロム酸及びその塩は、炭酸ナトリウム溶液を用いて抽出する
+    - 原子化には、アセチレン-空気炎を用いる。
+    - 標準液の調製には、二クロム酸カリウム又はクロム酸カリウムを使用する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 11
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-kinzoku-0008
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - フレームの種類と原子化
+    - ''
+    trend:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+      - 2022-08
+      - 2023-08
+    - - 2021-08
+      - 2024-08
+    - []
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - odo
     - odo
 - num: 14
@@ -623,19 +1200,71 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 4
-    - 8
-    - 2
-    - 2
-    - 4
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 3
+    - 8
+    - 7
+    - 3
+    - 4
+    points:
+    - pt-kinzoku-0107
+    - pt-kinzoku-0013
+    - pt-kinzoku-0020
+    - pt-kinzoku-0082
+    - pt-kinzoku-0060
+    pnames:
+    - 試料の捕集には、メンブランフィルターを用いる。
+    - 標準液は、メタバナジン酸アンモニウムを用いて調製する。
+    - 試料の灰化には、硝酸と過酸化水素水を用いる。
+    - NBPHA錯体は、クロロホルムに抽出する。
+    - リン酸が共存しても干渉は起こらない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    near:
+    - true
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+      - 2024-08
+    - []
+    - - 2017-08
+      - 2018-08
+      - 2019-08
+      - 2020-08
+    - []
+    - []
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - odo
     - odo
 - num: 15
@@ -673,17 +1302,67 @@ questions:
     - 1
     - 2
     - 2
-    similar:
-    - 2
-    - 2
-    - 7
-    - 2
-    - 2
     truths: 誤正正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 4
+    - 6
+    - 7
+    - 8
+    - 9
+    points:
+    - pt-kinzoku-0059
+    - pt-kinzoku-0065
+    - pt-kinzoku-0021
+    - pt-kinzoku-0008
+    - pt-kinzoku-0006
+    pnames:
+    - マンガンの分析線の付近には、近接線がない。（誤りの記述）
+    - 硫酸は、干渉の原因となる。
+    - 標準液は、酸化マンガン(Ⅳ)を用いて調製する。
+    - マンガンのAPDC錯体は、有機溶媒中では不安定である。
+    - 原子化には、アセチレン-空気炎を用いる。
+    prcounts:
+    - 0
+    - 12
+    - 0
+    - 12
+    - 11
+    principles:
+    - ''
+    - pr-kinzoku-0009
+    - ''
+    - pr-kinzoku-0013
+    - pr-kinzoku-0008
+    prnames:
+    - ''
+    - 干渉とその抑制
+    - ''
+    - キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    - フレームの種類と原子化
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2024-08
+    subst_id: sb-kinzoku-4007
+    subst_name: マンガンおよびその化合物
+    level: A
+    why: pt_A
     tags:
-    - ans_b
+    - ans_hi
     - odo
     - odo
     - odo
@@ -723,15 +1402,65 @@ questions:
     - 3
     - 5
     - 3
-    similar:
-    - 7
-    - 5
-    - 3
-    - 5
-    - 3
     truths: 正正正正誤
+    pcounts:
+    - 12
+    - 7
+    - 6
+    - 6
+    - 4
+    points:
+    - pt-kinzoku-0001
+    - pt-kinzoku-0016
+    - pt-kinzoku-0027
+    - pt-kinzoku-0031
+    - pt-kinzoku-0050
+    pnames:
+    - 試料の捕集には、石英繊維ろ紙を用いる。
+    - 試料液のヒ素を三価にする予備還元には、塩化スズ(Ⅱ)とヨウ化カリウムを用いる
+    - 亜鉛粉末懸濁液は、水素化ヒ素の発生に用いる。
+    - 水素化ヒ素を加熱して原子化する。
+    - ヒ素の標準原液は、三酸化二ヒ素を10M硝酸で溶解して調製する。
+    prcounts:
+    - 0
+    - 11
+    - 11
+    - 11
+    - 0
+    principles:
+    - ''
+    - pr-kinzoku-0011
+    - pr-kinzoku-0011
+    - pr-kinzoku-0011
+    - ''
+    prnames:
+    - ''
+    - 水素化物発生法の還元
+    - 水素化物発生法の還元
+    - 水素化物発生法の還元
+    - ''
+    trend:
+    - 3
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2022-08
+    - []
+    - - 2021-08
+    - - 2024-08
+    subst_id: sb-kinzoku-4004
+    subst_name: 砒素およびその化合物
     level: A
-    why: ans_hi
+    why: pt_A
     tags:
     - odo
     - odo
@@ -773,20 +1502,70 @@ questions:
     - 1
     - 2
     - 3
-    similar:
-    - 8
-    - 1
-    - 1
+    truths: 正正誤正正
+    pcounts:
+    - 10
+    - 3
+    - 2
     - 2
     - 3
-    truths: 正正誤正正
+    points:
+    - pt-kinzoku-0002
+    - pt-kinzoku-0106
+    - pt-kinzoku-0129
+    - pt-kinzoku-0116
+    - pt-kinzoku-0099
+    pnames:
+    - 捕集液は、硫酸酸性の過マンガン酸カリウム溶液が用いられる。
+    - バブラーの壁面は、捕集液を用いて洗う。
+    - 塩酸ヒドロキシルアミンは、未反応の過マンガン酸カリウムを還元するために使用する
+    - 検量線作成用の標準原液は、硬質ガラス容器に入れて、冷暗所で保存する
+    - 排気系には、水銀吸収装置を取り付ける必要がある。
+    prcounts:
+    - 12
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-kinzoku-0012
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 水銀の酸化・還元
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+    - []
+    - []
+    subst_id: sb-kinzoku-4005
+    subst_name: 水銀
     level: B
     why: elim_two
     tags:
     - odo
-    - new
-    - ans_new
     - odo
+    - ans_new
+    - ''
     - odo
 - num: 18
   status: published
@@ -823,21 +1602,72 @@ questions:
     - 3
     - 2
     - 2
-    similar:
-    - 5
-    - 6
-    - 3
-    - 2
-    - 2
     truths: 正正正正誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 6
+    - 6
+    - 4
+    - 3
+    - 6
+    points:
+    - pt-kinzoku-0024
+    - pt-kinzoku-0030
+    - pt-kinzoku-0067
+    - pt-kinzoku-0075
+    - pt-kinzoku-0029
+    pnames:
+    - 試料液は、ろ紙に捕集した試料を硝酸又は塩酸に溶解して調製する。
+    - 鉛をMIBKに抽出するキレート剤には、APDC、DDTCなどを用いる
+    - DDTCは、キレート剤として用いられる。
+    - 溶媒抽出法を用いないフレーム法では、鉄が多量に共存すると測定値にプラスの影響を及ぼす
+    - 分析線217.0nmは、283.3nmよりノイズが大きい。
+    prcounts:
+    - 0
+    - 12
+    - 12
+    - 12
+    - 0
+    principles:
+    - ''
+    - pr-kinzoku-0013
+    - pr-kinzoku-0013
+    - pr-kinzoku-0009
+    - ''
+    prnames:
+    - ''
+    - キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    - キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    - 干渉とその抑制
+    - ''
+    trend:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+      - 2021-08
+    - - 2019-08
+    subst_id: sb-kinzoku-4008
+    subst_name: 鉛およびその化合物(アルキル鉛を除く)
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_hi
 - num: 19
   status: published
   chapters:
@@ -868,20 +1698,71 @@ questions:
     kind: choice
     denom: 12
     counts:
-    - 6
-    - 2
-    - 4
-    - 4
+    - 7
     - 3
-    similar:
-    - 6
-    - 2
-    - 4
+    - 3
     - 4
     - 3
     truths: 正正誤正正
+    pcounts:
+    - 7
+    - 5
+    - 5
+    - 4
+    - 4
+    points:
+    - pt-kinzoku-0014
+    - pt-kinzoku-0052
+    - pt-kinzoku-0043
+    - pt-kinzoku-0054
+    - pt-kinzoku-0049
+    pnames:
+    - ガラス繊維ろ紙で試料を捕集する。
+    - 試料は、面速19cm/秒で捕集する。
+    - 試料の溶解には塩酸と硫酸を用いる。
+    - 硫酸ニッケル等のニッケル化合物のろ紙からの酸による溶出率は、95 ％程度である
+    - フレーム原子吸光分析法は、電気加熱式原子吸光分析法に比べて定量下限値が小さい
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-kinzoku-0008
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - フレームの種類と原子化
+    trend:
+    - 2
+    - 0
+    - 1
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2015-08
+      - 2022-08
+      - 2023-08
+      - 2026-08
+    - []
+    - - 2022-08
     level: A
-    why: ans_hi
+    why: pt_A
     tags:
     - odo
     - odo
@@ -919,6 +1800,5 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-kinzoku-088
+    level: B
+    why: q_b

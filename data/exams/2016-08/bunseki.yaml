@@ -33,8 +33,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -73,9 +73,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-solution-01
+    level: D
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -108,22 +107,69 @@ questions:
     - 3
     - 2
     - 1
-    similar:
-    - 2
-    - 3
-    - 3
-    - 2
-    - 1
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 4
+    points:
+    - pt-bunseki-0220
+    - pt-bunseki-0098
+    - pt-bunseki-0133
+    - pt-bunseki-0321
+    - pt-bunseki-0055
+    pnames:
+    - フェノールの水溶液は、酸性を示す。
+    - アニリンの水溶液は、アルカリ性を示す。
+    - プロピオン酸の水溶液は、酸性を示す。
+    - エタンは、常温・常圧(25℃,1気圧)で気体である。
+    - 酢酸は、エタノールの酸化によって生じる。
+    prcounts:
+    - 0
+    - 0
+    - 3
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0038
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 酸・塩の水溶液のpH
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+    - - 2023-08
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - ''
-    - odo
-    - odo
     - ''
-    - ans_pat
-    pat: an-organic-02
+    - ''
+    - new
+    - ans_seen
 - num: 4
   status: published
   chapters:
@@ -155,8 +201,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 5
   status: published
@@ -196,8 +242,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -237,8 +283,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-03
 - num: 7
   status: published
@@ -275,22 +321,70 @@ questions:
     - 2
     - 2
     - 3
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 1
     - 4
     - 2
-    - 2
-    - 3
-    truths: 正正正誤正
-    level: B
-    why: pat_B
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0362
+    - pt-bunseki-0085
+    - pt-bunseki-0200
+    - pt-bunseki-0086
+    - pt-bunseki-0078
+    pnames:
+    - 高圧ガス容器からガスを取り出す時には、減圧弁を使用する。
+    - ヘリウム用の減圧弁のねじは、左ねじである。
+    - アセチレンの配管には、ステンレス製のものが使用できる。
+    - 酸素の容器の塗色は、黒色である。
+    - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-08
+      - 2021-08
+    - []
+    level: C
+    why: seen
     tags:
     - new
-    - odo
     - ''
-    - ans_pat
-    - odo
-    pat: an-lab-equipment-04
+    - ''
+    - ans_seen
+    - ''
 - num: 8
   status: published
   chapters:
@@ -326,8 +420,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-gas-05
 - num: 9
   status: published
@@ -357,12 +451,77 @@ questions:
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
   columns: null
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    counts:
+    - 2
+    - 4
+    - 1
+    - 2
+    - 2
+    truths: 正正正正誤
+    pcounts:
+    - 2
+    - 5
+    - 1
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0186
+    - pt-bunseki-0034
+    - pt-bunseki-0442
+    - pt-bunseki-0231
+    - pt-bunseki-0230
+    pnames:
+    - 市販の濃硫酸の濃度は、ほぼ18mol·L⁻¹である。
+    - 王水は、濃硝酸と濃塩酸とを体積比で1:3に混ぜた溶液である。
+    - 濃硫酸には、脱水作用がある。
+    - 濃硝酸は、酸化力を有する。
+    - フッ化水素酸は、強酸である。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2021-02
+    - []
+    - []
+    - []
+    - - 2019-08
+    level: A
+    why: pat_A
+    tags:
+    - ''
+    - ''
+    - new
+    - ''
+    - ans_pat
     pat: an-reaction-01
 - num: 10
   status: published
@@ -396,20 +555,68 @@ questions:
     - 1
     - 3
     - 1
-    similar:
-    - 3
-    - 2
-    - 1
-    - 3
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 3
+    - 3
+    - 1
+    - 3
+    - 1
+    points:
+    - pt-bunseki-0124
+    - pt-bunseki-0125
+    - pt-bunseki-0322
+    - pt-bunseki-0126
+    - pt-bunseki-0363
+    pnames:
+    - プラズマは、高周波電流を用いて発生させる。
+    - プラズマの生成には、アルゴンガスを用いる。
+    - プラズマにより励起状態の原子及びイオンが生成する。
+    - 元素固有のスペクトル線を用いて分析する。
+    - 原子吸光分析法に比べてダイナミックレンジが狭い。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
-    - odo
+    - ''
     - ''
     - new
-    - odo
+    - ''
     - ans_pat
     pat: an-quantification-02
 - num: 11
@@ -497,8 +704,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-03
 - num: 13
   status: published
@@ -535,22 +742,72 @@ questions:
     - 1
     - 4
     - 2
-    similar:
-    - 2
-    - 2
-    - 1
-    - 4
-    - 2
     truths: 正誤正正正
-    level: B
-    why: pat_B
-    tags:
+    pcounts:
+    - 6
+    - 3
+    - 1
+    - 6
+    - 3
+    points:
+    - pt-bunseki-0018
+    - pt-bunseki-0114
+    - pt-bunseki-0260
+    - pt-bunseki-0022
+    - pt-bunseki-0119
+    pnames:
+    - 吸光度は、透過率の逆数の対数である。
+    - 透過率は、試料セルの光路長に比例する。（誤りの記述）
+    - 試料溶液を透過する光の強さは、測定対象物質の濃度が増加するとともに指数関数的に減少する
+    - モル吸光係数は、波長により異なる。
+    - モル吸光係数は、溶媒の種類により異なることがある。
+    prcounts:
+    - 11
+    - 11
+    - 0
+    - 11
+    - 11
+    principles:
+    - pr-bunseki-0002
+    - pr-bunseki-0002
     - ''
-    - ans_pat
+    - pr-bunseki-0003
+    - pr-bunseki-0003
+    prnames:
+    - 吸光度と透過率の関係
+    - 吸光度と透過率の関係
+    - ''
+    - モル吸光係数の性質
+    - モル吸光係数の性質
+    trend:
+    - 2
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2016-02
+      - 2017-08
+      - 2019-08
+      - 2021-02
+    - []
+    - []
+    - []
+    level: A
+    why: pr_A
+    tags:
+    - odo
+    - ans_pr
     - new
     - odo
-    - ''
-    pat: an-spectrophotometry-06
+    - odo
 - num: 14
   status: published
   chapters:
@@ -587,8 +844,7 @@ questions:
     count: 16
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -624,21 +880,70 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 2
-    - 1
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 5
+    - 1
+    - 4
+    - 7
+    - 2
+    points:
+    - pt-bunseki-0044
+    - pt-bunseki-0364
+    - pt-bunseki-0087
+    - pt-bunseki-0012
+    - pt-bunseki-0185
+    pnames:
+    - 光の吸収は、基底状態の原子により生じる。
+    - 光源には、測定対象の金属に固有の光を発するものを用いる。
+    - 吸収層が長いほど大きくなる。
+    - 吸光度は、光路長に比例する。
+    - 原子化効率は、化学炎の燃料組成により異なる。
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 12
+    - 0
+    principles:
+    - pr-bunseki-0008
+    - ''
+    - ''
+    - pr-bunseki-0001
+    - ''
+    prnames:
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ''
+    - ランベルト・ベールの法則
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 3
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2018-02
+      - 2020-02
+    - []
+    - []
+    - - 2026-08
+    - []
+    level: B
+    why: pat_B
     tags:
-    - new
+    - odo
     - new
     - ans_pat
+    - odo
     - ''
-    - new
     pat: an-aas-02
 - num: 16
   status: published
@@ -672,22 +977,69 @@ questions:
     - 4
     - 4
     - 1
-    similar:
-    - 2
-    - 12
-    - 8
-    - 4
-    - 2
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 3
+    - 16
+    - 16
+    - 13
+    - 1
+    points:
+    - pt-bunseki-0111
+    - pt-bunseki-0001
+    - pt-bunseki-0001
+    - pt-bunseki-0002
+    - pt-bunseki-0323
+    pnames:
+    - 紫外部あるいは可視部の光が励起光として用いられる。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光の強度は、励起光の照射を止めると急速に減衰する。
+    prcounts:
+    - 0
+    - 16
+    - 16
+    - 15
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0005
+    - pr-bunseki-0005
+    - pr-bunseki-0004
+    - ''
+    prnames:
+    - ''
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光は励起光より長波長
+    - ''
+    trend:
+    - 0
+    - 2
+    - 2
+    - 2
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
     - ''
     - odo
     - odo
-    - ans_pat
-    - ''
-    pat: an-fluorescence-05
+    - ans_hi
+    - new
 - num: 17
   status: published
   chapters:
@@ -757,21 +1109,69 @@ questions:
     - 1
     - 1
     - 3
-    similar:
-    - 7
-    - 5
-    - 1
-    - 1
-    - 3
     truths: 正正正誤正
+    pcounts:
+    - 9
+    - 5
+    - 9
+    - 2
+    - 3
+    points:
+    - pt-bunseki-0007
+    - pt-bunseki-0031
+    - pt-bunseki-0007
+    - pt-bunseki-0159
+    - pt-bunseki-0112
+    pnames:
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 電子捕獲検出器（ECD）は、飽和炭化水素化合物の測定に適している（誤りの記述）
+    - 質量分析器(MS)は、分子構造に関する情報も得ることができる。
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 0
+    principles:
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - ''
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - ''
+    trend:
+    - 2
+    - 2
+    - 2
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2018-02
+    - []
+    - []
     level: S
     why: pat_S
     tags:
     - odo
     - odo
-    - new
-    - ans_pat
     - odo
+    - ans_pat
+    - ''
     pat: an-gc-01
 - num: 19
   status: published
@@ -801,26 +1201,73 @@ questions:
     denom: 23
     counts:
     - 6
-    - 8
+    - 9
+    - 3
     - 4
     - 4
-    - 4
-    similar:
-    - 6
-    - 8
-    - 4
-    - 4
-    - 6
     truths: 正正誤正正
+    pcounts:
+    - 9
+    - 9
+    - 6
+    - 6
+    - 7
+    points:
+    - pt-bunseki-0010
+    - pt-bunseki-0011
+    - pt-bunseki-0027
+    - pt-bunseki-0023
+    - pt-bunseki-0021
+    pnames:
+    - この分析法は、石英の同定と定量に使われる。
+    - 回折線は、ブラッグの条件に従って生じる。
+    - 分析には、連続X線を用いる。（誤りの記述）
+    - フィルターに捕集した試料をそのまま分析することができる。
+    - この分析法では、X線の回折角及び回折線の強度を測定する。
+    prcounts:
+    - 0
+    - 17
+    - 16
+    - 0
+    - 17
+    principles:
+    - ''
+    - pr-bunseki-0011
+    - pr-bunseki-0012
+    - ''
+    - pr-bunseki-0011
+    prnames:
+    - ''
+    - X線回折のブラッグの条件
+    - X線回折の線源は特性X線
+    - ''
+    - X線回折のブラッグの条件
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - odo
     - odo
-    - ans_pat
+    - ans_pr
+    - ''
     - odo
-    - odo
-    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -856,6 +1303,6 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-logarithm-03

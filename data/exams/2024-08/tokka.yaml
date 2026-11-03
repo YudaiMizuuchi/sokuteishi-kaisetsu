@@ -40,20 +40,68 @@ questions:
     - 1
     - 1
     - 3
-    similar:
-    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 4
     - 2
     - 1
-    - 1
+    - 2
     - 3
-    truths: 正正正誤正
-    level: C
-    why: none
+    points:
+    - pt-tokka-0017
+    - pt-tokka-0082
+    - pt-tokka-0127
+    - pt-tokka-0057
+    - pt-tokka-0033
+    pnames:
+    - 吸光度は、試料液の濃度と光路長に比例する。
+    - 試料溶液に照射する光は、単色光である。
+    - モル吸光係数は、ある物質が特定の波長の光を吸収する程度を示す。
+    - ガラス製のセルは、可視部の吸収の測定に用いる。
+    - 吸光度は、入射光の強度に依存しない。
+    prcounts:
+    - 6
+    - 0
+    - 0
+    - 8
+    - 6
+    principles:
+    - pr-tokka-0001
+    - ''
+    - ''
+    - pr-tokka-0002
+    - pr-tokka-0001
+    prnames:
+    - ランベルト・ベールの法則
+    - ''
+    - ''
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    - ランベルト・ベールの法則
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
     - odo
+    - ''
     - new
-    - ans_new
+    - ans_pr
     - odo
 - num: 2
   status: published
@@ -158,7 +206,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 5
   status: published
@@ -202,23 +250,72 @@ questions:
     - 3
     - 1
     - 1
-    - 3
-    similar:
-    - 1
-    - 3
-    - 1
-    - 1
-    - 3
+    - 2
     truths: 正正正正誤
+    pcounts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 4
+    points:
+    - pt-tokka-0190
+    - pt-tokka-0010
+    - pt-tokka-0154
+    - pt-tokka-0238
+    - pt-tokka-0006
+    pnames:
+    - 捕集には、グラスファイバーろ紙及び活性炭フェルトを用いる。
+    - 捕集は、30L･min⁻¹の一定流量で試料空気を吸引する。
+    - 捕集材からの脱着には、プロピオンアミド（内部標準物質）入りメタノールが用いられる
+    - 捕集後の捕集材は、共栓付試験管に入れ-20℃で保存する。
+    - 炎光光度検出器（FPD）では、還元炎を用いる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 9
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0004
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3001
+    subst_name: アクリルアミド
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - new
     - odo
     - new
     - new
-    - ans_pat
-    pat: sl-tokka-051
+    - ans_pr
 - num: 6
   status: published
   chapters:
@@ -256,21 +353,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 3
-    - 1
     truths: 正正誤正正
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 1
+    - 2
+    - 4
+    - 4
+    points:
+    - pt-tokka-0115
+    - pt-tokka-0128
+    - pt-tokka-0065
+    - pt-tokka-0009
+    - pt-tokka-0006
+    pnames:
+    - 検出器温度は、検出器の汚染を防止し感度を安定させるため、カラム温度より高温に保つ
+    - キャリアガスの種類又は流量が検出器に適さない場合には、検出器にメイクアップガスを追加する
+    - 水素炎イオン化検出器は、ハロゲン化炭化水素に対して感度が高い。（誤りの記述）
+    - 直線性を示す測定範囲は、電子捕獲検出器(ECD)よりも広い
+    - 炎光光度検出器（FPD）では、還元炎を用いる。
+    prcounts:
+    - 0
+    - 0
+    - 9
+    - 0
+    - 9
+    principles:
+    - ''
+    - ''
+    - pr-tokka-0004
+    - ''
+    - pr-tokka-0004
+    prnames:
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2019-08
+    level: S
+    why: pr_S
     tags:
     - new
     - new
-    - ans_new
+    - ans_pr
     - odo
-    - new
+    - odo
 - num: 7
   status: published
   chapters:
@@ -302,8 +447,7 @@ questions:
     count: 4
     form: 選択肢が物質名などの問題
     level: A
-    why: pat_A
-    pat: sl-tokka-040
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -347,8 +491,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 9
   status: published
   chapters:
@@ -378,8 +522,10 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -417,21 +563,69 @@ questions:
     - 1
     - 4
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 4
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 5
+    - 2
+    points:
+    - pt-tokka-0155
+    - pt-tokka-0213
+    - pt-tokka-0214
+    - pt-tokka-0013
+    - pt-tokka-0043
+    pnames:
+    - 逆相クロマトグラフ法では、イオンに解離している試料であっても分析が可能である
+    - 移動相の脱気には、超音波処理や減圧処理が用いられる。
+    - 移動相の粘性が高いとカラム圧力は低くなる。（誤りの記述）
+    - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+    - 一般的に、検出器の温度が上昇すると、蛍光強度は減少する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 9
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - new
     - ans_new
     - odo
-    - new
+    - ''
 - num: 11
   status: published
   chapters:
@@ -474,9 +668,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-041
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -505,11 +698,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 2
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-046
+    level: C
+    why: q_seen
 - num: 13
   status: published
   chapters:
@@ -548,9 +740,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-048
+    level: B
+    why: q_b
 - num: 14
   status: published
   chapters:
@@ -578,7 +769,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 15
   status: published
@@ -615,7 +806,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 16
   status: published
@@ -663,8 +854,8 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 17
   status: published
   chapters:
@@ -705,9 +896,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-050
+    level: B
+    why: q_b
 - num: 18
   status: published
   chapters:
@@ -742,14 +932,62 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0239
+    - pt-tokka-0248
+    - pt-tokka-0215
+    - pt-tokka-0216
+    - pt-tokka-0156
+    pnames:
+    - 気体と捕集液との接触面積が大きいほど、捕集率は高くなる。
+    - 捕集液内での気体の滞留時間が長いほど、捕集率は高くなる。
+    - 化学反応によって捕集する場合は、捕集液の温度が低いと捕集率が低下することがある
+    - 揮発性物質を単に捕集液に溶解させて捕集する場合は、捕集液の温度が高いほど、捕集率は高くなる（誤りの記述）
+    - 捕集率は、捕集器具を2組直列に連結して通気し、それぞれの器具での捕集量を用いて算出することができる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
@@ -790,9 +1028,10 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-042
+    subst_id: sb-tokka-3012
+    subst_name: オルト-フタロジニトリル
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:

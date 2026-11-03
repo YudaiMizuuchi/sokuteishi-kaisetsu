@@ -37,22 +37,70 @@ questions:
     - 1
     - 1
     - 2
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 5
     - 5
+    - 2
     - 1
+    - 4
+    points:
+    - pt-bunseki-0037
+    - pt-bunseki-0048
+    - pt-bunseki-0212
+    - pt-bunseki-0306
+    - pt-bunseki-0075
+    pnames:
+    - アボガドロ定数の数の物質粒子（原子、分子、イオン等）の物質量は、1モルである
+    - 原子量は、¹²Cの質量を基準として定められている。
+    - 電子の質量は、陽子の質量と同程度である。（誤りの記述）
+    - 原子番号の順に元素を並べると、原子及び単体の諸性質に一定の周期性がある
+    - 中性の原子又は分子は、電子を失うと正に帯電する。
+    prcounts:
+    - 9
+    - 9
+    - 0
+    - 0
+    - 4
+    principles:
+    - pr-bunseki-0019
+    - pr-bunseki-0019
+    - ''
+    - ''
+    - pr-bunseki-0040
+    prnames:
+    - 物質量・モル質量・アボガドロ定数
+    - 物質量・モル質量・アボガドロ定数
+    - ''
+    - ''
+    - 原子・イオンの電荷
+    trend:
+    - 2
+    - 2
+    - 2
     - 1
     - 2
-    truths: 正正誤正正
-    level: B
-    why: pat_B
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2021-02
+      - 2022-08
+    level: C
+    why: seen
     tags:
     - odo
     - odo
-    - ans_pat
+    - ans_seen
     - new
     - ''
-    pat: an-mole-02
 - num: 2
   status: published
   chapters:
@@ -88,22 +136,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 2
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 誤正正正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-bunseki-0225
+    - pt-bunseki-0206
+    - pt-bunseki-0207
+    - pt-bunseki-0208
+    - pt-bunseki-0284
+    pnames:
+    - 誤差とは、測定値の平均値と各測定値との差のことである。（誤りの記述）
+    - 精度とは、分析値のバラツキの程度を示すものである。
+    - 真度（正確さ）とは、分析を無限回繰り返したとき得られる平均値が真の値にどれだけ近いかを示すものである
+    - 精度と真度（正確さ）よりも迅速性を優先することがある。
+    - 測定値のバラツキの大きさを示す場合は、測定値の平均値に標準偏差や不偏分散の平方根などを±をつけて表す
+    prcounts:
+    - 2
+    - 0
+    - 0
+    - 0
+    - 2
+    principles:
+    - pr-bunseki-0025
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0025
+    prnames:
+    - 誤差と統計量
+    - ''
+    - ''
+    - ''
+    - 誤差と統計量
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_pat
+    - ans_seen
+    - ''
     - ''
     - ''
     - new
-    - new
-    pat: an-statistics-02
 - num: 3
   status: published
   chapters:
@@ -138,21 +233,69 @@ questions:
     - 3
     - 1
     - 2
-    similar:
-    - 2
-    - 7
-    - 4
-    - 2
-    - 3
     truths: 正正正誤正
+    pcounts:
+    - 2
+    - 4
+    - 3
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0237
+    - pt-bunseki-0091
+    - pt-bunseki-0141
+    - pt-bunseki-0484
+    - pt-bunseki-0238
+    pnames:
+    - アルコールは、-OH基をもっている。
+    - カルボン酸は、-COOH基をもっている。
+    - アルデヒドは、-CHO基をもっている。
+    - エーテルは、＞CO基をもっている。（誤りの記述）
+    - 第一アミンは、-NH₂基をもっている。
+    prcounts:
+    - 7
+    - 7
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0037
+    - pr-bunseki-0037
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 官能基と有機化合物の性質
+    - 官能基と有機化合物の性質
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - true
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2023-08
+    - []
+    - - 2020-02
+    - []
+    - []
     level: A
     why: pat_A
     tags:
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pat
-    - odo
+    - ''
     pat: an-organic-01
 - num: 4
   status: published
@@ -190,9 +333,8 @@ questions:
     denom: 23
     count: 8
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-gas-03
+    level: B
+    why: q_b
 - num: 5
   status: published
   chapters:
@@ -224,8 +366,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 6
   status: published
@@ -266,26 +408,73 @@ questions:
     denom: 23
     counts:
     - 1
-    - 2
-    - 3
-    - 3
-    - 4
-    similar:
     - 1
-    - 2
-    - 5
+    - 3
     - 3
     - 4
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 5
+    - 5
+    - 5
+    - 3
+    - 4
+    points:
+    - pt-bunseki-0043
+    - pt-bunseki-0030
+    - pt-bunseki-0039
+    - pt-bunseki-0116
+    - pt-bunseki-0080
+    pnames:
+    - 平衡状態での正逆両方向の反応速度は等しい。
+    - 温度を上げると、反応は右に進む。
+    - 平衡定数の単位は、mol⁻¹·Lである。
+    - 平衡定数は、平衡状態での物質の濃度から計算できる。
+    - 平衡定数は、温度に依存する。
+    prcounts:
+    - 10
+    - 5
+    - 10
+    - 10
+    - 10
+    principles:
+    - pr-bunseki-0018
+    - pr-bunseki-0017
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    prnames:
+    - 化学平衡と平衡定数
+    - ルシャトリエの原理
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pr_B
     tags:
-    - new
-    - ans_pat
+    - odo
+    - ans_pr
     - odo
     - odo
     - odo
-    pat: an-equilibrium-01
 - num: 7
   status: published
   chapters:
@@ -326,8 +515,8 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-gas-05
 - num: 8
   status: published
@@ -366,22 +555,70 @@ questions:
     - 1
     - 7
     - 5
-    similar:
+    truths: 正誤正正正
+    pcounts:
     - 7
     - 1
-    - 4
+    - 10
     - 9
-    - 7
-    truths: 正誤正正正
+    - 9
+    points:
+    - pt-bunseki-0014
+    - pt-bunseki-0285
+    - pt-bunseki-0004
+    - pt-bunseki-0006
+    - pt-bunseki-0006
+    pnames:
+    - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない
+    - 拡散セル内の液面の高さにより標準ガスの濃度が変化するため、セル内に入れる試薬量は常に一定にする必要がある（誤りの記述）
+    - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    prcounts:
+    - 0
+    - 14
+    - 14
+    - 14
+    - 14
+    principles:
+    - ''
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    prnames:
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    trend:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+      - 2021-02
+    - - 2023-08
+    - - 2023-08
     level: S
-    why: pat_S
+    why: pr_S
     tags:
+    - ''
+    - ans_pr
     - odo
-    - ans_pat
     - odo
     - odo
-    - odo
-    pat: an-standard-gas-01
 - num: 9
   status: published
   chapters:
@@ -415,8 +652,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-reagents-01
 - num: 10
   status: published
@@ -455,15 +692,63 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0259
+    - pt-bunseki-0385
+    - pt-bunseki-0307
+    - pt-bunseki-0266
+    - pt-bunseki-0386
+    pnames:
+    - 代表的な装置の構成は高周波励起源部、発光部、試料導入部、分光測光部、データ処理部からなる
+    - 発光部のプラズマの温度は6000～10000K程度である。
+    - 試料導入部のネブライザーは、先端部が細いため、試料溶液中に不溶物がある場合はあらかじめろ過する
+    - 分光測光部はシーケンシャル型検出器とマルチ型検出器に大別されるが、いずれの形式でも多元素分析が可能である
+    - プラズマの観測方向には軸方向と横方向があり、高濃度の測定には軸方向観測が、低濃度の測定には横方向観測が適している（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - new
     - new
@@ -548,8 +833,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-titration-01
 - num: 13
   status: published
@@ -577,12 +862,78 @@ questions:
   _key_choice: 測定波長の光は、青色である。
   _stem_head: 水中で青色を示す物質の可視部の吸光光度分析法による測定に関する次の記述のうち、誤っているものはどれか。
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    counts:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 6
+    - 4
+    - 2
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0041
+    - pt-bunseki-0138
+    - pt-bunseki-0422
+    - pt-bunseki-0494
+    - pt-bunseki-0423
+    pnames:
+    - 光源にタングステンランプを用いる。
+    - 石英製の試料セルが用いられる。
+    - 回折格子により測定波長の光を取り出す。
+    - 測定波長の光は、青色である。（誤りの記述）
+    - 光電子増倍管を用いて透過光の強度を測定する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 3
+    - 2
+    - 1
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2021-08
+      - 2024-08
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
+    tags:
+    - ''
+    - ''
+    - ''
+    - ans_new
+    - ''
 - num: 14
   status: published
   chapters:
@@ -621,8 +972,7 @@ questions:
     count: 16
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -657,22 +1007,69 @@ questions:
     - 1
     - 3
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 1
     - 4
-    - 2
+    - 4
+    - 3
+    - 4
+    points:
+    - pt-bunseki-0421
+    - pt-bunseki-0071
+    - pt-bunseki-0072
+    - pt-bunseki-0130
+    - pt-bunseki-0057
+    pnames:
+    - フレームには、アセチレン-空気などの化学炎が用いられる。
+    - フレーム中における目的原子の原子蒸気は、ほとんどが基底状態にある
+    - 光源光がフレームを通過する位置により吸光度が異なる。
+    - 吸光度は、光源光の強度に比例する。（誤りの記述）
+    - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
+    prcounts:
+    - 0
+    - 16
+    - 0
+    - 0
+    - 14
+    principles:
+    - ''
+    - pr-bunseki-0008
+    - ''
+    - ''
+    - pr-bunseki-0009
+    prnames:
+    - ''
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ''
+    - 原子吸光の光源は線光源
+    trend:
+    - 1
+    - 3
     - 3
     - 2
-    truths: 正正正誤正
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
     - new
     - odo
     - ''
-    - ans_pat
-    - ''
-    pat: an-aas-02
+    - ans_trend
+    - odo
 - num: 16
   status: published
   chapters:
@@ -707,22 +1104,69 @@ questions:
     - 4
     - 8
     - 3
-    similar:
-    - 3
-    - 6
-    - 4
-    - 13
-    - 11
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 7
+    - 13
+    - 13
+    - 16
+    - 16
+    points:
+    - pt-bunseki-0015
+    - pt-bunseki-0002
+    - pt-bunseki-0002
+    - pt-bunseki-0001
+    - pt-bunseki-0001
+    pnames:
+    - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光は、励起光よりも波長が長い。
+    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、試料濃度に比例する。
+    prcounts:
+    - 0
+    - 15
+    - 15
+    - 16
+    - 16
+    principles:
+    - ''
+    - pr-bunseki-0004
+    - pr-bunseki-0004
+    - pr-bunseki-0005
+    - pr-bunseki-0005
+    prnames:
+    - ''
+    - 蛍光は励起光より長波長
+    - 蛍光は励起光より長波長
+    - 蛍光強度は低濃度で濃度に比例
+    - 蛍光強度は低濃度で濃度に比例
+    trend:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pt_B
     tags:
-    - ans_pat
+    - ans_b
     - odo
     - odo
     - odo
     - odo
-    pat: an-fluorescence-02
 - num: 17
   status: published
   chapters:
@@ -757,21 +1201,72 @@ questions:
     - 5
     - 1
     - 1
-    similar:
-    - 3
-    - 7
-    - 5
-    - 1
-    - 1
     truths: 正正正誤正
-    level: B
-    why: elim_two
+    pcounts:
+    - 4
+    - 9
+    - 5
+    - 5
+    - 4
+    points:
+    - pt-bunseki-0066
+    - pt-bunseki-0007
+    - pt-bunseki-0031
+    - pt-bunseki-0035
+    - pt-bunseki-0056
+    pnames:
+    - 熱伝導度検出器（TCD）では、成分気体とキャリヤーガスとの熱伝導率の差を利用する
+    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
+    - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する
+    - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される
+    - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    principles:
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    - pr-bunseki-0031
+    prnames:
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    - 検出器の原理
+    trend:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2018-02
+      - 2022-02
+      - 2023-02
+      - 2026-08
+    - - 2026-08
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
-    - ans_new
-    - new
+    - ans_pr
+    - odo
 - num: 18
   status: published
   chapters:
@@ -798,12 +1293,79 @@ questions:
   _key_choice: ピーク幅は2倍になる。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 3
-    form: 選択肢が物質名などの問題
+    counts:
+    - 4
+    - 1
+    - 5
+    - 2
+    - 4
+    truths: 正正正誤正
+    pcounts:
+    - 8
+    - 5
+    - 6
+    - 5
+    - 9
+    points:
+    - pt-bunseki-0229
+    - pt-bunseki-0490
+    - pt-bunseki-0496
+    - pt-bunseki-0490
+    - pt-bunseki-0052
+    pnames:
+    - 理論段相当高さが高いほど理論段数は大きくなる。（誤りの記述）
+    - ピークの高さは1/√2倍になる。
+    - 分離度は√2倍になる。
+    - ピークの高さは1/√2倍になる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    prcounts:
+    - 9
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0028
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 理論段数と理論段相当高さ
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 4
+    - 2
+    - 2
+    - 2
+    - 5
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2022-08
+    - - 2018-08
+      - 2021-02
+      - 2025-08
+    - []
     level: S
     why: pat_S
+    tags:
+    - odo
+    - ''
+    - ''
+    - ans_pat
+    - odo
     pat: an-gc-02
 - num: 19
   status: published
@@ -839,21 +1401,69 @@ questions:
     - 4
     - 5
     - 6
-    similar:
-    - 6
-    - 5
-    - 6
-    - 5
-    - 6
     truths: 正正正正誤
+    pcounts:
+    - 6
+    - 5
+    - 8
+    - 5
+    - 6
+    points:
+    - pt-bunseki-0025
+    - pt-bunseki-0040
+    - pt-bunseki-0016
+    - pt-bunseki-0045
+    - pt-bunseki-0026
+    pnames:
+    - この分析法では、通常、Cu-Kα線が用いられる。
+    - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
+    - 結晶物質の定量は、回折線の強度測定で行う。
+    - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
+    - X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 17
+    - 0
+    principles:
+    - pr-bunseki-0012
+    - ''
+    - ''
+    - pr-bunseki-0011
+    - ''
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - ''
+    - X線回折のブラッグの条件
+    - ''
+    trend:
+    - 1
+    - 2
+    - 4
+    - 2
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: ans_hi
+    why: trend_A
     tags:
     - odo
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_hi
+    - ans_trend
 - num: 20
   status: published
   chapters:
@@ -888,15 +1498,63 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0251
+    - pt-bunseki-0251
+    - pt-bunseki-0387
+    - pt-bunseki-0345
+    - pt-bunseki-0460
+    pnames:
+    - β⁻壊変は、原子核から陰電子を放出する壊変である。
+    - β⁻壊変は、原子核から陰電子を放出する壊変である。
+    - 軌道電子捕獲は、原子核が原子核近くにある軌道電子を原子核内に取り込む壊変である
+    - β線のエネルギーは、0から最大値まで連続した分布を示す。
+    - 空気中におけるβ線の飛程は、α線のそれより短い。（誤りの記述）
+    prcounts:
+    - 7
+    - 7
+    - 7
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - ''
+    - ''
+    prnames:
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - new
     - new

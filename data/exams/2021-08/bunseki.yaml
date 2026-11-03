@@ -36,9 +36,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-mole-01
+    level: C
+    why: q_seen
 - num: 2
   status: published
   chapters:
@@ -69,8 +68,8 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-03
 - num: 3
   status: published
@@ -102,8 +101,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-gas-01
 - num: 4
   status: published
@@ -139,22 +138,70 @@ questions:
     - 2
     - 3
     - 2
-    similar:
-    - 3
-    - 2
-    - 2
-    - 3
-    - 3
     truths: 正正誤正正
+    pcounts:
+    - 4
+    - 4
+    - 2
+    - 3
+    - 4
+    points:
+    - pt-bunseki-0084
+    - pt-bunseki-0054
+    - pt-bunseki-0226
+    - pt-bunseki-0132
+    - pt-bunseki-0054
+    pnames:
+    - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい（誤りの記述）
+    - グルコースの水に対する溶解度は、エタノールに対する溶解度より大きい
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    prcounts:
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    principles:
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    prnames:
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - - 2016-02
+    - - 2017-08
+    - - 2025-02
+    - []
+    - - 2017-08
+      - 2025-02
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - odo
     - ''
-    - ans_pat
-    - odo
-    - odo
-    pat: an-organic-03
+    - ''
+    - ans_trend
+    - ''
+    - ''
 - num: 5
   status: published
   chapters:
@@ -195,8 +242,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 6
   status: published
@@ -235,8 +282,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-03
 - num: 7
   status: published
@@ -272,22 +319,70 @@ questions:
     - 1
     - 2
     - 1
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 2
     - 4
     - 1
-    - 2
-    - 1
-    truths: 正正正正誤
-    level: B
-    why: pat_B
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0194
+    - pt-bunseki-0085
+    - pt-bunseki-0382
+    - pt-bunseki-0086
+    - pt-bunseki-0078
+    pnames:
+    - 液体の二酸化炭素が必要な場合は、サイフォン管付き容器を使用する。
+    - ヘリウム用の減圧弁のねじは、左ねじである。
+    - アセチレンの配管に銅管を用いると、爆発性の化合物を生成するおそれがある
+    - 酸素の容器の塗色は、黒色である。
+    - 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2016-08
+      - 2018-02
+    - []
+    level: C
+    why: seen
     tags:
     - ''
-    - odo
+    - ''
     - new
     - ''
-    - ans_pat
-    pat: an-lab-equipment-04
+    - ans_seen
 - num: 8
   status: published
   chapters:
@@ -328,8 +423,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-gas-05
 - num: 9
   status: published
@@ -371,21 +466,69 @@ questions:
     - 1
     - 4
     - 1
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 2
     - 1
     - 4
     - 3
-    truths: 誤正正正正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0303
+    - pt-bunseki-0172
+    - pt-bunseki-0339
+    - pt-bunseki-0076
+    - pt-bunseki-0102
+    pnames:
+    - 蒸留水製造装置では、不揮発性の不純物のみを除去することが可能である（誤りの記述）
+    - 金属製やガラス製の蒸留水製造装置からは、イオンの溶出がある。
+    - イオン交換水の純度は、電気伝導度で評価する。
+    - メンブランフィルターは、水中の粒子を除去できる。
+    - 逆浸透膜法では、溶存気体を完全に取り除くことはできない。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - ans_pat
     - ''
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     pat: an-reagents-02
 - num: 10
   status: published
@@ -417,7 +560,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 11
   status: published
@@ -456,22 +599,69 @@ questions:
     - 3
     - 3
     - 2
-    similar:
-    - 3
-    - 3
-    - 3
-    - 3
-    - 2
     truths: 正正誤正正
+    pcounts:
+    - 3
+    - 1
+    - 3
+    - 3
+    - 3
+    points:
+    - pt-bunseki-0107
+    - pt-bunseki-0416
+    - pt-bunseki-0094
+    - pt-bunseki-0094
+    - pt-bunseki-0123
+    pnames:
+    - 溶解度積 K は、AgCl ⇄ Ag⁺ ＋ Cl⁻ で示される塩化銀の溶解平衡の平衡定数である
+    - 溶解度積Kの単位は、mol²･L⁻²である。
+    - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
+    - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
+    - 溶解度積は、温度によって変化する。
+    prcounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    principles:
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    prnames:
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    trend:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - odo
     - odo
-    - ans_pat
+    - ans_pr
     - odo
-    - ''
-    pat: an-equilibrium-03
+    - odo
 - num: 12
   status: published
   chapters:
@@ -500,8 +690,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-01
 - num: 13
   status: published
@@ -534,22 +724,70 @@ questions:
     - 1
     - 3
     - 2
-    similar:
-    - 1
-    - 3
-    - 3
-    - 4
-    - 2
     truths: 誤正正正正
-    level: A
-    why: pat_A
-    tags:
-    - ans_pat
-    - odo
-    - odo
-    - odo
+    pcounts:
+    - 2
+    - 2
+    - 3
+    - 11
+    - 11
+    points:
+    - pt-bunseki-0196
+    - pt-bunseki-0204
+    - pt-bunseki-0099
+    - pt-bunseki-0003
+    - pt-bunseki-0003
+    pnames:
+    - 光源には重水素放電管が用いられる。（誤りの記述）
+    - 石英セルは、紫外部の測定に用いることができる。
+    - ダブルビーム方式では、測定対象物質の溶解に用いた溶媒の吸収を補正できる
+    - 吸光度は、通常、極大吸収波長で測定する。
+    - 吸光度は、通常、極大吸収波長で測定する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
     - ''
-    pat: an-spectrophotometry-02
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 2
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2017-02
+      - 2019-02
+    - - 2019-02
+    - []
+    - []
+    - []
+    level: A
+    why: trend_A
+    tags:
+    - ans_trend
+    - ''
+    - ''
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -588,8 +826,7 @@ questions:
     count: 16
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -624,21 +861,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 2
-    - 3
-    - 1
-    - 2
-    - 1
     truths: 正正正誤正
-    level: A
-    why: pat_A
-    tags:
+    pcounts:
+    - 5
+    - 4
+    - 1
+    - 3
+    - 2
+    points:
+    - pt-bunseki-0044
+    - pt-bunseki-0087
+    - pt-bunseki-0455
+    - pt-bunseki-0093
+    - pt-bunseki-0223
+    pnames:
+    - 光の吸収は、基底状態の原子により生じる。
+    - 吸収層が長いほど大きくなる。
+    - 燃料ガスの種類によって異なる。
+    - 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
+    - フレーム中の測定位置によって異なる。
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0008
     - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
+    tags:
     - odo
+    - ''
     - new
     - ans_pat
-    - new
+    - ''
     pat: an-aas-02
 - num: 16
   status: published
@@ -674,22 +959,69 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 3
     truths: 誤正正正正
+    pcounts:
+    - 6
+    - 2
+    - 4
+    - 3
+    - 3
+    points:
+    - pt-bunseki-0041
+    - pt-bunseki-0227
+    - pt-bunseki-0138
+    - pt-bunseki-0118
+    - pt-bunseki-0139
+    pnames:
+    - 光源にタングステンランプを用いる。
+    - 光源の光が分光器で分光され励起光となる。
+    - 石英製の試料セルが用いられる。
+    - 試料からの蛍光は分光器で分光される。
+    - 検出器として光電子増倍管が用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 1
+    - 3
+    - 2
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2024-02
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - ans_pat
-    - new
+    - ans_trend
     - ''
     - ''
-    - odo
-    pat: an-fluorescence-01
+    - ''
+    - ''
 - num: 17
   status: published
   chapters:
@@ -754,24 +1086,72 @@ questions:
     counts:
     - 1
     - 2
-    - 2
     - 3
+    - 4
     - 2
-    similar:
-    - 1
-    - 2
-    - 3
-    - 5
-    - 3
     truths: 正誤正正正
+    pcounts:
+    - 1
+    - 4
+    - 5
+    - 4
+    - 5
+    points:
+    - pt-bunseki-0480
+    - pt-bunseki-0088
+    - pt-bunseki-0028
+    - pt-bunseki-0090
+    - pt-bunseki-0028
+    pnames:
+    - 移動相の種類により異なる。
+    - 移動相の流速に依存する。
+    - カラムの温度に依存する。
+    - カラム内径が小さいほど大きくなる。
+    - カラムの温度に依存する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2019-02
+    - - 2020-08
     level: S
     why: pat_S
     tags:
     - new
     - ans_pat
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     pat: an-gc-02
 - num: 19
   status: published
@@ -803,26 +1183,73 @@ questions:
     denom: 23
     counts:
     - 2
-    - 4
-    - 8
+    - 1
+    - 9
     - 2
     - 5
-    similar:
-    - 2
-    - 4
-    - 8
-    - 6
-    - 6
     truths: 正誤正正正
-    level: S
-    why: pat_S
-    tags:
+    pcounts:
+    - 3
+    - 6
+    - 9
+    - 8
+    - 5
+    points:
+    - pt-bunseki-0137
+    - pt-bunseki-0027
+    - pt-bunseki-0011
+    - pt-bunseki-0016
+    - pt-bunseki-0049
+    pnames:
+    - X線管からは、特性X線と連続X線が生じる。
+    - 分析には、連続X線を用いる。（誤りの記述）
+    - 回折線は、ブラッグの条件に従って生じる。
+    - 結晶物質の定量は、回折線の強度測定で行う。
+    - 回折角の測定にゴニオメーターを用いる。
+    prcounts:
+    - 16
+    - 16
+    - 17
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0012
+    - pr-bunseki-0012
+    - pr-bunseki-0011
     - ''
-    - ans_pat
+    - ''
+    prnames:
+    - X線回折の線源は特性X線
+    - X線回折の線源は特性X線
+    - X線回折のブラッグの条件
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 4
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
+    tags:
     - odo
+    - ans_pr
     - odo
-    - odo
-    pat: an-xrd-02
+    - ''
+    - ''
 - num: 20
   status: published
   chapters:
@@ -857,19 +1284,70 @@ questions:
     - 3
     - 3
     - 2
-    similar:
-    - 4
-    - 4
-    - 3
-    - 3
-    - 2
     truths: 正正正誤正
-    level: S
-    why: pat_S
+    pcounts:
+    - 4
+    - 4
+    - 4
+    - 4
+    - 2
+    points:
+    - pt-bunseki-0051
+    - pt-bunseki-0051
+    - pt-bunseki-0051
+    - pt-bunseki-0063
+    - pt-bunseki-0195
+    pnames:
+    - α壊変では、原子番号は2つ減少する。
+    - α壊変では、原子番号は2つ減少する。
+    - α壊変では、原子番号は2つ減少する。
+    - 軌道電子捕獲では、原子番号は1つ減少する。
+    - 自発核分裂では、複数の原子核に分裂する。
+    prcounts:
+    - 7
+    - 7
+    - 7
+    - 7
+    - 0
+    principles:
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - pr-bunseki-0027
+    - ''
+    prnames:
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - 放射壊変と原子番号・質量数
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2018-08
+      - 2020-02
+    - []
+    - - 2018-08
+      - 2020-02
+      - 2025-08
+    - []
+    level: A
+    why: pat_A
     tags:
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - ans_pat
     - ''
     pat: an-radiation-01

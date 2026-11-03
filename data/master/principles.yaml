@@ -1,0 +1,2431 @@
+description: 原理マスタ：いくつもの論点を生む、もとの理屈。1つの原理＝1つの理屈（分野名は原理ではない）。紐づけの基準：正答の選択肢の正誤が、その原理だけから、直接導けるときだけ、points に入れる。暗記が要る事実は、紐づけない。
+principles:
+- id: pr-bunseki-0001
+  subject: bunseki
+  name: ランベルト・ベールの法則
+  statement: 吸光度は、溶液の濃度と、光が通る液層の長さ（光路長）の積に比例する。濃度が2倍、光路長が2倍なら、吸光度は、4倍になる。
+  formula: A ＝ ε × c × l
+  keywords:
+  - ランベルト
+  - 光路長
+  - 液層の長さ
+  - 吸光度.{0,12}(濃度|光路長).{0,8}比例
+  points:
+  - pt-bunseki-0012
+  - pt-bunseki-0077
+  - pt-bunseki-0189
+- id: pr-bunseki-0002
+  subject: bunseki
+  name: 吸光度と透過率の関係
+  statement: 吸光度は、透過率の逆数の常用対数で表す。透過率が50％なら吸光度は約0.30、10％なら1.0。
+  formula: A ＝ −log₁₀T ＝ 2 − log₁₀T（Tは透過率％）
+  keywords:
+  - 透過率
+  - 吸光度.{0,10}対数
+  - log
+  points:
+  - pt-bunseki-0018
+  - pt-bunseki-0050
+  - pt-bunseki-0114
+  - pt-bunseki-0209
+  - pt-bunseki-0319
+  - pt-bunseki-0473
+  - pt-bunseki-0487
+- id: pr-bunseki-0003
+  subject: bunseki
+  name: モル吸光係数の性質
+  statement: モル吸光係数は、物質・波長・溶媒で決まり、濃度や光路長には依存しない。大きいほど、同じ濃度で、吸光度が大きい（高感度）。
+  formula: ε ＝ A ÷ (c × l)
+  keywords:
+  - モル吸光係数
+  points:
+  - pt-bunseki-0019
+  - pt-bunseki-0022
+  - pt-bunseki-0119
+  - pt-bunseki-0272
+- id: pr-bunseki-0004
+  subject: bunseki
+  name: 蛍光は励起光より長波長
+  statement: 吸収した光のエネルギーの一部が、熱などで失われるので、放出される蛍光は、励起光より、エネルギーが小さく、波長が長い。
+  formula: ''
+  keywords:
+  - 蛍光.{0,12}波長.{0,6}長
+  - 励起光.{0,10}長波長
+  - 励起波長
+  points:
+  - pt-bunseki-0002
+  - pt-bunseki-0219
+  - pt-bunseki-0270
+- id: pr-bunseki-0005
+  subject: bunseki
+  name: 蛍光強度は低濃度で濃度に比例
+  statement: 低濃度では、蛍光強度は、濃度と励起光の強度に比例する。高濃度では、自己吸収や濃度消光で、比例しなくなる。
+  formula: ''
+  keywords:
+  - 蛍光.{0,6}強度.{0,14}(濃度|励起光).{0,6}比例
+  - 濃度消光
+  - 低濃度
+  points:
+  - pt-bunseki-0001
+- id: pr-bunseki-0006
+  subject: bunseki
+  name: 蛍光は励起光と直角方向で測る
+  statement: 励起光は、まっすぐ透過するので、励起光の影響を避けるため、蛍光は、入射光と直角の方向で測る。
+  formula: ''
+  keywords:
+  - 直角方向
+  - 直角
+  points:
+  - pt-bunseki-0009
+  - pt-bunseki-0300
+- id: pr-bunseki-0007
+  subject: bunseki
+  name: 蛍光を弱める要因
+  statement: 溶存酸素、温度の上昇、pH、共存物質などは、励起状態の分子のエネルギーを、蛍光以外の経路で失わせ、蛍光強度を弱める。
+  formula: ''
+  keywords:
+  - 溶存酸素
+  - 蛍光.{0,10}(温度|pH|粘性)
+  points:
+  - pt-bunseki-0074
+  - pt-bunseki-0361
+  - pt-bunseki-0381
+- id: pr-bunseki-0008
+  subject: bunseki
+  name: 原子吸光は基底状態の原子の光吸収
+  statement: フレーム中の原子の大部分は、基底状態にあるので、原子吸光は、基底状態の原子が、光を吸収することを利用する。
+  formula: ''
+  keywords:
+  - 基底状態
+  - 励起状態.{0,8}(原子|吸収)
+  points:
+  - pt-bunseki-0044
+  - pt-bunseki-0068
+  - pt-bunseki-0071
+  - pt-bunseki-0193
+  - pt-bunseki-0313
+- id: pr-bunseki-0009
+  subject: bunseki
+  name: 原子吸光の光源は線光源
+  statement: 中空陰極ランプは、測定元素に固有の、線幅の狭い輝線を出す。光源の線幅が、吸収線より狭いことで、感度が出る。
+  formula: ''
+  keywords:
+  - 中空陰極
+  - 輝線
+  - 線幅
+  points:
+  - pt-bunseki-0005
+  - pt-bunseki-0057
+- id: pr-bunseki-0010
+  subject: bunseki
+  name: バックグラウンド補正
+  statement: 分子による光の吸収や散乱は、原子の吸収と区別できないので、広い波長の光源（重水素ランプなど）で、別に測って、差し引く。
+  formula: ''
+  keywords:
+  - バックグラウンド
+  - 重水素放電管
+  - 重水素ランプ
+  points:
+  - pt-bunseki-0032
+- id: pr-bunseki-0011
+  subject: bunseki
+  name: X線回折のブラッグの条件
+  statement: 結晶の格子面で反射したX線が強め合う条件は、2d sinθ ＝ nλ。回折角から、格子面間隔 d がわかり、物質を同定できる。
+  formula: 2d sinθ ＝ nλ
+  keywords:
+  - ブラッグ
+  - 回折角
+  - 格子面間隔
+  - 回折線.{0,10}条件
+  points:
+  - pt-bunseki-0011
+  - pt-bunseki-0021
+  - pt-bunseki-0045
+- id: pr-bunseki-0012
+  subject: bunseki
+  name: X線回折の線源は特性X線
+  statement: 回折には、波長のそろった特性X線（Cu-Kαなど）を使う。連続X線は、波長が連続で、回折角が定まらないので、使わない。
+  formula: ''
+  keywords:
+  - 連続X線
+  - Cu-Kα
+  - 特性X線
+  - Kα
+  points:
+  - pt-bunseki-0025
+  - pt-bunseki-0027
+  - pt-bunseki-0137
+  - pt-bunseki-0142
+- id: pr-bunseki-0013
+  subject: bunseki
+  name: X線の吸収補正
+  statement: 試料自身が、X線を吸収するので、試料の量が多いほど、回折線強度が、量に比例しなくなる。基底標準の強度の変化から、補正する。
+  formula: ''
+  keywords:
+  - X線の吸収
+  - 吸収の補正
+  - 吸収補正
+  points:
+  - pt-bunseki-0069
+- id: pr-bunseki-0014
+  subject: bunseki
+  name: 気体の状態方程式
+  statement: 気体の圧力・体積・物質量・温度の関係。0℃・1気圧のモル体積は22.4 L、25℃・1気圧では24.5 L。
+  formula: PV ＝ nRT
+  keywords:
+  - 状態方程式
+  - 気体定数
+  - モル体積
+  - PV
+  points: []
+- id: pr-bunseki-0015
+  subject: bunseki
+  name: ドルトンの分圧の法則
+  statement: 混合気体の分圧は、全圧に、モル分率（物質量の割合）を掛けたものになる。
+  formula: P_i ＝ P × n_i ÷ n_全
+  keywords:
+  - 分圧
+  points:
+  - pt-bunseki-0401
+- id: pr-bunseki-0016
+  subject: bunseki
+  name: ヘンリーの法則
+  statement: 一定温度で、気体の溶解度（溶ける量）は、その気体の圧力（分圧）に比例する。
+  formula: ''
+  keywords:
+  - ヘンリー
+  - 溶解度.{0,10}圧力
+  points:
+  - pt-bunseki-0053
+- id: pr-bunseki-0017
+  subject: bunseki
+  name: ルシャトリエの原理
+  statement: 平衡にある系に、温度・圧力・濃度の変化を与えると、その変化を打ち消す向きに、平衡が移動する。
+  formula: ''
+  keywords:
+  - 温度を(上げ|下げ)
+  - 平衡.{0,8}移動
+  - 左に進む
+  - 右に進む
+  - ルシャトリエ
+  points:
+  - pt-bunseki-0030
+- id: pr-bunseki-0018
+  subject: bunseki
+  name: 化学平衡と平衡定数
+  statement: 平衡状態では、正反応と逆反応の速度が等しい。平衡定数は、温度だけで決まり、濃度や圧力、触媒では変わらない。
+  formula: K ＝ [生成物] ÷ [反応物]
+  keywords:
+  - 平衡定数
+  - 正逆
+  - 平衡状態
+  - 触媒
+  points:
+  - pt-bunseki-0039
+  - pt-bunseki-0043
+  - pt-bunseki-0080
+  - pt-bunseki-0094
+  - pt-bunseki-0107
+  - pt-bunseki-0116
+  - pt-bunseki-0123
+  - pt-bunseki-0169
+  - pt-bunseki-0203
+  - pt-bunseki-0263
+  - pt-bunseki-0297
+  - pt-bunseki-0298
+  - pt-bunseki-0409
+  - pt-bunseki-0416
+  - pt-bunseki-0449
+  - pt-bunseki-0450
+  - pt-bunseki-0466
+- id: pr-bunseki-0019
+  subject: bunseki
+  name: 物質量・モル質量・アボガドロ定数
+  statement: 物質量（mol）は、粒子の数を、アボガドロ定数（6.02×10²³）で割ったもの。質量÷モル質量で求める。
+  formula: n ＝ m ÷ M
+  keywords:
+  - 物質量
+  - アボガドロ
+  - モル質量
+  - 原子量
+  - 分子量
+  - 式量
+  points:
+  - pt-bunseki-0029
+  - pt-bunseki-0037
+  - pt-bunseki-0048
+  - pt-bunseki-0097
+  - pt-bunseki-0129
+  - pt-bunseki-0135
+  - pt-bunseki-0136
+  - pt-bunseki-0146
+  - pt-bunseki-0151
+  - pt-bunseki-0181
+  - pt-bunseki-0218
+  - pt-bunseki-0221
+  - pt-bunseki-0337
+  - pt-bunseki-0341
+  - pt-bunseki-0354
+- id: pr-bunseki-0020
+  subject: bunseki
+  name: 濃度の換算と単位
+  statement: 質量パーセント濃度、モル濃度、ppm、質量モル濃度の定義と、SI接頭語・体積の単位（1 L ＝ 10⁻³ m³）の換算。
+  formula: ''
+  keywords:
+  - mol·kg
+  - mol･kg
+  - μmol
+  - ppm
+  - 質量パーセント
+  - 質量モル濃度
+  - 単位
+  - SI
+  - 10⁻³m³
+  points:
+  - pt-bunseki-0073
+  - pt-bunseki-0079
+  - pt-bunseki-0250
+  - pt-bunseki-0335
+- id: pr-bunseki-0021
+  subject: bunseki
+  name: 希釈しても、溶質の物質量は変わらない
+  statement: 水を加えて薄めても、溶けている物質の量は、変わらない。希釈前後で、濃度×体積が等しい。
+  formula: c₁V₁ ＝ c₂V₂
+  keywords:
+  - 希釈
+  - 薄め
+  points: []
+- id: pr-bunseki-0022
+  subject: bunseki
+  name: 中和・酸化還元の量的関係
+  statement: 中和は、酸のH⁺の物質量＝塩基のOH⁻の物質量。酸化還元は、授受する電子の物質量が等しい。
+  formula: 価数 × 物質量が等しい
+  keywords:
+  - 中和
+  - 滴定
+  - 当量
+  - 酸化還元
+  - 価数
+  points:
+  - pt-bunseki-0264
+- id: pr-bunseki-0023
+  subject: bunseki
+  name: 標定と一次標準物質
+  statement: 標準液の正確な濃度は、純度が高く、安定で、秤量しやすい物質（一次標準物質）で、決める（標定）。
+  formula: ''
+  keywords:
+  - 標定
+  - 一次標準
+  - フタル酸
+  - 炭酸ナトリウム
+  - 硝酸銀
+  - シュウ酸
+  points:
+  - pt-bunseki-0036
+  - pt-bunseki-0210
+  - pt-bunseki-0280
+  - pt-bunseki-0304
+  - pt-bunseki-0393
+- id: pr-bunseki-0024
+  subject: bunseki
+  name: 有効数字と数値の丸め
+  statement: 足し算・引き算は、小数点以下の桁が最も少ないものに、掛け算・割り算は、有効数字の桁が最も少ないものに、合わせる。
+  formula: ''
+  keywords:
+  - 有効数字
+  - 丸め
+  - 小数点以下
+  points:
+  - pt-bunseki-0324
+  - pt-bunseki-0325
+  - pt-bunseki-0326
+  - pt-bunseki-0365
+  - pt-bunseki-0406
+- id: pr-bunseki-0025
+  subject: bunseki
+  name: 誤差と統計量
+  statement: 偏差は、測定値と平均値の差。分散は、偏差の2乗の平均で、独立な誤差の和や差では、分散が足し算になる。標準偏差は、分散の平方根。
+  formula: σ² ＝ σ₁² ＋ σ₂²
+  keywords:
+  - 標準偏差
+  - 分散
+  - 偏差
+  - 誤差
+  - 変動係数
+  points:
+  - pt-bunseki-0225
+  - pt-bunseki-0284
+- id: pr-bunseki-0026
+  subject: bunseki
+  name: 放射能の半減期
+  statement: 放射能（壊変する原子核の数）は、半減期ごとに、半分になる。
+  formula: N ＝ N₀ × (1/2)^(t/T)
+  keywords:
+  - 半減期
+  - 放射能
+  - Bq
+  points:
+  - pt-bunseki-0244
+  - pt-bunseki-0355
+  - pt-bunseki-0397
+- id: pr-bunseki-0027
+  subject: bunseki
+  name: 放射壊変と原子番号・質量数
+  statement: α壊変は、原子番号−2・質量数−4、β⁻壊変は、原子番号+1、軌道電子捕獲は、原子番号−1。同位体は、陽子数が同じで、中性子数が違う。
+  formula: ''
+  keywords:
+  - 壊変
+  - 軌道電子捕獲
+  - 質量数
+  - 同位体
+  - 陽子数
+  - 中性子
+  points:
+  - pt-bunseki-0051
+  - pt-bunseki-0063
+  - pt-bunseki-0082
+  - pt-bunseki-0251
+  - pt-bunseki-0387
+  - pt-bunseki-0390
+  - pt-bunseki-0467
+- id: pr-bunseki-0028
+  subject: bunseki
+  name: 理論段数と理論段相当高さ
+  statement: 理論段数が大きい（段相当高さが小さい）ほど、分離がよい。キャリアガスの流速には、段相当高さが最小になる最適値がある。
+  formula: N ＝ 16(tR/W)²、H ＝ A ＋ B/v ＋ Cv
+  keywords:
+  - 理論段
+  - 最適流速
+  - ファン
+  - 段相当高さ
+  points:
+  - pt-bunseki-0229
+  - pt-bunseki-0320
+- id: pr-bunseki-0029
+  subject: bunseki
+  name: 保持時間と溶出順
+  statement: カラム温度が高いほど、保持時間は短い。無極性カラムでは、沸点の低い順に溶出し、極性の高い物質は、保持が弱く、テーリングしやすい。
+  formula: ''
+  keywords:
+  - 保持時間
+  - 溶出
+  - テーリング
+  - 極性
+  points:
+  - pt-bunseki-0095
+  - pt-bunseki-0131
+  - pt-bunseki-0435
+- id: pr-bunseki-0030
+  subject: bunseki
+  name: 分配係数
+  statement: 2つの相の間の、物質の濃度の比。抽出やクロマトグラフの保持の大小を決める。
+  formula: K ＝ C₁ ÷ C₂
+  keywords:
+  - 分配係数
+  - 分配
+  points: []
+- id: pr-bunseki-0031
+  subject: bunseki
+  name: 検出器の原理
+  statement: FID：炭化水素の燃焼で生じるイオン。ECD：電子を捕まえやすい（ハロゲンなど）物質。TCD：熱伝導度の差。PID：紫外線によるイオン化。FPD：硫黄・リン。
+  formula: ''
+  keywords:
+  - 検出器
+  - FID
+  - ECD
+  - TCD
+  - PID
+  - FPD
+  - FTD
+  - 熱伝導度
+  points:
+  - pt-bunseki-0007
+  - pt-bunseki-0031
+  - pt-bunseki-0035
+  - pt-bunseki-0056
+  - pt-bunseki-0058
+  - pt-bunseki-0060
+  - pt-bunseki-0066
+  - pt-bunseki-0106
+  - pt-bunseki-0159
+  - pt-bunseki-0168
+  - pt-bunseki-0256
+  - pt-bunseki-0262
+  - pt-bunseki-0279
+- id: pr-bunseki-0032
+  subject: bunseki
+  name: 検量線法・標準添加法・内標準法
+  statement: 検量線法は、標準液と同じ条件で、濃度と応答を結ぶ。標準添加法は、試料の成分の影響を補正。内標準法は、注入量などの変動を補正する。
+  formula: ''
+  keywords:
+  - 検量線
+  - 標準添加
+  - 内標準
+  points:
+  - pt-bunseki-0061
+  - pt-bunseki-0064
+  - pt-bunseki-0065
+  - pt-bunseki-0070
+  - pt-bunseki-0081
+  - pt-bunseki-0271
+  - pt-bunseki-0283
+  - pt-bunseki-0309
+  - pt-bunseki-0311
+  - pt-bunseki-0312
+  - pt-bunseki-0343
+- id: pr-bunseki-0033
+  subject: bunseki
+  name: 拡散セルによる標準ガスの濃度
+  statement: 拡散速度は、チューブの断面積と温度（蒸気圧）に比例し、チューブの長さに反比例する。濃度＝拡散速度÷希釈空気の流量。
+  formula: ''
+  keywords:
+  - 拡散セル
+  - 拡散チューブ
+  - 標準ガス
+  points:
+  - pt-bunseki-0004
+  - pt-bunseki-0006
+  - pt-bunseki-0096
+  - pt-bunseki-0101
+  - pt-bunseki-0149
+  - pt-bunseki-0269
+  - pt-bunseki-0285
+  - pt-bunseki-0287
+  - pt-bunseki-0289
+  - pt-bunseki-0351
+  - pt-bunseki-0371
+- id: pr-bunseki-0034
+  subject: bunseki
+  name: 流量計の原理と校正
+  statement: 面積式流量計（ロータメーター）は、浮子の位置、湿式ガスメーターは、回転数、石けん膜流量計は、膜の通過時間で、流量を測る。ロータメーターの目盛りは、気体の種類や圧力で変わる。
+  formula: ''
+  keywords:
+  - 流量計
+  - ロータメ
+  - ガスメーター
+  - 石けん膜
+  points:
+  - pt-bunseki-0013
+  - pt-bunseki-0033
+  - pt-bunseki-0047
+  - pt-bunseki-0059
+  - pt-bunseki-0062
+  - pt-bunseki-0115
+  - pt-bunseki-0402
+- id: pr-bunseki-0035
+  subject: bunseki
+  name: 電気量とクーロン
+  statement: 電流（A）は、1秒あたりの電気量（C）。電気量は、電流×時間で、電子1 molの電気量は、ファラデー定数。
+  formula: Q ＝ I × t
+  keywords:
+  - クーロン
+  - 電流
+  - ファラデー
+  - C·s
+  points:
+  - pt-bunseki-0089
+- id: pr-bunseki-0036
+  subject: bunseki
+  name: 溶解度と極性（似たものは似たものを溶かす）
+  statement: 極性やイオン性の物質は、水のような極性溶媒に溶けやすく、無極性の物質は、無極性溶媒に溶けやすい。
+  formula: ''
+  keywords:
+  - 溶解度
+  - 水に溶け
+  - エタノール
+  - 溶けにく
+  points:
+  - pt-bunseki-0054
+  - pt-bunseki-0084
+  - pt-bunseki-0132
+  - pt-bunseki-0217
+  - pt-bunseki-0226
+  - pt-bunseki-0398
+  - pt-bunseki-0436
+  - pt-bunseki-0437
+- id: pr-bunseki-0037
+  subject: bunseki
+  name: 官能基と有機化合物の性質
+  statement: カルボキシ基（−COOH）は、カルボン酸、ヒドロキシ基（−OH）は、アルコール・フェノール、シアノ基（−CN）は、ニトリルの特徴。
+  formula: ''
+  keywords:
+  - COOH
+  - −OH
+  - -OH
+  - −CN
+  - -CN
+  - 官能基
+  - カルボン酸
+  - ニトリル
+  points:
+  - pt-bunseki-0091
+  - pt-bunseki-0140
+  - pt-bunseki-0235
+  - pt-bunseki-0237
+  - pt-bunseki-0239
+  - pt-bunseki-0240
+  - pt-bunseki-0479
+  - pt-bunseki-0482
+  - pt-bunseki-0483
+- id: pr-bunseki-0038
+  subject: bunseki
+  name: 酸・塩の水溶液のpH
+  statement: 強酸・強塩基は、ほぼ完全に電離する。弱酸と強塩基の塩は、塩基性、強酸と弱塩基の塩は、酸性を示す。
+  formula: pH ＝ −log[H⁺]
+  keywords:
+  - pH
+  - 水溶液.{0,8}(酸性|塩基性|中性)
+  - 電離
+  - 水素イオン
+  points:
+  - pt-bunseki-0133
+- id: pr-bunseki-0039
+  subject: bunseki
+  name: 光のエネルギーと波長
+  statement: 光のエネルギーは、波長に反比例する。波長が短い光ほど、エネルギーが大きい。
+  formula: E ＝ hc/λ
+  keywords:
+  - エネルギー.{0,10}波長
+  - 振動数
+  - 波長が短い
+  points: []
+- id: pr-bunseki-0040
+  subject: bunseki
+  name: 原子・イオンの電荷
+  statement: 中性の原子が電子を失うと、正の電荷をもつ陽イオンになり、電子を得ると、陰イオンになる。
+  formula: ''
+  keywords:
+  - 電子を失
+  - 電子を得
+  - 正に帯電
+  - 負に帯電
+  - イオン化
+  points:
+  - pt-bunseki-0075
+- id: pr-yuki-0001
+  subject: yuki
+  name: ランベルト・ベールの法則
+  statement: 吸光度は、溶液の濃度と、光が通る液層の長さ（光路長）の積に比例する。
+  formula: A ＝ ε × c × l
+  keywords:
+  - ランベルト
+  - 光路長
+  - 液層の長さ
+  - 吸光度.{0,12}(濃度|光路長|液層).{0,8}比例
+  points:
+  - pt-yuki-0017
+- id: pr-yuki-0002
+  subject: yuki
+  name: 吸光度と透過率の関係
+  statement: 吸光度は、透過率の逆数の常用対数。透過率が大きいほど、吸光度は小さく、濃度は低い。
+  formula: A ＝ −log₁₀T ＝ 2 − log₁₀T（Tは透過率％）
+  keywords:
+  - 透過率
+  - 吸光度.{0,10}対数
+  - log
+  points:
+  - pt-yuki-0020
+  - pt-yuki-0024
+  - pt-yuki-0041
+  - pt-yuki-0060
+- id: pr-yuki-0003
+  subject: yuki
+  name: モル吸光係数の性質
+  statement: モル吸光係数は、物質・波長・溶媒で決まり、濃度や光路長に依存しない。大きいほど高感度。濃度1 mol/L・光路長1 cmのときの吸光度に等しい。
+  formula: ε ＝ A ÷ (c × l)
+  keywords:
+  - モル吸光係数
+  points:
+  - pt-yuki-0053
+  - pt-yuki-0230
+  - pt-yuki-0262
+- id: pr-yuki-0004
+  subject: yuki
+  name: セル・光源の材質と波長（ガラスは紫外を吸収する）
+  statement: ガラスやプラスチックは、紫外光を吸収するので、紫外部の測定は、石英セルと重水素ランプ。可視部は、タングステンランプ。光は、光源→モノクロメータ→試料セル→検出器の順に通る。
+  formula: ''
+  keywords:
+  - セル
+  - 光源
+  - 重水素
+  - タングステン
+  - モノクロメータ
+  - 光電子増倍管
+  - 波長範囲
+  points:
+  - pt-yuki-0006
+  - pt-yuki-0013
+  - pt-yuki-0047
+  - pt-yuki-0175
+  - pt-yuki-0196
+  - pt-yuki-0219
+  - pt-yuki-0271
+- id: pr-yuki-0005
+  subject: yuki
+  name: 溶液の色と吸収波長（補色の関係）
+  statement: 溶液の色は、吸収した光の補色として見える。青色溶液は、赤〜橙（長波長側）の光を吸収し、赤色溶液は、緑〜青（短波長側）の光を吸収する。
+  formula: ''
+  keywords:
+  - 青色溶液
+  - 赤色溶液
+  - 吸収波長域
+  points:
+  - pt-yuki-0009
+- id: pr-yuki-0006
+  subject: yuki
+  name: 発色反応の測定条件
+  statement: 測定は、感度が最大で、波長のずれの影響が小さい吸収極大の波長で行う。加熱して発色させたら常温に戻して測り、退色する液は、安定な時間内に測る。吸収極大やモル吸光係数は、pHや時間で変わる。
+  formula: ''
+  keywords:
+  - 吸収極大
+  - 退色
+  - 加熱
+  - 呈色
+  - 発色
+  points:
+  - pt-yuki-0054
+  - pt-yuki-0065
+  - pt-yuki-0066
+  - pt-yuki-0073
+  - pt-yuki-0095
+  - pt-yuki-0105
+  - pt-yuki-0267
+- id: pr-yuki-0007
+  subject: yuki
+  name: 理論段数と理論段相当高さ
+  statement: 理論段数が大きい（段相当高さが小さい）ほど、分離がよく、ピーク幅は狭い。カラムが長いほど、理論段数は、長さに比例して大きい。
+  formula: N ＝ L ÷ H
+  keywords:
+  - 理論段
+  - 段相当高さ
+  - ピーク幅.{0,6}狭
+  - カラム長さ
+  - カラムの長さ
+  points:
+  - pt-yuki-0011
+  - pt-yuki-0035
+  - pt-yuki-0077
+  - pt-yuki-0122
+  - pt-yuki-0141
+  - pt-yuki-0257
+  - pt-yuki-0270
+  - pt-yuki-0285
+- id: pr-yuki-0008
+  subject: yuki
+  name: キャリアガスの流速とカラム効率
+  statement: キャリアガスの線速度が速いほど、保持時間は短くなる（反比例）。理論段相当高さには、最小になる最適の流速があり、最適線速度は、ガスの種類で違う。ピークの広がりには、渦流拡散や縦拡散が関係する。
+  formula: H ＝ A ＋ B/v ＋ Cv
+  keywords:
+  - 線速度
+  - 流速
+  - 渦流拡散
+  - 最適
+  - キャリアガスの種類
+  points:
+  - pt-yuki-0001
+  - pt-yuki-0019
+  - pt-yuki-0023
+  - pt-yuki-0056
+  - pt-yuki-0067
+  - pt-yuki-0114
+  - pt-yuki-0134
+- id: pr-yuki-0009
+  subject: yuki
+  name: 保持時間と溶出順（沸点・極性・温度）
+  statement: カラム温度が高いほど、保持時間は短い。無極性カラムでは、沸点の低い順に溶出し、極性液相では、極性の高い物質の保持が強く、保持時間が長い。
+  formula: ''
+  keywords:
+  - 保持時間
+  - 溶出
+  - 極性
+  - 沸点の低い順
+  - カラム温度
+  points:
+  - pt-yuki-0046
+  - pt-yuki-0128
+  - pt-yuki-0211
+- id: pr-yuki-0010
+  subject: yuki
+  name: 分配平衡と分離
+  statement: 成分が、移動相と固定相に分配される平衡は、速やかに成立する。成分ごとに、分配の割合が違うので、カラム内の移動速度が違い、分離される。
+  formula: ''
+  keywords:
+  - 分配平衡
+  - 分配
+  - 移動速度
+  - 移動相と固定相
+  points:
+  - pt-yuki-0021
+  - pt-yuki-0127
+- id: pr-yuki-0011
+  subject: yuki
+  name: 検出器の原理
+  statement: FID：炭化水素の燃焼で生じるイオン。ECD：β線で生じる電子を、電子を捕まえやすい物質（ハロゲンなど）が減らす。FPD：硫黄・リンの発光。TCD：熱伝導度の差。MS：イオンの質量電荷比。
+  formula: ''
+  keywords:
+  - 検出器
+  - FID
+  - ECD
+  - FPD
+  - TCD
+  - 熱伝導度
+  - 応答直線範囲
+  - ほとんどの有機化合物
+  points:
+  - pt-yuki-0007
+  - pt-yuki-0008
+  - pt-yuki-0048
+  - pt-yuki-0094
+  - pt-yuki-0096
+  - pt-yuki-0119
+  - pt-yuki-0129
+  - pt-yuki-0166
+  - pt-yuki-0177
+  - pt-yuki-0253
+- id: pr-yuki-0012
+  subject: yuki
+  name: FIDの感度は炭素数に比例する
+  statement: FIDは、C−Hが燃えて生じるイオンを検出する。同族体では、炭素数にほぼ比例して感度が上がり、C−Hのない二硫化炭素などは、感度が低い。
+  formula: ''
+  keywords:
+  - イオン発生量
+  - 炭素数
+  - 二硫化炭素に対する感度
+  - 炭化水素の分析
+  points:
+  - pt-yuki-0015
+  - pt-yuki-0027
+  - pt-yuki-0147
+- id: pr-yuki-0013
+  subject: yuki
+  name: カラムの種類と性能（キャピラリーと充填）
+  statement: キャピラリーカラムは、内径が細く、渦流拡散が小さいので、理論段数が大きい。試料負荷量は小さく、キャリアガス流量も少ない。充填カラムは、負荷量が大きい。
+  formula: ''
+  keywords:
+  - キャピラリ
+  - 充填カラム
+  - 充塡カラム
+  - 試料負荷量
+  - 導入量
+  - 試料導入部
+  points:
+  - pt-yuki-0037
+  - pt-yuki-0039
+  - pt-yuki-0063
+  - pt-yuki-0076
+  - pt-yuki-0079
+  - pt-yuki-0081
+  - pt-yuki-0183
+  - pt-yuki-0195
+- id: pr-yuki-0014
+  subject: yuki
+  name: GC-MSのイオン化と質量分離
+  statement: 電子イオン化（EI）では、熱電子で、分子イオンとフラグメントイオンが生じる。条件により、分子イオンが見えないこともある。定量は、ターゲットイオンのピーク面積や高さで行う。
+  formula: ''
+  keywords:
+  - イオン化
+  - 分子イオン
+  - フラグメント
+  - 質量分析
+  - 四重極
+  - ターゲットイオン
+  - 質量分離
+  points:
+  - pt-yuki-0040
+  - pt-yuki-0097
+  - pt-yuki-0101
+  - pt-yuki-0118
+  - pt-yuki-0140
+  - pt-yuki-0161
+  - pt-yuki-0186
+  - pt-yuki-0261
+  - pt-yuki-0286
+  - pt-yuki-0293
+- id: pr-yuki-0015
+  subject: yuki
+  name: 検量線法・内標準法・標準添加法
+  statement: 検量線法は、標準液の濃度と応答を結び、測定のたびに作成する。内標準法は、注入量などの変動を補正するため、目的物質によく似た内標準物質を使う。検量線の範囲を超えたら、希釈する（外挿しない）。
+  formula: ''
+  keywords:
+  - 検量線
+  - 内標準
+  - 標準添加
+  - 標準系列
+  points:
+  - pt-yuki-0018
+  - pt-yuki-0034
+  - pt-yuki-0075
+  - pt-yuki-0165
+  - pt-yuki-0168
+  - pt-yuki-0205
+- id: pr-yuki-0016
+  subject: yuki
+  name: 定量下限と標準偏差
+  statement: 定量下限は、標準偏差の10倍、検出下限は3倍。標準偏差は、管理濃度の1/10相当の標準試料を、繰り返し測定して、測定値から求める。
+  formula: 定量下限 ＝ 10σ、検出下限 ＝ 3σ
+  keywords:
+  - 定量下限
+  - 検出下限
+  - 標準偏差
+  - 管理濃度の1/10
+  points:
+  - pt-yuki-0028
+  - pt-yuki-0031
+  - pt-yuki-0070
+  - pt-yuki-0202
+- id: pr-yuki-0017
+  subject: yuki
+  name: 標準液の調製と保存
+  statement: 標準液は、質量で調製すると、温度の影響を受けない。容量で調製するときは、温度の影響を受ける。保存可能期間は、溶質と溶媒の組合せで違う。
+  formula: ''
+  keywords:
+  - 標準液
+  - 標準原液
+  - 標準溶液
+  - 保存可能期間
+  - 全量ピペット
+  - 質量モル濃度
+  points:
+  - pt-yuki-0086
+  - pt-yuki-0110
+- id: pr-yuki-0018
+  subject: yuki
+  name: 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
+  statement: 活性炭は、表面積が大きく、無極性の溶剤をよく吸着する。シリカゲルは、極性の溶剤を吸着し、水分で吸着容量が変わる。ポーラスポリマーは、反応性が低く、加熱脱着が容易。
+  formula: ''
+  keywords:
+  - 活性炭
+  - シリカゲル
+  - ポーラスポリマー
+  - 吸着
+  - 脱着
+  points:
+  - pt-yuki-0032
+  - pt-yuki-0055
+  - pt-yuki-0071
+  - pt-yuki-0176
+  - pt-yuki-0232
+  - pt-yuki-0260
+  - pt-yuki-0282
+- id: pr-yuki-0019
+  subject: yuki
+  name: 液体捕集の捕集率
+  statement: 気泡が細かい（接触面積が大きい）、液の温度が低い、気泡の滞留時間が長い（流量が小さい）ほど、ガスは、捕集液によく溶け、捕集率が高い。
+  formula: ''
+  keywords:
+  - 気泡
+  - 捕集液
+  - 捕集率
+  - 滞留時間
+  - 小型ガス吸収管
+  - ミゼット
+  - バブラー
+  points:
+  - pt-yuki-0082
+  - pt-yuki-0084
+  - pt-yuki-0093
+  - pt-yuki-0146
+  - pt-yuki-0148
+  - pt-yuki-0269
+  - pt-yuki-0288
+- id: pr-yuki-0020
+  subject: yuki
+  name: 流量計の校正と圧力損失
+  statement: 石けん膜流量計は、基準として、他の流量計の校正に使える。ポンプの流量は、使うときと同じ状態（捕集管を接続）で調整する。圧力損失が大きいと、流量計の指示値は、真の流量とずれるので、補正する。
+  formula: ''
+  keywords:
+  - 流量計
+  - 石けん膜
+  - 圧力損失
+  - 流量調整
+  - 差圧計
+  - 電動ポンプ
+  points:
+  - pt-yuki-0004
+  - pt-yuki-0026
+  - pt-yuki-0052
+  - pt-yuki-0062
+- id: pr-yuki-0021
+  subject: yuki
+  name: 真空捕集びんと捕集袋の使い方
+  statement: 真空捕集びんは、びん内の圧力が上がるにつれて、吸引流量が下がり、一定ではない。コックにグリースは使わない（試料を吸着する）。捕集袋は、洗浄して使い、5 L以上のものを使う。
+  formula: ''
+  keywords:
+  - 真空捕集
+  - 捕集袋
+  - コック
+  - グリース
+  - 内容積
+  - 試料空気の保存
+  - 保存する
+  points:
+  - pt-yuki-0010
+  - pt-yuki-0025
+  - pt-yuki-0206
+- id: pr-yuki-0022
+  subject: yuki
+  name: 検知管の原理と使い方
+  statement: 検知剤と気体の反応は、温度が高いほど速く、検知管の濃度目盛りは、20℃基準。気圧が高いと、指示値は高く、低いと低く出る。作業場所の室温にしてから使う。
+  formula: ''
+  keywords:
+  - 検知管
+  - 検知剤
+  - 変色層
+  - 気圧
+  - 反応速度
+  points:
+  - pt-yuki-0042
+  - pt-yuki-0044
+  - pt-yuki-0059
+  - pt-yuki-0213
+  - pt-yuki-0248
+  - pt-yuki-0278
+- id: pr-yuki-0023
+  subject: yuki
+  name: 沸点・蒸気圧・融点・分子量の比較
+  statement: 分子量が大きく、分子間力（水素結合など）が強いほど、沸点は高く、蒸気圧は低い。沸点が低い物質ほど、同じ温度での蒸気圧が高い。
+  formula: ''
+  keywords:
+  - 沸点
+  - 蒸気圧
+  - 融点
+  - 分子量
+  - 分子の大きさ
+  points:
+  - pt-yuki-0133
+  - pt-yuki-0218
+  - pt-yuki-0238
+  - pt-yuki-0251
+  - pt-yuki-0264
+  - pt-yuki-0266
+- id: pr-yuki-0024
+  subject: yuki
+  name: 気体の体積とppm濃度の換算
+  statement: 25℃・1気圧の気体1 molの体積は、24.45 L。体積分率（ppm）は、質量濃度÷モル質量×24.45で求める。
+  formula: ppm ＝ mg/m³ × 24.45 ÷ M
+  keywords:
+  - ppm
+  - '24.45'
+  - モル体積
+  - 体積分率
+  - 気体の体積
+  points: []
+- id: pr-yuki-0025
+  subject: yuki
+  name: 有機溶剤の水への溶解（極性・水酸基）
+  statement: 水酸基など、水と水素結合をつくる基をもつ溶剤や、極性の高い溶剤は、水に溶けやすい。無極性の溶剤は、水に溶けにくい。
+  formula: ''
+  keywords:
+  - 水に溶け
+  - 水への溶解
+  - 溶解性
+  - 混和
+  - 水と任意
+  points: []
+- id: pr-yuki-0026
+  subject: yuki
+  name: 光の吸収と波長範囲
+  statement: 分光光度計で使う波長の範囲は、紫外〜可視の約200〜1000 nm。光の波長が短いほど、エネルギーが大きい。
+  formula: ''
+  keywords:
+  - 波長範囲
+  - '200'
+  - 1000nm
+  - エネルギー
+  points: []
+- id: pr-tokka-0001
+  subject: tokka
+  name: ランベルト・ベールの法則
+  statement: 吸光度は、溶液の濃度と光路長の積に比例し、入射光の強度には依存しない。
+  formula: A ＝ ε × c × l
+  keywords:
+  - ランベルト
+  - 光路長
+  - 吸光度.{0,12}(濃度|光路長|液層).{0,8}比例
+  - 入射光の強
+  points:
+  - pt-tokka-0017
+  - pt-tokka-0033
+- id: pr-tokka-0002
+  subject: tokka
+  name: ガラスは紫外光を吸収する（セルの材質と波長）
+  statement: ガラスは、紫外部の光を吸収するので、紫外部の測定には、石英セルを使う。
+  formula: ''
+  keywords:
+  - ガラス製のセル
+  - 石英セル
+  - 紫外部の光を吸収
+  - ガラスセル
+  points:
+  - pt-tokka-0004
+  - pt-tokka-0057
+- id: pr-tokka-0003
+  subject: tokka
+  name: 逆相クロマトグラフの原理（固定相は低極性）
+  statement: 逆相では、固定相が低極性（オクタデシル基など）、移動相が高極性（水系）。シリカ基材のODSカラムは、強塩基性や強酸性の移動相で、化学的に劣化する。
+  formula: ''
+  keywords:
+  - 逆相
+  - ODS
+  - 移動相
+  - 固定相
+  points:
+  - pt-tokka-0005
+  - pt-tokka-0025
+- id: pr-tokka-0004
+  subject: tokka
+  name: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+  statement: FID：燃焼でイオン化する物質のみ。FPD：還元炎で硫黄・リンの発光。ECD：ハロゲンなど電子を捕まえやすい物質（直線範囲は狭い）。電気化学検出器：酸化・還元される物質。紫外可視検出器：紫外可視部に吸収のある物質。
+  formula: ''
+  keywords:
+  - 検出器
+  - FID
+  - FPD
+  - ECD
+  - 還元炎
+  - 電気化学
+  - 紫外可視
+  - 直線性
+  points:
+  - pt-tokka-0006
+  - pt-tokka-0013
+  - pt-tokka-0020
+  - pt-tokka-0028
+  - pt-tokka-0039
+  - pt-tokka-0065
+  - pt-tokka-0066
+  - pt-tokka-0067
+  - pt-tokka-0071
+- id: pr-tokka-0005
+  subject: tokka
+  name: 拡散セルによる標準ガスの発生
+  statement: 拡散速度は、拡散チューブの断面積（内径の2乗）と温度（蒸気圧）に比例し、チューブの有効長に反比例する。拡散速度は、液体の質量の減少から求める。
+  formula: ''
+  keywords:
+  - 拡散セル
+  - 拡散速度
+  - 拡散チューブ
+  - 標準ガス
+  - 恒温槽
+  points:
+  - pt-tokka-0012
+  - pt-tokka-0022
+  - pt-tokka-0024
+  - pt-tokka-0027
+  - pt-tokka-0029
+- id: pr-tokka-0006
+  subject: tokka
+  name: 活性炭への吸着と脱着
+  statement: 活性炭は、有機化合物を吸着し、二硫化炭素などの溶媒で脱着する。捕集後の管は、冷蔵保存して、変質や損失を防ぐ。
+  formula: ''
+  keywords:
+  - 活性炭
+  - 脱着
+  - 固体捕集法
+  - 冷蔵保存
+  points: []
+- id: pr-tokka-0007
+  subject: tokka
+  name: 酸性ガスは塩基性の捕集液に吸収される
+  statement: シアン化水素・硫化水素・フッ化水素などの酸性ガスは、水酸化ナトリウム溶液で中和され、イオンとして捕集される。
+  formula: ''
+  keywords:
+  - 捕集液
+  - 水酸化ナトリウム
+  - 酸性
+  points:
+  - pt-tokka-0002
+- id: pr-tokka-0008
+  subject: tokka
+  name: 標定・滴定の量的関係
+  statement: 標準原液の濃度は、既知濃度の滴定液との反応の量的関係（当量点）から決める。
+  formula: ''
+  keywords:
+  - 標定
+  - 滴定
+  - 硝酸銀
+  - チオ硫酸
+  points: []
+- id: pr-tokka-0009
+  subject: tokka
+  name: 酸化剤・還元剤の働き
+  statement: 電子を受け取る物質は酸化剤、与える物質は還元剤。塩化鉄(Ⅲ)は、Fe³⁺がFe²⁺に還元されるので、酸化剤。
+  formula: ''
+  keywords:
+  - 酸化剤
+  - 還元剤
+  points:
+  - pt-tokka-0037
+- id: pr-tokka-0010
+  subject: tokka
+  name: 芳香族アミンのジアゾカップリング発色
+  statement: 芳香族アミンは、亜硝酸で、ジアゾ化されて、カップリング試薬と反応し、アゾ色素を生じる。硫化水素は、メチレンブルー法で定量する。
+  formula: ''
+  keywords:
+  - ジアゾ
+  - スルファニル酸
+  - メチレンブルー
+  - クロラミンT
+  - ピリジン-ピラゾロン
+  - カップリング
+  points: []
+- id: pr-tokka-0011
+  subject: tokka
+  name: 沸点・融点・蒸気圧の比較（分子間力）
+  statement: 分子量が大きいほど、また、分子間力が強いほど、沸点が高い。常温で気体か液体かは、沸点と室温の比較で決まる。水の沸点は100℃、融点は0℃。
+  formula: ''
+  keywords:
+  - 沸点
+  - 融点
+  - 蒸気圧
+  - 水の融点
+  - 水の沸点
+  points:
+  - pt-tokka-0034
+  - pt-tokka-0035
+  - pt-tokka-0040
+- id: pr-tokka-0012
+  subject: tokka
+  name: 理論段数とカラムの内径
+  statement: カラムの内径が小さいほど、理論段数（段数あたりの高さの逆数）は大きく、分離がよい。
+  formula: ''
+  keywords:
+  - 理論段
+  - カラムの内径
+  - 内径が小さい
+  points:
+  - pt-tokka-0023
+- id: pr-tokka-0013
+  subject: tokka
+  name: 真空捕集びん・捕集袋の使い方
+  statement: 真空捕集びんのコックに、グリースは使わない。捕集袋は、清浄な乾燥空気や窒素で洗浄して使う。電動ポンプを通して採取するときは、ポンプ内の汚染・吸着に注意する。
+  formula: ''
+  keywords:
+  - 真空捕集
+  - 捕集袋
+  - グリース
+  - コック
+  - 電動ポンプ
+  - 水分を取り除く
+  - 乾燥剤
+  points: []
+- id: pr-kinzoku-0001
+  subject: kinzoku
+  name: ランベルト・ベールの法則
+  statement: 吸光度は、濃度と光路長の積に比例する。モル吸光係数は、波長・溶媒に依存し、濃度に依存しない。
+  formula: A ＝ ε × c × l
+  keywords:
+  - ランベルト
+  - 光路長
+  - モル吸光係数
+  - 吸光度.{0,12}(濃度|光路長).{0,8}比例
+  points:
+  - pt-kinzoku-0022
+- id: pr-kinzoku-0002
+  subject: kinzoku
+  name: 吸光度測定の条件（吸収極大・加熱後は常温）
+  statement: 測定は、感度が最大の吸収極大の波長で行う。加熱して発色させたら、常温に戻して測る。紫外部は、重水素放電管と石英セル、可視部は、タングステンランプ。
+  formula: ''
+  keywords:
+  - 極大吸収
+  - 吸収極大
+  - 常温に戻
+  - タングステン
+  - 重水素放電管
+  - 石英セル
+  points:
+  - pt-kinzoku-0039
+  - pt-kinzoku-0040
+  - pt-kinzoku-0051
+  - pt-kinzoku-0085
+  - pt-kinzoku-0093
+- id: pr-kinzoku-0003
+  subject: kinzoku
+  name: 蛍光は励起光より長波長・直角方向で測る
+  statement: 吸収した光のエネルギーの一部が失われるので、蛍光は、励起光より長波長。励起光の影響を避けるため、直角方向で測る。
+  formula: ''
+  keywords:
+  - 蛍光.{0,12}波長
+  - 励起光
+  - 直角方向
+  - 励起波長
+  points:
+  - pt-kinzoku-0003
+  - pt-kinzoku-0005
+- id: pr-kinzoku-0004
+  subject: kinzoku
+  name: 蛍光を弱める要因と、測るもの
+  statement: 蛍光の強度は、温度・pH・溶存酸素・粘性・共存物質の影響を受ける。金属イオンそのものではなく、蛍光を出すキレート錯体を測る。
+  formula: ''
+  keywords:
+  - 蛍光.{0,10}(温度|pH|粘性)
+  - 溶存酸素
+  - 蛍光強度を測定
+  - モリン
+  points:
+  - pt-kinzoku-0009
+  - pt-kinzoku-0053
+- id: pr-kinzoku-0005
+  subject: kinzoku
+  name: 原子吸光は基底状態の原子の光吸収
+  statement: フレーム中の原子の大部分は、基底状態にあり、それが光を吸収する。吸光度は、光路長と基底状態の原子の濃度の積に比例する。
+  formula: ''
+  keywords:
+  - 基底状態
+  - 励起状態
+  - 光路長と
+  points:
+  - pt-kinzoku-0041
+- id: pr-kinzoku-0006
+  subject: kinzoku
+  name: 原子吸光の光源は線光源
+  statement: 中空陰極ランプは、陰極が測定元素の金属でできており、封入ガスのイオンの衝突で、固有の輝線を出す。至適電流値で使い、輝線の線幅は、吸収線より狭い。
+  formula: ''
+  keywords:
+  - 中空陰極
+  - 輝線
+  - 線幅
+  - 至適電流
+  points:
+  - pt-kinzoku-0033
+  - pt-kinzoku-0036
+  - pt-kinzoku-0048
+  - pt-kinzoku-0070
+- id: pr-kinzoku-0007
+  subject: kinzoku
+  name: バックグラウンド補正
+  statement: 広い波長の光源（重水素ランプなど）で、分子による吸収や散乱を測って、差し引く。
+  formula: ''
+  keywords:
+  - バックグラウンド
+  - 重水素ランプ
+  points:
+  - pt-kinzoku-0058
+- id: pr-kinzoku-0008
+  subject: kinzoku
+  name: フレームの種類と原子化
+  statement: アセチレン-空気炎は、多くの金属に使う。アセチレンの流量を少なくした炎は、燃料不足の酸化炎。電気加熱炉は、感度が高く、再現性は劣り、高温が必要。
+  formula: ''
+  keywords:
+  - アセチレン
+  - フレーム
+  - 電気加熱
+  - 原子化
+  - 高温
+  - 感度が高い
+  - 再現性
+  points:
+  - pt-kinzoku-0006
+  - pt-kinzoku-0017
+  - pt-kinzoku-0035
+  - pt-kinzoku-0049
+  - pt-kinzoku-0083
+  - pt-kinzoku-0108
+- id: pr-kinzoku-0009
+  subject: kinzoku
+  name: 干渉とその抑制
+  statement: 共存物質による干渉（スペクトル・化学・イオン化）がある。塩化ナトリウムは、分光干渉を起こし、鉄の共存は、測定値に影響する。抑制剤（塩化アルミニウムなど）を加える。
+  formula: ''
+  keywords:
+  - 干渉
+  - 共存
+  - 抑制
+  - 分光干渉
+  points:
+  - pt-kinzoku-0023
+  - pt-kinzoku-0064
+  - pt-kinzoku-0065
+  - pt-kinzoku-0075
+  - pt-kinzoku-0079
+- id: pr-kinzoku-0010
+  subject: kinzoku
+  name: ICPの原理
+  statement: アルゴンプラズマは、高温で、励起状態の原子・イオンが発光する。多元素同時分析ができ、化学干渉やイオン化干渉が小さい。試料溶液の粘性や酸濃度の影響を受ける。
+  formula: ''
+  keywords:
+  - プラズマ
+  - ICP
+  - 多元素
+  - アルゴン
+  - 粘性
+  - 酸濃度
+  points:
+  - pt-kinzoku-0045
+  - pt-kinzoku-0056
+  - pt-kinzoku-0062
+  - pt-kinzoku-0090
+  - pt-kinzoku-0102
+- id: pr-kinzoku-0011
+  subject: kinzoku
+  name: 水素化物発生法の還元
+  statement: ヒ素を、水素化ホウ素ナトリウムや亜鉛粉末で、還元して、水素化物（アルシン）にする。予備還元に、塩化スズ(Ⅱ)とヨウ化カリウム。
+  formula: ''
+  keywords:
+  - 水素化
+  - アルシン
+  - ヒ素
+  - 予備還元
+  points:
+  - pt-kinzoku-0004
+  - pt-kinzoku-0016
+  - pt-kinzoku-0027
+  - pt-kinzoku-0031
+  - pt-kinzoku-0061
+- id: pr-kinzoku-0012
+  subject: kinzoku
+  name: 水銀の酸化・還元
+  statement: 水銀は、過マンガン酸カリウムで酸化して捕集する。過剰の過マンガン酸カリウムは、塩酸ヒドロキシルアミンで還元し、水銀(Ⅱ)は、塩化スズ(Ⅱ)で、水銀原子に還元する。
+  formula: ''
+  keywords:
+  - 水銀
+  - 過マンガン酸
+  - 塩化スズ
+  - 塩酸ヒドロキシルアミン
+  - 還元気化
+  points:
+  - pt-kinzoku-0002
+  - pt-kinzoku-0012
+  - pt-kinzoku-0026
+  - pt-kinzoku-0076
+- id: pr-kinzoku-0013
+  subject: kinzoku
+  name: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+  statement: キレート剤（APDC・DDTCなど）は、金属と錯体をつくり、MIBKに抽出される。錯体は、pHや時間に依存し、不安定なものは、速やかに測る。
+  formula: ''
+  keywords:
+  - APDC
+  - DDTC
+  - MIBK
+  - キレート
+  - 錯体
+  - 抽出
+  points:
+  - pt-kinzoku-0008
+  - pt-kinzoku-0011
+  - pt-kinzoku-0030
+  - pt-kinzoku-0067
+  - pt-kinzoku-0081
+  - pt-kinzoku-0091
+  - pt-kinzoku-0100
+  - pt-kinzoku-0104
+- id: pr-kinzoku-0014
+  subject: kinzoku
+  name: 酸の性質と試料の溶解
+  statement: 硝酸は、酸化力があり、多くの金属を溶かす。硫酸は、硫酸イオンの干渉がある。金属酸化物は、酸に溶ける。
+  formula: ''
+  keywords:
+  - 硝酸
+  - 塩酸
+  - 硫酸
+  - 溶ける
+  - 溶解
+  - 酸化力
+  points:
+  - pt-kinzoku-0034
+  - pt-kinzoku-0044
+  - pt-kinzoku-0066
+- id: pr-kinzoku-0015
+  subject: kinzoku
+  name: 周期律（イオン化エネルギー・イオン半径）
+  statement: 同じ族では、原子番号が大きいほど、イオン半径が大きく、イオン化エネルギーが小さい。
+  formula: ''
+  keywords:
+  - イオン化エネルギー
+  - イオン半径
+  - 原子半径
+  - 周期表
+  points:
+  - pt-kinzoku-0068
+  - pt-kinzoku-0074
+  - pt-kinzoku-0428
+- id: pr-kinzoku-0016
+  subject: kinzoku
+  name: 標準液の調製（化合物から金属量を求める）
+  statement: 標準液は、純度の高い化合物（酸化物・塩）を、溶解して調製する。化合物中の金属の質量割合から、必要量を求める。
+  formula: ''
+  keywords:
+  - 標準液
+  - 標準原液
+  - 調製
+  - メタバナジン
+  - 二クロム酸
+  - 酸化マンガン
+  points: []
+- id: pr-kinzoku-0017
+  subject: kinzoku
+  name: ろ過捕集（ろ過材と面速）
+  statement: ろ過材は、金属の分析に、空試験値が低く、酸に溶けやすいものを選ぶ。面速は一定に保つ。
+  formula: ''
+  keywords:
+  - ろ紙
+  - ろ過材
+  - 面速
+  - フィルター
+  - 捕集
+  points: []
+- id: pr-kinzoku-0018
+  subject: kinzoku
+  name: 緩衝剤・マスキング剤・還元剤
+  statement: 酢酸ナトリウム、酢酸アンモニウム：pH緩衝。酒石酸塩：マスキング。塩酸ヒドロキシルアミン、アスコルビン酸：還元剤。
+  formula: ''
+  keywords:
+  - 緩衝
+  - マスキング
+  - 還元剤
+  - アスコルビン酸
+  points:
+  - pt-kinzoku-0018
+  - pt-kinzoku-0025
+  - pt-kinzoku-0105
+- id: pr-funjin-0001
+  subject: funjin
+  name: 粒子のブラウン運動と拡散
+  statement: 小さい粒子ほど、また、温度が高いほど、拡散係数が大きい。粒径5 µm以上では、拡散は無視できる。拡散で衝突・凝集して、個数濃度が減る速度は、個数濃度による。
+  formula: ''
+  keywords:
+  - ブラウン運動
+  - 拡散係数
+  - 拡散効果
+  - 凝集
+  points:
+  - pt-funjin-0022
+  - pt-funjin-0055
+  - pt-funjin-0065
+  - pt-funjin-0086
+- id: pr-funjin-0002
+  subject: funjin
+  name: 帯電粒子の電界中の移動
+  statement: 帯電量が同じなら、粒径が小さいほど、移動速度が速い（粒子の抵抗が小さい）。電界強度に比例する。
+  formula: ''
+  keywords:
+  - 電界中
+  - 帯電量
+  - 平衡帯電
+  points:
+  - pt-funjin-0005
+- id: pr-funjin-0003
+  subject: funjin
+  name: 遠心力場の粒子の運動
+  statement: 遠心力は、回転半径と角速度の2乗に比例し、粒子の移動速度は、遠心力に比例する。
+  formula: ''
+  keywords:
+  - 遠心力
+  - 角速度
+  - 回転半径
+  points:
+  - pt-funjin-0033
+  - pt-funjin-0097
+- id: pr-funjin-0004
+  subject: funjin
+  name: ろ過捕集の機構（慣性・さえぎり・拡散・重力）
+  statement: 1 µm以上は、慣性・さえぎり・重力、0.1 µm以下は、拡散で捕集され、その間（0.1〜0.3 µm）で、捕集効率が最も低い。
+  formula: ''
+  keywords:
+  - さえぎり
+  - 捕集効率
+  - 0.1～0.3
+  - 繊維層
+  - 拡散作用
+  points:
+  - pt-funjin-0015
+  - pt-funjin-0025
+  - pt-funjin-0110
+- id: pr-funjin-0005
+  subject: funjin
+  name: ろ過材の圧力損失
+  statement: 圧力損失は、ろ過面の流速にほぼ比例する。圧力損失が大きいと、流量計の指示値は、真の流量とずれる。
+  formula: ''
+  keywords:
+  - 圧力損失
+  points:
+  - pt-funjin-0008
+  - pt-funjin-0050
+- id: pr-funjin-0006
+  subject: funjin
+  name: 慣性衝突式分粒の原理
+  statement: 50％分粒粒径は、ノズルを通る空気の速度が速い（流量が大きい）ほど、小さい。粒子の密度が大きいほど、小さい。衝突板の付着物が増えると、粗い粒子が通過する。
+  formula: ''
+  keywords:
+  - インパクター
+  - 分粒
+  - 50%分粒
+  - 衝突板
+  - ノズル
+  points:
+  - pt-funjin-0028
+  - pt-funjin-0063
+  - pt-funjin-0079
+- id: pr-funjin-0007
+  subject: funjin
+  name: 光散乱の原理（粒径・屈折率・波長・角度）
+  statement: 散乱光の強度は、粒径・屈折率・波長・散乱角度によって変わる。同じ質量濃度なら、小さい粒子のほうが、個数が多く、指示値が大きい。
+  formula: ''
+  keywords:
+  - 散乱光
+  - 光散乱
+  - 屈折率
+  - 粉じん計
+  - 相対濃度
+  points:
+  - pt-funjin-0009
+  - pt-funjin-0014
+  - pt-funjin-0075
+  - pt-funjin-0076
+  - pt-funjin-0119
+- id: pr-funjin-0008
+  subject: funjin
+  name: 質量濃度変換係数の定義と変動要因
+  statement: 変換係数は、質量濃度÷相対濃度で、粉じんの種類・粒径・光源で変わる。
+  formula: K ＝ 質量濃度 ÷ 相対濃度
+  keywords:
+  - 質量濃度変換係数
+  - 変換係数
+  - 併行測定
+  points:
+  - pt-funjin-0032
+  - pt-funjin-0051
+  - pt-funjin-0052
+  - pt-funjin-0092
+  - pt-funjin-0093
+  - pt-funjin-0121
+- id: pr-funjin-0009
+  subject: funjin
+  name: 流量計の原理と校正
+  statement: 面積式流量計は、浮子とテーパー管の間隙の面積が流量に比例し、使用条件で、校正する。絞り式は、圧力差が流量と関係する。石けん膜流量計・湿式ガスメーターは、基準として使う。
+  formula: ''
+  keywords:
+  - 流量計
+  - 面積式
+  - 絞り式
+  - 石けん膜
+  - 湿式ガスメーター
+  - ルーツメータ
+  points:
+  - pt-funjin-0004
+  - pt-funjin-0007
+  - pt-funjin-0018
+  - pt-funjin-0024
+  - pt-funjin-0030
+  - pt-funjin-0103
+  - pt-funjin-0126
+- id: pr-funjin-0010
+  subject: funjin
+  name: 天秤の誤差要因
+  statement: 温度の高い試料は、上昇気流で軽く量れる。天秤の水平が崩れると、秤量値は小さくなる。電子天秤は、温度の影響が大きく、振動の影響は小さい。零位方式は、電磁力で釣り合わせる。
+  formula: ''
+  keywords:
+  - 秤量
+  - 天秤
+  - 天びん
+  points:
+  - pt-funjin-0011
+  - pt-funjin-0047
+  - pt-funjin-0077
+  - pt-funjin-0078
+- id: pr-funjin-0011
+  subject: funjin
+  name: X線回折のブラッグの条件と回折線
+  statement: 結晶の格子面で強め合う条件：2d sinθ ＝ nλ。Cu対陰極での石英・クリストバライトの回折角は、特有の値。走査速度は、ピークに影響する。
+  formula: 2d sinθ ＝ nλ
+  keywords:
+  - ブラッグ
+  - 回折角
+  - 回折線
+  - ゴニオメータ
+  - 格子面
+  points:
+  - pt-funjin-0013
+- id: pr-funjin-0012
+  subject: funjin
+  name: 特性X線とフィルター
+  statement: 特性X線の波長は、対陰極の原子番号が大きいほど短い。Kβ線は、原子番号が1小さい物質のフィルターで除く。
+  formula: ''
+  keywords:
+  - 特性X線
+  - Kα
+  - Kβ
+  - フィルター
+  - 対陰極
+  - 単色化
+  points:
+  - pt-funjin-0003
+  - pt-funjin-0069
+  - pt-funjin-0074
+  - pt-funjin-0125
+- id: pr-funjin-0013
+  subject: funjin
+  name: 基底標準吸収補正法
+  statement: 試料自身のX線吸収を、基底標準の強度の変化から補正する。補正で、定量範囲が広がる。基底標準板は、石英の回折線より高角度側の材質。
+  formula: ''
+  keywords:
+  - 吸収補正
+  - 基底標準
+  - 金属基底
+  - 吸収の影響
+  points:
+  - pt-funjin-0001
+  - pt-funjin-0031
+  - pt-funjin-0048
+  - pt-funjin-0070
+  - pt-funjin-0090
+  - pt-funjin-0105
+- id: pr-funjin-0014
+  subject: funjin
+  name: 石英の多形と遊離けい酸
+  statement: 石英は573℃でα⇄β転移し、高温でトリジマイト・クリストバライトに変わる。オパール・玉ずいの扱いなど、遊離けい酸の範囲。
+  formula: ''
+  keywords:
+  - '573'
+  - トリジマイト
+  - クリストバライト
+  - 遊離けい酸
+  - 玉ずい
+  - オパール
+  points:
+  - pt-funjin-0034
+  - pt-funjin-0039
+- id: pr-funjin-0015
+  subject: funjin
+  name: りん酸法の原理
+  statement: りん酸は、石英以外のけい酸塩を溶かし、石英を残す。クリストバライトは、一部溶けて、低く評価される。最適加熱条件で、石英の残渣率が高く、微斜長石は低い。
+  formula: ''
+  keywords:
+  - りん酸
+  - 微斜長石
+  - りん酸残渣
+  - 加熱条件
+  points:
+  - pt-funjin-0010
+  - pt-funjin-0019
+  - pt-funjin-0107
+- id: pr-funjin-0016
+  subject: funjin
+  name: 位相差顕微鏡の原理
+  statement: 直接光と回折光に約1/4波長の位相差を与え、位相差を明暗に変換する。分解能は、対物レンズの開口数で決まる。
+  formula: ''
+  keywords:
+  - 位相差
+  - 位相板
+  - 開口数
+  - 分解能
+  - コントラスト
+  points:
+  - pt-funjin-0117
+- id: pr-funjin-0017
+  subject: funjin
+  name: フィルターの性質（空間率・吸湿・帯電）
+  statement: メンブランフィルターは、空間率が低く、帯電しやすい。フッ素樹脂加工ろ紙は、吸湿が少ない。ろ過材は、粒径0.3 µmで、95％以上の捕集率が要る。
+  formula: ''
+  keywords:
+  - 空間率
+  - 吸湿
+  - 帯電
+  - メンブランフィルター
+  - フッ素樹脂
+  points:
+  - pt-funjin-0016
+  - pt-funjin-0023
+  - pt-funjin-0115
+- id: pr-funjin-0018
+  subject: funjin
+  name: 圧電天秤式の原理
+  statement: 粒子が圧電結晶板に付着して、質量が増えると、固有の周波数が下がる。質量増加に比例する。
+  formula: ''
+  keywords:
+  - 圧電
+  - 周波数
+  - コロナ放電
+  points:
+  - pt-funjin-0027
+- id: pr-funjin-0019
+  subject: funjin
+  name: 再発じん・試料調製
+  statement: 堆積粉じんは、ふるいを通して、乾燥させ、再発じん用の試料にする。帯電性の高い粉じんは、帯電防止剤を使う。
+  formula: ''
+  keywords:
+  - ふるい
+  - 再発じん
+  - 堆積粉じん
+  - 帯電防止
+  points: []
+- id: pr-funjin-0020
+  subject: funjin
+  name: 石綿の計数と位相差顕微鏡の読み方
+  statement: 計数は、規定の繊維数（200本）または視野数（50視野）まで。繊維の端の数え方などの規則がある。
+  formula: ''
+  keywords:
+  - 石綿
+  - 計数
+  - 繊維数
+  - 視野
+  points: []
+- id: pr-kinzoku-0019
+  subject: kinzoku
+  name: 濃硝酸で不動態になる金属（クロム・鉄・ニッケル・アルミニウム）
+  statement: クロム・鉄・ニッケル・アルミニウムなどは、濃硝酸に触れると、表面に緻密な酸化被膜（不動態）ができて、溶けにくくなる。希硝酸には溶ける。
+  formula: ''
+  keywords:
+  - 濃硝酸
+  - 不動態
+  - 王水
+  points:
+  - pt-kinzoku-0453
+  - pt-kinzoku-0455
+- id: pr-ippan-0001
+  subject: ippan
+  name: 脂溶性の物質は皮膚からも吸収される
+  statement: 有機溶剤などの脂溶性の物質は、皮膚の脂質を通り抜けて吸収されるので、呼吸器だけでなく皮膚（経皮）からも吸収される。脂肪組織にたまりやすい。
+  formula: ''
+  keywords:
+  - 脂溶性
+  - 皮膚から.{0,8}吸収
+  - 経皮吸収
+  - 皮膚.{0,6}吸収されることはない
+  points:
+  - pt-ippan-0036
+  - pt-ippan-0363
+  - pt-ippan-0451
+  - pt-ippan-0790
+  - pt-ippan-0808
+- id: pr-ippan-0002
+  subject: ippan
+  name: 水への溶解度と吸収される部位
+  statement: 水に溶けやすいガス（アンモニア、塩化水素など）は、湿った上気道の粘膜で吸収され、上気道の刺激症状を起こす。水に溶けにくいガス（ホスゲン、二酸化窒素など）は、肺胞まで届き、深部で障害を起こす。
+  formula: ''
+  keywords:
+  - 溶解度.{0,16}(気道|肺胞)
+  - 水.{0,4}溶け(や)?(にく)?.{0,14}(気道|肺胞)
+  - 水溶性.{0,10}(気道|肺胞)
+  - 上気道.{0,10}(吸収|刺激)
+  points:
+  - pt-ippan-0672
+  - pt-ippan-0685
+- id: pr-ippan-0003
+  subject: ippan
+  name: 粒子の粒径と沈着する部位
+  statement: 粒径が大きい粒子は鼻腔や気管支で捕まり、粒径が小さい粒子ほど肺胞まで到達する（呼吸性粉じんは、おおむね数µm以下）。粒径が大きいほど、重力で沈降しやすい。
+  formula: ''
+  keywords:
+  - 呼吸性粉じん
+  - 粒径.{0,12}(肺胞|気道|沈着|沈降)
+  - 沈降速度
+  - (肺胞|気道).{0,10}粒径
+  points:
+  - pt-ippan-0021
+- id: pr-ippan-0004
+  subject: ippan
+  name: 蒸気の密度（空気との重さの比較）と滞留
+  statement: 分子量が空気（約29）より大きいガス・蒸気は空気より重く、低いところにたまりやすい。分子量が小さいものは軽く、上方にたまる。
+  formula: ''
+  keywords:
+  - 空気より(重|軽)
+  - 低いところ
+  - 低所.{0,4}(滞留|たまり)
+  - 蒸気密度
+  - 比重.{0,6}(空気|1)
+  points:
+  - pt-ippan-0038
+  - pt-ippan-0248
+  - pt-ippan-0508
+  - pt-ippan-0569
+- id: pr-ippan-0005
+  subject: ippan
+  name: 気体の溶解度は温度が低いほど大きい
+  statement: 気体の液体への溶解度は、液体の温度が低いほど大きく、温度が高いほど小さい。
+  formula: ''
+  keywords:
+  - 溶解度.{0,12}温度
+  - 温度.{0,12}溶解度
+  points:
+  - pt-ippan-0032
+- id: pr-ippan-0006
+  subject: ippan
+  name: 蒸気圧と揮発のしやすさ
+  statement: 沸点が低い液体ほど蒸気圧が高く、揮発しやすい。温度が上がると蒸気圧は高くなる。
+  formula: ''
+  keywords:
+  - 蒸気圧
+  - 揮発(性|しやす)
+  - 沸点
+  points:
+  - pt-ippan-0565
+- id: pr-ippan-0007
+  subject: ippan
+  name: 活性炭などの吸着は低温ほど進む
+  statement: 吸着は温度が低いほど起こりやすい。温度や湿度が高いと、吸収缶の破過は早くなる。
+  formula: ''
+  keywords:
+  - 破過
+  - 吸着.{0,10}温度
+  - 活性炭
+  points:
+  - pt-ippan-0024
+- id: pr-ippan-0008
+  subject: ippan
+  name: 一酸化炭素はヘモグロビンと強く結合する
+  statement: 一酸化炭素は、酸素より約200倍強くヘモグロビンと結合し、酸素の運搬を妨げる（細胞が酸欠になる）。ヘモグロビンの合成を阻害するのではない。
+  formula: ''
+  keywords:
+  - 一酸化炭素
+  - COヘモグロビン
+  - カルボキシヘモグロビン
+  points:
+  - pt-ippan-0092
+  - pt-ippan-0215
+  - pt-ippan-0229
+- id: pr-ippan-0009
+  subject: ippan
+  name: 酸素欠乏と酸素の分圧
+  statement: 空気中の酸素の割合は、標高によらず約21％で一定。高所で酸素が欠乏しやすいのは、気圧が下がり、酸素の分圧が低下するから。酸素濃度が18％未満の状態を酸素欠乏という。
+  formula: ''
+  keywords:
+  - 酸素.{0,10}(分圧|18|21)
+  - 標高
+  - 高所
+  - 酸素欠乏の定義
+  points:
+  - pt-ippan-0640
+- id: pr-ippan-0010
+  subject: ippan
+  name: 嗅覚は慣れ・麻痺で、においは危険の目安にならない
+  statement: においの感覚は、慣れや麻痺で鈍くなる（硫化水素は高濃度で嗅覚麻痺）。においの有無だけで、有害な濃度かどうかは判断できない。
+  formula: ''
+  keywords:
+  - 嗅覚
+  - においを感じ
+  - 臭気
+  - 腐卵臭
+  points:
+  - pt-ippan-0044
+  - pt-ippan-0466
+- id: pr-ippan-0011
+  subject: ippan
+  name: 点音源の距離減衰（逆2乗則）
+  statement: 点音源では、音の強さは距離の2乗に反比例する。距離が2倍になると、音圧レベルは約6dB下がる（1/2になるのではない）。
+  formula: L₂ ＝ L₁ − 20 log₁₀(r₂/r₁)
+  keywords:
+  - 距離.{0,8}2倍
+  - 点音源
+  - 逆2乗
+  - 距離減衰
+  - 距離が(倍|増)
+  points:
+  - pt-ippan-0325
+- id: pr-ippan-0012
+  subject: ippan
+  name: デシベル（対数）の性質と音の合成
+  statement: 音圧レベルは基準音圧（2×10⁻⁵ Pa）との比の対数で表す。0 dBは無音ではなく、最小可聴値。同じ大きさの音が2つ重なると+3 dB、10倍の強さで+10 dB。レベルの足し算は、エネルギー（強さ）で行う。
+  formula: L ＝ 20 log₁₀(p/p₀)
+  keywords:
+  - 0dB
+  - 音圧レベル
+  - 騒音レベル.{0,10}(合成|加算)
+  - dB.{0,8}(合成|足|加)
+  - 無響室
+  points:
+  - pt-ippan-0297
+  - pt-ippan-0544
+- id: pr-ippan-0013
+  subject: ippan
+  name: 音の周波数特性と聴力
+  statement: A特性は、人の聴感に合わせた補正（低周波ほど小さく評価）。騒音性難聴は、4,000 Hz付近から低下する（C⁵ dip）。低周波は伝わりやすく、高周波は減衰しやすい。
+  formula: ''
+  keywords:
+  - A特性
+  - 聴感補正
+  - C5dip
+  - 4000Hz
+  - 4,000Hz
+  - 周波数.{0,8}(騒音|難聴)
+  points: []
+- id: pr-ippan-0014
+  subject: ippan
+  name: 振動ばく露量はエネルギー等価で表す
+  statement: 振動のばく露量は、加速度の2乗に時間をかけたエネルギーで考え、8時間に換算する。8時間の振動ばく露量は、3軸合成値×√(ばく露時間／8)。
+  formula: A(8) ＝ a_hv × √(T／8)
+  keywords:
+  - 3軸合成
+  - A\(8\)
+  - 日振動ばく露量
+  - 周波数補正振動加速度
+  - 振動ばく露量
+  points:
+  - pt-ippan-0005
+  - pt-ippan-0106
+  - pt-ippan-0271
+  - pt-ippan-0478
+  - pt-ippan-0800
+- id: pr-ippan-0015
+  subject: ippan
+  name: レイノー現象は末梢血管の攣縮（寒冷で誘発）
+  statement: 局所振動障害のレイノー現象は、手指の末梢血管が攣縮（収縮）して血流が減り、指が白くなる現象。寒冷で誘発されやすく、可逆的（元に戻る）。
+  formula: ''
+  keywords:
+  - レイノー
+  - 攣縮
+  - 白ろう
+  - 白指
+  points:
+  - pt-ippan-0304
+  - pt-ippan-0489
+  - pt-ippan-0537
+  - pt-ippan-0702
+  - pt-ippan-0703
+- id: pr-ippan-0016
+  subject: ippan
+  name: 電磁波は波長が短いほどエネルギーが大きい
+  statement: 電磁波のエネルギーは波長に反比例する。波長の長い順に、電波＞赤外線＞可視光線＞紫外線＞X線＞γ線。領域ごとに、物質との作用が違う（赤外線＝分子の振動・熱、紫外線＝電子の遷移・化学作用）。
+  formula: E ＝ h c／λ
+  keywords:
+  - 波長.{0,12}エネルギー
+  - エネルギー.{0,12}波長
+  - 赤外線.{0,12}(熱|振動)
+  - 紫外線.{0,14}(エネルギー|電子)
+  - 近紫外
+  - 遠紫外
+  points:
+  - pt-ippan-0471
+  - pt-ippan-0735
+- id: pr-ippan-0017
+  subject: ippan
+  name: 電離放射線は物質を電離させるエネルギーを持つ
+  statement: 電離放射線（α線、β線、γ線、X線、中性子線）は、原子から電子をはぎ取る（電離する）エネルギーを持つ。紫外線・可視光線・赤外線・電波は非電離放射線。電荷をもたない放射線も、間接的に電離を起こす。
+  formula: ''
+  keywords:
+  - 非電離
+  - 電離放射線
+  - 電荷をもたない
+  points: []
+- id: pr-ippan-0018
+  subject: ippan
+  name: 放射性崩壊と半減期
+  statement: 放射性物質の半減期は、原子核の性質で決まり、温度・圧力・化学形に関係なく一定。α崩壊で、質量数は4、原子番号は2減る。β崩壊では、質量数は変わらず、原子番号が1増える。
+  formula: N ＝ N₀ × (1/2)^(t／T)
+  keywords:
+  - 半減期
+  - α崩壊
+  - β崩壊
+  - 崩壊
+  points:
+  - pt-ippan-0487
+  - pt-ippan-0779
+- id: pr-ippan-0019
+  subject: ippan
+  name: 放射線の透過力と遮へい・外部被ばく防護の三原則
+  statement: 透過力は α＜β＜γ（X線）＜中性子線の順。外部被ばくは、時間を短く・距離を遠く（距離の2乗に反比例）・遮へいを置くことで減らす。
+  formula: ''
+  keywords:
+  - 透過力
+  - 遮へい
+  - 外部被ばく.{0,12}(時間|距離)
+  - 距離.{0,10}(線量|被ばく)
+  points:
+  - pt-ippan-0010
+  - pt-ippan-0811
+- id: pr-ippan-0020
+  subject: ippan
+  name: 細胞分裂が盛んなほど放射線の感受性が高い
+  statement: 分裂が盛んで、未分化な細胞ほど、放射線の感受性が高い（造血器・生殖腺・腸粘膜・水晶体は高く、筋肉・神経は低い）。
+  formula: ''
+  keywords:
+  - 感受性
+  - 分裂.{0,10}盛ん
+  - 造血器.{0,10}放射線
+  - 水晶体
+  points:
+  - pt-ippan-0257
+  - pt-ippan-0469
+- id: pr-ippan-0021
+  subject: ippan
+  name: しきい値がある影響とない影響
+  statement: しきい値がある（それ以下では影響が出ない）影響には、無毒性量（NOAEL）が求められる。発がんなど遺伝子への障害は、しきい値がないと考えるので、無毒性量は求められず、リスクの大きさで管理する。
+  formula: ''
+  keywords:
+  - しきい値
+  - 閾値
+  - 確率的影響
+  - 確定的影響
+  points:
+  - pt-ippan-0061
+  - pt-ippan-0087
+  - pt-ippan-0121
+  - pt-ippan-0434
+  - pt-ippan-0482
+  - pt-ippan-0550
+  - pt-ippan-0585
+  - pt-ippan-0687
+  - pt-ippan-0722
+  - pt-ippan-0781
+- id: pr-ippan-0022
+  subject: ippan
+  name: 毒性指標の大小と毒性の強さ
+  statement: LD50やLC50は、動物の半数が死亡する量（濃度）なので、小さいほど急性毒性が強い。NOAEL・NOELは、影響が出ない最大量で、慢性毒性などの評価に使う。LOAELは、影響が認められた最小量。
+  formula: ''
+  keywords:
+  - LD50
+  - LD₅₀
+  - LC50
+  - LC₅₀
+  - NOAEL
+  - NOEL
+  - LOAEL
+  - 無毒性量
+  points:
+  - pt-ippan-0503
+- id: pr-ippan-0024
+  subject: ippan
+  name: 熱中症は体温調節の破綻（発汗・気化熱・湿度）
+  statement: 汗が蒸発するときの気化熱で体を冷やす。湿度が高いと蒸発しにくく、熱がこもる。体温調節が追いつかないと体温が上昇する（熱中症）。WBGTは湿球温度の比重が大きい。熱に慣れていない人は、基準値が低い。
+  formula: ''
+  keywords:
+  - 熱中症
+  - WBGT
+  - 発汗
+  - 熱順化
+  - 気化熱
+  - 熱射病
+  - 熱けいれん
+  points:
+  - pt-ippan-0023
+  - pt-ippan-0127
+  - pt-ippan-0149
+  - pt-ippan-0214
+  - pt-ippan-0217
+  - pt-ippan-0313
+  - pt-ippan-0407
+  - pt-ippan-0583
+  - pt-ippan-0721
+  - pt-ippan-0768
+- id: pr-ippan-0025
+  subject: ippan
+  name: 寒冷環境での体温調節
+  statement: 寒冷では、熱を逃がさないよう皮膚の血管が収縮し、熱を作るため、ふるえ（筋緊張）や代謝が増え、酸素摂取量は増える。体温が下がると、筋の動きが悪くなる。
+  formula: ''
+  keywords:
+  - 寒冷
+  - 低体温
+  - 凍傷
+  points:
+  - pt-ippan-0298
+  - pt-ippan-0486
+  - pt-ippan-0612
+- id: pr-ippan-0026
+  subject: ippan
+  name: ダクトの圧力損失と風量・風速
+  statement: 風量＝ダクトの断面積×風速。圧力損失は、風速の2乗に比例し、ダクトが長いほど、曲がりが多いほど、断面が円形から離れるほど大きい。
+  formula: Q ＝ A × v
+  keywords:
+  - 圧力損失
+  - 風量.{0,10}(断面積|風速)
+  - ダクト
+  - 制御風速
+  - 搬送速度
+  points:
+  - pt-ippan-0001
+  - pt-ippan-0233
+- id: pr-ippan-0027
+  subject: ippan
+  name: フードは発散源に近く、囲うほど効率が高い
+  statement: フードは、発散源を囲うほど、また発散源に近づけるほど、少ない風量で有害物を捕らえられる。外付け式は、距離が離れると、吸い込み風速が距離の2乗にほぼ反比例して落ちる。
+  formula: ''
+  keywords:
+  - 囲い式
+  - 外付け式
+  - フード.{0,10}(囲|近|距離)
+  - 排気効果
+  points:
+  - pt-ippan-0077
+  - pt-ippan-0659
+- id: pr-ippan-0028
+  subject: ippan
+  name: 除じん装置の原理（遠心力・ろ過・静電気）
+  statement: サイクロンは遠心力を使うので、粒径が小さくなると分離が悪くなる。ろ過式（バグフィルタ）や電気集じん式は、細かい粒子の捕集効率が高い。
+  formula: ''
+  keywords:
+  - サイクロン
+  - 電気集じん
+  - 電気除じん
+  - 除じん装置
+  - 除じん方式
+  - ろ過除じん
+  points:
+  - pt-ippan-0501
+- id: pr-ippan-0029
+  subject: ippan
+  name: ろ過式の呼吸用保護具は酸素を供給しない
+  statement: 防じんマスク・防毒マスクは、周囲の空気をろ過するだけで、酸素は増やさないので、酸素欠乏の場所では使えない。酸素欠乏の場所では、送気マスクや空気呼吸器を使う。顔と面体の密着が、性能を左右する。
+  formula: ''
+  keywords:
+  - 酸素欠乏.{0,12}(防毒|防じん|マスク)
+  - ろ過式
+  - 密着
+  - 送気マスク
+  - 空気呼吸器
+  points:
+  - pt-ippan-0033
+  - pt-ippan-0136
+  - pt-ippan-0358
+  - pt-ippan-0614
+- id: pr-ippan-0030
+  subject: ippan
+  name: エアロゾルの種類と性質
+  statement: ミストは液体の微粒子（粒径が大きめ）、ヒュームは気体が冷えて凝縮・凝固した固体の微粒子（一次粒子が1µm以下）、粉じんは固体を機械的に砕いてできた粒子。空気力学径は、密度1の球で、同じ沈降速度の粒子の径。
+  formula: ''
+  keywords:
+  - ヒューム
+  - ミスト
+  - 空気力学径
+  - 粉じんとは
+  - 粒径分布
+  - 対数正規
+  points:
+  - pt-ippan-0184
+  - pt-ippan-0242
+  - pt-ippan-0302
+  - pt-ippan-0380
+  - pt-ippan-0525
+  - pt-ippan-0553
+  - pt-ippan-0713
+  - pt-ippan-0732
+- id: pr-ippan-0031
+  subject: ippan
+  name: 水溶液の酸性・塩基性
+  statement: 酸性の水溶液（塩化水素水＝塩酸、硫化水素の水溶液は弱酸性）、塩基性の水溶液（アンモニア水）。フェノール類は、弱い酸性を示す。
+  formula: ''
+  keywords:
+  - 水溶液
+  - アルカリ性
+  - 酸性を示す
+  - 弱酸
+  - 水に溶け
+  points:
+  - pt-ippan-0512
+  - pt-ippan-0547
+  - pt-ippan-0592
+  - pt-ippan-0810
+- id: pr-ippan-0033
+  subject: ippan
+  name: 尿中代謝物は、ばく露の終了時に最も高い（生物学的半減期）
+  statement: 体内に入った物質は、代謝・排泄で減っていく。代謝物の尿中濃度は、ばく露の間は上がり、終了後は低下するので、採尿の時期は、物質の生物学的半減期に合わせる（有機溶剤は作業の終了時）。
+  formula: ''
+  keywords:
+  - 採尿
+  - 生物学的半減期
+  - 生物学的モニタリング
+  - 尿中.{0,10}(代謝物|排泄)
+  points:
+  - pt-ippan-0116
+  - pt-ippan-0141
+  - pt-ippan-0511
+  - pt-ippan-0692
+- id: pr-ippan-0034
+  subject: ippan
+  name: 労働衛生対策は、発生源に近いものほど優先
+  statement: 対策は、①発生源をなくす・減らす（代替・密閉）→②経路で断つ（局所排気・遮音）→③人を守る（保護具）の順に優先する。保護具は最後の手段。
+  formula: ''
+  keywords:
+  - 保護具.{0,12}(最後|優先)
+  - 音源対策
+  - 発生源対策
+  - 優先順位
+  - 受音者
+  - 伝ぱ経路
+  points:
+  - pt-ippan-0132
+  - pt-ippan-0190
+  - pt-ippan-0222
+  - pt-ippan-0470
+- id: pr-design-0001
+  subject: design
+  name: 気体の体積は温度と圧力で変わる（理想気体）
+  statement: 気体の体積は、温度が高いほど、圧力が低いほど大きくなる。流量・濃度は、基準状態（25℃・1気圧など）に換算してそろえる必要がある。流量計の指示値も、温度・圧力の影響を受ける。
+  formula: PV ＝ nRT
+  keywords:
+  - 温度.{0,12}(補正|影響)
+  - 圧力.{0,12}(補正|影響)
+  - 25℃.{0,6}1気圧
+  - 標準状態
+  - 基準状態
+  - 気体の体積
+  - モル体積
+  - 体積.{0,8}温度
+  points:
+  - pt-design-0225
+- id: pr-design-0002
+  subject: design
+  name: 気体の密度は分子量で決まる（空気は約29）
+  statement: 気体の密度は、分子量に比例する。分子量が約29（空気）より大きい気体・蒸気は空気より重く、小さいものは軽い。
+  formula: ''
+  keywords:
+  - 空気より(大|小|重|軽)
+  - 気体の密度
+  - 蒸気密度
+  - 比重
+  points:
+  - pt-design-0117
+  - pt-design-0195
+  - pt-design-0320
+  - pt-design-0389
+  - pt-design-0423
+  - pt-design-0453
+- id: pr-design-0003
+  subject: design
+  name: 吸着剤の性質（活性炭は無極性、シリカゲルは極性）
+  statement: 活性炭は、無極性の有機溶剤をよく吸着する。シリカゲルは極性が強く、水やアルコールなど極性の物質を吸着する（水分があると吸着力が落ちる）。吸着剤に応じて、脱着の溶媒を選ぶ。
+  formula: ''
+  keywords:
+  - 活性炭
+  - シリカゲル
+  - 吸着剤
+  - 破過
+  - 脱着
+  - 吸着
+  points:
+  - pt-design-0088
+  - pt-design-0144
+  - pt-design-0147
+  - pt-design-0191
+  - pt-design-0194
+  - pt-design-0199
+  - pt-design-0271
+  - pt-design-0276
+  - pt-design-0476
+- id: pr-design-0004
+  subject: design
+  name: 液体捕集は、溶解・反応で捕まえる
+  statement: 液体捕集では、測定対象物質を溶かす、または反応して捕まえる液を使う。水に溶けにくい物質は、有機溶媒などを使う。捕集率は、直列につないだ後ろの捕集管に漏れる量から評価する。
+  formula: ''
+  keywords:
+  - 捕集液
+  - 吸収液
+  - 液体捕集
+  - 捕集率
+  - 小型ガス吸収管
+  - 吸収管
+  points:
+  - pt-design-0027
+  - pt-design-0035
+  - pt-design-0056
+  - pt-design-0379
+  - pt-design-0429
+- id: pr-design-0005
+  subject: design
+  name: 対数正規分布の性質（値は正、幾何平均）
+  statement: 作業環境の濃度は、小さい値が多く、大きい値がまれに出る分布（対数正規分布）。濃度の対数が正規分布に従うので、値は正の数のみ。算術平均≧幾何平均。幾何平均、幾何標準偏差で表す。
+  formula: M₁ ＝ 10^(log M ＋ 1.645σ)
+  keywords:
+  - 対数正規
+  - 幾何平均
+  - 幾何標準偏差
+  - 第1評価値
+  - 第2評価値
+  points:
+  - pt-design-0126
+  - pt-design-0385
+- id: pr-design-0006
+  subject: design
+  name: 誤差の種類（偶然誤差・系統誤差）と標本数
+  statement: 測定値には、偶然誤差（ばらつき）と系統誤差（かたより）がある。測定を繰り返すと、偶然誤差の影響は平均化されて小さくなる。真値は、誤差のない値で、測定では知ることができない。
+  formula: ''
+  keywords:
+  - 偶然誤差
+  - 系統誤差
+  - 真値
+  - 精度
+  - 正確さ
+  - かたより
+  - ばらつき
+  points:
+  - pt-design-0183
+  - pt-design-0189
+  - pt-design-0251
+  - pt-design-0321
+  - pt-design-0458
+- id: pr-design-0007
+  subject: design
+  name: 光散乱による相対濃度計の原理
+  statement: 粒子に当てた光の散乱光の強さは、粒子の数（量）に比例するので、粉じんの相対濃度が測れる。質量濃度に直すには、質量濃度変換係数（K値）が必要で、粒径や粒子の性質で変わる。
+  formula: C ＝ K × 毎分カウント値（cpm）
+  keywords:
+  - 光散乱
+  - 相対濃度
+  - 質量濃度変換
+  - K値
+  - 散乱光
+  - デジタル粉じん計
+  points:
+  - pt-design-0014
+  - pt-design-0016
+  - pt-design-0062
+  - pt-design-0121
+  - pt-design-0149
+  - pt-design-0175
+  - pt-design-0215
+  - pt-design-0237
+  - pt-design-0248
+  - pt-design-0305
+  - pt-design-0420
+- id: pr-design-0008
+  subject: design
+  name: 流量計の原理（絞り・面積・体積）
+  statement: 絞り式は、絞り前後の圧力差から流量を求める（圧力差は流速の2乗に比例）。面積式は、流量に応じて浮子の位置が変わる。湿式ガスメーターは、体積を直接測る。
+  formula: ''
+  keywords:
+  - 流量計
+  - 絞り式
+  - 面積式
+  - ガスメーター
+  - マスフローメーター
+  - 流量
+  points:
+  - pt-design-0048
+  - pt-design-0471
+- id: pr-design-0009
+  subject: design
+  name: 騒音レベルの合成・平均はエネルギーで行う
+  statement: dBは対数なので、足し算・平均は、エネルギー（強さ）に直して行う。同じレベルの音が2つで+3 dB、レベル差が10 dB以上あると、小さいほうは、ほぼ無視できる。
+  formula: L ＝ 10 log₁₀(Σ10^(Lᵢ／10))
+  keywords:
+  - dB.{0,10}(平均|合成|足|加)
+  - 等価騒音レベル
+  - エネルギー平均
+  - 騒音レベル.{0,10}(平均|合成)
+  - 平均値.{0,10}dB
+  points:
+  - pt-design-0454
+  - pt-design-0456
+- id: pr-design-0010
+  subject: design
+  name: 検知管の原理（化学反応による比色）
+  statement: 検知管は、測定対象ガスが検知剤と反応して変色した長さで濃度を読む。反応の性質上、共存する物質（妨害ガス）があると、指示値が高く（または低く）出ることがある。引く速度・時間は、反応に必要な時間による。
+  formula: ''
+  keywords:
+  - 検知管
+  - 妨害物質
+  - 変色
+  - ガス採取器
+  points:
+  - pt-design-0050
+  - pt-design-0150
+  - pt-design-0171
+  - pt-design-0234
+  - pt-design-0443
+- id: pr-design-0012
+  subject: design
+  name: 粒子の捕集機構（慣性・さえぎり・拡散）と粒径
+  statement: 粒子がフィルターや液に捕まる仕組みは、粒径で変わる。大きい粒子（約1µm以上）は、慣性・さえぎり・重力で捕まる。ごく小さい粒子（約0.1µm以下）は、拡散で捕まる。そのため、0.1〜0.3µm付近の粒子が、最も捕まりにくい。
+  formula: ''
+  keywords:
+  - 慣性
+  - 拡散
+  - さえぎり
+  - ろ過流速
+  - 捕集率.{0,10}粒径
+  points:
+  - pt-design-0005
+  - pt-design-0031
+  - pt-design-0040
+  - pt-design-0181
+  - pt-design-0240
+  - pt-design-0366
+  - pt-design-0460

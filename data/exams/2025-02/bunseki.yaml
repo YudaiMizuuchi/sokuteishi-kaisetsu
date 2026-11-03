@@ -43,20 +43,68 @@ questions:
     - 5
     - 4
     - 2
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 1
     - 4
-    - 5
+    - 4
     - 4
     - 2
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0464
+    - pt-bunseki-0089
+    - pt-bunseki-0079
+    - pt-bunseki-0073
+    - pt-bunseki-0187
+    pnames:
+    - 温度25℃は、約298Kである。
+    - 電流1.0Aは、1.0C·s⁻¹である。
+    - 体積1.0Lは、1.0×10⁻³m³である。
+    - 濃度1.0μmol·g⁻¹は、1.0mol·kg⁻¹である。（誤りの記述）
+    - 気圧760.0mmHgは、約101.3kPaである。
+    prcounts:
+    - 0
+    - 4
+    - 5
+    - 5
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0035
+    - pr-bunseki-0020
+    - pr-bunseki-0020
+    - ''
+    prnames:
+    - ''
+    - 電気量とクーロン
+    - 濃度の換算と単位
+    - 濃度の換算と単位
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - new
-    - odo
-    - odo
-    - ans_pat
+    - ''
+    - ''
+    - ans_pr
     - ''
     pat: an-units-02
 - num: 2
@@ -91,8 +139,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-statistics-01
 - num: 3
   status: published
@@ -128,22 +176,70 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 3
-    - 2
-    - 2
-    - 2
-    - 2
     truths: 正誤正正正
+    pcounts:
+    - 4
+    - 2
+    - 4
+    - 4
+    - 4
+    points:
+    - pt-bunseki-0084
+    - pt-bunseki-0226
+    - pt-bunseki-0054
+    - pt-bunseki-0054
+    - pt-bunseki-0054
+    pnames:
+    - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい
+    - ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい（誤りの記述）
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    prcounts:
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    principles:
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    prnames:
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - true
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2016-02
+    - - 2021-08
+    - - 2017-08
+      - 2021-08
+    - - 2017-08
+    - - 2017-08
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - odo
-    - ans_pat
+    - ''
+    - ans_trend
     - ''
     - ''
     - ''
-    pat: an-organic-03
 - num: 4
   status: published
   chapters:
@@ -180,9 +276,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-gas-02
+    level: D
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -217,8 +312,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -263,8 +358,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -300,15 +395,63 @@ questions:
     - 1
     - 1
     - 4
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 4
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 5
+    points:
+    - pt-bunseki-0247
+    - pt-bunseki-0247
+    - pt-bunseki-0465
+    - pt-bunseki-0286
+    - pt-bunseki-0033
+    pnames:
+    - 石けん膜流量計は、比較的低流量のガスの流量測定に適している。
+    - 石けん膜流量計は、比較的低流量のガスの流量測定に適している。
+    - ローターメーターのテーパー管は垂直に保つ必要がある。
+    - 乾式ガスメーターは一定時間に流れる気体の全体積を測定する流量計である
+    - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0034
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 流量計の原理と校正
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - new
     - ans_pat
@@ -353,22 +496,69 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 7
-    - 2
-    - 1
-    - 2
     truths: 誤正正正正
+    pcounts:
+    - 1
+    - 3
+    - 2
+    - 2
+    - 3
+    points:
+    - pt-bunseki-0287
+    - pt-bunseki-0096
+    - pt-bunseki-0174
+    - pt-bunseki-0214
+    - pt-bunseki-0096
+    pnames:
+    - 有機溶剤の拡散係数と飽和蒸気圧が同じなら、分子量の大きな物質ほど高くなる（誤りの記述）
+    - 拡散チューブの内径が大きいほど高くなる。
+    - 有機溶剤量をセルごと秤量し、蒸発量を求めることにより濃度を計算できる
+    - 飽和蒸気圧が小さいほど低くなる。
+    - 拡散チューブの内径が大きいほど高くなる。
+    prcounts:
+    - 14
+    - 14
+    - 0
+    - 0
+    - 14
+    principles:
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - ''
+    - ''
+    - pr-bunseki-0033
+    prnames:
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    trend:
+    - 1
+    - 3
+    - 2
+    - 2
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - ans_pat
+    - ans_pr
     - odo
     - ''
-    - new
     - ''
-    pat: an-standard-gas-01
+    - odo
 - num: 9
   status: published
   chapters:
@@ -402,8 +592,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-reagents-01
 - num: 10
   status: published
@@ -439,18 +629,66 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: S
-    why: pat_S
+    pcounts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0254
+    - pt-bunseki-0109
+    - pt-bunseki-0288
+    - pt-bunseki-0309
+    - pt-bunseki-0348
+    pnames:
+    - ろ過材に捕集した試料をそのまま分析できる。
+    - 原子吸光分析と比較して、検量線が直線となる濃度範囲が広い。
+    - ネブライザーによる液体試料導入のほか、還元気化による気体試料導入も可能である
+    - 内標準物質として、測定対象物質の安定同位体を使用する。（誤りの記述）
+    - 共存する妨害物質に応じて、測定波長を選択する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 7
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0032
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 検量線法・標準添加法・内標準法
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
     - new
-    - new
+    - ''
     - new
     - ans_pat
     - new
@@ -491,8 +729,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-mole-03
 - num: 12
   status: published
@@ -528,7 +766,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 13
   status: published
@@ -561,25 +799,72 @@ questions:
     counts:
     - 1
     - 1
+    - 2
     - 1
     - 1
-    - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 4
     truths: 誤正正正正
+    pcounts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 5
+    points:
+    - pt-bunseki-0196
+    - pt-bunseki-0485
+    - pt-bunseki-0422
+    - pt-bunseki-0423
+    - pt-bunseki-0050
+    pnames:
+    - 光源には重水素放電管が用いられる。（誤りの記述）
+    - ガラスセルを用いることができる。
+    - 回折格子により測定波長の光を取り出す。
+    - 光電子増倍管を用いて透過光の強度を測定する。
+    - 入射光の強さに対する透過光の強さの比が透過率である。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0002
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 吸光度と透過率の関係
+    trend:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2019-02
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - ans_pat
+    - ans_trend
     - new
-    - new
-    - new
+    - ''
+    - ''
     - odo
-    pat: an-spectrophotometry-02
 - num: 14
   status: published
   chapters:
@@ -615,8 +900,7 @@ questions:
     count: 15
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -643,13 +927,77 @@ questions:
   _key_choice: フレーム中の原子が発する光の強度を測定する。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   freq:
-    kind: question
+    kind: choice
     denom: 23
-    count: 1
-    form: 選択肢が物質名などの問題
+    counts:
+    - 2
+    - 3
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 3
+    - 3
+    - 1
+    - 2
+    - 5
+    points:
+    - pt-bunseki-0121
+    - pt-bunseki-0128
+    - pt-bunseki-0486
+    - pt-bunseki-0150
+    - pt-bunseki-0042
+    pnames:
+    - 試料は噴霧室に噴霧され、微粒子がバーナーに送られる。
+    - フレームは、一般にアセチレンの燃焼でつくられる。
+    - フレームは、光軸方向に対して長く、厚さの薄い板状の形をしている。
+    - カドミウムは、フレーム中で原子の蒸気になる。
+    - 定量は、検量線法で行う。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
-    pat: an-aas-01
+    why: trend_S
+    tags:
+    - ''
+    - ''
+    - new
+    - ans_trend
+    - ''
 - num: 16
   status: published
   chapters:
@@ -684,21 +1032,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
+    - 1
+    - 3
+    - 4
     - 1
     - 1
-    - 1
+    points:
+    - pt-bunseki-0424
+    - pt-bunseki-0118
+    - pt-bunseki-0074
+    - pt-bunseki-0425
+    - pt-bunseki-0349
+    pnames:
+    - 試料に紫外部又は可視部の光を照射する。
+    - 試料からの蛍光は分光器で分光される。
+    - 溶存酸素が蛍光の強度を弱めることがある。
+    - 水溶液の試料のみが分析対象となる。（誤りの記述）
+    - 燐光と異なり、蛍光は励起光の照射を止めると速やかに減衰する。
+    prcounts:
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0007
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 蛍光を弱める要因
+    - ''
+    - ''
+    trend:
     - 1
     - 2
-    truths: 正正正誤正
-    level: C
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
-    - new
-    - new
-    - ans_new
     - ''
+    - ''
+    - ans_new
+    - new
 - num: 17
   status: published
   chapters:
@@ -733,22 +1129,69 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 3
     truths: 正正正誤正
-    level: B
-    why: pat_B
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    points:
+    - pt-bunseki-0426
+    - pt-bunseki-0427
+    - pt-bunseki-0350
+    - pt-bunseki-0213
+    - pt-bunseki-0131
+    pnames:
+    - ガスクロマトグラフ分析法は、気-固クロマトグラフ分析法と気-液クロマトグラフ分析法に分類される
+    - 気-固クロマトグラフ分析法は、吸着剤を固定相として用いる。
+    - ガスクロマトグラフ分析法では、沸点の近い物質を分離分析することができる
+    - カラム温度を上げると、キャリヤーガスの粘度は低下する。（誤りの記述）
+    - 保持時間は、カラム温度が高いほど短くなる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0029
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 保持時間と溶出順
+    trend:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
     - new
     - new
-    - ans_pat
-    - odo
-    pat: an-gc-04
+    - ans_seen
+    - ''
 - num: 18
   status: published
   chapters:
@@ -783,22 +1226,70 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
+    - 4
+    - 9
+    - 9
+    - 3
+    - 3
+    points:
+    - pt-bunseki-0088
+    - pt-bunseki-0052
+    - pt-bunseki-0052
+    - pt-bunseki-0095
+    - pt-bunseki-0095
+    pnames:
+    - 移動相の流速に依存する。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+    - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 5
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0029
+    - pr-bunseki-0029
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 保持時間と溶出順
+    - 保持時間と溶出順
+    trend:
     - 1
     - 5
+    - 5
     - 3
-    - 1
-    - 1
-    truths: 正正正誤正
-    level: B
-    why: pat_B
+    - 3
+    near:
+    - false
+    - true
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2016-02
+    - - 2026-08
+    - - 2024-08
+      - 2026-08
+    - []
+    level: A
+    why: trend_A
     tags:
-    - new
+    - ''
     - odo
     - odo
-    - ans_pat
-    - new
-    pat: an-gc-06
+    - ans_trend
+    - ''
 - num: 19
   status: published
   chapters:
@@ -833,20 +1324,69 @@ questions:
     - 6
     - 4
     - 5
-    similar:
-    - 3
+    truths: 正正誤正正
+    pcounts:
+    - 4
     - 1
     - 6
-    - 6
+    - 8
     - 5
-    truths: 正正誤正正
+    points:
+    - pt-bunseki-0142
+    - pt-bunseki-0254
+    - pt-bunseki-0026
+    - pt-bunseki-0016
+    - pt-bunseki-0045
+    pnames:
+    - この分析法では、特性X線が用いられる。
+    - ろ過材に捕集した試料をそのまま分析できる。
+    - X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
+    - 結晶物質の定量は、回折線の強度測定で行う。
+    - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 0
+    - 17
+    principles:
+    - pr-bunseki-0012
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0011
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - ''
+    - ''
+    - X線回折のブラッグの条件
+    trend:
+    - 2
+    - 1
+    - 3
+    - 4
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2016-02
+      - 2020-08
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: ans_hi
+    why: trend_A
     tags:
     - odo
     - new
-    - ans_hi
-    - odo
+    - ans_trend
+    - ''
     - odo
 - num: 20
   status: published
@@ -881,6 +1421,6 @@ questions:
     denom: 23
     count: 4
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-radiation-01

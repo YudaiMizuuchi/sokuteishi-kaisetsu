@@ -13,6 +13,6 @@ eleventyExcludeFromCollections: true
 <url><loc>{{ "/book/" | absUrl }}</loc></url>
 {% for c in db.bookChapters %}<url><loc>{{ c.bookUrl | absUrl }}</loc></url>
 {% endfor %}{% for c in db.chapters %}<url><loc>{{ c.url | absUrl }}</loc></url>
-{% endfor %}{% for t in db.traps %}<url><loc>{{ t.url | absUrl }}</loc></url>
+{% endfor %}{% for t in db.traps %}<url><loc>{{ t.url | absUrl }}</loc></url>{% endfor %}{% for b in db.substances %}<url><loc>{{ b.url | absUrl }}</loc></url>{% endfor %}{% for p in db.principles %}<url><loc>{{ p.url | absUrl }}</loc></url>
 {% endfor %}{% for q in db.questions %}<url><loc>{{ q.url | absUrl }}</loc></url>
 {% endfor %}</urlset>

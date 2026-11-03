@@ -36,20 +36,90 @@ questions:
     - 5
     - 1
     - 3
-    similar:
-    - 2
-    - 9
-    - 5
-    - 1
-    - 4
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 9
+    - 13
+    - 6
+    - 5
+    - 7
+    points:
+    - pt-hourei-0053
+    - pt-hourei-0019
+    - pt-hourei-0086
+    - pt-hourei-0106
+    - pt-hourei-0081
+    pnames:
+    - 衛生管理者の業種による区分（第一種・第二種、50人以上）
+    - 産業医の選任（常時50人以上）
+    - 衛生管理者の選任の人数・選任
+    - 衛生工学衛生管理者の選任
+    - 総括安全衛生管理者の選任（業種別の人数）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 2
+    - 2
+    near:
+    - true
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - - 2016-02
+      - 2016-08
+      - 2017-02
+      - 2019-02
+      - 2020-08
+      - 2022-02
+      - 2023-02
+    - - 2016-02
+      - 2016-08
+      - 2017-02
+      - 2019-02
+      - 2020-08
+      - 2022-02
+      - 2023-02
+    - - 2015-08
+    - []
+    - - 2017-08
+      - 2019-08
+      - 2020-02
+      - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2023-02
+      - 2023-08
+      - 2024-02
+      - 2026-08
+    level: B
+    why: pat_B
     tags:
     - ''
-    - odo
-    - odo
-    - new
+    - ''
+    - ''
+    - ''
     - ans_pat
     pat: lw-law-system-01
 - num: 2
@@ -88,22 +158,78 @@ questions:
     - 6
     - 6
     - 1
-    similar:
-    - 8
-    - 2
-    - 7
-    - 6
-    - 1
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 20
+    - 20
+    - 7
+    - 10
+    - 3
+    points:
+    - pt-hourei-0002
+    - pt-hourei-0002
+    - pt-hourei-0079
+    - pt-hourei-0041
+    - pt-hourei-0160
+    pnames:
+    - 健康診断結果の報告（雇入時は50人以上、定期は規模を問わない）
+    - 健康診断結果の報告（雇入時は50人以上、定期は規模を問わない）
+    - 雇入時の健康診断において、医師による健康診断を受けた後3か月を経過しない者が、当該健康診断の結果を証明する書面を提出したときは、当該健康診断の項目に相当する項目については省略することができる
+    - 健康診断個人票の作成と保存期間
+    - 定期健康診断における45歳未満の者(35歳及び40歳の者を除く。)についての聴力の検査は、1000ヘルツ及び4000ヘルツの音に係る聴力の検査に代えて医師が適当と認める聴力の検査を実施することができる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 4
+    - 4
+    - 2
+    - 4
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2015-08
+      - 2016-08
+      - 2017-08
+      - 2018-02
+      - 2019-08
+      - 2021-02
+      - 2022-02
+      - 2023-02
+      - 2024-02
+    - []
+    - []
+    - []
+    - - 2022-02
+      - 2023-02
+    level: C
+    why: seen
     tags:
     - odo
+    - odo
     - ''
-    - odo
-    - odo
-    - ans_pat
-    pat: lw-law-health-exam-02
+    - ''
+    - ans_seen
 - num: 3
   status: published
   chapters:
@@ -137,22 +263,89 @@ questions:
     - 3
     - 1
     - 11
-    similar:
-    - 4
-    - 6
-    - 3
-    - 1
-    - 11
     truths: 正正誤正正
-    level: S
-    why: pat_S
+    pcounts:
+    - 10
+    - 6
+    - 12
+    - 1
+    - 14
+    points:
+    - pt-hourei-0044
+    - pt-hourei-0093
+    - pt-hourei-0022
+    - pt-hourei-0305
+    - pt-hourei-0016
+    pnames:
+    - 衛生管理者の業種による区分（第一種・第二種、50人以上）
+    - 衛生管理者などへの能力向上教育
+    - 常時特定粉じん作業に係る業務に労働者を就かせるときは、その者に対し、原則として、法定の科目について特別教育を行わなければならない
+    - 石綿等が使用されている建築物、工作物又は船舶の解体等の作業に係る業務に労働者を就かせるときは、当該労働者に対し、原則として、法定の科目について特別教育を行わなければならない
+    - 特別教育・職長教育の科目の省略
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 0
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - - 2015-08
+      - 2017-02
+      - 2019-08
+      - 2022-08
+    - []
+    - - 2015-08
+      - 2016-02
+      - 2016-08
+      - 2017-02
+      - 2017-08
+      - 2018-08
+      - 2019-02
+      - 2019-08
+      - 2020-02
+      - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2023-02
+      - 2023-08
+      - 2024-02
+    - - 2019-02
+      - 2020-08
+      - 2024-02
+    - []
+    level: B
+    why: pt_B
     tags:
-    - odo
-    - odo
-    - ans_pat
+    - ''
+    - ''
+    - ans_b
     - new
     - odo
-    pat: lw-law-education-01
 - num: 4
   status: published
   chapters:
@@ -221,23 +414,95 @@ questions:
     - 8
     - 5
     - 3
-    - 4
-    similar:
-    - 12
-    - 8
-    - 5
     - 3
-    - 4
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 12
+    - 17
+    - 15
+    - 3
+    - 12
+    points:
+    - pt-hourei-0029
+    - pt-hourei-0004
+    - pt-hourei-0012
+    - pt-hourei-0164
+    - pt-hourei-0027
+    pnames:
+    - 半月以内ごとの測定（暑熱・寒冷・坑内など）
+    - 酸素欠乏危険作業の作業開始前の酸素・硫化水素濃度の測定
+    - 管理区域の線量当量率の測定（1か月以内ごと）
+    - 6か月以内ごとの測定（特定化学物質・鉛・有機溶剤など）
+    - 半月以内ごとの測定（暑熱・寒冷・坑内など）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 6
+    - 1
+    - 0
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2015-08
+      - 2016-08
+      - 2017-08
+      - 2018-08
+      - 2023-08
+    - - 2016-02
+      - 2017-02
+      - 2019-08
+      - 2020-02
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2023-02
+      - 2024-02
+    - - 2020-02
+      - 2020-08
+    - - 2015-08
+      - 2016-02
+      - 2016-08
+      - 2017-08
+      - 2018-02
+      - 2018-08
+      - 2019-08
+      - 2020-02
+      - 2020-08
+      - 2021-02
+      - 2023-08
+      - 2024-02
+      - 2026-02
+    level: B
+    why: pt_B
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - odo
-    - ans_pat
-    pat: lw-law-measurement-scope-03
+    - ''
+    - ans_b
 - num: 6
   status: published
   chapters:
@@ -268,8 +533,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: S
-    why: pat_S
+    level: B
+    why: pat_B
     pat: lw-law-tokka-02
 - num: 7
   status: published
@@ -336,22 +601,79 @@ questions:
     - 1
     - 6
     - 4
-    similar:
-    - 2
-    - 7
-    - 1
-    - 6
-    - 8
     truths: 誤正正正正
+    pcounts:
+    - 15
+    - 10
+    - 3
+    - 14
+    - 10
+    points:
+    - pt-hourei-0011
+    - pt-hourei-0049
+    - pt-hourei-0179
+    - pt-hourei-0015
+    - pt-hourei-0045
+    pnames:
+    - 作業環境測定・評価は作業環境測定士が行う（測定士でない者には行わせられない）
+    - 作業環境測定・評価は作業環境測定士が行う（測定士でない者には行わせられない）
+    - 作業環境測定の業務に関する不正の行為により、作業環境測定士の登録を取り消された者は、その日から起算して1年間は、作業環境測定士となることができない
+    - 簡易測定機器による分析は第2種作業環境測定士でも行える
+    - 作業環境測定・評価は作業環境測定士が行う（測定士でない者には行わせられない）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 3
+    - 0
+    - 2
+    - 1
+    near:
+    - true
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - - 2015-08
+      - 2017-02
+      - 2018-02
+      - 2019-08
+      - 2020-02
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2023-02
+    - []
+    - - 2022-02
+      - 2023-02
+    - - 2018-08
+      - 2020-08
+    - []
     level: A
-    why: pat_A
+    why: pt_A
     tags:
-    - ans_pat
+    - ans_hi
+    - ''
+    - ''
     - odo
-    - new
-    - odo
-    - odo
-    pat: lw-law-sokuteishi-01
+    - ''
 - num: 9
   status: published
   chapters:
@@ -386,18 +708,71 @@ questions:
     - 2
     - 3
     - 2
-    similar:
-    - 9
-    - 5
-    - 2
-    - 3
-    - 2
     truths: 正正正誤正
+    pcounts:
+    - 11
+    - 5
+    - 7
+    - 12
+    - 3
+    points:
+    - pt-hourei-0033
+    - pt-hourei-0109
+    - pt-hourei-0083
+    - pt-hourei-0024
+    - pt-hourei-0195
+    pnames:
+    - 測定点の決め方（6 m以下の等間隔・床上の高さ）
+    - 鉱物性粉じんの濃度の測定を相対濃度指示方法によって行う場合には、原則として、当該単位作業場所における1箇所以上の測定点において…
+    - 単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、測定点の数は、5未満としてよい
+    - 試料空気の採取時間は10分間以上（例外）
+    - 有害物質の A 測定は、作業が定常的に行われている時間に行わなければならない
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 4
+    - 1
+    near:
+    - true
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - - 2017-02
+      - 2018-08
+    - []
+    - - 2016-02
+      - 2019-02
+      - 2020-02
+      - 2020-08
+      - 2021-02
+    - - 2024-08
+    - []
     level: B
-    why: ans_b
+    why: pt_B
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ''
     - ans_b
     - ''
@@ -434,22 +809,78 @@ questions:
     - 5
     - 1
     - 3
-    similar:
-    - 3
-    - 1
-    - 5
-    - 1
-    - 3
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 12
+    - 20
+    - 20
+    - 20
+    - 10
+    points:
+    - pt-hourei-0026
+    - pt-hourei-0001
+    - pt-hourei-0001
+    - pt-hourei-0001
+    - pt-hourei-0050
+    pnames:
+    - 第2種有機溶剤等を用いる洗浄業務に必要な換気装置
+    - A測定・B測定の結果と管理区分の決め方
+    - A測定・B測定の結果と管理区分の決め方
+    - A測定・B測定の結果と管理区分の決め方
+    - A測定・B測定の結果と管理区分の決め方
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 4
+    - 4
+    - 4
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2015-08
+      - 2016-02
+      - 2016-08
+      - 2019-08
+      - 2021-02
+      - 2022-02
+      - 2023-02
+      - 2023-08
+      - 2024-02
+      - 2024-08
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pt_B
     tags:
-    - ans_pat
-    - new
+    - ans_b
     - odo
-    - new
     - odo
-    pat: lw-law-evaluation-02
+    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -480,22 +911,69 @@ questions:
     - 1
     - 2
     - 4
-    similar:
-    - 1
-    - 1
-    - 1
-    - 2
-    - 4
     truths: 正正誤正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 19
+    - 3
+    - 3
+    - 4
+    points:
+    - pt-hourei-0204
+    - pt-hourei-0003
+    - pt-hourei-0150
+    - pt-hourei-0157
+    - pt-hourei-0144
+    pnames:
+    - 個人サンプリング法の登録と第1種作業環境測定士の業務範囲
+    - 個人サンプリング法の登録と第1種作業環境測定士の業務範囲
+    - 個人サンプリング法の登録と第1種作業環境測定士の業務範囲
+    - 個人サンプリング法の登録と第1種作業環境測定士の業務範囲
+    - A測定・B測定の結果と管理区分の決め方
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 3
+    - 0
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2023-08
+    - []
+    level: C
+    why: seen
     tags:
-    - new
-    - new
-    - ans_pat
     - ''
     - odo
-    pat: lw-law-personal-sampling-02
+    - ans_seen
+    - ''
+    - ''
 - num: 12
   status: published
   chapters:
@@ -525,26 +1003,84 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 5
     - 1
-    - 1
-    - 2
-    - 1
-    similar:
-    - 6
-    - 2
     - 1
     - 2
     - 1
     truths: 正正正誤正
+    pcounts:
+    - 6
+    - 3
+    - 2
+    - 3
+    - 2
+    points:
+    - pt-hourei-0105
+    - pt-hourei-0188
+    - pt-hourei-0235
+    - pt-hourei-0183
+    - pt-hourei-0250
+    pnames:
+    - ナフタレンの区分（第○類物質など）
+    - 塩化水素の区分（第○類物質など）
+    - マンガンの区分（第○類物質など）
+    - 二酸化硫黄の区分（第○類物質など）
+    - クロロホルムの区分（第○類物質など）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 2
+    - 0
+    - 2
+    - 0
+    near:
+    - true
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2018-02
+      - 2019-08
+      - 2020-02
+      - 2022-08
+    - - 2019-02
+    - []
+    - - 2018-02
+      - 2019-02
+      - 2019-08
+      - 2020-02
+      - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2023-02
+    - []
     level: S
     why: pat_S
     tags:
-    - odo
     - ''
-    - new
+    - ''
+    - ''
     - ans_pat
-    - new
+    - ''
     pat: lw-law-tokka-01
 - num: 13
   status: published
@@ -580,22 +1116,85 @@ questions:
     - 3
     - 8
     - 8
-    similar:
-    - 5
-    - 3
-    - 3
-    - 8
-    - 10
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 10
+    - 3
+    - 13
+    - 8
+    - 13
+    points:
+    - pt-hourei-0040
+    - pt-hourei-0168
+    - pt-hourei-0017
+    - pt-hourei-0058
+    - pt-hourei-0021
+    pnames:
+    - 特定化学物質・石綿などの取扱い業務従事者の健康診断
+    - 6か月以内ごとの測定（特定化学物質・鉛・有機溶剤など）
+    - 6か月以内ごとの測定（特定化学物質・鉛・有機溶剤など）
+    - 局所排気装置などの定期自主検査（1年以内ごと等）
+    - 試験研究のために取り扱う作業の扱い
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 2
+    - 0
+    - 2
+    near:
+    - true
+    - true
+    - true
+    - false
+    - true
+    near_exams:
+    - - 2018-02
+      - 2019-02
+      - 2020-02
+    - - 2017-08
+      - 2019-08
+      - 2020-02
+      - 2022-02
+      - 2023-02
+      - 2025-08
+    - - 2018-02
+      - 2019-02
+      - 2019-08
+      - 2020-02
+      - 2021-02
+      - 2022-02
+      - 2023-02
+      - 2024-08
+    - []
+    - - 2018-08
+      - 2022-02
+      - 2023-02
+    level: B
+    why: pt_B
     tags:
-    - odo
-    - odo
-    - ans_pat
-    - odo
-    - odo
-    pat: lw-law-tokka-05
+    - ''
+    - ''
+    - ans_b
+    - ''
+    - ''
 - num: 14
   status: published
   chapters:
@@ -629,8 +1228,8 @@ questions:
     denom: 23
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: lw-law-tokka-03
 - num: 15
   status: published
@@ -666,21 +1265,72 @@ questions:
     - 12
     - 5
     - 11
-    similar:
-    - 3
-    - 9
-    - 12
-    - 5
-    - 11
     truths: 正正正誤正
-    level: A
-    why: ans_hi
+    pcounts:
+    - 4
+    - 15
+    - 6
+    - 10
+    - 12
+    points:
+    - pt-hourei-0120
+    - pt-hourei-0008
+    - pt-hourei-0090
+    - pt-hourei-0039
+    - pt-hourei-0023
+    pnames:
+    - 第2種有機溶剤等を用いる洗浄業務に必要な換気装置
+    - 第3種有機溶剤等の洗浄業務と作業主任者
+    - 第3種有機溶剤等の洗浄業務と作業主任者
+    - 第3種有機溶剤等の洗浄業務と作業主任者
+    - 有機溶剤業務従事者の健康診断
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 0
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2020-08
+    - - 2020-02
+    - - 2016-08
+      - 2021-02
+      - 2023-08
+      - 2026-08
+    - - 2024-08
+    level: B
+    why: pt_B
     tags:
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_hi
-    - odo
+    - ''
+    - ans_b
+    - ''
 - num: 16
   status: published
   chapters:
@@ -714,22 +1364,86 @@ questions:
     - 10
     - 5
     - 2
-    similar:
-    - 9
-    - 4
-    - 10
-    - 7
-    - 2
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 10
+    - 11
+    - 15
+    - 8
+    - 6
+    points:
+    - pt-hourei-0042
+    - pt-hourei-0031
+    - pt-hourei-0013
+    - pt-hourei-0062
+    - pt-hourei-0100
+    pnames:
+    - 実効線量限度（5年間100 mSv・1年間50 mSv）
+    - 管理区域への立入りと線量の測定
+    - 実効線量限度（5年間100 mSv・1年間50 mSv）
+    - 実効線量限度（5年間100 mSv・1年間50 mSv）
+    - 等価線量限度（眼の水晶体・皮膚）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 0
+    near:
+    - false
+    - true
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - - 2018-02
+      - 2019-08
+      - 2020-08
+      - 2021-02
+    - - 2016-02
+      - 2017-02
+      - 2017-08
+      - 2024-02
+    - - 2018-08
+    - - 2016-02
+      - 2017-08
+      - 2018-02
+      - 2018-08
+      - 2019-08
+      - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2023-02
+      - 2023-08
+      - 2024-08
+    level: C
+    why: seen
     tags:
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - odo
-    - ans_pat
-    pat: lw-law-radiation-03
+    - ''
+    - ans_seen
 - num: 17
   status: published
   chapters:
@@ -762,21 +1476,79 @@ questions:
     - 7
     - 8
     - 1
-    - 3
-    similar:
-    - 9
-    - 8
-    - 8
     - 1
-    - 3
     truths: 正正正正誤
-    level: S
-    why: pat_S
+    pcounts:
+    - 10
+    - 9
+    - 16
+    - 12
+    - 8
+    points:
+    - pt-hourei-0037
+    - pt-hourei-0054
+    - pt-hourei-0006
+    - pt-hourei-0025
+    - pt-hourei-0085
+    pnames:
+    - 局所排気装置などの定期自主検査（1年以内ごと等）
+    - 局所排気装置の除じん装置の方式（サイクロン・ろ過・ヒューム・鉛業務）
+    - 特定粉じん作業を行う屋内作業場の換気措置
+    - 6か月以内ごとの測定（特定化学物質・鉛・有機溶剤など）
+    - 試験研究のために取り扱う作業の扱い
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    near:
+    - false
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-08
+      - 2020-02
+      - 2022-02
+      - 2023-02
+    - - 2015-08
+      - 2016-02
+      - 2017-02
+      - 2018-08
+      - 2019-02
+      - 2019-08
+      - 2022-08
+      - 2023-08
+    - []
+    - []
+    level: A
+    why: pat_A
     tags:
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - new
+    - ''
     - ans_pat
     pat: lw-law-chief-01
 - num: 18
@@ -816,20 +1588,83 @@ questions:
     - 5
     - 5
     - 7
-    similar:
-    - 2
-    - 6
-    - 5
-    - 6
-    - 7
     truths: 誤正正正正
-    level: S
-    why: pat_S
+    pcounts:
+    - 6
+    - 8
+    - 3
+    - 10
+    - 15
+    points:
+    - pt-hourei-0097
+    - pt-hourei-0060
+    - pt-hourei-0173
+    - pt-hourei-0046
+    - pt-hourei-0010
+    pnames:
+    - 空気調和設備の供給空気の基準（浮遊粉じん・ホルムアルデヒド等）
+    - 空気調和設備の供給空気の基準（浮遊粉じん・ホルムアルデヒド等）
+    - 事務室の一酸化炭素・二酸化炭素の含有率の基準
+    - 室の気積を、設備の占める容積及び床面から4 mをこえる高さにある空間を除き、労働者1人について、10 m³以上としなければならない
+    - 空気調和設備の供給空気の基準（浮遊粉じん・ホルムアルデヒド等）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 2
+    near:
+    - true
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2016-08
+      - 2017-02
+      - 2019-08
+      - 2020-02
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2023-02
+      - 2023-08
+    - []
+    - - 2017-02
+      - 2018-08
+      - 2020-02
+      - 2021-02
+      - 2022-08
+    - - 2015-08
+      - 2017-08
+      - 2018-02
+    - - 2022-08
+      - 2024-02
+    level: A
+    why: pat_A
     tags:
     - ans_pat
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - odo
     pat: lw-law-office-01
 - num: 19
@@ -866,21 +1701,82 @@ questions:
     - 4
     - 1
     - 5
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 5
+    - 17
     - 1
     - 4
+    - 3
+    points:
+    - pt-hourei-0107
+    - pt-hourei-0004
+    - pt-hourei-0389
+    - pt-hourei-0122
+    - pt-hourei-0169
+    pnames:
+    - 酸素欠乏とは、空気中の酸素の濃度が18%未満である状態をいう。
+    - 酸素欠乏危険作業の作業開始前の酸素・硫化水素濃度の測定
+    - 第1種・第2種酸素欠乏危険作業の範囲
+    - 酸素欠乏危険作業を行う場所において、爆発、酸化等を防止するために換気を行うことができない場合は、空気呼吸器、酸素呼吸器又は送気マスクを備え、労働者に使用させなければならない
+    - 第1種・第2種酸素欠乏危険作業の範囲
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
     - 1
-    - 5
-    truths: 正正正誤正
-    level: B
-    why: elim_two
+    - 6
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2016-08
+      - 2017-08
+      - 2018-02
+      - 2019-08
+      - 2022-02
+      - 2023-02
+      - 2024-02
+    - - 2017-02
+      - 2024-02
+    - - 2016-08
+      - 2017-08
+      - 2018-08
+      - 2019-08
+      - 2020-08
+      - 2024-02
+      - 2026-02
+    level: C
+    why: seen
     tags:
+    - ''
     - odo
     - new
-    - odo
-    - ans_new
-    - odo
+    - ans_seen
+    - ''
 - num: 20
   status: published
   chapters:
@@ -913,21 +1809,71 @@ questions:
     - 3
     - 7
     - 2
-    - 4
-    - 1
-    similar:
-    - 3
-    - 7
     - 2
-    - 4
     - 1
     truths: 正正正誤正
-    level: A
-    why: pat_A
-    tags:
-    - odo
-    - odo
+    pcounts:
+    - 3
+    - 9
+    - 4
+    - 15
+    - 11
+    points:
+    - pt-hourei-0172
+    - pt-hourei-0051
+    - pt-hourei-0129
+    - pt-hourei-0009
+    - pt-hourei-0030
+    pnames:
+    - 高気圧障害とは、高気圧による減圧症、酸素、窒素又は炭酸ガスによる中毒その他の高気圧による健康障害をいう
+    - 常時粉じん作業に従事する労働者については、じん肺健康診断の結果に基づき、管理1から管理4までのじん肺管理区分に区分して、健康管理を行う
+    - じん肺の合併症には、肺結核、続発性気管支炎、原発性肺がんが含まれる
+    - 局所排気装置の除じん装置の方式（サイクロン・ろ過・ヒューム・鉛業務）
+    - 局所排気装置などの定期自主検査（1年以内ごと等）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
     - ''
-    - ans_pat
-    - new
-    pat: lw-law-dust-01
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 1
+    - 2
+    - 5
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2019-02
+      - 2020-08
+    - []
+    - - 2017-08
+      - 2020-02
+      - 2026-02
+    - []
+    level: A
+    why: pt_A
+    tags:
+    - ''
+    - ''
+    - ''
+    - ans_hi
+    - ''

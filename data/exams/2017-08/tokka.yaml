@@ -38,20 +38,68 @@ questions:
     - 2
     - 2
     - 3
-    similar:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 3
     truths: 正正正誤正
-    level: B
-    why: ans_b
+    pcounts:
+    - 4
+    - 2
+    - 2
+    - 2
+    - 6
+    points:
+    - pt-tokka-0017
+    - pt-tokka-0078
+    - pt-tokka-0086
+    - pt-tokka-0079
+    - pt-tokka-0004
+    pnames:
+    - 吸光度は、試料液の濃度と光路長に比例する。
+    - 発色試薬には、無機試薬と有機試薬がある。
+    - 着色液は、時間の経過とともに退色することがある。
+    - 試料液を透過した光の強さは、試料液の濃度に比例する。（誤りの記述）
+    - ガラス製のセルは、紫外部の光を吸収する。
+    prcounts:
+    - 6
+    - 0
+    - 0
+    - 0
+    - 8
+    principles:
+    - pr-tokka-0001
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0002
+    prnames:
+    - ランベルト・ベールの法則
+    - ''
+    - ''
+    - ''
+    - ガラスは紫外光を吸収する（セルの材質と波長）
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - odo
-    - new
-    - odo
-    - ans_b
+    - ''
+    - ''
+    - ans_seen
     - odo
 - num: 2
   status: published
@@ -133,9 +181,10 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-041
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: B
+    why: subst
 - num: 4
   status: published
   chapters:
@@ -173,8 +222,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 5
   status: published
   chapters:
@@ -203,12 +252,77 @@ questions:
   law_note: null
   minor_note: 充填カラムのエージングで、室温から徐々に昇温する、という点は、プロジェクトの教科書で確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
   freq:
-    kind: question
+    kind: choice
     denom: 12
-    count: 1
-    form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    pcounts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    points:
+    - pt-tokka-0258
+    - pt-tokka-0187
+    - pt-tokka-0257
+    - pt-tokka-0259
+    - pt-tokka-0205
+    pnames:
+    - キャリアガスを流して行う。
+    - カラムを試料導入部及び検出器に接続して行う。（誤りの記述）
+    - 室温からカラム最高使用温度まで速やかに昇温させて行う。（誤りの記述）
+    - 通常、一昼夜程度行う。
+    - ベースラインが安定しない場合は、さらにエージングを行う。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - new
+    - ''
 - num: 6
   status: published
   chapters:
@@ -244,22 +358,69 @@ questions:
     - 3
     - 1
     - 2
-    similar:
+    truths: 正正正正誤
+    pcounts:
     - 1
-    - 1
-    - 3
+    - 4
+    - 5
     - 1
     - 2
-    truths: 正正正正誤
+    points:
+    - pt-tokka-0243
+    - pt-tokka-0010
+    - pt-tokka-0003
+    - pt-tokka-0119
+    - pt-tokka-0039
+    pnames:
+    - エチルベンゼンの捕集は、直接捕集法で行うことができる。
+    - 捕集は、30L･min⁻¹の一定流量で試料空気を吸引する。
+    - 活性炭からの脱着には、二硫化炭素を用いる。
+    - 石油系合成（球状）活性炭管で捕集した試料は、捕集後2週間程度保存できる
+    - 塩素化ビフェニル電子捕獲検出器(ECD)
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 9
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0004
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - new
-    - new
+    - odo
     - odo
     - new
-    - ans_pat
-    pat: sl-tokka-051
+    - ans_pr
 - num: 7
   status: published
   chapters:
@@ -296,21 +457,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
-    why: none
+    pcounts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 3
+    points:
+    - pt-tokka-0177
+    - pt-tokka-0134
+    - pt-tokka-0052
+    - pt-tokka-0196
+    - pt-tokka-0035
+    pnames:
+    - 混合有機溶剤の分析に有効である。
+    - 水素炎イオン化検出器（FID）を用いる場合は、検出器部にメイクアップガスを追加する
+    - キャリアガスとしては、窒素よりヘリウムを使用する方が理論段数が大きい
+    - 試料負荷量が小さいため、多量の試料を導入することができない。
+    - 両物質とも、沸点は水の沸点より低い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0011
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 沸点・融点・蒸気圧の比較（分子間力）
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: A
+    why: pr_A
     tags:
     - new
     - new
+    - ''
     - new
-    - new
-    - ans_new
+    - ans_pr
 - num: 8
   status: published
   chapters:
@@ -344,9 +553,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-064
+    level: C
+    why: q_seen
 - num: 9
   status: published
   chapters:
@@ -371,13 +579,77 @@ questions:
   figures: []
   law_note: null
   freq:
-    kind: question
+    kind: choice
     denom: 12
-    count: 3
-    form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-046
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤誤誤正誤
+    pcounts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-tokka-0135
+    - pt-tokka-0073
+    - pt-tokka-0253
+    - pt-tokka-0254
+    - pt-tokka-0255
+    pnames:
+    - 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）（誤りの記述）
+    - 標準溶液は1,1-ジメチルヒドラジンの硫酸溶液とする。
+    - p-ジメチルアミノアゾベンゼン（誤りの記述）
+    - トルエンジイソシアネート
+    - p-ニトロクロロベンゼン（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2019-08
+    - []
+    - []
+    - []
+    level: D
+    why: none
+    tags:
+    - new
+    - ''
+    - new
+    - ans_new
+    - new
 - num: 10
   status: published
   chapters:
@@ -413,7 +685,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 11
   status: published
@@ -446,24 +718,72 @@ questions:
     denom: 12
     counts:
     - 1
-    - 2
-    - 2
     - 1
-    - 1
-    similar:
-    - 1
-    - 2
     - 2
     - 1
     - 1
     truths: 正誤正正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-tokka-0178
+    - pt-tokka-0041
+    - pt-tokka-0051
+    - pt-tokka-0041
+    - pt-tokka-0136
+    pnames:
+    - 蛍光の波長と強度をプロットした図を蛍光スペクトルと呼ぶ。
+    - 蛍光の極大波長は、励起光の波長を変えても変わらない
+    - 蛍光強度と濃度との直線関係は、低濃度範囲で成立する。
+    - 蛍光の極大波長は、励起光の波長を変えても変わらない
+    - 励起光の波長は、溶媒のラマン光が妨害とならないように選択する。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
-    - ans_b
-    - odo
-    - new
+    - ans_seen
+    - ''
+    - ''
     - new
 - num: 12
   status: published
@@ -499,22 +819,70 @@ questions:
     - 4
     - 1
     - 1
-    - 2
-    similar:
     - 1
-    - 4
-    - 1
-    - 2
-    - 2
     truths: 正正正正誤
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 5
+    points:
+    - pt-tokka-0179
+    - pt-tokka-0013
+    - pt-tokka-0137
+    - pt-tokka-0180
+    - pt-tokka-0005
+    pnames:
+    - 逆相クロマトグラフ法は、順相クロマトグラフ法よりも、分離可能な化合物の種類が多い
+    - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+    - 蛍光光度検出器は、紫外可視吸光光度検出器よりも、選択性が高い。
+    - イオン性化合物を分析する際には、移動相に緩衝液を加えることがある
+    - 移動相が固定相よりも極性が高い場合、逆相クロマトグラフ法という。
+    prcounts:
+    - 0
+    - 9
+    - 0
+    - 0
+    - 6
+    principles:
+    - ''
+    - pr-tokka-0004
+    - ''
+    - ''
+    - pr-tokka-0003
+    prnames:
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    - ''
+    - 逆相クロマトグラフの原理（固定相は低極性）
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pt_S
     tags:
     - new
     - odo
     - new
-    - odo
-    - ans_b
+    - new
+    - ans_hi
 - num: 13
   status: published
   chapters:
@@ -552,9 +920,8 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-065
+    level: D
+    why: q_new
 - num: 14
   status: published
   chapters:
@@ -596,7 +963,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 15
   status: published
@@ -623,7 +990,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 16
   status: published
@@ -660,20 +1027,70 @@ questions:
     - 2
     - 3
     - 2
-    similar:
-    - 2
-    - 3
-    - 3
-    - 3
-    - 2
     truths: 正正正誤正
+    pcounts:
+    - 3
+    - 3
+    - 4
+    - 3
+    - 3
+    points:
+    - pt-tokka-0022
+    - pt-tokka-0024
+    - pt-tokka-0012
+    - pt-tokka-0027
+    - pt-tokka-0029
+    pnames:
+    - 拡散セルは、液体から標準ガスを調製する際に用いる。
+    - 拡散速度は、液体の質量の減少量から算出する。
+    - 拡散速度は、恒温槽の温度が高いと増加する。
+    - 拡散速度は、拡散チューブの内径の2乗に比例する。
+    - 拡散速度は、拡散チューブの有効長に反比例する。
+    prcounts:
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    principles:
+    - pr-tokka-0005
+    - pr-tokka-0005
+    - pr-tokka-0005
+    - pr-tokka-0005
+    - pr-tokka-0005
+    prnames:
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    - 拡散セルによる標準ガスの発生
+    trend:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2022-08
+    - - 2015-08
+      - 2022-08
     level: A
-    why: ans_hi
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 17
   status: published
@@ -709,7 +1126,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 18
   status: published
@@ -742,7 +1159,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 19
   status: published
@@ -772,9 +1189,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-042
+    subst_id: sb-tokka-3012
+    subst_name: オルト-フタロジニトリル
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:
@@ -806,5 +1224,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_new
+    subst_id: sb-tokka-3002
+    subst_name: アクリロニトリル
+    level: B
+    why: subst

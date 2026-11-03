@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -78,8 +78,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-mole-03
 - num: 3
   status: published
@@ -115,22 +115,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正誤正
-    level: A
-    why: pat_A
+    pcounts:
+    - 2
+    - 1
+    - 4
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0224
+    - pt-bunseki-0461
+    - pt-bunseki-0055
+    - pt-bunseki-0462
+    - pt-bunseki-0463
+    pnames:
+    - アセトンはイソプロピルアルコールの酸化で得られる。
+    - 安息香酸はトルエンの酸化で得られる。
+    - 酢酸は、エタノールの酸化によって生じる。
+    - ジメチルエーテルは酢酸の酸化で得られる。（誤りの記述）
+    - キノンはフェノールの酸化で得られる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
+    - ''
     - new
+    - ''
+    - ans_new
     - new
-    - new
-    - ans_pat
-    - new
-    pat: an-organic-02
 - num: 4
   status: published
   chapters:
@@ -163,7 +210,7 @@ questions:
     count: 2
     form: 計算問題
     level: C
-    why: q_new
+    why: q_seen
 - num: 5
   status: published
   chapters:
@@ -204,8 +251,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 6
   status: published
@@ -247,9 +294,8 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-solution-04
+    level: B
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -284,22 +330,69 @@ questions:
     - 2
     - 3
     - 1
-    similar:
+    truths: 正正誤正正
+    pcounts:
     - 2
-    - 4
+    - 6
     - 2
     - 3
     - 1
-    truths: 正正誤正正
+    points:
+    - pt-bunseki-0197
+    - pt-bunseki-0017
+    - pt-bunseki-0160
+    - pt-bunseki-0122
+    - pt-bunseki-0308
+    pnames:
+    - ビュレットは最小目盛の1/10までを読みとる。
+    - 全量ピペットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい
+    - メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる（誤りの記述）
+    - 一般的なマイクロシリンジでは、針の容積は目盛りに含まれない。
+    - マイクロシリンジは、体積計としての基準はなく、その精度はメーカーが独自に制定したものである
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-02
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
     - ''
-    - odo
-    - ans_pat
-    - odo
+    - ''
+    - ans_trend
+    - ''
     - new
-    pat: an-lab-equipment-01
 - num: 8
   status: published
   chapters:
@@ -337,8 +430,8 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-gas-05
 - num: 9
   status: published
@@ -374,22 +467,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 2
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 正正誤正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0182
+    - pt-bunseki-0153
+    - pt-bunseki-0210
+    - pt-bunseki-0388
+    - pt-bunseki-0346
+    pnames:
+    - 試薬特級の純度は、日本産業規格で規格化されている。
+    - 特定の分析を目的として不純物の種類・濃度の許容レベルを定めた特殊規格の試薬が存在する
+    - 一次標準物質は、滴定により純度を規定する必要がある。（誤りの記述）
+    - 空気中の二酸化炭素で純度が低下する試薬がある。
+    - 酸類と塩基類は、災害時の危険を避けるために別々の場所に保管する。
+    prcounts:
+    - 0
+    - 0
+    - 8
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0023
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 標定と一次標準物質
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: trend_S
     tags:
     - ''
     - ''
-    - ans_pat
+    - ans_trend
     - new
     - new
-    pat: an-reagents-03
 - num: 10
   status: published
   chapters:
@@ -426,8 +566,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-quantification-02
 - num: 11
   status: published
@@ -465,9 +605,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-mole-03
+    level: B
+    why: q_b
 - num: 12
   status: published
   chapters:
@@ -503,17 +642,66 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 2
-    - 2
-    - 2
-    - 2
-    - 2
     truths: 正正誤正正
-    level: A
-    why: pat_A
-    tags:
+    pcounts:
+    - 5
+    - 6
+    - 1
+    - 6
+    - 2
+    points:
+    - pt-bunseki-0036
+    - pt-bunseki-0024
+    - pt-bunseki-0389
+    - pt-bunseki-0020
+    - pt-bunseki-0183
+    pnames:
+    - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
+    - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
+    - 水酸化ナトリウム溶液の標定には、硝酸カリウムが用いられる。（誤りの記述）
+    - 塩酸溶液の標定には、炭酸ナトリウムが用いられる。
+    - シュウ酸ナトリウムは、過マンガン酸カリウム溶液の標定に用いられる
+    prcounts:
+    - 8
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0023
     - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 標定と一次標準物質
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - - 2023-08
+      - 2026-02
+    - - 2023-08
+    - []
+    level: B
+    why: pat_B
+    tags:
+    - odo
     - ''
     - ans_pat
     - ''
@@ -553,22 +741,69 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 10
-    - 7
-    - 3
-    - 1
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 9
+    - 7
+    - 11
+    - 6
+    - 1
+    points:
+    - pt-bunseki-0008
+    - pt-bunseki-0012
+    - pt-bunseki-0003
+    - pt-bunseki-0022
+    - pt-bunseki-0347
+    pnames:
+    - 測定対象物質ごとに異なる。
+    - 吸光度は、光路長に比例する。
+    - 吸光度は、通常、極大吸収波長で測定する。
+    - モル吸光係数は、波長により異なる。
+    - 吸収極大波長は、溶媒の種類を変えても変化しない。（誤りの記述）
+    prcounts:
+    - 0
+    - 12
+    - 0
+    - 11
+    - 0
+    principles:
+    - ''
+    - pr-bunseki-0001
+    - ''
+    - pr-bunseki-0003
+    - ''
+    prnames:
+    - ''
+    - ランベルト・ベールの法則
+    - ''
+    - モル吸光係数の性質
+    - ''
+    trend:
+    - 3
+    - 3
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2017-02
+    - []
+    - []
+    - []
     level: B
-    why: pat_B
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - new
-    - ans_pat
-    pat: an-spectrophotometry-05
+    - odo
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -643,22 +878,69 @@ questions:
     - 3
     - 1
     - 1
-    similar:
-    - 6
+    truths: 正正誤正正
+    pcounts:
+    - 10
     - 4
     - 3
-    - 1
+    - 4
+    - 5
+    points:
+    - pt-bunseki-0005
+    - pt-bunseki-0071
+    - pt-bunseki-0130
+    - pt-bunseki-0072
+    - pt-bunseki-0042
+    pnames:
+    - 光源には中空陰極ランプが用いられる。
+    - フレーム中における目的原子の原子蒸気は、ほとんどが基底状態にある
+    - 吸光度は、光源光の強度に比例する。（誤りの記述）
+    - 光源光がフレームを通過する位置により吸光度が異なる。
+    - 定量は、検量線法で行う。
+    prcounts:
+    - 14
+    - 16
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0009
+    - pr-bunseki-0008
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 原子吸光の光源は線光源
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 3
     - 2
-    truths: 正正誤正正
+    - 3
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
     - odo
     - odo
-    - ans_pat
-    - new
+    - ans_trend
     - ''
-    pat: an-aas-02
+    - ''
 - num: 16
   status: published
   chapters:
@@ -693,22 +975,69 @@ questions:
     - 2
     - 2
     - 2
-    similar:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 3
     truths: 誤正正正正
+    pcounts:
+    - 6
+    - 2
+    - 4
+    - 3
+    - 3
+    points:
+    - pt-bunseki-0041
+    - pt-bunseki-0227
+    - pt-bunseki-0138
+    - pt-bunseki-0118
+    - pt-bunseki-0139
+    pnames:
+    - 光源にタングステンランプを用いる。
+    - 光源の光が分光器で分光され励起光となる。
+    - 石英製の試料セルが用いられる。
+    - 試料からの蛍光は分光器で分光される。
+    - 検出器として光電子増倍管が用いられる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 3
+    - 1
+    - 3
+    - 2
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2024-02
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - ans_pat
-    - new
+    - ans_trend
     - ''
     - ''
-    - odo
-    pat: an-fluorescence-01
+    - ''
+    - ''
 - num: 17
   status: published
   chapters:
@@ -739,25 +1068,74 @@ questions:
     denom: 23
     counts:
     - 1
-    - 5
-    - 2
-    - 1
-    - 1
-    similar:
-    - 1
-    - 5
+    - 6
     - 2
     - 1
     - 1
     truths: 誤正正正正
+    pcounts:
+    - 8
+    - 9
+    - 9
+    - 3
+    - 3
+    points:
+    - pt-bunseki-0229
+    - pt-bunseki-0052
+    - pt-bunseki-0052
+    - pt-bunseki-0095
+    - pt-bunseki-0095
+    pnames:
+    - 理論段相当高さが高いほど理論段数は大きくなる。（誤りの記述）
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+    - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+    prcounts:
+    - 9
+    - 0
+    - 0
+    - 5
+    - 5
+    principles:
+    - pr-bunseki-0028
+    - ''
+    - ''
+    - pr-bunseki-0029
+    - pr-bunseki-0029
+    prnames:
+    - 理論段数と理論段相当高さ
+    - ''
+    - ''
+    - 保持時間と溶出順
+    - 保持時間と溶出順
+    trend:
+    - 4
+    - 5
+    - 5
+    - 3
+    - 3
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2016-02
+      - 2019-02
+    - []
+    - - 2025-02
+    - []
     level: S
     why: pat_S
     tags:
     - ans_pat
     - odo
+    - odo
     - ''
-    - new
-    - new
+    - ''
     pat: an-gc-02
 - num: 18
   status: published
@@ -829,8 +1207,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-xrd-02
 - num: 20
   status: published
@@ -866,6 +1244,5 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: A
-    why: pat_A
-    pat: an-logarithm-03
+    level: B
+    why: q_b

@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -75,8 +75,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-statistics-01
 - num: 3
   status: published
@@ -112,22 +112,70 @@ questions:
     - 3
     - 2
     - 1
-    similar:
-    - 1
-    - 3
-    - 3
-    - 2
-    - 1
     truths: 誤正正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 3
+    - 3
+    - 3
+    - 1
+    - 4
+    points:
+    - pt-bunseki-0098
+    - pt-bunseki-0098
+    - pt-bunseki-0133
+    - pt-bunseki-0342
+    - pt-bunseki-0055
+    pnames:
+    - アニリンの水溶液は、アルカリ性を示す。
+    - アニリンの水溶液は、アルカリ性を示す。
+    - プロピオン酸の水溶液は、酸性を示す。
+    - プロパンは、常温・常圧（25℃、1気圧）で気体である。
+    - 酢酸は、エタノールの酸化によって生じる。
+    prcounts:
+    - 0
+    - 0
+    - 3
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0038
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 酸・塩の水溶液のpH
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2016-08
+      - 2026-02
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
-    - ans_pat
-    - odo
-    - odo
+    - ans_seen
+    - ''
     - ''
     - new
-    pat: an-organic-02
+    - ''
 - num: 4
   status: published
   chapters:
@@ -162,20 +210,76 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 3
-    - 7
-    - 2
-    - 4
-    - 2
     truths: 正正正正誤
+    pcounts:
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0482
+    - pt-bunseki-0140
+    - pt-bunseki-0241
+    - pt-bunseki-0488
+    - pt-bunseki-0483
+    pnames:
+    - アセトニトリルは、-CN基をもっている。
+    - 酢酸は、－COOH基をもっている。
+    - トルエンは、-CH₃基をもっている。
+    - ホルムアルデヒドは、＞C＝O基をもっている。
+    - ジエチルエーテルは、-OH基をもっている。（誤りの記述）
+    prcounts:
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    principles:
+    - pr-bunseki-0037
+    - pr-bunseki-0037
+    - ''
+    - ''
+    - pr-bunseki-0037
+    prnames:
+    - 官能基と有機化合物の性質
+    - 官能基と有機化合物の性質
+    - ''
+    - ''
+    - 官能基と有機化合物の性質
+    trend:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - - 2020-02
+      - 2021-02
+      - 2022-08
+    - []
+    - - 2018-08
+      - 2019-08
+    - - 2020-02
+    - - 2018-08
+      - 2019-08
+      - 2020-02
+      - 2021-02
+      - 2022-08
+      - 2024-02
     level: A
     why: pat_A
     tags:
-    - odo
-    - odo
+    - new
     - ''
-    - odo
+    - ''
+    - new
     - ans_pat
     pat: an-organic-01
 - num: 5
@@ -218,8 +322,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-03
 - num: 6
   status: published
@@ -264,8 +368,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -300,7 +404,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 8
   status: published
@@ -336,22 +440,76 @@ questions:
     - 3
     - 7
     - 1
-    similar:
-    - 1
-    - 7
-    - 4
-    - 9
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 9
+    - 7
+    - 10
+    - 9
+    - 9
+    points:
+    - pt-bunseki-0006
+    - pt-bunseki-0014
+    - pt-bunseki-0004
+    - pt-bunseki-0006
+    - pt-bunseki-0006
+    pnames:
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    - 拡散セルに、複数の標準物質を入れて標準ガスの調製をすることはできない
+    - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
+    prcounts:
+    - 14
+    - 0
+    - 14
+    - 14
+    - 14
+    principles:
+    - pr-bunseki-0033
+    - ''
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    - pr-bunseki-0033
+    prnames:
+    - 拡散セルによる標準ガスの濃度
+    - ''
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    - 拡散セルによる標準ガスの濃度
+    trend:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2019-08
+      - 2021-02
+    - []
+    - - 2017-02
+      - 2018-08
+      - 2019-08
+      - 2021-02
+      - 2022-02
+      - 2023-02
+      - 2024-02
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - new
+    - odo
+    - ''
     - odo
     - odo
-    - odo
-    - ans_pat
-    pat: an-standard-gas-01
+    - ans_pr
 - num: 9
   status: published
   chapters:
@@ -389,22 +547,69 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 2
-    - 2
-    - 1
-    - 1
-    - 2
     truths: 正正正正誤
-    level: B
-    why: pat_B
+    pcounts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0182
+    - pt-bunseki-0153
+    - pt-bunseki-0458
+    - pt-bunseki-0459
+    - pt-bunseki-0210
+    pnames:
+    - 試薬特級の純度は、日本産業規格で規格化されている。
+    - 特定の分析を目的として不純物の種類・濃度の許容レベルを定めた特殊規格の試薬が存在する
+    - 酸と塩基は、別々の棚に収容する。
+    - 有機溶剤の中には光で劣化するものがある。
+    - 一次標準物質は、滴定により純度を規定する必要がある。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 8
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0023
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 標定と一次標準物質
+    trend:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: trend_S
     tags:
     - ''
     - ''
     - new
     - new
-    - ans_pat
-    pat: an-reagents-03
+    - ans_trend
 - num: 10
   status: published
   chapters:
@@ -439,22 +644,69 @@ questions:
     - 1
     - 1
     - 3
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 4
     - 1
     - 1
     - 1
-    - 3
-    truths: 正正正誤正
+    - 4
+    points:
+    - pt-bunseki-0064
+    - pt-bunseki-0271
+    - pt-bunseki-0283
+    - pt-bunseki-0343
+    - pt-bunseki-0065
+    pnames:
+    - 測定結果が検量線の濃度範囲を超えた場合は、試料溶液を希釈する。
+    - 測定値と濃度が本来比例関係にあるにもかかわらず検量線が直線とならない場合は、分析条件を再検討する必要がある
+    - 標準添加法は、測定対象物質濃度がゼロの時に測定値がゼロとみなせる場合に使用可能である
+    - 内標準法は、測定対象物質と内標準物質のそれぞれの測定値に誤差があるため、測定精度が下がる（誤りの記述）
+    - 内標準物質には、測定対象物質と物理的、化学的によく似た物質を選択する
+    prcounts:
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    principles:
+    - pr-bunseki-0032
+    - pr-bunseki-0032
+    - pr-bunseki-0032
+    - pr-bunseki-0032
+    - pr-bunseki-0032
+    prnames:
+    - 検量線法・標準添加法・内標準法
+    - 検量線法・標準添加法・内標準法
+    - 検量線法・標準添加法・内標準法
+    - 検量線法・標準添加法・内標準法
+    - 検量線法・標準添加法・内標準法
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: B
-    why: pat_B
+    why: pr_B
     tags:
-    - odo
+    - ''
     - new
     - new
-    - ans_pat
-    - odo
-    pat: an-quantification-01
+    - ans_pr
+    - ''
 - num: 11
   status: published
   chapters:
@@ -492,8 +744,8 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-03
 - num: 12
   status: published
@@ -530,22 +782,70 @@ questions:
     - 1
     - 1
     - 4
-    similar:
-    - 2
-    - 2
-    - 1
-    - 1
-    - 4
     truths: 正誤正正正
-    level: A
-    why: pat_A
-    tags:
+    pcounts:
+    - 5
+    - 6
+    - 4
+    - 2
+    - 6
+    points:
+    - pt-bunseki-0036
+    - pt-bunseki-0020
+    - pt-bunseki-0067
+    - pt-bunseki-0183
+    - pt-bunseki-0024
+    pnames:
+    - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
+    - 塩酸溶液の標定には、炭酸ナトリウムが用いられる。
+    - フタル酸水素カリウムは、アルカリ溶液の標定に用いる。
+    - シュウ酸ナトリウムは、過マンガン酸カリウム溶液の標定に用いられる
+    - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
+    prcounts:
+    - 8
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0023
     - ''
-    - ans_pat
-    - new
-    - new
+    - ''
+    - ''
+    - ''
+    prnames:
+    - 標定と一次標準物質
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 0
+    - 1
+    - 2
+    near:
+    - false
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2024-08
+      - 2026-02
+    - - 2024-08
+    - []
+    - []
+    level: B
+    why: pt_B
+    tags:
     - odo
-    pat: an-titration-01
+    - ans_b
+    - ''
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -576,7 +876,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -647,21 +947,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 正正正誤正
-    level: C
+    pcounts:
+    - 10
+    - 2
+    - 5
+    - 1
+    - 2
+    points:
+    - pt-bunseki-0005
+    - pt-bunseki-0211
+    - pt-bunseki-0032
+    - pt-bunseki-0265
+    - pt-bunseki-0162
+    pnames:
+    - 光源には中空陰極ランプが用いられる。
+    - グラファイト炉法では、炉に通電することで生じるジュール熱で原子化を行う
+    - 重水素放電管はバックグラウンドの補正に用いられる。
+    - ヒ素の還元気化法では、試料を水素化ホウ素ナトリウムと反応させることで原子状のヒ素を生成する（誤りの記述）
+    - 水銀の還元気化法では、試料を塩化スズ(Ⅱ)と反応させることで原子状の水銀を生成する
+    prcounts:
+    - 14
+    - 0
+    - 5
+    - 0
+    - 0
+    principles:
+    - pr-bunseki-0009
+    - ''
+    - pr-bunseki-0010
+    - ''
+    - ''
+    prnames:
+    - 原子吸光の光源は線光源
+    - ''
+    - バックグラウンド補正
+    - ''
+    - ''
+    trend:
+    - 3
+    - 1
+    - 1
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
-    - new
+    - odo
     - ''
     - ''
     - ans_new
-    - new
+    - ''
 - num: 16
   status: published
   chapters:
@@ -696,9 +1044,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: an-fluorescence-01
+    level: C
+    why: q_seen
 - num: 17
   status: published
   chapters:
@@ -733,22 +1080,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 誤誤正誤誤
-    level: B
-    why: pat_B
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-bunseki-0243
+    - pt-bunseki-0243
+    - pt-bunseki-0253
+    - pt-bunseki-0253
+    - pt-bunseki-0243
+    pnames:
+    - オクタンヘキサンペンタン（誤りの記述）
+    - オクタンヘキサンペンタン（誤りの記述）
+    - ペンタンヘキサンオクタン
+    - ペンタンヘキサンオクタン
+    - オクタンヘキサンペンタン（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
     - new
     - new
-    - ans_pat
+    - ans_new
     - new
     - new
-    pat: an-gc-06
 - num: 18
   status: published
   chapters:
@@ -819,19 +1213,67 @@ questions:
     - 6
     - 1
     - 5
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 6
-    - 6
-    - 6
+    - 9
+    - 5
     - 1
     - 5
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    points:
+    - pt-bunseki-0025
+    - pt-bunseki-0010
+    - pt-bunseki-0049
+    - pt-bunseki-0344
+    - pt-bunseki-0045
+    pnames:
+    - この分析法では、通常、Cu-Kα線が用いられる。
+    - この分析法は、石英の同定と定量に使われる。
+    - 回折角の測定にゴニオメーターを用いる。
+    - フィルターに捕集した試料から、目的物質を抽出した後、測定する。（誤りの記述）
+    - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
+    prcounts:
+    - 16
+    - 0
+    - 0
+    - 0
+    - 17
+    principles:
+    - pr-bunseki-0012
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0011
+    prnames:
+    - X線回折の線源は特性X線
+    - ''
+    - ''
+    - ''
+    - X線回折のブラッグの条件
+    trend:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_pat
     - odo
     pat: an-xrd-04
@@ -868,6 +1310,6 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-radiation-01

@@ -36,20 +36,68 @@ questions:
     - 1
     - 1
     - 3
-    similar:
-    - 1
-    - 1
-    - 1
-    - 3
-    - 3
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 1
+    - 2
+    - 1
+    - 4
+    - 3
+    points:
+    - pt-ippan-0396
+    - pt-ippan-0289
+    - pt-ippan-0447
+    - pt-ippan-0147
+    - pt-ippan-0222
+    pnames:
+    - 厚生労働省版コントロールバンディングでは、液体である化学物質を取り扱う作業については、化学物質の有害性…
+    - CREATE-SIMPLE（クリエイト・シンプル）は、あらゆる業種に向けたリスクアセスメント支援ツールで、吸入ばく露に加えて、経皮ばく露を考慮したリスク評価を行うことができる
+    - 指針では、リスクアセスメントの実施時期として、リスクアセスメント実施体制に変更があったとき、総括安全衛生管理者、衛生管理者、化学物質管理者等に異動があったとき、があげられている（誤りの記述）
+    - 発生可能性及び重篤度を一定の尺度によりそれぞれ数値化し、それらを加算又は乗算等する方法
+    - リスク低減措置の検討において、より優先順位の高い措置を実施すれば十分にリスクが低減される場合には、その措置よりも優先順位の低い措置の検討は必要ない
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 11
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0034
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 労働衛生対策は、発生源に近いものほど優先
+    trend:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
-    - new
+    - ''
     - ans_new
-    - odo
+    - ''
     - odo
 - num: 2
   status: published
@@ -85,9 +133,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: gn-ghs-02
+    level: D
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -121,21 +168,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 2
-    - 3
-    - 2
-    - 1
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 4
+    - 3
+    - 4
+    - 1
+    - 2
+    points:
+    - pt-ippan-0130
+    - pt-ippan-0244
+    - pt-ippan-0164
+    - pt-ippan-0503
+    - pt-ippan-0322
+    pnames:
+    - 量-影響関係とは、個体について、有害物質へのばく露量と、ある生体影響の大きさとの関係を示したものである
+    - 無影響量（NOEL）とは、毒性試験において影響が認められなかった最高のばく露量をいう
+    - 最小毒性量（LOAEL）とは、毒性試験において有害な影響が認められた最小のばく露量をいう
+    - 半数致死濃度（LC₅₀）とは、短時間の吸入ばく露で一群の実験動物の50 ％を死亡させると予想される濃度である
+    - 催奇形性試験は、化学物質による胎児の臓器・組織形成への影響をみるためのものである
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0022
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 毒性指標の大小と毒性の強さ
+    - ''
+    trend:
+    - 3
+    - 3
+    - 3
+    - 1
+    - 2
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2024-02
+    - []
+    - []
+    - []
+    - - 2025-08
     level: C
-    why: none
+    why: seen
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - new
-    - ans_new
+    - ans_seen
 - num: 4
   status: published
   chapters:
@@ -169,21 +264,74 @@ questions:
     - 1
     - 1
     - 1
-    similar:
+    truths: 正誤正正正
+    pcounts:
+    - 9
+    - 1
+    - 4
     - 6
+    - 5
+    points:
+    - pt-ippan-0031
+    - pt-ippan-0767
+    - pt-ippan-0152
+    - pt-ippan-0081
+    - pt-ippan-0116
+    pnames:
+    - スチレンは、代謝されて、尿中にマンデル酸が排泄される。
+    - n-ヘキサンの生物学的モニタリング指標は、尿中の n-ヘキサノールである（誤りの記述）
+    - テトラクロロエチレンの生物学的モニタリングの指標として尿中の総三塩化物の濃度がある
+    - 鉛の生物学的モニタリングの指標として血中の鉛濃度がある。
+    - 生物学的半減期が長い物質ほど、体内での蓄積性が大きい。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 10
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0033
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 尿中代謝物は、ばく露の終了時に最も高い（生物学的半減期）
+    trend:
     - 2
     - 1
+    - 2
+    - 3
     - 1
-    - 1
-    truths: 正誤正正正
+    near:
+    - true
+    - true
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2021-02
+      - 2022-02
+      - 2023-02
+      - 2026-02
+    - - 2017-08
+      - 2019-02
+      - 2025-02
+    - - 2026-08
+    - []
+    - []
     level: S
     why: pat_S
     tags:
     - odo
     - ans_pat
-    - new
-    - new
-    - new
+    - ''
+    - odo
+    - odo
     pat: gn-absorption-01
 - num: 5
   status: published
@@ -224,21 +372,69 @@ questions:
     - 1
     - 3
     - 3
-    similar:
-    - 1
-    - 3
-    - 1
-    - 4
-    - 3
     truths: 誤正正正正
-    level: B
-    why: elim_two
+    pcounts:
+    - 1
+    - 7
+    - 1
+    - 5
+    - 3
+    points:
+    - pt-ippan-0574
+    - pt-ippan-0058
+    - pt-ippan-0728
+    - pt-ippan-0110
+    - pt-ippan-0265
+    pnames:
+    - 岩石を切断や研磨した際に生じる粉じんの遊離けい酸含有率を知るためには、もとの岩石の遊離けい酸含有率を測定する（誤りの記述）
+    - 粉じんの沈降速度は、粒径の2乗に比例する。
+    - めっきや充電などの電解を伴う工程では、ミストが発生することが多い
+    - 1,4-ジオキサンは、脂溶性及び水溶性を共に有している。
+    - クロロホルムの極性は、四塩化炭素の極性より大きい。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    near:
+    - false
+    - true
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - - 2022-08
+    - []
+    - - 2021-08
+    - []
+    level: D
+    why: none
     tags:
     - ans_new
     - odo
     - new
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 6
   status: published
   chapters:
@@ -272,17 +468,65 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 2
-    - 1
-    - 2
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
+    pcounts:
+    - 5
+    - 1
+    - 5
+    - 1
+    - 1
+    points:
+    - pt-ippan-0092
+    - pt-ippan-0473
+    - pt-ippan-0086
+    - pt-ippan-0504
+    - pt-ippan-0672
+    pnames:
+    - 一酸化炭素は、赤血球中のヘモグロビンと強く結合し、体内組織の酸素欠乏状態を起こす
+    - 二酸化炭素は、気中濃度が 3 ％程度になると呼吸数の増加、脈拍や血圧の上昇が起こり、10 ％以上では数分間で意識不明となり、致命的となる
+    - 二酸化硫黄は、慢性気管支炎、歯牙酸蝕症などを生じる。
+    - 窒素は、空気の約8割を占める無色、無臭の気体であるが、圧気作業や潜水作業などで高分圧の窒素を吸入すると、窒素酔いと言われる飲酒時と似た症状を呈する
+    - ガスや蒸気である有害物質のうち、水への溶解度が高いものは、吸入すると肺胞まで到達しやすい（誤りの記述）
+    prcounts:
+    - 11
+    - 0
+    - 0
+    - 0
+    - 2
+    principles:
+    - pr-ippan-0008
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0002
+    prnames:
+    - 一酸化炭素はヘモグロビンと強く結合する
+    - ''
+    - ''
+    - ''
+    - 水への溶解度と吸収される部位
+    trend:
+    - 2
+    - 1
+    - 4
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
-    - ''
+    - odo
     - new
     - ''
     - new
@@ -358,22 +602,71 @@ questions:
     - 2
     - 1
     - 2
-    similar:
+    truths: 誤正正正正
+    pcounts:
     - 1
     - 1
     - 2
-    - 7
-    - 3
-    truths: 誤正正正正
-    level: B
-    why: pat_B
+    - 10
+    - 4
+    points:
+    - pt-ippan-0423
+    - pt-ippan-0673
+    - pt-ippan-0383
+    - pt-ippan-0020
+    - pt-ippan-0170
+    pnames:
+    - じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、その種類には、COPD（慢性閉塞性肺疾患）、間質性肺炎などが含まれる（誤りの記述）
+    - 結晶質シリカを主たる原因として発症するじん肺をけい肺、石綿を主たる原因として発症するじん肺を石綿肺という
+    - 遊離けい酸は、肺の線維化を起こす作用が強い。
+    - じん肺は、続発性気管支炎、肺結核などを合併することがある。
+    - じん肺は、ある程度進行すると、ばく露を中止しても、更に進行することがある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    near:
+    - true
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2015-08
+      - 2017-02
+      - 2019-08
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: near
     tags:
-    - ans_pat
+    - ans_near
     - new
     - ''
     - odo
-    - odo
-    pat: gn-dust-disease-03
+    - ''
 - num: 9
   status: published
   chapters:
@@ -407,17 +700,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: A
-    why: pat_A
+    pcounts:
+    - 10
+    - 1
+    - 1
+    - 1
+    - 5
+    points:
+    - pt-ippan-0022
+    - pt-ippan-0792
+    - pt-ippan-0540
+    - pt-ippan-0424
+    - pt-ippan-0088
+    pnames:
+    - インジウム化合物は、間質性肺炎を引き起こすほか、人に対する発がん性が疑われている
+    - クロム酸及び三酸化ヒ素は、いずれも鼻中隔穿孔を引き起こす。
+    - 無機水銀は、気道からのほか消化管からも吸収され、腎機能障害を引き起こし、血尿、蛋白尿、無尿などを発症する
+    - 鉛中毒では、ヘモグロビンの構成要素であるヘムの合成に関与する酵素の阻害による貧血、伸筋麻痺による垂れ手、腎機能障害などが生じる
+    - 金属熱は、亜鉛、銅などのヒュームを吸入して発生する疾病で、悪寒、発熱、関節痛などの症状がみられる
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2015-08
+      - 2017-08
+      - 2020-02
+      - 2021-08
+    level: B
+    why: pat_B
     tags:
-    - new
+    - odo
     - new
     - new
     - new
@@ -456,22 +800,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 14
+    - 5
+    - 4
+    - 8
+    - 3
+    points:
+    - pt-ippan-0002
+    - pt-ippan-0091
+    - pt-ippan-0169
+    - pt-ippan-0038
+    - pt-ippan-0262
+    pnames:
+    - 塩素化炭化水素は、一般に、肝臓に対する毒性が強い。
+    - 1,2-ジクロロプロパンは、肝臓及び腎臓の障害などのほか、長期間の高濃度ばく露により胆管がん発症につながる蓋然性が高い
+    - アセトンは、脂溶性及び水溶性を共に有している。
+    - 有機溶剤の蒸気密度は、空気の密度より大きいため、低いところに滞留しやすい
+    - トルエンは、ヒトに対して生殖毒性を示すことが知られている。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 13
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-ippan-0004
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 蒸気の密度（空気との重さの比較）と滞留
+    - ''
+    trend:
+    - 4
     - 1
     - 2
-    - 1
-    - 1
-    truths: 正正正誤正
-    level: A
-    why: pat_A
+    - 3
+    - 2
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
-    - new
-    - new
+    - odo
     - ''
-    - ans_pat
-    - new
-    pat: gn-properties-01
+    - ''
+    - ans_pr
+    - ''
 - num: 11
   status: published
   chapters:
@@ -505,22 +896,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正誤正正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-ippan-0729
+    - pt-ippan-0768
+    - pt-ippan-0575
+    - pt-ippan-0674
+    - pt-ippan-0802
+    pnames:
+    - 高温状態では、脳に血液を十分に送ることができず、一時的な脳虚血による立ちくらみを起こすことがあり、これを熱失神という
+    - 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い（誤りの記述）
+    - 体温は、代謝によって生じる産熱と、人体と外部環境の温度差に基づく放熱のバランスによって一定に保たれている
+    - 凍瘡とは、しもやけのことで、低温の環境下において、手足の末梢部に発生しやすい
+    - 長時間の低温ばく露により、腰痛症を生じることがある。
+    prcounts:
+    - 0
+    - 17
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-ippan-0024
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 熱中症は体温調節の破綻（発汗・気化熱・湿度）
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: S
+    why: pr_S
     tags:
     - new
-    - ans_pat
+    - ans_pr
     - new
     - new
     - new
-    pat: gn-heat-cold-02
 - num: 12
   status: published
   chapters:
@@ -556,7 +994,7 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: C
+    level: D
     why: q_new
 - num: 13
   status: published
@@ -593,22 +1031,69 @@ questions:
     - 1
     - 2
     - 1
-    similar:
+    truths: 正誤正正正
+    pcounts:
+    - 3
+    - 3
+    - 12
+    - 3
     - 1
-    - 1
-    - 1
+    points:
+    - pt-ippan-0188
+    - pt-ippan-0188
+    - pt-ippan-0007
+    - pt-ippan-0210
+    - pt-ippan-0634
+    pnames:
+    - 騒音の測定には、騒音計の周波数重み付け特性Aを用いる。
+    - 騒音の測定には、騒音計の周波数重み付け特性Aを用いる。
+    - A測定の平均値の算定には、80dB(A)未満の測定値は含めない。
+    - 騒音性難聴は、音を神経に伝達する内耳の蝸牛の中の有毛細胞が変性することにより起こる感音性難聴である
+    - 超音波は、可聴周波数域を超える高い周波数の音であり、超音波溶着機の作業者などに、圧迫感、不快感、頭痛、吐き気などが出ることがある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
     - 2
     - 1
-    truths: 正誤正正正
+    - 3
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - new
-    - ans_pat
-    - new
+    - ''
+    - ans_trend
+    - odo
     - ''
     - new
-    pat: gn-noise-health-02
 - num: 14
   status: published
   chapters:
@@ -642,19 +1127,67 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
+    pcounts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    points:
+    - pt-ippan-0675
+    - pt-ippan-0541
+    - pt-ippan-0336
+    - pt-ippan-0448
+    - pt-ippan-0576
+    pnames:
+    - 酸素欠乏症の症状は、酸素を大量に必要とする大脳皮質の機能低下から始まる
+    - 第一鉄化合物の含有量が多い水が流入している排水暗渠やマンホール内の空気は、酸素欠乏状態になっていることがある
+    - 汚水や汚泥の処理作業では、硫化水素が空気中に放出され、硫化水素中毒を生じることがある
+    - 硫化水素に 100 ppmを超える濃度で連続ばく露されると、気管支炎から肺炎、肺水腫に至り、呼吸困難となって死亡することがある
+    - 硫化水素による慢性中毒では、歯への黄色の色素沈着、歯牙酸蝕症などがみられる（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - new
-    - new
+    - ''
     - new
     - ans_new
 - num: 15
@@ -690,22 +1223,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 8
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: B
-    why: pat_B
+    pcounts:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-ippan-0180
+    - pt-ippan-0676
+    - pt-ippan-0577
+    - pt-ippan-0505
+    - pt-ippan-0635
+    pnames:
+    - 可視光のうち、青色の光の波長は黄色の光の波長より短い。
+    - 赤外線は、波長の長さにより、短い順から、近赤外線、中赤外線、遠赤外線に分類することがあるが、白内障に関連するのは、短波長域のものとされている
+    - 吸光光度分析では、可視から紫外領域の波長の光が利用されるが、作業環境測定で使われるのは、通常、紫外領域の波長の光である（誤りの記述）
+    - マイクロ波は電子レンジや携帯電話に利用され、強力なマイクロ波にばく露されると組織壊死や熱傷を起こすことがある
+    - レーザー光は、粉じん濃度の測定に用いる光散乱方式の相対濃度計の光源として用いられている
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
+    why: none
     tags:
-    - odo
+    - ''
     - new
-    - ans_pat
+    - ans_new
     - new
     - new
-    pat: gn-em-waves-03
 - num: 16
   status: published
   chapters:
@@ -739,21 +1319,69 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 10
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: C
+    pcounts:
+    - 2
+    - 1
+    - 1
+    - 5
+    - 3
+    points:
+    - pt-ippan-0361
+    - pt-ippan-0811
+    - pt-ippan-0578
+    - pt-ippan-0087
+    - pt-ippan-0257
+    pnames:
+    - 電離放射線には、X 線や γ 線のような電磁波と、α 線や β 線などの粒子線がある
+    - α線、β線及びγ線の中で、透過力が最も弱いものはα線である。
+    - ガスクロマトグラフの検出器である ECD は、コバルト 60 から放出される β 線を利用したものが一般的である（誤りの記述）
+    - 確率的影響にはしきい値が存在せず、線量の増加に伴って影響の発生率が増加する
+    - リンパ組織は、神経組織よりも放射線感受性が高い。
+    prcounts:
+    - 0
+    - 13
+    - 0
+    - 19
+    - 4
+    principles:
+    - ''
+    - pr-ippan-0019
+    - ''
+    - pr-ippan-0021
+    - pr-ippan-0020
+    prnames:
+    - ''
+    - 放射線の透過力と遮へい・外部被ばく防護の三原則
+    - ''
+    - しきい値がある影響とない影響
+    - 細胞分裂が盛んなほど放射線の感受性が高い
+    trend:
+    - 2
+    - 1
+    - 1
+    - 3
+    - 3
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
-    - new
+    - ''
     - odo
     - ans_new
-    - new
-    - new
+    - odo
+    - ''
 - num: 17
   status: published
   chapters:
@@ -787,21 +1415,73 @@ questions:
     - 8
     - 7
     - 2
-    similar:
-    - 3
-    - 3
-    - 8
-    - 7
-    - 2
     truths: 正誤正正正
+    pcounts:
+    - 2
+    - 6
+    - 12
+    - 17
+    - 7
+    points:
+    - pt-ippan-0382
+    - pt-ippan-0077
+    - pt-ippan-0008
+    - pt-ippan-0001
+    - pt-ippan-0048
+    pnames:
+    - ドラフトチェンバー型フードは、囲い式フードに分類される。
+    - フード開口部の周囲にフランジを付けることにより、フランジがないときと比較して、少ない排風量とすることができる
+    - 囲い式フードの制御風速は、フード開口面における最小風速である。
+    - ダクトの圧力損失は、ダクトの長さが増すほど大きくなる。
+    - 空気清浄装置を付設する局所排気装置では、一般に、排風機は空気清浄装置の後に設ける
+    prcounts:
+    - 0
+    - 7
+    - 0
+    - 18
+    - 0
+    principles:
+    - ''
+    - pr-ippan-0027
+    - ''
+    - pr-ippan-0026
+    - ''
+    prnames:
+    - ''
+    - フードは発散源に近く、囲うほど効率が高い
+    - ''
+    - ダクトの圧力損失と風量・風速
+    - ''
+    trend:
+    - 1
+    - 1
+    - 2
+    - 4
+    - 1
+    near:
+    - false
+    - false
+    - true
+    - true
+    - true
+    near_exams:
+    - []
+    - []
+    - - 2016-02
+      - 2017-02
+      - 2018-08
+      - 2025-02
+    - - 2017-08
+    - - 2015-08
+      - 2020-02
     level: B
-    why: ans_b
+    why: pt_B
     tags:
-    - odo
+    - ''
     - ans_b
     - odo
     - odo
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -835,15 +1515,63 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 3
-    - 1
-    - 1
-    - 1
     truths: 正正誤正正
-    level: A
-    why: pat_A
+    pcounts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    points:
+    - pt-ippan-0449
+    - pt-ippan-0358
+    - pt-ippan-0730
+    - pt-ippan-0411
+    - pt-ippan-0474
+    pnames:
+    - オイルミストが混在する場合に使用できる取替え式防じんマスクの性能区分には、RL1、RL2 及び RL3 があり、このうち、粒子捕集効率が最も大きいのは RL3 である
+    - 送気マスクは、酸素濃度が18 ％未満の空気中でも使用することができる
+    - 聴覚保護具を選定するときは、作業の状況にかかわらず、できるだけ、遮音効果が大きいものを選定する（誤りの記述）
+    - 全身を防護する化学防護服には、服内部を気密に保つ構造の気密服、呼吸用空気を外部から取り入れ服内部を陽圧に保つ構造の陽圧服、服内部への有害物の侵入を規定値以下とした密閉服がある
+    - 化学防護手袋の耐浸透性は、クラス1からクラス4までに区分されており、有害性が高い物質を取り扱う際には数値が小さいものを選択する
+    prcounts:
+    - 0
+    - 13
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-ippan-0029
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ろ過式の呼吸用保護具は酸素を供給しない
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: B
+    why: pat_B
     tags:
     - new
     - odo
@@ -887,20 +1615,68 @@ questions:
     - 1
     - 1
     - 1
-    similar:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
     truths: 正正正正誤
+    pcounts:
+    - 1
+    - 5
+    - 1
+    - 3
+    - 1
+    points:
+    - pt-ippan-0475
+    - pt-ippan-0100
+    - pt-ippan-0677
+    - pt-ippan-0228
+    - pt-ippan-0579
+    pnames:
+    - 防毒マスクは、その形状及び使用の範囲により、隔離式、直結式、直結式小型の3種類に区分され、隔離式のものが最も高濃度下で使用することができる
+    - 有機ガス用防毒マスクの吸収缶は、メタノール、二硫化炭素については、除毒能力試験の試験用ガスに比べて破過時間が著しく短くなる
+    - 一酸化炭素用吸収缶は、触媒作用により、一酸化炭素を二酸化炭素に変化させている
+    - この呼吸用保護具の粒子捕集効率は、定められた区分の中では最も高い
+    - 防毒マスクを着用するときは、ヘルメットの上からしめひもを使用するようにすると、面体と顔との密着性を高めることができる（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
     level: S
     why: pat_S
     tags:
     - new
+    - ''
     - new
-    - new
-    - new
+    - ''
     - ans_pat
     pat: gn-ppe-01
 - num: 20
@@ -942,19 +1718,69 @@ questions:
     - 2
     - 1
     - 1
-    similar:
+    truths: 誤正正正正
+    pcounts:
+    - 2
+    - 1
+    - 2
+    - 13
+    - 1
+    points:
+    - pt-ippan-0279
+    - pt-ippan-0731
+    - pt-ippan-0311
+    - pt-ippan-0003
+    - pt-ippan-0506
+    pnames:
+    - 鉱物性粉じんの管理濃度 E（mg / m³）は、その遊離けい酸の含有率をQ（％）とした場合、E ＝ 3.0 /（1.19 Q ＋1）により算定される
+    - D 測定を行った場合は、D 測定値を管理濃度と直接比較して、管理区分の決定に用いる
+    - 許容濃度を利用するに当たっては、労働強度、温熱条件、気圧などを考慮する必要がある
+    - 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群 A、第2群 B の3種類に分類されており、ヒトに対して発がん性があると判断できる物質は、第1群に分類されている
+    - 許容濃度等の勧告における感作性物質には、アレルギー性呼吸器疾患を誘発する気道感作性物質と、アレルギー性皮膚反応を誘発する皮膚感作性物質がある
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
     - 1
     - 1
     - 2
     - 1
-    - 1
-    truths: 誤正正正正
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2026-02
+    - []
+    - []
+    - - 2019-02
+      - 2020-02
+      - 2021-02
+      - 2022-08
+    - []
     level: A
-    why: pat_A
+    why: trend_A
     tags:
-    - ans_pat
+    - ans_trend
     - new
     - ''
+    - odo
     - new
-    - new
-    pat: gn-exposure-limits-01

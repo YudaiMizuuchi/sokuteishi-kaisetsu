@@ -35,9 +35,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-059
+    level: C
+    why: q_seen
 - num: 2
   status: published
   chapters:
@@ -75,21 +74,71 @@ questions:
     - 4
     - 1
     - 1
-    similar:
+    truths: 正正正誤正
+    pcounts:
     - 2
     - 3
     - 4
     - 1
+    - 4
+    points:
+    - pt-tokka-0087
+    - pt-tokka-0037
+    - pt-tokka-0018
+    - pt-tokka-0140
+    - pt-tokka-0016
+    pnames:
+    - 捕集液には硫酸亜鉛水溶液を用いる。
+    - 塩化鉄（Ⅲ）は酸化剤として働く。
+    - 生成する物質はメチレンブルーである。
+    - 吸光度は300nm付近の波長で測定する。（誤りの記述）
+    - 標準原液は硫化ナトリウムから調製する。
+    prcounts:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0009
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 酸化剤・還元剤の働き
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
     - 1
-    truths: 正正正誤正
+    - 1
+    - 0
+    - 1
+    near:
+    - true
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - - 2021-08
+    - - 2023-08
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3034
+    subst_name: 硫化水素
     level: B
     why: elim_two
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - ans_new
-    - new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -131,9 +180,10 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    subst_id: sb-tokka-3027
+    subst_name: 弗化水素
     level: S
-    why: pat_S
-    pat: sl-tokka-038
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -171,21 +221,71 @@ questions:
     - 1
     - 1
     - 2
-    similar:
-    - 1
+    truths: 誤正正正正
+    pcounts:
+    - 4
     - 5
     - 1
     - 1
     - 2
-    truths: 誤正正正正
-    level: C
-    why: none
+    points:
+    - pt-tokka-0014
+    - pt-tokka-0001
+    - pt-tokka-0200
+    - pt-tokka-0098
+    - pt-tokka-0050
+    pnames:
+    - 発色操作には、クロラミンTとピリジン-ピラゾロンを用いる。
+    - 標準原液のシアン化物イオン濃度は、硝酸銀溶液で標定する。
+    - 標準液は、標準原液を捕集液で希釈して調製する。
+    - 試料の採取は、ミゼットインピンジャーに捕集液 10 mL を入れ、0.5～ 1 L･min⁻¹ の一定流量で試料空気を吸引する
+    - 試料空気中に臭素ガスが共存すると、分析の妨害となる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    subst_id: sb-tokka-3016
+    subst_name: シアン化水素
+    level: S
+    why: trend_S
     tags:
-    - ans_new
+    - ans_trend
     - odo
     - new
     - new
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -223,22 +323,71 @@ questions:
     - 1
     - 1
     - 3
-    similar:
-    - 1
-    - 3
-    - 1
-    - 1
-    - 3
     truths: 正正正正誤
+    pcounts:
+    - 3
+    - 4
+    - 1
+    - 5
+    - 4
+    points:
+    - pt-tokka-0022
+    - pt-tokka-0010
+    - pt-tokka-0201
+    - pt-tokka-0003
+    - pt-tokka-0006
+    pnames:
+    - 拡散セルは、液体から標準ガスを調製する際に用いる。
+    - 捕集は、30L･min⁻¹の一定流量で試料空気を吸引する。
+    - 固体捕集法には、吸着剤として、ポーラスポリマービーズを用いる方法もある
+    - 活性炭からの脱着には、二硫化炭素を用いる。
+    - 炎光光度検出器（FPD）では、還元炎を用いる。
+    prcounts:
+    - 5
+    - 0
+    - 0
+    - 0
+    - 9
+    principles:
+    - pr-tokka-0005
+    - ''
+    - ''
+    - ''
+    - pr-tokka-0004
+    prnames:
+    - 拡散セルによる標準ガスの発生
+    - ''
+    - ''
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    near:
+    - false
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - - 2024-08
+    subst_id: sb-tokka-3029
+    subst_name: ベンゼン
     level: S
-    why: pat_S
+    why: pr_S
     tags:
-    - new
+    - odo
     - odo
     - new
-    - new
-    - ans_pat
-    pat: sl-tokka-051
+    - odo
+    - ans_pr
 - num: 6
   status: published
   chapters:
@@ -272,7 +421,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 7
   status: published
@@ -311,20 +460,68 @@ questions:
     - 2
     - 1
     - 1
-    similar:
-    - 1
-    - 2
-    - 2
-    - 1
-    - 1
     truths: 正正正正誤
-    level: C
+    pcounts:
+    - 1
+    - 3
+    - 2
+    - 2
+    - 1
+    points:
+    - pt-tokka-0108
+    - pt-tokka-0023
+    - pt-tokka-0038
+    - pt-tokka-0038
+    - pt-tokka-0141
+    pnames:
+    - カラムの理論段相当高さを最小にするキャリアガス流速が存在する。
+    - カラムの内径が小さいほど、理論段数は大きくなる。
+    - 液相の膜厚が厚いほど、保持時間が長くなる。
+    - 液相の膜厚が厚いほど、保持時間が長くなる。
+    - キャリアガスの種類を変えてもカラム内での成分の分離度は変わらない（誤りの記述）
+    prcounts:
+    - 0
+    - 3
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0012
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - 理論段数とカラムの内径
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: D
     why: none
     tags:
     - new
     - odo
-    - odo
-    - new
+    - ''
+    - ''
     - ans_new
 - num: 8
   status: published
@@ -361,7 +558,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 9
   status: published
@@ -404,9 +601,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
-    level: S
-    why: pat_S
-    pat: sl-tokka-039
+    level: A
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -444,21 +640,69 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 1
-    - 2
-    - 2
-    - 2
-    - 2
     truths: 正正誤正正
-    level: B
-    why: ans_b
+    pcounts:
+    - 1
+    - 5
+    - 2
+    - 3
+    - 2
+    points:
+    - pt-tokka-0101
+    - pt-tokka-0013
+    - pt-tokka-0042
+    - pt-tokka-0020
+    - pt-tokka-0059
+    pnames:
+    - フォトダイオードアレイ検出器は、溶出成分の吸収スペクトルを測定できるため、定性分析にも用いられる
+    - 紫外可視吸光光度検出器は、芳香族炭化水素の検出に使用できる。
+    - 蛍光光度検出器は、可視光を照射して励起した物質から発生する紫外光を測定する（誤りの記述）
+    - 電気化学検出器は、酸化性又は還元性の物質の分析に用いられる。
+    - 電気伝導度検出器は、イオン性物質の分析に用いられる。
+    prcounts:
+    - 0
+    - 9
+    - 0
+    - 9
+    - 0
+    principles:
+    - ''
+    - pr-tokka-0004
+    - ''
+    - pr-tokka-0004
+    - ''
+    prnames:
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    - 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    - ''
+    trend:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    level: C
+    why: seen
     tags:
     - new
     - odo
-    - ans_b
+    - ans_seen
     - odo
-    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -496,21 +740,69 @@ questions:
     - 2
     - 1
     - 2
-    similar:
-    - 2
-    - 3
-    - 2
-    - 1
-    - 2
     truths: 正正正誤正
-    level: B
-    why: elim_all
+    pcounts:
+    - 2
+    - 4
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-tokka-0046
+    - pt-tokka-0007
+    - pt-tokka-0076
+    - pt-tokka-0064
+    - pt-tokka-0080
+    pnames:
+    - ホルムアルデヒドの捕集は、2,4-ジニトロフェニルヒドラジン（DNPH）含浸シリカゲルを充填した捕集管が用いられる
+    - 捕集後の捕集管は、冷蔵保存する。
+    - ガスクロマトグラフ分析法を用いる場合は、質量分析器が用いられる。
+    - 高速液体クロマトグラフ分析法を用いる場合は、検出には紫外吸光検出器が用いられる
+    - 他のアルデヒド類やケトン類が、妨害物質となる場合がある。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - - 2023-08
+    - []
+    - []
+    - - 2023-08
+    - []
+    level: C
+    why: seen
     tags:
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_new
-    - odo
+    - ''
+    - ans_seen
+    - ''
 - num: 12
   status: published
   chapters:
@@ -548,20 +840,68 @@ questions:
     - 1
     - 2
     - 1
-    similar:
-    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 2
     - 1
     - 1
     - 2
     - 1
-    truths: 正正正正誤
-    level: C
+    points:
+    - pt-tokka-0073
+    - pt-tokka-0227
+    - pt-tokka-0228
+    - pt-tokka-0074
+    - pt-tokka-0229
+    pnames:
+    - 標準溶液は1,1-ジメチルヒドラジンの硫酸溶液とする。
+    - 捕集には硫酸含浸フィルターを用いる。
+    - 捕集流量は1.0L･min⁻¹とする。
+    - 捕集後は純水で抽出し、遠心分離した上澄み液を分析に用いる。
+    - 酢酸で誘導体化して、分析する。（誤りの記述）
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2017-08
+    - []
+    - []
+    - []
+    - - 2022-08
+    level: D
     why: none
     tags:
+    - ''
     - new
     - new
-    - new
-    - odo
+    - ''
     - ans_new
 - num: 13
   status: published
@@ -601,7 +941,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 14
   status: published
@@ -635,7 +975,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: C
+    level: D
     why: q_new
 - num: 15
   status: published
@@ -664,7 +1004,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 16
   status: published
@@ -696,9 +1036,8 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-043
+    level: C
+    why: q_seen
 - num: 17
   status: published
   chapters:
@@ -734,9 +1073,8 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: sl-tokka-069
+    level: C
+    why: q_seen
 - num: 18
   status: published
   chapters:
@@ -770,7 +1108,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: C
+    level: D
     why: q_new
 - num: 19
   status: published
@@ -802,9 +1140,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
-    pat: sl-tokka-045
+    subst_id: sb-tokka-3001
+    subst_name: アクリルアミド
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:
