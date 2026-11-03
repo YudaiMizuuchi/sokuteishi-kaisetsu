@@ -42,18 +42,7 @@
       {% for n in q.choiceNotes %}<li{% if n.isAnswer %} class="is-answer"{% endif %}><span class="n">({{ loop.index }})</span><span>{{ n.html | safe }}</span></li>{% endfor %}
     </ol>
     {% endif %}
-    {% if q.freq %}
-    <section class="freq">
-      {% if q.freq.level %}<p class="level lv-{{ q.freq.level.code }}"><b>{{ q.freq.level.head }}</b></p>
-      <p class="level-why">理由：{{ q.freq.level.reason }}</p>
-      {% if q.freq.subst %}<p class="principle-link">物質の表で解く：<a href="{{ q.freq.subst.url }}">{{ q.freq.subst.name }}</a>（ガイドブックの物質別各論）</p>{% endif %}
-      {% if q.freq.principle %}<p class="principle-link">原理から解く：<a href="{{ q.freq.principle.url }}">{{ q.freq.principle.name }}</a>（過去{{ q.freq.denom }}回中{{ q.freq.principle.count }}回出題）</p>{% endif %}
-      <p class="freq-note">この区分は、過去の全回の出題にもとづく目安です。</p>{% endif %}
-      <h3>出題頻度</h3>
-      <p class="freq-lead">この科目の過去{{ q.freq.denom }}回のうち、同じ内容が出題された回数です（同じ回に重複しても1回と数えます。頻度は、問われている論点（同じ事実のまとまり）の出題回数です）。{% if q.freq.recentLabel %}「直近」は、この科目の{{ q.freq.recentLabel }}のうち、同じ論点が出題された回数で、通算に比べて直近に集中しているものには「トレンド」の印を付けています。{% endif %}</p>
-      <ol class="freq-list">{% for f in q.freq.items %}<li{% if f.hi %} class="hi"{% endif %}>{% if q.freq.kind == "choice" %}<span class="n">({{ loop.index }})</span>{% endif %}<span>{{ f.truth }}{% if f.tag %}<span class="tagt t-{{ f.tagCode }}">{{ f.tag }}</span>{% endif %}：{{ f.text }}{% if f.simText %}<span class="sim">／{{ f.simText }}</span>{% endif %}{% if f.recentText %}<span class="recent{% if f.trending %} trend{% endif %}">{{ f.recentText }}{% if f.trending %}<span class="tagt t-trend">トレンド</span>{% endif %}</span>{% endif %}{% if f.prText %}<span class="pt pr"><a href="{{ f.prUrl }}">{{ f.prText }}</a></span>{% endif %}</span></li>{% endfor %}</ol>
-    </section>
-    {% endif %}
+    {% if q.freq %}{{ q.freq.html | safe }}{% endif %}
     {% for t in q.traps %}{% if not t.misc and not t.hidden %}
     <section class="trap">
       <h3>この問題のひっかけパターン：{% if t.url %}<a href="{{ t.url }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>

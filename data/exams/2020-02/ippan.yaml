@@ -1224,84 +1224,12 @@ questions:
   law_note: null
   _key_choice: ハ - ロ - イ - ニ
   freq:
-    kind: choice
+    kind: question
     denom: 23
-    counts:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    truths: 誤誤誤正誤
-    pcounts:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    points:
-    - pt-ippan-0812
-    - pt-ippan-0813
-    - pt-ippan-0814
-    - pt-ippan-0815
-    - pt-ippan-0816
-    pnames:
-    - ㋑-㋺-㋩-㋥（誤りの記述）
-    - ㋺-㋑-㋩-㋥（誤りの記述）
-    - ㋩-㋑-㋥-㋺（誤りの記述）
-    - ㋩-㋺-㋑-㋥
-    - ㋥-㋑-㋩-㋺（誤りの記述）
-    prcounts:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    principles:
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    prnames:
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    trend:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
-    - false
-    - false
-    - false
-    - false
-    - false
-    near_exams:
-    - []
-    - []
-    - []
-    - []
-    - []
+    count: 6
+    form: 穴埋め・組合せの問題
     level: A
     why: pat_A
-    tags:
-    - new
-    - new
-    - new
-    - ans_pat
-    - new
     pat: gn-em-waves-01
 - num: 14
   status: published

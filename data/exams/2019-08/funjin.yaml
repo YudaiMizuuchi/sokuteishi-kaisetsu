@@ -1284,10 +1284,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
-    form: 計算問題
-    level: C
-    why: q_seen
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: D
+    why: q_new
 - num: 17
   status: published
   chapters:

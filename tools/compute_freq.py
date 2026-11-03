@@ -129,9 +129,13 @@ for f in sorted(glob.glob('data/exams/*/*.yaml')):
     d=yaml.safe_load(open(f,encoding='utf-8'))
     if d.get('excluded'): continue
     docs[d['subject']][f.split('/')[2]]=(f,d)
+FILL=re.compile(r'［\s*㋑|㋑から|㋑及び|㋑[〜～]|入る(語句|数値|式|用語|記号|文字|数)|組合せとして')
+MARKS=re.compile(r'^[㋑-㋾\s、，,\-－―–／/]+$')
 def qkind(q):
+    """問題の形式：combo＝穴埋め・組合せ（見出し列がある、問題文に［㋑］などの穴がある、選択肢が㋑㋺の記号だけ）、calc＝計算問題（選択肢が数値だけ）、stmt＝記述の正誤、short＝物質名などの短い選択肢"""
     ch=q.get('choices') or []
     if q.get('columns'): return 'combo'
+    if ch and (FILL.search(str(q['stem'])) or all(MARKS.match(str(c)) for c in ch)): return 'combo'
     if ch and all(re.search(r'\d',str(c)) and not re.search(r'[ぁ-んァ-ヶ一-龥]{3,}',str(c)) for c in ch): return 'calc'
     if ch and all(BP.stmt_like(c) for c in ch): return 'stmt'
     return 'short'

@@ -213,30 +213,17 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82r
 
 /* 出題頻度（その科目の過去の全回のうち、同じ内容が出題された回数） */
 .freq { margin: 14px 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
-.freq h3 { margin: 10px 0 4px; font-size: .95rem; color: var(--ink); }
-.freq-lead { margin: 0 0 6px; font-size: .8rem; color: var(--muted); }
-.freq-list { margin: 0; padding: 0; list-style: none; font-size: .88rem; color: var(--ink); }
-.freq-list li { padding: 3px 0; }
-.freq-list li .n { display: inline-block; min-width: 2.4em; color: var(--muted); }
-.freq-list li.hi { font-weight: 600; }
-.freq-list .sim { color: var(--muted); font-weight: 400; font-size: .84rem; }
 /* 問題の区分（得点必須S・A／何とか得点B／失点やむなしC）と、理由 */
-.freq .level { margin: 0 0 6px; padding: 7px 12px; border-radius: 6px; color: #fff; font-size: 1rem; }
-.freq .level b { color: #fff; }
-.freq .lv-S { background: var(--fill-s); } .freq .lv-A { background: var(--fill-a); } .freq .lv-B { background: var(--fill-b); } .freq .lv-C { background: var(--fill-c); } .freq .lv-D { background: var(--fill-d); }
+.lv-S { background: var(--fill-s); } .lv-A { background: var(--fill-a); } .lv-B { background: var(--fill-b); } .lv-C { background: var(--fill-c); } .lv-D { background: var(--fill-d); }
 .freq .level-why { margin: 0 0 4px; font-size: .88rem; color: var(--ink); }
 .freq .freq-note { margin: 0 0 8px; font-size: .78rem; color: var(--muted); }
 /* 選択肢の印（正答・頻出のおとり・初見）：塗りつぶし・白文字 */
 .tagt { display: inline-block; margin: 0 6px 0 4px; padding: 0 8px; font-size: .74rem; font-weight: 700; color: #fff; border-radius: 4px; }
 .t-ans_hi { background: var(--fill-s); } .t-ans_pat { background: var(--fill-s); } .t-ans_b { background: var(--fill-b); } .t-ans_new { background: var(--fill-c); }
-.t-odo { background: var(--fill-a); } .t-new { background: var(--fill-c); }
+.t-odo { background: var(--fill-a); } .t-new { background: var(--fill-d); } .t-ans_pr { background: var(--fill-s); } .t-ans_subst { background: var(--fill-b); } .t-ans_trend { background: var(--amber); } .t-ans_seen, .t-ans_near { background: var(--fill-c); }
 
-.freq-list .pt { display: block; margin-left: 2.4em; font-size: .8rem; color: var(--muted); font-weight: 400; }
-.freq-list .sim::before { content: "　"; }
 
-.freq .principle-link { margin: 0 0 4px; font-size: .9rem; }
 .principle-formula { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--deep-soft); padding: 6px 10px; border-radius: 6px; }
-.freq-list .pr a { color: var(--deep); }
 
 .t-ans_trend { background: var(--fill-b); }
 
@@ -255,6 +242,41 @@ table.subst th { background: var(--surface); }
 .qtext, .choices li > span, .answer, .freq { min-width: 0; overflow-wrap: anywhere; }
 .katex-display { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
 
-.freq-list .recent { margin-left: .6em; color: var(--muted); font-size: .9em; white-space: nowrap; }
-.freq-list .recent.trend { color: var(--ink); font-weight: 700; }
-.t-trend { background: var(--amber-soft); border-color: var(--amber); }
+.t-trend { background: var(--amber); color: #fff; }
+
+/* 区分と出題頻度（カード） */
+.freq .rank-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 6px; }
+.freq .level { display: inline-block; padding: 5px 12px; border-radius: 6px; color: #fff; font-weight: 700; font-size: .95rem; }
+.freq .method { font-size: .9rem; font-weight: 700; color: var(--deep); }
+.freq .basis { margin: 0 0 8px; font-size: .9rem; }
+.freq .basis a { color: var(--deep); }
+table.freqtab { border-collapse: collapse; width: 100%; font-size: .86rem; margin: 0 0 6px; }
+table.freqtab th, table.freqtab td { padding: 4px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+table.freqtab thead th { font-weight: 700; color: var(--deep); white-space: nowrap; }
+table.freqtab th .den { font-weight: 400; color: var(--muted); font-size: .8rem; }
+table.freqtab td.n { color: var(--muted); white-space: nowrap; }
+table.freqtab td.num { white-space: nowrap; }
+table.freqtab td.pr { font-size: .82rem; color: var(--muted); }
+table.freqtab td.pr a { color: var(--deep); }
+table.freqtab tr.ans { background: var(--deep-soft); font-weight: 600; }
+table.freqtab tr.ans td.pr { font-weight: 400; }
+table.freqtab .tagt { margin: 0 0 0 6px; }
+/* トップの「見方」 */
+.guide { margin: 24px 0; padding: 14px 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.guide h3 { margin: 10px 0 4px; font-size: 1rem; }
+.guide p, .guide li { font-size: .92rem; }
+.guide .levels li { margin: 2px 0; }
+.guide .levels .level { display: inline-block; min-width: 9em; padding: 2px 10px; border-radius: 6px; color: #fff; font-weight: 700; margin-right: 8px; text-align: center; }
+table.freqtab .lbl { display: none; }
+@media (max-width: 600px) {
+  table.freqtab thead { display: none; }
+  table.freqtab, table.freqtab tbody { display: block; }
+  table.freqtab tr { display: grid; grid-template-columns: 2.6em 1.8em auto auto; justify-content: start; column-gap: 10px; padding: 6px 4px; border-bottom: 1px solid var(--line); }
+  table.freqtab td.num { white-space: normal; }
+  table.freqtab td.num .tagt { display: block; width: max-content; margin: 2px 0 0; }
+  table.freqtab td { border: 0; padding: 1px 2px; }
+  table.freqtab td.pr, table.freqtab td:last-child { grid-column: 3 / span 2; }
+  table.freqtab td.pr:empty, table.freqtab td:last-child:empty { display: none; }
+  table.freqtab .lbl { display: inline; color: var(--muted); font-weight: 400; font-size: .8em; }
+  table.freqtab .tagt { margin: 0 4px 0 0; }
+}

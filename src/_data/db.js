@@ -163,12 +163,12 @@ const LEVELS = {
   D: { code: "D", label: "失点やむなしD", head: "この問題は、失点しても仕方がない問題です（初見）。" },
 };
 const WHY = {
-  ans_hi: "下記の通り、ひっかけパターンである選択肢（正答）から、容易に正答を割り出すことができるからです。",
-  ans_b: "下記の通り、正答の選択肢が、過去に複数回出題されており、押さえておけば、正答を割り出せるからです。",
-  elim_all: "下記の通り、頻出のおとりパターンである選択肢をすべて除外して、正答を割り出すことができるからです。",
-  elim_two: "下記の通り、頻出のおとりパターンである選択肢を除外して、残り2つまで絞り込めるからです。2択になるので、2回に1回は得点できます。",
-  trend_S: "下記の通り、正答の選択肢の論点は、直近の回に集中して出題されています（トレンド）。通算の回数以上に、次も出やすいので、最優先で押さえるべきだからです。",
-  trend_A: "下記の通り、正答の選択肢の論点は、通算の回数は少なめですが、直近の回に集中して出題されています（トレンド）。押さえておけば、得点できるからです。",
+  ans_hi: "ひっかけパターンである選択肢（正答）から、容易に正答を割り出すことができるからです。",
+  ans_b: "正答の選択肢が、過去に複数回出題されており、押さえておけば、正答を割り出せるからです。",
+  elim_all: "頻出のおとりパターンである選択肢をすべて除外して、正答を割り出すことができるからです。",
+  elim_two: "頻出のおとりパターンである選択肢を除外して、残り2つまで絞り込めるからです。2択になるので、2回に1回は得点できます。",
+  trend_S: "正答の選択肢の論点は、直近の回に集中して出題されています（トレンド）。通算の回数以上に、次も出やすいので、最優先で押さえるべきだからです。",
+  trend_A: "正答の選択肢の論点は、通算の回数は少なめですが、直近の回に集中して出題されています（トレンド）。押さえておけば、得点できるからです。",
   seen: "正答の選択肢の論点は、過去に1回だけ出題されています。頻出ではありませんが、既出なので、余裕があれば押さえておくと得点できるからです。",
   subst: "",
   near: "正答の選択肢と似た記述が、別の回に出題されており、その記述は正しい内容でした（数値や範囲などを変えたものが、おとりになっています）。その正しい内容を覚えていれば、おとりと見分けられるので、余裕があれば押さえておくと得点できるからです。",
@@ -177,8 +177,6 @@ const WHY = {
 const TAGS = { ans_subst: "正答（物質の表で解ける）", ans_seen: "正答（過去に1回出題）", ans_near: "正答（似た記述が既出）", ans_trend: "正答（直近のトレンド）", ans_pr: "正答（原理から解ける）", ans_pat: "正答（ひっかけパターンに該当）", ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
 function freqOut(f, answers = []) {
   if (!f || !f.denom) return null;
-  const pct = (m) => Math.round((m / f.denom) * 100);
-  const text = (m) => `全${f.denom}回中${m}回出題（出題確率${pct(m)}％）`;
   const lv = LEVELS[f.level] || null;
   let reason = "";
   const pt = f.pat ? trapById[f.pat] : null;
@@ -188,32 +186,54 @@ function freqOut(f, answers = []) {
   const prName = ai >= 0 && f.prnames ? f.prnames[ai] : "";
   const prCount = ai >= 0 && f.prcounts ? f.prcounts[ai] : 0;
   const prId = ai >= 0 && f.principles ? f.principles[ai] : "";
-  if (f.why === "subst") reason = `下記の通り、物質別の暗記リスト（ガイドブックの物質別各論の表）の物質「${f.subst_name}」から、解けるからです。過去の出題が少なくても、表を押さえておけば、得点できます。`;
-  else if (prName && /^pr_[SAB]$/.test(f.why || "")) reason = ptCount >= 2
-    ? `下記の通り、原理「${prName}」（過去${f.denom}回中${prCount}回出題）を理解していれば、論点そのものを暗記していなくても、解けるからです。`
-    : `初見の選択肢ですが、原理「${prName}」（過去${f.denom}回中${prCount}回出題）を理解していれば、解けます。`;
-  else if (ptName && (f.why === "pt_S" || f.why === "pt_A")) reason = `下記の通り、論点「${ptName}」（過去${f.denom}回中${ptCount}回出題）に当てはまる選択肢から、容易に正答を割り出すことができるからです。`;
-  else if (ptName && f.why === "pt_B") reason = `下記の通り、論点「${ptName}」（過去${f.denom}回中${ptCount}回出題）に当てはまる選択肢であり、押さえておけば、何とか正答を割り出せるからです。`;
-  else if (pt && (f.why === "pat_S" || f.why === "pat_A")) reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢から、容易に正答を割り出すことができるからです。`;
-  else if (pt && f.why === "pat_B") reason = `下記の通り、ひっかけパターン「${pt.name}」（過去${f.denom}回中${pt.count}回出題）に当てはまる選択肢であり、押さえておけば、何とか正答を割り出せるからです。`;
-  else if (f.kind === "choice") reason = WHY[f.why] || "";
-  else if (f.why === "q_hi") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、確実に得点できるからです。`;
-  else if (f.why === "q_b") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、何とか得点できるからです。`;
-  else reason = f.why === "q_seen" ? `この形式の問題（${f.form}）は、過去に1回出題されています。余裕があれば、解き方を押さえておくと得点できるからです。` : `この形式の問題（${f.form}）は、過去の出題がなく、初見です。`;
-  const METHOD = (w) => /^pr_/.test(w) ? "原理で解く" : /^elim_/.test(w) ? "消去法で解く" : /^trend_/.test(w) ? "トレンド" : (w === "subst") ? "物質の表で解く" : (w === "near") ? "似た記述で解く" : (w === "none" || w === "q_new") ? "初見" : "暗記で解く";
-  const level = lv ? { code: lv.code, label: lv.label, head: lv.head, reason, method: METHOD(f.why || "") } : null;
+  const w = f.why || "";
+  if (w === "subst") reason = `物質の表（ガイドブックの物質別各論）の「${f.subst_name}」で解けるからです。過去の出題が少なくても、表を押さえておけば得点できます。`;
+  else if (prName && /^pr_[SAB]$/.test(w)) reason = ptCount >= 2
+    ? `原理「${prName}」を理解していれば、論点そのものを暗記していなくても解けるからです。`
+    : `正答の選択肢は初見ですが、原理「${prName}」を理解していれば解けるからです。`;
+  else if (ptName && (w === "pt_S" || w === "pt_A")) reason = `正答の選択肢の論点が頻出で、押さえていれば容易に正答を割り出せるからです。`;
+  else if (ptName && w === "pt_B") reason = `正答の選択肢の論点が複数回出ており、押さえていれば何とか正答を割り出せるからです。`;
+  else if (pt && (w === "pat_S" || w === "pat_A")) reason = `ひっかけパターン「${pt.name}」（通算${pt.count}回）に当てはまる選択肢から、容易に正答を割り出せるからです。`;
+  else if (pt && w === "pat_B") reason = `ひっかけパターン「${pt.name}」（通算${pt.count}回）に当てはまる選択肢で、押さえていれば何とか正答を割り出せるからです。`;
+  else if (f.kind === "choice") reason = WHY[w] || "";
+  else if (w === "q_hi") reason = `この形式の問題（${f.form}）は頻出で、解き方を押さえれば確実に得点できるからです。`;
+  else if (w === "q_b") reason = `この形式の問題（${f.form}）は複数回出ており、解き方を押さえれば何とか得点できるからです。`;
+  else reason = w === "q_seen" ? `この形式の問題（${f.form}）は過去に1回出ています。余裕があれば、解き方を押さえておくと得点できるからです。` : `この形式の問題（${f.form}）は過去に出ておらず、初見だからです。`;
+  const METHOD = (x) => /^pr_/.test(x) ? "原理で解く" : /^elim_/.test(x) ? "消去法で解く" : /^trend_/.test(x) ? "トレンド" : (x === "subst") ? "物質の表で解く" : (x === "near") ? "似た記述で解く" : (x === "none" || x === "q_new") ? "初見" : "暗記で解く";
+  const level = lv ? { code: lv.code, label: lv.label, head: lv.head, reason, method: METHOD(w) } : null;
+  // ---- 表示（HTML）。サーバ側のカードと、絞り込み一覧（app.js）で同じものを使う
+  const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const recentN = f.recent_exams ? f.recent_exams.length : 0;
+  const recentLabel = recentN ? `${examInfo(f.recent_exams[0]).label.replace(" ", "")}〜${examInfo(f.recent_exams[recentN - 1]).label.replace(" ", "")}` : "";
+  // 決め手（正答をどう割り出すか）
+  let basis = "";
+  if (w === "subst") basis = `物質の表 <a href="/substance/${f.subst_id}/">${esc(f.subst_name)}</a>`;
+  else if (prId && /^pr_/.test(w)) basis = `原理 <a href="/principle/${prId}/">${esc(prName)}</a>（通算${prCount}回）`;
+  else if (pt && /^pat_/.test(w)) basis = `ひっかけパターン ${pt.url ? `<a href="${pt.url}">${esc(pt.name)}</a>` : esc(pt.name)}（通算${pt.count}回）`;
+  else if (/^elim_/.test(w)) basis = w === "elim_all" ? "頻出のおとりを全部除外する" : "頻出のおとりを除外して2択にする";
+  else if (w === "near") basis = "似た記述（別の回に正しい記述として出題）";
+  else if (f.kind === "choice" && ptCount >= 2 && w !== "none") basis = `正答の論点（通算${ptCount}回${f.trend && recentN ? `・直近${f.trend[ai]}回` : ""}）`;
+  else if (f.kind === "question" && f.count >= 1) basis = `この形式の問題（${esc(f.form)}）の解き方（通算${f.count}回）`;
+  const TAG = { ans_subst: "正答（物質の表）", ans_seen: "正答（既出1回）", ans_near: "正答（似た記述）", ans_trend: "正答（トレンド）", ans_pr: "正答（原理）", ans_pat: "正答（ひっかけパターン）", ans_hi: "正答（頻出）", ans_b: "正答（複数回）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見" };
+  let rows = "";
   if (f.kind === "choice") {
-    // 頻度は、論点の出題回数（論点がない選択肢は、同じ記述の回数）。「同じ記述」の回数は、参考として添える
     const eff = (i) => (f.pcounts && f.pcounts[i]) || f.counts[i];
-    return { kind: "choice", denom: f.denom, level, subst: f.subst_id ? { id: f.subst_id, name: f.subst_name, url: `/substance/${f.subst_id}/` } : null, principle: prId ? { id: prId, name: prName, count: prCount, url: `/principle/${prId}/` } : null, recentLabel: (f.recent_exams && f.recent_exams.length) ? `直近${f.recent_exams.length}回（${examInfo(f.recent_exams[0]).label.replace(" ", "")}〜${examInfo(f.recent_exams[f.recent_exams.length - 1]).label.replace(" ", "")}）` : "", items: f.counts.map((same, i) => ({
-      truth: f.truths[i] === "正" ? "正しい記述" : "誤った記述", m: eff(i), pct: pct(eff(i)), text: text(eff(i)), hi: pct(eff(i)) >= 30,
-      tag: TAGS[(f.tags || [])[i] || ""] || "", tagCode: (f.tags || [])[i] || "",
-      recentText: (f.trend && f.recent_exams) ? `直近${f.recent_exams.length}回中${f.trend[i]}回` : "",
-      trending: !!(f.trend && f.recent_exams && eff(i) >= 2 && f.trend[i] * 2 >= eff(i)),
-      prText: (f.prnames && f.prnames[i]) ? `原理「${f.prnames[i]}」：全${f.denom}回中${f.prcounts[i]}回出題` : "", prUrl: (f.principles && f.principles[i]) ? `/principle/${f.principles[i]}/` : "",
-      simText: (f.pcounts && f.pcounts[i] && same !== f.pcounts[i]) ? `同じ記述の出題：${same}回` : "" })) };
+    rows = f.counts.map((same, i) => {
+      const m = eff(i); const tr = f.trend ? f.trend[i] : 0; const trending = !!(recentN && m >= 2 && tr * 2 >= m);
+      const tag = (f.tags || [])[i] || "";
+      const prCell = (f.prnames && f.prnames[i]) ? `<a href="/principle/${f.principles[i]}/">${esc(f.prnames[i])}</a>（${f.prcounts[i]}回）` : "－";
+      return `<tr${i === ai ? ' class="ans"' : ""}><td class="n">(${i + 1})</td><td>${f.truths[i] === "正" ? "正" : "誤"}</td><td class="num"><span class="lbl">通算 </span>${m}回</td><td class="num"><span class="lbl">直近 </span>${recentN ? `${tr}回${trending ? '<span class="tagt t-trend">トレンド</span>' : ""}` : "－"}</td><td class="pr">${prCell === "－" ? "" : `<span class="lbl">原理 </span>${prCell}`}</td><td>${tag ? `<span class="tagt t-${tag}">${TAG[tag] || ""}</span>` : ""}</td></tr>`;
+    }).join("");
+  } else {
+    rows = `<tr class="ans"><td class="n" colspan="2">この形式の問題（${esc(f.form)}）</td><td class="num"><span class="lbl">通算 </span>${f.count}回</td><td class="num"></td><td class="pr"></td><td></td></tr>`;
   }
-  return { kind: "question", denom: f.denom, level, subst: f.subst_id ? { id: f.subst_id, name: f.subst_name, url: `/substance/${f.subst_id}/` } : null, items: [{ truth: `この形式の問題（${f.form}）`, m: f.count, pct: pct(f.count), text: text(f.count), hi: pct(f.count) >= 30, tag: "", tagCode: "", simText: "" }] };
+  const html = `<section class="freq">`
+    + (level ? `<p class="rank-row"><span class="level lv-${level.code}">${esc(level.label)}</span><span class="method">解法：${esc(level.method)}</span></p><p class="level-why">${esc(level.reason)}</p>` : "")
+    + (basis ? `<p class="basis">決め手：${basis}</p>` : "")
+    + `<div class="tablewrap"><table class="freqtab"><thead><tr><th colspan="2">選択肢・正誤</th><th>通算<span class="den">／${f.denom}回</span></th><th>直近<span class="den">／${recentN || "－"}回</span></th><th>原理</th><th>印</th></tr></thead><tbody>${rows}</tbody></table></div>`
+    + `<p class="freq-note">通算＝この科目の過去${f.denom}回のうち、同じ論点（事実のまとまり）が出た回数。直近＝${recentLabel ? `直近${recentN}回（${recentLabel}）` : "直近の回"}のうち出た回数。区分は、過去の全回の出題にもとづく目安です。<a href="/#rank-guide">区分と出題頻度の見方</a></p>`
+    + `</section>`;
+  return { kind: f.kind, level, html };
 }
 
 const questions = [];
@@ -369,7 +389,7 @@ const listItem = (q) => ({
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   books: q.books,
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
-  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, minorNote: q.minorNote, freq: q.freq, sourcePdf: q.sourcePdf, source: q.source,
+  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, minorNote: q.minorNote, freqHtml: q.freq ? q.freq.html : "", sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
 });
 const subjectsWithData = subjects
