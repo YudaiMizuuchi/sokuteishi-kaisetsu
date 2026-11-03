@@ -80,6 +80,10 @@ questions:
     - 1
     - 1
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -251,6 +255,10 @@ questions:
     - 2
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -348,6 +356,10 @@ questions:
     - 2
     - 1
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -450,6 +462,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -550,6 +566,10 @@ questions:
     - 2
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -647,6 +667,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -747,6 +771,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -852,6 +880,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -954,6 +986,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1057,6 +1093,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1157,6 +1197,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1169,11 +1213,13 @@ questions:
     - - 2018-08
     - []
     - []
-    level: D
-    why: none
+    subst_id: sb-kinzoku-4003
+    subst_name: 五酸化バナジウム
+    level: B
+    why: subst
     tags:
     - new
-    - ans_new
+    - ans_subst
     - new
     - odo
     - new
@@ -1257,6 +1303,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1361,6 +1411,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1467,6 +1521,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1569,6 +1627,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1671,6 +1733,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1683,6 +1749,8 @@ questions:
     - []
     - []
     - []
+    subst_id: sb-kinzoku-4009
+    subst_name: ニッケル化合物
     level: S
     why: pr_S
     tags:

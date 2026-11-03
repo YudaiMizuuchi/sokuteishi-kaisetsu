@@ -1,0 +1,985 @@
+merged_principle_chapters:
+- survivor: bk-bunseki-0004
+  absorbed_ids:
+  - bk-bunseki-0005
+  - bk-bunseki-0006
+  - bk-bunseki-0007
+  title: 蛍光光度法の原理（長波長・直角測定・濃度比例・消光）
+- survivor: bk-bunseki-0008
+  absorbed_ids:
+  - bk-bunseki-0009
+  - bk-bunseki-0010
+  title: 原子吸光の原理（基底状態・線光源・バックグラウンド補正）
+- survivor: bk-bunseki-0011
+  absorbed_ids:
+  - bk-bunseki-0012
+  - bk-bunseki-0013
+  title: X線回折の原理（ブラッグの条件・特性X線・吸収補正）
+- survivor: bk-bunseki-0015
+  absorbed_ids:
+  - bk-bunseki-0016
+  title: 気体の法則（ドルトンの分圧・ヘンリーの法則）
+- survivor: bk-bunseki-0018
+  absorbed_ids:
+  - bk-bunseki-0017
+  title: 化学平衡とルシャトリエの原理
+- survivor: bk-bunseki-0023
+  absorbed_ids:
+  - bk-bunseki-0022
+  title: 滴定の量的関係と標定
+- survivor: bk-bunseki-0024
+  absorbed_ids:
+  - bk-bunseki-0025
+  title: 有効数字・誤差・統計量
+- survivor: bk-bunseki-0026
+  absorbed_ids:
+  - bk-bunseki-0027
+  title: 放射能（半減期・放射壊変）
+- survivor: bk-bunseki-0035
+  absorbed_ids:
+  - bk-bunseki-0040
+  title: 電気量と原子・イオンの電荷
+- survivor: bk-bunseki-0036
+  absorbed_ids:
+  - bk-bunseki-0037
+  - bk-bunseki-0038
+  title: 物質の性質（極性・官能基・酸と塩のpH）
+- survivor: bk-yuki-0001
+  absorbed_ids:
+  - bk-yuki-0002
+  - bk-yuki-0003
+  title: 吸光光度法の基本（ランベルト・ベール、吸光度と透過率、モル吸光係数）
+- survivor: bk-yuki-0004
+  absorbed_ids:
+  - bk-yuki-0005
+  - bk-yuki-0006
+  title: 分光測定の条件（セル・光源・補色・発色）
+- survivor: bk-tokka-0001
+  absorbed_ids:
+  - bk-tokka-0002
+  title: 吸光光度法の基本（ランベルト・ベール、セルの材質）
+- survivor: bk-tokka-0003
+  absorbed_ids:
+  - bk-tokka-0012
+  title: クロマトグラフの原理（逆相・理論段数と内径）
+- survivor: bk-tokka-0007
+  absorbed_ids:
+  - bk-tokka-0009
+  title: 捕集と発色の反応（酸性ガスの吸収、酸化剤・還元剤）
+- survivor: bk-kinzoku-0001
+  absorbed_ids:
+  - bk-kinzoku-0002
+  title: 吸光光度法の基本（ランベルト・ベールと測定条件）
+- survivor: bk-kinzoku-0005
+  absorbed_ids:
+  - bk-kinzoku-0006
+  - bk-kinzoku-0007
+  title: 原子吸光の原理（基底状態・線光源・バックグラウンド補正）
+- survivor: bk-kinzoku-0014
+  absorbed_ids:
+  - bk-kinzoku-0015
+  - bk-kinzoku-0019
+  title: 酸の性質と試料の溶解（周期律・不動態）
+- survivor: bk-funjin-0001
+  absorbed_ids:
+  - bk-funjin-0002
+  - bk-funjin-0003
+  title: 粒子の運動（拡散・電界・遠心力）
+- survivor: bk-funjin-0007
+  absorbed_ids:
+  - bk-funjin-0018
+  title: 相対濃度計の原理（光散乱・圧電天秤）
+- survivor: bk-funjin-0011
+  absorbed_ids:
+  - bk-funjin-0012
+  - bk-funjin-0013
+  title: X線回折の原理（ブラッグ・特性X線・基底標準吸収補正）
+- survivor: bk-ippan-0001
+  absorbed_ids:
+  - bk-ippan-0002
+  - bk-ippan-0003
+  title: 有害物の吸収と沈着（皮膚・溶解度・粒径）
+- survivor: bk-ippan-0004
+  absorbed_ids:
+  - bk-ippan-0005
+  - bk-ippan-0006
+  - bk-ippan-0007
+  title: 蒸気・気体の性質（密度・溶解度・蒸気圧・吸着）
+- survivor: bk-ippan-0008
+  absorbed_ids:
+  - bk-ippan-0009
+  title: 一酸化炭素と酸素欠乏（ヘモグロビン・分圧）
+- survivor: bk-ippan-0011
+  absorbed_ids:
+  - bk-ippan-0012
+  title: 騒音の物理（距離減衰・デシベル）
+- survivor: bk-ippan-0016
+  absorbed_ids:
+  - bk-ippan-0018
+  - bk-ippan-0019
+  title: 電磁波・放射線の性質と防護（波長・半減期・遮へい）
+- survivor: bk-ippan-0021
+  absorbed_ids:
+  - bk-ippan-0022
+  title: しきい値と毒性指標
+- survivor: bk-ippan-0026
+  absorbed_ids:
+  - bk-ippan-0027
+  - bk-ippan-0028
+  title: 局所排気装置の原理（ダクト・フード・除じん）
+- survivor: bk-ippan-0030
+  absorbed_ids:
+  - bk-ippan-0031
+  title: エアロゾルと水溶液の性質
+- survivor: bk-design-0001
+  absorbed_ids:
+  - bk-design-0002
+  title: 気体の体積と密度（理想気体・分子量）
+not_merged_candidates:
+  bk-design-0009: 騒音レベルの合成。ほかの原理と分野が違い、デザインの論点の章（管理区分）にも吸収しにくいので、独立の短い章として残す
+  bk-funjin-0016: 位相差顕微鏡。繊維の計数（石綿・RCF）の論点の章と近いが、原理の章と論点の章を混ぜると book_coverage.py の入力が崩れるので、単独で残す
+added_topic_chapters:
+- id: bk-design-tp01
+  title: 管理区分と評価の方法（評価値・1日測定と2日間測定）
+  points: 14
+  est_gain_pt: 4.55
+- id: bk-design-tp02
+  title: 正規分布・対数正規分布と誤差
+  points: 15
+  est_gain_pt: 4.19
+- id: bk-design-tp03
+  title: B測定・C測定・D測定
+  points: 31
+  est_gain_pt: 4.19
+- id: bk-design-tp04
+  title: A測定の測定点の決め方
+  points: 26
+  est_gain_pt: 3.51
+- id: bk-design-tp05
+  title: 単位作業場所の設定とA測定の実施
+  points: 30
+  est_gain_pt: 3.43
+- id: bk-design-tp06
+  title: 相対濃度計と分粒装置
+  points: 26
+  est_gain_pt: 3.61
+- id: bk-design-tp07
+  title: 流量計の種類と校正
+  points: 14
+  est_gain_pt: 2.89
+- id: bk-design-tp08
+  title: 検知管
+  points: 13
+  est_gain_pt: 2.02
+- id: bk-design-tp09
+  title: 直接捕集と液体捕集
+  points: 14
+  est_gain_pt: 2.28
+- id: bk-design-tp10
+  title: ろ過捕集（ろ過材とホルダー）
+  points: 15
+  est_gain_pt: 2.13
+- id: bk-design-tp11
+  title: 粒子状物質の種類と遊離けい酸・石綿
+  points: 19
+  est_gain_pt: 2.2
+- id: bk-design-tp12
+  title: 固体捕集（活性炭・シリカゲル・ポーラスポリマー）
+  points: 16
+  est_gain_pt: 2.06
+- id: bk-design-tp13
+  title: 溶剤の極性と物性、管理濃度の表し方
+  points: 18
+  est_gain_pt: 1.92
+- id: bk-bunseki-tp02
+  title: 蛍光光度分析・原子吸光分析・ICP
+  points: 30
+  est_gain_pt: 2.38
+- id: bk-bunseki-tp03
+  title: X線回折分析
+  points: 11
+  est_gain_pt: 1.69
+- id: bk-bunseki-tp04
+  title: 吸光光度分析
+  points: 13
+  est_gain_pt: 1.73
+- id: bk-bunseki-tp05
+  title: ガスクロマトグラフ・質量分析
+  points: 18
+  est_gain_pt: 2.42
+- id: bk-bunseki-tp06
+  title: 標定と容量器具・計量器
+  points: 16
+  est_gain_pt: 1.56
+- id: bk-bunseki-tp07
+  title: 水・酸・試薬の性質と、気体の法則・単位換算
+  points: 30
+  est_gain_pt: 2.2
+- id: bk-bunseki-tp09
+  title: 検知管・標準ガス・捕集
+  points: 17
+  est_gain_pt: 1.56
+- id: bk-bunseki-tp10
+  title: 有機化合物・精度と真度・ボンベの保安
+  points: 19
+  est_gain_pt: 1.47
+- id: bk-yuki-tp01
+  title: ガスクロマトグラフ（注入法・カラム・検出器）
+  points: 21
+  est_gain_pt: 6.13
+- id: bk-yuki-tp02
+  title: 標準液・検量線と分光測定
+  points: 19
+  est_gain_pt: 3.86
+- id: bk-yuki-tp03
+  title: 試料採取（固体・袋・びん・吸収管）・検知管・物性の比較
+  points: 30
+  est_gain_pt: 6.01
+- id: bk-tokka-tp01
+  title: 物質別の捕集・分析法
+  points: 23
+  est_gain_pt: 2.57
+- id: bk-tokka-tp02
+  title: 試料採取の器具と操作・物質の融点比較
+  points: 20
+  est_gain_pt: 2.93
+- id: bk-tokka-tp03
+  title: 分析機器（蛍光・HPLC・GC）と吸光光度・標準液
+  points: 27
+  est_gain_pt: 2.5
+- id: bk-kinzoku-tp01
+  title: ろ過捕集・液体捕集
+  points: 22
+  est_gain_pt: 2.19
+- id: bk-kinzoku-tp02
+  title: 試料の溶解・前処理（酸・灰化）
+  points: 19
+  est_gain_pt: 1.44
+- id: bk-kinzoku-tp03
+  title: 標準液の調製と保存
+  points: 14
+  est_gain_pt: 1.25
+- id: bk-kinzoku-tp04
+  title: 発色試薬と吸光光度・蛍光光度
+  points: 30
+  est_gain_pt: 1.59
+- id: bk-kinzoku-tp05
+  title: 溶媒抽出（APDC・DDTC・MIBK）
+  points: 18
+  est_gain_pt: 0.72
+- id: bk-kinzoku-tp06
+  title: 原子吸光分析とICP発光分析
+  points: 29
+  est_gain_pt: 1.44
+- id: bk-kinzoku-tp07
+  title: 水銀・酸化還元・金属化合物の性質
+  points: 8
+  est_gain_pt: 0.38
+- id: bk-funjin-tp01
+  title: 相対濃度計（光散乱・圧電天秤）と併行測定
+  points: 20
+  est_gain_pt: 3.61
+- id: bk-funjin-tp02
+  title: X線回折分析（定性・定量・装置の条件）
+  points: 32
+  est_gain_pt: 6.96
+- id: bk-funjin-tp03
+  title: りん酸法と試料調製（再発じん・粒度調整）
+  points: 14
+  est_gain_pt: 2.64
+- id: bk-funjin-tp04
+  title: 位相差顕微鏡・石綿・RCF
+  points: 15
+  est_gain_pt: 2.2
+- id: bk-funjin-tp05
+  title: 分粒装置・インパクターと粒子の運動
+  points: 17
+  est_gain_pt: 2.11
+- id: bk-funjin-tp06
+  title: ろ過材・フィルター・秤量と流量計
+  points: 27
+  est_gain_pt: 5.46
+- id: bk-hourei-tp01
+  title: 特別教育・安全衛生教育・健康診断
+  points: 17
+  est_gain_pt: 1.86
+- id: bk-hourei-tp02
+  title: 粉じん則・じん肺法
+  points: 12
+  est_gain_pt: 1.32
+- id: bk-hourei-tp03
+  title: 事務所則・換気・衛生基準
+  points: 16
+  est_gain_pt: 2.12
+- id: bk-hourei-tp05
+  title: 作業環境測定の方法（測定基準・評価）
+  points: 21
+  est_gain_pt: 2.01
+- id: bk-hourei-tp06
+  title: 酸素欠乏・特化則・鉛則・その他の規則
+  points: 22
+  est_gain_pt: 1.69
+writing_order:
+- 'no': 1
+  id: bk-bunseki-forms
+  group: A 解法
+- 'no': 2
+  id: bk-tokka-forms
+  group: A 解法
+- 'no': 3
+  id: bk-yuki-forms
+  group: A 解法
+- 'no': 4
+  id: bk-funjin-forms
+  group: A 解法
+- 'no': 5
+  id: bk-design-forms
+  group: A 解法
+- 'no': 6
+  id: bk-kinzoku-forms
+  group: A 解法
+- 'no': 7
+  id: bk-hourei-forms
+  group: A 解法
+- 'no': 8
+  id: bk-ippan-forms
+  group: A 解法
+- 'no': 9
+  id: bk-hourei-th07
+  group: B 数値表
+- 'no': 10
+  id: bk-hourei-th04
+  group: B 数値表
+- 'no': 11
+  id: bk-hourei-th15
+  group: B 数値表
+- 'no': 12
+  id: bk-hourei-th03
+  group: B 数値表
+- 'no': 13
+  id: bk-ippan-fr06
+  group: C 一般テーマ
+- 'no': 14
+  id: bk-ippan-fr16
+  group: C 一般テーマ
+- 'no': 15
+  id: bk-ippan-fr03
+  group: C 一般テーマ
+- 'no': 16
+  id: bk-ippan-fr01
+  group: C 一般テーマ
+- 'no': 17
+  id: bk-kinzoku-sb4003
+  group: D 限界効果の表の上位
+- 'no': 18
+  id: bk-kinzoku-sb4007
+  group: D 限界効果の表の上位
+- 'no': 19
+  id: bk-kinzoku-sb4008
+  group: D 限界効果の表の上位
+- 'no': 20
+  id: bk-funjin-0009
+  group: D 限界効果の表の上位
+- 'no': 21
+  id: bk-funjin-0011
+  group: D 限界効果の表の上位
+- 'no': 22
+  id: bk-kinzoku-sb4006
+  group: D 限界効果の表の上位
+- 'no': 23
+  id: bk-hourei-th16
+  group: D 限界効果の表の上位
+- 'no': 24
+  id: bk-yuki-0013
+  group: D 限界効果の表の上位
+- 'no': 25
+  id: bk-funjin-0006
+  group: D 限界効果の表の上位
+- 'no': 26
+  id: bk-tokka-sb3032
+  group: D 限界効果の表の上位
+- 'no': 27
+  id: bk-tokka-0004
+  group: D 限界効果の表の上位
+- 'no': 28
+  id: bk-tokka-sb3004
+  group: D 限界効果の表の上位
+- 'no': 29
+  id: bk-tokka-sb3012
+  group: D 限界効果の表の上位
+- 'no': 30
+  id: bk-bunseki-0033
+  group: D 限界効果の表の上位
+- 'no': 31
+  id: bk-yuki-0014
+  group: D 限界効果の表の上位
+- 'no': 32
+  id: bk-yuki-0020
+  group: D 限界効果の表の上位
+- 'no': 33
+  id: bk-yuki-0007
+  group: D 限界効果の表の上位
+- 'no': 34
+  id: bk-design-0012
+  group: D 限界効果の表の上位
+- 'no': 35
+  id: bk-design-0004
+  group: D 限界効果の表の上位
+- 'no': 36
+  id: bk-design-0006
+  group: D 限界効果の表の上位
+- 'no': 37
+  id: bk-design-0007
+  group: D 限界効果の表の上位
+- 'no': 38
+  id: bk-bunseki-0032
+  group: D 限界効果の表の上位
+- 'no': 39
+  id: bk-bunseki-0019
+  group: D 限界効果の表の上位
+- 'no': 40
+  id: bk-bunseki-0023
+  group: D 限界効果の表の上位
+- 'no': 41
+  id: bk-funjin-tp02
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 42
+  id: bk-yuki-tp01
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 43
+  id: bk-yuki-tp03
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 44
+  id: bk-funjin-tp06
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 45
+  id: bk-design-tp01
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 46
+  id: bk-design-tp02
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 47
+  id: bk-design-tp03
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 48
+  id: bk-yuki-tp02
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 49
+  id: bk-design-tp06
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 50
+  id: bk-funjin-tp01
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 51
+  id: bk-design-tp04
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 52
+  id: bk-design-tp05
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 53
+  id: bk-tokka-tp02
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 54
+  id: bk-design-tp07
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 55
+  id: bk-funjin-tp03
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 56
+  id: bk-tokka-tp01
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 57
+  id: bk-tokka-tp03
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 58
+  id: bk-bunseki-tp05
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 59
+  id: bk-bunseki-tp02
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 60
+  id: bk-design-tp09
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 61
+  id: bk-design-tp11
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 62
+  id: bk-bunseki-tp07
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 63
+  id: bk-funjin-tp04
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 64
+  id: bk-kinzoku-tp01
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 65
+  id: bk-design-tp10
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 66
+  id: bk-hourei-tp03
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 67
+  id: bk-funjin-tp05
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 68
+  id: bk-design-tp12
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 69
+  id: bk-design-tp08
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 70
+  id: bk-hourei-tp05
+  group: E 論点の章（見込み増2pt以上）
+- 'no': 71
+  id: bk-ippan-fr17
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 72
+  id: bk-ippan-fr05
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 73
+  id: bk-ippan-fr08
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 74
+  id: bk-hourei-th12
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 75
+  id: bk-hourei-th17
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 76
+  id: bk-hourei-th13
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 77
+  id: bk-ippan-fr14
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 78
+  id: bk-ippan-fr15
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 79
+  id: bk-ippan-fr04
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 80
+  id: bk-hourei-th01
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 81
+  id: bk-ippan-fr11
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 82
+  id: bk-ippan-fr09
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 83
+  id: bk-ippan-fr12
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 84
+  id: bk-hourei-th06
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 85
+  id: bk-ippan-fr10
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 86
+  id: bk-bunseki-0004
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 87
+  id: bk-ippan-fr13
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 88
+  id: bk-bunseki-0011
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 89
+  id: bk-bunseki-0031
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 90
+  id: bk-hourei-th10
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 91
+  id: bk-hourei-th11
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 92
+  id: bk-kinzoku-0013
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 93
+  id: bk-hourei-th05
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 94
+  id: bk-bunseki-0018
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 95
+  id: bk-yuki-0004
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 96
+  id: bk-kinzoku-0014
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 97
+  id: bk-funjin-0004
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 98
+  id: bk-kinzoku-0008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 99
+  id: bk-funjin-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 100
+  id: bk-bunseki-0008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 101
+  id: bk-kinzoku-0011
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 102
+  id: bk-ippan-0026
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 103
+  id: bk-ippan-0004
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 104
+  id: bk-yuki-0008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 105
+  id: bk-funjin-0007
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 106
+  id: bk-bunseki-0036
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 107
+  id: bk-kinzoku-0012
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 108
+  id: bk-ippan-fr07
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 109
+  id: bk-bunseki-0034
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 110
+  id: bk-kinzoku-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 111
+  id: bk-kinzoku-0005
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 112
+  id: bk-ippan-0024
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 113
+  id: bk-bunseki-0026
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 114
+  id: bk-yuki-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 115
+  id: bk-design-0003
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 116
+  id: bk-funjin-0010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 117
+  id: bk-kinzoku-0003
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 118
+  id: bk-ippan-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 119
+  id: bk-yuki-0011
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 120
+  id: bk-funjin-0008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 121
+  id: bk-ippan-0014
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 122
+  id: bk-kinzoku-0009
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 123
+  id: bk-funjin-0017
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 124
+  id: bk-hourei-th14
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 125
+  id: bk-kinzoku-0010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 126
+  id: bk-funjin-0015
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 127
+  id: bk-ippan-0021
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 128
+  id: bk-kinzoku-0018
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 129
+  id: bk-design-0010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 130
+  id: bk-hourei-th09
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 131
+  id: bk-bunseki-0002
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 132
+  id: bk-bunseki-0003
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 133
+  id: bk-ippan-0029
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 134
+  id: bk-bunseki-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 135
+  id: bk-tokka-0005
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 136
+  id: bk-kinzoku-0004
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 137
+  id: bk-ippan-0016
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 138
+  id: bk-hourei-th02
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 139
+  id: bk-tokka-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 140
+  id: bk-funjin-0005
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 141
+  id: bk-yuki-0012
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 142
+  id: bk-yuki-0015
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 143
+  id: bk-yuki-0016
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 144
+  id: bk-yuki-0021
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 145
+  id: bk-yuki-0022
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 146
+  id: bk-tokka-0003
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 147
+  id: bk-funjin-0014
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 148
+  id: bk-ippan-0008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 149
+  id: bk-bunseki-0020
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 150
+  id: bk-bunseki-0028
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 151
+  id: bk-yuki-0018
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 152
+  id: bk-yuki-0019
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 153
+  id: bk-ippan-0030
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 154
+  id: bk-ippan-0033
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 155
+  id: bk-ippan-0034
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 156
+  id: bk-design-0008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 157
+  id: bk-ippan-fr02
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 158
+  id: bk-bunseki-0015
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 159
+  id: bk-bunseki-0029
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 160
+  id: bk-bunseki-0035
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 161
+  id: bk-tokka-0007
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 162
+  id: bk-tokka-0011
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 163
+  id: bk-ippan-0010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 164
+  id: bk-design-0001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 165
+  id: bk-yuki-0010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 166
+  id: bk-yuki-0009
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 167
+  id: bk-yuki-0017
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 168
+  id: bk-design-0005
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 169
+  id: bk-hourei-th08
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 170
+  id: bk-funjin-0016
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 171
+  id: bk-ippan-0011
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 172
+  id: bk-ippan-0020
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 173
+  id: bk-bunseki-0024
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 174
+  id: bk-yuki-0023
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 175
+  id: bk-ippan-0015
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 176
+  id: bk-ippan-0025
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 177
+  id: bk-design-0009
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 178
+  id: bk-tokka-sb3001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 179
+  id: bk-tokka-sb3002
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 180
+  id: bk-tokka-sb3005
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 181
+  id: bk-tokka-sb3006
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 182
+  id: bk-tokka-sb3007
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 183
+  id: bk-tokka-sb3008
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 184
+  id: bk-tokka-sb3010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 185
+  id: bk-tokka-sb3013
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 186
+  id: bk-tokka-sb3014
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 187
+  id: bk-tokka-sb3015
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 188
+  id: bk-tokka-sb3016
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 189
+  id: bk-tokka-sb3019
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 190
+  id: bk-tokka-sb3021
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 191
+  id: bk-tokka-sb3022
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 192
+  id: bk-tokka-sb3026
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 193
+  id: bk-tokka-sb3027
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 194
+  id: bk-tokka-sb3029
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 195
+  id: bk-tokka-sb3034
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 196
+  id: bk-tokka-sb3035
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 197
+  id: bk-tokka-sb3036
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 198
+  id: bk-tokka-sb3037
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 199
+  id: bk-tokka-sb3038
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 200
+  id: bk-kinzoku-sb4001
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 201
+  id: bk-kinzoku-sb4002
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 202
+  id: bk-kinzoku-sb4004
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 203
+  id: bk-kinzoku-sb4005
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 204
+  id: bk-kinzoku-sb4009
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 205
+  id: bk-kinzoku-sb4010
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 206
+  id: bk-kinzoku-sb4011
+  group: F 原理・数値表・テーマ・物質表（再現回数の多い順）
+- 'no': 207
+  id: bk-design-tp13
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 208
+  id: bk-hourei-tp01
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 209
+  id: bk-bunseki-tp04
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 210
+  id: bk-bunseki-tp03
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 211
+  id: bk-hourei-tp06
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 212
+  id: bk-kinzoku-tp04
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 213
+  id: bk-bunseki-tp06
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 214
+  id: bk-bunseki-tp09
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 215
+  id: bk-bunseki-tp10
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 216
+  id: bk-kinzoku-tp02
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 217
+  id: bk-kinzoku-tp06
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 218
+  id: bk-hourei-tp02
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 219
+  id: bk-kinzoku-tp03
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 220
+  id: bk-kinzoku-tp05
+  group: G 論点の章（見込み増2pt未満）
+- 'no': 221
+  id: bk-kinzoku-tp07
+  group: G 論点の章（見込み増2pt未満）

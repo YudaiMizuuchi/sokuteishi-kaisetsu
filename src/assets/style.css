@@ -36,7 +36,7 @@ header nav { display: flex; gap: 18px; font-size: .92rem; }
 .crumbs { font-size: .85rem; color: var(--muted); margin-bottom: 8px; }
 
 .layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 32px; margin-top: 20px; }
-@media (max-width: 820px) { .layout { grid-template-columns: 1fr; gap: 16px; } }
+@media (max-width: 820px) { .layout { grid-template-columns: minmax(0, 1fr); gap: 16px; } }
 .filters { align-self: start; position: sticky; top: 16px; }
 @media (max-width: 820px) { .filters { position: static; } }
 .filters fieldset { border: 0; margin: 0 0 18px; padding: 0; }
@@ -249,3 +249,12 @@ table.subst th, table.subst td { border: 1px solid var(--line); padding: 4px 8px
 table.subst th { background: var(--surface); }
 
 .t-ans_subst { background: var(--fill-b); }
+
+/* 一覧の列が、中身（長い式・表）の最小幅で広がらないようにする */
+.layout > * { min-width: 0; }
+.qtext, .choices li > span, .answer, .freq { min-width: 0; overflow-wrap: anywhere; }
+.katex-display { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+.freq-list .recent { margin-left: .6em; color: var(--muted); font-size: .9em; white-space: nowrap; }
+.freq-list .recent.trend { color: var(--ink); font-weight: 700; }
+.t-trend { background: var(--amber-soft); border-color: var(--amber); }

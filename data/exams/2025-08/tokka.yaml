@@ -83,6 +83,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -234,6 +238,10 @@ questions:
     - 2
     - 1
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -290,6 +298,8 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    subst_id: sb-tokka-3032
+    subst_name: マゼンタ
     level: A
     why: q_hi
 - num: 5
@@ -399,8 +409,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3036
+    subst_name: ホルムアルデヒド
+    level: B
+    why: subst
 - num: 8
   status: published
   chapters:
@@ -519,6 +531,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -650,6 +666,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -711,6 +731,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    subst_id: sb-tokka-3022
+    subst_name: トリレンジイソシアネート(TDI)
     level: A
     why: q_hi
 - num: 13
@@ -834,6 +856,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -974,8 +1000,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3004
+    subst_name: アルファ-ナフチルアミンおよびその塩
+    level: B
+    why: subst
 - num: 18
   status: published
   chapters:
@@ -1041,8 +1069,10 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    subst_id: sb-tokka-3010
+    subst_name: オーラミン
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:
@@ -1123,6 +1153,10 @@ questions:
     - 2
     - 2
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true

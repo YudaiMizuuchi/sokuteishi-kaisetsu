@@ -21,7 +21,7 @@ eleventyComputed:
     <thead><tr><th>方法</th><th>捕集</th><th>前処理・抽出・発色</th><th>分析（装置・波長）</th><th>参照</th></tr></thead>
     <tbody>{% for m in sb.methods %}<tr>
       <td>{{ m.method }}</td>
-      <td>{{ m.v["捕集"] if m.v else "" }}</td>
+      <td>{{ m.v["捕集"] if m.v else "（この方法は、未確認です）" }}</td>
       <td>{{ m.v["処理"] if m.v else "" }}</td>
       <td>{{ m.v["分析"] if m.v else "" }}</td>
       <td>{% if m.pages and m.pages.length %}p.{{ m.pages[0] }}{% if m.pages.length > 1 and m.pages[1] != m.pages[0] %}〜{{ m.pages[1] }}{% endif %}{% endif %}</td>

@@ -80,6 +80,10 @@ questions:
     - 2
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -177,6 +181,10 @@ questions:
     - 2
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -361,6 +369,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -461,6 +473,10 @@ questions:
     - 1
     - 2
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -633,6 +649,10 @@ questions:
     - 2
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -733,6 +753,10 @@ questions:
     - 1
     - 1
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -833,6 +857,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -929,6 +957,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1036,6 +1068,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1050,6 +1086,8 @@ questions:
       - 2022-08
       - 2023-08
     - []
+    subst_id: sb-kinzoku-4002
+    subst_name: クロム酸およびその塩,重クロム酸
     level: A
     why: pt_A
     tags:
@@ -1142,6 +1180,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1159,6 +1201,8 @@ questions:
     - []
     - - 2023-08
       - 2024-08
+    subst_id: sb-kinzoku-4003
+    subst_name: 五酸化バナジウム
     level: A
     why: pt_A
     tags:
@@ -1241,6 +1285,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1392,6 +1440,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1495,6 +1547,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1554,8 +1610,10 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    subst_id: sb-kinzoku-4011
+    subst_name: コバルトおよびその無機化合物
+    level: B
+    why: subst
 - num: 20
   status: published
   chapters:

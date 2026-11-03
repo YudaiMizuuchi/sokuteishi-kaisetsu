@@ -7,12 +7,12 @@ pagination:
 permalink: "{{ s.url }}"
 eleventyComputed:
   fulltitle: "作業環境測定士試験「{{ s.name }}」過去問と解説"
-  description: "作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、年度・回ごとに掲載。{% if s.kind == '共通' %}解説付きは{{ s.explained }}問で、繰り返し出るひっかけパターンもあわせて確認できます。{% else %}問題と正答を掲載しています（解説は準備中）。{% endif %}"
+  description: "作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、年度・回ごとに掲載。解説付きは{{ s.explained }}問で、繰り返し出る頻度や、ひっかけパターンもあわせて確認できます。"
 ---
 {% from "crumbs.njk" import crumbs %}
 {{ crumbs([{name: "ホーム", url: "/"}, {name: s.name}]) }}
 <h1>{{ s.name }}の過去問と解説</h1>
-<p class="lead">作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、新しい回から順に並べています。{% if s.kind == "共通" %}各問題のページで、解いてから解説を確認できます。{% else %}いまは問題と正答のみで、解説は準備中です。{% endif %}</p>
+<p class="lead">作業環境測定士試験「{{ s.name }}」の過去問{{ s.count }}問を、新しい回から順に並べています。各問題のページで、解いてから解説を確認できます。</p>
 {% if s.substances.length %}
 <section class="substances">
   <h2>物質から探す（ガイドブックの物質別各論）</h2>

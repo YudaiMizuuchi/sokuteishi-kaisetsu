@@ -81,6 +81,10 @@ questions:
     - 0
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -179,6 +183,10 @@ questions:
     - 2
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -272,6 +280,8 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    subst_id: sb-tokka-3032
+    subst_name: マゼンタ
     level: A
     why: q_hi
 - num: 5
@@ -459,6 +469,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -471,6 +485,8 @@ questions:
     - - 2020-08
     - []
     - []
+    subst_id: sb-tokka-3037
+    subst_name: 酸化プロピレン
     level: B
     why: pt_B
     tags:
@@ -557,6 +573,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -699,6 +719,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -797,6 +821,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1009,8 +1037,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3006
+    subst_name: エチレンオキシド
+    level: B
+    why: subst
 - num: 18
   status: published
   chapters:
@@ -1116,6 +1146,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1167,5 +1201,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3007
+    subst_name: 塩化ビニル
+    level: B
+    why: subst

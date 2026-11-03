@@ -83,6 +83,10 @@ questions:
     - 0
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -191,8 +195,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3026
+    subst_name: パラ-ニトロクロルベンゼン
+    level: B
+    why: subst
 - num: 4
   status: published
   chapters:
@@ -273,6 +279,10 @@ questions:
     - 1
     - 1
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - true
@@ -377,6 +387,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -584,6 +598,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -717,6 +735,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -729,10 +751,12 @@ questions:
     - - 2019-08
     - - 2019-08
     - []
-    level: D
-    why: none
+    subst_id: sb-tokka-3036
+    subst_name: ホルムアルデヒド
+    level: B
+    why: subst
     tags:
-    - ans_new
+    - ans_subst
     - odo
     - ''
     - ''
@@ -824,6 +848,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -836,6 +864,8 @@ questions:
     - []
     - []
     - []
+    subst_id: sb-tokka-3004
+    subst_name: アルファ-ナフチルアミンおよびその塩
     level: B
     why: pt_B
     tags:
@@ -1004,8 +1034,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3015
+    subst_name: シアン化カリウム
+    level: B
+    why: subst
 - num: 17
   status: published
   chapters:
@@ -1081,8 +1113,10 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    subst_id: sb-tokka-3032
+    subst_name: マゼンタ
+    level: B
+    why: subst
 - num: 19
   status: published
   chapters:
@@ -1198,6 +1232,10 @@ questions:
     - 1
     - 2
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true

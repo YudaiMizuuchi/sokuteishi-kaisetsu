@@ -117,6 +117,10 @@ questions:
     - 1
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - true
@@ -264,6 +268,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -366,6 +374,10 @@ questions:
     - 0
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -421,8 +433,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3006
+    subst_name: エチレンオキシド
+    level: B
+    why: subst
 - num: 7
   status: published
   chapters:
@@ -503,6 +517,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -601,6 +619,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    subst_id: sb-tokka-3022
+    subst_name: トリレンジイソシアネート(TDI)
     level: A
     why: q_hi
 - num: 10
@@ -683,6 +703,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -783,6 +807,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -795,13 +823,15 @@ questions:
     - []
     - - 2023-08
     - []
-    level: C
-    why: seen
+    subst_id: sb-tokka-3036
+    subst_name: ホルムアルデヒド
+    level: B
+    why: subst
     tags:
     - ''
     - odo
     - ''
-    - ans_seen
+    - ans_subst
     - ''
 - num: 12
   status: published
@@ -883,6 +913,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -895,14 +929,16 @@ questions:
     - []
     - []
     - - 2022-08
-    level: D
-    why: none
+    subst_id: sb-tokka-3038
+    subst_name: 1,1-ジメチルヒドラジン
+    level: B
+    why: subst
     tags:
     - ''
     - new
     - new
     - ''
-    - ans_new
+    - ans_subst
 - num: 13
   status: published
   chapters:
@@ -1073,8 +1109,10 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    subst_id: sb-tokka-3035
+    subst_name: 硫酸ジメチル
+    level: B
+    why: subst
 - num: 18
   status: published
   chapters:
@@ -1108,8 +1146,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3014
+    subst_name: コールタール
+    level: B
+    why: subst
 - num: 19
   status: published
   chapters:

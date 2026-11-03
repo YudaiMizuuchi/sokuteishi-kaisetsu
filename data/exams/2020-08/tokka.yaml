@@ -83,6 +83,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -303,6 +307,10 @@ questions:
     - 1
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -315,6 +323,8 @@ questions:
     - []
     - - 2018-08
     - []
+    subst_id: sb-tokka-3006
+    subst_name: エチレンオキシド
     level: S
     why: pt_S
     tags:
@@ -403,6 +413,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -615,6 +629,10 @@ questions:
     - 0
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -724,6 +742,10 @@ questions:
     - 1
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -736,6 +758,8 @@ questions:
     - []
     - - 2022-08
     - []
+    subst_id: sb-tokka-3004
+    subst_name: アルファ-ナフチルアミンおよびその塩
     level: B
     why: pt_B
     tags:
@@ -783,6 +807,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    subst_id: sb-tokka-3026
+    subst_name: パラ-ニトロクロルベンゼン
     level: B
     why: q_b
 - num: 13
@@ -905,6 +931,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1068,8 +1098,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3037
+    subst_name: 酸化プロピレン
+    level: B
+    why: subst
 - num: 19
   status: published
   chapters:
@@ -1181,6 +1213,10 @@ questions:
     - 1
     - 2
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true

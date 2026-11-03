@@ -160,10 +160,11 @@ function freqOut(f, answers = []) {
   if (f.kind === "choice") {
     // 頻度は、論点の出題回数（論点がない選択肢は、同じ記述の回数）。「同じ記述」の回数は、参考として添える
     const eff = (i) => (f.pcounts && f.pcounts[i]) || f.counts[i];
-    return { kind: "choice", denom: f.denom, level, subst: f.subst_id ? { id: f.subst_id, name: f.subst_name, url: `/substance/${f.subst_id}/` } : null, principle: prId ? { id: prId, name: prName, count: prCount, url: `/principle/${prId}/` } : null, items: f.counts.map((same, i) => ({
+    return { kind: "choice", denom: f.denom, level, subst: f.subst_id ? { id: f.subst_id, name: f.subst_name, url: `/substance/${f.subst_id}/` } : null, principle: prId ? { id: prId, name: prName, count: prCount, url: `/principle/${prId}/` } : null, recentLabel: (f.recent_exams && f.recent_exams.length) ? `直近${f.recent_exams.length}回（${examInfo(f.recent_exams[0]).label.replace(" ", "")}〜${examInfo(f.recent_exams[f.recent_exams.length - 1]).label.replace(" ", "")}）` : "", items: f.counts.map((same, i) => ({
       truth: f.truths[i] === "正" ? "正しい記述" : "誤った記述", m: eff(i), pct: pct(eff(i)), text: text(eff(i)), hi: pct(eff(i)) >= 30,
       tag: TAGS[(f.tags || [])[i] || ""] || "", tagCode: (f.tags || [])[i] || "",
-      pointText: (f.pnames && f.pnames[i]) ? `論点「${f.pnames[i]}」` : "",
+      recentText: (f.trend && f.recent_exams) ? `直近${f.recent_exams.length}回中${f.trend[i]}回` : "",
+      trending: !!(f.trend && f.recent_exams && eff(i) >= 2 && f.trend[i] * 2 >= eff(i)),
       prText: (f.prnames && f.prnames[i]) ? `原理「${f.prnames[i]}」：全${f.denom}回中${f.prcounts[i]}回出題` : "", prUrl: (f.principles && f.principles[i]) ? `/principle/${f.principles[i]}/` : "",
       simText: (f.pcounts && f.pcounts[i] && same !== f.pcounts[i]) ? `同じ記述の出題：${same}回` : "" })) };
   }
@@ -189,7 +190,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         for (const a of answers)
           if (a !== "all" && !(a >= 1 && a <= q.choices.length)) errors.push(`${where} 問${q.num}: 正答 ${a} が選択肢の範囲外`);
       if (q.status === "published") {
-        // 解説がなくても、問題と正答だけで公開してよい（画面には「解説は準備中」と出る）
+        // 解説がなくても、問題と正答だけで公開してよい（解説欄には、解説のかわりに出題頻度などだけが出る）
         if (site.showStem && (!q.stem || !(q.choices || []).length || !answers.length))
           errors.push(`${where} 問${q.num}: published なのに問題文・選択肢・正答のどれかがない`);
       }

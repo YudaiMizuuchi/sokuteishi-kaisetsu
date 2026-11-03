@@ -79,6 +79,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -174,6 +178,10 @@ questions:
     - 2
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -272,6 +280,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -421,6 +433,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -519,6 +535,10 @@ questions:
     - 0
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -617,6 +637,10 @@ questions:
     - 0
     - 1
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -715,6 +739,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -813,6 +841,10 @@ questions:
     - 0
     - 2
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -911,6 +943,10 @@ questions:
     - 1
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1003,6 +1039,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -1103,6 +1143,10 @@ questions:
     - 0
     - 2
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1203,6 +1247,10 @@ questions:
     - 1
     - 1
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1216,6 +1264,8 @@ questions:
     - - 2016-08
       - 2025-08
     - []
+    subst_id: sb-kinzoku-4002
+    subst_name: クロム酸およびその塩,重クロム酸
     level: B
     why: elim_all
     tags:
@@ -1302,6 +1352,10 @@ questions:
     - 2
     - 0
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1314,6 +1368,8 @@ questions:
     - []
     - []
     - []
+    subst_id: sb-kinzoku-4003
+    subst_name: 五酸化バナジウム
     level: S
     why: trend_S
     tags:
@@ -1394,6 +1450,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1494,6 +1554,10 @@ questions:
     - 1
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1598,6 +1662,10 @@ questions:
     - 2
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1699,6 +1767,10 @@ questions:
     - 0
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1799,6 +1871,10 @@ questions:
     - 0
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1815,6 +1891,8 @@ questions:
       - 2019-08
       - 2020-08
     - []
+    subst_id: sb-kinzoku-4009
+    subst_name: ニッケル化合物
     level: S
     why: pr_S
     tags:

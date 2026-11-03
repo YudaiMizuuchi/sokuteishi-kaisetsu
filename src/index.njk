@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 <div class="intro">
   <h1>作業環境測定士試験 過去問と解説</h1>
-  <p>作業環境測定士試験の過去問を、{{ db.stats.firstLabel }}から{{ db.stats.lastLabel }}までの{{ db.stats.exams }}回分掲載しています。第2種の共通科目「労働衛生一般」「労働衛生関係法令」「デザイン・サンプリング」「分析に関する概論」の計{{ db.stats.common | num }}問のうち、{{ db.stats.explainedCommon | num }}問に解説を付けています。第1種の選択科目（有機溶剤・鉱物性粉じん・特定化学物質・金属類の計{{ db.stats.selective | num }}問）は、いまのところ問題と正答のみで、解説は準備中です。</p>
+  <p>作業環境測定士試験の過去問を、{{ db.stats.firstLabel }}から{{ db.stats.lastLabel }}までの{{ db.stats.exams }}回分掲載しています。第2種の共通科目「労働衛生一般」「労働衛生関係法令」「デザイン・サンプリング」「分析に関する概論」の計{{ db.stats.common | num }}問と、第1種の選択科目（有機溶剤・鉱物性粉じん・特定化学物質・金属類の計{{ db.stats.selective | num }}問）のうち、{{ db.stats.explained | num }}問に解説を付けています。</p>
   <p>解説では、正答の理由だけでなく、過去の試験で繰り返し出てきた「ひっかけパターン」と、関係する法令の条文も示しています。法改正で扱いが変わった問題には、注意書きを付けています。</p>
 </div>
 <section class="about" aria-labelledby="about-title">
@@ -17,19 +17,17 @@ eleventyComputed:
     <a class="support-btn" href="{{ site.supportUrl }}" target="_blank" rel="noopener noreferrer"><svg class="ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20 7h-2.2c.1-.3.2-.6.2-1 0-1.7-1.3-3-3-3-1.3 0-2.4.7-3 1.8C11.4 3.7 10.3 3 9 3 7.3 3 6 4.3 6 6c0 .4.1.7.2 1H4a2 2 0 0 0-2 2v2a1 1 0 0 0 1 1h8V7h2v5h8a1 1 0 0 0 1-1V9a2 2 0 0 0-2-2zM9 5c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm6 2c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1zM4 14v6a2 2 0 0 0 2 2h5v-8H4zm9 8h5a2 2 0 0 0 2-2v-6h-7v8z"/></svg><span>管理人を応援する</span><span class="support-sub">Amazon 欲しいものリスト</span><svg class="ico ico-ext" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M14 3v2h3.6l-9.3 9.3 1.4 1.4L19 6.4V10h2V3h-7zM5 5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5h-2v5H5V7h5V5H5z"/></svg></a>
   </p>
   <p>誤りや不備に気づかれたときは、<a href="{{ site.contactUrl }}">お問い合わせフォーム</a>よりご連絡ください。確認のうえ、すみやかに直します。</p>
-  <h3>掲載の範囲と、制作の状況</h3>
+  <h3>掲載の範囲</h3>
   <ul>
-    <li><strong>対象</strong>：{{ db.stats.firstLabel }}から{{ db.stats.lastLabel }}までの{{ db.stats.exams }}回分です。{% if site.missingExams | length %}{{ site.missingExams | join("と") }}は、まだ掲載できていません。{% endif %}</li>
-    <li><strong>解説</strong>：{% if db.stats.pendingCommonExams | length %}第2種の共通科目は、{{ db.stats.pendingCommonExams | join("と") }}を除いて、全問に付けています（その{{ db.stats.pendingCommonExams | length }}回は、問題と正答のみで、解説は準備中です）。{% else %}第2種の共通科目は、全問に付けています。{% endif %}第1種の選択科目は、問題と正答のみです。</li>
+    <li><strong>対象</strong>：{{ db.stats.firstLabel }}から{{ db.stats.lastLabel }}までの{{ db.stats.exams }}回分です。{% if site.missingExams | length %}{{ site.missingExams | join("と") }}は、まだ掲載できていません。{% endif %}令和8年度第2回（2027年2月実施）は、問題が公表されしだい追加する予定です。</li>
     <li><strong>放射性物質</strong>：第1種の選択科目「放射性物質」は、取得者や測定機関が少ないことから、しばらくは対象外とさせてください。</li>
-    <li><strong>制作中</strong>：{% if site.missingExams | length %}掲載できていない回や、{% endif %}解説が未作成の問題は、鋭意制作中です。できたものから順に追加していきます。令和8年度第2回（2027年2月実施）は、問題が公表されしだい追加する予定です。</li>
   </ul>
 </section>
 <section class="entry" aria-label="探し方">
   <div class="entry-col">
     <h2>科目から探す</h2>
     <ul>{% for s in db.subjectPages %}{% if s.kind == "共通" %}<li><a href="{{ s.url }}">{{ s.name }}</a>（{{ s.count }}問）</li>{% endif %}{% endfor %}</ul>
-    <p class="sub-kind">選択科目（問題と正答）</p>
+    <p class="sub-kind">選択科目</p>
     <ul>{% for s in db.subjectPages %}{% if s.kind == "選択" %}<li><a href="{{ s.url }}">{{ s.name }}</a>（{{ s.count }}問）</li>{% endif %}{% endfor %}</ul>
   </div>
   <div class="entry-col">

@@ -228,7 +228,7 @@ def collect():
                         _b=max(_cand,key=lambda r:len(PR_EXAMS[r])) if _cand else None
                         prids.append(_b or ''); prn.append(PR_NAME[_b] if _b else ''); prcs.append(len(PR_EXAMS[_b]) if _b else 0)
                     _nm=compute_near(subj); _ne=[_nm.get((e,q['num'],i),[]) for i in range(1,len(q['choices'])+1)]
-                    fr=dict(kind='choice',denom=D,counts=counts,truths=truths,pcounts=pcs,points=pids,pnames=pnames,prcounts=prcs,principles=prids,prnames=prn,trend=trend,near=[bool(x) for x in _ne],near_exams=_ne)
+                    fr=dict(kind='choice',denom=D,counts=counts,truths=truths,pcounts=pcs,points=pids,pnames=pnames,prcounts=prcs,principles=prids,prnames=prn,trend=trend,recent_exams=sorted(recent),near=[bool(x) for x in _ne],near_exams=_ne)
                 else:
                     fr=dict(kind='question',denom=D,count=qm[(e,q['num'])],form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k])
                 _a=ans[0]; _txt=str(q['stem'])+' '+(str(q['choices'][_a-1]) if isinstance(_a,int) and _a<=len(q['choices']) else '')

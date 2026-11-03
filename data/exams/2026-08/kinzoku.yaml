@@ -131,6 +131,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - false
@@ -277,6 +281,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -377,6 +385,10 @@ questions:
     - 2
     - 2
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -478,6 +490,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -578,6 +594,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - true
@@ -687,6 +707,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -824,6 +848,10 @@ questions:
     - 2
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -926,6 +954,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true
@@ -1035,6 +1067,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1047,6 +1083,8 @@ questions:
     - []
     - []
     - []
+    subst_id: sb-kinzoku-4002
+    subst_name: クロム酸およびその塩,重クロム酸
     level: B
     why: elim_two
     tags:
@@ -1132,6 +1170,10 @@ questions:
     - 1
     - 2
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1144,11 +1186,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    subst_id: sb-kinzoku-4003
+    subst_name: 五酸化バナジウム
+    level: B
+    why: subst
     tags:
     - new
-    - ans_new
+    - ans_subst
     - new
     - odo
     - new
@@ -1226,6 +1270,10 @@ questions:
     - 1
     - 1
     - 2
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1328,6 +1376,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1430,6 +1482,10 @@ questions:
     - 2
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1535,6 +1591,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1641,6 +1701,10 @@ questions:
     - 1
     - 1
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - true

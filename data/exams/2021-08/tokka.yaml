@@ -83,6 +83,10 @@ questions:
     - 0
     - 0
     - 1
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -177,8 +181,10 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3026
+    subst_name: パラ-ニトロクロルベンゼン
+    level: B
+    why: subst
 - num: 4
   status: published
   chapters:
@@ -259,6 +265,10 @@ questions:
     - 1
     - 1
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - true
     - true
@@ -317,8 +327,10 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    subst_id: sb-tokka-3036
+    subst_name: ホルムアルデヒド
+    level: B
+    why: subst
 - num: 6
   status: published
   chapters:
@@ -393,6 +405,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -487,6 +503,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -550,8 +570,10 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    subst_id: sb-tokka-3006
+    subst_name: エチレンオキシド
+    level: B
+    why: subst
 - num: 9
   status: published
   chapters:
@@ -629,6 +651,10 @@ questions:
     - 1
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -767,6 +793,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -828,6 +858,8 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    subst_id: sb-tokka-3022
+    subst_name: トリレンジイソシアネート(TDI)
     level: A
     why: q_hi
 - num: 13
@@ -1020,8 +1052,10 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    subst_id: sb-tokka-3008
+    subst_name: 塩素
+    level: B
+    why: subst
 - num: 18
   status: published
   chapters:
@@ -1102,6 +1136,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
@@ -1240,6 +1278,10 @@ questions:
     - 0
     - 0
     - 0
+    recent_exams:
+    - 2024-08
+    - 2025-08
+    - 2026-08
     near:
     - false
     - false
