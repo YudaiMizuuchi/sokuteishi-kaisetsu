@@ -213,7 +213,7 @@ function freqOut(f, answers = [], qTraps = []) {
   else if (/^elim_/.test(w)) basis = w === "elim_all" ? "頻出のおとりを全部除外する" : "頻出のおとりを除外して2択にする";
   else if (w === "near") basis = "似た記述（別の回に正しい記述として出題）";
   else if (f.kind === "choice" && ptCount >= 2 && w !== "none") basis = `正答の論点（通算${ptCount}回${f.trend && recentN ? `・直近${f.trend[ai]}回` : ""}）`;
-  else if (f.kind === "question" && f.count >= 1) basis = `この形式の問題（${esc(f.form)}）の解き方（通算${f.count}回）`;
+  else if (f.kind === "question" && f.count >= 2 && w !== "q_new") basis = `この形式の問題（${esc(f.form)}）の解き方（通算${f.count}回）`;
   const TAG = { ans_subst: "正答（物質の表）", ans_seen: "正答（既出1回）", ans_near: "正答（似た記述）", ans_trend: "正答（トレンド）", ans_pr: "正答（原理）", ans_pat: "正答（ひっかけパターン）", ans_hi: "正答（頻出）", ans_b: "正答（複数回）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見" };
   let rows = "";
   if (f.kind === "choice") {
@@ -227,7 +227,7 @@ function freqOut(f, answers = [], qTraps = []) {
     }).join("");
   } else {
     const trapCell = qTraps.map((t) => `${t.url ? `<a href="${t.url}">${esc(t.name)}</a>` : esc(t.name)}（${t.count}回）`).join("<br>");
-    rows = `<tr class="ans"><td class="n" colspan="2">この形式の問題（${esc(f.form)}）</td><td class="num"><span class="lbl">通算 </span>${f.count}回</td><td class="num"></td><td class="pr"></td><td class="pr">${trapCell ? `<span class="lbl">ひっかけ </span>${trapCell}` : ""}</td><td></td></tr>`;
+    rows = `<tr class="ans qrow"><td class="n" colspan="2">この形式の問題（${esc(f.form)}）</td><td class="num"><span class="lbl">通算 </span>${f.count}回</td><td class="num"></td><td class="pr"></td><td class="pr">${trapCell ? `<span class="lbl">ひっかけ </span>${trapCell}` : ""}</td><td></td></tr>`;
   }
   const html = `<section class="freq">`
     + (level ? `<p class="rank-row"><span class="level lv-${level.code}">${esc(level.label)}</span><span class="method">解法：${esc(level.method)}</span></p><p class="level-why">${esc(level.reason)}</p>` : "")
@@ -269,7 +269,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
       const published = q.status === "published";
       if (!published && !site.showDrafts) continue;
 
-      const qTraps = (q.traps || []).map((id) => trapById[id]).filter(Boolean);
+      const qTraps = (q.traps || []).map((id) => trapOut[id] || trapById[id]).filter(Boolean);
       const freqInfo = freqOut(q.freq, answers, qTraps.filter((t) => !t.misc && !t.hidden));
       const rank = freqInfo?.level?.code || null;   // 問題のランク＝出題頻度から決めた区分（S：得点必須／B：何とか得点／C：失点やむなし）
       const id = `${exam}-${doc.subject}-${String(q.num).padStart(2, "0")}`;
