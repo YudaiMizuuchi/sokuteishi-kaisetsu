@@ -293,3 +293,16 @@ table.freqtab td.pr { min-width: 8em; }
   table.freqtab tr.qrow td.num:empty, table.freqtab tr.qrow td.pr:empty { display: none; }
   table.freqtab tr.qrow td.pr { grid-column: 1 / -1; }
 }
+
+.guide-toc { margin: 0 0 18px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.guide-toc ul { margin: 0; padding-left: 1.2em; }
+.guide-toc li { margin: 2px 0; font-size: .92rem; }
+ol.steps { padding-left: 1.4em; }
+ol.steps > li { margin: 6px 0; }
+table.thr { border-collapse: collapse; width: 100%; font-size: .88rem; }
+table.thr th, table.thr td { padding: 4px 8px; border: 1px solid var(--line); text-align: center; }
+table.thr td:first-child { text-align: left; white-space: nowrap; }
+table.thr thead th { background: var(--deep-soft); }
+.guide { scroll-margin-top: 12px; }
+table.thr { min-width: 520px; }
+.tablewrap { overflow-x: auto; }
