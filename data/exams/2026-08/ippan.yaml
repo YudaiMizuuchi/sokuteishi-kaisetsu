@@ -35,6 +35,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 管理濃度が定められている物質については、作業環境測定による幾何平均値を当該物質の管理濃度と比較する方法がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - odo
 - num: 2
   status: published
   chapters:
@@ -65,6 +89,13 @@ questions:
   law_note: null
   _key_choice: イどくろ ロ健康有害性(人体の胸部に星型の図) ハ感嘆符
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -92,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 半数致死量(LD50)は、急性毒性を評価する指標で、試験動物の致死量の1/2に相当する投与量である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 4
   status: published
   chapters:
@@ -121,6 +176,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1,2-ジクロロエタンの生物学的モニタリング指標となる物質は、尿中のトリクロロ酢酸又は総三塩化物である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 5
   status: published
   chapters:
@@ -150,6 +229,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: クレゾールは、水に溶けるとアルカリ性を示す。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 8
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - new
+    - ans_new
 - num: 6
   status: published
   chapters:
@@ -175,6 +278,30 @@ questions:
   law_note: null
   _key_choice: フッ化水素による慢性中毒では、骨の硬化や斑状歯がみられるほか、がんを生じることがある。
   text_note: 原本では「蛋白変成作用」と印字されていますが、誤植と判断し、「蛋白変性作用」に直して掲載しています。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 7
   status: published
   chapters:
@@ -202,6 +329,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -231,6 +365,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じんは、その粒径により、10 μm以下の吸入性粉じん、10 μm~100 μm程度の咽頭通過性粉じん、100 μmを超える吸引性粉じんに分けられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 9
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 9
+    - 2
+    - 6
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - ''
+    - odo
+    - new
 - num: 9
   status: published
   chapters:
@@ -255,6 +413,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 水銀は、金属水銀、無機水銀、有機水銀に大別されるが、いずれも経口的に人体に取り込まれた場合は、消化管から吸収され、精神障害や聴覚障害、腎機能障害を起こす。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 10
   status: published
   chapters:
@@ -279,6 +461,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 全ての有機溶剤は、脂溶性があるほか、揮発性、引火性を有する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - new
+    - ''
+    - new
 - num: 11
   status: published
   chapters:
@@ -303,6 +509,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 低体温症となった者への対応としては、毛布などでくるんだ上で、暖かい場所で体温の回復を待ちながら、温かいアルコール飲料を摂取させるとよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - new
+    - new
+    - ans_new
 - num: 12
   status: published
   chapters:
@@ -328,6 +558,30 @@ questions:
   law_note: null
   _key_choice: 振動障害によるレイノー現象は、手指の血管が攣縮することにより発症し、重症の場合には、発症した部位に潰瘍や壊死が生じる。
   minor_note: 振動障害のレイノー現象で「潰瘍や壊死に至ることはまれ」と説明しています。根拠を確認中です。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 13
   status: published
   chapters:
@@ -352,6 +606,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 音は、空気中よりも水中の方が速く伝わるが、水中では空気中に比べ減衰しやすく、遠くまでは届かない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -376,6 +654,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素は、腎臓や肝臓に障害を引き起こすほか、生殖毒性があるとされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -400,6 +702,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 紫外線は、波長が200 nm程度より長い遠紫外線と、短い近紫外線に分けられ、近紫外線の方が有害性が大きいが、太陽光に含まれる近紫外線は、大気中で吸収され地上には届かない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 8
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - ''
+    - new
 - num: 16
   status: published
   chapters:
@@ -425,6 +751,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射性物質の半減期は温度に依存し、温度が高くなるほど半減期は短くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - new
+    - new
+    - new
 - num: 17
   status: published
   chapters:
@@ -449,6 +799,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 局所排気装置の制御風速とは、作業者の呼吸位置において必要な最小の風速をいう。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 18
   status: published
   chapters:
@@ -473,6 +847,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 化学防護手袋を使用後に再使用する場合は、手袋に付着した化学物質を溶解できる溶液や溶剤などに8時間以上浸漬の上、十分に洗浄、乾燥を行ってから再使用する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 19
   status: published
   chapters:
@@ -499,6 +897,30 @@ questions:
     alt: 黒地に白文字の長方形の標章。1行目「国 ('26) 検」、2行目「第＊＊＊＊＊号」、3行目「DR 直 RS3」
   law_note: null
   _key_choice: この呼吸用保護具の使用期限は、2026年である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 20
   status: published
   chapters:
@@ -528,3 +950,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 混合有機溶剤の管理濃度は、混合有機溶剤に含まれる各有機溶剤の管理濃度に、それぞれの含有率を乗じて得た値の総和とすることとされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new

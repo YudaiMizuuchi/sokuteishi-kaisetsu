@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   stem: 次の金属又は金属化合物のうちで、融点が0℃より高いものはどれか。
   choices:
@@ -21,10 +23,19 @@ questions:
   explanation: 融点は、水銀が約−39℃、水素化ヒ素（アルシン）が約−117℃、四メチル鉛が約−27℃、四エチル鉛が約−136℃で、いずれも0℃より低いです。**三酸化ヒ素**の融点は、約312℃で、0℃より高いので、（2）です。（融点は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-089
   rank: null
   stem: 金属酸化物の酸への溶解に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -42,10 +53,19 @@ questions:
     酸化ニッケル(Ⅱ)、酸化コバルト(Ⅱ)、酸化マンガン(Ⅳ)は塩酸に、酸化鉛(Ⅱ)は硝酸に溶けます。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   stem: 作業環境中の金属の分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -66,10 +86,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』、『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   stem: 溶媒抽出に用いられる有機溶媒の性質等に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -90,10 +136,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-kinzoku-083
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -114,10 +186,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 4
+    - 4
+    - 3
+    similar:
+    - 3
+    - 2
+    - 4
+    - 4
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-aas
+  traps:
+  - sl-kinzoku-080
   rank: null
   stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -138,10 +236,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 1
+    - 4
+    - 5
+    - 6
+    similar:
+    - 5
+    - 1
+    - 4
+    - 5
+    - 7
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - new
+    - odo
+    - odo
+    - odo
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-icp
+  traps:
+  - sl-kinzoku-108
   rank: null
   stem: ICP-AES法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -162,10 +286,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - new
+    - ans_b
+    - new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-fl
+  traps:
+  - sl-kinzoku-081
   rank: null
   stem: 作業環境中の金属の測定に用いる蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -186,10 +336,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 4
+    - 7
+    - 1
+    - 3
+    similar:
+    - 4
+    - 4
+    - 7
+    - 1
+    - 3
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - new
+    - odo
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-kinzoku-109
   rank: null
   stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -210,10 +386,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 2
+    - 4
+    - 1
+    - 1
+    similar:
+    - 5
+    - 2
+    - 4
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - new
+    - new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-090
   rank: null
   stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -234,10 +436,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 4
+    - 3
+    - 3
+    similar:
+    - 1
+    - 4
+    - 5
+    - 4
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-095
   rank: null
   stem: ベリリウムの分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -258,10 +486,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-aas
+  traps:
+  - sl-kinzoku-other-aas
   rank: null
   stem: 溶媒抽出-原子吸光分析法によるカドミウムの分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -282,10 +536,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   stem: 吸光光度分析法によるクロム(Ⅵ)の分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -306,10 +586,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   stem: 電気加熱原子吸光分析法によるバナジウムの分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -331,10 +637,36 @@ questions:
   figures: []
   law_note: null
   minor_note: バナジウムの電気加熱原子吸光分析法で、原子化温度が2,000℃付近より高い、という点は、ガイドブック4で温度の数値を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 7
+    - 1
+    - 1
+    - 1
+    similar:
+    - 5
+    - 8
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - new
+    - new
+    - ans_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   stem: 原子吸光分析法によるマンガン及びその化合物の分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -355,10 +687,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 6
+    - 1
+    - 6
+    - 5
+    - 1
+    similar:
+    - 6
+    - 1
+    - 7
+    - 5
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-086
   rank: null
   stem: 水素化物発生原子吸光分析法によるヒ素の測定に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -379,10 +737,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 7
+    - 5
+    - 3
+    - 4
+    - 3
+    similar:
+    - 7
+    - 5
+    - 3
+    - 5
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-082
   rank: null
   stem: 液体捕集法による水銀の測定法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -403,10 +787,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 7
+    - 2
+    - 4
+    - 1
+    - 2
+    similar:
+    - 8
+    - 2
+    - 4
+    - 1
+    - 3
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - new
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-aas
+  traps:
+  - sl-kinzoku-other-aas
   rank: null
   stem: 環境空気中の鉛のろ過捕集法-原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -427,10 +837,36 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 4
+    - 3
+    - 1
+    - 1
+    similar:
+    - 5
+    - 6
+    - 3
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-091
   rank: null
   stem: 原子吸光分析法による環境空気中の粉状ニッケル化合物の分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -451,10 +887,19 @@ questions:
     （参考：『作業環境測定ガイドブック4 金属類 物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-096
   rank: null
   stem: 水溶液50mL中の金属（M）イオン10μgから形成されるDDTC錯体をMIBK5mLで抽出する。MイオンのDDTC錯体のMIBK相と水相との分配係数K、すなわち、抽出平衡後のMIBK相と水相との錯体の濃度比（[M]MIBK相/[M]水相）を100と仮定した場合、水相に残る錯体の量（Mイオン換算）として最も近い値は次のうちどれか。
   choices:
@@ -482,3 +927,10 @@ questions:
     よって（5）の0.9 µgです。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b

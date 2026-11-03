@@ -30,6 +30,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 25 ppm
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -54,6 +61,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所が広く測定点の数が多いため、1作業日中にサンプリングを終了できない場合には、測定を2作業日に分けて行うようにする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - ''
+    - new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -80,6 +111,30 @@ questions:
     alt: 外枠の長方形が単位作業場所（枠の下に「単位作業場所」の文字）。縦線2本と横線2本が枠を貫いて交差し、4つの交点にそれぞれ小さな円がある。上側の2つの交点の間に両矢印と「6 m以下」、左側の2つの交点の間に縦向きの両矢印と縦書きの「6 m以下」。4つの交点を結ぶ2本の点線の対角線が交わる中央にも小さな円があり、円は合計5つ
   law_note: null
   _key_choice: 単位作業場所が著しく狭く、かつ、単位作業場所における空気中の有害物質の濃度がほぼ均一であることが明らかなため、測定点の数を4点とした場合には、4点のうちいずれか1点で2回繰り返し測定を行うことによって、測定値の総数を5とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 7
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 7
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - odo
+    - ''
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -104,6 +159,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 圧電天秤方式の相対濃度計を用いて鉱物性粉じんのB測定を行う場合は、測定時間を2分に合わせて、連続して5回の測定を行い、指示値の最大値をB測定値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - ans_new
+    - odo
 - num: 5
   status: published
   chapters:
@@ -128,6 +207,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じんの測定は、個人サンプリング法による測定の対象とはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 6
   status: published
   chapters:
@@ -152,6 +255,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質の発生源に近接する場所において作業が行われる場合であって、気中濃度が最も高くなると思われる時間が15分未満で複数回生じるときは、その時間の合計が15分となるようにD測定の試料空気の採取を行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ''
+    - ans_new
 - num: 7
   status: published
   chapters:
@@ -176,6 +303,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: アクリルアミド
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -200,6 +334,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: シアン化水素の蒸気密度は、空気より大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 9
   status: published
   chapters:
@@ -227,6 +385,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -251,6 +416,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 捕集装置とポンプの間に接続した面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 2
+    - 4
+    - 1
+    similar:
+    - 6
+    - 4
+    - 6
+    - 5
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -278,6 +467,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 二硫化炭素の捕集には、シリカゲル管は適さない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 4
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - ''
+    - new
 - num: 12
   status: published
   chapters:
@@ -302,6 +515,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 多孔状フィルターのポアサイズは、捕集できる粒子の大きさの下限を示すものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 2
+    similar:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -326,6 +563,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 液体捕集では、測定対象物質と反応しない捕集液を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 10
+    - 7
+    - 2
+    - 1
+    similar:
+    - 1
+    - 10
+    - 7
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - ''
+    - new
 - num: 14
   status: published
   chapters:
@@ -350,6 +611,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定をする前に行う感度合わせのための標準散乱板値は、型式が異なればその値は異なるが、同じ型式であれば同じ値である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 11
+    - 3
+    - 1
+    - 2
+    similar:
+    - 2
+    - 11
+    - 3
+    - 1
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -377,6 +662,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 個人サンプリング法によるC測定では、妨害物質の有無にかかわらず、検知管を使用することはできない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 1
+    - 6
+    - 1
+    similar:
+    - 3
+    - 5
+    - 1
+    - 6
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - odo
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -404,6 +713,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 11
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -438,6 +754,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 108 分
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -463,6 +786,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 正規分布の算術平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ-2σからμ+2σの範囲に入る確率は、およそ68 %である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 2
+    - 10
+    - 7
+    - 4
+    similar:
+    - 8
+    - 2
+    - 10
+    - 7
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -490,6 +837,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
   chapters:
@@ -514,3 +868,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定及びD測定が行われた場合、D測定の測定値が、管理濃度を超えていれば、C測定の結果にかかわらず、第3管理区分となる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 1
+    - 6
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - ans_new
+    - odo

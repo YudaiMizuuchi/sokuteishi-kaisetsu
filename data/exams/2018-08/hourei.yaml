@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 工業的業種に属する事業場においては常時50人以上の労働者を使用する場合に、非工業的業種に属する事業場においては常時100人以上の労働者を使用する場合に、それぞれ衛生委員会を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    similar:
+    - 2
+    - 4
+    - 3
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 2
   status: published
   chapters:
@@ -50,6 +74,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、定期健康診断を受けた労働者のうち、無所見の者を除き、再検査を必要とする者及び異常の所見があると診断された者に対し、遅滞なく、健康診断結果の通知を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 7
+    - 6
+    - 10
+    similar:
+    - 1
+    - 8
+    - 7
+    - 7
+    - 10
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   law_note: null
   _key_choice: 特別教育の講師は、法令で定める資格を有する者のうちから選任しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 11
+    - 3
+    - 6
+    similar:
+    - 4
+    - 9
+    - 11
+    - 3
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 5
   status: published
   chapters:
@@ -126,6 +205,30 @@ questions:
   law_note: null
   _key_choice: 第1種酸素欠乏危険作業を行うときは、その日の作業を開始する前に、当該作業場における空気中の硫化水素の濃度を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 10
+    - 4
+    - 3
+    - 5
+    similar:
+    - 10
+    - 11
+    - 4
+    - 3
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -148,6 +251,13 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -170,6 +280,13 @@ questions:
   law_note: null
   _key_choice: シアン化水素用防毒マスク
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -195,6 +312,30 @@ questions:
   law_note: null
   _key_choice: 指定作業場の作業環境測定において、簡易測定機器以外の機器を用いて行う分析を第2種作業環境測定士に行わせることができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 11
+    - 7
+    - 4
+    - 4
+    similar:
+    - 2
+    - 11
+    - 7
+    - 4
+    - 9
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -221,6 +362,30 @@ questions:
   law_note: null
   _key_choice: 騒音の測定点は、原則として単位作業場所の床面上に6 m以下の等間隔で引いた縦の線と横の線との交点の床上50 cm以上150 cm以下の位置としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 2
+    - 5
+    - 2
+    - 4
+    similar:
+    - 11
+    - 2
+    - 5
+    - 2
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - ''
+    - odo
 - num: 10
   status: published
   chapters:
@@ -246,6 +411,30 @@ questions:
   law_note: null
   _key_choice: A測定とB測定を行った場合、B測定の測定値がA測定の第1評価値の1.5倍を超えている単位作業場所の管理区分は、第3管理区分である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 5
+    - 5
+    - 4
+    - 5
+    similar:
+    - 9
+    - 5
+    - 5
+    - 5
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 11
   status: published
   chapters:
@@ -271,6 +460,30 @@ questions:
   law_note: null
   _key_choice: 労働者を常時就業させる屋内作業場において、換気設備を設けていないときは、窓その他の開口部の直接外気に向かって開放することができる部分の面積が、常時床面積の25分の1以上になるようにしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 1
+    - 1
+    - 9
+    similar:
+    - 4
+    - 3
+    - 1
+    - 1
+    - 9
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -297,6 +510,30 @@ questions:
   law_note: null
   _key_choice: ホルムアルデヒドは、第3類物質である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 4
+    - 2
+    - 1
+    similar:
+    - 2
+    - 1
+    - 6
+    - 4
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -322,6 +559,30 @@ questions:
   law_note: null
   _key_choice: 第3類物質であるフェノールを試験研究のために取り扱う作業については、法定の技能講習を修了した者のうちから、特定化学物質作業主任者を選任しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 2
+    - 3
+    - 1
+    similar:
+    - 4
+    - 1
+    - 2
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ''
+    - odo
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -345,6 +606,13 @@ questions:
   law_note: null
   _key_choice: 1,2-ジクロルエチレン
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -368,6 +636,30 @@ questions:
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置又は局所排気装置を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 6
+    - 12
+    - 6
+    similar:
+    - 3
+    - 8
+    - 8
+    - 12
+    - 7
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 16
   status: published
   chapters:
@@ -393,6 +685,30 @@ questions:
   law_note: 選択肢3の眼の水晶体の等価線量限度（1年間につき150 mSv）は、令和3年4月の改正前の値です。現在は、5年間につき100 mSv、かつ1年間につき50 mSv です。
   _key_choice: 女性の放射線業務従事者で妊娠する可能性があり、かつ、妊娠中ではない者の受ける実効線量は、1か月間につき2 mSvを超えないようにしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 9
+    - 3
+    - 11
+    - 1
+    similar:
+    - 10
+    - 10
+    - 3
+    - 11
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -419,6 +735,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業を行う屋内作業場については、当該粉じん作業に係る粉じんを減少させるため、全体換気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 7
+    - 8
+    - 11
+    similar:
+    - 6
+    - 4
+    - 8
+    - 9
+    - 11
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -445,6 +785,30 @@ questions:
   law_note: null
   _key_choice: 室における一酸化炭素の含有率を10 ppm以下としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 5
+    - 2
+    - 9
+    - 6
+    similar:
+    - 7
+    - 8
+    - 2
+    - 9
+    - 6
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - ''
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -471,6 +835,30 @@ questions:
   law_note: null
   _key_choice: 硫化鉱、乾性油、魚油その他空気中の酸素を吸収する物質を入れてあるタンクの内部における作業は、第2種酸素欠乏危険作業である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 5
+    - 3
+    - 1
+    - 5
+    similar:
+    - 1
+    - 5
+    - 3
+    - 2
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -497,3 +885,27 @@ questions:
   law_note: null
   _key_choice: 法令に基づき局所排気装置に設ける除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 4
+    - 7
+    - 4
+    similar:
+    - 4
+    - 6
+    - 4
+    - 7
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo

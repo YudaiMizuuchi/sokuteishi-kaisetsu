@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時100人以上の労働者を使用する製造業の事業場においては、総括安全衛生管理者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 9
+    - 5
+    - 1
+    - 3
+    similar:
+    - 2
+    - 9
+    - 5
+    - 1
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 2
   status: published
   chapters:
@@ -54,6 +78,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 雇入時の健康診断における45歳未満の者についての聴力の検査は、1,000ヘルツ及び4,000ヘルツの音に係る聴力以外の、医師が適当と認める聴力の検査をもって代えることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 6
+    - 6
+    - 1
+    similar:
+    - 8
+    - 2
+    - 7
+    - 6
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_new
 - num: 3
   status: published
   chapters:
@@ -78,6 +126,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤業務に労働者を就かせるときは、当該労働者に対し、原則として、法定の科目について特別教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 3
+    - 1
+    - 11
+    similar:
+    - 4
+    - 6
+    - 3
+    - 1
+    - 11
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - odo
 - num: 4
   status: published
   chapters:
@@ -106,6 +178,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -130,6 +209,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 多量のドライアイスを取り扱う業務を行う著しく寒冷な屋内作業場については、半月以内ごとに1回、定期に、気温、湿度及びふく射熱を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 12
+    - 8
+    - 5
+    - 3
+    - 3
+    similar:
+    - 12
+    - 8
+    - 5
+    - 3
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 6
   status: published
   chapters:
@@ -155,6 +258,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: アルファ-ナフチルアミン
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -179,6 +289,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線測定器
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -203,6 +320,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 指定作業場の作業環境測定結果についての作業環境評価基準に基づく管理区分の決定は、作業環境測定士ではない者に行わせることはできない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 7
+    - 1
+    - 6
+    - 4
+    similar:
+    - 2
+    - 7
+    - 1
+    - 6
+    - 8
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -228,6 +369,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質のA測定において、直接捕集方法により試料空気を採取する場合、採取時間は、10分間以上の継続した時間としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 5
+    - 2
+    - 3
+    - 2
+    similar:
+    - 9
+    - 5
+    - 2
+    - 3
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_b
+    - ''
 - num: 10
   status: published
   chapters:
@@ -252,6 +417,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤を除き、2種類以上の特定化学物質を含有する混合物に係る単位作業場所にあっては、測定点ごとに、定められた算定式により求めた換算値を測定値とみなし、管理濃度に相当する値を1として管理区分の区分を行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 5
+    - 1
+    - 3
+    similar:
+    - 3
+    - 1
+    - 5
+    - 1
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - new
+    - odo
+    - new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -273,6 +462,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定化学物質のうち管理濃度が一定の値以上であるものに係る測定は、個人サンプリング法によることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 4
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 4
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - ''
+    - odo
 - num: 12
   status: published
   chapters:
@@ -298,6 +511,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 二酸化硫黄は、特定第2類物質であり、かつ、特別管理物質である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 6
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - new
+    - ans_new
+    - new
 - num: 13
   status: published
   chapters:
@@ -323,6 +560,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質であり、かつ、特別管理物質である塩化ビニルを取り扱う作業場において常時作業に従事する労働者について、6か月を超えない期間ごとに所定の事項を記録した作業の記録を作成し、これを30年間保存するものとされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 3
+    - 3
+    - 8
+    - 8
+    similar:
+    - 5
+    - 3
+    - 3
+    - 8
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -351,6 +612,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -376,6 +644,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤等を入れたことのあるタンクで有機溶剤の蒸気を発散するおそれのあるものの内部における業務に労働者を従事させるときは、当該業務に従事する労働者に有機ガス用防毒マスクを使用させなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 12
+    - 5
+    - 11
+    similar:
+    - 3
+    - 9
+    - 12
+    - 5
+    - 11
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 16
   status: published
   chapters:
@@ -400,6 +692,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 事業者は、放射線業務従事者の皮膚に受ける等価線量については、1年間につき150 mSvを超えないようにしなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 10
+    - 5
+    - 2
+    similar:
+    - 9
+    - 4
+    - 10
+    - 7
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -424,6 +740,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じん作業のうち特定粉じん作業に該当する作業については、作業主任者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 7
+    - 8
+    - 1
+    - 1
+    similar:
+    - 9
+    - 8
+    - 8
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 18
   status: published
   chapters:
@@ -452,6 +792,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気調和設備を設けている場合は、室に供給される空気中の二酸化炭素の含有率(1気圧、25 °Cとした場合の空気中に占める二酸化炭素の容積の割合)を5,000 ppm以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 5
+    - 5
+    - 7
+    similar:
+    - 2
+    - 6
+    - 5
+    - 6
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -477,6 +841,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酸素欠乏危険作業を行う場所において、爆発、酸化等を防止するために換気を行うことができない場合は、空気呼吸器、送気マスク又は電動ファン付き呼吸用保護具を備え、労働者に使用させなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 4
+    - 1
+    - 5
+    similar:
+    - 5
+    - 1
+    - 4
+    - 1
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -502,3 +890,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令に定める鉛業務に労働者を従事させるときに設置する局所排気装置の除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 2
+    - 2
+    - 1
+    similar:
+    - 3
+    - 7
+    - 2
+    - 4
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_b
+    - new

@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気中の有機溶剤の体積分率0.1%は、10,000 ppmに相当する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 1
+    - 5
+    - 5
+    similar:
+    - 4
+    - 2
+    - 1
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - ans_new
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間を考慮する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 6
+    - 2
+    - 5
+    - 7
+    similar:
+    - 5
+    - 9
+    - 2
+    - 5
+    - 7
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_hi
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定点の高さは、床上120~150 cmの呼吸域の高さとする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 1
+    - 5
+    - 4
+    similar:
+    - 4
+    - 3
+    - 1
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 相対濃度指示方法によってB測定を行った場合に用いる質量濃度変換係数は、A測定とは別に求めなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 3
+    - 5
+    - 4
+    similar:
+    - 4
+    - 8
+    - 3
+    - 5
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -124,6 +220,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 騒音の管理区分の決定には、測定値の算術平均と標準偏差を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - odo
+    - ''
 - num: 6
   status: published
   chapters:
@@ -148,6 +268,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: メタノール
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -172,6 +299,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トルエンは、メタノールよりも極性が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - ''
+    - new
 - num: 8
   status: published
   chapters:
@@ -199,6 +350,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -223,6 +381,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターは、原則として、ポンプより上流側に接続する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 3
+    - 8
+    - 1
+    similar:
+    - 4
+    - 6
+    - 6
+    - 8
+    - 9
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -244,6 +426,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、一般に、活性炭に比べて有機溶剤蒸気に対する捕集容量が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 5
+    - 3
+    - 5
+    - 1
+    similar:
+    - 1
+    - 5
+    - 4
+    - 5
+    - 1
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_hi
+    - new
 - num: 11
   status: published
   chapters:
@@ -265,6 +471,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じん中に含まれる遊離けい酸の分析に用いるサンプルの捕集には、オープンフェース型ホルダーを用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 3
+    - 8
+    - 5
+    similar:
+    - 5
+    - 4
+    - 3
+    - 8
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -289,6 +519,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによるミストの捕集では、拡散効果により捕集される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 9
+    - 6
+    - 2
+    - 1
+    similar:
+    - 7
+    - 9
+    - 6
+    - 4
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - new
 - num: 13
   status: published
   chapters:
@@ -310,6 +564,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計において、粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 7
+    - 1
+    - 4
+    similar:
+    - 6
+    - 1
+    - 7
+    - 1
+    - 7
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - new
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -331,6 +609,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管の定量下限は、変色がわずかでも認められる検知限度のことである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 2
+    - 6
+    - 4
+    - 5
+    similar:
+    - 6
+    - 2
+    - 6
+    - 4
+    - 7
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_b
+    - odo
 - num: 15
   status: published
   chapters:
@@ -355,6 +657,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計では、吸引流量が大きくなるほど相対濃度の値は増大する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 4
+    - 3
+    - 1
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -379,6 +705,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 11
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -407,6 +740,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 145分
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
   chapters:
@@ -429,6 +769,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 環境空気中の有害物質の濃度の分布は、正規分布で近似される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 5
+    - 9
+    - 9
+    - 11
+    similar:
+    - 10
+    - 5
+    - 9
+    - 10
+    - 11
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -453,6 +817,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによる粒子状物質の捕集では、流量が大きいほど捕集率は低くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 10
+    - 5
+    - 4
+    - 6
+    similar:
+    - 3
+    - 10
+    - 5
+    - 5
+    - 6
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -475,3 +863,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とは、気中有害物質濃度の算術平均値の推定値をいう。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 5
+    - 3
+    - 3
+    similar:
+    - 6
+    - 5
+    - 7
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo

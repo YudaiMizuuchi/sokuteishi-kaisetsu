@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-063
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -27,10 +29,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    similar:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_b
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-other-lod
   rank: null
   stem: ある化合物を含む水溶液の濃度を吸光光度分析法で測定したところ、測定波長における透過率は50%であった。その波長におけるモル吸光係数を8.26×10³cm⁻¹·mol⁻¹·L、セルの光路長を1.0cmとすると、この化合物のモル濃度に最も近いものは次のうちどれか。ただし、log₁₀2＝0.301とする。
   choices:
@@ -57,10 +85,19 @@ questions:
     よって（2）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-041
   rank: null
   stem: 環境空気（25℃、1気圧）中のシアン化水素濃度を液体捕集法－吸光光度分析法により測定した。ミゼットインピンジャーに捕集液10mLを入れ、シアン化水素を含む環境空気を、流量0.50L/minで15分間吸引し、シアン化水素を捕集した。捕集後の捕集液10mLのうちの2mLを取り、これに必要な試薬を加え、発色操作を行い15.2mLの最終試料液を調製した。この最終試料液中のシアン化物イオン（CN⁻）の濃度を測定したところ、0.31μg/mLであった。この環境空気中のシアン化水素濃度に最も近いものは、次のうちどれか。ただし、捕集率は100%とする。
   choices:
@@ -91,10 +128,19 @@ questions:
     よって（3）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-other-uv
   rank: null
   stem: '吸光光度分析法における次の㋑から㋥の項目のうち、検量線の傾きに関係があるもののみの組合せは下のうちどれか。
 
@@ -121,10 +167,19 @@ questions:
   explanation: 検量線は、濃度と吸光度の関係を表す直線で、傾きは、ランベルト・ベールの法則 A ＝ ε・c・l から、**ε・l**（モル吸光係数 × セルの光路長）です。したがって、検量線の傾きに関係があるのは、**㋺ セルの光路長**と、**㋩ 溶質のモル吸光係数**です。よって（3）です。同じ問題は、令和4年度第1回にも出題されています（出題実績）。
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   stem: ガスクロマトグラフ分析法に用いる充塡カラムのコンディショニング（エージング）に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -146,10 +201,19 @@ questions:
   figures: []
   law_note: null
   minor_note: 充填カラムのエージングで、室温から徐々に昇温する、という点は、プロジェクトの教科書で確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-051
   rank: null
   stem: ガスクロマトグラフ分析法による環境空気中のエチルベンゼン濃度の測定に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -170,10 +234,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - odo
+    - new
+    - ans_b
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   stem: キャピラリガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -195,10 +285,36 @@ questions:
   figures: []
   law_note: null
   minor_note: キャピラリーカラムで、液相の膜厚が厚いほど低沸点物質の分析に適する、という点は、プロジェクトの教科書で確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-064
   rank: null
   stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析法に用いる検出器Ⓑとの次の組合せのうち、不適切なものはどれか。
   choices:
@@ -221,10 +337,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-046
   rank: null
   stem: 1-(2-ピリジル)ピペラジンとの反応を利用して、高速液体クロマトグラフ分析法で測定する物質は、次のうちどれか。
   choices:
@@ -242,10 +367,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-other-lod
   rank: null
   stem: 環境空気中のコールタール濃度を測定するため、試料空気を流量0.50m³/minで45分間グラスファイバーろ紙に吸引した。このろ紙をメチルエチルケトンで抽出し、100mLの溶液を得た。その全量を濃縮し、残渣を秤量したところ5.04mgであった。次に未使用のグラスファイバーろ紙のみをメチルエチルケトンで抽出し、100mLの溶液を得た。その全量を濃縮し、残渣を秤量したところ0.30mgであった。環境空気中のコールタール濃度として、正しい値に最も近いものは次のうちどれか。
   choices:
@@ -270,10 +404,19 @@ questions:
     よって（4）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-fl
+  traps:
+  - sl-tokka-other-fl
   rank: null
   stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -294,10 +437,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - odo
+    - new
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-hplc
+  traps:
+  - sl-tokka-other-hplc
   rank: null
   stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -318,10 +487,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - new
+    - odo
+    - ans_b
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-065
   rank: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
   choices:
@@ -348,10 +543,19 @@ questions:
   - file: 2017-08-tokka-13-fig.png
     alt: Ⓐ（化合物名）とⒷ（構造式）の2列の表。1＝α-ナフチルアミン、Ⓑは、2つの六員環が縮合した環で、右側の環の上部の炭素にNH₂が結合。2＝ベンゾトリクロリド、Ⓑは、ベンゼン環の1つおきの3つの炭素にClが結合。3＝ベンゼン、Ⓑは、六員環のみ。4＝p-ニトロクロロベンゼン、Ⓑは、ベンゼン環の対向する炭素にClとNO₂が結合。5＝o-トルイジン、Ⓑは、ベンゼン環の隣り合う炭素にCH₃とNH₂が結合
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の化合物Ⓐについて、その分子式Ⓑが誤っているものはどれか。
   choices:
@@ -382,10 +586,19 @@ questions:
     「C₂H₂Cl₂」とする選択肢5は誤りです（C₂H₂Cl₂は、ジクロロエチレンの分子式です）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の化合物のうち、25℃、1気圧で液体であるものはどれか。
   choices:
@@ -400,10 +613,19 @@ questions:
   explanation: 25℃、1気圧で液体の物質は、沸点が25℃より高く、融点が25℃より低い物質です。**エチレンイミン**は、沸点が約56℃、融点が約−71℃で、常温で液体です。オーラミンとアクリルアミドは、常温で固体、臭化メチル（沸点約4℃）と硫化水素（沸点約−60℃）は、常温で気体です。よって（4）です。（物性値は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-tokka-044
   rank: null
   stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -424,10 +646,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    similar:
+    - 2
+    - 3
+    - 3
+    - 3
+    - 2
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: バブラーを2本直列に接続し、試料空気を吸引した後、捕集された成分量をそれぞれ分析したところ、分析値は1本目がa₁、2本目がa₂であった。2つのバブラーの捕集率が同じであるとすると、バブラーの捕集率を表す式として、正しいものは次のうちどれか。
   choices:
@@ -451,10 +699,19 @@ questions:
     よって（4）です。同じ問題は、令和3年度第1回にも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の特定化学物質のうち、液体捕集法による試料採取が適切でないものはどれか。
   choices:
@@ -475,10 +732,19 @@ questions:
     （参考：『デザイン・サンプリングの実務（C・D測定編）』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-042
   rank: null
   stem: 次の測定対象物質のうち、ガラス繊維ろ紙と固体捕集用充填剤を組み合わせた相補型ろ過捕集法により捕集するものはどれか。
   choices:
@@ -496,10 +762,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の測定対象物質のうち、直接捕集法でも固体捕集法でも捕集・分析が可能なものはどれか。
   choices:
@@ -520,3 +795,10 @@ questions:
     （参考：『デザイン・サンプリングの実務（C・D測定編）』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new

@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-059
   rank: null
   summary: null
   stem: 定量下限に関する次の記述の㋑、㋺の［　］に入る数値及び用語の組合せとして、正しいものは下のうちどれか。「吸光光度分析法における定量下限は、検量線上の吸光度［㋑］に相当する測定対象物質の［㋺］中の濃度とする。」
@@ -28,10 +30,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 硫化水素を液体捕集し、得られた試料液に塩化鉄（Ⅲ）と p-アミノジメチルアニリンを加えて、生成する物質の吸光度を測定して定量した。この分析に関する次の記述のうち、誤っているものはどれか。
@@ -54,10 +65,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 3
+    - 4
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 4
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-038
   rank: null
   summary: null
   stem: 環境空気（25 ℃、1気圧）中のフッ化水素の濃度を測定するため、捕集液10 mL に 0.75 L･min⁻¹ の流量で試料空気を10分間吸引した。その全量 10 mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.350 であった。フッ化水素の濃度が、1.15 × 10⁻⁷ mol･mL⁻¹ の標準溶液 10 mL についても同様の操作を行って測定した吸光度は 0.455 であった。フッ化水素の環境空気中濃度（体積分率）として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は 100％とする。
@@ -88,10 +125,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: ピリジン-ピラゾロン法による環境空気中のシアン化水素濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -114,10 +160,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - new
+    - odo
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-051
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法による環境空気中のベンゼン濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -140,10 +212,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - new
+    - new
+    - ans_hi
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: ガスクロマトグラフ質量分析法（GC-MS 法）による環境空気中のエチレンオキシド濃度の測定に関する次の記述の㋑から㋩の［　］に入る用語の組合せとして、正しいものは下のうちどれか。「［㋑］に臭化水素酸を含浸・乾燥させたものを充塡した捕集管に試料空気を通気し、エチレンオキシドを［㋺］して2-ブロモエタノールとして捕集する。この2-ブロモエタノールをトルエン/［㋩］で抽出し、ガスクロマトグラフ質量分析法で分析する。」
@@ -166,10 +264,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   summary: null
   stem: キャピラリーカラムを使用するガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -192,10 +299,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析法に用いる検出器Ⓑとの次の組合せのうち、不適切なものはどれか。
@@ -220,10 +353,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-039
   rank: null
   summary: null
   stem: 環境空気（25 ℃、1気圧）中のトルエンジイソシアネート（TDI）の濃度を測定するため、1.0 L･min⁻¹ で10分間試料空気を1-(2-ピリジル)ピペラジン（2-PP）含浸ろ紙に通気した。得られた TDI-2-PP 誘導体を抽出液 4.0 mL で抽出し試料液とした。高速液体クロマトグラフで分析した結果、試料液中のこの誘導体の濃度は 0.26 µg･mL⁻¹ であった。環境空気中の TDI 濃度として、正しい値に最も近いものは次のうちどれか。ただし、TDI と TDI-2-PP 誘導体のモル質量は、それぞれ 174 g･mol⁻¹ と501 g･mol⁻¹、ろ紙への捕集率は 100％とし、TDI は全て2,4-TDI の形で存在しているものとする。
@@ -254,10 +396,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-hplc
+  traps:
+  - sl-tokka-061
   rank: null
   summary: null
   stem: 高速液体クロマトグラフ分析法に使用される検出器に関する次の記述のうち、誤っているものはどれか。
@@ -280,10 +431,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 環境空気中のホルムアルデヒド濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -306,10 +483,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 高速液体クロマトグラフ分析法による環境空気中の1,1-ジメチルヒドラジンの測定法に関する次の記述のうち、誤っているものはどれか。
@@ -332,10 +535,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - odo
+    - ans_new
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
@@ -363,10 +592,19 @@ questions:
   - file: 2019-08-tokka-13-fig.png
     alt: Ⓐ（名称）とⒷ（構造式）の2列。1＝1,1-ジメチルヒドラジン、ⒷはN−Nの単結合で、左のNにH₃CとH、右のNにCH₃とHが付いた式。2＝β-プロピオラクトン、ⒷはO＝C、CH₂、CH₂、Oの4つが四角形の環を作る式（C（＝O）の上にCH₂、右にCH₂、下にO）。3＝クロロメチルメチルエーテル、ⒷはCH₃−O−CH₂Clの式。4＝α-ナフチルアミン、Ⓑはベンゼン環が2つ縮合した環（ナフタレン骨格）の端の位置にNH₂が付いた式。5＝エチレンイミン、ⒷはH₂C−CH₂とNHが三角形の環を作る式。
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
@@ -388,10 +626,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の化合物のうち、常温における蒸気圧が最も低いものはどれか。
@@ -408,10 +655,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-043
   rank: null
   summary: null
   stem: 特定化学物質の分析に用いる次の標準液のうち、分析のつど標定する必要があるものはどれか。
@@ -431,10 +687,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-069
   rank: null
   summary: null
   stem: 吸光光度分析法による分析において、測定対象物質Ⓐとその標準溶液の調製に使用する物質Ⓑとの組合せのうち、不適切なものはどれか。
@@ -459,10 +724,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の測定対象物質のうち、固体捕集法による捕集が不適切なものはどれか。
@@ -485,10 +759,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-045
   rank: null
   summary: null
   stem: 次の測定対象物質のうち、グラスファイバーろ紙と活性炭フェルトを組み合わせた相補型ろ過捕集法により捕集するものはどれか。
@@ -508,10 +791,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-057
   rank: null
   summary: null
   stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
@@ -567,3 +859,10 @@ questions:
     よって（2）です。同じ問題は、令和4年度第1回にも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi

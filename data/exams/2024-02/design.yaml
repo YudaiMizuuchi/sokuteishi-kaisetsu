@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: リフラクトリーセラミックファイバーの管理濃度の単位は、mg/m3である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 6
+    - 1
+    - 6
+    - 5
+    similar:
+    - 1
+    - 6
+    - 1
+    - 6
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所は、面積20 m2以下の作業場については設定することができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 7
+    - 5
+    similar:
+    - 2
+    - 1
+    - 1
+    - 7
+    - 5
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定時間が10分未満の検知管を使用する場合は、各測定点において複数の検知管を使用して10分間以上連続して測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 1
+    - 4
+    - 4
+    - 3
+    similar:
+    - 8
+    - 1
+    - 5
+    - 4
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_b
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定は、A測定を補完するための測定なので、全ての単位作業場所で実施する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - new
+    - new
 - num: 5
   status: published
   chapters:
@@ -123,6 +219,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ジクロロメタン
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -147,6 +250,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: フッ化水素の気体の密度は、空気より大きい。
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -187,6 +297,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: この単位作業場所は、第II管理区分に区分される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ''
+    - ans_new
+    - ''
 - num: 8
   status: published
   chapters:
@@ -211,6 +345,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1時間サイクルで繰り返される作業が1日中行われる単位作業場所で、労働者がばく露される有害物質の濃度がほぼ均一であることが明らかな場合は、C測定のサンプリング時間を1時間とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - ''
 - num: 9
   status: published
   chapters:
@@ -238,6 +396,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -262,6 +427,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 捕集器具を取り付けない状態で流量校正した面積式流量計を捕集器具と吸引ポンプの間に接続して捕集すると、流量計の指示流量は、実際の流量よりも低くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 8
+    - 2
+    - 4
+    - 7
+    similar:
+    - 6
+    - 8
+    - 2
+    - 4
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -286,6 +475,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、活性炭に比べ、表面が不活性なため不安定な化合物の捕集に用いると捕集管内で化学反応による変質が起こりやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 3
+    - 3
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 12
   status: published
   chapters:
@@ -310,6 +523,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポアサイズは、水の表面張力を利用したバブルポイント法により計測されたものであり、捕集できる粒子のおおよその大きさを表している。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 13
   status: published
   chapters:
@@ -334,6 +571,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 小型ガス吸収管によりキシレンを液体捕集する際、捕集液には精製水を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -358,6 +619,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定では、1単位作業場所での採取開始から終了までの時間は、一定の条件を満足した場合は、1時間未満とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 4
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ans_new
+    - new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -382,6 +667,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管は管理濃度の5分の1の濃度を精度よく測定できるものであればよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 3
+    similar:
+    - 9
+    - 2
+    - 4
+    - 4
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -409,6 +718,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -440,6 +756,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1.9 × 10−5 Bq・cm−3
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -465,6 +788,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 対数正規分布の幾何平均と幾何標準偏差とは同じ次元を持つ。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 3
+    - 11
+    - 4
+    - 10
+    similar:
+    - 10
+    - 3
+    - 11
+    - 4
+    - 10
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 19
   status: published
   chapters:
@@ -490,6 +837,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 系統誤差は、その原因を明らかにしても補正することができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - ans_b
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -514,3 +885,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とB測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 5
+    - 4
+    - 6
+    similar:
+    - 1
+    - 3
+    - 5
+    - 4
+    - 6
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - ans_hi
+    - odo
+    - odo

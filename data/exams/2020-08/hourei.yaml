@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時300人以上の労働者を使用する事業場においては、その業種に関係なく、総括安全衛生管理者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 10
+    - 1
+    - 7
+    - 1
+    similar:
+    - 7
+    - 10
+    - 1
+    - 7
+    - 2
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - new
+    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 定期健康診断を受けた労働者に対し、異常の所見がない者を除き、遅滞なく、健康診断結果の通知を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 8
+    - 7
+    - 1
+    - 6
+    similar:
+    - 7
+    - 8
+    - 7
+    - 1
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤業務に労働者を就かせるときは、当該労働者に対し、原則として、法定の科目について特別教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 11
+    - 3
+    - 6
+    similar:
+    - 4
+    - 4
+    - 11
+    - 3
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -124,6 +203,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 著しい騒音を発する屋内作業場については、3か月以内ごとに1回、定期に、等価騒音レベルを測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 12
+    - 10
+    - 1
+    - 10
+    similar:
+    - 7
+    - 12
+    - 10
+    - 1
+    - 11
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 6
   status: published
   chapters:
@@ -149,6 +252,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベンゾトリクロリド
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -173,6 +283,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 送気マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 8
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -197,6 +314,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 事業者は、指定作業場の作業環境測定において、簡易測定機器以外の機器を用いて行う分析を、第2種作業環境測定士に行わせることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 11
+    - 2
+    - 3
+    similar:
+    - 2
+    - 7
+    - 11
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - ''
+    - odo
 - num: 9
   status: published
   chapters:
@@ -225,6 +366,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 5
+    - 6
+    - 7
+    - 1
+    similar:
+    - 9
+    - 5
+    - 6
+    - 7
+    - 1
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - new
 - num: 10
   status: published
   chapters:
@@ -249,6 +414,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤を除き、2種類以上の特定化学物質を含有する混合物に係る単位作業場所にあっては、測定点ごとに、定められた算定式により求めた換算値を測定値とみなし、管理濃度に相当する値を1として管理区分の区分を行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 7
+    - 4
+    similar:
+    - 2
+    - 3
+    - 5
+    - 8
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -273,6 +462,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 冷蔵庫、製氷庫又は冷凍庫等で、労働者がその内部で作業を行う著しく寒冷な屋内作業場については、半月以内ごとに1回、定期に、気温、湿度及びふく射熱を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 6
+    - 9
+    - 3
+    - 1
+    similar:
+    - 3
+    - 6
+    - 9
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 12
   status: published
   chapters:
@@ -298,6 +511,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: フェノールは、第2類物質である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 3
+    - 3
+    - 1
+    similar:
+    - 3
+    - 3
+    - 3
+    - 4
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - new
 - num: 13
   status: published
   chapters:
@@ -323,6 +560,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質であり、かつ、特別管理物質であるベンゼンを取り扱う作業場においては、常時作業に従事する労働者について、6か月を超えない期間ごとに、作業の概要等所定の事項を記録し、これを30年間保存するものとされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 5
+    - 8
+    - 8
+    - 4
+    similar:
+    - 2
+    - 5
+    - 8
+    - 10
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -360,6 +621,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ロ ハ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -391,6 +659,30 @@ questions:
   law_note: null
   _key_choice: 第3種有機溶剤等を用いて洗浄の業務を行う場合には、有機溶剤作業主任者を選任しなければならない。 / 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置又は局所排気装置を設けなければならない。
   exam_note: 正解の選択肢が1と3の二つあったため、選択肢1又は3に解答した受験者を正解とする（協会の注記）
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 10
+    - 6
+    - 1
+    - 10
+    similar:
+    - 1
+    - 10
+    - 7
+    - 1
+    - 11
+    truths: 誤正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -415,6 +707,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 管理区域に立ち入る労働者については、放射線業務以外の業務のため管理区域に一時的に立ち入る労働者を除き、管理区域内において受ける外部及び内部被ばくによる線量を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 5
+    - 3
+    - 9
+    - 4
+    similar:
+    - 2
+    - 6
+    - 4
+    - 10
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -437,6 +753,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時特定粉じん作業が行われる屋内作業場については、6か月以内ごとに1回、定期に、当該作業場における空気中の粉じんの濃度を測定し、所定の事項を記録して、5年間保存しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 2
+    - 3
+    - 11
+    similar:
+    - 4
+    - 5
+    - 2
+    - 3
+    - 11
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -462,6 +802,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 室における二酸化炭素の含有率を1,000 ppm以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 7
+    - 5
+    - 6
+    - 1
+    similar:
+    - 8
+    - 7
+    - 6
+    - 6
+    - 1
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - new
 - num: 19
   status: published
   chapters:
@@ -487,6 +851,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化鉱又は魚油を入れてあるタンクの内部における作業は、第2種酸素欠乏危険作業である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 5
+    - 8
+    - 5
+    similar:
+    - 3
+    - 2
+    - 5
+    - 8
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -511,3 +899,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 事業者は、常時粉じん作業に従事する労働者でじん肺管理区分が管理2である者に対して、3年以内ごとに1回、定期的に、じん肺健康診断を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 7
+    - 2
+    - 3
+    - 2
+    similar:
+    - 7
+    - 7
+    - 2
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - ''

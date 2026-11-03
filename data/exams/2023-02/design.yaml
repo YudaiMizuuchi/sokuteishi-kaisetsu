@@ -30,6 +30,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 30 mg・m−3
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -54,6 +61,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定にあたっては、作業場内で働く労働者の保護具の使用状況や作業時間の長さなども考慮する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 2
+    - 7
+    - 4
+    similar:
+    - 2
+    - 6
+    - 2
+    - 7
+    - 4
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ''
+    - ans_hi
+    - ''
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -78,6 +109,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定点と測定点との間隔は、原則として6 m以下の等間隔とし、縦方向と横方向の間隔は同一とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 3
+    - 4
+    - 3
+    - 5
+    similar:
+    - 10
+    - 3
+    - 4
+    - 5
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -102,6 +157,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定はA測定を補完するための測定であり、全ての単位作業場所で実施する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 8
+    - 4
+    - 3
+    - 5
+    similar:
+    - 3
+    - 8
+    - 4
+    - 7
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -126,6 +205,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A塩化ビニル B蒸気
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - odo
+    - ''
+    - ans_new
 - num: 6
   status: published
   chapters:
@@ -154,6 +257,30 @@ questions:
   figures: []
   law_note: 令和5年10月1日以降は、有機溶剤等について「発散源の場所が一定しない作業」に限る取扱いが廃止され、全ての作業が個人サンプリング法の対象となりました（令和5年厚生労働省告示第174号）。現行法では、この問題の選択肢1も対象となります。
   _key_choice: 管理区分の決定においては、A測定の各測定点における騒音レベルの測定結果の中に80 dB以下の測定点があった場合は、その測定点の値を除く。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正誤誤誤誤
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - ''
+    - ''
+    - ''
 - num: 7
   status: published
   chapters:
@@ -178,6 +305,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 溶接ヒューム
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    similar:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ''
+    - odo
+    - ans_new
 - num: 8
   status: published
   chapters:
@@ -202,6 +353,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: D測定の試料空気の採取時間は、連続した10分間である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 4
+    - 5
+    - 3
+    similar:
+    - 2
+    - 4
+    - 4
+    - 5
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -229,6 +404,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -253,6 +435,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ローボリュームエアサンプラーの流量校正では、組み込まれた捕集器具の圧力損失は無視できるので、捕集器具を装着しない状態で行う必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 4
+    - 7
+    - 8
+    similar:
+    - 4
+    - 8
+    - 4
+    - 7
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -277,6 +483,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: シリカゲル管は、一般に無極性有機溶剤に対する吸着力が強い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 6
+    - 2
+    - 3
+    similar:
+    - 4
+    - 3
+    - 7
+    - 6
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -301,6 +531,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポアサイズ0.8 μmのメンブランフィルターには、粒径0.3 μm以下の粒子はほとんど捕集されない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 10
+    - 3
+    - 7
+    - 2
+    similar:
+    - 3
+    - 10
+    - 4
+    - 7
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -325,6 +579,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 直接捕集法では、一般に捕集器具の容積が大きいものほど濃度減衰が速いので、真空捕集瓶は1 L以下の容積のもの、捕集袋は5 L以下のものを使用する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 5
+    - 5
+    - 6
+    similar:
+    - 3
+    - 8
+    - 5
+    - 5
+    - 6
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -349,6 +627,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の測定点の数を6個と設定した場合の1測定点当たりのサンプリング時間は1分間以上であればよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    similar:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - ''
+    - odo
 - num: 15
   status: published
   chapters:
@@ -370,6 +672,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 連続吸引式検知管法に使用する検知管は、真空法ガス採取器を用いる方法で使用する検知管と同じものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 8
+    - 3
+    - 3
+    similar:
+    - 2
+    - 4
+    - 10
+    - 4
+    - 5
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 16
   status: published
   chapters:
@@ -397,6 +723,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -428,6 +761,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 5時間
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -453,6 +793,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 対数正規分布の幾何平均値と幾何標準偏差は同じ次元を持つ。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 10
+    - 8
+    - 9
+    - 4
+    similar:
+    - 10
+    - 10
+    - 8
+    - 10
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 19
   status: published
   chapters:
@@ -477,6 +841,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: インピンジャーによる粒子状物質の捕集では、流量が大きいほど捕集率は低くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 7
+    - 2
+    - 3
+    similar:
+    - 8
+    - 2
+    - 7
+    - 2
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -501,3 +889,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定を複数回行った場合、全ての測定値の平均値をB測定値として管理濃度と比較する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 9
+    - 5
+    - 4
+    - 4
+    similar:
+    - 6
+    - 9
+    - 5
+    - 4
+    - 9
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo

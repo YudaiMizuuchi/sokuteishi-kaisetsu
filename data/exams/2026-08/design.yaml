@@ -36,6 +36,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 100 ppm
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -65,6 +72,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定の単位作業場所の設定に当たっては、測定対象物質へのばく露の程度が異なると見込まれる作業を選定し、それらの作業に従事する労働者の行動範囲を単位作業場所とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 3
   status: published
   chapters:
@@ -103,6 +134,13 @@ questions:
     alt: イ〜ホの5つの区域の平面図。斜線箇所（生産設備）は、各区域の右上の横長の長方形と、L字形の2か所。点線は測定点を結ぶ格子線で、●がA測定の測定点。イ・ロ・ハは左上の角が斜めに切れた長方形の区域、ニ・ホは平行四辺形の区域。イ＝縦4本×横2本の格子で●は上段4点・下段2点（L字設備の左端と右端）の計6点。ロ＝縦3本×横3本の格子で●は3行×3列の計9点。ハ＝●は左上・右上・左下・右下の4点と、それらを結ぶ2本の対角線の交点の1点の計5点（点線の格子は上下2本ずつ）。ニ＝●は上段3点・中段3点・下段2点と、L字設備の上辺付近の1点の計9点。ホ＝●は上段1点・中段3点・下段3点の計7点。
   law_note: null
   _key_choice: ロ、ニ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -132,6 +170,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管5本を用いても測定時間の合計が10分に満たない場合は、10分の間に均等な間隔をおいて測定した5本の検知管の指示値のうち、最大値をB測定値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - new
+    - ans_new
+    - odo
 - num: 5
   status: published
   chapters:
@@ -162,6 +224,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: コールタール
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -194,6 +263,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定とD測定は同じ時間帯に実施することができるが、C測定に係る個人サンプラーを装着する労働者とD測定に係る個人サンプラーを装着する労働者は、別の労働者としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - odo
+    - new
 - num: 7
   status: published
   chapters:
@@ -221,6 +314,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ホルムアルデヒド
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -250,6 +350,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ナフタレンは、常温、常圧で固体であるが、昇華性があり、1気圧下で常温から温度を上げていっても、液体となることはない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 9
   status: published
   chapters:
@@ -277,6 +401,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -307,6 +438,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石けん膜流量計は、所定の区間を石けん膜が移動する時間と、石けん膜をつくる石けん液の密度との関係から、流量を求めるものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 8
+    similar:
+    - 1
+    - 1
+    - 4
+    - 1
+    - 10
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -331,6 +486,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、活性炭に比べて、有機溶剤蒸気に対する捕集容量が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 5
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 5
+    - 1
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - new
+    - new
+    - ans_hi
+    - new
 - num: 12
   status: published
   chapters:
@@ -360,6 +539,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: グラスファイバーフィルターは、メンブランフィルターに比べて、粉じんの堆積による通気抵抗の増加が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - ''
+    - new
 - num: 13
   status: published
   chapters:
@@ -389,6 +592,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 液体捕集における捕集率は、2本の捕集器具を用いて、このうち1本の捕集器具で試料空気を捕集し、他の1本で清浄空気を捕集することによって求める。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -418,6 +645,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計では、測定値はcpmで表示されるが、圧電天秤方式の相対濃度計では、測定値は質量濃度と同じmg/m^{3}で表示されるため、質量濃度変換係数を求める必要はない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 5
+    - 8
+    - 1
+    similar:
+    - 7
+    - 1
+    - 5
+    - 8
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -445,6 +696,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管でスチレンを測定する場合、アルコール類やエステル類が共存すると、その指示値は、スチレンの濃度よりも小さな値を示すことがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 16
   status: published
   chapters:
@@ -477,6 +752,13 @@ questions:
   - ㋺
   - ㋩
   - ㋥
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -517,6 +799,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 11 時間
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -546,6 +835,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 著しい騒音を発する屋内作業場において、等価騒音レベルを測定する場合、労働者の作業中の行動範囲を考慮の上、おおむね70 dB以上の区域を単位作業場所とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - ''
+    - new
 - num: 19
   status: published
   chapters:
@@ -576,6 +889,30 @@ questions:
   law_note: null
   _key_choice: リフラクトリーセラミックファイバーの濃度を求める場合、長さ5 μm未満の繊維を計数する。
   _manual_tags: true
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 4
+    similar:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 4
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -632,3 +969,10 @@ questions:
   - ㋺
   - ㋩
   - ㋥
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new

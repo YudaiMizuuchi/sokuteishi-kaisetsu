@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-000
   rank: null
   summary: null
   stem: 次の有機溶剤のうち、25 ℃における飽和蒸気圧が最も小さいものはどれか。
@@ -26,10 +28,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-002
   rank: null
   summary: null
   stem: 次の有機溶剤のうち、極性が最も高いものはどれか。
@@ -46,10 +57,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   summary: null
   stem: アセトン、エチレングリコールモノエチルエーテルアセテート、キシレン、酢酸イソブチル、N,N-ジメチルホルムアミドの分子中に含まれる酸素原子の合計数として、正しいものは次のうちどれか。
@@ -72,10 +92,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 環境空気中の有機溶剤の直接捕集法とその試料の取扱いに関する次の記述のうち、誤っているものはどれか。
@@ -98,10 +127,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
@@ -121,10 +176,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 有機溶剤の受動型試料採取機器（パッシブサンプラー）に関する次の記述のうち、誤っているものはどれか。
@@ -147,10 +228,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 検知管法に関する次の記述のうち、誤っているものはどれか。
@@ -171,10 +278,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 電動式の吸引ポンプを使う検知管が認められる、という点は、プロジェクトの教科書の目次（連続吸引式検知管法）までで、条文での確認は未了です。問題の正答に基づく説明です。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ポリエチレングリコール 20 M を固定相液体としたカラムを用いるガスクロマトグラフ分析において、トルエンより保持時間の長い有機溶剤は、次のうちどれか。
@@ -197,10 +330,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法のキャリアガスに関する次の記述のうち、誤っているものはどれか。
@@ -223,10 +365,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 5
+    - 3
+    - 4
+    - 3
+    similar:
+    - 4
+    - 5
+    - 4
+    - 4
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 同族化合物の複数成分を含む試料を分析する際、ガスクロマトグラフの温度設定に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「カラム温度は分析対象物質の沸点を基にして決められるが、カラム温度が［㋑］ほど試料成分の固定相への分配が［㋺］なるので、一般に、試料成分のピークとピークの間隔は［㋩］なる。」
@@ -246,10 +414,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -272,10 +449,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 1
+    similar:
+    - 1
+    - 2
+    - 4
+    - 3
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法で用いられるキャピラリカラムに関する次の記述のうち、誤っているものはどれか。
@@ -298,10 +501,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-013
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -321,10 +550,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 1
+    - 2
+    - 5
+    - 2
+    similar:
+    - 5
+    - 1
+    - 2
+    - 5
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_b
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   summary: null
   stem: ガスクロマトグラム上に二つのピーク、A 及び B があり、保持時間が A は142 秒、B は 194 秒であった。ピーク幅については、A は 4 秒 、B は 6 秒であった。分離度として、正しい値に最も近いものは次のうちどれか。
@@ -350,10 +605,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
@@ -373,10 +637,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 4
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 4
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - odo
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-037
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -396,10 +686,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 1
+    - 2
+    - 3
+    similar:
+    - 1
+    - 4
+    - 2
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-028
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「300 nm において吸光度を測定する場合、光源には［㋑］を使用し、光源からの光を［㋺］によって単色光とした後、［㋩］に入れた試料液を透過させる。」
@@ -422,10 +738,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-001
   rank: null
   summary: null
   stem: 捕集率が同じ2本のミゼットインピンジャーを直列に連結して、ある有機溶剤蒸気の捕集を行ったところ、1本目には 0.800 mg の有機溶剤が、2本目には 0.0600 mg の有機溶剤が捕集された。このミゼットインピンジャー1本の捕集率（％）として、正しい値は次のうちどれか。
@@ -451,10 +776,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   summary: null
   stem: 酢酸エチルを含む塗料を用いた塗装作業を行う作業者5名に、能動型試料採取機器（アクティブサンプラー）を装着して、C 測定を6時間実施した。作業後に採取機器を回収し、捕集された酢酸エチルを溶媒 2 mL で脱着し、ガスクロマトグラフで分析したところ、1名の分析結果として酢酸エチル 1750.0µg･mL⁻¹が得られた。この1名の C 測定の測定値として、正しい値に最も近いものは次のうちどれか。ただし、吸引流量：0.1 L･min⁻¹ 、酢酸エチルのモル質量：88.1 g･mol⁻¹、脱着率：90 % とする。また、25 ℃、1気圧下とする。
@@ -485,10 +819,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に用いる検量線に関する次の記述のうち、誤っているものはどれか。
@@ -508,3 +851,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 3
+    - 5
+    - 1
+    - 4
+    similar:
+    - 5
+    - 3
+    - 5
+    - 1
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo

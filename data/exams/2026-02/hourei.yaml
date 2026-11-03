@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 2人以上の衛生管理者を選任する必要がある事業場においては、そのうち1人を専任の衛生管理者としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: リスクアセスメント対象物を製造している事業場において選任する化学物質管理者は、都道府県労働局長の免許を受けた者又はこれと同等以上の能力を有すると認められる者のうちから選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定化学物質を製造し、又は取り扱う業務
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 送気マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -123,6 +202,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業主任者のうちから事業者が指名した者を衛生委員会の委員としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 6
   status: published
   chapters:
@@ -147,6 +250,30 @@ questions:
   figures: []
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 放射性物質に係る登録のみを受けた第1種作業環境測定士は、光散乱方式による相対濃度計を用いた鉱物性粉じんに係る作業環境測定を行うことはできない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - ''
+    - ''
 - num: 7
   status: published
   chapters:
@@ -175,6 +302,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -202,6 +336,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 著しい振動を発生させる振動工具については、6か月以内ごとに1回、定期に、当該振動工具の周波数補正振動加速度実効値の3軸合成値を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 4
+    - 9
+    - 1
+    similar:
+    - 5
+    - 2
+    - 4
+    - 10
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_new
 - num: 9
   status: published
   chapters:
@@ -226,6 +384,30 @@ questions:
   figures: []
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている個人サンプリング法の規定は、現行法でも同じ内容です（作業環境測定法施行規則第3条第1項第1号イ、第6条第1項第1号・第4号、第54条第1号で確認）。
   _key_choice: 有機溶剤に係る登録のみを受けた第1種作業環境測定士であって、個人サンプリング法について登録を受けた者は、特定化学物質に係る個人サンプリング法によるデザイン及びサンプリングを行うことができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 10
   status: published
   chapters:
@@ -251,6 +433,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一つの測定点における鉱物性粉じんの試料空気の採取時間は、測定方法にかかわらず、10分間以上でなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 6
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 11
   status: published
   chapters:
@@ -275,6 +481,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 連続する2作業日について、2作業日ともに2以上の測定点においてB測定を行った場合、1日目の最大値と2日目の最大値の算術平均値をB測定の測定値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 12
   status: published
   chapters:
@@ -300,6 +530,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定化学物質を含有する製剤その他の物のうち、特定化学物質の含有量が重量の5%以下のものは、特定化学物質に該当しない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -325,6 +579,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第1類物質を製造し、又は取り扱おうとする者は、あらかじめ、厚生労働大臣の許可を受けなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -365,6 +643,13 @@ questions:
   - 第2種有機溶剤等
   - 第3種有機溶剤等
   - 有機溶剤等の区分
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -390,6 +675,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 通風が不十分な屋内作業場において、第1種有機溶剤等に係る有機溶剤業務を行うときは、当該業務に従事する労働者に、送気マスクを使用させなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - ''
+    - new
 - num: 16
   status: published
   chapters:
@@ -414,6 +723,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射性物質取扱作業室において、密封されていない放射性物質を取り扱う作業を行うときは、放射性物質取扱作業主任者技能講習を修了した者のうちから、放射性物質取扱作業主任者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 17
   status: published
   chapters:
@@ -439,6 +772,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令に基づき設置する局所排気装置及びプッシュプル型換気装置には全て除じん装置を設けなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - ''
+    - new
+    - new
 - num: 18
   status: published
   chapters:
@@ -467,6 +824,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石綿等を取り扱う屋内作業場について作業環境測定を行うときは、取り扱う石綿の種類が明らかな場合を除き、エックス線回折分析法により石綿の種類を分析しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 19
   status: published
   chapters:
@@ -492,6 +873,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化鉱を入れてある貯蔵施設の内部における作業は、第2種酸素欠乏危険作業である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 20
   status: published
   chapters:
@@ -517,3 +922,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉛化合物とは、鉛と鉛以外の化学物質との化合物で、鉛を当該化合物の重量の10%以上含有するものをいう。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 7
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - new

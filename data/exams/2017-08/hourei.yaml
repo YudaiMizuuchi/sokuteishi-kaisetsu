@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、第一種衛生管理者の選任を要する業種に属する事業場においては常時50人以上の労働者を使用する場合に、それ以外の業種に属する事業場においては常時100人以上の労働者を使用する場合に、それぞれ衛生委員会を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 13
+    - 12
+    - 7
+    - 3
+    similar:
+    - 1
+    - 13
+    - 12
+    - 7
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -50,6 +74,30 @@ questions:
   law_note: null
   _key_choice: 常時50人以上の労働者を使用する事業者は、雇入時の健康診断を行ったときは、遅滞なく、雇入時健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 2
+    - 8
+    - 10
+    - 4
+    similar:
+    - 7
+    - 3
+    - 8
+    - 10
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   law_note: null
   _key_choice: 特別教育の講師は、法令で定める資格を有する者のうちから選任しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 2
+    - 11
+    - 3
+    similar:
+    - 4
+    - 4
+    - 5
+    - 11
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 4
   status: published
   chapters:
@@ -100,6 +172,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -122,6 +201,30 @@ questions:
   law_note: null
   _key_choice: 特定化学物質を試験研究のため取り扱う作業
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 3
+    - 3
+    similar:
+    - 1
+    - 3
+    - 1
+    - 3
+    - 3
+    truths: 正誤誤誤誤
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -148,6 +251,30 @@ questions:
   law_note: null
   _key_choice: 第1種酸素欠乏危険作業を行うときは、その日の作業を開始する前に、当該作業場における空気中の酸素及び硫化水素の濃度を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 4
+    - 12
+    - 5
+    similar:
+    - 3
+    - 2
+    - 4
+    - 12
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ans_b
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -170,6 +297,13 @@ questions:
   law_note: null
   _key_choice: シアン化水素用防毒マスク
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -192,6 +326,30 @@ questions:
   law_note: null
   _key_choice: 作業環境評価基準に従って行う指定作業場の作業環境測定結果の評価は、作業環境測定士でなければ行うことができない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 11
+    - 2
+    - 1
+    - 3
+    similar:
+    - 9
+    - 11
+    - 2
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_new
+    - odo
 - num: 9
   status: published
   chapters:
@@ -218,6 +376,30 @@ questions:
   law_note: null
   _key_choice: ろ過捕集方法に用いるろ過材は、0.5 μmの粒子を95%以上捕集する性能を有するものに限られる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 4
+    - 4
+    - 3
+    - 5
+    similar:
+    - 9
+    - 5
+    - 4
+    - 3
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 10
   status: published
   chapters:
@@ -243,6 +425,30 @@ questions:
   law_note: null
   _key_choice: 測定値が管理濃度の5分の1に満たない測定点がある単位作業場所にあっては、管理濃度の5分の1を当該測定点における測定値とみなして、管理区分の区分を行うことができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 3
+    - 1
+    - 4
+    similar:
+    - 5
+    - 2
+    - 3
+    - 1
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - new
+    - ans_b
 - num: 11
   status: published
   chapters:
@@ -269,6 +475,30 @@ questions:
   _key_choice: 事業者は、労働者を常時就業させる屋内作業場の気積を、設備の占める容積及び床面から5 mを超える高さにある空間を除き、労働者1人について、10 m3以上としなければならない。
   columns: null
   text_note: 原本では「1人にいて」と印字されていますが、誤植と判断し、「1人について」に直して掲載しています。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 3
+    - 1
+    - 1
+    - 3
+    similar:
+    - 9
+    - 8
+    - 1
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - new
+    - ans_b
 - num: 12
   status: published
   chapters:
@@ -292,6 +522,30 @@ questions:
   law_note: null
   _key_choice: カドミウムは、第3類物質である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 8
+    - 2
+    - 3
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - ''
 - num: 13
   status: published
   chapters:
@@ -318,6 +572,30 @@ questions:
   law_note: null
   _key_choice: 第2類物質であるベンゼンを取り扱う屋内作業場については、6か月以内ごとに1回、定期に、当該物質の空気中における濃度を測定し、その記録を3年間保存しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 8
+    - 8
+    - 2
+    similar:
+    - 4
+    - 2
+    - 8
+    - 10
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -344,6 +622,30 @@ questions:
   law_note: null
   _key_choice: 二硫化炭素 キシレン ミネラルスピリット
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正誤誤誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 15
   status: published
   chapters:
@@ -367,6 +669,30 @@ questions:
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置又は局所排気装置を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 11
+    - 6
+    - 6
+    - 3
+    similar:
+    - 8
+    - 11
+    - 8
+    - 7
+    - 3
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 16
   status: published
   chapters:
@@ -392,6 +718,30 @@ questions:
   law_note: null
   _key_choice: 管理区域内において放射線業務従事者の受ける実効線量が5年間につき50mSvを超えず、かつ、1年間に20 mSvを超えないようにしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 3
+    - 7
+    - 4
+    similar:
+    - 10
+    - 3
+    - 3
+    - 11
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -418,6 +768,30 @@ questions:
   law_note: null
   _key_choice: 法令に基づき設置する除じん装置は、粉じんの種類がヒュームである場合には、サイクロンによる除じん方式、スクラバによる除じん方式又はこれらと同等以上の性能を有する除じん方式のものとしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 7
+    - 4
+    - 8
+    - 1
+    similar:
+    - 8
+    - 7
+    - 4
+    - 8
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 18
   status: published
   chapters:
@@ -444,6 +818,30 @@ questions:
   law_note: null
   _key_choice: 室における二酸化炭素の含有率を1,000 ppm以下としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 8
+    - 3
+    - 3
+    - 1
+    similar:
+    - 7
+    - 8
+    - 3
+    - 3
+    - 1
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - new
 - num: 19
   status: published
   chapters:
@@ -467,6 +865,30 @@ questions:
   law_note: null
   _key_choice: 海水が滞留している暗きょの内部における作業は、第1種酸素欠乏危険作業である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 5
+    - 2
+    - 4
+    similar:
+    - 5
+    - 7
+    - 5
+    - 2
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ''
+    - ans_b
 - num: 20
   status: published
   chapters:
@@ -493,3 +915,27 @@ questions:
   law_note: null
   _key_choice: 鉛業務を行う屋内作業場の床等については、鉛等による汚染を除去するため、毎週1回以上、真空掃除機を用いて、又は水洗によって掃除しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    similar:
+    - 3
+    - 3
+    - 6
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new

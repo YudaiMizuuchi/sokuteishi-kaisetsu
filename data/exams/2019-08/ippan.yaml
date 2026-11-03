@@ -24,6 +24,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 4
+    - 7
+    - 3
+    similar:
+    - 3
+    - 5
+    - 4
+    - 7
+    - 3
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -48,6 +72,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 腰部保護ベルトを、全員一律に使用するように指導する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ans_new
+    - ''
+    - new
 - num: 3
   status: published
   chapters:
@@ -69,6 +117,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トルエンは、代謝され、尿中にトリクロロ酢酸として排泄される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 4
+    - 3
+    - 1
+    similar:
+    - 4
+    - 7
+    - 4
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -93,6 +165,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: フッ化水素は、細胞内の呼吸酵素の障害による呼吸麻痺などを生じる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 6
+    - 7
+    - 1
+    - 3
+    similar:
+    - 3
+    - 6
+    - 7
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 5
   status: published
   chapters:
@@ -120,6 +216,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -141,6 +244,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 遊離けい酸は、胸膜プラークの主要な原因である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 9
+    - 7
+    - 4
+    - 2
+    similar:
+    - 4
+    - 9
+    - 9
+    - 5
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - ''
 - num: 7
   status: published
   chapters:
@@ -165,6 +292,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 金属熱は、鉄、アルミニウムなどの金属を溶融する作業などに長時間従事した際に、高温により体温調節機能が障害を受けたことにより発生する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 6
+    - 9
+    - 5
+    similar:
+    - 5
+    - 3
+    - 6
+    - 9
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 8
   status: published
   chapters:
@@ -186,6 +337,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酢酸メチルは、骨髄の造血細胞に障害を起こす。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 9
+    - 4
+    - 2
+    - 1
+    similar:
+    - 3
+    - 9
+    - 5
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 9
   status: published
   chapters:
@@ -210,6 +385,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 温度感覚を左右する環境要素は、気温、湿度、気圧及びふく射熱であり、この四要素によって温熱環境が定まる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 1
+    - 1
+    - 6
+    similar:
+    - 3
+    - 6
+    - 4
+    - 1
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - new
+    - odo
 - num: 10
   status: published
   chapters:
@@ -231,6 +430,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動周波数が4,000 Hz以上の振動で発生しやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 5
+    - 5
+    - 6
+    similar:
+    - 3
+    - 3
+    - 5
+    - 5
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -255,6 +478,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 等価騒音レベルは、変動する騒音のある時間範囲について、1,000、2,000、4,000、8,000 Hzの音圧レベルの平均値として表した量である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 3
+    - 2
+    - 8
+    similar:
+    - 4
+    - 6
+    - 3
+    - 2
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -276,6 +523,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化鉱や魚油を入れてある貯蔵施設の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 7
+    - 12
+    - 7
+    similar:
+    - 4
+    - 6
+    - 7
+    - 12
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -300,6 +571,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: マイクロ波は、紫外線より波長が短い電磁波で、組織壊死を起こすことがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 4
+    - 4
+    - 4
+    similar:
+    - 1
+    - 5
+    - 5
+    - 4
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -324,6 +619,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 生殖器障害(無精子症、不妊)は、確率的影響であり、かつ、晩発障害である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 1
+    - 4
+    - 4
+    similar:
+    - 3
+    - 9
+    - 1
+    - 4
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 15
   status: published
   chapters:
@@ -345,6 +664,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤の蒸気は、空気より密度が小さいため、拡散しやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 4
+    - 2
+    - 4
+    similar:
+    - 3
+    - 4
+    - 4
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -366,6 +709,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 7
+    - 3
+    - 8
+    similar:
+    - 3
+    - 2
+    - 7
+    - 3
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_b
+    - odo
 - num: 17
   status: published
   chapters:
@@ -390,6 +757,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 耳栓の2つのタイプのうち、1種に分類されるものは主として高音を遮音し、会話程度の低音を比較的通すタイプである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 4
+    similar:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - ''
+    - ans_b
+    - odo
 - num: 18
   status: published
   chapters:
@@ -414,6 +805,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 2
+    - 2
+    - 3
+    similar:
+    - 7
+    - 3
+    - 2
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_b
 - num: 19
   status: published
   chapters:
@@ -435,6 +850,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ノロウイルスは、ベロ毒素を産生するウイルスで、腹痛や出血を伴う水様性の下痢などを起こす。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 4
+    - 4
+    similar:
+    - 2
+    - 3
+    - 3
+    - 4
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 20
   status: published
   chapters:
@@ -456,3 +895,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 許容濃度は、経皮吸収を考慮して定められている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 1
+    - 11
+    - 3
+    similar:
+    - 6
+    - 5
+    - 3
+    - 11
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo

@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: ピリジン-ピラゾロン法による環境空気中のシアン化水素濃度の測定に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -27,10 +29,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - ans_new
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-052
   rank: null
   stem: '吸光光度分析法における検量線に関する次の記述の㋑と㋺の［　］に入る語句の組合せとして、正しいものは下のうちどれか。
 
@@ -53,10 +81,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-038
   rank: null
   stem: 環境空気（25℃、1気圧）中のフッ化水素の濃度を吸光光度分析法で測定した。捕集液に1.0 L・min⁻¹の流量で試料空気を10分間吸引して得られた試料液10 mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.100であった。フッ化水素の濃度が、4.58×10⁻⁵ mol・L⁻¹の標準溶液10 mLにつき試料液と同様の定量操作を行って測定した吸光度は0.320であった。フッ化水素の環境空気中濃度（体積分率）として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は100%とする。
   choices:
@@ -85,10 +122,19 @@ questions:
     よって（3）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 吸光光度分析法で測定する場合に、ジアゾカップリング反応による発色を利用する物質は次のうちどれか。
   choices:
@@ -109,10 +155,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-051
   rank: null
   stem: ガスクロマトグラフ分析法による環境空気中のベンゼン濃度の測定に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -133,10 +188,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   stem: ガスクロマトグラフ分析法に用いられる水素炎イオン化検出器(FID)に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -157,10 +238,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - new
+    - ans_new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-054
   rank: null
   stem: 'ガスクロマトグラフ分析法に用いられる固定相液体に関する次の記述の㋑、㋺、㋩の［　］に入る語句の組合せとして、適切なものは下のうちどれか。
 
@@ -184,10 +291,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 特定化学物質Ⓐとそのガスクロマトグラフ分析法に用いる検出器Ⓑとの次の組合せのうち、誤っているものはどれか。
   choices:
@@ -208,10 +324,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-hplc
+  traps:
+  - sl-tokka-other-hplc
   rank: null
   stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -233,10 +375,19 @@ questions:
   figures: []
   law_note: null
   minor_note: メタノール／水（1:1）の移動相が、アセトニトリル／水（1:1）より粘性が高い、という点は、プロジェクトの教科書で確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-039
   rank: null
   stem: 環境空気(25℃、1気圧)中のトルエンジイソシアネート(TDI)の濃度を測定するため、1.0L·min⁻¹で10分間試料空気を2-PP含浸ろ紙に通気した。得られたTDI-2-PP誘導体を抽出液4.0mLで抽出し試料液とした。高速液体クロマトグラフで分析した結果、試料液中のこの誘導体の濃度は0.16μg·mL⁻¹であった。環境空気中のTDI濃度として、正しい値に最も近いものは次のうちどれか。ただし、TDI-2-PP誘導体のモル質量は501g·mol⁻¹、ろ紙への捕集率は100%とし、TDIは全て2,4-TDIの形で存在しているものとする。
   choices:
@@ -265,10 +416,19 @@ questions:
     よって（3）の3 ppbです。同じ型の問題は、令和7年度第1回にも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: コールタールの分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -283,10 +443,36 @@ questions:
   explanation: null
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-055
   rank: null
   stem: 特定化学物質用検知管Ⓐと、それに利用されている反応Ⓑとの次の組合せのうち、誤っているものはどれか。
   choices:
@@ -306,10 +492,19 @@ questions:
     シアン化水素用検知管は、塩化水銀(Ⅱ)との反応で塩化水素を生じ、ホルムアルデヒド用検知管は、リン酸ヒドロキシルアミンとの反応でリン酸を遊離します。硫化水素用検知管は、酢酸鉛との反応で硫化鉛を生成し、スチレン用検知管は、発煙硫酸による重合を利用します。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
   choices:
@@ -336,10 +531,19 @@ questions:
   - file: 2015-08-tokka-13-fig.png
     alt: Ⓐ（名称）とⒷ（構造式）の2列の表。1＝クロロメチルメチルエーテル、Ⓑは H₃C-O-CH₂Cl。2＝β-プロピオラクトン、Ⓑは H₃C-CH-C=O で、CH と C=O が下側の O で結ばれた3員環。3＝アクリロニトリル、Ⓑは H₂C=CH-CN。4＝α-ナフチルアミン、Ⓑはナフタレン環の一方の環の上端の炭素に NH₂ が結合。5＝p-ニトロクロロベンゼン、Ⓑはベンゼン環の両端に Cl と NO₂ が結合。
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の化合物のうち、1気圧における沸点が最も低いものはどれか。
   choices:
@@ -354,10 +558,19 @@ questions:
   explanation: 1気圧での沸点は、**臭化メチル**が約4℃、エチレンオキシドが約11℃、フッ化水素が約20℃、アクリロニトリルが約77℃、ベンゼンが約80℃です。最も低いのは、臭化メチルで、（4）です。（沸点は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-056
   rank: null
   stem: '体積2 Lの3個の真空の容器に、エチレンイミン（A）、シアン化水素（B）、ヨウ化メチル（C）をそれぞれ下表に示す質量ずつ別々に入れて密封して蒸発させた。定常状態になったときの各容器中のそれぞれの物質の気体の圧力（P<sub>A</sub>、P<sub>B</sub>、P<sub>C</sub>）を大きい順に並べたものは下のうちどれか。ただし、それぞれの物質のモル質量及び飽和蒸気圧は下表のとおりとし、温度は20℃とする。
 
@@ -393,10 +606,19 @@ questions:
     圧力の大きい順は P_B ＞ P_A ＞ P_C で、（3）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-043
   rank: null
   stem: 特定化学物質の分析に用いられる次の標準液のうち、分析の都度、標定する必要のあるものはどれか。
   choices:
@@ -411,10 +633,19 @@ questions:
   explanation: '**次亜塩素酸ナトリウム**溶液は、**不安定**で、時間とともに有効塩素濃度が下がるので、分析のつど、ヨウ素滴定で**標定**する必要があります。よって（3）です。同じ問題は、令和4年度第1回、令和元年度第1回にも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-tokka-044
   rank: null
   stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -435,10 +666,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    similar:
+    - 3
+    - 3
+    - 1
+    - 3
+    - 2
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_hi
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-057
   rank: null
   stem: '固体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q(L)を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。ただし、単位は次のとおりとする。
 
@@ -475,10 +732,19 @@ questions:
     よって（4）です。同様の問題は、令和8年度第1回などにも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-058
   rank: null
   stem: ガスクロマトグラフ分析法による定量下限濃度を求めるため、管理濃度の1/10の濃度の空気を2.0L捕集した試料に相当する溶液を5回繰り返し測定したところ、気中濃度として平均値0.30ppm、標準偏差0.02ppmであった。この測定法の定量下限濃度に相当する気中濃度として、適切な値は次のうちどれか。
   choices:
@@ -499,10 +765,19 @@ questions:
     よって（4）です。同様の問題は、令和7年度第1回などにも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-045
   rank: null
   stem: 次の測定対象物質のうち、相補型ろ過捕集法による捕集が適切なものはどれか。
   choices:
@@ -520,3 +795,10 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new

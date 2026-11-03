@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 衛生管理者のうち1人を労働衛生コンサルタントである者としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ''
+    - ans_new
+    - new
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: リスクアセスメント対象物を製造し、又は取り扱う事業場においては、常時使用する労働者数が50人未満である場合を除き、化学物質管理者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 健康診断を受診した労働者の異常の所見の有無にかかわらず、事業場において健康診断を実施した日から3か月以内に、当該労働者の健康を保持するために必要な措置について、医師から意見聴取を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 電動ファン付き呼吸用保護具は、厚生労働大臣の登録を受けた者が行う個別検定を受けなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -123,6 +219,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業主任者の選任は、作業主任者を選任すべき事由が発生した日から14日以内に行い、選任したときは、遅滞なく、所轄労働基準監督署長に報告しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - ''
 - num: 6
   status: published
   chapters:
@@ -147,6 +267,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射性物質取扱作業室における放射性物質による表面汚染の測定は、作業環境測定士でなければ行うことができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 7
   status: published
   chapters:
@@ -175,6 +319,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -199,6 +350,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものについては、2か月以内ごとに1回、定期に、浮遊粉じん量を測定し、その都度、所定の事項を記録して、これを3年間保存しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 11
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - odo
 - num: 9
   status: published
   chapters:
@@ -226,6 +401,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤を除く特定化学物質の濃度の測定のうち、個人サンプリング法の対象となるのは、管理濃度が厚生労働大臣が定める値以下のものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 10
   status: published
   chapters:
@@ -251,6 +450,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質のC測定で試料空気を採取する場合、採取の方法にかかわらず、一人の労働者における試料空気の採取時間は、2時間以上でなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - ''
 - num: 11
   status: published
   chapters:
@@ -291,6 +514,13 @@ questions:
   - ㋺
   - ㋩
   - ㋥
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 12
   status: published
   chapters:
@@ -316,6 +546,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第1類物質の中には、製造等が禁止される有害物等がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 5
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -341,6 +595,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第3類物質を取り扱う業務に常時従事する労働者に対しては、試験研究のため取り扱うものを含め、屋外で取り扱う場合であっても、医師による特別の項目についての健康診断を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 9
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - new
+    - odo
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -377,6 +655,13 @@ questions:
   - 第1種有機溶剤等
   - 第2種有機溶剤等
   - 第3種有機溶剤等
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -402,6 +687,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第1種有機溶剤等が付着している物の乾燥の業務を行う屋内作業場について、定期の作業環境測定を行ったときは、常時使用する労働者数及び有機溶剤業務に常時従事する労働者数にかかわらず、遅滞なく、その結果及び評価の記録を所轄労働基準監督署長に報告しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - ans_new
+    - new
 - num: 16
   status: published
   chapters:
@@ -426,6 +735,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1日における外部被ばくによる線量が1 cm線量当量について1 mSvを超えるおそれのある労働者については、外部被ばくによる線量当量の測定結果を毎日記録して、これを30年間保存しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - ''
+    - new
 - num: 17
   status: published
   chapters:
@@ -451,6 +784,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令に基づき設置された局所排気装置を分解して修理を行ったときは、所定の事項について点検を行い、所定の事項を記録して、これを7年間保存しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 18
   status: published
   chapters:
@@ -479,6 +836,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石綿等を保管するときは、当該石綿等の粉じんが発散しないような措置を講じ、石綿等を常時取り扱う作業場以外の場所に保管しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 19
   status: published
   chapters:
@@ -504,6 +885,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 労働者が酸素欠乏症等にかかったときは、休業の日数が4日に満たないときを除き、遅滞なく、その旨を当該作業を行う場所を管轄する労働基準監督署長に報告しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ''
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -529,3 +934,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉛業務を行う屋内作業場については、業務の種類に応じ、6か月以内ごと又は1年以内ごとに1回、定期に、空気中における鉛の濃度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 4
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 6
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - new

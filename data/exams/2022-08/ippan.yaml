@@ -30,6 +30,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 災害の発生可能性と重篤度を組み合わせた概念であるリスクの見積りは、双方を一定の尺度により数値化した後、それらを加算ではなく乗算して行う必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 7
+    - 3
+    - 2
+    similar:
+    - 1
+    - 2
+    - 7
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - odo
+    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -54,6 +78,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: メンタルヘルスケアは、「セルフケア」、「ラインによるケア」、「家族によるケア」及び「事業場外資源によるケア」の「4つのケア」が継続的かつ計画的に行われることが重要である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -78,6 +126,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トリクロロエチレンの生物学的モニタリングの指標として、尿中のフェニルグリオキシル酸の濃度がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 4
+    - 2
+    - 3
+    similar:
+    - 1
+    - 2
+    - 9
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 4
   status: published
   chapters:
@@ -102,6 +174,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: マンガンは、主として腎臓皮質に蓄積し、腎障害を起こす。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 5
+    - 1
+    - 7
+    - 1
+    similar:
+    - 2
+    - 5
+    - 2
+    - 7
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ''
+    - odo
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -128,6 +224,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: Aベンゼン B肺がん
+  freq:
+    kind: question
+    denom: 23
+    count: 8
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -152,6 +255,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粒子状物質の沈降速度は、粒径に比例する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 9
+    - 7
+    - 2
+    similar:
+    - 1
+    - 1
+    - 9
+    - 9
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - odo
+    - ''
 - num: 7
   status: published
   chapters:
@@ -176,6 +303,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: カドミウムでは、接触性皮膚炎や鼻中隔穿孔がみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 1
+    - 6
+    - 2
+    similar:
+    - 5
+    - 2
+    - 1
+    - 6
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - new
+    - odo
+    - ans_new
 - num: 8
   status: published
   chapters:
@@ -200,6 +351,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: メタノールによる慢性中毒では、微細動脈瘤などの網膜の変化が起こる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 10
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - ''
+    - ''
 - num: 9
   status: published
   chapters:
@@ -227,6 +402,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 高温環境下での熱けいれんは、水分の摂取不足によって起こる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 2
+    - 5
+    - 1
+    similar:
+    - 4
+    - 1
+    - 2
+    - 6
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ''
+    - odo
+    - ans_new
 - num: 10
   status: published
   chapters:
@@ -254,6 +453,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手指のしびれなど末梢循環障害が発生するおそれがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 8
+    - 5
+    - 6
+    similar:
+    - 6
+    - 3
+    - 8
+    - 5
+    - 6
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 11
   status: published
   chapters:
@@ -278,6 +501,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一連続作業時間が1時間を超えないようにし、次の連続作業までの間に5分間の作業休止時間を設け、かつ、一連続作業時間内において1回~2回程度の小休止を設けている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 5
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 6
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -302,6 +549,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酸素欠乏症発生時の救助活動では、救出作業に従事する労働者に電動ファン付き呼吸用保護具、酸素呼吸器又は送気マスクを使用させる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 12
+    - 2
+    - 7
+    similar:
+    - 3
+    - 2
+    - 12
+    - 2
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -338,6 +609,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ハ-ロ-イ-ニ
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -365,6 +643,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 遺伝的影響には、影響を起こす被ばく線量に一定のしきい値がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 1
+    - 2
+    - 1
+    - 3
+    similar:
+    - 6
+    - 1
+    - 2
+    - 1
+    - 3
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -389,6 +691,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤の蒸気は、空気より密度が小さいため、拡散しやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 6
+    - 2
+    - 4
+    similar:
+    - 2
+    - 1
+    - 6
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - odo
+    - ans_new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -413,6 +739,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ドラフトチェンバー型フードは、発生源からの飛散速度を利用して有害物を捕捉するもので、外付け式フードに分類される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 2
+    - 1
+    - 3
+    similar:
+    - 5
+    - 5
+    - 7
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 17
   status: published
   chapters:
@@ -437,6 +787,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 性能区分DS2及びRS2の防じんマスクでは、RS2が使い捨て式、DS2が取替え式の防じんマスクである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 4
+    - 3
+    - 1
+    similar:
+    - 1
+    - 3
+    - 4
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 18
   status: published
   chapters:
@@ -461,6 +835,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一酸化炭素用防毒マスクは、吸収缶に充填された活性炭により、一酸化炭素を吸着して取り除く。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 7
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 7
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ''
+    - ans_new
+    - odo
 - num: 19
   status: published
   chapters:
@@ -488,6 +886,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: サルモネラ菌は、腸内で毒素(エンテロトキシン)を産生し、毒素型食中毒を引き起こす。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 1
+    similar:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - new
+    - odo
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -512,3 +934,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 4
+    - 3
+    - 1
+    - 6
+    similar:
+    - 11
+    - 4
+    - 3
+    - 3
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo

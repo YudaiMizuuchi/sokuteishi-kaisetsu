@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-000
   rank: null
   summary: null
   stem: 次の有機溶剤のうち、20 ℃ における水への溶解度が最も大きいものはどれか。
@@ -23,10 +25,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 次の有機溶剤のうち、25 ℃における飽和蒸気圧が最も小さいものはどれか。
@@ -43,10 +54,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-032
   rank: null
   summary: null
   stem: 次の有機溶剤のうち、極性が最も高いものはどれか。
@@ -63,10 +83,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-024
   rank: null
   summary: null
   stem: 有機溶剤の捕集に関する次の記述のうち、誤っているものはどれか。
@@ -89,10 +118,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 5
+    - 2
+    - 3
+    similar:
+    - 2
+    - 2
+    - 5
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 固体捕集法-ガスクロマトグラフ分析法に関する次の記述の㋑から㋩のに入る語句の組合せとして、不適当なものは下のうちどれか。「作業環境空気中の［㋑］は［㋺］に捕集し、［㋩］で脱着して得た試料液を、ガスクロマトグラフに導入して定量する。」
@@ -116,10 +171,19 @@ questions:
   law_note: null
   _review: true
   minor_note: 活性炭管に捕集した溶剤を精製水で脱着できない、という点は、ガイドブック5では、組合せの表で直接確認していません。一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 有機溶剤の捕集に関する次の記述のうち、誤っているものはどれか。
@@ -142,10 +206,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 1
+    similar:
+    - 2
+    - 2
+    - 3
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 検知管法に関する次の記述のうち、誤っているものはどれか。
@@ -166,10 +256,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 検知管のハンドルを一気に引く、という点は、プロジェクトの教科書で記述を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 4
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - odo
+    - new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ポリエチレングリコール 20 M を固定相液体としたカラムを用いるガスクロマトグラフ分析において、トルエンより保持時間の長い有機溶剤は、次のうちどれか。
@@ -186,10 +302,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-006
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法のキャリアガスに関する次の記述のうち、誤っているものはどれか。
@@ -212,10 +337,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 3
+    - 3
+    - 5
+    - 1
+    similar:
+    - 3
+    - 3
+    - 8
+    - 5
+    - 1
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に用いる水素炎イオン化検出器（FID）に関する次の記述のうち、誤っているものはどれか。
@@ -238,10 +389,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 5
+    - 4
+    - 1
+    - 2
+    similar:
+    - 2
+    - 5
+    - 4
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: 充塡カラムとキャピラリカラムの比較に関する次の記述のうち、誤っているものはどれか。
@@ -261,10 +438,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 1
+    - 1
+    - 3
+    - 2
+    similar:
+    - 3
+    - 1
+    - 1
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
@@ -284,10 +487,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
@@ -308,10 +537,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 質量分析計に四重極型が広く使われている、という点は、プロジェクトの教科書で記述を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 1
+    - 4
+    - 4
+    - 1
+    similar:
+    - 4
+    - 1
+    - 4
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-031
   rank: null
   summary: null
   stem: 成分 A、B の保持時間に相当するガスクロマトグラム上の長さがそれぞれ9 cm、12 cmで、ピーク幅がそれぞれ 10 mm、14 mmであるとき、使用したカラムの成分 A、B のピークの分離度として、正しい値は次のうちどれか。
@@ -340,10 +595,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-037
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -363,10 +627,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 2
+    - 1
+    - 4
+    - 2
+    similar:
+    - 5
+    - 2
+    - 1
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - new
+    - odo
+    - odo
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   summary: null
   stem: 吸光光度分析法で用いる分光光度計に関する次の記述のうち、誤っているものはどれか。
@@ -389,10 +679,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 5
+    - 1
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - odo
+    - ans_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -412,10 +728,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   summary: null
   stem: ある有機溶剤5.00 mLを精製水で 100 mLとし、この溶液1.00 mLをはかりとり、発色させた上で、更に精製水で100 mLとした。この溶液を波長420 nm で光路長 1.00 cmのセルを用いて吸光度を測定したところ 0.600 となった。発色した物質のモル吸光係数の値に最も近いものは次のうちどれか。ただし、有機溶剤の密度は 0.900 g･cm⁻³（25 ℃）、モル質量は88.1 g･mol⁻¹とする。
@@ -444,10 +786,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-034
   rank: null
   summary: null
   stem: トルエンを含む塗料が入ったスプレーガンを持ちながら、製品の周辺を移動して行う吹付塗装作業が1名の作業者により行われていた。作業者に能動型試料採取器（アクティブサンプラー）を装着し、15 分間のサンプリングであるD 測定を行った。採取器を回収し、捕集されたトルエンを溶媒 2.0 mLで脱着してガスクロマトグラフで分析したところ、分析結果としてトルエン76.2 µg･mL⁻¹ が得られた。このD測定値として正しい値に最も近いものは次のうちどれか。ただし、吸引流量は 0.10 L･min⁻¹、トルエンのモル質量は 92.1 g･mol⁻¹、脱着率は 90 % とする。また、気温は 25 ℃、大気圧は1気圧とする。
@@ -478,10 +829,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-010
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に用いる検量線に関する次の記述のうち、誤っているものはどれか。
@@ -501,3 +861,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 4
+    - 4
+    - 3
+    - 3
+    similar:
+    - 5
+    - 4
+    - 4
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi

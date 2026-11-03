@@ -33,6 +33,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 190 mg・m−3
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -57,6 +64,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間などを考慮する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 4
+    - 3
+    - 7
+    similar:
+    - 5
+    - 5
+    - 4
+    - 8
+    - 7
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -81,6 +112,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 2年間にわたって第1管理区分であった単位作業場所では、測定点の数を5未満とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 4
+    - 5
+    - 2
+    similar:
+    - 3
+    - 1
+    - 5
+    - 5
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 4
   status: published
   chapters:
@@ -105,6 +160,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 相対濃度指示方法によってB測定を行った場合に用いる質量濃度変換係数は、A測定とは別に求めなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 8
+    similar:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ''
+    - ans_b
+    - odo
 - num: 5
   status: published
   chapters:
@@ -129,6 +208,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: エチレンオキシド
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -153,6 +239,30 @@ questions:
   figures: []
   law_note: 令和5年10月1日以降、個人サンプリング法の対象に、粉じん（遊離けい酸の含有率が極めて高いものを除く）、アクリロニトリル等15物質の特定化学物質などが追加されました（令和5年厚生労働省告示第174号）。現行法では、選択肢の他の物質が対象となる場合があります。
   _key_choice: ウレタン樹脂を製造する工程において、トリレンジイソシアネートの投入作業を行う単位作業場所におけるトリレンジイソシアネートの測定
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤誤誤誤
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 7
   status: published
   chapters:
@@ -177,6 +287,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 個人サンプラーを装着する位置は、労働者の前面であれば腰部でも構わない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 8
   status: published
   chapters:
@@ -201,6 +335,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: テトラヒドロフランは、水に難溶である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - new
+    - new
+    - ans_new
 - num: 9
   status: published
   chapters:
@@ -228,6 +386,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -252,6 +417,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 面積式流量計を捕集材と吸引ポンプの間に接続した場合、捕集材の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 3
+    - 3
+    - 8
+    similar:
+    - 1
+    - 4
+    - 3
+    - 4
+    - 10
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -276,6 +465,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、活性炭に比べて有機溶剤蒸気に対する単位重量当たりの捕集容量が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 3
+    - 5
+    - 1
+    - 5
+    similar:
+    - 5
+    - 3
+    - 5
+    - 3
+    - 5
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -300,6 +513,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じん中に含まれる遊離けい酸の分析に用いるサンプルの捕集には、オープンフェース型ホルダーを用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 10
+    - 4
+    - 9
+    - 3
+    similar:
+    - 5
+    - 10
+    - 4
+    - 9
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -324,6 +561,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 小型ガス吸収管による有機溶剤など揮発性物質の捕集では、捕集液の温度が高いほど捕集率は高くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 9
+    - 2
+    - 3
+    - 2
+    similar:
+    - 3
+    - 9
+    - 2
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -348,6 +609,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 4
+    - 9
+    similar:
+    - 2
+    - 3
+    - 7
+    - 4
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 15
   status: published
   chapters:
@@ -372,6 +657,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤は、妨害物質が共存しない場合であっても、検知管で測定してはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 2
+    - 1
+    - 2
+    similar:
+    - 5
+    - 2
+    - 10
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - ''
 - num: 16
   status: published
   chapters:
@@ -402,6 +711,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -433,6 +749,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 10.4 kBq
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -458,6 +781,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95%上限値はμ + 3σである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 11
+    - 5
+    - 10
+    - 3
+    similar:
+    - 7
+    - 11
+    - 9
+    - 10
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 19
   status: published
   chapters:
@@ -482,6 +829,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによる粒子状物質の捕集では、流量が大きいほど捕集率は低くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 10
+    - 5
+    - 3
+    similar:
+    - 5
+    - 6
+    - 10
+    - 5
+    - 3
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 20
   status: published
   chapters:
@@ -506,3 +877,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値が管理濃度より小さければ、B測定の測定値にかかわらず、第3管理区分になることはない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 6
+    - 1
+    - 4
+    - 1
+    similar:
+    - 7
+    - 6
+    - 1
+    - 6
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new

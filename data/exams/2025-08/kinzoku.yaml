@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-115
   rank: null
   summary: null
   stem: 金属元素の性質に関する次の記述のうち、誤っているものはどれか。
@@ -26,10 +28,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    similar:
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - new
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 金属の化学的性質に関する次の記述のうち、誤っているものはどれか。
@@ -49,10 +77,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 次の合金の主たる成分ⒶとⒷとの組合せとして、誤っているものはどれか。
@@ -86,10 +123,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 作業環境空気中の金属の分析法Ⓐとその分析原理の基礎となる事象Ⓑとの次の組合せのうち、誤っているものはどれか。
@@ -114,10 +160,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-aas
+  traps:
+  - sl-kinzoku-other-aas
   rank: null
   summary: null
   stem: 溶媒抽出-原子吸光分析法に用いられるメチルイソブチルケトン（MIBK）に関する次の記述のうち、誤っているものはどれか。
@@ -140,10 +195,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 3
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: クロムの吸光光度分析に使用するジフェニルカルバジドに関する次の記述のうち、誤っているものはどれか。
@@ -166,10 +247,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 4
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 4
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - odo
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-kinzoku-other-lod
   rank: null
   summary: null
   stem: 物質 A の濃度が 3.0×10⁻⁵mol･L⁻¹の溶液を光路長 1.0 cmの試料セルに入れ、波長 550 nmにおける吸光度を測定したところ、0.24であった。この溶液を光路長 2.0 cmの試料セルに入れ、波長 550 nmにおける吸光度を測定した。このときの吸光度として、正しい値は次のうちどれか。
@@ -195,10 +302,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 原子吸光分析に関する用語ⒶとⒷとの組合せとして、誤っているものは次のうちどれか。
@@ -220,10 +336,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-icp
+  traps:
+  - sl-kinzoku-other-icp
   rank: null
   summary: null
   stem: 誘導結合プラズマ発光分析法（ICP-AES）に関する次の記述のうち、誤っているものはどれか。
@@ -246,10 +371,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-fl
+  traps:
+  - sl-kinzoku-other-fl
   rank: null
   summary: null
   stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -272,10 +423,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-fl
+  traps:
+  - sl-kinzoku-other-fl
   rank: null
   summary: null
   stem: ベリリウムの蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -298,10 +475,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 3
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 作業環境測定におけるカドミウムの分析に関する次の記述のうち、誤っているものはどれか。
@@ -318,10 +521,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - new
+    - new
+    - new
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-100
   rank: null
   summary: null
   stem: 原子吸光分析法によるクロム酸及びその塩の分析に関する次の記述のうち、誤っているものはどれか。
@@ -349,10 +578,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - new
+    - ans_b
+    - new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-101
   rank: null
   summary: null
   stem: N-ベンゾイル-N-フェニルヒドロキシルアミン（NBPHA）を用いる五酸化バナジウムの吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -379,10 +634,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 3
+    similar:
+    - 4
+    - 2
+    - 1
+    - 1
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - new
+    - new
+    - odo
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-icp
+  traps:
+  - sl-kinzoku-other-icp
   rank: null
   summary: null
   stem: 誘導結合プラズマ質量分析法（ICP-MS）によるマンガン及びその化合物の分析に関する次の記述のうち、誤っているものはどれか。
@@ -399,10 +680,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 水素化物発生原子吸光分析法によるヒ素の分析に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「石英繊維フィルターに捕集した試料を硝酸と硫酸の混酸で処理し、溶液化した。その溶液に1％ヨウ化カリウム溶液と［㋑］溶液を加え30 分間静置した。この溶液を反応フラスコに移し亜鉛末懸濁液を加え試料溶液中のAs（Ⅲ）イオンを還元し［㋺］を発生させた。［㋺］をアルゴンガスとともに水素炎に送り込み 193.70 nmの［㋩］を測定した。」
@@ -437,10 +744,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-082
   rank: null
   summary: null
   stem: 液体捕集法による水銀の測定法に関する次の記述のうち、誤っているものはどれか。
@@ -463,10 +779,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 7
+    - 2
+    - 1
+    - 4
+    - 2
+    similar:
+    - 8
+    - 2
+    - 1
+    - 4
+    - 3
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_hi
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 電気加熱式原子吸光分析法における鉛の測定に関する次の記述のうち、誤っているものはどれか。
@@ -489,10 +831,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-kinzoku-other-lod
   rank: null
   summary: null
   stem: 2名の作業者がコバルト化合物を取り扱う均等ばく露作業を行っている単位作業場所において、個人サンプリング法による測定を行うこととした。2名の作業者にそれぞれ個人サンプラーを装着し、2.5 L･min⁻¹の一定流量で、2時間のサンプリングを3回繰り返すC 測定で空気中のコバルト化合物をろ紙に捕集した。そのろ紙のうちの一つについて酸抽出などの処理を行い10 mLの試料液を得て、原子吸光分析法により濃度を測定したところ、コバルト濃度は 0.48µg･mL⁻¹であった。このときのC測定値として、正しい値に最も近いものは次のうちどれか。
@@ -519,10 +887,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-088
   rank: null
   summary: null
   stem: 三酸化二ヒ素（無水物）19.8 mg を溶解した水溶液 1 L 中のヒ素イオンの濃度として、正しい値に最も近いものは次のうちどれか。ただし、酸素の原子量は 16.0、ヒ素の原子量は 74.9 とする。
@@ -545,3 +922,10 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi

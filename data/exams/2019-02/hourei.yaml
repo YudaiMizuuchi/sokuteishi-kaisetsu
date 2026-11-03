@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、常時300人以上の労働者を使用する事業場においては、その業種に関係なく、総括安全衛生管理者を選任しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 13
+    - 2
+    - 5
+    similar:
+    - 7
+    - 3
+    - 13
+    - 2
+    - 5
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -50,6 +74,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、雇入時の健康診断項目のうち、貧血検査、肝機能検査等一定の検査項目については、厚生労働大臣が定める基準に基づき、医師が必要でないと認めるときは、省略することができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 7
+    - 5
+    - 8
+    - 7
+    similar:
+    - 10
+    - 7
+    - 5
+    - 8
+    - 7
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   law_note: null
   _key_choice: 有機溶剤業務に労働者を就かせるときは、当該労働者に対し、原則として、法定の科目について特別の教育を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 10
+    - 5
+    - 3
+    - 11
+    similar:
+    - 5
+    - 11
+    - 5
+    - 3
+    - 11
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -125,6 +204,30 @@ questions:
   law_note: null
   _key_choice: 多量のドライアイスを取り扱う業務を行い、著しく寒冷な屋内作業場については、半月以内ごとに1回、定期に、気温、湿度及びふく射熱を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 12
+    - 8
+    - 3
+    - 3
+    - 5
+    similar:
+    - 12
+    - 8
+    - 4
+    - 3
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -147,6 +250,13 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -169,6 +279,13 @@ questions:
   law_note: null
   _key_choice: シアン化水素用防毒マスク
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -194,6 +311,30 @@ questions:
   law_note: null
   _key_choice: 著しい騒音を発する屋内作業場
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 9
   status: published
   chapters:
@@ -220,6 +361,30 @@ questions:
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみにより測定することができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 4
+    - 5
+    - 9
+    - 1
+    similar:
+    - 11
+    - 5
+    - 7
+    - 9
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - new
 - num: 10
   status: published
   chapters:
@@ -245,6 +410,30 @@ questions:
   law_note: null
   _key_choice: 2種類以上の特定化学物質の混合物を取り扱う単位作業場所にあっては、測定点ごとに個別の特定化学物質の測定値を所定の式により計算して得た換算値を、その測定点における測定値とする。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 7
+    - 1
+    - 9
+    similar:
+    - 3
+    - 5
+    - 8
+    - 1
+    - 9
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -267,6 +456,30 @@ questions:
   law_note: null
   _key_choice: 日常行う清掃のほか、大掃除を、1年以内ごとに1回、定期に、統一的に行っている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 誤誤誤正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ''
+    - ans_new
+    - new
 - num: 12
   status: published
   chapters:
@@ -293,6 +506,30 @@ questions:
   law_note: null
   _key_choice: 硫化水素は、第3類物質である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 2
+    - 4
+    - 1
+    similar:
+    - 6
+    - 1
+    - 2
+    - 5
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ''
+    - odo
+    - ans_new
 - num: 13
   status: published
   chapters:
@@ -319,6 +556,30 @@ questions:
   law_note: null
   _key_choice: 第1類物質であるジクロルベンジジンを取り扱う業務に常時従事する労働者に対し、6か月以内ごとに1回、定期に、所定の項目について医師による健康診断を行い、その結果に基づき、特定化学物質健康診断個人票を作成し、これを5年間保存するものとされている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 3
+    - 2
+    - 3
+    similar:
+    - 10
+    - 2
+    - 3
+    - 2
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ''
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -354,6 +615,13 @@ questions:
   law_note: null
   _key_choice: ロ ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -377,6 +645,30 @@ questions:
   law_note: null
   _key_choice: 屋内作業場において、キシレンを用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 6
+    - 3
+    - 9
+    - 1
+    similar:
+    - 12
+    - 6
+    - 3
+    - 9
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - new
 - num: 16
   status: published
   chapters:
@@ -399,6 +691,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、放射線業務従事者の皮膚に受ける等価線量については、1年間につき150 mSvを超えないようにしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 5
+    - 4
+    - 1
+    - 2
+    similar:
+    - 10
+    - 6
+    - 4
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -425,6 +741,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業を行う屋内作業場については、粉じんの発散を防止するため、全体換気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 10
+    - 8
+    - 7
+    similar:
+    - 4
+    - 8
+    - 10
+    - 9
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -451,6 +791,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、室における二酸化炭素の含有率を1,000 ppm以下としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 7
+    - 5
+    - 3
+    - 7
+    similar:
+    - 7
+    - 8
+    - 7
+    - 3
+    - 7
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -477,6 +841,30 @@ questions:
   law_note: null
   _key_choice: 第二鉄塩類を含有している地層に接する井戸の内部における作業は、第2種酸素欠乏危険作業である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 6
+    - 8
+    - 5
+    similar:
+    - 3
+    - 5
+    - 6
+    - 8
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 20
   status: published
   chapters:
@@ -502,3 +890,27 @@ questions:
   law_note: null
   _key_choice: 常時粉じん作業に従事する労働者で、じん肺管理区分が管理2であるものについては、3年以内ごとに1回、定期的に、じん肺健康診断を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 2
+    - 10
+    - 4
+    similar:
+    - 1
+    - 3
+    - 2
+    - 11
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - ans_new
+    - odo
+    - odo

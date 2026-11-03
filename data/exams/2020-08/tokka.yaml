@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 吸光光度分析法による環境空気中のフッ化水素の分析に関する次の記述のうち、誤っているものはどれか。
@@ -29,10 +31,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-052
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述の㋑と㋺の［　］に入る語句の組合せとして、正しいものはどれか。「吸光度は、［㋑］に比例するが、［㋺］には比例しない。」
@@ -57,10 +68,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 吸光光度分析法による環境空気中のベンゼンの分析法に関する次の記述の㋑と㋺に入る語句の組合せとして、正しいものは下のうちどれか。「ベンゼンを硝酸アンモニウム-硫酸溶液中に捕集して［㋑］した後、アルカリを加えて中和する。その後、メチルエチルケトンに転溶させ、［㋺］を加えて発色させる。」
@@ -80,10 +100,19 @@ questions:
   law_note: null
   _review: true
   minor_note: ベンゼンの吸光光度分析法で、ニトロ化のあと、アルカリを加えて発色させる、という点は、ガイドブック3で該当箇所を確認できておらず、ニトロ化合物の一般的な反応による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-041
   rank: null
   summary: null
   stem: 環境空気（25 ℃、1気圧）中のシアン化水素濃度を液体捕集法-吸光光度分析法により測定した。ミゼットインピンジャーに捕集液 10 mL を入れ、シアン化水素を含む環境空気を、流量 0.50 L･min⁻¹ で15分間吸引し、シアン化水素を捕集した。捕集後の捕集液 10 mL のうちの 2 mL をとり、これに必要な試薬を加え、発色操作を行い 15.2 mL の最終試料液を調製した。この最終試料液中のシアン化物イオン（CN ⁻）の濃度を測定したところ、0.42 µg･mL⁻¹ であった。この環境空気中のシアン化水素濃度に最も近いものは、次のうちどれか。ただし、捕集率は 100 ％ とする。
@@ -116,10 +145,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 固体捕集法-ガスクロマトグラフ分析法（GC-MS 法）による環境空気中のエチレンオキシド濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -142,10 +180,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - ans_new
+    - new
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法の検出器に関する次の記述のうち、誤っているものはどれか。
@@ -168,10 +232,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    similar:
+    - 3
+    - 1
+    - 2
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-040
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法において、キャピラリーカラムを使用する場合に用いる次の試料導入法のうち、低濃度試料の分析に適していないものはどれか。
@@ -197,10 +287,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-047
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法において、カラムAとBを用いてある化合物を測定したとき、保持時間が同じであった。カラムAの理論段数が 8000 、カラムBの理論段数が 4000 の場合、カラムBにおけるピーク幅（WB）とカラムAにおけるピーク幅（WA）の比（WB/ WA）の値は、次のうちどれか。
@@ -226,10 +325,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 特定化学物質用の検知管Ⓐとプラスの妨害を示す物質Ⓑとの組合せとして、誤っているものは次のうちどれか。
@@ -251,10 +359,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-fl
+  traps:
+  - sl-tokka-other-fl
   rank: null
   summary: null
   stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -277,10 +394,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 4
+    - 1
+    similar:
+    - 2
+    - 1
+    - 3
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 蛍光光度分析法による環境空気中の α-ナフチルアミン濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -312,10 +455,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 2
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-041
   rank: null
   summary: null
   stem: 環境空気（25 ℃、1気圧）中の p-ニトロクロルベンゼンの濃度を測定するため、2本のミゼットインピンジャーの各々に捕集液 10 mL を入れて直列に連結し、試料空気を流量 1.0 L･min⁻¹ で10分間捕集した。捕集後の捕集液は合わせてメスフラスコに入れ、さらに捕集液で 25 mL に定容したものを試料液とした。ガスクロマトグラフで分析した結果、試料液のピーク面積は 2,900であった。p-ニトロクロルベンゼン濃度が、0.50 µg･mL⁻¹ の標準液を試料液と同様に分析したところ、ピーク面積は 6,000 であった。環境空気中の p-ニトロクロルベンゼン濃度として、正しい値に最も近いものは次のうちどれか。ただし、p-ニトロクロルベンゼンのモル質量は 157.55 g･mol⁻¹ とする。
@@ -344,10 +513,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-048
   rank: null
   summary: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
@@ -375,10 +553,19 @@ questions:
   - file: 2020-08-tokka-13-fig.png
     alt: Ⓐ（名称）とⒷ（構造式）の2列。1＝o-フタロジニトリル、Ⓑはベンゼン環が2つ縮合した環（ナフタレン骨格）の隣り合う位置にCNが2個付いた式。2＝酸化プロピレン、ⒷはH₂CとCH（Hを上に付記）がOを介して三角形の環を作り、CHにCH₃が結合した式。3＝o-トルイジン、Ⓑはベンゼン環にNH₂とCH₃が隣り合って付いた式。4＝アクリルアミド、ⒷはH₂C＝CH−C（＝O）−NH₂の式。5＝エチレンオキシド、Ⓑは2個のCH₂（左はH₂C）とOが三角形の環を作る式。
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-071
   rank: null
   summary: null
   stem: 臭化メチル及びヨウ化メチルの1気圧における物性に関する次の記述のうち、誤っているものはどれか。
@@ -401,10 +588,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の化合物のうち、1気圧における沸点が最も低いものはどれか。
@@ -421,10 +634,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 吸光光度分析法による分析において、測定対象物質Ⓐと、標準溶液調製時に標準物質として使用する物質Ⓑとの次の組合せのうち、不適切なものはどれか。
@@ -449,10 +671,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-tokka-050
   rank: null
   summary: null
   stem: 拡散セルを用い、ベンゼンの標準ガスを発生させた。標準ガスの発生流量は、1.0 L･min⁻¹、拡散セルの温度は 25 ℃ であった。5時間ごとに拡散セル全体の質量を測定したところ、以下のようになった。時間（hr） 質量（g）0 25.4110 5 25.3989 10 25.3866この標準ガスの濃度として、正しい値に最も近いものは次のうちどれか。ただし、ベンゼンのモル質量は 78.11 g･mol⁻¹ とする。
@@ -482,10 +713,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の特定化学物質のうち、液体捕集法による試料採取が適切でないものはどれか。
@@ -508,10 +748,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-042
   rank: null
   summary: null
   stem: 次の測定対象物質のうち、ろ過捕集法と固体捕集法との組合せで捕集を行うものはどれか。
@@ -528,10 +777,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-072
   rank: null
   summary: null
   stem: 直接捕集法に関する次の記述のうち、誤っているものはどれか。
@@ -554,3 +812,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 4
+    similar:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - odo
+    - odo
+    - odo

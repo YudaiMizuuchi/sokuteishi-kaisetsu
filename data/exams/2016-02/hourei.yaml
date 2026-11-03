@@ -25,6 +25,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、常時300人以上の労働者を使用する事業場においては、その業種に関係なく、総括安全衛生管理者を選任しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 13
+    - 6
+    - 5
+    - 7
+    similar:
+    - 8
+    - 13
+    - 6
+    - 5
+    - 7
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 2
   status: published
   chapters:
@@ -47,6 +71,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、定期健康診断を受けた労働者のうち、無所見と診断された者を除き、遅滞なく、健康診断の結果を通知しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 7
+    - 7
+    similar:
+    - 1
+    - 1
+    - 4
+    - 7
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、労働者に対して特別教育を行ったときは、遅滞なく、その実施結果を所轄労働基準監督署長に報告しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 10
+    - 11
+    - 6
+    - 1
+    similar:
+    - 1
+    - 11
+    - 11
+    - 6
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -97,6 +169,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業に係る業務
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    similar:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    truths: 誤誤誤誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ''
+    - new
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -122,6 +218,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -144,6 +247,30 @@ questions:
   law_note: null
   _key_choice: 溶融ガラスからガラス製品を成型する業務を行う屋内作業場については、1か月以内ごとに1回、定期に、当該作業場における気温、湿度及びふく射熱を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 10
+    - 6
+    similar:
+    - 3
+    - 1
+    - 1
+    - 10
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -166,6 +293,13 @@ questions:
   law_note: null
   _key_choice: 酸性ガス用防毒マスク
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -192,6 +326,13 @@ questions:
   law_note: null
   _key_choice: アルファ-ナフチルアミン
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -217,6 +358,30 @@ questions:
   law_note: null
   _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 11
+    - 4
+    - 6
+    - 4
+    similar:
+    - 5
+    - 11
+    - 4
+    - 6
+    - 4
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 10
   status: published
   chapters:
@@ -243,6 +408,30 @@ questions:
   law_note: null
   _key_choice: 単位作業場所が著しく狭く、かつ、粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 8
+    - 7
+    - 2
+    similar:
+    - 5
+    - 6
+    - 9
+    - 7
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -268,6 +457,30 @@ questions:
   law_note: null
   _key_choice: 測定値が管理濃度の5分の1に満たない測定点がある単位作業場所にあっては、管理濃度の5分の1を当該測定点における測定値とみなして、管理区分の区分を行うことができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 2
+    - 4
+    - 4
+    similar:
+    - 3
+    - 1
+    - 2
+    - 5
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - ''
+    - odo
+    - ans_b
 - num: 12
   status: published
   chapters:
@@ -290,6 +503,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、炭酸ガス(二酸化炭素)濃度が1.0%である場所には、関係者以外の者が立ち入ることを禁止しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 3
+    - 10
+    - 1
+    similar:
+    - 2
+    - 6
+    - 8
+    - 11
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 13
   status: published
   chapters:
@@ -313,6 +550,30 @@ questions:
   law_note: null
   _key_choice: 塩化ビニルは、第3類物質である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    similar:
+    - 2
+    - 4
+    - 1
+    - 1
+    - 8
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 14
   status: published
   chapters:
@@ -339,6 +600,13 @@ questions:
   law_note: null
   _key_choice: 二硫化炭素
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -362,6 +630,30 @@ questions:
   law_note: null
   _key_choice: 有機溶剤等を入れたことのあるタンクで有機溶剤の蒸気の発散するおそれのあるものの内部における業務に労働者を従事させるときは、当該業務に従事する労働者に有機ガス用防毒マスクを使用させなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 10
+    - 10
+    - 2
+    - 5
+    similar:
+    - 7
+    - 11
+    - 10
+    - 3
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 16
   status: published
   chapters:
@@ -387,6 +679,30 @@ questions:
   law_note: null
   _key_choice: 男性の放射線業務従事者の受ける実効線量は、3年間につき50 mSvを超えず、かつ、1年間につき20 mSvを超えないようにしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 8
+    - 10
+    - 1
+    similar:
+    - 8
+    - 3
+    - 8
+    - 11
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -413,6 +729,30 @@ questions:
   law_note: null
   _key_choice: 局所排気装置に法令に基づいて設置する除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 7
+    - 6
+    - 1
+    similar:
+    - 4
+    - 6
+    - 7
+    - 6
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - new
 - num: 18
   status: published
   chapters:
@@ -439,6 +779,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業を行う屋内作業場については、当該粉じん作業に係る粉じんを減少させるため、全体換気装置による換気を実施しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 7
+    - 7
+    - 4
+    similar:
+    - 8
+    - 3
+    - 7
+    - 8
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -465,6 +829,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、空気調和設備を設けている場合は、室に供給される空気中の一酸化炭素の含有率を50 ppm以下としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 1
+    - 3
+    - 2
+    - 1
+    similar:
+    - 9
+    - 1
+    - 3
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - ''
+    - new
 - num: 20
   status: published
   chapters:
@@ -503,3 +891,10 @@ questions:
   law_note: null
   _key_choice: イ ハ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new

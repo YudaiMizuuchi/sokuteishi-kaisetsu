@@ -25,6 +25,30 @@ questions:
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 5
+    - 2
+    - 4
+    similar:
+    - 1
+    - 1
+    - 5
+    - 2
+    - 4
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - new
+    - ans_hi
+    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -47,6 +71,30 @@ questions:
   law_note: null
   _key_choice: この指針は、法令の規定に基づき、機械や化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    similar:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - ''
+    - ''
+    - ''
 - num: 3
   status: published
   chapters:
@@ -69,6 +117,30 @@ questions:
   law_note: この問題の「VDT作業における労働衛生管理のためのガイドライン」は、令和元年7月12日に「情報機器作業における労働衛生管理のためのガイドライン」（基発0712第3号）に改められています。
   _key_choice: 単純入力型及び拘束型に該当するVDT作業において、一連続作業時間を1時間とし、次の連続作業までの間に5分間の作業休止時間を設けている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 2
+    - 1
+    - 3
+    similar:
+    - 4
+    - 2
+    - 3
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 4
   status: published
   chapters:
@@ -93,6 +165,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -115,6 +194,30 @@ questions:
   law_note: null
   _key_choice: 一酸化炭素は、無色、無臭の気体で、赤血球中のヘモグロビンの合成を阻害する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 9
+    - 1
+    - 2
+    similar:
+    - 2
+    - 4
+    - 9
+    - 2
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_b
 - num: 6
   status: published
   chapters:
@@ -137,6 +240,30 @@ questions:
   law_note: null
   _key_choice: 鉱物性粉じんに含まれる遊離けい酸は、胸膜の中皮腫を生じさせる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 2
+    - 1
+    - 3
+    similar:
+    - 3
+    - 9
+    - 2
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_b
 - num: 7
   status: published
   chapters:
@@ -161,6 +288,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -186,6 +320,30 @@ questions:
   law_note: null
   _key_choice: カドミウムの主な健康障害は、肝臓障害である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 7
+    - 5
+    - 1
+    similar:
+    - 2
+    - 1
+    - 9
+    - 5
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 9
   status: published
   chapters:
@@ -208,6 +366,30 @@ questions:
   law_note: null
   _key_choice: 有機溶剤の蒸気は空気より軽いので、蒸発しやすく、かつ拡散しやすい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 4
+    - 5
+    - 1
+    similar:
+    - 2
+    - 1
+    - 4
+    - 5
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - new
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -230,6 +412,30 @@ questions:
   law_note: null
   _key_choice: 温度感覚を左右する環境要素は、気温、湿度、気圧及び輻射熱であり、この4要素によって温熱環境が定まる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 1
+    - 4
+    - 3
+    similar:
+    - 3
+    - 5
+    - 1
+    - 4
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -252,6 +458,30 @@ questions:
   law_note: null
   _key_choice: 等価騒音レベルは、変動する騒音のある時間範囲について、1,000、2,000、4,000及び8,000 Hzの音圧レベルの平均値として表した量である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 1
+    - 2
+    - 8
+    similar:
+    - 3
+    - 8
+    - 1
+    - 2
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -274,6 +504,30 @@ questions:
   law_note: null
   _key_choice: 酸素欠乏症の危険のある場所で作業を行うときは、空気呼吸器、送気マスク又は防毒マスクを使用する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 2
+    - 12
+    - 1
+    similar:
+    - 1
+    - 7
+    - 2
+    - 12
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ''
+    - odo
+    - ans_new
 - num: 13
   status: published
   chapters:
@@ -311,6 +565,13 @@ questions:
   law_note: null
   _key_choice: ハ―ロ―イ―ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -333,6 +594,30 @@ questions:
   law_note: null
   _key_choice: β線は、電離作用を有する電磁波である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 9
+    - 4
+    - 1
+    - 1
+    similar:
+    - 2
+    - 10
+    - 4
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - ans_b
+    - odo
+    - new
 - num: 15
   status: published
   chapters:
@@ -355,6 +640,30 @@ questions:
   law_note: null
   _key_choice: 気体の液体への溶解度は、一般に、液体の温度が高いほど大きい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 2
+    - 7
+    - 9
+    similar:
+    - 4
+    - 6
+    - 4
+    - 7
+    - 9
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -377,6 +686,30 @@ questions:
   law_note: null
   _key_choice: 囲い式フードの制御風速とは、フード開口面における平均風速をいう。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 4
+    - 3
+    - 5
+    similar:
+    - 4
+    - 4
+    - 4
+    - 3
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -399,6 +732,30 @@ questions:
   law_note: null
   _key_choice: 防じんマスクの使用後、再使用のためには、圧縮空気を用いて、ろ過材上に付着した粉じんを吹き飛ばすことによって、十分払い落とす必要がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 4
+    - 2
+    - 1
+    similar:
+    - 3
+    - 2
+    - 4
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ans_b
+    - ''
+    - new
 - num: 18
   status: published
   chapters:
@@ -421,6 +778,30 @@ questions:
   law_note: null
   _key_choice: 2種類以上の有害ガスが混在している場合には、最も毒性の強いガス用の防毒マスクを使う。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 7
+    - 7
+    - 2
+    similar:
+    - 3
+    - 3
+    - 7
+    - 7
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -443,6 +824,30 @@ questions:
   law_note: null
   _key_choice: ノロウイルスによる食中毒は、主として夏季に集団食中毒として多発する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 4
+    - 2
+    similar:
+    - 2
+    - 1
+    - 1
+    - 4
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ans_new
+    - odo
+    - ''
 - num: 20
   status: published
   chapters:
@@ -468,3 +873,27 @@ questions:
   law_note: null
   _key_choice: 管理濃度が天井値として定められている物質がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 11
+    similar:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 11
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - ans_new
+    - odo
+    - odo
+    - odo

@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 中性の原子又は分子は、電子を失うと負に帯電する。
   _stem_head: 次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 3
+    - 3
+    - 2
+    similar:
+    - 5
+    - 5
+    - 3
+    - 4
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 2
   status: published
   chapters:
@@ -57,6 +81,13 @@ questions:
   law_note: null
   _key_choice: '{_1^2+_2^2}'
   _stem_head: 互いに独立な物理量1と物理量2の差を求める際、その差の標準偏差を示す式は次のうちどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -91,6 +122,13 @@ questions:
   law_note: null
   _key_choice: 0.5気圧
   _stem_head: 一酸化炭素42 gと二酸化炭素66 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -116,6 +154,30 @@ questions:
   law_note: null
   _key_choice: アミンは、-CN基をもっている。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 3
+    - 3
+    - 2
+    similar:
+    - 4
+    - 7
+    - 4
+    - 6
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -150,6 +212,30 @@ questions:
   law_note: null
   _key_choice: 温度を上げると、反応は左方向に進む。
   _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 4
+    - 3
+    - 1
+    similar:
+    - 2
+    - 2
+    - 5
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 6
   status: published
   chapters:
@@ -176,6 +262,30 @@ questions:
   law_note: null
   _key_choice: この希硫酸10 mLを中和するには、濃度0.18 mol・L−1の水酸化ナトリウム溶液10 mLが必要である。
   _stem_head: 濃度18.0 mol・L−1の濃硫酸1.0 mLを水で希釈して希硫酸100 mLを調製した。濃硫酸と希硫酸に関する次の記
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 7
   status: published
   chapters:
@@ -201,6 +311,30 @@ questions:
   law_note: null
   _key_choice: ロータメーターの内径は、管の上部ほど小さくなっている。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 3
+    - 1
+    - 2
+    similar:
+    - 4
+    - 1
+    - 3
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - ''
 - num: 8
   status: published
   chapters:
@@ -253,6 +387,30 @@ questions:
   law_note: null
   _key_choice: 拡散係数の次元は、体積/時間である。
   _stem_head: 拡散チューブを用い一定濃度の標準ガスを発生させるとき、チューブの選定に必要となる定常状態で拡散チューブから流出する標準物
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 9
   status: published
   chapters:
@@ -280,6 +438,13 @@ questions:
   law_note: null
   _key_choice: A酸溶解 BX線回折分析法
   _stem_head: 試料の前処理Aとその分析法Bとの次の組合せのうち、不適当なものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -305,6 +470,30 @@ questions:
   law_note: null
   _key_choice: 変色層の先端が斜めになった場合は、最長部分を測定値とする。
   _stem_head: 検知管に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 3
+    - 4
+    similar:
+    - 3
+    - 1
+    - 1
+    - 3
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -337,6 +526,13 @@ questions:
   law_note: null
   _key_choice: 4.0×10−2 mol・L−1
   _stem_head: 酢酸溶液50.0 mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.0×10−1 mol・L−1)で滴
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -363,6 +559,30 @@ questions:
   law_note: null
   _key_choice: エタンの完全燃焼で生成する二酸化炭素量は、エタンの物質量と等しい。
   _stem_head: 空気中でメタン(CH4)、エタン(C2H6)を完全燃焼させたときの反応に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 13
   status: published
   chapters:
@@ -388,6 +608,30 @@ questions:
   law_note: null
   _key_choice: ガラス製セルは、300 nmよりも短波長の光の吸収の測定に使用できる。
   _stem_head: 吸光光度分析計に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 14
   status: published
   chapters:
@@ -414,6 +658,13 @@ questions:
   law_note: null
   _key_choice: '0.24'
   _stem_head: 物質Aの濃度が1.5×10−5 mol・L−1の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度
+  freq:
+    kind: question
+    denom: 23
+    count: 16
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -439,6 +690,30 @@ questions:
   law_note: null
   _key_choice: 吸光度は、光源光の強度に比例する。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 3
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - new
+    - ans_b
+    - odo
 - num: 16
   status: published
   chapters:
@@ -464,6 +739,30 @@ questions:
   law_note: null
   _key_choice: 蛍光は、励起光に対して直角方向だけに放射される。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 5
+    similar:
+    - 1
+    - 1
+    - 8
+    - 2
+    - 6
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - ans_new
+    - odo
 - num: 17
   status: published
   chapters:
@@ -491,6 +790,13 @@ questions:
   law_note: null
   _key_choice: A熱イオン化検出器(TID、FTD) Bキシレン
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器Aと分析対象物質Bとの次の組合せのうち、不適切なものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
   chapters:
@@ -516,6 +822,13 @@ questions:
   law_note: null
   _key_choice: 分離度は2倍になる。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
   chapters:
@@ -541,6 +854,30 @@ questions:
   law_note: null
   _key_choice: 測定試料は、一般に粒径が0.1 mm~1 mmの粉末が適当である。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 5
+    - 2
+    - 3
+    similar:
+    - 3
+    - 6
+    - 6
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -570,3 +907,10 @@ questions:
   law_note: null
   _key_choice: 125 Bq
   _stem_head: 半減期8日の放射性核種の放射能が1,000 Bqであった時、その24日後の放射能の期待値として正しい値は次のうちどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 計算問題
+    level: 2
+    why: q_b

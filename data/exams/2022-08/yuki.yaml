@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 次の有機溶剤のうち、25℃における密度が最も小さいものはどれか。
   choices:
@@ -21,10 +23,19 @@ questions:
   explanation: 25℃での密度は、n-ヘキサンが約0.66 g/cm³、エチルエーテルが約0.71 g/cm³、酢酸メチルが約0.93 g/cm³、メタノールが約0.79 g/cm³、トルエンが約0.87 g/cm³です。最も小さいのは**n-ヘキサン**で、（1）です。（密度は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-002
   rank: null
   stem: 次の有機溶剤のうち、極性が最も高いものはどれか。
   choices:
@@ -39,10 +50,19 @@ questions:
   explanation: 極性が最も高いのは、水酸基をもち、水素結合をつくる**イソブチルアルコール**です。酢酸エチルとクロロベンゼンは中程度以下、二硫化炭素とシクロヘキサンは無極性に近い溶剤です。よって（2）です。
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 次の有機溶剤の組合せのうち、25℃において、一方だけが水に限りなく溶解するものはどれか。
   choices:
@@ -71,10 +91,36 @@ questions:
     よって（2）です。（溶解度は、一般的な化学便覧の概数です。）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正誤誤誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-001
   rank: null
   stem: '捕集率が同じ2本のミゼットインピンジャーを直列に連結して、ある有機溶剤蒸気の捕集を行ったところ、1本目には800 µgの有機溶剤が、2本目には120 µgの有機溶剤が捕集された。
 
@@ -101,10 +147,19 @@ questions:
     よって（2）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -125,10 +180,36 @@ questions:
     （参考：『デザイン・サンプリングの実務（C・D測定編）』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 3
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 有機溶剤の受動型試料採取機器（以下、パッシブサンプラー）に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -149,10 +230,36 @@ questions:
     （参考：『デザイン・サンプリングの実務（C・D測定編）』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-035
   rank: null
   stem: 検知管法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -170,10 +277,36 @@ questions:
     検知剤と測定対象物質との反応は、多くの場合、非特異的な反応です。検知管の指示値は、高気圧下では高くなります。検知管は、作業場所の室温にしてから使います。試料空気の吸引に、電動吸引ポンプを使う場合もあります。'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 4
+    - 1
+    - 2
+    similar:
+    - 1
+    - 4
+    - 4
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: キャピラリーカラムを用いたガスクロマトグラフ分析法における試料注入法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -194,10 +327,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - odo
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: 充填カラムとキャピラリーカラムの比較に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -218,10 +377,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 2
+    similar:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-022
   rank: null
   stem: ガスクロマトグラフ分析法のキャリアガス等に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -242,10 +427,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 5
+    - 3
+    - 2
+    - 5
+    similar:
+    - 2
+    - 5
+    - 3
+    - 2
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -266,10 +477,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -287,10 +524,36 @@ questions:
     代表的なイオン化法は、電子イオン化法です。イオン化条件によっては、分子イオンが検出されない場合があります。重水素で置換した測定対象物質は、内標準物質に使えます。定量は、ターゲットイオンのピーク面積で行います。'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 1
+    - 4
+    - 1
+    - 4
+    similar:
+    - 4
+    - 1
+    - 4
+    - 1
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - new
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: ポリエチレングリコール20Mを固定相液体としたカラムを用いるガスクロマトグラフ分析において、トルエンより保持時間の短い有機溶剤は、次のうちどれか。
   choices:
@@ -305,10 +568,19 @@ questions:
   explanation: ポリエチレングリコール20M（PEG 20M）のカラムでは、成分は、おおよそ沸点の低いものから溶出します。沸点は、メチルエチルケトンが約80℃で、トルエン（約111℃）より低く、トルエンより先に溶出します。酢酸イソペンチル（約142℃）、エチレングリコールモノエチルエーテルアセテート（約156℃）、エチレングリコールモノエチルエーテル（約135℃）、シクロヘキサノン（約156℃）は、トルエンより保持時間が長くなります。よって（5）です。（沸点は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   stem: ガスクロマトグラム上にピークA及びピークBがあり、保持時間に相当する長さがそれぞれ50 mm及び61 mm、ピーク幅に相当する長さがそれぞれ4 mm及び5 mmであった。分離度として、正しい値に最も近いものは次のうちどれか。
   choices:
@@ -335,10 +607,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-026
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -359,10 +640,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 4
+    - 3
+    - 2
+    similar:
+    - 2
+    - 2
+    - 4
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-018
   rank: null
   stem: '吸光光度分析法に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。
 
@@ -389,10 +696,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -413,10 +729,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 5
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 5
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-004
   rank: null
   stem: 長さ27 mのキャピラリーカラムを装着したガスクロマトグラフを用いて、ある有機溶剤を分析したところ、ピークの保持時間に相当する長さがA mm、ピーク幅がB mmであった。このピークについて計算した理論段相当高さは0.3 mmであった。A/Bの値として、正しいものは次のうちどれか。
   choices:
@@ -443,10 +785,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   stem: '作業者は、酢酸エチルを含む塗料が入ったスプレーガンを持って、製品の周囲を移動しながら吹付塗装作業を行っていた。そこで、作業者に能動型試料採取機器（アクティブサンプラー）を装着して、3時間のサンプリングを行った。捕集された酢酸エチルを溶媒2 mLで脱着し、ガスクロマトグラフで分析したところ、酢酸エチル520 µg・mL⁻¹の結果が得られた。C測定値として、正しい値に最も近いものは次のうちどれか。
 
@@ -476,10 +827,19 @@ questions:
     よって（4）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-010
   rank: null
   stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -497,3 +857,27 @@ questions:
     測定値は有効数字を考慮して表します。内標準物質には、目的物質と物理的・化学的によく似ていて、測定を妨害しない物質を選びます。GC-MSでは、代表的なイオンを選んで検量線を作成します。検量線は、測定の都度、作成します。'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 3
+    - 2
+    - 1
+    - 2
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - ans_hi
+    - odo
+    - new
+    - odo

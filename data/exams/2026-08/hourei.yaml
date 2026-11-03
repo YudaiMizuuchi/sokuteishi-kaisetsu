@@ -32,6 +32,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 2人以上の衛生管理者を選任する必要がある場合において、そのうち1人を医師、歯科医師又は労働衛生コンサルタントのうちから選任するときは、当該者については、当該事業場に専属でない者とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 2
   status: published
   chapters:
@@ -64,6 +88,13 @@ questions:
   - ㋺
   - ㋩
   - ㋥
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -93,6 +124,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 定期健康診断を行ったときは、常時使用する労働者数にかかわらず、遅滞なく、その結果を所轄労働基準監督署長に報告しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 6
+    - 10
+    - 6
+    - 1
+    similar:
+    - 1
+    - 7
+    - 10
+    - 6
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -117,6 +172,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素用防毒マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -144,6 +206,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業主任者は、作業の区分にかかわらず、作業主任者としての業務に従事するときは、その資格を証する書面を携帯していなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 6
   status: published
   chapters:
@@ -171,6 +257,30 @@ questions:
   figures: []
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 「特定化学物質」(作業環境測定法施行規則別表第3号の作業場)に係る登録を受けた第1種作業環境測定士は、クロム酸及びその塩に係る作業環境測定を行うことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 7
   status: published
   chapters:
@@ -204,6 +314,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -231,6 +348,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 高圧室内業務を行う作業室については、その日の作業を開始する前に、当該作業室における気温、湿度及び気圧を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 12
+    - 8
+    - 1
+    - 1
+    similar:
+    - 1
+    - 12
+    - 8
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 9
   status: published
   chapters:
@@ -260,6 +401,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時特定粉じん作業を行う屋内作業場における空気中の粉じん濃度の測定のうち、遊離けい酸の含有率が厚生労働大臣が定める値を超えるものは、個人サンプリング法の対象とならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 10
   status: published
   chapters:
@@ -288,6 +453,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気中の放射性物質の濃度の測定は、単位作業場所における放射性物質の濃度がほぼ均一であることが明らかな場合を除き、当該単位作業場所の床面上に6 m以下の等間隔で引いた縦の線と横の線との交点の床上50 cm以上150 cm以下の位置に、5点以上としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 4
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 4
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 11
   status: published
   chapters:
@@ -318,6 +507,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C=(C_1/E_1)+(C_2/E_2)+
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正誤誤誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 12
   status: published
   chapters:
@@ -343,6 +556,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第3類物質等とは、第3類物質と特別有機溶剤との混合物をいう。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - ''
 - num: 13
   status: published
   chapters:
@@ -373,6 +610,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 厚生労働大臣の許可を受けて第1類物質を製造する場合、当該業務に従事する労働者に対し、安全又は衛生のための特別の教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -412,6 +673,13 @@ questions:
   - 第1種有機溶剤等
   - 第2種有機溶剤等
   - 第3種有機溶剤等
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -442,6 +710,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第3種有機溶剤等に係る有機溶剤業務に常時従事する労働者に対しては、その業務内容、作業場所にかかわらず、有機溶剤等健康診断を行う必要はない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - new
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -469,6 +761,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 密封されていない放射性物質を取り扱う作業に労働者を従事させるときは、専用の作業室を設け、当該作業を行う作業場所に、放射性物質のガス、蒸気又は粉じんの発散源を密閉する設備、局所排気装置又はプッシュプル型換気装置を設けなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 17
   status: published
   chapters:
@@ -502,6 +818,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業環境測定結果の評価が2年以上行われ、その間、第1管理区分に区分されることが継続した単位作業場所については、作業環境測定を、1年以内ごとに1回、定期に行うこととすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 10
+    - 1
+    similar:
+    - 3
+    - 2
+    - 1
+    - 10
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ans_new
+    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -538,6 +878,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石綿の分析の作業を行うときは、あらかじめ、所定の届書に当該作業の概要を示す書面及び作業場所の図面を添えて、所轄労働基準監督署長に提出しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - new
+    - new
+    - new
 - num: 19
   status: published
   chapters:
@@ -563,6 +927,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2種酸素欠乏危険作業には、硫化水素を製造し、又は取り扱う屋内作業場における作業がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - ''
+    - new
+    - new
 - num: 20
   status: published
   chapters:
@@ -592,3 +980,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業環境を改善するために必要な措置を講ずることにより、第1管理区分又は第2管理区分とすることの可否について、当該事業場に専属の作業環境管理専門家の意見を聴かなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new

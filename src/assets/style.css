@@ -204,3 +204,22 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82r
   .support-sub { border-left: 0; padding-left: 0; flex-basis: 100%; text-align: center; }
   .support-btn .ico-ext { display: none; }
 }
+
+/* 出題頻度（その科目の過去の全回のうち、同じ内容が出題された回数） */
+.freq { margin: 14px 0; padding: 10px 12px; border: 1px solid var(--line, #ddd); border-radius: 8px; background: var(--panel, #fafafa); }
+.freq h3 { margin: 0 0 4px; font-size: .95rem; }
+.freq-lead { margin: 0 0 6px; font-size: .8rem; color: var(--muted); }
+.freq-list { margin: 0; padding: 0; list-style: none; font-size: .88rem; }
+.freq-list li { padding: 2px 0; }
+.freq-list li .n { display: inline-block; min-width: 2.4em; color: var(--muted); }
+.freq-list li.hi { font-weight: 600; }
+
+.freq-list .sim { color: var(--muted); font-weight: 400; font-size: .84rem; }
+
+/* 問題の区分（得点必須／何とか得点／失点やむなし）と、理由 */
+.freq .level { margin: 0 0 2px; font-size: 1rem; }
+.freq .lv-S b { color: var(--rank-s); } .freq .lv-B b { color: var(--rank-b); } .freq .lv-C b { color: var(--rank-c); }
+.freq .level-why { margin: 0 0 4px; font-size: .88rem; }
+.freq .freq-note { margin: 0 0 8px; font-size: .78rem; color: var(--muted); }
+.tagt { display: inline-block; margin: 0 4px; padding: 0 6px; font-size: .74rem; border: 1px solid currentColor; border-radius: 4px; }
+.t-ans_hi { color: var(--rank-s); } .t-ans_b { color: var(--rank-b); } .t-ans_new { color: var(--rank-c); } .t-odo { color: var(--rank-a); } .t-new { color: var(--rank-c); }

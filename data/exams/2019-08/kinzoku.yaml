@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 次の金属及び金属化合物のうちで、融点が 0 ℃より高いものはどれか。
@@ -23,10 +25,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-089
   rank: null
   summary: null
   stem: 金属酸化物の酸への溶解に関する次の記述のうち、誤っているものはどれか。
@@ -46,10 +57,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-aas
+  traps:
+  - sl-kinzoku-092
   rank: null
   summary: null
   stem: 作業環境空気中の金属の分析法Ⓐとその分析原理の基礎となる現象Ⓑの次の組合せのうち、誤っているものはどれか。
@@ -74,10 +94,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 作業環境空気中の金属類の分析に用いる試薬類に関する次の記述のうち、誤っているものはどれか。
@@ -100,10 +129,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 作業環境空気中の測定対象金属及びその塩の捕集及び前処理に関する次の記述のうち、誤っているものはどれか。
@@ -126,10 +181,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - odo
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-aas
+  traps:
+  - sl-kinzoku-080
   rank: null
   summary: null
   stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
@@ -152,10 +233,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 5
+    - 5
+    - 1
+    - 6
+    similar:
+    - 3
+    - 5
+    - 5
+    - 1
+    - 7
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - new
+    - odo
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-icp
+  traps:
+  - sl-kinzoku-other-icp
   rank: null
   summary: null
   stem: 高周波誘導結合プラズマ発光分析法（ICP-AES）に関する次の記述のうち、誤っているものはどれか。
@@ -178,10 +285,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - new
+    - new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-fl
+  traps:
+  - sl-kinzoku-081
   rank: null
   summary: null
   stem: 作業環境空気中の測定対象金属の測定に用いる蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -204,10 +337,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 7
+    - 3
+    - 4
+    - 1
+    similar:
+    - 1
+    - 7
+    - 3
+    - 4
+    - 1
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_hi
+    - new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-098
   rank: null
   summary: null
   stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
@@ -230,10 +389,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 3
+    - 1
+    - 2
+    - 2
+    similar:
+    - 5
+    - 4
+    - 1
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_b
+    - odo
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-090
   rank: null
   summary: null
   stem: 金属の定量に用いられる試薬に関する次の記述のうち、誤っているものはどれか。
@@ -256,10 +441,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 4
+    - 3
+    - 3
+    similar:
+    - 2
+    - 4
+    - 5
+    - 4
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-099
   rank: null
   summary: null
   stem: ベリリウムの分析に関する次の記述のうち、誤っているものはどれか。
@@ -282,10 +493,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - new
+    - ans_b
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 原子吸光分析法によるカドミウムの分析に関する次の記述のうち、誤っているものはどれか。
@@ -308,10 +545,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: ジフェニルカルバジドを用いる吸光光度分析法によるクロム酸及びその塩の分析に関する次の記述のうち、誤っているものはどれか。
@@ -335,10 +598,36 @@ questions:
   law_note: null
   _review: true
   minor_note: クロム(Ⅵ)とジフェニルカルバジドの発色生成物が、一定時間、安定である、という点は、ガイドブック4で確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 1
+    - 1
+    - 4
+    - 4
+    similar:
+    - 7
+    - 1
+    - 1
+    - 4
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 原子吸光分析法によるバナジウムの分析に関する次の記述のうち、誤っているものはどれか。
@@ -361,10 +650,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 7
+    - 4
+    - 3
+    - 1
+    similar:
+    - 5
+    - 8
+    - 4
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-110
   rank: null
   summary: null
   stem: 原子吸光分析法によるマンガン及びその化合物の分析に関する次の記述のうち、誤っているものはどれか。
@@ -387,10 +702,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 6
+    - 6
+    - 5
+    - 2
+    similar:
+    - 3
+    - 7
+    - 7
+    - 5
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 水素化物発生原子吸光分析法によるヒ素の分析に関する次の記述のうち、誤っているものはどれか。
@@ -413,10 +754,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 7
+    - 1
+    - 1
+    - 4
+    - 2
+    similar:
+    - 7
+    - 1
+    - 1
+    - 5
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - odo
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 液体捕集法-原子吸光分析法による水銀の分析に関する次の記述のうち、誤っているものはどれか。
@@ -439,10 +806,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 7
+    - 2
+    - 1
+    - 1
+    - 3
+    similar:
+    - 8
+    - 3
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: ろ過捕集法-原子吸光分析法による鉛の分析に関する次の記述のうち、誤っているものはどれか。
@@ -465,10 +858,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 6
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-other-kinzoku
   rank: null
   summary: null
   stem: 作業環境空気中の粉状ニッケル化合物の分析に関する次の記述のうち、誤っているものはどれか。
@@ -492,10 +911,36 @@ questions:
   law_note: null
   _review: true
   minor_note: ニッケルの標準液を、酸を含む溶液で希釈して、試料液と酸濃度を合わせる、という点は、ガイドブック4で、希釈に使う液までは確認できておらず、一般的な分析の考え方による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - odo
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-kinzoku
+  traps:
+  - sl-kinzoku-111
   rank: null
   summary: null
   stem: 濃度 50.0 µg･mL⁻¹ のクロム標準液 1.00 L を作成するのに必要なクロム酸カリウム（K₂CrO₄）の質量に最も近いものはどれか。ただし、カリウム、クロム、酸素の原子量は、それぞれ 39.1、52.0、16.0とする。
@@ -522,3 +967,10 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b

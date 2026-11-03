@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: ヒュームの一次粒子の粒径は、5~10 μm程度である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 4
+    - 4
+    - 3
+    similar:
+    - 4
+    - 4
+    - 4
+    - 4
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -53,6 +77,30 @@ questions:
   law_note: null
   _key_choice: 同一建物内にいくつかの単位作業場所を設定する場合、それぞれの単位作業場所の範囲が重なってはならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 1
+    - 2
+    - 3
+    - 7
+    similar:
+    - 9
+    - 1
+    - 2
+    - 3
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -78,6 +126,30 @@ questions:
   law_note: null
   _key_choice: 2年間にわたって第1管理区分であった単位作業場所では、測定点の数は5未満としてもよい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 8
+    - 2
+    - 4
+    - 4
+    similar:
+    - 2
+    - 8
+    - 2
+    - 4
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,30 @@ questions:
   law_note: null
   _key_choice: サンプリング時間1分の検知管を5本用いてB測定を行った場合は、10分間に均等な間隔で測定した検知管の指示値の幾何平均値を測定値とする。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 4
+    - 3
+    - 2
+    similar:
+    - 4
+    - 1
+    - 4
+    - 3
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_b
+    - odo
 - num: 5
   status: published
   chapters:
@@ -128,6 +224,13 @@ questions:
   law_note: null
   _key_choice: 二硫化炭素
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -155,6 +258,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -180,6 +290,13 @@ questions:
   law_note: null
   _key_choice: 長石を粉砕する作業。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -207,6 +324,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -232,6 +356,30 @@ questions:
   law_note: null
   _key_choice: 面積式流量計では、ろ過捕集器具の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 7
+    - 5
+    - 3
+    - 6
+    similar:
+    - 10
+    - 7
+    - 5
+    - 3
+    - 6
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -257,6 +405,30 @@ questions:
   law_note: null
   _key_choice: 活性炭管には、一般に、除湿管をつないで使用する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 4
+    - 3
+    - 1
+    - 4
+    similar:
+    - 6
+    - 4
+    - 3
+    - 1
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 11
   status: published
   chapters:
@@ -279,6 +451,30 @@ questions:
   law_note: null
   _key_choice: メンブランフィルターのポアサイズは、捕集できる粒子の大きさの下限を表している。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 3
+    similar:
+    - 1
+    - 4
+    - 1
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - new
+    - odo
+    - ans_b
 - num: 12
   status: published
   chapters:
@@ -304,6 +500,30 @@ questions:
   law_note: null
   _key_choice: 真空捕集びんのコックには、漏れがないようにグリースを使用する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 9
+    - 6
+    - 1
+    - 3
+    similar:
+    - 7
+    - 9
+    - 6
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -329,6 +549,30 @@ questions:
   law_note: null
   _key_choice: 質量濃度変換係数(K)、相対濃度(R)及び質量濃度(C)の関係は、K=R/Cで表される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 4
+    - 7
+    - 1
+    similar:
+    - 3
+    - 2
+    - 7
+    - 7
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 14
   status: published
   chapters:
@@ -351,6 +595,30 @@ questions:
   law_note: null
   _key_choice: 変色層が斜めに現れた場合は、変色した部分の最先端を読み取る。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 8
+    - 1
+    - 1
+    similar:
+    - 5
+    - 4
+    - 10
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - new
+    - new
 - num: 15
   status: published
   chapters:
@@ -376,6 +644,30 @@ questions:
   law_note: null
   _key_choice: 光散乱方式の相対濃度計による鉱物性粉じんの測定では、相対濃度計の吸引口に分粒装置を接続して用いる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    similar:
+    - 4
+    - 6
+    - 4
+    - 4
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 16
   status: published
   chapters:
@@ -406,6 +698,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -441,6 +740,13 @@ questions:
   law_note: null
   _key_choice: 30時間
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -467,6 +773,30 @@ questions:
   law_note: null
   _key_choice: 対数正規分布の幾何平均と幾何標準偏差は、同じ次元を持つ。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 11
+    - 4
+    - 4
+    - 3
+    similar:
+    - 10
+    - 11
+    - 4
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -492,6 +822,30 @@ questions:
   law_note: null
   _key_choice: 慣性衝突式分粒装置を用いて、所定の吸引流量より大きい流量で吸引すると、分粒装置を通過する粒子の50%分粒粒径は大きくなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 4
+    - 2
+    - 3
+    - 2
+    similar:
+    - 8
+    - 5
+    - 2
+    - 3
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_b
+    - ''
 - num: 20
   status: published
   chapters:
@@ -517,3 +871,27 @@ questions:
   law_note: null
   _key_choice: A測定の第1評価値とB測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 5
+    - 4
+    - 6
+    similar:
+    - 1
+    - 9
+    - 5
+    - 4
+    - 6
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - ans_hi
+    - odo
+    - odo

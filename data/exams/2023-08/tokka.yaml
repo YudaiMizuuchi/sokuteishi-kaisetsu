@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-075
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -29,10 +31,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    similar:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - new
+    - odo
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-038
   rank: null
   summary: null
   stem: 作業環境空気（25 ℃、1気圧）中のフッ化水素の濃度を測定するため、捕集液 10 mL に 1.00 L･min⁻¹の流量で試料空気を10分間吸引した。その全量 10 mLについて定量操作を行い、その吸光度をブランクを対照として測定したところ0.350 であった。フッ化水素の濃度が、1.15 × 10⁻⁸mol･mL⁻¹の標準溶液 10 mLについても同様の操作を行って測定した吸光度は 0.450 であった。フッ化水素の作業環境空気中濃度（体積分率）として、正しい値に最も近いものは次のうちどれか。ただし、捕集率は 100％とする。
@@ -63,10 +91,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 液体捕集法と吸光光度分析法を用いた p-ニトロクロロベンゼンの測定に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「捕集液にエタノール水溶液を使用して p-ニトロクロロベンゼンを捕集して、亜鉛末と［㋑］を用いてニトロ基を還元する。亜硝酸ナトリウムを加え、更にスルファミン酸アンモニウムを加えて［㋺］基を［㋩］化した後、発色させて吸光度を測定する。」
@@ -99,10 +136,19 @@ questions:
   law_note: null
   _review: true
   minor_note: p-ニトロクロロベンゼンの吸光光度分析法の手順（亜鉛末と塩酸による還元、ジアゾ化、アゾ化）は、ガイドブック3で該当箇所を確認できておらず、化学反応の一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 硫化水素を液体捕集し、得られた試料液に塩化鉄（Ⅲ）と p-アミノジメチルアニリンを加えて、生成する物質の吸光度を測定して定量した。この分析に関する次の記述のうち、誤っているものはどれか。
@@ -125,10 +171,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 4
+    - 3
+    - 2
+    similar:
+    - 2
+    - 1
+    - 4
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法における分離機構及び分離能に関する次の記述のうち、誤っているものはどれか。
@@ -151,10 +223,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 作業環境空気中のアクリルアミドのガスクロマトグラフ分析法に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「アクリルアミドの粒子及び［㋑］を、ガラス繊維ろ紙と［㋺］を装着したサンプラーにより吸引捕集し、ガラス繊維ろ紙及び［㋺］上のアクリルアミドを［㋩］で抽出した後、ガスクロマトグラフ法で分析する。」
@@ -177,10 +275,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-047
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法で、カラムA とBを用いてある化合物を測定したとき、保持時間が同じであった。カラム A の理論段数が 9000 、カラム B の理論段数が 5000 の場合、カラム B におけるピーク幅（WB）とカラム A におけるピーク幅（WA）の比（WB／WA）の値として、正しい値に最も近いものは次のうちどれか。
@@ -206,10 +313,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 作業環境空気中の3,3 '-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）のガスクロマトグラフ-質量分析法に関する次の記述の㋑及び㋺の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「作業環境空気中のMOCAを［㋑］含浸ろ紙に捕集し、［㋺］溶液を添加した後、トルエンで抽出する。抽出液中の MOCA を N-メチルトリフルオロアセトアミドによって誘導体化した後、ガスクロマトグラフ-質量分析法で分析する。」
@@ -229,10 +345,19 @@ questions:
   law_note: null
   _review: true
   minor_note: MOCAの捕集（硫酸含浸ろ紙）と抽出（水酸化ナトリウム溶液の添加）の手順は、ガイドブック3で該当箇所を確認できておらず、アミン類の一般的な性質による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-hplc
+  traps:
+  - sl-tokka-other-hplc
   rank: null
   summary: null
   stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -255,10 +380,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 特定化学物質用の検知管Ⓐと、それに利用される反応Ⓑとの次の組合せのうち、誤っているものはどれか。
@@ -277,10 +428,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 作業環境空気中のホルムアルデヒド濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -303,10 +463,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - new
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-076
   rank: null
   summary: null
   stem: 蛍光光度分析法による作業環境空気中の α-ナフチルアミン濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -336,10 +522,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
@@ -367,10 +579,19 @@ questions:
   - file: 2023-08-tokka-13-fig.png
     alt: Ⓐ（化合物名）とⒷ（構造式）の2列の表。1＝1,1-ジメチルヒドラジン、Ⓑは、中央のNに、左上・左下のH₃Cと、右のNH₂が結合。2＝o-トリジン、Ⓑは、2つのベンゼン環が単結合でつながり、左の環には左端にH₂N-、下にH₃C、右の環には上にCH₃、右端に-NH₂が結合。3＝アクリルアミド、Ⓑは、H₂C=CH-C-NH₂で、右側のCの上にOが二重結合で結合。4＝クロロメチルメチルエーテル、Ⓑは、CH₃-O-CH₂Cl。5＝酸化プロピレン、Ⓑは、H₂C-C=CH₂で、左のH₂Cと中央のCの下にOが結合した三員環
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-077
   rank: null
   summary: null
   stem: 有機化合物の官能基の名称Ⓐとそれを表す式Ⓑとの次の組合せのうち、誤っているものはどれか。
@@ -398,10 +619,19 @@ questions:
   - file: 2023-08-tokka-14-fig.png
     alt: Ⓐ（名称）とⒷ（式）の2列の表。1＝アミノ基、Ⓑは、-NH₂。2＝イソシアネート基、Ⓑは、-OCN。3＝カルボニル基、Ⓑは、Cの左上と右上に結合の線があり、Cの下にOが二重結合で結合。4＝ニトリル基、Ⓑは、-CN。5＝ビニル基、Ⓑは、-CH=CH₂
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-049
   rank: null
   summary: null
   stem: ベンゼン 1.00 gを容量 1 Lの真空容器に密封し、常温（25℃）にした。このとき容器内に液体として存在するベンゼンの質量に最も近いものは、次のうちどれか。ただし、25℃でのベンゼンの飽和蒸気圧は12.6 kPa、モル質量は78.1 g･mol⁻¹とする。また、気体定数は 8.31 × 10³ Pa･L･mol⁻¹･K⁻¹とする。
@@ -432,10 +662,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 吸光光度分析法における測定対象物質Ⓐとその標準原液の調製に用いる溶媒Ⓑとの組合せとして、誤っているものは次のうちどれか。
@@ -462,10 +701,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-078
   rank: null
   summary: null
   stem: 塩素の濃度測定に用いる次亜塩素酸ナトリウム溶液の有効塩素濃度の標定に関する次の記述の ㋑ から ㋩ までの［　］に入る化学式又は語句の組合せとして、正しいものは下のうちどれか。「次亜塩素酸ナトリウム溶液に塩酸とヨウ化カリウムを加え、生成した［㋑］を［㋺］溶液で滴定する。滴定の終点は溶液に［㋩］を加え、溶液の青紫色が消失する点とする。」
@@ -495,10 +743,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の測定対象物質のうち、固体捕集法による捕集が不適切なものはどれか。
@@ -521,10 +778,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-058
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法による検出下限濃度を求めるため、管理濃度の1/10の濃度の空気を 2.0 L 捕集した試料に相当する溶液を5回繰り返し測定したところ、気中濃度として平均値 0.30 ppm、標準偏差 0.02 ppm であった。この測定法の検出下限濃度に相当する気中濃度として、正しい値は次のうちどれか。
@@ -547,10 +813,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-072
   rank: null
   summary: null
   stem: 直接捕集法に関する次の記述のうち、誤っているものはどれか。
@@ -573,3 +848,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 4
+    similar:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - odo
+    - odo
+    - odo

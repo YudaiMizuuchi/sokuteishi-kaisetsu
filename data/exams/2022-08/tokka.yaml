@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-063
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -27,10 +29,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - new
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: シアン化水素の吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -51,10 +79,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 5
+    - 2
+    - 2
+    - 1
+    similar:
+    - 2
+    - 5
+    - 2
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-other-uv
   rank: null
   stem: '吸光光度分析法における次の㋑から㋥までの項目のうち、検量線の傾きに関係があるものの組合せは下のうちどれか。
 
@@ -84,10 +138,19 @@ questions:
     光源の光の強度は、吸光度（入射光と透過光の比）には影響しません。発色試薬の濃度は、十分に過剰であれば、傾きに影響しません。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の化学物質のうち、可視部の吸光光度分析法で定量する場合に発色操作を必要としないものはどれか。
   choices:
@@ -105,10 +168,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-060
   rank: null
   stem: 試料溶液中のベンゼン濃度の測定をガスクロマトグラフ分析法で行い、ベンゼンのピーク面積4.0×10⁴を得た。この溶液4.0 mLと、ベンゼン濃度15 µg・mL⁻¹の標準溶液2.0 mLを混合し、同様に分析したところ、ベンゼンのピーク面積は6.0×10⁴であった。試料溶液中のベンゼン濃度として、正しい値は次のうちどれか。
   choices:
@@ -139,10 +211,19 @@ questions:
     よって（4）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-054
   rank: null
   stem: 'ガスクロマトグラフ分析法に用いられる固定相液体に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、適切なものは下のうちどれか。
 
@@ -166,10 +247,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-051
   rank: null
   stem: ガスクロマトグラフ分析法による環境空気中のホルムアルデヒド濃度の測定に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -190,10 +280,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_b
+    - odo
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-066
   rank: null
   stem: 環境空気中の酸化プロピレンのガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -214,10 +330,36 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - odo
+    - new
+    - odo
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-hplc
+  traps:
+  - sl-tokka-other-hplc
   rank: null
   stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -238,10 +380,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-074
   rank: null
   stem: 特定化学物質用の検知管Ⓐとマイナスの妨害を示す物質Ⓑとの組合せとして、正しいものは次のうちどれか。
   choices:
@@ -261,10 +429,19 @@ questions:
     同じ組合せは、令和6年度第1回の問題でも、正しいものとして出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 高速液体クロマトグラフ分析法による環境空気中の1,1-ジメチルヒドラジンの測定法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -294,10 +471,36 @@ questions:
   figures: []
   law_note: null
   minor_note: 1,1-ジメチルヒドラジンの高速液体クロマトグラフ分析法で、逆相分配クロマトグラフ法を使う、という点は、ガイドブック3で該当箇所を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-046
   rank: null
   stem: 1-(2-ピリジル)ピペラジンとの反応を利用して、高速液体クロマトグラフ分析法で測定する物質は、次のうちどれか。
   choices:
@@ -315,10 +518,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 次の化合物Ⓐについて、その構造式Ⓑが誤っているものはどれか。
   choices:
@@ -345,10 +557,19 @@ questions:
   - file: 2022-08-tokka-13-fig.png
     alt: Ⓐ（名称）とⒷ（構造式）の2列の表。1＝アクリロニトリル（C=Cの一方の炭素にH・H、他方の炭素にHとC≡N）。2＝クロロメチルメチルエーテル（H₃C-O-CH₂Cl）。3＝p-ジメチルアミノアゾベンゼン（ベンゼン環-N=N-ベンゼン環で、右のベンゼン環にCH₃が2つとNH₂が1つ結合）。4＝o-トルイジン（ベンゼン環にCH₃とNH₂が隣り合って結合）。5＝β-プロピオラクトン（O=C、CH₂、CH₂、Oからなる四員環）
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   stem: 'o-フタロジニトリルの構造に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、適切なものは下のうちどれか。
 
@@ -369,10 +590,19 @@ questions:
   explanation: o-フタロジニトリルは、芳香環である**ベンゼン環**に、2つの**シアノ基（−CN）**が結合した構造です。2つのシアノ基は、芳香環の**隣り合った位置**（オルト位）に結合しています（「オルト」は隣り合った位置を意味します）。よって（1）です。
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-071
   rank: null
   stem: 1気圧におけるエチレンイミン及びエチレンオキシドの物性に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -390,10 +620,36 @@ questions:
     エチレンイミンの融点（約−71℃）は、エチレンオキシドの融点（約−111℃）より高いです。分子量は、エチレンイミンが43で、エチレンオキシドの44より小さいです。20℃の蒸気圧は、沸点が高いエチレンイミンのほうが小さいです。両物質とも、沸点は水の沸点（100℃）より低いです。（物性値は、一般的な化学便覧の概数です。）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - new
+    - ans_b
+    - odo
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-043
   rank: null
   stem: 特定化学物質の分析に使用する標準原液のうち、分析のつど調製して標定する必要があるものは次のうちどれか。
   choices:
@@ -411,10 +667,19 @@ questions:
     トルエンジイソシアネート溶液、フッ化ナトリウム溶液、ペンタクロロフェノール溶液、α-ナフチルアミン溶液は、標準原液を調製して、一定期間保存して使えます。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-tokka-044
   rank: null
   stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -435,10 +700,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』、『作業環境測定ガイドブック5 有機溶剤関係』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 3
+    similar:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_hi
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   stem: ガスクロマトグラフ分析法により、管理濃度の1/10に相当する標準試料ガスを5回繰り返し分析し、平均値c ppm、標準偏差σ ppmの結果を得た。この測定法の検出下限濃度に相当する濃度として、適切なものは次のうちどれか。
   choices:
@@ -453,10 +744,19 @@ questions:
   explanation: ガスクロマトグラフ分析法の**検出下限**は、標準偏差の**3倍**（3σ）に相当する濃度です。（定量下限は10σです。）よって（2）の3σ ppmです。
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-045
   rank: null
   stem: 次の測定対象物質のうち、ろ過捕集法と固体捕集法を組合せた相補型ろ過捕集法により捕集するものはどれか。
   choices:
@@ -477,10 +777,19 @@ questions:
     （参考：『作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-057
   rank: null
   stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q（L）を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
 
@@ -538,3 +847,10 @@ questions:
     管理濃度の1/10の濃度まで測れるように、必要な空気量を求めます。よって（3）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi

@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 次の記述の㋑及び㋺の［　］に入る語句の組合せとして、正しいものは下のうちどれか。ただし、粒子の密度は媒質の密度より十分大きいものとする。「粒径 2 ～ 5 µm の球形粒子が静止した媒質中を落下する際の終末速度は、［㋑］に比例し、［㋺］に反比例する。」
@@ -33,10 +35,19 @@ questions:
     （参考：『作業環境測定のための労働衛生の知識』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 空気中の粒子の挙動に関する次の記述のうち、誤っているものはどれか。
@@ -56,10 +67,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: '密度 2.65 g・cm⁻³、粒径 10.0 µmの球形粒子について、18.0 ℃ の水中において 10 cm の距離を沈降する時間として、正しい値に最も近いものは次のうちどれか。ただし、粒子の沈降時間はストークスの式に従い、水の密度と粘性係数は、15 ℃ と 20 ℃ ではそれぞれ以下のとおりとする。また、重力加速度は 980 cm・s⁻²とする。
@@ -102,10 +139,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-154
   rank: null
   summary: null
   stem: 慣性衝突式分粒装置（インパクター）に関する次の記述のうち、誤っているものはどれか。
@@ -128,10 +174,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    similar:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - odo
+    - ans_b
+    - odo
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 空気中に浮遊する粉じん粒子のろ過捕集に関する次の記述のうち、誤っているものはどれか。
@@ -154,10 +226,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: '次の表は、繊維層フィルターによる粒子の捕集原理別に、粒径、ろ過速度、繊維径の捕集率に与える影響をまとめたものである。表中のⒶ、Ⓑ、Ⓒに入る語句の組合せとして、正しいものは下のうちどれか。
@@ -206,10 +304,19 @@ questions:
   law_note: null
   _review: true
   minor_note: 静電沈着のろ過速度、重力効果の繊維径への依存のしかたは、旧版ガイドブックでは表の形で確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 鉱物性粉じんのろ過捕集で用いられる流量計に関する次の記述のうち、誤っているものはどれか。
@@ -232,10 +339,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    similar:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - new
+    - odo
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 光散乱方式の相対濃度計に関する次の記述のうち、誤っているものはどれか。
@@ -256,10 +389,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 選択肢2・3（相対湿度や吸引流量の影響）は、旧版ガイドブックで確認できておらず、問題の正答に基づく説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 2
+    - 1
+    - 2
+    - 5
+    similar:
+    - 4
+    - 2
+    - 1
+    - 2
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-156
   rank: null
   summary: null
   stem: 圧電天秤方式の粉じん計に関する次の記述のうち、誤っているものはどれか。
@@ -282,10 +441,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - ans_b
+    - odo
+    - new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 電子天秤に関する次の記述のうち、誤っているものはどれか。
@@ -308,10 +493,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    similar:
+    - 1
+    - 1
+    - 4
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - new
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: '鉱物性粉じんの質量濃度を測定するために、読取り限度が0.001 mgの天秤を使用して、1枚のろ紙について3回繰り返し秤量を行った結果、得られたデータは次の表のとおりであった。
@@ -354,10 +565,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-143
   rank: null
   summary: null
   stem: 遊離けい酸を分析するための粒度調整に用いられる液相沈降法に関する次の記述の㋑から㋩の［　］に入る数値又は語句の組合せとして、最も適当なものは下のうちどれか。「単位作業場所で採取した堆積粉じんのうち目開き［㋑］µm のふるいを通過した堆積粉じんを試料とし、約 500 mL の精製水に対し約［㋺］g の試料を加え、懸濁液を作製する。この懸濁液をピペット型液相沈降試験器に移し、精製水で所定の目盛り線に合わせた後に十分に振とうしてから静置する。所定時間静置した後にピペット型液相沈降試験器のコックを回し、得られた所定粒度以下の粒子を含む懸濁液をろ過・乾燥して、多くの場合［㋩］の分析試料とする。」
@@ -392,10 +612,19 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-144
   rank: null
   summary: null
   stem: 粉じん中の遊離けい酸の分析手順に関する次の記述のうち、誤っているものはどれか。
@@ -418,10 +647,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 6
+    - 3
+    - 2
+    - 1
+    - 3
+    similar:
+    - 6
+    - 4
+    - 2
+    - 1
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - odo
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-155
   rank: null
   summary: null
   stem: 王水添加りん酸法による遊離けい酸の分析に関する次の記述のうち、誤っているものはどれか。
@@ -444,10 +699,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-125
   rank: null
   summary: null
   stem: X 線回折分析法に関する次の記述のうち、誤っているものはどれか。
@@ -470,10 +751,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 3
+    similar:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - new
+    - odo
+    - ans_hi
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: X線回折分析で得られた回折図形に関する次の記述のうち、誤っているものはどれか。
@@ -496,10 +803,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-152
   rank: null
   summary: null
   stem: X線回折基底標準吸収補正法によって、粉じん中の石英を定量する方法に関する次の記述のうち、誤っているものはどれか。
@@ -522,10 +855,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 3
+    - 3
+    - 8
+    - 2
+    similar:
+    - 4
+    - 3
+    - 3
+    - 8
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-119
   rank: null
   summary: null
   stem: X線回折基底標準吸収補正法により、粉じん中の石英の定量を行ったところ、次のような測定結果が得られた。有効直径 20 mm のフィルターに、再発じん法により 1.26 mg の粉じんを捕集した。このフィルターの石英の主回折線強度は 280 cps であった。粉じん中の石英含有率（％）として、正しい値は下のうちどれか。ただし、X線吸収補正係数は 1.25、石英の回折線強度は石英が 1 mg・cm⁻²のとき 7000 cps とする。
@@ -554,10 +913,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-137
   rank: null
   summary: null
   stem: 石綿粉じんの捕集及び分析に用いるセルローズエステルメンブランフィルターに関する次の記述のうち、誤っているものはどれか。
@@ -580,10 +948,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_b
+    - new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 位相差顕微鏡に関する次の記述のうち、誤っているものはどれか。
@@ -606,3 +1000,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - odo

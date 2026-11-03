@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 総括安全衛生管理者には、当該事業場においてその事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 2
+    - 5
+    - 1
+    - 2
+    similar:
+    - 6
+    - 2
+    - 5
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ''
+    - ans_hi
+    - new
+    - ''
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 雇入時の健康診断項目のうち、貧血検査、肝機能検査等一定の検査項目については、厚生労働大臣が定める基準に基づき、医師が必要でないと認めるときは、省略することができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 6
+    - 5
+    - 1
+    similar:
+    - 8
+    - 2
+    - 6
+    - 5
+    - 2
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_hi
+    - ''
 - num: 3
   status: published
   chapters:
@@ -78,6 +126,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: その事業場の属する業種にかかわらず、新たに職務に就くこととなった職長に対し、原則として、法令で定める安全又は衛生のための教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 5
+    - 11
+    - 6
+    similar:
+    - 1
+    - 4
+    - 5
+    - 11
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -108,6 +180,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: A空気中の1,2-ジクロルエチレンの濃度 B6か月以内ごとに1回 C30年
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 5
   status: published
   chapters:
@@ -135,6 +214,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で事務所の用に供されるものについては、原則として、2か月以内ごとに1回、定期に、浮遊粉じん量を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - new
+    - odo
 - num: 6
   status: published
   chapters:
@@ -160,6 +263,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: オルト-トリジン
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -184,6 +294,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気呼吸器
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -211,6 +328,30 @@ questions:
   figures: []
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 第1種作業環境測定士は、登録を受けた作業場の種類以外の指定作業場についてのデザイン及びサンプリングの業務を行うことができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 3
+    - 4
+    - 3
+    similar:
+    - 5
+    - 6
+    - 3
+    - 8
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 9
   status: published
   chapters:
@@ -239,6 +380,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質のA測定において、直接捕集方法により試料空気を採取する場合、採取時間は、10分間以上の継続した時間としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 2
+    - 4
+    - 5
+    similar:
+    - 3
+    - 7
+    - 2
+    - 6
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - ''
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -266,6 +431,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤を除き、2種類以上の特定化学物質を含有する混合物に係る単位作業場所にあっては、測定点ごとに、定められた算定式により求めた換算値を測定値とみなし、管理濃度に相当する値を1として管理区分の区分を行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 4
+    - 3
+    similar:
+    - 1
+    - 1
+    - 3
+    - 4
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - odo
+    - odo
+    - ans_b
 - num: 11
   status: published
   chapters:
@@ -296,6 +485,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 個人サンプリング法による作業環境測定結果の評価が2年以上行われ、第1管理区分に区分されることが継続した単位作業場所については、所轄労働基準監督署長の許可を受けることにより、D測定のみによる作業環境測定を行うことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - new
+    - ans_new
+    - new
 - num: 12
   status: published
   chapters:
@@ -324,6 +537,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素は、特定第2類物質であり、かつ、特別管理物質である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 2
+    - 2
+    - 1
+    similar:
+    - 3
+    - 5
+    - 4
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 13
   status: published
   chapters:
@@ -352,6 +589,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質であるマンガンを取り扱う業務に労働者を就かせるときは、当該労働者に対し、法令で定める特別の教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 4
+    - 5
+    - 8
+    - 1
+    similar:
+    - 10
+    - 4
+    - 5
+    - 8
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -379,6 +640,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: A二硫化炭素 B特別有機溶剤
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -407,6 +675,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤等を入れたことのあるタンクで有機溶剤の蒸気を発散するおそれのあるものの内部における業務に労働者を従事させるときは、当該業務に従事する労働者に有機ガス用防毒マスク又は電動ファン付き呼吸用保護具を使用させなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 1
+    - 11
+    - 12
+    - 5
+    similar:
+    - 9
+    - 2
+    - 11
+    - 12
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_hi
 - num: 16
   status: published
   chapters:
@@ -434,6 +726,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分については、原則として、3か月以内ごとに1回、定期に、外部放射線による線量当量率又は線量当量を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 11
+    - 5
+    - 3
+    similar:
+    - 5
+    - 7
+    - 11
+    - 6
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 17
   status: published
   chapters:
@@ -465,6 +781,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業以外の粉じん作業を行う屋内作業場については、当該粉じん作業に係る粉じんを減少させるため、局所排気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 4
+    - 7
+    - 11
+    similar:
+    - 5
+    - 4
+    - 4
+    - 7
+    - 11
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -493,6 +833,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気調和設備を設けている場合は、室に供給される空気中の二酸化炭素の含有率(1気圧、25°Cとした場合の空気中に占める二酸化炭素の容積の割合)を、5,000 ppm以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 2
+    - 4
+    - 5
+    similar:
+    - 6
+    - 5
+    - 2
+    - 4
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -521,6 +885,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第1種酸素欠乏危険作業については、酸素欠乏・硫化水素危険作業主任者技能講習を修了した者のうちから、酸素欠乏危険作業主任者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 5
+    - 10
+    - 8
+    similar:
+    - 1
+    - 1
+    - 5
+    - 11
+    - 8
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - new
+    - odo
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -545,3 +933,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: じん肺健康診断については、その記録の保存期間は5年間である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 10
+    - 7
+    - 1
+    - 1
+    similar:
+    - 3
+    - 10
+    - 7
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new

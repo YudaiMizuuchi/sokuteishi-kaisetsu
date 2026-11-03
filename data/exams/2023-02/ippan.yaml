@@ -24,6 +24,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 過去に実際に発生した負傷又は疾病のうち、最も重篤であったものの重篤度を、リスクの見積りの際における重篤度として見積もる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 3
+    - 2
+    - 5
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - ''
+    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -48,6 +72,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ディスプレイ画面の明るさ、書類及びキーボード面における明るさと、周辺の明るさの差は、なるべく大きく明瞭にする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    similar:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - ''
+    - odo
+    - ''
+    - ''
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: テトラクロロエチレンの生物学的モニタリングの指標として、尿中のテトラクロロエタンの濃度がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    similar:
+    - 3
+    - 5
+    - 2
+    - 2
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - ''
+    - ans_b
 - num: 4
   status: published
   chapters:
@@ -96,6 +168,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一酸化炭素による中毒では、ヘモグロビン合成の阻害による貧血がみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 2
+    - 7
+    - 6
+    - 5
+    similar:
+    - 9
+    - 2
+    - 7
+    - 7
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -123,6 +219,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 8
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -147,6 +250,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: イ ニ
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 4
+    - 2
+    - 4
+    similar:
+    - 2
+    - 5
+    - 4
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -168,6 +295,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベリリウム中毒では、溶血性貧血、尿の赤色化などの症状がみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 3
+    - 3
+    - 2
+    - 4
+    similar:
+    - 7
+    - 7
+    - 3
+    - 6
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 8
   status: published
   chapters:
@@ -192,6 +343,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: メタノールによる健康障害として顕著なものは、網膜細動脈瘤を伴う脳血管障害である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 5
+    - 3
+    - 3
+    similar:
+    - 5
+    - 2
+    - 5
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ''
+    - ans_hi
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -216,6 +391,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 熱けいれんは、高温の環境下での大量の発汗により、体内の水分が急激に減少したときに生ずる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 3
+    - 3
+    - 2
+    similar:
+    - 4
+    - 4
+    - 3
+    - 3
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -237,6 +436,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動の周波数が高いほど起こりやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 4
+    - 2
+    - 2
+    similar:
+    - 4
+    - 4
+    - 4
+    - 2
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - ''
+    - odo
 - num: 11
   status: published
   chapters:
@@ -258,6 +481,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ロ ニ
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 7
+    - 2
+    - 2
+    - 5
+    similar:
+    - 2
+    - 7
+    - 2
+    - 2
+    - 8
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - ''
+    - ''
+    - odo
 - num: 12
   status: published
   chapters:
@@ -279,6 +526,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石炭、硫化鉱又は魚油を入れてあるタンクの内部での作業では、硫化水素中毒の危険がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 12
+    - 4
+    - 4
+    - 7
+    similar:
+    - 6
+    - 12
+    - 4
+    - 6
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -303,6 +574,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: レーザー光線は、単一波長で位相のそろった可視光線のことで、指向性や集束性が強く、エネルギー密度が高いという特徴を持つ。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 8
+    - 3
+    - 4
+    - 3
+    similar:
+    - 5
+    - 8
+    - 3
+    - 5
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -327,6 +622,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線による皮膚障害のうち、脱毛には潜伏期があり、晩発障害に分類される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 4
+    - 2
+    - 3
+    similar:
+    - 4
+    - 2
+    - 5
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -351,6 +670,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 環境空気中の有害物質濃度は、正規分布に従って分布していることが多い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 3
+    - 2
+    - 3
+    similar:
+    - 3
+    - 4
+    - 3
+    - 2
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ''
+    - ans_b
 - num: 16
   status: published
   chapters:
@@ -375,6 +718,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 外付け式フードの制御風速とは、作業者の呼吸位置において必要となる最小の風速である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 3
+    - 7
+    - 6
+    similar:
+    - 4
+    - 8
+    - 3
+    - 9
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -399,6 +766,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射性物質による汚染のある区域内の作業で、オイルミストが混在する場合に使用する防じんマスクの区分はRS3である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    similar:
+    - 2
+    - 4
+    - 3
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 18
   status: published
   chapters:
@@ -423,6 +814,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 防毒マスクのアンモニア用吸収缶は、アンモニアの濃度が低いと触媒作用が緩慢になり、効率が低い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 4
+    - 6
+    - 2
+    similar:
+    - 4
+    - 4
+    - 4
+    - 7
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - ''
 - num: 19
   status: published
   chapters:
@@ -444,6 +859,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: イ ハ
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 2
+    - 3
+    - 3
+    similar:
+    - 4
+    - 3
+    - 2
+    - 3
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - ''
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -468,3 +907,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じんの管理濃度は、その粉じんに含まれる吸入性粉じんの含有率(%)を用いて算出される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 2
+    - 11
+    - 3
+    similar:
+    - 5
+    - 2
+    - 2
+    - 11
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - ans_new
+    - odo
+    - odo

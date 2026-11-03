@@ -4,7 +4,7 @@
   <div class="qmeta">
     <span>{{ q.exam.label }}（{{ q.exam.held }}）</span>
     <span class="subj">{{ q.subjectName }}</span>
-    {% if q.rank %}<span class="rank rank-{{ q.rank }}" title="参考書のランク">ランク{{ q.rank }}</span>{% endif %}
+    {% if q.rank %}<span class="rank rank-{{ q.rank }}" title="過去の出題頻度から見た、この問題の区分">{{ q.rankLabel }}</span>{% endif %}
     {% if not q.published %}<span class="draft">下書き</span>{% endif %}
   </div>
   <h2 class="qtitle">{% if link %}<a href="{{ q.url }}">問{{ q.num }}</a>{% else %}問{{ q.num }}{% endif %}</h2>
@@ -41,6 +41,16 @@
     <ol class="notes">
       {% for n in q.choiceNotes %}<li{% if n.isAnswer %} class="is-answer"{% endif %}><span class="n">({{ loop.index }})</span><span>{{ n.html | safe }}</span></li>{% endfor %}
     </ol>
+    {% endif %}
+    {% if q.freq %}
+    <section class="freq">
+      {% if q.freq.level %}<p class="level lv-{{ q.freq.level.code }}"><b>{{ q.freq.level.head }}</b></p>
+      <p class="level-why">理由：{{ q.freq.level.reason }}</p>
+      <p class="freq-note">この区分は、過去の全回の出題にもとづく目安です。</p>{% endif %}
+      <h3>出題頻度</h3>
+      <p class="freq-lead">この科目の過去{{ q.freq.denom }}回のうち、同じ内容が出題された回数です（同じ回に重複しても1回と数えます。「似た記述」は、言い回しが違うが、論点が近いものです。実際の頻度は、これらの間にあることが多いです）。</p>
+      <ol class="freq-list">{% for f in q.freq.items %}<li{% if f.hi %} class="hi"{% endif %}>{% if q.freq.kind == "choice" %}<span class="n">({{ loop.index }})</span>{% endif %}<span>{{ f.truth }}{% if f.tag %}<span class="tagt t-{{ f.tagCode }}">{{ f.tag }}</span>{% endif %}：{{ f.text }}{% if f.simText %}<span class="sim">／{{ f.simText }}</span>{% endif %}</span></li>{% endfor %}</ol>
+    </section>
     {% endif %}
     {% for t in q.traps %}{% if not t.misc and not t.hidden %}
     <section class="trap">

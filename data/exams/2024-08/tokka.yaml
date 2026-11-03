@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-tokka-other-uv
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -29,10 +31,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-tokka-other-lod
   rank: null
   summary: null
   stem: ある化合物の水溶液を吸光光度分析法で測定したところ、測定波長における透過率は 60 ％であった。その波長におけるモル吸光係数を 8.26 × 10³ cm⁻¹･mol⁻¹･L、セルの光路長を 1.0 cmとすると、この化合物のモル濃度に最も近いものは次のうちどれか。ただし、log₁₀2 = 0.301、log₁₀3 = 0.477 とする。
@@ -61,10 +89,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の化学物質のうち、可視部の吸光光度分析法で定量する場合に発色操作を必要としないものはどれか。
@@ -84,10 +121,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 環境空気中の o-トリジンの吸光光度分析法に関する次の記述の㋑から㋩に入る用語及び数値の組合せとして、正しいものは下のうちどれか。「環境空気中の o-トリジンは、［㋑］で液体捕集し、これに［㋺］を加えて反応させ、生成する黄色酸化物をクロロホルムで抽出し、［㋩］nm 付近の波長で吸光度を測定して定量する。」
@@ -107,10 +153,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-051
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法による環境空気中のアクリルアミド濃度の測定に関する次の記述のうち、誤っているものはどれか。
@@ -139,10 +194,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - new
+    - new
+    - ans_b
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法の検出器に関する次の記述のうち、誤っているものはどれか。
@@ -165,10 +246,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-tokka-040
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法において、キャピラリーカラムを使用する場合に用いる次の試料導入法のうち、低濃度試料の分析に適していないものはどれか。
@@ -188,10 +295,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 環境空気中のエチレンオキシドの測定方法に関する次の記述の㋑から㋩のに入る用語の組合せとして、正しいものは下のうちどれか。「活性炭に［㋑］溶液を含浸・乾燥させたものを充塡した捕集管に試料空気を通気し、エチレンオキシドを誘導体化して［㋺］として捕集する。この［㋺］をトルエン／アセトニトリルで抽出し、炭酸ナトリウムを加えて1時間以上放置した後、［㋩］で分析する。」
@@ -224,10 +340,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-074
   rank: null
   summary: null
   stem: 特定化学物質用の検知管Ⓐとマイナスの妨害を示す物質Ⓑとの組合せとして、正しいものは次のうちどれか。
@@ -246,10 +371,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-hplc
+  traps:
+  - sl-tokka-other-hplc
   rank: null
   summary: null
   stem: 高速液体クロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -272,10 +406,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 4
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 4
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-041
   rank: null
   summary: null
   stem: 環境空気（25℃、1気圧）中のp-ニトロクロロベンゼンの濃度を測定するため、2本のミゼットインピンジャーの各々に捕集液 10 mL を入れて直列に連結し、試料空気を流量1.0 L･min⁻¹ で 10 分間吸引した。捕集後の捕集液は合わせてメスフラスコに入れ、さらに捕集液で25 mL に定容したものを試料液とした。ガスクロマトグラフで分析した結果、試料液のピーク面積は1900であった。p-ニトロクロロベンゼン濃度が、0.40 µg･mL⁻¹ の標準液を試料液と同様に分析したところ、ピーク面積は 4800 であった。環境空気中の p-ニトロクロロベンゼン濃度として、正しい値に最も近いものは次のうちどれか。
@@ -307,10 +467,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-046
   rank: null
   summary: null
   stem: 1-(2-ピリジル)ピペラジンとの反応を利用して、高速液体クロマトグラフ分析法で測定する物質は、次のうちどれか。
@@ -330,10 +499,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-048
   rank: null
   summary: null
   stem: 次の特定化学物質Ⓐについて、その構造式Ⓑが誤っているものはどれか。
@@ -361,10 +539,19 @@ questions:
   - file: 2024-08-tokka-13-fig.png
     alt: Ⓐ（名称）とⒷ（構造式）の2列。1＝エチレンオキシド、Ⓑは H₂C と CH₂ が結合し、その下の O とで三員環をつくる。2＝ベンゾトリクロリド、Ⓑは中心の C に Cl が3つ（上・左・右）結合し、下でベンゼン環に結合する。3＝o-フタロジニトリル、Ⓑは2つの6員環が縮合した環（ナフタレン環）で、隣り合う2つの炭素に NO₂ がそれぞれ結合する。4＝β-プロピオラクトン、Ⓑは O=C、CH₂、CH₂、O による四員環。5＝ジクロロベンジジン、Ⓑは2つのベンゼン環が結合した構造で、左の環に H₂N と Cl、右の環に Cl と NH₂ が結合する
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 次の化合物のうち、1気圧における沸点が最も低いものはどれか。
@@ -381,10 +568,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: ある特定化学物質に関して以下の情報を得た。㋑ 分子内に窒素原子を1つ含む㋺ アミノ基を有する㋩ 常温（25 ℃）で液体であるこの情報に合致するのは次のうちどれか。
@@ -409,10 +605,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-069
   rank: null
   summary: null
   stem: 吸光光度分析法における測定対象物質Ⓐとその標準溶液の調製に使用する標準物質Ⓑとの次の組合せのうち、不適切なものはどれか。
@@ -448,10 +653,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-tokka-050
   rank: null
   summary: null
   stem: 拡散セルを用い、ベンゼンの標準ガスを発生させた。標準ガスの発生流量は、1.0 L･min⁻¹、拡散セルの温度は 25 ℃であった。5時間ごとに拡散セル全体の質量を測定したところ、以下のようになった。時間（hr） 質量（g）0 25.4101 5 25.3994 10 25.3887この標準ガスの濃度として、正しい値に最も近いものは次のうちどれか。ただし、ベンゼンのモル質量は 78.11 g･mol⁻¹とする。
@@ -481,10 +695,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: 液体捕集法の捕集率に関する次の記述のうち、誤っているものはどれか。
@@ -504,10 +727,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-042
   rank: null
   summary: null
   stem: 次の測定対象物質のうち、ろ過捕集法と固体捕集法との組合せで捕集を行うものはどれか。
@@ -530,10 +779,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-tokka
+  traps:
+  - sl-tokka-other-tokka
   rank: null
   summary: null
   stem: '液体捕集法を用いて環境空気試料を捕集する際の、必要最小吸引空気量Q(L)を求める次の式中のA、B、Cが表すものの組合せとして、正しいものは下のうちどれか。
@@ -589,3 +847,10 @@ questions:
     管理濃度の1/10の濃度まで測れるように、必要な空気量を求めます。よって（2）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi

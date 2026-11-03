@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度は、粒子数濃度として示されている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 5
+    - 1
+    - 1
+    similar:
+    - 3
+    - 3
+    - 5
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 吹付け塗装作業場所と壁で仕切られた塗料調合場所とがあり、塗料調合と吹付け塗装を作業者1名で行っていたので、吹付け塗装作業場所と塗料調合場所を合わせて一つの単位作業場所とした。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 4
+    - 2
+    - 1
+    similar:
+    - 2
+    - 7
+    - 4
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じんを対象とした測定で相対濃度計を使用する場合には、各測定点において10分間以上連続して測定を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 5
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ''
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定点の高さは、床上100 cm以上150 cm以下の範囲で作業の実態に応じて選定する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 4
+    - 3
+    - 1
+    similar:
+    - 1
+    - 8
+    - 4
+    - 7
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -123,6 +219,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 四塩化炭素は、クロロホルムより極性が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - ''
 - num: 6
   status: published
   chapters:
@@ -157,6 +277,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定平均値は、81 dBである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - ''
+    - new
+    - ''
 - num: 7
   status: published
   chapters:
@@ -181,6 +325,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定に係る個人サンプラーを装着する労働者とD測定に係る個人サンプラーを装着する労働者を同一の労働者とする場合には、1つの個人サンプラーを装着すればよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - odo
+    - ans_new
+    - new
 - num: 8
   status: published
   chapters:
@@ -205,6 +373,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: フッ化水素
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -232,6 +407,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -256,6 +438,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 面積式流量計では、吸引試料空気の温度が標準状態の温度と異なっていても、温度による流量の補正は必要ない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 7
+    - 1
+    - 3
+    - 6
+    similar:
+    - 4
+    - 7
+    - 1
+    - 6
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -280,6 +486,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、活性炭に比べて表面の活性が高いため、不安定な化合物の捕集には適さない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 3
+    - 1
+    similar:
+    - 3
+    - 3
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 12
   status: published
   chapters:
@@ -304,6 +534,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ガラス繊維ろ紙による微細粒子の捕集では、ろ過流速が遅いほど、拡散作用による捕集率は減少する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 5
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - new
 - num: 13
   status: published
   chapters:
@@ -328,6 +582,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによる粒子の捕集では、粒径が小さいほど捕集率は高くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 10
+    - 2
+    - 1
+    similar:
+    - 3
+    - 1
+    - 10
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - new
+    - odo
+    - ''
+    - new
 - num: 14
   status: published
   chapters:
@@ -355,6 +633,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 相対濃度計の測定値は、試料空気の吸引流量が低下すると単位時間あたりに取り込まれる粉じん粒子が減少するので、小さくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 4
+    - 4
+    similar:
+    - 1
+    - 3
+    - 1
+    - 4
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - odo
 - num: 15
   status: published
   chapters:
@@ -382,6 +684,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤は、検知管で測定してはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 3
+    - 1
+    - 2
+    similar:
+    - 5
+    - 1
+    - 3
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - ''
 - num: 16
   status: published
   chapters:
@@ -409,6 +735,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -449,6 +782,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 215 時間
+  freq:
+    kind: question
+    denom: 23
+    count: 8
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -474,6 +814,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 対数正規分布の幾何標準偏差の値が1より小さい場合がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 10
+    - 8
+    - 9
+    similar:
+    - 1
+    - 7
+    - 10
+    - 8
+    - 10
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -499,6 +863,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 適正な測定を繰り返すことによって得られた測定値の算術平均値のことを真値という。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 20
   status: published
   chapters:
@@ -524,3 +912,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値は、気中有害物質濃度の算術平均値の推定値である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 6
+    - 9
+    - 2
+    - 6
+    similar:
+    - 7
+    - 6
+    - 9
+    - 2
+    - 6
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - ''
+    - odo

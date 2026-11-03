@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 次の有機溶剤の組合せのうち、モル質量の値及び常温（25℃）での蒸気圧（hPa）の値のいずれもがⒷに比べⒶの方が大きいものはどれか。
@@ -39,10 +41,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 有機溶剤を、1気圧において、沸点の高い順に並べたものは次のうちどれか。
@@ -59,10 +70,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤誤誤誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: N,N-ジメチルホルムアミドの物性に関する次の記述の㋑から㋩までのに入る語句の組合せとして、適切なものは下のうちどれか。「N,N-ジメチルホルムアミドは1分子内に窒素が［㋑］あり、官能基としては［㋺］を有する。また、常温、常圧での状態は［㋩］である。」
@@ -82,10 +119,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 有機溶剤の測定に関する次の記述のうち、誤っているものはどれか。
@@ -109,10 +155,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 固体捕集法で、電動ポンプの流量調整を捕集管を接続した状態で行う、という点は、プロジェクトの教科書で記述を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 5
+    - 1
+    - 1
+    - 2
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - odo
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 固体捕集法-ガスクロマトグラフ分析法に関する次の記述の㋑から㋩までのに入る語句の組合せとして、不適当なものは下のうちどれか。「作業環境空気中の［㋑］は［㋺］に捕集し、［㋩］で脱着して得た試料液を、ガスクロマトグラフに導入して定量する。」
@@ -136,10 +208,19 @@ questions:
   law_note: null
   _review: true
   minor_note: メタノールを活性炭管に捕集する組合せが不適当である、という点は、ガイドブック5で低沸点溶剤の注意までは確認できましたが、組合せの表で直接確認していません。根拠の確認は後回しにしています。
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 受動型試料採取機器（パッシブサンプラー）を用いた有機溶剤の測定では、フィックの拡散法則に基づいた計算式により空気中濃度が算出される。フィックの拡散法則に基づき理論的に求めたサンプリング速度（cm³・min⁻¹）に関する次の記述のうち、誤っているものはどれか。
@@ -165,10 +246,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-008
   rank: null
   summary: null
   stem: 混合有機溶剤について検知管法の使用が認められている場合において、トルエン、酢酸エチル、1,1,1-トリクロロエタン及びキシレンを含有する混合溶剤を使用している単位作業場所内の併行測定点におけるトルエン用検知管の測定値は、15 ppmであった。一方、ガスクロマトグラフで分析した測定値は、トルエン 10 ppm、酢酸エチル 14 ppm、1,1,1-トリクロロエタン 8.0 ppm及びキシレン 4.0 ppmであった。換算値変換係数として、正しい値は次のうちどれか。なお、トルエン、酢酸エチル、1,1,1-トリクロロエタン及びキシレンの管理濃度は、それぞれ 20 ppm、200 ppm、200 ppm及び 50 ppmである。
@@ -185,10 +292,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-025
   rank: null
   summary: null
   stem: 固定相液体としてメチルシリコン系の無極性カラムを用いたガスクロマトグラフ分析法において、保持時間の最も長い有機溶剤は、次のうちどれか。
@@ -205,10 +321,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法のキャリアガスに関する次の記述のうち、誤っているものはどれか。
@@ -231,10 +356,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 5
+    - 3
+    - 1
+    - 1
+    similar:
+    - 5
+    - 5
+    - 4
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
@@ -254,10 +405,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-027
   rank: null
   summary: null
   stem: 同族化合物の複数成分からなる試料を分析する際の、ガスクロマトグラフのカラム温度に関する次の記述の㋑から㋩までの［　］に入る語句の組合せとして、正しいものは下のうちどれか。「カラム温度は分析対象物質の沸点を基にして決められるが、カラム温度が［㋑］ほど試料成分の保持時間が［㋺］なり、試料成分の分離は［㋩］なる。」
@@ -277,10 +454,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: キャピラリーカラムを用いたガスクロマトグラフ分析法におけるスプリット注入法に関する次の記述のうち、誤っているものはどれか。
@@ -303,10 +489,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - odo
+    - new
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ質量分析装置による定性分析及び定量分析に関する次の記述のうち、誤っているものはどれか。
@@ -326,10 +538,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフの検出器に用いられる質量分析計（MS）に関する次の記述のうち、誤っているものはどれか。
@@ -350,10 +588,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 質量分離部で磁場型のほうが四重極型より分解能が高い、という点は、プロジェクトの教科書で記述を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法の定量下限を求める次の記述のうち、誤っているものはどれか。
@@ -373,10 +637,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-009
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -399,10 +689,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 5
+    - 3
+    similar:
+    - 2
+    - 2
+    - 1
+    - 5
+    - 3
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - new
+    - odo
+    - ans_hi
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-033
   rank: null
   summary: null
   stem: 二硫化炭素の吸光光度分析法に関する次の記述の㋑から㋩までの［　］に入る語句又は数字の組合せとして、正しいものは下のうちどれか。「 環境空気中の二硫化炭素は、［㋑］に捕集し、捕集液が［㋺］を呈したら、試料空気の吸引をやめ、［㋩］nm付近の波長で吸光度を測定する。」
@@ -425,10 +741,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-034
   rank: null
   summary: null
   stem: 作業者がメチルエチルケトンを含む塗料容器を持ち、移動しながら製品に塗装する作業を行っていたため、作業者に受動型試料採取機器（パッシブサンプラー）を装着して15分間のD 測定を実施した。測定終了後、2 mLの溶媒でメチルエチルケトンを脱着し、これを試料液とした。試料液のうち 2 µLをマイクロシリンジでガスクロマトグラフに導入して分析したところ、試料液の濃度は10.5 µg･mL⁻¹であった。D 測定値として、正しい値に最も近いものは次のうちどれか。ただし、サンプリング速度：12 cm³･min⁻¹、メチルエチルケトンのモル質量：72.1 g･mol⁻¹、脱着率：0.9 とする。また、25 ℃、1気圧下とする。
@@ -459,10 +784,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   summary: null
   stem: 1名の作業者により、トルエンを溶剤とした塗料を用いた手吹きによる塗装作業が移動しながら行われていた。作業者に能動型試料採取器（アクティブサンプラー）を装着して、1時間のサンプリングを5回繰り返すことにより C 測定を行った。作業後に回収された採取器の一つについて、溶媒にて脱着した後にガスクロマトグラフで分析したところ、トルエン濃度として 322 µg･mL⁻¹ が得られた。脱着溶媒は 2 mLとすると、測定値として正しい値に最も近いものは次のうちどれか。ただし、吸引流量：0.1 L･min⁻¹、トルエンのモル質量：92.1g･mol⁻¹、脱着率：95 ％ とする。また、25 ℃、1気圧下とする。
@@ -493,10 +827,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-yuki-other-gen
   rank: null
   summary: null
   stem: 有機溶剤の標準液の調製に関する次の記述のうち、誤っているものはどれか。
@@ -516,3 +859,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 1
+    - 4
+    - 3
+    - 1
+    similar:
+    - 5
+    - 1
+    - 4
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new

@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 電子の質量は、陽子の質量と同程度である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 1
+    - 3
+    - 2
+    similar:
+    - 5
+    - 5
+    - 1
+    - 4
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -71,6 +95,13 @@ questions:
   - ㋺
   - ㋩
   - ㋥
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -99,6 +130,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -133,6 +171,13 @@ questions:
   law_note: null
   _key_choice: 2.0 g・L−1
   _stem_head: ある気体の密度は、27 °C、1.0気圧において1.3 g・L−1であった。この気体の117 °C、2.0気圧における密
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -162,6 +207,13 @@ questions:
   law_note: null
   _key_choice: 0.70 mol・L−1
   _stem_head: 濃度14 mol・L−1の硝酸溶液10 mLを水で希釈して200 mLにした溶液の水素イオン濃度として、正しい値は次のう
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -199,6 +251,13 @@ questions:
   law_note: null
   _key_choice: '36'
   _stem_head: 水素H2 1.0 molとヨウ素I2 1.0 molを10 Lの容器に入れて、ある温度に保ったところ、次の反応により、ヨ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -227,6 +286,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -252,6 +318,30 @@ questions:
   law_note: null
   _key_choice: 標準物質の流出速度は、拡散チューブの内径に比例する。
   _stem_head: 拡散セルによる標準ガス調製に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 9
   status: published
   chapters:
@@ -280,6 +370,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -305,6 +402,30 @@ questions:
   law_note: null
   _key_choice: 標準添加法を用いる場合は、試料溶液中の共存成分が既知である必要がある。
   _stem_head: 定量方法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 1
+    - 4
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 11
   status: published
   chapters:
@@ -330,6 +451,30 @@ questions:
   law_note: null
   _key_choice: 溶解度積は、水溶液中の塩化物イオンのモル濃度によって変化する。
   _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 1
+    similar:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - ''
+    - new
 - num: 12
   status: published
   chapters:
@@ -356,6 +501,13 @@ questions:
   law_note: null
   _key_choice: 硫酸溶液
   _stem_head: 次の0.001 mol・L−1の水溶液のうち、最も小さいpHを示すものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -381,6 +533,30 @@ questions:
   law_note: null
   _key_choice: 吸光度は、吸収極大波長で測定しなければならない。
   _stem_head: 吸光度に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 8
+    - 2
+    - 1
+    - 1
+    similar:
+    - 2
+    - 10
+    - 7
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -410,6 +586,13 @@ questions:
   law_note: null
   _key_choice: 65%
   _stem_head: 物質Aの溶液を光路長1 cmの試料セルに入れ、波長550 nmの光を当てたところ、透過率は80%であった。この溶液を光路
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -435,6 +618,30 @@ questions:
   law_note: null
   _key_choice: フレーム中でイオン化した目的元素が光源からの共鳴線を吸収する。
   _stem_head: フレーム原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - ''
+    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -464,6 +671,13 @@ questions:
   - ㋑
   - ㋺
   - ㋩
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -494,6 +708,13 @@ questions:
   law_note: null
   _key_choice: 理論段数は変化しない。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときのカラム特性に関する次の記述のうち、誤っているものはどれか
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 18
   status: published
   chapters:
@@ -522,6 +743,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
   chapters:
@@ -547,6 +775,30 @@ questions:
   law_note: null
   _key_choice: 特性X線の波長は、印加電圧を上げるに従い短くなる。
   _stem_head: X線管から発生するX線に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - new
+    - ''
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -572,3 +824,27 @@ questions:
   law_note: null
   _key_choice: 核異性体転移では、質量数は1つ増加する。
   _stem_head: 原子核壊変による原子の変化に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - new
+    - new
+    - ans_new

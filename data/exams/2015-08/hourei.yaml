@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 衛生管理者は、少なくとも毎月1回作業場等を巡視し、設備、作業方法等に有害のおそれがあるときは、直ちに、労働者の健康障害防止に必要な措置を講じなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 1
+    - 6
+    - 7
+    - 3
+    similar:
+    - 9
+    - 1
+    - 6
+    - 7
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -50,6 +74,30 @@ questions:
   law_note: null
   _key_choice: 常時50人以上の労働者を使用する事業者は、雇入れ時の健康診断を行ったときは、遅滞なく、健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 1
+    - 2
+    - 6
+    similar:
+    - 4
+    - 4
+    - 3
+    - 2
+    - 6
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、その事業場の属する業種にかかわらず、新たに職務に就くこととなった職長に対し、法令で定める安全又は衛生のための教育を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 4
+    - 1
+    - 6
+    similar:
+    - 9
+    - 3
+    - 4
+    - 2
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - ''
+    - odo
 - num: 4
   status: published
   chapters:
@@ -97,6 +169,13 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -124,6 +203,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -150,6 +236,30 @@ questions:
   law_note: null
   _key_choice: 第1種酸素欠乏危険作業を行うときは、その日の作業を開始した直後に、当該作業場における空気中の酸素の濃度を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 4
+    - 5
+    - 10
+    similar:
+    - 5
+    - 2
+    - 4
+    - 5
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ans_b
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -175,6 +285,13 @@ questions:
   law_note: null
   _key_choice: 送気マスク
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -198,6 +315,13 @@ questions:
   law_note: null
   _key_choice: ベリリウム化合物
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 9
   status: published
   chapters:
@@ -220,6 +344,30 @@ questions:
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 第1種作業環境測定士は、登録を受けた作業場の種類以外の指定作業場についてのデザイン及びサンプリングの業務を行うことができない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 4
+    - 1
+    - 4
+    similar:
+    - 3
+    - 3
+    - 6
+    - 1
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - new
+    - odo
 - num: 10
   status: published
   chapters:
@@ -246,6 +394,30 @@ questions:
   law_note: null
   _key_choice: ろ過捕集方法に用いるろ過材は、0.5 μmの粒子を95%以上捕集する性能を有するものでなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 4
+    - 2
+    - 9
+    - 4
+    similar:
+    - 11
+    - 5
+    - 2
+    - 9
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -271,6 +443,30 @@ questions:
   law_note: null
   _key_choice: 測定値が管理濃度の5分の1に満たない測定点がある単位作業場所にあっては、管理濃度の5分の1を当該測定点における測定値とみなして、管理区分の区分を行うことができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 4
+    - 2
+    - 2
+    similar:
+    - 3
+    - 5
+    - 4
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - ''
+    - ''
 - num: 12
   status: published
   chapters:
@@ -296,6 +492,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、労働者を常時就業させる屋内作業場の気積を、設備の占める容積及び床面から3 mをこえる高さにある空間を除き、労働者1人について、10 m3以上としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 3
+    - 3
+    - 1
+    - 2
+    similar:
+    - 9
+    - 3
+    - 3
+    - 1
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - new
+    - ''
 - num: 13
   status: published
   chapters:
@@ -319,6 +539,13 @@ questions:
   law_note: null
   _key_choice: アンモニアは、第2類物質である。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
   chapters:
@@ -345,6 +572,13 @@ questions:
   law_note: null
   _key_choice: ノルマルヘキサン
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -368,6 +602,30 @@ questions:
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 11
+    - 7
+    - 7
+    - 12
+    similar:
+    - 3
+    - 11
+    - 8
+    - 8
+    - 12
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -398,6 +656,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -424,6 +689,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業を行う屋内作業場については、全体換気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 11
+    - 2
+    - 7
+    - 1
+    similar:
+    - 4
+    - 11
+    - 5
+    - 8
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -450,6 +739,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、室における二酸化炭素の含有率を1,000 ppm以下としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 7
+    - 3
+    - 1
+    - 1
+    similar:
+    - 8
+    - 7
+    - 3
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - new
+    - new
 - num: 19
   status: published
   chapters:
@@ -473,6 +786,30 @@ questions:
   law_note: null
   _key_choice: 酸素欠乏危険作業に労働者を従事させる場合に、作業の性質上、当該作業を行う場所を換気することが著しく困難なときには、労働者に空気呼吸器又は電動ファン付き呼吸用保護具を使用させなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 4
+    - 5
+    - 1
+    similar:
+    - 1
+    - 3
+    - 4
+    - 5
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -495,3 +832,27 @@ questions:
   law_note: null
   _key_choice: 事業者は、その行ったじん肺健康診断に関する記録及びエックス線写真を5年間保存しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 11
+    - 11
+    - 1
+    - 1
+    similar:
+    - 2
+    - 11
+    - 11
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_new

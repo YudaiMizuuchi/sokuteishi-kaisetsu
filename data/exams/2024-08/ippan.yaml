@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 指針では、リスクアセスメントの実施時期として、リスクアセスメント実施体制に変更があったとき、総括安全衛生管理者、衛生管理者、化学物質管理者等に異動があったとき、があげられている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -56,6 +80,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -80,6 +111,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 変異原性試験は、化学物質による胎児期の臓器・組織形成への影響を見るためのものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ''
+    - new
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -104,6 +159,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: n-ヘキサンの生物学的モニタリング指標は、尿中のn-ヘキサノールである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 6
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - new
+    - new
 - num: 5
   status: published
   chapters:
@@ -134,6 +213,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 岩石を切断や研磨した際に生じる粉じんの遊離けい酸含有率を知るためには、もとの岩石の遊離けい酸含有率を測定する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 3
+    - 3
+    similar:
+    - 1
+    - 3
+    - 1
+    - 4
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -158,6 +261,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ガスや蒸気である有害物質のうち、水への溶解度が高いものは、吸入すると肺胞まで到達しやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ''
+    - new
+    - ans_new
 - num: 7
   status: published
   chapters:
@@ -188,6 +315,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -212,6 +346,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、その種類には、COPD(慢性閉塞性肺疾患)、間質性肺炎などが含まれる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 2
+    - 7
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - ''
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -236,6 +394,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 金属熱は、亜鉛や銅などのヒュームを吸入して発生する疾病で、悪寒や発熱、関節痛などの症状がみられ、記憶障害や脱力感などの後遺症が出ることが多い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 10
   status: published
   chapters:
@@ -260,6 +442,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トルエンの密度は水より大きく、また、その蒸気密度は空気より大きく、低いところにたまりやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ''
+    - ans_new
+    - new
 - num: 11
   status: published
   chapters:
@@ -284,6 +490,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 12
   status: published
   chapters:
@@ -314,6 +544,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: A(8)=a_{hv}{T/8}
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -340,6 +577,30 @@ questions:
     alt: 周波数重み付け特性のグラフ。横軸：周波数（Hz）、目盛は16、31.5、63、125、250、500、1000、2000、4000、8000、16000。縦軸：補正値（dB）、目盛は20から-80まで10刻み。曲線が3本（太い破線、実線、点線）。太い破線は約-15 dBから始まり0 dB付近で推移する。実線は約-27 dBから始まり、4000 Hz付近で約+11 dBの山になる。点線は約-70 dBから始まり、1000 Hz以上では約+1 dB付近で推移する。曲線のラベルとして、0 dB付近の左に㋑、-30 dB付近の左に㋺、-50 dB付近の左に㋩が配置されている
   law_note: null
   _key_choice: 等価騒音レベルの測定では、騒音計の周波数重み付け特性Aを用いて行う測定をA測定、周波数重み付け特性Cを用いて行う測定をC測定という。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - ''
+    - new
 - num: 14
   status: published
   chapters:
@@ -364,6 +625,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素による慢性中毒では、歯への黄色の色素沈着、歯牙酸蝕症などがみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -388,6 +673,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 吸光光度分析では、可視から紫外領域の波長の光が利用されるが、作業環境測定で使われるのは、通常、紫外領域の波長の光である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 8
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - new
+    - new
 - num: 16
   status: published
   chapters:
@@ -412,6 +721,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ガスクロマトグラフの検出器であるECDは、コバルト60から放出されるβ線を利用したものが一般的である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 9
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 10
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 17
   status: published
   chapters:
@@ -436,6 +769,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: フードの開口部の周囲にフランジがあると、フランジがないときに比べ、大きな排風量が必要となる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 8
+    - 7
+    - 2
+    similar:
+    - 3
+    - 3
+    - 8
+    - 7
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -460,6 +817,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 聴覚保護具を選定するときは、作業の状況にかかわらず、できるだけ、遮音効果が大きいものを選定する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 19
   status: published
   chapters:
@@ -487,6 +868,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 防毒マスクを着用するときは、ヘルメットの上からしめひもを使用するようにすると、面体と顔との密着性を高めることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -517,3 +922,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度E(mg/m3)は、その遊離けい酸の含有率をQ(%)とした場合、E=3.0/(1.49Q+1)により算定される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - ''
+    - new
+    - new

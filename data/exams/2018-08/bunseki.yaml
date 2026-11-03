@@ -29,6 +29,30 @@ questions:
   _key_choice: 濃度1.0 μmol・g−1は、1.0 mol・kg−1である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 1
+    - 4
+    - 1
+    similar:
+    - 5
+    - 1
+    - 1
+    - 4
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - new
+    - ans_b
+    - new
 - num: 2
   status: published
   chapters:
@@ -55,6 +79,13 @@ questions:
   _key_choice: 1.08 × 0.61
   _stem_head: 次の式の計算結果のうち、有効数字の桁数が3ではないものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 3
   status: published
   chapters:
@@ -81,6 +112,30 @@ questions:
   _key_choice: 水と反応しない気体が水に接しているとき、その気体の溶解度は絶対温度に比例する。
   _stem_head: 気体に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -107,6 +162,30 @@ questions:
   _key_choice: ベンゼンは、-CH3基をもっている。
   _stem_head: 次の有機化合物とその官能基に関して、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 3
+    - 2
+    - 4
+    similar:
+    - 4
+    - 2
+    - 7
+    - 2
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 5
   status: published
   chapters:
@@ -136,6 +215,30 @@ questions:
   _key_choice: 平衡定数は、反応開始時の物質の濃度比に依存する。
   _stem_head: 次の熱化学反応式で示される溶液中での反応の平衡状態に関する下の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 4
+    - 2
+    - 4
+    similar:
+    - 3
+    - 2
+    - 5
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 6
   status: published
   chapters:
@@ -166,6 +269,13 @@ questions:
   _key_choice: 1.4 mL
   _stem_head: モル濃度14.5 mol・L−1の濃硝酸を水で希釈して、濃度が0.20 mol・L−1の硝酸水溶液を100 mLつくるの
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -192,6 +302,30 @@ questions:
   _key_choice: ロータメーター(面積式流量計)は、垂直に立てた内径一定の管にフロート(浮子)を入れたものである。
   _stem_head: 気体用流量計に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 2
+    - 4
+    similar:
+    - 4
+    - 1
+    - 1
+    - 2
+    - 4
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -215,6 +349,30 @@ questions:
   _key_choice: 標準ガスの濃度を微調整するためには、希釈空気の流量よりも拡散セルの温度を変える方が容易である。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 3
+    - 7
+    - 5
+    similar:
+    - 1
+    - 7
+    - 3
+    - 9
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -243,6 +401,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -271,6 +436,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 11
   status: published
   chapters:
@@ -300,6 +472,30 @@ questions:
   _key_choice: 溶解度積Kは、水溶液中の塩化物イオンのモル濃度によって変化する。
   _stem_head: 塩化銀の溶解度積及び溶解度に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 1
+    similar:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - new
 - num: 12
   status: published
   chapters:
@@ -330,6 +526,13 @@ questions:
   _key_choice: 4.0 × 10−2 mol・L−1
   _stem_head: 塩酸溶液25 mLを、フェノールフタレインを指示薬として水酸化ナトリウム溶液(1.0 × 10−1 mol・L−1)で滴
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 13
   status: published
   chapters:
@@ -360,6 +563,13 @@ questions:
   _key_choice: '0.4'
   _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、透過率は40%であった。このときの吸光度として正しい値に最も近いもの
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -386,6 +596,30 @@ questions:
   _key_choice: モル吸光係数は、溶媒の種類を変えても変化しない。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ''
+    - odo
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -412,6 +646,30 @@ questions:
   _key_choice: 原子番号の大きい元素ほど大きくなる。
   _stem_head: 原子吸光分析法における吸光度に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 16
   status: published
   chapters:
@@ -435,6 +693,13 @@ questions:
   _key_choice: 励起光は、一般に、赤外線を用いる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -460,6 +725,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
   chapters:
@@ -486,6 +758,13 @@ questions:
   _key_choice: 理論段相当高さは2倍になる。
   _stem_head: ガスクロマトグラフ分析法において、カラムの長さを2倍にしたときの記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
   chapters:
@@ -512,6 +791,30 @@ questions:
   _key_choice: K_X線の波長は、対陰極(陽極)元素の原子番号が大きくなるに従い長くなる。
   _stem_head: X線管から発生するX線に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ''
+    - ans_new
+    - new
 - num: 20
   status: published
   chapters:
@@ -535,3 +838,27 @@ questions:
   _key_choice: 軌道電子捕獲では、原子番号は1つ増加する。
   _stem_head: 原子核壊変による原子番号の変化に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 3
+    - 4
+    - 1
+    similar:
+    - 4
+    - 3
+    - 3
+    - 4
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - new

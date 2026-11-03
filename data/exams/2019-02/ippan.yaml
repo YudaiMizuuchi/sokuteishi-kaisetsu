@@ -43,6 +43,13 @@ questions:
   law_note: null
   _key_choice: ロ ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
   chapters:
@@ -80,6 +87,13 @@ questions:
   law_note: この問題の「VDT作業における労働衛生管理のためのガイドライン」は、令和元年7月12日に「情報機器作業における労働衛生管理のためのガイドライン」（基発0712第3号）に改められています。照度や視距離の考え方は引き継がれています。
   _key_choice: イ ハ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -105,6 +119,30 @@ questions:
   law_note: null
   _key_choice: キシレンの生物学的モニタリング指標は、尿中のトリクロロ酢酸である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 4
+    - 1
+    - 4
+    similar:
+    - 3
+    - 1
+    - 4
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -130,6 +168,30 @@ questions:
   law_note: null
   _key_choice: 硫化水素は、無色・無臭の気体であり、酸素欠乏症を起こす。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 2
+    - 1
+    - 3
+    similar:
+    - 4
+    - 3
+    - 2
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_new
+    - odo
 - num: 5
   status: published
   chapters:
@@ -157,6 +219,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -182,6 +251,30 @@ questions:
   law_note: null
   _key_choice: 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 5
+    - 7
+    - 2
+    similar:
+    - 5
+    - 4
+    - 5
+    - 9
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -207,6 +300,30 @@ questions:
   law_note: null
   _key_choice: ベリリウム中毒では、溶血性貧血、尿の赤色化などの症状がみられる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 3
+    - 2
+    - 8
+    similar:
+    - 6
+    - 7
+    - 3
+    - 2
+    - 8
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -229,6 +346,30 @@ questions:
   law_note: null
   _key_choice: トルエンによる健康障害として顕著なものは、再生不良性貧血などの造血器障害である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 3
+    - 4
+    - 2
+    - 1
+    similar:
+    - 9
+    - 6
+    - 4
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - new
 - num: 9
   status: published
   chapters:
@@ -254,6 +395,30 @@ questions:
   law_note: null
   _key_choice: WBGTの基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、高い値となる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 6
+    - 1
+    - 3
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - new
+    - ans_b
+    - new
 - num: 10
   status: published
   chapters:
@@ -279,6 +444,30 @@ questions:
   law_note: null
   _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手指のしびれなどの末梢循環障害が発生するおそれがある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 6
+    - 8
+    similar:
+    - 1
+    - 1
+    - 3
+    - 6
+    - 8
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - new
+    - odo
+    - ans_hi
+    - odo
 - num: 11
   status: published
   chapters:
@@ -301,6 +490,30 @@ questions:
   law_note: null
   _key_choice: A測定の平均値は、測定値を幾何平均して求める。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 8
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 8
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - ans_new
+    - ''
 - num: 12
   status: published
   chapters:
@@ -323,6 +536,30 @@ questions:
   law_note: null
   _key_choice: 石炭、硫化鉱又は鋼材を入れてあるタンクの内部での作業では、硫化水素中毒の危険がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 12
+    - 2
+    - 2
+    - 7
+    similar:
+    - 2
+    - 12
+    - 2
+    - 2
+    - 7
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ''
+    - ans_new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -360,6 +597,13 @@ questions:
   law_note: null
   _key_choice: ハ―ロ―イ―ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -385,6 +629,30 @@ questions:
   law_note: null
   _key_choice: β線は、電離作用を有する電磁波である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 4
+    - 4
+    - 7
+    similar:
+    - 6
+    - 5
+    - 4
+    - 4
+    - 10
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 15
   status: published
   chapters:
@@ -410,6 +678,30 @@ questions:
   law_note: null
   _key_choice: 気体の液体への溶解度は、一般に、液体の温度が高いほど大きい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 7
+    - 4
+    - 6
+    - 3
+    similar:
+    - 4
+    - 7
+    - 4
+    - 6
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -435,6 +727,30 @@ questions:
   law_note: null
   _key_choice: スロット型フードは、発生源の周囲が覆われているもので、囲い式フードに分類される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 5
+    - 3
+    - 5
+    - 1
+    similar:
+    - 8
+    - 5
+    - 3
+    - 5
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -460,6 +776,30 @@ questions:
   law_note: null
   _key_choice: 耳栓には、主として高音を遮音し会話程度の低音を比較的通す1種と低音から高音までを遮音する2種の2つのタイプがある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 3
+    - 4
+    - 2
+    similar:
+    - 3
+    - 2
+    - 3
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -482,6 +822,30 @@ questions:
   law_note: null
   _key_choice: 顔への密着性を確認する方法の一つである陽圧法は、息を吸って、防毒マスクの面体と顔面との隙間から空気が面体内に漏れ込まず、面体が顔面に吸いつけられるかどうかを確認する方法である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 7
+    - 1
+    - 1
+    similar:
+    - 2
+    - 4
+    - 7
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -504,6 +868,30 @@ questions:
   law_note: null
   _key_choice: ノロウイルスの食中毒は、主として夏季に集団食中毒として発生し、潜伏期間は、1~2日間である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+    similar:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - new
+    - ''
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -526,3 +914,27 @@ questions:
   law_note: null
   _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 3
+    - 5
+    - 4
+    similar:
+    - 4
+    - 3
+    - 3
+    - 5
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b

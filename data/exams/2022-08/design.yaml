@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤の管理濃度は、質量濃度として示されている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 5
+    - 6
+    - 1
+    similar:
+    - 3
+    - 1
+    - 5
+    - 6
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所内の測定点は、隣接する他の単位作業場所の測定点と重複してはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 5
+    - 5
+    - 3
+    similar:
+    - 4
+    - 4
+    - 5
+    - 6
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 3
   status: published
   chapters:
@@ -79,6 +127,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所が著しく狭く、かつ単位作業場所における空気中の粉じんの濃度がほぼ均一であることが明らかなときは、測定値の総数を5未満とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 5
+    - 2
+    - 3
+    similar:
+    - 4
+    - 3
+    - 5
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定は短時間高濃度の個人ばく露の評価のために行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 3
+    - 4
+    - 1
+    similar:
+    - 2
+    - 6
+    - 3
+    - 4
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - ans_b
+    - odo
+    - new
 - num: 5
   status: published
   chapters:
@@ -127,6 +223,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トルエンは、メタノールよりも極性が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    similar:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - ''
+    - odo
+    - new
 - num: 6
   status: published
   chapters:
@@ -154,6 +274,30 @@ questions:
   figures: []
   law_note: 令和5年10月1日以降は、有機溶剤等について「発散源の場所が一定しない作業」に限る取扱いが廃止され、全ての作業が個人サンプリング法の対象となりました（令和5年厚生労働省告示第174号）。現行法では、この問題の選択肢3も対象となります。
   _key_choice: 労働者がトリクロロエチレンの洗浄槽で金属部品の脱脂作業を行う単位作業場所におけるトリクロロエチレンの濃度の測定
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤誤正誤誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 7
   status: published
   chapters:
@@ -181,6 +325,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定において、作業に従事する労働者数が5人を下回る場合は、1人の労働者に複数の個人サンプラーを装着し、同時に試料空気の採取等を行うことにより、装着した個人サンプラーの数と同数の労働者が個人サンプラーを装着したものとみなすことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - new
+    - new
 - num: 8
   status: published
   chapters:
@@ -205,6 +373,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ジクロロメタン
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 9
   status: published
   chapters:
@@ -231,6 +406,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: A塩化ビニル Bミゼットインピンジャー
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -255,6 +437,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターを用いて流量計の校正を行う場合には、湿式ガスメーターは、ポンプより上流側に接続する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 2
+    - 4
+    - 8
+    similar:
+    - 6
+    - 4
+    - 2
+    - 5
+    - 8
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -279,6 +485,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 活性炭管は、一般に、除湿管をつないで使用する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 4
+    - 1
+    - 7
+    similar:
+    - 5
+    - 5
+    - 4
+    - 1
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -303,6 +533,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ナフタレンの捕集には、ガラス繊維ろ紙を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 3
+    - 3
+    - 3
+    similar:
+    - 5
+    - 5
+    - 3
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -327,6 +581,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーでは、拡散効果により粒子状物質が捕集される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 9
+    - 6
+    - 5
+    - 1
+    similar:
+    - 4
+    - 9
+    - 6
+    - 5
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -351,6 +629,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 吸引流量が大きくなるほど相対濃度の値は増大する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 2
+    - 8
+    - 2
+    - 4
+    similar:
+    - 10
+    - 2
+    - 8
+    - 3
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_b
+    - odo
 - num: 15
   status: published
   chapters:
@@ -375,6 +677,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管用真空ガス採取器の漏れを防ぐために、ピストン及びシリンダー内部にグリースを塗布してはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 4
+    - 1
+    - 4
+    similar:
+    - 1
+    - 10
+    - 6
+    - 1
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 16
   status: published
   chapters:
@@ -404,6 +730,13 @@ questions:
 
     参考：『作業環境測定ガイドブック2』では、性状に適する方法の例として、粒子状の物質（コバルト、ウラン、プルトニウム、タリウムなど）はろ過捕集、揮発性のヨウ素などは活性炭による固体捕集、放射性希ガスは直接捕集が挙げられています。'
   _key_choice: A放射性ヨウ素 B液体捕集法
+  freq:
+    kind: question
+    denom: 23
+    count: 11
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -438,6 +771,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 8.2×10−4 Bq・cm−3
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -463,6 +803,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 正規分布では、平均値と標準偏差は互いに従属している。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 3
+    - 4
+    - 10
+    - 9
+    similar:
+    - 11
+    - 3
+    - 5
+    - 10
+    - 9
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -490,6 +854,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン(MOCA)の捕集には、ろ過捕集法を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 5
+    - 10
+    - 1
+    - 2
+    similar:
+    - 1
+    - 5
+    - 10
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 20
   status: published
   chapters:
@@ -518,3 +906,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値は、気中有害物質濃度の算術平均値の推定値である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 9
+    - 2
+    - 5
+    - 6
+    similar:
+    - 5
+    - 9
+    - 2
+    - 7
+    - 6
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_hi
+    - odo

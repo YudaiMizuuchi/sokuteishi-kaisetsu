@@ -36,6 +36,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 87 mg・m−3
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -60,6 +67,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 同一の区域で、同一時間内に、塗料の調合の作業とそこで調合された塗料を用いる塗装作業が同時に行われている場合、作業が異なるので、異なる単位作業場所としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -84,6 +115,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定点は、6 m以下の等間隔で引いた縦の線と横の線との交点とするが、生産設備などと重なる交点がある場合には、その交点における縦の線又は横の線のいずれかの間隔を変えて引いた線の交点としてよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 10
+    - 5
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - ''
+    - new
 - num: 4
   status: published
   chapters:
@@ -108,6 +163,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一部の特定化学物質では、A測定において分粒装置を用いるろ過捕集法によって捕集するが、最も高くなると思われる濃度を測定するためのB測定では分粒装置は使用しない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 5
   status: published
   chapters:
@@ -132,6 +211,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: o-フタロジニトリル
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -156,6 +242,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤を除く特定化学物質の測定
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -180,6 +273,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定において、作業に従事する労働者数が5人を下回る場合は、労働者の作業時間を均等に分割し、試料空気の採取等の数を5以上とすることができるが、分割後の作業時間は2時間以上でなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 8
   status: published
   chapters:
@@ -204,6 +321,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: コールタールは、コールタールナフサの分留により得られる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ''
+    - ans_new
+    - new
 - num: 9
   status: published
   chapters:
@@ -231,6 +372,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -255,6 +403,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 絞り式流量計は、管の途中に絞り弁を設置したもので、絞り弁の開口度から流量を求めるものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - new
+    - ''
 - num: 11
   status: published
   chapters:
@@ -279,6 +451,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 固体捕集法で捕集できるのは、有機溶剤、特別有機溶剤及び25 °C、1気圧において液体である特定化学物質に限られる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 12
   status: published
   chapters:
@@ -303,6 +499,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ろ過捕集法に用いるフィルターには、メンブランフィルター、ガラス繊維フィルター、石英繊維フィルター、硫酸含浸フィルターがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 13
   status: published
   chapters:
@@ -327,6 +547,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤は全て直接捕集法による捕集が可能である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 4
+    - 4
+    - 1
+    similar:
+    - 1
+    - 1
+    - 4
+    - 8
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - odo
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -351,6 +595,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粒子状の特定化学物質は、1以上の測定点において併行測定を行うことによって、相対濃度指示方法による測定を行うことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 5
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 15
   status: published
   chapters:
@@ -375,6 +643,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ガス採取器のピストンは、検知剤と測定対象物質を確実に反応させるため、できるだけゆっくり引くようにし、引き終えたら直ちに濃度を読み取る。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 6
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -399,6 +691,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 直接捕集法では、電離箱又は捕集用ガス容器に試料空気を直接捕集し、放射性物質の濃度を求めるため、放射性物質の種類や状態にかかわらず、広く用いることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 17
   status: published
   chapters:
@@ -430,6 +746,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1.1×10−3 Bq・cm−3
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -455,6 +778,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 正規分布の母平均と母分散は互いに独立ではない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 8
+    - 3
+    - 1
+    - 1
+    similar:
+    - 5
+    - 8
+    - 3
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -479,6 +826,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものにおいて、一酸化炭素濃度を測定するための測定点は、建築物の室の中央部の床上75 cm以上120 cm以下の位置に、5以上とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ''
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -503,3 +874,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定の第1評価値は、幾何平均値より小さな値になることがあるが、第2評価値は、必ず幾何平均値より大きな値となる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new

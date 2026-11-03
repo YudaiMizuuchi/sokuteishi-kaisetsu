@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子の粒径は、5~10 μm程度である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 4
+    - 4
+    - 3
+    similar:
+    - 4
+    - 3
+    - 4
+    - 4
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内の気流や換気設備の稼働状況について考慮する必要はない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 4
+    - 1
+    - 7
+    similar:
+    - 9
+    - 5
+    - 4
+    - 1
+    - 7
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定点の高さの範囲は、床上120 cm以上150 cm以下である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 8
+    - 1
+    - 2
+    - 12
+    similar:
+    - 10
+    - 8
+    - 1
+    - 2
+    - 12
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - ''
+    - odo
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定はA測定の実施時間内に、実施しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 2
+    - 2
+    - 1
+    similar:
+    - 4
+    - 2
+    - 3
+    - 3
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -124,6 +220,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 騒音の管理区分の決定には、測定値の算術平均と標準偏差を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 4
+    - 2
+    similar:
+    - 1
+    - 1
+    - 2
+    - 4
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - ''
 - num: 6
   status: published
   chapters:
@@ -148,6 +268,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: エチレンオキシド
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -172,6 +299,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤の蒸気は、密度が空気より小さいため、室内では天井付近の上層に滞留しやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 3
+    - 1
+    - 1
+    similar:
+    - 5
+    - 2
+    - 3
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - new
 - num: 8
   status: published
   chapters:
@@ -199,6 +350,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -223,6 +381,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 捕集装置とポンプの間に接続した面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 2
+    - 8
+    - 6
+    similar:
+    - 1
+    - 7
+    - 6
+    - 8
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -247,6 +429,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポーラスポリマービーズは、活性炭に比べて有機溶剤蒸気に対する単位重量当たりの捕集容量が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 2
+    - 2
+    - 5
+    similar:
+    - 1
+    - 3
+    - 2
+    - 3
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - ''
+    - odo
+    - ans_hi
 - num: 11
   status: published
   chapters:
@@ -271,6 +477,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ポアサイズ0.8 μmのメンブランフィルターは、粒径0.3 μm以下の粒子をほとんど捕集できない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - ''
+    - odo
+    - new
 - num: 12
   status: published
   chapters:
@@ -295,6 +525,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 真空捕集びんは、13.3 kPa以下の圧力に減圧してから使用する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 9
+    - 6
+    - 2
+    - 5
+    similar:
+    - 3
+    - 9
+    - 6
+    - 2
+    - 9
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -319,6 +573,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 吸引流量を大きくすると、相対濃度も大きくなる傾向がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 5
+    - 5
+    - 11
+    similar:
+    - 1
+    - 4
+    - 7
+    - 5
+    - 11
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -343,6 +621,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 直読式検知管の変色層が斜めに現れたときの測定値は、変色した部分の最先端の目盛りの値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - ''
+    - odo
+    - ''
 - num: 15
   status: published
   chapters:
@@ -367,6 +669,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計による鉱物性粉じんの測定では、相対濃度計の吸引口に分粒装置を接続して行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 4
+    - 2
+    - 7
+    similar:
+    - 1
+    - 7
+    - 4
+    - 6
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -394,6 +720,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -425,6 +758,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 4.0×10−4 Bq・cm−3
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -450,6 +790,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 正規分布の平均(算術平均)及び標準偏差をそれぞれμ及びσとすると、この分布の95 %上限値はμ+3σである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 4
+    - 7
+    - 8
+    similar:
+    - 5
+    - 3
+    - 5
+    - 7
+    - 10
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -477,6 +841,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、分粒装置を通過する粒子の50 %分粒粒径は小さくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    similar:
+    - 4
+    - 3
+    - 2
+    - 2
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - ''
+    - odo
 - num: 20
   status: published
   chapters:
@@ -501,3 +889,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定の測定値が管理濃度を超えていれば、第3管理区分になる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 6
+    - 2
+    - 5
+    - 2
+    similar:
+    - 7
+    - 6
+    - 2
+    - 10
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_new

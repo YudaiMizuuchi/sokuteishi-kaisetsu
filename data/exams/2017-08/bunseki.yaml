@@ -28,6 +28,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 2
   status: published
   chapters:
@@ -54,6 +61,13 @@ questions:
   _key_choice: '136.8'
   _stem_head: 次の数値の合計を有効数字で表した場合、正しいものは下のうちどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -77,6 +91,30 @@ questions:
   _key_choice: ベンゼンの水に対する溶解度は、四塩化炭素に対する溶解度より大きい。
   _stem_head: 25°Cにおける物質の溶解に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 3
+    - 2
+    similar:
+    - 1
+    - 3
+    - 1
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - ''
 - num: 4
   status: published
   chapters:
@@ -100,6 +138,30 @@ questions:
   _key_choice: 圧力が一定の条件で、温度を2倍にすると体積は1/2倍になる。
   _stem_head: 1 molの気体に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ans_new
+    - ''
+    - new
 - num: 5
   status: published
   chapters:
@@ -124,6 +186,13 @@ questions:
   _key_choice: 硫酸
   _stem_head: 次の0.1 mol・L−1の酸溶液のうち、pHが最も低いものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -154,6 +223,13 @@ questions:
   _key_choice: 0.050 g
   _stem_head: 有機化合物Aを0.060 g含む水溶液100 mLからヘキサン10 mLにAを抽出した。ヘキサンに抽出されたAの質量とし
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -180,6 +256,30 @@ questions:
   _key_choice: バブラーによる蒸気の捕集効率は、通気速度のみに依存する。
   _stem_head: 作業環境測定に使用する種々の器具等に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - ''
+    - new
+    - ''
 - num: 8
   status: published
   chapters:
@@ -213,6 +313,13 @@ questions:
   _key_choice: 10 ppm
   _stem_head: 液体のメチルエチルケトン1.5 mgを捕集袋内の50 Lの清浄空気中で全量気化させて標準ガスを調製した。メチルエチルケト
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -239,6 +346,30 @@ questions:
   _key_choice: 金属塩化物は、すべて水によく溶ける。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - new
+    - new
 - num: 10
   status: published
   chapters:
@@ -265,6 +396,30 @@ questions:
   _key_choice: ネブライザーによって供給された試料の全量が、プラズマ中に導入される。
   _stem_head: 誘導結合プラズマ発光分析法(ICP-AES法)に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ''
+    - ans_new
+    - ''
 - num: 11
   status: published
   chapters:
@@ -297,6 +452,13 @@ questions:
   _key_choice: 5.49 × 10−3 mg
   _stem_head: 硫酸マンガン五水和物(MnSO4・5H2O)を水に溶解して1.00 × 10−4 mol・L−1の濃度の溶液に調製した。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -320,6 +482,13 @@ questions:
   _key_choice: AgOH(2 × 10−8 mol2・L−2)
   _stem_head: 次の銀化合物それぞれ1 gを25°Cの水1 Lに入れた場合、水に溶けた銀イオン濃度が最も高くなるものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -346,6 +515,30 @@ questions:
   _key_choice: 吸光度は、log(I/I0)である。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 8
+    - 4
+    - 4
+    similar:
+    - 1
+    - 1
+    - 10
+    - 6
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -376,6 +569,13 @@ questions:
   _key_choice: 2.2 × 104 mol−1・L・cm−1
   _stem_head: 物質Aの濃度が2.0 × 10−5 mol・L−1の溶液を光路長1.0 cmのセルに入れ、波長550 nmにおける吸光度
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 14
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -399,6 +599,30 @@ questions:
   _key_choice: 励起状態である測定対象金属の光の吸収を測定する。
   _stem_head: 金属の原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - odo
+    - new
 - num: 16
   status: published
   chapters:
@@ -422,6 +646,30 @@ questions:
   _key_choice: 蛍光強度は、励起光の波長を変えても変化しない。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 6
+    - 4
+    - 8
+    similar:
+    - 4
+    - 1
+    - 6
+    - 4
+    - 9
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_b
+    - odo
 - num: 17
   status: published
   chapters:
@@ -448,6 +696,30 @@ questions:
   _key_choice: 移動相の流速が大きいほど大きくなる。
   _stem_head: キャピラリーガスクロマトグラフ分析法におけるキャピラリーカラムの理論段数に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 3
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 5
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 18
   status: published
   chapters:
@@ -471,6 +743,30 @@ questions:
   _key_choice: 水素炎イオン化検出器(FID)は、無機ガスの測定に適している。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 3
+    - 3
+    similar:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -494,6 +790,13 @@ questions:
   _key_choice: 測定には溶解した試料を用いる。
   _stem_head: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 20
   status: published
   chapters:
@@ -524,3 +827,10 @@ questions:
   _key_choice: 18時間
   _stem_head: 半減期8.0時間の放射性核種の放射能1,000 Bqが200 Bqに減衰するまでの時間として、正しい値に最も近いものは次
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi

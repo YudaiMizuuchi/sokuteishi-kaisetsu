@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 総括安全衛生管理者には、当該事業場において、その事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 10
+    - 6
+    - 7
+    - 5
+    similar:
+    - 8
+    - 10
+    - 6
+    - 7
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 雇入時の健康診断項目のうち、貧血検査、肝機能検査等一定の検査項目については、厚生労働大臣が定める基準に基づき、医師が必要でないと認めるときは、省略することができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 6
+    - 5
+    - 6
+    - 7
+    similar:
+    - 10
+    - 6
+    - 5
+    - 6
+    - 7
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別教育の講師は、法令で定める資格を有する者のうちから選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 9
+    - 4
+    - 11
+    - 3
+    similar:
+    - 10
+    - 12
+    - 4
+    - 11
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -124,6 +203,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 中央管理方式の空気調和設備を設けている建築物の室で、事務所の用に供されるものについては、原則として、6か月以内ごとに1回、定期に、一酸化炭素及び二酸化炭素の含有率、室温及び外気温並びに相対湿度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 7
+    - 3
+    - 5
+    - 5
+    similar:
+    - 11
+    - 7
+    - 4
+    - 5
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 6
   status: published
   chapters:
@@ -145,6 +248,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -166,6 +276,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線測定器
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -190,6 +307,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 5
+    - 6
+    - 6
+    - 4
+    similar:
+    - 11
+    - 5
+    - 6
+    - 6
+    - 8
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -215,6 +356,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 5
+    - 2
+    - 9
+    similar:
+    - 5
+    - 4
+    - 7
+    - 2
+    - 9
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - ''
+    - odo
 - num: 10
   status: published
   chapters:
@@ -239,6 +404,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 連続する二作業日について作業環境測定を行った場合の評価は、それぞれの日についてのA測定の測定値に基づいて求めた幾何標準偏差のうち、大きい値を用いて行うことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 3
+    - 5
+    - 3
+    - 1
+    similar:
+    - 9
+    - 3
+    - 5
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - new
 - num: 11
   status: published
   chapters:
@@ -263,6 +452,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 強烈な騒音にさらされる場所には、関係者以外の者が立ち入ることを禁止しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 1
+    similar:
+    - 1
+    - 3
+    - 4
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 12
   status: published
   chapters:
@@ -288,6 +501,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: アルファ-ナフチルアミンは、第2類物質であり、かつ、特別管理物質である。
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -313,6 +533,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質であるマンガンを取り扱う業務に常時従事する労働者に対し、6か月以内ごとに1回、定期に、所定の項目について医師による健康診断を行い、その結果に基づき、特定化学物質健康診断個人票を作成し、これを30年間保存するものとされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 6
+    - 2
+    - 3
+    similar:
+    - 10
+    - 2
+    - 6
+    - 2
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ''
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -338,6 +582,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1,2-ジクロルエチレン
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -363,6 +614,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務に労働者を従事させる場合における有機溶剤等の区分の色分けによる表示は、赤色で行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 11
+    - 1
+    - 7
+    - 10
+    similar:
+    - 3
+    - 12
+    - 1
+    - 8
+    - 11
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -387,6 +662,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 管理区域内の労働者の見やすい場所に、放射線業務従事者が受けた外部被ばくによる線量の測定結果の一定期間ごとの記録を掲示しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 5
+    - 7
+    - 1
+    - 2
+    similar:
+    - 10
+    - 6
+    - 10
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 17
   status: published
   chapters:
@@ -412,6 +711,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令に基づき局所排気装置に設ける除じん装置は、粉じんの種類がヒュームである場合は、サイクロン又はスクラバによる除じん方式による除じん装置としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 8
+    - 3
+    - 4
+    similar:
+    - 4
+    - 8
+    - 9
+    - 3
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 18
   status: published
   chapters:
@@ -440,6 +763,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 室における一酸化炭素の含有率を10 ppm以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 7
+    - 7
+    - 4
+    - 6
+    similar:
+    - 7
+    - 7
+    - 7
+    - 4
+    - 6
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -462,6 +809,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法定の鉛業務を行う屋内作業場については、6か月以内ごとに1回、定期に、空気中における鉛の濃度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 1
+    - 3
+    - 7
+    similar:
+    - 4
+    - 6
+    - 1
+    - 3
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -487,3 +858,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第一鉄塩類を含有している地層に接する井戸の内部における作業は、第2種酸素欠乏危険作業である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 8
+    - 11
+    - 11
+    - 1
+    similar:
+    - 5
+    - 8
+    - 11
+    - 11
+    - 1
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - new

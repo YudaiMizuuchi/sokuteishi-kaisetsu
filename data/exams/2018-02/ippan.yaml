@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: リスクの見積りは、数値化して行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 7
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 7
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - odo
+    - new
 - num: 2
   status: published
   chapters:
@@ -53,6 +77,30 @@ questions:
   law_note: null
   _key_choice: この指針は、法令の規定に基づき、機械や化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 1
+    similar:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - ''
+    - ''
+    - new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   law_note: null
   _key_choice: キシレンの生物学的モニタリングの指標として、尿中の馬尿酸が用いられる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 4
+    - 3
+    - 1
+    similar:
+    - 4
+    - 2
+    - 4
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -100,6 +172,30 @@ questions:
   law_note: null
   _key_choice: 一酸化炭素は、ヘモグロビンの合成を阻害し、貧血の原因となる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 3
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -127,6 +223,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 8
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -149,6 +252,30 @@ questions:
   law_note: null
   _key_choice: 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 2
+    - 4
+    - 3
+    similar:
+    - 5
+    - 5
+    - 3
+    - 4
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -174,6 +301,30 @@ questions:
   law_note: null
   _key_choice: カドミウムは、主として肝臓障害を起こす。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 9
+    - 4
+    - 5
+    - 1
+    similar:
+    - 6
+    - 9
+    - 4
+    - 5
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 8
   status: published
   chapters:
@@ -196,6 +347,30 @@ questions:
   law_note: null
   _key_choice: トルエンによる健康障害として顕著なものは、再生不良性貧血などの造血器障害である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 9
+    - 3
+    - 1
+    similar:
+    - 3
+    - 3
+    - 9
+    - 6
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - new
 - num: 9
   status: published
   chapters:
@@ -218,6 +393,30 @@ questions:
   law_note: null
   _key_choice: WBGT基準値は、同一作業であっても、熱に順化していない人の方が熱に順化している人よりも、高い値となる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 4
+    - 3
+    - 3
+    similar:
+    - 4
+    - 1
+    - 5
+    - 3
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_b
+    - odo
 - num: 10
   status: published
   chapters:
@@ -243,6 +442,30 @@ questions:
   law_note: null
   _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害や手指のしびれなどの末梢循環障害が生じることがある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 3
+    - 8
+    - 3
+    - 4
+    similar:
+    - 6
+    - 3
+    - 8
+    - 3
+    - 4
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -268,6 +491,30 @@ questions:
   law_note: null
   _key_choice: 騒音のA測定の平均の値は、得られた測定値の幾何平均値として得られる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 8
+    - 1
+    - 1
+    - 4
+    similar:
+    - 8
+    - 8
+    - 1
+    - 1
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -290,6 +537,30 @@ questions:
   law_note: null
   _key_choice: 石炭、硫化鉱又は鋼材を入れてあるタンクの内部での作業では、硫化水素中毒の危険がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 12
+    - 2
+    - 3
+    - 7
+    - 3
+    similar:
+    - 12
+    - 2
+    - 3
+    - 7
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -324,6 +595,13 @@ questions:
   law_note: null
   _key_choice: ハ―ロ―イ―ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -346,6 +624,30 @@ questions:
   law_note: null
   _key_choice: β線は、電離作用を有する電磁波である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 7
+    - 6
+    - 4
+    similar:
+    - 3
+    - 1
+    - 10
+    - 6
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_b
 - num: 15
   status: published
   chapters:
@@ -368,6 +670,30 @@ questions:
   law_note: null
   _key_choice: 環境空気中の化学物質濃度の分布は、正規分布に従って分布していることが多い。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 9
+    - 4
+    - 6
+    similar:
+    - 3
+    - 7
+    - 9
+    - 4
+    - 6
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -393,6 +719,30 @@ questions:
   law_note: null
   _key_choice: スロット型フードは、作業面を除き周りが覆われているもので、囲い式フードに分類される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 5
+    - 3
+    - 3
+    - 6
+    similar:
+    - 3
+    - 5
+    - 3
+    - 3
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -418,6 +768,30 @@ questions:
   law_note: null
   _key_choice: 送気マスクは、酸素濃度が18%未満の空気中でも使用することができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 4
+    - 2
+    - 1
+    similar:
+    - 5
+    - 1
+    - 4
+    - 2
+    - 1
+    truths: 正誤誤誤誤
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - new
+    - odo
+    - ''
+    - new
 - num: 18
   status: published
   chapters:
@@ -443,6 +817,30 @@ questions:
   law_note: null
   _key_choice: 直結式防毒マスクは、隔離式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 7
+    - 4
+    - 1
+    similar:
+    - 5
+    - 1
+    - 7
+    - 4
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_b
+    - new
 - num: 19
   status: published
   chapters:
@@ -465,6 +863,30 @@ questions:
   law_note: null
   _key_choice: 高気圧作業における減圧症は、急激な減圧に伴い、血液中や組織中に溶け込んでいた酸素の気泡化が関与して発生する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 4
+    - 2
+    - 1
+    similar:
+    - 4
+    - 2
+    - 4
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - new
 - num: 20
   status: published
   chapters:
@@ -490,3 +912,27 @@ questions:
   law_note: null
   _key_choice: 管理濃度の値は、労働者に対する化学物質のばく露限界を示している。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 11
+    - 2
+    - 1
+    similar:
+    - 3
+    - 3
+    - 11
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new

@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度は、その粉じんの遊離けい酸含有率が低いほど小さな値となる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 3
+    - 4
+    - 6
+    similar:
+    - 4
+    - 6
+    - 3
+    - 4
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トルエンによる抽出作業とキシレンによる抽出作業が同一の場所で別々に行われている作業場を、トルエンとキシレンの混合溶剤を使用する作業場とみなして一つの単位作業場所として設定する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 3
+    - 1
+    - 5
+    - 7
+    similar:
+    - 8
+    - 3
+    - 1
+    - 5
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - new
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定点と測定点の間隔は、6 m以下の等間隔とし、かつ縦方向と横方向の間隔を同一にしなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 5
+    - 9
+    - 4
+    similar:
+    - 4
+    - 2
+    - 5
+    - 10
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定の目的は、局所的短時間の個人ばく露量の測定である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 2
+    - 2
+    - 6
+    similar:
+    - 4
+    - 1
+    - 2
+    - 2
+    - 6
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - ''
+    - odo
 - num: 5
   status: published
   chapters:
@@ -124,6 +220,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定のみを行った場合における管理区分の決定には、A測定値の算術平均と標準偏差を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ans_new
+    - new
+    - ''
 - num: 6
   status: published
   chapters:
@@ -148,6 +268,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: キシレン
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -172,6 +299,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 四塩化炭素は、クロロホルムより極性が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - new
+    - ans_new
+    - ''
 - num: 8
   status: published
   chapters:
@@ -199,6 +350,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 9
   status: published
   chapters:
@@ -223,6 +381,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: クリストバライトは、遊離けい酸ではない。
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -247,6 +412,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 活性炭管には、一般に、除湿管をつないで使用する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 5
+    - 4
+    - 3
+    - 2
+    similar:
+    - 7
+    - 5
+    - 4
+    - 5
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -271,6 +460,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ナフタレンの捕集には、ガラス繊維ろ紙を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 5
+    - 1
+    - 3
+    similar:
+    - 7
+    - 3
+    - 5
+    - 1
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -295,6 +508,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによるガス状物質の捕集では、流量が大きいほど捕集率は高くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 3
+    - 5
+    - 10
+    similar:
+    - 8
+    - 4
+    - 3
+    - 5
+    - 10
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -319,6 +556,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 9
+    - 3
+    - 2
+    similar:
+    - 2
+    - 7
+    - 10
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - ans_b
+    - odo
+    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -343,6 +604,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管の定量下限は、変色がわずかでも認められる検知限度のことである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 4
+    - 1
+    - 2
+    similar:
+    - 4
+    - 6
+    - 4
+    - 5
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - ''
 - num: 15
   status: published
   chapters:
@@ -370,6 +655,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計では、全方向の散乱光の強度を測定している。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 4
+    - 4
+    similar:
+    - 2
+    - 5
+    - 2
+    - 4
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -400,6 +709,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 11
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -434,6 +750,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 15 時間
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -459,6 +782,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 正規分布の平均値と標準偏差をそれぞれμ、σとすると、この分布に従う変数がμ−2σからμ+2σの範囲に入る確率は、およそ68 %である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 8
+    - 11
+    - 10
+    - 2
+    similar:
+    - 7
+    - 11
+    - 11
+    - 10
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -483,6 +830,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 捕集装置を取り付けない状態で流量調整した吸引ポンプを用いて、有機溶剤を捕集した場合、測定される濃度は高くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 7
+    - 6
+    similar:
+    - 1
+    - 1
+    - 1
+    - 7
+    - 6
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -507,3 +878,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とB測定の測定値がともに管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 5
+    - 5
+    - 2
+    - 3
+    similar:
+    - 14
+    - 5
+    - 5
+    - 2
+    - 3
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - ''
+    - odo

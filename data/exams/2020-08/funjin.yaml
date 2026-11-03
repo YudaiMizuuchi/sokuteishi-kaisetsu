@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 媒質中の粒子の挙動に関する次の記述のうち、誤っているものはどれか。
@@ -29,10 +31,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 4
+    - 2
+    - 2
+    similar:
+    - 1
+    - 3
+    - 4
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-145
   rank: null
   summary: null
   stem: '空気中に浮遊している粒子は、粒子の大きさや密度、空気の密度や粘性係数などに応じて、一定の速度で沈降するようになる。このときの速度を終末速度（Vs：cm/s）という。微小粒子の終末速度はストークスの式で表されるが、終末速度から粒子の大きさを表す式として適当なものは次のうちどれか。ただし、
@@ -72,10 +100,19 @@ questions:
   figures: []
   law_note: null
   columns: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 慣性衝突式分粒装置に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「慣性衝突式分粒装置は、［㋑］粉じんを分離・捕集するために用い、定められた流量で捕集したとき［㋺］の粒径の粒子の 50 ％ が衝突板に捕集される。吸引流量が低下したときは 50 ％ 分粒粒径は［㋩］なる。」
@@ -98,10 +135,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 環境空気中に浮遊する粉じん粒子のろ過捕集に関する次の記述のうち、誤っているものはどれか。
@@ -124,10 +170,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 5
+    - 3
+    - 1
+    similar:
+    - 2
+    - 4
+    - 6
+    - 3
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 粒子の繊維層フィルターの捕集原理に関する次の記述のうち、誤っているものはどれか。
@@ -150,10 +222,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    similar:
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 鉱物性粉じんのろ過捕集で用いられる流量計に関する次の記述のうち、誤っているものはどれか。
@@ -176,10 +274,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 2
+    - 1
+    - 1
+    - 3
+    similar:
+    - 5
+    - 2
+    - 1
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_b
+    - odo
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-146
   rank: null
   summary: null
   stem: 光散乱方式の相対濃度計の特性等に関する次の記述のうち、誤っているものはどれか。
@@ -202,10 +326,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 1
+    - 3
+    - 2
+    - 2
+    similar:
+    - 4
+    - 1
+    - 6
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_b
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-147
   rank: null
   summary: null
   stem: 相対濃度計を用いて鉱物性粉じんの濃度測定を行った場合の併行測定及び質量濃度変換係数に関する次の記述のうち、誤っているものはどれか。
@@ -228,10 +378,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 天秤に関する次の記述のうち、誤っているものはどれか。
@@ -255,10 +431,36 @@ questions:
   law_note: null
   _review: true
   minor_note: 直示天びんの感度が荷重の大きさにほとんど影響されない、という点は、旧版ガイドブックの記述を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 4
+    similar:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 遊離けい酸に関する次の記述のうち、誤っているものはどれか。
@@ -281,10 +483,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 5
+    - 2
+    - 1
+    - 5
+    similar:
+    - 1
+    - 5
+    - 2
+    - 1
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-133
   rank: null
   summary: null
   stem: 遊離けい酸の分析に用いる堆積粉じんの再発じん法に関する次の記述のうち、誤っているものはどれか。
@@ -308,10 +536,36 @@ questions:
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
   minor_note: 再発じん法で、小型インピンジャー内に残った試料を再度発じんさせない、という点は、旧版ガイドブックで確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 2
+    - 2
+    - 4
+    - 3
+    similar:
+    - 4
+    - 2
+    - 2
+    - 4
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-148
   rank: null
   summary: null
   stem: 遊離けい酸含有率の測定に用いる試料の採取や処理に関する次の記述のうち、誤っているものはどれか。
@@ -334,10 +588,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    similar:
+    - 3
+    - 4
+    - 2
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 王水添加りん酸法による遊離けい酸分析に関する次の記述のうち、誤っているものはどれか。
@@ -360,10 +640,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    similar:
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-120
   rank: null
   summary: null
   stem: りん酸法により、石英含有率を求めるため、液相沈降法により 10 µm 以下に粒度調整した試料 200.00 mg を熱りん酸で処理し、りん酸残渣として 45.00 mg を得た。このりん酸残渣を白金るつぼに移し、フッ化水素酸で処理したところ、フッ化水素酸残渣 0.75 mg が得られた。石英含有率（％）の値に最も近いものは次のうちどれか。ただし、標準石英について求めたりん酸残渣率は 96.0 ％ であったものとする。
@@ -390,10 +696,19 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
@@ -416,10 +731,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 4
+    - 3
+    - 4
+    similar:
+    - 1
+    - 1
+    - 4
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-149
   rank: null
   summary: null
   stem: X線回折分析装置を用いて粉じん試料中の遊離けい酸分析を行ったところ、回折図形上で尖鋭な回折ピークが得られなかった。その理由として最も可能性の高いものは次のうちどれか。
@@ -439,10 +780,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 1
+    similar:
+    - 1
+    - 3
+    - 4
+    - 3
+    - 1
+    truths: 誤誤誤正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - ans_b
+    - new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-150
   rank: null
   summary: null
   stem: X線回折基底標準吸収補正法によって、粉じん中の石英を定量するための方法に関する次の記述のうち、誤っているものはどれか。
@@ -465,10 +832,36 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 3
+    - 2
+    - 8
+    - 2
+    - 5
+    similar:
+    - 3
+    - 2
+    - 8
+    - 2
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-119
   rank: null
   summary: null
   stem: 粉じん作業場において、有効直径 20 mm のフィルターに 1.26 mg の 粉 じ んを捕集した。このフィルター中のクリストバライトをX線回折基底標準吸収補正法により定量操作を行ったところ、クリストバライトの主回折線強度は 150 cps であった。粉じん中のクリストバライト含有率（％）として、正しいものはどれか。ただし、X線吸収補正係数は 1.10、クリストバライトの回折線強度は1 mg/cm² のとき 4000 cps とする。
@@ -499,10 +892,19 @@ questions:
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: 石綿粉じんの捕集及び分析に用いるセルローズエステルメンブランフィルターに関する次の記述のうち、誤っているものはどれか。
@@ -525,10 +927,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   summary: null
   stem: リフラクトリーセラミックファイバーに関する次の記述のうち、誤っているものはどれか。
@@ -551,3 +979,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new

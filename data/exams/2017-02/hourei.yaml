@@ -25,6 +25,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、常時300人以上の労働者を使用する事業場においては、その業種に関係なく、総括安全衛生管理者を選任しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 3
+    - 13
+    - 7
+    - 6
+    similar:
+    - 8
+    - 4
+    - 13
+    - 7
+    - 6
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 2
   status: published
   chapters:
@@ -47,6 +71,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、雇入時の健康診断項目のうち、貧血検査、肝機能検査等一定の検査項目については、厚生労働大臣が定める基準に基づき、医師が必要でないと認めるときは、省略することができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 8
+    - 7
+    - 5
+    - 3
+    similar:
+    - 6
+    - 8
+    - 7
+    - 5
+    - 4
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、その事業場の属する業種にかかわらず、新たに職務に就くこととなった職長に対し、安全又は衛生のための教育を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 7
+    - 6
+    - 11
+    similar:
+    - 3
+    - 4
+    - 9
+    - 6
+    - 11
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -94,6 +166,13 @@ questions:
   law_note: 令和4年4月1日以降、屋内での金属アーク溶接等作業には、金属アーク溶接等作業主任者の選任が必要です（特定化学物質障害予防規則の改正）。現行法では、この問題の答えは変わります。
   _key_choice: 屋内におけるアーク溶接作業
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -119,6 +198,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -141,6 +227,30 @@ questions:
   law_note: null
   _key_choice: 多量のドライアイスを取り扱う業務を行い、著しく寒冷な屋内作業場については、半月以内ごとに1回、定期に、当該屋内作業場における気温、湿度及びふく射熱を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 4
+    - 3
+    - 11
+    - 5
+    similar:
+    - 10
+    - 4
+    - 3
+    - 11
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -163,6 +273,13 @@ questions:
   law_note: null
   _key_choice: 光散乱方式による相対濃度計
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -189,6 +306,13 @@ questions:
   law_note: null
   _key_choice: ベリリウム化合物
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 9
   status: published
   chapters:
@@ -214,6 +338,30 @@ questions:
   law_note: null
   _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 11
+    - 6
+    - 6
+    - 4
+    similar:
+    - 2
+    - 11
+    - 6
+    - 6
+    - 5
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 10
   status: published
   chapters:
@@ -237,6 +385,30 @@ questions:
   law_note: null
   _key_choice: 騒音の測定点は、原則として、単位作業場所の床面上に6 m以下の等間隔で引いた縦の線と横の線との交点の床上50 cm以上150 cm以下の位置としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 11
+    - 2
+    - 2
+    - 6
+    similar:
+    - 1
+    - 11
+    - 2
+    - 2
+    - 6
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - ''
+    - odo
 - num: 11
   status: published
   chapters:
@@ -262,6 +434,30 @@ questions:
   law_note: null
   _key_choice: 連続する2作業日について作業環境測定を行った場合の評価は、それぞれの日についてのA測定の測定値に基づいて求めた幾何標準偏差のうち、大きい値を用いて行うものとする。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 3
+    - 5
+    - 3
+    similar:
+    - 1
+    - 8
+    - 3
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -287,6 +483,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、著しく暑熱、寒冷又は多湿の作業場その他有害な作業場においては、原則として、その作業場内に休憩の設備を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 6
+    - 1
+    - 9
+    similar:
+    - 1
+    - 2
+    - 6
+    - 1
+    - 9
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -310,6 +530,30 @@ questions:
   law_note: null
   _key_choice: アンモニアは、第2類物質のうちの管理第2類物質である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - new
+    - new
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -333,6 +577,30 @@ questions:
   law_note: null
   _key_choice: 当該有機溶剤等の区分を色分けの方法により表示する場合は、赤色によって行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 12
+    - 1
+    - 6
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -359,6 +627,30 @@ questions:
   law_note: null
   _key_choice: 局所排気装置の除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 4
+    - 1
+    - 4
+    similar:
+    - 1
+    - 1
+    - 6
+    - 1
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - ans_b
+    - new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -381,6 +673,30 @@ questions:
   law_note: null
   _key_choice: 男性の放射線業務従事者の受ける実効線量は、3年間につき50 mSvを超えず、かつ、1年間につき20 mSvを超えないようにしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 1
+    - 3
+    similar:
+    - 2
+    - 3
+    - 1
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - new
+    - new
+    - ans_b
 - num: 17
   status: published
   chapters:
@@ -407,6 +723,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業を行う屋内作業場については、当該粉じん作業に係る粉じんの発散を防止するため、全体換気装置若しくは局所排気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 8
+    - 4
+    - 11
+    similar:
+    - 5
+    - 9
+    - 9
+    - 4
+    - 11
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -433,6 +773,30 @@ questions:
   law_note: 選択肢5の室の気温の努力目標（17℃以上28℃以下）は、令和3年の改正（令和3年厚生労働省令第188号）で「18℃以上28℃以下」に変わっています（事務所衛生基準規則第5条第3項）。
   _key_choice: 事業者は、室における一酸化炭素の含有率を10 ppm以下としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 9
+    - 7
+    - 5
+    - 1
+    similar:
+    - 2
+    - 9
+    - 7
+    - 7
+    - 1
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ''
+    - odo
+    - ans_hi
+    - odo
+    - new
 - num: 19
   status: published
   chapters:
@@ -456,6 +820,30 @@ questions:
   law_note: null
   _key_choice: 相当期間密閉されていた鋼製のボイラー、タンクその他その内壁が酸化されやすい施設の内部における作業は、第2種酸素欠乏危険作業である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 3
+    - 2
+    - 8
+    - 1
+    similar:
+    - 6
+    - 3
+    - 2
+    - 8
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - ''
 - num: 20
   status: published
   chapters:
@@ -478,3 +866,27 @@ questions:
   law_note: null
   _key_choice: じん肺管理区分が管理3又は管理4と決定された者は、療養を要するものとする。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 11
+    - 11
+    - 1
+    - 2
+    similar:
+    - 1
+    - 11
+    - 11
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_new

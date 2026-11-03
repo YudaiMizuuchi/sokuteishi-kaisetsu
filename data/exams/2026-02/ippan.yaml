@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: リスクアセスメント対象物に係る労働災害が発生した場合には、休業の有無や日数にかかわらず、必ずリスクアセスメントを行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 2
   status: published
   chapters:
@@ -56,6 +80,30 @@ questions:
     alt: ㋑は、菱形の枠の中にドクロと交差した2本の骨が描かれた絵表示。㋺は、菱形の枠の中に感嘆符が描かれた絵表示。
   law_note: null
   _key_choice: 各危険有害性クラスには、危険有害性の大きさにより区分された、区分1から区分4までの4つの危険有害性区分がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -80,6 +128,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一般に、しきい値がないとされる発がん物質のリスク評価には無毒性量(NOAEL)が、しきい値があるとされる物質のリスク評価には最小毒性量(LOAEL)が用いられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 4
   status: published
   chapters:
@@ -104,6 +176,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: フェノールは代謝されて、尿中にベンゼンとして排泄される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 5
   status: published
   chapters:
@@ -128,6 +224,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ジクロロメタンの蒸気密度はトルエンの蒸気密度より小さく、また、25°Cにおける蒸気圧はトルエンの蒸気圧より小さい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 6
   status: published
   chapters:
@@ -152,6 +272,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トリレンジイソシアネート(TDI)は、赤血球中のヘモグロビンを酸素の運搬機能がないメトヘモグロビンに変化させるため、呼吸器や皮膚から体内に入ると、チアノーゼや貧血を起こす。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 7
   status: published
   chapters:
@@ -179,6 +323,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -203,6 +354,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石綿を主たる原因として発症する、じん肺、肺がん、胸膜中皮腫などの肺の障害を総称して、石綿肺という。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - ''
+    - ans_new
 - num: 9
   status: published
   chapters:
@@ -230,6 +405,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: コバルト及びその化合物は、体内に入ると、貧血、末梢神経障害、腎機能障害を生じるほか、生殖毒性がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ''
+    - ans_new
+    - new
 - num: 10
   status: published
   chapters:
@@ -254,6 +453,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トルエンによる健康障害では、再生不良性貧血などの造血器障害を生じる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 2
+    - 3
+    - 9
+    - 4
+    similar:
+    - 7
+    - 2
+    - 6
+    - 9
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ans_b
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -278,6 +501,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 凍傷は、皮膚が強い寒冷にさらされて組織が凍結する障害で、このうち、発赤、腫脹等の表皮のみが障害を受けるものを凍瘡という。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - new
+    - ans_new
 - num: 12
   status: published
   chapters:
@@ -305,6 +552,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動障害に係る健康診断は、末梢の循環系や神経系が周囲の寒冷環境の影響を受けないよう、冬季に実施することは避けるようにする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 13
   status: published
   chapters:
@@ -329,6 +600,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 音源を点音源とみなすことができ、音を反射する物体がない広い空間では、音源からの距離が2倍になると、音圧レベルは1/2となる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -353,6 +648,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 木材チップなど加工した木材は酸素を消費しないため、酸素欠乏の原因となることはないが、伐採後、日の浅い原木は酸素を消費するため、このような原木を集積した倉庫内や運搬船の船倉内は酸素欠乏状態になることがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 15
   status: published
   chapters:
@@ -377,6 +696,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 電磁波の波長と周波数は比例関係にあり、波長の長い電磁波ほど周波数が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 16
   status: published
   chapters:
@@ -402,6 +745,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: α崩壊では、陽子、中性子それぞれ二つずつから成るα粒子がα線として放出され、原子核の質量数が二つ減少し、原子番号が二つ減少する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 17
   status: published
   chapters:
@@ -426,6 +793,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 全体換気装置は、給気口から外気を取り入れ、排気口から作業場内の空気を排気するもので、作業場内全体の有害物質の濃度の低減を図ることができるため、有害性が高い物質を取り扱う場合には、最も有効な換気装置である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 18
   status: published
   chapters:
@@ -450,6 +841,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 送気マスクは、清浄な空気をパイプ、ホース等により作業者に供給する自給式呼吸器である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 19
   status: published
   chapters:
@@ -474,6 +889,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 防毒マスクの吸収缶は、粉じんをほとんど通さないため、有害物質のガス又は蒸気と粉じんとが混在している作業環境中では、防毒マスクを使用するようにする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 20
   status: published
   chapters:
@@ -498,3 +937,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2評価値とは、単位作業場所における気中有害物質の幾何平均濃度の推定値をいい、第2評価値が管理濃度よりも大きい場合は、第3管理区分に区分される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new

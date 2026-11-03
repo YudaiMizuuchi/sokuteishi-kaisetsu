@@ -25,6 +25,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、総括安全衛生管理者には、事業場においてその事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 13
+    - 5
+    - 7
+    - 5
+    similar:
+    - 8
+    - 13
+    - 5
+    - 7
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 2
   status: published
   chapters:
@@ -47,6 +71,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、定期健康診断を行ったときは、事業場の規模にかかわらず、遅滞なく、定期健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 7
+    - 7
+    - 7
+    similar:
+    - 4
+    - 6
+    - 7
+    - 7
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   law_note: null
   _key_choice: 特定粉じん作業に係る業務
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 誤誤誤誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ''
+    - ''
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -100,6 +172,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -125,6 +204,30 @@ questions:
   law_note: null
   _key_choice: 多量の蒸気を使用して金属の洗浄の業務を行う多湿な屋内作業場については、1か月以内ごとに1回、定期に、当該屋内作業場における気温及び湿度を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 10
+    - 12
+    - 7
+    similar:
+    - 5
+    - 1
+    - 10
+    - 12
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -147,6 +250,13 @@ questions:
   law_note: 令和4年4月1日以降、屋内での金属アーク溶接等作業には、金属アーク溶接等作業主任者の選任が必要です（特定化学物質障害予防規則の改正）。現行法では、この問題の答えは変わります。
   _key_choice: 屋内におけるアーク溶接作業
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -172,6 +282,13 @@ questions:
   law_note: null
   _key_choice: 空気呼吸器
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -197,6 +314,30 @@ questions:
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 第1種作業環境測定士は、登録を受けた作業場の種類以外の指定作業場については、デザイン及びサンプリングの業務を行うことができない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 5
+    - 6
+    - 1
+    - 3
+    similar:
+    - 7
+    - 5
+    - 6
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_b
 - num: 9
   status: published
   chapters:
@@ -223,6 +364,30 @@ questions:
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭いときは、単位作業場所における測定点の数を5未満とすることができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 7
+    - 11
+    - 5
+    similar:
+    - 4
+    - 6
+    - 7
+    - 11
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -248,6 +413,30 @@ questions:
   law_note: null
   _key_choice: 連続する2作業日について作業環境測定を行った場合の評価は、それぞれの日についてのA測定の測定値に基づいて求めた幾何標準偏差のうち、大きい値を用いて行うことができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 9
+    - 7
+    - 2
+    similar:
+    - 3
+    - 5
+    - 9
+    - 8
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -270,6 +459,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、硫化水素濃度が5 ppmを超える場所には、関係者以外の者が立ち入ることを禁止しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 6
+    - 9
+    - 10
+    similar:
+    - 3
+    - 1
+    - 6
+    - 9
+    - 11
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -296,6 +509,30 @@ questions:
   law_note: null
   _key_choice: トリクロロエチレンは、特別管理物質であり、かつ、特定第2類物質である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    similar:
+    - 5
+    - 1
+    - 1
+    - 2
+    - 3
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -322,6 +559,30 @@ questions:
   law_note: null
   _key_choice: 第2類物質であるマンガンを取り扱う業務に従事する労働者に対し、6か月以内ごとに1回、定期に、所定の項目について医師による健康診断を行い、その結果に基づき、特定化学物質健康診断個人票を作成し、これを30年間保存するものとされている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 7
+    - 8
+    - 3
+    - 3
+    similar:
+    - 10
+    - 7
+    - 8
+    - 4
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -357,6 +618,13 @@ questions:
   law_note: null
   _key_choice: ロ ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -380,6 +648,30 @@ questions:
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 11
+    - 7
+    - 7
+    - 12
+    similar:
+    - 3
+    - 11
+    - 8
+    - 8
+    - 12
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -402,6 +694,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、管理区域に立ち入る労働者については、放射線業務以外の業務のため一時的に立ち入る者を除き、管理区域内における外部及び内部被ばくによる線量を測定しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 9
+    - 2
+    - 2
+    - 1
+    similar:
+    - 6
+    - 10
+    - 9
+    - 4
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 17
   status: published
   chapters:
@@ -425,6 +741,30 @@ questions:
   law_note: null
   _key_choice: 常時特定粉じん作業が行われる屋内作業場について、6か月以内ごとに1回、定期に、当該作業場における空気中の粉じんの濃度を測定し、その都度、所定の事項を記録して、5年間保存しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 2
+    - 5
+    - 3
+    similar:
+    - 9
+    - 2
+    - 2
+    - 5
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - ans_new
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -451,6 +791,30 @@ questions:
   law_note: null
   _key_choice: 事業者は、室の気積を、設備の占める容積及び床面から5 mをこえる高さにある空間を除き、労働者1人について10 m3以上としなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 7
+    - 1
+    - 1
+    - 3
+    similar:
+    - 6
+    - 8
+    - 1
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - new
+    - ans_b
 - num: 19
   status: published
   chapters:
@@ -477,6 +841,30 @@ questions:
   law_note: null
   _key_choice: 第二鉄塩類を含有している地層に接する井戸の内部における作業は、第1種酸素欠乏危険作業である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 5
+    - 5
+    - 6
+    similar:
+    - 3
+    - 5
+    - 5
+    - 5
+    - 6
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -503,3 +891,27 @@ questions:
   law_note: null
   _key_choice: 事業者は、石綿等の取扱いに伴い、石綿を発散する場所については、原則として、局所排気装置、プッシュプル型換気装置又は全体換気装置を設けなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - new
+    - ans_new

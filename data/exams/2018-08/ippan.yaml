@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 対象の化学物質等への労働者のばく露濃度を測定し、測定結果を厚生労働省の「作業環境評価基準」に示されている当該化学物質の管理濃度と比較する方法。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ''
+    - odo
+    - ans_new
 - num: 2
   status: published
   chapters:
@@ -53,6 +77,30 @@ questions:
   law_note: この問題の「VDT作業における労働衛生管理のためのガイドライン」は、令和元年7月12日に「情報機器作業における労働衛生管理のためのガイドライン」（基発0712第3号）に改められています。
   _key_choice: ディスプレイ画面上における照度は、500ルクス以上としている。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 3
+    - 2
+    - 3
+    similar:
+    - 5
+    - 2
+    - 4
+    - 2
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -78,6 +126,30 @@ questions:
   law_note: null
   _key_choice: トルエンの生物学的モニタリングの指標である尿中馬尿酸量は、飲食物中の安息香酸の影響を受けると低くなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 6
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 4
   status: published
   chapters:
@@ -100,6 +172,30 @@ questions:
   law_note: null
   _key_choice: メタノールによる健康障害として顕著なものは、網膜細動脈瘤を伴う脳血管障害である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 4
+    - 3
+    - 2
+    - 5
+    similar:
+    - 9
+    - 4
+    - 3
+    - 2
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ''
+    - ans_hi
 - num: 5
   status: published
   chapters:
@@ -124,6 +220,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -149,6 +252,30 @@ questions:
   law_note: null
   _key_choice: けい肺は、鉄、アルミニウムなどの金属粉じんを吸入することによって発症するじん肺である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 4
+    - 3
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 7
   status: published
   chapters:
@@ -174,6 +301,30 @@ questions:
   law_note: null
   _key_choice: 金属熱は、金属を溶融する高温作業などに従事する際に、体温調節機能が障害を受けることにより発生する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 3
+    - 2
+    - 6
+    similar:
+    - 5
+    - 3
+    - 3
+    - 2
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -196,6 +347,30 @@ questions:
   law_note: null
   _key_choice: トルエンによる健康障害では、再生不良性貧血などの造血器障害を生じる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 3
+    - 2
+    - 6
+    similar:
+    - 5
+    - 2
+    - 6
+    - 2
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ans_b
+    - ''
+    - odo
 - num: 9
   status: published
   chapters:
@@ -221,6 +396,30 @@ questions:
   law_note: null
   _key_choice: 絶対湿度とは、ある温度における飽和水蒸気量に対する空気中の水蒸気量の比を百分率で示したものである。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 4
+    - 2
+    - 4
+    similar:
+    - 6
+    - 7
+    - 7
+    - 2
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ''
+    - ans_b
 - num: 10
   status: published
   chapters:
@@ -243,6 +442,30 @@ questions:
   law_note: 選択肢4（チェーンソーの一連続の振動ばく露時間10分以内）は、チェーンソー取扱い作業指針に基づく記述です。試験の時点の内容で解説しています。
   _key_choice: 振動障害は、振動数が4,000 Hz以上の振動で発生しやすい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 5
+    - 2
+    - 3
+    similar:
+    - 3
+    - 4
+    - 5
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 11
   status: published
   chapters:
@@ -265,6 +488,30 @@ questions:
   law_note: null
   _key_choice: 騒音性難聴は、中耳の障害による感音性難聴である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 6
+    - 4
+    - 3
+    similar:
+    - 1
+    - 8
+    - 6
+    - 4
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 12
   status: published
   chapters:
@@ -290,6 +537,30 @@ questions:
   law_note: null
   _key_choice: 窒素ガスで置換したタンク内の空気など、ほとんど無酸素状態の空気を吸入すると徐々に窒息の状態になり、この状態が5分程度継続すると呼吸停止する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 12
+    - 4
+    - 1
+    - 3
+    similar:
+    - 6
+    - 12
+    - 4
+    - 1
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -312,6 +583,30 @@ questions:
   law_note: null
   _key_choice: マイクロ波は、レーザー光よりも波長が短い。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 1
+    - 4
+    - 4
+    similar:
+    - 5
+    - 4
+    - 1
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -337,6 +632,30 @@ questions:
   law_note: null
   _key_choice: X線、γ線は共に波長の短い電磁波であるが、波長が10 nm程度以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 4
+    - 1
+    - 5
+    similar:
+    - 1
+    - 1
+    - 5
+    - 1
+    - 9
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -362,6 +681,30 @@ questions:
   law_note: null
   _key_choice: 鉛合金の研磨作業では、鉛は主にヒュームとして発生する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 4
+    - 2
+    - 4
+    similar:
+    - 4
+    - 3
+    - 4
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -387,6 +730,30 @@ questions:
   law_note: null
   _key_choice: 囲い式フードの制御風速とは、フード開口面における平均風速をいう。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 6
+    - 5
+    - 7
+    similar:
+    - 3
+    - 4
+    - 7
+    - 5
+    - 9
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -412,6 +779,30 @@ questions:
   law_note: null
   _key_choice: 酸素濃度18%未満の場所で使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 4
+    - 4
+    similar:
+    - 2
+    - 1
+    - 1
+    - 5
+    - 4
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -434,6 +825,30 @@ questions:
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶の色は、赤である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 6
+    - 3
+    - 1
+    similar:
+    - 4
+    - 2
+    - 6
+    - 3
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 19
   status: published
   chapters:
@@ -456,6 +871,30 @@ questions:
   law_note: null
   _key_choice: 一酸化炭素は、血液中のグロブリンと容易に結合し、体内組織への酸素供給を妨げる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 4
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 4
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - ''
+    - odo
+    - new
 - num: 20
   status: published
   chapters:
@@ -481,3 +920,27 @@ questions:
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度は、その粉じんに含まれる吸入性粉じんの含有率(%)を用いて算出される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+    similar:
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_b

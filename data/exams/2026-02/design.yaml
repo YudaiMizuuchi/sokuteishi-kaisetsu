@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミストの粒径は、一般に、ヒュームの一次粒子よりも小さい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 3
+    - 4
+    - 1
+    similar:
+    - 1
+    - 4
+    - 3
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所の範囲を決める際には、作業場内の気流の影響を考慮しなくてもよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 5
+    - 1
+    - 3
+    - 3
+    similar:
+    - 2
+    - 5
+    - 1
+    - 8
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -77,6 +125,30 @@ questions:
     alt: 単位作業場所を表す長方形の枠の中に、縦2本・横2本の線が引かれ、その4つの交点と中央の1点（計5点）に小さな円（白抜き）が描かれた図。4つの交点の円は破線の対角線で結ばれ、対角線は中央の円で交差する。横の線の間隔に「6 m以下」、縦の線の間隔に「6 m以下」の寸法線があり、枠の下に「単位作業場所」の文字がある。
   law_note: null
   _key_choice: 単位作業場所が著しく狭く、かつ、単位作業場所における空気中の有害物質の濃度がほぼ均一であることが明らかなため、測定点の数を3点とした場合には、3点のうちいずれか2点で2回繰り返し測定を行うことによって、測定値の総数を5とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 8
+    - 7
+    - 2
+    - 2
+    similar:
+    - 2
+    - 8
+    - 7
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -101,6 +173,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質の濃度が高くなると考えられる作業位置が複数あり、どの作業位置が最大濃度になるか予測できない場合には、それらの全ての作業位置で測定を行い、各測定値の算術平均値をB測定値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 4
+    - 8
+    - 1
+    similar:
+    - 3
+    - 2
+    - 4
+    - 8
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_b
 - num: 5
   status: published
   chapters:
@@ -128,6 +224,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -152,6 +255,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定点の位置は、単位作業場所の床面上に任意の基点を定め、原則として、この基点を軸として6 m以下の等間隔で引いた縦の線と横の線との交点のうちから5個の点を選び、測定点とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - new
 - num: 7
   status: published
   chapters:
@@ -176,6 +303,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 溶接ヒューム
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -200,6 +334,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: C測定におけるサンプリング時間は、サンプラーを装着する労働者が単位作業場所において作業に従事する全時間としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 9
   status: published
   chapters:
@@ -227,6 +385,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -251,6 +416,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターを用いて流量計の校正を行う場合には、湿式ガスメーターは、ポンプより上流側に接続する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 2
+    - 6
+    - 1
+    similar:
+    - 1
+    - 8
+    - 2
+    - 6
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 11
   status: published
   chapters:
@@ -275,6 +464,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 固体捕集-加熱脱着-パージトラップ法は、熱分解する可能性のある物質などに適している。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 4
+    - 3
+    - 1
+    similar:
+    - 3
+    - 2
+    - 7
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_new
 - num: 12
   status: published
   chapters:
@@ -299,6 +512,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: グラスファイバーフィルターによる微細粒子の捕集では、ろ過流速が速いほど、拡散作用による捕集率は増加する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ans_new
+    - ''
+    - new
 - num: 13
   status: published
   chapters:
@@ -326,6 +563,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 直接捕集法で用いる真空捕集瓶は、捕集瓶内を1.33 kPa以下に減圧しやすい1L以下の容積のものを使用する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 1
+    - 1
+    - 1
+    similar:
+    - 6
+    - 5
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 14
   status: published
   chapters:
@@ -350,6 +611,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定では、1単位作業場所での採取開始から終了までの時間は、一定の条件を満足した場合は、1時間未満とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    similar:
+    - 2
+    - 4
+    - 1
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - new
+    - ans_new
+    - ''
 - num: 15
   status: published
   chapters:
@@ -374,6 +659,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管の濃度目盛は、25°C、1気圧を基準にして目盛付けがされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 8
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 10
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - odo
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -404,6 +713,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -438,6 +754,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 5.8×10−5 Bq・cm−3
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -463,6 +786,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 対数正規分布の幾何平均値の範囲は、-∞~∞である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 10
+    - 8
+    - 10
+    similar:
+    - 3
+    - 1
+    - 10
+    - 10
+    - 10
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -488,6 +835,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 系統誤差は、その原因を明らかにしても補正することができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - ans_b
+    - odo
+    - ''
+    - new
 - num: 20
   status: published
   chapters:
@@ -513,3 +884,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値は、気中有害物質濃度の算術平均値の推定値である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 1
+    - 9
+    - 1
+    similar:
+    - 7
+    - 2
+    - 1
+    - 9
+    - 1
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - ''
+    - new
+    - odo
+    - new

@@ -26,6 +26,30 @@ questions:
   _key_choice: 体積1 Lは、0.01 dm3である。
   _stem_head: 単位に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 4
+    - 1
+    - 2
+    similar:
+    - 3
+    - 3
+    - 4
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 2
   status: published
   chapters:
@@ -52,6 +76,30 @@ questions:
   _key_choice: 4.642 ÷ 2.0の答えの有効数字の桁数は、4である。
   _stem_head: 有効数字に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   _key_choice: 水と反応しない気体の水に対する溶解度は、温度が高いと高くなる。
   _stem_head: 気体に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 1
+    similar:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -104,6 +176,13 @@ questions:
   _key_choice: 0.33気圧
   _stem_head: 二酸化炭素44 gと一酸化炭素56 gとの混合気体を1.0気圧にしたときの二酸化炭素の分圧として、正しい値に最も近いもの
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -137,6 +216,13 @@ questions:
   _key_choice: 6.8%
   _stem_head: 質量パーセント濃度が10.0%の塩酸(密度1.05 g・cm−3)100 mLに、精製水(密度1.00 g・cm−3)5
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -167,6 +253,13 @@ questions:
   _key_choice: '0.18'
   _stem_head: ヨウ素(I2)を0.20 g含む水溶液100 mLに四塩化炭素10 mLを加えてI2を抽出した。四塩化炭素に抽出されたI
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -193,6 +286,30 @@ questions:
   _key_choice: ホールピペットの許容誤差の容量に対する割合は、容量の大きいものの方が大きい。
   _stem_head: 試料の捕集や分析に使用する流量計とガラス製体積計に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - new
+    - odo
 - num: 8
   status: published
   chapters:
@@ -216,6 +333,30 @@ questions:
   _key_choice: 標準ガスの濃度を微調整するためには、希釈空気の流量よりも拡散セルの温度を変える方が容易である。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 3
+    - 2
+    - 5
+    similar:
+    - 3
+    - 7
+    - 3
+    - 9
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -244,6 +385,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -267,6 +415,30 @@ questions:
   _key_choice: 原子吸光分析法に比べて検量線の直線範囲が狭い。
   _stem_head: ICP発光分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ''
+    - odo
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -297,6 +469,13 @@ questions:
   _key_choice: 1.0 × 10−1 mol・L−1
   _stem_head: 酢酸溶液10.0 mLを精製水で50.0 mLに希釈した後、フェノールフタレインを指示薬として水酸化ナトリウム溶液(2.
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -321,6 +500,30 @@ questions:
   _key_choice: エタンの2倍の物質量である。
   _stem_head: エタンを酸素過剰の状態で燃焼させたとき、生成する二酸化炭素の物質量に関する次の記述のうち、正しいものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 3
+    - 4
+    - 4
+    similar:
+    - 2
+    - 1
+    - 3
+    - 4
+    - 4
+    truths: 誤誤正誤誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - new
+    - ans_b
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -351,6 +554,13 @@ questions:
   _key_choice: 3.0 × 10−5 mol・L−1
   _stem_head: 物質Aの溶液を、光路長1.0 cmのセル中に入れ、波長550 nmにおける吸光度を測定したところ、0.36であった。この
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 14
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -374,6 +584,30 @@ questions:
   _key_choice: モル吸光係数は、光路長に比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 4
+    - 1
+    similar:
+    - 2
+    - 3
+    - 1
+    - 7
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - new
+    - odo
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -400,6 +634,30 @@ questions:
   _key_choice: 吸光度は、バーナーの高さを変えても変化しない。
   _stem_head: フレームを用いるカドミウムの原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 4
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 16
   status: published
   chapters:
@@ -423,6 +681,30 @@ questions:
   _key_choice: 蛍光は、励起光よりも短波長側に生じる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 6
+    - 4
+    - 8
+    similar:
+    - 4
+    - 2
+    - 6
+    - 4
+    - 9
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -448,6 +730,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 18
   status: published
   chapters:
@@ -479,6 +768,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
   chapters:
@@ -502,6 +798,30 @@ questions:
   _key_choice: この分析法は、ガラスプリズムで単色化させたX線を試料に照射して行われる。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 1
+    - 8
+    - 6
+    - 5
+    similar:
+    - 6
+    - 1
+    - 8
+    - 6
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -527,3 +847,10 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new

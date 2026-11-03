@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業環境測定を外部の作業環境測定機関に委託して実施している場合、当該作業環境測定を実施している作業環境測定士を衛生委員会の委員として指名しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 4
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - ans_new
+    - ''
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 雇入時の健康診断項目のうち、貧血検査、肝機能検査等一定の検査項目については、厚生労働大臣が定める基準に基づき、医師が必要でないと認めるときは、省略することができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 1
+    - 10
+    - 3
+    similar:
+    - 7
+    - 5
+    - 1
+    - 10
+    - 3
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - new
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 廃棄物の焼却施設において焼却灰を取り扱う業務
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -103,6 +158,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 5
   status: published
   chapters:
@@ -127,6 +189,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 多量の蒸気を使用する金属又は非金属の洗浄又はめっきの業務を行う屋内作業場については、半月以内ごとに1回、定期に、当該屋内作業場における気温、湿度及びふく射熱を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 7
+    - 5
+    - 1
+    - 1
+    similar:
+    - 4
+    - 7
+    - 5
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 6
   status: published
   chapters:
@@ -151,6 +237,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -172,6 +265,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: シアン化水素用防毒マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -196,6 +296,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2種酸素欠乏危険作業が行われる場所における硫化水素濃度の測定は、作業環境測定士でなければ行うことができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 7
+    - 1
+    - 4
+    similar:
+    - 9
+    - 6
+    - 7
+    - 1
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 9
   status: published
   chapters:
@@ -221,6 +345,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質のA測定において、直接捕集方法により試料空気を採取する場合、採取時間は、10分間以上の継続した時間としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 1
+    - 3
+    - 3
+    similar:
+    - 3
+    - 4
+    - 1
+    - 3
+    - 7
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - new
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -245,6 +393,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度は、当該粉じんの遊離けい酸含有率が高いほど大きくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 7
+    - 2
+    - 2
+    - 1
+    similar:
+    - 5
+    - 7
+    - 5
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ''
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -269,6 +441,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 個人サンプリング法では、作業に従事する労働者が常に動いているため、測定対象物質の発散源に近接する場所において作業が行われる単位作業場所においても、当該作業が行われる時間のうち、空気中の測定対象物質の濃度が最も高くなると思われる時間に、試料空気の採取を行う必要はない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
 - num: 12
   status: published
   chapters:
@@ -294,6 +490,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第3類物質には、特別管理物質に該当するものがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 4
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -319,6 +539,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定化学物質の区分を色分けにより表示するとき、第2類物質については、黄色で行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ans_new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -347,6 +591,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -372,6 +623,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いて試験研究の業務を行う場合、当該業務に常時従事する労働者に対しては、有機溶剤等健康診断を行わなくてもよい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 9
+    - 1
+    - 7
+    similar:
+    - 4
+    - 3
+    - 9
+    - 1
+    - 9
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -396,6 +671,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線業務以外の業務のため管理区域に一時的に立ち入る労働者であっても、雇入れ又は当該業務に配置替えの際及びその後6か月以内ごとに1回、定期に、法定の項目について医師による健康診断を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 10
+    - 8
+    - 3
+    - 1
+    similar:
+    - 10
+    - 10
+    - 9
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -421,6 +720,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業以外の粉じん作業を行う屋内作業場については、当該粉じん作業に係る粉じんを減少させるため、局所排気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 11
+    - 4
+    - 4
+    - 1
+    similar:
+    - 4
+    - 11
+    - 4
+    - 4
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - new
 - num: 18
   status: published
   chapters:
@@ -446,6 +769,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気調和設備を設けている場合は、当該設備により室に流入する気流を1.0 m/s以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 3
+    - 1
+    - 1
+    - 2
+    similar:
+    - 6
+    - 5
+    - 1
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - ''
+    - ''
 - num: 19
   status: published
   chapters:
@@ -471,6 +818,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第1種酸素欠乏危険作業を行う作業場について、その日の作業を開始する前に、当該作業場における空気中の酸素の濃度を測定した場合における記録の保存期間は、5年間である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 1
+    - 10
+    - 2
+    - 1
+    similar:
+    - 11
+    - 1
+    - 10
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - ''
+    - new
 - num: 20
   status: published
   chapters:
@@ -499,3 +870,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石綿等を取り扱う作業に労働者を従事させるときは、作業の内容にかかわらず、原則として、法定の科目について特別の教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new

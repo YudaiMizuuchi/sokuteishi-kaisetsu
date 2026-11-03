@@ -56,16 +56,18 @@ function initList(cfg) {
       : `${q.summary ? `<p class="qtext">${esc(q.summary)}</p>` : ""}<p class="source">問題文と選択肢は<a href="${esc(q.sourcePdf)}" rel="noopener">公式の公表試験問題（PDF）</a>でご確認ください。</p>`;
     const notes = (q.choiceNotes || []).length
       ? `<ol class="notes">${q.choiceNotes.map((n, i) => `<li${n.isAnswer ? ' class="is-answer"' : ""}><span class="n">(${i + 1})</span><span>${n.html}</span></li>`).join("")}</ol>` : "";
+    const freq = q.freq
+      ? `<section class="freq">${q.freq.level ? `<p class="level lv-${q.freq.level.code}"><b>${esc(q.freq.level.head)}</b></p><p class="level-why">理由：${esc(q.freq.level.reason)}</p><p class="freq-note">この区分は、過去の全回の出題にもとづく目安です。</p>` : ""}<h3>出題頻度</h3><p class="freq-lead">この科目の過去${q.freq.denom}回のうち、同じ内容が出題された回数です（同じ回に重複しても1回と数えます。「似た記述」は、言い回しが違うが、論点が近いものです。実際の頻度は、これらの間にあることが多いです）。</p><ol class="freq-list">${q.freq.items.map((f, i) => `<li${f.hi ? ' class="hi"' : ""}>${q.freq.kind === "choice" ? `<span class="n">(${i + 1})</span>` : ""}<span>${esc(f.truth)}${f.tag ? `<span class="tagt t-${f.tagCode}">${esc(f.tag)}</span>` : ""}：${esc(f.text)}${f.simText ? `<span class="sim">／${esc(f.simText)}</span>` : ""}</span></li>`).join("")}</ol></section>` : "";
     const traps = q.traps.map((t) => `<section class="trap"><h3>この問題のひっかけパターン：${t.url ? `<a href="${u(t.url)}">${esc(t.name)}</a>` : esc(t.name)}</h3>${t.understandingHtml}${t.reasonHtml ? `<div class="why"><span>なぜ？</span>${t.reasonHtml}</div>` : ""}</section>`).join("");
     const books = (q.books || []).length
       ? `<div class="review">${q.books.map((b) => `<a class="book-link" href="${u(b.url)}" target="_blank" rel="noopener">参考書「${esc(b.label)}」で復習する<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`).join("")}</div>` : "";
     return `<article class="q" id="${q.id}">
-      <div class="qmeta"><span>${esc(q.examLabel)}（${esc(q.held)}）</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}">ランク${q.rank}</span>` : ""}</div>
+      <div class="qmeta"><span>${esc(q.examLabel)}（${esc(q.held)}）</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}" title="過去の出題頻度から見た、この問題の区分">${esc(q.rankLabel || "")}</span>` : ""}</div>
       <h2 class="qtitle"><a href="${u(q.url)}">問${q.num}</a></h2>
       ${body}
       <div class="tags">${q.chapterLabels.map((l, i) => `<a class="tag" href="${u(`/chapter/${q.chapters[i]}/`)}">${esc(l)}</a>`).join("")}</div>
       <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-${q.id}" data-answer="${q.answer.join(",")}"${q.hasExplanation ? "" : " data-noexp=\"1\""}>${q.hasExplanation ? "解説を見る" : "正答を見る"}</button>
-      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.textNote ? `<p class="lawnote">原文について：${esc(q.textNote)}</p>` : ""}${q.examNote ? `<p class="lawnote">協会の注記：${esc(q.examNote)}</p>` : ""}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.hasExplanation ? q.explanationHtml : '<p class="no-exp">この問題の解説は準備中です。</p>'}${q.reviewNote ? `<p class="review-note"><b>現在、管理者にて確認中</b>${esc(q.reviewNote)}</p>` : ""}${q.minorNote ? `<p class="minor-note"><b>細かい論点なので、深追いは禁物です。</b>${esc(q.minorNote)}</p>` : ""}${notes}${traps}${books}</div>
+      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.textNote ? `<p class="lawnote">原文について：${esc(q.textNote)}</p>` : ""}${q.examNote ? `<p class="lawnote">協会の注記：${esc(q.examNote)}</p>` : ""}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.hasExplanation ? q.explanationHtml : '<p class="no-exp">この問題の解説は準備中です。</p>'}${q.reviewNote ? `<p class="review-note"><b>現在、管理者にて確認中</b>${esc(q.reviewNote)}</p>` : ""}${q.minorNote ? `<p class="minor-note"><b>細かい論点なので、深追いは禁物です。</b>${esc(q.minorNote)}</p>` : ""}${notes}${freq}${traps}${books}</div>
       ${q.stemHtml ? `<p class="credit">出典：${esc(q.source)}</p>` : ""}
     </article>`;
   }

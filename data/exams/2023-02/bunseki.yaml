@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: A粒子数濃度 Bmg・cm−3
   _stem_head: 物理量又は物理定数Aとその単位記号Bとの次の組合せのうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 4
+    - 5
+    - 4
+    similar:
+    - 3
+    - 3
+    - 4
+    - 5
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 2
   status: published
   chapters:
@@ -58,6 +82,13 @@ questions:
   - ㋑
   - ㋺
   - ㋩
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -83,6 +114,13 @@ questions:
   law_note: null
   _key_choice: トルエンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
   _stem_head: 25°Cにおける物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -114,6 +152,13 @@ questions:
   law_note: null
   _key_choice: 1.8 L
   _stem_head: 圧力が1.0気圧、絶対温度が300 K、体積が3.0 Lの理想気体を、2.0気圧、360 Kにしたときのこの気体の体積は
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -143,6 +188,13 @@ questions:
   law_note: null
   _key_choice: 2.1 mL
   _stem_head: 濃度12 mol・L−1の濃塩酸を水で希釈してpHが1.00となる溶液250 mLをつくるのに必要な濃塩酸の体積として、
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -178,6 +230,13 @@ questions:
   law_note: null
   _key_choice: 0.010 g
   _stem_head: 有機化合物Aを0.060 g含む水溶液50 mLからヘキサン5.0 mLにAを抽出した。水溶液中に残ったAの質量として、
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -203,6 +262,30 @@ questions:
   law_note: null
   _key_choice: メスフラスコで水溶液を定容するときは、標線の下端とメニスカスの下端を合わせる。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    similar:
+    - 2
+    - 2
+    - 7
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - odo
+    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -229,6 +312,30 @@ questions:
   law_note: null
   _key_choice: 10 ppm
   _stem_head: 液体のメチルエチルケトン3.0 mgを捕集袋内の清浄空気中で完全に気化させて、メチルエチルケトンの標準ガス100 Lを調
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 7
+    - 3
+    - 2
+    similar:
+    - 2
+    - 2
+    - 9
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 9
   status: published
   chapters:
@@ -257,6 +364,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -282,6 +396,30 @@ questions:
   law_note: null
   _key_choice: 窒素パージ型分光器は、可視領域の発光を感度よく測定するために用いる。
   _stem_head: ICP-AESに関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 3
+    - 3
+    - 2
+    similar:
+    - 4
+    - 3
+    - 4
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -313,6 +451,13 @@ questions:
   law_note: null
   _key_choice: 溶解度積Kは、水溶液中の塩化物イオンのモル濃度によって変化する。
   _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -339,6 +484,30 @@ questions:
   law_note: null
   _key_choice: 酢酸ナトリウム
   _stem_head: 次の塩0.1 molを水1 Lに溶かしたとき、その水溶液のpHが最も高くなるものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    similar:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -364,6 +533,30 @@ questions:
   law_note: null
   _key_choice: 可視部の測定には、光源として重水素放電管を用いる。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 3
+    - 2
+    - 3
+    similar:
+    - 5
+    - 2
+    - 3
+    - 5
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -393,6 +586,13 @@ questions:
   law_note: null
   _key_choice: '0.7'
   _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、入射光の強さ(I0)に対する透過光の強さ(I)の比(I/I0)が0.
+  freq:
+    kind: question
+    denom: 23
+    count: 16
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -418,6 +618,30 @@ questions:
   law_note: null
   _key_choice: 光の吸収は、励起状態の原子が基底状態に遷移するときに生じる。
   _stem_head: フレームを用いた原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ''
+    - ''
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -443,6 +667,30 @@ questions:
   law_note: null
   _key_choice: 蛍光の波長は、励起光の波長よりも短い。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 4
+    - 6
+    - 9
+    similar:
+    - 3
+    - 8
+    - 4
+    - 13
+    - 10
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -468,6 +716,30 @@ questions:
   law_note: null
   _key_choice: カラム温度を上げると、カラムの通気抵抗は小さくなる。
   _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 5
+    - 4
+    - 2
+    similar:
+    - 3
+    - 7
+    - 5
+    - 4
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 18
   status: published
   chapters:
@@ -494,6 +766,13 @@ questions:
   _key_choice: キャリアーガスの流速が同じなら、理論段数はガスの種類によらない。
   _stem_head: キャピラリーガスクロマトグラフ分析法に用いられるカラムに関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -519,6 +798,30 @@ questions:
   law_note: null
   _key_choice: イ格子面間隔 ロ特性X線 ハゴニオメーター
   _stem_head: X線回折分析法に関する次の記述のイからハの[ ]に入る語句の組合せとして、正しいものは下のうちどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 6
+    - 6
+    - 5
+    - 5
+    similar:
+    - 6
+    - 6
+    - 6
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -548,3 +851,10 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b

@@ -30,6 +30,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 200 ppm
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -54,6 +61,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 同一作業場において2種類の有機溶剤を、別々に使用している場合は、当該有機溶剤の混合有機溶剤を使用する作業場とみなして一つの単位作業場所として設定する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 2
+    - 1
+    - 5
+    - 7
+    similar:
+    - 9
+    - 3
+    - 1
+    - 5
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -81,6 +112,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所が著しく狭く、かつ単位作業場所における粉じんの濃度がほぼ均一であることが明らかなときは、測定値の総数を5未満とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 8
+    - 2
+    - 5
+    - 1
+    similar:
+    - 8
+    - 9
+    - 2
+    - 5
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 4
   status: published
   chapters:
@@ -105,6 +160,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: B測定は局所的短時間の個人ばく露の評価のために行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 6
+    - 5
+    - 8
+    similar:
+    - 4
+    - 3
+    - 6
+    - 5
+    - 8
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -127,6 +206,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の平均値は、測定値の幾何平均の値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 3
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - new
+    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -148,6 +251,13 @@ questions:
   figures: []
   law_note: 令和5年10月1日以降は、個人サンプリング法の対象が広げられ、シアン化カリウムも対象となっています（作業環境測定基準第10条第5項、令和5年厚生労働省告示第174号）。現行法では、この問題の答えは変わります。
   _key_choice: シアン化カリウム
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -172,6 +282,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所において作業に従事する労働者数が5人を下回る場合には、個人サンプリング法による測定を行うことはできない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - ''
+    - odo
+    - ''
 - num: 8
   status: published
   chapters:
@@ -196,6 +330,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: クリストバライトは、遊離けい酸ではない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ''
+    - ans_new
+    - ''
 - num: 9
   status: published
   chapters:
@@ -223,6 +381,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -247,6 +412,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 活性炭管に同一濃度のトルエンとアセトンの混合物を捕集する場合、トルエンの方が早く破過する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 5
+    - 6
+    - 3
+    similar:
+    - 1
+    - 5
+    - 5
+    - 6
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -271,6 +460,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じん中に含まれる遊離けい酸の分析に用いるサンプルの捕集には、オープンフェース型ホルダーを用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 10
+    - 2
+    - 4
+    - 8
+    similar:
+    - 3
+    - 10
+    - 2
+    - 4
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_b
+    - odo
 - num: 12
   status: published
   chapters:
@@ -295,6 +508,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ミゼットインピンジャーによる粒子の捕集では、粒径が小さいほど捕集率は高くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 10
+    - 5
+    - 1
+    - 2
+    similar:
+    - 3
+    - 10
+    - 5
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - new
+    - ''
 - num: 13
   status: published
   chapters:
@@ -316,6 +553,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 光散乱方式の相対濃度計において、粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 4
+    - 4
+    - 5
+    similar:
+    - 3
+    - 2
+    - 4
+    - 7
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_b
+    - odo
 - num: 14
   status: published
   chapters:
@@ -340,6 +601,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 検知管の定量下限とは、変色がわずかでも認められる最低濃度のことである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 4
+    - 2
+    - 1
+    - 2
+    similar:
+    - 6
+    - 4
+    - 4
+    - 1
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -364,6 +649,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 捕集装置を取り付けない状態で流量校正した面積式流量計を、捕集装置とポンプの間に接続して捕集すると、流量計の指示流量は、実際の流量よりも低くなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 3
+    - 4
+    - 2
+    - 4
+    similar:
+    - 6
+    - 4
+    - 5
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -394,6 +703,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -428,6 +744,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 31 時間
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -453,6 +776,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業環境中の有害物質の濃度分布は、正規分布で近似される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 8
+    - 10
+    - 7
+    - 10
+    similar:
+    - 5
+    - 8
+    - 10
+    - 7
+    - 10
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -477,6 +824,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ナフタレンの捕集には、ガラス繊維ろ紙を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 5
+    similar:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - new
+    - ans_b
+    - odo
 - num: 20
   status: published
   chapters:
@@ -502,3 +873,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値は、気中有害物質濃度の算術平均値の推定値である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 7
+    - 9
+    - 2
+    - 6
+    similar:
+    - 7
+    - 7
+    - 9
+    - 2
+    - 6
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - ''
+    - odo

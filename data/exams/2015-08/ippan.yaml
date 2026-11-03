@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: マネジメントシステムの中における安全衛生活動としては、従来型の危険予知(KY)活動、ヒヤリ・ハット事例の収集などを盛り込むべきではない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - ''
 - num: 2
   status: published
   chapters:
@@ -50,6 +74,30 @@ questions:
   law_note: null
   _key_choice: メンタルヘルスケアは、「セルフケア」、「家族によるケア」及び「事業場内産業保健スタッフ等によるケア」の3つのケアを効果的に推進することをいう。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せであると定義される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 5
+    - 2
+    - 1
+    similar:
+    - 1
+    - 2
+    - 5
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - ''
+    - ans_hi
+    - ''
+    - new
 - num: 4
   status: published
   chapters:
@@ -96,6 +168,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -118,6 +197,30 @@ questions:
   law_note: null
   _key_choice: 一酸化炭素では、ヘモグロビン合成の障害による貧血や溶血などがみられる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 6
+    similar:
+    - 10
+    - 1
+    - 1
+    - 2
+    - 6
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -140,6 +243,30 @@ questions:
   law_note: null
   _key_choice: アーク溶接作業で発生するヒュームの1次粒子の粒径は、多くが10 μm以上である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 9
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 7
   status: published
   chapters:
@@ -167,6 +294,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -189,6 +323,30 @@ questions:
   law_note: null
   _key_choice: カドミウムでは、接触性皮膚炎や鼻中隔穿孔がみられる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 2
+    - 5
+    - 9
+    similar:
+    - 2
+    - 3
+    - 2
+    - 5
+    - 9
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -211,6 +369,30 @@ questions:
   law_note: null
   _key_choice: 有機溶剤は、呼吸器から吸収され、皮膚からは吸収されない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 1
+    - 2
+    - 4
+    - 1
+    similar:
+    - 8
+    - 1
+    - 3
+    - 5
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - odo
+    - odo
+    - ans_new
 - num: 10
   status: published
   chapters:
@@ -233,6 +415,30 @@ questions:
   law_note: null
   _key_choice: 屋外で太陽照射のある場合は、WBGTの値は自然湿球温度及び乾球温度の数値から算出される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    similar:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - new
+    - new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -255,6 +461,30 @@ questions:
   law_note: null
   _key_choice: 騒音による聴力低下は、進行しても老人性の聴力低下との区別は容易である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 8
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 8
+    - 2
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ''
+    - ans_new
+    - ''
 - num: 12
   status: published
   chapters:
@@ -277,6 +507,30 @@ questions:
   law_note: null
   _key_choice: 振動障害は、振動の周波数が高いほど起こりやすい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - new
+    - new
+    - new
 - num: 13
   status: published
   chapters:
@@ -311,6 +565,13 @@ questions:
   law_note: null
   _key_choice: ハ—ロ—イ—ニ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -333,6 +594,30 @@ questions:
   law_note: null
   _key_choice: 白血病は、晩発障害に分類される確定的影響である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - odo
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -355,6 +640,30 @@ questions:
   law_note: null
   _key_choice: 有機溶剤は脂溶性であり、水に溶ける有機溶剤は、ほとんどない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 2
+    - 1
+    - 1
+    - 2
+    similar:
+    - 7
+    - 4
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - ''
 - num: 16
   status: published
   chapters:
@@ -380,6 +689,30 @@ questions:
   law_note: null
   _key_choice: 空気清浄装置を付設する局所排気装置では、一般に、排風機をフードに接続した吸引ダクトと空気清浄装置の間に設ける。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 8
+    - 3
+    - 4
+    similar:
+    - 2
+    - 4
+    - 8
+    - 3
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -405,6 +738,30 @@ questions:
   law_note: null
   _key_choice: 防じんマスクの装着の際、面体と顔面の密着性を高めるため、面体の接顔部に、接顔メリヤスを装着して使用するのがよい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 3
+    similar:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - new
+    - odo
+    - odo
+    - ans_b
 - num: 18
   status: published
   chapters:
@@ -427,6 +784,30 @@ questions:
   law_note: null
   _key_choice: 直結式防毒マスクは、隔離式防毒マスクより使用できる環境空気中の対象ガス濃度の範囲が広い。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 4
+    - 1
+    - 1
+    similar:
+    - 3
+    - 7
+    - 4
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - new
+    - new
 - num: 19
   status: published
   chapters:
@@ -452,6 +833,30 @@ questions:
   law_note: null
   _key_choice: 測定対象物質の中には、管理濃度が天井値として定められているものがある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 3
+    - 1
+    - 1
+    similar:
+    - 2
+    - 6
+    - 3
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 20
   status: published
   chapters:
@@ -474,3 +879,27 @@ questions:
   law_note: null
   _key_choice: 許容濃度は、その値を作業環境測定の結果から得られる第1評価値及び第2評価値と比較して用いる指標である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 2
+    - 11
+    - 1
+    similar:
+    - 3
+    - 3
+    - 2
+    - 11
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_new

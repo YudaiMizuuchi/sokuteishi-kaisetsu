@@ -30,6 +30,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 590 mg・m−3
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -54,6 +61,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 単位作業場所の設定に当たっては、作業場内で働く労働者の人数や作業時間なども考慮する必要がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 2
+    - 7
+    - 4
+    similar:
+    - 2
+    - 6
+    - 2
+    - 7
+    - 4
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ''
+    - ans_hi
+    - ''
+    - odo
+    - odo
 - num: 3
   status: published
   chapters:
@@ -81,6 +112,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 測定時間が10分間未満の検知管を使用する場合には、各測定点において複数の検知管を使用して10分間以上連続して測定を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 3
+    - 4
+    - 3
+    - 5
+    similar:
+    - 10
+    - 3
+    - 4
+    - 5
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -105,6 +160,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有害物質の濃度が高くなると考えられる作業位置が複数ある場合は、それらの全ての作業位置で測定を行い、各々の測定値の算術平均値をB測定値とする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 8
+    - 4
+    - 3
+    - 5
+    similar:
+    - 3
+    - 8
+    - 4
+    - 7
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -133,6 +212,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定及びB測定を実施した場合の管理区分の決定は、A測定の算術平均値及び標準偏差並びにB測定値を用いる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - odo
+    - ''
+    - ans_new
 - num: 6
   status: published
   chapters:
@@ -157,6 +260,30 @@ questions:
   figures: []
   law_note: 令和5年10月1日以降は、有機溶剤等について「発散源の場所が一定しない作業」に限る取扱いが廃止され、全ての作業が個人サンプリング法の対象となりました（令和5年厚生労働省告示第174号）。現行法では、この問題の選択肢1も対象となります。
   _key_choice: 労働者が塗装ブース前の定点で移動せずに行う吹付塗装作業
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正誤誤誤誤
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - ''
+    - ''
+    - ''
 - num: 7
   status: published
   chapters:
@@ -184,6 +311,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: D測定の試料空気の採取等の時間は、10分間である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    similar:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - ''
+    - odo
+    - ans_new
 - num: 8
   status: published
   chapters:
@@ -208,6 +359,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: コールタールは、常温・常圧で固体である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 4
+    - 5
+    - 3
+    similar:
+    - 2
+    - 4
+    - 4
+    - 5
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -234,6 +409,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: Aアクリルアミド B小型バブラー
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -258,6 +440,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 湿式ガスメーターは、原則として、吸引ポンプより上流側に接続する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 4
+    - 7
+    - 8
+    similar:
+    - 4
+    - 8
+    - 4
+    - 7
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -282,6 +488,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一般に、シリカゲルは極性の小さい有機溶剤、活性炭は極性の大きい有機溶剤の捕集に適している。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 6
+    - 2
+    - 3
+    similar:
+    - 4
+    - 3
+    - 7
+    - 6
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -306,6 +536,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: メンブランフィルターのポアサイズ(孔径)は、捕集できる最小の粒子の大きさを表している。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 10
+    - 3
+    - 7
+    - 2
+    similar:
+    - 3
+    - 10
+    - 4
+    - 7
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -330,6 +584,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 使用後の捕集袋を再使用するためには、水又は洗剤で内面を十分に洗浄しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 5
+    - 5
+    - 6
+    similar:
+    - 3
+    - 8
+    - 5
+    - 5
+    - 6
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -354,6 +632,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 質量濃度変換係数、粉じんの質量濃度、相対濃度をそれぞれK、C、Rとすると、その関係は、K=R/Cで表される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    similar:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - ''
+    - odo
 - num: 15
   status: published
   chapters:
@@ -378,6 +680,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 変色層が斜めに現れた場合は、変色した部分の最先端を読み取る。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 8
+    - 3
+    - 3
+    similar:
+    - 2
+    - 4
+    - 10
+    - 4
+    - 5
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 16
   status: published
   chapters:
@@ -407,6 +733,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: イ放射性アルゴン ロ放射性セシウム
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -441,6 +774,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1.4×104 Bq
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -466,6 +806,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 対数正規分布の幾何平均値と幾何標準偏差とは同じ次元を持つ。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 10
+    - 8
+    - 9
+    - 4
+    similar:
+    - 10
+    - 10
+    - 8
+    - 10
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 19
   status: published
   chapters:
@@ -490,6 +854,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 慣性衝突式分粒装置を用いる場合、吸引流量が所定の値よりも小さいと、測定値は小さくなる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 7
+    - 2
+    - 3
+    similar:
+    - 8
+    - 2
+    - 7
+    - 2
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -517,3 +905,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値とB測定の測定値が共に管理濃度より小さくても、管理区分は第1管理区分になるとは限らない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 9
+    - 5
+    - 4
+    - 4
+    similar:
+    - 6
+    - 9
+    - 5
+    - 4
+    - 9
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo

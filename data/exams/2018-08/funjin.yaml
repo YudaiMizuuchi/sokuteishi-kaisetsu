@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-138
   rank: null
   stem: 空気中の粒子の挙動に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -27,10 +29,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 空気中の粒子の挙動等に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -52,10 +80,36 @@ questions:
   figures: []
   law_note: null
   minor_note: 慣性力場の50％分粒粒径が、ノズルの直径に単純には比例しない、という点は、旧版ガイドブックの記述を確認できておらず、一般的な知識による説明です。根拠の確認は後回しにしています。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: '空気中に浮遊している粒子が沈降する際、粒子は上向きの力を及ぼす抵抗力及び浮力と、下向きの力を及ぼす重力とが釣り合って、一定の速度で沈降し、この速度を終末速度（Vs）という。微小粒子の終末速度を表すストークスの式として、正しいものは次のうちどれか。
 
@@ -82,10 +136,19 @@ questions:
     （参考：『作業環境測定のための労働衛生の知識』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 慣性衝突式分粒装置（インパクター）に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -106,10 +169,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-135
   rank: null
   stem: 環境空気中に浮遊する粉じん粒子のろ過捕集に関する次の記述のうち、不適当なものはどれか。
   choices:
@@ -130,10 +219,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 5
+    - 2
+    - 3
+    similar:
+    - 2
+    - 3
+    - 5
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 粉じんのろ過捕集に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -154,10 +269,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - new
+    - new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 粉じんのろ過捕集で用いられる流量計に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -178,10 +319,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 5
+    - 2
+    - 2
+    - 1
+    similar:
+    - 5
+    - 5
+    - 3
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 作業環境測定で用いる相対濃度計の特性等に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -202,10 +369,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - odo
+    - new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 光散乱方式の相対濃度計の構成及び取扱いに関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -226,10 +419,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 3
+    - 4
+    - 1
+    similar:
+    - 1
+    - 4
+    - 4
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 天秤及び秤量に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -250,10 +469,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 3
+    - 3
+    - 1
+    similar:
+    - 1
+    - 3
+    - 3
+    - 4
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-118
   rank: null
   stem: '粉じんの相対濃度計の質量濃度変換係数（K値）を求めるため、サンプリング時間を60分として併行測定を行い、次の結果を得た。これらの値から求められたK値の誤差として、正しい値に最も近いものは下のうちどれか。
 
@@ -289,10 +534,19 @@ questions:
     よって（1）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: 遊離けい酸に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -313,10 +567,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 5
+    - 2
+    - 1
+    - 1
+    - 5
+    similar:
+    - 5
+    - 5
+    - 1
+    - 1
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: X線回折分析用試料を作製する際の再発じん法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -337,10 +617,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-129
   rank: null
   stem: 粉じん中の遊離けい酸の分析手順に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -355,10 +661,36 @@ questions:
   explanation: null
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 6
+    - 1
+    - 2
+    - 2
+    similar:
+    - 2
+    - 6
+    - 1
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - new
+    - odo
+    - ans_b
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-123
   rank: null
   stem: 王水添加りん酸法による遊離けい酸の分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -379,10 +711,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    similar:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: X線回折分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -403,10 +761,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-124
   rank: null
   stem: X線回折基底標準吸収補正法によって、粉じん中の石英を定量するための方法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -427,10 +811,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 3
+    - 3
+    - 8
+    - 5
+    similar:
+    - 4
+    - 3
+    - 3
+    - 8
+    - 5
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-119
   rank: null
   stem: X線回折基底標準吸収補正法により、粉じん中の石英の定量を行った。直径25mmのフィルター（採じん面の直径20mm）に再発じん法により1.57mgの粉じんを捕集した。このフィルターの石英の主回折線強度を測定し、粉じん中の石英含有率を求めたところ24.0%が得られた。測定された石英の主回折線強度（cps）として、正しい値に最も近いものは下のうちどれか。ただし、X線吸収補正係数は1.20、石英の回折線強度は石英が1mg/cm²のとき6,400cpsとする。
   choices:
@@ -457,10 +867,19 @@ questions:
     よって（2）です。'
   figures: []
   law_note: 令和8年10月1日施行の作業環境測定基準の改正で、遊離けい酸の分析方法に関する規定（第2条の3）が加わりました。この解説は旧版のガイドブックにもとづいています。現行の条文で内容が変わっている場合は、現行の条文が優先されます。
+  freq:
+    kind: question
+    denom: 12
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-130
   rank: null
   stem: セルローズエステルメンブランフィルターを用いた石綿粉じんの計数分析に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -481,10 +900,36 @@ questions:
     （参考：『作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務』（旧版））'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - new
+    - new
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-funjin
+  traps:
+  - sl-funjin-other-funjin
   rank: null
   stem: '次の条件で、石綿粉じんを直径25mmのセルローズエステルメンブランフィルター（採じん面の直径22mm）上に捕集して位相差顕微鏡を用いて計数を行った。この試料において、1視野に認められた繊維数の平均値が6.6本であった。このときの繊維数濃度に最も近いものは下のうちどれか。ただし、ブランクの値を0本とする。
 
@@ -524,3 +969,10 @@ questions:
     よって（2）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi

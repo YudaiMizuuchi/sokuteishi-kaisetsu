@@ -24,6 +24,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ハザードは、労働災害発生の可能性と負傷又は疾病の重大性(重篤度)の組合せとして定義される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 5
+    similar:
+    - 1
+    - 3
+    - 5
+    - 1
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - odo
+    - new
+    - ans_hi
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 重量物取扱い作業では、腰部保護ベルトを、必ず使用するよう指導する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 2
+    similar:
+    - 3
+    - 2
+    - 1
+    - 1
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ans_new
+    - new
+    - ''
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: トリクロロエチレンの生物学的モニタリングの指標として、尿中のフェニルグリオキシル酸の濃度がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 4
+    - 4
+    - 4
+    similar:
+    - 2
+    - 3
+    - 5
+    - 4
+    - 9
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -96,6 +168,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベリリウム中毒では、溶血性貧血、尿の赤色化などの症状がみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 3
+    - 5
+    similar:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - new
+    - ans_b
+    - odo
 - num: 5
   status: published
   chapters:
@@ -123,6 +219,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -150,6 +253,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じんの空気力学相当径は、光学顕微鏡による粒径測定によって求められる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 3
+    - 5
+    - 1
+    similar:
+    - 5
+    - 5
+    - 3
+    - 5
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - new
 - num: 7
   status: published
   chapters:
@@ -171,6 +298,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: コバルトによる中毒では、レイノー現象、指端骨溶解や肝血管肉腫などがみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 9
+    - 6
+    - 1
+    - 1
+    - 3
+    similar:
+    - 10
+    - 6
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 8
   status: published
   chapters:
@@ -195,6 +346,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 二硫化炭素による中毒では、メトヘモグロビン形成によるチアノーゼがみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 6
+    - 2
+    - 2
+    - 1
+    similar:
+    - 1
+    - 7
+    - 2
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ''
+    - ans_new
+    - new
 - num: 9
   status: published
   chapters:
@@ -219,6 +394,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 温度感覚を左右する環境要素は、気温、湿度、気圧及びふく射熱であり、この四要素によって温熱環境が定まる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 1
+    - 3
+    - 3
+    similar:
+    - 3
+    - 6
+    - 5
+    - 4
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -243,6 +442,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動工具を使用する作業では、レイノー現象などの末梢神経障害及び手指のしびれなど末梢循環障害が発生するおそれがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 3
+    - 8
+    - 1
+    - 1
+    similar:
+    - 6
+    - 4
+    - 8
+    - 1
+    - 5
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -264,6 +487,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 騒音性難聴は、伝音性難聴である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 4
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - ans_b
+    - new
+    - new
 - num: 12
   status: published
   chapters:
@@ -288,6 +535,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 窒素ガスで置換したタンク内など、ほとんど無酸素状態で呼吸をすると徐々に窒息の状態になり、この状態が5分程度継続すると呼吸停止する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 4
+    - 4
+    - 2
+    similar:
+    - 7
+    - 3
+    - 6
+    - 4
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - ''
 - num: 13
   status: published
   chapters:
@@ -309,6 +580,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: レーザー光線は、単一波長で位相のそろった可視光線のことで、指向性や集束性が強く、エネルギー密度が高いという特徴を持つ。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 2
+    - 1
+    - 8
+    similar:
+    - 5
+    - 2
+    - 2
+    - 1
+    - 8
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ''
+    - ans_new
+    - odo
 - num: 14
   status: published
   chapters:
@@ -333,6 +628,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線による皮膚障害のうち、脱毛には潜伏期があり、晩発影響に分類される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 4
+    - 3
+    - 1
+    similar:
+    - 3
+    - 2
+    - 4
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -357,6 +676,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 1,4-ジオキサンは、脂溶性は有しているが水溶性はない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - ''
+    - ans_new
+    - odo
 - num: 16
   status: published
   chapters:
@@ -381,6 +724,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 外付け式フードの制御風速とは、作業者の呼吸位置において必要となる最小の風速である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 5
+    - 6
+    - 3
+    similar:
+    - 7
+    - 1
+    - 5
+    - 7
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -405,6 +772,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 使い捨て式防じんマスクは、粒径1 μm程度のヒュームには使用できない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 2
+    similar:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -432,6 +823,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 物質のばく露限界濃度にかかわらず、臭気を感知するかどうかという人の知覚の有無を、吸収缶の交換時期の判断基準としてはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 7
+    similar:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 7
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - ''
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -456,6 +871,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: O-157は、腸管出血性ウイルスの一種で、加熱不足の食肉等から摂取され、潜伏期間は3~5日である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 2
+    - 4
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ''
+    - odo
+    - ans_new
+    - ''
 - num: 20
   status: published
   chapters:
@@ -477,3 +916,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 許容濃度の値は、経皮吸収があることを考慮して定められている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 3
+    - 5
+    - 6
+    similar:
+    - 2
+    - 2
+    - 3
+    - 5
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - odo

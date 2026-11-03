@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 対象の化学物質等への労働者のばく露の程度を測定し、測定結果を厚生労働省の「作業環境評価基準」に示されている当該化学物質の管理濃度と比較する方法。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - odo
+    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: この指針は、労働安全衛生法の規定に基づき、機械、設備、化学物質等による危険又は健康障害を防止するため事業者が講ずべき具体的な措置を定めるものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    similar:
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - new
+    - ''
+    - new
+    - ''
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: キシレンは、代謝されて、尿中にエチル馬尿酸として排泄される。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 8
+    - 3
+    - 3
+    similar:
+    - 8
+    - 3
+    - 8
+    - 3
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 一酸化炭素は、赤血球中のヘモグロビンの合成を阻害し、酸素欠乏を生じさせる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 1
+    - 4
+    - 2
+    similar:
+    - 4
+    - 2
+    - 3
+    - 4
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - ans_b
+    - odo
+    - odo
 - num: 5
   status: published
   chapters:
@@ -126,6 +222,13 @@ questions:
   columns:
   - Ａ
   - Ｂ
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -150,6 +253,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに含まれる遊離けい酸は、胸膜の中皮腫を生じさせる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 3
+    - 2
+    - 2
+    similar:
+    - 3
+    - 4
+    - 3
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - ''
 - num: 7
   status: published
   chapters:
@@ -174,6 +301,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: カドミウム中毒では、溶血性貧血や鼻中隔穿孔がみられる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 5
+    - 7
+    - 1
+    - 2
+    similar:
+    - 6
+    - 5
+    - 7
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 8
   status: published
   chapters:
@@ -198,6 +349,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酢酸メチルによる健康障害として顕著なものは、網膜微細動脈瘤を伴う脳血管障害である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 5
+    - 5
+    similar:
+    - 1
+    - 4
+    - 1
+    - 5
+    - 5
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - new
+    - odo
+    - new
+    - ans_hi
+    - odo
 - num: 9
   status: published
   chapters:
@@ -222,6 +397,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 算出したWBGTの値が、作業内容に応じて設定されたWBGT基準値未満である場合には、熱中症が発生するリスクが高まる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 2
+    - 5
+    - 1
+    similar:
+    - 4
+    - 6
+    - 2
+    - 6
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_new
 - num: 10
   status: published
   chapters:
@@ -246,6 +445,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動障害は、振動周波数が4,000 Hz以上の振動で発生しやすい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 5
+    - 7
+    - 6
+    similar:
+    - 4
+    - 3
+    - 5
+    - 7
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -270,6 +493,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 等価騒音レベルは、中心周波数500 Hz、1,000 Hz、2,000 Hz及び4,000 Hzの各オクターブバンドの騒音レベルの平均値である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 6
+    - 5
+    - 1
+    - 8
+    similar:
+    - 2
+    - 6
+    - 8
+    - 1
+    - 8
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -294,6 +541,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 飼料の貯蔵又は果菜の熟成のために使用している倉庫の内部での作業では、酸素欠乏症及び硫化水素中毒の危険がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 2
+    - 6
+    - 12
+    similar:
+    - 3
+    - 1
+    - 2
+    - 6
+    - 12
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -318,6 +589,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: マイクロ波は、赤外線より波長が短い電磁波で、照射部位の組織を加熱する作用がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 8
+    - 2
+    - 2
+    similar:
+    - 2
+    - 4
+    - 8
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -342,6 +637,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: X線及びγ線のうち、波長が10 nm程度以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 8
+    - 4
+    - 3
+    - 3
+    similar:
+    - 2
+    - 10
+    - 5
+    - 3
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 15
   status: published
   chapters:
@@ -366,6 +685,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ヒュームの一次粒子の粒径は、一般に、5 μm程度である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 1
+    - 3
+    - 1
+    similar:
+    - 4
+    - 4
+    - 1
+    - 3
+    - 1
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - new
 - num: 16
   status: published
   chapters:
@@ -390,6 +733,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ダクトの断面積が同じである場合、断面が円形のダクトは長方形のダクトに比べて圧力損失が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 8
+    - 3
+    - 3
+    - 1
+    similar:
+    - 4
+    - 8
+    - 3
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -414,6 +781,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酸素濃度18 %未満の場所でも使用できる呼吸用保護具には、送気マスク、空気呼吸器のほか、電動ファン付き呼吸用保護具がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 4
+    - 2
+    - 2
+    similar:
+    - 5
+    - 4
+    - 4
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 18
   status: published
   chapters:
@@ -438,6 +829,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機ガス用防毒マスクの吸収缶は、使用する環境の温度が低いほど破過時間が短くなる傾向がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 3
+    - 4
+    - 9
+    - 6
+    similar:
+    - 7
+    - 3
+    - 4
+    - 9
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -465,6 +880,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね60 %以下となるようにする。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 3
+    - 3
+    - 3
+    similar:
+    - 4
+    - 2
+    - 3
+    - 3
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -489,3 +928,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 許容濃度等の勧告において、ヒトに対する発がん性については、第1群、第2群A、第2群B及び第3群の4種類に分類されている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 3
+    - 11
+    - 4
+    similar:
+    - 1
+    - 3
+    - 3
+    - 11
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_b

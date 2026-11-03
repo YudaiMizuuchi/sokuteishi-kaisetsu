@@ -106,6 +106,41 @@ const trapOut = Object.fromEntries(traps.map((t) => [t.id, t]));
 
 // ---- 問題
 const RANK_ORDER = { S: 0, A: 1, B: 2, C: 3 };
+
+// 出題頻度（tools/compute_freq.py の結果）を、表示用の文に直す
+const LEVELS = {
+  1: { code: "S", label: "得点必須", head: "この問題は、試験本番では得点しなければならない問題です。" },
+  2: { code: "B", label: "何とか得点", head: "この問題は、何とか得点したい問題です。" },
+  3: { code: "C", label: "失点やむなし", head: "この問題は、失点しても仕方がない問題です。" },
+};
+const WHY = {
+  ans_hi: "下記の通り、ひっかけパターンである選択肢（正答）から、容易に正答を割り出すことができるからです。",
+  ans_b: "下記の通り、正答の選択肢が、過去に複数回出題されており、押さえておけば、正答を割り出せるからです。",
+  elim_all: "下記の通り、頻出のおとりパターンである選択肢をすべて除外して、正答を割り出すことができるからです。",
+  elim_two: "下記の通り、頻出のおとりパターンである選択肢を除外して、残り2つまで絞り込めるからです。2択になるので、2回に1回は得点できます。",
+  none: "いずれも初見の選択肢であり、問題のテーマとしても頻出テーマではないからです。",
+};
+const TAGS = { ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
+function freqOut(f) {
+  if (!f || !f.denom) return null;
+  const pct = (m) => Math.round((m / f.denom) * 100);
+  const text = (m) => `全${f.denom}回中${m}回出題（出題確率${pct(m)}％）`;
+  const lv = LEVELS[f.level] || null;
+  let reason = "";
+  if (f.kind === "choice") reason = WHY[f.why] || "";
+  else if (f.why === "q_hi") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、確実に得点できるからです。`;
+  else if (f.why === "q_b") reason = `この形式の問題（${f.form}）は、全${f.denom}回中${f.count}回出題されており、解き方を押さえれば、何とか得点できるからです。`;
+  else reason = `この形式の問題（${f.form}）は、過去の出題が少なく、初見になる可能性が高いからです。`;
+  const level = lv ? { code: lv.code, label: lv.label, head: lv.head, reason } : null;
+  if (f.kind === "choice") {
+    return { kind: "choice", denom: f.denom, level, items: f.counts.map((m, i) => ({
+      truth: f.truths[i] === "正" ? "正しい記述" : "誤った記述", m, pct: pct(m), text: text(m), hi: pct(m) >= 30,
+      tag: TAGS[(f.tags || [])[i] || ""] || "", tagCode: (f.tags || [])[i] || "",
+      simText: (f.similar && f.similar[i] > m) ? `似た記述を含めると${f.similar[i]}回（${pct(f.similar[i])}％）` : "" })) };
+  }
+  return { kind: "question", denom: f.denom, level, items: [{ truth: `この形式の問題（${f.form}）`, m: f.count, pct: pct(f.count), text: text(f.count), hi: pct(f.count) >= 30, tag: "", tagCode: "", simText: "" }] };
+}
+
 const questions = [];
 const examsDir = path.join(ROOT, "exams");
 for (const exam of fs.readdirSync(examsDir).sort()) {
@@ -138,7 +173,8 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
       if (!published && !site.showDrafts) continue;
 
       const qTraps = (q.traps || []).map((id) => trapById[id]).filter(Boolean);
-      const rank = q.rank || qTraps.map((t) => t.rank).sort((a, b) => RANK_ORDER[a] - RANK_ORDER[b])[0] || null;
+      const freqInfo = freqOut(q.freq);
+      const rank = freqInfo?.level?.code || null;   // 問題のランク＝出題頻度から決めた区分（S：得点必須／B：何とか得点／C：失点やむなし）
       const id = `${exam}-${doc.subject}-${String(q.num).padStart(2, "0")}`;
       questions.push({
         id,
@@ -149,6 +185,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         num: q.num,
         published,
         rank,
+        rankLabel: freqInfo?.level?.label || null,
         chapters: (q.chapters || []).map((c) => ({ id: c, label: chapterLabel(chapterById[c]), url: `/chapter/${c}/` })),
         // 参考書のページがある章（主な章が先）
         books: (q.chapters || []).filter((c) => fs.existsSync(path.join(BOOK_DIR, `${c}.md`)))
@@ -175,6 +212,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         examNote: q.exam_note || null, // 協会による正答の注記（複数正答など）
         textNote: q.text_note || null, // 原本の印字（誤植など）をそのまま掲載している箇所の注記
         reviewNote: q.review_note || null, // 管理者が確認中の点（確認が済んだら消す）
+        freq: freqInfo,
         minorNote: q.minor_note || null, // 細かい論点（試験対策としては深追い不要。根拠の確認は後回し）
         sourcePdf: doc.source_pdf || site.officialIndex,
       });
@@ -231,12 +269,12 @@ for (const c of chapters) c.traps.sort((a, b) => RANK_ORDER[a.rank] - RANK_ORDER
 // 一覧ページ用の軽いデータ（科目ごとに /data/<科目>.json として書き出す）
 const listItem = (q) => ({
   id: q.id, url: q.url, exam: q.exam.key, examLabel: q.exam.label, held: q.exam.held,
-  subject: q.subject, subjectName: q.subjectName, num: q.num, rank: q.rank,
+  subject: q.subject, subjectName: q.subjectName, num: q.num, rank: q.rank, rankLabel: q.rankLabel,
   chapters: q.chapters.map((c) => c.id), chapterLabels: q.chapters.map((c) => c.label),
   traps: q.traps.filter((t) => !t.misc && !t.hidden).map((t) => ({ name: t.name, url: t.url, understandingHtml: t.understandingHtml, reasonHtml: t.reasonHtml })),
   books: q.books,
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
-  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, minorNote: q.minorNote, sourcePdf: q.sourcePdf, source: q.source,
+  explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, minorNote: q.minorNote, freq: q.freq, sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
 });
 const subjectsWithData = subjects

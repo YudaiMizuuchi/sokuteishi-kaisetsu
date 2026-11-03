@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 次の有機溶剤のうち、25℃における飽和蒸気圧が最も小さいものはどれか。
   choices:
@@ -21,10 +23,19 @@ questions:
   explanation: 飽和蒸気圧は、沸点が高い物質ほど小さくなります。沸点は、アセトンが約56℃、1,2-ジクロロエチレンが約48〜60℃、メタノールが約65℃、酢酸エチルが約77℃、**トルエンが約111℃**です。トルエンが最も高く、蒸気圧は最も小さいので、（5）です。同じ問題は、令和6年度第1回にも出題されています（出題実績）。（沸点は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 次のⒶ及びⒷの有機溶剤の組合せのうち、両方とも水と混和するものはどれか。
   choices:
@@ -55,10 +66,19 @@ questions:
     よって（3）です。（溶解度は、一般的な化学便覧の概数です。）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: '有機溶剤に関する次の記述の［　］に入る溶剤名として、適当なものは下のうちどれか。
 
@@ -90,10 +110,19 @@ questions:
     よって（2）です。同様の問題は、令和5年度第1回にも出題されています（出題実績）。（沸点・密度は、一般的な化学便覧の概数です。）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 次の有機溶剤のうち、その構造中に酸素原子を含まないものはどれか。
   choices:
@@ -116,10 +145,19 @@ questions:
     よって（2）です。同じ問題は、令和2年度第1回にも出題されています（出題実績）。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 環境空気中の有機溶剤の直接捕集法とその試料の取扱いに関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -140,10 +178,36 @@ questions:
     （参考：『デザイン・サンプリングの実務（A・B測定編 上）』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+    similar:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-011
   rank: null
   stem: 固体捕集法-ガスクロマトグラフ分析法における測定対象有機溶剤Ⓐ、捕集管Ⓑ及び脱着溶媒Ⓒの次の組合せのうち、不適当なものはどれか。
   choices:
@@ -164,10 +228,19 @@ questions:
     アセトンとエチルエーテルは、シリカゲル管に捕集し、それぞれメタノールとアセトンで脱着します。酢酸エチルは、シリカゲル管に捕集し、N,N-ジメチルホルムアミドで脱着します。トルエンは、活性炭管に捕集し、二硫化炭素で脱着します。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   stem: 検知管に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -185,10 +258,36 @@ questions:
     検知管は、担体にコーティングした試薬と対象物質との化学反応を利用しています。検知管には、前段に酸化剤、後段に検知剤が充填されているものがあります。検知剤と気体の反応速度は、一般に、温度が上昇するほど大きくなります。検知管は、作業場所の室温にしてから使います。'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 4
+    similar:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: ガスクロマトグラフ分析法のキャリアガスに関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -209,10 +308,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 4
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: OV-1充填カラムを用いてガスクロマトグラフ分析を行うとき、次のうち最もテーリングを起こしやすい有機溶剤はどれか。
   choices:
@@ -227,10 +352,19 @@ questions:
   explanation: 極性の高い物質は、無極性カラムでは、固定相との相互作用が弱く、カラム内や注入口の活性点に吸着しやすいので、**テーリングを起こしやすい**です。選択肢のうち、極性が最も高いのは、水酸基をもつ**1-ブタノール**で、（4）です。同様の問題は、平成29年度第1回、令和2年度第1回などにも出題されています（出題実績）。
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-000
   rank: null
   stem: 固定相液体としてポリエチレングリコール20Mを用いるガスクロマトグラフ分析法において、トルエンより保持時間の長い有機溶剤は、次のうちどれか。
   choices:
@@ -245,10 +379,19 @@ questions:
   explanation: ポリエチレングリコール20M（PEG 20M）のカラムでは、成分は、おおよそ沸点の低いものから溶出します。トルエン（沸点約111℃）より保持時間が長いのは、沸点が約124℃の**エチレングリコールモノメチルエーテル**です。イソプロピルアルコール（約82℃）、メチルエチルケトン（約80℃）、酢酸n-プロピル（約102℃）、アセトン（約56℃）は、いずれもトルエンより沸点が低く、先に溶出します。よって（4）です。同様の問題は、令和8年度第1回にも出題されています（出題実績）。（沸点は、一般的な化学便覧の概数です。）
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-000
   rank: null
   stem: 固定相液体としてメチルシリコン系のOV-1を用いるガスクロマトグラフ分析法において、トルエンより保持時間の長い有機溶剤は、次のうちどれか。
   choices:
@@ -266,10 +409,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-012
   rank: null
   stem: キャピラリーカラムを用いたガスクロマトグラフ分析法における試料注入法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -290,10 +442,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    similar:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - new
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-013
   rank: null
   stem: キャピラリーカラムを用いたガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -314,10 +492,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 5
+    - 2
+    - 5
+    - 2
+    similar:
+    - 1
+    - 5
+    - 2
+    - 5
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   stem: 水素炎イオン化検出器(FID)を用いた有機溶剤のガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -338,10 +542,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 5
+    - 1
+    - 2
+    - 2
+    similar:
+    - 2
+    - 5
+    - 1
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   stem: '吸光光度分析法に関する次の記述の㋑、㋺、㋩の［　］に入る数値及び用語の組合せとして、正しいものは下のうちどれか。
 
@@ -365,10 +595,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-014
   rank: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -389,10 +628,36 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 5
+    - 4
+    - 3
+    - 2
+    similar:
+    - 1
+    - 5
+    - 4
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   stem: 吸光光度分析法によるクロモトロープ酸を用いるメタノールの測定に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -413,10 +678,36 @@ questions:
     （参考：『作業環境測定ガイドブック5 有機溶剤関係』）'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-004
   rank: null
   stem: 長さ20mのカラムを装着したガスクロマトグラフを用いて、ある有機溶剤を分析したところ、ピークの保持時間に相当する長さがAmm、ピーク幅がBmmであった。このピークについて計算した理論段高さ(単位段数当たりのカラムの長さ)は0.5mmであった。A/Bの値として、正しいものは次のうちどれか。
   choices:
@@ -443,10 +734,19 @@ questions:
     （参考：『機器分析の実務［特定化学物質・金属類・有機溶剤］』）'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-005
   rank: null
   stem: 二硫化炭素50mL中にn-ヘキサン450μLを含む標準液がある。この標準液3.0μLをマイクロシリンジで採取し、清浄空気の入っている1.0Lの真空捕集びん中に完全に蒸発させた場合、真空捕集びん中のn-ヘキサン濃度として、正しい値に最も近いものは次のうちどれか。ただし、n-ヘキサン(液体)の密度を0.66g·cm⁻³、モル質量を86g·mol⁻¹とする。また、真空捕集びんの中は、25℃、1気圧とする。
   choices:
@@ -473,10 +773,19 @@ questions:
     よって（1）です。'
   figures: []
   law_note: null
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-yuki-other-gen
   rank: null
   stem: 有機溶剤の標準液に関する次の記述のうち、誤っているものはどれか。
   choices:
@@ -494,3 +803,27 @@ questions:
     吸光光度分析法では、検量線上で吸光度0.03に相当する、分析対象物質の標準溶液濃度を、定量下限とします。有機溶剤の標準液を調製するときは、密栓付きの容器を使います。質量で調製した場合の質量モル濃度は、温度の影響を受けず、容量で調製した場合のモル濃度は、温度の影響を受けます。'
   figures: []
   law_note: null
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - odo
+    - odo
+    - ans_new

@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 鉱物性粉じんの管理濃度は、その粉じんの遊離けい酸含有率が高いほど、大きな値になる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 1
+    similar:
+    - 3
+    - 4
+    - 6
+    - 6
+    - 1
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - new
 - num: 2
   status: published
   chapters:
@@ -53,6 +77,30 @@ questions:
   law_note: null
   _key_choice: 同一の場所でトルエンによる抽出作業とキシレンによる抽出作業が別々に行われている場合、トルエンとキシレンの混合溶剤を使用する作業場とみなして一つの単位作業場所として設定した。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 5
+    - 5
+    - 3
+    similar:
+    - 3
+    - 2
+    - 6
+    - 5
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - odo
+    - ans_b
 - num: 3
   status: published
   chapters:
@@ -78,6 +126,30 @@ questions:
   law_note: null
   _key_choice: 測定点と測定点の間隔は、原則として、6 m以下の等間隔とし、かつ、縦方向と横方向の間隔を同一にしなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 8
+    - 9
+    - 2
+    - 2
+    similar:
+    - 5
+    - 8
+    - 10
+    - 2
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,30 @@ questions:
   law_note: null
   _key_choice: 騒音の測定は、騒音計の周波数補正回路のC特性で行う。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ''
+    - ans_new
+    - new
 - num: 5
   status: published
   chapters:
@@ -128,6 +224,30 @@ questions:
   law_note: null
   _key_choice: 単位作業場所の中で有害物質の濃度が最大になると考えられる箇所については、作業者が立ち入る可能性がなくても、その箇所でB測定を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 6
+    - 1
+    - 4
+    - 2
+    similar:
+    - 1
+    - 6
+    - 1
+    - 7
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - new
+    - odo
+    - ''
 - num: 6
   status: published
   chapters:
@@ -155,6 +275,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -180,6 +307,13 @@ questions:
   law_note: null
   _key_choice: ジクロロメタン
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -205,6 +339,13 @@ questions:
   law_note: null
   _key_choice: コールタールは、常温・常圧で固体である。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -229,6 +370,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -254,6 +402,30 @@ questions:
   law_note: null
   _key_choice: ポーラスポリマービーズは、活性炭に比べて有機溶剤蒸気に対する単位重量当たりの捕集容量が大きい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 4
+    - 3
+    - 5
+    similar:
+    - 4
+    - 3
+    - 4
+    - 3
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 11
   status: published
   chapters:
@@ -279,6 +451,30 @@ questions:
   law_note: null
   _key_choice: ポアサイズ0.8 μmのメンブランフィルターは、粒径0.3 μm以下の粒子をほとんど捕集できない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 5
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - ''
+    - new
+    - new
 - num: 12
   status: published
   chapters:
@@ -304,6 +500,30 @@ questions:
   law_note: null
   _key_choice: 使用後の捕集袋を再使用するためには、水又は洗剤で内面を十分に洗浄しなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 6
+    - 5
+    - 3
+    - 5
+    similar:
+    - 5
+    - 6
+    - 5
+    - 3
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 13
   status: published
   chapters:
@@ -326,6 +546,30 @@ questions:
   law_note: null
   _key_choice: 吸引流量が大きくなるほど相対濃度の値は増大する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 11
+    - 3
+    - 3
+    similar:
+    - 3
+    - 2
+    - 11
+    - 3
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - ''
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -348,6 +592,30 @@ questions:
   law_note: null
   _key_choice: 光散乱方式の相対濃度計による測定において、粒子の組成と粒径分布が一定で、濃度に変動がなければ、相対濃度の値は、測定時間に比例する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 4
+    - 2
+    - 4
+    similar:
+    - 5
+    - 7
+    - 4
+    - 2
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - ''
+    - odo
 - num: 15
   status: published
   chapters:
@@ -373,6 +641,30 @@ questions:
   law_note: null
   _key_choice: 検知管のガス採取器のピストン及びシリンダー内部にグリースを塗布してはならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 2
+    - 5
+    - 8
+    similar:
+    - 10
+    - 3
+    - 2
+    - 7
+    - 8
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - ''
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -403,6 +695,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -435,6 +734,13 @@ questions:
   law_note: null
   _key_choice: 9.6 × 103 Bq
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 12
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -461,6 +767,30 @@ questions:
   law_note: null
   _key_choice: 環境空気中の有害物質の濃度の分布は、正規分布で近似される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 1
+    - 5
+    - 5
+    - 10
+    similar:
+    - 9
+    - 2
+    - 5
+    - 9
+    - 10
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ''
+    - ans_hi
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -486,6 +816,30 @@ questions:
   law_note: null
   _key_choice: 慣性衝突式分粒装置を用いて、所定の吸引流量より大きい流量で吸引すると、分粒装置を通過する粒子の50%分粒粒径は大きくなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 4
+    - 10
+    - 3
+    - 3
+    similar:
+    - 8
+    - 5
+    - 10
+    - 3
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 20
   status: published
   chapters:
@@ -509,3 +863,27 @@ questions:
   law_note: null
   _key_choice: 騒音のA測定の平均値は、測定値の幾何平均の値とする。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - ''
+    - new
+    - new

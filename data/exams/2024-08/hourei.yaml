@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: クロムの粉じんを発散する場所における業務に常時50人の労働者を従事させる場合は、その事業場に専属の産業医を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ''
+    - new
+    - new
+    - ans_new
 - num: 2
   status: published
   chapters:
@@ -48,6 +72,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 50人以上の労働者に対し、雇入時の健康診断を行った場合、その結果を所轄労働基準監督署長に報告しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 2
+    similar:
+    - 4
+    - 1
+    - 3
+    - 1
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - new
+    - ans_new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令で定める教育のうち、特別の教育の講師は、法令で定める要件を満たす者でなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 4
+    - 1
+    - 3
+    similar:
+    - 3
+    - 1
+    - 4
+    - 1
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - odo
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -127,6 +206,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 炭酸ガスが停滞するおそれのある坑内の作業場においては、半月以内ごとに1回、定期に、炭酸ガス濃度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 9
+    - 1
+    - 9
+    similar:
+    - 1
+    - 1
+    - 10
+    - 1
+    - 9
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - odo
 - num: 6
   status: published
   chapters:
@@ -151,6 +254,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: セメント製造工程においてセメントを袋詰めする作業
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 3
+    truths: 正誤誤誤誤
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -172,6 +299,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酸性ガス用防毒マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -196,6 +330,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じん作業を行う坑内作業場のうち、ずい道等の内部において、ずい道等の建設の作業を行うものについて、空気中の粉じんの濃度を測定するときは、第1種作業環境測定士に行わせなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - new
+    - new
 - num: 9
   status: published
   chapters:
@@ -221,6 +379,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベリリウム及びその化合物の捕集には、鉱物性粉じんを捕集する場合と同じ特性を有する分粒装置を用いなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 9
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 9
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ''
+    - ans_new
 - num: 10
   status: published
   chapters:
@@ -246,6 +428,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定を行った場合には、計算により第1評価値及び第2評価値を求めて管理区分に区分するが、C測定を行った場合には、測定値のうちの最大値及び最小値をもとに管理区分に区分する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 7
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - new
+    - ans_new
+    - new
 - num: 11
   status: published
   chapters:
@@ -273,6 +479,30 @@ questions:
   figures: []
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている個人サンプリング法の規定は、現行法でも同じ内容です（作業環境測定法施行規則第3条第1項第1号イ、第6条第1項第1号・第4号、第54条第1号で確認）。
   _key_choice: 個人サンプリング法について登録を受けようとする作業環境測定機関には、指定作業場の種類ごとに、少なくとも1人、個人サンプリング法について登録を受けた第1種作業環境測定士が置かれなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - new
+    - odo
+    - new
 - num: 12
   status: published
   chapters:
@@ -298,6 +528,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質は、特定第2類物質及び管理第2類物質に区分され、特別有機溶剤は特定第2類物質に該当する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 13
   status: published
   chapters:
@@ -323,6 +577,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質を取り扱う作業場については、屋外作業場であっても、6か月以内ごとに1回、定期に、作業環境測定を実施しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -348,6 +626,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第1種有機溶剤等を重量の4 %、第2種有機溶剤等を重量の6 %、第3種有機溶剤等を重量の90 %含有する混合物は、第1種有機溶剤等である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 15
   status: published
   chapters:
@@ -373,6 +675,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2種有機溶剤等を用いて、屋内作業場で洗浄の業務を行うとき、作業場所に設ける局所排気装置は、そのフードを外付け式のものとした場合、0.4 m/秒の制御風速を出し得る能力を有するものでなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 12
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -397,6 +723,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 管理区域内には、放射線業務従事者以外の者を立ち入らせてはならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 5
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 5
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 17
   status: published
   chapters:
@@ -422,6 +772,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時特定粉じん作業以外の粉じん作業を行う屋内作業場については、1年以内ごとに1回、定期に、当該作業場における空気中の粉じんの濃度の測定を行い、その測定結果等を記録して、これを3年間保存しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 8
+    - 5
+    - 1
+    - 1
+    similar:
+    - 3
+    - 8
+    - 5
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 18
   status: published
   chapters:
@@ -447,6 +821,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 燃焼器具を使用するときは、発熱量が著しく少ないものを除き、1週間以内ごとに1回、定期に、当該器具の異常の有無を点検しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ''
+    - new
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -472,6 +870,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 酸素欠乏危険作業に常時従事する労働者に対しては、6か月以内ごとに1回、定期に、医師による特別の項目についての健康診断を実施しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 3
+    - 1
+    - 1
+    similar:
+    - 5
+    - 2
+    - 3
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_new
+    - new
 - num: 20
   status: published
   chapters:
@@ -500,3 +922,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 石綿等の粉じんが発散する屋内作業場に設置する局所排気装置に設ける除じん装置は、粉じんの粒径にかかわらず、マルチサイクロン方式によるものとすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new

@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 事業者は、総括安全衛生管理者には、当該事業場においてその事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 2
+    - 7
+    - 6
+    similar:
+    - 4
+    - 5
+    - 2
+    - 7
+    - 6
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - ''
+    - odo
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時50人以上の労働者を使用する事業者は、雇入時の健康診断を行ったときは、遅滞なく、雇入時の健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 10
+    - 2
+    - 6
+    - 4
+    similar:
+    - 7
+    - 10
+    - 3
+    - 6
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定化学物質を取り扱う業務に労働者を就かせるときは、原則として、特別教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 3
+    - 8
+    - 3
+    similar:
+    - 3
+    - 5
+    - 11
+    - 8
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 4
   status: published
   chapters:
@@ -103,6 +175,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -127,6 +206,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 中央管理方式の空気調和設備を設けている建築物の事務室については、原則として、1か月以内ごとに1回、定期に、一酸化炭素及び二酸化炭素の含有率、室温、外気温並びに相対湿度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 5
+    - 2
+    - 12
+    similar:
+    - 2
+    - 4
+    - 5
+    - 3
+    - 12
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ''
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -152,6 +255,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベリリウム化合物
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -173,6 +283,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素用防毒マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -200,6 +317,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 事業者は、放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 6
+    - 6
+    - 1
+    - 11
+    similar:
+    - 4
+    - 6
+    - 6
+    - 1
+    - 11
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - new
+    - odo
 - num: 9
   status: published
   chapters:
@@ -228,6 +369,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 5
+    - 3
+    - 9
+    - 6
+    similar:
+    - 11
+    - 5
+    - 7
+    - 9
+    - 6
+    truths: 正誤正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - ans_hi
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -252,6 +417,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定とB測定を行った場合、B測定の測定値がA測定の第1評価値の1.5倍を超えている単位作業場所の管理区分は、第3管理区分である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 7
+    - 5
+    - 7
+    - 9
+    similar:
+    - 5
+    - 8
+    - 5
+    - 7
+    - 9
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -276,6 +465,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 強烈な騒音を発する場所には、関係者以外の者が立ち入ることを禁止しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 1
+    - 2
+    - 6
+    similar:
+    - 3
+    - 7
+    - 1
+    - 2
+    - 6
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -301,6 +514,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: ホスゲンは、第2類物質である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 1
+    - 1
+    - 1
+    similar:
+    - 5
+    - 3
+    - 1
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -325,6 +562,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第3類物質であるアンモニアを取り扱う作業については、作業主任者を選任する必要はない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 6
+    - 2
+    - 3
+    similar:
+    - 1
+    - 4
+    - 6
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - ''
+    - odo
 - num: 14
   status: published
   chapters:
@@ -350,6 +611,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等を用いる洗浄の業務に労働者を従事させるときは、当該業務を行う作業場所に、全体換気装置を設けなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 3
+    - 12
+    - 1
+    - 4
+    similar:
+    - 11
+    - 3
+    - 12
+    - 8
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 15
   status: published
   chapters:
@@ -374,6 +659,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線業務以外の業務のため管理区域に一時的に立ち入る労働者を除き、管理区域内において受ける外部及び内部被ばくによる線量を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 5
+    - 11
+    - 4
+    similar:
+    - 3
+    - 4
+    - 6
+    - 11
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -398,6 +707,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業に該当する作業については、法令に定める技能講習を修了した者のうちから、作業主任者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 11
+    - 2
+    - 4
+    - 4
+    similar:
+    - 8
+    - 11
+    - 3
+    - 4
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -423,6 +756,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 室における二酸化炭素の含有率(1気圧、25 °Cとした場合の空気中に占める二酸化炭素の容積の割合)を1,000 ppm以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 1
+    - 5
+    - 5
+    - 4
+    similar:
+    - 6
+    - 1
+    - 5
+    - 8
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -448,6 +805,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 相当期間密閉されていた鋼製のボイラー、タンクその他その内壁が酸化されやすい施設の内部における作業は、第2種酸素欠乏危険作業である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 8
+    - 5
+    - 3
+    similar:
+    - 3
+    - 2
+    - 8
+    - 5
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -476,6 +857,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令に基づき局所排気装置に設ける除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 2
+    - 7
+    - 4
+    similar:
+    - 4
+    - 6
+    - 6
+    - 7
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 20
   status: published
   chapters:
@@ -500,3 +905,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: じん肺管理区分が管理3又は管理4と決定された者は、療養を要する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 2
+    - 10
+    - 7
+    - 3
+    similar:
+    - 11
+    - 2
+    - 11
+    - 7
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo

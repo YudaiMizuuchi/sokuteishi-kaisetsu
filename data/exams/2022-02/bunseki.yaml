@@ -28,6 +28,30 @@ questions:
   law_note: null
   _key_choice: 濃度1.0 μmol・g−1は、1.0 mol・kg−1である。
   _stem_head: 次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 4
+    - 5
+    - 4
+    similar:
+    - 3
+    - 3
+    - 4
+    - 5
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_b
 - num: 2
   status: published
   chapters:
@@ -57,6 +81,13 @@ questions:
   law_note: null
   _key_choice: イ偶然 ロ系統 ハ減少
   _stem_head: 誤差に関する次の記述のイからハの[ ]に入る語句の組合せとして、正しいものは下のうちどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -82,6 +113,13 @@ questions:
   law_note: null
   _key_choice: PV=nRT
   _stem_head: n(mol)の理想気体の圧力P(atm)、体積V(L)、温度T(K)の間に成立する関係式として正しいものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -116,6 +154,13 @@ questions:
   law_note: null
   _key_choice: 0.6気圧
   _stem_head: 一酸化炭素84 gと二酸化炭素88 gとの混合気体を1.0気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -154,6 +199,13 @@ questions:
   law_note: null
   _key_choice: '1.7'
   _stem_head: pH1.0の硝酸溶液を水で5倍に希釈した溶液のpHとして、正しい値に最も近いものは下のうちどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -186,6 +238,13 @@ questions:
   law_note: null
   _key_choice: 10.5%
   _stem_head: 質量パーセント濃度が20.0%の塩酸(密度1.10 g・cm−3)50.0 mLに、精製水(密度1.00 g・cm−3)
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -214,6 +273,30 @@ questions:
   law_note: null
   _key_choice: 熱電対温度計は使用温度範囲が広いという利点を持つが、応答速度が遅いという欠点を有する。
   _stem_head: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    similar:
+    - 2
+    - 2
+    - 7
+    - 2
+    - 3
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - ''
+    - odo
+    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -239,6 +322,30 @@ questions:
   law_note: null
   _key_choice: 拡散セルでは、一定温度に保つと内部の液体が一定速度で壁面を透過して蒸発してくることを利用する。
   _stem_head: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 7
+    - 3
+    - 2
+    similar:
+    - 2
+    - 2
+    - 9
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 9
   status: published
   chapters:
@@ -266,6 +373,13 @@ questions:
   law_note: null
   _key_choice: A水酸化カルシウム B乾燥剤
   _stem_head: 化学物質Aとその使用例Bとの次の組合せのうち、誤っているものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -291,6 +405,30 @@ questions:
   law_note: null
   _key_choice: 検量線の直線範囲内であれば、測定結果の誤差は一定である。
   _stem_head: 検量線に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 3
+    - 3
+    - 2
+    similar:
+    - 4
+    - 3
+    - 4
+    - 3
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -325,6 +463,13 @@ questions:
   law_note: null
   _key_choice: 5.89×10−3 mg
   _stem_head: 塩化コバルト(II)六水和物(CoCl2・6H2O)を水に溶解して、塩化コバルトの濃度1.00×10−4 mol・L−1
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -351,6 +496,30 @@ questions:
   law_note: null
   _key_choice: 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    similar:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -377,6 +546,30 @@ questions:
   law_note: null
   _key_choice: 透過率は、光が通過する溶液層の厚さに比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 3
+    - 2
+    - 3
+    similar:
+    - 5
+    - 2
+    - 3
+    - 5
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -408,6 +601,13 @@ questions:
   law_note: null
   _key_choice: 1.2×104 mol−1・L・cm−1
   _stem_head: 物質Aの濃度が2.0×10−5 mol・L−1の溶液を光路長2.0 cmの試料セルに入れ、波長550 nmにおける吸光度
+  freq:
+    kind: question
+    denom: 23
+    count: 16
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -436,6 +636,30 @@ questions:
   law_note: null
   _key_choice: As(III)やSb(III)は、水素化ホウ素ナトリウムで原子化できる。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    similar:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ''
+    - ''
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -461,6 +685,30 @@ questions:
   law_note: null
   _key_choice: 蛍光は、電子基底状態にある分子の振動準位間の遷移で生じる。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 4
+    - 6
+    - 9
+    similar:
+    - 3
+    - 8
+    - 4
+    - 13
+    - 10
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -489,6 +737,30 @@ questions:
   law_note: null
   _key_choice: 炎光光度検出器(FPD)では、酸素過剰の酸化炎中で発光する試料特有の波長の光を利用する。
   _stem_head: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 7
+    - 5
+    - 4
+    - 2
+    similar:
+    - 3
+    - 7
+    - 5
+    - 4
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 18
   status: published
   chapters:
@@ -514,6 +786,13 @@ questions:
   law_note: null
   _key_choice: H=A+{B}{v}+Cv
   _stem_head: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -539,6 +818,30 @@ questions:
   law_note: null
   _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 6
+    - 6
+    - 5
+    - 5
+    similar:
+    - 6
+    - 6
+    - 6
+    - 5
+    - 5
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -566,3 +869,10 @@ questions:
   law_note: null
   _key_choice: Aβ+壊変 B陽子
   _stem_head: 壊変形式Aと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Bとの次の組合せのうち、誤っているものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 穴埋め・組合せの問題
+    level: 2
+    why: q_b

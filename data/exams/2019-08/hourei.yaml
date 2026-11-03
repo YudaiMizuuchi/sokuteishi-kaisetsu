@@ -24,6 +24,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 総括安全衛生管理者には、当該事業場においてその事業の実施を統括管理する者又はこれに準ずる者をもって充てなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 3
+    - 10
+    - 7
+    - 5
+    similar:
+    - 8
+    - 4
+    - 10
+    - 7
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_hi
 - num: 2
   status: published
   chapters:
@@ -45,6 +69,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 定期健康診断を行ったときは、事業場の規模にかかわらず、遅滞なく、定期健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 4
+    - 10
+    - 1
+    - 7
+    similar:
+    - 6
+    - 4
+    - 10
+    - 1
+    - 7
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -72,6 +120,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 事業場の業種にかかわらず、新たに職務に就くこととなった職長に対し、原則として、法令で定める安全又は衛生のための教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 6
+    - 11
+    - 11
+    - 10
+    similar:
+    - 4
+    - 8
+    - 11
+    - 11
+    - 11
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -97,6 +169,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -118,6 +197,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 多量の液体空気、ドライアイス等を取り扱う業務を行う屋内作業場については、半月以内ごとに1回、定期に、当該屋内作業場における気温、湿度及びふく射熱を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 12
+    - 4
+    - 2
+    - 8
+    - 10
+    similar:
+    - 12
+    - 4
+    - 4
+    - 8
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -142,6 +245,30 @@ questions:
   figures: []
   law_note: 令和4年4月1日以降、屋内での金属アーク溶接等作業には、金属アーク溶接等作業主任者の選任が必要です（特定化学物質障害予防規則の改正）。現行法では、この問題の答えは変わります。
   _key_choice: 屋内におけるアーク溶接作業
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 3
+    similar:
+    - 3
+    - 3
+    - 1
+    - 3
+    - 3
+    truths: 誤誤正誤誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 7
   status: published
   chapters:
@@ -166,6 +293,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気呼吸器
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 8
   status: published
   chapters:
@@ -190,6 +324,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線業務を行う作業場のうち、管理区域に該当する部分についての外部放射線による線量当量率又は線量当量の測定は、作業環境測定士に行わせなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 11
+    - 2
+    - 6
+    similar:
+    - 2
+    - 5
+    - 11
+    - 2
+    - 6
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_hi
 - num: 9
   status: published
   chapters:
@@ -215,6 +373,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭いときは、単位作業場所における測定点の数を5未満とすることができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 4
+    - 11
+    - 4
+    - 6
+    similar:
+    - 7
+    - 4
+    - 11
+    - 4
+    - 6
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -239,6 +421,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: A測定の第1評価値が管理濃度未満の単位作業場所の管理区分は、B測定の測定値に関係なく、第1管理区分である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 3
+    - 5
+    - 9
+    - 1
+    similar:
+    - 8
+    - 5
+    - 5
+    - 9
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -263,6 +469,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 炭酸ガス(二酸化炭素)濃度が5,000 ppmを超える場所には、関係者以外の者が立ち入ることを禁止しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 6
+    - 9
+    - 1
+    - 7
+    similar:
+    - 5
+    - 6
+    - 9
+    - 1
+    - 7
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 12
   status: published
   chapters:
@@ -285,6 +515,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 塩化水素は、第2類物質であり、かつ、特定第2類物質である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 3
+    - 1
+    - 1
+    similar:
+    - 5
+    - 6
+    - 3
+    - 1
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 13
   status: published
   chapters:
@@ -313,6 +567,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質であり、かつ、特別管理物質であるベンゼンを取り扱う屋内作業場については、6か月以内ごとに1回、定期に、当該物質の空気中における濃度を測定し、その記録を3年間保存しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 8
+    - 6
+    - 2
+    - 2
+    similar:
+    - 10
+    - 8
+    - 6
+    - 2
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - ''
 - num: 14
   status: published
   chapters:
@@ -350,6 +628,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ハ ホ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -375,6 +660,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 屋内作業場において、第2種有機溶剤等であるトルエンを用いて洗浄の業務を行う場合には、当該業務を行う作業場に、全体換気装置、局所排気装置又はプッシュプル型換気装置を設けなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 5
+    - 11
+    - 1
+    - 9
+    similar:
+    - 8
+    - 11
+    - 11
+    - 7
+    - 9
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 16
   status: published
   chapters:
@@ -399,6 +708,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 放射線業務以外の業務のため管理区域に一時的に立ち入る労働者を除き、管理区域内において労働者が受ける外部被ばくによる線量及び内部被ばくによる線量を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 2
+    - 5
+    - 11
+    - 10
+    similar:
+    - 10
+    - 4
+    - 7
+    - 11
+    - 10
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:
@@ -424,6 +757,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定粉じん作業を行う屋内作業場については、当該粉じん作業に係る粉じんを減少させるため、全体換気装置若しくは局所排気装置による換気の実施又はこれと同等以上の措置を講じなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 3
+    - 3
+    - 4
+    - 7
+    similar:
+    - 7
+    - 3
+    - 4
+    - 4
+    - 7
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -449,6 +806,30 @@ questions:
   figures: []
   law_note: 室の気温の努力目標（17℃以上28℃以下）は、令和3年の改正（令和3年厚生労働省令第188号、令和4年12月1日施行）で「18℃以上28℃以下」に変わっています（事務所衛生基準規則第5条第3項）。現行法では、この問題の選択肢の記述は誤りになります。
   _key_choice: 室の照明設備については、1年以内ごとに1回、定期に、点検しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 1
+    - 7
+    - 4
+    - 3
+    similar:
+    - 6
+    - 1
+    - 7
+    - 4
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -471,6 +852,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 海水が滞留しているピットの内部における作業は、第1種酸素欠乏危険作業である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 1
+    - 6
+    - 1
+    similar:
+    - 2
+    - 4
+    - 1
+    - 6
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - ans_b
+    - new
+    - odo
+    - new
 - num: 20
   status: published
   chapters:
@@ -496,3 +901,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 法令に定める鉛業務に労働者を従事させるときに設置する局所排気装置の除じん装置は、サイクロンによる除じん方式の除じん装置又はこれと同等以上の性能を有するものでなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 10
+    - 2
+    - 7
+    - 10
+    similar:
+    - 3
+    - 10
+    - 4
+    - 7
+    - 11
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo

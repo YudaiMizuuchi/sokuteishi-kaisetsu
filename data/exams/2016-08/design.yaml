@@ -31,6 +31,13 @@ questions:
   law_note: null
   _key_choice: 50 ppm
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -68,6 +75,13 @@ questions:
   law_note: null
   _key_choice: ハ ホ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -94,6 +108,30 @@ questions:
   law_note: null
   _key_choice: 過去において実施した作業環境測定により幾何標準偏差が1.5以下であることが明らかな場合は、有害物質の濃度はほぼ均一であるとみなすことができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 5
+    - 3
+    - 9
+    - 8
+    similar:
+    - 4
+    - 5
+    - 3
+    - 10
+    - 8
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -119,6 +157,30 @@ questions:
   law_note: null
   _key_choice: 単位作業場所の中で最大の測定値を示す箇所については、労働者が立ち入る可能性がなくてもその箇所でB測定を行わなければならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - ''
+    - new
+    - new
 - num: 5
   status: published
   chapters:
@@ -144,6 +206,13 @@ questions:
   law_note: null
   _key_choice: メタノール
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 6
   status: published
   chapters:
@@ -169,6 +238,30 @@ questions:
   law_note: null
   _key_choice: 遊離けい酸含有率が0%の鉱物性粉じんの管理濃度は、5.0 mg/m3である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - new
+    - ans_new
+    - odo
 - num: 7
   status: published
   chapters:
@@ -191,6 +284,30 @@ questions:
   law_note: null
   _key_choice: アセトンは、n-ヘキサンより極性が小さい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - ''
+    - new
+    - new
 - num: 8
   status: published
   chapters:
@@ -218,6 +335,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -243,6 +367,30 @@ questions:
   law_note: null
   _key_choice: 面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 5
+    - 3
+    - 3
+    similar:
+    - 6
+    - 4
+    - 7
+    - 3
+    - 3
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -268,6 +416,30 @@ questions:
   law_note: null
   _key_choice: 一般に、シリカゲルは極性の小さい有機溶剤、活性炭は極性の大きい有機溶剤の蒸気の捕集に適している。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 1
+    - 6
+    - 5
+    similar:
+    - 1
+    - 3
+    - 1
+    - 6
+    - 5
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -290,6 +462,30 @@ questions:
   law_note: null
   _key_choice: 粉砕機から発生する鉱物性粉じんは、主として拡散作用によりガラス繊維ろ紙に捕集される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 5
+    - 10
+    - 1
+    - 1
+    similar:
+    - 5
+    - 5
+    - 10
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - new
+    - ans_new
 - num: 12
   status: published
   chapters:
@@ -315,6 +511,30 @@ questions:
   law_note: null
   _key_choice: ミゼットインピンジャーによるガス状物質の捕集では、流量が大きいほど捕集率は高くなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 1
+    - 3
+    - 7
+    - 5
+    similar:
+    - 4
+    - 1
+    - 3
+    - 7
+    - 9
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - new
+    - odo
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -340,6 +560,30 @@ questions:
   law_note: null
   _key_choice: 質量濃度変換係数は、粉じんの発生源の近くでは小さく、発生源から離れるに従って大きくなるという傾向がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 1
+    - 1
+    - 4
+    - 2
+    similar:
+    - 11
+    - 2
+    - 1
+    - 7
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -362,6 +606,30 @@ questions:
   law_note: null
   _key_choice: 検知管の定量下限は、変色がわずかでも認められる検知限度のことである。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 4
+    - 1
+    - 4
+    - 5
+    similar:
+    - 6
+    - 7
+    - 2
+    - 4
+    - 7
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - ans_b
+    - odo
 - num: 15
   status: published
   chapters:
@@ -384,6 +652,30 @@ questions:
   law_note: null
   _key_choice: 光散乱方式の相対濃度計による鉱物性粉じんの測定では、相対濃度計の吸引口に分粒装置を接続して行う。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 4
+    - 4
+    - 3
+    - 7
+    similar:
+    - 4
+    - 7
+    - 4
+    - 5
+    - 7
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -408,6 +700,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 9
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -437,6 +736,13 @@ questions:
   law_note: null
   _key_choice: 40分
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 10
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -460,6 +766,30 @@ questions:
   law_note: null
   _key_choice: 正規分布の算術平均と標準偏差をそれぞれ{x}、σとすると、この分布に従う変数が{x}-から{x}+の範囲に入る確率は、およそ95%である。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 5
+    - 10
+    - 2
+    - 1
+    similar:
+    - 4
+    - 9
+    - 10
+    - 8
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -485,6 +815,30 @@ questions:
   law_note: null
   _key_choice: 多段平行板式分粒装置を用いて鉱物性粉じんの捕集をする場合、吸引流速が所定の値より大きいと測定値は低くなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 4
+    - 2
+    - 2
+    - 2
+    similar:
+    - 10
+    - 4
+    - 2
+    - 2
+    - 2
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - ''
+    - ''
 - num: 20
   status: published
   chapters:
@@ -511,3 +865,27 @@ questions:
   law_note: null
   _key_choice: A測定の第2評価値とは、気中有害物質の幾何平均濃度の推定値をいう。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 6
+    - 3
+    - 5
+    similar:
+    - 1
+    - 2
+    - 6
+    - 3
+    - 5
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - ''
+    - odo
+    - odo
+    - odo

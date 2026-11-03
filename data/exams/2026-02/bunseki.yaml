@@ -31,6 +31,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
   chapters:
@@ -68,6 +75,13 @@ questions:
   law_note: null
   _key_choice: '11'
   _stem_head: 捕集材に空気を流量100 mL・min−1で60.0分間通気して物質Aを50.30 μg捕集した。捕集材の物質Aに対する
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 3
   status: published
   chapters:
@@ -93,6 +107,30 @@ questions:
   law_note: null
   _key_choice: トルエンは水によく溶ける。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    similar:
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_new
+    - new
 - num: 4
   status: published
   chapters:
@@ -119,6 +157,13 @@ questions:
   law_note: null
   _key_choice: 1.0気圧
   _stem_head: 容積5.0 Lの密閉容器に炭素と、温度25 °Cで圧力1.0気圧の酸素を封入してから燃焼させ、酸素を全て二酸化炭素へ変換
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -160,6 +205,13 @@ questions:
   law_note: null
   _key_choice: 390 mL
   _stem_head: 質量パーセント濃度が40.0%の硫酸(密度1.30 g・cm−3)100 mLを精製水(密度1.00 g・cm−3)で希
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -186,6 +238,13 @@ questions:
   law_note: null
   _key_choice: フッ化水素酸
   _stem_head: 濃度0.1 mol・L−1の次の水溶液のうち、そのpHの値が最も大きいものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -211,6 +270,30 @@ questions:
   law_note: null
   _key_choice: ホールピペットに溶液を吸引する際には、中間の膨らんだ部分を持つのがよい。
   _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 4
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - ans_new
+    - ''
+    - new
 - num: 8
   status: published
   chapters:
@@ -236,6 +319,30 @@ questions:
   law_note: null
   _key_choice: ディフュージョンチューブはテフロンなどのガス透過性材料でできている。
   _stem_head: ディフュージョンチューブ(拡散セル)を用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 9
   status: published
   chapters:
@@ -261,6 +368,30 @@ questions:
   law_note: null
   _key_choice: 逆浸透法における加圧は、原料水の浸透圧を超えてはならない。
   _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - new
+    - ans_new
+    - new
 - num: 10
   status: published
   chapters:
@@ -286,6 +417,13 @@ questions:
   law_note: null
   _key_choice: アンモニア
   _stem_head: シアン化水素の検知管は、シアン化水素が塩化水銀(II)と反応して生成する物質によるpH指示薬の変色を利用して濃度を測定す
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 11
   status: published
   chapters:
@@ -327,6 +465,13 @@ questions:
   law_note: null
   _key_choice: 1.0×10−12 mol・L−1
   _stem_head: 濃度1.0×10−2 mol・L−1の塩酸10 mLと濃度3.0×10−2 mol・L−1の水酸化ナトリウム水溶液10
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -353,6 +498,30 @@ questions:
   law_note: null
   _key_choice: エチレンジアミン四酢酸二ナトリウム溶液の標定には、チオ硫酸ナトリウムが用いられる。
   _stem_head: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - ''
+    - ans_new
+    - new
 - num: 13
   status: published
   chapters:
@@ -379,6 +548,30 @@ questions:
   law_note: null
   _key_choice: 透過率は、光路の長さに反比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 8
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 10
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 14
   status: published
   chapters:
@@ -417,6 +610,13 @@ questions:
   law_note: null
   _key_choice: 60 μg
   _stem_head: モル質量が50 g・mol−1の物質Aの溶液が100 mLある。この溶液の一部を光路長2.0 cmの試料セルに入れ、波長
+  freq:
+    kind: question
+    denom: 23
+    count: 11
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -442,6 +642,30 @@ questions:
   law_note: null
   _key_choice: グラファイト炉法で共存元素による化学干渉の影響を受けるときは、重水素ランプを用いたバックグラウンド補正が行われる。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 16
   status: published
   chapters:
@@ -473,6 +697,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -498,6 +729,30 @@ questions:
   law_note: null
   _key_choice: カラム温度が高いほど、キャリヤーガスの粘度は小さくなる。
   _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ans_new
+    - new
+    - new
 - num: 18
   status: published
   chapters:
@@ -526,6 +781,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
   chapters:
@@ -551,6 +813,30 @@ questions:
   law_note: null
   _key_choice: X線検出器は、X線のスペクトル分析ができるものでなければならない。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 4
+    - 6
+    - 1
+    - 1
+    similar:
+    - 5
+    - 6
+    - 6
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - new
+    - new
 - num: 20
   status: published
   chapters:
@@ -576,3 +862,10 @@ questions:
   law_note: null
   _key_choice: 単位時間当たりの壊変数
   _stem_head: 放射能の単位(Bq)の定義として正しいものは、次のうちどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b

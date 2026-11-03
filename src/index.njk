@@ -69,11 +69,11 @@ eleventyComputed:
       </select>
     </fieldset>
     <fieldset>
-      <legend>ランク</legend>
+      <legend>問題の区分</legend>
       <div class="chips">
-        {% for r in ["S","A","B","C"] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r }}"><span>{{ r }}</span></label>{% endfor %}
+        {% for r in [["S","得点必須"],["B","何とか得点"],["C","失点やむなし"]] %}<label class="chip"><input type="checkbox" name="rank" value="{{ r[0] }}"><span>{{ r[1] }}</span></label>{% endfor %}
       </div>
-      <p class="hint">ひっかけパターンごとの、23回での出題数。S：10問以上、A：5〜9問、B：3〜4問、C：1〜2問または単発。覚える範囲は、S・A・B。</p>
+      <p class="hint">選択肢ごとの出題頻度から決めた、この問題の区分です。得点必須：正答が頻出のひっかけ。何とか得点：頻出のおとりなどから絞り込める。失点やむなし：いずれも初見。過去の全回の出題にもとづく目安です。</p>
     </fieldset>
     <button type="button" class="reset" id="reset">条件をすべて解除</button>
   </aside>

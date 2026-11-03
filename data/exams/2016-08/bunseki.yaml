@@ -28,6 +28,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 2
   status: published
   chapters:
@@ -60,6 +67,13 @@ questions:
   _key_choice: '3.5'
   _stem_head: 空気を50.0 mL・min−1で1.0時間捕集材に通気し、物質Aを捕集した。捕集した物質Aの質量は、10.5 μgであ
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 3
   status: published
   chapters:
@@ -83,6 +97,30 @@ questions:
   _key_choice: 酢酸を酸化するとエタノールを生じる。
   _stem_head: 有機化合物に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 1
+    similar:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - odo
+    - ''
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -109,6 +147,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 5
   status: published
   chapters:
@@ -142,6 +187,13 @@ questions:
   _key_choice: '3.3'
   _stem_head: 水素イオン濃度が1.0 × 10−3 mol・L−1の塩酸を水で2倍に希釈した溶液のpHとして、正しい値に最も近いものは
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 6
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -175,6 +227,13 @@ questions:
   _key_choice: 1.4 mL
   _stem_head: 質量パーセント濃度65.0%、密度1.40 g・cm−3の硝酸を希釈して、濃度が0.20 mol・L−1の硝酸水溶液を1
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 7
   status: published
   chapters:
@@ -201,6 +260,30 @@ questions:
   _key_choice: アセチレンの容器の塗色は、黒色である。
   _stem_head: 高圧ガスの容器及びその使用に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 2
+    - 2
+    - 3
+    similar:
+    - 1
+    - 4
+    - 2
+    - 2
+    - 3
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - odo
+    - ''
+    - ans_new
+    - odo
 - num: 8
   status: published
   chapters:
@@ -231,6 +314,13 @@ questions:
   _key_choice: 10 ppm
   _stem_head: 液体のメチルエチルケトン1.5 mgを捕集袋内の50 Lの清浄空気中で全量気化させて標準ガスを調製した。メチルエチルケト
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -258,6 +348,13 @@ questions:
   _key_choice: フッ化水素酸は、強酸である。
   _stem_head: 試薬に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 10
   status: published
   chapters:
@@ -281,6 +378,30 @@ questions:
   _key_choice: 原子吸光分析法に比べてダイナミックレンジが狭い。
   _stem_head: ICP発光分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 1
+    - 3
+    - 1
+    similar:
+    - 3
+    - 2
+    - 1
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - new
+    - odo
+    - ans_new
 - num: 11
   status: published
   chapters:
@@ -311,6 +432,13 @@ questions:
   _key_choice: 2.5 × 10−3 mol・L−1
   _stem_head: 濃度1.0 × 10−2 mol・L−1の塩酸20 mLと濃度5.0 × 10−3 mol・L−1の水酸化ナトリウム水溶
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -353,6 +481,13 @@ questions:
   _key_choice: 28 mg
   _stem_head: 鉄(II)イオンの水溶液を過マンガン酸カリウム溶液(0.010 mol・L−1)で滴定したところ、終点までに10 mLを
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -379,6 +514,30 @@ questions:
   _key_choice: 試料溶液を透過する光の強さは、試料セルの光路長に比例する。
   _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 4
+    - 2
+    similar:
+    - 2
+    - 2
+    - 1
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - ans_new
+    - new
+    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -409,6 +568,13 @@ questions:
   _key_choice: 1.1 × 104 mol−1・L・cm−1
   _stem_head: 物質Aの濃度が2.0 × 10−5 mol・L−1の溶液を光路長2.0 cmのセル中に入れ、波長550 nmにおける吸光
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 16
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -435,6 +601,30 @@ questions:
   _key_choice: 吸光度は、吸収層の長さに依存しない。
   _stem_head: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - ''
+    - new
 - num: 16
   status: published
   chapters:
@@ -458,6 +648,30 @@ questions:
   _key_choice: 蛍光の強度は、励起光の波長を変えても変化しない。
   _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 4
+    - 4
+    - 1
+    similar:
+    - 2
+    - 12
+    - 8
+    - 4
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - odo
+    - odo
+    - ans_b
+    - ''
 - num: 17
   status: published
   chapters:
@@ -487,6 +701,13 @@ questions:
   _key_choice: 3,600
   _stem_head: 長さ1.5 mのカラムを用いてある物質をガスクロマトグラフ分析したところ、保持時間は11.0分で、そのピークのピーク幅は
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 18
   status: published
   chapters:
@@ -510,6 +731,30 @@ questions:
   _key_choice: 電子捕獲検出器(ECD)は、n-ヘキサンなどの飽和炭化水素を選択的に検出できる。
   _stem_head: ガスクロマトグラフの検出器に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 5
+    - 1
+    - 1
+    - 3
+    similar:
+    - 7
+    - 5
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - new
+    - ans_new
+    - odo
 - num: 19
   status: published
   chapters:
@@ -533,6 +778,30 @@ questions:
   _key_choice: この分析には、連続X線が用いられる。
   _stem_head: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 8
+    - 3
+    - 4
+    - 4
+    similar:
+    - 6
+    - 8
+    - 4
+    - 4
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -563,3 +832,10 @@ questions:
   _key_choice: 100時間
   _stem_head: 半減期15時間の放射性核種の放射能が100分の1に減衰するまでの時間として、正しい値に最も近いものは次のうちどれか。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi

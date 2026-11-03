@@ -29,6 +29,30 @@ questions:
   law_note: null
   _key_choice: A測定の第2評価値とは、空気中の濃度の幾何平均値をいう。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - odo
+    - ans_new
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   law_note: null
   _key_choice: トルエンによる抽出作業とキシレンによる抽出作業が同一の場所で別々に行われている作業場を、トルエンとキシレンの混合有機溶剤を使用する作業場とみなして一つの単位作業場所として設定した。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 1
+    - 3
+    - 1
+    - 3
+    similar:
+    - 5
+    - 1
+    - 3
+    - 1
+    - 3
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - ans_b
+    - new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -76,6 +124,30 @@ questions:
   law_note: null
   _key_choice: 測定点は、隣接する他の単位作業場所の測定点と重複してはならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 4
+    - 2
+    - 2
+    - 3
+    similar:
+    - 8
+    - 4
+    - 2
+    - 5
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_b
 - num: 4
   status: published
   chapters:
@@ -101,6 +173,30 @@ questions:
   law_note: null
   _key_choice: B測定の試料採取方法と分析方法は、必ずしもA測定と一致しなくてもよい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 3
+    - 2
+    - 2
+    - 1
+    similar:
+    - 4
+    - 3
+    - 3
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - odo
+    - odo
+    - ''
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -132,6 +228,13 @@ questions:
   - Ⓐ
   - Ⓑ
   text_note: 原本では「個体」と印字されていますが、誤植と判断し、「固体」に直して掲載しています。
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 6
   status: published
   chapters:
@@ -154,6 +257,30 @@ questions:
   law_note: null
   _key_choice: 酸化カドミウムヒュームを、活性炭フェルトで捕集する。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ''
+    - new
+    - ans_new
 - num: 7
   status: published
   chapters:
@@ -179,6 +306,13 @@ questions:
   law_note: null
   _key_choice: 長石を粉砕する作業。
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -203,6 +337,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 2
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 9
   status: published
   chapters:
@@ -225,6 +366,30 @@ questions:
   law_note: null
   _key_choice: 面積式流量計では、捕集装置の圧力損失が大きくなるに従って、流量計の指示値は真の流量より小さくなる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 8
+    - 5
+    - 3
+    - 6
+    similar:
+    - 9
+    - 8
+    - 7
+    - 3
+    - 6
+    truths: 正正誤正正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ans_hi
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -250,6 +415,30 @@ questions:
   law_note: null
   _key_choice: 活性炭管にガス状物質を捕集する場合には、捕集率を高めるために冷却する必要がある。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 7
+    similar:
+    - 1
+    - 1
+    - 3
+    - 1
+    - 7
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -272,6 +461,30 @@ questions:
   law_note: null
   _key_choice: ポアサイズの小さなメンブランフィルターほど、同じ吸引速度でサンプリングした場合の圧力損失は小さい。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -297,6 +510,30 @@ questions:
   law_note: null
   _key_choice: ミゼットインピンジャーによるミストの捕集では、拡散効果により捕集される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 2
+    - 9
+    - 2
+    - 2
+    similar:
+    - 10
+    - 4
+    - 9
+    - 2
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -331,6 +568,13 @@ questions:
   law_note: null
   _key_choice: 1,905
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 14
   status: published
   chapters:
@@ -353,6 +597,30 @@ questions:
   law_note: null
   _key_choice: 検知管用吸引ポンプの漏れを防ぐために、ピストン及びシリンダー内部にグリースを塗布してはならない。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 1
+    - 4
+    - 3
+    - 2
+    similar:
+    - 10
+    - 2
+    - 7
+    - 3
+    - 2
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ''
+    - odo
+    - ans_b
+    - ''
 - num: 15
   status: published
   chapters:
@@ -375,6 +643,30 @@ questions:
   law_note: null
   _key_choice: 検知管の変色層が斜めに現れたときは、変色した部分の先端部の値を読み取る。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 4
+    - 1
+    - 6
+    - 3
+    - 2
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - new
+    - ans_b
+    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -402,6 +694,13 @@ questions:
   columns:
   - ㋑
   - ㋺
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -431,6 +730,13 @@ questions:
   law_note: null
   _key_choice: 100 L/min
   columns: null
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 18
   status: published
   chapters:
@@ -454,6 +760,30 @@ questions:
   law_note: null
   _key_choice: 環境空気中の有害物質の濃度の分布は、多くの場合、正規分布で近似される。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 5
+    - 4
+    - 10
+    - 9
+    similar:
+    - 10
+    - 9
+    - 5
+    - 10
+    - 10
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -479,6 +809,30 @@ questions:
   law_note: null
   _key_choice: 繊維ろ紙による粒子の捕集では、繊維径が大きいほど捕集率を高めることができる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 6
+    - 4
+    - 2
+    similar:
+    - 3
+    - 2
+    - 6
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - ''
 - num: 20
   status: published
   chapters:
@@ -501,3 +855,27 @@ questions:
   law_note: null
   _key_choice: B測定の測定値が管理濃度を超えていれば、第3管理区分になる。
   columns: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 7
+    - 6
+    - 3
+    - 5
+    - 2
+    similar:
+    - 7
+    - 6
+    - 3
+    - 10
+    - 2
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new

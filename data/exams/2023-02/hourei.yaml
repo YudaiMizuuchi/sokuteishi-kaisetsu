@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 常時100人以上の労働者を使用する事業場においては、その業種にかかわらず総括安全衛生管理者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 2
+    - 13
+    - 2
+    - 8
+    similar:
+    - 8
+    - 2
+    - 13
+    - 2
+    - 8
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - ''
+    - odo
+    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -48,6 +72,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 医師による定期健康診断を行ったときは、使用する労働者数にかかわらず、遅滞なく、定期健康診断結果報告書を所轄労働基準監督署長に提出しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 6
+    - 7
+    - 2
+    - 7
+    - 4
+    similar:
+    - 6
+    - 7
+    - 2
+    - 7
+    - 4
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_b
 - num: 3
   status: published
   chapters:
@@ -69,6 +117,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特定化学物質を取り扱う作業に労働者を就かせるときは、原則として、法定の科目について特別教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 8
+    - 3
+    - 3
+    - 3
+    similar:
+    - 5
+    - 8
+    - 3
+    - 3
+    - 4
+    truths: 正正誤正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - ans_b
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -97,6 +169,13 @@ questions:
   - Ⓐ
   - Ⓑ
   - Ⓒ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -122,6 +201,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 穀物の貯蔵のために使用している倉庫の内部において作業を行う場合の当該作業場については、その日の作業を開始する前に、当該作業場の酸素及び硫化水素の濃度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 4
+    - 2
+    - 2
+    - 2
+    - 12
+    similar:
+    - 4
+    - 2
+    - 2
+    - 2
+    - 12
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ''
+    - ''
+    - ans_new
+    - odo
 - num: 6
   status: published
   chapters:
@@ -147,6 +250,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: ベンゾトリクロリド
+  freq:
+    kind: question
+    denom: 23
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -168,6 +278,13 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素用防毒マスク
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -192,6 +309,30 @@ questions:
   figures: []
   law_note: 令和8年10月1日に、個人ばく露測定の制度（作業環境測定法第2条第3号、労働安全衛生法第65条の3）が始まりました。作業環境測定士の登録事項に、個人ばく露測定に係るデザイン及びサンプリング（作業環境測定法施行規則第6条第1項第5号・第6号）が加わり、サンプリング補助者の制度も新設されました。この問題で問われている測定士の資格・登録・業務の範囲の規定は、現行法でも同じ内容です（作業環境測定法第2条第6号・第7号、第6条、同施行規則第3条第1項、別表で確認）。
   _key_choice: 作業環境測定の業務に関する不正の行為により、作業環境測定士の登録を取り消された者は、その日から起算して1年間は、作業環境測定士となることができない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 7
+    - 2
+    - 4
+    - 11
+    similar:
+    - 5
+    - 7
+    - 2
+    - 4
+    - 11
+    truths: 正正誤正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 9
   status: published
   chapters:
@@ -217,6 +358,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉱物性粉じんに係る単位作業場所が著しく狭く、かつ、鉱物性粉じんの濃度がほぼ均一であることが明らかなときは、相対濃度指示方法のみによる測定が認められている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 4
+    - 11
+    - 5
+    - 2
+    similar:
+    - 3
+    - 4
+    - 11
+    - 5
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -238,6 +403,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 特別有機溶剤を除き、2種類以上の特定化学物質を含有する混合物に係る単位作業場所にあっては、測定点ごとに、定められた算定式により求めた換算値を測定値とみなし、管理濃度に相当する値を1として管理区分の区分を行う。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 7
+    - 9
+    - 7
+    - 4
+    similar:
+    - 5
+    - 8
+    - 9
+    - 7
+    - 4
+    truths: 誤正正正正
+    level: 1
+    why: ans_hi
+    tags:
+    - ans_hi
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -262,6 +451,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 作業の実情に応じて、A測定の評価値及びD測定の測定値をもとに評価を行うことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 4
+    similar:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 4
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - ''
+    - ''
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -284,6 +497,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: シアン化水素は、特定第2類物質であり、かつ、特別管理物質である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 3
+    - 3
+    - 3
+    - 2
+    similar:
+    - 3
+    - 3
+    - 3
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -309,6 +546,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2類物質であり、かつ、特別管理物質である塩化ビニルを取り扱う作業場において常時作業に従事する労働者について、6か月を超えない期間ごとに所定の事項を記録した作業の記録を作成し、これを30年間保存するものとされている。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 2
+    - 2
+    - 8
+    - 6
+    similar:
+    - 5
+    - 2
+    - 2
+    - 8
+    - 6
+    truths: 正正誤正正
+    level: 2
+    why: elim_two
+    tags:
+    - odo
+    - ''
+    - ans_new
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -337,6 +598,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 5
+    form: 穴埋め・組合せの問題
+    level: 1
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -362,6 +630,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第2種有機溶剤等を用いて屋内作業場で洗浄の作業に係る業務に労働者を就かせるときは、当該労働者に対し、原則として、法定の科目について特別教育を行わなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 7
+    - 11
+    - 5
+    - 12
+    similar:
+    - 8
+    - 9
+    - 11
+    - 5
+    - 12
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 16
   status: published
   chapters:
@@ -386,6 +678,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 管理区域に立ち入る労働者については、放射線業務以外の業務のため管理区域に一時的に立ち入るものを除き、管理区域内において受ける外部及び内部被ばくによる線量を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 10
+    - 4
+    - 11
+    - 3
+    - 5
+    similar:
+    - 10
+    - 5
+    - 11
+    - 3
+    - 5
+    truths: 正正正誤正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_b
+    - odo
 - num: 17
   status: published
   chapters:
@@ -410,6 +726,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じん作業のうち特定粉じん作業に該当する作業については、法令に定める技能講習を修了した者のうちから、作業主任者を選任しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 3
+    - 5
+    - 4
+    - 2
+    similar:
+    - 8
+    - 3
+    - 5
+    - 4
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - odo
+    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -432,6 +772,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 空気調和設備を設けている場合は、室に供給される空気中の二酸化炭素の含有率(1気圧、25°Cとした場合の空気中に占める二酸化炭素の容積の割合)を5,000 ppm以下としなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 7
+    - 6
+    - 5
+    - 9
+    similar:
+    - 5
+    - 7
+    - 6
+    - 5
+    - 9
+    truths: 正正正誤正
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_hi
+    - odo
 - num: 19
   status: published
   chapters:
@@ -460,6 +824,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 第二鉄塩類を含有している地層に接する井戸の内部における作業は、第2種酸素欠乏危険作業である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 5
+    - 9
+    - 2
+    - 8
+    - 5
+    similar:
+    - 5
+    - 11
+    - 2
+    - 8
+    - 5
+    truths: 正正正正誤
+    level: 1
+    why: ans_hi
+    tags:
+    - odo
+    - odo
+    - ''
+    - odo
+    - ans_hi
 - num: 20
   status: published
   chapters:
@@ -482,3 +870,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉛合金の製品を製造する工程における鉛合金の溶接又は溶断の業務を行う屋内作業場については、6か月以内ごとに1回、定期に、空気中における鉛の濃度を測定しなければならない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 11
+    - 2
+    - 2
+    - 7
+    - 3
+    similar:
+    - 11
+    - 3
+    - 2
+    - 7
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - odo
+    - ans_b
+    - ''
+    - odo
+    - odo

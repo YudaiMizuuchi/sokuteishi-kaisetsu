@@ -5,8 +5,10 @@ source_pdf: null
 questions:
 - num: 1
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 次の有機溶剤のうち、25 ℃ における密度が最も小さいものはどれか。
@@ -23,10 +25,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 選択肢が物質名などの問題
+    level: 2
+    why: q_b
 - num: 2
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 有機溶剤の物性等に関する次の記述のうち、誤っているものはどれか。ただし、大気圧は1気圧とする。
@@ -43,10 +54,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - new
+    - new
+    - ans_new
 - num: 3
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-015
   rank: null
   summary: null
   stem: 次の有機溶剤について、1気圧における沸点が 70 ℃ 以下であるもののうち、25 ℃ における蒸気圧が最も小さいものはどれか。
@@ -66,10 +103,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 選択肢が物質名などの問題
+    level: 3
+    why: q_new
 - num: 4
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 有機溶剤の捕集に関する次の記述のうち、誤っているものはどれか。
@@ -95,10 +141,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 4
+    - 3
+    - 3
+    - 1
+    similar:
+    - 2
+    - 4
+    - 3
+    - 3
+    - 1
+    truths: 正正正正誤
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_new
 - num: 5
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 環境空気中の有機溶剤の直接捕集法とその試料の取扱いに関する次の記述のうち、誤っているものはどれか。
@@ -121,10 +193,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    similar:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 6
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 固体捕集法に用いられる捕集剤に関する次の記述のうち、誤っているものはどれか。
@@ -141,10 +239,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 2
+    similar:
+    - 1
+    - 3
+    - 4
+    - 2
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: elim_all
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - odo
+    - odo
 - num: 7
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-008
   rank: null
   summary: null
   stem: 混合有機溶剤について検知管法の使用が認められている場合において、トルエン、酢酸エチル、1,1,1-トリクロロエタン及びキシレンを含有する混合溶剤を使用している単位作業場所内の併行測定点におけるトルエン用検知管の測定値は、1.5 ppm であった。一方、ガスクロマトグラフで分析した測定値は、トルエン 1.0 ppm 、 酢酸エチル 8.0 ppm 、1,1,1-トリクロロエタン 10 ppm 及びキシレン 1.0 ppm であった。換算値変換係数として、正しい値に最も近いものは次のうちどれか。なお、トルエン、酢酸エチル、1,1,1-トリクロロエタン及びキシレンの管理濃度は、それぞれ 20 ppm 、200 ppm 、200 ppm 及び 50 ppm である。
@@ -161,10 +285,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 8
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ポリエチレングリコール 20 M を固定相液体としたカラムを用いるガスクロマトグラフ分析において、トルエンより保持時間の長い有機溶剤は、次のうちどれか。
@@ -184,10 +317,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 4
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 9
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフに利用されている検出器に関する次の記述のうち、誤っているものはどれか。
@@ -210,10 +352,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    similar:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - odo
+    - odo
 - num: 10
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: 充塡カラムとキャピラリーカラムの比較に関する次の記述のうち、誤っているものはどれか。
@@ -236,10 +404,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 1
+    similar:
+    - 1
+    - 3
+    - 3
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - new
+    - new
 - num: 11
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
@@ -262,10 +456,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 2
+    - 5
+    - 2
+    similar:
+    - 2
+    - 1
+    - 2
+    - 5
+    - 2
+    truths: 正誤正正正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 12
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-other-gc
   rank: null
   summary: null
   stem: ガスクロマトグラフ質量分析法に関する次の記述のうち、誤っているものはどれか。
@@ -288,10 +508,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 4
+    - 4
+    - 2
+    - 1
+    - 4
+    similar:
+    - 4
+    - 4
+    - 2
+    - 1
+    - 4
+    truths: 正正正誤正
+    level: 2
+    why: elim_all
+    tags:
+    - odo
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 13
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-other-yuki
   rank: null
   summary: null
   stem: 無極性充塡カラムを用いてガスクロマトグラフ分析を行うとき、次のうち最もテーリングを起こしやすい有機溶剤はどれか。
@@ -308,10 +554,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 3
+    form: 選択肢が物質名などの問題
+    level: 1
+    why: q_hi
 - num: 14
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gc
+  traps:
+  - sl-yuki-031
   rank: null
   summary: null
   stem: 成分 A、B の保持時間に相当するガスクロマトグラム上の長さがそれぞれ20 cm 、14 cm で、ピーク幅がそれぞれ 20 mm 、12 mm であるとき、使用したカラムの成分 A、B のピークの分離度として、正しい値は次のうちどれか。
@@ -340,10 +595,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 2
+    form: 計算問題
+    level: 2
+    why: q_b
 - num: 15
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述の㋑及び㋺の［　］に入る語句の組合せとして、正しいものはどれか。「試料液に単色光を当てたとき、入射光の強さを I₀、透過後の強さを Iとすると、吸光度 Aは、次式で表される。A = log₁₀（［㋑］）いま試料液の濃度を c、液層の長さを d とすると、次の関係が成り立つ。A =［㋺］ここで k は比例定数である。」
@@ -365,10 +629,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 16
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -391,10 +664,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 4
+    - 4
+    - 4
+    similar:
+    - 1
+    - 1
+    - 4
+    - 5
+    - 4
+    truths: 正誤正正正
+    level: 2
+    why: elim_two
+    tags:
+    - new
+    - ans_new
+    - odo
+    - odo
+    - odo
 - num: 17
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-uv
+  traps:
+  - sl-yuki-other-uv
   rank: null
   summary: null
   stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
@@ -417,10 +716,36 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 1
+    - 1
+    - 5
+    - 3
+    - 2
+    similar:
+    - 1
+    - 1
+    - 5
+    - 3
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: elim_two
+    tags:
+    - ans_new
+    - new
+    - odo
+    - odo
+    - odo
 - num: 18
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-lod
+  traps:
+  - sl-yuki-other-lod
   rank: null
   summary: null
   stem: モル質量 150 g･mol⁻¹、モル吸光係数 2.0 × 10³ cm⁻¹･mol⁻¹･L の物質の水溶液 1.0 L を調製し、その透過率を測定したところ、 40 ％ であった。この溶液中に含まれる物質の質量として、正しい値は次のうちどれか。ただし、セルの光路長は 1.0 cm とし、log₁₀2 = 0.30とする。
@@ -449,10 +774,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 1
+    form: 計算問題
+    level: 3
+    why: q_new
 - num: 19
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-yuki
+  traps:
+  - sl-yuki-001
   rank: null
   summary: null
   stem: 捕集率が同じ2本のミゼットインピンジャーを直列に連結して、ある有機溶剤蒸気の捕集を行ったところ、1本目の吸収管には 0.950 mg の有機溶剤が、2本目には 0.0500 mg の有機溶剤が捕集された。このミゼットインピンジャー1本の捕集率（％）として、正しい値は次のうちどれか。
@@ -478,10 +812,19 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: question
+    denom: 12
+    count: 5
+    form: 計算問題
+    level: 1
+    why: q_hi
 - num: 20
   status: published
-  chapters: []
-  traps: []
+  chapters:
+  - sel-gen
+  traps:
+  - sl-yuki-other-gen
   rank: null
   summary: null
   stem: 有機溶剤の標準液の調製に関する次の記述のうち、誤っているものはどれか。
@@ -501,3 +844,27 @@ questions:
   figures: []
   law_note: null
   _review: true
+  freq:
+    kind: choice
+    denom: 12
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - ans_new
+    - new
+    - new
+    - new

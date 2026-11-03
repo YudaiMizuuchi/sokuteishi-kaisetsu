@@ -27,6 +27,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 指針における「危険性又は有害性」とは、一般にリスクといわれるものであり、労働者に負傷又は疾病を生じさせる潜在的な根源である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 7
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 7
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -51,6 +75,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 危険有害性区分が数字で示されているものは、区分の数字が大きい方が危険有害性の程度が大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - new
+    - new
+    - new
 - num: 3
   status: published
   chapters:
@@ -75,6 +123,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 量-反応関係とは、個体について、有害物質へのばく露量と、ある生体影響の大きさとの関係を示したものである。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 1
+    similar:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - odo
+    - odo
+    - ''
+    - new
 - num: 4
   status: published
   chapters:
@@ -99,6 +171,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 鉛の生物学的モニタリングの指標として、赤血球中のδ-アミノレブリン酸の濃度がある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 8
+    - 1
+    - 2
+    - 1
+    - 1
+    similar:
+    - 8
+    - 1
+    - 3
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - ''
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -123,6 +219,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 気体の液体への溶解度は、一般に、液体の温度が高いほど大きい。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 4
+    - 1
+    - 1
+    similar:
+    - 1
+    - 4
+    - 4
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 2
+    why: ans_b
+    tags:
+    - new
+    - ans_b
+    - odo
+    - new
+    - new
 - num: 6
   status: published
   chapters:
@@ -147,6 +267,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: フッ化水素は、細胞内の呼吸酵素の障害による呼吸麻痺などを生じる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 3
+    similar:
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    truths: 正正正正誤
+    level: 2
+    why: ans_b
+    tags:
+    - ''
+    - new
+    - ''
+    - new
+    - ans_b
 - num: 7
   status: published
   chapters:
@@ -174,6 +318,13 @@ questions:
   columns:
   - Ⓐ
   - Ⓑ
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 穴埋め・組合せの問題
+    level: 3
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -201,6 +352,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 粉じんの空気力学相当径は、光学顕微鏡で粒子の大きさを計測することによって求められる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 誤正正正正
+    level: 2
+    why: ans_b
+    tags:
+    - ans_b
+    - new
+    - new
+    - new
+    - ''
 - num: 9
   status: published
   chapters:
@@ -225,6 +400,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: インジウム化合物では、溶血性貧血、尿の赤色化などの症状がみられるほか、肺に肉芽腫を生じることがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - new
+    - new
+    - new
 - num: 10
   status: published
   chapters:
@@ -249,6 +448,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 有機溶剤は、引火性であるものが多く、ハロゲン化炭化水素は特に引火性が強い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 6
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 7
+    - 1
+    - 1
+    truths: 誤正正正正
+    level: 3
+    why: none
+    tags:
+    - ans_new
+    - new
+    - odo
+    - new
+    - new
 - num: 11
   status: published
   chapters:
@@ -273,6 +496,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 寒冷環境下で体温が低下し始めると、筋肉の弛緩、酸素摂取量の減少などの症状が現れる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 12
   status: published
   chapters:
@@ -297,6 +544,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 振動障害の一つであるレイノー現象は、白ろう病とも言われ、手指が不可逆的にろうのように白く硬直する疾病である。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 6
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 6
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 13
   status: published
   chapters:
@@ -321,6 +592,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 騒音防止対策は、大別して、受音者対策、伝ぱ経路対策、音源対策の3つがあり、この順序で実施するが、必要に応じ、これらの複数を組み合わせて実施する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ''
+    - ans_new
 - num: 14
   status: published
   chapters:
@@ -348,6 +643,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 硫化水素は、経皮吸収により、全身の脱力や痙攣を起こし、呼吸停止に至ることがある。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - ''
+    - new
+    - new
+    - ans_new
+    - new
 - num: 15
   status: published
   chapters:
@@ -372,6 +691,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 紫外線のエネルギーは、分子内の原子の振動エネルギーと同じ領域にあるため、紫外線吸収スペクトルを測定することで、物質の同定や分析を行うことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正誤正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - ans_new
+    - new
+    - new
 - num: 16
   status: published
   chapters:
@@ -396,6 +739,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 確率的影響には、しきい値がなく、被ばく線量が増えると障害の重篤度も増す。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 4
+    - 1
+    - 1
+    - 1
+    similar:
+    - 2
+    - 4
+    - 1
+    - 2
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - ''
+    - odo
+    - new
+    - ''
+    - ans_new
 - num: 17
   status: published
   chapters:
@@ -420,6 +787,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 局所排気装置に付設する除じん装置は、一般に、電気除じん方式のものよりもマルチサイクロン方式のものの方が、小さい粒径の粉じんを除くことができる。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 5
+    - 1
+    - 1
+    similar:
+    - 7
+    - 1
+    - 5
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - odo
+    - new
+    - odo
+    - ans_new
+    - new
 - num: 18
   status: published
   chapters:
@@ -444,6 +835,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 防じんマスクの粒子捕集効率は3段階に区分されているが、使い捨て式のものは、取替え式のものに比べ、同じ区分のものであっても粒子捕集効率が低い。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - ans_new
+    - new
 - num: 19
   status: published
   chapters:
@@ -468,6 +883,30 @@ questions:
   figures: []
   law_note: null
   _key_choice: 複数の種類の有毒ガスが混在している場合には、そのうち最も毒性の強いガス用の防毒マスクを使用する。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 6
+    - 1
+    - 1
+    similar:
+    - 1
+    - 2
+    - 7
+    - 1
+    - 1
+    truths: 正誤正正正
+    level: 3
+    why: none
+    tags:
+    - new
+    - ans_new
+    - odo
+    - new
+    - new
 - num: 20
   status: published
   chapters:
@@ -495,3 +934,27 @@ questions:
   figures: []
   law_note: null
   _key_choice: 許容濃度等の勧告において、人に対して発がん性があると判断できる物質は、発がん性分類第1群に分類されているが、これらの物質には許容濃度は定められていない。
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    similar:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正正誤
+    level: 3
+    why: none
+    tags:
+    - new
+    - new
+    - new
+    - new
+    - ans_new
