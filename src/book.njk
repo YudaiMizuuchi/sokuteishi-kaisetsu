@@ -7,7 +7,7 @@ pagination:
 permalink: "{{ c.bookUrl }}"
 eleventyComputed:
   title: "{{ c.label }}｜参考書"
-  description: "作業環境測定士試験の参考書「{{ c.label }}」。過去問で繰り返し出るひっかけパターンを、理由から理解できるように解説します。"
+  description: "作業環境測定士試験の参考書「{{ c.label }}」。過去問の出題実績にもとづいて、得点に直結する内容を、理由から理解できるように解説します。"
 ---
 {% from "crumbs.njk" import crumbs %}
 {{ crumbs([{name: "ホーム", url: "/"}, {name: "参考書", url: "/book/"}, {name: c.label}]) }}
@@ -22,7 +22,7 @@ eleventyComputed:
   <div class="book-body">{{ c.bookHtml | safe }}</div>
   <div class="book-actions">
     {% if c.questions.length %}<a class="button" href="/#chapter={{ c.id }}">この章の過去問を解く（{{ c.questions.length }}問）</a>{% endif %}
-    <a class="button ghost" href="{{ c.url }}">この章のひっかけパターン</a>
+    {% if not c.legacy %}<a class="button ghost" href="{{ c.url }}">この章の過去問とひっかけパターン</a>{% endif %}
   </div>
   <nav class="pager" aria-label="前後の章">
     {% if c.bookPrev %}<a href="{{ c.bookPrev.url }}" rel="prev">← {{ c.bookPrev.label }}</a>{% else %}<span></span>{% endif %}

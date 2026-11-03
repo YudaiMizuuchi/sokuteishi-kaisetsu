@@ -1,0 +1,7 @@
+---
+permalink: "/_redirects"
+eleventyExcludeFromCollections: true
+---
+# 書き直し前の章（旧URL）→ 新しい章へ。/sokuteishi/ 付きのリンクを、netlify.app のURLで直接開いたときも動くようにする（下の1行）
+{% for r in db.legacyRedirects %}/sokuteishi{{ r.from }}  /sokuteishi{{ r.to }}  301
+{% endfor %}/sokuteishi/*  /:splat  200

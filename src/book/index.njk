@@ -1,15 +1,24 @@
 ---
 layout: base.njk
 title: 参考書
-description: 作業環境測定士試験（第2種）の参考書。章ごとに、過去問のひっかけパターンを理由から解説します。
+description: 作業環境測定士試験の参考書。章ごとに、過去問の出題実績にもとづいて、理由から理解できるように解説します。
 ---
 <h1>参考書</h1>
-<p class="lead">試験科目の順ではなく、理解が積み上がる順に並べています。公開している章から読めます。</p>
+<p class="lead">過去問の出題実績にもとづいて、得点に直結する内容を、章ごとにまとめています。公開している章から読めます（現在 {{ db.bookParts | length }}つの部で、計{{ db.bookChapters | length - db.legacyBook | length }}章）。各章の過去問は、<a href="/chapter/">参考書の章から探す</a>から解けます。</p>
 {% for p in db.bookParts %}
 <section class="part">
   <h2>第{{ p.num }}部 {{ p.name }}</h2>
   <ul class="chapterlist">
-  {% for c in p.chapters %}<li>{% if c.bookUrl %}<a href="{{ c.bookUrl }}">{{ c.label }}</a><span>公開中</span>{% else %}<span class="pending">{{ c.label }}</span><span>準備中</span>{% endif %}</li>{% endfor %}
+  {% for c in p.chapters %}<li><a href="{{ c.bookUrl }}">{{ c.label }}</a><span>{{ c.questions.length }}問に関連</span></li>{% endfor %}
   </ul>
 </section>
 {% endfor %}
+{% if db.legacyBook.length %}
+<section class="part">
+  <h2>これまでの原稿（書き直し前）</h2>
+  <p class="hint">新しい章立てに書き直しています。書き直しが済むまで、これまでの原稿を残しています。</p>
+  <ul class="chapterlist">
+  {% for c in db.legacyBook %}<li><a href="{{ c.bookUrl }}">{{ c.label }}</a></li>{% endfor %}
+  </ul>
+</section>
+{% endif %}

@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 {% from "card.njk" import card %}
 {% from "crumbs.njk" import crumbs %}
-{{ crumbs([{name: "ホーム", url: "/"}, {name: "章から探す", url: "/chapter/"}, {name: t.chapterLabel, url: t.chapterUrl}, {name: t.name}]) }}
+{% if t.chapterLabel %}{{ crumbs([{name: "ホーム", url: "/"}, {name: "章から探す", url: "/chapter/"}, {name: t.chapterLabel, url: t.chapterUrl}, {name: t.name}]) }}{% else %}{{ crumbs([{name: "ホーム", url: "/"}, {name: "章から探す", url: "/chapter/"}, {name: t.name}]) }}{% endif %}
 <h1>{{ t.name }}</h1>
 <p class="trapmeta"><span class="rank rank-{{ t.rank }}">ランク{{ t.rank }}</span> {{ t.subjectName }}・{{ t.count }}回出題</p>
 <section class="trapbody">

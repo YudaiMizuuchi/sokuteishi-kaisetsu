@@ -5,7 +5,6 @@ export default function (eleventyConfig) {
   // "/q/..." のようなルート相対リンクを、自動で "/sokuteishi/q/..." に書き換える
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
   eleventyConfig.addWatchTarget("./data/");
   eleventyConfig.addFilter("json", (v) => JSON.stringify(v).replace(/</g, "\\u003c"));
   eleventyConfig.addFilter("pluck", (arr, key) => arr.map((x) => x[key]));

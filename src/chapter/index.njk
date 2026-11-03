@@ -1,14 +1,15 @@
 ---
 layout: base.njk
 title: 参考書の章から探す
+description: 参考書の章ごとに、関係する過去問と、繰り返し出るひっかけパターンをまとめています。
 ---
 <h1>参考書の章から探す</h1>
-<p class="lead">参考書の章立てに沿って、関係する過去問と繰り返し出るひっかけパターンをまとめています。</p>
+<p class="lead">参考書の章立てに沿って、関係する過去問と繰り返し出るひっかけパターンをまとめています。「参考書あり」の章は、章のページから、参考書を読めます。</p>
 {% for p in db.parts %}
 <section class="part">
   <h2>第{{ p.num }}部 {{ p.name }}</h2>
   <ul class="chapterlist">
-  {% for c in p.chapters %}<li><a href="{{ c.url }}">{{ c.label }}</a><span>{{ c.questions.length }}問</span></li>{% endfor %}
+  {% for c in p.chapters %}<li><a href="{{ c.url }}">{{ c.label }}</a><span>{{ c.questions.length }}問{% if c.bookUrl %}・参考書あり{% endif %}</span></li>{% endfor %}
   </ul>
 </section>
 {% endfor %}

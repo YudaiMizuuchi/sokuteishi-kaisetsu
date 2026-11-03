@@ -1,0 +1,8401 @@
+# 問題→参考書の章（tools/link_book_chapters.py で作る）。p＝決め手の章、r＝関連の章
+2015-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|10:
+  p: [bk-bunseki-tp09]
+  r: [bk-bunseki-tp07]
+2015-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|12:
+  p: []
+  r: []
+2015-08|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp02]
+2015-08|bunseki|16:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0004]
+2015-08|bunseki|17:
+  p: []
+  r: []
+2015-08|bunseki|18:
+  p: []
+  r: [bk-bunseki-tp05, bk-bunseki-0029]
+2015-08|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011]
+2015-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|3:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-0036]
+2015-08|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2015-08|bunseki|7:
+  p: []
+  r: [bk-bunseki-tp06]
+2015-08|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2015-08|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: []
+2015-08|design|1:
+  p: [bk-design-tp11]
+  r: [bk-design-tp13, bk-design-0007]
+2015-08|design|10:
+  p: [bk-design-0003]
+  r: [bk-design-tp13, bk-design-tp12]
+2015-08|design|11:
+  p: []
+  r: [bk-design-0012, bk-design-tp06, bk-design-tp10]
+2015-08|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0004]
+2015-08|design|13:
+  p: [bk-design-tp06]
+  r: [bk-design-0007, bk-design-tp04]
+2015-08|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-tp04, bk-design-tp05, bk-design-tp09]
+2015-08|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp08]
+2015-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2015-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2015-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2015-08|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0003]
+2015-08|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2015-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2015-08|design|3:
+  p: [bk-design-tp04]
+  r: []
+2015-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2015-08|design|5:
+  p: []
+  r: []
+2015-08|design|6:
+  p: [bk-design-0001]
+  r: [bk-design-tp12, bk-design-tp13]
+2015-08|design|7:
+  p: []
+  r: [bk-design-tp11]
+2015-08|design|8:
+  p: [bk-design-forms]
+  r: []
+2015-08|design|9:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2015-08|funjin|1:
+  p: []
+  r: []
+2015-08|funjin|10:
+  p: [bk-funjin-0017]
+  r: [bk-funjin-tp06]
+2015-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2015-08|funjin|12:
+  p: [bk-funjin-forms]
+  r: []
+2015-08|funjin|13:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0015]
+2015-08|funjin|14:
+  p: []
+  r: [bk-funjin-tp03, bk-funjin-0015]
+2015-08|funjin|15:
+  p: []
+  r: [bk-funjin-tp02]
+2015-08|funjin|16:
+  p: []
+  r: []
+2015-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02, bk-funjin-0017]
+2015-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2015-08|funjin|19:
+  p: [bk-funjin-tp04]
+  r: [bk-funjin-tp06]
+2015-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: []
+2015-08|funjin|20:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-tp04, bk-funjin-0016]
+2015-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2015-08|funjin|4:
+  p: [bk-funjin-forms]
+  r: []
+2015-08|funjin|5:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0005, bk-funjin-0017, bk-funjin-tp06]
+2015-08|funjin|6:
+  p: []
+  r: [bk-funjin-0004, bk-funjin-tp06]
+2015-08|funjin|7:
+  p: [bk-funjin-0009]
+  r: [bk-funjin-tp06]
+2015-08|funjin|8:
+  p: []
+  r: [bk-funjin-tp01, bk-funjin-0007]
+2015-08|funjin|9:
+  p: [bk-funjin-0008]
+  r: [bk-funjin-tp01]
+2015-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2015-08|hourei|10:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05]
+2015-08|hourei|11:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th06, bk-hourei-th12]
+2015-08|hourei|12:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-tp06]
+2015-08|hourei|13:
+  p: [bk-hourei-th13]
+  r: []
+2015-08|hourei|14:
+  p: []
+  r: []
+2015-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2015-08|hourei|16:
+  p: [bk-hourei-forms]
+  r: []
+2015-08|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th11, bk-hourei-th03, bk-hourei-tp01]
+2015-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: []
+2015-08|hourei|19:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th16]
+2015-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2015-08|hourei|20:
+  p: [bk-hourei-tp02]
+  r: []
+2015-08|hourei|3:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-th16, bk-hourei-tp01, bk-hourei-tp06]
+2015-08|hourei|4:
+  p: []
+  r: []
+2015-08|hourei|5:
+  p: [bk-hourei-forms]
+  r: []
+2015-08|hourei|6:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-th03, bk-hourei-th01, bk-hourei-th17]
+2015-08|hourei|7:
+  p: []
+  r: []
+2015-08|hourei|8:
+  p: []
+  r: []
+2015-08|hourei|9:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th03]
+2015-08|ippan|1:
+  p: [bk-ippan-fr17]
+  r: []
+2015-08|ippan|10:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024, bk-ippan-fr17]
+2015-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2015-08|ippan|12:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0015, bk-ippan-0014]
+2015-08|ippan|13:
+  p: []
+  r: []
+2015-08|ippan|14:
+  p: [bk-ippan-fr14]
+  r: []
+2015-08|ippan|15:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-0001, bk-ippan-0030]
+2015-08|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2015-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2015-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2015-08|ippan|19:
+  p: [bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr05, bk-ippan-fr06]
+2015-08|ippan|2:
+  p: [bk-ippan-fr17]
+  r: []
+2015-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: []
+2015-08|ippan|3:
+  p: [bk-ippan-fr01]
+  r: []
+2015-08|ippan|4:
+  p: [bk-ippan-forms]
+  r: []
+2015-08|ippan|5:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr08, bk-ippan-fr12]
+2015-08|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr07]
+2015-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2015-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: []
+2015-08|ippan|9:
+  p: [bk-ippan-0001, bk-ippan-fr06]
+  r: [bk-ippan-fr08, bk-ippan-fr04]
+2015-08|kinzoku|1:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-0014, bk-kinzoku-tp01]
+2015-08|kinzoku|10:
+  p: []
+  r: []
+2015-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp04]
+2015-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-tp03]
+  r: [bk-kinzoku-tp05, bk-kinzoku-0013, bk-kinzoku-tp02]
+2015-08|kinzoku|13:
+  p: [bk-kinzoku-sb4002]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03]
+2015-08|kinzoku|14:
+  p: [bk-kinzoku-sb4003, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp05]
+2015-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-0013]
+2015-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp03]
+2015-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
+  r: [bk-kinzoku-tp06, bk-kinzoku-tp07]
+2015-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp01, bk-kinzoku-tp05]
+2015-08|kinzoku|19:
+  p: []
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2015-08|kinzoku|2:
+  p: []
+  r: []
+2015-08|kinzoku|20:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-forms]
+  r: []
+2015-08|kinzoku|3:
+  p: []
+  r: []
+2015-08|kinzoku|4:
+  p: []
+  r: [bk-kinzoku-0013, bk-kinzoku-tp05]
+2015-08|kinzoku|5:
+  p: [bk-kinzoku-tp01]
+  r: [bk-kinzoku-tp04, bk-kinzoku-0018]
+2015-08|kinzoku|6:
+  p: [bk-kinzoku-0001]
+  r: []
+2015-08|kinzoku|7:
+  p: []
+  r: [bk-kinzoku-0008, bk-kinzoku-tp07]
+2015-08|kinzoku|8:
+  p: []
+  r: []
+2015-08|kinzoku|9:
+  p: [bk-kinzoku-0004]
+  r: [bk-kinzoku-0003, bk-kinzoku-tp02]
+2015-08|tokka|1:
+  p: []
+  r: [bk-tokka-0007, bk-tokka-tp01, bk-tokka-tp03]
+2015-08|tokka|10:
+  p: [bk-tokka-sb3022, bk-tokka-forms]
+  r: []
+2015-08|tokka|11:
+  p: [bk-tokka-sb3014]
+  r: []
+2015-08|tokka|12:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2015-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2015-08|tokka|14:
+  p: []
+  r: []
+2015-08|tokka|15:
+  p: []
+  r: []
+2015-08|tokka|16:
+  p: []
+  r: []
+2015-08|tokka|17:
+  p: [bk-tokka-0005]
+  r: []
+2015-08|tokka|18:
+  p: [bk-tokka-forms]
+  r: []
+2015-08|tokka|19:
+  p: [bk-tokka-forms]
+  r: []
+2015-08|tokka|2:
+  p: [bk-tokka-forms]
+  r: []
+2015-08|tokka|20:
+  p: [bk-tokka-sb3001]
+  r: []
+2015-08|tokka|3:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2015-08|tokka|4:
+  p: [bk-tokka-sb3019]
+  r: []
+2015-08|tokka|5:
+  p: [bk-tokka-sb3029, bk-tokka-0004]
+  r: [bk-tokka-tp02]
+2015-08|tokka|6:
+  p: []
+  r: [bk-tokka-0004, bk-tokka-tp03]
+2015-08|tokka|7:
+  p: [bk-tokka-forms]
+  r: []
+2015-08|tokka|8:
+  p: [bk-tokka-sb3001, bk-tokka-0004]
+  r: [bk-tokka-tp01]
+2015-08|tokka|9:
+  p: []
+  r: [bk-tokka-0004]
+2015-08|yuki|1:
+  p: []
+  r: []
+2015-08|yuki|10:
+  p: []
+  r: []
+2015-08|yuki|11:
+  p: []
+  r: []
+2015-08|yuki|12:
+  p: [bk-yuki-tp01]
+  r: []
+2015-08|yuki|13:
+  p: [bk-yuki-0009]
+  r: [bk-yuki-0010, bk-yuki-0007, bk-yuki-0013]
+2015-08|yuki|14:
+  p: [bk-yuki-0012]
+  r: [bk-yuki-0008, bk-yuki-0009, bk-yuki-tp01]
+2015-08|yuki|15:
+  p: [bk-yuki-forms]
+  r: []
+2015-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-0004]
+2015-08|yuki|17:
+  p: []
+  r: [bk-yuki-tp03]
+2015-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2015-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2015-08|yuki|2:
+  p: [bk-yuki-forms]
+  r: []
+2015-08|yuki|20:
+  p: []
+  r: [bk-yuki-0017, bk-yuki-tp02]
+2015-08|yuki|3:
+  p: []
+  r: []
+2015-08|yuki|4:
+  p: []
+  r: []
+2015-08|yuki|5:
+  p: [bk-yuki-tp03]
+  r: []
+2015-08|yuki|6:
+  p: [bk-yuki-forms]
+  r: []
+2015-08|yuki|7:
+  p: [bk-yuki-0022]
+  r: [bk-yuki-tp03]
+2015-08|yuki|8:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01, bk-yuki-0013]
+2015-08|yuki|9:
+  p: []
+  r: []
+2016-02|bunseki|1:
+  p: [bk-bunseki-0020]
+  r: []
+2016-02|bunseki|10:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-tp09]
+2016-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|12:
+  p: [bk-bunseki-0019]
+  r: []
+2016-02|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|14:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-tp04, bk-bunseki-0001, bk-bunseki-0003]
+2016-02|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: []
+2016-02|bunseki|16:
+  p: []
+  r: [bk-bunseki-0004]
+2016-02|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0028]
+2016-02|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03, bk-bunseki-tp09]
+2016-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|20:
+  p: []
+  r: []
+2016-02|bunseki|3:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-0015]
+2016-02|bunseki|4:
+  p: [bk-bunseki-0036]
+  r: [bk-bunseki-0018]
+2016-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|6:
+  p: []
+  r: []
+2016-02|bunseki|7:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|8:
+  p: [bk-bunseki-forms]
+  r: []
+2016-02|bunseki|9:
+  p: [bk-bunseki-0034]
+  r: []
+2016-02|design|1:
+  p: [bk-design-tp11]
+  r: [bk-design-tp13]
+2016-02|design|10:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp13]
+2016-02|design|11:
+  p: [bk-design-tp10]
+  r: []
+2016-02|design|12:
+  p: [bk-design-0012]
+  r: [bk-design-0004, bk-design-tp09]
+2016-02|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp06]
+2016-02|design|14:
+  p: [bk-design-0010]
+  r: [bk-design-tp08]
+2016-02|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-0010]
+2016-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2016-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2016-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2016-02|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-tp07]
+2016-02|design|2:
+  p: [bk-design-tp01]
+  r: [bk-design-tp05]
+2016-02|design|20:
+  p: [bk-design-tp01]
+  r: []
+2016-02|design|3:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04]
+2016-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2016-02|design|5:
+  p: []
+  r: []
+2016-02|design|6:
+  p: [bk-design-forms]
+  r: []
+2016-02|design|7:
+  p: [bk-design-tp11]
+  r: [bk-design-tp12]
+2016-02|design|8:
+  p: [bk-design-forms]
+  r: []
+2016-02|design|9:
+  p: [bk-design-forms]
+  r: []
+2016-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2016-02|hourei|10:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th12, bk-hourei-tp02]
+2016-02|hourei|11:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th06]
+2016-02|hourei|12:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-tp03, bk-hourei-th03]
+2016-02|hourei|13:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-tp06]
+2016-02|hourei|14:
+  p: []
+  r: []
+2016-02|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-tp03]
+2016-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2016-02|hourei|17:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp03, bk-hourei-th03, bk-hourei-th10]
+2016-02|hourei|18:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-th11]
+2016-02|hourei|19:
+  p: [bk-hourei-th01]
+  r: []
+2016-02|hourei|2:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th07]
+2016-02|hourei|20:
+  p: []
+  r: []
+2016-02|hourei|3:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th15, bk-hourei-th09, bk-hourei-th16]
+2016-02|hourei|4:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-tp06, bk-hourei-th12]
+2016-02|hourei|5:
+  p: [bk-hourei-forms]
+  r: []
+2016-02|hourei|6:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th01, bk-hourei-th16]
+2016-02|hourei|7:
+  p: []
+  r: []
+2016-02|hourei|8:
+  p: []
+  r: []
+2016-02|hourei|9:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th04]
+2016-02|ippan|1:
+  p: [bk-ippan-fr17]
+  r: []
+2016-02|ippan|10:
+  p: [bk-ippan-0025, bk-ippan-fr09]
+  r: []
+2016-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2016-02|ippan|12:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2016-02|ippan|13:
+  p: []
+  r: []
+2016-02|ippan|14:
+  p: [bk-ippan-0021, bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-fr06]
+2016-02|ippan|15:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2016-02|ippan|16:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: [bk-ippan-fr12]
+2016-02|ippan|17:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2016-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2016-02|ippan|19:
+  p: [bk-ippan-0004, bk-ippan-fr16]
+  r: [bk-ippan-0010]
+2016-02|ippan|2:
+  p: [bk-ippan-fr01]
+  r: []
+2016-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2016-02|ippan|3:
+  p: [bk-ippan-forms]
+  r: []
+2016-02|ippan|4:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr12]
+2016-02|ippan|5:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2016-02|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr07]
+2016-02|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2016-02|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr04]
+2016-02|ippan|9:
+  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-0001, bk-ippan-fr04]
+2016-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|10:
+  p: []
+  r: [bk-bunseki-tp02]
+2016-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|12:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-0003]
+2016-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0001, bk-bunseki-0008]
+2016-08|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: [bk-bunseki-tp02]
+2016-08|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|18:
+  p: [bk-bunseki-0031]
+  r: [bk-bunseki-tp05]
+2016-08|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03, bk-bunseki-tp09]
+2016-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|3:
+  p: [bk-bunseki-tp10]
+  r: [bk-bunseki-tp07, bk-bunseki-0036]
+2016-08|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|7:
+  p: [bk-bunseki-tp10]
+  r: []
+2016-08|bunseki|8:
+  p: [bk-bunseki-forms]
+  r: []
+2016-08|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: []
+2016-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2016-08|design|10:
+  p: [bk-design-tp13]
+  r: [bk-design-tp12, bk-design-0003, bk-design-tp11]
+2016-08|design|11:
+  p: [bk-design-tp10]
+  r: [bk-design-tp06]
+2016-08|design|12:
+  p: [bk-design-0012]
+  r: [bk-design-tp09]
+2016-08|design|13:
+  p: [bk-design-tp06]
+  r: [bk-design-0007]
+2016-08|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-tp09]
+2016-08|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp03, bk-design-tp05]
+2016-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2016-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2016-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2016-08|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0003, bk-design-0004]
+2016-08|design|2:
+  p: []
+  r: []
+2016-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2016-08|design|3:
+  p: [bk-design-tp02]
+  r: [bk-design-tp04, bk-design-tp01, bk-design-tp05]
+2016-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2016-08|design|5:
+  p: []
+  r: []
+2016-08|design|6:
+  p: [bk-design-tp11]
+  r: []
+2016-08|design|7:
+  p: [bk-design-tp13]
+  r: [bk-design-0001]
+2016-08|design|8:
+  p: [bk-design-forms]
+  r: []
+2016-08|design|9:
+  p: [bk-design-tp07]
+  r: []
+2016-08|funjin|1:
+  p: []
+  r: []
+2016-08|funjin|10:
+  p: []
+  r: [bk-funjin-0010, bk-funjin-tp06]
+2016-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2016-08|funjin|12:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0014]
+2016-08|funjin|13:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp05, bk-funjin-tp06]
+2016-08|funjin|14:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp06]
+2016-08|funjin|15:
+  p: []
+  r: []
+2016-08|funjin|16:
+  p: [bk-funjin-forms]
+  r: []
+2016-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2016-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2016-08|funjin|19:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02, bk-funjin-0017]
+2016-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: [bk-funjin-tp05]
+2016-08|funjin|20:
+  p: [bk-funjin-tp04]
+  r: []
+2016-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2016-08|funjin|4:
+  p: []
+  r: [bk-funjin-0006, bk-funjin-tp05, bk-funjin-tp06]
+2016-08|funjin|5:
+  p: []
+  r: [bk-funjin-0004, bk-funjin-tp01, bk-funjin-tp06]
+2016-08|funjin|6:
+  p: [bk-funjin-0004]
+  r: []
+2016-08|funjin|7:
+  p: []
+  r: [bk-funjin-0009, bk-funjin-tp06]
+2016-08|funjin|8:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0007]
+2016-08|funjin|9:
+  p: [bk-funjin-0008]
+  r: [bk-funjin-tp01, bk-funjin-0007]
+2016-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2016-08|hourei|10:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-tp05, bk-hourei-th12]
+2016-08|hourei|11:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th06, bk-hourei-th12]
+2016-08|hourei|12:
+  p: [bk-hourei-tp03]
+  r: []
+2016-08|hourei|13:
+  p: []
+  r: []
+2016-08|hourei|14:
+  p: []
+  r: []
+2016-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2016-08|hourei|16:
+  p: []
+  r: []
+2016-08|hourei|17:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th17]
+2016-08|hourei|18:
+  p: []
+  r: [bk-hourei-th11, bk-hourei-tp02]
+2016-08|hourei|19:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th01]
+2016-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2016-08|hourei|20:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2016-08|hourei|3:
+  p: [bk-hourei-tp02]
+  r: [bk-hourei-tp06]
+2016-08|hourei|4:
+  p: []
+  r: []
+2016-08|hourei|5:
+  p: [bk-hourei-forms]
+  r: []
+2016-08|hourei|6:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-th03]
+2016-08|hourei|7:
+  p: []
+  r: []
+2016-08|hourei|8:
+  p: []
+  r: []
+2016-08|hourei|9:
+  p: [bk-hourei-th04]
+  r: []
+2016-08|ippan|1:
+  p: []
+  r: []
+2016-08|ippan|10:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024, bk-ippan-fr17]
+2016-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: [bk-ippan-fr06]
+2016-08|ippan|12:
+  p: [bk-ippan-fr12]
+  r: [bk-ippan-fr06]
+2016-08|ippan|13:
+  p: [bk-ippan-fr06, bk-ippan-fr13]
+  r: []
+2016-08|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0021]
+2016-08|ippan|15:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-0001, bk-ippan-fr17]
+2016-08|ippan|16:
+  p: []
+  r: []
+2016-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2016-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0004]
+2016-08|ippan|19:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2016-08|ippan|2:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2016-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2016-08|ippan|3:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2016-08|ippan|4:
+  p: [bk-ippan-fr04, bk-ippan-fr17]
+  r: [bk-ippan-0033, bk-ippan-fr06]
+2016-08|ippan|5:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr08, bk-ippan-fr14]
+2016-08|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06]
+2016-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2016-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: []
+2016-08|ippan|9:
+  p: [bk-ippan-fr04, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2016-08|kinzoku|1:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-0014, bk-kinzoku-tp01]
+2016-08|kinzoku|10:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-0018, bk-kinzoku-0012, bk-kinzoku-tp05]
+2016-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
+  r: [bk-kinzoku-tp04, bk-kinzoku-0008, bk-kinzoku-tp01]
+2016-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
+  r: [bk-kinzoku-tp05, bk-kinzoku-0009]
+2016-08|kinzoku|13:
+  p: [bk-kinzoku-sb4002, bk-kinzoku-tp01]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp03]
+2016-08|kinzoku|14:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp05]
+2016-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-0013]
+2016-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0011, bk-kinzoku-tp01]
+2016-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-0012, bk-kinzoku-tp03]
+2016-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0013, bk-kinzoku-0009, bk-kinzoku-tp01]
+2016-08|kinzoku|19:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-tp01, bk-kinzoku-0008]
+2016-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp02]
+2016-08|kinzoku|20:
+  p: [bk-kinzoku-forms]
+  r: []
+2016-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2016-08|kinzoku|4:
+  p: [bk-kinzoku-forms]
+  r: []
+2016-08|kinzoku|5:
+  p: []
+  r: [bk-kinzoku-tp07]
+2016-08|kinzoku|6:
+  p: [bk-kinzoku-0001]
+  r: [bk-kinzoku-tp04]
+2016-08|kinzoku|7:
+  p: []
+  r: [bk-kinzoku-0005, bk-kinzoku-tp04, bk-kinzoku-tp07]
+2016-08|kinzoku|8:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0010, bk-kinzoku-tp02]
+2016-08|kinzoku|9:
+  p: [bk-kinzoku-0003]
+  r: [bk-kinzoku-0004]
+2016-08|tokka|1:
+  p: []
+  r: [bk-tokka-0001]
+2016-08|tokka|10:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0004]
+2016-08|tokka|11:
+  p: [bk-tokka-0003]
+  r: [bk-tokka-0004, bk-tokka-tp03]
+2016-08|tokka|12:
+  p: []
+  r: [bk-tokka-tp03]
+2016-08|tokka|13:
+  p: [bk-tokka-tp01]
+  r: [bk-tokka-0011, bk-tokka-tp02]
+2016-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2016-08|tokka|15:
+  p: [bk-tokka-tp02]
+  r: [bk-tokka-0011]
+2016-08|tokka|16:
+  p: [bk-tokka-sb3008, bk-tokka-forms]
+  r: []
+2016-08|tokka|17:
+  p: [bk-tokka-forms]
+  r: []
+2016-08|tokka|18:
+  p: [bk-tokka-sb3019]
+  r: []
+2016-08|tokka|19:
+  p: [bk-tokka-sb3013]
+  r: [bk-tokka-tp01]
+2016-08|tokka|2:
+  p: [bk-tokka-sb3015, bk-tokka-forms]
+  r: []
+2016-08|tokka|20:
+  p: [bk-tokka-sb3001]
+  r: []
+2016-08|tokka|3:
+  p: [bk-tokka-forms]
+  r: []
+2016-08|tokka|4:
+  p: [bk-tokka-sb3027]
+  r: []
+2016-08|tokka|5:
+  p: [bk-tokka-sb3029, bk-tokka-forms]
+  r: []
+2016-08|tokka|6:
+  p: []
+  r: []
+2016-08|tokka|7:
+  p: []
+  r: [bk-tokka-tp03, bk-tokka-0003]
+2016-08|tokka|8:
+  p: [bk-tokka-sb3006, bk-tokka-forms]
+  r: []
+2016-08|tokka|9:
+  p: [bk-tokka-sb3029, bk-tokka-forms]
+  r: []
+2016-08|yuki|1:
+  p: []
+  r: []
+2016-08|yuki|10:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01]
+2016-08|yuki|11:
+  p: [bk-yuki-0011]
+  r: [bk-yuki-0014]
+2016-08|yuki|12:
+  p: []
+  r: [bk-yuki-0007, bk-yuki-0010, bk-yuki-0013]
+2016-08|yuki|13:
+  p: []
+  r: []
+2016-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2016-08|yuki|15:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-0001]
+2016-08|yuki|16:
+  p: [bk-yuki-forms]
+  r: []
+2016-08|yuki|17:
+  p: [bk-yuki-forms]
+  r: []
+2016-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2016-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2016-08|yuki|2:
+  p: [bk-yuki-0023]
+  r: [bk-yuki-tp03]
+2016-08|yuki|20:
+  p: [bk-yuki-tp02]
+  r: [bk-yuki-0017]
+2016-08|yuki|3:
+  p: []
+  r: []
+2016-08|yuki|4:
+  p: [bk-yuki-tp03]
+  r: []
+2016-08|yuki|5:
+  p: []
+  r: [bk-yuki-0019, bk-yuki-tp03]
+2016-08|yuki|6:
+  p: [bk-yuki-0018]
+  r: [bk-yuki-tp03]
+2016-08|yuki|7:
+  p: [bk-yuki-0020]
+  r: [bk-yuki-0021, bk-yuki-tp03]
+2016-08|yuki|8:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0022]
+2016-08|yuki|9:
+  p: [bk-yuki-0016]
+  r: [bk-yuki-tp02]
+2017-02|bunseki|1:
+  p: []
+  r: [bk-bunseki-tp07, bk-bunseki-0035]
+2017-02|bunseki|10:
+  p: [bk-bunseki-tp02]
+  r: []
+2017-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|12:
+  p: [bk-bunseki-0019]
+  r: []
+2017-02|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|14:
+  p: [bk-bunseki-0003]
+  r: [bk-bunseki-tp04]
+2017-02|bunseki|15:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-tp02, bk-bunseki-tp10]
+2017-02|bunseki|16:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0004]
+2017-02|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|18:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|19:
+  p: []
+  r: [bk-bunseki-0011, bk-bunseki-tp03, bk-bunseki-tp09]
+2017-02|bunseki|2:
+  p: [bk-bunseki-0024]
+  r: []
+2017-02|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|3:
+  p: [bk-bunseki-0015]
+  r: [bk-bunseki-tp07]
+2017-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0034]
+2017-02|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2017-02|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2017-02|design|1:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04]
+2017-02|design|10:
+  p: [bk-design-tp12]
+  r: []
+2017-02|design|11:
+  p: [bk-design-tp10]
+  r: [bk-design-tp06]
+2017-02|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0004]
+2017-02|design|13:
+  p: [bk-design-forms]
+  r: []
+2017-02|design|14:
+  p: [bk-design-tp09]
+  r: [bk-design-0010, bk-design-tp08]
+2017-02|design|15:
+  p: [bk-design-tp08]
+  r: [bk-design-tp06]
+2017-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2017-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2017-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2017-02|design|19:
+  p: [bk-design-tp10]
+  r: [bk-design-0012, bk-design-tp09, bk-design-tp11]
+2017-02|design|2:
+  p: [bk-design-tp05]
+  r: []
+2017-02|design|20:
+  p: [bk-design-tp01]
+  r: []
+2017-02|design|3:
+  p: [bk-design-tp04]
+  r: []
+2017-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2017-02|design|5:
+  p: [bk-design-forms]
+  r: []
+2017-02|design|6:
+  p: []
+  r: [bk-design-0003, bk-design-tp10]
+2017-02|design|7:
+  p: []
+  r: []
+2017-02|design|8:
+  p: [bk-design-forms]
+  r: []
+2017-02|design|9:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2017-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2017-02|hourei|10:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-tp05, bk-hourei-tp02]
+2017-02|hourei|11:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05]
+2017-02|hourei|12:
+  p: []
+  r: [bk-hourei-tp03, bk-hourei-tp06]
+2017-02|hourei|13:
+  p: [bk-hourei-th13]
+  r: []
+2017-02|hourei|14:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
+2017-02|hourei|15:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-tp03]
+2017-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-tp01, bk-hourei-th02, bk-hourei-th07]
+2017-02|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+2017-02|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2017-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2017-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2017-02|hourei|20:
+  p: [bk-hourei-tp02]
+  r: []
+2017-02|hourei|3:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-th09, bk-hourei-tp01, bk-hourei-tp06]
+2017-02|hourei|4:
+  p: []
+  r: []
+2017-02|hourei|5:
+  p: [bk-hourei-forms]
+  r: []
+2017-02|hourei|6:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th01, bk-hourei-th16]
+2017-02|hourei|7:
+  p: []
+  r: []
+2017-02|hourei|8:
+  p: []
+  r: []
+2017-02|hourei|9:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th04]
+2017-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2017-02|ippan|10:
+  p: [bk-ippan-fr09]
+  r: []
+2017-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2017-02|ippan|12:
+  p: [bk-ippan-0029, bk-ippan-fr12]
+  r: [bk-ippan-fr17]
+2017-02|ippan|13:
+  p: []
+  r: []
+2017-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr06]
+2017-02|ippan|15:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0001, bk-ippan-fr06]
+2017-02|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2017-02|ippan|17:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2017-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0010]
+2017-02|ippan|19:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-0024, bk-ippan-fr06, bk-ippan-fr09]
+2017-02|ippan|2:
+  p: [bk-ippan-fr17]
+  r: []
+2017-02|ippan|20:
+  p: [bk-ippan-fr03, bk-ippan-fr17]
+  r: []
+2017-02|ippan|3:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2017-02|ippan|4:
+  p: [bk-ippan-forms]
+  r: []
+2017-02|ippan|5:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: []
+2017-02|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr03, bk-ippan-fr17]
+2017-02|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2017-02|ippan|8:
+  p: [bk-ippan-fr06]
+  r: []
+2017-02|ippan|9:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2017-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|10:
+  p: []
+  r: [bk-bunseki-tp02]
+2017-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|12:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-tp04, bk-bunseki-0001]
+2017-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp04]
+2017-08|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: [bk-bunseki-tp02]
+2017-08|bunseki|17:
+  p: [bk-bunseki-tp05]
+  r: []
+2017-08|bunseki|18:
+  p: [bk-bunseki-0031]
+  r: [bk-bunseki-tp05]
+2017-08|bunseki|19:
+  p: []
+  r: [bk-bunseki-0011, bk-bunseki-tp03]
+2017-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|3:
+  p: [bk-bunseki-0036]
+  r: [bk-bunseki-0018]
+2017-08|bunseki|4:
+  p: [bk-bunseki-tp07]
+  r: []
+2017-08|bunseki|5:
+  p: []
+  r: []
+2017-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|7:
+  p: [bk-bunseki-tp09]
+  r: []
+2017-08|bunseki|8:
+  p: [bk-bunseki-forms]
+  r: []
+2017-08|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: []
+2017-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2017-08|design|10:
+  p: [bk-design-0003]
+  r: [bk-design-tp12]
+2017-08|design|11:
+  p: [bk-design-tp06]
+  r: [bk-design-tp10, bk-design-0012]
+2017-08|design|12:
+  p: [bk-design-0004]
+  r: [bk-design-tp09]
+2017-08|design|13:
+  p: [bk-design-tp06]
+  r: [bk-design-0007]
+2017-08|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-tp09]
+2017-08|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp08]
+2017-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2017-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2017-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2017-08|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0003, bk-design-tp07, bk-design-tp09]
+2017-08|design|2:
+  p: [bk-design-tp01]
+  r: [bk-design-tp05]
+2017-08|design|20:
+  p: [bk-design-tp03]
+  r: [bk-design-tp01]
+2017-08|design|3:
+  p: [bk-design-tp02]
+  r: [bk-design-tp04, bk-design-tp05]
+2017-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2017-08|design|5:
+  p: []
+  r: [bk-design-tp11, bk-design-tp13]
+2017-08|design|6:
+  p: []
+  r: []
+2017-08|design|7:
+  p: [bk-design-tp13]
+  r: [bk-design-0001, bk-design-tp11, bk-design-tp12]
+2017-08|design|8:
+  p: [bk-design-forms]
+  r: []
+2017-08|design|9:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2017-08|funjin|1:
+  p: []
+  r: []
+2017-08|funjin|10:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2017-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2017-08|funjin|12:
+  p: []
+  r: []
+2017-08|funjin|13:
+  p: [bk-funjin-tp02]
+  r: []
+2017-08|funjin|14:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-0015]
+2017-08|funjin|15:
+  p: []
+  r: [bk-funjin-0011, bk-funjin-tp02]
+2017-08|funjin|16:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-tp01]
+2017-08|funjin|17:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0011, bk-funjin-0017]
+2017-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2017-08|funjin|19:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-tp04]
+2017-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: []
+2017-08|funjin|20:
+  p: []
+  r: [bk-funjin-0016, bk-funjin-tp02, bk-funjin-tp04]
+2017-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2017-08|funjin|4:
+  p: [bk-funjin-0006]
+  r: [bk-funjin-tp02, bk-funjin-tp05]
+2017-08|funjin|5:
+  p: [bk-funjin-0017]
+  r: [bk-funjin-0004, bk-funjin-tp01]
+2017-08|funjin|6:
+  p: []
+  r: [bk-funjin-0005, bk-funjin-tp05]
+2017-08|funjin|7:
+  p: [bk-funjin-0009]
+  r: [bk-funjin-tp06]
+2017-08|funjin|8:
+  p: []
+  r: [bk-funjin-tp01, bk-funjin-0007]
+2017-08|funjin|9:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0007]
+2017-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2017-08|hourei|10:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th06]
+2017-08|hourei|11:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th03, bk-hourei-tp01]
+2017-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2017-08|hourei|13:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+2017-08|hourei|14:
+  p: [bk-hourei-th12]
+  r: []
+2017-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07, bk-hourei-tp03]
+2017-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2017-08|hourei|17:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-th10, bk-hourei-th14, bk-hourei-tp02]
+2017-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2017-08|hourei|19:
+  p: [bk-hourei-th16]
+  r: []
+2017-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2017-08|hourei|20:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th11]
+2017-08|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th16, bk-hourei-tp06]
+2017-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2017-08|hourei|5:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th16, bk-hourei-tp01]
+2017-08|hourei|6:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-th03]
+2017-08|hourei|7:
+  p: []
+  r: []
+2017-08|hourei|8:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th17]
+2017-08|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th12]
+2017-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2017-08|ippan|10:
+  p: [bk-ippan-forms]
+  r: []
+2017-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2017-08|ippan|12:
+  p: [bk-ippan-fr12]
+  r: [bk-ippan-0029]
+2017-08|ippan|13:
+  p: [bk-ippan-forms]
+  r: []
+2017-08|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-fr06]
+2017-08|ippan|15:
+  p: [bk-ippan-0001, bk-ippan-fr05]
+  r: [bk-ippan-0030, bk-ippan-0004, bk-ippan-fr17]
+2017-08|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2017-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: []
+2017-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0004, bk-ippan-0010]
+2017-08|ippan|19:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-0021, bk-ippan-fr14]
+2017-08|ippan|2:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2017-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2017-08|ippan|3:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2017-08|ippan|4:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17, bk-ippan-0001, bk-ippan-0033]
+2017-08|ippan|5:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-0008]
+2017-08|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr07]
+2017-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2017-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr04]
+2017-08|ippan|9:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-fr04, bk-ippan-fr17]
+2017-08|kinzoku|1:
+  p: []
+  r: []
+2017-08|kinzoku|10:
+  p: []
+  r: [bk-kinzoku-0018, bk-kinzoku-tp02, bk-kinzoku-tp05]
+2017-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp04]
+2017-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp01, bk-kinzoku-tp03]
+2017-08|kinzoku|13:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp03]
+2017-08|kinzoku|14:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp02]
+2017-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-0013]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2017-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03]
+2017-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0012, bk-kinzoku-tp07]
+2017-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-0013]
+2017-08|kinzoku|19:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp06]
+2017-08|kinzoku|2:
+  p: []
+  r: []
+2017-08|kinzoku|20:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-forms]
+  r: []
+2017-08|kinzoku|3:
+  p: [bk-kinzoku-tp05]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp06]
+2017-08|kinzoku|4:
+  p: [bk-kinzoku-tp05]
+  r: [bk-kinzoku-tp02, bk-kinzoku-tp04]
+2017-08|kinzoku|5:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-0001, bk-kinzoku-tp06]
+2017-08|kinzoku|6:
+  p: [bk-kinzoku-0001]
+  r: []
+2017-08|kinzoku|7:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008]
+2017-08|kinzoku|8:
+  p: []
+  r: [bk-kinzoku-tp06]
+2017-08|kinzoku|9:
+  p: [bk-kinzoku-0003]
+  r: [bk-kinzoku-0004]
+2017-08|tokka|1:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0001]
+2017-08|tokka|10:
+  p: [bk-tokka-sb3014, bk-tokka-forms]
+  r: []
+2017-08|tokka|11:
+  p: [bk-tokka-tp03]
+  r: []
+2017-08|tokka|12:
+  p: [bk-tokka-0003]
+  r: [bk-tokka-0004]
+2017-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2017-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2017-08|tokka|15:
+  p: []
+  r: []
+2017-08|tokka|16:
+  p: [bk-tokka-0005]
+  r: []
+2017-08|tokka|17:
+  p: []
+  r: []
+2017-08|tokka|18:
+  p: [bk-tokka-sb3007]
+  r: []
+2017-08|tokka|19:
+  p: [bk-tokka-sb3012]
+  r: []
+2017-08|tokka|2:
+  p: [bk-tokka-forms]
+  r: []
+2017-08|tokka|20:
+  p: [bk-tokka-sb3002]
+  r: []
+2017-08|tokka|3:
+  p: [bk-tokka-sb3016, bk-tokka-forms]
+  r: []
+2017-08|tokka|4:
+  p: []
+  r: []
+2017-08|tokka|5:
+  p: []
+  r: [bk-tokka-tp03]
+2017-08|tokka|6:
+  p: [bk-tokka-0004]
+  r: [bk-tokka-tp02]
+2017-08|tokka|7:
+  p: [bk-tokka-0011]
+  r: [bk-tokka-tp03]
+2017-08|tokka|8:
+  p: [bk-tokka-sb3036, bk-tokka-forms]
+  r: []
+2017-08|tokka|9:
+  p: [bk-tokka-sb3022]
+  r: [bk-tokka-tp01]
+2017-08|yuki|1:
+  p: []
+  r: []
+2017-08|yuki|10:
+  p: [bk-yuki-tp01]
+  r: []
+2017-08|yuki|11:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|12:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|13:
+  p: [bk-yuki-0011]
+  r: []
+2017-08|yuki|14:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-0012, bk-yuki-0009, bk-yuki-tp01]
+2017-08|yuki|15:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|16:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|17:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-tp02, bk-yuki-0004]
+2017-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|2:
+  p: []
+  r: []
+2017-08|yuki|20:
+  p: []
+  r: [bk-yuki-tp02, bk-yuki-0017]
+2017-08|yuki|3:
+  p: []
+  r: []
+2017-08|yuki|4:
+  p: [bk-yuki-0018]
+  r: [bk-yuki-tp03]
+2017-08|yuki|5:
+  p: [bk-yuki-0021]
+  r: [bk-yuki-0018, bk-yuki-0019, bk-yuki-tp03]
+2017-08|yuki|6:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|7:
+  p: [bk-yuki-forms]
+  r: []
+2017-08|yuki|8:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01]
+2017-08|yuki|9:
+  p: []
+  r: []
+2018-02|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2018-02|bunseki|10:
+  p: []
+  r: [bk-bunseki-tp02]
+2018-02|bunseki|11:
+  p: [bk-bunseki-0019]
+  r: []
+2018-02|bunseki|12:
+  p: []
+  r: []
+2018-02|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-0001, bk-bunseki-0003]
+2018-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2018-02|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp02, bk-bunseki-0001]
+2018-02|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: [bk-bunseki-tp02]
+2018-02|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2018-02|bunseki|18:
+  p: []
+  r: []
+2018-02|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03]
+2018-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2018-02|bunseki|20:
+  p: []
+  r: []
+2018-02|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2018-02|bunseki|4:
+  p: []
+  r: []
+2018-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2018-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2018-02|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0034]
+2018-02|bunseki|8:
+  p: [bk-bunseki-tp10]
+  r: []
+2018-02|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-tp09]
+2018-02|design|1:
+  p: []
+  r: [bk-design-tp11, bk-design-tp13]
+2018-02|design|10:
+  p: [bk-design-0003]
+  r: [bk-design-tp12]
+2018-02|design|11:
+  p: [bk-design-tp10]
+  r: []
+2018-02|design|12:
+  p: [bk-design-0004]
+  r: [bk-design-tp09, bk-design-tp07]
+2018-02|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp06, bk-design-tp04]
+2018-02|design|14:
+  p: [bk-design-0010]
+  r: [bk-design-tp08]
+2018-02|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp08, bk-design-tp09]
+2018-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2018-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2018-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2018-02|design|19:
+  p: [bk-design-tp10]
+  r: [bk-design-0012, bk-design-tp09, bk-design-tp11]
+2018-02|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2018-02|design|20:
+  p: [bk-design-tp01]
+  r: []
+2018-02|design|3:
+  p: [bk-design-tp04]
+  r: []
+2018-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2018-02|design|5:
+  p: []
+  r: []
+2018-02|design|6:
+  p: [bk-design-forms]
+  r: []
+2018-02|design|7:
+  p: []
+  r: [bk-design-tp13, bk-design-0001, bk-design-tp11]
+2018-02|design|8:
+  p: [bk-design-forms]
+  r: []
+2018-02|design|9:
+  p: [bk-design-tp07]
+  r: []
+2018-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2018-02|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05]
+2018-02|hourei|11:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-tp03, bk-hourei-th03]
+2018-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2018-02|hourei|13:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th03, bk-hourei-th10, bk-hourei-th13]
+2018-02|hourei|14:
+  p: []
+  r: []
+2018-02|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2018-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2018-02|hourei|17:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th11, bk-hourei-th10]
+2018-02|hourei|18:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th01]
+2018-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2018-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2018-02|hourei|20:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th12]
+2018-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-tp06]
+2018-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2018-02|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th01, bk-hourei-th16]
+2018-02|hourei|6:
+  p: []
+  r: []
+2018-02|hourei|7:
+  p: []
+  r: []
+2018-02|hourei|8:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th16]
+2018-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th12, bk-hourei-th16]
+2018-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2018-02|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2018-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2018-02|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2018-02|ippan|13:
+  p: []
+  r: []
+2018-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-fr06]
+2018-02|ippan|15:
+  p: [bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0001, bk-ippan-0004, bk-ippan-fr06]
+2018-02|ippan|16:
+  p: [bk-ippan-fr15]
+  r: []
+2018-02|ippan|17:
+  p: [bk-ippan-0029, bk-ippan-fr16]
+  r: []
+2018-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0004, bk-ippan-0010]
+2018-02|ippan|19:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: [bk-ippan-fr11, bk-ippan-fr14]
+2018-02|ippan|2:
+  p: [bk-ippan-fr17]
+  r: []
+2018-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2018-02|ippan|3:
+  p: [bk-ippan-fr04, bk-ippan-fr17]
+  r: [bk-ippan-fr05, bk-ippan-fr06]
+2018-02|ippan|4:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr05, bk-ippan-fr07]
+2018-02|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2018-02|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+2018-02|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2018-02|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr05]
+2018-02|ippan|9:
+  p: [bk-ippan-0024, bk-ippan-fr09]
+  r: []
+2018-08|bunseki|1:
+  p: [bk-bunseki-0020]
+  r: []
+2018-08|bunseki|10:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|bunseki|11:
+  p: [bk-bunseki-0018]
+  r: []
+2018-08|bunseki|12:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|bunseki|14:
+  p: [bk-bunseki-0003]
+  r: [bk-bunseki-0001, bk-bunseki-tp04]
+2018-08|bunseki|15:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-tp02, bk-bunseki-0008]
+2018-08|bunseki|16:
+  p: []
+  r: [bk-bunseki-0004, bk-bunseki-tp02]
+2018-08|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|bunseki|18:
+  p: [bk-bunseki-0028]
+  r: [bk-bunseki-tp05]
+2018-08|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: []
+2018-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|bunseki|20:
+  p: [bk-bunseki-0026]
+  r: []
+2018-08|bunseki|3:
+  p: [bk-bunseki-0015]
+  r: [bk-bunseki-tp07]
+2018-08|bunseki|4:
+  p: [bk-bunseki-tp10]
+  r: [bk-bunseki-0036]
+2018-08|bunseki|5:
+  p: [bk-bunseki-0018]
+  r: []
+2018-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|bunseki|7:
+  p: [bk-bunseki-0034]
+  r: []
+2018-08|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2018-08|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2018-08|design|1:
+  p: [bk-design-tp11]
+  r: [bk-design-tp13, bk-design-tp06]
+2018-08|design|10:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp11]
+2018-08|design|11:
+  p: []
+  r: [bk-design-tp10, bk-design-0012]
+2018-08|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0012]
+2018-08|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp06, bk-design-tp04]
+2018-08|design|14:
+  p: [bk-design-0007]
+  r: [bk-design-tp05, bk-design-tp06, bk-design-tp08]
+2018-08|design|15:
+  p: [bk-design-tp09]
+  r: [bk-design-tp08, bk-design-tp03, bk-design-tp04]
+2018-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2018-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2018-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2018-08|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0004, bk-design-0012, bk-design-tp07]
+2018-08|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp04]
+2018-08|design|20:
+  p: [bk-design-tp02]
+  r: [bk-design-tp01]
+2018-08|design|3:
+  p: [bk-design-tp04]
+  r: [bk-design-tp01]
+2018-08|design|4:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04, bk-design-tp05]
+2018-08|design|5:
+  p: [bk-design-tp03]
+  r: []
+2018-08|design|6:
+  p: [bk-design-forms]
+  r: []
+2018-08|design|7:
+  p: []
+  r: []
+2018-08|design|8:
+  p: [bk-design-tp13]
+  r: [bk-design-tp11, bk-design-0001]
+2018-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2018-08|funjin|1:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0001]
+2018-08|funjin|10:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2018-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2018-08|funjin|12:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0014]
+2018-08|funjin|13:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp06]
+2018-08|funjin|14:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0015]
+2018-08|funjin|15:
+  p: [bk-funjin-0015]
+  r: [bk-funjin-tp03]
+2018-08|funjin|16:
+  p: []
+  r: [bk-funjin-tp02]
+2018-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02, bk-funjin-0017]
+2018-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2018-08|funjin|19:
+  p: [bk-funjin-tp04]
+  r: [bk-funjin-tp06]
+2018-08|funjin|2:
+  p: []
+  r: [bk-funjin-0001, bk-funjin-tp05]
+2018-08|funjin|20:
+  p: [bk-funjin-forms]
+  r: []
+2018-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2018-08|funjin|4:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0006, bk-funjin-tp05]
+2018-08|funjin|5:
+  p: [bk-funjin-0017]
+  r: [bk-funjin-0004, bk-funjin-tp01, bk-funjin-tp06]
+2018-08|funjin|6:
+  p: []
+  r: [bk-funjin-0005, bk-funjin-0017, bk-funjin-tp06]
+2018-08|funjin|7:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0009]
+2018-08|funjin|8:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01]
+2018-08|funjin|9:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0008]
+2018-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2018-08|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05]
+2018-08|hourei|11:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-tp06, bk-hourei-th03]
+2018-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2018-08|hourei|13:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-tp03]
+2018-08|hourei|14:
+  p: []
+  r: []
+2018-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-tp03]
+2018-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2018-08|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+2018-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2018-08|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2018-08|hourei|2:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th07]
+2018-08|hourei|20:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp03, bk-hourei-th07, bk-hourei-tp06]
+2018-08|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th15, bk-hourei-th09]
+2018-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2018-08|hourei|5:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-th03, bk-hourei-th01]
+2018-08|hourei|6:
+  p: []
+  r: []
+2018-08|hourei|7:
+  p: []
+  r: []
+2018-08|hourei|8:
+  p: [bk-hourei-th04]
+  r: []
+2018-08|hourei|9:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-tp05]
+2018-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2018-08|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2018-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2018-08|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2018-08|ippan|13:
+  p: [bk-ippan-fr13]
+  r: [bk-ippan-fr06]
+2018-08|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr06]
+2018-08|ippan|15:
+  p: [bk-ippan-0030, bk-ippan-fr05]
+  r: [bk-ippan-fr17]
+2018-08|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2018-08|ippan|17:
+  p: [bk-ippan-0029, bk-ippan-fr16]
+  r: []
+2018-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2018-08|ippan|19:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr17]
+2018-08|ippan|2:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2018-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2018-08|ippan|3:
+  p: [bk-ippan-fr04, bk-ippan-fr06]
+  r: [bk-ippan-fr17, bk-ippan-fr08]
+2018-08|ippan|4:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-fr04, bk-ippan-fr12]
+2018-08|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2018-08|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+2018-08|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2018-08|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr05]
+2018-08|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024, bk-ippan-fr17]
+2018-08|kinzoku|1:
+  p: []
+  r: []
+2018-08|kinzoku|10:
+  p: [bk-kinzoku-0013]
+  r: [bk-kinzoku-tp04, bk-kinzoku-0011, bk-kinzoku-0012]
+2018-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
+  r: [bk-kinzoku-tp04]
+2018-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0005]
+  r: [bk-kinzoku-0008, bk-kinzoku-0013, bk-kinzoku-tp01]
+2018-08|kinzoku|13:
+  p: []
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp03]
+2018-08|kinzoku|14:
+  p: []
+  r: [bk-kinzoku-0005, bk-kinzoku-tp02, bk-kinzoku-tp03]
+2018-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp02]
+  r: [bk-kinzoku-0008, bk-kinzoku-0013, bk-kinzoku-tp01]
+2018-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0011, bk-kinzoku-tp01]
+2018-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
+  r: [bk-kinzoku-tp03]
+2018-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp01]
+2018-08|kinzoku|19:
+  p: [bk-kinzoku-sb4009, bk-kinzoku-0010]
+  r: [bk-kinzoku-0009, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2018-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp02]
+2018-08|kinzoku|20:
+  p: [bk-kinzoku-forms]
+  r: []
+2018-08|kinzoku|3:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0004, bk-kinzoku-0010, bk-kinzoku-tp04]
+2018-08|kinzoku|4:
+  p: []
+  r: []
+2018-08|kinzoku|5:
+  p: [bk-kinzoku-0001]
+  r: []
+2018-08|kinzoku|6:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008]
+2018-08|kinzoku|7:
+  p: [bk-kinzoku-0010]
+  r: [bk-kinzoku-tp06]
+2018-08|kinzoku|8:
+  p: [bk-kinzoku-0004]
+  r: [bk-kinzoku-0003, bk-kinzoku-tp02]
+2018-08|kinzoku|9:
+  p: [bk-kinzoku-0018]
+  r: [bk-kinzoku-tp05, bk-kinzoku-tp04]
+2018-08|tokka|1:
+  p: []
+  r: [bk-tokka-0001, bk-tokka-tp03]
+2018-08|tokka|10:
+  p: [bk-tokka-sb3005, bk-tokka-forms]
+  r: []
+2018-08|tokka|11:
+  p: []
+  r: []
+2018-08|tokka|12:
+  p: [bk-tokka-0003]
+  r: []
+2018-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2018-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2018-08|tokka|15:
+  p: []
+  r: []
+2018-08|tokka|16:
+  p: [bk-tokka-forms]
+  r: []
+2018-08|tokka|17:
+  p: [bk-tokka-sb3006, bk-tokka-forms]
+  r: []
+2018-08|tokka|18:
+  p: []
+  r: []
+2018-08|tokka|19:
+  p: [bk-tokka-tp02]
+  r: [bk-tokka-tp01]
+2018-08|tokka|2:
+  p: [bk-tokka-sb3016]
+  r: [bk-tokka-tp01, bk-tokka-0007, bk-tokka-tp03]
+2018-08|tokka|20:
+  p: [bk-tokka-sb3007]
+  r: []
+2018-08|tokka|3:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2018-08|tokka|4:
+  p: [bk-tokka-sb3032]
+  r: []
+2018-08|tokka|5:
+  p: [bk-tokka-forms]
+  r: []
+2018-08|tokka|6:
+  p: [bk-tokka-forms]
+  r: []
+2018-08|tokka|7:
+  p: [bk-tokka-forms]
+  r: []
+2018-08|tokka|8:
+  p: [bk-tokka-sb3037, bk-tokka-tp02]
+  r: [bk-tokka-0004]
+2018-08|tokka|9:
+  p: [bk-tokka-sb3012]
+  r: [bk-tokka-tp02, bk-tokka-tp01]
+2018-08|yuki|1:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0023]
+2018-08|yuki|10:
+  p: [bk-yuki-0007]
+  r: [bk-yuki-0010, bk-yuki-0009]
+2018-08|yuki|11:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0008]
+2018-08|yuki|12:
+  p: []
+  r: []
+2018-08|yuki|13:
+  p: [bk-yuki-tp03]
+  r: []
+2018-08|yuki|14:
+  p: [bk-yuki-0016]
+  r: [bk-yuki-tp02]
+2018-08|yuki|15:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-0001]
+2018-08|yuki|16:
+  p: [bk-yuki-tp02]
+  r: [bk-yuki-0004, bk-yuki-tp01]
+2018-08|yuki|17:
+  p: [bk-yuki-forms]
+  r: []
+2018-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2018-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2018-08|yuki|2:
+  p: []
+  r: []
+2018-08|yuki|20:
+  p: [bk-yuki-0015]
+  r: [bk-yuki-tp02]
+2018-08|yuki|3:
+  p: [bk-yuki-forms]
+  r: []
+2018-08|yuki|4:
+  p: [bk-yuki-forms]
+  r: []
+2018-08|yuki|5:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0021]
+2018-08|yuki|6:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0020]
+2018-08|yuki|7:
+  p: [bk-yuki-0022]
+  r: [bk-yuki-tp03]
+2018-08|yuki|8:
+  p: []
+  r: []
+2018-08|yuki|9:
+  p: [bk-yuki-0014]
+  r: [bk-yuki-0011, bk-yuki-tp01]
+2019-02|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|10:
+  p: [bk-bunseki-tp02]
+  r: []
+2019-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|12:
+  p: [bk-bunseki-0018]
+  r: []
+2019-02|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|14:
+  p: [bk-bunseki-tp04]
+  r: []
+2019-02|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp02]
+2019-02|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: [bk-bunseki-tp02]
+2019-02|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2019-02|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: []
+2019-02|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03]
+2019-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|3:
+  p: [bk-bunseki-0015]
+  r: [bk-bunseki-tp07]
+2019-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: []
+2019-02|bunseki|8:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2019-02|design|1:
+  p: [bk-design-tp11]
+  r: []
+2019-02|design|10:
+  p: [bk-design-tp12]
+  r: []
+2019-02|design|11:
+  p: [bk-design-tp10]
+  r: []
+2019-02|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0004, bk-design-0012]
+2019-02|design|13:
+  p: [bk-design-tp06]
+  r: [bk-design-0007]
+2019-02|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-0010]
+2019-02|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp08]
+2019-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2019-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2019-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2019-02|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0003, bk-design-0012, bk-design-tp07]
+2019-02|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2019-02|design|20:
+  p: [bk-design-tp01]
+  r: [bk-design-0005]
+2019-02|design|3:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04]
+2019-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2019-02|design|5:
+  p: []
+  r: []
+2019-02|design|6:
+  p: [bk-design-forms]
+  r: []
+2019-02|design|7:
+  p: []
+  r: []
+2019-02|design|8:
+  p: [bk-design-forms]
+  r: []
+2019-02|design|9:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2019-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2019-02|hourei|10:
+  p: []
+  r: [bk-hourei-th06, bk-hourei-tp05]
+2019-02|hourei|11:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-tp06]
+2019-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2019-02|hourei|13:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th03, bk-hourei-th13, bk-hourei-tp03]
+2019-02|hourei|14:
+  p: []
+  r: []
+2019-02|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th02, bk-hourei-th07]
+2019-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2019-02|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+2019-02|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2019-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2019-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2019-02|hourei|20:
+  p: [bk-hourei-tp02]
+  r: [bk-hourei-th03, bk-hourei-tp03, bk-hourei-tp06]
+2019-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th16]
+2019-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2019-02|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th16, bk-hourei-th17]
+2019-02|hourei|6:
+  p: []
+  r: []
+2019-02|hourei|7:
+  p: []
+  r: []
+2019-02|hourei|8:
+  p: []
+  r: [bk-hourei-th07, bk-hourei-th12, bk-hourei-tp01]
+2019-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th16]
+2019-02|ippan|1:
+  p: []
+  r: []
+2019-02|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2019-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2019-02|ippan|12:
+  p: [bk-ippan-fr12]
+  r: [bk-ippan-0029, bk-ippan-fr17]
+2019-02|ippan|13:
+  p: []
+  r: []
+2019-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-0021]
+2019-02|ippan|15:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0001, bk-ippan-fr08]
+2019-02|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2019-02|ippan|17:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2019-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0010]
+2019-02|ippan|19:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr17]
+2019-02|ippan|2:
+  p: []
+  r: []
+2019-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2019-02|ippan|3:
+  p: [bk-ippan-fr04, bk-ippan-fr17]
+  r: [bk-ippan-0033, bk-ippan-fr05, bk-ippan-fr06]
+2019-02|ippan|4:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2019-02|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2019-02|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+2019-02|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2019-02|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr05]
+2019-02|ippan|9:
+  p: [bk-ippan-0024, bk-ippan-fr09]
+  r: []
+2019-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|10:
+  p: [bk-bunseki-tp09]
+  r: [bk-bunseki-tp07]
+2019-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|12:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0023]
+2019-08|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|14:
+  p: [bk-bunseki-0003]
+  r: [bk-bunseki-tp04, bk-bunseki-0001, bk-bunseki-0002]
+2019-08|bunseki|15:
+  p: []
+  r: [bk-bunseki-0008, bk-bunseki-tp02]
+2019-08|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: [bk-bunseki-tp02]
+2019-08|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: [bk-bunseki-tp05]
+2019-08|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: []
+2019-08|bunseki|19:
+  p: []
+  r: [bk-bunseki-0011, bk-bunseki-tp03]
+2019-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|3:
+  p: [bk-bunseki-tp07]
+  r: []
+2019-08|bunseki|4:
+  p: [bk-bunseki-tp10]
+  r: [bk-bunseki-0036]
+2019-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2019-08|bunseki|7:
+  p: []
+  r: [bk-bunseki-tp10]
+2019-08|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2019-08|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: []
+2019-08|design|1:
+  p: [bk-design-tp13]
+  r: [bk-design-tp11, bk-design-0007]
+2019-08|design|10:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp13]
+2019-08|design|11:
+  p: [bk-design-tp06]
+  r: [bk-design-0012, bk-design-tp11]
+2019-08|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0004, bk-design-0012]
+2019-08|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp04, bk-design-tp05, bk-design-tp06]
+2019-08|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-tp09]
+2019-08|design|15:
+  p: [bk-design-0007]
+  r: [bk-design-tp06, bk-design-tp08]
+2019-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2019-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2019-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2019-08|design|19:
+  p: [bk-design-0012]
+  r: [bk-design-tp06, bk-design-0004, bk-design-tp09]
+2019-08|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2019-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2019-08|design|3:
+  p: []
+  r: [bk-design-tp04, bk-design-tp02, bk-design-tp05]
+2019-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2019-08|design|5:
+  p: [bk-design-tp01]
+  r: [bk-design-tp02, bk-design-tp04, bk-design-tp05]
+2019-08|design|6:
+  p: []
+  r: []
+2019-08|design|7:
+  p: [bk-design-tp13]
+  r: [bk-design-0003]
+2019-08|design|8:
+  p: [bk-design-forms]
+  r: []
+2019-08|design|9:
+  p: [bk-design-tp07]
+  r: []
+2019-08|funjin|1:
+  p: [bk-funjin-forms]
+  r: []
+2019-08|funjin|10:
+  p: []
+  r: [bk-funjin-0010, bk-funjin-tp06]
+2019-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2019-08|funjin|12:
+  p: [bk-funjin-forms]
+  r: []
+2019-08|funjin|13:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0015]
+2019-08|funjin|14:
+  p: []
+  r: []
+2019-08|funjin|15:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2019-08|funjin|16:
+  p: [bk-funjin-forms]
+  r: []
+2019-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2019-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2019-08|funjin|19:
+  p: []
+  r: [bk-funjin-tp04]
+2019-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: []
+2019-08|funjin|20:
+  p: [bk-funjin-tp04]
+  r: [bk-funjin-0016, bk-funjin-tp02]
+2019-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2019-08|funjin|4:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0006, bk-funjin-tp06]
+2019-08|funjin|5:
+  p: [bk-funjin-0005]
+  r: [bk-funjin-tp06, bk-funjin-0017, bk-funjin-tp05]
+2019-08|funjin|6:
+  p: [bk-funjin-0004]
+  r: []
+2019-08|funjin|7:
+  p: [bk-funjin-0005]
+  r: [bk-funjin-0009]
+2019-08|funjin|8:
+  p: [bk-funjin-0007]
+  r: []
+2019-08|funjin|9:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01, bk-funjin-0008]
+2019-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2019-08|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05, bk-hourei-th12]
+2019-08|hourei|11:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-tp03, bk-hourei-th03]
+2019-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2019-08|hourei|13:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+2019-08|hourei|14:
+  p: []
+  r: []
+2019-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2019-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2019-08|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th11, bk-hourei-th10, bk-hourei-tp02]
+2019-08|hourei|18:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th01]
+2019-08|hourei|19:
+  p: [bk-hourei-th16]
+  r: []
+2019-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2019-08|hourei|20:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp02, bk-hourei-th03, bk-hourei-th07]
+2019-08|hourei|3:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-tp01, bk-hourei-th09, bk-hourei-th16]
+2019-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2019-08|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th01, bk-hourei-th16]
+2019-08|hourei|6:
+  p: [bk-hourei-th02]
+  r: [bk-hourei-th16, bk-hourei-tp01, bk-hourei-tp06]
+2019-08|hourei|7:
+  p: []
+  r: []
+2019-08|hourei|8:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th04]
+2019-08|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th12]
+2019-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2019-08|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2019-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: [bk-ippan-fr06]
+2019-08|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2019-08|ippan|13:
+  p: [bk-ippan-fr13]
+  r: [bk-ippan-fr06]
+2019-08|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016]
+2019-08|ippan|15:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr08, bk-ippan-fr17]
+  r: [bk-ippan-0030]
+2019-08|ippan|16:
+  p: [bk-ippan-0026, bk-ippan-fr15]
+  r: []
+2019-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2019-08|ippan|18:
+  p: [bk-ippan-0004, bk-ippan-fr16]
+  r: []
+2019-08|ippan|19:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr17]
+2019-08|ippan|2:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2019-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17, bk-ippan-fr05, bk-ippan-fr06]
+2019-08|ippan|3:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17]
+2019-08|ippan|4:
+  p: [bk-ippan-fr06]
+  r: []
+2019-08|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2019-08|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr07]
+2019-08|ippan|7:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr04]
+2019-08|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: []
+2019-08|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2019-08|kinzoku|1:
+  p: []
+  r: []
+2019-08|kinzoku|10:
+  p: [bk-kinzoku-0013]
+  r: [bk-kinzoku-tp04, bk-kinzoku-0011]
+2019-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp07]
+2019-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03]
+2019-08|kinzoku|13:
+  p: [bk-kinzoku-sb4002]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp02, bk-kinzoku-tp03]
+2019-08|kinzoku|14:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp02]
+2019-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2019-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03]
+2019-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005]
+  r: [bk-kinzoku-tp01, bk-kinzoku-0012, bk-kinzoku-tp04]
+2019-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-0009]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp01, bk-kinzoku-tp05]
+2019-08|kinzoku|19:
+  p: [bk-kinzoku-sb4009]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2019-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: []
+2019-08|kinzoku|20:
+  p: [bk-kinzoku-forms]
+  r: []
+2019-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2019-08|kinzoku|4:
+  p: [bk-kinzoku-tp05]
+  r: [bk-kinzoku-tp02]
+2019-08|kinzoku|5:
+  p: [bk-kinzoku-tp01]
+  r: []
+2019-08|kinzoku|6:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008]
+2019-08|kinzoku|7:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-0010, bk-kinzoku-tp06]
+2019-08|kinzoku|8:
+  p: [bk-kinzoku-0004]
+  r: [bk-kinzoku-0003, bk-kinzoku-tp02, bk-kinzoku-tp04]
+2019-08|kinzoku|9:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-0018, bk-kinzoku-0012]
+2019-08|tokka|1:
+  p: [bk-tokka-forms]
+  r: []
+2019-08|tokka|10:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0004]
+2019-08|tokka|11:
+  p: [bk-tokka-sb3036, bk-tokka-tp03]
+  r: [bk-tokka-tp01, bk-tokka-tp02]
+2019-08|tokka|12:
+  p: [bk-tokka-sb3038]
+  r: [bk-tokka-tp01, bk-tokka-tp02]
+2019-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2019-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2019-08|tokka|15:
+  p: []
+  r: []
+2019-08|tokka|16:
+  p: []
+  r: []
+2019-08|tokka|17:
+  p: [bk-tokka-sb3035, bk-tokka-forms]
+  r: []
+2019-08|tokka|18:
+  p: [bk-tokka-sb3014]
+  r: []
+2019-08|tokka|19:
+  p: [bk-tokka-sb3001]
+  r: []
+2019-08|tokka|2:
+  p: [bk-tokka-sb3034]
+  r: [bk-tokka-tp01, bk-tokka-0007]
+2019-08|tokka|20:
+  p: [bk-tokka-forms]
+  r: []
+2019-08|tokka|3:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2019-08|tokka|4:
+  p: [bk-tokka-sb3016, bk-tokka-tp01]
+  r: []
+2019-08|tokka|5:
+  p: [bk-tokka-sb3029, bk-tokka-0004]
+  r: [bk-tokka-tp02, bk-tokka-0005]
+2019-08|tokka|6:
+  p: [bk-tokka-sb3006, bk-tokka-forms]
+  r: []
+2019-08|tokka|7:
+  p: []
+  r: [bk-tokka-tp03, bk-tokka-0003]
+2019-08|tokka|8:
+  p: [bk-tokka-forms]
+  r: []
+2019-08|tokka|9:
+  p: [bk-tokka-sb3022, bk-tokka-forms]
+  r: []
+2019-08|yuki|1:
+  p: []
+  r: []
+2019-08|yuki|10:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01]
+2019-08|yuki|11:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-0007, bk-yuki-0008]
+2019-08|yuki|12:
+  p: [bk-yuki-forms]
+  r: []
+2019-08|yuki|13:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-tp01]
+2019-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2019-08|yuki|15:
+  p: [bk-yuki-forms]
+  r: []
+2019-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-tp02, bk-yuki-0004, bk-yuki-tp01]
+2019-08|yuki|17:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-0001, bk-yuki-tp02]
+2019-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2019-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2019-08|yuki|2:
+  p: []
+  r: []
+2019-08|yuki|20:
+  p: [bk-yuki-tp02]
+  r: []
+2019-08|yuki|3:
+  p: []
+  r: []
+2019-08|yuki|4:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0020, bk-yuki-0021]
+2019-08|yuki|5:
+  p: [bk-yuki-0019]
+  r: [bk-yuki-tp03]
+2019-08|yuki|6:
+  p: [bk-yuki-forms]
+  r: []
+2019-08|yuki|7:
+  p: [bk-yuki-0022]
+  r: [bk-yuki-tp03]
+2019-08|yuki|8:
+  p: [bk-yuki-0016]
+  r: [bk-yuki-tp02]
+2019-08|yuki|9:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0012, bk-yuki-0011]
+2020-02|bunseki|1:
+  p: [bk-bunseki-0019]
+  r: [bk-bunseki-0026]
+2020-02|bunseki|10:
+  p: [bk-bunseki-0032]
+  r: []
+2020-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2020-02|bunseki|12:
+  p: [bk-bunseki-0019]
+  r: []
+2020-02|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-tp04]
+2020-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2020-02|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp02]
+2020-02|bunseki|16:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0004]
+2020-02|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2020-02|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0028]
+2020-02|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03]
+2020-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2020-02|bunseki|20:
+  p: [bk-bunseki-0026]
+  r: [bk-bunseki-tp10]
+2020-02|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2020-02|bunseki|4:
+  p: [bk-bunseki-0036]
+  r: [bk-bunseki-tp10]
+2020-02|bunseki|5:
+  p: [bk-bunseki-0018]
+  r: []
+2020-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2020-02|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: []
+2020-02|bunseki|8:
+  p: [bk-bunseki-0034]
+  r: []
+2020-02|bunseki|9:
+  p: []
+  r: [bk-bunseki-tp07, bk-bunseki-tp09]
+2020-02|design|1:
+  p: [bk-design-forms]
+  r: []
+2020-02|design|10:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp10]
+2020-02|design|11:
+  p: [bk-design-tp10]
+  r: []
+2020-02|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0012]
+2020-02|design|13:
+  p: [bk-design-tp06]
+  r: [bk-design-0007, bk-design-tp04]
+2020-02|design|14:
+  p: [bk-design-tp09]
+  r: [bk-design-0010, bk-design-tp08]
+2020-02|design|15:
+  p: []
+  r: [bk-design-tp06, bk-design-tp08]
+2020-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2020-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2020-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2020-02|design|19:
+  p: [bk-design-0006]
+  r: [bk-design-tp02]
+2020-02|design|2:
+  p: []
+  r: [bk-design-tp05, bk-design-tp01]
+2020-02|design|20:
+  p: [bk-design-tp03]
+  r: [bk-design-tp01]
+2020-02|design|3:
+  p: [bk-design-tp02]
+  r: [bk-design-tp04, bk-design-tp01, bk-design-tp05]
+2020-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2020-02|design|5:
+  p: []
+  r: []
+2020-02|design|6:
+  p: []
+  r: []
+2020-02|design|7:
+  p: [bk-design-tp11]
+  r: [bk-design-tp12, bk-design-tp13]
+2020-02|design|8:
+  p: [bk-design-forms]
+  r: []
+2020-02|design|9:
+  p: [bk-design-tp07]
+  r: []
+2020-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2020-02|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05]
+2020-02|hourei|11:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th03, bk-hourei-tp03]
+2020-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2020-02|hourei|13:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th03, bk-hourei-th13, bk-hourei-tp03]
+2020-02|hourei|14:
+  p: []
+  r: []
+2020-02|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07, bk-hourei-tp03]
+2020-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2020-02|hourei|17:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-th14]
+2020-02|hourei|18:
+  p: [bk-hourei-th01]
+  r: []
+2020-02|hourei|19:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th11]
+2020-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2020-02|hourei|20:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp02, bk-hourei-tp01]
+2020-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th16]
+2020-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2020-02|hourei|5:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-th03, bk-hourei-th17]
+2020-02|hourei|6:
+  p: []
+  r: []
+2020-02|hourei|7:
+  p: []
+  r: []
+2020-02|hourei|8:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th04]
+2020-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th16]
+2020-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2020-02|ippan|10:
+  p: [bk-ippan-fr10]
+  r: []
+2020-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2020-02|ippan|12:
+  p: [bk-ippan-0029, bk-ippan-fr12]
+  r: []
+2020-02|ippan|13:
+  p: [bk-ippan-fr13]
+  r: []
+2020-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: []
+2020-02|ippan|15:
+  p: [bk-ippan-0001, bk-ippan-fr05]
+  r: [bk-ippan-fr08, bk-ippan-fr04, bk-ippan-fr06]
+2020-02|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2020-02|ippan|17:
+  p: [bk-ippan-fr16]
+  r: []
+2020-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2020-02|ippan|19:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr17]
+2020-02|ippan|2:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2020-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2020-02|ippan|3:
+  p: [bk-ippan-fr04, bk-ippan-fr06]
+  r: [bk-ippan-0033, bk-ippan-fr17]
+2020-02|ippan|4:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2020-02|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2020-02|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr07, bk-ippan-fr03]
+2020-02|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2020-02|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-0001, bk-ippan-fr04]
+2020-02|ippan|9:
+  p: [bk-ippan-0024, bk-ippan-fr09]
+  r: []
+2020-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|10:
+  p: [bk-bunseki-tp09]
+  r: [bk-bunseki-tp07]
+2020-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|12:
+  p: []
+  r: []
+2020-08|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|14:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-0003]
+2020-08|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp10]
+2020-08|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: []
+2020-08|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-tp04]
+2020-08|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03, bk-bunseki-tp09]
+2020-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|4:
+  p: [bk-bunseki-tp10]
+  r: []
+2020-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|bunseki|7:
+  p: []
+  r: [bk-bunseki-0034, bk-bunseki-tp06]
+2020-08|bunseki|8:
+  p: [bk-bunseki-tp09]
+  r: []
+2020-08|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2020-08|design|1:
+  p: [bk-design-tp11]
+  r: [bk-design-tp13, bk-design-tp06]
+2020-08|design|10:
+  p: [bk-design-tp12]
+  r: [bk-design-0003]
+2020-08|design|11:
+  p: [bk-design-tp10]
+  r: [bk-design-tp11]
+2020-08|design|12:
+  p: [bk-design-0012]
+  r: [bk-design-tp09, bk-design-0004]
+2020-08|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp04]
+2020-08|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-tp09]
+2020-08|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp08, bk-design-0007]
+2020-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2020-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2020-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2020-08|design|19:
+  p: [bk-design-tp07]
+  r: [bk-design-tp06, bk-design-0012, bk-design-tp09]
+2020-08|design|2:
+  p: [bk-design-tp05]
+  r: []
+2020-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2020-08|design|3:
+  p: [bk-design-tp04]
+  r: [bk-design-tp02, bk-design-tp05]
+2020-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2020-08|design|5:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04, bk-design-tp05]
+2020-08|design|6:
+  p: []
+  r: []
+2020-08|design|7:
+  p: [bk-design-tp13]
+  r: []
+2020-08|design|8:
+  p: [bk-design-forms]
+  r: []
+2020-08|design|9:
+  p: [bk-design-tp11]
+  r: [bk-design-tp13]
+2020-08|funjin|1:
+  p: [bk-funjin-0001]
+  r: [bk-funjin-tp05]
+2020-08|funjin|10:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0014]
+2020-08|funjin|11:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp06]
+2020-08|funjin|12:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp02, bk-funjin-tp05, bk-funjin-tp06]
+2020-08|funjin|13:
+  p: []
+  r: [bk-funjin-tp03, bk-funjin-0015]
+2020-08|funjin|14:
+  p: [bk-funjin-forms]
+  r: []
+2020-08|funjin|15:
+  p: [bk-funjin-0011]
+  r: []
+2020-08|funjin|16:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-tp01]
+2020-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-0017, bk-funjin-tp02]
+2020-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2020-08|funjin|19:
+  p: []
+  r: [bk-funjin-tp06, bk-funjin-tp04]
+2020-08|funjin|2:
+  p: [bk-funjin-forms]
+  r: []
+2020-08|funjin|20:
+  p: [bk-funjin-tp04]
+  r: []
+2020-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2020-08|funjin|4:
+  p: [bk-funjin-tp04]
+  r: [bk-funjin-0004, bk-funjin-0017, bk-funjin-tp06]
+2020-08|funjin|5:
+  p: [bk-funjin-0004]
+  r: []
+2020-08|funjin|6:
+  p: [bk-funjin-0005]
+  r: [bk-funjin-0009, bk-funjin-tp06]
+2020-08|funjin|7:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01]
+2020-08|funjin|8:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0008]
+2020-08|funjin|9:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2020-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2020-08|hourei|10:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th06, bk-hourei-tp05]
+2020-08|hourei|11:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-tp03, bk-hourei-tp06]
+2020-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2020-08|hourei|13:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+2020-08|hourei|14:
+  p: []
+  r: []
+2020-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th10]
+2020-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th07, bk-hourei-tp01]
+2020-08|hourei|17:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+2020-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2020-08|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2020-08|hourei|2:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th07]
+2020-08|hourei|20:
+  p: [bk-hourei-tp02]
+  r: [bk-hourei-th07, bk-hourei-tp03]
+2020-08|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th15]
+2020-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2020-08|hourei|5:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th03, bk-hourei-th01]
+2020-08|hourei|6:
+  p: []
+  r: []
+2020-08|hourei|7:
+  p: []
+  r: []
+2020-08|hourei|8:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th17]
+2020-08|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th16]
+2020-08|ippan|1:
+  p: [bk-ippan-fr17]
+  r: []
+2020-08|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2020-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: [bk-ippan-0011]
+2020-08|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2020-08|ippan|13:
+  p: [bk-ippan-fr13, bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2020-08|ippan|14:
+  p: [bk-ippan-0021, bk-ippan-fr14]
+  r: [bk-ippan-0016]
+2020-08|ippan|15:
+  p: [bk-ippan-0030, bk-ippan-fr05]
+  r: [bk-ippan-fr17, bk-ippan-0001, bk-ippan-0004]
+2020-08|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2020-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2020-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0010]
+2020-08|ippan|19:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2020-08|ippan|2:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2020-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2020-08|ippan|3:
+  p: [bk-ippan-0033, bk-ippan-fr04]
+  r: [bk-ippan-fr06, bk-ippan-fr17]
+2020-08|ippan|4:
+  p: [bk-ippan-fr06]
+  r: []
+2020-08|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2020-08|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06]
+2020-08|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2020-08|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-0001, bk-ippan-fr04]
+2020-08|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2020-08|kinzoku|1:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp02]
+2020-08|kinzoku|10:
+  p: [bk-kinzoku-0013]
+  r: [bk-kinzoku-tp04, bk-kinzoku-0011, bk-kinzoku-0018]
+2020-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp03]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2020-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
+  r: [bk-kinzoku-0009, bk-kinzoku-tp02, bk-kinzoku-tp05]
+2020-08|kinzoku|13:
+  p: []
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2020-08|kinzoku|14:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0009, bk-kinzoku-tp02, bk-kinzoku-tp03]
+2020-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-0013]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2020-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0011, bk-kinzoku-tp01]
+2020-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
+  r: [bk-kinzoku-tp03, bk-kinzoku-tp07]
+2020-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0009]
+2020-08|kinzoku|19:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-tp01, bk-kinzoku-0008]
+2020-08|kinzoku|2:
+  p: []
+  r: []
+2020-08|kinzoku|20:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-forms]
+  r: []
+2020-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2020-08|kinzoku|4:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-0014]
+2020-08|kinzoku|5:
+  p: [bk-kinzoku-tp05]
+  r: [bk-kinzoku-tp07]
+2020-08|kinzoku|6:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp06]
+2020-08|kinzoku|7:
+  p: [bk-kinzoku-tp06]
+  r: []
+2020-08|kinzoku|8:
+  p: [bk-kinzoku-0004]
+  r: [bk-kinzoku-0003, bk-kinzoku-tp06]
+2020-08|kinzoku|9:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-0018, bk-kinzoku-tp05]
+2020-08|tokka|1:
+  p: [bk-tokka-sb3027]
+  r: [bk-tokka-0007]
+2020-08|tokka|10:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0003, bk-tokka-0004]
+2020-08|tokka|11:
+  p: [bk-tokka-sb3004, bk-tokka-tp01]
+  r: []
+2020-08|tokka|12:
+  p: [bk-tokka-sb3026, bk-tokka-forms]
+  r: []
+2020-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2020-08|tokka|14:
+  p: [bk-tokka-0011]
+  r: []
+2020-08|tokka|15:
+  p: []
+  r: []
+2020-08|tokka|16:
+  p: [bk-tokka-sb3034, bk-tokka-forms]
+  r: []
+2020-08|tokka|17:
+  p: [bk-tokka-forms]
+  r: []
+2020-08|tokka|18:
+  p: [bk-tokka-sb3037]
+  r: []
+2020-08|tokka|19:
+  p: [bk-tokka-sb3012]
+  r: []
+2020-08|tokka|2:
+  p: [bk-tokka-forms]
+  r: []
+2020-08|tokka|20:
+  p: [bk-tokka-tp02]
+  r: []
+2020-08|tokka|3:
+  p: [bk-tokka-sb3029, bk-tokka-forms]
+  r: []
+2020-08|tokka|4:
+  p: [bk-tokka-sb3016, bk-tokka-forms]
+  r: []
+2020-08|tokka|5:
+  p: [bk-tokka-sb3006, bk-tokka-tp02]
+  r: []
+2020-08|tokka|6:
+  p: [bk-tokka-0004]
+  r: [bk-tokka-tp03]
+2020-08|tokka|7:
+  p: []
+  r: []
+2020-08|tokka|8:
+  p: [bk-tokka-forms]
+  r: []
+2020-08|tokka|9:
+  p: [bk-tokka-sb3016, bk-tokka-forms]
+  r: []
+2020-08|yuki|1:
+  p: []
+  r: []
+2020-08|yuki|10:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-tp01]
+2020-08|yuki|11:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-0007, bk-yuki-0008, bk-yuki-0009]
+2020-08|yuki|12:
+  p: [bk-yuki-tp02]
+  r: [bk-yuki-tp01, bk-yuki-0014]
+2020-08|yuki|13:
+  p: []
+  r: []
+2020-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2020-08|yuki|15:
+  p: [bk-yuki-forms]
+  r: []
+2020-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-0004]
+2020-08|yuki|17:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0004]
+2020-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2020-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2020-08|yuki|2:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0023]
+2020-08|yuki|20:
+  p: []
+  r: [bk-yuki-tp02]
+2020-08|yuki|3:
+  p: []
+  r: []
+2020-08|yuki|4:
+  p: [bk-yuki-0019]
+  r: [bk-yuki-0020, bk-yuki-0021, bk-yuki-tp03]
+2020-08|yuki|5:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0021]
+2020-08|yuki|6:
+  p: []
+  r: [bk-yuki-0018, bk-yuki-tp03]
+2020-08|yuki|7:
+  p: [bk-yuki-forms]
+  r: []
+2020-08|yuki|8:
+  p: []
+  r: []
+2020-08|yuki|9:
+  p: [bk-yuki-0011]
+  r: [bk-yuki-0014, bk-yuki-tp01]
+2021-02|bunseki|1:
+  p: [bk-bunseki-0035]
+  r: [bk-bunseki-0019, bk-bunseki-0026]
+2021-02|bunseki|10:
+  p: [bk-bunseki-tp09]
+  r: []
+2021-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2021-02|bunseki|12:
+  p: [bk-bunseki-0019]
+  r: []
+2021-02|bunseki|13:
+  p: [bk-bunseki-forms]
+  r: []
+2021-02|bunseki|14:
+  p: [bk-bunseki-0003]
+  r: [bk-bunseki-0001, bk-bunseki-tp04]
+2021-02|bunseki|15:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-tp02, bk-bunseki-0008]
+2021-02|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: []
+2021-02|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2021-02|bunseki|18:
+  p: [bk-bunseki-0028]
+  r: [bk-bunseki-tp05]
+2021-02|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011, bk-bunseki-tp09]
+2021-02|bunseki|2:
+  p: [bk-bunseki-0024]
+  r: [bk-bunseki-tp10]
+2021-02|bunseki|20:
+  p: []
+  r: []
+2021-02|bunseki|3:
+  p: [bk-bunseki-0036]
+  r: [bk-bunseki-tp10]
+2021-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2021-02|bunseki|5:
+  p: [bk-bunseki-0018]
+  r: []
+2021-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2021-02|bunseki|7:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2021-02|bunseki|8:
+  p: [bk-bunseki-0034]
+  r: []
+2021-02|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-0023]
+2021-02|design|1:
+  p: []
+  r: [bk-design-tp11]
+2021-02|design|10:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp11]
+2021-02|design|11:
+  p: [bk-design-tp10]
+  r: [bk-design-0012]
+2021-02|design|12:
+  p: [bk-design-tp09]
+  r: [bk-design-0004, bk-design-tp07]
+2021-02|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp06]
+2021-02|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-0010]
+2021-02|design|15:
+  p: [bk-design-tp06]
+  r: [bk-design-tp03, bk-design-tp05]
+2021-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2021-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2021-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2021-02|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-tp07]
+2021-02|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2021-02|design|20:
+  p: [bk-design-tp01]
+  r: []
+2021-02|design|3:
+  p: [bk-design-tp04]
+  r: []
+2021-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2021-02|design|5:
+  p: [bk-design-tp01]
+  r: [bk-design-tp02, bk-design-tp04, bk-design-tp05]
+2021-02|design|6:
+  p: []
+  r: []
+2021-02|design|7:
+  p: [bk-design-0001]
+  r: [bk-design-tp11, bk-design-tp13]
+2021-02|design|8:
+  p: [bk-design-forms]
+  r: []
+2021-02|design|9:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2021-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2021-02|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-th12, bk-hourei-tp05]
+2021-02|hourei|11:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-tp03]
+2021-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2021-02|hourei|13:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-tp03, bk-hourei-tp06]
+2021-02|hourei|14:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-tp03]
+2021-02|hourei|15:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th07]
+2021-02|hourei|16:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-tp02, bk-hourei-th14, bk-hourei-tp01]
+2021-02|hourei|17:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2021-02|hourei|18:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2021-02|hourei|19:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-tp03]
+2021-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2021-02|hourei|20:
+  p: [bk-hourei-tp02]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-tp06]
+2021-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th16]
+2021-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2021-02|hourei|5:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-th03]
+2021-02|hourei|6:
+  p: []
+  r: []
+2021-02|hourei|7:
+  p: []
+  r: []
+2021-02|hourei|8:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th04]
+2021-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05, bk-hourei-th16]
+2021-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2021-02|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2021-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: [bk-ippan-0011]
+2021-02|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2021-02|ippan|13:
+  p: [bk-ippan-fr06, bk-ippan-fr13]
+  r: [bk-ippan-fr17]
+2021-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr06]
+2021-02|ippan|15:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-0004, bk-ippan-fr08, bk-ippan-fr17]
+2021-02|ippan|16:
+  p: [bk-ippan-0026, bk-ippan-fr15]
+  r: []
+2021-02|ippan|17:
+  p: [bk-ippan-0029, bk-ippan-fr16]
+  r: []
+2021-02|ippan|18:
+  p: [bk-ippan-0004, bk-ippan-fr16]
+  r: []
+2021-02|ippan|19:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2021-02|ippan|2:
+  p: [bk-ippan-fr17]
+  r: []
+2021-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2021-02|ippan|3:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-0001, bk-ippan-0033, bk-ippan-fr06]
+2021-02|ippan|4:
+  p: [bk-ippan-0008, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2021-02|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2021-02|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr06]
+  r: []
+2021-02|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2021-02|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-0004, bk-ippan-fr05]
+2021-02|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2021-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|10:
+  p: []
+  r: []
+2021-08|bunseki|11:
+  p: [bk-bunseki-0018]
+  r: []
+2021-08|bunseki|12:
+  p: []
+  r: []
+2021-08|bunseki|13:
+  p: [bk-bunseki-tp04]
+  r: []
+2021-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|15:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-tp02, bk-bunseki-0008]
+2021-08|bunseki|16:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-tp02]
+2021-08|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: []
+2021-08|bunseki|19:
+  p: [bk-bunseki-0011]
+  r: [bk-bunseki-tp03]
+2021-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|20:
+  p: [bk-bunseki-0026]
+  r: [bk-bunseki-tp10]
+2021-08|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|4:
+  p: [bk-bunseki-0036]
+  r: []
+2021-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|7:
+  p: [bk-bunseki-tp10]
+  r: []
+2021-08|bunseki|8:
+  p: [bk-bunseki-forms]
+  r: []
+2021-08|bunseki|9:
+  p: []
+  r: [bk-bunseki-tp07, bk-bunseki-tp09]
+2021-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2021-08|design|10:
+  p: [bk-design-0003]
+  r: [bk-design-tp12]
+2021-08|design|11:
+  p: [bk-design-tp06]
+  r: [bk-design-0012, bk-design-tp10]
+2021-08|design|12:
+  p: [bk-design-0012]
+  r: [bk-design-0004, bk-design-tp09]
+2021-08|design|13:
+  p: [bk-design-0007]
+  r: [bk-design-tp06]
+2021-08|design|14:
+  p: [bk-design-tp08]
+  r: [bk-design-0010, bk-design-tp09]
+2021-08|design|15:
+  p: [bk-design-tp07]
+  r: []
+2021-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2021-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2021-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2021-08|design|19:
+  p: [bk-design-tp10]
+  r: [bk-design-tp06]
+2021-08|design|2:
+  p: []
+  r: [bk-design-tp05, bk-design-tp01]
+2021-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2021-08|design|3:
+  p: [bk-design-tp04]
+  r: [bk-design-tp02, bk-design-tp06]
+2021-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2021-08|design|5:
+  p: [bk-design-tp02]
+  r: [bk-design-tp05, bk-design-tp01]
+2021-08|design|6:
+  p: []
+  r: []
+2021-08|design|7:
+  p: [bk-design-tp03]
+  r: [bk-design-tp05]
+2021-08|design|8:
+  p: [bk-design-tp11]
+  r: [bk-design-tp13, bk-design-0001]
+2021-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2021-08|funjin|1:
+  p: []
+  r: []
+2021-08|funjin|10:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2021-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2021-08|funjin|12:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0014]
+2021-08|funjin|13:
+  p: []
+  r: [bk-funjin-tp03, bk-funjin-tp02, bk-funjin-tp06]
+2021-08|funjin|14:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp06]
+2021-08|funjin|15:
+  p: []
+  r: []
+2021-08|funjin|16:
+  p: [bk-funjin-forms]
+  r: []
+2021-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2021-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2021-08|funjin|19:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-0017, bk-funjin-tp02]
+2021-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: [bk-funjin-tp05]
+2021-08|funjin|20:
+  p: [bk-funjin-tp04]
+  r: []
+2021-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2021-08|funjin|4:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0006, bk-funjin-tp06]
+2021-08|funjin|5:
+  p: [bk-funjin-0004]
+  r: [bk-funjin-tp06, bk-funjin-0017]
+2021-08|funjin|6:
+  p: [bk-funjin-0005]
+  r: [bk-funjin-tp06, bk-funjin-0004]
+2021-08|funjin|7:
+  p: [bk-funjin-0009]
+  r: [bk-funjin-tp06]
+2021-08|funjin|8:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01]
+2021-08|funjin|9:
+  p: [bk-funjin-0008]
+  r: [bk-funjin-0007, bk-funjin-tp01]
+2021-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2021-08|hourei|10:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th06]
+2021-08|hourei|11:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th06]
+2021-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2021-08|hourei|13:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+2021-08|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2021-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2021-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2021-08|hourei|17:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th10, bk-hourei-th11]
+2021-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2021-08|hourei|19:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th16]
+2021-08|hourei|2:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th07]
+2021-08|hourei|20:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-tp06]
+2021-08|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th15, bk-hourei-th09]
+2021-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2021-08|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th16, bk-hourei-th17]
+2021-08|hourei|6:
+  p: []
+  r: []
+2021-08|hourei|7:
+  p: []
+  r: []
+2021-08|hourei|8:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-tp05]
+2021-08|hourei|9:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-tp05]
+2021-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2021-08|ippan|10:
+  p: [bk-ippan-fr10]
+  r: []
+2021-08|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2021-08|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2021-08|ippan|13:
+  p: [bk-ippan-fr13]
+  r: [bk-ippan-fr06]
+2021-08|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0021]
+2021-08|ippan|15:
+  p: [bk-ippan-fr05, bk-ippan-fr08]
+  r: [bk-ippan-fr17, bk-ippan-0001, bk-ippan-0004]
+2021-08|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2021-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: []
+2021-08|ippan|18:
+  p: [bk-ippan-0010, bk-ippan-fr16]
+  r: []
+2021-08|ippan|19:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr17]
+2021-08|ippan|2:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2021-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2021-08|ippan|3:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17, bk-ippan-0033, bk-ippan-fr08]
+2021-08|ippan|4:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr12]
+2021-08|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2021-08|ippan|6:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+2021-08|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2021-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2021-08|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2021-08|kinzoku|1:
+  p: [bk-kinzoku-forms]
+  r: []
+2021-08|kinzoku|10:
+  p: [bk-kinzoku-0013]
+  r: [bk-kinzoku-tp05, bk-kinzoku-tp04]
+2021-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp04]
+2021-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp03]
+2021-08|kinzoku|13:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp03]
+2021-08|kinzoku|14:
+  p: []
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp06]
+2021-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
+2021-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0008]
+  r: [bk-kinzoku-0011, bk-kinzoku-tp01, bk-kinzoku-tp03]
+2021-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0012]
+2021-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-0009]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp01]
+2021-08|kinzoku|19:
+  p: [bk-kinzoku-sb4009, bk-kinzoku-0010]
+  r: [bk-kinzoku-0009, bk-kinzoku-tp02, bk-kinzoku-tp06]
+2021-08|kinzoku|2:
+  p: []
+  r: []
+2021-08|kinzoku|20:
+  p: [bk-kinzoku-forms]
+  r: []
+2021-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2021-08|kinzoku|4:
+  p: []
+  r: []
+2021-08|kinzoku|5:
+  p: []
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp07]
+2021-08|kinzoku|6:
+  p: [bk-kinzoku-0001]
+  r: [bk-kinzoku-tp04]
+2021-08|kinzoku|7:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0010]
+2021-08|kinzoku|8:
+  p: [bk-kinzoku-0003]
+  r: [bk-kinzoku-0004, bk-kinzoku-tp05]
+2021-08|kinzoku|9:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-tp04]
+  r: [bk-kinzoku-0018, bk-kinzoku-0012]
+2021-08|tokka|1:
+  p: []
+  r: [bk-tokka-0001]
+2021-08|tokka|10:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2021-08|tokka|11:
+  p: [bk-tokka-tp03]
+  r: []
+2021-08|tokka|12:
+  p: [bk-tokka-sb3022, bk-tokka-forms]
+  r: []
+2021-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2021-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2021-08|tokka|15:
+  p: [bk-tokka-forms]
+  r: []
+2021-08|tokka|16:
+  p: [bk-tokka-sb3013, bk-tokka-forms]
+  r: []
+2021-08|tokka|17:
+  p: [bk-tokka-sb3008, bk-tokka-forms]
+  r: []
+2021-08|tokka|18:
+  p: []
+  r: [bk-tokka-tp01, bk-tokka-tp02]
+2021-08|tokka|19:
+  p: [bk-tokka-forms]
+  r: []
+2021-08|tokka|2:
+  p: [bk-tokka-forms]
+  r: []
+2021-08|tokka|20:
+  p: []
+  r: [bk-tokka-tp01]
+2021-08|tokka|3:
+  p: [bk-tokka-sb3026]
+  r: []
+2021-08|tokka|4:
+  p: [bk-tokka-sb3034]
+  r: [bk-tokka-tp01, bk-tokka-0007, bk-tokka-tp03]
+2021-08|tokka|5:
+  p: [bk-tokka-sb3036, bk-tokka-forms]
+  r: []
+2021-08|tokka|6:
+  p: [bk-tokka-tp03]
+  r: []
+2021-08|tokka|7:
+  p: [bk-tokka-sb3012, bk-tokka-tp02]
+  r: []
+2021-08|tokka|8:
+  p: [bk-tokka-sb3006, bk-tokka-forms]
+  r: []
+2021-08|tokka|9:
+  p: [bk-tokka-tp02]
+  r: [bk-tokka-tp03]
+2021-08|yuki|1:
+  p: []
+  r: []
+2021-08|yuki|10:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0012, bk-yuki-0011]
+2021-08|yuki|11:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01, bk-yuki-0007, bk-yuki-0013]
+2021-08|yuki|12:
+  p: [bk-yuki-0007]
+  r: [bk-yuki-tp01, bk-yuki-0008]
+2021-08|yuki|13:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|15:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-tp01, bk-yuki-tp02]
+2021-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-0004, bk-yuki-tp02]
+2021-08|yuki|17:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|2:
+  p: []
+  r: []
+2021-08|yuki|20:
+  p: [bk-yuki-0017]
+  r: [bk-yuki-tp02]
+2021-08|yuki|3:
+  p: []
+  r: []
+2021-08|yuki|4:
+  p: []
+  r: [bk-yuki-0020, bk-yuki-0021, bk-yuki-tp03]
+2021-08|yuki|5:
+  p: [bk-yuki-0019]
+  r: []
+2021-08|yuki|6:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|7:
+  p: [bk-yuki-forms]
+  r: []
+2021-08|yuki|8:
+  p: []
+  r: []
+2021-08|yuki|9:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01]
+2022-02|bunseki|1:
+  p: [bk-bunseki-0020]
+  r: [bk-bunseki-tp07, bk-bunseki-0035]
+2022-02|bunseki|10:
+  p: [bk-bunseki-0032]
+  r: []
+2022-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|12:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0023]
+2022-02|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-0001, bk-bunseki-tp04]
+2022-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0008]
+2022-02|bunseki|16:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0004]
+2022-02|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2022-02|bunseki|18:
+  p: []
+  r: []
+2022-02|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011]
+2022-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|3:
+  p: []
+  r: []
+2022-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0034]
+2022-02|bunseki|8:
+  p: [bk-bunseki-tp09]
+  r: [bk-bunseki-0033]
+2022-02|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2022-02|design|1:
+  p: [bk-design-forms]
+  r: []
+2022-02|design|10:
+  p: [bk-design-tp07]
+  r: []
+2022-02|design|11:
+  p: [bk-design-tp13]
+  r: [bk-design-tp12, bk-design-0003, bk-design-tp10]
+2022-02|design|12:
+  p: [bk-design-tp10]
+  r: []
+2022-02|design|13:
+  p: [bk-design-tp09]
+  r: [bk-design-0012]
+2022-02|design|14:
+  p: [bk-design-tp06]
+  r: [bk-design-0007, bk-design-tp04]
+2022-02|design|15:
+  p: [bk-design-tp08]
+  r: [bk-design-0010, bk-design-tp09]
+2022-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2022-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2022-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2022-02|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0012, bk-design-tp07]
+2022-02|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp03]
+2022-02|design|20:
+  p: [bk-design-tp01]
+  r: [bk-design-0005]
+2022-02|design|3:
+  p: [bk-design-tp04]
+  r: [bk-design-tp01]
+2022-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2022-02|design|5:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04, bk-design-tp05]
+2022-02|design|6:
+  p: [bk-design-tp05]
+  r: []
+2022-02|design|7:
+  p: [bk-design-tp04]
+  r: [bk-design-tp03, bk-design-tp05]
+2022-02|design|8:
+  p: [bk-design-tp13]
+  r: [bk-design-tp11, bk-design-tp12]
+2022-02|design|9:
+  p: [bk-design-forms]
+  r: []
+2022-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2022-02|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05, bk-hourei-th12]
+2022-02|hourei|11:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th06]
+2022-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2022-02|hourei|13:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
+2022-02|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2022-02|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2022-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th07]
+2022-02|hourei|17:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp02, bk-hourei-th03, bk-hourei-th14]
+2022-02|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2022-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2022-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2022-02|hourei|20:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-tp02, bk-hourei-th07, bk-hourei-tp03]
+2022-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09]
+2022-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2022-02|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th16]
+2022-02|hourei|6:
+  p: []
+  r: []
+2022-02|hourei|7:
+  p: []
+  r: []
+2022-02|hourei|8:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th04]
+2022-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th01, bk-hourei-th05]
+2022-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2022-02|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2022-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2022-02|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2022-02|ippan|13:
+  p: [bk-ippan-fr13, bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2022-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0021, bk-ippan-fr06, bk-ippan-fr08]
+2022-02|ippan|15:
+  p: [bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0004]
+2022-02|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2022-02|ippan|17:
+  p: [bk-ippan-fr16]
+  r: []
+2022-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2022-02|ippan|19:
+  p: [bk-ippan-fr06]
+  r: []
+2022-02|ippan|2:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2022-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2022-02|ippan|3:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17]
+2022-02|ippan|4:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2022-02|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2022-02|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+2022-02|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2022-02|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-fr05]
+2022-02|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2022-08|bunseki|1:
+  p: [bk-bunseki-0035]
+  r: [bk-bunseki-0019, bk-bunseki-0026]
+2022-08|bunseki|10:
+  p: [bk-bunseki-tp09]
+  r: []
+2022-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2022-08|bunseki|12:
+  p: [bk-bunseki-0019]
+  r: []
+2022-08|bunseki|13:
+  p: []
+  r: [bk-bunseki-tp04]
+2022-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2022-08|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0008]
+2022-08|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: [bk-bunseki-tp02]
+2022-08|bunseki|17:
+  p: [bk-bunseki-forms]
+  r: []
+2022-08|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0028]
+2022-08|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011, bk-bunseki-tp09]
+2022-08|bunseki|2:
+  p: []
+  r: []
+2022-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2022-08|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2022-08|bunseki|4:
+  p: [bk-bunseki-0036]
+  r: [bk-bunseki-tp10]
+2022-08|bunseki|5:
+  p: [bk-bunseki-0018]
+  r: []
+2022-08|bunseki|6:
+  p: [bk-bunseki-0023]
+  r: [bk-bunseki-tp07]
+2022-08|bunseki|7:
+  p: [bk-bunseki-0034]
+  r: []
+2022-08|bunseki|8:
+  p: []
+  r: [bk-bunseki-0033]
+2022-08|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2022-08|design|1:
+  p: [bk-design-tp13]
+  r: [bk-design-tp11]
+2022-08|design|10:
+  p: [bk-design-tp07]
+  r: []
+2022-08|design|11:
+  p: [bk-design-tp12]
+  r: []
+2022-08|design|12:
+  p: [bk-design-tp10]
+  r: [bk-design-0012]
+2022-08|design|13:
+  p: [bk-design-tp09]
+  r: [bk-design-0004]
+2022-08|design|14:
+  p: [bk-design-0007]
+  r: [bk-design-tp04, bk-design-tp05, bk-design-tp06]
+2022-08|design|15:
+  p: [bk-design-tp09]
+  r: [bk-design-tp08]
+2022-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2022-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2022-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2022-08|design|19:
+  p: []
+  r: [bk-design-tp06, bk-design-tp10]
+2022-08|design|2:
+  p: [bk-design-tp04]
+  r: [bk-design-tp05]
+2022-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2022-08|design|3:
+  p: [bk-design-tp04]
+  r: [bk-design-tp02, bk-design-tp05]
+2022-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2022-08|design|5:
+  p: [bk-design-tp13]
+  r: [bk-design-tp11]
+2022-08|design|6:
+  p: []
+  r: [bk-design-tp05]
+2022-08|design|7:
+  p: [bk-design-tp03]
+  r: []
+2022-08|design|8:
+  p: []
+  r: []
+2022-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2022-08|funjin|1:
+  p: [bk-funjin-forms]
+  r: []
+2022-08|funjin|10:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0008]
+2022-08|funjin|11:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2022-08|funjin|12:
+  p: []
+  r: [bk-funjin-tp03]
+2022-08|funjin|13:
+  p: []
+  r: [bk-funjin-tp02]
+2022-08|funjin|14:
+  p: [bk-funjin-0015]
+  r: [bk-funjin-tp03, bk-funjin-tp02]
+2022-08|funjin|15:
+  p: []
+  r: [bk-funjin-0011, bk-funjin-tp02]
+2022-08|funjin|16:
+  p: [bk-funjin-forms]
+  r: []
+2022-08|funjin|17:
+  p: [bk-funjin-forms]
+  r: []
+2022-08|funjin|18:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2022-08|funjin|19:
+  p: [bk-funjin-forms]
+  r: []
+2022-08|funjin|2:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0001]
+2022-08|funjin|20:
+  p: [bk-funjin-tp04]
+  r: []
+2022-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2022-08|funjin|4:
+  p: [bk-funjin-0006]
+  r: [bk-funjin-tp02]
+2022-08|funjin|5:
+  p: [bk-funjin-0005]
+  r: [bk-funjin-0017, bk-funjin-tp06]
+2022-08|funjin|6:
+  p: [bk-funjin-0004]
+  r: []
+2022-08|funjin|7:
+  p: [bk-funjin-0009]
+  r: [bk-funjin-tp06]
+2022-08|funjin|8:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01]
+2022-08|funjin|9:
+  p: [bk-funjin-0008]
+  r: [bk-funjin-tp01, bk-funjin-0007]
+2022-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2022-08|hourei|10:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th06, bk-hourei-tp05]
+2022-08|hourei|11:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-tp05]
+2022-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2022-08|hourei|13:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
+2022-08|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2022-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07, bk-hourei-th13]
+2022-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2022-08|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th03, bk-hourei-th11, bk-hourei-tp01]
+2022-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2022-08|hourei|19:
+  p: [bk-hourei-th02]
+  r: [bk-hourei-th16, bk-hourei-tp06]
+2022-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2022-08|hourei|20:
+  p: [bk-hourei-tp02]
+  r: [bk-hourei-th07, bk-hourei-tp03, bk-hourei-tp06]
+2022-08|hourei|3:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-th09, bk-hourei-tp01]
+2022-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2022-08|hourei|5:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-th03, bk-hourei-th16]
+2022-08|hourei|6:
+  p: []
+  r: []
+2022-08|hourei|7:
+  p: []
+  r: []
+2022-08|hourei|8:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th17]
+2022-08|hourei|9:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-th12, bk-hourei-th16]
+2022-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2022-08|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2022-08|ippan|11:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2022-08|ippan|12:
+  p: [bk-ippan-0029, bk-ippan-fr12]
+  r: []
+2022-08|ippan|13:
+  p: []
+  r: []
+2022-08|ippan|14:
+  p: [bk-ippan-0021, bk-ippan-fr14]
+  r: [bk-ippan-0016]
+2022-08|ippan|15:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr08, bk-ippan-fr17]
+  r: [bk-ippan-0030]
+2022-08|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2022-08|ippan|17:
+  p: [bk-ippan-fr16]
+  r: []
+2022-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0010]
+2022-08|ippan|19:
+  p: [bk-ippan-fr06]
+  r: []
+2022-08|ippan|2:
+  p: [bk-ippan-fr17]
+  r: []
+2022-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17, bk-ippan-fr05, bk-ippan-fr06]
+2022-08|ippan|3:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17]
+2022-08|ippan|4:
+  p: [bk-ippan-fr04, bk-ippan-fr06]
+  r: [bk-ippan-0030]
+2022-08|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2022-08|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr07, bk-ippan-fr03]
+2022-08|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2022-08|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-fr05]
+2022-08|ippan|9:
+  p: [bk-ippan-0024, bk-ippan-fr09]
+  r: []
+2022-08|kinzoku|1:
+  p: [bk-kinzoku-0014]
+  r: []
+2022-08|kinzoku|10:
+  p: []
+  r: [bk-kinzoku-0011, bk-kinzoku-0013, bk-kinzoku-tp07]
+2022-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp03]
+2022-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
+  r: [bk-kinzoku-tp05]
+2022-08|kinzoku|13:
+  p: [bk-kinzoku-sb4002, bk-kinzoku-tp01]
+  r: [bk-kinzoku-tp03]
+2022-08|kinzoku|14:
+  p: [bk-kinzoku-sb4003, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp03, bk-kinzoku-tp04]
+2022-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02]
+2022-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03]
+2022-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp06]
+2022-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008]
+  r: [bk-kinzoku-tp06, bk-kinzoku-0009, bk-kinzoku-0010]
+2022-08|kinzoku|19:
+  p: [bk-kinzoku-sb4009, bk-kinzoku-0008]
+  r: [bk-kinzoku-tp02, bk-kinzoku-0010, bk-kinzoku-tp03]
+2022-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp07]
+2022-08|kinzoku|20:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-forms]
+  r: []
+2022-08|kinzoku|3:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp06]
+2022-08|kinzoku|4:
+  p: []
+  r: []
+2022-08|kinzoku|5:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-0001]
+2022-08|kinzoku|6:
+  p: []
+  r: [bk-kinzoku-0005, bk-kinzoku-tp04, bk-kinzoku-tp07]
+2022-08|kinzoku|7:
+  p: []
+  r: [bk-kinzoku-0010, bk-kinzoku-tp06]
+2022-08|kinzoku|8:
+  p: [bk-kinzoku-tp07]
+  r: [bk-kinzoku-tp05]
+2022-08|kinzoku|9:
+  p: [bk-kinzoku-0018]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp05]
+2022-08|tokka|1:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0001]
+2022-08|tokka|10:
+  p: [bk-tokka-sb3016, bk-tokka-forms]
+  r: []
+2022-08|tokka|11:
+  p: [bk-tokka-sb3038]
+  r: [bk-tokka-tp01, bk-tokka-tp02]
+2022-08|tokka|12:
+  p: [bk-tokka-sb3022]
+  r: []
+2022-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2022-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2022-08|tokka|15:
+  p: []
+  r: [bk-tokka-tp02, bk-tokka-0011]
+2022-08|tokka|16:
+  p: [bk-tokka-sb3008]
+  r: []
+2022-08|tokka|17:
+  p: [bk-tokka-0005]
+  r: []
+2022-08|tokka|18:
+  p: []
+  r: []
+2022-08|tokka|19:
+  p: [bk-tokka-sb3001]
+  r: []
+2022-08|tokka|2:
+  p: [bk-tokka-sb3016]
+  r: [bk-tokka-tp01, bk-tokka-0007, bk-tokka-tp03]
+2022-08|tokka|20:
+  p: [bk-tokka-forms]
+  r: []
+2022-08|tokka|3:
+  p: []
+  r: []
+2022-08|tokka|4:
+  p: [bk-tokka-sb3010]
+  r: []
+2022-08|tokka|5:
+  p: [bk-tokka-sb3029, bk-tokka-forms]
+  r: []
+2022-08|tokka|6:
+  p: [bk-tokka-forms]
+  r: []
+2022-08|tokka|7:
+  p: [bk-tokka-sb3036, bk-tokka-0004]
+  r: [bk-tokka-tp01, bk-tokka-tp02]
+2022-08|tokka|8:
+  p: [bk-tokka-sb3037, bk-tokka-tp02]
+  r: []
+2022-08|tokka|9:
+  p: []
+  r: []
+2022-08|yuki|1:
+  p: []
+  r: []
+2022-08|yuki|10:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01]
+2022-08|yuki|11:
+  p: [bk-yuki-0011]
+  r: []
+2022-08|yuki|12:
+  p: [bk-yuki-0014]
+  r: [bk-yuki-0015, bk-yuki-tp01, bk-yuki-tp02]
+2022-08|yuki|13:
+  p: []
+  r: []
+2022-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2022-08|yuki|15:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-0001]
+2022-08|yuki|16:
+  p: [bk-yuki-forms]
+  r: []
+2022-08|yuki|17:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-tp02]
+2022-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2022-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2022-08|yuki|2:
+  p: []
+  r: []
+2022-08|yuki|20:
+  p: [bk-yuki-0015]
+  r: [bk-yuki-tp02]
+2022-08|yuki|3:
+  p: []
+  r: []
+2022-08|yuki|4:
+  p: [bk-yuki-forms]
+  r: []
+2022-08|yuki|5:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0018]
+2022-08|yuki|6:
+  p: [bk-yuki-tp03]
+  r: []
+2022-08|yuki|7:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0022]
+2022-08|yuki|8:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0013]
+2022-08|yuki|9:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-tp01]
+2023-02|bunseki|1:
+  p: [bk-bunseki-0020]
+  r: [bk-bunseki-tp07, bk-bunseki-0035]
+2023-02|bunseki|10:
+  p: [bk-bunseki-0032]
+  r: []
+2023-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|12:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0023]
+2023-02|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-0001, bk-bunseki-tp04]
+2023-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0008]
+2023-02|bunseki|16:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0004]
+2023-02|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2023-02|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: []
+2023-02|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011]
+2023-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|3:
+  p: []
+  r: []
+2023-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0034]
+2023-02|bunseki|8:
+  p: [bk-bunseki-tp09]
+  r: [bk-bunseki-0033]
+2023-02|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2023-02|design|1:
+  p: [bk-design-forms]
+  r: []
+2023-02|design|10:
+  p: [bk-design-tp07]
+  r: []
+2023-02|design|11:
+  p: [bk-design-tp13]
+  r: [bk-design-tp12, bk-design-0003, bk-design-tp10]
+2023-02|design|12:
+  p: [bk-design-tp10]
+  r: []
+2023-02|design|13:
+  p: [bk-design-tp09]
+  r: [bk-design-0012]
+2023-02|design|14:
+  p: [bk-design-tp06]
+  r: [bk-design-0007, bk-design-tp04]
+2023-02|design|15:
+  p: [bk-design-tp08]
+  r: [bk-design-0010, bk-design-tp09]
+2023-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2023-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2023-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2023-02|design|19:
+  p: [bk-design-tp06]
+  r: [bk-design-0012, bk-design-tp07]
+2023-02|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp03]
+2023-02|design|20:
+  p: [bk-design-tp01]
+  r: [bk-design-0005]
+2023-02|design|3:
+  p: [bk-design-tp04]
+  r: [bk-design-tp01]
+2023-02|design|4:
+  p: [bk-design-tp03]
+  r: []
+2023-02|design|5:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04, bk-design-tp05]
+2023-02|design|6:
+  p: [bk-design-tp05]
+  r: []
+2023-02|design|7:
+  p: [bk-design-tp04]
+  r: [bk-design-tp03, bk-design-tp05]
+2023-02|design|8:
+  p: [bk-design-tp13]
+  r: [bk-design-tp11, bk-design-tp12]
+2023-02|design|9:
+  p: [bk-design-forms]
+  r: []
+2023-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2023-02|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05, bk-hourei-th12]
+2023-02|hourei|11:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th06]
+2023-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2023-02|hourei|13:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
+2023-02|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2023-02|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2023-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th07]
+2023-02|hourei|17:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-tp02, bk-hourei-th03, bk-hourei-th14]
+2023-02|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2023-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2023-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2023-02|hourei|20:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-tp02, bk-hourei-th07, bk-hourei-tp03]
+2023-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09]
+2023-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2023-02|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th16]
+2023-02|hourei|6:
+  p: []
+  r: []
+2023-02|hourei|7:
+  p: []
+  r: []
+2023-02|hourei|8:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th04]
+2023-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th01, bk-hourei-th05]
+2023-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2023-02|ippan|10:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2023-02|ippan|11:
+  p: [bk-ippan-fr11]
+  r: []
+2023-02|ippan|12:
+  p: [bk-ippan-fr12]
+  r: []
+2023-02|ippan|13:
+  p: [bk-ippan-fr13, bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2023-02|ippan|14:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0021, bk-ippan-fr06, bk-ippan-fr08]
+2023-02|ippan|15:
+  p: [bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0004]
+2023-02|ippan|16:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2023-02|ippan|17:
+  p: [bk-ippan-fr16]
+  r: []
+2023-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2023-02|ippan|19:
+  p: [bk-ippan-fr06]
+  r: []
+2023-02|ippan|2:
+  p: [bk-ippan-fr06, bk-ippan-fr17]
+  r: []
+2023-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2023-02|ippan|3:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17]
+2023-02|ippan|4:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2023-02|ippan|5:
+  p: [bk-ippan-forms]
+  r: []
+2023-02|ippan|6:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+2023-02|ippan|7:
+  p: [bk-ippan-fr06]
+  r: []
+2023-02|ippan|8:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-fr05]
+2023-02|ippan|9:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2023-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|10:
+  p: [bk-bunseki-0032]
+  r: []
+2023-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|12:
+  p: [bk-bunseki-tp06]
+  r: [bk-bunseki-0023]
+2023-08|bunseki|13:
+  p: []
+  r: []
+2023-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|15:
+  p: []
+  r: [bk-bunseki-0008, bk-bunseki-tp02]
+2023-08|bunseki|16:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|17:
+  p: [bk-bunseki-tp05]
+  r: []
+2023-08|bunseki|18:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|19:
+  p: []
+  r: [bk-bunseki-0011, bk-bunseki-tp03]
+2023-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|3:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-0036, bk-bunseki-tp10]
+2023-08|bunseki|4:
+  p: [bk-bunseki-0036]
+  r: [bk-bunseki-tp10]
+2023-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|7:
+  p: [bk-bunseki-forms]
+  r: []
+2023-08|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2023-08|bunseki|9:
+  p: [bk-bunseki-0023]
+  r: [bk-bunseki-tp07]
+2023-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2023-08|design|10:
+  p: [bk-design-tp07]
+  r: []
+2023-08|design|11:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp11]
+2023-08|design|12:
+  p: [bk-design-tp06]
+  r: [bk-design-0012, bk-design-tp10, bk-design-tp11]
+2023-08|design|13:
+  p: [bk-design-0004]
+  r: [bk-design-tp09, bk-design-tp07]
+2023-08|design|14:
+  p: [bk-design-0007]
+  r: [bk-design-tp06]
+2023-08|design|15:
+  p: [bk-design-tp08]
+  r: []
+2023-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2023-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2023-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2023-08|design|19:
+  p: [bk-design-0012]
+  r: [bk-design-tp06, bk-design-0004, bk-design-tp09]
+2023-08|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2023-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2023-08|design|3:
+  p: [bk-design-tp01]
+  r: [bk-design-tp04, bk-design-tp02]
+2023-08|design|4:
+  p: [bk-design-tp03]
+  r: [bk-design-tp01]
+2023-08|design|5:
+  p: []
+  r: []
+2023-08|design|6:
+  p: []
+  r: []
+2023-08|design|7:
+  p: []
+  r: [bk-design-tp03, bk-design-tp06]
+2023-08|design|8:
+  p: []
+  r: [bk-design-tp11, bk-design-0001]
+2023-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2023-08|funjin|1:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0001]
+2023-08|funjin|10:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0014]
+2023-08|funjin|11:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp06]
+2023-08|funjin|12:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp02, bk-funjin-tp05, bk-funjin-tp06]
+2023-08|funjin|13:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-tp02, bk-funjin-0015, bk-funjin-tp03]
+2023-08|funjin|14:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-tp03, bk-funjin-0015]
+2023-08|funjin|15:
+  p: [bk-funjin-forms]
+  r: []
+2023-08|funjin|16:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0011]
+2023-08|funjin|17:
+  p: [bk-funjin-tp02]
+  r: []
+2023-08|funjin|18:
+  p: []
+  r: [bk-funjin-0011]
+2023-08|funjin|19:
+  p: [bk-funjin-forms]
+  r: []
+2023-08|funjin|2:
+  p: [bk-funjin-forms]
+  r: []
+2023-08|funjin|20:
+  p: [bk-funjin-forms]
+  r: []
+2023-08|funjin|3:
+  p: []
+  r: [bk-funjin-tp06, bk-funjin-tp05]
+2023-08|funjin|4:
+  p: [bk-funjin-tp04]
+  r: [bk-funjin-0017, bk-funjin-0004, bk-funjin-tp06]
+2023-08|funjin|5:
+  p: [bk-funjin-forms]
+  r: []
+2023-08|funjin|6:
+  p: [bk-funjin-0009]
+  r: [bk-funjin-0005]
+2023-08|funjin|7:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01]
+2023-08|funjin|8:
+  p: []
+  r: [bk-funjin-0008, bk-funjin-tp01]
+2023-08|funjin|9:
+  p: []
+  r: [bk-funjin-tp06, bk-funjin-0010]
+2023-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2023-08|hourei|10:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th06, bk-hourei-th12]
+2023-08|hourei|11:
+  p: [bk-hourei-th04]
+  r: []
+2023-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-tp06]
+2023-08|hourei|13:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+2023-08|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2023-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: []
+2023-08|hourei|16:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th17]
+2023-08|hourei|17:
+  p: [bk-hourei-th14]
+  r: [bk-hourei-th03, bk-hourei-th11, bk-hourei-tp01]
+2023-08|hourei|18:
+  p: [bk-hourei-th01]
+  r: []
+2023-08|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2023-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2023-08|hourei|20:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th07, bk-hourei-th03, bk-hourei-tp05]
+2023-08|hourei|3:
+  p: []
+  r: []
+2023-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2023-08|hourei|5:
+  p: [bk-hourei-th03]
+  r: []
+2023-08|hourei|6:
+  p: []
+  r: []
+2023-08|hourei|7:
+  p: []
+  r: []
+2023-08|hourei|8:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-th04]
+2023-08|hourei|9:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-th01, bk-hourei-th16]
+2023-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2023-08|ippan|10:
+  p: [bk-ippan-0001, bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2023-08|ippan|11:
+  p: [bk-ippan-fr09]
+  r: []
+2023-08|ippan|12:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2023-08|ippan|13:
+  p: [bk-ippan-fr11]
+  r: [bk-ippan-fr06]
+2023-08|ippan|14:
+  p: [bk-ippan-fr12]
+  r: [bk-ippan-fr06]
+2023-08|ippan|15:
+  p: [bk-ippan-fr13]
+  r: [bk-ippan-fr06]
+2023-08|ippan|16:
+  p: [bk-ippan-0016, bk-ippan-fr14]
+  r: [bk-ippan-0020, bk-ippan-0021, bk-ippan-fr06]
+2023-08|ippan|17:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2023-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2023-08|ippan|19:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0004]
+2023-08|ippan|2:
+  p: [bk-ippan-fr02]
+  r: []
+2023-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: []
+2023-08|ippan|3:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2023-08|ippan|4:
+  p: [bk-ippan-fr04]
+  r: []
+2023-08|ippan|5:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0030, bk-ippan-fr07]
+2023-08|ippan|6:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2023-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2023-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr05, bk-ippan-fr04, bk-ippan-fr07]
+2023-08|ippan|9:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr04]
+2023-08|kinzoku|1:
+  p: []
+  r: []
+2023-08|kinzoku|10:
+  p: []
+  r: [bk-kinzoku-tp02, bk-kinzoku-tp05]
+2023-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006]
+  r: [bk-kinzoku-tp02, bk-kinzoku-tp04]
+2023-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-tp05]
+  r: [bk-kinzoku-0005, bk-kinzoku-0009, bk-kinzoku-0013]
+2023-08|kinzoku|13:
+  p: [bk-kinzoku-sb4002, bk-kinzoku-tp01]
+  r: [bk-kinzoku-tp05]
+2023-08|kinzoku|14:
+  p: [bk-kinzoku-sb4003]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp02]
+2023-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp06]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp03]
+2023-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03]
+2023-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0012]
+2023-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008]
+  r: [bk-kinzoku-tp06, bk-kinzoku-tp05]
+2023-08|kinzoku|19:
+  p: []
+  r: [bk-kinzoku-0008, bk-kinzoku-0010, bk-kinzoku-tp01]
+2023-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp02]
+2023-08|kinzoku|20:
+  p: [bk-kinzoku-forms]
+  r: []
+2023-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2023-08|kinzoku|4:
+  p: []
+  r: [bk-kinzoku-tp05, bk-kinzoku-0013, bk-kinzoku-tp06]
+2023-08|kinzoku|5:
+  p: [bk-kinzoku-0001]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp06]
+2023-08|kinzoku|6:
+  p: []
+  r: [bk-kinzoku-0005, bk-kinzoku-0008, bk-kinzoku-tp06]
+2023-08|kinzoku|7:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0010]
+2023-08|kinzoku|8:
+  p: []
+  r: [bk-kinzoku-0003, bk-kinzoku-0004]
+2023-08|kinzoku|9:
+  p: []
+  r: [bk-kinzoku-tp05, bk-kinzoku-0018]
+2023-08|tokka|1:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0001]
+2023-08|tokka|10:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2023-08|tokka|11:
+  p: [bk-tokka-sb3036]
+  r: [bk-tokka-tp03, bk-tokka-tp02]
+2023-08|tokka|12:
+  p: [bk-tokka-sb3004, bk-tokka-tp01]
+  r: [bk-tokka-tp03]
+2023-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|14:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|15:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|16:
+  p: [bk-tokka-sb3015, bk-tokka-forms]
+  r: []
+2023-08|tokka|17:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|18:
+  p: [bk-tokka-sb3032]
+  r: []
+2023-08|tokka|19:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|2:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2023-08|tokka|20:
+  p: [bk-tokka-tp02]
+  r: []
+2023-08|tokka|3:
+  p: [bk-tokka-sb3026, bk-tokka-forms]
+  r: []
+2023-08|tokka|4:
+  p: [bk-tokka-sb3034]
+  r: [bk-tokka-tp01, bk-tokka-tp03]
+2023-08|tokka|5:
+  p: []
+  r: [bk-tokka-0003]
+2023-08|tokka|6:
+  p: [bk-tokka-sb3001, bk-tokka-forms]
+  r: []
+2023-08|tokka|7:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|8:
+  p: [bk-tokka-forms]
+  r: []
+2023-08|tokka|9:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0003]
+2023-08|yuki|1:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0023]
+2023-08|yuki|10:
+  p: [bk-yuki-forms]
+  r: []
+2023-08|yuki|11:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-tp01]
+2023-08|yuki|12:
+  p: [bk-yuki-0007]
+  r: [bk-yuki-0008, bk-yuki-tp01]
+2023-08|yuki|13:
+  p: []
+  r: [bk-yuki-tp01, bk-yuki-0014, bk-yuki-tp02]
+2023-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2023-08|yuki|15:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-tp01]
+2023-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-0004, bk-yuki-tp02]
+2023-08|yuki|17:
+  p: [bk-yuki-forms]
+  r: []
+2023-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2023-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2023-08|yuki|2:
+  p: []
+  r: []
+2023-08|yuki|20:
+  p: [bk-yuki-0015]
+  r: [bk-yuki-tp02]
+2023-08|yuki|3:
+  p: []
+  r: []
+2023-08|yuki|4:
+  p: [bk-yuki-0020]
+  r: [bk-yuki-tp03, bk-yuki-0021]
+2023-08|yuki|5:
+  p: [bk-yuki-forms]
+  r: []
+2023-08|yuki|6:
+  p: [bk-yuki-tp03]
+  r: []
+2023-08|yuki|7:
+  p: [bk-yuki-tp03]
+  r: []
+2023-08|yuki|8:
+  p: []
+  r: []
+2023-08|yuki|9:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0008]
+2024-02|bunseki|1:
+  p: [bk-bunseki-tp10]
+  r: [bk-bunseki-0019, bk-bunseki-0035]
+2024-02|bunseki|10:
+  p: []
+  r: []
+2024-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2024-02|bunseki|12:
+  p: [bk-bunseki-forms]
+  r: []
+2024-02|bunseki|13:
+  p: []
+  r: [bk-bunseki-tp04, bk-bunseki-tp03]
+2024-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2024-02|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0008]
+2024-02|bunseki|16:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0004]
+2024-02|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2024-02|bunseki|18:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0028]
+2024-02|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011]
+2024-02|bunseki|2:
+  p: [bk-bunseki-0024]
+  r: [bk-bunseki-tp10]
+2024-02|bunseki|20:
+  p: []
+  r: [bk-bunseki-0026]
+2024-02|bunseki|3:
+  p: []
+  r: [bk-bunseki-0036, bk-bunseki-tp10]
+2024-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2024-02|bunseki|5:
+  p: []
+  r: []
+2024-02|bunseki|6:
+  p: [bk-bunseki-0018]
+  r: []
+2024-02|bunseki|7:
+  p: [bk-bunseki-forms]
+  r: []
+2024-02|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp09]
+2024-02|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2024-02|design|1:
+  p: []
+  r: [bk-design-tp13, bk-design-tp11]
+2024-02|design|10:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2024-02|design|11:
+  p: [bk-design-tp12]
+  r: [bk-design-0003, bk-design-tp06]
+2024-02|design|12:
+  p: []
+  r: [bk-design-tp10]
+2024-02|design|13:
+  p: [bk-design-0004]
+  r: [bk-design-tp09]
+2024-02|design|14:
+  p: [bk-design-tp05]
+  r: [bk-design-0007]
+2024-02|design|15:
+  p: [bk-design-tp08]
+  r: [bk-design-0010, bk-design-tp09]
+2024-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2024-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2024-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2024-02|design|19:
+  p: [bk-design-0006]
+  r: [bk-design-tp02]
+2024-02|design|2:
+  p: []
+  r: [bk-design-tp05]
+2024-02|design|20:
+  p: [bk-design-tp01]
+  r: [bk-design-0005]
+2024-02|design|3:
+  p: [bk-design-tp04]
+  r: []
+2024-02|design|4:
+  p: [bk-design-tp03]
+  r: [bk-design-tp06]
+2024-02|design|5:
+  p: []
+  r: []
+2024-02|design|6:
+  p: [bk-design-0001]
+  r: [bk-design-tp11, bk-design-tp13]
+2024-02|design|7:
+  p: [bk-design-tp01]
+  r: [bk-design-0009, bk-design-tp02, bk-design-tp04]
+2024-02|design|8:
+  p: []
+  r: [bk-design-tp03]
+2024-02|design|9:
+  p: [bk-design-forms]
+  r: []
+2024-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2024-02|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-th12]
+2024-02|hourei|11:
+  p: [bk-hourei-th04]
+  r: []
+2024-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2024-02|hourei|13:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th04, bk-hourei-th10, bk-hourei-th13]
+2024-02|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2024-02|hourei|15:
+  p: [bk-hourei-th10]
+  r: [bk-hourei-th12, bk-hourei-th07]
+2024-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2024-02|hourei|17:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-th11]
+2024-02|hourei|18:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-tp03]
+2024-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2024-02|hourei|2:
+  p: [bk-hourei-th07]
+  r: []
+2024-02|hourei|20:
+  p: [bk-hourei-th13]
+  r: []
+2024-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th16]
+2024-02|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2024-02|hourei|5:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-th03, bk-hourei-th16]
+2024-02|hourei|6:
+  p: []
+  r: [bk-hourei-th02, bk-hourei-th16, bk-hourei-tp01]
+2024-02|hourei|7:
+  p: []
+  r: []
+2024-02|hourei|8:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th04, bk-hourei-th01]
+2024-02|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th12]
+2024-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2024-02|ippan|10:
+  p: [bk-ippan-fr06, bk-ippan-fr08]
+  r: []
+2024-02|ippan|11:
+  p: [bk-ippan-0025, bk-ippan-fr09]
+  r: []
+2024-02|ippan|12:
+  p: [bk-ippan-0015, bk-ippan-fr10]
+  r: [bk-ippan-0014]
+2024-02|ippan|13:
+  p: [bk-ippan-0034, bk-ippan-fr11]
+  r: []
+2024-02|ippan|14:
+  p: [bk-ippan-fr12]
+  r: []
+2024-02|ippan|15:
+  p: [bk-ippan-0016, bk-ippan-fr13]
+  r: [bk-ippan-fr06]
+2024-02|ippan|16:
+  p: [bk-ippan-0021, bk-ippan-fr06, bk-ippan-fr14]
+  r: []
+2024-02|ippan|17:
+  p: [bk-ippan-0026, bk-ippan-fr15]
+  r: []
+2024-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2024-02|ippan|19:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0004]
+2024-02|ippan|2:
+  p: [bk-ippan-fr02]
+  r: []
+2024-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: []
+2024-02|ippan|3:
+  p: [bk-ippan-fr03, bk-ippan-fr17]
+  r: []
+2024-02|ippan|4:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr06, bk-ippan-0001, bk-ippan-fr08]
+2024-02|ippan|5:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-fr08]
+2024-02|ippan|6:
+  p: [bk-ippan-fr06]
+  r: []
+2024-02|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2024-02|ippan|8:
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06]
+2024-02|ippan|9:
+  p: [bk-ippan-fr06]
+  r: []
+2024-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|10:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|12:
+  p: []
+  r: [bk-bunseki-tp06, bk-bunseki-0023]
+2024-08|bunseki|13:
+  p: []
+  r: [bk-bunseki-tp04, bk-bunseki-0001, bk-bunseki-0003]
+2024-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-0008, bk-bunseki-tp10]
+2024-08|bunseki|16:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-tp02]
+2024-08|bunseki|17:
+  p: [bk-bunseki-0028]
+  r: [bk-bunseki-0029, bk-bunseki-tp05]
+2024-08|bunseki|18:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|19:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|3:
+  p: []
+  r: [bk-bunseki-tp10]
+2024-08|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|7:
+  p: [bk-bunseki-tp06]
+  r: []
+2024-08|bunseki|8:
+  p: [bk-bunseki-forms]
+  r: []
+2024-08|bunseki|9:
+  p: [bk-bunseki-0023]
+  r: [bk-bunseki-tp07]
+2024-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2024-08|design|10:
+  p: [bk-design-tp07]
+  r: []
+2024-08|design|11:
+  p: [bk-design-tp13]
+  r: [bk-design-0003, bk-design-tp12]
+2024-08|design|12:
+  p: [bk-design-tp10]
+  r: [bk-design-0012, bk-design-tp06]
+2024-08|design|13:
+  p: [bk-design-0004]
+  r: [bk-design-0012, bk-design-tp09]
+2024-08|design|14:
+  p: [bk-design-tp06]
+  r: [bk-design-0007, bk-design-tp04]
+2024-08|design|15:
+  p: []
+  r: [bk-design-0010, bk-design-tp05, bk-design-tp08]
+2024-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2024-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2024-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2024-08|design|19:
+  p: [bk-design-forms]
+  r: []
+2024-08|design|2:
+  p: []
+  r: [bk-design-tp05, bk-design-tp04]
+2024-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2024-08|design|3:
+  p: [bk-design-tp04]
+  r: []
+2024-08|design|4:
+  p: [bk-design-tp03]
+  r: []
+2024-08|design|5:
+  p: [bk-design-tp03]
+  r: []
+2024-08|design|6:
+  p: [bk-design-tp05]
+  r: [bk-design-tp03, bk-design-tp06]
+2024-08|design|7:
+  p: []
+  r: []
+2024-08|design|8:
+  p: [bk-design-0001]
+  r: [bk-design-tp11, bk-design-tp13]
+2024-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2024-08|funjin|1:
+  p: [bk-funjin-forms]
+  r: []
+2024-08|funjin|10:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01, bk-funjin-0008, bk-funjin-tp05]
+2024-08|funjin|11:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2024-08|funjin|12:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0014]
+2024-08|funjin|13:
+  p: []
+  r: [bk-funjin-tp03]
+2024-08|funjin|14:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02, bk-funjin-0015, bk-funjin-tp03]
+2024-08|funjin|15:
+  p: []
+  r: [bk-funjin-tp03]
+2024-08|funjin|16:
+  p: [bk-funjin-forms]
+  r: []
+2024-08|funjin|17:
+  p: [bk-funjin-tp02]
+  r: []
+2024-08|funjin|18:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2024-08|funjin|19:
+  p: [bk-funjin-forms]
+  r: []
+2024-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: [bk-funjin-tp05]
+2024-08|funjin|20:
+  p: []
+  r: [bk-funjin-tp04]
+2024-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2024-08|funjin|4:
+  p: [bk-funjin-0006]
+  r: [bk-funjin-tp05]
+2024-08|funjin|5:
+  p: [bk-funjin-0017]
+  r: [bk-funjin-tp06, bk-funjin-0004]
+2024-08|funjin|6:
+  p: []
+  r: [bk-funjin-tp06, bk-funjin-0005]
+2024-08|funjin|7:
+  p: []
+  r: [bk-funjin-0009]
+2024-08|funjin|8:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01]
+2024-08|funjin|9:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0008]
+2024-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2024-08|hourei|10:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-th12, bk-hourei-tp05]
+2024-08|hourei|11:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th06]
+2024-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2024-08|hourei|13:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th02, bk-hourei-th07]
+2024-08|hourei|14:
+  p: [bk-hourei-th12]
+  r: []
+2024-08|hourei|15:
+  p: [bk-hourei-th12]
+  r: [bk-hourei-th07]
+2024-08|hourei|16:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th17]
+2024-08|hourei|17:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th11, bk-hourei-th14, bk-hourei-tp05]
+2024-08|hourei|18:
+  p: [bk-hourei-tp03]
+  r: [bk-hourei-th01, bk-hourei-th05]
+2024-08|hourei|19:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th02, bk-hourei-th16, bk-hourei-tp06]
+2024-08|hourei|2:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2024-08|hourei|20:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-th02, bk-hourei-th10, bk-hourei-tp05]
+2024-08|hourei|3:
+  p: []
+  r: [bk-hourei-tp06, bk-hourei-th15, bk-hourei-tp01]
+2024-08|hourei|4:
+  p: [bk-hourei-forms]
+  r: []
+2024-08|hourei|5:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th01, bk-hourei-th04, bk-hourei-th16]
+2024-08|hourei|6:
+  p: [bk-hourei-tp02]
+  r: [bk-hourei-th16, bk-hourei-tp01, bk-hourei-tp06]
+2024-08|hourei|7:
+  p: []
+  r: []
+2024-08|hourei|8:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th15]
+2024-08|hourei|9:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05]
+2024-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2024-08|ippan|10:
+  p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr08, bk-ippan-fr17]
+  r: [bk-ippan-fr06]
+2024-08|ippan|11:
+  p: [bk-ippan-0024, bk-ippan-fr09]
+  r: []
+2024-08|ippan|12:
+  p: [bk-ippan-forms]
+  r: []
+2024-08|ippan|13:
+  p: [bk-ippan-fr11]
+  r: []
+2024-08|ippan|14:
+  p: [bk-ippan-fr12]
+  r: []
+2024-08|ippan|15:
+  p: [bk-ippan-fr13]
+  r: []
+2024-08|ippan|16:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0016, bk-ippan-0020, bk-ippan-0021]
+2024-08|ippan|17:
+  p: [bk-ippan-0026, bk-ippan-fr15]
+  r: []
+2024-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0029]
+2024-08|ippan|19:
+  p: [bk-ippan-fr16]
+  r: []
+2024-08|ippan|2:
+  p: [bk-ippan-forms]
+  r: []
+2024-08|ippan|20:
+  p: [bk-ippan-fr03]
+  r: []
+2024-08|ippan|3:
+  p: [bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-0021]
+2024-08|ippan|4:
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr04, bk-ippan-0033]
+2024-08|ippan|5:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-fr08, bk-ippan-fr17]
+2024-08|ippan|6:
+  p: [bk-ippan-0001, bk-ippan-fr06]
+  r: [bk-ippan-0008]
+2024-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2024-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr05]
+2024-08|ippan|9:
+  p: [bk-ippan-fr06]
+  r: []
+2024-08|kinzoku|1:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02]
+2024-08|kinzoku|10:
+  p: [bk-kinzoku-sb4006]
+  r: [bk-kinzoku-tp01]
+2024-08|kinzoku|11:
+  p: [bk-kinzoku-sb4001]
+  r: [bk-kinzoku-0013, bk-kinzoku-tp01, bk-kinzoku-tp05]
+2024-08|kinzoku|12:
+  p: []
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp04]
+2024-08|kinzoku|13:
+  p: [bk-kinzoku-sb4003]
+  r: [bk-kinzoku-tp02, bk-kinzoku-tp03]
+2024-08|kinzoku|14:
+  p: [bk-kinzoku-sb4007, bk-kinzoku-tp01]
+  r: [bk-kinzoku-tp02]
+2024-08|kinzoku|15:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0008]
+  r: [bk-kinzoku-0011, bk-kinzoku-tp01, bk-kinzoku-tp03]
+2024-08|kinzoku|16:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-tp02]
+  r: [bk-kinzoku-0012]
+2024-08|kinzoku|17:
+  p: [bk-kinzoku-sb4008]
+  r: [bk-kinzoku-0013, bk-kinzoku-0018, bk-kinzoku-tp05]
+2024-08|kinzoku|18:
+  p: [bk-kinzoku-sb4009, bk-kinzoku-0010]
+  r: [bk-kinzoku-0009, bk-kinzoku-tp01, bk-kinzoku-tp06]
+2024-08|kinzoku|19:
+  p: [bk-kinzoku-forms]
+  r: []
+2024-08|kinzoku|2:
+  p: [bk-kinzoku-forms]
+  r: []
+2024-08|kinzoku|20:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-forms]
+  r: []
+2024-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2024-08|kinzoku|4:
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-0011]
+2024-08|kinzoku|5:
+  p: []
+  r: [bk-kinzoku-0001]
+2024-08|kinzoku|6:
+  p: [bk-kinzoku-0005]
+  r: [bk-kinzoku-0008]
+2024-08|kinzoku|7:
+  p: [bk-kinzoku-0010]
+  r: [bk-kinzoku-tp06]
+2024-08|kinzoku|8:
+  p: [bk-kinzoku-0003]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp05]
+2024-08|kinzoku|9:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0010]
+2024-08|tokka|1:
+  p: [bk-tokka-0001]
+  r: [bk-tokka-tp03]
+2024-08|tokka|10:
+  p: []
+  r: [bk-tokka-0004, bk-tokka-tp03]
+2024-08|tokka|11:
+  p: [bk-tokka-sb3026, bk-tokka-forms]
+  r: []
+2024-08|tokka|12:
+  p: [bk-tokka-sb3022]
+  r: []
+2024-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2024-08|tokka|14:
+  p: []
+  r: []
+2024-08|tokka|15:
+  p: []
+  r: []
+2024-08|tokka|16:
+  p: [bk-tokka-sb3035, bk-tokka-forms]
+  r: []
+2024-08|tokka|17:
+  p: [bk-tokka-forms]
+  r: []
+2024-08|tokka|18:
+  p: []
+  r: []
+2024-08|tokka|19:
+  p: [bk-tokka-sb3012]
+  r: []
+2024-08|tokka|2:
+  p: [bk-tokka-forms]
+  r: []
+2024-08|tokka|20:
+  p: [bk-tokka-forms]
+  r: []
+2024-08|tokka|3:
+  p: [bk-tokka-sb3032]
+  r: []
+2024-08|tokka|4:
+  p: [bk-tokka-forms]
+  r: []
+2024-08|tokka|5:
+  p: [bk-tokka-sb3001, bk-tokka-0004]
+  r: [bk-tokka-tp02]
+2024-08|tokka|6:
+  p: [bk-tokka-0004]
+  r: [bk-tokka-tp03]
+2024-08|tokka|7:
+  p: []
+  r: []
+2024-08|tokka|8:
+  p: [bk-tokka-sb3006, bk-tokka-forms]
+  r: []
+2024-08|tokka|9:
+  p: [bk-tokka-sb3016, bk-tokka-forms]
+  r: []
+2024-08|yuki|1:
+  p: []
+  r: []
+2024-08|yuki|10:
+  p: []
+  r: [bk-yuki-0012, bk-yuki-tp01]
+2024-08|yuki|11:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-0008, bk-yuki-tp01]
+2024-08|yuki|12:
+  p: []
+  r: [bk-yuki-0011, bk-yuki-0014]
+2024-08|yuki|13:
+  p: []
+  r: [bk-yuki-0014, bk-yuki-tp01, bk-yuki-tp02]
+2024-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2024-08|yuki|15:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-0004]
+2024-08|yuki|16:
+  p: [bk-yuki-tp02]
+  r: [bk-yuki-0004, bk-yuki-tp01]
+2024-08|yuki|17:
+  p: [bk-yuki-0004]
+  r: [bk-yuki-0001]
+2024-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2024-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2024-08|yuki|2:
+  p: []
+  r: []
+2024-08|yuki|20:
+  p: [bk-yuki-0015]
+  r: [bk-yuki-tp02]
+2024-08|yuki|3:
+  p: []
+  r: []
+2024-08|yuki|4:
+  p: [bk-yuki-tp03]
+  r: [bk-yuki-0020, bk-yuki-0021]
+2024-08|yuki|5:
+  p: [bk-yuki-forms]
+  r: []
+2024-08|yuki|6:
+  p: [bk-yuki-0021]
+  r: [bk-yuki-0020, bk-yuki-0019, bk-yuki-tp03]
+2024-08|yuki|7:
+  p: []
+  r: [bk-yuki-0022]
+2024-08|yuki|8:
+  p: []
+  r: []
+2024-08|yuki|9:
+  p: [bk-yuki-0008]
+  r: [bk-yuki-tp01]
+2025-02|bunseki|1:
+  p: [bk-bunseki-0020]
+  r: [bk-bunseki-0035, bk-bunseki-tp07]
+2025-02|bunseki|10:
+  p: [bk-bunseki-0032]
+  r: [bk-bunseki-tp02, bk-bunseki-tp09]
+2025-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|12:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|13:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-0002, bk-bunseki-tp03]
+2025-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|15:
+  p: [bk-bunseki-tp02]
+  r: [bk-bunseki-tp10]
+2025-02|bunseki|16:
+  p: []
+  r: [bk-bunseki-0004, bk-bunseki-tp02]
+2025-02|bunseki|17:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0029]
+2025-02|bunseki|18:
+  p: [bk-bunseki-0029]
+  r: [bk-bunseki-tp05]
+2025-02|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011, bk-bunseki-tp09]
+2025-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|20:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|3:
+  p: [bk-bunseki-0036]
+  r: []
+2025-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|bunseki|7:
+  p: [bk-bunseki-tp09]
+  r: [bk-bunseki-0034]
+2025-02|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: [bk-bunseki-tp07, bk-bunseki-tp09]
+2025-02|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2025-02|design|1:
+  p: []
+  r: [bk-design-tp13, bk-design-tp11]
+2025-02|design|10:
+  p: [bk-design-0001]
+  r: [bk-design-tp07, bk-design-0008]
+2025-02|design|11:
+  p: [bk-design-tp12]
+  r: [bk-design-0003]
+2025-02|design|12:
+  p: [bk-design-0012]
+  r: [bk-design-tp10]
+2025-02|design|13:
+  p: [bk-design-0012]
+  r: [bk-design-0004, bk-design-tp09]
+2025-02|design|14:
+  p: [bk-design-0007]
+  r: [bk-design-tp06]
+2025-02|design|15:
+  p: [bk-design-tp08]
+  r: []
+2025-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2025-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2025-02|design|18:
+  p: [bk-design-tp02]
+  r: []
+2025-02|design|19:
+  p: [bk-design-0006]
+  r: [bk-design-tp02]
+2025-02|design|2:
+  p: [bk-design-tp05]
+  r: []
+2025-02|design|20:
+  p: [bk-design-tp01]
+  r: []
+2025-02|design|3:
+  p: []
+  r: [bk-design-tp04]
+2025-02|design|4:
+  p: []
+  r: [bk-design-tp03]
+2025-02|design|5:
+  p: [bk-design-tp13]
+  r: []
+2025-02|design|6:
+  p: [bk-design-0009]
+  r: [bk-design-tp01, bk-design-tp02, bk-design-tp04]
+2025-02|design|7:
+  p: [bk-design-tp03]
+  r: []
+2025-02|design|8:
+  p: []
+  r: []
+2025-02|design|9:
+  p: [bk-design-forms]
+  r: []
+2025-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2025-02|hourei|10:
+  p: []
+  r: [bk-hourei-th05, bk-hourei-th01, bk-hourei-tp05]
+2025-02|hourei|11:
+  p: [bk-hourei-th06]
+  r: [bk-hourei-tp05]
+2025-02|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2025-02|hourei|13:
+  p: [bk-hourei-th10]
+  r: [bk-hourei-th07, bk-hourei-th13, bk-hourei-tp06]
+2025-02|hourei|14:
+  p: [bk-hourei-th12]
+  r: []
+2025-02|hourei|15:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-th07, bk-hourei-th12, bk-hourei-tp03]
+2025-02|hourei|16:
+  p: [bk-hourei-th17]
+  r: [bk-hourei-th07]
+2025-02|hourei|17:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-tp02, bk-hourei-th14]
+2025-02|hourei|18:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th02, bk-hourei-th11, bk-hourei-tp06]
+2025-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-th02]
+2025-02|hourei|2:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-th07, bk-hourei-tp01]
+2025-02|hourei|20:
+  p: [bk-hourei-tp03]
+  r: []
+2025-02|hourei|3:
+  p: []
+  r: []
+2025-02|hourei|4:
+  p: []
+  r: []
+2025-02|hourei|5:
+  p: []
+  r: []
+2025-02|hourei|6:
+  p: [bk-hourei-forms]
+  r: []
+2025-02|hourei|7:
+  p: [bk-hourei-th03]
+  r: []
+2025-02|hourei|8:
+  p: []
+  r: []
+2025-02|hourei|9:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th06]
+2025-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-0034]
+2025-02|ippan|10:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr08]
+2025-02|ippan|11:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024]
+2025-02|ippan|12:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014, bk-ippan-0015]
+2025-02|ippan|13:
+  p: [bk-ippan-0011, bk-ippan-fr11]
+  r: []
+2025-02|ippan|14:
+  p: [bk-ippan-fr12]
+  r: [bk-ippan-0001]
+2025-02|ippan|15:
+  p: [bk-ippan-fr06, bk-ippan-fr13]
+  r: [bk-ippan-0016]
+2025-02|ippan|16:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0021]
+2025-02|ippan|17:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2025-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2025-02|ippan|19:
+  p: [bk-ippan-fr16]
+  r: []
+2025-02|ippan|2:
+  p: [bk-ippan-fr02]
+  r: []
+2025-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: []
+2025-02|ippan|3:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2025-02|ippan|4:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17, bk-ippan-fr08]
+2025-02|ippan|5:
+  p: [bk-ippan-fr05]
+  r: [bk-ippan-0030, bk-ippan-fr17]
+2025-02|ippan|6:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-0004]
+2025-02|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2025-02|ippan|8:
+  p: [bk-ippan-fr05, bk-ippan-fr06]
+  r: []
+2025-02|ippan|9:
+  p: [bk-ippan-fr06]
+  r: []
+2025-08|bunseki|1:
+  p: [bk-bunseki-tp10]
+  r: [bk-bunseki-0019, bk-bunseki-0026, bk-bunseki-0035]
+2025-08|bunseki|10:
+  p: [bk-bunseki-0032]
+  r: []
+2025-08|bunseki|11:
+  p: [bk-bunseki-0018]
+  r: []
+2025-08|bunseki|12:
+  p: []
+  r: []
+2025-08|bunseki|13:
+  p: [bk-bunseki-tp04]
+  r: [bk-bunseki-0001, bk-bunseki-0002, bk-bunseki-0003]
+2025-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|15:
+  p: [bk-bunseki-0008]
+  r: [bk-bunseki-tp02, bk-bunseki-tp10]
+2025-08|bunseki|16:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|17:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0028]
+2025-08|bunseki|18:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: []
+2025-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|20:
+  p: [bk-bunseki-0026]
+  r: []
+2025-08|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|7:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|bunseki|8:
+  p: [bk-bunseki-0033]
+  r: []
+2025-08|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2025-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2025-08|design|10:
+  p: [bk-design-0008]
+  r: [bk-design-tp07]
+2025-08|design|11:
+  p: []
+  r: [bk-design-tp12]
+2025-08|design|12:
+  p: []
+  r: [bk-design-0012]
+2025-08|design|13:
+  p: []
+  r: [bk-design-tp09, bk-design-0012]
+2025-08|design|14:
+  p: []
+  r: [bk-design-tp06, bk-design-0007]
+2025-08|design|15:
+  p: []
+  r: [bk-design-tp08]
+2025-08|design|16:
+  p: []
+  r: []
+2025-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2025-08|design|18:
+  p: [bk-design-tp02]
+  r: []
+2025-08|design|19:
+  p: []
+  r: [bk-design-tp01, bk-design-tp04]
+2025-08|design|2:
+  p: [bk-design-tp05]
+  r: []
+2025-08|design|20:
+  p: [bk-design-tp01]
+  r: []
+2025-08|design|3:
+  p: [bk-design-tp04]
+  r: []
+2025-08|design|4:
+  p: [bk-design-tp13]
+  r: [bk-design-tp03]
+2025-08|design|5:
+  p: []
+  r: []
+2025-08|design|6:
+  p: []
+  r: []
+2025-08|design|7:
+  p: [bk-design-tp03]
+  r: []
+2025-08|design|8:
+  p: []
+  r: [bk-design-tp13, bk-design-0001]
+2025-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2025-08|funjin|1:
+  p: [bk-funjin-forms]
+  r: []
+2025-08|funjin|10:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2025-08|funjin|11:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-tp03, bk-funjin-tp02]
+2025-08|funjin|12:
+  p: [bk-funjin-tp03]
+  r: [bk-funjin-tp06]
+2025-08|funjin|13:
+  p: [bk-funjin-0015]
+  r: [bk-funjin-tp02]
+2025-08|funjin|14:
+  p: []
+  r: []
+2025-08|funjin|15:
+  p: [bk-funjin-forms]
+  r: []
+2025-08|funjin|16:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2025-08|funjin|17:
+  p: [bk-funjin-forms]
+  r: []
+2025-08|funjin|18:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2025-08|funjin|19:
+  p: [bk-funjin-forms]
+  r: []
+2025-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: [bk-funjin-tp05]
+2025-08|funjin|20:
+  p: [bk-funjin-tp04]
+  r: []
+2025-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2025-08|funjin|4:
+  p: []
+  r: [bk-funjin-0006]
+2025-08|funjin|5:
+  p: [bk-funjin-tp05]
+  r: [bk-funjin-0017, bk-funjin-0005, bk-funjin-tp06]
+2025-08|funjin|6:
+  p: [bk-funjin-0004]
+  r: []
+2025-08|funjin|7:
+  p: [bk-funjin-0009]
+  r: [bk-funjin-tp06]
+2025-08|funjin|8:
+  p: [bk-funjin-0007]
+  r: []
+2025-08|funjin|9:
+  p: [bk-funjin-0008]
+  r: [bk-funjin-tp01]
+2025-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2025-08|hourei|10:
+  p: [bk-hourei-tp05]
+  r: [bk-hourei-th05]
+2025-08|hourei|11:
+  p: [bk-hourei-forms]
+  r: []
+2025-08|hourei|12:
+  p: []
+  r: [bk-hourei-th13]
+2025-08|hourei|13:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th10, bk-hourei-th13, bk-hourei-tp01]
+2025-08|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2025-08|hourei|15:
+  p: []
+  r: [bk-hourei-th12, bk-hourei-th07, bk-hourei-tp03]
+2025-08|hourei|16:
+  p: [bk-hourei-th17]
+  r: []
+2025-08|hourei|17:
+  p: []
+  r: [bk-hourei-tp02, bk-hourei-th11]
+2025-08|hourei|18:
+  p: []
+  r: []
+2025-08|hourei|19:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th02, bk-hourei-th16]
+2025-08|hourei|2:
+  p: [bk-hourei-th08]
+  r: []
+2025-08|hourei|20:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th07, bk-hourei-tp03, bk-hourei-tp06]
+2025-08|hourei|3:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2025-08|hourei|4:
+  p: []
+  r: [bk-hourei-tp03]
+2025-08|hourei|5:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-th02, bk-hourei-th13]
+2025-08|hourei|6:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th16]
+2025-08|hourei|7:
+  p: [bk-hourei-forms]
+  r: []
+2025-08|hourei|8:
+  p: [bk-hourei-th01]
+  r: [bk-hourei-th03, bk-hourei-th04]
+2025-08|hourei|9:
+  p: [bk-hourei-th04]
+  r: []
+2025-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2025-08|ippan|10:
+  p: [bk-ippan-fr08]
+  r: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr06]
+2025-08|ippan|11:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0025]
+2025-08|ippan|12:
+  p: [bk-ippan-forms]
+  r: []
+2025-08|ippan|13:
+  p: [bk-ippan-fr11]
+  r: []
+2025-08|ippan|14:
+  p: [bk-ippan-0008, bk-ippan-fr12]
+  r: [bk-ippan-fr06]
+2025-08|ippan|15:
+  p: [bk-ippan-fr13]
+  r: []
+2025-08|ippan|16:
+  p: [bk-ippan-fr14]
+  r: [bk-ippan-0020, bk-ippan-0021, bk-ippan-fr06]
+2025-08|ippan|17:
+  p: [bk-ippan-fr15]
+  r: []
+2025-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2025-08|ippan|19:
+  p: [bk-ippan-forms]
+  r: []
+2025-08|ippan|2:
+  p: []
+  r: []
+2025-08|ippan|20:
+  p: [bk-ippan-0021, bk-ippan-fr03]
+  r: [bk-ippan-fr01]
+2025-08|ippan|3:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-fr17]
+2025-08|ippan|4:
+  p: [bk-ippan-0033, bk-ippan-fr04]
+  r: [bk-ippan-0001, bk-ippan-fr17]
+2025-08|ippan|5:
+  p: [bk-ippan-0030, bk-ippan-fr05]
+  r: []
+2025-08|ippan|6:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-0008]
+2025-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2025-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr03, bk-ippan-fr05, bk-ippan-fr07]
+2025-08|ippan|9:
+  p: [bk-ippan-fr06]
+  r: []
+2025-08|kinzoku|1:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp07]
+2025-08|kinzoku|10:
+  p: []
+  r: [bk-kinzoku-0003, bk-kinzoku-tp04]
+2025-08|kinzoku|11:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp03, bk-kinzoku-tp06, bk-kinzoku-tp07]
+2025-08|kinzoku|12:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
+  r: [bk-kinzoku-0009, bk-kinzoku-tp06]
+2025-08|kinzoku|13:
+  p: [bk-kinzoku-sb4002, bk-kinzoku-tp01]
+  r: [bk-kinzoku-0018]
+2025-08|kinzoku|14:
+  p: [bk-kinzoku-sb4003, bk-kinzoku-tp02]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp04, bk-kinzoku-tp05]
+2025-08|kinzoku|15:
+  p: [bk-kinzoku-sb4007]
+  r: [bk-kinzoku-tp01]
+2025-08|kinzoku|16:
+  p: [bk-kinzoku-sb4004, bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|17:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
+  r: [bk-kinzoku-tp03]
+2025-08|kinzoku|18:
+  p: [bk-kinzoku-sb4008]
+  r: [bk-kinzoku-tp06]
+2025-08|kinzoku|19:
+  p: [bk-kinzoku-sb4011, bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02]
+2025-08|kinzoku|20:
+  p: [bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|4:
+  p: [bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|5:
+  p: []
+  r: [bk-kinzoku-0013, bk-kinzoku-tp06]
+2025-08|kinzoku|6:
+  p: []
+  r: [bk-kinzoku-tp04, bk-kinzoku-0014]
+2025-08|kinzoku|7:
+  p: [bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|8:
+  p: [bk-kinzoku-forms]
+  r: []
+2025-08|kinzoku|9:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0010]
+2025-08|tokka|1:
+  p: [bk-tokka-tp03]
+  r: [bk-tokka-0001]
+2025-08|tokka|10:
+  p: [bk-tokka-forms]
+  r: []
+2025-08|tokka|11:
+  p: [bk-tokka-tp03]
+  r: []
+2025-08|tokka|12:
+  p: [bk-tokka-sb3022, bk-tokka-forms]
+  r: []
+2025-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2025-08|tokka|14:
+  p: []
+  r: [bk-tokka-0011]
+2025-08|tokka|15:
+  p: [bk-tokka-forms]
+  r: []
+2025-08|tokka|16:
+  p: [bk-tokka-forms]
+  r: []
+2025-08|tokka|17:
+  p: [bk-tokka-sb3004, bk-tokka-forms]
+  r: []
+2025-08|tokka|18:
+  p: []
+  r: []
+2025-08|tokka|19:
+  p: [bk-tokka-sb3010]
+  r: []
+2025-08|tokka|2:
+  p: [bk-tokka-sb3034, bk-tokka-forms]
+  r: []
+2025-08|tokka|20:
+  p: [bk-tokka-tp02]
+  r: []
+2025-08|tokka|3:
+  p: []
+  r: [bk-tokka-tp01, bk-tokka-0007]
+2025-08|tokka|4:
+  p: [bk-tokka-sb3032]
+  r: []
+2025-08|tokka|5:
+  p: [bk-tokka-sb3002, bk-tokka-forms]
+  r: []
+2025-08|tokka|6:
+  p: [bk-tokka-forms]
+  r: []
+2025-08|tokka|7:
+  p: [bk-tokka-sb3036]
+  r: []
+2025-08|tokka|8:
+  p: [bk-tokka-forms]
+  r: []
+2025-08|tokka|9:
+  p: [bk-tokka-0003]
+  r: []
+2025-08|yuki|1:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|10:
+  p: [bk-yuki-0011]
+  r: [bk-yuki-0014]
+2025-08|yuki|11:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|12:
+  p: [bk-yuki-tp01]
+  r: []
+2025-08|yuki|13:
+  p: [bk-yuki-0014]
+  r: [bk-yuki-tp02]
+2025-08|yuki|14:
+  p: []
+  r: [bk-yuki-0014, bk-yuki-tp01]
+2025-08|yuki|15:
+  p: [bk-yuki-0016]
+  r: [bk-yuki-tp02]
+2025-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-tp02, bk-yuki-0004]
+2025-08|yuki|17:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|2:
+  p: [bk-yuki-tp03]
+  r: []
+2025-08|yuki|20:
+  p: []
+  r: [bk-yuki-tp02, bk-yuki-0015]
+2025-08|yuki|3:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|4:
+  p: [bk-yuki-0020]
+  r: [bk-yuki-0021, bk-yuki-tp03]
+2025-08|yuki|5:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|6:
+  p: [bk-yuki-tp03]
+  r: []
+2025-08|yuki|7:
+  p: [bk-yuki-forms]
+  r: []
+2025-08|yuki|8:
+  p: []
+  r: []
+2025-08|yuki|9:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0008]
+2026-02|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|10:
+  p: []
+  r: []
+2026-02|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|12:
+  p: []
+  r: [bk-bunseki-tp06, bk-bunseki-0023]
+2026-02|bunseki|13:
+  p: [bk-bunseki-0002]
+  r: [bk-bunseki-0032, bk-bunseki-tp04]
+2026-02|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|15:
+  p: []
+  r: [bk-bunseki-tp02]
+2026-02|bunseki|16:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|17:
+  p: [bk-bunseki-tp05]
+  r: [bk-bunseki-0029]
+2026-02|bunseki|18:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: []
+2026-02|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|20:
+  p: []
+  r: []
+2026-02|bunseki|3:
+  p: [bk-bunseki-tp10]
+  r: [bk-bunseki-tp07, bk-bunseki-0036]
+2026-02|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2026-02|bunseki|6:
+  p: []
+  r: []
+2026-02|bunseki|7:
+  p: []
+  r: [bk-bunseki-tp06]
+2026-02|bunseki|8:
+  p: []
+  r: [bk-bunseki-0033]
+2026-02|bunseki|9:
+  p: [bk-bunseki-tp07]
+  r: []
+2026-02|design|1:
+  p: [bk-design-tp11]
+  r: []
+2026-02|design|10:
+  p: [bk-design-tp07]
+  r: [bk-design-0008]
+2026-02|design|11:
+  p: [bk-design-tp06]
+  r: [bk-design-tp12]
+2026-02|design|12:
+  p: [bk-design-0012]
+  r: [bk-design-tp06, bk-design-tp10]
+2026-02|design|13:
+  p: [bk-design-tp09]
+  r: [bk-design-0004]
+2026-02|design|14:
+  p: [bk-design-tp05]
+  r: [bk-design-0007, bk-design-tp04, bk-design-tp06]
+2026-02|design|15:
+  p: []
+  r: [bk-design-0010, bk-design-tp08, bk-design-tp09]
+2026-02|design|16:
+  p: [bk-design-forms]
+  r: []
+2026-02|design|17:
+  p: [bk-design-forms]
+  r: []
+2026-02|design|18:
+  p: [bk-design-0005]
+  r: [bk-design-tp02]
+2026-02|design|19:
+  p: [bk-design-0006]
+  r: [bk-design-tp02]
+2026-02|design|2:
+  p: [bk-design-tp05]
+  r: [bk-design-tp01]
+2026-02|design|20:
+  p: [bk-design-tp01]
+  r: []
+2026-02|design|3:
+  p: [bk-design-tp04]
+  r: []
+2026-02|design|4:
+  p: [bk-design-tp03]
+  r: [bk-design-tp01]
+2026-02|design|5:
+  p: [bk-design-forms]
+  r: []
+2026-02|design|6:
+  p: [bk-design-tp04]
+  r: [bk-design-tp01, bk-design-tp03]
+2026-02|design|7:
+  p: []
+  r: []
+2026-02|design|8:
+  p: []
+  r: [bk-design-tp03]
+2026-02|design|9:
+  p: [bk-design-forms]
+  r: []
+2026-02|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2026-02|hourei|10:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-th03, bk-hourei-tp05]
+2026-02|hourei|11:
+  p: []
+  r: [bk-hourei-th06]
+2026-02|hourei|12:
+  p: []
+  r: [bk-hourei-th13]
+2026-02|hourei|13:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+2026-02|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2026-02|hourei|15:
+  p: []
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th12]
+2026-02|hourei|16:
+  p: [bk-hourei-th13]
+  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th17]
+2026-02|hourei|17:
+  p: [bk-hourei-th11]
+  r: [bk-hourei-th03, bk-hourei-th10]
+2026-02|hourei|18:
+  p: []
+  r: [bk-hourei-th02, bk-hourei-th07]
+2026-02|hourei|19:
+  p: [bk-hourei-th16]
+  r: []
+2026-02|hourei|2:
+  p: [bk-hourei-th08]
+  r: [bk-hourei-th15]
+2026-02|hourei|20:
+  p: []
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th11]
+2026-02|hourei|3:
+  p: [bk-hourei-tp01]
+  r: [bk-hourei-th16]
+2026-02|hourei|4:
+  p: []
+  r: []
+2026-02|hourei|5:
+  p: [bk-hourei-th15]
+  r: [bk-hourei-th02]
+2026-02|hourei|6:
+  p: [bk-hourei-th04]
+  r: []
+2026-02|hourei|7:
+  p: [bk-hourei-forms]
+  r: []
+2026-02|hourei|8:
+  p: [bk-hourei-th03]
+  r: [bk-hourei-th01]
+2026-02|hourei|9:
+  p: [bk-hourei-th04]
+  r: []
+2026-02|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2026-02|ippan|10:
+  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-0001, bk-ippan-fr04]
+2026-02|ippan|11:
+  p: [bk-ippan-fr09]
+  r: [bk-ippan-0024, bk-ippan-0025]
+2026-02|ippan|12:
+  p: [bk-ippan-fr10]
+  r: [bk-ippan-0014, bk-ippan-0015]
+2026-02|ippan|13:
+  p: [bk-ippan-0011, bk-ippan-fr11]
+  r: []
+2026-02|ippan|14:
+  p: [bk-ippan-fr12]
+  r: []
+2026-02|ippan|15:
+  p: [bk-ippan-fr13]
+  r: []
+2026-02|ippan|16:
+  p: [bk-ippan-0016, bk-ippan-fr14]
+  r: [bk-ippan-0020]
+2026-02|ippan|17:
+  p: [bk-ippan-fr15]
+  r: [bk-ippan-0026]
+2026-02|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2026-02|ippan|19:
+  p: [bk-ippan-fr16]
+  r: [bk-ippan-0004]
+2026-02|ippan|2:
+  p: [bk-ippan-fr02]
+  r: []
+2026-02|ippan|20:
+  p: [bk-ippan-fr03]
+  r: []
+2026-02|ippan|3:
+  p: [bk-ippan-0021, bk-ippan-fr03]
+  r: []
+2026-02|ippan|4:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17]
+2026-02|ippan|5:
+  p: [bk-ippan-fr05, bk-ippan-fr17]
+  r: [bk-ippan-0030]
+2026-02|ippan|6:
+  p: [bk-ippan-fr06]
+  r: []
+2026-02|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2026-02|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr05, bk-ippan-fr07]
+2026-02|ippan|9:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr04]
+2026-08|bunseki|1:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|10:
+  p: []
+  r: []
+2026-08|bunseki|11:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|12:
+  p: [bk-bunseki-0019]
+  r: []
+2026-08|bunseki|13:
+  p: [bk-bunseki-0003]
+  r: [bk-bunseki-tp04]
+2026-08|bunseki|14:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|15:
+  p: [bk-bunseki-0001]
+  r: [bk-bunseki-0008, bk-bunseki-tp02]
+2026-08|bunseki|16:
+  p: [bk-bunseki-0004]
+  r: []
+2026-08|bunseki|17:
+  p: [bk-bunseki-0031]
+  r: []
+2026-08|bunseki|18:
+  p: [bk-bunseki-0028]
+  r: [bk-bunseki-0029, bk-bunseki-tp05]
+2026-08|bunseki|19:
+  p: [bk-bunseki-tp03]
+  r: [bk-bunseki-0011]
+2026-08|bunseki|2:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|20:
+  p: [bk-bunseki-0026]
+  r: []
+2026-08|bunseki|3:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|4:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|5:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|6:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|7:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|bunseki|8:
+  p: [bk-bunseki-tp07]
+  r: [bk-bunseki-0033, bk-bunseki-tp09]
+2026-08|bunseki|9:
+  p: [bk-bunseki-forms]
+  r: []
+2026-08|design|1:
+  p: [bk-design-forms]
+  r: []
+2026-08|design|10:
+  p: [bk-design-tp07]
+  r: [bk-design-0001]
+2026-08|design|11:
+  p: [bk-design-tp12]
+  r: [bk-design-tp06]
+2026-08|design|12:
+  p: [bk-design-tp10]
+  r: [bk-design-tp06]
+2026-08|design|13:
+  p: []
+  r: [bk-design-0012, bk-design-tp09]
+2026-08|design|14:
+  p: [bk-design-tp06]
+  r: [bk-design-0007, bk-design-tp05]
+2026-08|design|15:
+  p: []
+  r: []
+2026-08|design|16:
+  p: [bk-design-forms]
+  r: []
+2026-08|design|17:
+  p: [bk-design-forms]
+  r: []
+2026-08|design|18:
+  p: []
+  r: [bk-design-tp04]
+2026-08|design|19:
+  p: []
+  r: [bk-design-tp13, bk-design-tp11]
+2026-08|design|2:
+  p: []
+  r: [bk-design-tp03, bk-design-tp04, bk-design-tp05]
+2026-08|design|20:
+  p: [bk-design-forms]
+  r: []
+2026-08|design|3:
+  p: []
+  r: []
+2026-08|design|4:
+  p: [bk-design-tp03]
+  r: [bk-design-tp01, bk-design-tp04, bk-design-tp13]
+2026-08|design|5:
+  p: []
+  r: []
+2026-08|design|6:
+  p: [bk-design-tp03]
+  r: [bk-design-tp05, bk-design-tp06]
+2026-08|design|7:
+  p: []
+  r: []
+2026-08|design|8:
+  p: []
+  r: [bk-design-tp13]
+2026-08|design|9:
+  p: [bk-design-forms]
+  r: []
+2026-08|funjin|1:
+  p: [bk-funjin-forms]
+  r: []
+2026-08|funjin|10:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-0010]
+2026-08|funjin|11:
+  p: [bk-funjin-forms]
+  r: []
+2026-08|funjin|12:
+  p: [bk-funjin-forms]
+  r: []
+2026-08|funjin|13:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-0015, bk-funjin-tp01, bk-funjin-tp03]
+2026-08|funjin|14:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-tp03, bk-funjin-0015]
+2026-08|funjin|15:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2026-08|funjin|16:
+  p: []
+  r: []
+2026-08|funjin|17:
+  p: [bk-funjin-0011]
+  r: [bk-funjin-tp02]
+2026-08|funjin|18:
+  p: [bk-funjin-forms]
+  r: []
+2026-08|funjin|19:
+  p: [bk-funjin-tp06]
+  r: [bk-funjin-tp04]
+2026-08|funjin|2:
+  p: [bk-funjin-0001]
+  r: [bk-funjin-tp05]
+2026-08|funjin|20:
+  p: [bk-funjin-tp02]
+  r: [bk-funjin-tp04]
+2026-08|funjin|3:
+  p: [bk-funjin-forms]
+  r: []
+2026-08|funjin|4:
+  p: [bk-funjin-0006]
+  r: [bk-funjin-tp02, bk-funjin-tp05]
+2026-08|funjin|5:
+  p: []
+  r: [bk-funjin-0017, bk-funjin-tp06]
+2026-08|funjin|6:
+  p: [bk-funjin-forms]
+  r: []
+2026-08|funjin|7:
+  p: []
+  r: [bk-funjin-0009, bk-funjin-0005, bk-funjin-tp06]
+2026-08|funjin|8:
+  p: [bk-funjin-tp01]
+  r: [bk-funjin-0007]
+2026-08|funjin|9:
+  p: [bk-funjin-0007]
+  r: [bk-funjin-tp01, bk-funjin-tp05]
+2026-08|hourei|1:
+  p: [bk-hourei-th15]
+  r: []
+2026-08|hourei|10:
+  p: [bk-hourei-th05]
+  r: [bk-hourei-th16, bk-hourei-tp05]
+2026-08|hourei|11:
+  p: [bk-hourei-tp05]
+  r: []
+2026-08|hourei|12:
+  p: [bk-hourei-th13]
+  r: []
+2026-08|hourei|13:
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-tp05]
+2026-08|hourei|14:
+  p: [bk-hourei-forms]
+  r: []
+2026-08|hourei|15:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-th12, bk-hourei-th02, bk-hourei-tp03]
+2026-08|hourei|16:
+  p: []
+  r: [bk-hourei-th17, bk-hourei-th07, bk-hourei-th10]
+2026-08|hourei|17:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-tp01]
+2026-08|hourei|18:
+  p: []
+  r: [bk-hourei-th07, bk-hourei-th03, bk-hourei-th10]
+2026-08|hourei|19:
+  p: [bk-hourei-th16]
+  r: [bk-hourei-tp06]
+2026-08|hourei|2:
+  p: [bk-hourei-forms]
+  r: []
+2026-08|hourei|20:
+  p: []
+  r: [bk-hourei-th04]
+2026-08|hourei|3:
+  p: [bk-hourei-th07]
+  r: [bk-hourei-tp01]
+2026-08|hourei|4:
+  p: []
+  r: []
+2026-08|hourei|5:
+  p: [bk-hourei-th02]
+  r: [bk-hourei-th04, bk-hourei-th07]
+2026-08|hourei|6:
+  p: [bk-hourei-th04]
+  r: [bk-hourei-th13]
+2026-08|hourei|7:
+  p: [bk-hourei-forms]
+  r: []
+2026-08|hourei|8:
+  p: []
+  r: [bk-hourei-th03, bk-hourei-th16]
+2026-08|hourei|9:
+  p: [bk-hourei-th04]
+  r: []
+2026-08|ippan|1:
+  p: [bk-ippan-fr01]
+  r: []
+2026-08|ippan|10:
+  p: [bk-ippan-fr08]
+  r: [bk-ippan-fr05, bk-ippan-fr06]
+2026-08|ippan|11:
+  p: [bk-ippan-fr09]
+  r: []
+2026-08|ippan|12:
+  p: [bk-ippan-0015, bk-ippan-fr10]
+  r: []
+2026-08|ippan|13:
+  p: [bk-ippan-fr11]
+  r: [bk-ippan-0011]
+2026-08|ippan|14:
+  p: [bk-ippan-fr12]
+  r: []
+2026-08|ippan|15:
+  p: [bk-ippan-fr13]
+  r: [bk-ippan-fr06]
+2026-08|ippan|16:
+  p: [bk-ippan-0016, bk-ippan-fr14]
+  r: [bk-ippan-0021]
+2026-08|ippan|17:
+  p: [bk-ippan-fr15]
+  r: []
+2026-08|ippan|18:
+  p: [bk-ippan-fr16]
+  r: []
+2026-08|ippan|19:
+  p: [bk-ippan-fr16]
+  r: []
+2026-08|ippan|2:
+  p: [bk-ippan-forms]
+  r: []
+2026-08|ippan|20:
+  p: [bk-ippan-fr01]
+  r: [bk-ippan-fr03]
+2026-08|ippan|3:
+  p: [bk-ippan-fr03]
+  r: [bk-ippan-0021]
+2026-08|ippan|4:
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-0033]
+2026-08|ippan|5:
+  p: [bk-ippan-0030, bk-ippan-fr05]
+  r: [bk-ippan-0001]
+2026-08|ippan|6:
+  p: [bk-ippan-fr06]
+  r: []
+2026-08|ippan|7:
+  p: [bk-ippan-forms]
+  r: []
+2026-08|ippan|8:
+  p: [bk-ippan-fr06]
+  r: [bk-ippan-fr05, bk-ippan-0030]
+2026-08|ippan|9:
+  p: [bk-ippan-fr06]
+  r: []
+2026-08|kinzoku|1:
+  p: [bk-kinzoku-forms]
+  r: []
+2026-08|kinzoku|10:
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
+  r: [bk-kinzoku-0003, bk-kinzoku-0004]
+2026-08|kinzoku|11:
+  p: [bk-kinzoku-sb4001, bk-kinzoku-0005]
+  r: [bk-kinzoku-0009, bk-kinzoku-0013, bk-kinzoku-tp01]
+2026-08|kinzoku|12:
+  p: [bk-kinzoku-sb4002]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp01]
+2026-08|kinzoku|13:
+  p: [bk-kinzoku-sb4003]
+  r: [bk-kinzoku-tp06]
+2026-08|kinzoku|14:
+  p: [bk-kinzoku-sb4007]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp06]
+2026-08|kinzoku|15:
+  p: [bk-kinzoku-sb4004]
+  r: [bk-kinzoku-0008, bk-kinzoku-0011, bk-kinzoku-tp01]
+2026-08|kinzoku|16:
+  p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
+  r: [bk-kinzoku-tp02, bk-kinzoku-tp03]
+2026-08|kinzoku|17:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-tp06]
+  r: []
+2026-08|kinzoku|18:
+  p: [bk-kinzoku-tp02]
+  r: [bk-kinzoku-tp01]
+2026-08|kinzoku|19:
+  p: [bk-kinzoku-forms]
+  r: []
+2026-08|kinzoku|2:
+  p: [bk-kinzoku-0014]
+  r: []
+2026-08|kinzoku|20:
+  p: [bk-kinzoku-sb4008, bk-kinzoku-forms]
+  r: []
+2026-08|kinzoku|3:
+  p: [bk-kinzoku-forms]
+  r: []
+2026-08|kinzoku|4:
+  p: []
+  r: [bk-kinzoku-tp04]
+2026-08|kinzoku|5:
+  p: [bk-kinzoku-0001]
+  r: []
+2026-08|kinzoku|6:
+  p: []
+  r: []
+2026-08|kinzoku|7:
+  p: [bk-kinzoku-tp06]
+  r: [bk-kinzoku-0010]
+2026-08|kinzoku|8:
+  p: []
+  r: [bk-kinzoku-tp07]
+2026-08|kinzoku|9:
+  p: []
+  r: []
+2026-08|tokka|1:
+  p: [bk-tokka-sb3016, bk-tokka-tp01]
+  r: []
+2026-08|tokka|10:
+  p: [bk-tokka-sb3034, bk-tokka-forms]
+  r: []
+2026-08|tokka|11:
+  p: [bk-tokka-sb3026, bk-tokka-forms]
+  r: []
+2026-08|tokka|12:
+  p: [bk-tokka-sb3004, bk-tokka-tp01]
+  r: [bk-tokka-tp03]
+2026-08|tokka|13:
+  p: [bk-tokka-forms]
+  r: []
+2026-08|tokka|14:
+  p: [bk-tokka-tp02]
+  r: []
+2026-08|tokka|15:
+  p: [bk-tokka-forms]
+  r: []
+2026-08|tokka|16:
+  p: []
+  r: [bk-tokka-0005]
+2026-08|tokka|17:
+  p: [bk-tokka-sb3027, bk-tokka-forms]
+  r: []
+2026-08|tokka|18:
+  p: [bk-tokka-sb3012]
+  r: []
+2026-08|tokka|19:
+  p: [bk-tokka-tp02]
+  r: []
+2026-08|tokka|2:
+  p: [bk-tokka-forms]
+  r: []
+2026-08|tokka|20:
+  p: [bk-tokka-forms]
+  r: []
+2026-08|tokka|3:
+  p: [bk-tokka-sb3034]
+  r: [bk-tokka-tp01, bk-tokka-0007]
+2026-08|tokka|4:
+  p: [bk-tokka-sb3005, bk-tokka-forms]
+  r: []
+2026-08|tokka|5:
+  p: [bk-tokka-0004]
+  r: [bk-tokka-tp03]
+2026-08|tokka|6:
+  p: [bk-tokka-forms]
+  r: []
+2026-08|tokka|7:
+  p: []
+  r: []
+2026-08|tokka|8:
+  p: [bk-tokka-sb3006, bk-tokka-forms]
+  r: []
+2026-08|tokka|9:
+  p: [bk-tokka-tp02]
+  r: [bk-tokka-tp03]
+2026-08|yuki|1:
+  p: []
+  r: []
+2026-08|yuki|10:
+  p: [bk-yuki-forms]
+  r: []
+2026-08|yuki|11:
+  p: [bk-yuki-0007]
+  r: [bk-yuki-0008]
+2026-08|yuki|12:
+  p: [bk-yuki-0013]
+  r: [bk-yuki-0007, bk-yuki-0009, bk-yuki-tp01]
+2026-08|yuki|13:
+  p: [bk-yuki-0009]
+  r: [bk-yuki-0007, bk-yuki-0008, bk-yuki-0010]
+2026-08|yuki|14:
+  p: [bk-yuki-forms]
+  r: []
+2026-08|yuki|15:
+  p: [bk-yuki-0014]
+  r: [bk-yuki-tp02]
+2026-08|yuki|16:
+  p: [bk-yuki-0001]
+  r: [bk-yuki-0004]
+2026-08|yuki|17:
+  p: [bk-yuki-forms]
+  r: []
+2026-08|yuki|18:
+  p: [bk-yuki-forms]
+  r: []
+2026-08|yuki|19:
+  p: [bk-yuki-forms]
+  r: []
+2026-08|yuki|2:
+  p: []
+  r: []
+2026-08|yuki|20:
+  p: []
+  r: [bk-yuki-0015, bk-yuki-tp02]
+2026-08|yuki|3:
+  p: [bk-yuki-forms]
+  r: []
+2026-08|yuki|4:
+  p: []
+  r: [bk-yuki-tp03, bk-yuki-0021]
+2026-08|yuki|5:
+  p: [bk-yuki-0018]
+  r: []
+2026-08|yuki|6:
+  p: []
+  r: [bk-yuki-tp03]
+2026-08|yuki|7:
+  p: [bk-yuki-tp03]
+  r: []
+2026-08|yuki|8:
+  p: []
+  r: []
+2026-08|yuki|9:
+  p: [bk-yuki-tp01]
+  r: [bk-yuki-0008]

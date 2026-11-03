@@ -36,7 +36,19 @@ const principleFile = path.join(ROOT, "master/principles.yaml");
 const principleMaster = fs.existsSync(principleFile) ? load(principleFile).principles : [];
 const subjectById = Object.fromEntries(subjects.map((s) => [s.id, s]));
 const partById = Object.fromEntries(book.parts.map((p) => [p.id, p]));
-const chapterById = Object.fromEntries(book.chapters.map((c) => [c.id, c]));
+// 参考書の章：data/master/book_map.yaml（章ID＝bk-科目-番号）が正本。book.yaml の旧い章は、公開済みの旧原稿ページと、旧URLの転送にだけ使う
+const bookMapFile = path.join(ROOT, "master/book_map.yaml");
+const bookMap = fs.existsSync(bookMapFile) ? load(bookMapFile).chapters : [];
+const qcFile = path.join(ROOT, "master/question_chapters.yaml");
+const questionChapters = fs.existsSync(qcFile) ? load(qcFile) : {};
+const chapterById = Object.fromEntries(bookMap.map((c) => [c.id, c]));
+// 問題の章：決め手の章（p）→ 関連の章（r）の順。章ページ・絞り込みは、この全部を使い、カードのタグは先頭3つ、復習ボタンは書き終えた章の先頭2つ
+const qChapterIds = (key) => {
+  const qc = questionChapters[key];
+  if (!qc) return [];
+  return [...(qc.p || []), ...(qc.r || []).filter((c) => !(qc.p || []).includes(c))].filter((c) => chapterById[c]);
+};
+const legacyChapterById = Object.fromEntries(book.chapters.map((c) => [c.id, c]));
 const trapById = Object.fromEntries(book.traps.map((t) => [t.id, t]));
 
 // 実施年月（2025-02）→ 年度・回・表示ラベル
@@ -53,11 +65,21 @@ function examInfo(key) {
     held: `${y}年${m}月実施`,
   };
 }
-const chapterLabel = (c) => (c.num ? `${c.num} ${c.name}` : c.name);
+const legacyLabel = (c) => (c.num ? `${c.num} ${c.name}` : c.name);
+// 新しい章の表示名：題｜科目名。同じ題の章（各科目の「解き方」の章など）を区別するため、科目名を付ける
+const chapterLabel = (c) => `${c.title}｜${subjectById[c.subject]?.name || ""}`;
 
 // ---- 参考書の本文（book/<章ID>.md）
 const BOOK_DIR = path.join(process.cwd(), "book");
+// 章の原稿の中の過去問の参照（2026-08|design|12）を、問題ページへのリンクにする
+function linkExamRefs(t) {
+  const url = (e, s, n) => `/q/${e}-${s}-${String(n).padStart(2, "0")}/`;
+  return t
+    .replace(/\*\*(\d{4}-\d{2})\|(\w+)\|(\d+)\*\*（([^）]*)）/g, (m, e, s, n, label) => (subjectById[s] ? `**[${label}](${url(e, s, n)})**` : m))
+    .replace(/(\d{4}-\d{2})\|(\w+)\|(\d+)/g, (m, e, s, n) => (subjectById[s] ? `[${examInfo(e).label.replace(" ", "")} 問${n}](${url(e, s, n)})` : m));
+}
 function renderBook(mdText) {
+  mdText = linkExamRefs(mdText);
   let n = 0;
   const toc = [];
   const html = md.render(mdText).replace(/<h([23])>(.*?)<\/h\1>/g, (m, lv, inner) => {
@@ -69,35 +91,58 @@ function renderBook(mdText) {
 }
 
 // ---- 章・ひっかけパターン
-const chapters = book.chapters.map((c) => ({
+const principleByIdAll = Object.fromEntries(principleMaster.map((p) => [p.id, p]));
+const KIND_NOTE = {
+  原理: "この章で扱う原理と、そこから導ける事実です。",
+  テーマ: "この章で扱う出題の枠（テーマ）です。",
+  数値表: "この章では、法令の期限・頻度・人数・濃度などの数値を表にまとめます。",
+  論点: "この章で扱う論点（暗記する事実）です。",
+  物質表: "この章では、物質ごとの測定方法（捕集法－分析法）をまとめます。",
+  解法: "この章では、計算・穴埋め・組合せ問題の解き方をまとめます。",
+};
+function chapterDescription(c) {
+  let m = `${KIND_NOTE[c.kind] || ""}\n\n`;
+  for (const pr of c.principles || []) {
+    const p = principleByIdAll[pr];
+    if (p) m += `- **${p.name}**：${p.statement}${p.formula ? `（式：${p.formula}）` : ""}\n`;
+  }
+  for (const sb of c.substances || []) m += `- 物質のまとめページ：[${sb}](/substance/${sb}/)\n`;
+  return render(m);
+}
+const chapters = bookMap.map((c) => ({
   ...c,
   label: chapterLabel(c),
+  subjectName: subjectById[c.subject]?.name,
   partName: partById[c.part]?.name,
   partNum: partById[c.part]?.num,
-  descriptionHtml: render(c.description),
+  descriptionHtml: chapterDescription(c),
   url: `/chapter/${c.id}/`,
   traps: [],
   questions: [],
   ...(() => {
+    // 参考書のページは、書き終えた章（status: written）で、book/<章ID>.md があるものだけ
     const f = path.join(BOOK_DIR, `${c.id}.md`);
-    if (!fs.existsSync(f)) return { bookUrl: null };
+    if (c.status !== "written" || !fs.existsSync(f)) return { bookUrl: null };
     const { html, toc } = renderBook(fs.readFileSync(f, "utf8"));
     return { bookUrl: `/book/${c.id}/`, bookHtml: html, bookToc: toc };
   })(),
 }));
+// 書き直し前の旧原稿（book/<旧章ID>.md）。URLを変えずに残す
+const legacyBook = book.chapters.filter((c) => fs.existsSync(path.join(BOOK_DIR, `${c.id}.md`))).map((c) => {
+  const { html, toc } = renderBook(fs.readFileSync(path.join(BOOK_DIR, `${c.id}.md`), "utf8"));
+  return { id: c.id, label: legacyLabel(c), legacy: true, part: c.part, bookUrl: `/book/${c.id}/`, bookHtml: html, bookToc: toc, questions: [], bookPrev: null, bookNext: null };
+});
 const chapterOut = Object.fromEntries(chapters.map((c) => [c.id, c]));
 
 const traps = book.traps.map((t) => {
-  if (!chapterById[t.chapter]) errors.push(`ひっかけパターン ${t.id}: 章 ${t.chapter} がない`);
-  if (t.foundation && !chapterById[t.foundation]) errors.push(`ひっかけパターン ${t.id}: 章 ${t.foundation} がない`);
   return {
     ...t,
     // 「その他（単発）」は寄せ集めなので、独立したページを作らない
     misc: t.name.includes("その他"),
     // 「その他（単発）」と、非公開にした（hidden: true）ひっかけパターンはページを作らない
     url: t.name.includes("その他") || t.hidden ? null : `/trap/${t.id}/`,
-    chapterLabel: chapterById[t.chapter] ? chapterLabel(chapterById[t.chapter]) : "",
-    chapterUrl: `/chapter/${t.chapter}/`,
+    chapterLabel: "",
+    chapterUrl: "/chapter/",
     subjectName: subjectById[t.subject]?.name,
     understandingHtml: render(t.understanding),
     reasonHtml: render(t.reason),
@@ -183,7 +228,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
     for (const q of doc.questions) {
       if (seen.has(q.num)) errors.push(`${where}: 問${q.num} が重複`);
       seen.add(q.num);
-      for (const c of q.chapters || []) if (!chapterById[c]) errors.push(`${where} 問${q.num}: 章 ${c} がない`);
+      for (const c of (questionChapters[`${exam}|${doc.subject}|${q.num}`]?.p || [])) if (!chapterById[c]) errors.push(`${where} 問${q.num}: 章 ${c} が book_map.yaml にない（tools/link_book_chapters.py を実行してください）`);
       for (const t of q.traps || []) if (!trapById[t]) errors.push(`${where} 問${q.num}: ひっかけパターン ${t} がない`);
       const answers = q.answer == null ? [] : Array.isArray(q.answer) ? q.answer : [q.answer];
       if (q.choices?.length)
@@ -217,10 +262,13 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         rank,
         rankLabel: freqInfo?.level?.label || null,
         method: freqInfo?.level?.method || null,
-        chapters: (q.chapters || []).map((c) => ({ id: c, label: chapterLabel(chapterById[c]), url: `/chapter/${c}/` })),
-        // 参考書のページがある章（主な章が先）
-        books: (q.chapters || []).filter((c) => fs.existsSync(path.join(BOOK_DIR, `${c}.md`)))
-          .map((c) => ({ label: chapterLabel(chapterById[c]), url: `/book/${c}/` })),
+        // 決め手の章（なければ、関連の章の上位2つ）。tools/link_book_chapters.py の結果
+        chapters: qChapterIds(`${exam}|${doc.subject}|${q.num}`)
+          .map((c) => ({ id: c, label: chapterLabel(chapterById[c]), url: `/chapter/${c}/` })),
+        // 参考書のページがある章（書き終えた章。決め手の章が先）
+        books: qChapterIds(`${exam}|${doc.subject}|${q.num}`)
+          .filter((c) => chapterById[c].status === "written" && fs.existsSync(path.join(BOOK_DIR, `${c}.md`)))
+          .slice(0, 2).map((c) => ({ label: chapterLabel(chapterById[c]), url: `/book/${c}/` })),
         traps: qTraps.map((t) => trapOut[t.id]),
         summary: q.summary || null,
         _text: [q.stem, ...(q.choices || [])].join(" "),   // 物質などの照合用（サイトには出さない）
@@ -295,8 +343,23 @@ for (const q of questions) {
   for (const c of q.chapters) chapterOut[c.id].questions.push(q);
   for (const t of q.traps) trapOut[t.id].questions.push(q);
 }
-for (const t of traps) if (t.questions.length) chapterOut[t.chapter].traps.push(t);
-for (const c of chapters) c.traps.sort((a, b) => RANK_ORDER[a.rank] - RANK_ORDER[b.rank] || b.count - a.count);
+// 章ごとのひっかけパターン（その章の問題に出たものだけ。問題は、その章の問題に限る）
+for (const c of chapters) {
+  const m = new Map();
+  for (const q of c.questions) for (const t of q.traps) {
+    if (t.misc || t.hidden || !t.url) continue;
+    if (!m.has(t.id)) m.set(t.id, { ...t, qs: [] });
+    m.get(t.id).qs.push(q);
+  }
+  c.traps = [...m.values()].sort((a, b) => RANK_ORDER[a.rank] - RANK_ORDER[b.rank] || b.count - a.count);
+}
+// ひっかけパターンのページから、いちばん関係の深い章へ（パンくず用）
+for (const t of traps) {
+  const cnt = new Map();
+  for (const q of t.questions) for (const c of q.chapters) cnt.set(c.id, (cnt.get(c.id) || 0) + 1);
+  const top = [...cnt.entries()].sort((a, b) => b[1] - a[1])[0];
+  if (top) { t.chapterLabel = chapterOut[top[0]].label; t.chapterUrl = `/chapter/${top[0]}/`; }
+}
 
 // 一覧ページ用の軽いデータ（科目ごとに /data/<科目>.json として書き出す）
 const listItem = (q) => ({
@@ -320,14 +383,35 @@ const parts = book.parts
   .filter((p) => p.chapters.length);
 
 // 参考書のページがある章（目次の順）と前後のつながり
-const bookChapters = chapters.filter((c) => c.bookUrl);
-bookChapters.forEach((c, i) => {
-  c.bookPrev = bookChapters[i - 1] ? { label: bookChapters[i - 1].label, url: bookChapters[i - 1].bookUrl } : null;
-  c.bookNext = bookChapters[i + 1] ? { label: bookChapters[i + 1].label, url: bookChapters[i + 1].bookUrl } : null;
+const writtenChapters = chapters.filter((c) => c.bookUrl);
+writtenChapters.forEach((c, i) => {
+  c.bookPrev = writtenChapters[i - 1] ? { label: writtenChapters[i - 1].label, url: writtenChapters[i - 1].bookUrl } : null;
+  c.bookNext = writtenChapters[i + 1] ? { label: writtenChapters[i + 1].label, url: writtenChapters[i + 1].bookUrl } : null;
 });
+const bookChapters = [...writtenChapters, ...legacyBook];   // 参考書のページを作る章（新しい章＋旧原稿）
 const bookParts = book.parts
-  .map((p) => ({ ...p, chapters: chapters.filter((c) => c.part === p.id) }))
+  .map((p) => ({ ...p, chapters: writtenChapters.filter((c) => c.part === p.id) }))
   .filter((p) => p.chapters.length);
+// 旧い章（book.yaml）のURL → いちばん問題が重なる新しい章へ、転送する
+const legacyRedirects = [];
+{
+  const qnew = new Map(questions.map((q) => [`${q.exam.key}|${q.subject}|${q.num}`, q.chapters.map((c) => c.id)]));
+  const oldQs = new Map();
+  for (const exam of fs.readdirSync(examsDir)) for (const file of fs.readdirSync(path.join(examsDir, exam)).filter((f) => f.endsWith(".yaml"))) {
+    const d = load(path.join(examsDir, exam, file));
+    for (const q of d.questions) for (const oc of q.chapters || []) {
+      const k = `${exam}|${d.subject}|${q.num}`;
+      if (!oldQs.has(oc)) oldQs.set(oc, []);
+      oldQs.get(oc).push(k);
+    }
+  }
+  for (const oc of book.chapters) {
+    const cnt = new Map();
+    for (const k of oldQs.get(oc.id) || []) for (const c of qnew.get(k) || []) cnt.set(c, (cnt.get(c) || 0) + 1);
+    const top = [...cnt.entries()].sort((a, b) => b[1] - a[1])[0];
+    legacyRedirects.push({ from: `/chapter/${oc.id}/`, to: top ? `/chapter/${top[0]}/` : "/chapter/" });
+  }
+}
 
 // ---- 件数（トップページの紹介文用）
 const kindOf = Object.fromEntries(subjects.map((sj) => [sj.id, sj.kind]));
@@ -418,6 +502,8 @@ export default {
   minorQuestions,
   bookChapters,
   bookParts,
+  legacyBook,
+  legacyRedirects,
   subjects,
   subjectsWithData,
   exams,

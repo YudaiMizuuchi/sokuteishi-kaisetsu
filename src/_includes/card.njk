@@ -26,7 +26,7 @@
     <p class="source">問題文と選択肢は<a href="{{ q.sourcePdf }}" rel="noopener">公式の公表試験問題（PDF）</a>でご確認ください。</p>
   {% endif %}
   <div class="tags">
-    {% for c in q.chapters %}<a class="tag" href="{{ c.url }}">{{ c.label }}</a>{% endfor %}
+    {% for c in q.chapters %}{% if loop.index <= 3 %}<a class="tag" href="{{ c.url }}">{{ c.label }}</a>{% endif %}{% endfor %}
   </div>
   <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-{{ q.id }}" data-answer="{{ q.answer | join(',') }}"{% if not q.hasExplanation %} data-noexp="1"{% endif %}>{% if q.hasExplanation %}解説を見る{% else %}正答を見る{% endif %}</button>
   <div class="answer" id="ans-{{ q.id }}" hidden>
