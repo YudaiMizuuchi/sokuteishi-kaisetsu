@@ -121,7 +121,7 @@ for (_s,_k),_pid in _K2P.items(): _PEX[(_s,_pid)].add(_k.split('|')[0])
 PR_BY_POINT=collections.defaultdict(list); PR_EXAMS={}; PR_NAME={}
 for _pr in _PRD['principles']:
     PR_NAME[_pr['id']]=_pr['name']
-    PR_EXAMS[_pr['id']]=set().union(*[_PEX[(_pr['subject'],x)] for x in _pr['points']]) if _pr['points'] else set()
+    PR_EXAMS[_pr['id']]=set().union(*[_PEX[(_pr['subject'],x)] for x in _pr['points'] if not x.startswith('qp-')]) if [x for x in _pr['points'] if not x.startswith('qp-')] else set()   # 問題論点（qp-）は、原理の出題回数に数えない（区分の判定を変えないため）
     for x in _pr['points']: PR_BY_POINT[(_pr['subject'],x)].append(_pr['id'])
 
 docs=collections.defaultdict(dict)   # subject -> exam -> (file, data)

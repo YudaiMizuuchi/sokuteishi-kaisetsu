@@ -17,6 +17,9 @@ def candidates(subj):
         d=yaml.safe_load(open(f,encoding='utf-8')); e=f.split('/')[2]
         for q in d['questions']:
             for i,c in enumerate(q.get('choices') or [],1): txt[f"{e}|{q['num']}|{i}"]=re.sub(r'\s+','',str(c))
+            a=q['answer'] if isinstance(q.get('answer'),list) else [q.get('answer')]
+            if q.get('choices') and a and isinstance(a[0],int) and a[0]<=len(q['choices']):   # 問題論点（キー 回|問|0）の本文＝問題文＋正答
+                txt[f"{e}|{q['num']}|0"]=re.sub(r'\s+','',str(q['stem'])+' '+str(q['choices'][a[0]-1]))
     out=[]
     for p in m['points']:
         if p['subject']!=subj or p.get('merged_into'): continue

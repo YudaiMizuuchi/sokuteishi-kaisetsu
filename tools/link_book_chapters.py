@@ -40,6 +40,8 @@ for subj,exams in CF.docs.items():
                         else: rel[c]+=1
             else:
                 prim+=by_form.get((subj,BC.FORMKEY[k]),[])
+                qp=CF._K2P.get((subj,f"{e}|{q['num']}|0"))   # 問題論点（tools/build_qpoints.py）
+                if qp: prim+=by_pt.get((subj,qp),[])
             prim=srt(prim); r=[c for c,_ in sorted(rel.items(),key=lambda x:(-x[1],order[x[0]])) if c not in prim][:3]
             out[f'{e}|{subj}|{q["num"]}']={'p':prim,'r':r}
             stat['決め手の章あり' if prim else ('関連の章のみ' if r else '章なし')]+=1

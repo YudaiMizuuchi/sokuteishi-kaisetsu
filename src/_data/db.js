@@ -134,7 +134,9 @@ const legacyBook = book.chapters.filter((c) => fs.existsSync(path.join(BOOK_DIR,
 });
 const chapterOut = Object.fromEntries(chapters.map((c) => [c.id, c]));
 
-const traps = book.traps.map((t) => {
+// 選択科目のパターン（sl-*）は、判定に使っておらず（論点に置き換わった）、ページも作らない。非公開（hidden）として扱う
+const traps = book.traps.map((t0) => {
+  const t = t0.id.startsWith("sl-") ? { ...t0, hidden: true } : t0;
   return {
     ...t,
     // 「その他（単発）」は寄せ集めなので、独立したページを作らない
@@ -426,12 +428,15 @@ const legacyRedirects = [];
       oldQs.get(oc).push(k);
     }
   }
+  const legacyTo = {};
   for (const oc of book.chapters) {
     const cnt = new Map();
     for (const k of oldQs.get(oc.id) || []) for (const c of qnew.get(k) || []) cnt.set(c, (cnt.get(c) || 0) + 1);
     const top = [...cnt.entries()].sort((a, b) => b[1] - a[1])[0];
     legacyRedirects.push({ from: `/chapter/${oc.id}/`, to: top ? `/chapter/${top[0]}/` : "/chapter/" });
+    legacyTo[oc.id] = top ? `/chapter/${top[0]}/` : "/chapter/";
   }
+  for (const t of book.traps.filter((x) => x.id.startsWith("sl-"))) legacyRedirects.push({ from: `/trap/${t.id}/`, to: legacyTo[t.chapter] || "/chapter/" });
 }
 
 // ---- 件数（トップページの紹介文用）

@@ -147,13 +147,22 @@ def collect_problems():
                                 if pid: near.append((t[0],pid))
                     rec['near']=near
                 else:
-                    rec['form']=FORMKEY[k]; rec['seen']=form_seen(subj,N,q,k,past)
+                    rec['form']=FORMKEY[k]; rec['seen']=form_seen(subj,N,q,k,past); rec['qp']=CF._K2P.get((subj,f"{N}|{q['num']}|0"))
                 P.append(rec)
     return P
 
 # ---------------------------------------------------------------- 対応表の読み込み・採点
-def load_map(path=MAP):
-    return yaml.safe_load(open(path,encoding='utf-8'))['chapters'] if os.path.exists(path) else []
+QPC_PATH='data/master/qpoint_chapters.yaml'
+def load_qpc():
+    """tools/assign_qpoints.py の結果：章ID → 足す論点（問題論点を含む）"""
+    return (yaml.safe_load(open(QPC_PATH,encoding='utf-8')) or {}) if os.path.exists(QPC_PATH) else {}
+def load_map(path=MAP,raw=False):
+    ch=yaml.safe_load(open(path,encoding='utf-8'))['chapters'] if os.path.exists(path) else []
+    if raw: return ch
+    qpc=load_qpc()   # 章の論点（points）に、割り当て表の論点を足す（book_map.yaml 自体は書き換えない）
+    for c in ch:
+        if c['id'] in qpc: c['points']=sorted(set(c.get('points') or [])|set(qpc[c['id']]))
+    return ch
 
 class Scorer:
     def __init__(self,problems,pts):
@@ -161,7 +170,7 @@ class Scorer:
         for p in pts:
             if p.get('theme'): self.theme_pts[(p['subject'],p['theme'])].add(p['id'])
         self.prin={p['id']:p for p in CF._PRD['principles']}
-    def build(self,chapters):
+    def build(self,chapters,use_qpc=True):
         mode={}; sbs=set(); forms=set()   # mode: (科目,論点id)->'full'|'theme'|'seen'
         rank={'full':3,'theme':2,'seen':1}
         def put(k,m):
@@ -181,6 +190,10 @@ class Scorer:
         if rec['kind']!='stmt':
             if rec['sb'] and rec['sb'] in sbs: return 1.0,'subst'
             if (s,rec['form']) in forms and rec['seen']: return 1.0,'form'
+            qp=rec.get('qp'); m=mode.get((s,qp)) if qp else None   # 問題論点（同じ問題が、章に収録されている）
+            if m:
+                seen=any(e<N for e in CF._PEX[(s,qp)])
+                if m=='full' or seen: return 1.0,'qpoint'
             return 0.0,'none'
         def known(pid):
             if not pid: return False

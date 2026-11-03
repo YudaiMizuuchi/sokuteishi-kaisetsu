@@ -1,5 +1,3 @@
-# 参考書の章と、過去問の判定の材料との対応表（tools/book_coverage.py）。サイトの表示・区分の判定には使わない。
-# 指示Y 反映版：原理の章の統合（42候補→）、論点の章の追加（freq≥2の未収録論点）、部の割り当て part（book.yaml の parts の id）。章IDは変えない。
 chapters:
 - id: bk-bunseki-0001
   subject: bunseki
@@ -2331,7 +2329,7 @@ chapters:
   forms:
   - 計算問題
   - 穴埋め・組合せの問題
-  status: draft
+  status: written
   part: select
 - id: bk-tokka-forms
   subject: tokka
@@ -3573,3 +3571,208 @@ chapters:
   - pt-hourei-0264
   status: draft
   part: law
+- id: bk-design-tp14
+  subject: design
+  title: 放射性物質の試料捕集（捕集方法と測定）
+  kind: 論点
+  points:
+  - qp-design-0002
+  - qp-design-0006
+  - qp-design-0017
+  - qp-design-0020
+  - qp-design-0045
+  status: draft
+  part: sampling
+- id: bk-tokka-tp04
+  subject: tokka
+  title: 捕集法の適否（固体・液体・ろ過・相補型ろ過）
+  kind: 論点
+  points:
+  - pt-tokka-0176
+  - qp-tokka-0026
+  - qp-tokka-0036
+  - qp-tokka-0043
+  - qp-tokka-0049
+  - qp-tokka-0050
+  - qp-tokka-0051
+  - qp-tokka-0058
+  - qp-tokka-0065
+  - qp-tokka-0069
+  - qp-tokka-0078
+  - qp-tokka-0079
+  - qp-tokka-0097
+  status: draft
+  part: select
+- id: bk-bunseki-tp11
+  subject: bunseki
+  title: SI単位・物理量・接頭語
+  kind: 論点
+  points:
+  - pt-bunseki-0405
+  - qp-bunseki-0019
+  - qp-bunseki-0027
+  - qp-bunseki-0033
+  - qp-bunseki-0037
+  - qp-bunseki-0044
+  - qp-bunseki-0053
+  - qp-bunseki-0064
+  - qp-bunseki-0084
+  status: draft
+  part: analysis
+- id: bk-kinzoku-tp08
+  subject: kinzoku
+  title: 物質別の吸光光度・蛍光光度分析（クロム(Ⅵ)・ベリリウム）
+  kind: 論点
+  points:
+  - pt-kinzoku-0047
+  - pt-kinzoku-0211
+  - pt-kinzoku-0219
+  - pt-kinzoku-0221
+  - pt-kinzoku-0247
+  - pt-kinzoku-0252
+  - pt-kinzoku-0269
+  - pt-kinzoku-0283
+  - pt-kinzoku-0286
+  - pt-kinzoku-0304
+  - pt-kinzoku-0332
+  - pt-kinzoku-0343
+  - pt-kinzoku-0349
+  - pt-kinzoku-0350
+  - pt-kinzoku-0351
+  - pt-kinzoku-0382
+  - pt-kinzoku-0387
+  - pt-kinzoku-0388
+  - pt-kinzoku-0404
+  - pt-kinzoku-0424
+  - pt-kinzoku-0444
+  status: draft
+  part: select
+- id: bk-kinzoku-tp09
+  subject: kinzoku
+  title: 物質別の原子吸光・ICP分析（鉛・バナジウム・ヒ素・マンガン・カドミウム・ニッケル・水銀）
+  kind: 論点
+  points:
+  - pt-kinzoku-0001
+  - pt-kinzoku-0052
+  - pt-kinzoku-0204
+  - pt-kinzoku-0207
+  - pt-kinzoku-0214
+  - pt-kinzoku-0217
+  - pt-kinzoku-0220
+  - pt-kinzoku-0226
+  - pt-kinzoku-0235
+  - pt-kinzoku-0254
+  - pt-kinzoku-0255
+  - pt-kinzoku-0259
+  - pt-kinzoku-0260
+  - pt-kinzoku-0265
+  - pt-kinzoku-0272
+  - pt-kinzoku-0280
+  - pt-kinzoku-0284
+  - pt-kinzoku-0285
+  - pt-kinzoku-0293
+  - pt-kinzoku-0300
+  - pt-kinzoku-0302
+  - pt-kinzoku-0310
+  - pt-kinzoku-0314
+  - pt-kinzoku-0321
+  - pt-kinzoku-0346
+  - pt-kinzoku-0352
+  - pt-kinzoku-0353
+  - pt-kinzoku-0356
+  - pt-kinzoku-0371
+  - pt-kinzoku-0372
+  - pt-kinzoku-0384
+  - pt-kinzoku-0389
+  - pt-kinzoku-0396
+  - pt-kinzoku-0397
+  - pt-kinzoku-0398
+  - pt-kinzoku-0422
+  - pt-kinzoku-0427
+  - pt-kinzoku-0430
+  - pt-kinzoku-0431
+  - pt-kinzoku-0446
+  - qp-kinzoku-0007
+  - qp-kinzoku-0009
+  status: draft
+  part: select
+- id: bk-hourei-tp07
+  subject: hourei
+  title: 譲渡・貸与の制限（厚生労働大臣の規格）と防毒マスク・送気マスク・相対濃度計
+  kind: 論点
+  points:
+  - pt-hourei-0379
+  - qp-hourei-0002
+  - qp-hourei-0012
+  - qp-hourei-0016
+  - qp-hourei-0025
+  - qp-hourei-0035
+  - qp-hourei-0038
+  - qp-hourei-0042
+  - qp-hourei-0045
+  status: draft
+  part: law
+- id: bk-bunseki-0014
+  subject: bunseki
+  title: 気体の状態方程式
+  kind: 原理
+  principles:
+  - pr-bunseki-0014
+  status: draft
+  part: analysis
+- id: bk-bunseki-0021
+  subject: bunseki
+  title: 希釈しても、溶質の物質量は変わらない
+  kind: 原理
+  principles:
+  - pr-bunseki-0021
+  status: draft
+  part: analysis
+- id: bk-yuki-0024
+  subject: yuki
+  title: 気体の体積とppm濃度の換算
+  kind: 原理
+  principles:
+  - pr-yuki-0024
+  status: draft
+  part: select
+- id: bk-yuki-0025
+  subject: yuki
+  title: 有機溶剤の水への溶解（極性・水酸基）
+  kind: 原理
+  principles:
+  - pr-yuki-0025
+  status: draft
+  part: select
+- id: bk-tokka-0006
+  subject: tokka
+  title: 活性炭への吸着と脱着
+  kind: 原理
+  principles:
+  - pr-tokka-0006
+  status: draft
+  part: select
+- id: bk-tokka-0008
+  subject: tokka
+  title: 標定・滴定の量的関係
+  kind: 原理
+  principles:
+  - pr-tokka-0008
+  status: draft
+  part: select
+- id: bk-tokka-0010
+  subject: tokka
+  title: 芳香族アミンのジアゾカップリング発色
+  kind: 原理
+  principles:
+  - pr-tokka-0010
+  status: draft
+  part: select
+- id: bk-kinzoku-0016
+  subject: kinzoku
+  title: 標準液の調製（化合物から金属量を求める）
+  kind: 原理
+  principles:
+  - pr-kinzoku-0016
+  status: draft
+  part: select

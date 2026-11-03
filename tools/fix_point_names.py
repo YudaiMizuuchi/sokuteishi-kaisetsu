@@ -31,7 +31,7 @@ def newname(p):
     return None
 ch=0;out=[]
 for p in pts['points']:
-    if p.get('merged_into') or '…' not in p['name']: continue
+    if p.get('merged_into') or p['id'].startswith('qp-') or '…' not in p['name']: continue
     nn=newname(p)
     if nn and nn!=p['name']:
         ch+=1

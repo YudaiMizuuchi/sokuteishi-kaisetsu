@@ -66,7 +66,11 @@ def pack(cid):
         p=prin[pr]; L+=[f"## 原理 {pr}：{p['name']}",'',p['statement'],'']+([f"公式：{p['formula']}",''] if p.get('formula') else [])
         ids+=p.get('points') or []
     ids+=ch.get('points') or []
+    _qp=P('qpoint_chapters.yaml')   # 問題論点の割り当て（tools/assign_qpoints.py）
+    if os.path.exists(_qp): ids+=(_load(_qp) or {}).get(cid,[])
     for th in ch.get('themes') or []: ids+=[p['id'] for p in pts.values() if p['subject']==subj and p.get('theme')==th and not p.get('merged_into')]
+    if ch['kind']=='解法':   # 解法の章：その科目の問題論点（計算・穴埋め・組合せ・物質名を選ぶ問題）を、すべて一覧にする
+        ids+=[pid for pid,p in pts.items() if p['subject']==subj and pid.startswith('qp-') and not p.get('merged_into')]
     ids=list(dict.fromkeys(ids))
     def truth(subj_,e,n,i):
         q=question(subj_,e,n)
@@ -85,7 +89,7 @@ def pack(cid):
         for _,pid,p,exs in sorted(rows,key=lambda x:(x[0],x[1])):
             ap=[]
             for k in sorted(p['members'],reverse=True)[:6]:
-                e,n,i=k.split('|'); ap.append(f"{e}|{subj}|{n}|{i}（{truth(subj,e,n,int(i))}）"); used.append((e,n))
+                e,n,i=k.split('|'); ap.append(f"{e}|{subj}|{n}"+("（問題）" if i=='0' else f"|{i}（{truth(subj,e,n,int(i))}）")); used.append((e,n))
             L.append(f"- **{pid}**　{p['name']}　〔{len(exs)}回：{ '、'.join(exs[-4:]) }〕　{ '、'.join(ap) }")
         L.append('')
     # 物質表
@@ -111,17 +115,19 @@ def pack(cid):
                 t=str(q['stem'])+' '+str(q['choices'][a[0]-1])
                 if METHOD.search(t) and any(p.search(t) for p in pats): used.append((e,q['num']))
     # 過去問（決め手になる問題）
-    L+=['## この章に関わる過去問（新しい順、最大25問）','']
+    _lim='40' if ch['kind']=='解法' else '25'
+    L+=[f'## この章に関わる過去問（新しい順、最大{_lim}問）'+('。解法の章：計算・穴埋め・組合せ・物質名を選ぶ問題。上の論点の一覧には、この科目の問題論点（qp-）をすべて載せている' if ch['kind']=='解法' else ''),'']
     shown=[];seen=set()
     if ch['kind']=='解法':
         for e in sorted(os.listdir(os.path.join(root,'exams') if os.path.isdir(os.path.join(root,'exams')) else os.path.join(root,'data/exams')),reverse=True):
             d=exam(subj,e)
             if not d: continue
             for q in d['questions']:
-                if q.get('choices') and qkind(q) in('calc','combo') : shown.append((e,q['num']))
+                if q.get('choices') and qkind(q)!='stmt' : shown.append((e,q['num']))
     else:
         for e,n in sorted(set(used),reverse=True): shown.append((e,n))
-    for e,n in shown[:25]:
+    LIM=40 if ch['kind']=='解法' else 25
+    for e,n in shown[:LIM]:
         t=show_q(subj,e,n)
         if t: L+=[t,'']
     return '\n'.join(L)

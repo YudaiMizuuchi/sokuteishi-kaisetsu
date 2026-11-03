@@ -14,6 +14,7 @@ principles:
   - pt-bunseki-0012
   - pt-bunseki-0077
   - pt-bunseki-0189
+  - qp-bunseki-0042
 - id: pr-bunseki-0002
   subject: bunseki
   name: 吸光度と透過率の関係
@@ -43,6 +44,7 @@ principles:
   - pt-bunseki-0022
   - pt-bunseki-0119
   - pt-bunseki-0272
+  - qp-bunseki-0042
 - id: pr-bunseki-0004
   subject: bunseki
   name: 蛍光は励起光より長波長
@@ -141,6 +143,7 @@ principles:
   - pt-bunseki-0011
   - pt-bunseki-0021
   - pt-bunseki-0045
+  - qp-bunseki-0073
 - id: pr-bunseki-0012
   subject: bunseki
   name: X線回折の線源は特性X線
@@ -156,6 +159,7 @@ principles:
   - pt-bunseki-0027
   - pt-bunseki-0137
   - pt-bunseki-0142
+  - qp-bunseki-0073
 - id: pr-bunseki-0013
   subject: bunseki
   name: X線の吸収補正
@@ -177,7 +181,10 @@ principles:
   - 気体定数
   - モル体積
   - PV
-  points: []
+  points:
+  - qp-bunseki-0031
+  - qp-bunseki-0075
+  - qp-bunseki-0090
 - id: pr-bunseki-0015
   subject: bunseki
   name: ドルトンの分圧の法則
@@ -238,6 +245,7 @@ principles:
   - pt-bunseki-0449
   - pt-bunseki-0450
   - pt-bunseki-0466
+  - qp-bunseki-0036
 - id: pr-bunseki-0019
   subject: bunseki
   name: 物質量・モル質量・アボガドロ定数
@@ -266,6 +274,9 @@ principles:
   - pt-bunseki-0337
   - pt-bunseki-0341
   - pt-bunseki-0354
+  - qp-bunseki-0023
+  - qp-bunseki-0028
+  - qp-bunseki-0029
 - id: pr-bunseki-0020
   subject: bunseki
   name: 濃度の換算と単位
@@ -294,7 +305,10 @@ principles:
   keywords:
   - 希釈
   - 薄め
-  points: []
+  points:
+  - qp-bunseki-0023
+  - qp-bunseki-0025
+  - qp-bunseki-0035
 - id: pr-bunseki-0022
   subject: bunseki
   name: 中和・酸化還元の量的関係
@@ -308,6 +322,7 @@ principles:
   - 価数
   points:
   - pt-bunseki-0264
+  - qp-bunseki-0047
 - id: pr-bunseki-0023
   subject: bunseki
   name: 標定と一次標準物質
@@ -326,6 +341,9 @@ principles:
   - pt-bunseki-0280
   - pt-bunseki-0304
   - pt-bunseki-0393
+  - qp-bunseki-0055
+  - qp-bunseki-0071
+  - qp-bunseki-0077
 - id: pr-bunseki-0024
   subject: bunseki
   name: 有効数字と数値の丸め
@@ -341,6 +359,11 @@ principles:
   - pt-bunseki-0326
   - pt-bunseki-0365
   - pt-bunseki-0406
+  - qp-bunseki-0017
+  - qp-bunseki-0024
+  - qp-bunseki-0028
+  - qp-bunseki-0038
+  - qp-bunseki-0054
 - id: pr-bunseki-0025
   subject: bunseki
   name: 誤差と統計量
@@ -355,6 +378,12 @@ principles:
   points:
   - pt-bunseki-0225
   - pt-bunseki-0284
+  - qp-bunseki-0030
+  - qp-bunseki-0063
+  - qp-bunseki-0065
+  - qp-bunseki-0074
+  - qp-bunseki-0079
+  - qp-bunseki-0088
 - id: pr-bunseki-0026
   subject: bunseki
   name: 放射能の半減期
@@ -388,6 +417,7 @@ principles:
   - pt-bunseki-0387
   - pt-bunseki-0390
   - pt-bunseki-0467
+  - qp-bunseki-0068
 - id: pr-bunseki-0028
   subject: bunseki
   name: 理論段数と理論段相当高さ
@@ -401,6 +431,8 @@ principles:
   points:
   - pt-bunseki-0229
   - pt-bunseki-0320
+  - qp-bunseki-0016
+  - qp-bunseki-0048
 - id: pr-bunseki-0029
   subject: bunseki
   name: 保持時間と溶出順
@@ -415,6 +447,7 @@ principles:
   - pt-bunseki-0095
   - pt-bunseki-0131
   - pt-bunseki-0435
+  - qp-bunseki-0049
 - id: pr-bunseki-0030
   subject: bunseki
   name: 分配係数
@@ -452,6 +485,7 @@ principles:
   - pt-bunseki-0256
   - pt-bunseki-0262
   - pt-bunseki-0279
+  - qp-bunseki-0050
 - id: pr-bunseki-0032
   subject: bunseki
   name: 検量線法・標準添加法・内標準法
@@ -567,6 +601,8 @@ principles:
   - pt-bunseki-0479
   - pt-bunseki-0482
   - pt-bunseki-0483
+  - qp-bunseki-0080
+  - qp-bunseki-0089
 - id: pr-bunseki-0038
   subject: bunseki
   name: 酸・塩の水溶液のpH
@@ -579,6 +615,12 @@ principles:
   - 水素イオン
   points:
   - pt-bunseki-0133
+  - qp-bunseki-0051
+  - qp-bunseki-0058
+  - qp-bunseki-0062
+  - qp-bunseki-0069
+  - qp-bunseki-0083
+  - qp-bunseki-0085
 - id: pr-bunseki-0039
   subject: bunseki
   name: 光のエネルギーと波長
@@ -614,6 +656,10 @@ principles:
   - 吸光度.{0,12}(濃度|光路長|液層).{0,8}比例
   points:
   - pt-yuki-0017
+  - qp-yuki-0013
+  - qp-yuki-0026
+  - qp-yuki-0046
+  - qp-yuki-0047
 - id: pr-yuki-0002
   subject: yuki
   name: 吸光度と透過率の関係
@@ -710,6 +756,8 @@ principles:
   - pt-yuki-0257
   - pt-yuki-0270
   - pt-yuki-0285
+  - qp-yuki-0003
+  - qp-yuki-0006
 - id: pr-yuki-0008
   subject: yuki
   name: キャリアガスの流速とカラム効率
@@ -744,6 +792,16 @@ principles:
   - pt-yuki-0046
   - pt-yuki-0128
   - pt-yuki-0211
+  - qp-yuki-0004
+  - qp-yuki-0005
+  - qp-yuki-0009
+  - qp-yuki-0012
+  - qp-yuki-0031
+  - qp-yuki-0038
+  - qp-yuki-0055
+  - qp-yuki-0057
+  - qp-yuki-0058
+  - qp-yuki-0061
 - id: pr-yuki-0010
   subject: yuki
   name: 分配平衡と分離
@@ -888,6 +946,7 @@ principles:
   points:
   - pt-yuki-0086
   - pt-yuki-0110
+  - qp-yuki-0007
 - id: pr-yuki-0018
   subject: yuki
   name: 固体捕集剤の性質（活性炭・シリカゲル・ポーラスポリマー）
@@ -928,6 +987,7 @@ principles:
   - pt-yuki-0148
   - pt-yuki-0269
   - pt-yuki-0288
+  - qp-yuki-0002
 - id: pr-yuki-0020
   subject: yuki
   name: 流量計の校正と圧力損失
@@ -980,6 +1040,7 @@ principles:
   - pt-yuki-0213
   - pt-yuki-0248
   - pt-yuki-0278
+  - qp-yuki-0008
 - id: pr-yuki-0023
   subject: yuki
   name: 沸点・蒸気圧・融点・分子量の比較
@@ -998,6 +1059,14 @@ principles:
   - pt-yuki-0251
   - pt-yuki-0264
   - pt-yuki-0266
+  - qp-yuki-0011
+  - qp-yuki-0015
+  - qp-yuki-0033
+  - qp-yuki-0036
+  - qp-yuki-0043
+  - qp-yuki-0045
+  - qp-yuki-0059
+  - qp-yuki-0064
 - id: pr-yuki-0024
   subject: yuki
   name: 気体の体積とppm濃度の換算
@@ -1009,7 +1078,10 @@ principles:
   - モル体積
   - 体積分率
   - 気体の体積
-  points: []
+  points:
+  - qp-yuki-0014
+  - qp-yuki-0020
+  - qp-yuki-0041
 - id: pr-yuki-0025
   subject: yuki
   name: 有機溶剤の水への溶解（極性・水酸基）
@@ -1021,7 +1093,13 @@ principles:
   - 溶解性
   - 混和
   - 水と任意
-  points: []
+  points:
+  - qp-yuki-0009
+  - qp-yuki-0027
+  - qp-yuki-0034
+  - qp-yuki-0048
+  - qp-yuki-0056
+  - qp-yuki-0057
 - id: pr-yuki-0026
   subject: yuki
   name: 光の吸収と波長範囲
@@ -1046,6 +1124,10 @@ principles:
   points:
   - pt-tokka-0017
   - pt-tokka-0033
+  - qp-tokka-0006
+  - qp-tokka-0024
+  - qp-tokka-0032
+  - qp-tokka-0066
 - id: pr-tokka-0002
   subject: tokka
   name: ガラスは紫外光を吸収する（セルの材質と波長）
@@ -1096,6 +1178,10 @@ principles:
   - pt-tokka-0066
   - pt-tokka-0067
   - pt-tokka-0071
+  - qp-tokka-0025
+  - qp-tokka-0053
+  - qp-tokka-0060
+  - qp-tokka-0088
 - id: pr-tokka-0005
   subject: tokka
   name: 拡散セルによる標準ガスの発生
@@ -1113,6 +1199,7 @@ principles:
   - pt-tokka-0024
   - pt-tokka-0027
   - pt-tokka-0029
+  - qp-tokka-0011
 - id: pr-tokka-0006
   subject: tokka
   name: 活性炭への吸着と脱着
@@ -1123,7 +1210,10 @@ principles:
   - 脱着
   - 固体捕集法
   - 冷蔵保存
-  points: []
+  points:
+  - qp-tokka-0030
+  - qp-tokka-0042
+  - qp-tokka-0064
 - id: pr-tokka-0007
   subject: tokka
   name: 酸性ガスは塩基性の捕集液に吸収される
@@ -1135,6 +1225,7 @@ principles:
   - 酸性
   points:
   - pt-tokka-0002
+  - qp-tokka-0037
 - id: pr-tokka-0008
   subject: tokka
   name: 標定・滴定の量的関係
@@ -1145,7 +1236,10 @@ principles:
   - 滴定
   - 硝酸銀
   - チオ硫酸
-  points: []
+  points:
+  - qp-tokka-0018
+  - qp-tokka-0029
+  - qp-tokka-0077
 - id: pr-tokka-0009
   subject: tokka
   name: 酸化剤・還元剤の働き
@@ -1168,7 +1262,10 @@ principles:
   - クロラミンT
   - ピリジン-ピラゾロン
   - カップリング
-  points: []
+  points:
+  - qp-tokka-0033
+  - qp-tokka-0070
+  - qp-tokka-0085
 - id: pr-tokka-0011
   subject: tokka
   name: 沸点・融点・蒸気圧の比較（分子間力）
@@ -1184,6 +1281,11 @@ principles:
   - pt-tokka-0034
   - pt-tokka-0035
   - pt-tokka-0040
+  - qp-tokka-0017
+  - qp-tokka-0035
+  - qp-tokka-0055
+  - qp-tokka-0063
+  - qp-tokka-0086
 - id: pr-tokka-0012
   subject: tokka
   name: 理論段数とカラムの内径
@@ -1221,6 +1323,7 @@ principles:
   - 吸光度.{0,12}(濃度|光路長).{0,8}比例
   points:
   - pt-kinzoku-0022
+  - qp-kinzoku-0022
 - id: pr-kinzoku-0002
   subject: kinzoku
   name: 吸光度測定の条件（吸収極大・加熱後は常温）
@@ -1276,6 +1379,9 @@ principles:
   - 光路長と
   points:
   - pt-kinzoku-0041
+  - qp-kinzoku-0003
+  - qp-kinzoku-0010
+  - qp-kinzoku-0027
 - id: pr-kinzoku-0006
   subject: kinzoku
   name: 原子吸光の光源は線光源
@@ -1321,6 +1427,7 @@ principles:
   - pt-kinzoku-0049
   - pt-kinzoku-0083
   - pt-kinzoku-0108
+  - qp-kinzoku-0023
 - id: pr-kinzoku-0009
   subject: kinzoku
   name: 干渉とその抑制
@@ -1355,6 +1462,7 @@ principles:
   - pt-kinzoku-0062
   - pt-kinzoku-0090
   - pt-kinzoku-0102
+  - qp-kinzoku-0020
 - id: pr-kinzoku-0011
   subject: kinzoku
   name: 水素化物発生法の還元
@@ -1371,6 +1479,7 @@ principles:
   - pt-kinzoku-0027
   - pt-kinzoku-0031
   - pt-kinzoku-0061
+  - qp-kinzoku-0024
 - id: pr-kinzoku-0012
   subject: kinzoku
   name: 水銀の酸化・還元
@@ -1408,6 +1517,8 @@ principles:
   - pt-kinzoku-0091
   - pt-kinzoku-0100
   - pt-kinzoku-0104
+  - qp-kinzoku-0005
+  - qp-kinzoku-0021
 - id: pr-kinzoku-0014
   subject: kinzoku
   name: 酸の性質と試料の溶解
@@ -1450,7 +1561,8 @@ principles:
   - メタバナジン
   - 二クロム酸
   - 酸化マンガン
-  points: []
+  points:
+  - qp-kinzoku-0006
 - id: pr-kinzoku-0017
   subject: kinzoku
   name: ろ過捕集（ろ過材と面速）
@@ -1530,6 +1642,8 @@ principles:
   - pt-funjin-0015
   - pt-funjin-0025
   - pt-funjin-0110
+  - qp-funjin-0024
+  - qp-funjin-0030
 - id: pr-funjin-0005
   subject: funjin
   name: ろ過材の圧力損失
@@ -1555,6 +1669,8 @@ principles:
   - pt-funjin-0028
   - pt-funjin-0063
   - pt-funjin-0079
+  - qp-funjin-0014
+  - qp-funjin-0019
 - id: pr-funjin-0007
   subject: funjin
   name: 光散乱の原理（粒径・屈折率・波長・角度）
@@ -1572,6 +1688,7 @@ principles:
   - pt-funjin-0075
   - pt-funjin-0076
   - pt-funjin-0119
+  - qp-funjin-0008
 - id: pr-funjin-0008
   subject: funjin
   name: 質量濃度変換係数の定義と変動要因
@@ -1588,6 +1705,7 @@ principles:
   - pt-funjin-0092
   - pt-funjin-0093
   - pt-funjin-0121
+  - qp-funjin-0004
 - id: pr-funjin-0009
   subject: funjin
   name: 流量計の原理と校正
@@ -1635,6 +1753,9 @@ principles:
   - 格子面
   points:
   - pt-funjin-0013
+  - qp-funjin-0006
+  - qp-funjin-0018
+  - qp-funjin-0023
 - id: pr-funjin-0012
   subject: funjin
   name: 特性X線とフィルター
@@ -1669,6 +1790,8 @@ principles:
   - pt-funjin-0070
   - pt-funjin-0090
   - pt-funjin-0105
+  - qp-funjin-0002
+  - qp-funjin-0013
 - id: pr-funjin-0014
   subject: funjin
   name: 石英の多形と遊離けい酸
@@ -1698,6 +1821,7 @@ principles:
   - pt-funjin-0010
   - pt-funjin-0019
   - pt-funjin-0107
+  - qp-funjin-0003
 - id: pr-funjin-0016
   subject: funjin
   name: 位相差顕微鏡の原理
@@ -1711,6 +1835,7 @@ principles:
   - コントラスト
   points:
   - pt-funjin-0117
+  - qp-funjin-0007
 - id: pr-funjin-0017
   subject: funjin
   name: フィルターの性質（空間率・吸湿・帯電）
@@ -1955,6 +2080,7 @@ principles:
   - pt-ippan-0271
   - pt-ippan-0478
   - pt-ippan-0800
+  - qp-ippan-0018
 - id: pr-ippan-0015
   subject: ippan
   name: レイノー現象は末梢血管の攣縮（寒冷で誘発）
@@ -2096,6 +2222,7 @@ principles:
   - pt-ippan-0583
   - pt-ippan-0721
   - pt-ippan-0768
+  - qp-ippan-0011
 - id: pr-ippan-0025
   subject: ippan
   name: 寒冷環境での体温調節
@@ -2136,6 +2263,7 @@ principles:
   points:
   - pt-ippan-0077
   - pt-ippan-0659
+  - qp-ippan-0010
 - id: pr-ippan-0028
   subject: ippan
   name: 除じん装置の原理（遠心力・ろ過・静電気）

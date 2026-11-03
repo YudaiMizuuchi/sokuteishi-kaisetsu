@@ -205,3 +205,10 @@ Claude Docs の原稿を Markdown で書き出したら、次で制作用の節�
 - 章の原稿の取り込み：`python3 tools/clean_book_md.py <書き出したMarkdown> <章ID>`（メモ欄・番号つきの制作用の節・素材パックの説明を取り、`book/<章ID>.md` に書く）→ `book_map.yaml` の該当章を `status: written` → ビルド。本文の `2026-08|design|12` は、ビルド時に問題ページへのリンクになる。
 - 旧URLの転送：ビルド時に `_site/_redirects`（`src/redirects.njk`）へ、旧い章（`/chapter/<旧ID>/`）→ 問題がいちばん重なる新しい章を書き出す。旧原稿のページ（`/book/units/` など）は、そのまま残し、参考書の目次の末尾に「これまでの原稿（書き直し前）」として載せる。
 - 章ページの本文の説明は、原理の章は原理の説明文、ほかの章は種類ごとの一言。書き終えた章は、参考書のページを読める。
+
+### 問題論点（ランクD以外の問題を、参考書の章・論点・原理に必ず結びつける。2026年11月4日）
+
+- `python3 tools/build_qpoints.py`：物質名・用語を選ぶ問題、計算問題、穴埋め・組合せ問題を、『問題そのもの』を1つの論点（`qp-<科目>-<連番>`）にして、`points.yaml` に足す（同じ問題文・同じ正答＝1つ。計算問題は問題文が似ていれば同じ。キーは『回|問|0』）。既存の論点のID・名前は変えない。関係法令は、選択肢の論点と同じ規則で、頻出テーマを付ける。
+- 原理との紐づけ：`link_principles.py` の候補に、問題論点も出る。採用は、基準（その原理だけで正答が導ける）で、人が決める（暗記が要るもの、SI単位の組合せなどは紐づけない）。**原理の出題回数には、問題論点を数えない**（`compute_freq.py` の `PR_EXAMS`。区分の判定を変えないため）。
+- 章への収録：原理の章（自動）と、`python3 tools/assign_qpoints.py` が作る `data/master/qpoint_chapters.yaml`（章ID→足す論点。キーワードの規則）。`book_map.yaml` は書き換えない。規則に当たらないものは `/tmp/qpoint_unassigned.md`。
+- 手順：`build_qpoints.py` → `link_principles.py --apply` → `assign_qpoints.py` → `link_book_chapters.py` → `unlinked_report.py`（ランクS〜Cで章が付かない問題の数。目標0）→ ビルド。
