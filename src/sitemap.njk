@@ -6,6 +6,7 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>{{ "/" | absUrl }}</loc></url>
 <url><loc>{{ "/chapter/" | absUrl }}</loc></url>
+<url><loc>{{ "/guide/" | absUrl }}</loc></url>
 <url><loc>{{ "/exam/" | absUrl }}</loc></url>
 {% for e in db.examPages %}<url><loc>{{ e.url | absUrl }}</loc></url>
 {% endfor %}{% for s in db.subjectPages %}<url><loc>{{ s.url | absUrl }}</loc></url>

@@ -57,16 +57,15 @@ function initList(cfg) {
     const notes = (q.choiceNotes || []).length
       ? `<ol class="notes">${q.choiceNotes.map((n, i) => `<li${n.isAnswer ? ' class="is-answer"' : ""}><span class="n">(${i + 1})</span><span>${n.html}</span></li>`).join("")}</ol>` : "";
     const freq = q.freqHtml ? q.freqHtml.replace(/href="\//g, `href="${cfg.base.replace(/\/$/, "")}/`) : "";
-    const traps = q.traps.map((t) => `<section class="trap"><h3>この問題のひっかけパターン：${t.url ? `<a href="${u(t.url)}">${esc(t.name)}</a>` : esc(t.name)}</h3>${t.understandingHtml}${t.reasonHtml ? `<div class="why"><span>なぜ？</span>${t.reasonHtml}</div>` : ""}</section>`).join("");
+    const tags = (q.chapters || []).length ? `<div class="tags"><span class="tags-l">参考書の章：</span>${q.chapterLabels.slice(0, 3).map((l, i) => `<a class="tag" href="${u(`/chapter/${q.chapters[i]}/`)}">${esc(l)}</a>`).join("")}</div>` : "";
     const books = (q.books || []).length
       ? `<div class="review">${q.books.map((b) => `<a class="book-link" href="${u(b.url)}" target="_blank" rel="noopener">参考書「${esc(b.label)}」で復習する<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`).join("")}</div>` : "";
     return `<article class="q" id="${q.id}">
       <div class="qmeta"><span>${esc(q.examLabel)}（${esc(q.held)}）</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}" title="過去の出題頻度から見た、この問題の区分">${esc(q.rankLabel || "")}</span>${q.method ? `<span class="method">${esc(q.method)}</span>` : ""}` : ""}</div>
       <h2 class="qtitle"><a href="${u(q.url)}">問${q.num}</a></h2>
       ${body}
-      <div class="tags">${q.chapterLabels.slice(0, 3).map((l, i) => `<a class="tag" href="${u(`/chapter/${q.chapters[i]}/`)}">${esc(l)}</a>`).join("")}</div>
       <button type="button" class="reveal" aria-expanded="false" aria-controls="ans-${q.id}" data-answer="${q.answer.join(",")}"${q.hasExplanation ? "" : " data-noexp=\"1\""}>${q.hasExplanation ? "解説を見る" : "正答を見る"}</button>
-      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.textNote ? `<p class="lawnote">原文について：${esc(q.textNote)}</p>` : ""}${q.examNote ? `<p class="lawnote">協会の注記：${esc(q.examNote)}</p>` : ""}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.hasExplanation ? q.explanationHtml : ""}${q.reviewNote ? `<p class="review-note"><b>現在、管理者にて確認中</b>${esc(q.reviewNote)}</p>` : ""}${q.minorNote ? `<p class="minor-note"><b>細かい論点なので、深追いは禁物です。</b>${esc(q.minorNote)}</p>` : ""}${notes}${freq}${traps}${books}</div>
+      <div class="answer" id="ans-${q.id}" hidden>${answer}${q.textNote ? `<p class="lawnote">原文について：${esc(q.textNote)}</p>` : ""}${q.examNote ? `<p class="lawnote">協会の注記：${esc(q.examNote)}</p>` : ""}${q.lawNote ? `<p class="lawnote">法改正に関する注意：${esc(q.lawNote)}</p>` : ""}${q.hasExplanation ? q.explanationHtml : ""}${q.reviewNote ? `<p class="review-note"><b>現在、管理者にて確認中</b>${esc(q.reviewNote)}</p>` : ""}${q.minorNote ? `<p class="minor-note"><b>細かい論点なので、深追いは禁物です。</b>${esc(q.minorNote)}</p>` : ""}${notes}${freq}${tags}${books}</div>
       ${q.stemHtml ? `<p class="credit">出典：${esc(q.source)}</p>` : ""}
     </article>`;
   }

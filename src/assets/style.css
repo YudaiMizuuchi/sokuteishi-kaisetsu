@@ -280,3 +280,10 @@ table.freqtab .lbl { display: none; }
   table.freqtab .lbl { display: inline; color: var(--muted); font-weight: 400; font-size: .8em; }
   table.freqtab .tagt { margin: 0 4px 0 0; }
 }
+
+.answer .tags { margin: 10px 0 4px; }
+.tags-l { font-size: .82rem; color: var(--muted); margin-right: 6px; }
+@media (max-width: 600px) { table.freqtab tr { grid-template-columns: 2.6em 1.8em auto auto; } }
+
+table.freqtab td:last-child { white-space: nowrap; }
+table.freqtab td.pr { min-width: 8em; }
