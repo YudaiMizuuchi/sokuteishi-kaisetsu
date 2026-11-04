@@ -125,7 +125,7 @@ questions:
     tags:
     - ''
     - ''
-    - ''
+    - odo
     - ans_pat
     - ''
     pat: lw-law-system-01
@@ -345,11 +345,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
-    - ans_b
+    - ans_seen
     - ''
     - ''
     - odo
@@ -378,7 +378,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 7
     form: 選択肢が物質名などの問題
     level: A
     why: pat_A
@@ -411,11 +411,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -537,7 +536,7 @@ questions:
     - odo
     - ans_b
     - ''
-    - ''
+    - odo
     - odo
 - num: 7
   status: published
@@ -564,7 +563,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -598,7 +597,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -826,7 +825,7 @@ questions:
     why: pt_B
     tags:
     - new
-    - ''
+    - odo
     - ans_b
     - ''
     - ''
@@ -1038,7 +1037,7 @@ questions:
     - ''
     - ''
     - ans_new
-    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1237,14 +1236,14 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - ''
-    - ''
-    - ''
-    - ans_seen
+    - odo
+    - odo
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -1348,7 +1347,7 @@ questions:
     why: pt_A
     tags:
     - ''
-    - ''
+    - odo
     - ans_hi
     - ''
     - ''
@@ -1588,7 +1587,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1710,8 +1709,8 @@ questions:
       - 2024-02
     - - 2019-08
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''

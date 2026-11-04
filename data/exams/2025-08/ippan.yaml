@@ -345,7 +345,7 @@ questions:
     - ans_pr
     - new
     - new
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -582,11 +582,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -785,14 +784,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - ''
-    - odo
-    - ans_new
-    - odo
-    - odo
+    - ''
+    - ans_seen
+    - ''
+    - ''
 - num: 10
   status: published
   chapters:
@@ -894,7 +893,7 @@ questions:
     - odo
     - new
     - new
-    - odo
+    - ''
     - ans_new
 - num: 11
   status: published
@@ -991,10 +990,10 @@ questions:
     - []
     - - 2024-02
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - ''
     - ans_pat
     - ''
@@ -1039,6 +1038,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-ippan-0014
+    prname: 振動ばく露量はエネルギー等価で表す
+    prcount: 2
     level: D
     why: q_new
 - num: 13
@@ -1245,7 +1247,7 @@ questions:
     - ans_new
     - new
     - new
-    - odo
+    - ''
     - new
 - num: 15
   status: published

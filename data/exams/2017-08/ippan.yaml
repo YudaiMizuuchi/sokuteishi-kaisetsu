@@ -102,11 +102,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
-    - ans_b
+    - ans_seen
     - new
     - odo
     - ''
@@ -207,12 +207,12 @@ questions:
       - 2022-08
     - - 2017-02
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
-    - ans_hi
+    - ans_b
     - ''
     - new
 - num: 3
@@ -425,14 +425,14 @@ questions:
     - - 2021-02
       - 2022-02
       - 2023-02
-    level: B
-    why: elim_all
+    level: C
+    why: near
     tags:
     - odo
     - odo
-    - odo
-    - ans_new
-    - odo
+    - ''
+    - ans_near
+    - ''
 - num: 5
   status: published
   chapters:
@@ -530,7 +530,7 @@ questions:
     why: pat_B
     tags:
     - ''
-    - odo
+    - ''
     - ans_pat
     - ''
     - odo
@@ -634,7 +634,7 @@ questions:
     - ''
     - ans_pat
     - ''
-    - odo
+    - ''
     - ''
     pat: gn-dust-disease-02
 - num: 7
@@ -667,11 +667,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -769,9 +768,9 @@ questions:
     level: A
     why: pat_A
     tags:
-    - odo
     - ''
-    - odo
+    - ''
+    - ''
     - ''
     - ans_pat
     pat: gn-metals-01
@@ -875,7 +874,7 @@ questions:
     tags:
     - ''
     - ans_pat
-    - odo
+    - ''
     - ''
     - odo
     pat: gn-organic-solvents-01
@@ -918,8 +917,11 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    prid: pr-ippan-0024
+    prname: 熱中症は体温調節の破綻（発汗・気化熱・湿度）
+    prcount: 1
+    level: B
+    why: pat_B
     pat: gn-heat-cold-01
 - num: 11
   status: published
@@ -1019,15 +1021,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - odo
     - new
-    - odo
     - ''
-    - ans_pat
-    pat: gn-noise-health-02
+    - ''
+    - ans_seen
 - num: 12
   status: published
   chapters:
@@ -1132,7 +1133,7 @@ questions:
     why: none
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - ans_new
     - odo
@@ -1375,12 +1376,12 @@ questions:
     - - 2021-08
     - []
     level: A
-    why: pt_A
+    why: pr_A
     tags:
     - new
     - ''
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 16
   status: published
@@ -1491,14 +1492,14 @@ questions:
       - 2023-02
       - 2025-02
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
-    - odo
+    - new
     - ''
-    - odo
-    - ans_b
+    - ''
+    - ans_seen
 - num: 17
   status: published
   chapters:
@@ -1595,10 +1596,10 @@ questions:
     - []
     - []
     - - 2023-08
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - new
     - new
     - ans_pat
@@ -1703,13 +1704,13 @@ questions:
     - - 2016-02
       - 2019-08
       - 2021-02
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
     - ans_pat
     - ''
-    - odo
+    - ''
     - odo
     pat: gn-ppe-01
 - num: 19
@@ -1922,7 +1923,7 @@ questions:
     tags:
     - ''
     - ''
-    - odo
+    - ''
     - ans_pat
     - ''
     pat: gn-exposure-limits-01

@@ -124,7 +124,7 @@ questions:
     why: pat_B
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ''
     - ans_pat
@@ -398,11 +398,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -526,7 +525,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - ''
+    - odo
     - odo
     - odo
     - ''
@@ -559,7 +558,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -591,7 +590,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -813,7 +812,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - ans_b
@@ -1264,7 +1263,7 @@ questions:
     - ''
     - ans_b
     - ''
-    - ''
+    - odo
 - num: 14
   status: published
   chapters:
@@ -1296,11 +1295,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: C
+    why: q_seen
 - num: 15
   status: published
   chapters:
@@ -1400,14 +1398,14 @@ questions:
       - 2023-08
       - 2026-08
     - - 2024-08
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - odo
     - ''
-    - ans_b
-    - ''
+    - ans_seen
+    - odo
 - num: 16
   status: published
   chapters:
@@ -1524,7 +1522,7 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
+    - odo
     - odo
     - ''
     - ans_seen
@@ -1639,7 +1637,7 @@ questions:
     - ''
     - ''
     - odo
-    - ''
+    - odo
     - ans_pat
     pat: lw-law-chief-01
 - num: 18
@@ -1756,8 +1754,8 @@ questions:
       - 2018-02
     - - 2022-08
       - 2024-02
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ans_pat
     - ''
@@ -1988,4 +1986,4 @@ questions:
     - ''
     - ''
     - ans_hi
-    - ''
+    - odo

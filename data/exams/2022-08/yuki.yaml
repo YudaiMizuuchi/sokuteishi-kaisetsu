@@ -55,8 +55,11 @@ questions:
     denom: 12
     count: 3
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 3
   status: published
   chapters:
@@ -204,6 +207,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-yuki-0019
+    prname: 液体捕集の捕集率
+    prcount: 5
     level: A
     why: q_hi
 - num: 5
@@ -708,8 +714,8 @@ questions:
     - []
     - - 2020-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
@@ -914,10 +920,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1013,8 +1019,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pr_B
     tags:
     - odo
     - ans_pr
@@ -1044,10 +1050,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 4
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 14
   status: published
   chapters:
@@ -1185,10 +1194,10 @@ questions:
       - 2026-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1228,10 +1237,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -1327,14 +1336,14 @@ questions:
     - - 2024-08
     - - 2020-08
       - 2023-08
-    level: S
-    why: pr_S
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
     - odo
     - odo
-    - ans_pr
+    - ans_b
 - num: 18
   status: published
   chapters:
@@ -1372,6 +1381,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-yuki-0007
+    prname: 理論段数と理論段相当高さ
+    prcount: 7
     level: B
     why: q_b
 - num: 19
@@ -1507,11 +1519,11 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pt_B
     tags:
     - new
-    - ans_pr
+    - ans_b
     - odo
     - new
     - odo

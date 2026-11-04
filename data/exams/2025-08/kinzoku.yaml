@@ -198,14 +198,14 @@ questions:
     - []
     - []
     - - 2020-08
-    level: A
-    why: trend_A
+    level: B
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_trend
+    - ans_new
 - num: 3
   status: published
   chapters:
@@ -285,10 +285,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 7
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    prid: pr-kinzoku-0005
+    prname: 原子吸光は基底状態の原子の光吸収
+    prcount: 7
+    level: A
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -533,6 +536,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    prid: pr-kinzoku-0001
+    prname: ランベルト・ベールの法則
+    prcount: 1
     level: D
     why: q_new
 - num: 8
@@ -567,6 +573,9 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-kinzoku-0008
+    prname: フレームの種類と原子化
+    prcount: 1
     level: D
     why: q_new
 - num: 9
@@ -1356,6 +1365,9 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-kinzoku-0011
+    prname: 水素化物発生法の還元
+    prcount: 1
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: B
@@ -1608,12 +1620,15 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 6
     form: 計算問題
+    prid: pr-kinzoku-0020
+    prname: 分析結果から、空気中の金属濃度への換算
+    prcount: 6
     subst_id: sb-kinzoku-4011
     subst_name: コバルトおよびその無機化合物
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 20
   status: published
   chapters:

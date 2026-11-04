@@ -314,7 +314,7 @@ questions:
     - odo
     - ''
     - ''
-    - odo
+    - ''
     pat: gn-absorption-01
 - num: 4
   status: published
@@ -415,7 +415,7 @@ questions:
     why: seen
     tags:
     - ''
-    - odo
+    - ''
     - new
     - ans_seen
     - ''
@@ -449,11 +449,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -557,7 +556,7 @@ questions:
     tags:
     - ans_seen
     - ''
-    - odo
+    - ''
     - odo
     - new
 - num: 7
@@ -659,13 +658,14 @@ questions:
       - 2023-08
     - []
     level: A
-    why: pt_A
+    why: pat_A
     tags:
-    - odo
-    - odo
     - ''
-    - ans_hi
     - ''
+    - ''
+    - ans_pat
+    - ''
+    pat: gn-metals-01
 - num: 8
   status: published
   chapters:
@@ -765,7 +765,7 @@ questions:
     why: seen
     tags:
     - ''
-    - odo
+    - ''
     - odo
     - ans_seen
     - ''
@@ -873,8 +873,8 @@ questions:
     - ans_b
     - ''
     - odo
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 10
   status: published
   chapters:
@@ -975,7 +975,7 @@ questions:
     tags:
     - ans_hi
     - ''
-    - odo
+    - ''
     - new
     - ''
 - num: 11
@@ -1180,7 +1180,7 @@ questions:
     tags:
     - ''
     - ''
-    - odo
+    - ''
     - ans_seen
     - ''
 - num: 13
@@ -1600,8 +1600,8 @@ questions:
     tags:
     - odo
     - ans_trend
-    - odo
-    - odo
+    - ''
+    - ''
     - odo
 - num: 17
   status: published
@@ -1701,14 +1701,14 @@ questions:
     - - 2015-08
       - 2022-02
       - 2023-02
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
     pat: gn-ppe-02
 - num: 18
   status: published
@@ -1812,14 +1812,14 @@ questions:
     - - 2016-08
       - 2018-08
       - 2020-08
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
-    - ans_pat
+    - ans_pr
     - ''
     - ''
     - ''
-    - odo
+    - ''
     pat: gn-ppe-01
 - num: 19
   status: published
@@ -1922,7 +1922,7 @@ questions:
     tags:
     - ''
     - ''
-    - odo
+    - ''
     - ans_new
     - ''
 - num: 20
@@ -2026,6 +2026,6 @@ questions:
     - ''
     - ans_pat
     - odo
-    - odo
-    - odo
+    - ''
+    - ''
     pat: gn-exposure-limits-03

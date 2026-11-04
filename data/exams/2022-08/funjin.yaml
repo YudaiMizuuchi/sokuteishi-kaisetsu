@@ -34,10 +34,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 7
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 2
   status: published
   chapters:
@@ -178,10 +181,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 7
+    count: 8
     form: 計算問題
-    level: A
-    why: q_hi
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -276,8 +282,8 @@ questions:
     - - 2018-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - new
     - new
@@ -380,8 +386,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - ans_hi
@@ -485,8 +491,8 @@ questions:
     - - 2025-08
     - - 2016-08
       - 2025-08
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ans_hi
     - odo
@@ -592,9 +598,9 @@ questions:
     - []
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
-    - ans_hi
+    - ans_pr
     - odo
     - odo
     - odo
@@ -792,8 +798,8 @@ questions:
     - - 2019-08
       - 2024-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
@@ -1061,19 +1067,19 @@ questions:
     prcounts:
     - 0
     - 0
-    - 0
+    - 5
     - 0
     - 0
     principles:
     - ''
     - ''
-    - ''
+    - pr-funjin-0021
     - ''
     - ''
     prnames:
     - ''
     - ''
-    - ''
+    - 重力沈降とストークスの式（終末沈降速度）
     - ''
     - ''
     trend:
@@ -1103,7 +1109,7 @@ questions:
     tags:
     - odo
     - new
-    - new
+    - odo
     - ans_new
     - new
 - num: 13
@@ -1298,8 +1304,8 @@ questions:
     - - 2015-08
       - 2023-08
       - 2026-08
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
@@ -1438,8 +1444,11 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0011
+    prname: X線回折のブラッグの条件と回折線
+    prcount: 5
+    level: A
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1480,8 +1489,11 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: C
-    why: q_seen
+    prid: pr-funjin-0013
+    prname: 基底標準吸収補正法
+    prcount: 8
+    level: A
+    why: pr_A
 - num: 18
   status: published
   chapters:
@@ -1635,6 +1647,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-funjin-0016
+    prname: 位相差顕微鏡の原理
+    prcount: 3
     level: B
     why: q_b
 - num: 20

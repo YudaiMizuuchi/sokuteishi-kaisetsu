@@ -309,11 +309,11 @@ questions:
     - - 2020-02
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ''
     - ans_pat
     - ''
@@ -352,7 +352,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 9
     form: 計算問題
     level: B
     why: q_b
@@ -387,6 +387,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0038
+    prname: 酸・塩の水溶液のpH
+    prcount: 6
     level: A
     why: pat_A
     pat: an-reaction-01
@@ -541,11 +544,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 6
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-gas-05
+    level: C
+    why: q_seen
 - num: 8
   status: published
   chapters:
@@ -685,11 +687,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 8
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-01
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -789,8 +790,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - new
     - new
@@ -838,8 +839,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-02
 - num: 12
   status: published
@@ -875,9 +876,11 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-titration-01
+    prid: pr-bunseki-0023
+    prname: 標定と一次標準物質
+    prcount: 3
+    level: D
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -1018,10 +1021,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 16
+    count: 18
     form: 計算問題
     level: S
-    why: q_hi
+    why: pat_S
+    pat: an-logarithm-02
 - num: 15
   status: published
   chapters:
@@ -1118,13 +1122,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - new
     - odo
     - ''
-    - ans_trend
+    - ans_seen
     - odo
 - num: 16
   status: published
@@ -1223,9 +1227,9 @@ questions:
     - []
     - []
     level: B
-    why: pt_B
+    why: elim_all
     tags:
-    - ans_b
+    - ans_new
     - odo
     - odo
     - odo
@@ -1435,8 +1439,8 @@ questions:
       - 2021-02
       - 2025-08
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
@@ -1540,14 +1544,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - odo
     - ''
     - ''
     - odo
-    - ans_trend
+    - ans_seen
 - num: 20
   status: published
   chapters:
@@ -1644,12 +1648,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - new
-    - new
-    - new
+    - odo
+    - odo
+    - odo
     - new
     - ans_pat
     pat: an-radiation-01

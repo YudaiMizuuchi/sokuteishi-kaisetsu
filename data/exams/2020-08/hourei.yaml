@@ -125,7 +125,7 @@ questions:
     why: pat_B
     tags:
     - ans_pat
-    - ''
+    - odo
     - new
     - ''
     - ''
@@ -395,11 +395,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -514,14 +513,14 @@ questions:
       - 2024-08
       - 2025-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_all
     tags:
-    - ''
-    - ''
     - odo
-    - ans_seen
-    - ''
+    - odo
+    - odo
+    - ans_new
+    - odo
 - num: 6
   status: published
   chapters:
@@ -550,7 +549,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -582,7 +581,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -697,10 +696,10 @@ questions:
       - 2020-02
       - 2021-02
       - 2024-02
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
-    - ans_hi
+    - ans_b
     - ''
     - odo
     - ''
@@ -812,7 +811,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - new
     - ''
@@ -1033,14 +1032,14 @@ questions:
       - 2021-02
       - 2023-08
       - 2026-02
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - ''
     - ''
+    - odo
     - ''
-    - ''
-    - ans_trend
+    - ans_seen
 - num: 12
   status: published
   chapters:
@@ -1271,8 +1270,8 @@ questions:
     - ans_b
     - ''
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -1313,7 +1312,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 4
     form: 穴埋め・組合せの問題
     level: B
     why: pat_B
@@ -1569,7 +1568,7 @@ questions:
     - ''
     - ''
     - ans_b
-    - ''
+    - odo
     - odo
 - num: 17
   status: published
@@ -1678,8 +1677,8 @@ questions:
     - ''
     - odo
     - ans_b
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1791,8 +1790,8 @@ questions:
       - 2018-02
     - []
     - - 2018-08
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat
@@ -1928,7 +1927,7 @@ questions:
     tags:
     - ''
     - ans_pat
-    - ''
+    - odo
     - ''
     - ''
     pat: lw-law-oxygen-01
@@ -2038,11 +2037,11 @@ questions:
       - 2026-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
     - ''
-    - ans_b
+    - ans_seen
     - ''
     - ''

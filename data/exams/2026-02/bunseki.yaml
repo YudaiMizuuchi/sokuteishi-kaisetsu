@@ -34,10 +34,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-01
 - num: 2
   status: published
@@ -264,10 +264,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 6
   status: published
   chapters:
@@ -299,6 +299,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0038
+    prname: 酸・塩の水溶液のpH
+    prcount: 6
     level: A
     why: pat_A
     pat: an-reaction-01
@@ -398,15 +401,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - ''
     - ''
-    - ans_pat
+    - ans_new
     - ''
     - new
-    pat: an-lab-equipment-01
 - num: 8
   status: published
   chapters:
@@ -607,15 +609,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - ''
     - new
     - new
-    - ans_pat
+    - ans_new
     - new
-    pat: an-reagents-02
 - num: 10
   status: published
   chapters:
@@ -694,8 +695,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-02
 - num: 12
   status: published
@@ -795,15 +796,14 @@ questions:
     - - 2024-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - ''
     - new
     - ''
-    - ans_pat
+    - ans_new
     - odo
-    pat: an-titration-01
 - num: 13
   status: published
   chapters:
@@ -908,7 +908,7 @@ questions:
     - ans_pr
     - odo
     - new
-    - ''
+    - odo
 - num: 14
   status: published
   chapters:
@@ -950,7 +950,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 11
+    count: 18
     form: 計算問題
     level: S
     why: pat_S
@@ -1095,9 +1095,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-fluorescence-02
+    level: D
+    why: q_new
 - num: 17
   status: published
   chapters:
@@ -1198,7 +1197,7 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
+    - odo
     - ans_seen
     - new
     - new
@@ -1233,11 +1232,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 11
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
-    pat: an-gc-01
+    prid: pr-bunseki-0031
+    prname: 検出器の原理
+    prcount: 11
+    level: A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -1334,12 +1335,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - ''
     - ''
-    - ans_trend
+    - ans_seen
     - new
     - new
 - num: 20

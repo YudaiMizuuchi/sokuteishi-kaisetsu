@@ -383,7 +383,6 @@ principles:
   - qp-bunseki-0065
   - qp-bunseki-0074
   - qp-bunseki-0079
-  - qp-bunseki-0088
 - id: pr-bunseki-0026
   subject: bunseki
   name: 放射能の半減期
@@ -417,7 +416,7 @@ principles:
   - pt-bunseki-0387
   - pt-bunseki-0390
   - pt-bunseki-0467
-  - qp-bunseki-0068
+  - qp-bunseki-0014
 - id: pr-bunseki-0028
   subject: bunseki
   name: 理論段数と理論段相当高さ
@@ -485,7 +484,7 @@ principles:
   - pt-bunseki-0256
   - pt-bunseki-0262
   - pt-bunseki-0279
-  - qp-bunseki-0050
+  - qp-bunseki-0002
 - id: pr-bunseki-0032
   subject: bunseki
   name: 検量線法・標準添加法・内標準法
@@ -602,7 +601,6 @@ principles:
   - pt-bunseki-0482
   - pt-bunseki-0483
   - qp-bunseki-0080
-  - qp-bunseki-0089
 - id: pr-bunseki-0038
   subject: bunseki
   name: 酸・塩の水溶液のpH
@@ -1127,7 +1125,6 @@ principles:
   - qp-tokka-0006
   - qp-tokka-0024
   - qp-tokka-0032
-  - qp-tokka-0066
 - id: pr-tokka-0002
   subject: tokka
   name: ガラスは紫外光を吸収する（セルの材質と波長）
@@ -1179,9 +1176,6 @@ principles:
   - pt-tokka-0067
   - pt-tokka-0071
   - qp-tokka-0025
-  - qp-tokka-0053
-  - qp-tokka-0060
-  - qp-tokka-0088
 - id: pr-tokka-0005
   subject: tokka
   name: 拡散セルによる標準ガスの発生
@@ -1380,8 +1374,6 @@ principles:
   points:
   - pt-kinzoku-0041
   - qp-kinzoku-0003
-  - qp-kinzoku-0010
-  - qp-kinzoku-0027
 - id: pr-kinzoku-0006
   subject: kinzoku
   name: 原子吸光の光源は線光源
@@ -1643,7 +1635,6 @@ principles:
   - pt-funjin-0025
   - pt-funjin-0110
   - qp-funjin-0024
-  - qp-funjin-0030
 - id: pr-funjin-0005
   subject: funjin
   name: ろ過材の圧力損失
@@ -1670,7 +1661,6 @@ principles:
   - pt-funjin-0063
   - pt-funjin-0079
   - qp-funjin-0014
-  - qp-funjin-0019
 - id: pr-funjin-0007
   subject: funjin
   name: 光散乱の原理（粒径・屈折率・波長・角度）
@@ -2081,6 +2071,7 @@ principles:
   - pt-ippan-0478
   - pt-ippan-0800
   - qp-ippan-0018
+  - qp-ippan-0022
 - id: pr-ippan-0015
   subject: ippan
   name: レイノー現象は末梢血管の攣縮（寒冷で誘発）
@@ -2379,6 +2370,7 @@ principles:
   - 体積.{0,8}温度
   points:
   - pt-design-0225
+  - qp-design-0004
 - id: pr-design-0002
   subject: design
   name: 気体の密度は分子量で決まる（空気は約29）
@@ -2557,3 +2549,82 @@ principles:
   - pt-design-0240
   - pt-design-0366
   - pt-design-0460
+- id: pr-funjin-0021
+  subject: funjin
+  name: 重力沈降とストークスの式（終末沈降速度）
+  statement: 静止した流体中を落下する小さな球形粒子の終末沈降速度は、粒径の2乗と、粒子と媒質の密度差に比例し、媒質の粘性係数に反比例する（ストークスの式）。粒子の密度が媒質の密度より十分大きいときは、密度差は粒子の密度で近似できる。粒径が小さい粒子ほど沈降が遅く、同じ粒径なら、粘性係数の大きい媒質（水など）中のほうが、遅い。液相沈降法による遊離けい酸の粒度調整は、この沈降速度の差を使って、指定した粒径以下の粒子だけを取り出す。
+  formula: v = d²(ρp − ρm)g ／ 18η
+  keywords:
+  - 終末
+  - 沈降速度
+  - 沈降時間
+  - ストークス
+  - 粘性係数
+  - 自由落下
+  - 液相沈降
+  points:
+  - pt-funjin-0152
+  - pt-funjin-0223
+  - pt-funjin-0235
+  - pt-funjin-0246
+  - pt-funjin-0268
+  - qp-funjin-0001
+  - qp-funjin-0005
+  - qp-funjin-0010
+  - qp-funjin-0011
+  - qp-funjin-0017
+  - qp-funjin-0029
+- id: pr-design-0013
+  subject: design
+  name: 放射能の計数率と、空気中の放射能濃度の関係
+  statement: 放射能測定器の正味計数率は、試料の放射能に、計数効率を掛けたものに比例する。空気中の放射能濃度は、正味計数率を、計数効率・捕集率・吸引した空気の量で割って求める。濃度から試料の放射能を求めるときは、濃度に、吸引した空気の量と捕集率を掛ける。測定したい濃度（濃度限度の1/10など）に必要な最小の採取時間は、検出下限計数率を、計数効率・捕集率・吸引流量・測定したい濃度で割って求める。流量はcm³/s、時間はsに単位をそろえる。
+  formula: C ＝ n ／ (ε × η × q × t)
+  keywords:
+  - 正味計数率
+  - 計数効率
+  - 検出下限計数率
+  - 最小試料採取時間
+  - 空気中放射能濃度
+  - 試料の放射能
+  points:
+  - qp-design-0001
+  - qp-design-0003
+  - qp-design-0047
+- id: pr-design-0014
+  subject: design
+  name: 沸点・蒸気圧と、ガス・蒸気の状態
+  statement: 沸点が低い物質ほど、蒸気圧が高く、揮発しやすい。飽和蒸気圧は、温度が高いほど大きい。常温・常圧（25℃、1気圧）で、沸点が25℃より低い物質は気体（ガス）で、高い物質は液体（空気中では蒸気として存在する）。融点が常温より高い物質は、固体（粒子として存在する）。
+  formula: ''
+  keywords:
+  - 飽和蒸気圧
+  - 沸点
+  - 融点
+  - 蒸気の状態
+  - 液体でない
+  - ガス
+  points:
+  - qp-design-0005
+  - qp-design-0009
+  - qp-design-0015
+  - qp-design-0021
+  - qp-design-0022
+  - qp-design-0024
+  - qp-design-0026
+  - qp-design-0028
+  - qp-design-0032
+  - qp-design-0035
+  - qp-design-0043
+- id: pr-kinzoku-0020
+  subject: kinzoku
+  name: 分析結果から、空気中の金属濃度への換算
+  statement: ろ紙に捕集された金属の量は、試料液中の濃度に、試料液の量（希釈していれば、希釈倍率も）を掛けて求める。空気中の濃度は、その量を、吸引した空気の量（流量×時間）で割る。µg/L は mg/m³ と同じ値になる。酸で抽出した液の量と、分析に使った液の量を取り違えない。個人サンプリング法やC測定では、測定値（時間加重平均）を求めるのに、採取した時間全体を使う。
+  formula: C(mg/m³) ＝ c(µg/mL) × V(mL) ／ Q(L)
+  keywords:
+  - 空気中の鉛
+  - 捕集
+  - 試料溶液
+  - 抽出
+  - 個人サンプリング法
+  - 吸引流量
+  points:
+  - qp-kinzoku-0002

@@ -160,12 +160,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - ans_pat
-    - odo
+    - ''
     - ''
     - ''
     pat: gn-oh-management-01
@@ -269,7 +269,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - ''
     - new
     - ans_seen
@@ -375,9 +375,9 @@ questions:
     tags:
     - odo
     - ''
-    - odo
+    - ''
     - ans_pat
-    - odo
+    - ''
     pat: gn-absorption-01
 - num: 5
   status: published
@@ -478,14 +478,13 @@ questions:
     - []
     - - 2017-08
     level: A
-    why: pat_A
+    why: pr_A
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ''
     - new
     - ans_pr
-    pat: gn-toxicity-05
 - num: 6
   status: published
   chapters:
@@ -586,7 +585,7 @@ questions:
     why: seen
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - ans_seen
     - ''
@@ -620,11 +619,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -721,10 +719,10 @@ questions:
     level: B
     why: pat_B
     tags:
-    - odo
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - ans_pat
     pat: gn-metals-02
 - num: 9
@@ -825,7 +823,7 @@ questions:
     tags:
     - ''
     - odo
-    - odo
+    - ''
     - ans_pat
     - ''
     pat: gn-absorption-01
@@ -927,8 +925,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat
@@ -1038,7 +1036,7 @@ questions:
     tags:
     - ''
     - odo
-    - odo
+    - ''
     - ans_hi
     - ''
 - num: 12
@@ -1138,12 +1136,12 @@ questions:
       - 2022-02
       - 2023-02
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - odo
-    - odo
-    - ans_new
+    - ''
+    - ''
+    - ans_seen
     - odo
     - ''
 - num: 13
@@ -1346,13 +1344,13 @@ questions:
     - - 2015-08
     - - 2015-08
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - ''
     - odo
-    - odo
+    - ''
     - odo
 - num: 15
   status: published
@@ -1457,7 +1455,7 @@ questions:
     - ''
     - odo
     - ans_pr
-    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -1488,6 +1486,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-ippan-0027
+    prname: フードは発散源に近く、囲うほど効率が高い
+    prcount: 1
     level: B
     why: pat_B
     pat: gn-ventilation-01
@@ -1585,12 +1586,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
-    - odo
-    - ans_b
+    - ''
+    - ans_seen
     - ''
     - odo
 - num: 18
@@ -1703,13 +1704,13 @@ questions:
     - - 2016-02
       - 2019-08
       - 2021-02
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - ''
     - ans_pat
     - odo
-    - odo
+    - ''
     - odo
     pat: gn-ppe-01
 - num: 19
@@ -1914,7 +1915,7 @@ questions:
     why: pat_B
     tags:
     - ''
-    - odo
+    - ''
     - ans_pat
     - ''
     - odo

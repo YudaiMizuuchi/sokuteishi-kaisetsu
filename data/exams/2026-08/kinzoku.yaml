@@ -148,13 +148,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - odo
     - odo
     - new
-    - ans_trend
+    - ans_seen
     - new
 - num: 3
   status: published
@@ -189,10 +189,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 7
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-kinzoku-0005
+    prname: 原子吸光は基底状態の原子の光吸収
+    prcount: 7
+    level: A
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -402,14 +405,14 @@ questions:
     - []
     - []
     - - 2024-08
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
 - num: 6
   status: published
   chapters:
@@ -972,12 +975,12 @@ questions:
     - []
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - ''
 - num: 12
@@ -1763,6 +1766,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-kinzoku-0016
+    prname: 標準液の調製（化合物から金属量を求める）
+    prcount: 2
     level: C
     why: q_seen
 - num: 20
@@ -1799,9 +1805,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 6
     form: 計算問題
+    prid: pr-kinzoku-0020
+    prname: 分析結果から、空気中の金属濃度への換算
+    prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: B
-    why: subst
+    level: A
+    why: q_hi

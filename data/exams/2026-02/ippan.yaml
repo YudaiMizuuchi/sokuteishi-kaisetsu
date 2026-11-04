@@ -415,7 +415,7 @@ questions:
     level: S
     why: pat_S
     tags:
-    - odo
+    - ''
     - new
     - ans_pat
     - new
@@ -660,11 +660,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -871,7 +870,7 @@ questions:
     tags:
     - new
     - ''
-    - odo
+    - ''
     - ans_pat
     - new
     pat: gn-metals-01
@@ -970,12 +969,12 @@ questions:
     - - 2016-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
-    - ans_hi
+    - ans_b
     - odo
     - ''
 - num: 11
@@ -1076,7 +1075,7 @@ questions:
     level: A
     why: trend_A
     tags:
-    - odo
+    - ''
     - ''
     - odo
     - new
@@ -1179,12 +1178,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - ''
     - odo
-    - odo
+    - ''
     - ans_new
     - odo
 - num: 13
@@ -1289,7 +1288,7 @@ questions:
     - ans_seen
     - ''
     - ''
-    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -1598,7 +1597,7 @@ questions:
     why: none
     tags:
     - ans_new
-    - odo
+    - ''
     - ''
     - new
     - new
@@ -1803,7 +1802,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - ans_seen
     - ''
     - ''
@@ -1905,8 +1904,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - new
     - odo

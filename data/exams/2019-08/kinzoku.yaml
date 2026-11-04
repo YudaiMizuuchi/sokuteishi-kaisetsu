@@ -126,13 +126,13 @@ questions:
     - []
     - - 2016-08
     - - 2016-08
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - new
-    - ans_pr
+    - ans_hi
     - odo
 - num: 3
   status: published
@@ -167,10 +167,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 7
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    prid: pr-kinzoku-0005
+    prname: 原子吸光は基底状態の原子の光吸収
+    prcount: 7
+    level: A
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -475,12 +478,12 @@ questions:
     - - 2023-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - new
     - odo
 - num: 7
@@ -683,13 +686,13 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - ''
 - num: 9
   status: published
@@ -1895,5 +1898,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-kinzoku-0016
+    prname: 標準液の調製（化合物から金属量を求める）
+    prcount: 2
     level: C
     why: q_seen

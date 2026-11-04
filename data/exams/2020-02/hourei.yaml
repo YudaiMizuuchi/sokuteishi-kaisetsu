@@ -115,13 +115,14 @@ questions:
       - 2019-02
       - 2024-02
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - ''
+    - odo
     - ''
     - ''
-    - ''
-    - ans_b
+    - ans_pat
+    pat: lw-law-system-01
 - num: 2
   status: published
   chapters:
@@ -227,7 +228,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - ''
+    - odo
     - ''
     - ans_b
     - ''
@@ -336,14 +337,14 @@ questions:
       - 2024-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
+    - odo
     - odo
     - ''
     - odo
-    - ans_seen
+    - ans_new
 - num: 4
   status: published
   chapters:
@@ -375,11 +376,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -498,8 +498,8 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ''
     - odo
     - ans_hi
@@ -527,7 +527,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 7
     form: 選択肢が物質名などの問題
     level: A
     why: pat_A
@@ -556,7 +556,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -773,14 +773,14 @@ questions:
     - - 2017-02
       - 2018-08
       - 2026-08
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
+    - ans_new
+    - odo
     - ''
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -1221,14 +1221,14 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
+    - odo
     - ''
+    - odo
     - ''
-    - ''
-    - ''
-    - ans_b
+    - ans_seen
 - num: 14
   status: published
   chapters:
@@ -1257,7 +1257,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 5
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -1375,12 +1375,12 @@ questions:
       - 2020-08
     - - 2015-08
       - 2018-02
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
-    - ''
-    - ans_seen
+    - odo
+    - ans_new
     - odo
     - odo
 - num: 16
@@ -1722,8 +1722,8 @@ questions:
       - 2022-08
       - 2024-02
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat

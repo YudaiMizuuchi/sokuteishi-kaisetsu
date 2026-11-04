@@ -185,11 +185,12 @@ function freqOut(f, answers = [], qTraps = [], showTraps = true) {
   const ai = Number.isInteger(answers[0]) ? answers[0] - 1 : -1;
   const ptName = ai >= 0 && f.pnames ? f.pnames[ai] : "";
   const ptCount = ai >= 0 && f.pcounts ? f.pcounts[ai] : 0;
-  const prName = ai >= 0 && f.prnames ? f.prnames[ai] : "";
-  const prCount = ai >= 0 && f.prcounts ? f.prcounts[ai] : 0;
-  const prId = ai >= 0 && f.principles ? f.principles[ai] : "";
+  const prName = ai >= 0 && f.prnames ? f.prnames[ai] : (f.prname || "");
+  const prCount = ai >= 0 && f.prcounts ? f.prcounts[ai] : (f.prcount || 0);
+  const prId = ai >= 0 && f.principles ? f.principles[ai] : (f.prid || "");
   const w = f.why || "";
   if (w === "subst") reason = `物質の表（ガイドブックの物質別各論）の「${f.subst_name}」で解けるからです。過去の出題が少なくても、表を押さえておけば得点できます。`;
+  else if (f.kind === "question" && /^pr_[SAB]$/.test(w)) reason = `この形式の問題は、出題のたびに言い回しや数値が変わりますが、原理「${prName}」（通算${prCount}回）を理解していれば解けるからです。`;
   else if (prName && /^pr_[SAB]$/.test(w)) reason = ptCount >= 2
     ? `原理「${prName}」を理解していれば、論点そのものを暗記していなくても解けるからです。`
     : `正答の選択肢は初見ですが、原理「${prName}」を理解していれば解けるからです。`;
@@ -229,7 +230,7 @@ function freqOut(f, answers = [], qTraps = [], showTraps = true) {
     }).join("");
   } else {
     const trapCell = qTraps.map((t) => `${t.url ? `<a href="${t.url}">${esc(t.name)}</a>` : esc(t.name)}（${t.count}回）`).join("<br>");
-    rows = `<tr class="ans qrow"><td class="n" colspan="2">この形式の問題（${esc(f.form)}）</td><td class="num"><span class="lbl">通算 </span>${f.count}回</td><td class="num"></td><td class="pr"></td>${showTraps ? `<td class="pr">${trapCell ? `<span class="lbl">ひっかけ </span>${trapCell}` : ""}</td>` : ""}<td></td></tr>`;
+    rows = `<tr class="ans qrow"><td class="n" colspan="2">この形式の問題（${esc(f.form)}）</td><td class="num"><span class="lbl">通算 </span>${f.count}回</td><td class="num"></td><td class="pr">${f.prid ? `<span class="lbl">原理 </span><a href="/principle/${f.prid}/">${esc(f.prname)}</a>（${f.prcount}回）` : ""}</td>${showTraps ? `<td class="pr">${trapCell ? `<span class="lbl">ひっかけ </span>${trapCell}` : ""}</td>` : ""}<td></td></tr>`;
   }
   const html = `<section class="freq">`
     + (level ? `<p class="rank-row"><span class="level lv-${level.code}">${esc(level.label)}</span><span class="method">解法：${esc(level.method)}</span></p><p class="level-why">${esc(level.reason)}</p>` : "")

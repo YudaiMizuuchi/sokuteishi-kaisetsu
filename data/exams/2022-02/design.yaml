@@ -33,10 +33,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 10
     form: 計算問題
-    level: B
-    why: q_b
+    prid: pr-design-0001
+    prname: 気体の体積は温度と圧力で変わる（理想気体）
+    prcount: 10
+    level: A
+    why: pr_A
 - num: 2
   status: published
   chapters:
@@ -134,11 +137,11 @@ questions:
     - []
     - []
     - - 2021-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
-    - ans_b
+    - ans_seen
     - ''
     - odo
     - ''
@@ -347,9 +350,9 @@ questions:
     - - 2024-08
     - []
     level: B
-    why: pt_B
+    why: elim_two
     tags:
-    - ans_b
+    - ans_new
     - odo
     - odo
     - odo
@@ -453,14 +456,14 @@ questions:
     - []
     - []
     - - 2026-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_seen
 - num: 6
   status: published
   chapters:
@@ -807,10 +810,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 23
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: S
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -1013,11 +1016,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_b
+    - ans_seen
     - ''
     - ''
     - ''
@@ -1117,13 +1120,14 @@ questions:
     - []
     - []
     level: B
-    why: pt_B
+    why: pat_B
     tags:
-    - ans_b
+    - ans_pat
     - odo
     - ''
     - ''
     - ''
+    pat: ds-filter-01
 - num: 13
   status: published
   chapters:
@@ -1224,15 +1228,14 @@ questions:
       - 2020-08
       - 2023-08
     - []
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
-    - ans_pat
+    - ans_seen
     - ''
     - ''
     - odo
     - ''
-    pat: ds-liquid-direct-02
 - num: 14
   status: published
   chapters:
@@ -1481,7 +1484,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 10
     form: 穴埋め・組合せの問題
     level: S
     why: pat_S
@@ -1523,8 +1526,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 12
+    count: 6
     form: 計算問題
+    prid: pr-design-0013
+    prname: 放射能の計数率と、空気中の放射能濃度の関係
+    prcount: 23
     level: S
     why: pat_S
     pat: ds-radiation-02
@@ -1766,12 +1772,12 @@ questions:
       - 2023-08
       - 2024-08
     level: B
-    why: pt_B
+    why: elim_two
     tags:
     - odo
     - ''
     - odo
-    - ans_b
+    - ans_new
     - odo
 - num: 20
   status: published

@@ -100,13 +100,13 @@ questions:
     - []
     - - 2021-02
       - 2022-08
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - odo
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
     - ''
 - num: 2
   status: published
@@ -156,9 +156,11 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-bunseki-0025
+    prname: 誤差と統計量
+    prcount: 7
     level: B
-    why: pat_B
-    pat: an-statistics-01
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -190,10 +192,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0037
+    prname: 官能基と有機化合物の性質
+    prcount: 2
+    level: B
+    why: pat_B
     pat: an-organic-01
 - num: 4
   status: published
@@ -270,8 +275,11 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0021
+    prname: 希釈しても、溶質の物質量は変わらない
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -315,6 +323,9 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
+    prid: pr-bunseki-0018
+    prname: 化学平衡と平衡定数
+    prcount: 2
     level: C
     why: q_seen
 - num: 7
@@ -348,11 +359,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 3
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-lab-equipment-01
+    level: C
+    why: q_seen
 - num: 8
   status: published
   chapters:
@@ -488,11 +498,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 8
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-01
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -592,11 +601,11 @@ questions:
     level: B
     why: pr_B
     tags:
-    - ''
+    - odo
     - ans_pr
-    - ''
+    - odo
     - new
-    - new
+    - odo
 - num: 11
   status: published
   chapters:
@@ -732,6 +741,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0038
+    prname: 酸・塩の水溶液のpH
+    prcount: 6
     level: A
     why: pat_A
     pat: an-reaction-01
@@ -871,7 +883,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 18
     form: 計算問題
     level: S
     why: pat_S
@@ -1119,14 +1131,13 @@ questions:
       - 2024-02
     - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
     - odo
-    - ans_pat
+    - ans_trend
     - ''
     - ''
     - ''
-    pat: an-gc-02
 - num: 18
   status: published
   chapters:
@@ -1158,11 +1169,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 11
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
-    pat: an-gc-01
+    prid: pr-bunseki-0031
+    prname: 検出器の原理
+    prcount: 11
+    level: A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -1367,12 +1380,12 @@ questions:
       - 2020-02
       - 2021-08
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - ''
-    - ''
-    - new
-    - ''
-    - ans_pat
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_pr
     pat: an-radiation-01

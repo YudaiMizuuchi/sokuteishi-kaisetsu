@@ -158,8 +158,11 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: C
-    why: q_seen
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 3
   status: published
   chapters:
@@ -424,10 +427,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0004
+    prname: ろ過捕集の機構（慣性・さえぎり・拡散・重力）
+    prcount: 2
+    level: C
+    why: q_seen
 - num: 6
   status: published
   chapters:
@@ -529,13 +535,13 @@ questions:
       - 2024-08
       - 2026-08
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_hi
+    - ans_pr
 - num: 7
   status: published
   chapters:
@@ -1397,10 +1403,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 5
+    count: 6
     form: 計算問題
+    prid: pr-funjin-0015
+    prname: りん酸法の原理
+    prcount: 6
     level: A
-    why: q_hi
+    why: pr_A
 - num: 16
   status: published
   chapters:
@@ -1799,5 +1808,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-funjin-0016
+    prname: 位相差顕微鏡の原理
+    prcount: 3
     level: B
     why: q_b

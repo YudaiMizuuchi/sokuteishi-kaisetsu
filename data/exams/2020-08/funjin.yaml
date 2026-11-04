@@ -64,19 +64,19 @@ questions:
     - 12
     - 0
     - 0
-    - 0
+    - 5
     principles:
     - pr-funjin-0003
     - pr-funjin-0001
     - ''
     - ''
-    - ''
+    - pr-funjin-0021
     prnames:
     - 遠心力場の粒子の運動
     - 粒子のブラウン運動と拡散
     - ''
     - ''
-    - ''
+    - 重力沈降とストークスの式（終末沈降速度）
     trend:
     - 1
     - 1
@@ -99,14 +99,14 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
     - odo
     - ''
-    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -157,8 +157,11 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: C
-    why: q_seen
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 3
   status: published
   chapters:
@@ -190,10 +193,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0006
+    prname: 慣性衝突式分粒の原理
+    prcount: 2
+    level: C
+    why: q_seen
 - num: 4
   status: published
   chapters:
@@ -505,8 +511,8 @@ questions:
       - 2023-08
       - 2026-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
@@ -1282,8 +1288,11 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    prid: pr-funjin-0015
+    prname: りん酸法の原理
+    prcount: 6
     level: A
-    why: q_hi
+    why: pr_A
 - num: 15
   status: published
   chapters:
@@ -1381,8 +1390,8 @@ questions:
     - - 2021-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - new
     - ans_pr

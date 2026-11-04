@@ -7,11 +7,9 @@ candidates:
   kind: 論点
   reason: 環境空気中の放射性物質と試料捕集方法の組合せ（問16の枠で毎回近く出ている）。デザインに放射性物質の章がない
   points:
-  - qp-design-0002
   - qp-design-0006
-  - qp-design-0017
-  - qp-design-0020
   - qp-design-0045
+  - qp-design-0048
 - id: bk-tokka-tp04
   title: 捕集法の適否（固体・液体・ろ過・相補型ろ過）
   subject: tokka
@@ -40,18 +38,12 @@ candidates:
   subject: bunseki
   part: analysis
   kind: 論点
-  reason: bk-bunseki-tp07 が、追加後に60件を超えるため、SI単位の問題を分ける案。現在は tp07 に入っている（採用するなら tp07
-    から移す）
+  reason: bk-bunseki-tp07 が、追加後に60件を超えるため、SI単位の問題を分ける案。現在は tp07 に入っている（採用するなら tp07 から移す）
   points:
   - pt-bunseki-0405
   - qp-bunseki-0019
-  - qp-bunseki-0027
-  - qp-bunseki-0033
   - qp-bunseki-0037
-  - qp-bunseki-0044
-  - qp-bunseki-0053
   - qp-bunseki-0064
-  - qp-bunseki-0084
 - id: bk-kinzoku-tp08
   title: 物質別の吸光光度・蛍光光度分析（クロム(Ⅵ)・ベリリウム）
   subject: kinzoku
@@ -129,7 +121,7 @@ candidates:
   - pt-kinzoku-0430
   - pt-kinzoku-0431
   - pt-kinzoku-0446
-  - qp-kinzoku-0007
+  - qp-kinzoku-0003
   - qp-kinzoku-0009
 - id: bk-hourei-tp07
   title: 譲渡・貸与の制限（厚生労働大臣の規格）と防毒マスク・送気マスク・相対濃度計
@@ -140,10 +132,4 @@ candidates:
   points:
   - pt-hourei-0379
   - qp-hourei-0002
-  - qp-hourei-0012
-  - qp-hourei-0016
-  - qp-hourei-0025
   - qp-hourei-0035
-  - qp-hourei-0038
-  - qp-hourei-0042
-  - qp-hourei-0045

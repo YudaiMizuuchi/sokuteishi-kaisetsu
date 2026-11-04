@@ -431,12 +431,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -574,10 +574,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-tokka-0004
+    prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    prcount: 5
+    level: A
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -975,10 +978,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 12
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -1009,10 +1012,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1040,6 +1043,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0011
+    prname: 沸点・融点・蒸気圧の比較（分子間力）
+    prcount: 5
     level: D
     why: q_new
 - num: 16
@@ -1072,6 +1078,9 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0008
+    prname: 標定・滴定の量的関係
+    prcount: 5
     level: C
     why: q_seen
 - num: 17
@@ -1107,12 +1116,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3035
     subst_name: 硫酸ジメチル
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -1146,6 +1155,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0006
+    prname: 活性炭への吸着と脱着
+    prcount: 4
     subst_id: sb-tokka-3014
     subst_name: コールタール
     level: B
@@ -1250,5 +1262,5 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: S
+    level: A
     why: q_hi

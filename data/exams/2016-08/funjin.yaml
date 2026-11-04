@@ -32,10 +32,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 7
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 2
   status: published
   chapters:
@@ -95,19 +98,19 @@ questions:
     - 12
     - 0
     - 8
-    - 0
+    - 5
     principles:
     - pr-funjin-0003
     - pr-funjin-0001
     - ''
     - pr-funjin-0002
-    - ''
+    - pr-funjin-0021
     prnames:
     - 遠心力場の粒子の運動
     - 粒子のブラウン運動と拡散
     - ''
     - 帯電粒子の電界中の移動
-    - ''
+    - 重力沈降とストークスの式（終末沈降速度）
     trend:
     - 1
     - 1
@@ -132,14 +135,14 @@ questions:
     - - 2015-08
       - 2019-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
     - odo
     - odo
-    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -174,10 +177,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 7
+    count: 8
     form: 計算問題
-    level: A
-    why: q_hi
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -789,8 +795,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - ans_pr
@@ -949,8 +955,11 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-funjin-0008
+    prname: 質量濃度変換係数の定義と変動要因
+    prcount: 5
     level: A
-    why: q_hi
+    why: pr_A
 - num: 12
   status: published
   chapters:
@@ -1151,12 +1160,12 @@ questions:
     - - 2020-08
       - 2023-08
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_hi
+    - ans_b
     - odo
     - odo
 - num: 14
@@ -1326,8 +1335,11 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    prid: pr-funjin-0015
+    prname: りん酸法の原理
+    prcount: 6
     level: A
-    why: q_hi
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1422,8 +1434,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
@@ -1458,8 +1470,11 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: B
-    why: q_b
+    prid: pr-funjin-0011
+    prname: X線回折のブラッグの条件と回折線
+    prcount: 5
+    level: A
+    why: pr_A
 - num: 19
   status: published
   chapters:

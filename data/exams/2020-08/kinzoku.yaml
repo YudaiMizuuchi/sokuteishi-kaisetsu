@@ -103,7 +103,7 @@ questions:
     - odo
     - new
     - odo
-    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -169,10 +169,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 7
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    prid: pr-kinzoku-0005
+    prname: 原子吸光は基底状態の原子の光吸収
+    prcount: 7
+    level: A
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -480,10 +483,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - ''
     - odo
     - new
@@ -688,12 +691,12 @@ questions:
     - []
     - []
     - - 2026-08
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - ''
 - num: 9
@@ -1896,9 +1899,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 6
     form: 計算問題
+    prid: pr-kinzoku-0020
+    prname: 分析結果から、空気中の金属濃度への換算
+    prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: B
-    why: subst
+    level: A
+    why: q_hi

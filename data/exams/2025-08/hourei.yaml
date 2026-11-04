@@ -306,13 +306,13 @@ questions:
       - 2025-02
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - new
     - ''
-    - ans_b
-    - ''
+    - ans_seen
+    - odo
     - new
 - num: 4
   status: published
@@ -616,14 +616,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - new
     - odo
     - new
     - new
-    - ans_b
+    - ans_seen
 - num: 7
   status: published
   chapters:
@@ -655,11 +655,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -771,7 +770,7 @@ questions:
     - ''
     - ans_seen
     - ''
-    - ''
+    - odo
 - num: 9
   status: published
   chapters:
@@ -977,7 +976,7 @@ questions:
     level: D
     why: none
     tags:
-    - ''
+    - odo
     - new
     - ans_new
     - new
@@ -1241,9 +1240,9 @@ questions:
     why: seen
     tags:
     - ''
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - ans_seen
 - num: 14
   status: published
@@ -1284,7 +1283,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 4
     form: 穴埋め・組合せの問題
     level: B
     why: pat_B
@@ -1497,8 +1496,8 @@ questions:
     - new
     - ans_new
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 17
   status: published
   chapters:

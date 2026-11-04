@@ -119,7 +119,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - ''
     - ans_pat
     - ''
@@ -235,7 +235,7 @@ questions:
     why: pt_A
     tags:
     - odo
-    - ''
+    - odo
     - ans_hi
     - odo
     - ''
@@ -416,11 +416,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -544,10 +543,10 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
+    - odo
     - new
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_hi
 - num: 7
   status: published
@@ -574,7 +573,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -842,7 +841,7 @@ questions:
     - ''
     - ans_b
     - ''
-    - ''
+    - odo
     - ''
 - num: 11
   status: published
@@ -951,14 +950,14 @@ questions:
     - - 2020-08
       - 2021-08
       - 2022-08
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - ''
-    - ans_seen
+    - ans_new
     - odo
-    - ''
+    - odo
 - num: 12
   status: published
   chapters:
@@ -1069,14 +1068,14 @@ questions:
     - - 2015-08
       - 2017-08
       - 2018-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_seen
 - num: 13
   status: published
   chapters:
@@ -1157,9 +1156,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: D
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -1268,15 +1266,14 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
     - odo
+    - odo
+    - ans_seen
     - ''
-    - ans_pat
-    - ''
-    pat: lw-law-organic-04
 - num: 16
   status: published
   chapters:
@@ -1306,7 +1303,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 5
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B

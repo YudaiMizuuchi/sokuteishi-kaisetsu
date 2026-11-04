@@ -246,8 +246,11 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -449,12 +452,12 @@ questions:
       - 2023-08
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - odo
     - odo
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 6
   status: published
@@ -756,11 +759,11 @@ questions:
     - []
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - new
     - new
-    - ans_hi
+    - ans_pr
     - ''
     - new
 - num: 9
@@ -1014,8 +1017,11 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-funjin-0008
+    prname: 質量濃度変換係数の定義と変動要因
+    prcount: 5
     level: A
-    why: q_hi
+    why: pr_A
 - num: 12
   status: published
   chapters:
@@ -1417,8 +1423,8 @@ questions:
       - 2026-08
     - []
     - []
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
@@ -1666,8 +1672,11 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    prid: pr-funjin-0013
+    prname: 基底標準吸収補正法
+    prcount: 8
     level: A
-    why: q_hi
+    why: pr_A
 - num: 19
   status: published
   chapters:
@@ -1821,5 +1830,8 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-funjin-0016
+    prname: 位相差顕微鏡の原理
+    prcount: 3
     level: B
     why: q_b

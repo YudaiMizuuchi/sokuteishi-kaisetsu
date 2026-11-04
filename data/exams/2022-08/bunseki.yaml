@@ -101,12 +101,12 @@ questions:
     - - 2024-02
       - 2025-08
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - ''
+    - odo
     - ans_new
 - num: 2
   status: published
@@ -142,9 +142,11 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0025
+    prname: 誤差と統計量
+    prcount: 7
     level: B
-    why: pat_B
-    pat: an-statistics-01
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -184,8 +186,8 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 4
   status: published
   chapters:
@@ -282,14 +284,14 @@ questions:
     - - 2020-02
     - []
     - - 2023-08
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
+    - odo
+    - odo
     - ''
     - ''
-    - ''
-    - ''
-    - ans_pat
+    - ans_pr
     pat: an-organic-01
 - num: 5
   status: published
@@ -404,7 +406,7 @@ questions:
     - ans_pr
     - odo
     - odo
-    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -777,9 +779,8 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-xrd-04
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -921,8 +922,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-02
 - num: 12
   status: published
@@ -1125,15 +1126,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - ''
     - new
     - new
-    - ans_pat
+    - ans_new
     - new
-    pat: an-spectrophotometry-02
 - num: 14
   status: published
   chapters:
@@ -1163,10 +1163,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 16
+    count: 18
     form: 計算問題
     level: S
-    why: q_hi
+    why: pat_S
+    pat: an-logarithm-02
 - num: 15
   status: published
   chapters:
@@ -1263,13 +1264,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - new
     - odo
     - ''
-    - ans_trend
+    - ans_seen
     - odo
 - num: 16
   status: published
@@ -1368,12 +1369,12 @@ questions:
     - []
     - []
     level: A
-    why: pt_A
+    why: pr_A
     tags:
     - ''
     - ''
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 17
   status: published
@@ -1405,11 +1406,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 11
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
-    pat: an-gc-01
+    prid: pr-bunseki-0031
+    prname: 検出器の原理
+    prcount: 11
+    level: A
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -1510,8 +1513,8 @@ questions:
       - 2025-08
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
@@ -1617,14 +1620,14 @@ questions:
     - - 2020-02
       - 2020-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - odo
     - ''
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:
@@ -1657,8 +1660,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 7
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-logarithm-03
+    level: C
+    why: q_seen

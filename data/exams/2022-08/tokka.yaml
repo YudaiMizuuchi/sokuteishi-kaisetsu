@@ -249,8 +249,11 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    prid: pr-tokka-0001
+    prname: ランベルト・ベールの法則
+    prcount: 7
+    level: A
+    why: pr_A
 - num: 4
   status: published
   chapters:
@@ -702,12 +705,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 4
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 11
   status: published
   chapters:
@@ -888,10 +891,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 12
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -1052,6 +1055,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0008
+    prname: 標定・滴定の量的関係
+    prcount: 5
     subst_id: sb-tokka-3008
     subst_name: 塩素
     level: B
@@ -1152,14 +1158,14 @@ questions:
       - 2017-08
     - - 2015-08
       - 2017-08
-    level: A
-    why: pr_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_b
 - num: 18
   status: published
   chapters:
@@ -1290,5 +1296,5 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: S
+    level: A
     why: q_hi

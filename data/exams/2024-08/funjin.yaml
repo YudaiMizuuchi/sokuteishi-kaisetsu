@@ -33,10 +33,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 7
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 2
   status: published
   chapters:
@@ -184,10 +187,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 5
+    count: 8
     form: 計算問題
-    level: A
-    why: q_hi
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -290,13 +296,13 @@ questions:
       - 2021-08
       - 2025-08
     level: S
-    why: pr_S
+    why: trend_S
     tags:
     - odo
     - odo
     - new
     - new
-    - ans_pr
+    - ans_trend
 - num: 5
   status: published
   chapters:
@@ -909,11 +915,11 @@ questions:
     - []
     - - 2022-08
     level: A
-    why: pt_A
+    why: pr_A
     tags:
     - ''
     - odo
-    - ans_hi
+    - ans_pr
     - ''
     - odo
 - num: 11
@@ -1183,19 +1189,19 @@ questions:
     - 所定の時間が経過した後、ピペット型液相沈降試験器の排出口（0目盛り線）より上方の懸濁液を排出し、残った懸濁液に含まれる粒子を試料とする（誤りの記述）
     prcounts:
     - 0
-    - 0
+    - 5
     - 0
     - 0
     - 0
     principles:
     - ''
-    - ''
+    - pr-funjin-0021
     - ''
     - ''
     - ''
     prnames:
     - ''
-    - ''
+    - 重力沈降とストークスの式（終末沈降速度）
     - ''
     - ''
     - ''
@@ -1225,7 +1231,7 @@ questions:
     why: none
     tags:
     - odo
-    - new
+    - odo
     - new
     - new
     - ans_new
@@ -1326,8 +1332,8 @@ questions:
     - - 2019-08
       - 2026-08
     - []
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ans_hi
     - odo
@@ -1478,8 +1484,11 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    prid: pr-funjin-0015
+    prname: りん酸法の原理
+    prcount: 6
     level: A
-    why: q_hi
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1732,8 +1741,11 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
-    level: C
-    why: q_seen
+    prid: pr-funjin-0013
+    prname: 基底標準吸収補正法
+    prcount: 8
+    level: A
+    why: pr_A
 - num: 20
   status: published
   chapters:

@@ -101,12 +101,12 @@ questions:
     - - 2024-02
       - 2025-08
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - ''
+    - odo
     - ans_new
 - num: 2
   status: published
@@ -309,14 +309,14 @@ questions:
     - - 2020-02
     - []
     - - 2023-08
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
+    - odo
+    - odo
     - ''
     - ''
-    - ''
-    - ''
-    - ans_pat
+    - ans_pr
     pat: an-organic-01
 - num: 4
   status: published
@@ -505,10 +505,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-02
 - num: 7
   status: published
@@ -966,8 +966,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     pat: an-reaction-02
 - num: 12
   status: published
@@ -1078,14 +1078,13 @@ questions:
       - 2018-02
       - 2020-02
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - odo
     - ans_pr
     - odo
     - odo
     - odo
-    pat: an-reaction-03
 - num: 13
   status: published
   chapters:
@@ -1434,7 +1433,7 @@ questions:
     - odo
     - odo
     - odo
-    - new
+    - odo
     - ans_trend
 - num: 17
   status: published
@@ -1530,10 +1529,10 @@ questions:
     - - 2019-08
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
-    - ans_pat
+    - ans_pr
     - odo
     - odo
     - odo
@@ -1637,14 +1636,13 @@ questions:
     - []
     - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
     - ''
     - ''
     - ''
-    - ans_pat
+    - ans_trend
     - ''
-    pat: an-gc-02
 - num: 19
   status: published
   chapters:
@@ -1743,14 +1741,14 @@ questions:
     - - 2020-02
       - 2020-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - odo
     - ''
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
 - num: 20
   status: published
   chapters:

@@ -104,7 +104,7 @@ questions:
     - ''
     - ans_seen
     - ''
-    - odo
+    - ''
 - num: 2
   status: published
   chapters:
@@ -272,12 +272,12 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
 - num: 5
@@ -311,7 +311,7 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 5
+    count: 6
     form: 穴埋め・組合せの問題
     level: A
     why: q_hi
@@ -550,8 +550,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 9
   status: published
   chapters:
@@ -692,10 +695,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 6
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: A
+    why: q_hi
 - num: 11
   status: published
   chapters:
@@ -792,8 +795,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ''
     - odo
@@ -899,10 +902,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1048,6 +1051,9 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    prid: pr-yuki-0007
+    prname: 理論段数と理論段相当高さ
+    prcount: 7
     level: B
     why: q_b
 - num: 15
@@ -1298,6 +1304,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-yuki-0001
+    prname: ランベルト・ベールの法則
+    prcount: 5
     level: C
     why: q_seen
 - num: 18
@@ -1343,6 +1352,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-yuki-0024
+    prname: 気体の体積とppm濃度の換算
+    prcount: 5
     level: C
     why: q_seen
 - num: 19
@@ -1483,11 +1495,11 @@ questions:
     - - 2018-08
       - 2024-08
       - 2026-08
-    level: S
-    why: pr_S
+    level: A
+    why: trend_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_trend

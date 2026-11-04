@@ -30,8 +30,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0025
+    prname: 有機溶剤の水への溶解（極性・水酸基）
+    prcount: 7
+    level: B
+    why: pr_B
 - num: 2
   status: published
   chapters:
@@ -59,8 +62,11 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    prid: pr-yuki-0023
+    prname: 沸点・蒸気圧・融点・分子量の比較
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 3
   status: published
   chapters:
@@ -88,8 +94,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -227,10 +236,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 6
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: A
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -464,8 +473,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 9
   status: published
   chapters:
@@ -670,9 +682,9 @@ questions:
     - []
     - - 2019-08
     level: B
-    why: elim_all
+    why: elim_two
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - ans_new
@@ -771,8 +783,8 @@ questions:
       - 2022-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
@@ -1325,14 +1337,14 @@ questions:
     - - 2022-08
     - - 2021-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: trend_A
     tags:
     - new
     - odo
-    - ans_pr
+    - ans_trend
     - odo
-    - odo
+    - new
 - num: 18
   status: published
   chapters:
@@ -1372,6 +1384,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-yuki-0001
+    prname: ランベルト・ベールの法則
+    prcount: 5
     level: C
     why: q_seen
 - num: 19
@@ -1510,11 +1525,11 @@ questions:
     - []
     - - 2023-08
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_b

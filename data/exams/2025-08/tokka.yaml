@@ -335,12 +335,15 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
+    prid: pr-tokka-0004
+    prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    prcount: 5
     subst_id: sb-tokka-3002
     subst_name: アクリロニトリル
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -447,7 +450,7 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 4
+    count: 5
     form: 計算問題
     level: A
     why: q_hi
@@ -547,8 +550,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - new
     - new
@@ -582,10 +585,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: A
+    why: q_hi
 - num: 11
   status: published
   chapters:
@@ -771,10 +774,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 12
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -878,7 +881,7 @@ questions:
     - new
     - new
     - ans_new
-    - odo
+    - ''
     - odo
 - num: 15
   status: published
@@ -916,10 +919,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 5
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 16
   status: published
   chapters:
@@ -961,6 +964,9 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    prid: pr-tokka-0008
+    prname: 標定・滴定の量的関係
+    prcount: 5
     level: C
     why: q_seen
 - num: 17
@@ -998,12 +1004,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 4
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3004
     subst_name: アルファ-ナフチルアミンおよびその塩
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -1069,6 +1075,9 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0006
+    prname: 活性炭への吸着と脱着
+    prcount: 4
     subst_id: sb-tokka-3010
     subst_name: オーラミン
     level: B

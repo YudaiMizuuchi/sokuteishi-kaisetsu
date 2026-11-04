@@ -128,7 +128,7 @@ questions:
     why: pat_B
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ''
     - ans_pat
@@ -230,13 +230,13 @@ questions:
       - 2022-08
       - 2023-08
     - - 2024-02
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
-    - ans_seen
+    - ans_new
     - odo
-    - ''
+    - odo
     - odo
 - num: 3
   status: published
@@ -481,11 +481,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -604,15 +603,14 @@ questions:
       - 2022-02
       - 2023-02
       - 2023-08
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
-    - ans_pat
+    - ans_seen
     - ''
     - odo
-    - ''
-    pat: lw-law-measurement-scope-03
+    - odo
 - num: 7
   status: published
   chapters:
@@ -638,7 +636,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -672,7 +670,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -897,7 +895,7 @@ questions:
     tags:
     - ans_seen
     - ''
-    - ''
+    - odo
     - ''
     - ''
 - num: 11
@@ -1127,7 +1125,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - odo
     - ans_seen
 - num: 13
   status: published
@@ -1278,9 +1276,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: D
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -1390,14 +1387,14 @@ questions:
       - 2021-02
       - 2023-08
       - 2026-08
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
     - odo
     - ''
     - ''
-    - ans_b
+    - ans_seen
 - num: 16
   status: published
   chapters:
@@ -1523,7 +1520,7 @@ questions:
     - ''
     - ans_hi
     - ''
-    - ''
+    - odo
     - ''
 - num: 17
   status: published
@@ -1857,8 +1854,8 @@ questions:
     - []
     - - 2024-02
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat

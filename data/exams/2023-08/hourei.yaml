@@ -99,13 +99,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - new
-    - ans_b
+    - ans_seen
     - ''
 - num: 2
   status: published
@@ -215,7 +215,7 @@ questions:
     - ''
     - ans_b
     - new
-    - ''
+    - odo
     - ''
 - num: 3
   status: published
@@ -280,11 +280,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -414,15 +413,14 @@ questions:
       - 2021-08
       - 2022-02
       - 2023-02
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
+    - odo
     - ''
+    - ans_seen
     - ''
-    - ans_pat
-    - ''
-    pat: lw-law-measurement-scope-03
 - num: 6
   status: published
   chapters:
@@ -450,7 +448,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 7
     form: 選択肢が物質名などの問題
     level: A
     why: pat_A
@@ -479,7 +477,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -797,7 +795,7 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - odo
     - ans_seen
@@ -1113,7 +1111,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ans_seen
     - new
@@ -1149,11 +1147,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: C
+    why: q_seen
 - num: 15
   status: published
   chapters:
@@ -1385,8 +1382,8 @@ questions:
     tags:
     - ''
     - odo
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_hi
 - num: 17
   status: published
@@ -1501,8 +1498,8 @@ questions:
     why: pt_A
     tags:
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_hi
     - new
 - num: 18
@@ -1619,8 +1616,8 @@ questions:
       - 2021-08
       - 2022-08
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - new
     - ''

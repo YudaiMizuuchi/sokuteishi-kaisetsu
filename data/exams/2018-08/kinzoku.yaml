@@ -122,11 +122,11 @@ questions:
     - []
     - - 2016-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - ''
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -429,14 +429,14 @@ questions:
     - []
     - []
     - - 2024-08
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
 - num: 6
   status: published
   chapters:
@@ -531,10 +531,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - new
     - odo
     - odo
@@ -634,12 +634,12 @@ questions:
     - - 2026-08
     - []
     level: S
-    why: pr_S
+    why: trend_S
     tags:
     - ''
     - new
     - ''
-    - ans_pr
+    - ans_trend
     - ''
 - num: 8
   status: published
@@ -735,11 +735,11 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1148,11 +1148,11 @@ questions:
     - []
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - ''
     - odo
@@ -1883,8 +1883,8 @@ questions:
     - []
     subst_id: sb-kinzoku-4009
     subst_name: ニッケル化合物
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
@@ -1929,5 +1929,8 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-kinzoku-0013
+    prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    prcount: 3
     level: C
     why: q_seen

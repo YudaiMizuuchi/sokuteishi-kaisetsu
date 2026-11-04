@@ -42,8 +42,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0023
+    prname: 沸点・蒸気圧・融点・分子量の比較
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 2
   status: published
   chapters:
@@ -135,13 +138,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pr_A
+    level: D
+    why: none
     tags:
-    - odo
+    - new
     - ''
     - new
-    - ans_pr
+    - ans_new
     - new
 - num: 3
   status: published
@@ -168,8 +171,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0025
+    prname: 有機溶剤の水への溶解（極性・水酸基）
+    prcount: 7
+    level: B
+    why: pr_B
 - num: 4
   status: published
   chapters:
@@ -472,14 +478,14 @@ questions:
     - []
     - - 2022-08
     - - 2020-08
-    level: A
-    why: pr_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - new
     - new
     - odo
-    - ans_pr
+    - ans_b
 - num: 7
   status: published
   chapters:
@@ -577,11 +583,11 @@ questions:
       - 2026-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pt_B
     tags:
     - new
-    - ans_pr
+    - ans_b
     - odo
     - odo
     - new
@@ -776,14 +782,14 @@ questions:
     - - 2019-08
       - 2025-08
     - - 2018-08
-    level: A
-    why: pr_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
     - odo
     - odo
-    - ans_pr
+    - ans_b
 - num: 10
   status: published
   chapters:
@@ -977,10 +983,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1227,6 +1233,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-yuki-0017
+    prname: 標準液の調製と保存
+    prcount: 3
     level: B
     why: q_b
 - num: 15
@@ -1364,6 +1373,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-yuki-0001
+    prname: ランベルト・ベールの法則
+    prcount: 5
     level: C
     why: q_seen
 - num: 17
@@ -1439,6 +1451,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-yuki-0024
+    prname: 気体の体積とppm濃度の換算
+    prcount: 5
     level: C
     why: q_seen
 - num: 19
@@ -1475,6 +1490,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-yuki-0019
+    prname: 液体捕集の捕集率
+    prcount: 5
     level: A
     why: q_hi
 - num: 20
@@ -1574,5 +1592,5 @@ questions:
     - ans_seen
     - new
     - new
-    - odo
-    - odo
+    - ''
+    - ''

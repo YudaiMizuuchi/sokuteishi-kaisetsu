@@ -573,13 +573,14 @@ questions:
       - 2023-08
     - []
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - new
     - new
     - new
-    - ans_b
+    - ans_pat
     - new
+    pat: gn-toxicity-01
 - num: 7
   status: published
   chapters:
@@ -610,11 +611,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -721,7 +721,7 @@ questions:
     - ans_seen
     - ''
     - odo
-    - odo
+    - ''
     - new
 - num: 9
   status: published
@@ -822,7 +822,7 @@ questions:
     why: pat_A
     tags:
     - new
-    - odo
+    - ''
     - ans_pat
     - new
     - new

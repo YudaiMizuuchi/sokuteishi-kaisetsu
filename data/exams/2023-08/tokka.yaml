@@ -484,7 +484,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: S
+    level: A
     why: q_hi
 - num: 8
   status: published
@@ -649,12 +649,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 11
   status: published
   chapters:
@@ -910,10 +910,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 12
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -950,10 +950,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 5
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -993,10 +993,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 3
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 16
   status: published
   chapters:
@@ -1032,12 +1032,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 4
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3015
     subst_name: シアン化カリウム
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -1078,6 +1078,9 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    prid: pr-tokka-0008
+    prname: 標定・滴定の量的関係
+    prcount: 5
     level: C
     why: q_seen
 - num: 18
@@ -1113,6 +1116,9 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0006
+    prname: 活性炭への吸着と脱着
+    prcount: 4
     subst_id: sb-tokka-3032
     subst_name: マゼンタ
     level: B

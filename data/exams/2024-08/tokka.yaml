@@ -146,6 +146,9 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    prid: pr-tokka-0001
+    prname: ランベルト・ベールの法則
+    prcount: 7
     level: A
     why: q_hi
 - num: 3
@@ -212,6 +215,9 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-tokka-0010
+    prname: 芳香族アミンのジアゾカップリング発色
+    prcount: 3
     level: D
     why: q_new
 - num: 5
@@ -503,12 +509,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -536,12 +542,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 4
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -762,10 +768,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 12
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: S
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -793,6 +799,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0011
+    prname: 沸点・融点・蒸気圧の比較（分子間力）
+    prcount: 5
     level: D
     why: q_new
 - num: 15
@@ -876,12 +885,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3035
     subst_name: 硫酸ジメチル
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -922,6 +931,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-tokka-0005
+    prname: 拡散セルによる標準ガスの発生
+    prcount: 3
     level: B
     why: q_b
 - num: 18
@@ -1128,5 +1140,5 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: S
+    level: A
     why: q_hi

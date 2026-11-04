@@ -116,13 +116,14 @@ questions:
       - 2022-02
       - 2023-02
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - ''
-    - ans_b
+    - ans_pat
     - ''
     - ''
     - ''
+    pat: lw-law-system-01
 - num: 2
   status: published
   chapters:
@@ -232,8 +233,8 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ''
     - ''
     - ans_hi
@@ -377,11 +378,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -504,7 +504,7 @@ questions:
     - ''
     - ans_hi
     - ''
-    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -533,7 +533,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -562,7 +562,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -791,10 +791,10 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - ''
-    - ''
+    - odo
     - ''
 - num: 10
   status: published
@@ -910,7 +910,7 @@ questions:
     - ''
     - odo
     - ans_hi
-    - ''
+    - odo
     - ''
 - num: 11
   status: published
@@ -1254,7 +1254,7 @@ questions:
     tags:
     - ans_pat
     - ''
-    - ''
+    - odo
     - ''
     - ''
     pat: lw-law-chief-01
@@ -1359,15 +1359,14 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - odo
     - ''
     - ''
-    - ans_pat
+    - ans_seen
     - ''
-    pat: lw-law-organic-04
 - num: 15
   status: published
   chapters:
@@ -1478,7 +1477,7 @@ questions:
     - ''
     - ans_b
     - ''
-    - ''
+    - odo
     - odo
 - num: 16
   status: published
@@ -1589,7 +1588,7 @@ questions:
     why: pat_A
     tags:
     - odo
-    - ''
+    - odo
     - ans_pat
     - ''
     - ''
@@ -1705,8 +1704,8 @@ questions:
     - - 2021-08
       - 2022-08
       - 2024-02
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat
@@ -2037,6 +2036,6 @@ questions:
     tags:
     - ''
     - ans_seen
-    - ''
+    - odo
     - ''
     - ''

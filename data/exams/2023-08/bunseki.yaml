@@ -34,10 +34,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-units-01
 - num: 2
   status: published
@@ -73,11 +73,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
+    prid: pr-bunseki-0025
+    prname: 誤差と統計量
+    prcount: 7
     level: B
-    why: pat_B
-    pat: an-statistics-01
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -287,14 +289,14 @@ questions:
       - 2021-02
       - 2022-08
       - 2024-02
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - new
+    - odo
+    - odo
     - ''
-    - ''
     - new
-    - ans_pat
+    - ans_pr
     pat: an-organic-01
 - num: 5
   status: published
@@ -334,11 +336,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-solution-03
+    level: C
+    why: q_seen
 - num: 6
   status: published
   chapters:
@@ -382,8 +383,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-02
 - num: 7
   status: published
@@ -416,10 +417,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 3
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: C
+    why: q_seen
 - num: 8
   status: published
   chapters:
@@ -737,11 +738,11 @@ questions:
     level: B
     why: pr_B
     tags:
-    - ''
-    - new
-    - new
+    - odo
+    - odo
+    - odo
     - ans_pr
-    - ''
+    - odo
 - num: 11
   status: published
   chapters:
@@ -779,8 +780,11 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0019
+    prname: 物質量・モル質量・アボガドロ定数
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-reaction-03
 - num: 12
   status: published
@@ -880,11 +884,11 @@ questions:
     - - 2024-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_b
+    - ans_seen
     - ''
     - ''
     - ''
@@ -951,9 +955,9 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 16
+    count: 18
     form: 計算問題
-    level: S
+    level: A
     why: q_hi
 - num: 15
   status: published
@@ -1056,7 +1060,7 @@ questions:
     tags:
     - odo
     - ''
-    - ''
+    - odo
     - ans_new
     - ''
 - num: 16
@@ -1230,11 +1234,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 11
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
-    pat: an-gc-01
+    prid: pr-bunseki-0031
+    prname: 検出器の原理
+    prcount: 11
+    level: A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -1332,14 +1338,13 @@ questions:
     - []
     - []
     level: B
-    why: pat_B
+    why: elim_two
     tags:
     - odo
     - odo
     - ''
-    - ans_pat
+    - ans_new
     - odo
-    pat: an-xrd-04
 - num: 20
   status: published
   chapters:
@@ -1371,8 +1376,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 6
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0027
+    prname: 放射壊変と原子番号・質量数
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-radiation-01

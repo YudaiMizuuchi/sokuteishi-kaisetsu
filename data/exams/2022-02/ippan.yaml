@@ -212,10 +212,10 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
-    - ans_hi
+    - ans_b
     - ''
     - ''
     - ''
@@ -427,13 +427,14 @@ questions:
     - []
     - []
     level: B
-    why: pt_B
+    why: pat_B
     tags:
-    - odo
-    - ans_b
-    - odo
-    - odo
-    - odo
+    - ''
+    - ans_pat
+    - ''
+    - ''
+    - ''
+    pat: gn-toxicity-01
 - num: 5
   status: published
   chapters:
@@ -463,11 +464,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -569,7 +569,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - odo
+    - ''
     - ans_pat
     - ''
     - odo
@@ -670,14 +670,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - odo
     - ''
-    - ans_new
-    - odo
-    - odo
+    - ''
+    - ans_seen
+    - ''
+    - ''
 - num: 8
   status: published
   chapters:
@@ -780,7 +780,7 @@ questions:
     - ''
     - ans_b
     - ''
-    - odo
+    - ''
 - num: 9
   status: published
   chapters:
@@ -1095,7 +1095,7 @@ questions:
     why: seen
     tags:
     - ans_seen
-    - odo
+    - ''
     - ''
     - ''
     - odo
@@ -1207,11 +1207,11 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - odo
     - ans_b
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 13
   status: published
   chapters:
@@ -1314,8 +1314,8 @@ questions:
     - ''
     - ''
     - ans_pat
-    - odo
-    - odo
+    - ''
+    - ''
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1413,14 +1413,14 @@ questions:
       - 2020-08
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - ''
+    - ''
     - odo
-    - odo
-    - ans_new
-    - odo
+    - ans_seen
+    - ''
 - num: 15
   status: published
   chapters:
@@ -1639,7 +1639,7 @@ questions:
     - odo
     - ans_pat
     - odo
-    - odo
+    - ''
     pat: gn-ventilation-01
 - num: 17
   status: published
@@ -1738,14 +1738,14 @@ questions:
     - - 2017-02
       - 2020-02
       - 2021-08
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - ''
-    - odo
     - ''
     - ''
-    - ans_hi
+    - ''
+    - ans_b
 - num: 18
   status: published
   chapters:
@@ -1847,15 +1847,14 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pt_A
     tags:
-    - odo
-    - ans_pat
     - ''
-    - odo
+    - ans_hi
+    - ''
+    - ''
     - new
-    pat: gn-ppe-01
 - num: 19
   status: published
   chapters:
@@ -2061,7 +2060,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - ''
     - ans_b
     - odo

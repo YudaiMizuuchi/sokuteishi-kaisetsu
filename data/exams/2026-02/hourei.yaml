@@ -344,7 +344,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 3
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -444,14 +444,14 @@ questions:
     - []
     - []
     - - 2026-08
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - new
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_seen
 - num: 6
   status: published
   chapters:
@@ -586,11 +586,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -1227,13 +1226,14 @@ questions:
     - []
     - []
     level: B
-    why: pt_B
+    why: pat_B
     tags:
-    - ans_b
+    - ans_pat
     - new
     - new
     - ''
     - new
+    pat: lw-law-tokka-02
 - num: 14
   status: published
   chapters:
@@ -1590,8 +1590,8 @@ questions:
     why: seen
     tags:
     - ans_seen
-    - ''
-    - ''
+    - odo
+    - odo
     - new
     - new
 - num: 18
@@ -1618,7 +1618,7 @@ questions:
     石綿の空気中の濃度は、ろ過捕集した試料の繊維を顕微鏡で数えて求めます。種類の同定は、建材などの石綿含有の分析で使われる手法で、作業環境測定の手順とは別のものです。
 
 
-    根拠：作業環境測定基準第10条の2（石綿の濃度の測定は、ろ過捕集方法及び計数方法による）。'
+    根拠：作業環境測定基準第10条の4（石綿の濃度の測定は、ろ過捕集方法及び計数方法による）。この条は、令和8年告示第325号（令和8年10月1日適用）で、第10条の2から繰り下がった。この回（令和8年2月）の時点では、第10条の2。'
   figures: []
   law_note: null
   _key_choice: 石綿等を取り扱う屋内作業場について作業環境測定を行うときは、取り扱う石綿の種類が明らかな場合を除き、エックス線回折分析法により石綿の種類を分析しなければならない。
@@ -1933,4 +1933,4 @@ questions:
     - new
     - odo
     - new
-    - ''
+    - odo

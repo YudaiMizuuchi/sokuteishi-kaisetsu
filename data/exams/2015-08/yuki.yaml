@@ -28,8 +28,11 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    prid: pr-yuki-0023
+    prname: 沸点・蒸気圧・融点・分子量の比較
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 2
   status: published
   chapters:
@@ -71,8 +74,11 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0025
+    prname: 有機溶剤の水への溶解（極性・水酸基）
+    prcount: 7
+    level: B
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -382,11 +388,11 @@ questions:
     - []
     - - 2018-08
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pt_B
     tags:
     - ''
-    - ans_pr
+    - ans_b
     - ''
     - odo
     - odo
@@ -522,10 +528,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 3
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 10
   status: published
   chapters:
@@ -551,8 +560,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 11
   status: published
   chapters:
@@ -581,8 +593,11 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
-    level: C
-    why: q_seen
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 12
   status: published
   chapters:
@@ -782,14 +797,14 @@ questions:
     - []
     - - 2018-08
       - 2020-08
-    level: A
-    why: pr_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
+    - ''
     - odo
-    - odo
-    - ans_pr
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -895,7 +910,7 @@ questions:
     - ''
     - odo
     - ans_hi
-    - odo
+    - ''
     - odo
 - num: 15
   status: published
@@ -929,10 +944,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: A
+    why: q_hi
 - num: 16
   status: published
   chapters:
@@ -1031,7 +1046,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - new
     - odo
     - odo
     - odo
@@ -1175,6 +1190,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-yuki-0007
+    prname: 理論段数と理論段相当高さ
+    prcount: 7
     level: B
     why: q_b
 - num: 19
@@ -1214,6 +1232,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-yuki-0017
+    prname: 標準液の調製と保存
+    prcount: 3
     level: B
     why: q_b
 - num: 20
@@ -1312,6 +1333,6 @@ questions:
     tags:
     - ''
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_new

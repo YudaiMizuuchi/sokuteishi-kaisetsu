@@ -31,10 +31,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 7
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 2
   status: published
   chapters:
@@ -132,8 +135,8 @@ questions:
     - []
     - - 2024-08
       - 2025-08
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
@@ -185,10 +188,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 6
+    count: 8
     form: 計算問題
-    level: A
-    why: q_hi
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -496,8 +502,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - ans_hi
@@ -601,11 +607,11 @@ questions:
     - []
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - odo
     - odo
-    - ans_hi
+    - ans_pr
     - new
     - odo
 - num: 8
@@ -812,8 +818,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - ans_pr
@@ -1353,8 +1359,11 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    prid: pr-funjin-0015
+    prname: りん酸法の原理
+    prcount: 6
     level: A
-    why: q_hi
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1454,8 +1463,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ''
     - ans_hi
@@ -1492,8 +1501,11 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
-    level: B
-    why: q_b
+    prid: pr-funjin-0011
+    prname: X線回折のブラッグの条件と回折線
+    prcount: 5
+    level: A
+    why: pr_A
 - num: 19
   status: published
   chapters:
@@ -1692,11 +1704,11 @@ questions:
       - 2019-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - new
-    - ans_hi
+    - ans_b
     - ''
     - ''

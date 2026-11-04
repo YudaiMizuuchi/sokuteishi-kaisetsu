@@ -268,7 +268,7 @@ questions:
     tags:
     - odo
     - ''
-    - ''
+    - odo
     - ''
     - ans_hi
 - num: 4
@@ -298,7 +298,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -551,11 +551,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -668,7 +667,7 @@ questions:
     why: near
     tags:
     - new
-    - ''
+    - odo
     - odo
     - ans_near
     - new
@@ -889,7 +888,7 @@ questions:
     level: C
     why: near
     tags:
-    - ''
+    - odo
     - ''
     - ans_near
     - ''
@@ -1215,13 +1214,14 @@ questions:
     - []
     - []
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - ''
-    - ans_b
+    - ans_pat
     - new
     - new
     - ''
+    pat: lw-law-tokka-02
 - num: 14
   status: published
   chapters:
@@ -1264,7 +1264,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 4
     form: 穴埋め・組合せの問題
     level: B
     why: pat_B
@@ -1597,7 +1597,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ans_seen
     - ''
@@ -1718,9 +1718,9 @@ questions:
     tags:
     - ans_new
     - ''
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
 - num: 19
   status: published
   chapters:

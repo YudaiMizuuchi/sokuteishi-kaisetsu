@@ -883,7 +883,7 @@ chapters:
   kind: 数値表
   themes:
   - 健康診断
-  status: draft
+  status: written
   part: law
 - id: bk-hourei-th08
   subject: hourei
@@ -2293,7 +2293,7 @@ chapters:
   forms:
   - 計算問題
   - 穴埋め・組合せの問題
-  status: draft
+  status: written
   part: hazards
 - id: bk-hourei-forms
   subject: hourei
@@ -2302,7 +2302,7 @@ chapters:
   forms:
   - 計算問題
   - 穴埋め・組合せの問題
-  status: draft
+  status: written
   part: law
 - id: bk-design-forms
   subject: design
@@ -2311,7 +2311,7 @@ chapters:
   forms:
   - 計算問題
   - 穴埋め・組合せの問題
-  status: draft
+  status: written
   part: sampling
 - id: bk-bunseki-forms
   subject: bunseki
@@ -2347,7 +2347,7 @@ chapters:
   forms:
   - 計算問題
   - 穴埋め・組合せの問題
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-forms
   subject: funjin
@@ -2356,7 +2356,7 @@ chapters:
   forms:
   - 計算問題
   - 穴埋め・組合せの問題
-  status: draft
+  status: written
   part: select
 - id: bk-design-tp01
   subject: design
@@ -3576,11 +3576,9 @@ chapters:
   title: 放射性物質の試料捕集（捕集方法と測定）
   kind: 論点
   points:
-  - qp-design-0002
   - qp-design-0006
-  - qp-design-0017
-  - qp-design-0020
   - qp-design-0045
+  - qp-design-0048
   status: draft
   part: sampling
 - id: bk-tokka-tp04
@@ -3610,13 +3608,8 @@ chapters:
   points:
   - pt-bunseki-0405
   - qp-bunseki-0019
-  - qp-bunseki-0027
-  - qp-bunseki-0033
   - qp-bunseki-0037
-  - qp-bunseki-0044
-  - qp-bunseki-0053
   - qp-bunseki-0064
-  - qp-bunseki-0084
   status: draft
   part: analysis
 - id: bk-kinzoku-tp08
@@ -3692,7 +3685,7 @@ chapters:
   - pt-kinzoku-0430
   - pt-kinzoku-0431
   - pt-kinzoku-0446
-  - qp-kinzoku-0007
+  - qp-kinzoku-0003
   - qp-kinzoku-0009
   status: draft
   part: select
@@ -3703,13 +3696,7 @@ chapters:
   points:
   - pt-hourei-0379
   - qp-hourei-0002
-  - qp-hourei-0012
-  - qp-hourei-0016
-  - qp-hourei-0025
   - qp-hourei-0035
-  - qp-hourei-0038
-  - qp-hourei-0042
-  - qp-hourei-0045
   status: draft
   part: law
 - id: bk-bunseki-0014
@@ -3774,5 +3761,37 @@ chapters:
   kind: 原理
   principles:
   - pr-kinzoku-0016
+  status: draft
+  part: select
+- id: bk-funjin-0021
+  subject: funjin
+  title: 重力沈降とストークスの式（終末沈降速度）
+  kind: 原理
+  principles:
+  - pr-funjin-0021
+  status: draft
+  part: select
+- id: bk-design-0013
+  subject: design
+  title: 放射能の計数率と、空気中の放射能濃度の関係
+  kind: 原理
+  principles:
+  - pr-design-0013
+  status: draft
+  part: sampling
+- id: bk-design-0014
+  subject: design
+  title: 沸点・蒸気圧と、ガス・蒸気の状態
+  kind: 原理
+  principles:
+  - pr-design-0014
+  status: draft
+  part: sampling
+- id: bk-kinzoku-0020
+  subject: kinzoku
+  title: 分析結果から、空気中の金属濃度への換算
+  kind: 原理
+  principles:
+  - pr-kinzoku-0020
   status: draft
   part: select

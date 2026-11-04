@@ -34,11 +34,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 9
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: an-units-01
+    level: B
+    why: q_b
 - num: 2
   status: published
   chapters:
@@ -72,9 +71,11 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-units-03
+    prid: pr-bunseki-0024
+    prname: 有効数字と数値の丸め
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 3
   status: published
   chapters:
@@ -103,8 +104,8 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 4
   status: published
   chapters:
@@ -245,8 +246,11 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0021
+    prname: 希釈しても、溶質の物質量は変わらない
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -281,10 +285,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-02
 - num: 7
   status: published
@@ -591,15 +595,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - ''
-    - ans_pat
+    - ans_seen
     - ''
-    pat: an-reagents-02
 - num: 10
   status: published
   chapters:
@@ -697,8 +700,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - new
     - new
@@ -816,14 +819,13 @@ questions:
       - 2020-02
       - 2021-02
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
     - ans_pr
     - odo
-    pat: an-reaction-03
 - num: 12
   status: published
   chapters:
@@ -855,6 +857,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0023
+    prname: 標定と一次標準物質
+    prcount: 3
     level: D
     why: q_new
 - num: 13
@@ -1197,13 +1202,13 @@ questions:
     - []
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - ''
     - odo
     - odo
     - odo
-    - ans_hi
+    - ans_pr
 - num: 17
   status: published
   chapters:
@@ -1301,11 +1306,11 @@ questions:
     - - 2024-02
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
-    - ans_pat
+    - ans_pr
     - odo
     - odo
     - odo
@@ -1344,6 +1349,9 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0028
+    prname: 理論段数と理論段相当高さ
+    prcount: 4
     level: C
     why: q_seen
 - num: 19

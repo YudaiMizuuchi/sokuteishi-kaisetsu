@@ -31,11 +31,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 9
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: an-units-01
+    level: B
+    why: q_b
 - num: 2
   status: published
   chapters:
@@ -67,9 +66,11 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-units-03
+    prid: pr-bunseki-0024
+    prname: 有効数字と数値の丸め
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 3
   status: published
   chapters:
@@ -170,10 +171,10 @@ questions:
     why: pr_B
     tags:
     - ans_pr
-    - ''
     - odo
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -268,15 +269,14 @@ questions:
     - - 2019-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
-    - ans_pat
+    - ans_seen
     - ''
     - ''
-    pat: an-gas-01
 - num: 5
   status: published
   chapters:
@@ -306,6 +306,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0038
+    prname: 酸・塩の水溶液のpH
+    prcount: 6
     level: A
     why: pat_A
     pat: an-reaction-01
@@ -342,10 +345,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-02
 - num: 7
   status: published
@@ -488,11 +491,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-gas-05
+    level: C
+    why: q_seen
 - num: 9
   status: published
   chapters:
@@ -695,8 +697,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - new
     - ''
@@ -741,8 +743,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 12
   status: published
   chapters:
@@ -771,9 +773,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-equilibrium-03
+    level: D
+    why: q_new
 - num: 13
   status: published
   chapters:
@@ -913,10 +914,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 14
+    count: 18
     form: 計算問題
     level: S
-    why: q_hi
+    why: pat_S
+    pat: an-logarithm-02
 - num: 15
   status: published
   chapters:
@@ -1115,12 +1117,12 @@ questions:
     - []
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - ''
     - odo
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 17
   status: published
@@ -1219,8 +1221,8 @@ questions:
     - - 2019-02
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - new
     - ans_pat
@@ -1323,12 +1325,12 @@ questions:
       - 2021-02
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_pat
+    - ans_pr
     - odo
     - ''
     pat: an-gc-01
@@ -1427,14 +1429,13 @@ questions:
     - []
     - []
     level: B
-    why: pat_B
+    why: elim_two
     tags:
     - odo
     - odo
     - new
-    - ans_pat
+    - ans_new
     - odo
-    pat: an-xrd-04
 - num: 20
   status: published
   chapters:
@@ -1468,8 +1469,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 7
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-logarithm-03
+    level: C
+    why: q_seen

@@ -23,16 +23,32 @@ NEG=re.compile(r'誤っているもの|不適当|不適切|適切でない|適�
 def norm(s):
     s=re.sub(r'<[^>]+>','',str(s)); s=re.sub(r'\$[^$]*\$','',s)
     return re.sub(r'[\s　、。，．・「」『』（）()\[\]：:,.\-－]','',s)
+MARKS_Q=re.compile(r'[Ⓐ-Ⓩ㋐-㋾㊀-㊉①-⑩]')
+NEGW_Q=re.compile(r'(誤って|間違って)いる|(不適切|不適当|適切でない|適当でない)|正しくない|(適切|適当|正しい)')
+TEMPLATE_Q=re.compile(r'組合せ|のうち|次の|として|どれか|ものは|入る|に用い|について|関する|記述')
+THR_COMBO=0.60
+def qbody(stem):
+    """穴埋め・組合せの問題の『中身』：記号（Ⓐ・㋑）、「正しい／誤っている」、「ただし…」、定型の言い回しを除いた問題文"""
+    t=re.sub(r'\s+','',str(stem)); t=MARKS_Q.sub('',t); t=re.sub(r'[［\[]\s*[］\]]','',t)
+    t=NEGW_Q.sub('〇',t); t=re.sub(r'ただし[^。]*。','',t)
+    t=TEMPLATE_Q.sub('',t)
+    return norm(t)[:90]
+def qkey(q,k,atxt=''):
+    """問題単位の問題（計算・穴埋め・組合せ・物質名を選ぶ問題）が、『同じ問題』かどうかを決めるキー。
+    計算：問題文の先頭70字（正答は数値が変わるので使わない）、穴埋め・組合せ：問題の中身（正答は使わない＝語句や正誤が変わっても同じテーマ）、物質名を選ぶ：問題文の先頭60字＋正答"""
+    if k=='calc': return norm(q['stem'])[:70]
+    if k=='combo': return qbody(q['stem'])
+    return norm(q['stem'])[:60]+'|'+atxt
 def grams(t): return {t[i:i+3] for i in range(max(1,len(t)-2))}
 
 # ランクの境目：科目ごと。頻度（回数）が、S・A・B の各ランクに入る下限（これ未満はC）。
 # 目標の割合（科目内）：S約15％・A約25％・B約30％・C約30％。tools/fit_thresholds.py で、最終の区分（消去法を含む）の分布が目標に近くなるように決めた（2026年11月3日）。論点マスタが大きく変わったら、もう一度実行する。
 THRESHOLDS={
- 'ippan':(16,9,6), 'hourei':(21,14,9), 'design':(23,11,7), 'bunseki':(12,9,6),
- 'yuki':(10,5,3), 'tokka':(5,4,3), 'kinzoku':(9,4,3), 'funjin':(8,5,3),   # 選択科目のBの下限は3回（C＝通算2回＝過去に1回だけ既出）。S・Aは fit_thresholds.py（2026年11月3日）
+ 'ippan':(17,11,7), 'hourei':(21,15,11), 'design':(23,11,10), 'bunseki':(19,11,9),
+ 'yuki':(10,5,3), 'tokka':(6,4,3), 'kinzoku':(9,4,3), 'funjin':(10,8,3),   # 選択科目のBの下限は3回（C＝通算2回＝過去に1回だけ既出）。2026年11月4日、指示AC（問題単位の回数の数え方の変更）にあわせて、fit_thresholds.py で再探索した
 }
 # 消去法で「除外できるおとり」とみなす論点の水準（この水準以上）。選択科目は、Cが少なくなりすぎないよう、厳しくできる。
-ELIM_KNOWN={'hourei':'A','design':'A','bunseki':'A'}   # 未指定は 'B'
+ELIM_KNOWN={'ippan':'A','design':'A'}   # 未指定は 'B'（2026年11月4日の再探索で、関係法令・分析を B に）
 # 直近トレンド：直近K回（共通6回・選択3回）のうち、TREND_MIN回以上に出た論点は、頻度が低くても、少なくともB（押さえるべき事実）にする
 TREND_K={'ippan':6,'hourei':6,'design':6,'bunseki':6,'yuki':3,'tokka':3,'kinzoku':3,'funjin':3}
 # トレンド（直近に集中）：通算2回以上の論点で、通算回数の半分以上が直近K回にあるとき、水準を1段階上げる（A→S、B→A）。通算1回は対象外
@@ -51,10 +67,11 @@ def judge(fr,answers,prank=None):
     問題単位の集計：問題の出題回数とパターンの水準の、高いほう。"""
     D=fr['denom']
     if fr['kind']=='question':
-        rq=rank_of(fr['count'],D); r=best(rq,prank)
-        why=('pat_' if prank==r and rq!=r else 'q_')
-        if r in 'SA': return r,('pat_'+r if why=='pat_' else 'q_hi'),None
-        if r=='B': return 'B',('pat_B' if why=='pat_' else 'q_b'),None
+        rq=rank_of(fr['count'],D); rprin=pr_rank(fr.get('prcount',0),CUR) if fr.get('prid') else 'C'
+        r=best(rq,prank,rprin)
+        why=('pr_' if (rprin==r and rq!=r and prank!=r) else 'pat_' if (prank==r and rq!=r) else 'q_')   # 原理が決め手／パターンが決め手／問題の出題回数が決め手
+        if r in 'SA': return r,(why+r if why!='q_' else 'q_hi'),None
+        if r=='B': return 'B',(why+'B' if why!='q_' else 'q_b'),None
         if fr.get('subst_id'): return 'B','subst',None
         seen_min=2 if fr.get('self_counted',True) else 1
         return ('C','q_seen',None) if fr['count']>=seen_min else ('D','q_new',None)
@@ -108,7 +125,7 @@ import os
 _PRD=yaml.safe_load(open('data/master/principles.yaml',encoding='utf-8')) if os.path.exists('data/master/principles.yaml') else {'principles':[]}
 # 原理用の境目（科目ごと。原理は論点より広いので、論点とは別に決める）。python3 tools/fit_thresholds.py で決める
 # 分析科目：S＝23回中12回以上（半数以上の回で問われた原理）、A＝8回以上、B＝5回以上（2026年11月3日、本人の判断。Sが多く、Cが少なくなるのは、原理を熟知すべき科目の性格として、許容）
-PR_THRESHOLDS={'ippan':(12,8,5),'design':(12,8,5),'bunseki':(12,8,5),'yuki':(6,4,3),'tokka':(6,4,3),'kinzoku':(6,4,3),'funjin':(6,4,3)}   # 一般・デザインは分析と同じ（23回中12／8／5回、2026年11月3日）。有機溶剤以下は、分母12回に対して分析と同じ割合
+PR_THRESHOLDS={'ippan':(12,8,5),'design':(12,8,5),'bunseki':(12,8,5),'yuki':(10,9,6),'tokka':(8,7,6),'kinzoku':(10,9,4),'funjin':(12,4,3)}   # 一般・デザインは分析と同じ（23回中12／8／5回、2026年11月3日）。有機溶剤以下は、分母12回に対して分析と同じ割合
 def pr_rank(m,subj):
     t=PR_THRESHOLDS.get(subj)
     if not t or not m: return 'C'
@@ -118,10 +135,11 @@ def pr_rank(m,subj):
 _PM=PM.load(); _K2P=PM.resolve(_PM); _PNAME=PM.info(_PM)
 _PEX=collections.defaultdict(set)    # (科目, 論点id) -> 回
 for (_s,_k),_pid in _K2P.items(): _PEX[(_s,_pid)].add(_k.split('|')[0])
-PR_BY_POINT=collections.defaultdict(list); PR_EXAMS={}; PR_NAME={}
+PR_BY_POINT=collections.defaultdict(list); PR_EXAMS={}; PRQ_EXAMS={}; PR_NAME={}
 for _pr in _PRD['principles']:
     PR_NAME[_pr['id']]=_pr['name']
-    PR_EXAMS[_pr['id']]=set().union(*[_PEX[(_pr['subject'],x)] for x in _pr['points'] if not x.startswith('qp-')]) if [x for x in _pr['points'] if not x.startswith('qp-')] else set()   # 問題論点（qp-）は、原理の出題回数に数えない（区分の判定を変えないため）
+    PR_EXAMS[_pr['id']]=set().union(*[_PEX[(_pr['subject'],x)] for x in _pr['points'] if not x.startswith('qp-')]) if [x for x in _pr['points'] if not x.startswith('qp-')] else set()   # 記述の問題（選択肢の論点）：選択肢の論点だけで数える
+    PRQ_EXAMS[_pr['id']]=set().union(*[_PEX[(_pr['subject'],x)] for x in _pr['points'] if x.startswith('qp-')]) if [x for x in _pr['points'] if x.startswith('qp-')] else set()   # 問題単位の問題（穴埋め・組合せ・計算・物質名）：問題論点だけで数える
     for x in _pr['points']: PR_BY_POINT[(_pr['subject'],x)].append(_pr['id'])
 
 docs=collections.defaultdict(dict)   # subject -> exam -> (file, data)
@@ -186,7 +204,7 @@ def collect():
                     for i,c in enumerate(q['choices'],1):
                         S.append((e,q['num'],i,(i not in ans) if neg else (i in ans),norm(c)))
                 a0=ans[0]; atxt=norm(q['choices'][a0-1]) if isinstance(a0,int) and a0<=len(q['choices']) else ''
-                Qs.append((e,q['num'],k,norm(q['stem'])[:70] if k=='calc' else norm(q['stem'])[:60]+'|'+atxt))
+                Qs.append((e,q['num'],k,qkey(q,k,atxt)))
         G=[grams(s[4]) for s in S]; inv=collections.defaultdict(list)
         for i,g in enumerate(G):
             for x in g: inv[x].append(i)
@@ -234,7 +252,11 @@ def collect():
                     _nm=compute_near(subj); _ne=[_nm.get((e,q['num'],i),[]) for i in range(1,len(q['choices'])+1)]
                     fr=dict(kind='choice',denom=D,counts=counts,truths=truths,pcounts=pcs,points=pids,pnames=pnames,prcounts=prcs,principles=prids,prnames=prn,trend=trend,recent_exams=sorted(recent),near=[bool(x) for x in _ne],near_exams=_ne)
                 else:
-                    fr=dict(kind='question',denom=D,count=qm[(e,q['num'])],form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k])
+                    _qp=_K2P.get((subj,f"{e}|{q['num']}|0"))   # 問題論点（tools/build_qpoints.py）。同じ問題の束の、出題回数
+                    fr=dict(kind='question',denom=D,count=(len(_PEX[(subj,_qp)]) if _qp else qm[(e,q['num'])]),form={'calc':'計算問題','combo':'穴埋め・組合せの問題','short':'選択肢が物質名などの問題'}[k])
+                    _cq=PR_BY_POINT.get((subj,_qp),[]) if _qp else []
+                    if _cq:
+                        _bq=max(_cq,key=lambda r:len(PRQ_EXAMS[r])); fr.update(prid=_bq,prname=PR_NAME[_bq],prcount=len(PRQ_EXAMS[_bq]))
                 _a=ans[0]; _txt=str(q['stem'])+' '+(str(q['choices'][_a-1]) if isinstance(_a,int) and _a<=len(q['choices']) else '')
                 _tt=SB.table_type(subj,_txt) if subj in ('tokka','kinzoku') else None
                 if _tt and _tt[1]:

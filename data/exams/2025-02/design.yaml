@@ -100,15 +100,14 @@ questions:
       - 2020-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - ''
     - ''
     - ''
-    - ans_pat
+    - ans_new
     - new
-    pat: ds-states-01
 - num: 2
   status: published
   chapters:
@@ -803,10 +802,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 23
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: S
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -1012,12 +1011,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - ''
     - odo
-    - ans_trend
+    - ans_seen
     - ''
     - ''
 - num: 12
@@ -1496,7 +1495,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 10
     form: 穴埋め・組合せの問題
     level: S
     why: pat_S
@@ -1544,8 +1543,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 11
     form: 計算問題
+    prid: pr-design-0013
+    prname: 放射能の計数率と、空気中の放射能濃度の関係
+    prcount: 23
     level: S
     why: pat_S
     pat: ds-radiation-02
@@ -1868,9 +1870,9 @@ questions:
     - []
     - - 2025-08
     level: B
-    why: pt_B
+    why: elim_two
     tags:
-    - ans_b
+    - ans_new
     - ''
     - odo
     - odo

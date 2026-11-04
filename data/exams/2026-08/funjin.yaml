@@ -38,10 +38,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 7
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 2
   status: published
   chapters:
@@ -135,8 +138,8 @@ questions:
     - []
     - []
     - - 2023-08
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
@@ -196,8 +199,11 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -294,8 +300,8 @@ questions:
     - - 2018-08
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - ''
@@ -463,10 +469,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-funjin-0004
+    prname: ろ過捕集の機構（慣性・さえぎり・拡散・重力）
+    prcount: 2
+    level: C
+    why: q_seen
 - num: 7
   status: published
   chapters:
@@ -775,11 +784,11 @@ questions:
     - []
     - []
     level: A
-    why: pt_A
+    why: pr_A
     tags:
     - ''
     - new
-    - ans_hi
+    - ans_pr
     - ''
     - new
 - num: 10
@@ -986,8 +995,11 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 13
   status: published
   chapters:
@@ -1088,12 +1100,12 @@ questions:
       - 2025-08
     - - 2023-08
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_hi
+    - ans_b
     - ''
     - odo
 - num: 14
@@ -1299,8 +1311,8 @@ questions:
     - []
     - []
     - - 2022-08
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
@@ -1557,8 +1569,11 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    prid: pr-funjin-0013
+    prname: 基底標準吸収補正法
+    prcount: 8
     level: A
-    why: q_hi
+    why: pr_A
 - num: 19
   status: published
   chapters:
@@ -1657,13 +1672,13 @@ questions:
       - 2018-08
       - 2020-08
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - ''
     - odo
     - new
-    - ans_hi
+    - ans_b
     - odo
 - num: 20
   status: published

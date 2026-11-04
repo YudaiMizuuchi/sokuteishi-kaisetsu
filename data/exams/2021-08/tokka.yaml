@@ -146,6 +146,9 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    prid: pr-tokka-0001
+    prname: ランベルト・ベールの法則
+    prcount: 7
     level: A
     why: q_hi
 - num: 3
@@ -181,6 +184,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0010
+    prname: 芳香族アミンのジアゾカップリング発色
+    prcount: 3
     subst_id: sb-tokka-3026
     subst_name: パラ-ニトロクロルベンゼン
     level: B
@@ -325,12 +331,15 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
+    prid: pr-tokka-0004
+    prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
+    prcount: 5
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -568,12 +577,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -707,12 +716,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 11
   status: published
   chapters:
@@ -898,10 +907,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 12
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -931,10 +940,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 5
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -974,10 +983,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 3
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 16
   status: published
   chapters:
@@ -1011,12 +1020,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 4
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3013
     subst_name: クロロメチルメチルエーテル
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -1050,12 +1059,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3008
     subst_name: 塩素
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 18
   status: published
   chapters:

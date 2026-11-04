@@ -99,15 +99,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
-    - ans_pat
+    - ans_seen
     - ''
     - ''
     - ''
-    pat: ds-states-02
 - num: 2
   status: published
   chapters:
@@ -455,6 +454,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-design-0014
+    prname: 沸点・蒸気圧と、ガス・蒸気の状態
+    prcount: 19
     level: S
     why: pat_S
     pat: ds-properties-01
@@ -488,8 +490,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 6
     form: 穴埋め・組合せの問題
+    prid: pr-design-0014
+    prname: 沸点・蒸気圧と、ガス・蒸気の状態
+    prcount: 19
     level: S
     why: pat_S
     pat: ds-properties-01
@@ -555,10 +560,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 23
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: S
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -870,13 +875,14 @@ questions:
     - []
     - - 2020-02
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - new
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_pat
+    pat: ds-filter-01
 - num: 12
   status: published
   chapters:
@@ -1339,7 +1345,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 10
     form: 穴埋め・組合せの問題
     level: S
     why: pat_S
@@ -1382,8 +1388,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 11
     form: 計算問題
+    prid: pr-design-0013
+    prname: 放射能の計数率と、空気中の放射能濃度の関係
+    prcount: 23
     level: S
     why: pat_S
     pat: ds-radiation-02
@@ -1602,13 +1611,13 @@ questions:
       - 2022-02
       - 2023-02
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
     - ''
     - ''
-    - ans_b
+    - ans_seen
     - odo
 - num: 20
   status: published

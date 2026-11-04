@@ -532,14 +532,14 @@ questions:
     - []
     - []
     - - 2024-08
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
 - num: 7
   status: published
   chapters:
@@ -838,13 +838,13 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - odo
 - num: 10
   status: published
@@ -1938,6 +1938,9 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    prid: pr-kinzoku-0013
+    prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    prcount: 3
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B

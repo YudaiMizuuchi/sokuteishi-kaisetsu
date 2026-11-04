@@ -134,10 +134,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: C
+    why: q_seen
 - num: 3
   status: published
   chapters:
@@ -173,6 +173,9 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-kinzoku-0010
+    prname: ICPの原理
+    prcount: 1
     level: D
     why: q_new
 - num: 4
@@ -478,10 +481,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -583,11 +586,11 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: trend_S
     tags:
     - ''
     - odo
-    - ans_pr
+    - ans_trend
     - ''
     - new
 - num: 8
@@ -1751,8 +1754,8 @@ questions:
     - []
     subst_id: sb-kinzoku-4009
     subst_name: ニッケル化合物
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - new
@@ -1799,6 +1802,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    prid: pr-kinzoku-0013
+    prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
+    prcount: 3
     level: D
     why: q_new
 - num: 20
@@ -1836,9 +1842,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 6
     form: 計算問題
+    prid: pr-kinzoku-0020
+    prname: 分析結果から、空気中の金属濃度への換算
+    prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: B
-    why: q_b
+    level: A
+    why: q_hi

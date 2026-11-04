@@ -124,7 +124,7 @@ questions:
     tags:
     - ans_pat
     - ''
-    - ''
+    - odo
     - ''
     - ''
     pat: lw-law-system-01
@@ -238,7 +238,7 @@ questions:
     why: pt_A
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ''
     - ans_hi
@@ -390,11 +390,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -507,15 +506,14 @@ questions:
       - 2026-02
       - 2026-08
     - []
-    level: B
-    why: pat_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - ''
-    - ans_pat
-    - ''
-    pat: lw-law-measurement-scope-03
+    - ans_seen
+    - odo
 - num: 6
   status: published
   chapters:
@@ -544,7 +542,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -576,7 +574,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -794,7 +792,7 @@ questions:
     tags:
     - ''
     - ans_seen
-    - ''
+    - odo
     - ''
     - ''
 - num: 10
@@ -911,7 +909,7 @@ questions:
     - ans_hi
     - odo
     - ''
-    - ''
+    - odo
     - ''
 - num: 11
   status: published
@@ -1249,7 +1247,7 @@ questions:
     - ''
     - ans_pat
     - ''
-    - ''
+    - odo
     pat: lw-law-chief-01
 - num: 14
   status: published
@@ -1281,11 +1279,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: C
+    why: q_seen
 - num: 15
   status: published
   chapters:
@@ -1388,13 +1385,13 @@ questions:
       - 2023-08
       - 2026-08
     - - 2020-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - odo
-    - ''
-    - ans_b
+    - odo
+    - ans_seen
     - ''
 - num: 16
   status: published
@@ -1516,7 +1513,7 @@ questions:
     tags:
     - odo
     - odo
-    - ''
+    - odo
     - ans_hi
     - odo
 - num: 17
@@ -1638,7 +1635,7 @@ questions:
     tags:
     - odo
     - ans_hi
-    - ''
+    - odo
     - ''
     - ''
 - num: 18
@@ -1765,7 +1762,7 @@ questions:
     - odo
     - ''
     - ans_hi
-    - ''
+    - odo
 - num: 19
   status: published
   chapters:

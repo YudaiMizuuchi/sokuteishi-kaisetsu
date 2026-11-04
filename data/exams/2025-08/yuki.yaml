@@ -46,8 +46,11 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0023
+    prname: 沸点・蒸気圧・融点・分子量の比較
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 2
   status: published
   chapters:
@@ -276,11 +279,11 @@ questions:
     - - 2018-08
       - 2024-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - new
     - odo
     - odo
@@ -316,10 +319,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 4
+    count: 6
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -454,6 +457,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-yuki-0022
+    prname: 検知管の原理と使い方
+    prcount: 3
     level: B
     why: q_b
 - num: 8
@@ -483,8 +489,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 9
   status: published
   chapters:
@@ -695,11 +704,11 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -731,10 +740,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 6
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: A
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -933,14 +942,14 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: trend_A
     tags:
     - new
     - ''
     - odo
     - odo
-    - ans_pr
+    - ans_trend
 - num: 14
   status: published
   chapters:
@@ -1137,13 +1146,13 @@ questions:
     - - 2016-08
       - 2018-08
     - []
-    level: A
-    why: pr_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
     - ''
-    - ans_pr
+    - ans_b
     - new
 - num: 16
   status: published

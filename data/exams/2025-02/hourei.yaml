@@ -213,7 +213,7 @@ questions:
     tags:
     - ans_seen
     - ''
-    - ''
+    - odo
     - ''
     - ''
 - num: 3
@@ -306,7 +306,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 3
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -345,11 +345,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 7
   status: published
   chapters:
@@ -1027,7 +1026,7 @@ questions:
     - ''
     - odo
     - new
-    - ''
+    - odo
     - ans_b
 - num: 14
   status: published

@@ -33,8 +33,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0023
+    prname: 沸点・蒸気圧・融点・分子量の比較
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 2
   status: published
   chapters:
@@ -62,8 +65,11 @@ questions:
     denom: 12
     count: 3
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 3
   status: published
   chapters:
@@ -296,14 +302,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pr_A
+    level: D
+    why: none
     tags:
-    - odo
-    - odo
     - new
     - new
-    - ans_pr
+    - new
+    - new
+    - ans_new
 - num: 6
   status: published
   chapters:
@@ -541,10 +547,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 4
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 9
   status: published
   chapters:
@@ -680,10 +689,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 6
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: A
+    why: q_hi
 - num: 11
   status: published
   chapters:
@@ -780,8 +789,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pr_B
     tags:
     - ans_pr
     - odo
@@ -884,13 +893,13 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - new
     - odo
-    - odo
+    - new
     - ''
 - num: 13
   status: published
@@ -986,14 +995,14 @@ questions:
     - []
     - - 2018-08
       - 2020-08
-    level: A
-    why: pr_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - new
     - odo
     - odo
-    - ans_pr
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -1125,12 +1134,12 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: trend_A
     tags:
     - odo
     - new
-    - ans_pr
+    - ans_trend
     - odo
     - odo
 - num: 16
@@ -1269,10 +1278,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: A
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -1309,6 +1318,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-yuki-0019
+    prname: 液体捕集の捕集率
+    prcount: 5
     level: A
     why: q_hi
 - num: 19

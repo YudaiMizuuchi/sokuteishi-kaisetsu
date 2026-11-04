@@ -113,14 +113,14 @@ questions:
       - 2018-08
       - 2020-08
       - 2024-08
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_seen
 - num: 2
   status: published
   chapters:
@@ -234,8 +234,8 @@ questions:
     why: pt_A
     tags:
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_hi
     - new
 - num: 3
@@ -396,11 +396,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -522,9 +521,9 @@ questions:
     level: A
     why: pt_A
     tags:
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - odo
     - ans_hi
 - num: 6
@@ -658,7 +657,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -882,7 +881,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - ''
@@ -992,7 +991,7 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
+    - odo
     - ans_hi
     - odo
     - odo
@@ -1358,11 +1357,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 6
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: C
+    why: q_seen
 - num: 15
   status: published
   chapters:
@@ -1471,7 +1469,7 @@ questions:
     - new
     - new
     - ans_near
-    - ''
+    - odo
 - num: 16
   status: published
   chapters:
@@ -1942,7 +1940,7 @@ questions:
     - ''
     - ''
     - ans_pat
-    - ''
+    - odo
     - ''
     pat: lw-law-oxygen-01
 - num: 20

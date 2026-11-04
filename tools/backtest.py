@@ -67,18 +67,20 @@ def run(pr_on=True,trend_on=True,latest=False,subst_on=False,near_on=True):
                             recur=(len([e for e in pt_exams[(subj,apid)] if e in fut])>=1) if apid else False
                         dist_seen=[(len([e for e in pt_exams[(subj,p)] if e<N])>=1) if p else False for i,p in enumerate(pids) if i!=a]
                     else:
-                        key=CF.norm(q['stem'])[:70] if k=='calc' else CF.norm(q['stem'])[:60]
-                        def sim(e2):
-                            dd=CF.docs[subj][e2][1]
-                            for q2 in dd['questions']:
-                                if CF.qkind(q2)!=k or not q2.get('choices'): continue
-                                key2=CF.norm(q2['stem'])[:70] if k=='calc' else CF.norm(q2['stem'])[:60]
-                                if difflib.SequenceMatcher(None,key,key2).ratio()>=(CF.THR_CALC if k=='calc' else CF.THR_Q): return True
-                            return False
-                        cnt=sum(1 for e2 in past if sim(e2))
+                        qp=CF._K2P.get((subj,f"{N}|{q['num']}|0"))   # 問題論点（同じ問題の束）。その回より前の出題だけで数える
+                        cnt=len([e for e in pt_exams[(subj,qp)] if e<N]) if qp else 0
+                        cand=CF.PR_BY_POINT.get((subj,qp),[]) if qp else []
+                        bb=max(cand,key=lambda r:len([e for e in CF.PRQ_EXAMS[r] if e<N])) if cand else None
+                        prcnt=len([e for e in CF.PRQ_EXAMS[bb] if e<N]) if bb else 0
                         fr=dict(kind='question',denom=len(past),count=cnt,form='',self_counted=False,subst_id=_sid)
-                        lv,why,tags=CF.judge(fr,ans,prank)
-                        seen_before=cnt>=1; recur=any(sim(e2) for e2 in fut); dist_seen=[]
+                        if bb: fr.update(prid=bb,prcount=prcnt)
+                        _oldpr=CF.PR_THRESHOLDS
+                        CF.PR_THRESHOLDS={sj:tuple(max(2,round(x*scale)) for x in v) for sj,v in _oldpr.items()} if pr_on else {}
+                        try: lv,why,tags=CF.judge(fr,ans,prank)
+                        finally: CF.PR_THRESHOLDS=_oldpr
+                        seen_before=cnt>=1 or (why.startswith('pr_') and prcnt>=1)
+                        recur=bool(qp) and any(e in fut for e in pt_exams[(subj,qp)])
+                        dist_seen=[]
                 finally: CF.THRESHOLDS=old
                 if lv in 'SABC':
                     if why=='elim_all': score=1.0

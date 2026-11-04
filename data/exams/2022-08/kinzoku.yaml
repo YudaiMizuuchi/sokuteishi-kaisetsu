@@ -95,11 +95,11 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - new
-    - ans_trend
+    - ans_seen
     - new
     - new
     - new
@@ -1934,9 +1934,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 6
     form: 計算問題
+    prid: pr-kinzoku-0020
+    prname: 分析結果から、空気中の金属濃度への換算
+    prcount: 6
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
-    level: B
-    why: subst
+    level: A
+    why: q_hi

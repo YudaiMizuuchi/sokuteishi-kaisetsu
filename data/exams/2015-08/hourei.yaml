@@ -116,7 +116,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - ''
     - ''
@@ -330,12 +330,12 @@ questions:
     - - 2022-02
       - 2023-02
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
-    - ans_b
+    - ans_seen
     - odo
     - ''
 - num: 4
@@ -363,7 +363,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 7
     form: 選択肢が物質名などの問題
     level: A
     why: pat_A
@@ -398,11 +398,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -566,7 +565,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -597,7 +596,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 9
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -819,14 +818,14 @@ questions:
       - 2018-08
       - 2026-08
     - - 2016-08
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
+    - odo
     - ''
-    - ''
-    - ans_seen
-    - ''
-    - ''
+    - ans_new
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -937,7 +936,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ans_seen
     - ''
@@ -1049,11 +1048,11 @@ questions:
       - 2021-02
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
-    - ''
-    - ans_b
+    - odo
+    - ans_seen
     - ''
     - new
     - ''
@@ -1201,9 +1200,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: lw-law-tokka-03
+    level: D
+    why: q_new
 - num: 15
   status: published
   chapters:
@@ -1315,14 +1313,13 @@ questions:
       - 2020-08
     - - 2020-02
     level: B
-    why: pat_B
+    why: elim_two
     tags:
-    - ''
-    - ''
-    - ans_pat
+    - odo
+    - odo
+    - ans_new
     - odo
     - ''
-    pat: lw-law-organic-04
 - num: 16
   status: published
   chapters:
@@ -1474,10 +1471,10 @@ questions:
     why: pt_A
     tags:
     - ''
-    - ''
+    - odo
     - ans_hi
     - ''
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1592,8 +1589,8 @@ questions:
     - []
     - - 2016-02
       - 2023-08
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat

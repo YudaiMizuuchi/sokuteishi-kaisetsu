@@ -216,6 +216,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0007
+    prname: 酸性ガスは塩基性の捕集液に吸収される
+    prcount: 1
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
     level: B
@@ -432,12 +435,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 9
   status: published
   chapters:
@@ -466,12 +469,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3029
     subst_name: ベンゼン
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -668,8 +671,8 @@ questions:
     - []
     - []
     - - 2023-08
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ans_hi
     - new
@@ -912,10 +915,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 12
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1047,12 +1050,12 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 5
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3008
     subst_name: 塩素
-    level: B
-    why: subst
+    level: A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -1086,10 +1089,10 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 4
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: A
+    why: q_hi
 - num: 18
   status: published
   chapters:
@@ -1121,6 +1124,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-tokka-0006
+    prname: 活性炭への吸着と脱着
+    prcount: 4
     subst_id: sb-tokka-3019
     subst_name: 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）
     level: B

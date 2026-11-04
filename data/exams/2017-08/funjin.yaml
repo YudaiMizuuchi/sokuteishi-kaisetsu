@@ -34,6 +34,9 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    prid: pr-funjin-0007
+    prname: 光散乱の原理（粒径・屈折率・波長・角度）
+    prcount: 2
     level: C
     why: q_seen
 - num: 2
@@ -184,10 +187,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 6
+    count: 8
     form: 計算問題
-    level: A
-    why: q_hi
+    prid: pr-funjin-0021
+    prname: 重力沈降とストークスの式（終末沈降速度）
+    prcount: 12
+    level: S
+    why: pr_S
 - num: 4
   status: published
   chapters:
@@ -283,8 +289,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - ans_pr
@@ -388,12 +394,12 @@ questions:
       - 2023-08
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - odo
     - odo
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 6
   status: published
@@ -599,9 +605,9 @@ questions:
       - 2020-08
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
-    - ans_hi
+    - ans_pr
     - odo
     - odo
     - ''
@@ -966,8 +972,11 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-funjin-0008
+    prname: 質量濃度変換係数の定義と変動要因
+    prcount: 5
     level: A
-    why: q_hi
+    why: pr_A
 - num: 12
   status: published
   chapters:
@@ -1018,20 +1027,20 @@ questions:
     - 粒度調整を行って残った懸濁液を、繰り返し、粒度調整用試料として用いてはならない（誤りの記述）
     prcounts:
     - 0
-    - 0
-    - 0
+    - 5
+    - 5
     - 0
     - 0
     principles:
     - ''
-    - ''
-    - ''
+    - pr-funjin-0021
+    - pr-funjin-0021
     - ''
     - ''
     prnames:
     - ''
-    - ''
-    - ''
+    - 重力沈降とストークスの式（終末沈降速度）
+    - 重力沈降とストークスの式（終末沈降速度）
     - ''
     - ''
     trend:
@@ -1060,8 +1069,8 @@ questions:
     why: none
     tags:
     - new
-    - new
-    - new
+    - odo
+    - odo
     - new
     - ans_new
 - num: 13
@@ -1610,10 +1619,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 5
+    count: 6
     form: 計算問題
+    prid: pr-funjin-0013
+    prname: 基底標準吸収補正法
+    prcount: 8
     level: A
-    why: q_hi
+    why: pr_A
 - num: 19
   status: published
   chapters:
@@ -1711,13 +1723,13 @@ questions:
       - 2018-08
       - 2020-08
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - new
     - odo
-    - ans_hi
+    - ans_b
     - odo
 - num: 20
   status: published

@@ -104,7 +104,7 @@ questions:
     - ''
     - ''
     - ans_seen
-    - odo
+    - ''
     - ''
 - num: 2
   status: published
@@ -419,7 +419,7 @@ questions:
     why: pat_S
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - ans_pat
     - ''
@@ -524,13 +524,13 @@ questions:
       - 2023-02
     - []
     level: A
-    why: pt_A
+    why: pr_A
     tags:
     - ''
     - ''
     - odo
-    - ans_hi
-    - odo
+    - ans_pr
+    - ''
 - num: 6
   status: published
   chapters:
@@ -628,13 +628,13 @@ questions:
       - 2023-02
       - 2026-08
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - new
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - ans_new
 - num: 7
   status: published
@@ -666,11 +666,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -873,11 +872,11 @@ questions:
     level: A
     why: pat_A
     tags:
-    - odo
+    - ''
     - ans_pat
-    - odo
+    - ''
     - new
-    - odo
+    - ''
     pat: gn-metals-01
 - num: 10
   status: published
@@ -1084,7 +1083,7 @@ questions:
     why: pt_B
     tags:
     - ans_b
-    - odo
+    - ''
     - ''
     - ''
     - ''
@@ -1192,7 +1191,7 @@ questions:
     - ans_hi
     - odo
     - odo
-    - odo
+    - ''
     - new
 - num: 13
   status: published
@@ -1292,9 +1291,9 @@ questions:
     level: A
     why: pt_A
     tags:
-    - odo
+    - ''
     - ans_hi
-    - odo
+    - ''
     - new
     - ''
 - num: 14
@@ -1392,14 +1391,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - odo
-    - ans_new
-    - odo
+    - ''
+    - ans_seen
+    - ''
     - new
-    - odo
+    - ''
 - num: 15
   status: published
   chapters:
@@ -1502,8 +1501,8 @@ questions:
     tags:
     - ''
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_new
 - num: 16
   status: published
@@ -1707,7 +1706,7 @@ questions:
     why: pat_B
     tags:
     - odo
-    - odo
+    - ''
     - ans_pat
     - ''
     - new
@@ -1807,8 +1806,8 @@ questions:
     - - 2025-02
     - - 2017-08
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''
@@ -1913,8 +1912,8 @@ questions:
       - 2019-08
       - 2021-02
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - ''

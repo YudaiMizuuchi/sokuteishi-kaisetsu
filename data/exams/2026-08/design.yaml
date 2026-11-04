@@ -39,11 +39,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 10
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: ds-gas-01
+    prid: pr-design-0001
+    prname: 気体の体積は温度と圧力で変わる（理想気体）
+    prcount: 10
+    level: A
+    why: pr_A
 - num: 2
   status: published
   chapters:
@@ -195,9 +197,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: ds-a-b-measurement-01
+    level: D
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -495,6 +496,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    prid: pr-design-0014
+    prname: 沸点・蒸気圧と、ガス・蒸気の状態
+    prcount: 19
     level: S
     why: pat_S
     pat: ds-properties-01
@@ -636,10 +640,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    level: S
+    why: q_hi
 - num: 10
   status: published
   chapters:
@@ -1388,8 +1392,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 11
     form: 計算問題
+    prid: pr-design-0013
+    prname: 放射能の計数率と、空気中の放射能濃度の関係
+    prcount: 23
     level: S
     why: pat_S
     pat: ds-radiation-02
@@ -1602,15 +1609,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - new
     - ''
     - ''
-    - ans_pat
+    - ans_new
     - ''
-    pat: ds-states-01
 - num: 20
   status: published
   chapters:

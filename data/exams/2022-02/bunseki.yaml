@@ -100,14 +100,13 @@ questions:
     - []
     - []
     level: B
-    why: pat_B
+    why: pr_B
     tags:
     - ''
     - ''
     - ''
-    - ''
+    - odo
     - ans_pr
-    pat: an-units-02
 - num: 2
   status: published
   chapters:
@@ -142,8 +141,11 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    prid: pr-bunseki-0025
+    prname: 誤差と統計量
+    prcount: 7
+    level: B
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -174,9 +176,11 @@ questions:
     denom: 23
     count: 2
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
-    pat: an-gas-01
+    prid: pr-bunseki-0014
+    prname: 気体の状態方程式
+    prcount: 4
+    level: C
+    why: q_seen
 - num: 4
   status: published
   chapters:
@@ -216,8 +220,8 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
-    level: A
-    why: q_hi
+    level: B
+    why: q_b
 - num: 5
   status: published
   chapters:
@@ -261,8 +265,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -301,8 +305,8 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 7
   status: published
   chapters:
@@ -545,11 +549,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 8
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-01
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -649,10 +652,10 @@ questions:
     level: B
     why: pr_B
     tags:
-    - ''
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
+    - odo
     - ans_pr
 - num: 11
   status: published
@@ -693,8 +696,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 12
   status: published
   chapters:
@@ -796,11 +799,11 @@ questions:
       - 2023-02
     - - 2019-08
       - 2023-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_b
+    - ans_seen
     - ''
     - ''
     - ''
@@ -943,9 +946,9 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 16
+    count: 18
     form: 計算問題
-    level: S
+    level: A
     why: q_hi
 - num: 15
   status: published
@@ -1050,7 +1053,7 @@ questions:
     why: seen
     tags:
     - odo
-    - ''
+    - odo
     - ''
     - ''
     - ans_seen
@@ -1151,9 +1154,9 @@ questions:
     - []
     - []
     level: B
-    why: pt_B
+    why: elim_all
     tags:
-    - ans_b
+    - ans_new
     - odo
     - odo
     - odo
@@ -1295,6 +1298,9 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0028
+    prname: 理論段数と理論段相当高さ
+    prcount: 4
     level: C
     why: q_seen
 - num: 19
@@ -1393,12 +1399,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: B
+    why: elim_two
     tags:
     - odo
     - odo
-    - ans_trend
+    - ans_new
     - ''
     - odo
 - num: 20
@@ -1431,8 +1437,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 6
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0027
+    prname: 放射壊変と原子番号・質量数
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-radiation-01

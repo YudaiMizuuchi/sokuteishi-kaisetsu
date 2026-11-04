@@ -106,7 +106,7 @@ questions:
     - new
     - ans_pat
     - ''
-    - odo
+    - ''
     pat: gn-risk-assessment-01
 - num: 2
   status: published
@@ -529,10 +529,10 @@ questions:
     - []
     - []
     level: A
-    why: pt_A
+    why: pr_A
     tags:
-    - odo
-    - ans_hi
+    - ''
+    - ans_pr
     - odo
     - new
     - new
@@ -670,11 +670,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -883,7 +882,7 @@ questions:
     - new
     - new
     - new
-    - odo
+    - ''
 - num: 10
   status: published
   chapters:
@@ -984,7 +983,7 @@ questions:
     tags:
     - ans_hi
     - new
-    - odo
+    - ''
     - new
     - new
 - num: 11
@@ -1190,7 +1189,7 @@ questions:
     tags:
     - new
     - ans_pr
-    - odo
+    - ''
     - ''
     - odo
 - num: 13
@@ -1501,7 +1500,7 @@ questions:
     why: none
     tags:
     - new
-    - odo
+    - ''
     - ans_new
     - ''
     - ''
@@ -1603,7 +1602,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - ''
     - ''
     - odo
@@ -1706,7 +1705,7 @@ questions:
     level: D
     why: none
     tags:
-    - odo
+    - ''
     - new
     - odo
     - ans_new
@@ -1806,8 +1805,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: trend_S
+    level: A
+    why: trend_A
     tags:
     - new
     - ''
@@ -1911,8 +1910,8 @@ questions:
       - 2021-02
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - ''
     - ans_pat

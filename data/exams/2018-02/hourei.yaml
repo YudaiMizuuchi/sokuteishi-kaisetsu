@@ -105,13 +105,14 @@ questions:
       - 2019-02
       - 2024-02
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - ''
+    - odo
     - ''
     - ''
-    - ''
-    - ans_b
+    - ans_pat
+    pat: lw-law-system-01
 - num: 2
   status: published
   chapters:
@@ -222,7 +223,7 @@ questions:
     - ans_hi
     - ''
     - odo
-    - ''
+    - odo
     - ''
 - num: 3
   status: published
@@ -360,11 +361,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: lw-law-measurement-scope-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -486,14 +486,13 @@ questions:
       - 2019-08
       - 2021-08
     level: B
-    why: pat_B
+    why: elim_all
     tags:
     - odo
-    - ans_pat
+    - ans_new
     - odo
-    - ''
-    - ''
-    pat: lw-law-measurement-scope-03
+    - odo
+    - odo
 - num: 6
   status: published
   chapters:
@@ -519,7 +518,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 7
     form: 選択肢が物質名などの問題
     level: A
     why: pat_A
@@ -552,7 +551,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 19
     form: 選択肢が物質名などの問題
     level: S
     why: pat_S
@@ -779,7 +778,7 @@ questions:
     - ans_seen
     - ''
     - ''
-    - ''
+    - odo
     - ''
 - num: 10
   status: published
@@ -993,8 +992,8 @@ questions:
     - ''
     - ans_seen
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 12
   status: published
   chapters:
@@ -1219,14 +1218,14 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
+    - odo
+    - odo
     - ''
     - ''
-    - ''
-    - ''
-    - ans_b
+    - ans_seen
 - num: 14
   status: published
   chapters:
@@ -1265,7 +1264,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 5
     form: 選択肢が物質名などの問題
     level: B
     why: pat_B
@@ -1381,14 +1380,13 @@ questions:
       - 2020-08
     - - 2020-02
     level: B
-    why: pat_B
+    why: elim_two
     tags:
-    - ''
-    - ''
-    - ans_pat
+    - odo
+    - odo
+    - ans_new
     - odo
     - ''
-    pat: lw-law-organic-04
 - num: 16
   status: published
   chapters:
@@ -1494,7 +1492,7 @@ questions:
     why: pt_B
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ans_b
     - ''
@@ -1605,7 +1603,7 @@ questions:
     - ''
     - ans_b
     - odo
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1715,14 +1713,14 @@ questions:
       - 2021-08
       - 2022-08
       - 2025-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - new
     - new
-    - ans_b
+    - ans_seen
 - num: 19
   status: published
   chapters:

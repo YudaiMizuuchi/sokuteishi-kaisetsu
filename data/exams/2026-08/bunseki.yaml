@@ -45,11 +45,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 9
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: an-units-01
+    level: B
+    why: q_b
 - num: 2
   status: published
   chapters:
@@ -88,11 +87,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
+    prid: pr-bunseki-0025
+    prname: 誤差と統計量
+    prcount: 7
     level: B
-    why: pat_B
-    pat: an-statistics-01
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -129,10 +130,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0037
+    prname: 官能基と有機化合物の性質
+    prcount: 2
+    level: B
+    why: pat_B
     pat: an-organic-01
 - num: 4
   status: published
@@ -176,6 +180,9 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
+    prid: pr-bunseki-0014
+    prname: 気体の状態方程式
+    prcount: 4
     level: D
     why: q_new
 - num: 5
@@ -219,11 +226,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 6
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-solution-03
+    level: C
+    why: q_seen
 - num: 6
   status: published
   chapters:
@@ -269,6 +275,9 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
+    prid: pr-bunseki-0018
+    prname: 化学平衡と平衡定数
+    prcount: 2
     level: C
     why: q_seen
 - num: 7
@@ -304,9 +313,8 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-lab-equipment-01
+    level: D
+    why: q_new
 - num: 8
   status: published
   chapters:
@@ -408,8 +416,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: trend_S
+    level: A
+    why: trend_A
     tags:
     - odo
     - ''
@@ -450,11 +458,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 8
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-01
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -601,8 +608,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 12
   status: published
   chapters:
@@ -870,7 +877,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 18
     form: 計算問題
     level: S
     why: pat_S
@@ -983,7 +990,7 @@ questions:
     why: pr_S
     tags:
     - odo
-    - ''
+    - odo
     - odo
     - ''
     - ans_pr
@@ -1089,13 +1096,13 @@ questions:
     - []
     - []
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - odo
-    - ans_hi
+    - ans_pr
     - odo
     - odo
-    - ''
+    - odo
 - num: 17
   status: published
   chapters:
@@ -1193,14 +1200,13 @@ questions:
     - - 2024-02
     - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
     - odo
     - odo
     - odo
-    - ans_pat
+    - ans_trend
     - odo
-    pat: an-gc-01
 - num: 18
   status: published
   chapters:
@@ -1303,14 +1309,13 @@ questions:
     - - 2025-02
     - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
     - new
     - odo
-    - ans_pat
-    - new
-    - ''
-    pat: an-gc-02
+    - ans_trend
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -1420,7 +1425,7 @@ questions:
     - ''
     - new
     - ans_seen
-    - ''
+    - odo
 - num: 20
   status: published
   chapters:

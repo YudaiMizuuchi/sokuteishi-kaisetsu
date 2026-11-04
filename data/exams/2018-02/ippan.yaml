@@ -99,13 +99,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - new
-    - ans_b
+    - ans_seen
     - new
-    - odo
+    - ''
     - odo
 - num: 2
   status: published
@@ -313,7 +313,7 @@ questions:
     - ''
     - ''
     - ''
-    - odo
+    - ''
     - ans_pat
     pat: gn-absorption-01
 - num: 4
@@ -413,14 +413,13 @@ questions:
     - []
     - []
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - ''
     - ans_pr
     - ''
-    - odo
     - ''
-    pat: gn-toxicity-05
+    - ''
 - num: 5
   status: published
   chapters:
@@ -451,11 +450,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -659,9 +657,9 @@ questions:
     level: A
     why: pat_A
     tags:
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - ''
     - ans_pat
     pat: gn-metals-01
@@ -758,13 +756,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
     - odo
-    - ans_hi
+    - ans_b
     - ''
 - num: 9
   status: published
@@ -870,7 +868,7 @@ questions:
     tags:
     - ''
     - odo
-    - odo
+    - ''
     - ans_pr
     - ''
 - num: 10
@@ -978,7 +976,7 @@ questions:
     tags:
     - ans_hi
     - ''
-    - odo
+    - ''
     - odo
     - odo
 - num: 11
@@ -1079,14 +1077,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_seen
     - ''
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -1193,7 +1191,7 @@ questions:
     - odo
     - ans_pat
     - ''
-    - odo
+    - ''
     - ''
     pat: gn-oxygen-deficiency-01
 - num: 13
@@ -1233,7 +1231,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 穴埋め・組合せの問題
     level: A
     why: pat_A
@@ -1332,14 +1330,14 @@ questions:
     - - 2015-08
       - 2017-08
     - - 2020-02
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - ''
     - ''
     - odo
-    - odo
-    - ans_b
+    - ''
+    - ans_seen
 - num: 15
   status: published
   chapters:
@@ -1440,7 +1438,7 @@ questions:
     - odo
     - ''
     - odo
-    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -1554,8 +1552,8 @@ questions:
     - new
     - ''
     - ans_pat
-    - odo
-    - odo
+    - ''
+    - ''
     pat: gn-ventilation-01
 - num: 17
   status: published
@@ -1660,8 +1658,8 @@ questions:
     tags:
     - ans_pr
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ''
 - num: 18
   status: published
@@ -1769,15 +1767,14 @@ questions:
       - 2021-02
       - 2022-08
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - new
+    - ''
+    - ans_hi
     - odo
-    - ans_pat
-    - odo
-    pat: gn-ppe-01
 - num: 19
   status: published
   chapters:
@@ -1874,7 +1871,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - ''
     - ''
     - ans_seen
@@ -1976,11 +1973,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
+    - ''
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_new
+    - ans_seen
     - ''

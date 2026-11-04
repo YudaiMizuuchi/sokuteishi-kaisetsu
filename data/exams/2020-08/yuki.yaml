@@ -125,8 +125,8 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
-    - odo
+    - ''
+    - new
     - ''
     - new
     - ans_b
@@ -160,8 +160,11 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    prid: pr-yuki-0023
+    prname: 沸点・蒸気圧・融点・分子量の比較
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 4
   status: published
   chapters:
@@ -262,14 +265,14 @@ questions:
     - []
     - []
     - - 2024-08
-    level: S
-    why: pr_S
+    level: A
+    why: trend_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_trend
 - num: 5
   status: published
   chapters:
@@ -500,6 +503,9 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    prid: pr-yuki-0022
+    prname: 検知管の原理と使い方
+    prcount: 3
     level: B
     why: q_b
 - num: 8
@@ -532,8 +538,11 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 9
   status: published
   chapters:
@@ -630,8 +639,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
@@ -735,8 +744,8 @@ questions:
     - []
     - - 2022-08
     - []
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
@@ -840,8 +849,8 @@ questions:
     - []
     - - 2015-08
       - 2026-08
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - odo
     - ans_pr
@@ -979,8 +988,11 @@ questions:
     denom: 12
     count: 3
     form: 選択肢が物質名などの問題
-    level: B
-    why: q_b
+    prid: pr-yuki-0009
+    prname: 保持時間と溶出順（沸点・極性・温度）
+    prcount: 11
+    level: S
+    why: pr_S
 - num: 14
   status: published
   chapters:
@@ -1054,6 +1066,9 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-yuki-0001
+    prname: ランベルト・ベールの法則
+    prcount: 5
     level: D
     why: q_new
 - num: 16
@@ -1310,6 +1325,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    prid: pr-yuki-0001
+    prname: ランベルト・ベールの法則
+    prcount: 5
     level: D
     why: q_new
 - num: 19
@@ -1348,6 +1366,9 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    prid: pr-yuki-0019
+    prname: 液体捕集の捕集率
+    prcount: 5
     level: A
     why: q_hi
 - num: 20

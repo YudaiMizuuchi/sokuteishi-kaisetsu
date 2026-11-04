@@ -113,10 +113,13 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 3
+    count: 7
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    prid: pr-kinzoku-0005
+    prname: 原子吸光は基底状態の原子の光吸収
+    prcount: 7
+    level: A
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -419,11 +422,11 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pr_S
+    level: B
+    why: pt_B
     tags:
     - ''
-    - ans_pr
+    - ans_b
     - new
     - new
     - new
@@ -1811,8 +1814,8 @@ questions:
     - []
     subst_id: sb-kinzoku-4009
     subst_name: ニッケル化合物
-    level: S
-    why: pr_S
+    level: A
+    why: pr_A
     tags:
     - new
     - odo

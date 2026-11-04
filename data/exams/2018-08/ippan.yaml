@@ -206,12 +206,12 @@ questions:
     - []
     - - 2017-02
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
-    - odo
+    - ''
     - ans_pat
-    - odo
+    - ''
     - ''
     - ''
     pat: gn-oh-management-01
@@ -317,7 +317,7 @@ questions:
     - ''
     - ''
     - ans_pat
-    - odo
+    - ''
     - ''
     pat: gn-absorption-01
 - num: 4
@@ -419,10 +419,10 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
+    - ''
     - ans_b
 - num: 5
   status: published
@@ -451,11 +451,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 23
     form: 穴埋め・組合せの問題
     level: S
-    why: pat_S
-    pat: gn-occupational-cancer-01
+    why: q_hi
 - num: 6
   status: published
   chapters:
@@ -661,9 +660,9 @@ questions:
     tags:
     - ''
     - ans_pat
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     pat: gn-metals-02
 - num: 8
   status: published
@@ -758,14 +757,14 @@ questions:
     - - 2016-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
-    - odo
     - ''
-    - ans_hi
     - ''
-    - odo
+    - ans_b
+    - ''
+    - ''
 - num: 9
   status: published
   chapters:
@@ -870,7 +869,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - ''
     - odo
     - odo
@@ -1082,7 +1081,7 @@ questions:
     tags:
     - new
     - odo
-    - odo
+    - ''
     - ''
     - ans_hi
 - num: 12
@@ -1193,7 +1192,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - odo
     - ans_seen
     - ''
@@ -1297,7 +1296,7 @@ questions:
     - ''
     - ''
     - ans_pat
-    - odo
+    - ''
     - ''
     pat: gn-em-waves-01
 - num: 14
@@ -1504,7 +1503,7 @@ questions:
     why: pr_A
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - ans_pr
     - odo
@@ -1620,8 +1619,8 @@ questions:
     tags:
     - ''
     - ans_hi
-    - odo
-    - odo
+    - ''
+    - ''
     - odo
 - num: 17
   status: published
@@ -1726,7 +1725,7 @@ questions:
     - ''
     - ''
     - ''
-    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1830,10 +1829,10 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
-    - odo
+    - ''
     - ans_pat
     - ''
     - ''
@@ -1936,14 +1935,13 @@ questions:
       - 2022-02
       - 2023-02
     level: A
-    why: pat_A
+    why: pr_A
     tags:
     - ''
     - ans_pr
     - ''
     - ''
     - ''
-    pat: gn-toxicity-05
 - num: 20
   status: published
   chapters:
@@ -2048,7 +2046,7 @@ questions:
     tags:
     - odo
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pat
     pat: gn-exposure-limits-01

@@ -106,14 +106,13 @@ questions:
     - []
     - []
     level: B
-    why: pat_B
+    why: pr_B
     tags:
     - new
     - ''
-    - ''
+    - odo
     - ans_pr
     - ''
-    pat: an-units-02
 - num: 2
   status: published
   chapters:
@@ -146,9 +145,11 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
+    prid: pr-bunseki-0025
+    prname: 誤差と統計量
+    prcount: 7
     level: B
-    why: pat_B
-    pat: an-statistics-01
+    why: pr_B
 - num: 3
   status: published
   chapters:
@@ -249,11 +250,11 @@ questions:
     level: A
     why: trend_A
     tags:
-    - ''
+    - odo
     - ans_trend
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
 - num: 4
   status: published
   chapters:
@@ -290,6 +291,9 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
+    prid: pr-bunseki-0014
+    prname: 気体の状態方程式
+    prcount: 4
     level: D
     why: q_new
 - num: 5
@@ -326,8 +330,11 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0021
+    prname: 希釈しても、溶質の物質量は変わらない
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -370,10 +377,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-02
 - num: 7
   status: published
@@ -471,15 +478,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - new
-    - ans_pat
+    - ans_new
     - new
     - new
     - odo
-    pat: an-lab-equipment-02
 - num: 8
   status: published
   chapters:
@@ -618,11 +624,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 8
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
-    pat: an-reagents-01
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -719,13 +724,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - new
     - ''
     - new
-    - ans_pat
+    - ans_pr
     - new
     pat: an-quantification-02
 - num: 11
@@ -764,9 +769,11 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-mole-03
+    prid: pr-bunseki-0023
+    prname: 標定と一次標準物質
+    prcount: 3
+    level: D
+    why: q_new
 - num: 12
   status: published
   chapters:
@@ -899,10 +906,10 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
-    - ans_trend
+    - ans_seen
     - new
     - ''
     - ''
@@ -939,10 +946,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 15
+    count: 18
     form: 計算問題
     level: S
-    why: q_hi
+    why: pat_S
+    pat: an-logarithm-02
 - num: 15
   status: published
   chapters:
@@ -1039,8 +1047,8 @@ questions:
     - []
     - []
     - []
-    level: S
-    why: trend_S
+    level: A
+    why: trend_A
     tags:
     - ''
     - ''
@@ -1148,7 +1156,7 @@ questions:
     tags:
     - new
     - ''
-    - ''
+    - odo
     - ans_new
     - new
 - num: 17
@@ -1254,7 +1262,7 @@ questions:
     - new
     - new
     - ans_seen
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1359,7 +1367,7 @@ questions:
     - odo
     - odo
     - ans_trend
-    - ''
+    - odo
 - num: 19
   status: published
   chapters:
@@ -1457,12 +1465,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - odo
     - new
-    - ans_trend
+    - ans_seen
     - ''
     - odo
 - num: 20
@@ -1496,8 +1504,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 4
+    count: 6
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    prid: pr-bunseki-0027
+    prname: 放射壊変と原子番号・質量数
+    prcount: 6
+    level: B
+    why: pat_B
     pat: an-radiation-01

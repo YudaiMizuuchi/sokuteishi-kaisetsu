@@ -34,11 +34,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 9
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
-    pat: an-units-01
+    level: B
+    why: q_b
 - num: 2
   status: published
   chapters:
@@ -78,9 +77,11 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-mole-03
+    prid: pr-bunseki-0024
+    prname: 有効数字と数値の丸め
+    prcount: 9
+    level: A
+    why: pr_A
 - num: 3
   status: published
   chapters:
@@ -258,8 +259,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-solution-02
 - num: 6
   status: published
@@ -301,8 +302,8 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 7
   status: published
   chapters:
@@ -399,12 +400,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - ''
     - ''
-    - ans_trend
+    - ans_seen
     - ''
     - new
 - num: 8
@@ -442,11 +443,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 6
     form: 計算問題
-    level: B
-    why: pat_B
-    pat: an-gas-05
+    level: C
+    why: q_seen
 - num: 9
   status: published
   chapters:
@@ -585,10 +585,10 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     pat: an-quantification-02
 - num: 11
   status: published
@@ -626,8 +626,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 12
   status: published
   chapters:
@@ -726,15 +726,14 @@ questions:
       - 2026-02
     - - 2023-08
     - []
-    level: B
-    why: pat_B
+    level: D
+    why: none
     tags:
     - odo
     - ''
-    - ans_pat
+    - ans_new
     - ''
     - ''
-    pat: an-titration-01
 - num: 13
   status: published
   chapters:
@@ -874,7 +873,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 11
+    count: 18
     form: 計算問題
     level: S
     why: pat_S
@@ -975,12 +974,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
     - odo
     - odo
-    - ans_trend
+    - ans_seen
     - ''
     - ''
 - num: 16
@@ -1079,10 +1078,10 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: C
+    why: seen
     tags:
-    - ans_trend
+    - ans_seen
     - ''
     - ''
     - ''
@@ -1185,14 +1184,13 @@ questions:
     - - 2025-02
     - []
     level: S
-    why: pat_S
+    why: trend_S
     tags:
-    - ans_pat
+    - ans_trend
     - odo
     - odo
-    - ''
-    - ''
-    pat: an-gc-02
+    - odo
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1224,11 +1222,13 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 3
+    count: 11
     form: 穴埋め・組合せの問題
-    level: S
-    why: pat_S
-    pat: an-gc-01
+    prid: pr-bunseki-0031
+    prname: 検出器の原理
+    prcount: 11
+    level: A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -1263,6 +1263,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    prid: pr-bunseki-0011
+    prname: X線回折のブラッグの条件
+    prcount: 1
     level: A
     why: pat_A
     pat: an-xrd-02
@@ -1300,5 +1303,5 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: B
-    why: q_b
+    level: C
+    why: q_seen

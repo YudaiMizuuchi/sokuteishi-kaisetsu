@@ -26,6 +26,7 @@ def exam(subj,e):
     if k not in _c:
         p=os.path.join(root,'exams',e,subj+'.yaml'); p=p if os.path.exists(p) else os.path.join(root,'data/exams',e,subj+'.yaml')
         _c[k]=_load(p) if os.path.exists(p) else None
+        if _c[k] and _c[k].get('excluded'): _c[k]=None   # 対象外の回（例：平成26年度第2回〜平成27年度第2回）は、公開していないので、素材に含めない
     return _c[k]
 def clean(s): return re.sub(r'\s+',' ',re.sub(r'<[^>]+>','',str(s))).strip()
 def qkind(q):
