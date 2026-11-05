@@ -238,7 +238,7 @@
   r: []
 2015-08|hourei|9:
   p: [bk-hourei-th04]
-  r: [bk-hourei-th03]
+  r: []
 2015-08|ippan|1:
   p: [bk-ippan-fr17]
   r: []
@@ -271,7 +271,7 @@
   r: []
 2015-08|ippan|19:
   p: [bk-ippan-fr03, bk-ippan-fr17]
-  r: [bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr05, bk-ippan-fr07]
 2015-08|ippan|2:
   p: [bk-ippan-fr17]
   r: []
@@ -289,7 +289,7 @@
   r: [bk-ippan-fr08, bk-ippan-fr12]
 2015-08|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr07]
+  r: [bk-ippan-fr07, bk-ippan-fr06]
 2015-08|ippan|7:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
@@ -676,13 +676,13 @@
   r: []
 2016-02|ippan|14:
   p: [bk-ippan-0021, bk-ippan-fr14]
-  r: [bk-ippan-0016, bk-ippan-fr06]
+  r: [bk-ippan-0016]
 2016-02|ippan|15:
   p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr06]
-  r: [bk-ippan-fr08]
+  r: [bk-ippan-fr07, bk-ippan-fr08]
 2016-02|ippan|16:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
-  r: [bk-ippan-fr12]
+  p: [bk-ippan-fr12, bk-ippan-fr17]
+  r: []
 2016-02|ippan|17:
   p: [bk-ippan-fr15]
   r: [bk-ippan-0026]
@@ -717,8 +717,8 @@
   p: [bk-ippan-fr06]
   r: [bk-ippan-fr04]
 2016-02|ippan|9:
-  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
-  r: [bk-ippan-0001, bk-ippan-fr04]
+  p: [bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr06, bk-ippan-0001, bk-ippan-fr04]
 2016-08|bunseki|1:
   p: [bk-bunseki-tp11, bk-bunseki-forms]
   r: []
@@ -967,12 +967,12 @@
   r: [bk-ippan-0024, bk-ippan-fr17]
 2016-08|ippan|11:
   p: [bk-ippan-fr11]
-  r: [bk-ippan-fr06]
+  r: []
 2016-08|ippan|12:
   p: [bk-ippan-fr12]
-  r: [bk-ippan-fr06]
+  r: []
 2016-08|ippan|13:
-  p: [bk-ippan-fr06, bk-ippan-fr13]
+  p: [bk-ippan-fr13]
   r: []
 2016-08|ippan|14:
   p: [bk-ippan-fr14]
@@ -990,17 +990,17 @@
   p: [bk-ippan-fr16]
   r: [bk-ippan-0004]
 2016-08|ippan|19:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
-  r: []
+  p: [bk-ippan-fr12, bk-ippan-fr17]
+  r: [bk-ippan-fr09, bk-ippan-fr13]
 2016-08|ippan|2:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2016-08|ippan|20:
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
 2016-08|ippan|3:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2016-08|ippan|4:
   p: [bk-ippan-fr04, bk-ippan-fr17]
   r: [bk-ippan-0033, bk-ippan-fr06]
@@ -1396,10 +1396,10 @@
   r: []
 2017-02|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr06]
+  r: [bk-ippan-0016, bk-ippan-0021]
 2017-02|ippan|15:
   p: [bk-ippan-0004, bk-ippan-fr05, bk-ippan-fr17]
-  r: [bk-ippan-0001, bk-ippan-fr06]
+  r: [bk-ippan-0001, bk-ippan-fr07]
 2017-02|ippan|16:
   p: [bk-ippan-fr15]
   r: [bk-ippan-0026]
@@ -1411,7 +1411,7 @@
   r: [bk-ippan-0010]
 2017-02|ippan|19:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-0024, bk-ippan-fr06, bk-ippan-fr09]
+  r: [bk-ippan-0024, bk-ippan-fr09, bk-ippan-fr13]
 2017-02|ippan|2:
   p: [bk-ippan-fr17]
   r: []
@@ -1420,7 +1420,7 @@
   r: []
 2017-02|ippan|3:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2017-02|ippan|4:
   p: [bk-ippan-fr04, bk-ippan-forms]
   r: []
@@ -1429,7 +1429,7 @@
   r: []
 2017-02|ippan|6:
   p: [bk-ippan-fr05, bk-ippan-fr06]
-  r: [bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr07, bk-ippan-fr03, bk-ippan-fr17]
 2017-02|ippan|7:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
@@ -1696,7 +1696,7 @@
   r: []
 2017-08|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0016, bk-ippan-fr06]
+  r: [bk-ippan-0016]
 2017-08|ippan|15:
   p: [bk-ippan-0001, bk-ippan-fr05]
   r: [bk-ippan-0030, bk-ippan-0004, bk-ippan-fr17]
@@ -1711,15 +1711,15 @@
   r: [bk-ippan-0004, bk-ippan-0010]
 2017-08|ippan|19:
   p: [bk-ippan-fr06]
-  r: [bk-ippan-0021, bk-ippan-fr14]
+  r: [bk-ippan-fr09, bk-ippan-0021, bk-ippan-fr12]
 2017-08|ippan|2:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
+  p: [bk-ippan-fr17]
   r: []
 2017-08|ippan|20:
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
 2017-08|ippan|3:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
+  p: [bk-ippan-fr17]
   r: []
 2017-08|ippan|4:
   p: [bk-ippan-fr04]
@@ -1729,7 +1729,7 @@
   r: [bk-ippan-0008]
 2017-08|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr07]
+  r: [bk-ippan-fr07]
 2017-08|ippan|7:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
@@ -2116,10 +2116,10 @@
   r: []
 2018-02|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0016, bk-ippan-fr06]
+  r: [bk-ippan-0016]
 2018-02|ippan|15:
   p: [bk-ippan-fr05, bk-ippan-fr17]
-  r: [bk-ippan-0001, bk-ippan-0004, bk-ippan-fr06]
+  r: [bk-ippan-0001, bk-ippan-0004, bk-ippan-fr07]
 2018-02|ippan|16:
   p: [bk-ippan-fr15]
   r: []
@@ -2130,7 +2130,7 @@
   p: [bk-ippan-fr16]
   r: [bk-ippan-0004, bk-ippan-0010]
 2018-02|ippan|19:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
+  p: [bk-ippan-fr12, bk-ippan-fr17]
   r: [bk-ippan-fr11, bk-ippan-fr14]
 2018-02|ippan|2:
   p: [bk-ippan-fr17]
@@ -2140,22 +2140,22 @@
   r: [bk-ippan-fr17]
 2018-02|ippan|3:
   p: [bk-ippan-fr04, bk-ippan-fr17]
-  r: [bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr05, bk-ippan-fr07]
 2018-02|ippan|4:
   p: [bk-ippan-0008, bk-ippan-fr06]
-  r: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr05, bk-ippan-fr07, bk-ippan-fr12]
 2018-02|ippan|5:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
 2018-02|ippan|6:
   p: [bk-ippan-fr05, bk-ippan-fr07]
-  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr03, bk-ippan-fr06, bk-ippan-fr17]
 2018-02|ippan|7:
   p: [bk-ippan-fr06]
   r: []
 2018-02|ippan|8:
-  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
-  r: [bk-ippan-fr05]
+  p: [bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr06, bk-ippan-fr05]
 2018-02|ippan|9:
   p: [bk-ippan-0024, bk-ippan-fr09]
   r: []
@@ -2413,10 +2413,10 @@
   r: []
 2018-08|ippan|13:
   p: [bk-ippan-fr13]
-  r: [bk-ippan-fr06]
+  r: []
 2018-08|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr06]
+  r: [bk-ippan-0016, bk-ippan-0021]
 2018-08|ippan|15:
   p: [bk-ippan-0030, bk-ippan-fr05]
   r: [bk-ippan-fr17]
@@ -2431,10 +2431,10 @@
   r: []
 2018-08|ippan|19:
   p: [bk-ippan-0008, bk-ippan-fr06]
-  r: [bk-ippan-fr17]
+  r: [bk-ippan-fr17, bk-ippan-fr09]
 2018-08|ippan|2:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2018-08|ippan|20:
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
@@ -2449,13 +2449,13 @@
   r: []
 2018-08|ippan|6:
   p: [bk-ippan-fr05, bk-ippan-fr07]
-  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr03, bk-ippan-fr06, bk-ippan-fr17]
 2018-08|ippan|7:
   p: [bk-ippan-fr06]
   r: []
 2018-08|ippan|8:
-  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
-  r: [bk-ippan-fr05]
+  p: [bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr05, bk-ippan-fr06]
 2018-08|ippan|9:
   p: [bk-ippan-fr09]
   r: [bk-ippan-0024, bk-ippan-fr17]
@@ -2850,8 +2850,8 @@
   p: [bk-ippan-fr16]
   r: [bk-ippan-0010]
 2019-02|ippan|19:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr17]
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr12, bk-ippan-fr13]
 2019-02|ippan|2:
   p: [bk-ippan-fr17, bk-ippan-forms]
   r: []
@@ -2860,22 +2860,22 @@
   r: [bk-ippan-fr17]
 2019-02|ippan|3:
   p: [bk-ippan-fr04, bk-ippan-fr17]
-  r: [bk-ippan-0033, bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-0033, bk-ippan-fr05, bk-ippan-fr07]
 2019-02|ippan|4:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr08]
+  p: [bk-ippan-fr12]
+  r: [bk-ippan-fr06, bk-ippan-fr08]
 2019-02|ippan|5:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
 2019-02|ippan|6:
   p: [bk-ippan-fr05, bk-ippan-fr07]
-  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr03, bk-ippan-fr17]
 2019-02|ippan|7:
   p: [bk-ippan-fr06]
   r: []
 2019-02|ippan|8:
-  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
-  r: [bk-ippan-fr05]
+  p: [bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr06, bk-ippan-fr05]
 2019-02|ippan|9:
   p: [bk-ippan-0024, bk-ippan-fr09]
   r: []
@@ -3127,13 +3127,13 @@
   r: [bk-ippan-0014]
 2019-08|ippan|11:
   p: [bk-ippan-fr11]
-  r: [bk-ippan-fr06]
+  r: []
 2019-08|ippan|12:
   p: [bk-ippan-fr12]
   r: []
 2019-08|ippan|13:
   p: [bk-ippan-fr13]
-  r: [bk-ippan-fr06]
+  r: []
 2019-08|ippan|14:
   p: [bk-ippan-fr14]
   r: [bk-ippan-0016]
@@ -3150,14 +3150,14 @@
   p: [bk-ippan-0004, bk-ippan-fr16]
   r: []
 2019-08|ippan|19:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr17]
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr09, bk-ippan-fr12]
 2019-08|ippan|2:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2019-08|ippan|20:
   p: [bk-ippan-fr03]
-  r: [bk-ippan-fr17, bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr17, bk-ippan-fr05, bk-ippan-fr07]
 2019-08|ippan|3:
   p: [bk-ippan-fr04]
   r: [bk-ippan-fr17]
@@ -3169,7 +3169,7 @@
   r: []
 2019-08|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr07]
+  r: [bk-ippan-fr07]
 2019-08|ippan|7:
   p: [bk-ippan-fr06]
   r: [bk-ippan-fr04]
@@ -3559,7 +3559,7 @@
   r: []
 2020-02|ippan|15:
   p: [bk-ippan-0001, bk-ippan-fr05]
-  r: [bk-ippan-fr08, bk-ippan-fr04, bk-ippan-fr06]
+  r: [bk-ippan-fr08, bk-ippan-fr04, bk-ippan-fr07]
 2020-02|ippan|16:
   p: [bk-ippan-fr15]
   r: [bk-ippan-0026]
@@ -3570,11 +3570,11 @@
   p: [bk-ippan-fr16]
   r: []
 2020-02|ippan|19:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr17]
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr12]
 2020-02|ippan|2:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2020-02|ippan|20:
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
@@ -3589,7 +3589,7 @@
   r: []
 2020-02|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr07, bk-ippan-fr03]
+  r: [bk-ippan-fr07, bk-ippan-fr03, bk-ippan-fr06]
 2020-02|ippan|7:
   p: [bk-ippan-fr06]
   r: []
@@ -3853,7 +3853,7 @@
   r: []
 2020-08|ippan|13:
   p: [bk-ippan-fr13, bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2020-08|ippan|14:
   p: [bk-ippan-0021, bk-ippan-fr14]
   r: [bk-ippan-0016]
@@ -3870,7 +3870,7 @@
   p: [bk-ippan-fr16]
   r: [bk-ippan-0010]
 2020-08|ippan|19:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
+  p: [bk-ippan-fr12, bk-ippan-fr17]
   r: []
 2020-08|ippan|2:
   p: [bk-ippan-fr01]
@@ -3883,7 +3883,7 @@
   r: [bk-ippan-fr06, bk-ippan-fr17]
 2020-08|ippan|4:
   p: [bk-ippan-fr06]
-  r: []
+  r: [bk-ippan-fr12]
 2020-08|ippan|5:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
@@ -3894,8 +3894,8 @@
   p: [bk-ippan-fr06]
   r: []
 2020-08|ippan|8:
-  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
-  r: [bk-ippan-0001, bk-ippan-fr04]
+  p: [bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr06, bk-ippan-0001, bk-ippan-fr04]
 2020-08|ippan|9:
   p: [bk-ippan-fr09]
   r: [bk-ippan-0024]
@@ -4272,11 +4272,11 @@
   p: [bk-ippan-fr12]
   r: []
 2021-02|ippan|13:
-  p: [bk-ippan-fr06, bk-ippan-fr13]
+  p: [bk-ippan-fr13]
   r: [bk-ippan-fr17]
 2021-02|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr06]
+  r: [bk-ippan-0016, bk-ippan-0021, bk-ippan-fr08]
 2021-02|ippan|15:
   p: [bk-ippan-fr05]
   r: [bk-ippan-0004, bk-ippan-fr08, bk-ippan-fr17]
@@ -4290,8 +4290,8 @@
   p: [bk-ippan-0004, bk-ippan-fr16]
   r: []
 2021-02|ippan|19:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
-  r: []
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr09, bk-ippan-fr12]
 2021-02|ippan|2:
   p: [bk-ippan-fr17]
   r: []
@@ -4309,7 +4309,7 @@
   r: []
 2021-02|ippan|6:
   p: [bk-ippan-fr05, bk-ippan-fr06]
-  r: []
+  r: [bk-ippan-fr07]
 2021-02|ippan|7:
   p: [bk-ippan-fr06]
   r: []
@@ -4573,7 +4573,7 @@
   r: []
 2021-08|ippan|13:
   p: [bk-ippan-fr13]
-  r: [bk-ippan-fr06]
+  r: []
 2021-08|ippan|14:
   p: [bk-ippan-fr14]
   r: [bk-ippan-0021]
@@ -4590,11 +4590,11 @@
   p: [bk-ippan-0010, bk-ippan-fr16]
   r: []
 2021-08|ippan|19:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr17]
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr06, bk-ippan-fr12]
 2021-08|ippan|2:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2021-08|ippan|20:
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
@@ -4609,7 +4609,7 @@
   r: []
 2021-08|ippan|6:
   p: [bk-ippan-fr05, bk-ippan-fr07]
-  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr03, bk-ippan-fr17]
 2021-08|ippan|7:
   p: [bk-ippan-fr06]
   r: []
@@ -4993,10 +4993,10 @@
   r: []
 2022-02|ippan|13:
   p: [bk-ippan-fr13, bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2022-02|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0021, bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-0021, bk-ippan-fr08]
 2022-02|ippan|15:
   p: [bk-ippan-fr05, bk-ippan-fr17]
   r: [bk-ippan-0004]
@@ -5010,10 +5010,10 @@
   p: [bk-ippan-fr16]
   r: []
 2022-02|ippan|19:
-  p: [bk-ippan-fr06]
-  r: []
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr12]
 2022-02|ippan|2:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
+  p: [bk-ippan-fr17]
   r: []
 2022-02|ippan|20:
   p: [bk-ippan-fr03]
@@ -5029,7 +5029,7 @@
   r: []
 2022-02|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr07, bk-ippan-fr03, bk-ippan-fr17]
 2022-02|ippan|7:
   p: [bk-ippan-fr06]
   r: []
@@ -5287,7 +5287,7 @@
   r: [bk-ippan-0014]
 2022-08|ippan|11:
   p: [bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2022-08|ippan|12:
   p: [bk-ippan-0029, bk-ippan-fr12]
   r: []
@@ -5310,14 +5310,14 @@
   p: [bk-ippan-fr16]
   r: [bk-ippan-0010]
 2022-08|ippan|19:
-  p: [bk-ippan-fr06]
-  r: []
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr12, bk-ippan-fr06]
 2022-08|ippan|2:
   p: [bk-ippan-fr17]
   r: []
 2022-08|ippan|20:
   p: [bk-ippan-fr03]
-  r: [bk-ippan-fr17, bk-ippan-fr05, bk-ippan-fr06]
+  r: [bk-ippan-fr17, bk-ippan-fr05, bk-ippan-fr07]
 2022-08|ippan|3:
   p: [bk-ippan-fr04]
   r: [bk-ippan-fr17]
@@ -5329,7 +5329,7 @@
   r: []
 2022-08|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr07, bk-ippan-fr03]
+  r: [bk-ippan-fr07, bk-ippan-fr03, bk-ippan-fr06]
 2022-08|ippan|7:
   p: [bk-ippan-fr06]
   r: []
@@ -5713,10 +5713,10 @@
   r: []
 2023-02|ippan|13:
   p: [bk-ippan-fr13, bk-ippan-fr17]
-  r: [bk-ippan-fr06]
+  r: []
 2023-02|ippan|14:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0021, bk-ippan-fr06, bk-ippan-fr08]
+  r: [bk-ippan-0021, bk-ippan-fr08]
 2023-02|ippan|15:
   p: [bk-ippan-fr05, bk-ippan-fr17]
   r: [bk-ippan-0004]
@@ -5730,10 +5730,10 @@
   p: [bk-ippan-fr16]
   r: []
 2023-02|ippan|19:
-  p: [bk-ippan-fr06]
-  r: []
+  p: [bk-ippan-fr17]
+  r: [bk-ippan-fr12]
 2023-02|ippan|2:
-  p: [bk-ippan-fr06, bk-ippan-fr17]
+  p: [bk-ippan-fr17]
   r: []
 2023-02|ippan|20:
   p: [bk-ippan-fr03]
@@ -5749,7 +5749,7 @@
   r: []
 2023-02|ippan|6:
   p: [bk-ippan-fr05]
-  r: [bk-ippan-fr06, bk-ippan-fr03, bk-ippan-fr17]
+  r: [bk-ippan-fr07, bk-ippan-fr03, bk-ippan-fr17]
 2023-02|ippan|7:
   p: [bk-ippan-fr06]
   r: []
@@ -6013,16 +6013,16 @@
   r: [bk-ippan-0014]
 2023-08|ippan|13:
   p: [bk-ippan-fr11]
-  r: [bk-ippan-fr06]
+  r: []
 2023-08|ippan|14:
   p: [bk-ippan-fr12]
-  r: [bk-ippan-fr06]
+  r: []
 2023-08|ippan|15:
   p: [bk-ippan-fr13]
-  r: [bk-ippan-fr06]
+  r: []
 2023-08|ippan|16:
   p: [bk-ippan-0016, bk-ippan-fr14]
-  r: [bk-ippan-0020, bk-ippan-0021, bk-ippan-fr06]
+  r: [bk-ippan-0020, bk-ippan-0021]
 2023-08|ippan|17:
   p: [bk-ippan-fr15]
   r: [bk-ippan-0026]
@@ -6055,7 +6055,7 @@
   r: []
 2023-08|ippan|8:
   p: [bk-ippan-fr06]
-  r: [bk-ippan-fr05, bk-ippan-fr04, bk-ippan-fr07]
+  r: [bk-ippan-fr05, bk-ippan-fr07, bk-ippan-fr04]
 2023-08|ippan|9:
   p: [bk-ippan-fr06]
   r: [bk-ippan-fr04]
@@ -6439,9 +6439,9 @@
   r: []
 2024-02|ippan|15:
   p: [bk-ippan-0016, bk-ippan-fr13]
-  r: [bk-ippan-fr06]
+  r: []
 2024-02|ippan|16:
-  p: [bk-ippan-0021, bk-ippan-fr06, bk-ippan-fr14]
+  p: [bk-ippan-0021, bk-ippan-fr14]
   r: []
 2024-02|ippan|17:
   p: [bk-ippan-0026, bk-ippan-fr15]
@@ -6769,13 +6769,13 @@
   r: [bk-ippan-fr08, bk-ippan-fr17]
 2024-08|ippan|6:
   p: [bk-ippan-0001, bk-ippan-fr06]
-  r: [bk-ippan-0008]
+  r: [bk-ippan-fr12, bk-ippan-0008]
 2024-08|ippan|7:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
 2024-08|ippan|8:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr05]
+  p: [bk-ippan-fr07]
+  r: [bk-ippan-fr05, bk-ippan-fr06]
 2024-08|ippan|9:
   p: [bk-ippan-fr06]
   r: []
@@ -7158,7 +7158,7 @@
   p: [bk-ippan-fr12]
   r: [bk-ippan-0001]
 2025-02|ippan|15:
-  p: [bk-ippan-fr06, bk-ippan-fr13]
+  p: [bk-ippan-fr13]
   r: [bk-ippan-0016]
 2025-02|ippan|16:
   p: [bk-ippan-fr14]
@@ -7194,8 +7194,8 @@
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
 2025-02|ippan|8:
-  p: [bk-ippan-fr05, bk-ippan-fr06]
-  r: []
+  p: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr06]
 2025-02|ippan|9:
   p: [bk-ippan-fr06]
   r: []
@@ -7456,13 +7456,13 @@
   r: []
 2025-08|ippan|14:
   p: [bk-ippan-0008, bk-ippan-fr12]
-  r: [bk-ippan-fr06]
+  r: []
 2025-08|ippan|15:
   p: [bk-ippan-fr13]
   r: []
 2025-08|ippan|16:
   p: [bk-ippan-fr14]
-  r: [bk-ippan-0020, bk-ippan-0021, bk-ippan-fr06]
+  r: [bk-ippan-0020, bk-ippan-0021]
 2025-08|ippan|17:
   p: [bk-ippan-fr15]
   r: []
@@ -7489,13 +7489,13 @@
   r: []
 2025-08|ippan|6:
   p: [bk-ippan-fr06]
-  r: [bk-ippan-0008]
+  r: [bk-ippan-0008, bk-ippan-fr12]
 2025-08|ippan|7:
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
 2025-08|ippan|8:
   p: [bk-ippan-fr06]
-  r: [bk-ippan-fr03, bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr07, bk-ippan-fr03, bk-ippan-fr05]
 2025-08|ippan|9:
   p: [bk-ippan-fr06]
   r: []
@@ -7863,8 +7863,8 @@
   p: [bk-ippan-fr01]
   r: []
 2026-02|ippan|10:
-  p: [bk-ippan-fr06, bk-ippan-fr08, bk-ippan-fr14]
-  r: [bk-ippan-0001, bk-ippan-fr04]
+  p: [bk-ippan-fr08, bk-ippan-fr14]
+  r: [bk-ippan-fr06, bk-ippan-0001, bk-ippan-fr04]
 2026-02|ippan|11:
   p: [bk-ippan-fr09]
   r: [bk-ippan-0024, bk-ippan-0025]
@@ -7915,7 +7915,7 @@
   r: []
 2026-02|ippan|8:
   p: [bk-ippan-fr06]
-  r: [bk-ippan-fr05, bk-ippan-fr07]
+  r: [bk-ippan-fr07, bk-ippan-fr05]
 2026-02|ippan|9:
   p: [bk-ippan-fr06]
   r: [bk-ippan-fr04]
@@ -8179,7 +8179,7 @@
   r: []
 2026-08|ippan|15:
   p: [bk-ippan-fr13]
-  r: [bk-ippan-fr06]
+  r: []
 2026-08|ippan|16:
   p: [bk-ippan-0016, bk-ippan-fr14]
   r: [bk-ippan-0021]
@@ -8214,8 +8214,8 @@
   p: [bk-ippan-fr06, bk-ippan-forms]
   r: []
 2026-08|ippan|8:
-  p: [bk-ippan-fr06]
-  r: [bk-ippan-fr05, bk-ippan-0030]
+  p: [bk-ippan-fr07]
+  r: [bk-ippan-fr05, bk-ippan-fr06, bk-ippan-0030]
 2026-08|ippan|9:
   p: [bk-ippan-fr06]
   r: []

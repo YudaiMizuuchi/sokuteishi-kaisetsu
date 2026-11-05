@@ -1,0 +1,149 @@
+splits:
+- from: pt-hourei-0206
+  new: pt-hourei-0489
+  members:
+  - 2022-08|11|4
+  reason: 粉じん則の測定の特例（1年以内ごと）と、個人サンプリング法のD測定のみの特例は、別の事実
+- from: pt-hourei-0064
+  new: pt-hourei-0490
+  members:
+  - 2020-08|5|4
+  - 2024-08|5|4
+  - 2025-08|8|4
+  reason: 騒音の測定頻度（6か月以内ごと）と、騒音の測定を測定士でない者が行えること、は別の事実
+- from: pt-hourei-0011
+  new: pt-hourei-0491
+  members:
+  - 2022-02|8|4
+  - 2022-08|8|2
+  - 2023-02|8|4
+  - 2023-08|8|5
+  reason: 指定作業場の評価と、指定作業場以外の測定は、別の事実
+- from: pt-hourei-0049
+  new: pt-hourei-0492
+  members:
+  - 2025-08|6|5
+  reason: 表面汚染の測定
+- from: pt-hourei-0049
+  new: pt-hourei-0493
+  members:
+  - 2026-02|9|4
+  reason: 個人サンプリング法の対象
+- from: pt-hourei-0049
+  new: pt-hourei-0494
+  members:
+  - 2026-08|5|2
+  reason: 作業主任者の選任
+- from: pt-hourei-0053
+  new: pt-hourei-0495
+  members:
+  - 2021-08|1|1
+  - 2022-08|1|2
+  reason: 常時50人以上の労働者を使用する事業場では、その業種にかかわらず、衛生管理者を選任しなければならない
+- from: pt-hourei-0044
+  new: pt-hourei-0496
+  members:
+  - 2026-02|5|4
+  reason: 新たに職長となる作業主任者にも、職長教育が必要か
+- from: pt-hourei-0149
+  new: pt-hourei-0497
+  members:
+  - 2025-02|2|1
+  reason: 専属の産業医を選任している事業場でも、健康診断を、その産業医が行わなければならないという定めはない
+- from: pt-hourei-0017
+  new: pt-hourei-0498
+  members:
+  - 2018-08|13|4
+  - 2019-08|13|4
+  - 2020-08|13|5
+  - 2022-08|13|2
+  reason: 特別管理物質の「作業の記録」（1か月を超えない期間ごと・30年保存。特化則第38条の4）と、屋内作業場の「濃度の測定」（6か月以内ごと・記録30年保存。同第36条）は、別の条の別の事実
+- from: pt-hourei-0025
+  new: pt-hourei-0499
+  members:
+  - 2017-02|14|4
+  reason: 粉じん則（6か月・記録7年）と有機則（6か月・記録3年）は、別の規則で、保存年数も違う
+- from: pt-hourei-0025
+  new: pt-hourei-0500
+  members:
+  - 2024-08|17|4
+  reason: 測定の頻度・記録の年数ではなく、測定の対象の範囲（特定粉じん作業以外には、測定の定めがない）という別の事実
+- from: pt-hourei-0089
+  new: pt-hourei-0501
+  members:
+  - 2018-08|11|3
+  reason: 定期の測定（6か月以内ごと。安衛則第590条）と、施設・設備・作業工程・作業方法を変更した場合の測定（遅滞なく。同第591条）は、別の条の別の事実（0121の2017-08|11|3も同じ）
+- from: pt-hourei-0121
+  new: pt-hourei-0501
+  members:
+  - 2017-08|11|3
+  reason: 同上
+- from: pt-hourei-0170
+  new: pt-hourei-0502
+  members:
+  - 2023-08|20|4
+  reason: 鉛（1年以内ごと・記録3年。鉛則第52条）と、石綿（6か月以内ごと・記録40年。石綿則第36条）は、別の規則で、頻度も保存年数も違う
+- from: pt-hourei-0061
+  new: pt-hourei-0491
+  members:
+  - 2015-08|9|4
+  reason: 測定の頻度・項目ではなく、指定作業場以外の測定は作業環境測定士でない者に行わせられる、という別の事実。既存の論点0491へ移す
+- from: pt-ippan-0003
+  new: pt-ippan-0817
+  members:
+  - 2024-02|20|5
+  reason: 発がん性の分類と群の定義（0003）と、発がん性第1群の物質の許容濃度の有無は、別の事実。参考書側の指摘（no.15）
+- from: pt-ippan-0003
+  new: pt-ippan-0818
+  members:
+  - 2024-08|20|4
+  reason: 発がん性の分類と、生殖毒性の分類（第1〜3群）は、別の事実。参考書側の指摘（no.15）
+merged:
+- from: pt-hourei-0259
+  into: pt-hourei-0064
+  via: point_links.yaml
+renamed:
+- pt-hourei-0011
+- pt-hourei-0045
+- pt-hourei-0049
+- pt-hourei-0064
+- pt-hourei-0206
+- pt-hourei-0273
+- pt-hourei-0277
+- pt-hourei-0355
+- pt-hourei-0417
+- pt-hourei-0430
+- pt-hourei-0431
+declined: 0011・0045・0049・0064・0417・0430・0431 は、同じテーマ（作業環境測定を行う者）だが、別の事実なので、統合しない。事実ごとに回数を数えるため（統合すると、1回しか出ていない事実まで、高い区分になる）。名前を、事実ごとに付け直した。
+renamed2:
+- pt-hourei-0053
+- pt-hourei-0044
+- pt-hourei-0068
+- pt-hourei-0066
+- pt-hourei-0081
+- pt-hourei-0362
+- pt-hourei-0149
+- pt-hourei-0340
+- pt-hourei-0040
+- pt-hourei-0076
+- pt-hourei-0119
+- pt-hourei-0126
+- pt-hourei-0207
+- pt-hourei-0213
+- pt-hourei-0293
+- pt-hourei-0309
+- pt-hourei-0337
+- pt-hourei-0361
+merged2:
+- into: pt-hourei-0066
+  from: pt-hourei-0081
+  via: point_links.yaml
+  reason: 総括安全衛生管理者の選任の人数（業種別）。数値・業種の言い換え
+- into: pt-hourei-0149
+  from:
+  - pt-hourei-0354
+  - pt-hourei-0359
+  - pt-hourei-0374
+  via: point_links.yaml
+  reason: 専属の産業医（有害業務に常時500人以上）。業務の列挙の言い換え
+declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿・歯科・リスクアセスメント対象物の健診）は、別の事実（事業の廃止、屋外作業場、歯科の報告、第3類物質など）なので、統合しない。名前を事実ごとに直した（元の名前は、すべて同じで、内容と合っていなかった）。

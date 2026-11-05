@@ -851,7 +851,7 @@ chapters:
   kind: 数値表
   themes:
   - 作業環境測定の対象と頻度
-  status: draft
+  status: written
   part: law
 - id: bk-hourei-th04
   subject: hourei
@@ -859,7 +859,7 @@ chapters:
   kind: 数値表
   themes:
   - 作業環境測定を行う者
-  status: draft
+  status: written
   part: law
 - id: bk-hourei-th05
   subject: hourei
@@ -947,7 +947,7 @@ chapters:
   kind: 数値表
   themes:
   - 衛生管理体制
-  status: draft
+  status: written
   part: law
 - id: bk-hourei-th16
   subject: hourei
@@ -1022,7 +1022,7 @@ chapters:
   - pt-ippan-0701
   - pt-ippan-0751
   - pt-ippan-0759
-  status: draft
+  status: written
   part: why
 - id: bk-ippan-fr02
   subject: ippan
@@ -1106,7 +1106,9 @@ chapters:
   - pt-ippan-0753
   - pt-ippan-0769
   - pt-ippan-0777
-  status: draft
+  - pt-ippan-0817
+  - pt-ippan-0818
+  status: written
   part: hazards
 - id: bk-ippan-fr04
   subject: ippan
@@ -1241,98 +1243,58 @@ chapters:
   kind: テーマ
   points:
   - pt-ippan-0002
-  - pt-ippan-0004
   - pt-ippan-0016
   - pt-ippan-0018
-  - pt-ippan-0019
-  - pt-ippan-0020
   - pt-ippan-0022
   - pt-ippan-0027
   - pt-ippan-0028
-  - pt-ippan-0029
   - pt-ippan-0030
   - pt-ippan-0036
   - pt-ippan-0041
   - pt-ippan-0043
-  - pt-ippan-0045
-  - pt-ippan-0051
   - pt-ippan-0054
   - pt-ippan-0056
   - pt-ippan-0060
   - pt-ippan-0062
-  - pt-ippan-0066
-  - pt-ippan-0068
   - pt-ippan-0076
   - pt-ippan-0080
-  - pt-ippan-0084
   - pt-ippan-0086
-  - pt-ippan-0087
   - pt-ippan-0088
   - pt-ippan-0091
   - pt-ippan-0092
-  - pt-ippan-0093
-  - pt-ippan-0101
-  - pt-ippan-0103
-  - pt-ippan-0104
   - pt-ippan-0111
   - pt-ippan-0112
-  - pt-ippan-0113
   - pt-ippan-0115
   - pt-ippan-0117
   - pt-ippan-0118
   - pt-ippan-0119
   - pt-ippan-0122
   - pt-ippan-0123
-  - pt-ippan-0129
-  - pt-ippan-0137
-  - pt-ippan-0139
-  - pt-ippan-0143
-  - pt-ippan-0144
-  - pt-ippan-0145
-  - pt-ippan-0148
   - pt-ippan-0150
-  - pt-ippan-0151
   - pt-ippan-0153
   - pt-ippan-0157
   - pt-ippan-0163
-  - pt-ippan-0165
   - pt-ippan-0166
   - pt-ippan-0169
-  - pt-ippan-0170
   - pt-ippan-0175
   - pt-ippan-0177
-  - pt-ippan-0182
-  - pt-ippan-0206
   - pt-ippan-0207
   - pt-ippan-0209
   - pt-ippan-0212
-  - pt-ippan-0213
   - pt-ippan-0215
-  - pt-ippan-0221
-  - pt-ippan-0227
   - pt-ippan-0229
   - pt-ippan-0239
   - pt-ippan-0246
   - pt-ippan-0247
   - pt-ippan-0248
   - pt-ippan-0251
-  - pt-ippan-0253
-  - pt-ippan-0255
   - pt-ippan-0261
   - pt-ippan-0262
   - pt-ippan-0264
-  - pt-ippan-0274
   - pt-ippan-0290
   - pt-ippan-0302
-  - pt-ippan-0303
   - pt-ippan-0308
-  - pt-ippan-0312
-  - pt-ippan-0316
-  - pt-ippan-0318
   - pt-ippan-0320
-  - pt-ippan-0332
-  - pt-ippan-0333
-  - pt-ippan-0348
   - pt-ippan-0353
   - pt-ippan-0355
   - pt-ippan-0357
@@ -1343,7 +1305,6 @@ chapters:
   - pt-ippan-0372
   - pt-ippan-0375
   - pt-ippan-0376
-  - pt-ippan-0381
   - pt-ippan-0383
   - pt-ippan-0385
   - pt-ippan-0404
@@ -1352,18 +1313,12 @@ chapters:
   - pt-ippan-0413
   - pt-ippan-0414
   - pt-ippan-0420
-  - pt-ippan-0423
   - pt-ippan-0424
-  - pt-ippan-0427
   - pt-ippan-0430
   - pt-ippan-0435
-  - pt-ippan-0441
-  - pt-ippan-0444
   - pt-ippan-0453
   - pt-ippan-0459
-  - pt-ippan-0465
   - pt-ippan-0468
-  - pt-ippan-0473
   - pt-ippan-0477
   - pt-ippan-0485
   - pt-ippan-0493
@@ -1375,7 +1330,6 @@ chapters:
   - pt-ippan-0540
   - pt-ippan-0554
   - pt-ippan-0558
-  - pt-ippan-0567
   - pt-ippan-0581
   - pt-ippan-0582
   - pt-ippan-0600
@@ -1385,14 +1339,10 @@ chapters:
   - pt-ippan-0610
   - pt-ippan-0615
   - pt-ippan-0622
-  - pt-ippan-0626
-  - pt-ippan-0637
   - pt-ippan-0643
-  - pt-ippan-0644
   - pt-ippan-0645
   - pt-ippan-0651
   - pt-ippan-0658
-  - pt-ippan-0662
   - pt-ippan-0666
   - pt-ippan-0669
   - pt-ippan-0670
@@ -1406,35 +1356,47 @@ chapters:
   - pt-ippan-0725
   - pt-ippan-0726
   - pt-ippan-0733
-  - pt-ippan-0743
   - pt-ippan-0757
   - pt-ippan-0763
   - pt-ippan-0764
   - pt-ippan-0770
   - pt-ippan-0775
-  - pt-ippan-0787
   - pt-ippan-0788
   - pt-ippan-0789
   - pt-ippan-0790
   - pt-ippan-0792
   - pt-ippan-0808
   - pt-ippan-0809
-  status: draft
+  status: written
   part: hazards
 - id: bk-ippan-fr07
   subject: ippan
   title: 粉じん・じん肺
   kind: テーマ
   points:
+  - pt-ippan-0004
+  - pt-ippan-0020
   - pt-ippan-0101
   - pt-ippan-0109
   - pt-ippan-0119
   - pt-ippan-0122
   - pt-ippan-0126
+  - pt-ippan-0139
+  - pt-ippan-0143
+  - pt-ippan-0144
+  - pt-ippan-0148
+  - pt-ippan-0170
+  - pt-ippan-0182
   - pt-ippan-0303
+  - pt-ippan-0332
   - pt-ippan-0333
   - pt-ippan-0347
+  - pt-ippan-0423
+  - pt-ippan-0427
   - pt-ippan-0573
+  - pt-ippan-0637
+  - pt-ippan-0644
+  - pt-ippan-0743
   status: draft
   part: hazards
 - id: bk-ippan-fr08
@@ -1488,6 +1450,7 @@ chapters:
   - pt-ippan-0125
   - pt-ippan-0127
   - pt-ippan-0133
+  - pt-ippan-0145
   - pt-ippan-0149
   - pt-ippan-0162
   - pt-ippan-0214
@@ -1504,9 +1467,11 @@ chapters:
   - pt-ippan-0342
   - pt-ippan-0388
   - pt-ippan-0407
+  - pt-ippan-0465
   - pt-ippan-0486
   - pt-ippan-0536
   - pt-ippan-0559
+  - pt-ippan-0567
   - pt-ippan-0575
   - pt-ippan-0583
   - pt-ippan-0612
@@ -1623,11 +1588,15 @@ chapters:
   - pt-ippan-0055
   - pt-ippan-0064
   - pt-ippan-0065
+  - pt-ippan-0093
   - pt-ippan-0136
   - pt-ippan-0140
   - pt-ippan-0142
+  - pt-ippan-0166
   - pt-ippan-0198
   - pt-ippan-0205
+  - pt-ippan-0213
+  - pt-ippan-0221
   - pt-ippan-0225
   - pt-ippan-0234
   - pt-ippan-0295
@@ -1636,15 +1605,19 @@ chapters:
   - pt-ippan-0331
   - pt-ippan-0336
   - pt-ippan-0343
+  - pt-ippan-0414
   - pt-ippan-0421
   - pt-ippan-0431
+  - pt-ippan-0441
   - pt-ippan-0443
   - pt-ippan-0448
   - pt-ippan-0456
   - pt-ippan-0457
   - pt-ippan-0460
+  - pt-ippan-0473
   - pt-ippan-0481
   - pt-ippan-0490
+  - pt-ippan-0504
   - pt-ippan-0513
   - pt-ippan-0541
   - pt-ippan-0545
@@ -1652,6 +1625,7 @@ chapters:
   - pt-ippan-0576
   - pt-ippan-0604
   - pt-ippan-0614
+  - pt-ippan-0626
   - pt-ippan-0630
   - pt-ippan-0631
   - pt-ippan-0632
@@ -1659,6 +1633,7 @@ chapters:
   - pt-ippan-0641
   - pt-ippan-0647
   - pt-ippan-0653
+  - pt-ippan-0662
   - pt-ippan-0667
   - pt-ippan-0675
   - pt-ippan-0685
@@ -1684,6 +1659,7 @@ chapters:
   - pt-ippan-0227
   - pt-ippan-0252
   - pt-ippan-0291
+  - pt-ippan-0312
   - pt-ippan-0354
   - pt-ippan-0428
   - pt-ippan-0471
@@ -1899,7 +1875,7 @@ chapters:
   - pt-ippan-0783
   - pt-ippan-0784
   - pt-ippan-0796
-  status: draft
+  status: written
   part: hazards
 - id: bk-ippan-fr17
   subject: ippan
@@ -1921,6 +1897,7 @@ chapters:
   - pt-ippan-0093
   - pt-ippan-0097
   - pt-ippan-0108
+  - pt-ippan-0113
   - pt-ippan-0116
   - pt-ippan-0128
   - pt-ippan-0129
@@ -1930,18 +1907,22 @@ chapters:
   - pt-ippan-0146
   - pt-ippan-0148
   - pt-ippan-0149
+  - pt-ippan-0151
   - pt-ippan-0152
   - pt-ippan-0156
   - pt-ippan-0164
   - pt-ippan-0184
   - pt-ippan-0198
   - pt-ippan-0200
+  - pt-ippan-0206
   - pt-ippan-0213
   - pt-ippan-0236
   - pt-ippan-0241
   - pt-ippan-0242
   - pt-ippan-0244
   - pt-ippan-0249
+  - pt-ippan-0253
+  - pt-ippan-0255
   - pt-ippan-0258
   - pt-ippan-0259
   - pt-ippan-0263
@@ -1954,14 +1935,18 @@ chapters:
   - pt-ippan-0294
   - pt-ippan-0296
   - pt-ippan-0312
+  - pt-ippan-0316
+  - pt-ippan-0318
   - pt-ippan-0322
   - pt-ippan-0326
   - pt-ippan-0341
   - pt-ippan-0344
+  - pt-ippan-0348
   - pt-ippan-0349
   - pt-ippan-0351
   - pt-ippan-0365
   - pt-ippan-0377
+  - pt-ippan-0381
   - pt-ippan-0389
   - pt-ippan-0391
   - pt-ippan-0392
@@ -1970,6 +1955,7 @@ chapters:
   - pt-ippan-0439
   - pt-ippan-0440
   - pt-ippan-0442
+  - pt-ippan-0444
   - pt-ippan-0467
   - pt-ippan-0491
   - pt-ippan-0495
@@ -1994,6 +1980,7 @@ chapters:
   - pt-ippan-0714
   - pt-ippan-0717
   - pt-ippan-0767
+  - pt-ippan-0787
   - pt-ippan-0797
   - pt-ippan-0801
   status: draft

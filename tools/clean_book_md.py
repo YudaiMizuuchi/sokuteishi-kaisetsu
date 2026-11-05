@@ -40,10 +40,13 @@ def clean(text):
     return re.sub(r"\n{3,}", "\n\n", text)
 
 
+def strip_past_questions(t):
+    """『この章の過去問』『この章で解けるようになった過去問』の節を、本文から外す（過去問は、過去問解説ページで解く。参考書は、復習の場）。節の末尾は、次の '## ' 見出し、または、ファイルの終わり"""
+    return re.sub(r'\n## [^\n]*(この章の過去問|解けるようになった過去問|過去問チェック)[^\n]*\n.*?(?=\n## |\Z)','\n',t,flags=re.S)
 def main():
     src, chapter = Path(sys.argv[1]), sys.argv[2]
     dst = Path(__file__).resolve().parent.parent / "book" / f"{chapter}.md"
-    dst.write_text(clean(src.read_text(encoding="utf-8")), encoding="utf-8")
+    dst.write_text(strip_past_questions(clean(src.read_text(encoding="utf-8"))), encoding="utf-8")
     print(f"{src.name} → {dst}")
 
 
