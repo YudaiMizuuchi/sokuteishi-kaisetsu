@@ -71,12 +71,20 @@ const chapterLabel = (c) => `${c.title}｜${subjectById[c.subject]?.name || ""}`
 
 // ---- 参考書の本文（book/<章ID>.md）
 const BOOK_DIR = path.join(process.cwd(), "book");
-// 章の原稿の中の過去問の参照（2026-08|design|12）を、問題ページへのリンクにする
+// 章の原稿の中の過去問の参照（`2026-08|design|12`。バッククォートで囲んであってもよい）を、問題ページへのリンクにする。
+// 章ID（`bk-ippan-fr01`）は、書き終えた章なら参考書のページ、そうでなければ章のページへのリンクにする（表示は、章の題）
 function linkExamRefs(t) {
   const url = (e, s, n) => `/q/${e}-${s}-${String(n).padStart(2, "0")}/`;
+  const chTitle = Object.fromEntries(bookMap.map((c) => [c.id, c]));
   return t
     .replace(/\*\*(\d{4}-\d{2})\|(\w+)\|(\d+)\*\*（([^）]*)）/g, (m, e, s, n, label) => (subjectById[s] ? `**[${label}](${url(e, s, n)})**` : m))
-    .replace(/(\d{4}-\d{2})\|(\w+)\|(\d+)/g, (m, e, s, n) => (subjectById[s] ? `[${examInfo(e).label.replace(" ", "")} 問${n}](${url(e, s, n)})` : m));
+    .replace(/`?(\d{4}-\d{2})\|(\w+)\|(\d+)`?/g, (m, e, s, n) => (subjectById[s] ? `[${examInfo(e).label.replace(" ", "")} 問${n}](${url(e, s, n)})` : m))
+    .replace(/`(bk-[a-z]+-[a-z0-9]+)`/g, (m, id) => {
+      const c = chTitle[id];
+      if (!c) return m;
+      const to = c.status === "written" && fs.existsSync(path.join(BOOK_DIR, `${id}.md`)) ? `/book/${id}/` : `/chapter/${id}/`;
+      return `[${c.title}](${to})`;
+    });
 }
 // 章の本文にも、同じ補正を使う（コードブロックの中は、そのままにする）
 const boldOutsideCode = (s) => String(s).split(/(^```[\s\S]*?^```)/m).map((part, i) => (i % 2 ? part : bold(part))).join("");
