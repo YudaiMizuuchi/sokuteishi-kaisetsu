@@ -248,7 +248,8 @@ function freqOut(f, answers = [], qTraps = [], showTraps = true) {
     + `<div class="tablewrap"><table class="freqtab"><thead><tr><th colspan="2">選択肢・正誤</th><th>通算<span class="den">／${f.denom}回</span></th><th>直近<span class="den">／${recentN || "－"}回</span></th><th>原理</th>${showTraps ? "<th>ひっかけパターン</th>" : ""}<th>印</th></tr></thead><tbody>${rows}</tbody></table></div>`
     + `<p class="freq-note">通算＝過去${f.denom}回中${recentLabel ? `、直近＝${recentLabel}の${recentN}回中` : ""}。回数は論点（同じ事実のまとまり）で数えています。<a href="/guide/">区分・解法・出題頻度の見方</a></p>`
     + `</section>`;
-  return { kind: f.kind, level, html };
+  return { kind: f.kind, level, html, principle: prId ? { id: prId, name: prName, count: prCount } : null, allPrinciples: [...new Set([...(f.principles || []), f.prid || ""].filter(Boolean))], denom: f.denom,
+    prCountMap: Object.fromEntries([...(f.principles || []).map((id, i) => [id, (f.prcounts || [])[i] || 0]), ...(f.prid ? [[f.prid, f.prcount || 0]] : [])].filter(([id]) => id)) };   // 原理ページ（/principle/<id>/）の元になる。正答の選択肢が、その原理に紐づく問題
 }
 
 const questions = [];
@@ -487,11 +488,14 @@ const examPages = [...new Set(questions.map((q) => q.exam.key))].sort().reverse(
 const principles = principleMaster.map((pm) => {
   const qs = questions.filter((q) => q.freq && q.freq.principle && q.freq.principle.id === pm.id)
     .sort((a, b) => b.exam.key.localeCompare(a.exam.key) || a.num - b.num);
-  const cnt = Math.max(0, ...questions.filter((q) => q.subject === pm.subject && q.freq && q.freq.principle && q.freq.principle.id === pm.id).map((q) => q.freq.principle.count));
+  // 正答の選択肢としては出ていないが、選択肢のどれかに、この原理が紐づく問題（問題ページの選択肢の表から、リンクされる）
+  const refs = questions.filter((q) => q.freq && (q.freq.allPrinciples || []).includes(pm.id) && !(q.freq.principle && q.freq.principle.id === pm.id))
+    .sort((a, b) => b.exam.key.localeCompare(a.exam.key) || a.num - b.num);
+  const cnt = Math.max(0, ...questions.filter((q) => q.subject === pm.subject && q.freq).map((q) => (q.freq.prCountMap && q.freq.prCountMap[pm.id]) || 0));
   const denom = (questions.find((q) => q.subject === pm.subject && q.freq) || { freq: { denom: 0 } }).freq.denom;
   return { ...pm, subjectName: subjectById[pm.subject]?.name, url: `/principle/${pm.id}/`, count: cnt, denom,
-    statementHtml: renderInline(pm.statement || ""), pointsCount: (pm.points || []).length, questions: qs };
-}).filter((x) => x.questions.length);
+    statementHtml: renderInline(pm.statement || ""), pointsCount: (pm.points || []).length, questions: qs, refQuestions: refs };
+}).filter((x) => x.questions.length || x.refQuestions.length);
 // 物質別の暗記リスト（ガイドブック3・4の目次・本文から作成。data/master/substances/<科目>.yaml）
 const escapeRe = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const verifiedFile = path.join(ROOT, "master/substances/verified.yaml");

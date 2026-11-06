@@ -22,3 +22,6 @@ eleventyComputed:
 </section>
 <h2 class="sub">この原理で解ける問題（{{ pr.questions.length }}問）</h2>
 {% for q in pr.questions %}{{ card(q, site, true) }}{% endfor %}
+{% if pr.refQuestions.length %}<h2 class="sub">{% if pr.questions.length %}この原理が、選択肢のなかに出ている、ほかの問題{% else %}この原理が、選択肢のなかに出ている問題{% endif %}（{{ pr.refQuestions.length }}問）</h2>
+<p class="hint">正答の選択肢ではなく、ほかの選択肢に、この原理の論点が出ている問題です。</p>
+{% for q in pr.refQuestions %}{{ card(q, site, true) }}{% endfor %}{% endif %}
