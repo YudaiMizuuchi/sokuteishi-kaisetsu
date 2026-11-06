@@ -265,8 +265,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -551,8 +551,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -696,8 +696,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-mole-03
 - num: 12
   status: published
   chapters:
@@ -948,7 +949,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
-    level: A
+    level: S
     why: q_hi
 - num: 15
   status: published
@@ -1442,6 +1443,6 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-radiation-01

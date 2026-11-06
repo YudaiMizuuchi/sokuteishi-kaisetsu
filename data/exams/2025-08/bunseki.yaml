@@ -278,8 +278,8 @@ questions:
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -500,8 +500,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -744,8 +744,8 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-01
 - num: 13
   status: published
@@ -843,8 +843,8 @@ questions:
     - - 2017-02
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
@@ -886,8 +886,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1131,13 +1130,14 @@ questions:
       - 2024-02
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
     - odo
-    - ans_trend
+    - ans_pat
     - ''
     - ''
     - ''
+    pat: an-gc-02
 - num: 18
   status: published
   chapters:
@@ -1174,7 +1174,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 19
   status: published
@@ -1213,20 +1213,20 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 1
-    - 3
-    - 3
+    - 2
+    - 2
     - 2
     - 2
     points:
     - pt-bunseki-0430
     - pt-bunseki-0093
-    - pt-bunseki-0093
+    - pt-bunseki-0498
     - pt-bunseki-0190
     - pt-bunseki-0191
     pnames:
     - X 線管は、熱電子を発生させる陰極と X 線を発生する陽極を有している
-    - 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
-    - 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
+    - X線管から発生するX線の全強度は、陽極（対陰極）元素の原子番号に比例して強くなる
+    - KαX線の波長は、陽極元素の原子番号が大きくなるに従い短くなる（長くなる、は誤り）
     - 特性 X 線は、原子の外殻電子が内殻電子の空孔に遷移したときに発生する
     - 特性X線の波長は、管電圧及び管電流の値に依存しない。
     prcounts:
@@ -1273,13 +1273,14 @@ questions:
     - []
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
     - new
     - ''
     - ''
     - ''
-    - ans_trend
+    - ans_pat
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -1380,12 +1381,12 @@ questions:
       - 2020-02
       - 2021-08
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_pat
     pat: an-radiation-01

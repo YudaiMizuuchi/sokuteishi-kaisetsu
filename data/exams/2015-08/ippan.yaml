@@ -303,8 +303,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
@@ -438,13 +438,14 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ''
     - ans_pr
-    - ''
-    - ''
+    - odo
+    - odo
+    pat: gn-toxicity-05
 - num: 6
   status: published
   chapters:
@@ -543,7 +544,7 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
+    - odo
     - ans_seen
     - ''
     - ''
@@ -675,14 +676,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
     - ans_pat
     - ''
-    - ''
+    - odo
     pat: gn-metals-01
 - num: 9
   status: published
@@ -885,14 +886,14 @@ questions:
       - 2020-08
       - 2022-02
       - 2023-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - odo
-    - ''
     - odo
-    - ''
+    - odo
+    - odo
     pat: gn-heat-cold-01
 - num: 11
   status: published
@@ -992,7 +993,7 @@ questions:
     tags:
     - ''
     - odo
-    - ''
+    - odo
     - ans_pat
     - ''
     pat: gn-noise-health-01
@@ -1094,10 +1095,10 @@ questions:
     level: B
     why: pat_B
     tags:
-    - new
+    - odo
     - ans_pat
     - odo
-    - new
+    - odo
     - new
     pat: gn-vibration-01
 - num: 13
@@ -1139,8 +1140,8 @@ questions:
     denom: 23
     count: 7
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1240,14 +1241,14 @@ questions:
       - 2019-02
       - 2020-08
       - 2022-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - new
     - new
     - ''
-    - ans_b
+    - ans_hi
 - num: 15
   status: published
   chapters:
@@ -1456,7 +1457,7 @@ questions:
     why: pt_B
     tags:
     - ans_b
-    - ''
+    - odo
     - odo
     - ''
     - ''
@@ -1559,14 +1560,14 @@ questions:
     - - 2017-02
       - 2020-02
       - 2021-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
-    - ''
-    - ''
     - odo
-    - ans_b
+    - odo
+    - odo
+    - ans_hi
 - num: 18
   status: published
   chapters:
@@ -1668,11 +1669,11 @@ questions:
       - 2022-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
-    - ''
+    - odo
     - ans_hi
     - new
     - new
@@ -1781,13 +1782,13 @@ questions:
     - - 2017-08
       - 2018-08
       - 2020-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
-    - ''
-    - ''
-    - ans_b
+    - odo
+    - odo
+    - ans_hi
     - odo
 - num: 20
   status: published
@@ -1885,7 +1886,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - odo

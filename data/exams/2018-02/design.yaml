@@ -105,14 +105,15 @@ questions:
       - 2018-08
       - 2020-08
     - - 2019-08
-    level: C
-    why: near
+    level: B
+    why: pat_B
     tags:
     - ''
-    - ans_near
+    - ans_pat
     - ''
+    - odo
     - ''
-    - ''
+    pat: ds-states-01
 - num: 2
   status: published
   chapters:
@@ -213,13 +214,13 @@ questions:
     - - 2025-08
     - []
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - ans_new
     - odo
     - odo
-    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -320,7 +321,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - odo
@@ -749,11 +750,11 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
+    - odo
     - ''
     - ans_hi
     - odo
-    - ''
+    - odo
 - num: 10
   status: published
   chapters:
@@ -955,14 +956,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - odo
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     pat: ds-filter-01
 - num: 12
   status: published
@@ -1074,7 +1075,7 @@ questions:
     - odo
     - ans_pr
     - ''
-    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1387,14 +1388,14 @@ questions:
     - []
     - - 2016-02
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
     - odo
     - odo
+    - odo
     - ''
-    - ans_seen
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -1586,14 +1587,14 @@ questions:
       - 2023-02
       - 2024-08
       - 2025-02
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
     - odo
     - odo
-    - ''
-    - ans_seen
+    - odo
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -1687,13 +1688,13 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
     - ''
-    - ans_seen
+    - ans_b
     - ''
 - num: 20
   status: published
@@ -1792,10 +1793,10 @@ questions:
     - - 2020-08
     - []
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - odo
     - odo
-    - ''
-    - ans_new
+    - odo
+    - ans_b
     - odo

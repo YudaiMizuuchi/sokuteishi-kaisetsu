@@ -93,7 +93,7 @@ questions:
     - 3
     - 3
     - 1
-    - 2
+    - 1
     - 1
     points:
     - pt-kinzoku-0068
@@ -105,7 +105,7 @@ questions:
     - 金属元素のイオン半径は、周期表の縦の列（族）にそって上から下へとしだいに増大する
     - アルカリ金属元素のイオン化エネルギーは、原子番号が大きくなるにつれて減少する傾向がある
     - すべての金属元素において、その電気陰性度の値はフッ素の電気陰性度の値よりも小さい
-    - 遷移元素には、金属元素ではないものがある。（誤りの記述）
+    - 遷移元素には、金属元素ではないものがある（誤りの記述。遷移元素は、すべて金属元素）
     - ナトリウムよりもマグネシウムの方がその原子半径は小さい。
     prcounts:
     - 3
@@ -148,13 +148,13 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pr_B
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - new
-    - ans_seen
+    - ans_pr
     - new
 - num: 3
   status: published
@@ -194,7 +194,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 4
   status: published
@@ -870,9 +870,9 @@ questions:
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
-    why: elim_all
+    why: elim_two
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -1089,12 +1089,12 @@ questions:
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
-    - odo
-    - ans_new
-    - odo
+    - ''
+    - ans_subst
+    - ''
     - new
 - num: 13
   status: published
@@ -1507,13 +1507,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
     - odo
     - odo
     - ''
-    - ans_pr
+    - ans_hi
 - num: 17
   status: published
   chapters:
@@ -1812,5 +1812,5 @@ questions:
     prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
+    level: S
     why: q_hi

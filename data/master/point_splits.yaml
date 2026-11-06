@@ -98,6 +98,81 @@ splits:
   members:
   - 2024-08|20|4
   reason: 発がん性の分類と、生殖毒性の分類（第1〜3群）は、別の事実。参考書側の指摘（no.15）
+- from: pt-yuki-0136
+  new: pt-yuki-0296
+  members:
+  - 2023-08|1|3
+  reason: 融点（正。平成28年度第1回）と沸点（「低い」とする誤り。令和5年度第1回）は、別の性質。参考書側の指摘（no.18）
+- from: pt-tokka-0041
+  new: pt-tokka-0260
+  members:
+  - 2017-08|11|2
+  - 2025-08|11|2
+  reason: 蛍光の極大波長が励起波長を変えても変わらない（正）と、蛍光は励起光より長波長側に現れる（「短波長側」とする誤り）は、別の事実。参考書側の指摘（no.19）
+- from: pt-kinzoku-0034
+  new: pt-kinzoku-0457
+  members:
+  - 2016-08|2|3
+  - 2018-08|2|2
+  - 2019-08|2|4
+  - 2023-08|2|4
+  reason: 酸化鉄(Ⅲ)、酸化クロム(Ⅲ)、ジフェニルカルバジドは、別の事実。参考書側の指摘（no.27）
+- from: pt-kinzoku-0034
+  new: pt-kinzoku-0458
+  members:
+  - 2025-08|6|1
+  reason: 酸化鉄(Ⅲ)、酸化クロム(Ⅲ)、ジフェニルカルバジドは、別の事実。参考書側の指摘（no.27）
+- from: pt-kinzoku-0066
+  new: pt-kinzoku-0459
+  members:
+  - 2015-08|1|5
+  - 2024-08|1|4
+  reason: 酸化マンガン(Ⅳ)と、マンガン（金属）は、別の事実。参考書側の指摘（no.27）
+- from: pt-kinzoku-0428
+  new: pt-kinzoku-0460
+  members:
+  - 2022-08|1|2
+  reason: 遷移元素は、すべて金属元素（0428）と、カドミウムは典型元素は、別の事実。参考書側の指摘（no.27）
+- from: pt-kinzoku-0046
+  new: pt-kinzoku-0461
+  members:
+  - 2022-08|14|5
+  reason: ICP-MSの感度、ICP-AESの酸濃度、鉄の共存、内標準法は、別の事実。参考書側の指摘（no.27）
+- from: pt-kinzoku-0046
+  new: pt-kinzoku-0462
+  members:
+  - 2022-08|18|4
+  - 2023-08|18|5
+  reason: ICP-MSの感度、ICP-AESの酸濃度、鉄の共存、内標準法は、別の事実。参考書側の指摘（no.27）
+- from: pt-kinzoku-0046
+  new: pt-kinzoku-0463
+  members:
+  - 2025-08|12|4
+  reason: ICP-MSの感度、ICP-AESの酸濃度、鉄の共存、内標準法は、別の事実。参考書側の指摘（no.27）
+- from: pt-yuki-0041
+  new: pt-yuki-0297
+  members:
+  - 2017-08|17|1
+  - 2021-08|16|5
+  - 2025-08|16|5
+  reason: 吸光度の定義式（A＝log₁₀(I₀／I)。「log₁₀(I／I₀)」とする誤り）と、透過率（％）との関係（log₁₀T＝2−A。「3−A」とする誤り）は、別の事実。参考書側の指摘（no.29）
+- from: pt-yuki-0101
+  new: pt-yuki-0298
+  members:
+  - 2026-08|15|3
+  reason: EIで分子イオンとフラグメントイオンが生成される（正）と、EIはCIに比べて分子イオンの開裂が起こりやすい（「起こりにくい」とする誤り）は、別の事実。参考書側の指摘（no.31）
+- from: pt-bunseki-0093
+  new: pt-bunseki-0498
+  members:
+  - 2025-08|19|3
+  - 2018-08|19|4
+  reason: X線の全強度、KαX線の波長、原子吸光の吸光度（原子番号との関係）は、別の事実。参考書側の指摘（no.31）
+- from: pt-bunseki-0093
+  new: pt-bunseki-0499
+  members:
+  - 2018-08|15|4
+  - 2021-08|15|4
+  reason: X線の全強度、KαX線の波長、原子吸光の吸光度（原子番号との関係）は、別の事実。参考書側の指摘（no.31）
 merged:
 - from: pt-hourei-0259
   into: pt-hourei-0064

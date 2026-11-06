@@ -206,12 +206,12 @@ questions:
     - []
     - - 2017-02
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ans_pat
-    - ''
+    - odo
     - ''
     - ''
     pat: gn-oh-management-01
@@ -317,7 +317,7 @@ questions:
     - ''
     - ''
     - ans_pat
-    - ''
+    - odo
     - ''
     pat: gn-absorption-01
 - num: 4
@@ -416,14 +416,15 @@ questions:
       - 2026-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
-    - ''
-    - ''
-    - ''
-    - ''
-    - ans_b
+    - odo
+    - odo
+    - odo
+    - odo
+    - ans_pat
+    pat: gn-organic-solvents-01
 - num: 5
   status: published
   chapters:
@@ -660,9 +661,9 @@ questions:
     tags:
     - ''
     - ans_pat
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
     pat: gn-metals-02
 - num: 8
   status: published
@@ -757,14 +758,14 @@ questions:
     - - 2016-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
+    - odo
     - ''
+    - ans_hi
     - ''
-    - ans_b
-    - ''
-    - ''
+    - odo
 - num: 9
   status: published
   chapters:
@@ -866,14 +867,14 @@ questions:
       - 2017-02
       - 2021-08
       - 2023-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - ''
+    - odo
     - ''
     - odo
     - odo
-    - ans_b
+    - ans_hi
 - num: 10
   status: published
   chapters:
@@ -1076,12 +1077,12 @@ questions:
       - 2021-02
       - 2022-02
       - 2023-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - odo
-    - ''
+    - odo
     - ''
     - ans_hi
 - num: 12
@@ -1192,7 +1193,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - odo
     - ans_seen
     - ''
@@ -1290,13 +1291,13 @@ questions:
     - []
     - []
     - - 2019-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
     - ans_pat
-    - ''
+    - odo
     - ''
     pat: gn-em-waves-01
 - num: 14
@@ -1503,7 +1504,7 @@ questions:
     why: pr_A
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ans_pr
     - odo
@@ -1614,13 +1615,13 @@ questions:
       - 2023-02
     - []
     - - 2017-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - ans_hi
-    - ''
-    - ''
+    - odo
+    - odo
     - odo
 - num: 17
   status: published
@@ -1725,7 +1726,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1829,10 +1830,10 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
-    - ''
+    - odo
     - ans_pat
     - ''
     - ''
@@ -1935,13 +1936,14 @@ questions:
       - 2022-02
       - 2023-02
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - ''
     - ans_pr
     - ''
     - ''
     - ''
+    pat: gn-toxicity-05
 - num: 20
   status: published
   chapters:
@@ -2046,7 +2048,7 @@ questions:
     tags:
     - odo
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pat
     pat: gn-exposure-limits-01

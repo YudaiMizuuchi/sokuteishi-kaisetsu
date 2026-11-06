@@ -147,20 +147,20 @@ questions:
     - 4
     - 7
     - 2
-    - 5
-    - 6
+    - 4
+    - 4
     points:
     - pt-kinzoku-0188
     - pt-kinzoku-0044
     - pt-kinzoku-0187
-    - pt-kinzoku-0034
+    - pt-kinzoku-0457
     - pt-kinzoku-0066
     pnames:
     - 酸化コバルト(Ⅱ)は、塩酸に溶ける。
     - 硝酸には、酸化力がある。
     - 酸化ニッケル(Ⅱ)は、塩酸に溶ける。
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
-    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - 酸化クロム(Ⅲ)は、塩酸に溶けない（溶ける、は誤り）
+    - 酸化マンガン(Ⅳ)は、塩酸に溶ける（硝酸に溶ける、は誤り）
     prcounts:
     - 0
     - 8
@@ -183,8 +183,8 @@ questions:
     - 1
     - 2
     - 0
-    - 1
-    - 1
+    - 0
+    - 0
     recent_exams:
     - 2024-08
     - 2025-08
@@ -248,7 +248,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 4
   status: published
@@ -353,7 +353,7 @@ questions:
     - ''
     - ''
     - ans_new
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -668,7 +668,7 @@ questions:
     tags:
     - new
     - ''
-    - odo
+    - ''
     - odo
     - ans_seen
 - num: 8
@@ -1750,19 +1750,19 @@ questions:
     - 1
     - 2
     - 2
-    - 4
+    - 2
     points:
     - pt-kinzoku-0346
     - pt-kinzoku-0280
     - pt-kinzoku-0148
     - pt-kinzoku-0115
-    - pt-kinzoku-0046
+    - pt-kinzoku-0462
     pnames:
     - フレーム原子吸光光度法による鉛の直接法では、酸化炎を使用する。
     - 原子吸光分析法において、最も強い吸収を受ける共鳴線は 283.3 nm である（誤りの記述）
     - DDTCと鉛のキレート形成の至適pHは、弱アルカリ性である。
     - 電気加熱式原子吸光分析法では、鉛の塩化物が低い温度で蒸発しやすいため、灰化温度を高くできない
-    - 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+    - ICP-AESで、鉄が多量に共存すると、測定値に正の誤差を生じることがある
     prcounts:
     - 0
     - 0
@@ -1786,7 +1786,7 @@ questions:
     - 0
     - 0
     - 0
-    - 2
+    - 0
     recent_exams:
     - 2024-08
     - 2025-08
@@ -1812,7 +1812,7 @@ questions:
     - ans_subst
     - ''
     - ''
-    - odo
+    - ''
 - num: 19
   status: published
   chapters:

@@ -309,8 +309,8 @@ questions:
     - - 2017-08
       - 2019-08
       - 2024-02
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - new
     - ''
@@ -444,14 +444,14 @@ questions:
     - []
     - []
     - - 2026-08
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - new
     - ''
     - ''
     - new
-    - ans_seen
+    - ans_b
 - num: 6
   status: published
   chapters:
@@ -1226,14 +1226,13 @@ questions:
     - []
     - []
     level: B
-    why: pat_B
+    why: pt_B
     tags:
-    - ans_pat
+    - ans_b
     - new
     - new
     - ''
     - new
-    pat: lw-law-tokka-02
 - num: 14
   status: published
   chapters:
@@ -1279,8 +1278,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-organic-01
 - num: 15
   status: published
@@ -1590,8 +1589,8 @@ questions:
     why: seen
     tags:
     - ans_seen
-    - odo
-    - odo
+    - ''
+    - ''
     - new
     - new
 - num: 18

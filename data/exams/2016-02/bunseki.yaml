@@ -419,8 +419,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    level: B
+    why: pat_B
+    pat: an-equilibrium-03
 - num: 7
   status: published
   chapters:
@@ -462,8 +463,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 8
   status: published
@@ -742,8 +743,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -851,13 +852,14 @@ questions:
       - 2020-02
       - 2021-02
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - odo
     - ans_pr
     - odo
     - odo
     - odo
+    pat: an-reaction-03
 - num: 13
   status: published
   chapters:
@@ -1102,8 +1104,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - ''
     - ''
@@ -1248,7 +1250,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 18
   status: published
@@ -1350,13 +1352,14 @@ questions:
     - []
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
     - odo
     - odo
-    - ans_trend
+    - ans_pat
     - odo
     - odo
+    pat: an-gc-02
 - num: 19
   status: published
   chapters:
@@ -1454,13 +1457,14 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pat_S
     tags:
     - ans_pr
     - odo
     - odo
     - odo
     - ''
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:

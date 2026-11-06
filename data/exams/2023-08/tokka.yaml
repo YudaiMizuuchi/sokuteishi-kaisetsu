@@ -484,7 +484,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: A
+    level: S
     why: q_hi
 - num: 8
   status: published
@@ -653,7 +653,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
-    level: A
+    level: S
     why: q_hi
 - num: 11
   status: published
@@ -952,7 +952,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 15
   status: published
@@ -1081,8 +1081,8 @@ questions:
     prid: pr-tokka-0008
     prname: 標定・滴定の量的関係
     prcount: 5
-    level: C
-    why: q_seen
+    level: A
+    why: pr_A
 - num: 18
   status: published
   chapters:
@@ -1121,8 +1121,8 @@ questions:
     prcount: 4
     subst_id: sb-tokka-3032
     subst_name: マゼンタ
-    level: B
-    why: subst
+    level: A
+    why: pr_A
 - num: 19
   status: published
   chapters:

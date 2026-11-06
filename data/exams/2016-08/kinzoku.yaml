@@ -137,22 +137,22 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 5
+    - 2
     - 7
-    - 5
-    - 6
+    - 4
+    - 4
     - 3
     points:
     - pt-kinzoku-0034
     - pt-kinzoku-0044
-    - pt-kinzoku-0034
+    - pt-kinzoku-0457
     - pt-kinzoku-0066
     - pt-kinzoku-0183
     pnames:
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
+    - 酸化鉄(Ⅲ)は、塩酸に溶ける
     - 硝酸には、酸化力がある。
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
-    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - 酸化クロム(Ⅲ)は、塩酸に溶けない（溶ける、は誤り）
+    - 酸化マンガン(Ⅳ)は、塩酸に溶ける（硝酸に溶ける、は誤り）
     - 酸化バナジウム(Ⅴ)は、硫酸に溶ける。
     prcounts:
     - 8
@@ -173,10 +173,10 @@ questions:
     - 酸の性質と試料の溶解
     - ''
     trend:
-    - 1
+    - 0
     - 2
-    - 1
-    - 1
+    - 0
+    - 0
     - 0
     recent_exams:
     - 2024-08
@@ -207,7 +207,7 @@ questions:
     - odo
     - odo
     - ans_hi
-    - odo
+    - ''
 - num: 3
   status: published
   chapters:
@@ -244,7 +244,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 4
   status: published
@@ -591,7 +591,7 @@ questions:
     - odo
     - new
     - ans_new
-    - odo
+    - ''
     - ''
 - num: 8
   status: published
@@ -1102,8 +1102,8 @@ questions:
     level: S
     why: pt_S
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_hi
     - odo
     - odo
@@ -1209,8 +1209,8 @@ questions:
     level: A
     why: pt_A
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_hi
     - odo
     - odo
@@ -1312,13 +1312,13 @@ questions:
       - 2020-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
+    - ''
     - odo
     - ans_hi
-    - odo
+    - ''
     - odo
 - num: 15
   status: published
@@ -1625,13 +1625,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
-    - odo
-    - ans_new
     - ''
-    - odo
+    - ans_subst
+    - ''
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1729,8 +1729,8 @@ questions:
     - - 2019-08
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo

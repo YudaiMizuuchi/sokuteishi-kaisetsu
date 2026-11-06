@@ -102,7 +102,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - ''
     - ''
@@ -213,7 +213,7 @@ questions:
     tags:
     - odo
     - ans_seen
-    - ''
+    - odo
     - ''
     - ''
 - num: 3
@@ -316,7 +316,7 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
+    - odo
     - ans_seen
     - ''
     - odo
@@ -419,7 +419,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - odo
     - ans_seen
@@ -668,7 +668,7 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
+    - odo
     - ''
     - ans_hi
     - odo
@@ -779,7 +779,7 @@ questions:
     - odo
     - ''
     - ''
-    - ''
+    - odo
     - ans_seen
 - num: 11
   status: published
@@ -874,12 +874,12 @@ questions:
     - []
     - []
     - - 2020-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - ''
-    - ''
+    - odo
     - ''
     - ans_pat
     pat: ds-filter-01
@@ -989,13 +989,13 @@ questions:
       - 2023-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - ''
 - num: 13
   status: published
@@ -1304,13 +1304,13 @@ questions:
       - 2021-08
       - 2024-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_hi
     - ''
 - num: 16
   status: published
@@ -1510,8 +1510,8 @@ questions:
     - odo
     - odo
     - ans_hi
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -1611,13 +1611,13 @@ questions:
       - 2022-02
       - 2023-02
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
+    - odo
     - ''
-    - ''
-    - ans_seen
+    - ans_b
     - odo
 - num: 20
   status: published
@@ -1719,11 +1719,11 @@ questions:
       - 2019-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - ans_hi
-    - ''
+    - odo
     - ''

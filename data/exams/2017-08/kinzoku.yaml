@@ -171,7 +171,7 @@ questions:
     - odo
     - ans_seen
     - ''
-    - odo
+    - ''
     - new
 - num: 4
   status: published
@@ -472,10 +472,10 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
-    - ans_b
+    - ans_pr
     - new
     - odo
     - odo
@@ -574,8 +574,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
@@ -1403,12 +1403,12 @@ questions:
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: S
-    why: pr_S
+    why: pt_S
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - ans_pr
+    - ans_hi
     - odo
 - num: 16
   status: published
@@ -1612,13 +1612,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
     - new
     - odo
-    - ans_new
-    - odo
+    - ans_subst
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1716,8 +1716,8 @@ questions:
     - - 2019-08
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
@@ -1869,5 +1869,5 @@ questions:
     prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
+    level: S
     why: q_hi

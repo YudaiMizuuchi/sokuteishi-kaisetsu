@@ -112,7 +112,7 @@ questions:
     - odo
     - ans_seen
     - ''
-    - ''
+    - odo
 - num: 2
   status: published
   chapters:
@@ -211,14 +211,14 @@ questions:
       - 2025-08
       - 2026-02
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
     - odo
     - odo
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
 - num: 3
   status: published
   chapters:
@@ -322,7 +322,7 @@ questions:
     - ''
     - odo
     - ans_new
-    - ''
+    - odo
     - ''
 - num: 4
   status: published
@@ -425,7 +425,7 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
+    - odo
     - odo
     - ans_hi
     - ''
@@ -533,7 +533,7 @@ questions:
     - ''
     - ans_seen
     - odo
-    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -811,13 +811,13 @@ questions:
       - 2024-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - ans_b
+    - ans_hi
     - ''
     - odo
-    - ''
+    - odo
     - new
 - num: 10
   status: published
@@ -921,7 +921,7 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
+    - odo
     - ''
     - odo
     - ans_hi
@@ -1242,7 +1242,7 @@ questions:
     tags:
     - ''
     - ''
-    - ''
+    - odo
     - odo
     - ans_pr
 - num: 14
@@ -1454,7 +1454,7 @@ questions:
     - ''
     - ''
     - ans_pr
-    - ''
+    - odo
     - odo
 - num: 16
   status: published
@@ -1643,7 +1643,7 @@ questions:
     - odo
     - ans_hi
     - odo
-    - ''
+    - odo
     - odo
 - num: 19
   status: published
@@ -1766,8 +1766,8 @@ questions:
     - ''
     - odo
     - ans_pr
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 20
   status: published
   chapters:
@@ -1869,10 +1869,10 @@ questions:
     - []
     - []
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_new
+    - ans_b
     - ''
     - odo

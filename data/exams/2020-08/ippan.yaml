@@ -207,12 +207,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ans_pat
-    - ''
+    - odo
     - ''
     - odo
     pat: gn-risk-assessment-01
@@ -323,7 +323,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - odo
 - num: 4
   status: published
   chapters:
@@ -419,8 +419,8 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ''
     - ''
     - ans_seen
@@ -660,11 +660,11 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pat
-    - ''
-    - ''
+    - odo
+    - odo
     pat: gn-metals-02
 - num: 8
   status: published
@@ -761,12 +761,12 @@ questions:
     - - 2016-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - ''
     - ''
 - num: 9
@@ -869,12 +869,12 @@ questions:
       - 2023-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - ''
     - odo
-    - ans_b
+    - odo
+    - ans_hi
     - odo
     - new
 - num: 10
@@ -980,8 +980,8 @@ questions:
     - odo
     - odo
     - ans_pat
-    - ''
-    - ''
+    - odo
+    - odo
     pat: gn-vibration-01
 - num: 11
   status: published
@@ -1080,13 +1080,13 @@ questions:
     - - 2016-08
       - 2018-08
       - 2020-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - ''
     - ans_hi
-    - ''
+    - odo
     - odo
 - num: 12
   status: published
@@ -1195,14 +1195,15 @@ questions:
       - 2021-02
       - 2022-02
       - 2023-02
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - ''
-    - ''
-    - ans_b
+    - odo
+    - ans_pat
     - ''
     - odo
+    pat: gn-oxygen-deficiency-01
 - num: 13
   status: published
   chapters:
@@ -1298,8 +1299,8 @@ questions:
     - []
     - - 2019-08
     - - 2021-02
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
@@ -1409,9 +1410,9 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
     - odo
-    - ''
+    - odo
+    - odo
     - ''
     - ans_pr
 - num: 15
@@ -1512,7 +1513,7 @@ questions:
     level: A
     why: pr_A
     tags:
-    - ''
+    - odo
     - odo
     - odo
     - ans_pr
@@ -1719,14 +1720,15 @@ questions:
     - - 2025-02
     - - 2021-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_pat
+    pat: gn-ppe-02
 - num: 18
   status: published
   chapters:
@@ -1833,8 +1835,8 @@ questions:
       - 2021-08
       - 2022-08
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
@@ -1946,7 +1948,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - odo
 - num: 20
   status: published
   chapters:
@@ -2044,8 +2046,8 @@ questions:
     why: pat_B
     tags:
     - ans_pat
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - ''
     pat: gn-exposure-limits-01

@@ -65,21 +65,21 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 2
-    - 5
     - 4
-    - 6
+    - 4
+    - 4
     - 7
     points:
     - pt-kinzoku-0187
-    - pt-kinzoku-0034
+    - pt-kinzoku-0457
     - pt-kinzoku-0188
     - pt-kinzoku-0066
     - pt-kinzoku-0044
     pnames:
     - 酸化ニッケル(Ⅱ)は、塩酸に溶ける。
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
+    - 酸化クロム(Ⅲ)は、塩酸に溶けない（溶ける、は誤り）
     - 酸化コバルト(Ⅱ)は、塩酸に溶ける。
-    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - 酸化マンガン(Ⅳ)は、塩酸に溶ける（硝酸に溶ける、は誤り）
     - 硝酸には、酸化力がある。
     prcounts:
     - 0
@@ -101,9 +101,9 @@ questions:
     - 酸の性質と試料の溶解
     trend:
     - 0
+    - 0
     - 1
-    - 1
-    - 1
+    - 0
     - 2
     recent_exams:
     - 2024-08
@@ -531,8 +531,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - new
@@ -742,7 +742,7 @@ questions:
     - ans_hi
     - odo
     - odo
-    - odo
+    - ''
 - num: 9
   status: published
   chapters:
@@ -1251,11 +1251,11 @@ questions:
       - 2021-08
     - []
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - odo
-    - odo
+    - ''
     - odo
     - new
     - ans_new
@@ -1466,8 +1466,8 @@ questions:
       - 2021-08
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
@@ -1676,11 +1676,11 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - ''
-    - ans_pr
+    - ans_hi
     - new
     - odo
 - num: 18
@@ -1779,8 +1779,8 @@ questions:
     - - 2019-08
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
@@ -1932,5 +1932,5 @@ questions:
     prid: pr-kinzoku-0013
     prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
     prcount: 3
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B

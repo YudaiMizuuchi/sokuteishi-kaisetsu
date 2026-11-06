@@ -78,11 +78,13 @@ function linkExamRefs(t) {
     .replace(/\*\*(\d{4}-\d{2})\|(\w+)\|(\d+)\*\*（([^）]*)）/g, (m, e, s, n, label) => (subjectById[s] ? `**[${label}](${url(e, s, n)})**` : m))
     .replace(/(\d{4}-\d{2})\|(\w+)\|(\d+)/g, (m, e, s, n) => (subjectById[s] ? `[${examInfo(e).label.replace(" ", "")} 問${n}](${url(e, s, n)})` : m));
 }
+// 章の本文にも、同じ補正を使う（コードブロックの中は、そのままにする）
+const boldOutsideCode = (s) => String(s).split(/(^```[\s\S]*?^```)/m).map((part, i) => (i % 2 ? part : bold(part))).join("");
 function renderBook(mdText) {
   mdText = linkExamRefs(mdText);
   let n = 0;
   const toc = [];
-  const html = md.render(mdText).replace(/<h([23])>(.*?)<\/h\1>/g, (m, lv, inner) => {
+  const html = md.render(boldOutsideCode(mdText)).replace(/<h([23])>(.*?)<\/h\1>/g, (m, lv, inner) => {
     const id = `s${++n}`;
     if (lv === "2") toc.push({ id, title: inner.replace(/<[^>]+>/g, "") });
     return `<h${lv} id="${id}">${inner}</h${lv}>`;

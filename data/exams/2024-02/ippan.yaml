@@ -99,14 +99,14 @@ questions:
       - 2022-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - new
     - ans_pat
     - ''
-    - ''
+    - odo
     pat: gn-risk-assessment-01
 - num: 2
   status: published
@@ -529,10 +529,10 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - ''
-    - ans_pr
+    - odo
+    - ans_hi
     - odo
     - new
     - new
@@ -882,7 +882,7 @@ questions:
     - new
     - new
     - new
-    - ''
+    - odo
 - num: 10
   status: published
   chapters:
@@ -978,12 +978,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - new
-    - ''
+    - odo
     - new
     - new
 - num: 11
@@ -1189,7 +1189,7 @@ questions:
     tags:
     - new
     - ans_pr
-    - ''
+    - odo
     - ''
     - odo
 - num: 13
@@ -1500,7 +1500,7 @@ questions:
     why: none
     tags:
     - new
-    - ''
+    - odo
     - ans_new
     - ''
     - ''
@@ -1602,7 +1602,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - odo
@@ -1705,7 +1705,7 @@ questions:
     level: D
     why: none
     tags:
-    - ''
+    - odo
     - new
     - odo
     - ans_new
@@ -1805,8 +1805,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - new
     - ''
@@ -1910,8 +1910,8 @@ questions:
       - 2021-02
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ans_pat

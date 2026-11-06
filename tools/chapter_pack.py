@@ -79,20 +79,44 @@ def pack(cid):
         a=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
         neg=bool(NEG.search(str(q['stem']))); return '正' if ((i not in a) if neg else (i in a)) else '誤'
     used=[]
+    def _row(pid):
+        p=pts.get(pid)
+        if not p or p.get('merged_into'): return None
+        exs=sorted({k.split('|')[0] for k in p['members']})
+        return (-len(exs),pid,p,exs)
+    def _line(r):
+        _,pid,p,exs=r
+        ap=[]
+        for k in sorted(p['members'],reverse=True)[:6]:
+            e,n,i=k.split('|'); ap.append(f"{e}|{subj}|{n}"+("（問題）" if i=='0' else f"|{i}（{truth(subj,e,n,int(i))}）")); used.append((e,n))
+        return f"- **{pid}**　{p['name']}　〔{len(exs)}回：{ '、'.join(exs[-8:]) }〕　{ '、'.join(ap) }"
     if ids:
         L+=[f"## 論点（{len(ids)}件）",'','出題回数は、その論点が出た回の数（同じ回の重複は1回）。各出題は『回|科目|問|選択肢』と、その記述の正誤。','']
-        rows=[]
-        for pid in ids:
-            p=pts.get(pid)
-            if not p or p.get('merged_into'): continue
-            exs=sorted({k.split('|')[0] for k in p['members']})
-            rows.append((-len(exs),pid,p,exs))
-        for _,pid,p,exs in sorted(rows,key=lambda x:(x[0],x[1])):
-            ap=[]
-            for k in sorted(p['members'],reverse=True)[:6]:
-                e,n,i=k.split('|'); ap.append(f"{e}|{subj}|{n}"+("（問題）" if i=='0' else f"|{i}（{truth(subj,e,n,int(i))}）")); used.append((e,n))
-            L.append(f"- **{pid}**　{p['name']}　〔{len(exs)}回：{ '、'.join(exs[-4:]) }〕　{ '、'.join(ap) }")
-        L.append('')
+        prs=list(ch.get('principles') or [])
+        if len(prs)>1:   # 原理が複数の章：論点を、原理ごとに分けて並べる（原理に属さない論点は、最後）
+            seen=set()
+            for pr in prs:
+                rows=[]
+                for pid in (prin[pr].get('points') or []):
+                    if pid in seen: continue
+                    r=_row(pid)
+                    if r: rows.append(r); seen.add(pid)
+                L+=[f"### 原理 {pr}（{prin[pr]['name']}）の論点（{len(rows)}件）",'']
+                for r in sorted(rows,key=lambda x:(x[0],x[1])): L.append(_line(r))
+                L.append('')
+            rows=[]
+            for pid in ids:
+                if pid in seen: continue
+                r=_row(pid)
+                if r: rows.append(r)
+            if rows:
+                L+=[f"### どの原理にも割り当てていない論点（{len(rows)}件）",'']
+                for r in sorted(rows,key=lambda x:(x[0],x[1])): L.append(_line(r))
+                L.append('')
+        else:
+            rows=[r for r in (_row(pid) for pid in ids) if r]
+            for r in sorted(rows,key=lambda x:(x[0],x[1])): L.append(_line(r))
+            L.append('')
     # 物質表
     for sb in ch.get('substances') or []:
         _,s,code=sb.split('-'); v=G['ver']

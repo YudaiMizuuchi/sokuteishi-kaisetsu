@@ -328,8 +328,8 @@ questions:
     - []
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - new
@@ -514,7 +514,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: A
+    level: S
     why: q_hi
 - num: 9
   status: published
@@ -950,13 +950,13 @@ questions:
     - []
     - []
     - - 2016-08
-    level: C
-    why: seen
+    level: S
+    why: trend_S
     tags:
     - new
     - new
-    - ans_seen
-    - ''
+    - ans_trend
+    - odo
     - odo
 - num: 15
   status: published
@@ -988,8 +988,8 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
-    level: C
-    why: q_seen
+    level: A
+    why: pr_A
 - num: 16
   status: published
   chapters:
@@ -1027,7 +1027,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3034
     subst_name: 硫化水素
-    level: A
+    level: S
     why: q_hi
 - num: 17
   status: published

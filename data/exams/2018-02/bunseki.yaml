@@ -36,8 +36,9 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -249,8 +250,8 @@ questions:
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -287,8 +288,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -700,8 +701,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - new
@@ -819,13 +820,14 @@ questions:
       - 2020-02
       - 2021-02
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
     - ans_pr
     - odo
+    pat: an-reaction-03
 - num: 12
   status: published
   chapters:
@@ -1202,13 +1204,13 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
 - num: 17
   status: published
   chapters:
@@ -1306,11 +1308,11 @@ questions:
     - - 2024-02
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
-    - ans_pr
+    - ans_pat
     - odo
     - odo
     - odo
@@ -1449,13 +1451,14 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pat_S
     tags:
     - odo
     - ans_pr
     - odo
+    - odo
     - ''
-    - ''
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:

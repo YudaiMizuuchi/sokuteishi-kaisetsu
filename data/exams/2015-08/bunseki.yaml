@@ -172,8 +172,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
@@ -295,8 +295,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 7
   status: published
@@ -597,8 +597,8 @@ questions:
     - []
     - []
     - - 2019-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
@@ -749,8 +749,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-mole-03
 - num: 12
   status: published
   chapters:
@@ -782,8 +783,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    level: B
+    why: pat_B
+    pat: an-equilibrium-03
 - num: 13
   status: published
   chapters:
@@ -820,8 +822,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -1339,5 +1340,6 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-logarithm-03

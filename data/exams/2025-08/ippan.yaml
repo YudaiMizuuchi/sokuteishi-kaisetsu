@@ -345,7 +345,7 @@ questions:
     - ans_pr
     - new
     - new
-    - ''
+    - odo
 - num: 5
   status: published
   chapters:
@@ -784,14 +784,14 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
-    - ''
-    - ans_seen
-    - ''
-    - ''
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 10
   status: published
   chapters:
@@ -893,7 +893,7 @@ questions:
     - odo
     - new
     - new
-    - ''
+    - odo
     - ans_new
 - num: 11
   status: published
@@ -990,10 +990,10 @@ questions:
     - []
     - - 2024-02
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ''
     - ans_pat
     - ''
@@ -1247,7 +1247,7 @@ questions:
     - ans_new
     - new
     - new
-    - ''
+    - odo
     - new
 - num: 15
   status: published

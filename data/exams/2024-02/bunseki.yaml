@@ -390,8 +390,8 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-01
 - num: 6
   status: published
@@ -689,8 +689,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -790,8 +790,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - new
@@ -839,8 +839,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -1024,8 +1024,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1439,8 +1438,8 @@ questions:
       - 2021-02
       - 2025-08
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - ''
@@ -1544,14 +1543,14 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - ''
-    - ''
     - odo
-    - ans_seen
+    - odo
+    - ans_new
 - num: 20
   status: published
   chapters:
@@ -1648,8 +1647,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo

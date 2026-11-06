@@ -190,7 +190,7 @@ chapters:
   - pr-yuki-0001
   - pr-yuki-0002
   - pr-yuki-0003
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0004
   subject: yuki
@@ -224,7 +224,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0009
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0010
   subject: yuki
@@ -264,7 +264,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0014
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0015
   subject: yuki
@@ -480,7 +480,7 @@ chapters:
   - pr-kinzoku-0014
   - pr-kinzoku-0015
   - pr-kinzoku-0019
-  status: draft
+  status: written
   part: select
 - id: bk-kinzoku-0018
   subject: kinzoku
@@ -531,7 +531,7 @@ chapters:
   principles:
   - pr-funjin-0007
   - pr-funjin-0018
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0008
   subject: funjin
@@ -565,7 +565,7 @@ chapters:
   - pr-funjin-0011
   - pr-funjin-0012
   - pr-funjin-0013
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0014
   subject: funjin
@@ -2207,7 +2207,7 @@ chapters:
   kind: 物質表
   substances:
   - sb-kinzoku-4003
-  status: draft
+  status: written
   part: select
 - id: bk-kinzoku-sb4004
   subject: kinzoku
@@ -2247,7 +2247,7 @@ chapters:
   kind: 物質表
   substances:
   - sb-kinzoku-4008
-  status: draft
+  status: written
   part: select
 - id: bk-kinzoku-sb4009
   subject: kinzoku
@@ -2722,6 +2722,7 @@ chapters:
   - pt-bunseki-0223
   - pt-bunseki-0227
   - pt-bunseki-0232
+  - pt-bunseki-0499
   status: draft
   part: analysis
 - id: bk-bunseki-tp03
@@ -2739,8 +2740,8 @@ chapters:
   - pt-bunseki-0170
   - pt-bunseki-0190
   - pt-bunseki-0191
-  - pt-bunseki-0422
-  status: draft
+  - pt-bunseki-0498
+  status: written
   part: analysis
 - id: bk-bunseki-tp04
   subject: bunseki
@@ -2760,6 +2761,7 @@ chapters:
   - pt-bunseki-0222
   - pt-bunseki-0245
   - pt-bunseki-0423
+  - pt-bunseki-0422
   status: draft
   part: analysis
 - id: bk-bunseki-tp05
@@ -2923,7 +2925,7 @@ chapters:
   - pt-yuki-0135
   - pt-yuki-0138
   - pt-yuki-0143
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-tp02
   subject: yuki
@@ -2986,7 +2988,8 @@ chapters:
   - pt-yuki-0144
   - pt-yuki-0145
   - pt-yuki-0152
-  status: draft
+  - pt-yuki-0296
+  status: written
   part: select
 - id: bk-tokka-tp01
   subject: tokka
@@ -3077,7 +3080,8 @@ chapters:
   - pt-tokka-0086
   - pt-tokka-0187
   - pt-tokka-0205
-  status: draft
+  - pt-tokka-0260
+  status: written
   part: select
 - id: bk-kinzoku-tp01
   subject: kinzoku
@@ -3251,7 +3255,11 @@ chapters:
   - pt-kinzoku-0190
   - pt-kinzoku-0193
   - pt-kinzoku-0195
-  status: draft
+  - pt-kinzoku-0458
+  - pt-kinzoku-0461
+  - pt-kinzoku-0462
+  - pt-kinzoku-0463
+  status: written
   part: select
 - id: bk-kinzoku-tp07
   subject: kinzoku
@@ -3332,7 +3340,7 @@ chapters:
   - pt-funjin-0188
   - pt-funjin-0189
   - pt-funjin-0193
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-tp03
   subject: funjin
@@ -3433,7 +3441,7 @@ chapters:
   - pt-funjin-0177
   - pt-funjin-0182
   - pt-funjin-0191
-  status: draft
+  status: written
   part: select
 - id: bk-hourei-tp01
   subject: hourei

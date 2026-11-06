@@ -113,14 +113,14 @@ questions:
       - 2018-08
       - 2020-08
       - 2024-08
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
     - ''
     - ''
-    - ans_seen
+    - ans_b
 - num: 2
   status: published
   chapters:
@@ -230,8 +230,8 @@ questions:
       - 2021-08
       - 2022-08
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - odo
@@ -357,14 +357,15 @@ questions:
       - 2023-02
       - 2023-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
     - ''
-    - ans_b
+    - ans_pat
     - odo
+    pat: lw-law-education-01
 - num: 4
   status: published
   chapters:
@@ -518,12 +519,12 @@ questions:
       - 2020-08
       - 2024-08
       - 2026-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
     - ''
-    - odo
+    - ''
+    - ''
     - odo
     - ans_hi
 - num: 6
@@ -621,8 +622,8 @@ questions:
     - - 2026-02
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - new
@@ -660,8 +661,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -881,7 +881,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - ''
     - ''
     - ''
@@ -988,10 +988,10 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
+    - ''
     - ans_hi
     - odo
     - odo
@@ -1091,8 +1091,8 @@ questions:
     - []
     - []
     - - 2023-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
@@ -1359,8 +1359,9 @@ questions:
     denom: 23
     count: 6
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: lw-law-tokka-03
 - num: 15
   status: published
   chapters:
@@ -1469,7 +1470,7 @@ questions:
     - new
     - new
     - ans_near
-    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -1687,8 +1688,8 @@ questions:
     - []
     - - 2019-02
       - 2020-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
@@ -1940,7 +1941,7 @@ questions:
     - ''
     - ''
     - ans_pat
-    - odo
+    - ''
     - ''
     pat: lw-law-oxygen-01
 - num: 20

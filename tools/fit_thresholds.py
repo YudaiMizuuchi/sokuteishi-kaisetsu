@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ランクの境目（THRESHOLDS）を、最終の区分（おとりによる絞り込みを含む）の分布が、目標の割合に近くなるように探す。
-目標（科目内）：S15％・A25％・B30％・C30％。許容は±4ポイント。
+目標（科目内）：S30％・A25％・B20％（C＋Dは残り約25％）。2026年11月5日に、S15／A25／B30から変更（本人の了承あり）。形は、S＞A＞B（Cは、既出か初見かで決まる）。
 使い方: python3 tools/fit_thresholds.py         （結果の表を出すだけ）
         python3 tools/fit_thresholds.py write    （compute_freq.py の THRESHOLDS を書き換える）"""
 import sys,re,collections,itertools
@@ -8,7 +8,7 @@ sys.path.insert(0,'tools')
 sys.argv=[sys.argv[0]]+[a for a in sys.argv[1:] if a!='write']
 WRITE='write' in open('/proc/self/cmdline','rb').read().decode(errors='ignore')
 import compute_freq as CF
-TARGET={'S':.15,'A':.25,'B':.30}      # 5ランク（S・A・B・C・D）。CとDは絶対の境目（既出か初見か）なので、目標に含めない
+TARGET={'S':.30,'A':.25,'B':.20}      # 5ランク（S・A・B・C・D）。CとDは絶対の境目（既出か初見か）なので、目標に含めない
 SEL={'yuki','tokka','kinzoku','funjin'}     # 選択科目：Bの下限は3回に固定（C＝通算2回＝過去に1回だけ既出）
 feats=CF.collect()
 by=collections.defaultdict(list)
@@ -17,7 +17,7 @@ def dist(fs,thr,elim='B'):
     out=CF.decide(fs,{fs[0]['subj']:thr},{fs[0]['subj']:elim}); c=collections.Counter(v['level'] for v in out.values()); n=len(out)
     return {r:c[r]/n for r in 'SABCD'}
 def err(d): return sum(abs(d[r]-TARGET[r]) for r in 'SAB')
-def ok(d): return 0.55<=d['S']+d['A']+d['B']<=0.65 and d['A']>=0.10 and d['B']>=0.10
+def ok(d): return 0.60<=d['S']+d['A']+d['B']<=0.80 and d['S']>=d['A']>=d['B']>=0.10   # 選択科目は、Bの下限が3回に固定なので、S≥A≥Bにできない科目は、誤差最小の組を使う
 res={}
 for subj,fs in by.items():
     cur=CF.THRESHOLDS[subj]; D=fs[0]['fr']['denom']

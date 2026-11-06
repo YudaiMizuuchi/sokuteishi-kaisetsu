@@ -312,9 +312,9 @@ questions:
     tags:
     - odo
     - ans_b
+    - ''
     - odo
-    - odo
-    - odo
+    - ''
 - num: 6
   status: published
   chapters:
@@ -721,7 +721,7 @@ questions:
     - odo
     - odo
     - ans_pr
-    - odo
+    - ''
 - num: 10
   status: published
   chapters:
@@ -1019,13 +1019,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pr_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - ans_pr
     - odo
-    - odo
+    - new
     - odo
 - num: 13
   status: published
@@ -1194,13 +1194,13 @@ questions:
       - 2026-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
     - odo
-    - odo
+    - ''
     - odo
 - num: 16
   status: published
@@ -1336,14 +1336,14 @@ questions:
     - - 2024-08
     - - 2020-08
       - 2023-08
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - ''
     - odo
     - odo
-    - ans_b
+    - ans_pr
 - num: 18
   status: published
   chapters:
@@ -1384,8 +1384,8 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
-    level: B
-    why: q_b
+    level: A
+    why: pr_A
 - num: 19
   status: published
   chapters:

@@ -36,8 +36,9 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -259,8 +260,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 6
   status: published
@@ -587,8 +588,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-quantification-02
 - num: 11
   status: published
@@ -626,8 +627,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-mole-03
 - num: 12
   status: published
   chapters:
@@ -876,8 +878,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1184,13 +1185,14 @@ questions:
     - - 2025-02
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
-    - ans_trend
+    - ans_pat
     - odo
     - odo
     - odo
     - odo
+    pat: an-gc-02
 - num: 18
   status: published
   chapters:
@@ -1227,7 +1229,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 19
   status: published
@@ -1266,8 +1268,8 @@ questions:
     prid: pr-bunseki-0011
     prname: X線回折のブラッグの条件
     prcount: 1
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-xrd-02
 - num: 20
   status: published
@@ -1303,5 +1305,6 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-logarithm-03

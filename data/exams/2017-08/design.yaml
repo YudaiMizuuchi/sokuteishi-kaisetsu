@@ -40,7 +40,7 @@ questions:
     prname: 気体の体積は温度と圧力で変わる（理想気体）
     prcount: 10
     level: A
-    why: pr_A
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -255,11 +255,11 @@ questions:
     - []
     - - 2021-08
       - 2022-08
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - new
-    - ans_seen
+    - ans_b
     - ''
     - odo
     - odo
@@ -356,12 +356,12 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
+    - ans_new
     - odo
-    - ''
+    - odo
     - odo
     - ''
 - num: 5
@@ -461,10 +461,10 @@ questions:
     why: none
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ans_new
-    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -594,14 +594,14 @@ questions:
     - []
     - - 2021-02
     - - 2021-02
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - new
     - ''
     - odo
-    - ans_seen
+    - ans_b
 - num: 8
   status: published
   chapters:
@@ -938,11 +938,11 @@ questions:
       - 2026-02
     - - 2026-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
     - odo
     - odo
     - ''
@@ -1062,9 +1062,9 @@ questions:
     why: pr_S
     tags:
     - odo
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - ans_pr
 - num: 13
   status: published
@@ -1269,11 +1269,11 @@ questions:
       - 2022-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - new
-    - ans_seen
+    - ans_b
     - odo
     - odo
     - ''
@@ -1372,13 +1372,13 @@ questions:
       - 2021-08
       - 2024-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_hi
     - ''
 - num: 16
   status: published
@@ -1570,12 +1570,12 @@ questions:
       - 2020-08
       - 2024-08
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
     - ans_new
-    - ''
+    - odo
     - odo
 - num: 19
   status: published
@@ -1680,13 +1680,13 @@ questions:
       - 2023-08
     - - 2016-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
-    - ans_seen
-    - ''
+    - ans_b
+    - odo
     - ''
 - num: 20
   status: published

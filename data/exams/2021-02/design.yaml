@@ -101,7 +101,7 @@ questions:
     level: D
     why: none
     tags:
-    - ''
+    - odo
     - ans_new
     - ''
     - ''
@@ -310,12 +310,12 @@ questions:
     - - 2024-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
-    - ''
-    - ans_seen
+    - odo
+    - ans_new
     - ''
     - odo
 - num: 4
@@ -413,12 +413,12 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
-    - ans_seen
-    - ''
+    - odo
+    - ans_new
+    - odo
     - odo
     - ''
 - num: 5
@@ -524,7 +524,7 @@ questions:
     - ''
     - ans_seen
     - odo
-    - ''
+    - odo
 - num: 6
   status: published
   chapters:
@@ -663,7 +663,7 @@ questions:
     - ''
     - ''
     - ans_pr
-    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -804,7 +804,7 @@ questions:
     - new
     - ''
     - ans_hi
-    - ''
+    - odo
     - odo
 - num: 10
   status: published
@@ -1009,8 +1009,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ans_pat
@@ -1117,14 +1117,14 @@ questions:
       - 2023-08
     - - 2019-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
     - odo
     - odo
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1329,7 +1329,7 @@ questions:
     tags:
     - ans_hi
     - odo
-    - ''
+    - odo
     - ''
     - new
 - num: 15
@@ -1429,14 +1429,14 @@ questions:
       - 2024-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
-    - ans_b
+    - ans_hi
     - ''
-    - ''
+    - odo
 - num: 16
   status: published
   chapters:
@@ -1616,12 +1616,12 @@ questions:
       - 2018-08
       - 2019-08
       - 2021-08
-    level: C
-    why: seen
+    level: B
+    why: elim_all
     tags:
-    - ''
-    - ans_seen
-    - ''
+    - odo
+    - ans_new
+    - odo
     - odo
     - odo
 - num: 19
@@ -1729,12 +1729,12 @@ questions:
       - 2023-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
+    - odo
     - ''
-    - ''
-    - ans_seen
+    - ans_b
     - ''
     - odo
 - num: 20
@@ -1845,10 +1845,10 @@ questions:
       - 2023-02
       - 2023-08
       - 2025-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
+    - odo
     - odo
     - odo
     - odo

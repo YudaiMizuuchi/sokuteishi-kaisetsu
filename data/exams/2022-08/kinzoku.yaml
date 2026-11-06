@@ -39,19 +39,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 1
-    - 2
+    - 1
     - 1
     - 1
     - 1
     points:
     - pt-kinzoku-0448
-    - pt-kinzoku-0428
+    - pt-kinzoku-0460
     - pt-kinzoku-0449
     - pt-kinzoku-0450
     - pt-kinzoku-0456
     pnames:
     - ヒ素は、典型元素である。
-    - 遷移元素には、金属元素ではないものがある。（誤りの記述）
+    - カドミウムは典型元素であり、遷移元素ではない
     - ベリリウムは、軽金属元素である。
     - 水銀は、常温で液体である。
     - 鉛は、両性金属である。
@@ -75,7 +75,7 @@ questions:
     - ''
     trend:
     - 0
-    - 1
+    - 0
     - 0
     - 0
     - 0
@@ -95,11 +95,11 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pr_B
     tags:
     - new
-    - ans_seen
+    - ans_pr
     - new
     - new
     - new
@@ -198,8 +198,8 @@ questions:
     why: trend_A
     tags:
     - ans_trend
-    - odo
-    - odo
+    - ''
+    - ''
     - ''
     - ''
 - num: 3
@@ -299,7 +299,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - ans_seen
     - ''
     - ''
@@ -551,12 +551,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - odo
     - ans_new
-    - odo
+    - ''
     - ''
     - odo
 - num: 7
@@ -860,7 +860,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - ans_pr
     - new
     - odo
@@ -1060,7 +1060,7 @@ questions:
     level: B
     why: subst
     tags:
-    - odo
+    - ''
     - ''
     - odo
     - ans_subst
@@ -1162,11 +1162,11 @@ questions:
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - new
     - new
-    - ans_pr
+    - ans_hi
     - odo
     - ''
 - num: 13
@@ -1267,13 +1267,13 @@ questions:
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: B
-    why: elim_all
+    why: subst
     tags:
+    - ''
+    - ans_subst
     - odo
-    - ans_new
     - odo
-    - odo
-    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -1315,19 +1315,19 @@ questions:
     - 8
     - 6
     - 1
-    - 4
+    - 1
     points:
     - pt-kinzoku-0035
     - pt-kinzoku-0013
     - pt-kinzoku-0028
     - pt-kinzoku-0228
-    - pt-kinzoku-0046
+    - pt-kinzoku-0461
     pnames:
     - 原子化には、電気加熱炉を用いることができる。
     - 標準液は、メタバナジン酸アンモニウムを用いて調製する。
     - 吸光光度分析法の発色試薬には、N-ベンゾイル-N-フェニルヒドロキシルアミンを用いる
     - 電気加熱式原子吸光分析法での原子化には、高温（2,700℃）が必要である
-    - 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+    - ICP-AESの発光強度は、試料液の酸濃度の影響を受ける（影響しない、は誤り）
     prcounts:
     - 11
     - 0
@@ -1351,7 +1351,7 @@ questions:
     - 1
     - 2
     - 0
-    - 2
+    - 0
     recent_exams:
     - 2024-08
     - 2025-08
@@ -1370,14 +1370,14 @@ questions:
     - []
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
-    level: S
-    why: trend_S
+    level: B
+    why: elim_two
     tags:
     - odo
     - odo
     - odo
     - new
-    - ans_trend
+    - ans_new
 - num: 15
   status: published
   chapters:
@@ -1577,10 +1577,10 @@ questions:
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1682,13 +1682,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
-    - odo
-    - ans_pr
     - ''
-    - odo
+    - ans_hi
+    - ''
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1729,19 +1729,19 @@ questions:
     - 1
     - 3
     - 2
-    - 4
+    - 2
     - 4
     points:
     - pt-kinzoku-0300
     - pt-kinzoku-0079
     - pt-kinzoku-0115
-    - pt-kinzoku-0046
+    - pt-kinzoku-0462
     - pt-kinzoku-0045
     pnames:
     - フレーム原子吸光分析法の直接法では、還元炎を使用する。（誤りの記述）
     - 溶媒抽出によらないフレーム法では、鉄が多量に共存すると、測定値に負の誤差を与える
     - 電気加熱式原子吸光分析法では、鉛の塩化物が低い温度で蒸発しやすいため、灰化温度を高くできない
-    - 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+    - ICP-AESで、鉄が多量に共存すると、測定値に正の誤差を生じることがある
     - 誘導結合プラズマ質量分析法(ICP-MS法)で分析する試料液は、硝酸酸性が望ましい
     prcounts:
     - 0
@@ -1765,7 +1765,7 @@ questions:
     - 0
     - 0
     - 0
-    - 2
+    - 0
     - 1
     recent_exams:
     - 2024-08
@@ -1786,12 +1786,12 @@ questions:
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B
-    why: elim_two
+    why: subst
     tags:
-    - ans_new
+    - ans_subst
     - odo
     - ''
-    - odo
+    - ''
     - odo
 - num: 19
   status: published
@@ -1941,5 +1941,5 @@ questions:
     prcount: 6
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
-    level: A
+    level: S
     why: q_hi

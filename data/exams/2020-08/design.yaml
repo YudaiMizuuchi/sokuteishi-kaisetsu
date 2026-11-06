@@ -102,12 +102,12 @@ questions:
       - 2025-02
     - - 2020-02
     - - 2018-02
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
-    - ans_seen
+    - ans_b
     - ''
     - ''
 - num: 2
@@ -205,14 +205,14 @@ questions:
     - - 2024-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
-    - ans_seen
+    - ans_new
     - ''
     - odo
-    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -316,7 +316,7 @@ questions:
     tags:
     - ''
     - ans_hi
-    - ''
+    - odo
     - odo
     - ''
 - num: 4
@@ -415,9 +415,9 @@ questions:
     - []
     - []
     level: B
-    why: elim_two
+    why: elim_all
     tags:
-    - ''
+    - odo
     - ans_new
     - odo
     - odo
@@ -806,7 +806,7 @@ questions:
     - ''
     - ''
     - ans_seen
-    - ''
+    - odo
     - ''
 - num: 10
   status: published
@@ -906,7 +906,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ans_seen
     - ''
@@ -1006,11 +1006,11 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ''
-    - ans_seen
+    - odo
+    - ans_b
     - ''
     - ''
     - ''
@@ -1132,7 +1132,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
+    - odo
     - ans_pr
     - ''
     - ''
@@ -1658,7 +1658,7 @@ questions:
     - odo
     - odo
     - odo
-    - ''
+    - odo
     - ans_hi
 - num: 19
   status: published
@@ -1769,8 +1769,8 @@ questions:
     why: pat_A
     tags:
     - ans_pat
-    - ''
-    - ''
+    - odo
+    - odo
     - odo
     - ''
     pat: ds-flowmeter-01
@@ -1881,11 +1881,11 @@ questions:
       - 2025-02
       - 2026-02
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
     - odo
-    - ''
+    - odo
     - ''

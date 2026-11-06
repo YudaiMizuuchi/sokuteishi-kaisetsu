@@ -142,7 +142,7 @@ questions:
     - ans_seen
     - odo
     - ''
-    - odo
+    - ''
     - ''
 - num: 3
   status: published
@@ -187,7 +187,7 @@ questions:
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
     level: S
-    why: pr_S
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -283,13 +283,13 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - new
     - new
+    - ''
     - odo
-    - odo
-    - ans_pr
+    - ans_hi
 - num: 5
   status: published
   chapters:
@@ -386,8 +386,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
@@ -491,8 +491,8 @@ questions:
     - - 2025-08
     - - 2016-08
       - 2025-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
@@ -598,9 +598,9 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -704,8 +704,8 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pr
     - odo
     - odo
@@ -802,7 +802,7 @@ questions:
     why: pr_A
     tags:
     - odo
-    - odo
+    - ''
     - new
     - ans_pr
     - ''
@@ -1002,13 +1002,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - odo
     - odo
-    - odo
+    - ''
     - ''
 - num: 12
   status: published
@@ -1304,11 +1304,11 @@ questions:
     - - 2015-08
       - 2023-08
       - 2026-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
-    - odo
+    - ''
     - ''
     - odo
     - ans_hi
@@ -1409,12 +1409,12 @@ questions:
     - []
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
     - odo
-    - odo
+    - ''
     - ans_new
 - num: 16
   status: published
@@ -1533,19 +1533,19 @@ questions:
     pcounts:
     - 11
     - 3
-    - 4
+    - 9
     - 10
     - 3
     points:
     - pt-funjin-0001
     - pt-funjin-0105
-    - pt-funjin-0070
+    - pt-funjin-0031
     - pt-funjin-0002
     - pt-funjin-0090
     pnames:
     - 金属基底標準板には、石英の測定回折線より高角度側でそれに近い回折線をもつ材質を選ぶ
     - X線吸収補正係数は、計測された金属の回折線の強度と石英の回折線の強度との比から求める（誤りの記述）
-    - 吸収補正を行うことにより、定量範囲は広くなり、マトリックスの吸収の影響を少なくすることができる
+    - 吸収補正を行うことにより、定量範囲は広くなり、夾雑物の吸収の影響を少なくして精度を向上させることができる
     - 検量線は、縦軸にX線吸収補正係数を乗じた石英の回折線強度をとり、横軸に石英量をとって作成する
     - 粉じんを採取する前のフィルターを載せた金属板の回折強度と粉じん採取後のフィルターを載せた金属板及び石英の回折強度を計測する
     prcounts:
@@ -1569,7 +1569,7 @@ questions:
     trend:
     - 3
     - 0
-    - 0
+    - 3
     - 2
     - 1
     recent_exams:
@@ -1749,8 +1749,8 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - new
-    - odo
+    - ''
     - ''
     - ans_seen

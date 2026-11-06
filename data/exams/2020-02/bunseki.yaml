@@ -437,8 +437,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -893,8 +893,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -1005,13 +1005,14 @@ questions:
       - 2018-02
       - 2021-02
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
     - ans_pr
     - odo
+    pat: an-reaction-03
 - num: 13
   status: published
   chapters:
@@ -1152,8 +1153,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1392,7 +1392,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 18
   status: published
@@ -1492,8 +1492,8 @@ questions:
       - 2025-08
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - ''
@@ -1605,7 +1605,7 @@ questions:
     - ''
     - ans_pr
     - new
-    - ''
+    - odo
     - ''
 - num: 20
   status: published
@@ -1706,12 +1706,12 @@ questions:
       - 2025-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
-    - ans_pr
+    - ans_pat
     - odo
     - ''
     pat: an-radiation-01

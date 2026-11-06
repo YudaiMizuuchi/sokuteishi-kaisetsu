@@ -42,19 +42,19 @@ questions:
     pcounts:
     - 3
     - 2
-    - 2
+    - 1
     - 2
     - 2
     points:
     - pt-yuki-0083
     - pt-yuki-0142
-    - pt-yuki-0136
+    - pt-yuki-0296
     - pt-yuki-0111
     - pt-yuki-0133
     pnames:
     - シクロヘキサノンの分子量は、シクロヘキサノールの分子量より小さい
     - キシレンの融点は、トルエンの融点より高い。
-    - 1-ブタノールの融点は、イソブチルアルコールの融点より高い。
+    - 1-ブタノールの沸点は、イソブチルアルコールの沸点より高い（低い、は誤り）
     - 25℃において、イソプロピルアルコールの密度は、1,1,1-トリクロロエタンの密度より小さい
     - 25 ℃において、酢酸イソプロピルの蒸気圧は、イソプロピルアルコールの蒸気圧より大きい
     prcounts:
@@ -97,12 +97,12 @@ questions:
     - - 2016-08
     - []
     - []
-    level: C
-    why: seen
+    level: D
+    why: none
     tags:
-    - odo
     - ''
-    - ans_seen
+    - ''
+    - ans_new
     - ''
     - ''
 - num: 2
@@ -272,11 +272,11 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
-    - odo
+    - ''
     - ans_hi
     - odo
     - odo
@@ -313,7 +313,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 6
   status: published
@@ -697,7 +697,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 11
   status: published
@@ -796,12 +796,12 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - ''
-    - odo
     - ''
-    - ans_pr
+    - ''
+    - ans_hi
     - odo
 - num: 12
   status: published
@@ -902,8 +902,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
@@ -1054,8 +1054,8 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1307,8 +1307,8 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 18
   status: published
   chapters:
@@ -1355,8 +1355,8 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 19
   status: published
   chapters:
@@ -1495,11 +1495,11 @@ questions:
     - - 2018-08
       - 2024-08
       - 2026-08
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - odo
     - odo
-    - odo
+    - new
     - odo
     - ans_trend

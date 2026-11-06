@@ -534,14 +534,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - new
     - new
     - ''
     - new
-    - ans_b
+    - ans_pr
 - num: 8
   status: published
   chapters:
@@ -580,7 +580,7 @@ questions:
     prcount: 5
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
-    level: A
+    level: S
     why: q_hi
 - num: 9
   status: published
@@ -762,17 +762,17 @@ questions:
     - 1
     - 2
     - 2
-    - 2
+    - 1
     - 1
     points:
     - pt-tokka-0178
-    - pt-tokka-0041
+    - pt-tokka-0260
     - pt-tokka-0051
     - pt-tokka-0041
     - pt-tokka-0136
     pnames:
     - 蛍光の波長と強度をプロットした図を蛍光スペクトルと呼ぶ。
-    - 蛍光の極大波長は、励起光の波長を変えても変わらない
+    - 蛍光の極大波長は、励起光の波長よりも長波長側に現れる（短波長側、は誤り）
     - 蛍光強度と濃度との直線関係は、低濃度範囲で成立する。
     - 蛍光の極大波長は、励起光の波長を変えても変わらない
     - 励起光の波長は、溶媒のラマン光が妨害とならないように選択する。
@@ -798,7 +798,7 @@ questions:
     - 0
     - 1
     - 0
-    - 1
+    - 0
     - 0
     recent_exams:
     - 2024-08
@@ -822,7 +822,7 @@ questions:
     - new
     - ans_seen
     - ''
-    - ''
+    - new
     - new
 - num: 12
   status: published
@@ -918,8 +918,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - odo
@@ -1131,13 +1131,13 @@ questions:
       - 2022-08
     - - 2015-08
       - 2022-08
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_pr
     - odo
 - num: 17
   status: published

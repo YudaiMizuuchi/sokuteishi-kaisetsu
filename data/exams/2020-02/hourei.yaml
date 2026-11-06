@@ -114,8 +114,8 @@ questions:
     - - 2018-08
       - 2019-02
       - 2024-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
@@ -225,12 +225,12 @@ questions:
       - 2025-02
     - []
     - - 2024-02
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - ''
-    - ans_b
+    - ans_hi
     - ''
     - odo
 - num: 3
@@ -337,14 +337,14 @@ questions:
       - 2024-02
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - odo
+    - ''
     - odo
     - ''
     - odo
-    - ans_new
+    - ans_seen
 - num: 4
   status: published
   chapters:
@@ -495,11 +495,11 @@ questions:
       - 2020-08
       - 2024-08
       - 2026-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ''
     - odo
     - ans_hi
@@ -529,8 +529,8 @@ questions:
     denom: 23
     count: 7
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: lw-law-chief-01
 - num: 7
   status: published
@@ -559,8 +559,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -773,14 +772,14 @@ questions:
     - - 2017-02
       - 2018-08
       - 2026-08
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - ans_new
-    - odo
+    - ans_seen
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
 - num: 10
   status: published
   chapters:
@@ -1221,14 +1220,14 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
-    - odo
     - ''
-    - ans_seen
+    - ''
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -1259,8 +1258,8 @@ questions:
     denom: 23
     count: 5
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-organic-01
 - num: 15
   status: published
@@ -1375,12 +1374,12 @@ questions:
       - 2020-08
     - - 2015-08
       - 2018-02
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - ''
-    - odo
-    - ans_new
+    - ''
+    - ans_seen
     - odo
     - odo
 - num: 16
@@ -1722,8 +1721,8 @@ questions:
       - 2022-08
       - 2024-02
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ans_pat

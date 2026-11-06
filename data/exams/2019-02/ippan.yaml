@@ -48,8 +48,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: gn-risk-assessment-01
 - num: 2
   status: published
@@ -93,8 +93,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: gn-oh-management-01
 - num: 3
   status: published
@@ -307,7 +307,7 @@ questions:
     - ''
     - ''
     - ans_new
-    - ''
+    - odo
 - num: 5
   status: published
   chapters:
@@ -438,13 +438,13 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
+    - ans_new
     - ''
     - odo
-    - ''
+    - odo
     - odo
 - num: 7
   status: published
@@ -542,14 +542,14 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
-    - ''
-    - ans_seen
-    - ''
-    - ''
+    - odo
+    - ans_new
+    - odo
+    - odo
 - num: 8
   status: published
   chapters:
@@ -643,11 +643,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_b
+    - ans_hi
     - ''
     - ''
     - ''
@@ -757,7 +757,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - ans_pr
@@ -858,14 +858,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
     - ans_hi
-    - ''
+    - odo
 - num: 11
   status: published
   chapters:
@@ -1065,8 +1065,8 @@ questions:
     - []
     - - 2018-08
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
@@ -1116,8 +1116,8 @@ questions:
     denom: 23
     count: 7
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1217,13 +1217,13 @@ questions:
     - []
     - - 2020-02
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ''
+    - odo
     - odo
     - ''
-    - ans_seen
+    - ans_b
     - odo
 - num: 15
   status: published
@@ -1326,13 +1326,13 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 16
   status: published
   chapters:
@@ -1443,7 +1443,7 @@ questions:
     tags:
     - odo
     - ''
-    - ''
+    - odo
     - odo
     - ans_pat
     pat: gn-ventilation-01
@@ -1543,14 +1543,14 @@ questions:
     - - 2018-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
-    - ans_seen
+    - ans_b
     - ''
     - ''
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1648,11 +1648,11 @@ questions:
       - 2023-02
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - odo
     - odo
     - ans_pat
@@ -1859,11 +1859,11 @@ questions:
       - 2021-08
       - 2023-08
       - 2024-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - ans_hi

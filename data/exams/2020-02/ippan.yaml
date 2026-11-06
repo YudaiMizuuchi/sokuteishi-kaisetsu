@@ -99,14 +99,14 @@ questions:
       - 2023-02
     - []
     - - 2017-08
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
+    - odo
+    - odo
+    - ans_new
     - ''
     - odo
-    - ans_seen
-    - ''
-    - ''
 - num: 2
   status: published
   chapters:
@@ -202,12 +202,12 @@ questions:
       - 2023-02
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - ''
     - ans_pat
     pat: gn-oh-management-01
@@ -309,8 +309,8 @@ questions:
     level: S
     why: pat_S
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pat
     - odo
     - odo
@@ -413,13 +413,14 @@ questions:
       - 2023-02
       - 2026-08
     level: A
-    why: pr_A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - ans_pr
-    - ''
+    - odo
+    pat: gn-toxicity-05
 - num: 5
   status: published
   chapters:
@@ -549,8 +550,8 @@ questions:
     - []
     - []
     - - 2025-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
@@ -656,9 +657,9 @@ questions:
     tags:
     - ans_seen
     - ''
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
 - num: 8
   status: published
   chapters:
@@ -751,14 +752,15 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
     - odo
-    - ''
-    - ans_b
+    - odo
+    - ans_pat
+    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters:
@@ -865,7 +867,7 @@ questions:
     - ans_pr
     - odo
     - odo
-    - ''
+    - odo
     - odo
 - num: 10
   status: published
@@ -962,13 +964,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
-    - ''
+    - odo
     - ans_hi
-    - ''
+    - odo
     - ''
 - num: 11
   status: published
@@ -1072,13 +1074,13 @@ questions:
       - 2021-02
       - 2022-02
       - 2023-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
-    - ''
     - odo
     - ''
+    - odo
+    - odo
     - ans_hi
 - num: 12
   status: published
@@ -1185,9 +1187,9 @@ questions:
     tags:
     - odo
     - ''
-    - ''
+    - odo
     - ans_pr
-    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1226,8 +1228,8 @@ questions:
     denom: 23
     count: 7
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1326,14 +1328,14 @@ questions:
     - - 2019-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - new
-    - ''
-    - ans_seen
-    - ''
+    - odo
+    - ans_b
+    - odo
 - num: 15
   status: published
   chapters:
@@ -1437,9 +1439,9 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - ''
     - ''
     - ''
@@ -1549,7 +1551,7 @@ questions:
     - odo
     - odo
     - ''
-    - ''
+    - odo
     - ans_b
 - num: 17
   status: published
@@ -1645,13 +1647,13 @@ questions:
       - 2023-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
-    - ''
-    - ans_seen
+    - odo
+    - ans_b
     - ''
 - num: 18
   status: published
@@ -1765,7 +1767,7 @@ questions:
     - ''
     - odo
     - ''
-    - ''
+    - odo
     - ans_seen
 - num: 19
   status: published
@@ -1866,7 +1868,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ans_seen
     - ''
@@ -1971,11 +1973,11 @@ questions:
       - 2021-08
       - 2023-08
       - 2024-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
+    - odo
     - ans_hi

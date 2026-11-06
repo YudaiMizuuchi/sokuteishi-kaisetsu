@@ -354,7 +354,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: A
+    level: S
     why: q_hi
 - num: 7
   status: published
@@ -392,7 +392,7 @@ questions:
     prid: pr-tokka-0004
     prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
     prcount: 5
-    level: A
+    level: S
     why: q_hi
 - num: 8
   status: published
@@ -840,8 +840,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - ans_hi
@@ -956,8 +956,8 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
-    level: D
-    why: q_new
+    level: A
+    why: pr_A
 - num: 16
   status: published
   chapters:

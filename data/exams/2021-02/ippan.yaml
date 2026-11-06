@@ -311,7 +311,7 @@ questions:
     level: S
     why: pat_S
     tags:
-    - ''
+    - odo
     - ans_pat
     - odo
     - ''
@@ -413,13 +413,14 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - ''
     - ''
     - ans_pr
+    - odo
     - ''
-    - ''
+    pat: gn-toxicity-05
 - num: 5
   status: published
   chapters:
@@ -549,8 +550,8 @@ questions:
     - []
     - []
     - - 2025-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
@@ -653,14 +654,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
+    - odo
     - ''
-    - ''
-    - ''
+    - odo
     - ans_pat
-    - ''
+    - odo
     pat: gn-metals-01
 - num: 8
   status: published
@@ -757,14 +758,15 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
     - ''
-    - ans_b
-    - ''
+    - ans_pat
+    - odo
+    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters:
@@ -862,8 +864,8 @@ questions:
       - 2019-02
       - 2020-02
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
@@ -973,7 +975,7 @@ questions:
     - ans_pat
     - ''
     - odo
-    - ''
+    - odo
     pat: gn-vibration-01
 - num: 11
   status: published
@@ -1072,14 +1074,15 @@ questions:
       - 2020-02
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
     - ''
-    - ''
     - odo
-    - ans_new
     - odo
+    - ans_pat
+    - odo
+    pat: gn-noise-health-02
 - num: 12
   status: published
   chapters:
@@ -1189,13 +1192,13 @@ questions:
       - 2020-08
       - 2022-02
       - 2023-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ans_pat
     - ''
-    - ''
+    - odo
     - odo
     pat: gn-oxygen-deficiency-01
 - num: 13
@@ -1297,8 +1300,8 @@ questions:
     - - 2022-02
       - 2023-02
       - 2023-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
@@ -1402,14 +1405,14 @@ questions:
       - 2020-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
+    - ans_new
     - odo
     - odo
     - ''
-    - ''
+    - odo
 - num: 15
   status: published
   chapters:
@@ -1635,7 +1638,7 @@ questions:
     - ''
     - odo
     - odo
-    - ''
+    - odo
     - ans_hi
 - num: 17
   status: published
@@ -1736,7 +1739,7 @@ questions:
     why: pr_S
     tags:
     - ''
-    - ''
+    - odo
     - ''
     - ans_pr
     - ''
@@ -1846,12 +1849,12 @@ questions:
       - 2020-08
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - ''
-    - ''
+    - odo
     - ''
 - num: 19
   status: published
@@ -2067,11 +2070,11 @@ questions:
       - 2021-08
       - 2023-08
       - 2024-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
     - odo
     - ans_hi

@@ -211,7 +211,7 @@ questions:
     tags:
     - ''
     - ans_seen
-    - ''
+    - odo
     - ''
     - ''
 - num: 3
@@ -343,8 +343,8 @@ questions:
     why: pat_B
     tags:
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pat
     - ''
     pat: gn-toxicity-01
@@ -442,13 +442,14 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - ''
     - ''
-    - ''
+    - odo
     - ''
     - ans_pr
+    pat: gn-toxicity-05
 - num: 6
   status: published
   chapters:
@@ -542,14 +543,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
     - ans_pat
     - ''
-    - ''
+    - odo
     pat: gn-dust-disease-02
 - num: 7
   status: published
@@ -678,8 +679,8 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pat
     - ''
     - ''
@@ -777,13 +778,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_b
-    - ''
+    - ans_hi
+    - odo
     - ''
 - num: 10
   status: published
@@ -881,10 +882,10 @@ questions:
     level: B
     why: pat_B
     tags:
+    - odo
     - ''
     - ''
-    - ''
-    - ''
+    - odo
     - ans_pat
     pat: gn-heat-cold-02
 - num: 11
@@ -982,14 +983,15 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pat_B
     tags:
-    - ans_seen
+    - ans_pat
     - odo
     - ''
-    - ''
     - odo
+    - odo
+    pat: gn-noise-health-02
 - num: 12
   status: published
   chapters:
@@ -1089,14 +1091,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - ans_hi
-    - ''
     - odo
-    - ''
+    - odo
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1136,8 +1138,8 @@ questions:
     denom: 23
     count: 7
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1240,7 +1242,7 @@ questions:
     why: pr_S
     tags:
     - ''
-    - ''
+    - odo
     - ans_pr
     - ''
     - odo
@@ -1445,7 +1447,7 @@ questions:
     - ans_seen
     - new
     - new
-    - ''
+    - odo
 - num: 17
   status: published
   chapters:
@@ -1546,12 +1548,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
-    - ''
+    - odo
     - odo
     - odo
 - num: 18
@@ -1757,13 +1759,13 @@ questions:
       - 2018-08
       - 2020-08
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - ''
     - odo
-    - ans_pr
+    - ans_hi
     - odo
-    - ''
+    - odo
 - num: 20
   status: published
   chapters:
@@ -1861,11 +1863,11 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
     - odo
-    - ans_seen
+    - odo
+    - ans_new
     - new
-    - ''
+    - odo

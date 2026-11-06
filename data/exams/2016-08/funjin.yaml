@@ -136,11 +136,11 @@ questions:
       - 2019-08
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
-    - odo
+    - ''
     - odo
     - odo
 - num: 3
@@ -183,7 +183,7 @@ questions:
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
     level: S
-    why: pr_S
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -282,7 +282,7 @@ questions:
     why: none
     tags:
     - ans_new
-    - odo
+    - ''
     - ''
     - new
     - odo
@@ -380,13 +380,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_all
+    level: D
+    why: none
     tags:
     - odo
+    - ''
     - odo
-    - odo
-    - odo
+    - ''
     - ans_new
 - num: 6
   status: published
@@ -698,8 +698,8 @@ questions:
     tags:
     - odo
     - ans_b
-    - odo
-    - odo
+    - ''
+    - ''
     - odo
 - num: 9
   status: published
@@ -801,7 +801,7 @@ questions:
     - odo
     - ans_pr
     - ''
-    - odo
+    - ''
     - odo
 - num: 10
   status: published
@@ -959,7 +959,7 @@ questions:
     prname: 質量濃度変換係数の定義と変動要因
     prcount: 5
     level: A
-    why: pr_A
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -1160,12 +1160,12 @@ questions:
     - - 2020-08
       - 2023-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
+    - ''
     - odo
-    - odo
-    - ans_b
+    - ans_hi
     - odo
     - odo
 - num: 14
@@ -1269,7 +1269,7 @@ questions:
     - odo
     - ans_b
     - odo
-    - odo
+    - ''
 - num: 15
   status: published
   chapters:
@@ -1339,7 +1339,7 @@ questions:
     prname: りん酸法の原理
     prcount: 6
     level: A
-    why: pr_A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -1440,8 +1440,8 @@ questions:
     - ans_pr
     - odo
     - odo
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1514,19 +1514,19 @@ questions:
     pcounts:
     - 7
     - 9
-    - 4
+    - 9
     - 4
     - 10
     points:
     - pt-funjin-0048
     - pt-funjin-0016
-    - pt-funjin-0070
+    - pt-funjin-0031
     - pt-funjin-0045
     - pt-funjin-0002
     pnames:
     - 基底標準吸収補正法は、試料による吸収の影響を補正して、遊離けい酸含有率の多少にかかわらず、標準試料で作った検量線をそのまま適用できるようにした方法である
     - フッ素樹脂加工グラスファイバーろ紙の吸湿性は、石英繊維ろ紙よりも小さい
-    - 吸収補正を行うことにより、定量範囲は広くなり、マトリックスの吸収の影響を少なくすることができる
+    - 吸収補正を行うことにより、定量範囲は広くなり、夾雑物の吸収の影響を少なくして精度を向上させることができる
     - 検量線用標準フィルター試料は、ろ過材上の標準石英粒子の量0.2～1.2mg/cm²くらいまで7段階程度になるように作製する
     - 検量線は、縦軸にX線吸収補正係数を乗じた石英の回折線強度をとり、横軸に石英量をとって作成する
     prcounts:
@@ -1550,7 +1550,7 @@ questions:
     trend:
     - 3
     - 1
-    - 0
+    - 3
     - 1
     - 2
     recent_exams:
@@ -1572,12 +1572,12 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
-    - ans_pr
-    - odo
+    - ans_hi
+    - ''
     - odo
 - num: 20
   status: published
@@ -1681,4 +1681,4 @@ questions:
     - new
     - new
     - ans_seen
-    - odo
+    - ''

@@ -40,7 +40,7 @@ questions:
     prname: 気体の体積は温度と圧力で変わる（理想気体）
     prcount: 10
     level: A
-    why: pr_A
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -188,11 +188,11 @@ questions:
       - 2022-08
     - []
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - ''
     - odo
-    - ans_new
+    - ans_b
     - odo
     - odo
 - num: 4
@@ -294,7 +294,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - odo
     - ''
@@ -432,13 +432,13 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
     - new
-    - ans_seen
+    - ans_b
     - ''
 - num: 7
   status: published
@@ -787,11 +787,11 @@ questions:
       - 2023-08
       - 2026-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ''
-    - ans_seen
+    - odo
+    - ans_b
     - odo
     - odo
     - ''
@@ -1024,7 +1024,7 @@ questions:
     - ''
     - ''
     - odo
-    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1236,7 +1236,7 @@ questions:
     tags:
     - odo
     - odo
-    - ''
+    - odo
     - ans_hi
     - ''
 - num: 15
@@ -1334,14 +1334,14 @@ questions:
       - 2024-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
-    - ans_b
+    - ans_hi
     - ''
-    - ''
+    - odo
 - num: 16
   status: published
   chapters:
@@ -1521,8 +1521,8 @@ questions:
     why: pt_A
     tags:
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     - odo
     - ans_hi
 - num: 19
@@ -1630,12 +1630,12 @@ questions:
       - 2023-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
-    - ''
-    - ans_seen
+    - odo
+    - ans_b
     - odo
     - ''
 - num: 20

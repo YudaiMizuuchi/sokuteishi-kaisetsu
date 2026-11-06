@@ -174,7 +174,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 4
   status: published
@@ -380,7 +380,7 @@ questions:
     why: none
     tags:
     - ''
-    - odo
+    - ''
     - new
     - ans_new
     - new
@@ -483,8 +483,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - ''
@@ -1013,7 +1013,7 @@ questions:
     tags:
     - odo
     - ''
-    - odo
+    - ''
     - ''
     - ans_b
 - num: 12
@@ -1118,7 +1118,7 @@ questions:
     why: pt_S
     tags:
     - ''
-    - odo
+    - ''
     - ans_hi
     - odo
     - odo
@@ -1218,11 +1218,11 @@ questions:
     - []
     - []
     - - 2024-08
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - odo
-    - odo
+    - ''
     - ans_new
     - ''
     - odo
@@ -1430,12 +1430,12 @@ questions:
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - odo
 - num: 16
   status: published
@@ -1643,13 +1643,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - ''
-    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1749,8 +1749,8 @@ questions:
       - 2021-08
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - new
@@ -1906,5 +1906,5 @@ questions:
     prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
+    level: S
     why: q_hi

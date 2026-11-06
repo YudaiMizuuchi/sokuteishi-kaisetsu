@@ -316,11 +316,11 @@ questions:
     level: B
     why: pr_B
     tags:
-    - odo
     - ''
-    - odo
+    - ''
+    - ''
     - ans_pr
-    - odo
+    - ''
 - num: 6
   status: published
   chapters:
@@ -354,7 +354,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 7
   status: published
@@ -453,7 +453,7 @@ questions:
     why: pr_B
     tags:
     - odo
-    - odo
+    - ''
     - odo
     - ''
     - ans_pr
@@ -551,14 +551,14 @@ questions:
     - []
     - - 2016-08
       - 2018-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - ''
-    - odo
-    - ans_b
+    - ''
+    - ans_hi
 - num: 9
   status: published
   chapters:
@@ -914,7 +914,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 13
   status: published
@@ -1013,12 +1013,12 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - ''
-    - odo
     - ''
-    - ans_pr
+    - ''
+    - ans_hi
     - new
 - num: 14
   status: published
@@ -1062,8 +1062,8 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1195,10 +1195,10 @@ questions:
     level: S
     why: pr_S
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - odo
+    - ''
     - ans_pr
 - num: 17
   status: published
@@ -1296,13 +1296,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - ''
     - odo
-    - ans_b
+    - ans_pr
     - odo
 - num: 18
   status: published
@@ -1348,8 +1348,8 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 19
   status: published
   chapters:

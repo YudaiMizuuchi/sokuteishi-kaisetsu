@@ -100,11 +100,11 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
-    - odo
+    - ''
     - ''
     - odo
 - num: 2
@@ -298,13 +298,13 @@ questions:
       - 2018-08
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - ans_new
     - odo
     - odo
     - odo
-    - odo
+    - ''
 - num: 5
   status: published
   chapters:
@@ -618,7 +618,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - new
     - odo
     - ''
@@ -724,7 +724,7 @@ questions:
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_b
     - odo
 - num: 9
@@ -1037,10 +1037,10 @@ questions:
     why: pt_B
     tags:
     - odo
-    - odo
+    - ''
     - ans_b
     - odo
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -1139,13 +1139,13 @@ questions:
       - 2021-08
       - 2025-08
     - - 2016-08
-    level: B
-    why: elim_all
+    level: C
+    why: seen
     tags:
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_new
+    - ''
+    - ans_seen
     - odo
 - num: 13
   status: published
@@ -1244,11 +1244,11 @@ questions:
     - []
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - ans_new
-    - odo
+    - ''
     - odo
     - odo
 - num: 14
@@ -1292,7 +1292,7 @@ questions:
     prname: りん酸法の原理
     prcount: 6
     level: A
-    why: pr_A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1498,7 +1498,7 @@ questions:
     tags:
     - ''
     - ''
-    - odo
+    - ''
     - ans_b
     - new
 - num: 17
@@ -1541,19 +1541,19 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 7
-    - 4
+    - 9
     - 10
     - 11
     - 9
     points:
     - pt-funjin-0048
-    - pt-funjin-0070
+    - pt-funjin-0031
     - pt-funjin-0002
     - pt-funjin-0001
     - pt-funjin-0016
     pnames:
     - 基底標準吸収補正法は、試料による吸収の影響を補正して、遊離けい酸含有率の多少にかかわらず、標準試料で作った検量線をそのまま適用できるようにした方法である
-    - 吸収補正を行うことにより、定量範囲は広くなり、マトリックスの吸収の影響を少なくすることができる
+    - 吸収補正を行うことにより、定量範囲は広くなり、夾雑物の吸収の影響を少なくして精度を向上させることができる
     - 検量線は、縦軸にX線吸収補正係数を乗じた石英の回折線強度をとり、横軸に石英量をとって作成する
     - 金属基底標準板には、石英の測定回折線より高角度側でそれに近い回折線をもつ材質を選ぶ
     - フッ素樹脂加工グラスファイバーろ紙の吸湿性は、石英繊維ろ紙よりも小さい
@@ -1577,7 +1577,7 @@ questions:
     - フィルターの性質（空間率・吸湿・帯電）
     trend:
     - 3
-    - 0
+    - 3
     - 2
     - 3
     - 1
@@ -1758,7 +1758,7 @@ questions:
     - ans_new
     - new
     - odo
-    - odo
+    - ''
 - num: 20
   status: published
   chapters:
@@ -1858,7 +1858,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - new
     - ans_b
     - ''

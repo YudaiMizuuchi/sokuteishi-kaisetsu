@@ -245,8 +245,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-education-01
 - num: 4
   status: published
@@ -1124,8 +1124,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - ''
     - ''
@@ -1662,8 +1662,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - ans_hi

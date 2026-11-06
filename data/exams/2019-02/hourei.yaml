@@ -240,12 +240,12 @@ questions:
       - 2023-02
       - 2024-02
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - odo
     - ''
 - num: 3
@@ -368,14 +368,15 @@ questions:
       - 2023-08
       - 2024-02
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
     - ''
-    - ans_b
+    - ans_pat
     - odo
+    pat: lw-law-education-01
 - num: 4
   status: published
   chapters:
@@ -530,7 +531,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - odo
     - ans_b
     - ''
@@ -562,8 +563,8 @@ questions:
     denom: 23
     count: 7
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: lw-law-chief-01
 - num: 7
   status: published
@@ -593,8 +594,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -802,10 +802,10 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - ans_seen
     - ''
-    - odo
+    - ''
     - new
 - num: 10
   status: published
@@ -1265,14 +1265,14 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
     - ''
-    - odo
-    - ans_seen
+    - ''
+    - ans_b
 - num: 14
   status: published
   chapters:
@@ -1313,8 +1313,8 @@ questions:
     denom: 23
     count: 4
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-organic-01
 - num: 15
   status: published
@@ -1410,14 +1410,15 @@ questions:
     - []
     - - 2020-02
     - []
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
-    - odo
-    - new
-    - ans_new
     - ''
     - new
+    - ans_pat
+    - ''
+    - new
+    pat: lw-law-organic-04
 - num: 16
   status: published
   chapters:
@@ -1535,7 +1536,7 @@ questions:
     tags:
     - odo
     - ''
-    - odo
+    - ''
     - ''
     - ans_seen
 - num: 17
@@ -1649,7 +1650,7 @@ questions:
     tags:
     - ans_hi
     - ''
-    - odo
+    - ''
     - ''
     - ''
 - num: 18
@@ -1769,8 +1770,8 @@ questions:
       - 2023-02
       - 2024-02
     - - 2024-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - ''
@@ -2002,11 +2003,11 @@ questions:
       - 2026-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - new
     - ''
-    - ans_seen
-    - odo
+    - ans_b
+    - ''
     - ''

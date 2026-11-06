@@ -33,8 +33,9 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -207,8 +208,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-01
 - num: 5
   status: published
@@ -248,8 +249,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -535,8 +536,8 @@ questions:
     - []
     - []
     - - 2019-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ''
     - ''
@@ -638,8 +639,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
@@ -682,8 +683,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -735,8 +736,8 @@ questions:
     prid: pr-bunseki-0022
     prname: 中和・酸化還元の量的関係
     prcount: 1
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-reaction-03
 - num: 13
   status: published
@@ -882,8 +883,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1085,12 +1085,12 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - new
 - num: 17
   status: published
@@ -1129,8 +1129,8 @@ questions:
     prid: pr-bunseki-0028
     prname: 理論段数と理論段相当高さ
     prcount: 4
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-gc-02
 - num: 18
   status: published
@@ -1226,13 +1226,13 @@ questions:
     - - 2018-02
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_pat
     - ''
     pat: an-gc-01
 - num: 19
@@ -1330,13 +1330,14 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pat_S
     tags:
     - odo
     - odo
     - ans_pr
     - ''
     - odo
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -1372,5 +1373,6 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-logarithm-03

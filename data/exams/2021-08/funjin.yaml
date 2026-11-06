@@ -136,13 +136,13 @@ questions:
     - - 2024-08
       - 2025-08
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - odo
-    - odo
-    - odo
+    - ''
+    - ''
     - new
-    - ans_pr
+    - ans_hi
 - num: 3
   status: published
   chapters:
@@ -194,7 +194,7 @@ questions:
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
     level: S
-    why: pr_S
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -295,7 +295,7 @@ questions:
     why: pt_B
     tags:
     - ans_b
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -400,7 +400,7 @@ questions:
     level: S
     why: pt_S
     tags:
-    - odo
+    - ''
     - ans_hi
     - new
     - odo
@@ -502,8 +502,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
@@ -607,11 +607,11 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - new
     - odo
 - num: 8
@@ -717,10 +717,10 @@ questions:
     level: S
     why: pr_S
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - odo
+    - ''
     - ans_pr
 - num: 9
   status: published
@@ -824,7 +824,7 @@ questions:
     - odo
     - ans_pr
     - new
-    - odo
+    - ''
     - odo
 - num: 10
   status: published
@@ -1363,7 +1363,7 @@ questions:
     prname: りん酸法の原理
     prcount: 6
     level: A
-    why: pr_A
+    why: q_hi
 - num: 17
   status: published
   chapters:
@@ -1463,14 +1463,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - ans_hi
+    - ''
     - odo
-    - odo
-    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1549,7 +1549,7 @@ questions:
     - 11
     - 9
     - 10
-    - 5
+    - 9
     points:
     - pt-funjin-0048
     - pt-funjin-0001
@@ -1606,13 +1606,13 @@ questions:
       - 2023-08
       - 2025-08
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
 - num: 20
   status: published
   chapters:
@@ -1704,11 +1704,11 @@ questions:
       - 2019-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - odo
+    - ''
     - new
-    - ans_b
+    - ans_hi
     - ''
     - ''

@@ -306,12 +306,12 @@ questions:
       - 2025-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - new
     - ''
-    - ans_seen
+    - ans_b
     - odo
     - new
 - num: 4
@@ -616,14 +616,15 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
     - new
     - odo
     - new
     - new
-    - ans_new
+    - ans_pat
+    pat: lw-law-sokuteishi-01
 - num: 7
   status: published
   chapters:
@@ -770,7 +771,7 @@ questions:
     - ''
     - ans_seen
     - ''
-    - odo
+    - ''
 - num: 9
   status: published
   chapters:
@@ -976,7 +977,7 @@ questions:
     level: D
     why: none
     tags:
-    - odo
+    - ''
     - new
     - ans_new
     - new
@@ -1240,7 +1241,7 @@ questions:
     why: seen
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - odo
     - ans_seen
@@ -1285,8 +1286,8 @@ questions:
     denom: 23
     count: 4
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-organic-01
 - num: 15
   status: published
@@ -1496,8 +1497,8 @@ questions:
     - new
     - ans_new
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 17
   status: published
   chapters:

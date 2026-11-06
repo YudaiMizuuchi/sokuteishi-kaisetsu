@@ -420,13 +420,10 @@ points:
   - 2024-08|13|4
 - id: pt-yuki-0041
   subject: yuki
-  name: T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+  name: 透過率T（％）と吸光度Aの関係は、log₁₀T＝2−Aである（3−A、は誤り）
   theme: ''
   members:
-  - 2017-08|17|1
   - 2020-08|16|2
-  - 2021-08|16|5
-  - 2025-08|16|5
 - id: pt-yuki-0042
   subject: yuki
   name: 検知管の指示値は、高気圧下では高くなる。
@@ -907,7 +904,6 @@ points:
   theme: ''
   members:
   - 2025-08|14|2
-  - 2026-08|15|3
 - id: pt-yuki-0102
   subject: yuki
   name: 秤量容器としては、小型ビーカーを使用する。（誤りの記述）
@@ -1148,11 +1144,10 @@ points:
   - 2023-08|12|5
 - id: pt-yuki-0136
   subject: yuki
-  name: 1-ブタノールの融点は、イソブチルアルコールの融点より高い。
+  name: 1-ブタノールの融点は、イソブチルアルコールの融点より高い
   theme: ''
   members:
   - 2016-08|2|2
-  - 2023-08|1|3
 - id: pt-yuki-0137
   subject: yuki
   name: 検知剤の変色層の長さは、担体粒子径の影響を受ける。
@@ -2131,6 +2126,26 @@ points:
   theme: ''
   members:
   - 2015-08|17|2
+- id: pt-yuki-0296
+  subject: yuki
+  name: 1-ブタノールの沸点は、イソブチルアルコールの沸点より高い（低い、は誤り）
+  theme: ''
+  members:
+  - 2023-08|1|3
+- id: pt-yuki-0297
+  subject: yuki
+  name: 吸光度Aは、A＝log₁₀(I₀／I)（＝−log₁₀(I／I₀)）で表される（log₁₀(I／I₀) とする、は誤り）
+  theme: ''
+  members:
+  - 2017-08|17|1
+  - 2021-08|16|5
+  - 2025-08|16|5
+- id: pt-yuki-0298
+  subject: yuki
+  name: 電子イオン化（EI）法は、化学イオン化（CI）法に比べて、分子イオンの開裂が起こりやすい（起こりにくい、は誤り）
+  theme: ''
+  members:
+  - 2026-08|15|3
 - id: qp-yuki-0001
   subject: yuki
   name: 固体捕集法-ガスクロマトグラフ分析法に関する次の記述の㋑か…（穴埋め・組合せ）
@@ -2960,9 +2975,7 @@ points:
   name: 蛍光の極大波長は、励起光の波長を変えても変わらない
   theme: ''
   members:
-  - 2017-08|11|2
   - 2017-08|11|4
-  - 2025-08|11|2
 - id: pt-tokka-0042
   subject: tokka
   name: 蛍光光度検出器は、可視光を照射して励起した物質から発生する紫外光を測定する（誤りの記述）
@@ -4334,6 +4347,13 @@ points:
   theme: ''
   members:
   - 2017-08|5|4
+- id: pt-tokka-0260
+  subject: tokka
+  name: 蛍光の極大波長は、励起光の波長よりも長波長側に現れる（短波長側、は誤り）
+  theme: ''
+  members:
+  - 2017-08|11|2
+  - 2025-08|11|2
 - id: qp-tokka-0001
   subject: tokka
   name: 作業環境空気（25 ℃、1気圧）中の硫化水素濃度を測定する…（計算問題）
@@ -5340,16 +5360,11 @@ points:
   - 2024-08|6|1
 - id: pt-kinzoku-0034
   subject: kinzoku
-  name: 酸化鉄(Ⅲ)は、塩酸に溶ける。
+  name: 酸化鉄(Ⅲ)は、塩酸に溶ける
   theme: ''
   members:
   - 2016-08|2|1
-  - 2016-08|2|3
-  - 2018-08|2|2
   - 2019-08|2|1
-  - 2019-08|2|4
-  - 2023-08|2|4
-  - 2025-08|6|1
 - id: pt-kinzoku-0035
   subject: kinzoku
   name: 原子化には、電気加熱炉を用いることができる。
@@ -5467,14 +5482,10 @@ points:
   - 2025-08|9|1
 - id: pt-kinzoku-0046
   subject: kinzoku
-  name: 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+  name: 誘導結合プラズマ質量分析法は、ICP-AESと比べて感度が高い
   theme: ''
   members:
-  - 2022-08|14|5
-  - 2022-08|18|4
-  - 2023-08|18|5
   - 2024-08|9|4
-  - 2025-08|12|4
 - id: pt-kinzoku-0047
   subject: kinzoku
   name: クロム(Ⅵ)をジフェニルカルバジドと反応させ、赤紫色に着色した液を543 nmの波長で測定する
@@ -5648,15 +5659,13 @@ points:
   - 2024-08|18|5
 - id: pt-kinzoku-0066
   subject: kinzoku
-  name: 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+  name: 酸化マンガン(Ⅳ)は、塩酸に溶ける（硝酸に溶ける、は誤り）
   theme: ''
   members:
-  - 2015-08|1|5
   - 2016-08|2|4
   - 2018-08|2|4
   - 2019-08|2|5
   - 2023-08|2|5
-  - 2024-08|1|4
 - id: pt-kinzoku-0067
   subject: kinzoku
   name: DDTCは、キレート剤として用いられる。
@@ -8024,10 +8033,9 @@ points:
   - 2025-08|15|2
 - id: pt-kinzoku-0428
   subject: kinzoku
-  name: 遷移元素には、金属元素ではないものがある。（誤りの記述）
+  name: 遷移元素には、金属元素ではないものがある（誤りの記述。遷移元素は、すべて金属元素）
   theme: ''
   members:
-  - 2022-08|1|2
   - 2026-08|2|4
 - id: pt-kinzoku-0429
   subject: kinzoku
@@ -8203,6 +8211,53 @@ points:
   theme: ''
   members:
   - 2022-08|1|5
+- id: pt-kinzoku-0457
+  subject: kinzoku
+  name: 酸化クロム(Ⅲ)は、塩酸に溶けない（溶ける、は誤り）
+  theme: ''
+  members:
+  - 2016-08|2|3
+  - 2018-08|2|2
+  - 2019-08|2|4
+  - 2023-08|2|4
+- id: pt-kinzoku-0458
+  subject: kinzoku
+  name: ジフェニルカルバジドは、クロム（Ⅵ）により酸化される
+  theme: ''
+  members:
+  - 2025-08|6|1
+- id: pt-kinzoku-0459
+  subject: kinzoku
+  name: マンガン（金属）は、塩酸に溶ける
+  theme: ''
+  members:
+  - 2015-08|1|5
+  - 2024-08|1|4
+- id: pt-kinzoku-0460
+  subject: kinzoku
+  name: カドミウムは典型元素であり、遷移元素ではない
+  theme: ''
+  members:
+  - 2022-08|1|2
+- id: pt-kinzoku-0461
+  subject: kinzoku
+  name: ICP-AESの発光強度は、試料液の酸濃度の影響を受ける（影響しない、は誤り）
+  theme: ''
+  members:
+  - 2022-08|14|5
+- id: pt-kinzoku-0462
+  subject: kinzoku
+  name: ICP-AESで、鉄が多量に共存すると、測定値に正の誤差を生じることがある
+  theme: ''
+  members:
+  - 2022-08|18|4
+  - 2023-08|18|5
+- id: pt-kinzoku-0463
+  subject: kinzoku
+  name: ICP-AESで、試料の粘性の差などに起因する誤差を避けるために、内標準法を用いることができる
+  theme: ''
+  members:
+  - 2025-08|12|4
 - id: qp-kinzoku-0001
   subject: kinzoku
   name: 三酸化二ヒ素（無水物）19.8 mg を溶解した水溶液 1…（計算問題）
@@ -9133,6 +9188,7 @@ points:
   - 2019-08|17|3
   - 2020-08|17|2
   - 2022-08|18|3
+  merged_into: pt-funjin-0031
 - id: pt-funjin-0071
   subject: funjin
   name: 計数値は、清浄空気においてもゼロではないので、この数値を差し引いた計数値を相対濃度とする
@@ -27575,15 +27631,11 @@ points:
   - 2019-02|3|2
 - id: pt-bunseki-0093
   subject: bunseki
-  name: 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
+  name: X線管から発生するX線の全強度は、陽極（対陰極）元素の原子番号に比例して強くなる
   theme: ''
   members:
-  - 2018-08|15|4
   - 2018-08|19|1
-  - 2018-08|19|4
-  - 2021-08|15|4
   - 2025-08|19|2
-  - 2025-08|19|3
 - id: pt-bunseki-0094
   subject: bunseki
   name: 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
@@ -30277,6 +30329,20 @@ points:
   theme: ''
   members:
   - 2017-08|19|3
+- id: pt-bunseki-0498
+  subject: bunseki
+  name: KαX線の波長は、陽極元素の原子番号が大きくなるに従い短くなる（長くなる、は誤り）
+  theme: ''
+  members:
+  - 2025-08|19|3
+  - 2018-08|19|4
+- id: pt-bunseki-0499
+  subject: bunseki
+  name: 原子吸光分析法の吸光度は、原子番号の大きい元素ほど大きくなる、わけではない（誤りの記述）
+  theme: ''
+  members:
+  - 2018-08|15|4
+  - 2021-08|15|4
 - id: qp-bunseki-0001
   subject: bunseki
   name: 物質 A の濃度が 2.0 × 10⁻⁵ mol･L⁻¹ …（計算問題）

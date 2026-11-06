@@ -95,13 +95,13 @@ questions:
     - - 2017-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ans_pat
-    - ''
-    - ''
+    - odo
+    - odo
     - ''
     pat: gn-risk-assessment-01
 - num: 2
@@ -305,9 +305,9 @@ questions:
     why: pat_S
     tags:
     - ''
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
     - ans_pat
     pat: gn-absorption-01
 - num: 4
@@ -408,9 +408,9 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
     - new
     - ans_pat
     pat: gn-toxicity-01
@@ -540,12 +540,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
-    - ''
+    - odo
     - ans_pat
     - ''
     pat: gn-dust-disease-02
@@ -648,11 +648,11 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - ans_pat
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
     pat: gn-metals-02
 - num: 8
   status: published
@@ -746,10 +746,10 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - odo
     - ''
     - ''
@@ -963,7 +963,7 @@ questions:
     - ans_pat
     - odo
     - ''
-    - ''
+    - odo
     pat: gn-vibration-01
 - num: 11
   status: published
@@ -1060,14 +1060,15 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pat_B
     tags:
     - ''
-    - ''
-    - ''
-    - ans_seen
     - odo
+    - ''
+    - ans_pat
+    - odo
+    pat: gn-noise-health-02
 - num: 12
   status: published
   chapters:
@@ -1172,14 +1173,15 @@ questions:
       - 2022-02
       - 2023-02
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
-    - ans_b
-    - ''
-    - ''
+    - ans_pat
+    - odo
+    - odo
     - odo
     - ''
+    pat: gn-oxygen-deficiency-01
 - num: 13
   status: published
   chapters:
@@ -1278,12 +1280,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ans_pat
     - ''
-    - ''
+    - odo
     - ''
     - ''
     pat: gn-em-waves-01
@@ -1385,7 +1387,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - odo
     - ans_pat
     - ''
@@ -1591,12 +1593,12 @@ questions:
       - 2018-08
       - 2025-02
     level: B
-    why: pr_B
+    why: pt_B
     tags:
     - ''
-    - ''
     - odo
-    - ans_pr
+    - odo
+    - ans_b
     - odo
 - num: 17
   status: published
@@ -1693,14 +1695,14 @@ questions:
     - - 2021-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ''
+    - odo
     - odo
     - ''
-    - ans_seen
-    - ''
+    - ans_b
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1810,13 +1812,13 @@ questions:
       - 2024-02
       - 2026-02
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - odo
+    - odo
     - ''
-    - ''
-    - ''
-    - ans_pr
+    - odo
+    - ans_hi
 - num: 19
   status: published
   chapters:
@@ -1916,7 +1918,7 @@ questions:
     tags:
     - ''
     - ''
-    - ''
+    - odo
     - ans_seen
     - ''
 - num: 20
@@ -2014,7 +2016,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - odo
     - ans_pat
     - odo

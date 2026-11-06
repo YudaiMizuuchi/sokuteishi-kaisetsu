@@ -268,7 +268,7 @@ questions:
     level: A
     why: trend_A
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -369,14 +369,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_all
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_new
+    - ans_seen
     - odo
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 6
   status: published
   chapters:
@@ -468,14 +468,14 @@ questions:
     - - 2016-08
       - 2017-08
     - []
-    level: B
-    why: elim_all
+    level: D
+    why: none
     tags:
     - ans_new
+    - ''
     - odo
     - odo
-    - odo
-    - odo
+    - ''
 - num: 7
   status: published
   chapters:
@@ -745,13 +745,13 @@ questions:
     - - 2022-08
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
-    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -1069,8 +1069,8 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
-    level: D
-    why: q_new
+    level: B
+    why: pr_B
 - num: 16
   status: published
   chapters:
@@ -1111,7 +1111,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 1
-    - 4
+    - 1
     - 6
     - 6
     - 5
@@ -1123,7 +1123,7 @@ questions:
     - pt-yuki-0020
     pnames:
     - 透過率（％）をアナログメータから読み取る場合は、15 ～ 65 ％ 程度の範囲で測定することが望ましい
-    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    - 透過率T（％）と吸光度Aの関係は、log₁₀T＝2−Aである（3−A、は誤り）
     - 通常、青色溶液の可視部の主な吸収波長域は、赤色溶液のそれより長波長側にある
     - プラスチック製セルは、可視領域の測定に用いられる。
     - 光路長が同一の場合、透過率（％）の値が大きいほど、対象物質の試料液中の濃度は低い
@@ -1147,7 +1147,7 @@ questions:
     - 吸光度と透過率の関係
     trend:
     - 0
-    - 1
+    - 0
     - 2
     - 1
     - 2
@@ -1278,8 +1278,8 @@ questions:
     - []
     - []
     - - 2022-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - new
@@ -1328,8 +1328,8 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
-    level: D
-    why: q_new
+    level: B
+    why: pr_B
 - num: 19
   status: published
   chapters:

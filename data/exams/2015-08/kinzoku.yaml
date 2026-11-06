@@ -41,19 +41,19 @@ questions:
     - 2
     - 3
     - 1
-    - 6
+    - 2
     points:
     - pt-kinzoku-0172
     - pt-kinzoku-0451
     - pt-kinzoku-0183
     - pt-kinzoku-0452
-    - pt-kinzoku-0066
+    - pt-kinzoku-0459
     pnames:
     - 捕集されたカドミウムは、硝酸を用いて溶解する。
     - クロムは、王水に溶ける。（誤りの記述）
     - 酸化バナジウム(Ⅴ)は、硫酸に溶ける。
     - 水銀は、硝酸に溶ける。
-    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - マンガン（金属）は、塩酸に溶ける
     prcounts:
     - 0
     - 0
@@ -94,12 +94,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - odo
-    - ans_new
-    - odo
+    - ans_seen
+    - ''
     - new
     - odo
 - num: 2
@@ -431,7 +431,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - ''
     - new
     - odo
     - ans_seen
@@ -640,7 +640,7 @@ questions:
     - new
     - ans_new
     - new
-    - odo
+    - ''
     - odo
 - num: 8
   status: published
@@ -843,7 +843,7 @@ questions:
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_hi
     - odo
 - num: 10
@@ -1055,7 +1055,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - odo
     - new
     - ans_b
@@ -1160,11 +1160,11 @@ questions:
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
-    - ans_new
-    - odo
+    - ans_subst
+    - ''
     - odo
     - ''
 - num: 13
@@ -1266,13 +1266,13 @@ questions:
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: B
-    why: elim_all
+    why: subst
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - odo
-    - ans_new
+    - ''
+    - ans_subst
 - num: 14
   status: published
   chapters:
@@ -1371,12 +1371,12 @@ questions:
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
     level: B
-    why: elim_all
+    why: subst
     tags:
+    - ''
     - odo
-    - odo
-    - ans_new
-    - odo
+    - ans_subst
+    - ''
     - odo
 - num: 15
   status: published
@@ -1474,10 +1474,10 @@ questions:
     - - 2024-08
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
+    - ''
     - odo
     - ans_hi
     - odo
@@ -1684,13 +1684,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - new
     - new
     - ''
-    - ans_pr
-    - odo
+    - ans_hi
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1944,4 +1944,4 @@ questions:
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B
-    why: subst
+    why: pr_B

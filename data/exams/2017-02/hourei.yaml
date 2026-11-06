@@ -236,13 +236,13 @@ questions:
       - 2024-02
       - 2025-02
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - odo
 - num: 3
   status: published
@@ -344,11 +344,11 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
-    - ans_seen
+    - ans_b
     - ''
     - ''
     - odo
@@ -379,8 +379,8 @@ questions:
     denom: 23
     count: 7
     form: 選択肢が物質名などの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: lw-law-chief-01
 - num: 5
   status: published
@@ -535,7 +535,7 @@ questions:
     - odo
     - ans_b
     - ''
-    - odo
+    - ''
     - odo
 - num: 7
   status: published
@@ -565,8 +565,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -599,8 +598,7 @@ questions:
     count: 9
     form: 選択肢が物質名などの問題
     level: B
-    why: pat_B
-    pat: lw-law-tokka-02
+    why: q_b
 - num: 9
   status: published
   chapters:
@@ -824,7 +822,7 @@ questions:
     why: pt_B
     tags:
     - new
-    - odo
+    - ''
     - ans_b
     - ''
     - ''
@@ -1036,7 +1034,7 @@ questions:
     - ''
     - ''
     - ans_new
-    - odo
+    - ''
 - num: 13
   status: published
   chapters:
@@ -1240,7 +1238,7 @@ questions:
     tags:
     - odo
     - ''
-    - odo
+    - ''
     - new
     - ans_seen
 - num: 15
@@ -1586,7 +1584,7 @@ questions:
     - ''
     - ''
     - ''
-    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1708,8 +1706,8 @@ questions:
       - 2024-02
     - - 2019-08
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''

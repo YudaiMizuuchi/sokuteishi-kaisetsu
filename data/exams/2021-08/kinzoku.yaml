@@ -118,7 +118,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 4
   status: published
@@ -324,7 +324,7 @@ questions:
     - ''
     - new
     - new
-    - odo
+    - ''
     - ans_new
 - num: 6
   status: published
@@ -422,11 +422,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - ''
-    - ans_b
+    - ans_pr
     - new
     - new
     - new
@@ -845,12 +845,12 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
     - ''
-    - ans_pr
-    - odo
+    - ans_hi
+    - ''
     - odo
 - num: 11
   status: published
@@ -951,13 +951,13 @@ questions:
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
     - ''
-    - odo
-    - odo
-    - ans_new
+    - ''
+    - ''
+    - ans_subst
 - num: 12
   status: published
   chapters:

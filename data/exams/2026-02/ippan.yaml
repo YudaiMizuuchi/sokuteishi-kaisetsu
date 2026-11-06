@@ -415,7 +415,7 @@ questions:
     level: S
     why: pat_S
     tags:
-    - ''
+    - odo
     - new
     - ans_pat
     - new
@@ -518,8 +518,8 @@ questions:
       - 2023-02
       - 2026-08
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - odo
@@ -865,12 +865,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - new
     - ''
-    - ''
+    - odo
     - ans_pat
     - new
     pat: gn-metals-01
@@ -969,12 +969,12 @@ questions:
     - - 2016-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - ''
-    - ans_b
+    - ans_hi
     - odo
     - ''
 - num: 11
@@ -1075,7 +1075,7 @@ questions:
     level: A
     why: trend_A
     tags:
-    - ''
+    - odo
     - ''
     - odo
     - new
@@ -1178,12 +1178,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: elim_two
     tags:
     - ''
     - odo
-    - ''
+    - odo
     - ans_new
     - odo
 - num: 13
@@ -1288,7 +1288,7 @@ questions:
     - ans_seen
     - ''
     - ''
-    - ''
+    - odo
 - num: 14
   status: published
   chapters:
@@ -1384,8 +1384,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - new
@@ -1488,8 +1488,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ans_pat
     - new
@@ -1597,7 +1597,7 @@ questions:
     why: none
     tags:
     - ans_new
-    - ''
+    - odo
     - ''
     - new
     - new
@@ -1802,7 +1802,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - ''
     - ''
@@ -1904,8 +1904,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - new
     - odo

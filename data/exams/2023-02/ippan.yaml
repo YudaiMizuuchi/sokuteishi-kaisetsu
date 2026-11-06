@@ -205,10 +205,10 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - ans_b
+    - ans_hi
     - ''
     - ''
     - ''
@@ -419,14 +419,14 @@ questions:
     - - 2021-08
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ans_pat
-    - ''
-    - ''
-    - ''
+    - odo
+    - odo
+    - odo
     pat: gn-toxicity-05
 - num: 5
   status: published
@@ -557,10 +557,10 @@ questions:
     - - 2025-02
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
-    - ''
+    - odo
     - ans_pat
     - ''
     - odo
@@ -658,14 +658,14 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
-    - ''
+    - odo
     - ''
     - ans_pat
-    - ''
-    - ''
+    - odo
+    - odo
     pat: gn-metals-01
 - num: 8
   status: published
@@ -762,14 +762,15 @@ questions:
     - []
     - - 2021-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
-    - ans_b
+    - ans_pat
     - ''
-    - ''
+    - odo
+    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters:
@@ -868,11 +869,11 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
-    - ans_b
+    - ans_hi
     - ''
     - ''
     - ''
@@ -1078,7 +1079,7 @@ questions:
     why: seen
     tags:
     - ans_seen
-    - ''
+    - odo
     - ''
     - ''
     - odo
@@ -1184,14 +1185,15 @@ questions:
       - 2022-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pat_A
     tags:
-    - ''
     - odo
-    - ans_b
-    - ''
-    - ''
+    - odo
+    - ans_pat
+    - odo
+    - odo
+    pat: gn-oxygen-deficiency-01
 - num: 13
   status: published
   chapters:
@@ -1294,8 +1296,8 @@ questions:
     - ''
     - ''
     - ans_seen
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 14
   status: published
   chapters:
@@ -1392,14 +1394,14 @@ questions:
       - 2020-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - ''
-    - ''
     - odo
-    - ans_seen
-    - ''
+    - odo
+    - ans_new
+    - odo
 - num: 15
   status: published
   chapters:
@@ -1498,14 +1500,14 @@ questions:
     - - 2026-02
     - []
     - - 2024-02
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
     - ''
     - ''
-    - ans_b
+    - ans_hi
 - num: 16
   status: published
   chapters:
@@ -1618,7 +1620,7 @@ questions:
     - odo
     - ans_pat
     - odo
-    - ''
+    - odo
     pat: gn-ventilation-02
 - num: 17
   status: published
@@ -1717,14 +1719,14 @@ questions:
     - - 2017-02
       - 2020-02
       - 2021-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
+    - odo
     - ''
     - ''
-    - ''
-    - ans_b
+    - ans_hi
 - num: 18
   status: published
   chapters:
@@ -1826,13 +1828,13 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
+    - odo
     - ans_hi
     - ''
-    - ''
+    - odo
     - ''
 - num: 19
   status: published
@@ -2036,7 +2038,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - ''
+    - odo
     - ''
     - ans_b
     - odo

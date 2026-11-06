@@ -263,8 +263,8 @@ questions:
     - []
     - []
     - - 2026-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ''
@@ -301,8 +301,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 5
   status: published
   chapters:
@@ -667,7 +666,7 @@ questions:
     why: near
     tags:
     - new
-    - odo
+    - ''
     - odo
     - ans_near
     - new
@@ -888,7 +887,7 @@ questions:
     level: C
     why: near
     tags:
-    - odo
+    - ''
     - ''
     - ans_near
     - ''
@@ -1214,14 +1213,13 @@ questions:
     - []
     - []
     level: B
-    why: pat_B
+    why: pt_B
     tags:
     - ''
-    - ans_pat
+    - ans_b
     - new
     - new
     - ''
-    pat: lw-law-tokka-02
 - num: 14
   status: published
   chapters:
@@ -1266,8 +1264,8 @@ questions:
     denom: 23
     count: 4
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-organic-01
 - num: 15
   status: published
@@ -1597,7 +1595,7 @@ questions:
     level: D
     why: none
     tags:
-    - odo
+    - ''
     - ''
     - ans_new
     - ''
@@ -1718,9 +1716,9 @@ questions:
     tags:
     - ans_new
     - ''
-    - odo
     - ''
-    - odo
+    - ''
+    - ''
 - num: 19
   status: published
   chapters:
@@ -1817,8 +1815,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - ans_hi

@@ -114,8 +114,8 @@ questions:
       - 2024-02
     - - 2024-08
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
@@ -233,13 +233,13 @@ questions:
       - 2024-02
       - 2025-02
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
     - ''
-    - ans_b
+    - ans_hi
     - new
 - num: 3
   status: published
@@ -351,11 +351,11 @@ questions:
       - 2023-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - new
-    - ans_seen
+    - ans_b
     - ''
     - odo
     - ''
@@ -550,8 +550,7 @@ questions:
     count: 9
     form: 選択肢が物質名などの問題
     level: B
-    why: pat_B
-    pat: lw-law-tokka-02
+    why: q_b
 - num: 7
   status: published
   chapters:
@@ -582,8 +581,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -699,8 +697,8 @@ questions:
       - 2022-02
       - 2023-02
       - 2024-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ''
@@ -811,7 +809,7 @@ questions:
     tags:
     - ans_b
     - ''
-    - odo
+    - ''
     - ''
     - ''
 - num: 10
@@ -1309,8 +1307,9 @@ questions:
     denom: 23
     count: 6
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: lw-law-tokka-03
 - num: 15
   status: published
   chapters:
@@ -1413,14 +1412,14 @@ questions:
       - 2021-02
       - 2023-08
       - 2026-08
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
-    - odo
     - ''
-    - ans_seen
+    - ''
+    - ans_b
 - num: 16
   status: published
   chapters:
@@ -1538,7 +1537,7 @@ questions:
     tags:
     - odo
     - ''
-    - odo
+    - ''
     - ''
     - ans_hi
 - num: 17
@@ -1659,10 +1658,10 @@ questions:
     why: pt_A
     tags:
     - odo
-    - odo
+    - ''
     - ans_hi
     - ''
-    - odo
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1777,8 +1776,8 @@ questions:
     - - 2015-08
       - 2017-08
       - 2018-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
@@ -1906,7 +1905,7 @@ questions:
     tags:
     - ans_near
     - ''
-    - odo
+    - ''
     - odo
     - ''
 - num: 20

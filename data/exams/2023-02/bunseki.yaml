@@ -99,14 +99,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
     - ''
     - odo
-    - ans_pr
+    - ans_pat
     pat: an-units-01
 - num: 2
   status: published
@@ -255,8 +255,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -298,8 +298,8 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -544,8 +544,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -642,14 +642,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_pat
     pat: an-quantification-02
 - num: 11
   status: published
@@ -687,8 +687,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-equilibrium-03
 - num: 12
   status: published
   chapters:
@@ -790,8 +791,8 @@ questions:
       - 2022-02
     - - 2019-08
       - 2022-02
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - ans_pat
@@ -938,8 +939,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1036,8 +1036,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
@@ -1350,8 +1350,8 @@ questions:
     - []
     - []
     - - 2019-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - new
     - ''
@@ -1456,13 +1456,14 @@ questions:
     - []
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
     - odo
     - odo
-    - ans_trend
+    - ans_pat
     - ''
     - odo
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -1501,4 +1502,5 @@ questions:
     prname: 放射壊変と原子番号・質量数
     prcount: 6
     level: B
-    why: pr_B
+    why: pat_B
+    pat: an-logarithm-03

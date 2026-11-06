@@ -201,14 +201,14 @@ questions:
     - - 2024-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - new
-    - ans_seen
+    - ans_new
     - odo
-    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -309,7 +309,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - odo
@@ -410,14 +410,14 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
-    - ''
+    - odo
     - ''
     - odo
-    - ans_seen
+    - odo
+    - ans_new
 - num: 5
   status: published
   chapters:
@@ -559,7 +559,7 @@ questions:
     - new
     - new
     - odo
-    - ''
+    - odo
     - ans_new
 - num: 7
   status: published
@@ -726,8 +726,8 @@ questions:
     level: A
     why: pt_A
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_hi
     - ''
     - odo
@@ -834,7 +834,7 @@ questions:
     - ''
     - ''
     - new
-    - ''
+    - odo
 - num: 11
   status: published
   chapters:
@@ -931,12 +931,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - ans_pat
-    - ''
+    - odo
     - ''
     - ''
     pat: ds-filter-01
@@ -1306,7 +1306,7 @@ questions:
     - ''
     - ans_hi
     - ''
-    - ''
+    - odo
 - num: 16
   status: published
   chapters:
@@ -1492,10 +1492,10 @@ questions:
     why: pt_A
     tags:
     - odo
-    - ''
+    - odo
     - ans_hi
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 19
   status: published
   chapters:
@@ -1593,11 +1593,11 @@ questions:
       - 2026-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
-    - ans_seen
+    - ans_b
     - odo
     - ''
     - ''
@@ -1707,10 +1707,10 @@ questions:
       - 2023-02
       - 2023-08
       - 2025-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
+    - odo
     - odo
     - odo
     - odo

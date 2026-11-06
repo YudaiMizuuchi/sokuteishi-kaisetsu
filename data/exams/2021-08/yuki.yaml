@@ -65,8 +65,8 @@ questions:
     prid: pr-yuki-0025
     prname: 有機溶剤の水への溶解（極性・水酸基）
     prcount: 7
-    level: B
-    why: pr_B
+    level: A
+    why: pr_A
 - num: 3
   status: published
   chapters:
@@ -208,10 +208,10 @@ questions:
     - []
     - - 2016-08
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - ans_new
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -314,10 +314,10 @@ questions:
     level: B
     why: pr_B
     tags:
-    - odo
+    - ''
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_pr
 - num: 6
   status: published
@@ -352,7 +352,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 7
   status: published
@@ -622,14 +622,14 @@ questions:
     - - 2015-08
     - []
     - - 2019-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
     - odo
     - odo
-    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -729,7 +729,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - ans_pr
     - odo
     - odo
@@ -830,8 +830,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pr_B
+    level: A
+    why: pr_A
     tags:
     - ans_pr
     - odo
@@ -868,7 +868,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 14
   status: published
@@ -912,8 +912,8 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1015,7 +1015,7 @@ questions:
     why: pr_S
     tags:
     - ans_pr
-    - odo
+    - ''
     - new
     - odo
     - odo
@@ -1062,19 +1062,19 @@ questions:
     - 6
     - 6
     - 3
-    - 4
+    - 3
     points:
     - pt-yuki-0057
     - pt-yuki-0013
     - pt-yuki-0006
     - pt-yuki-0078
-    - pt-yuki-0041
+    - pt-yuki-0297
     pnames:
     - 測定可能な波長範囲は、通常200～1000nmである。
     - 石英セルは、紫外領域の測定に用いられる。
     - プラスチック製セルは、可視領域の測定に用いられる。
     - 使用する溶媒は、試料の溶解性の高いものを用いる。
-    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    - 吸光度Aは、A＝log₁₀(I₀／I)（＝−log₁₀(I／I₀)）で表される（log₁₀(I／I₀) とする、は誤り）
     prcounts:
     - 0
     - 10
@@ -1118,10 +1118,10 @@ questions:
     level: S
     why: pr_S
     tags:
+    - ''
     - odo
     - odo
-    - odo
-    - odo
+    - ''
     - ans_pr
 - num: 17
   status: published
@@ -1335,11 +1335,11 @@ questions:
     - - 2017-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pr_B
     tags:
     - ''
     - new
-    - ans_seen
-    - odo
+    - ans_pr
+    - ''
     - ''

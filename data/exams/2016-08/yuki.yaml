@@ -82,7 +82,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 1
-    - 2
+    - 1
     - 1
     - 1
     - 1
@@ -94,7 +94,7 @@ questions:
     - pt-yuki-0265
     pnames:
     - 酢酸エチルの蒸気圧は、トルエンの蒸気圧より大きい。
-    - 1-ブタノールの融点は、イソブチルアルコールの融点より高い。
+    - 1-ブタノールの融点は、イソブチルアルコールの融点より高い
     - シクロヘキサノンの密度は、イソプロピルアルコールの密度より大きい
     - アセトンの沸点は、n-ヘキサンの沸点より高い。（誤りの記述）
     - 二硫化炭素の分子量は、N,N-ジメチルホルムアミドの分子量より大きい
@@ -138,13 +138,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: pr_B
     tags:
     - new
-    - ''
     - new
-    - ans_new
+    - new
+    - ans_pr
     - new
 - num: 3
   status: published
@@ -174,8 +174,8 @@ questions:
     prid: pr-yuki-0025
     prname: 有機溶剤の水への溶解（極性・水酸基）
     prcount: 7
-    level: B
-    why: pr_B
+    level: A
+    why: pr_A
 - num: 4
   status: published
   chapters:
@@ -376,13 +376,13 @@ questions:
     - - 2019-08
     - []
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
-    - odo
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - ans_new
 - num: 6
   status: published
@@ -478,14 +478,14 @@ questions:
     - []
     - - 2022-08
     - - 2020-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - new
     - new
-    - odo
-    - ans_b
+    - ''
+    - ans_hi
 - num: 7
   status: published
   chapters:
@@ -583,13 +583,13 @@ questions:
       - 2026-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - new
-    - ans_b
+    - ans_pr
     - odo
-    - odo
+    - ''
     - new
 - num: 8
   status: published
@@ -685,7 +685,7 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
+    - new
     - ''
     - ans_seen
     - ''
@@ -782,14 +782,14 @@ questions:
     - - 2019-08
       - 2025-08
     - - 2018-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - ''
+    - ''
     - odo
-    - odo
-    - ans_b
+    - ans_hi
 - num: 10
   status: published
   chapters:
@@ -1376,8 +1376,8 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 17
   status: published
   chapters:
@@ -1454,8 +1454,8 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 19
   status: published
   chapters:

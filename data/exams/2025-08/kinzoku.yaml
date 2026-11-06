@@ -100,8 +100,8 @@ questions:
     why: trend_A
     tags:
     - ans_trend
-    - odo
-    - odo
+    - ''
+    - ''
     - ''
     - ''
 - num: 2
@@ -198,14 +198,14 @@ questions:
     - []
     - []
     - - 2020-08
-    level: B
-    why: elim_all
+    level: A
+    why: trend_A
     tags:
+    - ''
     - odo
     - odo
     - odo
-    - odo
-    - ans_new
+    - ans_trend
 - num: 3
   status: published
   chapters:
@@ -290,7 +290,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 5
   status: published
@@ -394,7 +394,7 @@ questions:
     - odo
     - new
     - ans_new
-    - odo
+    - ''
     - new
 - num: 6
   status: published
@@ -435,37 +435,37 @@ questions:
     - 4
     truths: 正誤正正正
     pcounts:
-    - 5
+    - 1
     - 1
     - 2
     - 3
     - 7
     points:
-    - pt-kinzoku-0034
+    - pt-kinzoku-0458
     - pt-kinzoku-0424
     - pt-kinzoku-0143
     - pt-kinzoku-0092
     - pt-kinzoku-0019
     pnames:
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
+    - ジフェニルカルバジドは、クロム（Ⅵ）により酸化される
     - ジフェニルカルバジドは、精製水に溶解して用いる。（誤りの記述）
     - 調製したジフェニルカルバジド溶液は、褐色瓶に入れ、冷蔵庫に保存する
     - ジフェニルカルバジドとクロムイオンとの錯体は、赤紫色である。
     - ジフェニルカルバジドは、バナジウムとも反応し発色する。
     prcounts:
-    - 8
+    - 0
     - 0
     - 0
     - 0
     - 0
     principles:
-    - pr-kinzoku-0014
+    - ''
     - ''
     - ''
     - ''
     - ''
     prnames:
-    - 酸の性質と試料の溶解
+    - ''
     - ''
     - ''
     - ''
@@ -492,13 +492,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
-    - odo
+    - new
     - ans_new
     - ''
-    - odo
+    - ''
     - odo
 - num: 7
   status: published
@@ -884,14 +884,14 @@ questions:
     - []
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - new
-    - odo
+    - ''
     - ans_hi
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -928,19 +928,19 @@ questions:
     - 9
     - 6
     - 1
-    - 4
+    - 1
     - 1
     points:
     - pt-kinzoku-0011
     - pt-kinzoku-0023
     - pt-kinzoku-0216
-    - pt-kinzoku-0046
+    - pt-kinzoku-0463
     - pt-kinzoku-0209
     pnames:
     - カドミウムのAPDC錯体をMIBKで抽出して最終試料液とする。
     - 塩化ナトリウムが共存すると、分光干渉が起こりやすい。
     - 溶媒抽出-原子吸光分析法では、青白い酸化炎が得られるよう燃料及び助燃ガスの流量を調節する
-    - 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+    - ICP-AESで、試料の粘性の差などに起因する誤差を避けるために、内標準法を用いることができる
     - 誘導結合プラズマ質量分析法（ICP-MS）において、スズの共存が多いと思われる場合には、ロジウムでの補正が有効である
     prcounts:
     - 12
@@ -964,7 +964,7 @@ questions:
     - 2
     - 2
     - 1
-    - 2
+    - 1
     - 1
     recent_exams:
     - 2024-08
@@ -990,7 +990,7 @@ questions:
     - ans_hi
     - odo
     - new
-    - odo
+    - new
     - new
 - num: 13
   status: published
@@ -1212,14 +1212,14 @@ questions:
       - 2024-08
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 15
   status: published
   chapters:
@@ -1472,12 +1472,12 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - ''
     - ''
-    - ans_pr
+    - ans_hi
     - odo
 - num: 18
   status: published
@@ -1627,7 +1627,7 @@ questions:
     prcount: 6
     subst_id: sb-kinzoku-4011
     subst_name: コバルトおよびその無機化合物
-    level: A
+    level: S
     why: q_hi
 - num: 20
   status: published

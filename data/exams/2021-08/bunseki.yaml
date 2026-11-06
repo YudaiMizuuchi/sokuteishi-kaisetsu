@@ -250,8 +250,8 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 6
   status: published
@@ -719,8 +719,8 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-01
 - num: 13
   status: published
@@ -862,8 +862,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -903,19 +902,19 @@ questions:
     - 5
     - 4
     - 1
-    - 3
+    - 2
     - 2
     points:
     - pt-bunseki-0044
     - pt-bunseki-0087
     - pt-bunseki-0455
-    - pt-bunseki-0093
+    - pt-bunseki-0499
     - pt-bunseki-0223
     pnames:
     - 光の吸収は、基底状態の原子により生じる。
     - 吸収層が長いほど大きくなる。
     - 燃料ガスの種類によって異なる。
-    - 発生するX線の全強度は、陽極元素の原子番号に比例して強くなる。
+    - 原子吸光分析法の吸光度は、原子番号の大きい元素ほど大きくなる、わけではない（誤りの記述）
     - フレーム中の測定位置によって異なる。
     prcounts:
     - 16
@@ -939,7 +938,7 @@ questions:
     - 0
     - 0
     - 0
-    - 1
+    - 0
     - 0
     recent_exams:
     - 2024-02
@@ -1105,7 +1104,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 18
   status: published
@@ -1203,8 +1202,8 @@ questions:
     - []
     - - 2019-02
     - - 2020-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - new
     - ans_pat
@@ -1309,13 +1308,14 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pat_S
     tags:
     - odo
     - ans_pr
     - odo
+    - odo
     - ''
-    - ''
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -1415,12 +1415,12 @@ questions:
       - 2020-02
       - 2025-08
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_pat
     - ''
     pat: an-radiation-01

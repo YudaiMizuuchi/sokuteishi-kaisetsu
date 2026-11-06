@@ -148,7 +148,7 @@ questions:
     tags:
     - odo
     - ans_pr
-    - odo
+    - ''
     - odo
     - odo
 - num: 3
@@ -194,7 +194,7 @@ questions:
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
     level: S
-    why: pr_S
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -832,7 +832,7 @@ questions:
     level: S
     why: trend_S
     tags:
-    - odo
+    - ''
     - odo
     - new
     - odo
@@ -1029,11 +1029,11 @@ questions:
     - - 2020-08
       - 2023-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - new
-    - ans_b
+    - ans_hi
     - ''
     - odo
     - odo
@@ -1133,13 +1133,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - odo
+    - ''
     - odo
-    - odo
-    - ans_new
+    - ans_seen
     - ''
 - num: 13
   status: published
@@ -1244,8 +1244,8 @@ questions:
     - - 2023-08
       - 2026-08
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - new
@@ -1346,7 +1346,7 @@ questions:
     prname: りん酸法の原理
     prcount: 6
     level: A
-    why: pr_A
+    why: q_hi
 - num: 16
   status: published
   chapters:
@@ -1450,7 +1450,7 @@ questions:
     - odo
     - ans_trend
     - ''
-    - odo
+    - ''
 - num: 17
   status: published
   chapters:
@@ -1531,7 +1531,7 @@ questions:
     - 7
     - 11
     - 7
-    - 5
+    - 9
     - 1
     points:
     - pt-funjin-0048
@@ -1645,7 +1645,7 @@ questions:
     prname: 基底標準吸収補正法
     prcount: 8
     level: A
-    why: pr_A
+    why: q_hi
 - num: 20
   status: published
   chapters:
@@ -1737,11 +1737,11 @@ questions:
     - []
     - - 2016-08
       - 2019-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - new
     - new
     - ''
-    - ans_b
+    - ans_hi

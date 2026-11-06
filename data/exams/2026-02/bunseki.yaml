@@ -36,8 +36,8 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-units-01
 - num: 2
   status: published
@@ -302,8 +302,8 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-01
 - num: 7
   status: published
@@ -695,8 +695,8 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -953,8 +953,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1237,7 +1236,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 19
   status: published
@@ -1339,7 +1338,7 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
+    - odo
     - ans_seen
     - new
     - new

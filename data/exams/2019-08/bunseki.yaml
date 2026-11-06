@@ -322,8 +322,8 @@ questions:
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -816,8 +816,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -1363,10 +1363,10 @@ questions:
     - - 2017-08
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
-    - ans_pr
+    - ans_pat
     - odo
     - odo
     - odo
@@ -1611,6 +1611,6 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-radiation-01

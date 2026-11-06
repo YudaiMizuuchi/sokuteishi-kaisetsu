@@ -333,8 +333,8 @@ questions:
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -379,8 +379,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -626,8 +626,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -724,13 +724,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - ''
     - new
-    - ans_pr
+    - ans_pat
     - new
     pat: an-quantification-02
 - num: 11
@@ -772,8 +772,9 @@ questions:
     prid: pr-bunseki-0023
     prname: 標定と一次標準物質
     prcount: 3
-    level: D
-    why: q_new
+    level: B
+    why: pat_B
+    pat: an-mole-03
 - num: 12
   status: published
   chapters:
@@ -949,8 +950,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1047,8 +1047,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - ''
     - ''
@@ -1465,13 +1465,13 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
     - new
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
     - odo
 - num: 20
   status: published
@@ -1509,6 +1509,6 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-radiation-01

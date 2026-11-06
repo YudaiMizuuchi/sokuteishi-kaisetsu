@@ -218,8 +218,8 @@ questions:
     prid: pr-tokka-0010
     prname: 芳香族アミンのジアゾカップリング発色
     prcount: 3
-    level: D
-    why: q_new
+    level: B
+    why: pr_B
 - num: 5
   status: published
   chapters:
@@ -513,7 +513,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: A
+    level: S
     why: q_hi
 - num: 9
   status: published
@@ -802,8 +802,8 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
-    level: D
-    why: q_new
+    level: A
+    why: pr_A
 - num: 15
   status: published
   chapters:
@@ -889,7 +889,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3035
     subst_name: 硫酸ジメチル
-    level: A
+    level: S
     why: q_hi
 - num: 17
   status: published
@@ -1140,5 +1140,5 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi

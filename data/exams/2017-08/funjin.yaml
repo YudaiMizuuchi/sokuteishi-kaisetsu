@@ -193,7 +193,7 @@ questions:
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
     level: S
-    why: pr_S
+    why: q_hi
 - num: 4
   status: published
   chapters:
@@ -290,10 +290,10 @@ questions:
     - []
     - []
     level: A
-    why: pr_A
+    why: pt_A
     tags:
-    - odo
-    - ans_pr
+    - ''
+    - ans_hi
     - new
     - new
     - ''
@@ -394,13 +394,13 @@ questions:
       - 2023-08
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
-    - odo
+    - ans_hi
+    - ''
 - num: 6
   status: published
   chapters:
@@ -500,7 +500,7 @@ questions:
     level: D
     why: none
     tags:
-    - odo
+    - ''
     - ans_new
     - odo
     - new
@@ -605,9 +605,9 @@ questions:
       - 2020-08
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - ''
@@ -819,7 +819,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - odo
     - ''
     - ans_b
@@ -976,7 +976,7 @@ questions:
     prname: 質量濃度変換係数の定義と変動要因
     prcount: 5
     level: A
-    why: pr_A
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -1277,7 +1277,7 @@ questions:
     - odo
     - ans_trend
     - odo
-    - odo
+    - ''
     - odo
 - num: 15
   status: published
@@ -1478,7 +1478,7 @@ questions:
     - ''
     - ''
     - ans_b
-    - odo
+    - ''
     - ''
 - num: 17
   status: published
@@ -1625,7 +1625,7 @@ questions:
     prname: 基底標準吸収補正法
     prcount: 8
     level: A
-    why: pr_A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -1723,14 +1723,14 @@ questions:
       - 2018-08
       - 2020-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - odo
+    - ''
     - new
-    - odo
-    - ans_b
-    - odo
+    - ''
+    - ans_hi
+    - ''
 - num: 20
   status: published
   chapters:
@@ -1826,11 +1826,11 @@ questions:
       - 2026-08
     - []
     - []
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_new
-    - odo
+    - ''

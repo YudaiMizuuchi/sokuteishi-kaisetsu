@@ -42,19 +42,19 @@ questions:
     - 6
     - 3
     - 2
-    - 6
+    - 2
     - 7
     points:
     - pt-kinzoku-0172
     - pt-kinzoku-0453
     - pt-kinzoku-0447
-    - pt-kinzoku-0066
+    - pt-kinzoku-0459
     - pt-kinzoku-0044
     pnames:
     - 捕集されたカドミウムは、硝酸を用いて溶解する。
     - クロムは、濃硝酸に溶ける。（誤りの記述）
     - バナジウムは、希硝酸と過酸化水素水の混合液に溶ける。
-    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - マンガン（金属）は、塩酸に溶ける
     - 硝酸には、酸化力がある。
     prcounts:
     - 0
@@ -274,8 +274,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
@@ -481,8 +481,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - odo
@@ -736,7 +736,7 @@ questions:
     - 1
     - 2
     - 4
-    - 4
+    - 1
     - 2
     points:
     - pt-kinzoku-0309
@@ -748,7 +748,7 @@ questions:
     - 質量分析計では、イオン化された原子が質量／電荷比(m/z)に応じて分離される
     - 同位体分析が可能である。
     - 多元素同時分析が可能である。
-    - 誘導結合プラズマ発光分光分析法と比べて感度が高い。
+    - 誘導結合プラズマ質量分析法は、ICP-AESと比べて感度が高い
     - 多元素同時測定を行うことができる。
     prcounts:
     - 0
@@ -772,7 +772,7 @@ questions:
     - 1
     - 2
     - 1
-    - 2
+    - 1
     - 1
     recent_exams:
     - 2024-08
@@ -797,7 +797,7 @@ questions:
     - new
     - ''
     - odo
-    - odo
+    - new
     - ans_seen
 - num: 10
   status: published
@@ -1805,8 +1805,8 @@ questions:
     prid: pr-kinzoku-0013
     prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
     prcount: 3
-    level: D
-    why: q_new
+    level: B
+    why: pr_B
 - num: 20
   status: published
   chapters:
@@ -1849,5 +1849,5 @@ questions:
     prcount: 6
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
-    level: A
+    level: S
     why: q_hi

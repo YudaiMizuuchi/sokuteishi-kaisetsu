@@ -190,7 +190,7 @@ questions:
     subst_id: sb-tokka-3026
     subst_name: パラ-ニトロクロルベンゼン
     level: B
-    why: subst
+    why: pr_B
 - num: 4
   status: published
   chapters:
@@ -338,7 +338,7 @@ questions:
     prcount: 5
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
-    level: A
+    level: S
     why: q_hi
 - num: 6
   status: published
@@ -581,7 +581,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: A
+    level: S
     why: q_hi
 - num: 9
   status: published
@@ -720,7 +720,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
-    level: A
+    level: S
     why: q_hi
 - num: 11
   status: published
@@ -942,7 +942,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 15
   status: published
@@ -1063,7 +1063,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3008
     subst_name: 塩素
-    level: A
+    level: S
     why: q_hi
 - num: 18
   status: published

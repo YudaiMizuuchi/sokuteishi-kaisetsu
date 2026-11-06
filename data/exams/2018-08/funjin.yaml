@@ -350,7 +350,7 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
+    - ''
     - ans_b
     - ''
     - odo
@@ -452,13 +452,13 @@ questions:
       - 2023-08
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
+    - ''
     - odo
-    - odo
-    - ans_pr
-    - odo
+    - ans_hi
+    - ''
 - num: 6
   status: published
   chapters:
@@ -759,11 +759,11 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - new
     - new
-    - ans_pr
+    - ans_hi
     - ''
     - new
 - num: 9
@@ -864,9 +864,9 @@ questions:
     level: B
     why: pt_B
     tags:
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
     - odo
     - ans_b
 - num: 10
@@ -964,9 +964,9 @@ questions:
     - []
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -1021,7 +1021,7 @@ questions:
     prname: 質量濃度変換係数の定義と変動要因
     prcount: 5
     level: A
-    why: pr_A
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -1124,7 +1124,7 @@ questions:
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_b
     - odo
 - num: 13
@@ -1221,14 +1221,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
+    - ''
     - odo
-    - odo
-    - ans_new
+    - ans_seen
     - new
-    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -1320,11 +1320,11 @@ questions:
       - 2026-08
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - odo
     - ans_new
 - num: 15
@@ -1423,14 +1423,14 @@ questions:
       - 2026-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
-    - odo
+    - ''
     - ans_hi
     - odo
-    - odo
+    - ''
 - num: 16
   status: published
   chapters:
@@ -1632,7 +1632,7 @@ questions:
     tags:
     - odo
     - ans_pr
-    - odo
+    - ''
     - odo
     - odo
 - num: 18
@@ -1676,7 +1676,7 @@ questions:
     prname: 基底標準吸収補正法
     prcount: 8
     level: A
-    why: pr_A
+    why: q_hi
 - num: 19
   status: published
   chapters:
@@ -1772,12 +1772,12 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - odo
-    - odo
+    - ''
     - ''
     - odo
 - num: 20

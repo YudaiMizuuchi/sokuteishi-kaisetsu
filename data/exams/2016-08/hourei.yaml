@@ -230,8 +230,8 @@ questions:
       - 2022-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
@@ -334,8 +334,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - new
     - ''
@@ -384,8 +384,8 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: lw-law-chief-01
 - num: 5
   status: published
@@ -539,13 +539,13 @@ questions:
       - 2024-02
       - 2024-08
       - 2026-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
+    - ''
     - new
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_hi
 - num: 7
   status: published
@@ -575,8 +575,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -724,10 +723,10 @@ questions:
     - - 2015-08
       - 2018-02
       - 2022-08
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
-    - ans_b
+    - ans_hi
     - odo
     - ''
     - ''
@@ -840,7 +839,7 @@ questions:
     - ''
     - ans_b
     - ''
-    - odo
+    - ''
     - ''
 - num: 11
   status: published
@@ -949,14 +948,14 @@ questions:
     - - 2020-08
       - 2021-08
       - 2022-08
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - odo
     - ''
-    - ans_new
+    - ans_seen
     - odo
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -1067,14 +1066,14 @@ questions:
     - - 2015-08
       - 2017-08
       - 2018-02
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
     - ''
     - ''
     - ''
-    - ans_seen
+    - ans_b
 - num: 13
   status: published
   chapters:
@@ -1155,8 +1154,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    level: B
+    why: pat_B
+    pat: lw-law-tokka-03
 - num: 15
   status: published
   chapters:
@@ -1265,14 +1265,15 @@ questions:
       - 2022-02
       - 2022-08
       - 2023-02
-    level: C
-    why: seen
+    level: B
+    why: pat_B
     tags:
     - ''
     - odo
-    - odo
-    - ans_seen
     - ''
+    - ans_pat
+    - ''
+    pat: lw-law-organic-04
 - num: 16
   status: published
   chapters:
@@ -1304,8 +1305,8 @@ questions:
     denom: 23
     count: 5
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: lw-law-organic-01
 - num: 17
   status: published
@@ -1416,14 +1417,14 @@ questions:
     - - 2019-08
       - 2023-08
       - 2024-02
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
     - odo
     - ''
-    - ans_b
+    - ans_hi
 - num: 18
   status: published
   chapters:

@@ -100,14 +100,15 @@ questions:
     - - 2015-08
       - 2018-08
       - 2020-08
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
     - new
     - ''
-    - ans_new
+    - ans_pat
     - ''
-    - ''
+    - odo
+    pat: ds-states-01
 - num: 2
   status: published
   chapters:
@@ -311,7 +312,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - odo
     - ''
@@ -416,7 +417,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ans_seen
     - odo
     - ''
@@ -673,8 +674,8 @@ questions:
     - []
     - - 2025-02
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - ''
@@ -917,7 +918,7 @@ questions:
     why: trend_S
     tags:
     - odo
-    - ''
+    - odo
     - ans_trend
     - ''
     - ''
@@ -1119,8 +1120,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - new
@@ -1439,11 +1440,11 @@ questions:
       - 2022-08
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
-    - ans_seen
+    - ans_b
     - odo
     - odo
     - ''
@@ -1844,11 +1845,11 @@ questions:
       - 2019-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
+    - odo
     - odo
     - ans_hi
-    - ''
+    - odo
     - ''

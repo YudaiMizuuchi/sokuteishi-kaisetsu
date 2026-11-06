@@ -108,7 +108,7 @@ questions:
     tags:
     - ans_seen
     - ''
-    - ''
+    - odo
     - odo
     - ''
 - num: 2
@@ -319,7 +319,7 @@ questions:
     tags:
     - new
     - new
-    - ''
+    - odo
     - ans_pat
     - ''
     pat: gn-absorption-01
@@ -427,7 +427,7 @@ questions:
     - ''
     - ''
     - odo
-    - ''
+    - odo
     - ans_b
 - num: 5
   status: published
@@ -565,7 +565,7 @@ questions:
     - ans_b
     - odo
     - ''
-    - ''
+    - odo
     - ''
 - num: 7
   status: published
@@ -665,10 +665,10 @@ questions:
     level: C
     why: seen
     tags:
+    - odo
     - ''
     - ''
-    - ''
-    - ''
+    - odo
     - ans_seen
 - num: 8
   status: published
@@ -767,8 +767,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - odo
     - ans_pat
@@ -983,12 +983,12 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - new
-    - ''
+    - odo
     - odo
     - ans_hi
 - num: 11
@@ -1088,14 +1088,14 @@ questions:
     - - 2017-08
       - 2022-02
       - 2023-02
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - new
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     pat: gn-oh-management-01
 - num: 12
   status: published
@@ -1203,11 +1203,11 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
+    - odo
     - ans_pr
     - odo
     - ''
-    - ''
+    - odo
 - num: 13
   status: published
   chapters:
@@ -1249,8 +1249,8 @@ questions:
     denom: 23
     count: 7
     form: 穴埋め・組合せの問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1354,7 +1354,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
+    - odo
     - ans_pr
     - ''
     - odo
@@ -1458,8 +1458,8 @@ questions:
     why: pr_S
     tags:
     - odo
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pr
     - odo
 - num: 16
@@ -1563,7 +1563,7 @@ questions:
     - odo
     - ''
     - odo
-    - ''
+    - odo
     - ans_pat
     pat: gn-ventilation-01
 - num: 17
@@ -1661,13 +1661,13 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     - ans_pat
     pat: gn-ppe-02
 - num: 18
@@ -1770,10 +1770,10 @@ questions:
       - 2018-02
       - 2022-02
       - 2023-02
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
-    - ''
+    - odo
     - ''
     - odo
     - ans_pat
@@ -1984,11 +1984,11 @@ questions:
     - - 2016-08
     - []
     - - 2015-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ans_hi
-    - ''
     - odo
-    - ''
+    - odo
+    - odo

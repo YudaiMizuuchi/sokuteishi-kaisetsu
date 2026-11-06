@@ -1060,8 +1060,8 @@ questions:
     prcount: 5
     subst_id: sb-tokka-3008
     subst_name: 塩素
-    level: B
-    why: subst
+    level: A
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1158,14 +1158,14 @@ questions:
       - 2017-08
     - - 2015-08
       - 2017-08
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_b
+    - ans_pr
 - num: 18
   status: published
   chapters:
@@ -1296,5 +1296,5 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi

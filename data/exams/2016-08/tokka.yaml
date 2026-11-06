@@ -439,7 +439,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: A
+    level: S
     why: q_hi
 - num: 9
   status: published
@@ -473,7 +473,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3029
     subst_name: ベンゼン
-    level: A
+    level: S
     why: q_hi
 - num: 10
   status: published
@@ -671,8 +671,8 @@ questions:
     - []
     - []
     - - 2023-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - new
@@ -1054,7 +1054,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3008
     subst_name: 塩素
-    level: A
+    level: S
     why: q_hi
 - num: 17
   status: published
@@ -1129,8 +1129,8 @@ questions:
     prcount: 4
     subst_id: sb-tokka-3019
     subst_name: 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）
-    level: B
-    why: subst
+    level: A
+    why: pr_A
 - num: 19
   status: published
   chapters:

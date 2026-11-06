@@ -223,7 +223,7 @@ questions:
     subst_id: sb-tokka-3019
     subst_name: 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）
     level: B
-    why: subst
+    why: pr_B
 - num: 5
   status: published
   chapters:
@@ -846,7 +846,7 @@ questions:
     form: 穴埋め・組合せの問題
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
-    level: A
+    level: S
     why: q_hi
 - num: 13
   status: published
@@ -915,8 +915,8 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
-    level: C
-    why: q_seen
+    level: A
+    why: pr_A
 - num: 15
   status: published
   chapters:
@@ -966,8 +966,8 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
-    level: D
-    why: q_new
+    level: A
+    why: pr_A
 - num: 16
   status: published
   chapters:
@@ -996,8 +996,8 @@ questions:
     prid: pr-tokka-0008
     prname: 標定・滴定の量的関係
     prcount: 5
-    level: C
-    why: q_seen
+    level: A
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1094,13 +1094,13 @@ questions:
       - 2022-08
     - - 2017-08
       - 2022-08
-    level: B
-    why: pt_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - odo
     - new
-    - ans_b
+    - ans_pr
     - odo
 - num: 18
   status: published
@@ -1149,7 +1149,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 19
   status: published

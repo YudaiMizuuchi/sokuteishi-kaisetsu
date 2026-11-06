@@ -199,14 +199,14 @@ questions:
     - - 2020-08
       - 2022-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
-    - odo
-    - odo
-    - ans_b
-    - odo
+    - ''
+    - ''
+    - ans_hi
+    - ''
 - num: 5
   status: published
   chapters:
@@ -304,7 +304,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - new
     - ans_pr
     - ''
@@ -340,7 +340,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 7
   status: published
@@ -601,13 +601,13 @@ questions:
     - - 2022-08
       - 2025-08
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - ''
     - ''
-    - ans_b
+    - ans_hi
     - new
 - num: 11
   status: published
@@ -649,8 +649,8 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 12
   status: published
   chapters:
@@ -682,7 +682,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 13
   status: published
@@ -998,19 +998,19 @@ questions:
     - 2
     truths: 誤正正正正
     pcounts:
-    - 4
+    - 3
     - 1
     - 6
     - 3
     - 2
     points:
-    - pt-yuki-0041
+    - pt-yuki-0297
     - pt-yuki-0245
     - pt-yuki-0006
     - pt-yuki-0078
     - pt-yuki-0132
     pnames:
-    - T を透過率（％）、A を吸光度とすると、log₁₀T = 3- A が成り立つ（誤りの記述）
+    - 吸光度Aは、A＝log₁₀(I₀／I)（＝−log₁₀(I／I₀)）で表される（log₁₀(I／I₀) とする、は誤り）
     - モノクロメータは、波長幅の狭い光を取り出す装置である。
     - プラスチック製セルは、可視領域の測定に用いられる。
     - 使用する溶媒は、試料の溶解性の高いものを用いる。
@@ -1061,7 +1061,7 @@ questions:
     - ans_pr
     - new
     - odo
-    - odo
+    - ''
     - ''
 - num: 18
   status: published
@@ -1105,8 +1105,8 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
-    level: D
-    why: q_new
+    level: B
+    why: pr_B
 - num: 19
   status: published
   chapters:
@@ -1244,7 +1244,7 @@ questions:
     why: none
     tags:
     - ans_new
-    - odo
+    - ''
     - ''
     - ''
     - ''

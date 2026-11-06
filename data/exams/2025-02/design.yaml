@@ -100,14 +100,15 @@ questions:
       - 2020-08
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''
-    - ''
-    - ans_new
+    - odo
+    - ans_pat
     - new
+    pat: ds-states-01
 - num: 2
   status: published
   chapters:
@@ -209,7 +210,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - odo
     - ans_hi
 - num: 3
   status: published
@@ -414,9 +415,9 @@ questions:
     - - 2024-08
     - []
     level: B
-    why: elim_two
+    why: elim_all
     tags:
-    - ''
+    - odo
     - odo
     - odo
     - odo
@@ -769,8 +770,8 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: ds-personal-sampling-01
 - num: 9
   status: published
@@ -1128,7 +1129,7 @@ questions:
     tags:
     - ''
     - ans_pr
-    - ''
+    - odo
     - odo
     - new
 - num: 13
@@ -1668,7 +1669,7 @@ questions:
     - odo
     - odo
     - odo
-    - ''
+    - odo
 - num: 19
   status: published
   chapters:
@@ -1870,9 +1871,9 @@ questions:
     - []
     - - 2025-08
     level: B
-    why: elim_two
+    why: pt_B
     tags:
-    - ans_new
+    - ans_b
     - ''
     - odo
     - odo

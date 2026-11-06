@@ -47,8 +47,9 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -416,8 +417,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - odo
     - ''
@@ -460,8 +461,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -608,8 +609,9 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-mole-03
 - num: 12
   status: published
   chapters:
@@ -880,8 +882,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 15
   status: published
   chapters:
@@ -1096,10 +1097,10 @@ questions:
     - []
     - []
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1200,13 +1201,14 @@ questions:
     - - 2024-02
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
     - odo
     - odo
     - odo
-    - ans_trend
+    - ans_pat
     - odo
+    pat: an-gc-01
 - num: 18
   status: published
   chapters:
@@ -1309,13 +1311,14 @@ questions:
     - - 2025-02
     - []
     level: S
-    why: trend_S
+    why: pat_S
     tags:
     - new
     - odo
-    - ans_trend
+    - ans_pat
     - odo
     - odo
+    pat: an-gc-02
 - num: 19
   status: published
   chapters:
@@ -1418,13 +1421,13 @@ questions:
     - - 2020-02
       - 2020-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
-    - ''
+    - odo
     - new
-    - ans_seen
+    - ans_new
     - odo
 - num: 20
   status: published

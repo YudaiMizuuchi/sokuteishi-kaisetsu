@@ -36,8 +36,9 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
-    level: B
-    why: q_b
+    level: A
+    why: pat_A
+    pat: an-units-01
 - num: 2
   status: published
   chapters:
@@ -255,8 +256,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
@@ -538,8 +539,8 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
-    level: C
-    why: q_seen
+    level: B
+    why: q_b
 - num: 10
   status: published
   chapters:
@@ -681,8 +682,8 @@ questions:
     prid: pr-bunseki-0019
     prname: 物質量・モル質量・アボガドロ定数
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-reaction-03
 - num: 12
   status: published
@@ -718,8 +719,8 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-01
 - num: 13
   status: published
@@ -759,8 +760,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -1106,7 +1106,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 18
   status: published
@@ -1204,8 +1204,8 @@ questions:
     - - 2019-02
     - []
     - - 2021-08
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - new
@@ -1314,13 +1314,14 @@ questions:
       - 2026-08
     - []
     level: S
-    why: pr_S
+    why: pat_S
     tags:
     - ans_pr
     - odo
     - ''
     - ''
     - odo
+    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -1355,5 +1356,6 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
-    level: C
-    why: q_seen
+    level: B
+    why: pat_B
+    pat: an-logarithm-03

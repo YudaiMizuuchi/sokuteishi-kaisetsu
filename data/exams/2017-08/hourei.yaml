@@ -238,8 +238,8 @@ questions:
       - 2020-08
       - 2021-08
       - 2022-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - ''
@@ -475,8 +475,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - ans_pat
     - odo
@@ -605,13 +605,13 @@ questions:
       - 2022-02
       - 2023-02
       - 2023-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - ''
     - ans_hi
-    - odo
+    - ''
     - ''
 - num: 7
   status: published
@@ -641,8 +641,7 @@ questions:
     count: 19
     form: 選択肢が物質名などの問題
     level: S
-    why: pat_S
-    pat: lw-law-certification-01
+    why: q_hi
 - num: 8
   status: published
   chapters:
@@ -744,13 +743,13 @@ questions:
       - 2020-02
       - 2021-02
       - 2024-02
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
     - odo
-    - ans_b
+    - ans_hi
     - odo
 - num: 9
   status: published
@@ -859,9 +858,9 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
     - ''
-    - odo
+    - ''
+    - ''
     - ans_seen
     - ''
 - num: 10
@@ -1091,14 +1090,14 @@ questions:
       - 2021-08
       - 2022-08
       - 2025-02
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - odo
     - ''
     - ''
     - ''
-    - ans_seen
+    - ''
+    - ans_b
 - num: 12
   status: published
   chapters:
@@ -1431,8 +1430,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - new
     - ans_pat
@@ -1546,13 +1545,14 @@ questions:
       - 2024-02
     - []
     level: B
-    why: elim_two
+    why: pat_B
     tags:
     - odo
-    - odo
-    - odo
-    - ans_new
     - ''
+    - odo
+    - ans_pat
+    - ''
+    pat: lw-law-organic-04
 - num: 16
   status: published
   chapters:
@@ -1680,8 +1680,8 @@ questions:
     - ''
     - ans_hi
     - ''
-    - odo
-    - odo
+    - ''
+    - ''
 - num: 17
   status: published
   chapters:
@@ -1919,8 +1919,8 @@ questions:
     - - 2016-02
     - - 2016-08
       - 2024-08
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - ''
@@ -2053,7 +2053,7 @@ questions:
     level: A
     why: pat_A
     tags:
-    - odo
+    - ''
     - ''
     - ''
     - ''

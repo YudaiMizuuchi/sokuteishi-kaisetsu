@@ -68,23 +68,23 @@ questions:
     - 5
     truths: 正正正誤正
     pcounts:
-    - 5
+    - 2
     - 7
     - 1
-    - 5
-    - 6
+    - 4
+    - 4
     points:
     - pt-kinzoku-0034
     - pt-kinzoku-0044
     - pt-kinzoku-0412
-    - pt-kinzoku-0034
+    - pt-kinzoku-0457
     - pt-kinzoku-0066
     pnames:
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
+    - 酸化鉄(Ⅲ)は、塩酸に溶ける
     - 硝酸には、酸化力がある。
     - 酸化亜鉛(Ⅱ)は、塩酸に溶ける。
-    - 酸化鉄(Ⅲ)は、塩酸に溶ける。
-    - 酸化マンガン(Ⅳ)は、塩酸に溶ける。
+    - 酸化クロム(Ⅲ)は、塩酸に溶けない（溶ける、は誤り）
+    - 酸化マンガン(Ⅳ)は、塩酸に溶ける（硝酸に溶ける、は誤り）
     prcounts:
     - 8
     - 8
@@ -104,11 +104,11 @@ questions:
     - 酸の性質と試料の溶解
     - 酸の性質と試料の溶解
     trend:
-    - 1
+    - 0
     - 2
     - 0
-    - 1
-    - 1
+    - 0
+    - 0
     recent_exams:
     - 2024-08
     - 2025-08
@@ -172,7 +172,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
-    level: A
+    level: S
     why: q_hi
 - num: 4
   status: published
@@ -478,8 +478,8 @@ questions:
     - - 2023-08
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
@@ -691,7 +691,7 @@ questions:
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_hi
     - ''
 - num: 9
@@ -791,11 +791,11 @@ questions:
     - []
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
-    - odo
+    - ''
     - ans_new
     - odo
 - num: 10
@@ -897,7 +897,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -1001,12 +1001,12 @@ questions:
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
     - odo
-    - odo
-    - ans_new
+    - ''
+    - ans_subst
     - ''
 - num: 12
   status: published
@@ -1427,7 +1427,7 @@ questions:
     level: A
     why: pt_A
     tags:
-    - odo
+    - ''
     - odo
     - odo
     - odo
@@ -1531,10 +1531,10 @@ questions:
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -1637,13 +1637,13 @@ questions:
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: B
-    why: elim_two
+    why: subst
     tags:
     - odo
-    - odo
     - ''
-    - ans_new
-    - odo
+    - ''
+    - ans_subst
+    - ''
 - num: 18
   status: published
   chapters:

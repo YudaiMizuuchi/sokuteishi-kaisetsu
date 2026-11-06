@@ -202,14 +202,15 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
     - new
     - new
-    - ans_new
+    - ans_pat
     - new
     - new
+    pat: an-units-03
 - num: 3
   status: published
   chapters:
@@ -423,8 +424,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-solution-02
 - num: 7
   status: published
@@ -766,8 +767,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ''
     - ''
@@ -810,8 +811,8 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-reaction-02
 - num: 12
   status: published
@@ -916,13 +917,14 @@ questions:
       - 2020-02
       - 2021-02
     level: A
-    why: pr_A
+    why: pat_A
     tags:
     - odo
     - odo
     - ans_pr
     - odo
     - odo
+    pat: an-reaction-03
 - num: 13
   status: published
   chapters:
@@ -959,8 +961,7 @@ questions:
     count: 18
     form: 計算問題
     level: S
-    why: pat_S
-    pat: an-logarithm-02
+    why: q_hi
 - num: 14
   status: published
   chapters:
@@ -1305,8 +1306,8 @@ questions:
     prid: pr-bunseki-0029
     prname: 保持時間と溶出順
     prcount: 1
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     pat: an-gc-02
 - num: 18
   status: published
@@ -1347,7 +1348,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
-    level: A
+    level: S
     why: q_hi
 - num: 19
   status: published
@@ -1443,8 +1444,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - odo
     - ans_pat
@@ -1485,6 +1486,6 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     pat: an-radiation-01

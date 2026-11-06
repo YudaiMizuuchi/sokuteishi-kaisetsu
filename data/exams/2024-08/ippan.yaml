@@ -348,10 +348,10 @@ questions:
     level: S
     why: pat_S
     tags:
-    - ''
+    - odo
     - ans_pat
     - ''
-    - ''
+    - odo
     - odo
     pat: gn-absorption-01
 - num: 5
@@ -459,7 +459,7 @@ questions:
     why: none
     tags:
     - ans_new
-    - ''
+    - odo
     - new
     - ''
     - ''
@@ -706,7 +706,7 @@ questions:
     - ans_near
     - new
     - ''
-    - ''
+    - odo
     - ''
 - num: 9
   status: published
@@ -809,7 +809,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - new
     - new
     - new
@@ -1158,11 +1158,11 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: A
+    why: trend_A
     tags:
     - ''
-    - ans_seen
+    - ans_trend
     - odo
     - ''
     - new
@@ -1575,13 +1575,13 @@ questions:
     - - 2015-08
       - 2020-02
     level: B
-    why: pr_B
+    why: pt_B
     tags:
     - ''
-    - ans_pr
+    - ans_b
     - odo
     - odo
-    - ''
+    - odo
 - num: 18
   status: published
   chapters:
@@ -1677,14 +1677,15 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    level: B
+    why: pat_B
     tags:
     - new
     - odo
-    - ans_new
+    - ans_pat
     - new
     - new
+    pat: gn-ppe-03
 - num: 19
   status: published
   chapters:
@@ -1783,8 +1784,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pat_A
+    level: S
+    why: pat_S
     tags:
     - new
     - ''

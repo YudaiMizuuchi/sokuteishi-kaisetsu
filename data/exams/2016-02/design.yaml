@@ -99,7 +99,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - ''
@@ -218,7 +218,7 @@ questions:
     - ''
     - ans_hi
     - odo
-    - ''
+    - odo
     - ''
 - num: 3
   status: published
@@ -767,7 +767,7 @@ questions:
     - odo
     - ''
     - ''
-    - ''
+    - odo
     - ans_seen
 - num: 11
   status: published
@@ -862,14 +862,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - odo
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
     pat: ds-filter-01
 - num: 12
   status: published
@@ -1203,7 +1203,7 @@ questions:
     - odo
     - odo
     - ans_pr
-    - ''
+    - odo
     - new
 - num: 15
   status: published
@@ -1610,12 +1610,12 @@ questions:
       - 2023-02
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
+    - odo
     - ''
-    - ''
-    - ans_seen
+    - ans_b
     - ''
     - odo
 - num: 20
@@ -1722,10 +1722,10 @@ questions:
     - []
     - []
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_new
-    - ''
+    - ans_b
+    - odo
     - odo

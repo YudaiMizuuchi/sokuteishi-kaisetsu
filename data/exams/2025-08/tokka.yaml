@@ -342,7 +342,7 @@ questions:
     prcount: 5
     subst_id: sb-tokka-3002
     subst_name: アクリロニトリル
-    level: A
+    level: S
     why: q_hi
 - num: 6
   status: published
@@ -452,7 +452,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
-    level: A
+    level: S
     why: q_hi
 - num: 9
   status: published
@@ -550,8 +550,8 @@ questions:
     - []
     - []
     - []
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - new
@@ -587,7 +587,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 11
   status: published
@@ -635,13 +635,13 @@ questions:
     - 2
     points:
     - pt-tokka-0130
-    - pt-tokka-0041
+    - pt-tokka-0260
     - pt-tokka-0047
     - pt-tokka-0158
     - pt-tokka-0077
     pnames:
     - 蛍光は、励起状態の分子が基底状態に遷移する際に観測される。
-    - 蛍光の極大波長は、励起光の波長を変えても変わらない
+    - 蛍光の極大波長は、励起光の波長よりも長波長側に現れる（短波長側、は誤り）
     - 蛍光強度は、温度の影響を受ける。
     - キセノンランプは、分光蛍光光度計の光源に用いられる。
     - 一般に、吸光光度分析法に比べて選択性が高い。
@@ -881,7 +881,7 @@ questions:
     - new
     - new
     - ans_new
-    - ''
+    - odo
     - odo
 - num: 15
   status: published
@@ -921,7 +921,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
-    level: A
+    level: S
     why: q_hi
 - num: 16
   status: published
@@ -967,8 +967,8 @@ questions:
     prid: pr-tokka-0008
     prname: 標定・滴定の量的関係
     prcount: 5
-    level: C
-    why: q_seen
+    level: A
+    why: pr_A
 - num: 17
   status: published
   chapters:
@@ -1080,8 +1080,8 @@ questions:
     prcount: 4
     subst_id: sb-tokka-3010
     subst_name: オーラミン
-    level: B
-    why: subst
+    level: A
+    why: pr_A
 - num: 20
   status: published
   chapters:

@@ -42,7 +42,7 @@ questions:
     prname: 気体の体積は温度と圧力で変わる（理想気体）
     prcount: 10
     level: A
-    why: pr_A
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -251,7 +251,7 @@ questions:
     - odo
     - ans_seen
     - ''
-    - ''
+    - odo
     - ''
 - num: 4
   status: published
@@ -490,8 +490,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - new
@@ -702,7 +702,7 @@ questions:
     why: pat_S
     tags:
     - ''
-    - ''
+    - odo
     - odo
     - new
     - ans_pat
@@ -850,8 +850,8 @@ questions:
     - ans_hi
     - odo
     - ''
-    - ''
-    - ''
+    - odo
+    - odo
 - num: 11
   status: published
   chapters:
@@ -1571,14 +1571,14 @@ questions:
     - - 2024-02
       - 2025-08
       - 2026-02
-    level: C
-    why: seen
+    level: B
+    why: elim_all
     tags:
     - odo
     - odo
-    - ''
-    - ''
-    - ans_seen
+    - odo
+    - odo
+    - ans_new
 - num: 19
   status: published
   chapters:
@@ -1697,8 +1697,8 @@ questions:
     level: S
     why: pr_S
     tags:
-    - ''
-    - ''
+    - odo
+    - odo
     - odo
     - ans_pr
     - ''
@@ -1801,10 +1801,10 @@ questions:
       - 2021-02
     - - 2017-02
       - 2021-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - ''
+    - odo
     - odo
     - ans_hi
     - odo

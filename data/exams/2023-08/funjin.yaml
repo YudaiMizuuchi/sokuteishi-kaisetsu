@@ -264,9 +264,9 @@ questions:
     why: none
     tags:
     - ans_new
-    - odo
     - ''
-    - odo
+    - ''
+    - ''
     - new
 - num: 4
   status: published
@@ -366,12 +366,12 @@ questions:
     - []
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - ans_new
     - odo
     - odo
-    - odo
+    - ''
     - odo
 - num: 5
   status: published
@@ -535,13 +535,13 @@ questions:
       - 2024-08
       - 2026-08
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
 - num: 7
   status: published
   chapters:
@@ -642,7 +642,7 @@ questions:
     level: S
     why: pr_S
     tags:
-    - odo
+    - ''
     - ans_pr
     - odo
     - ''
@@ -741,7 +741,7 @@ questions:
     why: none
     tags:
     - new
-    - odo
+    - ''
     - odo
     - ans_new
     - new
@@ -948,12 +948,12 @@ questions:
       - 2021-08
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
     - odo
-    - odo
+    - ''
     - ans_new
 - num: 11
   status: published
@@ -1052,7 +1052,7 @@ questions:
     - odo
     - odo
     - ans_b
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
@@ -1148,13 +1148,13 @@ questions:
       - 2021-08
       - 2025-08
     - - 2016-08
-    level: B
-    why: elim_all
+    level: C
+    why: seen
     tags:
+    - ''
     - odo
-    - odo
-    - odo
-    - ans_new
+    - ''
+    - ans_seen
     - odo
 - num: 13
   status: published
@@ -1254,13 +1254,13 @@ questions:
       - 2026-08
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
     - ans_new
     - odo
-    - odo
+    - ''
 - num: 14
   status: published
   chapters:
@@ -1360,12 +1360,12 @@ questions:
       - 2022-08
       - 2025-08
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - odo
-    - odo
+    - ''
     - odo
     - ''
 - num: 15
@@ -1409,7 +1409,7 @@ questions:
     prname: りん酸法の原理
     prcount: 6
     level: A
-    why: pr_A
+    why: q_hi
 - num: 16
   status: published
   chapters:
@@ -1617,8 +1617,8 @@ questions:
     level: C
     why: seen
     tags:
-    - odo
-    - odo
+    - ''
+    - ''
     - ans_seen
     - ''
     - ''
@@ -1656,7 +1656,7 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 7
-    - 5
+    - 9
     - 1
     - 11
     - 1

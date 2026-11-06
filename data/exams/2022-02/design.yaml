@@ -39,7 +39,7 @@ questions:
     prname: 気体の体積は温度と圧力で変わる（理想気体）
     prcount: 10
     level: A
-    why: pr_A
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -350,9 +350,9 @@ questions:
     - - 2024-08
     - []
     level: B
-    why: elim_two
+    why: pt_B
     tags:
-    - ans_new
+    - ans_b
     - odo
     - odo
     - odo
@@ -559,8 +559,8 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - ''
@@ -912,14 +912,14 @@ questions:
       - 2024-08
     - []
     - []
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
+    - odo
+    - ans_hi
     - ''
-    - ans_b
-    - ''
-    - ''
+    - odo
 - num: 11
   status: published
   chapters:
@@ -1016,12 +1016,12 @@ questions:
     - []
     - []
     - []
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - odo
-    - ans_seen
-    - ''
+    - ans_b
+    - odo
     - ''
     - ''
 - num: 12
@@ -1119,13 +1119,13 @@ questions:
     - - 2017-02
     - []
     - []
-    level: B
-    why: pat_B
+    level: A
+    why: pat_A
     tags:
     - ans_pat
     - odo
     - ''
-    - ''
+    - odo
     - ''
     pat: ds-filter-01
 - num: 13
@@ -1228,12 +1228,12 @@ questions:
       - 2020-08
       - 2023-08
     - []
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
-    - ''
-    - ''
+    - ans_new
+    - odo
+    - odo
     - odo
     - ''
 - num: 14
@@ -1656,7 +1656,7 @@ questions:
     - odo
     - odo
     - odo
-    - ''
+    - odo
     - ans_hi
 - num: 19
   status: published
@@ -1772,12 +1772,12 @@ questions:
       - 2023-08
       - 2024-08
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - odo
-    - ''
     - odo
-    - ans_new
+    - odo
+    - ans_b
     - odo
 - num: 20
   status: published
@@ -1881,11 +1881,11 @@ questions:
     - []
     - - 2017-02
       - 2021-02
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - odo
     - ans_hi
-    - ''
+    - odo
     - odo

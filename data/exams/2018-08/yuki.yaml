@@ -305,14 +305,14 @@ questions:
     - []
     - []
     - []
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - odo
     - ''
-    - ans_new
-    - odo
-    - odo
+    - ans_seen
+    - ''
+    - ''
 - num: 6
   status: published
   chapters:
@@ -408,8 +408,8 @@ questions:
     - []
     - - 2015-08
       - 2025-08
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - new
     - odo
@@ -640,8 +640,8 @@ questions:
     - - 2025-08
     - []
     - []
-    level: B
-    why: pr_B
+    level: A
+    why: pr_A
     tags:
     - odo
     - ans_pr
@@ -743,8 +743,8 @@ questions:
     - []
     - - 2015-08
       - 2026-08
-    level: A
-    why: trend_A
+    level: S
+    why: trend_S
     tags:
     - ans_trend
     - odo
@@ -848,8 +848,8 @@ questions:
     - - 2023-08
     - - 2023-08
       - 2025-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
@@ -1076,12 +1076,12 @@ questions:
       - 2019-08
       - 2025-08
     level: B
-    why: elim_two
+    why: pr_B
     tags:
     - odo
     - ''
-    - odo
-    - ans_new
+    - ''
+    - ans_pr
     - odo
 - num: 15
   status: published
@@ -1181,10 +1181,10 @@ questions:
     - []
     - - 2024-08
       - 2026-08
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
-    - odo
+    - ''
     - odo
     - ans_hi
     - odo
@@ -1285,13 +1285,13 @@ questions:
     - - 2020-08
     - []
     level: B
-    why: elim_all
+    why: elim_two
     tags:
     - odo
     - odo
     - ans_new
     - odo
-    - odo
+    - ''
 - num: 17
   status: published
   chapters:
@@ -1328,8 +1328,8 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 18
   status: published
   chapters:
@@ -1370,8 +1370,8 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
-    level: B
-    why: q_b
+    level: A
+    why: pr_A
 - num: 19
   status: published
   chapters:
@@ -1412,8 +1412,8 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
-    level: C
-    why: q_seen
+    level: B
+    why: pr_B
 - num: 20
   status: published
   chapters:
