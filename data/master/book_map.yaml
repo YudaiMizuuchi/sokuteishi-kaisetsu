@@ -104,7 +104,7 @@ chapters:
   principles:
   - pr-bunseki-0024
   - pr-bunseki-0025
-  status: draft
+  status: written
   part: prep
 - id: bk-bunseki-0026
   subject: bunseki
@@ -180,7 +180,7 @@ chapters:
   - pr-bunseki-0036
   - pr-bunseki-0037
   - pr-bunseki-0038
-  status: draft
+  status: written
   part: prep
 - id: bk-yuki-0001
   subject: yuki
@@ -256,7 +256,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0013
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0014
   subject: yuki
@@ -272,7 +272,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0015
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0016
   subject: yuki
@@ -336,7 +336,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0023
-  status: draft
+  status: written
   part: select
 - id: bk-tokka-0001
   subject: tokka
@@ -345,7 +345,7 @@ chapters:
   principles:
   - pr-tokka-0001
   - pr-tokka-0002
-  status: draft
+  status: written
   part: select
 - id: bk-tokka-0003
   subject: tokka
@@ -396,7 +396,7 @@ chapters:
   principles:
   - pr-kinzoku-0001
   - pr-kinzoku-0002
-  status: draft
+  status: written
   part: select
 - id: bk-kinzoku-0003
   subject: kinzoku
@@ -498,7 +498,9 @@ chapters:
   - pr-funjin-0001
   - pr-funjin-0002
   - pr-funjin-0003
-  status: draft
+  points:
+  - pt-funjin-0233
+  status: written
   part: select
 - id: bk-funjin-0004
   subject: funjin
@@ -506,7 +508,7 @@ chapters:
   kind: 原理
   principles:
   - pr-funjin-0004
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0005
   subject: funjin
@@ -522,7 +524,7 @@ chapters:
   kind: 原理
   principles:
   - pr-funjin-0006
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0007
   subject: funjin
@@ -547,7 +549,7 @@ chapters:
   kind: 原理
   principles:
   - pr-funjin-0009
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0010
   subject: funjin
@@ -581,7 +583,7 @@ chapters:
   kind: 原理
   principles:
   - pr-funjin-0015
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0016
   subject: funjin
@@ -931,7 +933,7 @@ chapters:
   kind: 数値表
   themes:
   - 特定化学物質障害予防規則
-  status: draft
+  status: written
   part: law
 - id: bk-hourei-th14
   subject: hourei
@@ -2364,7 +2366,8 @@ chapters:
   - pt-design-0238
   - pt-design-0264
   - pt-design-0267
-  status: draft
+  - pt-design-0484
+  status: written
   part: design
 - id: bk-design-tp02
   subject: design
@@ -2424,7 +2427,7 @@ chapters:
   - pt-design-0259
   - pt-design-0261
   - pt-design-0273
-  status: draft
+  status: written
   part: design
 - id: bk-design-tp04
   subject: design
@@ -3180,7 +3183,6 @@ chapters:
   - pt-kinzoku-0120
   - pt-kinzoku-0123
   - pt-kinzoku-0129
-  - pt-kinzoku-0130
   - pt-kinzoku-0134
   - pt-kinzoku-0136
   - pt-kinzoku-0141
@@ -3331,7 +3333,6 @@ chapters:
   - pt-funjin-0154
   - pt-funjin-0155
   - pt-funjin-0156
-  - pt-funjin-0161
   - pt-funjin-0162
   - pt-funjin-0164
   - pt-funjin-0172
@@ -3357,11 +3358,10 @@ chapters:
   - pt-funjin-0098
   - pt-funjin-0100
   - pt-funjin-0104
-  - pt-funjin-0139
+  - pt-funjin-0124
   - pt-funjin-0146
   - pt-funjin-0166
-  - pt-funjin-0168
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-tp04
   subject: funjin
@@ -3379,7 +3379,7 @@ chapters:
   - pt-funjin-0160
   - pt-funjin-0167
   - pt-funjin-0176
-  - pt-funjin-0180
+  - pt-funjin-0110
   - pt-funjin-0183
   - pt-funjin-0184
   - pt-funjin-0185
@@ -3434,7 +3434,7 @@ chapters:
   - pt-funjin-0132
   - pt-funjin-0145
   - pt-funjin-0153
-  - pt-funjin-0165
+  - pt-funjin-0050
   - pt-funjin-0169
   - pt-funjin-0171
   - pt-funjin-0174

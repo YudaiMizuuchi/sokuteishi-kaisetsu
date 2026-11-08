@@ -142,10 +142,10 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 4
+    - 2
+    - 4
     - 4
     - 2
-    - 3
-    - 4
     points:
     - pt-bunseki-0084
     - pt-bunseki-0054
@@ -202,12 +202,12 @@ questions:
     - []
     - - 2017-08
       - 2025-02
-    level: A
-    why: trend_A
+    level: B
+    why: pr_B
     tags:
     - odo
     - odo
-    - ans_trend
+    - ans_pr
     - odo
     - odo
 - num: 5
@@ -465,7 +465,7 @@ questions:
     イオン交換水の純度は、水の電気伝導度を測り、比抵抗で表します（選択肢3）。メンブランフィルターによるろ過は、水中の粒子を除きます（選択肢4）。逆浸透法は、イオン、有機成分、コロイド粒子、細菌などを除けますが、溶存気体は除けません（選択肢5）。
 
 
-    （参考：『作業環境測定のための分析概論』）'
+    （参考：『分析概論』）'
   figures: []
   law_note: null
   _key_choice: 蒸留水製造装置では、不揮発性の不純物のみを除去することが可能である。

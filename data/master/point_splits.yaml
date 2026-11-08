@@ -173,6 +173,12 @@ splits:
   - 2018-08|15|4
   - 2021-08|15|4
   reason: X線の全強度、KαX線の波長、原子吸光の吸光度（原子番号との関係）は、別の事実。参考書側の指摘（no.31）
+- from: pt-design-0001
+  new: pt-design-0484
+  members:
+  - 2024-02|7|4
+  - 2025-02|6|4
+  reason: 騒音の管理区分（A測定平均値・B測定値の悪いほうで決まる。85 dB・90 dB）は、一般の管理区分の決め方（評価値と管理濃度）とは別の事実。参考書側の指摘（no.33）
 merged:
 - from: pt-hourei-0259
   into: pt-hourei-0064
@@ -222,3 +228,88 @@ merged2:
   via: point_links.yaml
   reason: 専属の産業医（有害業務に常時500人以上）。業務の列挙の言い換え
 declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿・歯科・リスクアセスメント対象物の健診）は、別の事実（事業の廃止、屋外作業場、歯科の報告、第3類物質など）なので、統合しない。名前を事実ごとに直した（元の名前は、すべて同じで、内容と合っていなかった）。
+- into: pt-bunseki-0132
+  from: pt-bunseki-0437
+  via: point_links.yaml
+  reason: グルコースの水＞エタノール（エチルアルコール）。同じ事実（執筆側の指摘、2026-11-07）
+- into: pt-funjin-0050
+  from:
+  - pt-funjin-0165
+  via: point_links.yaml
+  reason: 圧力損失が大きいと、面積式流量計の指示値は真の流量よりずれる（大小の入れ替え）。bk-funjin-tp06 の points は 0165→0050 に差し替え
+- from: pt-bunseki-0054
+  to: pt-bunseki-0226
+  members:
+  - 2016-02|4|1
+  - 2017-08|3|1
+  reason: ベンゼンの水と無極性溶媒（四塩化炭素・クロロホルム）の溶解度の比較は、酢酸・グリシン・水酸化ナトリウムなどの極性物質の比較とは別の事実（執筆側の指摘、2026-11-07）
+- from: pt-funjin-0007
+  new: pt-funjin-0346
+  members:
+  - 2021-08|7|3
+  reason: 選択肢は、面積と流量の比例を述べたあと、傾いていても影響しないとしている。正誤を決めるのは後者（傾けると影響する）で、別の事実（執筆側の指摘、2026-11-07）。bk-funjin-tp06 に qpoint_chapters.yaml で割り当て
+- into: pt-funjin-0233
+  from: pt-funjin-0249
+  via: point_links.yaml
+  reason: 拡散効果が顕著な粒径（0.1 µm 以下）。同じ事実。bk-funjin-0001 の points に加えた（原理には紐づけない。粒径の数値の暗記）
+- from: pt-yuki-0079
+  to: pt-yuki-0076
+  members:
+  - 2015-08|8|5
+  reason: キャピラリーカラム内では渦流拡散が小さい。キャリアガス流量の事実ではなく、渦流拡散の事実（執筆側の指摘、2026-11-07）
+- into: pt-yuki-0075
+  from: pt-yuki-0157
+  via: point_links.yaml
+  reason: 検量線を外挿（延長）して定量しない。FIDの直線範囲の言い換え
+- from: pt-hourei-0235
+  new: pt-hourei-0503
+  members:
+  - 2022-08|13|5
+  reason: マンガンの区分ではなく、特別教育の要否の事実（安衛則第36条に、特定化学物質の取扱い業務はない。誤り）
+- from: pt-hourei-0104
+  new: pt-hourei-0504
+  members:
+  - 2025-08|12|4
+  reason: 硫化水素ではなく、ふっ化水素の区分（第2類物質）
+- into: pt-funjin-0124
+  from:
+  - pt-funjin-0139
+  - pt-funjin-0236
+  via: point_links.yaml
+  reason: りん酸法の定量下限値は1％。同じ事実（執筆側の指摘、2026-11-07）
+- into: pt-funjin-0019
+  from:
+  - pt-funjin-0161
+  via: point_links.yaml
+  reason: トリジマイトの含有が認められたら、りん酸法（王水添加りん酸法）を選択しない。否定形
+- into: pt-funjin-0122
+  from:
+  - pt-funjin-0168
+  via: point_links.yaml
+  reason: 堆積粉じんの採取位置（腰より高い位置）。否定形（床面50〜150 cm）を統合。誤って pt-funjin-0060（ふるい 75 µm）に統合されていた分を解除（2026-11-08）
+- into: pt-funjin-0106
+  from:
+  - pt-funjin-0118
+  via: point_links.yaml
+  reason: 堆積粉じん試料の用途（X線回折用・りん酸法用）。誤って pt-funjin-0060 に統合されていた分を解除
+- into: pt-funjin-0267
+  from:
+  - pt-funjin-0276
+  via: point_links.yaml
+  reason: 粒度調整の懸濁液の濃度（約1％）
+- into: pt-funjin-0246
+  from:
+  - pt-funjin-0268
+  via: point_links.yaml
+  reason: 試料の密度（比重）を石英の2.65と仮定
+- into: pt-tokka-0082
+  from:
+  - pt-tokka-0145
+  - pt-tokka-0181
+  via: point_links.yaml
+  reason: モノクロメーター（回折格子）で単色光にする
+- into: pt-tokka-0086
+  from:
+  - pt-tokka-0241
+  via: point_links.yaml
+  reason: 着色液は、時間の経過とともに退色する（呈色後の時間で吸光度が変化）

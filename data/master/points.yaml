@@ -707,6 +707,7 @@ points:
   name: キャピラリーカラムでは、渦流拡散が小さいので、ピーク幅の広がりは抑制される
   theme: ''
   members:
+  - 2015-08|8|5
   - 2020-08|10|3
   - 2022-08|9|3
   - 2024-08|11|4
@@ -731,7 +732,6 @@ points:
   name: キャピラリーカラムの方が、キャリアガス流量が少ない。
   theme: ''
   members:
-  - 2015-08|8|5
   - 2020-08|10|4
   - 2022-08|9|4
 - id: pt-yuki-0080
@@ -1297,6 +1297,7 @@ points:
   theme: ''
   members:
   - 2026-08|20|4
+  merged_into: pt-yuki-0075
 - id: pt-yuki-0158
   subject: yuki
   name: スプリットレス注入法は、一般に、カラムの初期温度を低く設定してカラムの入口付近に試料を凝縮させる
@@ -3660,6 +3661,7 @@ points:
   theme: ''
   members:
   - 2021-08|1|4
+  merged_into: pt-tokka-0082
 - id: pt-tokka-0146
   subject: tokka
   name: 石英製のセルは、紫外部領域の測定に使用できる。
@@ -3877,6 +3879,7 @@ points:
   theme: ''
   members:
   - 2018-08|1|3
+  merged_into: pt-tokka-0082
 - id: pt-tokka-0182
   subject: tokka
   name: 検知管の目盛りは、通常20℃で校正されている。
@@ -4239,6 +4242,7 @@ points:
   theme: ''
   members:
   - 2016-08|1|2
+  merged_into: pt-tokka-0086
 - id: pt-tokka-0242
   subject: tokka
   name: 両物質とも水に溶け、酸性を呈する。
@@ -5230,12 +5234,8 @@ points:
   theme: ''
   members:
   - 2015-08|6|4
-  - 2017-08|5|4
   - 2017-08|6|4
   - 2018-08|5|4
-  - 2022-08|5|1
-  - 2024-08|5|5
-  - 2026-08|5|3
   - 2026-08|5|4
 - id: pt-kinzoku-0023
   subject: kinzoku
@@ -5821,7 +5821,6 @@ points:
   members:
   - 2015-08|6|2
   - 2017-08|6|1
-  - 2021-08|6|2
 - id: pt-kinzoku-0086
   subject: kinzoku
   name: フレーム原子吸光分析法と同程度又はそれ以上の感度を有する。
@@ -6165,6 +6164,7 @@ points:
   members:
   - 2017-08|5|3
   - 2022-08|5|4
+  merged_into: pt-kinzoku-0153
 - id: pt-kinzoku-0131
   subject: kinzoku
   name: キレート剤に含まれる不純物は、メチルイソブチルケトンなどの有機溶媒で除去する
@@ -7249,6 +7249,7 @@ points:
   theme: ''
   members:
   - 2022-08|5|5
+  merged_into: pt-kinzoku-0153
 - id: pt-kinzoku-0298
   subject: kinzoku
   name: シアン化カリウムは、金属キレート生成の選択性を高める隠蔽剤として用いられる
@@ -7406,6 +7407,7 @@ points:
   theme: ''
   members:
   - 2016-08|6|1
+  merged_into: pt-kinzoku-0146
 - id: pt-kinzoku-0324
   subject: kinzoku
   name: 物質の同定には、励起・蛍光スペクトルを用いる。
@@ -8127,6 +8129,7 @@ points:
   theme: ''
   members:
   - 2022-08|5|3
+  merged_into: pt-kinzoku-0342
 - id: pt-kinzoku-0444
   subject: kinzoku
   name: 他元素の影響は受けにくい。
@@ -8258,6 +8261,26 @@ points:
   theme: ''
   members:
   - 2025-08|12|4
+- id: pt-kinzoku-0464
+  subject: kinzoku
+  name: 感度は、モル吸光係数が大きいほど高い。
+  theme: ''
+  members:
+  - 2017-08|5|4
+  - 2022-08|5|1
+  - 2026-08|5|3
+- id: pt-kinzoku-0465
+  subject: kinzoku
+  name: モル吸光係数は、pH により変わることがある。
+  theme: ''
+  members:
+  - 2024-08|5|5
+- id: pt-kinzoku-0466
+  subject: kinzoku
+  name: 原子吸光分析では、測定対象元素の光源に、重水素放電ランプを用いる（誤りの記述）
+  theme: ''
+  members:
+  - 2021-08|6|2
 - id: qp-kinzoku-0001
   subject: kinzoku
   name: 三酸化二ヒ素（無水物）19.8 mg を溶解した水溶液 1…（計算問題）
@@ -8526,7 +8549,6 @@ points:
   - 2017-08|7|1
   - 2018-08|7|1
   - 2020-08|6|1
-  - 2021-08|7|3
   - 2022-08|7|1
   - 2023-08|6|2
   - 2025-08|7|1
@@ -8737,28 +8759,9 @@ points:
   name: 拡散効果による捕集効率は、粒径が小さいほど高くなる。
   theme: ''
   members:
-  - 2016-08|6|1
-  - 2016-08|6|2
-  - 2016-08|6|3
-  - 2016-08|6|4
-  - 2016-08|6|5
-  - 2019-08|6|1
-  - 2019-08|6|2
   - 2019-08|6|3
-  - 2019-08|6|4
-  - 2020-08|5|1
-  - 2020-08|5|2
-  - 2020-08|5|3
-  - 2020-08|5|4
-  - 2020-08|5|5
-  - 2022-08|6|2
-  - 2022-08|6|3
-  - 2022-08|6|4
-  - 2022-08|6|5
-  - 2025-08|6|1
-  - 2025-08|6|2
-  - 2025-08|6|3
   - 2025-08|6|4
+  merged_into: pt-funjin-0170
 - id: pt-funjin-0026
   subject: funjin
   name: 約200 mgの分析対象試料を精秤し、リン酸15 mL、王水5 mLを加えて加熱する
@@ -8941,9 +8944,6 @@ points:
   members:
   - 2017-08|4|1
   - 2018-08|4|1
-  - 2018-08|4|2
-  - 2022-08|4|3
-  - 2026-08|4|3
 - id: pt-funjin-0044
   subject: funjin
   name: 吸入性粉じんは、フィルターに捕集される。
@@ -9216,7 +9216,6 @@ points:
   - 2017-08|5|2
   - 2020-08|4|2
   - 2023-08|4|2
-  merged_into: pt-funjin-0025
 - id: pt-funjin-0074
   subject: funjin
   name: 対陰極がCuのKαX線の波長は、対陰極がFeのKαX線の波長よりも短い
@@ -9270,9 +9269,6 @@ points:
   theme: ''
   members:
   - 2021-08|4|3
-  - 2021-08|4|4
-  - 2024-08|4|5
-  - 2025-08|4|3
   - 2025-08|4|4
 - id: pt-funjin-0080
   subject: funjin
@@ -9493,7 +9489,6 @@ points:
   - 2016-08|13|5
   - 2021-08|13|5
   - 2025-08|11|5
-  merged_into: pt-funjin-0060
 - id: pt-funjin-0107
   subject: funjin
   name: クリストバライトが含まれる試料をりん酸法で測定すると、遊離けい酸含有率は、真の値より低く評価されるので、りん酸法を用いることは適当ではない
@@ -9591,7 +9586,7 @@ points:
   - 2016-08|13|3
   - 2020-08|12|5
   - 2023-08|12|5
-  merged_into: pt-funjin-0060
+  merged_into: pt-funjin-0106
 - id: pt-funjin-0119
   subject: funjin
   name: 粒子の粒径が一定であっても、粉じんの種類が異なると相対濃度の値が同じになるとは限らない
@@ -9624,7 +9619,6 @@ points:
   - 2016-08|13|4
   - 2021-08|13|4
   - 2025-08|11|4
-  merged_into: pt-funjin-0060
 - id: pt-funjin-0123
   subject: funjin
   name: 石綿繊維数濃度の計算に当たっては、ブランク値を求めておく。
@@ -9752,6 +9746,7 @@ points:
   members:
   - 2023-08|14|5
   - 2026-08|14|1
+  merged_into: pt-funjin-0124
 - id: pt-funjin-0140
   subject: funjin
   name: 再発じん法で試料を作成してX線回折分析法により求めた遊離けい酸含有率に比べ、液相沈降法で試料を作成してりん酸法により求めた遊離けい酸含有率の方が低い値を示す（誤りの記述）
@@ -9907,6 +9902,7 @@ points:
   members:
   - 2023-08|14|1
   - 2026-08|14|5
+  merged_into: pt-funjin-0019
 - id: pt-funjin-0162
   subject: funjin
   name: 受光スリットの幅を広くすると、回折線強度は増大する。
@@ -9935,6 +9931,7 @@ points:
   members:
   - 2017-08|7|4
   - 2018-08|7|5
+  merged_into: pt-funjin-0050
 - id: pt-funjin-0166
   subject: funjin
   name: 粉じんの採取は、再発じん装置で発じんさせたら直ちに開始する。（誤りの記述）
@@ -9956,6 +9953,7 @@ points:
   members:
   - 2020-08|12|4
   - 2023-08|12|4
+  merged_into: pt-funjin-0122
 - id: pt-funjin-0169
   subject: funjin
   name: フィルターのごく表面に粒子が捕集されるので、顕微鏡で計数するのに都合が良い
@@ -9970,7 +9968,7 @@ points:
   members:
   - 2021-08|5|2
   - 2024-08|5|4
-  merged_into: pt-funjin-0025
+  merged_into: pt-funjin-0073
 - id: pt-funjin-0171
   subject: funjin
   name: 繊維層フィルターの方がメンブランフィルターより圧力損失が少ないので、多量の粉じんを捕集するのに適している
@@ -9992,7 +9990,6 @@ points:
   members:
   - 2022-08|4|4
   - 2026-08|4|5
-  merged_into: pt-funjin-0063
 - id: pt-funjin-0174
   subject: funjin
   name: フィルターに捕集された粉じん量を求める際の秤量誤差は、秤量2回分の和である
@@ -10042,6 +10039,7 @@ points:
   members:
   - 2020-08|4|1
   - 2023-08|4|1
+  merged_into: pt-funjin-0110
 - id: pt-funjin-0181
   subject: funjin
   name: 0.1 µmよりも小さい粒子と数 µmの粒子では、個々の粒子の散乱光の強度は、数 µmの粒子の方が大きい
@@ -10139,7 +10137,6 @@ points:
   name: 多段平行板式分粒装置の50％分粒粒径は、流量の平方根に比例する。
   theme: ''
   members:
-  - 2019-08|4|4
   - 2019-08|5|5
 - id: pt-funjin-0195
   subject: funjin
@@ -10395,6 +10392,7 @@ points:
   theme: ''
   members:
   - 2017-08|13|5
+  merged_into: pt-funjin-0124
 - id: pt-funjin-0237
   subject: funjin
   name: 位相差顕微鏡は、位相物体の位相差を振幅の大小に変換し、明暗の差として観察する顕微鏡である
@@ -10455,6 +10453,7 @@ points:
   theme: ''
   members:
   - 2024-08|13|2
+  merged_into: pt-funjin-0268
 - id: pt-funjin-0247
   subject: funjin
   name: RCF の捕集には石綿の場合と同様にメンブランフィルターを用いるが、オープンフェース型ではなく、分粒装置付ホルダーを用いる（誤りの記述）
@@ -10473,6 +10472,7 @@ points:
   theme: ''
   members:
   - 2026-08|2|3
+  merged_into: pt-funjin-0233
 - id: pt-funjin-0250
   subject: funjin
   name: 多段平行板式分粒装置を用いたサンプリングの流量計に、湿式ガスメーターを用いる（誤りの記述）
@@ -10558,6 +10558,7 @@ points:
   theme: ''
   members:
   - 2021-08|7|4
+  merged_into: pt-funjin-0103
 - id: pt-funjin-0264
   subject: funjin
   name: 測定を行う前には、光散乱部を清浄空気で満たした状態で零点調整と感度合わせを行う必要がある
@@ -10639,6 +10640,7 @@ points:
   theme: ''
   members:
   - 2024-08|13|3
+  merged_into: pt-funjin-0267
 - id: pt-funjin-0277
   subject: funjin
   name: ピペット型液相沈降試験器に懸濁液を移し、所定の目盛り線の位置まで精製水を加えた後、よく振とうし静置する
@@ -10913,6 +10915,7 @@ points:
   theme: ''
   members:
   - 2016-08|7|4
+  merged_into: pt-funjin-0103
 - id: pt-funjin-0322
   subject: funjin
   name: 1本の繊維が枝分かれしている場合は、枝分かれした部分を含め1本として数える
@@ -11059,6 +11062,89 @@ points:
   theme: ''
   members:
   - 2025-08|20|3
+- id: pt-funjin-0346
+  subject: funjin
+  name: 面積式流量計は、傾いていても流量測定には影響しない（誤りの記述）
+  theme: ''
+  members:
+  - 2021-08|7|3
+- id: pt-funjin-0347
+  subject: funjin
+  name: さえぎり効果による捕集効率は、繊維径が小さいほど高くなる
+  theme: ''
+  members:
+  - 2016-08|6|1
+  - 2020-08|5|1
+  - 2022-08|6|2
+- id: pt-funjin-0348
+  subject: funjin
+  name: さえぎり効果による捕集効率は、粒径が大きいほど高くなる
+  theme: ''
+  members:
+  - 2016-08|6|5
+  - 2019-08|6|4
+  - 2025-08|6|3
+- id: pt-funjin-0349
+  subject: funjin
+  name: 拡散効果による捕集効率は、繊維径が小さいほど高くなる
+  theme: ''
+  members:
+  - 2016-08|6|2
+  - 2020-08|5|2
+- id: pt-funjin-0350
+  subject: funjin
+  name: 拡散効果による捕集効率は、ろ過速度が小さいほど高くなる
+  theme: ''
+  members:
+  - 2020-08|5|3
+  - 2022-08|6|3
+- id: pt-funjin-0351
+  subject: funjin
+  name: 重力効果による捕集効率は、ろ過速度が小さいほど高くなる
+  theme: ''
+  members:
+  - 2016-08|6|4
+  - 2019-08|6|1
+  - 2025-08|6|2
+- id: pt-funjin-0352
+  subject: funjin
+  name: 重力効果による捕集効率は、粒径が大きいほど高くなる
+  theme: ''
+  members:
+  - 2020-08|5|4
+  - 2022-08|6|4
+- id: pt-funjin-0353
+  subject: funjin
+  name: 慣性効果による捕集効率は、ろ過速度が大きいほど高くなる
+  theme: ''
+  members:
+  - 2016-08|6|3
+  - 2019-08|6|2
+  - 2022-08|6|5
+  - 2025-08|6|1
+- id: pt-funjin-0354
+  subject: funjin
+  name: 慣性効果による捕集効率は、粒径が大きいほど高くなる
+  theme: ''
+  members:
+  - 2020-08|5|5
+- id: pt-funjin-0355
+  subject: funjin
+  name: 多段平行板式分粒装置の吸引流量を所定の流量より大きくすると、50％分粒粒径は大きくなる
+  theme: ''
+  members:
+  - 2019-08|4|4
+  - 2021-08|4|4
+  - 2024-08|4|5
+  - 2025-08|4|3
+- id: pt-funjin-0356
+  subject: funjin
+  name: 円形ノズル式インパクターで所定の流量より大きな流量で吸引すると、測定値は小さくなる
+  theme: ''
+  members:
+  - 2018-08|4|2
+  - 2022-08|4|3
+  - 2026-08|4|3
 - id: qp-funjin-0001
   subject: funjin
   name: 密度 2.5 g・cm⁻³、粒径 4.0 µmの球形粒子の…（計算問題）
@@ -19199,7 +19285,6 @@ points:
   - 2019-08|12|4
   - 2022-08|12|4
   - 2025-02|12|4
-  - 2025-08|12|4
 - id: pt-hourei-0105
   subject: hourei
   name: ナフタレンの区分（第○類物質など）
@@ -20278,7 +20363,6 @@ points:
   theme: 特定化学物質障害予防規則
   members:
   - 2021-08|12|3
-  - 2022-08|13|5
 - id: pt-hourei-0236
   subject: hourei
   name: 冷却凝縮捕集方法は、ガス状の放射性物質の試料採取方法の一つである
@@ -21936,6 +22020,18 @@ points:
   theme: 作業環境測定の対象と頻度
   members:
   - 2023-08|20|4
+- id: pt-hourei-0503
+  subject: hourei
+  name: 第2類物質であるマンガンを取り扱う業務に、法令で定める特別の教育を行わなければならない（誤りの記述）
+  theme: 特定化学物質障害予防規則
+  members:
+  - 2022-08|13|5
+- id: pt-hourei-0504
+  subject: hourei
+  name: ふっ化水素の区分（第○類物質など）
+  theme: 特定化学物質障害予防規則
+  members:
+  - 2025-08|12|4
 - id: qp-hourei-0001
   subject: hourei
   name: 法令により、定期に作業環境測定を行うべき作業環境測定対象Ⓐ…（穴埋め・組合せ）
@@ -22167,7 +22263,7 @@ points:
   - 2026-02|14|0
 - id: pt-design-0001
   subject: design
-  name: この単位作業場所は、第Ⅱ管理区分に区分される。
+  name: A測定の第2評価値が管理濃度を超えていれば、B測定の結果にかかわらず、第3管理区分になる
   theme: ''
   members:
   - 2015-08|20|1
@@ -22219,13 +22315,11 @@ points:
   - 2023-08|20|4
   - 2023-08|20|5
   - 2024-02|20|3
-  - 2024-02|7|4
   - 2024-08|20|1
   - 2024-08|20|2
   - 2024-08|20|3
   - 2024-08|20|4
   - 2025-02|20|3
-  - 2025-02|6|4
   - 2025-08|20|2
   - 2025-08|20|3
   - 2025-08|20|5
@@ -26308,6 +26402,13 @@ points:
   theme: ''
   members:
   - 2023-08|8|5
+- id: pt-design-0484
+  subject: design
+  name: 騒音の管理区分は、A測定の平均値（80 dB未満を除く）とB測定値のうち、悪いほうで決まる（85 dB・90 dBの2つの境目。B測定値が90 dB以上なら、第Ⅲ管理区分）
+  theme: ''
+  members:
+  - 2024-02|7|4
+  - 2025-02|6|4
 - id: qp-design-0001
   subject: design
   name: 放射性物質を取り扱っている作業場において…（計算問題）
@@ -27275,8 +27376,6 @@ points:
   name: 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
   theme: ''
   members:
-  - 2016-02|4|1
-  - 2017-08|3|1
   - 2021-08|4|2
   - 2021-08|4|5
   - 2025-02|3|3
@@ -28646,6 +28745,8 @@ points:
   name: ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい（誤りの記述）
   theme: ''
   members:
+  - 2016-02|4|1
+  - 2017-08|3|1
   - 2021-08|4|3
   - 2025-02|3|2
 - id: pt-bunseki-0227
@@ -29954,6 +30055,7 @@ points:
   theme: ''
   members:
   - 2015-08|3|3
+  merged_into: pt-bunseki-0132
 - id: pt-bunseki-0438
   subject: bunseki
   name: 濃硝酸は、濃硫酸より比重が小さい。

@@ -349,27 +349,27 @@ questions:
     pcounts:
     - 3
     - 4
-    - 6
-    - 6
+    - 3
+    - 4
     - 5
     points:
     - pt-kinzoku-0093
     - pt-kinzoku-0051
-    - pt-kinzoku-0022
+    - pt-kinzoku-0464
     - pt-kinzoku-0022
     - pt-kinzoku-0039
     pnames:
     - 石英セルは、全ての測定波長領域に用いることができる。
     - 測定波長が可視部にある場合は、光源にタングステンランプを用いる。
-    - モル吸光係数は、波長に依存する。
+    - 感度は、モル吸光係数が大きいほど高い。
     - モル吸光係数は、波長に依存する。
     - 加熱操作を行って発色反応を促進させた場合には、常温に戻してから測定する
     prcounts:
+    - 7
+    - 7
     - 8
     - 8
-    - 6
-    - 6
-    - 8
+    - 7
     principles:
     - pr-kinzoku-0002
     - pr-kinzoku-0002
@@ -385,8 +385,8 @@ questions:
     trend:
     - 1
     - 1
-    - 2
-    - 2
+    - 1
+    - 1
     - 2
     recent_exams:
     - 2024-08
@@ -936,7 +936,7 @@ questions:
     prcounts:
     - 0
     - 12
-    - 9
+    - 10
     - 12
     - 0
     principles:
@@ -975,12 +975,12 @@ questions:
     - []
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
-    level: A
-    why: pt_A
+    level: S
+    why: pr_S
     tags:
     - ''
     - odo
-    - ans_hi
+    - ans_pr
     - odo
     - ''
 - num: 12

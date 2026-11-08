@@ -2180,7 +2180,7 @@ traps:
   - 2022-08
   understanding: MOCA（3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン）は、粒子と蒸気の両方で存在するので、ろ過捕集のみでは足りず、ろ過材と固体捕集層を組み合わせて捕集する。
   reason: 粒子と蒸気が共存する物質は、ろ過＋固体捕集（4-1）。
-  confidence: 中（J-86 3.9で要確認）
+  confidence: 中（『デザイン・サンプリングの実務（A・B測定編 上）』 3.9で要確認）
   verify: true
   hidden: false
 - id: ds-unit-workplace-08
@@ -5896,7 +5896,7 @@ traps:
   exams:
   - 2022-08
   understanding: 鼻中隔穿孔を起こすのは、クロム酸（6価クロム）、三酸化ヒ素（亜ヒ酸）、アンチモンなど。カドミウムの影響は、腎障害や肺の障害。
-  reason: J-08の表の原因物質。
+  reason: 『労働衛生の知識』の表の原因物質。
   confidence: 高
   verify: false
   hidden: false

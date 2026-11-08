@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ランクの境目（THRESHOLDS）を、最終の区分（おとりによる絞り込みを含む）の分布が、目標の割合に近くなるように探す。
-目標（科目内）：S30％・A25％・B20％（C＋Dは残り約25％）。2026年11月5日に、S15／A25／B30から変更（本人の了承あり）。形は、S＞A＞B（Cは、既出か初見かで決まる）。
+目標（科目内）：S30％・A25％・B20％（C＋Dは残り約25％）。2026年11月5日に、S15／A25／B30から変更（運営者の了承あり）。形は、S＞A＞B（Cは、既出か初見かで決まる）。
 使い方: python3 tools/fit_thresholds.py         （結果の表を出すだけ）
         python3 tools/fit_thresholds.py write    （compute_freq.py の THRESHOLDS を書き換える）"""
 import sys,re,collections,itertools

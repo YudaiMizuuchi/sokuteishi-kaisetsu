@@ -374,20 +374,20 @@ questions:
     pcounts:
     - 1
     - 1
-    - 3
-    - 10
+    - 5
+    - 9
     - 2
     points:
     - pt-funjin-0307
     - pt-funjin-0319
     - pt-funjin-0110
-    - pt-funjin-0025
+    - pt-funjin-0073
     - pt-funjin-0131
     pnames:
     - ろ過材を構成する繊維が細いほど、粒子の捕集効率は低くなる。（誤りの記述）
     - ろ過材の空隙率が小さくなるほど、粒子の捕集効率は高くなる。
     - 粒径が1μmより大きい粒子は、主として重力、慣性力及びさえぎりによってろ過材に捕集される
-    - 拡散効果による捕集効率は、粒径が小さいほど高くなる。
+    - 粒径が0.1μmより小さい粒子は、主として拡散作用によってろ過材…
     - フッ素樹脂加工グラスファイバーろ紙による圧力損失は、セルローズエステルメンブランフィルターよりも小さい
     prcounts:
     - 0
@@ -474,7 +474,7 @@ questions:
     - 1
     truths: 正誤正正正
     pcounts:
-    - 3
+    - 5
     - 7
     - 9
     - 6
@@ -1007,7 +1007,7 @@ questions:
     pcounts:
     - 8
     - 6
-    - 3
+    - 6
     - 7
     - 2
     points:
@@ -1043,7 +1043,7 @@ questions:
     trend:
     - 2
     - 2
-    - 0
+    - 1
     - 3
     - 0
     recent_exams:
@@ -1065,11 +1065,11 @@ questions:
       - 2026-08
     - []
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
-    - ''
+    - odo
     - odo
     - ans_new
 - num: 14

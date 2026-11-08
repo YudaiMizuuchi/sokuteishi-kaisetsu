@@ -1,0 +1,46 @@
+description: 参考図書の名前の統一（サイトの表示・参考書の原稿の、書名の決まり）。canonical＝サイト・原稿での表示名（『』に入れて書く）。formal＝奥付などの正式な書名。variants＝統一する前の表記ゆれ（tools/normalize_refs.py が、canonical に置き換える）。codes＝内部の資料番号（サイトには出さない。canonical に置き換える）
+references:
+- id: rodo-eisei
+  canonical: 労働衛生の知識
+  formal: 作業環境測定のための労働衛生の知識
+  publisher: 公益社団法人 日本作業環境測定協会
+  codes: [J-08]
+  variants: [作業環境測定のための労働衛生の知識]
+- id: kiki-bunseki
+  canonical: 機器分析の実務
+  formal: 作業環境測定のための機器分析の実務［特定化学物質・金属類・有機溶剤］
+  publisher: 公益社団法人 日本作業環境測定協会
+  codes: [J-73]
+  variants: [作業環境測定のための機器分析の実務［特定化学物質・金属類・有機溶剤］, 機器分析の実務［特定化学物質・金属類・有機溶剤］]
+- id: design-ab
+  canonical: デザイン・サンプリングの実務（A・B測定編 上）
+  formal: 作業環境測定のためのデザイン・サンプリングの実務 ―A・B測定編―（上）
+  publisher: 公益社団法人 日本作業環境測定協会
+  codes: [J-86]
+  variants: [作業環境測定のためのデザイン・サンプリングの実務―A・B測定編―（上）, 作業環境測定のためのデザイン・サンプリングの実務 ―A・B測定編―（上）]
+- id: design-cd
+  canonical: デザイン・サンプリングの実務（C・D測定編）
+  formal: 作業環境測定のためのデザイン・サンプリングの実務 ―C・D測定編―
+  publisher: 公益社団法人 日本作業環境測定協会
+  codes: [J-90]
+  variants: [作業環境測定のためのデザイン・サンプリングの実務―C・D測定編―, 作業環境測定のためのデザイン・サンプリングの実務 ―C・D測定編―]
+- id: bunseki-gairon
+  canonical: 分析概論
+  formal: 作業環境測定のための分析概論
+  codes: [J11-2021, J11]
+  variants: [作業環境測定のための分析概論]
+- id: guidebook-1
+  canonical: 作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務
+  formal: 作業環境測定ガイドブック1［鉱物性粉じん・石綿・RCF］の測定の実務
+- id: guidebook-2
+  canonical: 作業環境測定ガイドブック2
+  formal: 作業環境測定ガイドブック2
+- id: guidebook-3
+  canonical: 作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論
+  formal: 作業環境測定ガイドブック3 特定化学物質関係（金属類を除く）物質別各論
+- id: guidebook-4
+  canonical: 作業環境測定ガイドブック4 金属類 物質別各論
+  formal: 作業環境測定ガイドブック4 金属類 物質別各論
+- id: guidebook-5
+  canonical: 作業環境測定ガイドブック5 有機溶剤関係
+  formal: 作業環境測定ガイドブック5 有機溶剤関係

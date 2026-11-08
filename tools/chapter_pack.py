@@ -79,9 +79,16 @@ def pack(cid):
         a=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
         neg=bool(NEG.search(str(q['stem']))); return '正' if ((i not in a) if neg else (i in a)) else '誤'
     used=[]
+    def _root(i):
+        while pts.get(i) and pts[i].get('merged_into'): i=pts[i]['merged_into']
+        return i
+    _agg={}   # 統合済みの論点の出題も、統合先の論点に数える（compute_freq.py と同じ）
+    for _i,_p in pts.items():
+        _agg.setdefault(_root(_i),[]).extend(_p['members'])
     def _row(pid):
         p=pts.get(pid)
         if not p or p.get('merged_into'): return None
+        p=dict(p); p['members']=sorted(set(_agg.get(pid,p['members'])))
         exs=sorted({k.split('|')[0] for k in p['members']})
         return (-len(exs),pid,p,exs)
     def _line(r):

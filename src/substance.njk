@@ -27,7 +27,7 @@ eleventyComputed:
       <td>{% if m.pages and m.pages.length %}p.{{ m.pages[0] }}{% if m.pages.length > 1 and m.pages[1] != m.pages[0] %}〜{{ m.pages[1] }}{% endif %}{% endif %}</td>
     </tr>{% endfor %}</tbody>
   </table></div>
-  <p class="hint">出典：『{{ sb.book }}』の物質別各論（各方法の「原理」の項）。本文で確認して、書き直したものです。詳しい条件（流量・採取時間・試薬の濃度など）は、ページで確認してください。</p>
+  <p class="hint">出典：『{{ sb.book }}』（各方法の「原理」の項）。本文で確認して、書き直したものです。詳しい条件（流量・採取時間・試薬の濃度など）は、ページで確認してください。</p>
   {% else %}
   <div class="tablewrap"><table class="subst">
     <thead><tr><th>方法</th><th>捕集材など</th><th>脱着・抽出</th><th>検出・装置</th><th>波長</th><th>参照</th></tr></thead>
@@ -40,7 +40,7 @@ eleventyComputed:
       <td>{% if m.pages and m.pages.length %}p.{{ m.pages[0] }}{% if m.pages.length > 1 and m.pages[1] != m.pages[0] %}〜{{ m.pages[1] }}{% endif %}{% endif %}</td>
     </tr>{% endfor %}</tbody>
   </table></div>
-  <p class="hint">出典：『{{ sb.book }}』の物質別各論。この物質の表の値は、ガイドブックの本文から機械的に拾ったもので、未確認です（抜けや誤りがあります）。ページ（参照）で、本文を確認してください。</p>
+  <p class="hint">出典：『{{ sb.book }}』。この物質の表の値は、ガイドブックの本文から機械的に拾ったもので、未確認です（抜けや誤りがあります）。ページ（参照）で、本文を確認してください。</p>
   {% endif %}
 </section>
 <h2 class="sub">この物質が登場した過去問（{{ sb.questions.length }}問・{{ sb.examCount }}回）</h2>

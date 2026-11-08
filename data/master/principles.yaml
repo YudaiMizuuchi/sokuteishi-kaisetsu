@@ -376,8 +376,11 @@ principles:
   - 誤差
   - 変動係数
   points:
+  - pt-bunseki-0206
+  - pt-bunseki-0207
   - pt-bunseki-0225
   - pt-bunseki-0284
+  - pt-bunseki-0379
   - qp-bunseki-0030
   - qp-bunseki-0063
   - qp-bunseki-0065
@@ -1053,11 +1056,13 @@ principles:
   - 分子量
   - 分子の大きさ
   points:
+  - pt-yuki-0083
   - pt-yuki-0133
   - pt-yuki-0218
   - pt-yuki-0238
   - pt-yuki-0251
   - pt-yuki-0264
+  - pt-yuki-0265
   - pt-yuki-0266
   - qp-yuki-0011
   - qp-yuki-0015
@@ -1124,6 +1129,11 @@ principles:
   points:
   - pt-tokka-0017
   - pt-tokka-0033
+  - pt-tokka-0068
+  - pt-tokka-0079
+  - pt-tokka-0102
+  - pt-tokka-0172
+  - pt-tokka-0197
   - qp-tokka-0006
   - qp-tokka-0024
   - qp-tokka-0032
@@ -1319,6 +1329,9 @@ principles:
   - 吸光度.{0,12}(濃度|光路長).{0,8}比例
   points:
   - pt-kinzoku-0022
+  - pt-kinzoku-0117
+  - pt-kinzoku-0342
+  - pt-kinzoku-0464
   - qp-kinzoku-0022
 - id: pr-kinzoku-0002
   subject: kinzoku
@@ -1338,6 +1351,7 @@ principles:
   - pt-kinzoku-0051
   - pt-kinzoku-0085
   - pt-kinzoku-0093
+  - pt-kinzoku-0146
 - id: pr-kinzoku-0003
   subject: kinzoku
   name: 蛍光は励起光より長波長・直角方向で測る
@@ -1391,6 +1405,7 @@ principles:
   - pt-kinzoku-0036
   - pt-kinzoku-0048
   - pt-kinzoku-0070
+  - pt-kinzoku-0466
 - id: pr-kinzoku-0007
   subject: kinzoku
   name: バックグラウンド補正
@@ -1637,8 +1652,16 @@ principles:
   - 拡散作用
   points:
   - pt-funjin-0015
-  - pt-funjin-0025
+  - pt-funjin-0073
   - pt-funjin-0110
+  - pt-funjin-0347
+  - pt-funjin-0348
+  - pt-funjin-0349
+  - pt-funjin-0350
+  - pt-funjin-0351
+  - pt-funjin-0352
+  - pt-funjin-0353
+  - pt-funjin-0354
   - qp-funjin-0024
 - id: pr-funjin-0005
   subject: funjin
@@ -1665,6 +1688,9 @@ principles:
   - pt-funjin-0028
   - pt-funjin-0063
   - pt-funjin-0079
+  - pt-funjin-0143
+  - pt-funjin-0173
+  - pt-funjin-0356
   - qp-funjin-0014
 - id: pr-funjin-0007
   subject: funjin
@@ -2571,8 +2597,8 @@ principles:
   - pt-funjin-0152
   - pt-funjin-0223
   - pt-funjin-0235
-  - pt-funjin-0246
   - pt-funjin-0268
+  - pt-funjin-0269
   - qp-funjin-0001
   - qp-funjin-0005
   - qp-funjin-0010

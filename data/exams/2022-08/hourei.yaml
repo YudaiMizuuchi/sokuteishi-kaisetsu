@@ -1081,7 +1081,7 @@ questions:
     - 3
     - 5
     - 3
-    - 6
+    - 5
     - 1
     points:
     - pt-hourei-0193
@@ -1117,7 +1117,7 @@ questions:
     - 0
     - 0
     - 0
-    - 2
+    - 1
     - 0
     recent_exams:
     - 2024-02
@@ -1201,19 +1201,19 @@ questions:
     - 6
     - 10
     - 8
-    - 2
+    - 1
     points:
     - pt-hourei-0021
     - pt-hourei-0498
     - pt-hourei-0040
     - pt-hourei-0058
-    - pt-hourei-0235
+    - pt-hourei-0503
     pnames:
     - 試験研究のために取り扱う作業の扱い
     - 特別管理物質を取り扱う屋内作業場の空気中の濃度は、6か月以内ごとに1回測定し、記録は30年間保存する（特化則第36条）
     - 特定化学物質健康診断：定期は6か月以内ごと、個人票は特別管理物質30年・それ以外5年
     - 局所排気装置などの定期自主検査（1年以内ごと等）
-    - マンガンの区分（第○類物質など）
+    - 第2類物質であるマンガンを取り扱う業務に、法令で定める特別の教育を行わなければならない（誤りの記述）
     prcounts:
     - 0
     - 0
@@ -1268,13 +1268,13 @@ questions:
       - 2023-02
       - 2024-02
     level: C
-    why: seen
+    why: near
     tags:
     - odo
     - ''
     - ''
     - ''
-    - ans_seen
+    - ans_near
 - num: 14
   status: published
   chapters:

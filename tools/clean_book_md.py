@@ -17,6 +17,9 @@ from pathlib import Path
 
 STOP = re.compile(r"^##\s+(\d+\.\s*)?(動画台本メモ|イラスト|執筆メモ|要確認事項)")
 PLACEHOLDER = re.compile(r"^\*\*(イラスト|図解|器具イラスト)")
+# 「行を作る論点：…」（話題の行を作る論点IDの記録）は、本文に出さず、docs/chapter_rows.md に残す
+ROWLINE = re.compile(r"^(行を作る論点：|[-・] ?[^`\n]*＝ ?.*`?(pt|qp)-[a-z]+-\d{4})")
+ROWS = []
 
 
 def clean(text):
@@ -35,6 +38,9 @@ def clean(text):
             break
         if PLACEHOLDER.match(ln):
             continue
+        if ROWLINE.match(ln):
+            ROWS.append(ln)
+            continue
         out.append(ln)
     text = "\n".join(out).strip() + "\n"
     return re.sub(r"\n{3,}", "\n\n", text)
@@ -46,7 +52,14 @@ def strip_past_questions(t):
 def main():
     src, chapter = Path(sys.argv[1]), sys.argv[2]
     dst = Path(__file__).resolve().parent.parent / "book" / f"{chapter}.md"
+    ROWS.clear()
     dst.write_text(strip_past_questions(clean(src.read_text(encoding="utf-8"))), encoding="utf-8")
+    if ROWS:   # 話題の行を作る論点ID（再計算用の記録）
+        rp = dst.parent.parent / "docs" / "chapter_rows.md"
+        old = rp.read_text(encoding="utf-8") if rp.exists() else "# 章の全体像の表で、話題（行）を作る論点ID（再計算用）\n"
+        import re as _re
+        old = _re.sub(r"\n## " + chapter + r"\n.*?(?=\n## |\Z)", "", old, flags=_re.S)
+        rp.write_text(old.rstrip("\n") + f"\n\n## {chapter}\n" + "\n".join(ROWS) + "\n", encoding="utf-8")
     print(f"{src.name} → {dst}")
 
 
