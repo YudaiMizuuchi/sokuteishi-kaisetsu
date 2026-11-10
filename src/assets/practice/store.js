@@ -1,5 +1,5 @@
 // 保存層。localStorage 版と、ログイン中だけクラウド（Supabase）へも書く版を、同じ関数群（load／add／removeAll）で使う。
-import { fetchAll, insertMany, deleteAll } from "./cloud.js";
+import { fetchAll, insertMany, deleteAll, deleteByIds } from "./cloud.js";
 
 const KEY = "sokuteishi.practice.v1";
 
@@ -24,6 +24,7 @@ export function createLocalStore(storage, key = KEY) {
     async load() { return read(); },
     async add(attempt) { const a = read(); a.push(attempt); storage.setItem(key, JSON.stringify(a)); },
     async removeAll() { storage.removeItem(key); },
+    async remove(ids) { const drop = new Set(ids); storage.setItem(key, JSON.stringify(read().filter((a) => !drop.has(a.id)))); },
   };
 }
 
@@ -63,11 +64,22 @@ export function createStore(local) {
       catch (e) { const err = new Error("クラウドの記録を読み込めませんでした"); err.cause = e; err.fallback = left; throw err; }
     },
 
-    /** 戻り値："local"（この端末）／"cloud"（クラウドに保存）／"pending"（クラウドに送れず、この端末に溜めた） */
+    /** 戻り値："local"（この端末）／"cloud"（クラウドに保存）／"pending"（クラウドに送れず、この端末に溜めた）／"full"（保存の上限に達していて、保存しなかった） */
     async add(attempt) {
       if (!userId) { await local.add(attempt); return "local"; }
       try { await insertMany(client, [attempt]); return "cloud"; }
-      catch { await pending.add(attempt); return "pending"; }
+      catch (e) {
+        if (e && e.code === "42501") return "full";   // 行レベルセキュリティに拒否された＝1人あたりの上限。溜めても送れないので、溜めない
+        await pending.add(attempt); return "pending";
+      }
+    },
+
+    /** 古い記録を消す（間引き）。失敗しても、演習は続ける。 */
+    async remove(ids) {
+      if (!ids.length) return;
+      if (!userId) return local.remove(ids);
+      await pending.remove(ids);
+      await deleteByIds(client, ids);
     },
 
     async removeAll() {

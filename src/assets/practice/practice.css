@@ -77,3 +77,6 @@
 .pstem .qtext { margin-top: 8px; }
 .ppoint { margin: 6px 0; }
 @media (max-width: 520px) { .pjudge button { flex: 1 1 8em; } }
+
+/* ログイン中の操作（ログアウト・アカウント削除） */
+#p-delacc { color: var(--muted); font-size: .82rem; }

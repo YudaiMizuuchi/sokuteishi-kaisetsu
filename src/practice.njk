@@ -1,8 +1,7 @@
 ---
 layout: base.njk
 title: 過去問演習
-noindex: true
-description: 作業環境測定士試験の過去問を、科目・年度・参考書の章・区分で絞り込んで解けます。ログインなしで使え、解いた記録は、この端末に残ります。
+description: 作業環境測定士試験の過去問を、科目・年度・参考書の章・区分で絞り込んで解けます。間違えた問題の復習、選択肢ごとの一問一答、科目別・章別の成績もあります。ログインなしで使えます。
 ---
 <link rel="stylesheet" href="/assets/practice/practice.css">
 <div class="intro">
@@ -81,5 +80,5 @@ description: 作業環境測定士試験の過去問を、科目・年度・参�
     <noscript><p>演習にはJavaScriptが必要です。<a href="/">問題を探す</a>ページもご利用ください。</p></noscript>
   </section>
 </div>
-<script>window.PRACTICE_CONFIG = { base: "{{ site.pathPrefix }}" };</script>
+<script>window.PRACTICE_CONFIG = { base: "{{ site.pathPrefix }}", contact: "{{ site.contactUrl }}" };</script>
 <script type="module" src="/assets/practice/practice.js"></script>

@@ -456,3 +456,11 @@ ZIPは、`node_modules`・`_site`・`.git` を除いて、`/mnt/user-data/output
 - **Playwright で確認**（幅 393・320px、ダーク）：成績タブ・一問一答の出題中・解答後とも、ページの横はみ出しなし、JS エラーなし。「正しい」「誤り」のボタンの高さ 58px。操作の注意：科目のチェックボックスは、ラベルが上に重なっているので、`check(force=True)` で選ぶ。
 - トップページの案内（`practice-cta.njk`）に、一問一答の1行を追加（要点は4つ）。
 - 残り：演習側の段階5（公開の準備：記録の間引き、アカウント削除の画面化、サイトマップ、エラー表示）。運営者の実機確認（README ④）。
+
+### 2026年11月10日（続き7）：演習機能 段階5（公開の準備）の取り込み
+- 演習側の返却 `practice_returns_段階0-5まとめ_第2版.zip` を取り込み。**段階4からの変更は10ファイル**：`supabase/schema.sql`・`src/practice.njk`・`src/practice/privacy.njk`・`src/assets/practice/logic.js`・`cloud.js`・`store.js`・`practice.js`・`practice.css`・`tools/practice_test.mjs`・`docs/PRACTICE.md`（`config.js`・`render.js`・`vendor/supabase.js` は同一）。ビルド 3,688ファイル、`check_site.py` 4項目✓、`practice_test.mjs` 全件成功。secret の混入なし。
+- **段階5**：記録の間引き（同じ問題・選択肢は最新10件）、1人あたり 20万行の上限（`my_attempts_count()` を RLS の insert で使用）、**アカウントの削除**（`delete_my_account()`。`security definer`・`search_path=''`・`auth.uid()` の行だけ・`authenticated` だけが実行可）、プライバシーの案内の更新。**取り込み前に `schema.sql` を確認**：関数は本人の行だけを対象、`public`・`anon` から実行権限を外してある。
+- **`/practice/` の `noindex` を外した**（運営者の依頼。演習側の第2版）。**サイトマップ**（`src/sitemap.njk`）に `/practice/`・`/practice/privacy/` を追加（`/exam/` の次）。出力で、robots の meta がないこと、canonical が正しいことを確認。
+- Playwright（幅 393・320px、ダーク）：4つのタブ（演習・復習・一問一答・成績）で、横はみ出しなし、JS エラーなし。
+- **運営者の作業**：Supabase の SQL Editor で、新しい `supabase/schema.sql` の全体を、もう一度実行 → ログインして1問解く（保存されるか）→ アカウント削除の確認（消えてよいアカウントで）。問題が出たときの「戻し方」の SQL は、演習側の README ④。Google Cloud の「アプリを公開」（まだなら）。
+- 演習機能は、指示の段階0〜5が、ひととおり完了。今後の候補：選び方の定数の調整、記録の差分読み込み、有料化（後回し）。

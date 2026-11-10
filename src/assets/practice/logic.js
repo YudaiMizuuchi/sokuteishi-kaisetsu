@@ -10,6 +10,7 @@ export const SESSION_SIZE = 10;                       // 1回の復習の問題�
 export const MIN_NEW_IN_SESSION = 2;                  // 間違えた問題が多いときも、まだ解いていない問題を最低これだけ混ぜる
 export const INCLUDE_RANK_C = true;                   // 未解答の問題に、区分 C を含めるか（既定）
 export const INCLUDE_RANK_D = false;                  // 未解答の問題に、区分 D を含めるか（既定）
+export const KEEP_PER_KEY = 10;                       // 同じ問題（一問一答は、同じ選択肢）の記録を、最新の何件まで残すか
 export const MIN_SOLVED_FOR_WEAK = 5;                 // 「弱い章」に数える、解いた問題数の下限
 export const WEAK_CHAPTERS_SHOWN = 10;
 export const DRILL_RECENT_BONUS = 2;                  // 一問一答：直近の回に出た論点への加点（1回あたり）
@@ -239,4 +240,18 @@ export function drillSummary(attempts) {
   let n = 0, correct = 0;
   for (const s of st.values()) { n += s.n; correct += s.correct; }
   return { solved: st.size, n, correct, acc: n ? correct / n : null };
+}
+
+
+// =====================================================================
+// 記録の間引き（容量対策）：同じ問題（一問一答は、同じ選択肢）の記録は、最新 KEEP_PER_KEY 件まで
+// =====================================================================
+const attemptKey = (a) => (a.mode === "drill" && a.choice_n != null ? drillKey(a.question_id, a.choice_n) : a.question_id);
+
+/** いま追加した記録 added と同じキーの記録のうち、古くて消してよいものの id を返す。 */
+export function pruneIds(attempts, added, keep = KEEP_PER_KEY) {
+  const key = attemptKey(added), drill = added.mode === "drill" && added.choice_n != null;
+  const same = attempts.filter((a) => (a.mode === "drill" && a.choice_n != null) === drill && attemptKey(a) === key)
+    .sort((x, y) => y.answered_at.localeCompare(x.answered_at));
+  return same.slice(keep).map((a) => a.id);
 }

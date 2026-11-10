@@ -1,6 +1,6 @@
 import { createLocalStore, createStore } from "./store.js";
 import { SUPABASE } from "./config.js";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillSummary, aggregate, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, RANK_ORDER } from "./logic.js";
+import { gradeAnswer, makeAttempt, pruneIds, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillSummary, aggregate, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, RANK_ORDER } from "./logic.js";
 import { esc, withBase, renderQuestion, renderResult, renderDrill, renderDrillResult, isMulti } from "./render.js";
 
 const cfg = window.PRACTICE_CONFIG;
@@ -252,13 +252,7 @@ async function answerDrill(judged) {
     + `<div class="pactions"><button type="button" class="reveal-like" id="p-next">${last ? "結果を見る" : "次の問題へ"}</button><span class="hint" id="p-hint"></span></div>`;
   $("#p-next").addEventListener("click", next);
   results.push({ id: `${q.id}#${item.n}`, ok });
-  const a = makeDrillAttempt(q, item, judged);
-  try {
-    const where = await store.add(a);
-    attempts.push(a);
-    await updateRecord();
-    if (where === "pending") $("#p-hint").textContent = "クラウドに送れなかったので、この端末に一時的に保存しました。つながったときに、自動で送ります。";
-  } catch { const h = $("#p-hint"); if (h) h.textContent = "この回答は、記録できませんでした（保存領域がいっぱいか、使えません）。"; }
+  await record(makeDrillAttempt(q, item, judged));
   const v = $("#p-result").querySelector(".pverdict"); v?.setAttribute("tabindex", "-1"); v?.focus({ preventScroll: false });
 }
 
@@ -300,16 +294,28 @@ async function check() {
   $("#p-check").textContent = last ? "結果を見る" : "次の問題へ";
   $("#p-hint").textContent = "";
   if (ok !== null) {
-    const a = makeAttempt(q, sel, ok, new Date(), undefined, runMode);
-    try {
-      const where = await store.add(a);
-      attempts.push(a);
-      await updateRecord();
-      if (where === "pending") $("#p-hint").textContent = "クラウドに送れなかったので、この端末に一時的に保存しました。つながったときに、自動で送ります。";
-    } catch { $("#p-hint").textContent = "この回答は、記録できませんでした（保存領域がいっぱいか、使えません）。"; }
+    await record(makeAttempt(q, sel, ok, new Date(), undefined, runMode));
   }
   $("#p-result").querySelector(".pverdict")?.setAttribute("tabindex", "-1");
   $("#p-result").querySelector(".pverdict")?.focus({ preventScroll: false });
+}
+
+/** 解答を記録し、同じ問題（選択肢）の古い記録を間引く。結果は、ボタンの横に出す。 */
+async function record(a) {
+  const hint = (t) => { const h = $("#p-hint"); if (h) h.textContent = t; };
+  try {
+    const where = await store.add(a);
+    if (where === "full") { hint("クラウドに保存できる記録の上限に達しているため、この解答は保存されませんでした。「解答の記録をすべて消す」で、記録を消すと、また保存できます。"); return; }
+    attempts.push(a);
+    const drop = pruneIds(attempts, a);
+    if (drop.length) {
+      const gone = new Set(drop);
+      attempts = attempts.filter((x) => !gone.has(x.id));
+      try { await store.remove(drop); } catch { /* 消せなくても、演習は続ける（次に同じ問題を解いたときに、また試す） */ }
+    }
+    await updateRecord();
+    if (where === "pending") hint("クラウドに送れなかったので、この端末に一時的に保存しました。つながったときに、自動で送ります。");
+  } catch { hint("この解答は、記録できませんでした（保存領域がいっぱいか、使えません）。"); }
 }
 
 function next() {
@@ -350,8 +356,9 @@ function renderAuth() {
   if (authUser) {
     const md = authUser.user_metadata || {};
     const name = md.name || md.full_name || authUser.email || "ログイン中";
-    box.innerHTML = `<span class="pauth-name">${esc(name)} でログイン中</span><button type="button" class="reset" id="p-logout">ログアウト</button>`;
+    box.innerHTML = `<span class="pauth-name">${esc(name)} でログイン中</span><button type="button" class="reset" id="p-logout">ログアウト</button><button type="button" class="reset" id="p-delacc">アカウントを削除</button>`;
     $("#p-logout").addEventListener("click", logout);
+    $("#p-delacc").addEventListener("click", deleteAccount);
   } else {
     box.innerHTML = `<button type="button" class="reveal-like" id="p-login">Google でログイン</button>`;
     $("#p-login").addEventListener("click", login);
@@ -370,6 +377,21 @@ async function login() {
 async function logout() {
   await authClient.auth.signOut();   // SIGNED_OUT で applySession(null) が呼ばれる
   authMsg("ログアウトしました。この端末には記録が残っていません（クラウドには残っています）。");
+}
+
+/** アカウント（ログインの登録情報）と、クラウドの記録を、本人が消す。データベースの関数 delete_my_account を呼ぶ。 */
+async function deleteAccount() {
+  if (!confirm("アカウント（メールアドレスなどの登録情報）と、クラウドに保存した解答の記録を、すべて削除します。元に戻せません。よろしいですか？")) return;
+  authMsg("アカウントを削除しています…");
+  const { error } = await authClient.rpc("delete_my_account");
+  if (error) {
+    const contact = cfg.contact ? `<a href="${esc(cfg.contact)}" target="_blank" rel="noopener">お問い合わせフォーム</a>` : "お問い合わせフォーム";
+    authMsg(`アカウントを削除できませんでした。お手数ですが、${contact}から、削除をご依頼ください。`, true);
+    return;
+  }
+  try { await authClient.auth.signOut({ scope: "local" }); } catch { /* 登録情報は消えているので、この端末のログイン状態だけ消せればよい */ }
+  await applySession(null);
+  authMsg("アカウントと、クラウドの解答の記録を削除しました。ご利用ありがとうございました。");
 }
 
 async function applySession(session) {

@@ -1,9 +1,9 @@
 // 演習機能のテスト（node tools/practice_test.mjs）。ビルド後（_site/data があるとき）は、全問題の描画も走査する。
 import fs from "node:fs";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary } from "../src/assets/practice/logic.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY } from "../src/assets/practice/logic.js";
 import { renderQuestion, renderResult, fixLinks, renderDrill, renderDrillResult, esc } from "../src/assets/practice/render.js";
 import { createLocalStore, createStore } from "../src/assets/practice/store.js";
-import { fetchAll, insertMany, deleteAll, PAGE } from "../src/assets/practice/cloud.js";
+import { fetchAll, insertMany, deleteAll, deleteByIds, PAGE } from "../src/assets/practice/cloud.js";
 
 let fail = 0;
 const ok = (cond, msg) => { if (!cond) { fail++; console.log("✗", msg); } };
@@ -171,12 +171,16 @@ function fakeClient(rows = [], opt = {}) {
       return {
         select: () => ({ order() { return this; }, range: (a, b) => Promise.resolve({ data: rows.slice(a, b + 1), error: null }) }),
         upsert: (list, o) => {
+          if (opt.full) return Promise.resolve({ error: { message: "new row violates row-level security policy", code: "42501" } });
           if (opt.failInsert) return Promise.resolve({ error: { message: "network" } });
           if (!o || o.onConflict !== "id" || o.ignoreDuplicates !== true) return Promise.resolve({ error: { message: "重複を無視する指定がない" } });
           for (const r of list) { if ("user_id" in r) return Promise.resolve({ error: { message: "user_id を送ってはいけない" } }); if (!rows.some((x) => x.id === r.id)) rows.push(r); }
           return Promise.resolve({ error: null });
         },
-        delete: () => ({ not: () => { rows.length = 0; return Promise.resolve({ error: null }); } }),
+        delete: () => ({
+          not: () => { rows.length = 0; return Promise.resolve({ error: null }); },
+          in: (col, ids) => { if (opt.failDelete) return Promise.resolve({ error: { message: "x" } }); for (const id of ids) { const i = rows.findIndex((r) => r[col] === id); if (i >= 0) rows.splice(i, 1); } return Promise.resolve({ error: null }); },
+        }),
       };
     },
   };
@@ -219,6 +223,41 @@ const A = (id, t = "2026-11-01T00:00:00.000Z") => ({ id, question_id: "q", choic
   eq(c4.rows.length, 0, "ログイン中の全削除（クラウド）");
   // 別のユーザーの未送信は混ざらない
   s.clearUser();
+}
+
+// --- 記録の間引き（同じ問題・同じ選択肢は、最新10件まで）
+{
+  const T = (i) => new Date(Date.UTC(2026, 0, 1) + i * 3600000).toISOString();
+  const N = (i, qid = "q", mode = "exam") => ({ id: `${qid}-${mode}-${i}`, question_id: qid, choice_n: null, mode, selected: "1", is_correct: true, answered_at: T(i) });
+  const Dr = (i, qid, n) => ({ id: `${qid}#${n}-${i}`, question_id: qid, choice_n: n, mode: "drill", selected: "true", is_correct: true, answered_at: T(i) });
+  eq(KEEP_PER_KEY, 10, "残す件数の既定値");
+  const ten = Array.from({ length: 10 }, (_, i) => N(i));
+  eq(pruneIds(ten, ten[9]), [], "10件までは消さない");
+  const eleven = [...ten, N(10, "q", "review")];
+  eq(pruneIds(eleven, eleven[10]), ["q-exam-0"], "11件目で、いちばん古い1件を消す（演習と復習は、同じ問題として数える）");
+  const many = Array.from({ length: 14 }, (_, i) => N(i));
+  eq(pruneIds(many, many[13]).sort(), ["q-exam-0", "q-exam-1", "q-exam-2", "q-exam-3"], "たまっていた分は、まとめて消す");
+  // 別の問題・一問一答の記録は、巻き込まない
+  const mix = [...Array.from({ length: 11 }, (_, i) => N(i, "q")), ...Array.from({ length: 11 }, (_, i) => N(i, "other")), ...Array.from({ length: 11 }, (_, i) => Dr(i, "q", 1)), ...Array.from({ length: 3 }, (_, i) => Dr(i, "q", 2))];
+  eq(pruneIds(mix, N(10, "q")), ["q-exam-0"], "同じ問題の、通常の記録だけ");
+  eq(pruneIds(mix, Dr(10, "q", 1)), ["q#1-0"], "一問一答は、同じ選択肢だけ");
+  eq(pruneIds(mix, Dr(2, "q", 2)), [], "別の選択肢は、数えない");
+  eq(pruneIds(eleven, eleven[10], 3).length, 8, "残す件数を変えられる");
+  // 保存層：端末の記録から消す／クラウドから消す／上限のとき
+  const mem3 = new Map(); const st3 = { getItem: (k) => (mem3.has(k) ? mem3.get(k) : null), setItem: (k, v) => mem3.set(k, v), removeItem: (k) => mem3.delete(k) };
+  const s3 = createStore(createLocalStore(st3));
+  for (const a of ten) await s3.add(a);
+  await s3.remove(["q-exam-0", "q-exam-1"]);
+  eq((await s3.load()).length, 8, "端末の記録の間引き");
+  const cl = fakeClient(ten.map((a) => ({ ...a })));
+  s3.setUser(cl, "u9");
+  await s3.remove(["q-exam-2", "nothing"]);
+  eq(cl.rows.length, 9, "クラウドの記録の間引き（ない id は無視）");
+  await deleteByIds(cl, Array.from({ length: 250 }, (_, i) => "x" + i)); eq(cl.rows.length, 9, "100件ずつに分けても落ちない");
+  s3.setUser(fakeClient([], { full: true }), "u9");
+  eq([await s3.add(N(99)), await s3.pendingCount()], ["full", 0], "上限に達したら、保存せず、未送信にも溜めない");
+  s3.setUser(fakeClient([], { failInsert: true }), "u9");
+  eq(await s3.add(N(98)), "pending", "通信の失敗は、これまでどおり未送信に溜める");
 }
 
 // --- リンク

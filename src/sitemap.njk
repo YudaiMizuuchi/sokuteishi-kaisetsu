@@ -8,6 +8,8 @@ eleventyExcludeFromCollections: true
 <url><loc>{{ "/chapter/" | absUrl }}</loc></url>
 <url><loc>{{ "/guide/" | absUrl }}</loc></url>
 <url><loc>{{ "/exam/" | absUrl }}</loc></url>
+<url><loc>{{ "/practice/" | absUrl }}</loc></url>
+<url><loc>{{ "/practice/privacy/" | absUrl }}</loc></url>
 {% for e in db.examPages %}<url><loc>{{ e.url | absUrl }}</loc></url>
 {% endfor %}{% for s in db.subjectPages %}<url><loc>{{ s.url | absUrl }}</loc></url>
 {% endfor %}

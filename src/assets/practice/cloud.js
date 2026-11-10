@@ -28,6 +28,14 @@ export async function insertMany(client, list) {
   }
 }
 
+/** id を指定して消す（間引き用） */
+export async function deleteByIds(client, ids) {
+  for (let i = 0; i < ids.length; i += 100) {
+    const { error } = await client.from("attempts").delete().in("id", ids.slice(i, i + 100));
+    if (error) throw error;
+  }
+}
+
 /** 自分の記録をすべて消す */
 export async function deleteAll(client) {
   const { error } = await client.from("attempts").delete().not("id", "is", null);
