@@ -80,3 +80,9 @@
 
 /* ログイン中の操作（ログアウト・アカウント削除） */
 #p-delacc { color: var(--muted); font-size: .82rem; }
+
+/* 成績の切り替え（五肢択一／一問一答） */
+.pview { display: inline-flex; margin: 0 0 12px; border: 1px solid var(--deep); border-radius: 999px; overflow: hidden; }
+.pview button { font: inherit; font-weight: 700; font-size: .92rem; padding: 6px 18px; border: 0; background: var(--surface); color: var(--deep); cursor: pointer; }
+.pview button[aria-pressed="true"] { background: var(--deep); color: var(--paper); }
+.pview button:focus-visible { outline: 3px solid var(--amber); outline-offset: -3px; }

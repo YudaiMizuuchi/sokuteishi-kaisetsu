@@ -12,6 +12,7 @@ export const INCLUDE_RANK_C = true;                   // 未解答の問題に�
 export const INCLUDE_RANK_D = false;                  // 未解答の問題に、区分 D を含めるか（既定）
 export const KEEP_PER_KEY = 10;                       // 同じ問題（一問一答は、同じ選択肢）の記録を、最新の何件まで残すか
 export const MIN_SOLVED_FOR_WEAK = 5;                 // 「弱い章」に数える、解いた問題数の下限
+export const MIN_SOLVED_FOR_WEAK_DRILL = 10;          // 〃（一問一答。選択肢の数で数える。1問が5肢なので、2問分）
 export const WEAK_CHAPTERS_SHOWN = 10;
 export const DRILL_RECENT_BONUS = 2;                  // 一問一答：直近の回に出た論点への加点（1回あたり）
 export const DRILL_RECENT_CAP = 3;                    // 〃（数える回数の上限）
@@ -254,4 +255,21 @@ export function pruneIds(attempts, added, keep = KEEP_PER_KEY) {
   const same = attempts.filter((a) => (a.mode === "drill" && a.choice_n != null) === drill && attemptKey(a) === key)
     .sort((x, y) => y.answered_at.localeCompare(x.answered_at));
   return same.slice(keep).map((a) => a.id);
+}
+
+
+/** 一問一答の成績：科目別・区分別・章別（章は、先頭の章だけ）。数える単位は、選択肢。 */
+export function aggregateDrill(items, dstats) {
+  const bySubject = new Map(), byRank = new Map(), byChapter = new Map();
+  for (const q of items) {
+    if (!q.drill) continue;
+    for (const item of q.drill.items) {
+      const s = dstats.get(drillKey(q.id, item.n));
+      addTo(bySubject, q.subject, q, s);
+      addTo(byRank, q.rank || "-", q, s);
+      if ((q.chapters || []).length) addTo(byChapter, q.chapters[0], q, s);
+    }
+  }
+  const out = (m) => [...m.values()].map(withRates);
+  return { bySubject: out(bySubject), byRank: out(byRank), byChapter: out(byChapter) };
 }

@@ -1,6 +1,6 @@
 // 演習機能のテスト（node tools/practice_test.mjs）。ビルド後（_site/data があるとき）は、全問題の描画も走査する。
 import fs from "node:fs";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY } from "../src/assets/practice/logic.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, aggregateDrill, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY } from "../src/assets/practice/logic.js";
 import { renderQuestion, renderResult, fixLinks, renderDrill, renderDrillResult, esc } from "../src/assets/practice/render.js";
 import { createLocalStore, createStore } from "../src/assets/practice/store.js";
 import { fetchAll, insertMany, deleteAll, deleteByIds, PAGE } from "../src/assets/practice/cloud.js";
@@ -127,6 +127,27 @@ eq(at, { id: "uuid-1", question_id: "q1", choice_n: null, mode: "exam", selected
   eq([rw2.picked.length, rw2.picked.filter((x) => x.q.id.startsWith("f")).length], [SESSION_SIZE, 2], "未解答を2問混ぜる");
   const sm = drillSummary([da("a", 1, true, 3), da("a", 1, false, 2), da("a", 2, true, 1), { ...da("b", null, true, 1), choice_n: null, mode: "exam" }]);
   eq([sm.solved, sm.n, sm.correct], [2, 3, 2], "一問一答の集計（通常の記録は数えない）");
+}
+
+// --- 一問一答の成績（選択肢の数で数える）
+{
+  const it = (n, truth) => ({ n, truth, point: "p" + n, pointName: "x", count: 1, recent: 0 });
+  const mq = (id, subject, rank, ch, ns) => ({ id, subject, rank, chapters: ch, exam: "e", num: 1, drill: ns ? { denom: 23, items: ns.map((n) => it(n, true)) } : null });
+  const qsd = [mq("a", "ippan", "S", ["c1", "c2"], [1, 2, 3, 4, 5]), mq("b", "ippan", "A", ["c1"], [1, 2]), mq("c", "hourei", "S", ["c3"], [1, 2, 3]), mq("t", "ippan", "S", ["c1"], null)];
+  const D = (id, n, ok, t) => ({ id: `${id}${n}${t}`, question_id: id, choice_n: n, mode: "drill", selected: "true", is_correct: ok, answered_at: t });
+  const att = [D("a", 1, true, "2026-11-01"), D("a", 1, false, "2026-11-02"), D("a", 2, true, "2026-11-01"), D("b", 1, false, "2026-11-01"),
+    { id: "n", question_id: "a", choice_n: null, mode: "exam", selected: "1", is_correct: true, answered_at: "2026-11-03" }];
+  const ag = aggregateDrill(qsd, drillStats(att));
+  const g = (arr, k) => arr.find((x) => x.key === k);
+  eq([g(ag.bySubject, "ippan").total, g(ag.bySubject, "ippan").solved, g(ag.bySubject, "ippan").n, g(ag.bySubject, "ippan").correct], [7, 3, 4, 2], "科目別：全選択肢7（drill のない問題は数えない）、解いた3肢、延べ4回、正解2");
+  eq(g(ag.bySubject, "ippan").latestAcc, 1 / 3, "直近の正解率（a#1 は最新が誤り、a#2 は正解、b#1 は誤り）");
+  eq([g(ag.bySubject, "hourei").total, g(ag.bySubject, "hourei").solved, g(ag.bySubject, "hourei").acc], [3, 0, null], "解いていない科目");
+  eq([g(ag.byRank, "S").total, g(ag.byRank, "S").solved, g(ag.byRank, "A").solved], [8, 2, 1], "区分別");
+  eq([g(ag.byChapter, "c1").total, g(ag.byChapter, "c1").solved], [7, 3], "章別（先頭の章だけ）");
+  ok(!ag.byChapter.some((x) => x.key === "c2"), "2番目以降の章は数えない");
+  eq(weakChapters(ag.byChapter, { min: 3 }).map((r) => r.key), ["c1"], "弱い章");
+  eq(aggregate(qsd, statsByQuestion(att)).bySubject.find((x) => x.key === "ippan").solved, 1, "五肢択一の成績には、一問一答の記録が入らない");
+  eq(aggregateDrill([], new Map()).bySubject.length, 0, "空でも落ちない");
 }
 
 // --- 成績

@@ -1,6 +1,6 @@
 import { createLocalStore, createStore } from "./store.js";
 import { SUPABASE } from "./config.js";
-import { gradeAnswer, makeAttempt, pruneIds, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillSummary, aggregate, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, RANK_ORDER } from "./logic.js";
+import { gradeAnswer, makeAttempt, pruneIds, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, aggregate, aggregateDrill, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, MIN_SOLVED_FOR_WEAK_DRILL, RANK_ORDER } from "./logic.js";
 import { esc, withBase, renderQuestion, renderResult, renderDrill, renderDrillResult, isMulti } from "./render.js";
 
 const cfg = window.PRACTICE_CONFIG;
@@ -11,7 +11,7 @@ const cache = {};
 let meta = null;
 let attempts = [];
 let queue = [], pos = 0, results = [], checked = false;
-const state = { tab: "exam", subjects: new Set(), exam: "", chapter: "", ranks: new Set(), scope: "all", order: "new" };
+const state = { tab: "exam", view: "exam", subjects: new Set(), exam: "", chapter: "", ranks: new Set(), scope: "all", order: "new" };
 let runMode = "exam";   // いま解いている回の種類（記録の mode）
 
 async function getJson(path, bust) {
@@ -45,6 +45,7 @@ function fillChapters() {
 function writeHash() {
   const p = new URLSearchParams();
   if (state.tab !== "exam") p.set("tab", state.tab);
+  if (state.tab === "stats" && state.view === "drill") p.set("view", "drill");
   if (state.subjects.size) p.set("subject", [...state.subjects].join(","));
   if (state.exam) p.set("exam", state.exam);
   if (state.chapter) p.set("chapter", state.chapter);
@@ -58,6 +59,7 @@ function readHash() {
   const split = (k) => (p.get(k) || "").split(",").filter(Boolean);
   const ids = meta.subjects.map((s) => s.id);
   state.tab = ["review", "drill", "stats"].includes(p.get("tab")) ? p.get("tab") : "exam";
+  state.view = p.get("view") === "drill" ? "drill" : "exam";
   state.subjects = new Set(split("subject").filter((s) => ids.includes(s)));
   state.ranks = new Set(split("rank").filter((r) => meta.ranks.includes(r)));
   state.exam = meta.exams.some((e) => e.key === p.get("exam")) ? p.get("exam") : "";
@@ -73,7 +75,7 @@ function readHash() {
   applyTab();
 }
 
-// ---- タブ（演習／復習／成績）
+// ---- タブ（五肢択一／復習／一問一答／成績）
 function applyTab() {
   document.querySelectorAll(".ptabs [role=tab]").forEach((b) => {
     const on = b.dataset.tab === state.tab;
@@ -156,49 +158,63 @@ const bar = (x) => `<span class="pbar" aria-hidden="true"><i style="width:${Math
 
 async function renderStats() {
   const stage = $("#p-stage");
-  const ids = [...new Set(attempts.filter((a) => a.choice_n == null && a.mode !== "drill").map((a) => subjectOfId(a.question_id)))]
-    .filter((id) => meta.subjects.some((s) => s.id === id));
+  const drill = state.view === "drill";
+  const isDrill = (a) => a.mode === "drill" && a.choice_n != null;
+  const mine = attempts.filter((a) => (drill ? isDrill(a) : a.choice_n == null && a.mode !== "drill"));
+  const hasOther = attempts.some((a) => (drill ? a.choice_n == null && a.mode !== "drill" : isDrill(a)));
+  // 切り替え（五肢択一／一問一答）
+  const toggle = `<div class="pview" role="group" aria-label="成績の種類">
+    <button type="button" data-view="exam" aria-pressed="${!drill}">五肢択一</button><button type="button" data-view="drill" aria-pressed="${drill}">一問一答</button></div>`;
+  const wire = () => stage.querySelectorAll(".pview [data-view]").forEach((b) => b.addEventListener("click", () => {
+    if (state.view === b.dataset.view) return;
+    state.view = b.dataset.view; writeHash(); renderStats();
+  }));
+  const unit = drill ? "肢" : "問", what = drill ? "選択肢" : "問題";
+  const ids = [...new Set(mine.map((a) => subjectOfId(a.question_id)))].filter((id) => meta.subjects.some((s) => s.id === id));
   if (!ids.length) {
-    const d = drillSummary(attempts);
-    stage.innerHTML = d.n
-      ? `<div class="pstats"><p>一問一答：解いた選択肢 <strong>${d.solved}</strong> 肢　通算の正答率 <strong>${pct(d.acc)}</strong>（延べ ${d.n} 回）</p><p class="hint">「演習」「復習」で問題を解くと、ここに科目別・区分別・章別の成績も出ます。</p></div>`
-      : `<div class="empty">まだ、解いた記録がありません。「演習」で問題を解くと、ここに科目別・区分別・章別の成績が出ます。</div>`;
-    return;
+    stage.innerHTML = `<div class="pstats">${toggle}<div class="empty">${drill
+      ? "まだ、一問一答の記録がありません。「一問一答」のタブで解くと、ここに科目別・区分別・章別の成績が出ます。"
+      : "まだ、五肢択一の記録がありません。「五肢択一」「復習」のタブで問題を解くと、ここに科目別・区分別・章別の成績が出ます。"}${hasOther ? `<br>（${drill ? "五肢択一" : "一問一答"}の記録はあります。上のボタンで切り替えられます。）` : ""}</div></div>`;
+    wire(); return;
   }
-  stage.innerHTML = `<div class="empty">成績を集計しています…</div>`;
+  stage.innerHTML = `<div class="pstats">${toggle}<div class="empty">成績を集計しています…</div></div>`;
   let items;
   try { items = (await Promise.all(ids.map(loadSubject))).flat(); }
-  catch (e) { stage.innerHTML = `<div class="empty">${esc(e.message)}。ページを再読み込みしてください。</div>`; return; }
-  if (state.tab !== "stats") return;   // 読み込み中に、別のタブへ移っていた
-  const stats = statsByQuestion(attempts);
-  const ag = aggregate(items, stats);
+  catch (e) { stage.innerHTML = `<div class="pstats">${toggle}<div class="empty">${esc(e.message)}。ページを再読み込みしてください。</div></div>`; wire(); return; }
+  if (state.tab !== "stats" || (state.view === "drill") !== drill) return;   // 読み込み中に、別の表示へ移っていた
+  const ag = drill ? aggregateDrill(items, drillStats(attempts)) : aggregate(items, statsByQuestion(attempts));
   const subjName = (id) => meta.subjects.find((s) => s.id === id)?.name || id;
   const chapterOf = (id) => meta.chapters.find((c) => c.id === id);
   const tot = ag.bySubject.reduce((t, g) => ({ solved: t.solved + g.solved, total: t.total + g.total, n: t.n + g.n, correct: t.correct + g.correct }), { solved: 0, total: 0, n: 0, correct: 0 });
   const rankName = (r) => ({ S: "得点必須S", A: "得点必須A", B: "何とか得点B", C: "余裕があれば得点C", D: "失点やむなしD", "-": "区分なし" }[r] || r);
   const row = (name, g) => `<tr><th scope="row">${name}</th><td class="num">${g.solved} / ${g.total}</td><td class="num">${bar(g.acc)}</td><td class="num">${pct(g.latestAcc)}</td></tr>`;
-  const head = (first) => `<thead><tr><th scope="col">${first}</th><th scope="col" class="num">解いた問題 / 全問題</th><th scope="col" class="num">通算の正答率</th><th scope="col" class="num">直近の正解率</th></tr></thead>`;
-  const weak = weakChapters(ag.byChapter);
+  const head = (first) => `<thead><tr><th scope="col">${first}</th><th scope="col" class="num">解いた${what} / 全${what}</th><th scope="col" class="num">通算の正答率</th><th scope="col" class="num">直近の正解率</th></tr></thead>`;
+  const minWeak = drill ? MIN_SOLVED_FOR_WEAK_DRILL : MIN_SOLVED_FOR_WEAK;
+  const weak = weakChapters(ag.byChapter, { min: minWeak });
   const weakHtml = weak.length ? `<ol class="pweak">${weak.map((g) => {
     const c = chapterOf(g.key) || { label: g.key, subject: "", bookUrl: null };
     const book = c.bookUrl ? `<a href="${withBase(cfg.base, c.bookUrl)}" target="_blank" rel="noopener">参考書の章を開く<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`
       : `<a href="${withBase(cfg.base, `/chapter/${g.key}/`)}" target="_blank" rel="noopener">この章の問題一覧を開く<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`;
-    return `<li><strong>${esc(c.label)}</strong>　通算の正答率 ${bar(g.acc)}（${g.solved} 問・延べ ${g.n} 回）<div class="links">${book}<a href="#tab=exam&subject=${encodeURIComponent(c.subject)}&chapter=${encodeURIComponent(g.key)}">この章で演習する</a></div></li>`;
-  }).join("")}</ol>` : `<p class="hint">まだ、判定できる章がありません（1つの章で、${MIN_SOLVED_FOR_WEAK} 問以上解くと、出ます）。</p>`;
+    const go = `<a href="#tab=${drill ? "drill" : "exam"}&subject=${encodeURIComponent(c.subject)}&chapter=${encodeURIComponent(g.key)}">${drill ? "この章を一問一答で解く" : "この章を五肢択一で解く"}</a>`;
+    return `<li><strong>${esc(c.label)}</strong>　通算の正答率 ${bar(g.acc)}（${g.solved} ${unit}・延べ ${g.n} 回）<div class="links">${book}${go}</div></li>`;
+  }).join("")}</ol>` : `<p class="hint">まだ、判定できる章がありません（1つの章で、${minWeak} ${unit}以上解くと、出ます）。</p>`;
   const ranks = RANK_ORDER.concat(["-"]).map((r) => ag.byRank.find((g) => g.key === r)).filter(Boolean);
   stage.innerHTML = `<div class="pstats">
-    <p class="hint">${store.signedIn ? "ログイン中の記録（クラウド）" : "この端末の記録"}から集計しています。解いたことのある科目だけが対象です。章は、問題の決め手の章（先頭の章）に数えます。</p>
+    ${toggle}
+    <p class="hint">${store.signedIn ? "ログイン中の記録（クラウド）" : "この端末の記録"}から集計しています。${drill
+      ? "一問一答の記録です（選択肢1つを、1問と数えます。穴埋め・組合せ・計算の問題は、一問一答の対象外です）。"
+      : "五肢択一の記録です（「五肢択一」と「復習」のタブで解いた分）。"}解いたことのある科目だけが対象です。章は、問題の決め手の章（先頭の章）に数えます。</p>
     <h2>全体</h2>
-    <p>解いた問題 <strong>${tot.solved}</strong> / ${tot.total} 問　通算の正答率 <strong>${pct(tot.n ? tot.correct / tot.n : null)}</strong>（延べ ${tot.n} 回）</p>
-    ${(() => { const d = drillSummary(attempts); return d.n ? `<p>一問一答：解いた選択肢 <strong>${d.solved}</strong> 肢　通算の正答率 <strong>${pct(d.acc)}</strong>（延べ ${d.n} 回）</p>` : ""; })()}
+    <p>解いた${what} <strong>${tot.solved}</strong> / ${tot.total} ${unit}　通算の正答率 <strong>${pct(tot.n ? tot.correct / tot.n : null)}</strong>（延べ ${tot.n} 回）</p>
     <h2>科目別</h2>
     <table><caption>科目ごとの解いた数と正答率</caption>${head("科目")}<tbody>${ag.bySubject.map((g) => row(esc(subjName(g.key)), g)).join("")}</tbody></table>
     <h2>区分別</h2>
     <table><caption>区分ごとの解いた数と正答率（区分は、過去の出題頻度から決めた学習の優先度）</caption>${head("区分")}<tbody>${ranks.map((g) => row(rankName(g.key), g)).join("")}</tbody></table>
     <h2>弱い章（正答率の低い順）</h2>
     ${weakHtml}
-    <p class="hint">通算の正答率＝これまでの全解答のうち、正解の割合。直近の正解率＝問題ごとの最新の解答だけで見た、正解の割合。</p>
+    <p class="hint">通算の正答率＝これまでの全解答のうち、正解の割合。直近の正解率＝${what}ごとの最新の解答だけで見た、正解の割合。同じ${what}の記録は、最新の10件までを残します。</p>
   </div>`;
+  wire();
   say("");
 }
 
@@ -329,7 +345,7 @@ function finish() {
   $("#p-stage").innerHTML = `<div class="q pq"><h2 class="qtitle">おつかれさまでした</h2>
     <p>${s.answered} 問を解きました。${s.graded ? `正解は <strong>${s.correct}</strong> 問（${Math.round((s.correct / s.graded) * 100)}%）でした。` : ""}</p>
     <p><button type="button" class="reveal-like" id="p-again">${runMode === "review" ? "続けて復習する（次の問題を選び直します）" : runMode === "drill" ? "続けて一問一答（次の選択肢を選び直します）" : "同じ条件でもう一度"}</button></p>
-    <p class="hint">${runMode === "review" ? "解いた結果をもとに、次に復習する問題を選び直します。「成績」のタブで、科目別・区分別・章別の正答率を見られます。" : runMode === "drill" ? "間違えた選択肢は、あとでもう一度出ます。正解した選択肢は、日をおいて出ます。" : "条件（左の欄）を変えて、「この条件で始める」を押すと、別の問題を解けます。「まだ解いていない問題」「間違えた問題」だけに絞ることもできます。"}</p></div>`;
+    <p class="hint">${runMode === "review" ? "解いた結果をもとに、次に復習する問題を選び直します。「成績」のタブで、科目別・区分別・章別の正答率を見られます。" : runMode === "drill" ? "間違えた選択肢は、あとでもう一度出ます。正解した選択肢は、日をおいて出ます。「成績」のタブで、一問一答の正答率も見られます。" : "条件（左の欄）を変えて、「この条件で始める」を押すと、別の問題を解けます。「まだ解いていない問題」「間違えた問題」だけに絞ることもできます。"}</p></div>`;
   $("#p-again").addEventListener("click", begin);
   say("");
 }
