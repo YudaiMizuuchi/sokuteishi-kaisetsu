@@ -39,13 +39,33 @@ def question(subj,e,n):
     if not d: return None
     for q in d['questions']:
         if str(q['num'])==str(n): return q
+def form(q):
+    """設問の形（執筆側が、選択肢の正誤を取り違えないための見出し）"""
+    st=clean(q['stem'])
+    if q.get('columns'): return '穴埋め・組合せ（表）'
+    if re.search(r'組合せ',st): return '組合せを選ぶ'
+    if qkind(q)=='calc': return '計算'
+    if NEG.search(st): return '誤っているもの（該当しないもの）を選ぶ'
+    if re.search(r'規定されていない|義務付けられていない|必要としない|含まれない|ないものはどれか',st): return '該当しないものを選ぶ'
+    if re.search(r'正しいもの|適切なもの|適当なもの',st): return '正しいものを選ぶ'
+    return '該当するものを選ぶ'
+def is_stmt(q):
+    """選択肢が、正誤を判定できる文か（語句・式・物質名でないか）"""
+    ch=[str(c) for c in (q.get('choices') or [])]
+    return (q.get('freq') or {}).get('kind')=='choice' and not q.get('columns') and sum(1 for c in ch if c.rstrip().endswith('。'))>=2
+FIGS=[]
 def show_q(subj,e,n,mark=None):
     q=question(subj,e,n)
     if not q or not q.get('choices'): return ''
     a=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
-    L=[f"**{e}|{subj}|{n}**（{era(e)} {SUBJ[subj]} 問{n}）",'',clean(q['stem']),'']
+    L=[f"**{e}|{subj}|{n}**（{era(e)} {SUBJ[subj]} 問{n}。設問の形：{form(q)}{'' if is_stmt(q) else '。選択肢は語句・式（記述の正誤ではなく、正答かどうかで読む）'}）",'',clean(q['stem']),'']
+    if q.get('columns'): L+=['（表の列：'+' ／ '.join(clean(c) for c in q['columns'])+'。各選択肢は、列の順に「／」で区切ってある）','']
     for i,c in enumerate(q['choices'],1): L.append(f"{i}. {clean(c)}"+('　← 正答' if i in a else ''))
-    if q.get('columns'): L.append('（穴埋めの表あり：'+clean(q['columns'])[:200]+'）')
+    ans=[x for x in a if isinstance(x,int)]
+    if ans: L+=['','正答：'+'、'.join(f"{x}（{clean(q['choices'][x-1])[:80]}）" for x in ans)]
+    elif a: L+=['','正答：'+str(a)]
+    for fg in q.get('figures') or []:
+        FIGS.append(fg['file']); L+=['',f"図：figs/{fg['file']}（同梱）。図の内容：{clean(fg.get('alt',''))}"]
     return '\n'.join(L)
 _G={}
 def _g():
@@ -77,7 +97,13 @@ def pack(cid):
         q=question(subj_,e,n)
         if not q: return '?'
         a=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
+        if not is_stmt(q): return '正答' if i in a else '正答でない'   # 語句・式の選択肢：記述の正誤ではない
+        tr=(q.get('freq') or {}).get('truths')
+        if tr and len(tr)>=i: return tr[i-1]
         neg=bool(NEG.search(str(q['stem']))); return '正' if ((i not in a) if neg else (i in a)) else '誤'
+    def ctext(subj_,e,n,i):
+        q=question(subj_,e,n)
+        return clean(q['choices'][i-1]) if q and q.get('choices') and 0<i<=len(q['choices']) else ''
     used=[]
     def _root(i):
         while pts.get(i) and pts[i].get('merged_into'): i=pts[i]['merged_into']
@@ -91,14 +117,24 @@ def pack(cid):
         p=dict(p); p['members']=sorted(set(_agg.get(pid,p['members'])))
         exs=sorted({k.split('|')[0] for k in p['members']})
         return (-len(exs),pid,p,exs)
+    ALLEX=set()
     def _line(r):
         _,pid,p,exs=r
-        ap=[]
-        for k in sorted(p['members'],reverse=True)[:6]:
-            e,n,i=k.split('|'); ap.append(f"{e}|{subj}|{n}"+("（問題）" if i=='0' else f"|{i}（{truth(subj,e,n,int(i))}）")); used.append((e,n))
-        return f"- **{pid}**　{p['name']}　〔{len(exs)}回：{ '、'.join(exs[-8:]) }〕　{ '、'.join(ap) }"
+        ap=[]; ALLEX.update(exs); rep={}
+        for k in sorted(p['members'],reverse=True):
+            e,n,i=k.split('|'); used.append((e,n))
+            if i=='0': ap.append(f"{e}|{subj}|{n}（問題）"); continue
+            t=truth(subj,e,n,int(i)); ap.append(f"{e}|{subj}|{n}|{i}（{t}）")
+            tx=ctext(subj,e,n,int(i))
+            if tx: rep.setdefault(t,[]); (tx not in [x[1] for x in rep[t]]) and rep[t].append((f"{e}|{subj}|{n}|{i}",tx))
+        out=f"- **{pid}**　{p['name']}　〔{len(exs)}回：{ '、'.join(exs) }〕　{ '、'.join(ap) }"
+        LAB={'正':'正しい形','誤':'誤りの形','正答':'正答になった語句','正答でない':'正答でない語句'}
+        for t in ('正','誤','正答','正答でない'):
+            for ref,tx in (rep.get(t) or [])[:(3 if t=='誤' else 2)]:
+                out+=f"\n    - {LAB[t]}（{ref}）：{tx[:300]}"
+        return out
     if ids:
-        L+=[f"## 論点（{len(ids)}件）",'','出題回数は、その論点が出た回の数（同じ回の重複は1回）。各出題は『回|科目|問|選択肢』と、その記述の正誤。','']
+        L+=[f"## 論点（{len(ids)}件）",'','出題回数は、その論点が出た回の数（同じ回の重複は1回）。〔n回：…〕は、出た回を全部並べてある（省略なし）。各出題は『回|科目|問|選択肢』と、その記述の正誤（語句・式の選択肢は「正答／正答でない」）。論点の下の行は、代表の選択肢の本文（正しい形は2つまで、誤りの形は3つまで）。','','@@TOTAL@@','']
         prs=list(ch.get('principles') or [])
         if len(prs)>1:   # 原理が複数の章：論点を、原理ごとに分けて並べる（原理に属さない論点は、最後）
             seen=set()
@@ -147,8 +183,8 @@ def pack(cid):
                 t=str(q['stem'])+' '+str(q['choices'][a[0]-1])
                 if METHOD.search(t) and any(p.search(t) for p in pats): used.append((e,q['num']))
     # 過去問（決め手になる問題）
-    _lim='40' if ch['kind']=='解法' else '25'
-    L+=[f'## この章に関わる過去問（新しい順、最大{_lim}問）'+('。解法の章：計算・穴埋め・組合せ・物質名を選ぶ問題。上の論点の一覧には、この科目の問題論点（qp-）をすべて載せている' if ch['kind']=='解法' else ''),'']
+    _lim='40' if ch['kind']=='解法' else '30'
+    L+=[f'## この章に関わる過去問（新しい順、最大{_lim}問。この章の論点が3つ以上入っている問と、問題論点の問）'+('。解法の章：計算・穴埋め・組合せ・物質名を選ぶ問題。上の論点の一覧には、この科目の問題論点（qp-）をすべて載せている' if ch['kind']=='解法' else ''),'']
     shown=[];seen=set()
     if ch['kind']=='解法':
         for e in sorted(os.listdir(os.path.join(root,'exams') if os.path.isdir(os.path.join(root,'exams')) else os.path.join(root,'data/exams')),reverse=True):
@@ -157,12 +193,22 @@ def pack(cid):
             for q in d['questions']:
                 if q.get('choices') and qkind(q)!='stmt' : shown.append((e,q['num']))
     else:
-        for e,n in sorted(set(used),reverse=True): shown.append((e,n))
-    LIM=40 if ch['kind']=='解法' else 25
+        # その章の論点が3つ以上入っている問（その章の主題の問）と、問題論点の問を、全文で載せる。ほかの問は、論点の下の「代表の選択肢」で読める
+        _cnt=collections.Counter(used); _qp=set()
+        for pid in ids:
+            if pid.startswith('qp-') and pts.get(pid):
+                for k in _agg.get(pid,pts[pid]['members']): _qp.add(tuple(k.split('|')[:2]))
+        for e,n in sorted(set(used),reverse=True):
+            if _cnt[(e,n)]>=3 or (e,n) in _qp or ch.get('substances'): shown.append((e,n))
+    LIM=40 if ch['kind']=='解法' else 30
     for e,n in shown[:LIM]:
         t=show_q(subj,e,n)
         if t: L+=[t,'']
-    return '\n'.join(L)
+    N={'ippan':23,'hourei':23,'design':23,'bunseki':23}.get(subj,12)
+    out='\n'.join(L).replace('@@TOTAL@@',f"**章全体（上の論点の和集合）：{len(ALLEX)}回／{N}回**（{'、'.join(sorted(ALLEX))}）" if ids else '')
+    if len(shown)>LIM: out+=f"\n\n（全文を載せる対象の過去問は {len(shown)} 問。新しい順に {LIM} 問までを載せた。載っていない問の選択肢は、論点の下の『代表の選択肢』で読める）"
+    return out
 
 if __name__=='__main__':
     print(pack(sys.argv[1]))
+    if FIGS: sys.stderr.write('FIGS '+' '.join(sorted(set(FIGS)))+'\n')

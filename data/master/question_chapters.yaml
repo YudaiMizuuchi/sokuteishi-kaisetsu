@@ -205,7 +205,7 @@
   r: []
 2015-08|hourei|17:
   p: [bk-hourei-th14]
-  r: [bk-hourei-th11, bk-hourei-th03, bk-hourei-tp01]
+  r: [bk-hourei-th11, bk-hourei-th03, bk-hourei-th09]
 2015-08|hourei|18:
   p: [bk-hourei-th01]
   r: []
@@ -219,8 +219,8 @@
   p: [bk-hourei-tp02]
   r: []
 2015-08|hourei|3:
-  p: [bk-hourei-th15]
-  r: [bk-hourei-th16, bk-hourei-tp01, bk-hourei-tp06]
+  p: [bk-hourei-th09, bk-hourei-th15]
+  r: [bk-hourei-th16]
 2015-08|hourei|4:
   p: [bk-hourei-th02]
   r: []
@@ -639,11 +639,11 @@
   p: [bk-hourei-th16, bk-hourei-forms]
   r: []
 2016-02|hourei|3:
-  p: [bk-hourei-th07]
-  r: [bk-hourei-th15, bk-hourei-th09, bk-hourei-th16]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th15, bk-hourei-th16]
 2016-02|hourei|4:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-tp06, bk-hourei-th12]
+  p: [bk-hourei-th09]
+  r: []
 2016-02|hourei|5:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -937,10 +937,10 @@
   r: []
 2016-08|hourei|20:
   p: [bk-hourei-th16]
-  r: [bk-hourei-tp06]
+  r: [bk-hourei-tp06, bk-hourei-th09]
 2016-08|hourei|3:
-  p: [bk-hourei-tp02]
-  r: [bk-hourei-tp06]
+  p: [bk-hourei-th09]
+  r: []
 2016-08|hourei|4:
   p: [bk-hourei-th02, bk-hourei-forms]
   r: []
@@ -1342,10 +1342,10 @@
   r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-tp03]
 2017-02|hourei|16:
   p: [bk-hourei-th17]
-  r: [bk-hourei-tp01, bk-hourei-th02, bk-hourei-th07]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th09]
 2017-02|hourei|17:
   p: [bk-hourei-th14]
-  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th10, bk-hourei-th11]
 2017-02|hourei|18:
   p: [bk-hourei-th01]
   r: [bk-hourei-tp03]
@@ -1359,8 +1359,8 @@
   p: [bk-hourei-tp02]
   r: []
 2017-02|hourei|3:
-  p: [bk-hourei-th15]
-  r: [bk-hourei-th09, bk-hourei-tp01, bk-hourei-tp06]
+  p: [bk-hourei-th09, bk-hourei-th15]
+  r: []
 2017-02|hourei|4:
   p: [bk-hourei-th02]
   r: []
@@ -1627,13 +1627,13 @@
   r: [bk-hourei-th06]
 2017-08|hourei|11:
   p: [bk-hourei-tp03]
-  r: [bk-hourei-th03, bk-hourei-tp01]
+  r: [bk-hourei-th03, bk-hourei-th09]
 2017-08|hourei|12:
   p: [bk-hourei-th13]
   r: []
 2017-08|hourei|13:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th10]
 2017-08|hourei|14:
   p: [bk-hourei-th12]
   r: []
@@ -1659,14 +1659,14 @@
   p: [bk-hourei-tp03]
   r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th11]
 2017-08|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09, bk-hourei-th16, bk-hourei-tp06]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th16]
 2017-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
 2017-08|hourei|5:
-  p: [bk-hourei-th13]
-  r: [bk-hourei-th02, bk-hourei-th16, bk-hourei-tp01]
+  p: [bk-hourei-th02, bk-hourei-th13]
+  r: [bk-hourei-th16]
 2017-08|hourei|6:
   p: [bk-hourei-th16]
   r: [bk-hourei-th03]
@@ -2053,7 +2053,7 @@
   r: []
 2018-02|hourei|13:
   p: [bk-hourei-th07]
-  r: [bk-hourei-th03, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th02, bk-hourei-th10]
 2018-02|hourei|14:
   p: [bk-hourei-th12]
   r: []
@@ -2076,11 +2076,11 @@
   p: [bk-hourei-th07]
   r: []
 2018-02|hourei|20:
-  p: [bk-hourei-tp03]
-  r: [bk-hourei-th12]
+  p: [bk-hourei-tp06]
+  r: [bk-hourei-th12, bk-hourei-tp03]
 2018-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-tp06]
+  p: [bk-hourei-th09]
+  r: []
 2018-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -2352,8 +2352,8 @@
   p: [bk-hourei-th13]
   r: []
 2018-08|hourei|13:
-  p: [bk-hourei-th13]
-  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-tp03]
+  p: [bk-hourei-th02, bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-tp06]
 2018-08|hourei|14:
   p: [bk-hourei-th12]
   r: []
@@ -2365,7 +2365,7 @@
   r: []
 2018-08|hourei|17:
   p: [bk-hourei-th14]
-  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th10, bk-hourei-th11]
 2018-08|hourei|18:
   p: [bk-hourei-th01]
   r: [bk-hourei-tp03]
@@ -2379,8 +2379,8 @@
   p: [bk-hourei-th11]
   r: [bk-hourei-tp03, bk-hourei-th07, bk-hourei-tp06]
 2018-08|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th15, bk-hourei-th09]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th15]
 2018-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -2773,7 +2773,7 @@
   r: []
 2019-02|hourei|13:
   p: [bk-hourei-th07]
-  r: [bk-hourei-th03, bk-hourei-th13, bk-hourei-tp03]
+  r: [bk-hourei-th03, bk-hourei-th13, bk-hourei-th02]
 2019-02|hourei|14:
   p: [bk-hourei-th12, bk-hourei-forms]
   r: []
@@ -2785,7 +2785,7 @@
   r: []
 2019-02|hourei|17:
   p: [bk-hourei-th14]
-  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th10, bk-hourei-th11]
 2019-02|hourei|18:
   p: [bk-hourei-th01]
   r: [bk-hourei-tp03]
@@ -2799,8 +2799,8 @@
   p: [bk-hourei-tp02]
   r: [bk-hourei-th03, bk-hourei-tp03, bk-hourei-tp06]
 2019-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09, bk-hourei-th16]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th16]
 2019-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -2815,7 +2815,7 @@
   r: []
 2019-02|hourei|8:
   p: []
-  r: [bk-hourei-th07, bk-hourei-th12, bk-hourei-tp01]
+  r: [bk-hourei-th04, bk-hourei-th07, bk-hourei-th12]
 2019-02|hourei|9:
   p: [bk-hourei-tp05]
   r: [bk-hourei-th05, bk-hourei-th16]
@@ -3073,7 +3073,7 @@
   r: []
 2019-08|hourei|13:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th10]
 2019-08|hourei|14:
   p: [bk-hourei-th12]
   r: []
@@ -3099,8 +3099,8 @@
   p: [bk-hourei-th11]
   r: [bk-hourei-tp02, bk-hourei-th03, bk-hourei-th07]
 2019-08|hourei|3:
-  p: [bk-hourei-th15]
-  r: [bk-hourei-tp01, bk-hourei-th09, bk-hourei-th16]
+  p: [bk-hourei-th09, bk-hourei-th15]
+  r: [bk-hourei-th16]
 2019-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -3109,7 +3109,7 @@
   r: [bk-hourei-th01, bk-hourei-th16]
 2019-08|hourei|6:
   p: [bk-hourei-th02]
-  r: [bk-hourei-th16, bk-hourei-tp01, bk-hourei-tp06]
+  r: [bk-hourei-th16]
 2019-08|hourei|7:
   p: [bk-hourei-tp07]
   r: []
@@ -3493,7 +3493,7 @@
   r: []
 2020-02|hourei|13:
   p: [bk-hourei-th07]
-  r: [bk-hourei-th03, bk-hourei-th13, bk-hourei-tp03]
+  r: [bk-hourei-th13, bk-hourei-th02, bk-hourei-th03]
 2020-02|hourei|14:
   p: [bk-hourei-th12]
   r: []
@@ -3517,10 +3517,10 @@
   r: []
 2020-02|hourei|20:
   p: [bk-hourei-th16]
-  r: [bk-hourei-tp02, bk-hourei-tp01]
+  r: [bk-hourei-tp02, bk-hourei-th09]
 2020-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09, bk-hourei-th16]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th16]
 2020-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -3793,7 +3793,7 @@
   r: []
 2020-08|hourei|13:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th10]
 2020-08|hourei|14:
   p: [bk-hourei-th12, bk-hourei-forms]
   r: []
@@ -3805,7 +3805,7 @@
   r: [bk-hourei-th07, bk-hourei-tp01]
 2020-08|hourei|17:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th10, bk-hourei-th11, bk-hourei-tp01]
+  r: [bk-hourei-th09, bk-hourei-th10, bk-hourei-th11]
 2020-08|hourei|18:
   p: [bk-hourei-th01]
   r: [bk-hourei-tp03]
@@ -3819,8 +3819,8 @@
   p: [bk-hourei-tp02]
   r: [bk-hourei-th07, bk-hourei-tp03]
 2020-08|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09, bk-hourei-th15]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th15]
 2020-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -4212,8 +4212,8 @@
   p: [bk-hourei-th13]
   r: []
 2021-02|hourei|13:
-  p: [bk-hourei-th13]
-  r: [bk-hourei-th03, bk-hourei-tp03, bk-hourei-tp06]
+  p: [bk-hourei-th02, bk-hourei-th13]
+  r: [bk-hourei-th03, bk-hourei-tp06]
 2021-02|hourei|14:
   p: [bk-hourei-th12]
   r: [bk-hourei-tp03]
@@ -4221,8 +4221,8 @@
   p: [bk-hourei-th17]
   r: [bk-hourei-th07]
 2021-02|hourei|16:
-  p: [bk-hourei-th13]
-  r: [bk-hourei-tp02, bk-hourei-th14, bk-hourei-tp01]
+  p: [bk-hourei-th02, bk-hourei-th13]
+  r: [bk-hourei-tp02, bk-hourei-th09, bk-hourei-th14]
 2021-02|hourei|17:
   p: [bk-hourei-th01]
   r: [bk-hourei-tp03]
@@ -4239,8 +4239,8 @@
   p: [bk-hourei-tp02]
   r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-tp06]
 2021-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09, bk-hourei-th16]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th16]
 2021-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -4513,7 +4513,7 @@
   r: []
 2021-08|hourei|13:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th10]
 2021-08|hourei|14:
   p: [bk-hourei-th12, bk-hourei-th13, bk-hourei-forms]
   r: []
@@ -4524,7 +4524,7 @@
   p: [bk-hourei-th17]
   r: []
 2021-08|hourei|17:
-  p: [bk-hourei-th13]
+  p: [bk-hourei-th02, bk-hourei-th13]
   r: [bk-hourei-th03, bk-hourei-th10, bk-hourei-th11]
 2021-08|hourei|18:
   p: [bk-hourei-th01]
@@ -4539,8 +4539,8 @@
   p: [bk-hourei-th11]
   r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-tp06]
 2021-08|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th15, bk-hourei-th09]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th15]
 2021-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -4932,7 +4932,7 @@
   p: [bk-hourei-th13]
   r: []
 2022-02|hourei|13:
-  p: [bk-hourei-th13]
+  p: [bk-hourei-th02, bk-hourei-th13]
   r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
 2022-02|hourei|14:
   p: [bk-hourei-th12, bk-hourei-th13, bk-hourei-forms]
@@ -4951,7 +4951,7 @@
   r: [bk-hourei-tp03]
 2022-02|hourei|19:
   p: [bk-hourei-th16]
-  r: [bk-hourei-tp06]
+  r: [bk-hourei-th09, bk-hourei-tp06]
 2022-02|hourei|2:
   p: [bk-hourei-th07]
   r: [bk-hourei-tp01]
@@ -4959,8 +4959,8 @@
   p: [bk-hourei-th03]
   r: [bk-hourei-tp02, bk-hourei-th07, bk-hourei-tp03]
 2022-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09]
+  p: [bk-hourei-th09]
+  r: []
 2022-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -5233,25 +5233,25 @@
   r: []
 2022-08|hourei|13:
   p: [bk-hourei-th13]
-  r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
+  r: [bk-hourei-th02, bk-hourei-th03, bk-hourei-th07]
 2022-08|hourei|14:
   p: [bk-hourei-th12, bk-hourei-th13, bk-hourei-forms]
   r: []
 2022-08|hourei|15:
   p: [bk-hourei-th12]
-  r: [bk-hourei-th07, bk-hourei-th13]
+  r: [bk-hourei-th07]
 2022-08|hourei|16:
   p: [bk-hourei-th17]
   r: []
 2022-08|hourei|17:
   p: [bk-hourei-th14]
-  r: [bk-hourei-th03, bk-hourei-th11, bk-hourei-tp01]
+  r: [bk-hourei-th03, bk-hourei-th09, bk-hourei-th11]
 2022-08|hourei|18:
   p: [bk-hourei-th01]
   r: [bk-hourei-tp03]
 2022-08|hourei|19:
   p: [bk-hourei-th02]
-  r: [bk-hourei-th16, bk-hourei-tp06]
+  r: [bk-hourei-th16, bk-hourei-th09, bk-hourei-tp06]
 2022-08|hourei|2:
   p: [bk-hourei-th07]
   r: []
@@ -5259,8 +5259,8 @@
   p: [bk-hourei-tp02]
   r: [bk-hourei-th07, bk-hourei-tp03, bk-hourei-tp06]
 2022-08|hourei|3:
-  p: [bk-hourei-th15]
-  r: [bk-hourei-th09, bk-hourei-tp01]
+  p: [bk-hourei-th09, bk-hourei-th15]
+  r: []
 2022-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -5652,7 +5652,7 @@
   p: [bk-hourei-th13]
   r: []
 2023-02|hourei|13:
-  p: [bk-hourei-th13]
+  p: [bk-hourei-th02, bk-hourei-th13]
   r: [bk-hourei-th03, bk-hourei-th07, bk-hourei-th10]
 2023-02|hourei|14:
   p: [bk-hourei-th12, bk-hourei-th13, bk-hourei-forms]
@@ -5671,7 +5671,7 @@
   r: [bk-hourei-tp03]
 2023-02|hourei|19:
   p: [bk-hourei-th16]
-  r: [bk-hourei-tp06]
+  r: [bk-hourei-th09, bk-hourei-tp06]
 2023-02|hourei|2:
   p: [bk-hourei-th07]
   r: [bk-hourei-tp01]
@@ -5679,8 +5679,8 @@
   p: [bk-hourei-th03]
   r: [bk-hourei-tp02, bk-hourei-th07, bk-hourei-tp03]
 2023-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09]
+  p: [bk-hourei-th09]
+  r: []
 2023-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -5953,7 +5953,7 @@
   r: [bk-hourei-tp06]
 2023-08|hourei|13:
   p: [bk-hourei-th12]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th07, bk-hourei-th02, bk-hourei-th10]
 2023-08|hourei|14:
   p: [bk-hourei-th12, bk-hourei-th13, bk-hourei-forms]
   r: []
@@ -5965,18 +5965,18 @@
   r: [bk-hourei-th17]
 2023-08|hourei|17:
   p: [bk-hourei-th14]
-  r: [bk-hourei-th03, bk-hourei-th11, bk-hourei-tp01]
+  r: [bk-hourei-th03, bk-hourei-th09, bk-hourei-th11]
 2023-08|hourei|18:
   p: [bk-hourei-th01]
   r: []
 2023-08|hourei|19:
   p: [bk-hourei-th16]
-  r: [bk-hourei-tp06]
+  r: [bk-hourei-tp06, bk-hourei-th09]
 2023-08|hourei|2:
   p: [bk-hourei-th07]
   r: [bk-hourei-tp01]
 2023-08|hourei|20:
-  p: [bk-hourei-tp01]
+  p: [bk-hourei-th09]
   r: [bk-hourei-th07, bk-hourei-th03, bk-hourei-tp05]
 2023-08|hourei|3:
   p: [bk-hourei-th09]
@@ -6373,7 +6373,7 @@
   r: []
 2024-02|hourei|13:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th04, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th04, bk-hourei-th10]
 2024-02|hourei|14:
   p: [bk-hourei-th12, bk-hourei-th13, bk-hourei-forms]
   r: []
@@ -6384,7 +6384,7 @@
   p: [bk-hourei-th17]
   r: []
 2024-02|hourei|17:
-  p: [bk-hourei-th13]
+  p: [bk-hourei-th02, bk-hourei-th13]
   r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-th11]
 2024-02|hourei|18:
   p: [bk-hourei-th01]
@@ -6397,10 +6397,10 @@
   r: []
 2024-02|hourei|20:
   p: [bk-hourei-th13]
-  r: []
+  r: [bk-hourei-th02]
 2024-02|hourei|3:
-  p: [bk-hourei-tp01]
-  r: [bk-hourei-th09, bk-hourei-th16]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th16]
 2024-02|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -6409,7 +6409,7 @@
   r: [bk-hourei-th03, bk-hourei-th05, bk-hourei-th16]
 2024-02|hourei|6:
   p: [bk-hourei-th02]
-  r: [bk-hourei-th16, bk-hourei-tp01]
+  r: [bk-hourei-th16]
 2024-02|hourei|7:
   p: [bk-hourei-tp07]
   r: []
@@ -6699,8 +6699,8 @@
   p: [bk-hourei-th11]
   r: [bk-hourei-th02, bk-hourei-th10, bk-hourei-tp05]
 2024-08|hourei|3:
-  p: []
-  r: [bk-hourei-tp06, bk-hourei-th15, bk-hourei-tp01]
+  p: [bk-hourei-th09]
+  r: [bk-hourei-th15]
 2024-08|hourei|4:
   p: [bk-hourei-th03, bk-hourei-th17, bk-hourei-forms]
   r: []
@@ -6708,8 +6708,8 @@
   p: [bk-hourei-th03]
   r: [bk-hourei-th01, bk-hourei-th04, bk-hourei-th05]
 2024-08|hourei|6:
-  p: [bk-hourei-tp02]
-  r: [bk-hourei-th16, bk-hourei-tp01, bk-hourei-tp06]
+  p: [bk-hourei-th02, bk-hourei-th13]
+  r: [bk-hourei-th16]
 2024-08|hourei|7:
   p: [bk-hourei-tp07]
   r: []
@@ -7093,7 +7093,7 @@
   r: []
 2025-02|hourei|13:
   p: [bk-hourei-th10]
-  r: [bk-hourei-th07, bk-hourei-th13, bk-hourei-tp06]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th13]
 2025-02|hourei|14:
   p: [bk-hourei-th12]
   r: []
@@ -7104,7 +7104,7 @@
   p: [bk-hourei-th17]
   r: [bk-hourei-th07]
 2025-02|hourei|17:
-  p: [bk-hourei-tp01]
+  p: [bk-hourei-th09]
   r: [bk-hourei-tp02, bk-hourei-th14]
 2025-02|hourei|18:
   p: [bk-hourei-th07]
@@ -7393,7 +7393,7 @@
   r: []
 2025-08|hourei|13:
   p: [bk-hourei-th07]
-  r: [bk-hourei-th10, bk-hourei-th13, bk-hourei-tp01]
+  r: [bk-hourei-th02, bk-hourei-th09, bk-hourei-th10]
 2025-08|hourei|14:
   p: [bk-hourei-th12, bk-hourei-forms]
   r: []
@@ -7417,7 +7417,7 @@
   r: []
 2025-08|hourei|20:
   p: [bk-hourei-th03]
-  r: [bk-hourei-th07, bk-hourei-tp03, bk-hourei-tp06]
+  r: [bk-hourei-tp06, bk-hourei-th07, bk-hourei-tp03]
 2025-08|hourei|3:
   p: [bk-hourei-th07]
   r: [bk-hourei-tp01]
@@ -7425,8 +7425,8 @@
   p: [bk-hourei-tp07]
   r: [bk-hourei-tp03]
 2025-08|hourei|5:
-  p: [bk-hourei-th15]
-  r: [bk-hourei-th02, bk-hourei-th13]
+  p: [bk-hourei-th02, bk-hourei-th15]
+  r: [bk-hourei-th13]
 2025-08|hourei|6:
   p: [bk-hourei-th04]
   r: [bk-hourei-th16]
@@ -7813,7 +7813,7 @@
   r: []
 2026-02|hourei|13:
   p: [bk-hourei-tp06]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th13]
+  r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th10]
 2026-02|hourei|14:
   p: [bk-hourei-th12, bk-hourei-forms]
   r: []
@@ -7821,8 +7821,8 @@
   p: []
   r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th12]
 2026-02|hourei|16:
-  p: [bk-hourei-th13]
-  r: [bk-hourei-th07, bk-hourei-th10, bk-hourei-th17]
+  p: [bk-hourei-th02, bk-hourei-th04, bk-hourei-th13]
+  r: [bk-hourei-th07, bk-hourei-th09, bk-hourei-th10]
 2026-02|hourei|17:
   p: [bk-hourei-th11]
   r: [bk-hourei-th03, bk-hourei-th10]
@@ -7839,14 +7839,14 @@
   p: [bk-hourei-tp06]
   r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th11]
 2026-02|hourei|3:
-  p: [bk-hourei-tp01]
+  p: [bk-hourei-th09]
   r: [bk-hourei-th16]
 2026-02|hourei|4:
   p: [bk-hourei-tp07]
   r: []
 2026-02|hourei|5:
   p: [bk-hourei-th15]
-  r: [bk-hourei-th02]
+  r: [bk-hourei-th02, bk-hourei-th09]
 2026-02|hourei|6:
   p: [bk-hourei-th04]
   r: []
@@ -8125,7 +8125,7 @@
   r: [bk-hourei-th17, bk-hourei-th07, bk-hourei-th10]
 2026-08|hourei|17:
   p: [bk-hourei-th04]
-  r: [bk-hourei-tp02, bk-hourei-th10, bk-hourei-tp01]
+  r: [bk-hourei-tp02, bk-hourei-th09, bk-hourei-th10]
 2026-08|hourei|18:
   p: []
   r: [bk-hourei-th07, bk-hourei-th03, bk-hourei-th10]
@@ -8146,7 +8146,7 @@
   r: []
 2026-08|hourei|5:
   p: [bk-hourei-th02]
-  r: [bk-hourei-th04, bk-hourei-th07]
+  r: [bk-hourei-th04, bk-hourei-th13, bk-hourei-th15]
 2026-08|hourei|6:
   p: [bk-hourei-th04]
   r: [bk-hourei-th13]
