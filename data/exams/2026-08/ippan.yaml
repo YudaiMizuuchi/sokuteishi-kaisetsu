@@ -1193,19 +1193,19 @@ questions:
     prcounts:
     - 0
     - 2
-    - 0
+    - 6
     - 0
     - 0
     principles:
     - ''
     - pr-ippan-0011
-    - ''
+    - pr-ippan-0012
     - ''
     - ''
     prnames:
     - ''
     - 点音源の距離減衰（逆2乗則）
-    - ''
+    - デシベル（対数）の性質と音の合成
     - ''
     - ''
     trend:
@@ -1238,7 +1238,7 @@ questions:
     tags:
     - ans_new
     - ''
-    - new
+    - odo
     - ''
     - odo
 - num: 14

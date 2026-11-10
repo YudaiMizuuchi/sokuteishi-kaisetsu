@@ -2071,6 +2071,9 @@ principles:
   points:
   - pt-ippan-0297
   - pt-ippan-0544
+  - pt-ippan-0593
+  - pt-ippan-0696
+  - pt-ippan-0765
 - id: pr-ippan-0013
   subject: ippan
   name: 音の周波数特性と聴力
@@ -2471,8 +2474,13 @@ principles:
   - 第1評価値
   - 第2評価値
   points:
+  - pt-design-0002
+  - pt-design-0003
+  - pt-design-0032
   - pt-design-0126
   - pt-design-0385
+  - pt-design-0485
+  - pt-design-0487
 - id: pr-design-0006
   subject: design
   name: 誤差の種類（偶然誤差・系統誤差）と標本数
