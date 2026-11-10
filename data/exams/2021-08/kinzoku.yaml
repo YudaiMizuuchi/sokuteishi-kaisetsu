@@ -46,6 +46,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 2
@@ -75,6 +76,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 3
@@ -118,6 +120,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
+    fresh: false
     level: S
     why: q_hi
 - num: 4
@@ -213,6 +216,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -318,6 +322,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -422,6 +427,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -526,6 +532,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -632,6 +639,7 @@ questions:
     - - 2020-08
       - 2025-08
       - 2026-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -737,6 +745,7 @@ questions:
     - []
     - - 2026-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: B
@@ -844,6 +853,7 @@ questions:
     - - 2018-08
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -948,6 +958,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
@@ -1057,6 +1068,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: S
@@ -1164,6 +1176,7 @@ questions:
       - 2024-08
     - - 2024-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1271,6 +1284,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1375,6 +1389,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: A
@@ -1486,6 +1501,7 @@ questions:
       - 2020-08
       - 2022-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: S
@@ -1592,6 +1608,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: B
@@ -1703,6 +1720,7 @@ questions:
       - 2017-08
       - 2020-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: S
@@ -1812,6 +1830,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4009
     subst_name: ニッケル化合物
     level: A
@@ -1861,5 +1880,6 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    fresh: false
     level: D
     why: q_new

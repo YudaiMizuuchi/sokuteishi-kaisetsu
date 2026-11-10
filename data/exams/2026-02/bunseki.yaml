@@ -36,6 +36,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: pat_A
     pat: an-units-01
@@ -81,6 +82,7 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 3
@@ -179,6 +181,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -218,6 +221,7 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 5
@@ -266,6 +270,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 6
@@ -302,6 +307,7 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
+    fresh: true
     level: S
     why: pat_S
     pat: an-reaction-01
@@ -401,12 +407,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - ''
-    - ans_new
+    - ans_fresh
     - ''
     - new
 - num: 8
@@ -505,11 +512,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
-    - ans_new
+    - ans_fresh
     - odo
     - new
     - new
@@ -609,13 +617,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
 - num: 10
   status: published
@@ -647,8 +656,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 11
   status: published
   chapters:
@@ -695,6 +705,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: true
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -796,13 +807,14 @@ questions:
     - - 2024-08
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
     - ''
-    - ans_new
+    - ans_fresh
     - odo
 - num: 13
   status: published
@@ -901,6 +913,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pr_A
     tags:
@@ -952,6 +965,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 15
@@ -1050,13 +1064,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
     - new
-    - ans_new
+    - ans_fresh
     - ''
 - num: 16
   status: published
@@ -1094,8 +1109,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 17
   status: published
   chapters:
@@ -1192,6 +1208,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1236,6 +1253,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: true
     level: S
     why: q_hi
 - num: 19
@@ -1334,6 +1352,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1372,5 +1391,6 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
+    fresh: true
     level: C
     why: q_seen

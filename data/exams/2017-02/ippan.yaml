@@ -96,6 +96,7 @@ questions:
     - []
     - []
     - - 2017-08
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -198,6 +199,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -302,6 +304,7 @@ questions:
     - - 2017-08
       - 2018-08
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -340,6 +343,7 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: pat_S
     pat: gn-absorption-01
@@ -436,6 +440,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -538,6 +543,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -576,6 +582,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 8
@@ -674,6 +681,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -776,6 +784,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -881,6 +890,7 @@ questions:
       - 2020-08
       - 2022-02
       - 2023-02
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -984,6 +994,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -1090,6 +1101,7 @@ questions:
       - 2022-02
       - 2023-02
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1140,6 +1152,7 @@ questions:
     denom: 23
     count: 7
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: pat_S
     pat: gn-em-waves-01
@@ -1236,6 +1249,7 @@ questions:
     - - 2020-02
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1341,6 +1355,7 @@ questions:
     - []
     - - 2020-02
     - - 2021-02
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1449,6 +1464,7 @@ questions:
       - 2024-08
     - []
     - - 2021-02
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1552,6 +1568,7 @@ questions:
       - 2022-02
       - 2023-02
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -1659,6 +1676,7 @@ questions:
       - 2018-08
       - 2020-08
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1761,6 +1779,7 @@ questions:
     - []
     - - 2021-02
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1870,6 +1889,7 @@ questions:
       - 2021-02
       - 2022-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:

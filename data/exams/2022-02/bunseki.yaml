@@ -99,6 +99,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -144,6 +145,7 @@ questions:
     prid: pr-bunseki-0025
     prname: 誤差と統計量
     prcount: 7
+    fresh: false
     level: B
     why: pr_B
 - num: 3
@@ -179,6 +181,7 @@ questions:
     prid: pr-bunseki-0014
     prname: 気体の状態方程式
     prcount: 4
+    fresh: false
     level: C
     why: q_seen
 - num: 4
@@ -220,6 +223,7 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
+    fresh: false
     level: B
     why: q_b
 - num: 5
@@ -265,6 +269,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-logarithm-01
@@ -305,6 +310,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 7
@@ -406,6 +412,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -511,6 +518,7 @@ questions:
     - - 2019-08
       - 2021-02
     - - 2023-08
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -551,6 +559,7 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
+    fresh: false
     level: B
     why: q_b
 - num: 10
@@ -649,6 +658,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -696,6 +706,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-mole-03
@@ -800,6 +811,7 @@ questions:
       - 2023-02
     - - 2019-08
       - 2023-02
+    fresh: false
     level: C
     why: seen
     tags:
@@ -905,6 +917,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -949,6 +962,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: false
     level: S
     why: q_hi
 - num: 15
@@ -1050,6 +1064,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1154,6 +1169,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -1261,6 +1277,7 @@ questions:
     - []
     - - 2024-02
     - []
+    fresh: false
     level: S
     why: trend_S
     tags:
@@ -1302,6 +1319,7 @@ questions:
     prid: pr-bunseki-0028
     prname: 理論段数と理論段相当高さ
     prcount: 4
+    fresh: false
     level: C
     why: q_seen
 - num: 19
@@ -1400,6 +1418,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1443,6 +1462,7 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
+    fresh: false
     level: A
     why: pat_A
     pat: an-radiation-01

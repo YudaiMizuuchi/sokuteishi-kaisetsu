@@ -94,6 +94,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -130,6 +131,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 3
@@ -170,6 +172,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 4
@@ -209,6 +212,7 @@ questions:
     prid: pr-yuki-0019
     prname: 液体捕集の捕集率
     prcount: 5
+    fresh: false
     level: A
     why: q_hi
 - num: 5
@@ -305,6 +309,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -408,6 +413,7 @@ questions:
     - []
     - - 2015-08
       - 2025-08
+    fresh: false
     level: S
     why: trend_S
     tags:
@@ -508,6 +514,7 @@ questions:
     - - 2015-08
       - 2019-08
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -544,6 +551,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: false
     level: S
     why: pr_S
 - num: 9
@@ -640,6 +648,7 @@ questions:
     - - 2025-08
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -743,6 +752,7 @@ questions:
     - []
     - - 2015-08
       - 2026-08
+    fresh: false
     level: S
     why: trend_S
     tags:
@@ -848,6 +858,7 @@ questions:
     - - 2023-08
     - - 2023-08
       - 2025-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -884,6 +895,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: false
     level: S
     why: pr_S
 - num: 13
@@ -974,6 +986,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1075,6 +1088,7 @@ questions:
     - - 2016-08
       - 2019-08
       - 2025-08
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -1181,6 +1195,7 @@ questions:
     - []
     - - 2024-08
       - 2026-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1284,6 +1299,7 @@ questions:
     - []
     - - 2020-08
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1328,6 +1344,7 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
+    fresh: false
     level: B
     why: pr_B
 - num: 18
@@ -1370,6 +1387,7 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 19
@@ -1412,6 +1430,7 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
+    fresh: false
     level: B
     why: pr_B
 - num: 20
@@ -1505,6 +1524,7 @@ questions:
     - []
     - []
     - - 2023-08
+    fresh: false
     level: S
     why: trend_S
     tags:

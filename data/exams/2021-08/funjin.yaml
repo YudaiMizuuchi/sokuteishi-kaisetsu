@@ -36,6 +36,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: pr_S
 - num: 2
@@ -135,6 +136,7 @@ questions:
     - []
     - - 2024-08
       - 2025-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -193,6 +195,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: q_hi
 - num: 4
@@ -291,6 +294,7 @@ questions:
     - - 2024-08
     - - 2024-08
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -397,6 +401,7 @@ questions:
     - - 2017-08
       - 2018-08
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -502,6 +507,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -606,6 +612,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -714,6 +721,7 @@ questions:
       - 2022-08
       - 2025-08
       - 2026-08
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -818,6 +826,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -922,6 +931,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: trend_A
     tags:
@@ -971,6 +981,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    fresh: false
     level: D
     why: q_new
 - num: 12
@@ -1069,6 +1080,7 @@ questions:
     - - 2023-08
     - - 2018-08
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1174,6 +1186,7 @@ questions:
     - - 2020-08
       - 2023-08
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1279,6 +1292,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1320,6 +1334,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 16
@@ -1362,6 +1377,7 @@ questions:
     prid: pr-funjin-0015
     prname: りん酸法の原理
     prcount: 6
+    fresh: false
     level: A
     why: q_hi
 - num: 17
@@ -1463,6 +1479,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1504,6 +1521,7 @@ questions:
     prid: pr-funjin-0011
     prname: X線回折のブラッグの条件と回折線
     prcount: 5
+    fresh: false
     level: A
     why: pr_A
 - num: 19
@@ -1605,6 +1623,7 @@ questions:
     - - 2020-08
       - 2023-08
       - 2025-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1704,6 +1723,7 @@ questions:
       - 2019-08
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:

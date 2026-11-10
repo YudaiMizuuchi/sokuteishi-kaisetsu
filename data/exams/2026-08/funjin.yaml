@@ -43,6 +43,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: true
     level: S
     why: pr_S
 - num: 2
@@ -138,6 +139,7 @@ questions:
     - []
     - []
     - - 2023-08
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -202,6 +204,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: true
     level: S
     why: pr_S
 - num: 4
@@ -300,6 +303,7 @@ questions:
     - - 2018-08
     - []
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -404,12 +408,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - ''
     - odo
 - num: 6
@@ -474,6 +479,7 @@ questions:
     prid: pr-funjin-0004
     prname: ろ過捕集の機構（慣性・さえぎり・拡散・重力）
     prcount: 2
+    fresh: true
     level: C
     why: q_seen
 - num: 7
@@ -572,6 +578,7 @@ questions:
     - []
     - []
     - - 2023-08
+    fresh: true
     level: B
     why: elim_all
     tags:
@@ -679,6 +686,7 @@ questions:
     - - 2015-08
       - 2021-08
       - 2024-08
+    fresh: true
     level: A
     why: trend_A
     tags:
@@ -783,6 +791,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -887,6 +896,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -948,8 +958,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 12
   status: published
   chapters:
@@ -998,6 +1009,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: true
     level: S
     why: pr_S
 - num: 13
@@ -1100,6 +1112,7 @@ questions:
       - 2025-08
     - - 2023-08
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -1207,6 +1220,7 @@ questions:
       - 2025-08
     - - 2015-08
       - 2018-08
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -1311,6 +1325,7 @@ questions:
     - []
     - []
     - - 2022-08
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -1415,12 +1430,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
     - new
 - num: 17
@@ -1522,6 +1538,7 @@ questions:
     - - 2020-08
       - 2023-08
       - 2025-08
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -1572,6 +1589,7 @@ questions:
     prid: pr-funjin-0013
     prname: 基底標準吸収補正法
     prcount: 8
+    fresh: true
     level: A
     why: q_hi
 - num: 19
@@ -1672,6 +1690,7 @@ questions:
       - 2018-08
       - 2020-08
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -1777,6 +1796,7 @@ questions:
     - - 2017-08
       - 2019-08
     - []
+    fresh: true
     level: B
     why: pt_B
     tags:

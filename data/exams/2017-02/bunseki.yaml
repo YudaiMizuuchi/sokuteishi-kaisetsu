@@ -97,6 +97,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -202,6 +203,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -305,6 +307,7 @@ questions:
     - - 2016-02
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -347,6 +350,7 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
+    fresh: false
     level: B
     why: q_b
 - num: 5
@@ -387,6 +391,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 6
@@ -424,6 +429,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-solution-02
@@ -528,6 +534,7 @@ questions:
       - 2026-02
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -630,6 +637,7 @@ questions:
     - []
     - []
     - - 2023-08
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -671,6 +679,7 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 10
@@ -767,6 +776,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -811,6 +821,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -916,6 +927,7 @@ questions:
     - - 2018-02
       - 2020-02
       - 2021-02
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -960,6 +972,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -1058,6 +1071,7 @@ questions:
     - []
     - - 2024-08
       - 2025-08
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1163,6 +1177,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1265,6 +1280,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1306,6 +1322,7 @@ questions:
     prid: pr-bunseki-0029
     prname: 保持時間と溶出順
     prcount: 1
+    fresh: false
     level: S
     why: pat_S
     pat: an-gc-02
@@ -1348,6 +1365,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: false
     level: S
     why: q_hi
 - num: 19
@@ -1444,6 +1462,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1486,6 +1505,7 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
+    fresh: false
     level: A
     why: pat_A
     pat: an-radiation-01

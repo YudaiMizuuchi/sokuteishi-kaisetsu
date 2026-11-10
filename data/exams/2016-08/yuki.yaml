@@ -45,6 +45,7 @@ questions:
     prid: pr-yuki-0023
     prname: 沸点・蒸気圧・融点・分子量の比較
     prcount: 9
+    fresh: false
     level: A
     why: pr_A
 - num: 2
@@ -138,6 +139,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -174,6 +176,7 @@ questions:
     prid: pr-yuki-0025
     prname: 有機溶剤の水への溶解（極性・水酸基）
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 4
@@ -274,6 +277,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -376,6 +380,7 @@ questions:
     - - 2019-08
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -478,6 +483,7 @@ questions:
     - []
     - - 2022-08
     - - 2020-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -583,6 +589,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -682,6 +689,7 @@ questions:
     - []
     - - 2023-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -782,6 +790,7 @@ questions:
     - - 2019-08
       - 2025-08
     - - 2018-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -887,6 +896,7 @@ questions:
       - 2021-08
     - []
     - - 2025-08
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -983,6 +993,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1086,6 +1097,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -1188,6 +1200,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1236,6 +1249,7 @@ questions:
     prid: pr-yuki-0017
     prname: 標準液の調製と保存
     prcount: 3
+    fresh: false
     level: B
     why: q_b
 - num: 15
@@ -1332,6 +1346,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1376,6 +1391,7 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
+    fresh: false
     level: B
     why: pr_B
 - num: 17
@@ -1412,6 +1428,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 18
@@ -1454,6 +1471,7 @@ questions:
     prid: pr-yuki-0024
     prname: 気体の体積とppm濃度の換算
     prcount: 5
+    fresh: false
     level: B
     why: pr_B
 - num: 19
@@ -1493,6 +1511,7 @@ questions:
     prid: pr-yuki-0019
     prname: 液体捕集の捕集率
     prcount: 5
+    fresh: false
     level: A
     why: q_hi
 - num: 20
@@ -1586,6 +1605,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:

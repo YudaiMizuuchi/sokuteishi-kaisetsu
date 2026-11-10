@@ -31,6 +31,7 @@ questions:
     prid: pr-yuki-0023
     prname: 沸点・蒸気圧・融点・分子量の比較
     prcount: 9
+    fresh: false
     level: A
     why: pr_A
 - num: 2
@@ -77,6 +78,7 @@ questions:
     prid: pr-yuki-0025
     prname: 有機溶剤の水への溶解（極性・水酸基）
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 3
@@ -121,6 +123,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 4
@@ -156,6 +159,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 5
@@ -253,6 +257,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -292,6 +297,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 7
@@ -388,6 +394,7 @@ questions:
     - []
     - - 2018-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -497,6 +504,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -533,6 +541,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: false
     level: S
     why: pr_S
 - num: 10
@@ -563,6 +572,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: false
     level: S
     why: pr_S
 - num: 11
@@ -596,6 +606,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: false
     level: S
     why: pr_S
 - num: 12
@@ -693,6 +704,7 @@ questions:
     - - 2022-08
       - 2025-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -797,6 +809,7 @@ questions:
     - []
     - - 2018-08
       - 2020-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -904,6 +917,7 @@ questions:
     - - 2016-08
       - 2017-08
       - 2024-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -946,6 +960,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     level: A
     why: q_hi
 - num: 16
@@ -1043,6 +1058,7 @@ questions:
       - 2022-08
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1145,6 +1161,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1193,6 +1210,7 @@ questions:
     prid: pr-yuki-0007
     prname: 理論段数と理論段相当高さ
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 19
@@ -1235,6 +1253,7 @@ questions:
     prid: pr-yuki-0017
     prname: 標準液の調製と保存
     prcount: 3
+    fresh: false
     level: B
     why: q_b
 - num: 20
@@ -1328,6 +1347,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:

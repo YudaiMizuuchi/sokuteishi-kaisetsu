@@ -171,8 +171,8 @@ const LEVELS = {
   S: { code: "S", label: "得点必須S", head: "この問題は、試験本番では得点しなければならない問題です（学習の優先度：最高）。" },
   A: { code: "A", label: "得点必須A", head: "この問題は、試験本番では得点しなければならない問題です（学習の優先度：高）。" },
   B: { code: "B", label: "何とか得点B", head: "この問題は、何とか得点したい問題です（学習の優先度：中）。" },
-  C: { code: "C", label: "余裕があれば得点C", head: "この問題は、余裕があれば得点したい問題です（学習の優先度：低。過去に1回だけ出題）。" },
-  D: { code: "D", label: "失点やむなしD", head: "この問題は、失点しても仕方がない問題です（初見）。" },
+  C: { code: "C", label: "余裕があれば得点C", head: "この問題は、余裕があれば得点したい問題です（学習の優先度：低。過去に1回だけ出題、または、最近の回に初めて出題）。" },
+  D: { code: "D", label: "失点やむなしD", head: "この問題は、失点しても仕方がない問題です（初見で、その後も再出題されていません）。" },
 };
 const WHY = {
   ans_hi: "ひっかけパターンである選択肢（正答）から、容易に正答を割り出すことができるからです。",
@@ -184,9 +184,10 @@ const WHY = {
   seen: "正答の選択肢の論点は、過去に1回だけ出題されています。頻出ではありませんが、既出なので、余裕があれば押さえておくと得点できるからです。",
   subst: "",
   near: "正答の選択肢と似た記述が、別の回に出題されており、その記述は正しい内容でした（数値や範囲などを変えたものが、おとりになっています）。その正しい内容を覚えていれば、おとりと見分けられるので、余裕があれば押さえておくと得点できるからです。",
-    none: "いずれも初見の選択肢であり、問題のテーマとしても頻出テーマではないからです。",
+  fresh: "正答の選択肢は、最近の回に初めて出題された内容（新出）です。新しく出た内容は、数年のうちにもう一度出題されることがあるので、余裕があれば押さえておくとよいからです。",
+  none: "正答の選択肢は初見で、その後の回にも再出題されていません。問題のテーマとしても頻出テーマではないからです。",
 };
-const TAGS = { ans_subst: "正答（物質の表で解ける）", ans_seen: "正答（過去に1回出題）", ans_near: "正答（似た記述が既出）", ans_trend: "正答（直近のトレンド）", ans_pr: "正答（原理から解ける）", ans_pat: "正答（ひっかけパターンに該当）", ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見", "": "" };
+const TAGS = { ans_subst: "正答（物質の表で解ける）", ans_seen: "正答（過去に1回出題）", ans_near: "正答（似た記述が既出）", ans_trend: "正答（直近のトレンド）", ans_pr: "正答（原理から解ける）", ans_pat: "正答（ひっかけパターンに該当）", ans_hi: "正答（出題頻度が高い）", ans_b: "正答（過去に複数回出題）", ans_new: "正答（初見）", ans_fresh: "正答（新出：最近の回に初めて出題）", odo: "頻出のおとり", new: "初見", "": "" };
 function freqOut(f, answers = [], qTraps = [], showTraps = true) {
   if (!f || !f.denom) return null;
   const lv = LEVELS[f.level] || null;
@@ -211,8 +212,9 @@ function freqOut(f, answers = [], qTraps = [], showTraps = true) {
   else if (f.kind === "choice") reason = WHY[w] || "";
   else if (w === "q_hi") reason = `この形式の問題（${f.form}）は頻出で、解き方を押さえれば確実に得点できるからです。`;
   else if (w === "q_b") reason = `この形式の問題（${f.form}）は複数回出ており、解き方を押さえれば何とか得点できるからです。`;
-  else reason = w === "q_seen" ? `この形式の問題（${f.form}）は過去に1回出ています。余裕があれば、解き方を押さえておくと得点できるからです。` : `この形式の問題（${f.form}）は過去に出ておらず、初見だからです。`;
-  const METHOD = (x) => /^pr_/.test(x) ? "原理で解く" : /^elim_/.test(x) ? "消去法で解く" : /^trend_/.test(x) ? "トレンド" : (x === "subst") ? "物質の表で解く" : (x === "near") ? "似た記述で解く" : (x === "none" || x === "q_new") ? "初見" : "暗記で解く";
+  else if (w === "q_fresh") reason = `この形式の問題（${f.form}）は、最近の回に初めて出題された内容（新出）です。新しく出た内容は、数年のうちにもう一度出題されることがあるので、余裕があれば、解き方を押さえておくとよいからです。`;
+  else reason = w === "q_seen" ? `この形式の問題（${f.form}）は過去に1回出ています。余裕があれば、解き方を押さえておくと得点できるからです。` : `この形式の問題（${f.form}）は初見で、その後の回にも再出題されていないからです。`;
+  const METHOD = (x) => /^pr_/.test(x) ? "原理で解く" : /^elim_/.test(x) ? "消去法で解く" : /^trend_/.test(x) ? "トレンド" : (x === "subst") ? "物質の表で解く" : (x === "near") ? "似た記述で解く" : (x === "fresh" || x === "q_fresh") ? "新出" : (x === "none" || x === "q_new") ? "初見" : "暗記で解く";
   const level = lv ? { code: lv.code, label: lv.label, head: lv.head, reason, method: METHOD(w) } : null;
   // ---- 表示（HTML）。サーバ側のカードと、絞り込み一覧（app.js）で同じものを使う
   const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -227,7 +229,7 @@ function freqOut(f, answers = [], qTraps = [], showTraps = true) {
   else if (w === "near") basis = "似た記述（別の回に正しい記述として出題）";
   else if (f.kind === "choice" && ptCount >= 2 && w !== "none") basis = `正答の論点（通算${ptCount}回${f.trend && recentN ? `・直近${f.trend[ai]}回` : ""}）`;
   else if (f.kind === "question" && f.count >= 2 && w !== "q_new") basis = `この形式の問題（${esc(f.form)}）の解き方（通算${f.count}回）`;
-  const TAG = { ans_subst: "正答（物質の表）", ans_seen: "正答（既出1回）", ans_near: "正答（似た記述）", ans_trend: "正答（トレンド）", ans_pr: "正答（原理）", ans_pat: "正答（ひっかけパターン）", ans_hi: "正答（頻出）", ans_b: "正答（複数回）", ans_new: "正答（初見）", odo: "頻出のおとり", new: "初見" };
+  const TAG = { ans_subst: "正答（物質の表）", ans_seen: "正答（既出1回）", ans_near: "正答（似た記述）", ans_trend: "正答（トレンド）", ans_pr: "正答（原理）", ans_pat: "正答（ひっかけパターン）", ans_hi: "正答（頻出）", ans_b: "正答（複数回）", ans_new: "正答（初見）", ans_fresh: "正答（新出）", odo: "頻出のおとり", new: "初見" };
   let rows = "";
   if (f.kind === "choice") {
     const eff = (i) => (f.pcounts && f.pcounts[i]) || f.counts[i];

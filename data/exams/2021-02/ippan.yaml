@@ -98,6 +98,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -201,6 +202,7 @@ questions:
     - - 2015-08
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -308,6 +310,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -412,6 +415,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -453,6 +457,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 6
@@ -550,6 +555,7 @@ questions:
     - []
     - []
     - - 2025-02
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -654,6 +660,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -758,6 +765,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -864,6 +872,7 @@ questions:
       - 2019-02
       - 2020-02
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -968,6 +977,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -1074,6 +1084,7 @@ questions:
       - 2020-02
     - []
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -1192,6 +1203,7 @@ questions:
       - 2020-08
       - 2022-02
       - 2023-02
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -1300,6 +1312,7 @@ questions:
     - - 2022-02
       - 2023-02
       - 2023-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1405,6 +1418,7 @@ questions:
       - 2020-08
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1521,6 +1535,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     level: C
     why: near
     tags:
@@ -1632,6 +1647,7 @@ questions:
       - 2019-02
       - 2022-08
       - 2024-02
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1735,6 +1751,7 @@ questions:
     - []
     - - 2016-08
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1848,6 +1865,7 @@ questions:
     - - 2016-08
       - 2020-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1962,6 +1980,7 @@ questions:
     - - 2016-08
       - 2020-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -2070,6 +2089,7 @@ questions:
       - 2021-08
       - 2023-08
       - 2024-08
+    fresh: false
     level: S
     why: pt_S
     tags:

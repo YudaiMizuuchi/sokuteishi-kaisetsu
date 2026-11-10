@@ -101,6 +101,7 @@ questions:
       - 2017-02
       - 2019-02
       - 2020-08
+    fresh: true
     level: C
     why: seen
     tags:
@@ -204,6 +205,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -309,6 +311,7 @@ questions:
     - - 2017-08
       - 2019-08
       - 2024-02
+    fresh: true
     level: A
     why: pat_A
     tags:
@@ -347,6 +350,7 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
+    fresh: true
     level: S
     why: pat_S
     pat: lw-law-certification-01
@@ -445,6 +449,7 @@ questions:
     - []
     - []
     - - 2026-08
+    fresh: true
     level: B
     why: pt_B
     tags:
@@ -548,12 +553,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - odo
     - ''
 - num: 7
@@ -589,6 +595,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 8
@@ -703,14 +710,15 @@ questions:
       - 2024-02
       - 2025-08
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - ''
     - ''
     - odo
-    - ans_new
+    - ans_fresh
 - num: 9
   status: published
   chapters:
@@ -806,6 +814,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -910,6 +919,7 @@ questions:
     - []
     - - 2019-08
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1013,11 +1023,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
-    - ans_new
+    - ans_fresh
     - ''
     - ''
     - new
@@ -1117,6 +1128,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1226,6 +1238,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: pt_B
     tags:
@@ -1279,6 +1292,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: pat_A
     pat: lw-law-organic-01
@@ -1379,12 +1393,13 @@ questions:
     - []
     - - 2025-08
       - 2026-08
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - ''
-    - ans_new
+    - ans_fresh
     - ''
     - new
 - num: 16
@@ -1482,6 +1497,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1586,6 +1602,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1693,13 +1710,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - ''
     - new
-    - ans_new
+    - ans_fresh
     - ''
 - num: 19
   status: published
@@ -1815,6 +1833,7 @@ questions:
     - []
     - - 2017-08
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -1926,6 +1945,7 @@ questions:
       - 2021-08
     - []
     - []
+    fresh: true
     level: C
     why: near
     tags:

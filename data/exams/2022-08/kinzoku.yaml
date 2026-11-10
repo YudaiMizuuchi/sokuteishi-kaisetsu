@@ -95,6 +95,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -194,6 +195,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: trend_A
     tags:
@@ -296,6 +298,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -353,6 +356,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 5
@@ -449,6 +453,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -551,6 +556,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -653,6 +659,7 @@ questions:
     - []
     - - 2024-08
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -755,6 +762,7 @@ questions:
     - - 2020-08
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -857,6 +865,7 @@ questions:
     - []
     - - 2024-08
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -959,6 +968,7 @@ questions:
     - []
     - - 2018-08
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1055,6 +1065,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
@@ -1159,6 +1170,7 @@ questions:
     - - 2023-08
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: S
@@ -1264,6 +1276,7 @@ questions:
     - - 2016-08
       - 2025-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: B
@@ -1368,6 +1381,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
     level: B
@@ -1466,6 +1480,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: B
@@ -1574,6 +1589,7 @@ questions:
     - []
     - - 2021-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: S
@@ -1679,6 +1695,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
@@ -1783,6 +1800,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B
@@ -1891,6 +1909,7 @@ questions:
       - 2019-08
       - 2020-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4009
     subst_name: ニッケル化合物
     level: S
@@ -1939,6 +1958,7 @@ questions:
     prid: pr-kinzoku-0020
     prname: 分析結果から、空気中の金属濃度への換算
     prcount: 6
+    fresh: false
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: S

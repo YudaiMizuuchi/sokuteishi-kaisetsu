@@ -100,6 +100,7 @@ questions:
     - []
     - - 2021-02
       - 2022-08
+    fresh: true
     level: B
     why: elim_two
     tags:
@@ -159,6 +160,7 @@ questions:
     prid: pr-bunseki-0025
     prname: 誤差と統計量
     prcount: 7
+    fresh: true
     level: B
     why: pr_B
 - num: 3
@@ -197,6 +199,7 @@ questions:
     prid: pr-bunseki-0037
     prname: 官能基と有機化合物の性質
     prcount: 2
+    fresh: true
     level: B
     why: pat_B
     pat: an-organic-01
@@ -239,8 +242,9 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 5
   status: published
   chapters:
@@ -278,6 +282,7 @@ questions:
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
     prcount: 6
+    fresh: true
     level: A
     why: pat_A
     pat: an-logarithm-01
@@ -326,6 +331,7 @@ questions:
     prid: pr-bunseki-0018
     prname: 化学平衡と平衡定数
     prcount: 2
+    fresh: true
     level: C
     why: q_seen
 - num: 7
@@ -361,6 +367,7 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: true
     level: C
     why: q_seen
 - num: 8
@@ -459,6 +466,7 @@ questions:
     - - 2022-08
     - []
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -500,6 +508,7 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
+    fresh: true
     level: B
     why: q_b
 - num: 10
@@ -598,6 +607,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: pr_B
     tags:
@@ -702,6 +712,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pr_A
     tags:
@@ -744,6 +755,7 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
+    fresh: true
     level: S
     why: pat_S
     pat: an-reaction-01
@@ -843,6 +855,7 @@ questions:
     - - 2017-02
     - []
     - []
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -885,6 +898,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 15
@@ -983,6 +997,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -1025,6 +1040,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: true
     level: C
     why: q_seen
 - num: 17
@@ -1129,6 +1145,7 @@ questions:
     - - 2020-02
       - 2024-02
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1174,6 +1191,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: true
     level: S
     why: q_hi
 - num: 19
@@ -1272,6 +1290,7 @@ questions:
     - - 2018-08
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1381,6 +1400,7 @@ questions:
       - 2020-02
       - 2021-08
     - []
+    fresh: true
     level: A
     why: pat_A
     tags:

@@ -36,6 +36,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 2
@@ -72,6 +73,7 @@ questions:
     prid: pr-bunseki-0024
     prname: 有効数字と数値の丸め
     prcount: 9
+    fresh: false
     level: A
     why: pr_A
 - num: 3
@@ -172,6 +174,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -215,6 +218,7 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
+    fresh: false
     level: B
     why: q_b
 - num: 5
@@ -255,6 +259,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 6
@@ -295,6 +300,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-logarithm-01
@@ -392,6 +398,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -494,6 +501,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -597,6 +605,7 @@ questions:
     - []
     - []
     - - 2019-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -707,6 +716,7 @@ questions:
       - 2021-02
       - 2022-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -749,6 +759,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-mole-03
@@ -783,6 +794,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-equilibrium-03
@@ -821,6 +833,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -858,6 +871,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-logarithm-02
@@ -955,6 +969,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1057,6 +1072,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1096,6 +1112,7 @@ questions:
     prid: pr-bunseki-0028
     prname: 理論段数と理論段相当高さ
     prcount: 4
+    fresh: false
     level: C
     why: q_seen
 - num: 18
@@ -1195,6 +1212,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1297,6 +1315,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1340,6 +1359,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-logarithm-03

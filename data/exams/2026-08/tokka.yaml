@@ -108,6 +108,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
     level: B
@@ -163,6 +164,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: true
     level: A
     why: q_hi
 - num: 3
@@ -265,6 +267,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-tokka-3034
     subst_name: 硫化水素
     level: B
@@ -314,6 +317,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3005
     subst_name: エチレンイミン
     level: B
@@ -412,6 +416,7 @@ questions:
     - []
     - - 2020-08
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -462,6 +467,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 7
@@ -497,6 +503,7 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    fresh: true
     level: A
     why: q_hi
 - num: 8
@@ -542,6 +549,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
     level: S
@@ -639,6 +647,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -682,6 +691,7 @@ questions:
     denom: 12
     count: 4
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3034
     subst_name: 硫化水素
     level: A
@@ -728,6 +738,7 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    fresh: true
     subst_id: sb-tokka-3026
     subst_name: パラ-ニトロクロルベンゼン
     level: B
@@ -837,6 +848,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-tokka-3004
     subst_name: アルファ-ナフチルアミンおよびその塩
     level: B
@@ -891,6 +903,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 14
@@ -1007,11 +1020,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
-    - ans_new
+    - ans_fresh
     - new
     - new
     - new
@@ -1059,6 +1073,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 16
@@ -1157,13 +1172,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
     - new
-    - ans_new
+    - ans_fresh
     - odo
 - num: 17
   status: published
@@ -1208,6 +1224,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
     level: B
@@ -1245,6 +1262,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: true
     subst_id: sb-tokka-3012
     subst_name: オルト-フタロジニトリル
     level: B
@@ -1348,6 +1366,7 @@ questions:
       - 2023-08
       - 2025-08
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -1428,5 +1447,6 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi

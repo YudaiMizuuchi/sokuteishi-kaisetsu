@@ -39,6 +39,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: pr_S
 - num: 2
@@ -136,6 +137,7 @@ questions:
     - - 2015-08
       - 2025-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -186,6 +188,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: q_hi
 - num: 4
@@ -282,6 +285,7 @@ questions:
     - - 2018-08
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -386,6 +390,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -491,6 +496,7 @@ questions:
     - - 2025-08
     - - 2016-08
       - 2025-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -597,6 +603,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -701,6 +708,7 @@ questions:
     - - 2015-08
       - 2021-08
       - 2024-08
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -798,6 +806,7 @@ questions:
     - - 2019-08
       - 2024-08
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -900,6 +909,7 @@ questions:
     - []
     - []
     - - 2025-08
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1002,6 +1012,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1104,6 +1115,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1200,6 +1212,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1304,6 +1317,7 @@ questions:
     - - 2015-08
       - 2023-08
       - 2026-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1408,6 +1422,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1447,6 +1462,7 @@ questions:
     prid: pr-funjin-0011
     prname: X線回折のブラッグの条件と回折線
     prcount: 5
+    fresh: false
     level: A
     why: pr_A
 - num: 17
@@ -1492,6 +1508,7 @@ questions:
     prid: pr-funjin-0013
     prname: 基底標準吸収補正法
     prcount: 8
+    fresh: false
     level: A
     why: pr_A
 - num: 18
@@ -1588,6 +1605,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1650,6 +1668,7 @@ questions:
     prid: pr-funjin-0016
     prname: 位相差顕微鏡の原理
     prcount: 3
+    fresh: false
     level: B
     why: q_b
 - num: 20
@@ -1746,6 +1765,7 @@ questions:
     - - 2020-08
     - []
     - - 2020-08
+    fresh: false
     level: C
     why: seen
     tags:

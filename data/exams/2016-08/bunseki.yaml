@@ -33,6 +33,7 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-units-01
@@ -73,6 +74,7 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
+    fresh: false
     level: D
     why: q_new
 - num: 3
@@ -169,6 +171,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -208,6 +211,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-01
@@ -249,6 +253,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-logarithm-01
@@ -293,6 +298,7 @@ questions:
     prid: pr-bunseki-0019
     prname: 物質量・モル質量・アボガドロ定数
     prcount: 6
+    fresh: false
     level: B
     why: pr_B
 - num: 7
@@ -393,6 +399,7 @@ questions:
     - - 2019-08
       - 2021-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -436,6 +443,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 9
@@ -536,6 +544,7 @@ questions:
     - []
     - []
     - - 2019-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -639,6 +648,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -683,6 +693,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -736,6 +747,7 @@ questions:
     prid: pr-bunseki-0022
     prname: 中和・酸化還元の量的関係
     prcount: 1
+    fresh: false
     level: A
     why: pat_A
     pat: an-reaction-03
@@ -839,6 +851,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -882,6 +895,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: false
     level: S
     why: q_hi
 - num: 15
@@ -982,6 +996,7 @@ questions:
     - []
     - - 2026-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1084,6 +1099,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1129,6 +1145,7 @@ questions:
     prid: pr-bunseki-0028
     prname: 理論段数と理論段相当高さ
     prcount: 4
+    fresh: false
     level: S
     why: pat_S
     pat: an-gc-02
@@ -1226,6 +1243,7 @@ questions:
     - - 2018-02
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1329,6 +1347,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1373,6 +1392,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-logarithm-03

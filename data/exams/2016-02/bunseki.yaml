@@ -100,6 +100,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -142,6 +143,7 @@ questions:
     prid: pr-bunseki-0024
     prname: 有効数字と数値の丸め
     prcount: 9
+    fresh: false
     level: A
     why: pr_A
 - num: 3
@@ -239,6 +241,7 @@ questions:
       - 2019-02
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -343,6 +346,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -386,6 +390,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 6
@@ -419,6 +424,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-equilibrium-03
@@ -463,6 +469,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -496,6 +503,7 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 9
@@ -595,6 +603,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -700,6 +709,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -743,6 +753,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -851,6 +862,7 @@ questions:
       - 2018-02
       - 2020-02
       - 2021-02
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -898,6 +910,7 @@ questions:
     prid: pr-bunseki-0001
     prname: ランベルト・ベールの法則
     prcount: 1
+    fresh: false
     level: S
     why: pat_S
     pat: an-logarithm-02
@@ -999,6 +1012,7 @@ questions:
       - 2020-02
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1104,6 +1118,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: trend_S
     tags:
@@ -1209,6 +1224,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1250,6 +1266,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: false
     level: S
     why: q_hi
 - num: 18
@@ -1351,6 +1368,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1456,6 +1474,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1493,5 +1512,6 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new

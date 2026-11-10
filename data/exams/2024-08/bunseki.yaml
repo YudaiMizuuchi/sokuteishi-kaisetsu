@@ -36,6 +36,7 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: pat_A
     pat: an-units-01
@@ -81,6 +82,7 @@ questions:
     prid: pr-bunseki-0024
     prname: 有効数字と数値の丸め
     prcount: 9
+    fresh: true
     level: A
     why: pr_A
 - num: 3
@@ -179,13 +181,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
     - ''
-    - ans_new
+    - ans_fresh
     - new
 - num: 4
   status: published
@@ -218,6 +221,7 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 5
@@ -260,6 +264,7 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
+    fresh: true
     level: A
     why: pat_A
     pat: an-solution-02
@@ -303,6 +308,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 7
@@ -401,6 +407,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -446,6 +453,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 9
@@ -544,6 +552,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -588,6 +597,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: pat_A
     pat: an-quantification-02
@@ -627,6 +637,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: true
     level: B
     why: pat_B
     pat: an-mole-03
@@ -728,12 +739,13 @@ questions:
       - 2026-02
     - - 2023-08
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - odo
     - ''
-    - ans_new
+    - ans_fresh
     - ''
     - ''
 - num: 13
@@ -832,6 +844,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: elim_all
     tags:
@@ -877,6 +890,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 15
@@ -975,6 +989,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1079,6 +1094,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1184,6 +1200,7 @@ questions:
     - []
     - - 2025-02
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1229,6 +1246,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: true
     level: S
     why: q_hi
 - num: 19
@@ -1268,6 +1286,7 @@ questions:
     prid: pr-bunseki-0011
     prname: X線回折のブラッグの条件
     prcount: 1
+    fresh: true
     level: S
     why: pat_S
     pat: an-xrd-02
@@ -1305,6 +1324,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: true
     level: B
     why: pat_B
     pat: an-logarithm-03

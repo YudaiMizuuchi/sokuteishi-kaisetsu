@@ -99,6 +99,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -149,6 +150,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: false
     level: A
     why: q_hi
 - num: 3
@@ -187,6 +189,7 @@ questions:
     prid: pr-tokka-0010
     prname: 芳香族アミンのジアゾカップリング発色
     prcount: 3
+    fresh: false
     subst_id: sb-tokka-3026
     subst_name: パラ-ニトロクロルベンゼン
     level: B
@@ -288,6 +291,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3034
     subst_name: 硫化水素
     level: B
@@ -336,6 +340,7 @@ questions:
     prid: pr-tokka-0004
     prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
     prcount: 5
+    fresh: false
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
     level: S
@@ -430,6 +435,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -528,6 +534,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3012
     subst_name: オルト-フタロジニトリル
     level: B
@@ -579,6 +586,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
     level: S
@@ -676,6 +684,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -718,6 +727,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
     level: S
@@ -818,6 +828,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -867,6 +878,7 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    fresh: false
     subst_id: sb-tokka-3022
     subst_name: トリレンジイソシアネート(TDI)
     level: A
@@ -909,6 +921,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -942,6 +955,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 15
@@ -985,6 +999,7 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    fresh: false
     level: B
     why: q_b
 - num: 16
@@ -1022,6 +1037,7 @@ questions:
     denom: 12
     count: 4
     form: 穴埋め・組合せの問題
+    fresh: false
     subst_id: sb-tokka-3013
     subst_name: クロロメチルメチルエーテル
     level: A
@@ -1061,6 +1077,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     subst_id: sb-tokka-3008
     subst_name: 塩素
     level: S
@@ -1161,6 +1178,7 @@ questions:
     - []
     - []
     - - 2018-08
+    fresh: false
     level: D
     why: none
     tags:
@@ -1205,6 +1223,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    fresh: false
     level: D
     why: q_new
 - num: 20
@@ -1303,6 +1322,7 @@ questions:
     - - 2016-08
     - - 2016-08
     - []
+    fresh: false
     level: D
     why: none
     tags:

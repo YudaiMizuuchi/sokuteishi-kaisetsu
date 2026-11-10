@@ -94,6 +94,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -127,6 +128,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 3
@@ -223,6 +225,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -325,6 +328,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -428,6 +432,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -532,6 +537,7 @@ questions:
     - []
     - []
     - - 2024-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -634,6 +640,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -736,6 +743,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -838,6 +846,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -948,6 +957,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1050,6 +1060,7 @@ questions:
     - []
     - - 2019-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
@@ -1157,6 +1168,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: B
@@ -1263,6 +1275,7 @@ questions:
       - 2025-08
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: B
@@ -1368,6 +1381,7 @@ questions:
     - - 2025-08
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
     level: B
@@ -1472,6 +1486,7 @@ questions:
     - []
     - []
     - - 2024-08
+    fresh: false
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: S
@@ -1576,6 +1591,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: S
@@ -1681,6 +1697,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
@@ -1786,6 +1803,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B
@@ -1892,6 +1910,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1941,6 +1960,7 @@ questions:
     prid: pr-kinzoku-0013
     prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
     prcount: 3
+    fresh: false
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B

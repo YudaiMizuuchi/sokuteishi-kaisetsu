@@ -99,6 +99,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -160,6 +161,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: pr_S
 - num: 3
@@ -198,6 +200,7 @@ questions:
     prid: pr-funjin-0006
     prname: 慣性衝突式分粒の原理
     prcount: 2
+    fresh: false
     level: C
     why: q_seen
 - num: 4
@@ -297,6 +300,7 @@ questions:
     - - 2017-08
       - 2018-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -404,6 +408,7 @@ questions:
     - - 2025-08
     - - 2016-08
       - 2025-08
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -511,6 +516,7 @@ questions:
       - 2023-08
       - 2026-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -615,6 +621,7 @@ questions:
     - - 2026-08
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -719,6 +726,7 @@ questions:
     - - 2017-08
     - []
     - - 2025-08
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -824,6 +832,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -928,6 +937,7 @@ questions:
     - []
     - - 2018-08
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1033,6 +1043,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1139,6 +1150,7 @@ questions:
       - 2021-08
       - 2025-08
     - - 2016-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1243,6 +1255,7 @@ questions:
     - - 2017-08
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1291,6 +1304,7 @@ questions:
     prid: pr-funjin-0015
     prname: りん酸法の原理
     prcount: 6
+    fresh: false
     level: A
     why: q_hi
 - num: 15
@@ -1390,6 +1404,7 @@ questions:
     - - 2021-08
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1493,6 +1508,7 @@ questions:
       - 2023-08
       - 2024-08
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1603,6 +1619,7 @@ questions:
       - 2024-08
       - 2026-08
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1652,6 +1669,7 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 19
@@ -1751,6 +1769,7 @@ questions:
     - - 2017-08
       - 2026-08
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1855,6 +1874,7 @@ questions:
     - - 2022-08
     - []
     - - 2022-08
+    fresh: false
     level: B
     why: pt_B
     tags:

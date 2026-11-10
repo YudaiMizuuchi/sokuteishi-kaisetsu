@@ -36,6 +36,7 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-units-01
@@ -79,6 +80,7 @@ questions:
     denom: 23
     count: 3
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 3
@@ -178,6 +180,7 @@ questions:
     - - 2016-02
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -214,6 +217,7 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
+    fresh: false
     level: B
     why: q_b
 - num: 5
@@ -257,6 +261,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-logarithm-01
@@ -298,6 +303,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 7
@@ -397,6 +403,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -443,6 +450,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 9
@@ -478,6 +486,7 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 10
@@ -577,6 +586,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -624,6 +634,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -733,6 +744,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -779,6 +791,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -880,6 +893,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -982,6 +996,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1087,6 +1102,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1189,6 +1205,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1298,6 +1315,7 @@ questions:
       - 2020-08
       - 2021-08
       - 2024-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1401,6 +1419,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1445,6 +1464,7 @@ questions:
     denom: 23
     count: 7
     form: 計算問題
+    fresh: false
     level: B
     why: pat_B
     pat: an-logarithm-03

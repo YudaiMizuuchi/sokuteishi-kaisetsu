@@ -37,6 +37,7 @@ questions:
     prid: pr-funjin-0007
     prname: 光散乱の原理（粒径・屈折率・波長・角度）
     prcount: 2
+    fresh: false
     level: C
     why: q_seen
 - num: 2
@@ -135,6 +136,7 @@ questions:
       - 2017-08
       - 2018-08
     - - 2019-08
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -188,6 +190,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: q_hi
 - num: 4
@@ -228,6 +231,7 @@ questions:
     prid: pr-funjin-0006
     prname: 慣性衝突式分粒の原理
     prcount: 2
+    fresh: false
     level: C
     why: q_seen
 - num: 5
@@ -327,6 +331,7 @@ questions:
     - - 2017-08
       - 2019-08
       - 2022-08
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -429,6 +434,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -532,6 +538,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -637,6 +644,7 @@ questions:
       - 2019-08
       - 2022-08
       - 2026-08
+    fresh: false
     level: D
     why: none
     tags:
@@ -742,6 +750,7 @@ questions:
       - 2025-08
     - []
     - - 2018-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -844,6 +853,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -916,6 +926,7 @@ questions:
     prid: pr-funjin-0008
     prname: 質量濃度変換係数の定義と変動要因
     prcount: 5
+    fresh: false
     level: A
     why: q_hi
 - num: 12
@@ -965,6 +976,7 @@ questions:
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
+    fresh: false
     level: S
     why: pr_S
 - num: 13
@@ -1064,6 +1076,7 @@ questions:
     - - 2019-08
       - 2026-08
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -1167,6 +1180,7 @@ questions:
       - 2022-08
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1269,6 +1283,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1334,6 +1349,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 17
@@ -1433,6 +1449,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1483,6 +1500,7 @@ questions:
     prid: pr-funjin-0013
     prname: 基底標準吸収補正法
     prcount: 8
+    fresh: false
     level: A
     why: q_hi
 - num: 19
@@ -1580,6 +1598,7 @@ questions:
       - 2026-08
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1683,6 +1702,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:

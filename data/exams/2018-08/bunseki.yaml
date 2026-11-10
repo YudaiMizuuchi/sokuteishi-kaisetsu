@@ -100,6 +100,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -142,6 +143,7 @@ questions:
     prid: pr-bunseki-0024
     prname: 有効数字と数値の丸め
     prcount: 9
+    fresh: false
     level: A
     why: pr_A
 - num: 3
@@ -241,6 +243,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -346,6 +349,7 @@ questions:
     - []
     - - 2023-08
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -456,6 +460,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -502,6 +507,7 @@ questions:
     prid: pr-bunseki-0019
     prname: 物質量・モル質量・アボガドロ定数
     prcount: 6
+    fresh: false
     level: B
     why: pr_B
 - num: 7
@@ -602,6 +608,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -704,6 +711,7 @@ questions:
     - []
     - - 2023-08
     - - 2023-08
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -745,6 +753,7 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
+    fresh: false
     level: B
     why: q_b
 - num: 10
@@ -780,6 +789,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-quantification-02
@@ -883,6 +893,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -926,6 +937,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -964,6 +976,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-logarithm-02
@@ -1064,6 +1077,7 @@ questions:
     - []
     - - 2026-08
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1169,6 +1183,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1271,6 +1286,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1312,6 +1328,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: false
     level: S
     why: q_hi
 - num: 18
@@ -1412,6 +1429,7 @@ questions:
     - - 2020-02
       - 2024-02
     - - 2022-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1518,6 +1536,7 @@ questions:
     - []
     - - 2025-08
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1624,6 +1643,7 @@ questions:
     - - 2020-02
       - 2021-08
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:

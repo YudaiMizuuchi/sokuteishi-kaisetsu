@@ -95,6 +95,7 @@ questions:
     - []
     - - 2015-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -200,6 +201,7 @@ questions:
       - 2019-08
       - 2023-08
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -244,6 +246,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
+    fresh: false
     level: S
     why: q_hi
 - num: 4
@@ -280,6 +283,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 5
@@ -377,6 +381,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -482,6 +487,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -585,6 +591,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -687,6 +694,7 @@ questions:
     - []
     - - 2019-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -789,6 +797,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -891,6 +900,7 @@ questions:
     - - 2023-08
     - []
     - []
+    fresh: false
     level: B
     why: elim_all
     tags:
@@ -993,6 +1003,7 @@ questions:
     - []
     - - 2017-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
@@ -1097,6 +1108,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: S
@@ -1204,6 +1216,7 @@ questions:
     - - 2021-08
       - 2024-08
     - []
+    fresh: false
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: A
@@ -1312,6 +1325,7 @@ questions:
       - 2020-08
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1414,6 +1428,7 @@ questions:
     - []
     - []
     - - 2024-08
+    fresh: false
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: A
@@ -1518,6 +1533,7 @@ questions:
     - []
     - - 2021-08
     - - 2024-08
+    fresh: false
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: A
@@ -1622,6 +1638,7 @@ questions:
     - - 2019-08
     - []
     - []
+    fresh: false
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: B
@@ -1727,6 +1744,7 @@ questions:
     - - 2019-08
       - 2021-08
     - - 2019-08
+    fresh: false
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: S
@@ -1834,6 +1852,7 @@ questions:
       - 2026-08
     - []
     - - 2022-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1873,5 +1892,6 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    fresh: false
     level: B
     why: q_b

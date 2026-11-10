@@ -60,6 +60,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 2
@@ -160,6 +161,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -266,6 +268,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -370,6 +373,7 @@ questions:
       - 2021-08
       - 2022-08
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -477,6 +481,7 @@ questions:
     - - 2022-08
     - []
     - - 2017-08
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -582,6 +587,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -622,6 +628,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 8
@@ -717,6 +724,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -819,6 +827,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -926,6 +935,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -1032,6 +1042,7 @@ questions:
       - 2022-02
       - 2023-02
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1137,6 +1148,7 @@ questions:
       - 2022-02
       - 2023-02
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1243,6 +1255,7 @@ questions:
     - - 2022-02
       - 2023-02
       - 2023-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1345,6 +1358,7 @@ questions:
     - - 2015-08
     - - 2015-08
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1449,6 +1463,7 @@ questions:
     - - 2020-02
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1490,6 +1505,7 @@ questions:
     prid: pr-ippan-0027
     prname: フードは発散源に近く、囲うほど効率が高い
     prcount: 1
+    fresh: false
     level: B
     why: pat_B
     pat: gn-ventilation-01
@@ -1587,6 +1603,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1705,6 +1722,7 @@ questions:
     - - 2016-02
       - 2019-08
       - 2021-02
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1809,6 +1827,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1912,6 +1931,7 @@ questions:
       - 2022-08
     - []
     - []
+    fresh: false
     level: B
     why: pat_B
     tags:

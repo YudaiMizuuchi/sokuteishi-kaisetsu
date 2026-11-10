@@ -36,6 +36,7 @@ questions:
     prid: pr-yuki-0023
     prname: 沸点・蒸気圧・融点・分子量の比較
     prcount: 9
+    fresh: true
     level: A
     why: pr_A
 - num: 2
@@ -68,6 +69,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: true
     level: S
     why: pr_S
 - num: 3
@@ -103,8 +105,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 4
   status: published
   chapters:
@@ -201,14 +204,15 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - odo
     - ''
     - odo
     - new
-    - ans_new
+    - ans_fresh
 - num: 5
   status: published
   chapters:
@@ -302,6 +306,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: pr_B
     tags:
@@ -406,12 +411,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - ''
-    - ans_new
+    - ans_fresh
     - ''
     - new
 - num: 7
@@ -508,6 +514,7 @@ questions:
     - []
     - - 2022-08
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -552,6 +559,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: true
     level: S
     why: pr_S
 - num: 9
@@ -653,6 +661,7 @@ questions:
       - 2021-08
     - - 2023-08
     - - 2025-08
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -691,6 +700,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 11
@@ -789,6 +799,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pr_A
     tags:
@@ -893,6 +904,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -995,6 +1007,7 @@ questions:
     - []
     - - 2018-08
       - 2020-08
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -1039,8 +1052,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 15
   status: published
   chapters:
@@ -1134,6 +1148,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pr_A
     tags:
@@ -1239,6 +1254,7 @@ questions:
       - 2022-08
       - 2023-08
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -1280,6 +1296,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: q_hi
 - num: 18
@@ -1321,6 +1338,7 @@ questions:
     prid: pr-yuki-0019
     prname: 液体捕集の捕集率
     prcount: 5
+    fresh: true
     level: A
     why: q_hi
 - num: 19
@@ -1364,8 +1382,9 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 20
   status: published
   chapters:
@@ -1459,6 +1478,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:

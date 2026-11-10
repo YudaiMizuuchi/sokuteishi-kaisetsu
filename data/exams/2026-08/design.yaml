@@ -44,6 +44,7 @@ questions:
     prid: pr-design-0001
     prname: 気体の体積は温度と圧力で変わる（理想気体）
     prcount: 10
+    fresh: true
     level: A
     why: q_hi
 - num: 2
@@ -146,13 +147,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - ''
     - ''
-    - ans_new
+    - ans_fresh
     - ''
 - num: 3
   status: published
@@ -197,8 +199,9 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 4
   status: published
   chapters:
@@ -307,6 +310,7 @@ questions:
       - 2025-02
       - 2026-02
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -350,6 +354,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: true
     level: A
     why: pat_A
     pat: ds-personal-sampling-01
@@ -456,6 +461,7 @@ questions:
     - - 2024-08
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -499,6 +505,7 @@ questions:
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
     prcount: 19
+    fresh: true
     level: S
     why: pat_S
     pat: ds-properties-01
@@ -602,12 +609,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - ''
     - new
 - num: 9
@@ -642,6 +650,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 10
@@ -749,6 +758,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -857,6 +867,7 @@ questions:
       - 2019-02
       - 2021-08
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -974,6 +985,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -1087,12 +1099,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - odo
-    - ans_new
+    - ans_fresh
     - ''
     - new
 - num: 14
@@ -1195,6 +1208,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1301,13 +1315,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
 - num: 16
   status: published
@@ -1346,6 +1361,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: pat_S
     pat: ds-radiation-01
@@ -1397,6 +1413,7 @@ questions:
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
     prcount: 23
+    fresh: true
     level: S
     why: pat_S
     pat: ds-radiation-02
@@ -1500,11 +1517,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
-    - ans_new
+    - ans_fresh
     - new
     - ''
     - new
@@ -1609,6 +1627,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: pat_B
     tags:
@@ -1679,5 +1698,6 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh

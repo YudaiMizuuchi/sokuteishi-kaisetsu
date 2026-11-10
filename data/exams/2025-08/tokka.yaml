@@ -99,6 +99,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -148,6 +149,7 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    fresh: true
     subst_id: sb-tokka-3034
     subst_name: 硫化水素
     level: S
@@ -254,6 +256,7 @@ questions:
     - []
     - - 2022-08
     - []
+    fresh: true
     subst_id: sb-tokka-3017
     subst_name: シアン化ナトリウム
     level: B
@@ -300,6 +303,7 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    fresh: true
     subst_id: sb-tokka-3032
     subst_name: マゼンタ
     level: A
@@ -342,6 +346,7 @@ questions:
     prid: pr-tokka-0004
     prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
     prcount: 5
+    fresh: true
     subst_id: sb-tokka-3002
     subst_name: アクリロニトリル
     level: S
@@ -379,6 +384,7 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: true
     level: B
     why: q_b
 - num: 7
@@ -414,6 +420,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: true
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
     level: B
@@ -454,6 +461,7 @@ questions:
     denom: 12
     count: 5
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 9
@@ -552,6 +560,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -589,6 +598,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 11
@@ -687,6 +697,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -736,6 +747,7 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    fresh: true
     subst_id: sb-tokka-3022
     subst_name: トリレンジイソシアネート(TDI)
     level: A
@@ -778,6 +790,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 14
@@ -877,12 +890,13 @@ questions:
     - []
     - []
     - - 2016-08
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - odo
     - odo
 - num: 15
@@ -923,6 +937,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 16
@@ -969,6 +984,7 @@ questions:
     prid: pr-tokka-0008
     prname: 標定・滴定の量的関係
     prcount: 5
+    fresh: true
     level: A
     why: pr_A
 - num: 17
@@ -1008,6 +1024,7 @@ questions:
     denom: 12
     count: 4
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3004
     subst_name: アルファ-ナフチルアミンおよびその塩
     level: A
@@ -1042,6 +1059,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: true
     level: C
     why: q_seen
 - num: 19
@@ -1080,6 +1098,7 @@ questions:
     prid: pr-tokka-0006
     prname: 活性炭への吸着と脱着
     prcount: 4
+    fresh: true
     subst_id: sb-tokka-3010
     subst_name: オーラミン
     level: A
@@ -1181,6 +1200,7 @@ questions:
     - - 2026-08
     - - 2026-08
     - []
+    fresh: true
     level: B
     why: elim_two
     tags:

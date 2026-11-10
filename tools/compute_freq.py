@@ -51,6 +51,8 @@ THRESHOLDS={
 ELIM_KNOWN={'hourei':'A','yuki':'A','kinzoku':'A','funjin':'A'}   # 未指定は 'B'（2026年11月5日の再探索で、一般・デザインを B に、関係法令・有機溶剤・金属類・鉱物性粉じんを A に）
 # 直近トレンド：直近K回（共通6回・選択3回）のうち、TREND_MIN回以上に出た論点は、頻度が低くても、少なくともB（押さえるべき事実）にする
 TREND_K={'ippan':6,'hourei':6,'design':6,'bunseki':6,'yuki':3,'tokka':3,'kinzoku':3,'funjin':3}
+# 新出：初見（通算1回）でも、直近 FRESH_K 回以内に出た問題は、C（余裕があれば得点）にする。D は、それより前に出て、再出題されていない初見だけ（2026-11-10。検証は docs/HANDOFF.md の続き13・14）
+FRESH_K={'ippan':4,'hourei':4,'design':6,'bunseki':6,'yuki':4,'tokka':4,'kinzoku':4,'funjin':4}
 # トレンド（直近に集中）：通算2回以上の論点で、通算回数の半分以上が直近K回にあるとき、水準を1段階上げる（A→S、B→A）。通算1回は対象外
 CUR=None   # 計算中の科目
 ORDER={'S':0,'A':1,'B':2,'C':3,'D':4}
@@ -74,7 +76,8 @@ def judge(fr,answers,prank=None):
         if r=='B': return 'B',(why+'B' if why!='q_' else 'q_b'),None
         if fr.get('subst_id'): return 'B','subst',None
         seen_min=2 if fr.get('self_counted',True) else 1
-        return ('C','q_seen',None) if fr['count']>=seen_min else ('D','q_new',None)
+        if fr['count']>=seen_min: return 'C','q_seen',None
+        return ('C','q_fresh',None) if fr.get('fresh') else ('D','q_new',None)
     a=answers[0]-1; n=len(fr['counts'])
     eff=[fr['pcounts'][i] or fr['counts'][i] for i in range(n)]   # 論点の回数（論点がない選択肢は、同じ記述の回数）
     prc=fr.get('prcounts') or [0]*n
@@ -109,6 +112,7 @@ def judge(fr,answers,prank=None):
     seen_min=2 if fr.get('self_counted',True) else 1
     if eff[a]>=seen_min: tags[a]='ans_seen'; return 'C','seen',tags
     if CUR in NEAR_SUBJ and (fr.get('near') or [False]*n)[a]: tags[a]='ans_near'; return 'C','near',tags   # 改変型：過去に正しい記述として出た事実を、変えたもの
+    if fr.get('fresh'): tags[a]='ans_fresh'; return 'C','fresh',tags   # 新出：直近の回に初めて出た内容（再出題の機会が、まだ少ない）
     return 'D','none',tags
 
 # ひっかけパターン（data/master/book.yaml）：共通科目のパターンだけを、判定に使う（選択科目の sl-* は、論点に置き換わったので、使わない）
@@ -218,7 +222,7 @@ def collect():
                 if j==i or S[j][3]!=s_[3] or S[j][0]==s_[0] or c<0.4*min(len(G[i]),len(G[j])): continue
                 if difflib.SequenceMatcher(None,s_[4],S[j][4]).ratio()>=THR_STMT: exs.add(S[j][0])
             same[(s_[0],s_[1],s_[2])]=len(exs)
-        exam_list=sorted(exams); recent=set(exam_list[-TREND_K[subj]:])
+        exam_list=sorted(exams); recent=set(exam_list[-TREND_K[subj]:]); fresh_set=set(exam_list[-FRESH_K[subj]:])
         pexams=collections.defaultdict(set)
         for s_ in S:
             pid=_K2P.get((subj,f"{s_[0]}|{s_[1]}|{s_[2]}"))
@@ -257,6 +261,7 @@ def collect():
                     _cq=PR_BY_POINT.get((subj,_qp),[]) if _qp else []
                     if _cq:
                         _bq=max(_cq,key=lambda r:len(PRQ_EXAMS[r])); fr.update(prid=_bq,prname=PR_NAME[_bq],prcount=len(PRQ_EXAMS[_bq]))
+                fr['fresh']=e in fresh_set
                 _a=ans[0]; _txt=str(q['stem'])+' '+(str(q['choices'][_a-1]) if isinstance(_a,int) and _a<=len(q['choices']) else '')
                 _tt=SB.table_type(subj,_txt) if subj in ('tokka','kinzoku') else None
                 if _tt and _tt[1]:

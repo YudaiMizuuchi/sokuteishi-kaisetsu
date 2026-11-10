@@ -47,6 +47,7 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: pat_A
     pat: an-units-01
@@ -93,6 +94,7 @@ questions:
     prid: pr-bunseki-0025
     prname: 誤差と統計量
     prcount: 7
+    fresh: true
     level: B
     why: pr_B
 - num: 3
@@ -136,6 +138,7 @@ questions:
     prid: pr-bunseki-0037
     prname: 官能基と有機化合物の性質
     prcount: 2
+    fresh: true
     level: B
     why: pat_B
     pat: an-organic-01
@@ -184,8 +187,9 @@ questions:
     prid: pr-bunseki-0014
     prname: 気体の状態方程式
     prcount: 4
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 5
   status: published
   chapters:
@@ -229,6 +233,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 6
@@ -279,6 +284,7 @@ questions:
     prid: pr-bunseki-0018
     prname: 化学平衡と平衡定数
     prcount: 2
+    fresh: true
     level: C
     why: q_seen
 - num: 7
@@ -314,8 +320,9 @@ questions:
     denom: 23
     count: 1
     form: 計算問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 8
   status: published
   chapters:
@@ -417,6 +424,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -461,6 +469,7 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
+    fresh: true
     level: B
     why: q_b
 - num: 10
@@ -559,12 +568,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
     - new
 - num: 11
@@ -609,6 +619,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: true
     level: B
     why: pat_B
     pat: an-mole-03
@@ -723,6 +734,7 @@ questions:
     - - 2022-08
     - - 2022-08
     - - 2022-08
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -833,6 +845,7 @@ questions:
     - []
     - - 2018-08
       - 2020-08
+    fresh: true
     level: A
     why: pr_A
     tags:
@@ -881,6 +894,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 15
@@ -987,6 +1001,7 @@ questions:
     - []
     - []
     - - 2016-08
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -1096,6 +1111,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -1200,6 +1216,7 @@ questions:
     - - 2024-02
     - - 2024-02
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1310,6 +1327,7 @@ questions:
     - - 2025-02
     - - 2025-02
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1421,6 +1439,7 @@ questions:
     - - 2020-02
       - 2020-08
     - []
+    fresh: true
     level: B
     why: elim_two
     tags:
@@ -1528,11 +1547,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
     - new

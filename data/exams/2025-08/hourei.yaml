@@ -98,6 +98,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -201,6 +202,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -306,6 +308,7 @@ questions:
       - 2025-02
     - []
     - []
+    fresh: true
     level: B
     why: pt_B
     tags:
@@ -409,6 +412,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -513,6 +517,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -616,6 +621,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: pat_B
     tags:
@@ -658,6 +664,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 8
@@ -764,6 +771,7 @@ questions:
     - - 2018-02
       - 2020-08
     - - 2020-02
+    fresh: true
     level: C
     why: seen
     tags:
@@ -870,6 +878,7 @@ questions:
     - []
     - - 2026-08
     - - 2025-02
+    fresh: true
     level: C
     why: seen
     tags:
@@ -974,12 +983,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
-    - ans_new
+    - ans_fresh
     - new
     - ''
 - num: 11
@@ -1027,8 +1037,9 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 12
   status: published
   chapters:
@@ -1131,6 +1142,7 @@ questions:
     - - 2016-02
       - 2017-08
       - 2019-02
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1237,6 +1249,7 @@ questions:
     - - 2022-02
       - 2023-02
     - - 2024-08
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1286,6 +1299,7 @@ questions:
     denom: 23
     count: 4
     form: 穴埋め・組合せの問題
+    fresh: true
     level: A
     why: pat_A
     pat: lw-law-organic-01
@@ -1385,6 +1399,7 @@ questions:
     - []
     - - 2026-02
     - []
+    fresh: true
     level: C
     why: near
     tags:
@@ -1491,11 +1506,12 @@ questions:
       - 2020-08
       - 2021-02
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
-    - ans_new
+    - ans_fresh
     - ''
     - ''
     - ''
@@ -1596,6 +1612,7 @@ questions:
     - []
     - - 2019-02
       - 2020-08
+    fresh: true
     level: C
     why: near
     tags:
@@ -1703,13 +1720,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
 - num: 19
   status: published
@@ -1815,6 +1833,7 @@ questions:
     - []
     - []
     - - 2023-08
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1923,6 +1942,7 @@ questions:
       - 2021-08
       - 2023-08
     - []
+    fresh: true
     level: C
     why: seen
     tags:

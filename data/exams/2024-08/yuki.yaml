@@ -33,6 +33,7 @@ questions:
     prid: pr-yuki-0025
     prname: 有機溶剤の水への溶解（極性・水酸基）
     prcount: 7
+    fresh: true
     level: A
     why: pr_A
 - num: 2
@@ -65,6 +66,7 @@ questions:
     prid: pr-yuki-0023
     prname: 沸点・蒸気圧・融点・分子量の比較
     prcount: 9
+    fresh: true
     level: A
     why: pr_A
 - num: 3
@@ -97,6 +99,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: true
     level: S
     why: pr_S
 - num: 4
@@ -196,6 +199,7 @@ questions:
     - []
     - []
     - - 2021-08
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -238,6 +242,7 @@ questions:
     denom: 12
     count: 6
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 6
@@ -336,6 +341,7 @@ questions:
     - []
     - []
     - - 2020-08
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -438,11 +444,12 @@ questions:
     - []
     - - 2015-08
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
-    - ans_new
+    - ans_fresh
     - new
     - new
     - new
@@ -476,6 +483,7 @@ questions:
     prid: pr-yuki-0009
     prname: 保持時間と溶出順（沸点・極性・温度）
     prcount: 11
+    fresh: true
     level: S
     why: pr_S
 - num: 9
@@ -577,6 +585,7 @@ questions:
       - 2021-08
     - []
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -681,13 +690,14 @@ questions:
     - - 2015-08
     - []
     - - 2019-08
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - odo
     - odo
-    - ans_new
+    - ans_fresh
     - ''
 - num: 11
   status: published
@@ -783,6 +793,7 @@ questions:
       - 2022-08
     - []
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -884,6 +895,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: elim_all
     tags:
@@ -986,6 +998,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: elim_two
     tags:
@@ -1033,6 +1046,7 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 15
@@ -1132,6 +1146,7 @@ questions:
     - - 2018-08
       - 2022-08
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -1236,6 +1251,7 @@ questions:
     - []
     - []
     - - 2021-08
+    fresh: true
     level: B
     why: pt_B
     tags:
@@ -1337,6 +1353,7 @@ questions:
     - - 2022-08
     - - 2021-08
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -1387,6 +1404,7 @@ questions:
     prid: pr-yuki-0001
     prname: ランベルト・ベールの法則
     prcount: 5
+    fresh: true
     level: B
     why: pr_B
 - num: 19
@@ -1430,6 +1448,7 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    fresh: true
     level: B
     why: q_b
 - num: 20
@@ -1525,6 +1544,7 @@ questions:
     - []
     - - 2023-08
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:

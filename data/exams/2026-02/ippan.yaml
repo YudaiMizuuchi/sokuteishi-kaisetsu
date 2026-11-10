@@ -98,14 +98,15 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - ''
     - new
     - ''
-    - ans_new
+    - ans_fresh
 - num: 2
   status: published
   chapters:
@@ -206,10 +207,11 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
-    - ans_new
+    - ans_fresh
     - ''
     - ''
     - ''
@@ -309,6 +311,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -412,6 +415,7 @@ questions:
     - - 2024-08
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -518,6 +522,7 @@ questions:
       - 2023-02
       - 2026-08
     - []
+    fresh: true
     level: A
     why: pat_A
     tags:
@@ -622,12 +627,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
-    - ans_new
+    - ans_fresh
     - new
     - new
 - num: 7
@@ -662,6 +668,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 8
@@ -759,14 +766,15 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - new
     - new
     - ''
-    - ans_new
+    - ans_fresh
 - num: 9
   status: published
   chapters:
@@ -865,6 +873,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -969,6 +978,7 @@ questions:
     - - 2016-08
     - []
     - []
+    fresh: true
     level: A
     why: pt_A
     tags:
@@ -1072,6 +1082,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: trend_A
     tags:
@@ -1178,6 +1189,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: elim_two
     tags:
@@ -1281,6 +1293,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1384,6 +1397,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pat_A
     tags:
@@ -1488,6 +1502,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1593,10 +1608,11 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
-    - ans_new
+    - ans_fresh
     - odo
     - ''
     - new
@@ -1696,6 +1712,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1799,6 +1816,7 @@ questions:
     - []
     - []
     - - 2025-02
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1904,6 +1922,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -2008,6 +2027,7 @@ questions:
     - - 2024-08
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:

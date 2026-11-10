@@ -96,6 +96,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: trend_A
     tags:
@@ -198,6 +199,7 @@ questions:
     - []
     - []
     - - 2020-08
+    fresh: true
     level: A
     why: trend_A
     tags:
@@ -250,6 +252,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: true
     level: C
     why: q_seen
 - num: 4
@@ -290,6 +293,7 @@ questions:
     prid: pr-kinzoku-0005
     prname: 原子吸光は基底状態の原子の光吸収
     prcount: 7
+    fresh: true
     level: S
     why: q_hi
 - num: 5
@@ -388,12 +392,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - odo
     - new
-    - ans_new
+    - ans_fresh
     - ''
     - new
 - num: 6
@@ -492,11 +497,12 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
-    - ans_new
+    - ans_fresh
     - ''
     - ''
     - odo
@@ -539,8 +545,9 @@ questions:
     prid: pr-kinzoku-0001
     prname: ランベルト・ベールの法則
     prcount: 1
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 8
   status: published
   chapters:
@@ -576,8 +583,9 @@ questions:
     prid: pr-kinzoku-0008
     prname: フレームの種類と原子化
     prcount: 1
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 9
   status: published
   chapters:
@@ -674,6 +682,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -778,12 +787,13 @@ questions:
     - []
     - []
     - - 2021-08
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - ''
-    - ans_new
+    - ans_fresh
     - new
     - odo
 - num: 11
@@ -882,6 +892,7 @@ questions:
     - - 2020-08
     - - 2019-08
     - []
+    fresh: true
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: S
@@ -982,6 +993,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: S
@@ -1095,6 +1107,7 @@ questions:
       - 2022-08
       - 2023-08
     - []
+    fresh: true
     subst_id: sb-kinzoku-4002
     subst_name: クロム酸およびその塩,重クロム酸
     level: A
@@ -1210,6 +1223,7 @@ questions:
     - []
     - - 2023-08
       - 2024-08
+    fresh: true
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
     level: S
@@ -1310,6 +1324,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: B
@@ -1368,6 +1383,7 @@ questions:
     prid: pr-kinzoku-0011
     prname: 水素化物発生法の還元
     prcount: 1
+    fresh: true
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: B
@@ -1469,6 +1485,7 @@ questions:
     - - 2023-08
       - 2026-08
     - []
+    fresh: true
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: S
@@ -1575,6 +1592,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B
@@ -1625,6 +1643,7 @@ questions:
     prid: pr-kinzoku-0020
     prname: 分析結果から、空気中の金属濃度への換算
     prcount: 6
+    fresh: true
     subst_id: sb-kinzoku-4011
     subst_name: コバルトおよびその無機化合物
     level: S
@@ -1662,5 +1681,6 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    fresh: true
     level: B
     why: q_b

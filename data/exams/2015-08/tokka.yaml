@@ -97,6 +97,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -141,6 +142,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 3
@@ -182,6 +184,7 @@ questions:
     denom: 12
     count: 6
     form: 計算問題
+    fresh: false
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
     level: S
@@ -220,6 +223,7 @@ questions:
     prid: pr-tokka-0010
     prname: 芳香族アミンのジアゾカップリング発色
     prcount: 3
+    fresh: false
     subst_id: sb-tokka-3019
     subst_name: 3,3'-ジクロロ-4,4'-ジアミノジフェニルメタン（MOCA）
     level: B
@@ -318,6 +322,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3029
     subst_name: ベンゼン
     level: S
@@ -422,6 +427,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -464,6 +470,7 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: B
     why: q_b
 - num: 8
@@ -560,6 +567,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3001
     subst_name: アクリルアミド
     level: S
@@ -665,6 +673,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -712,6 +721,7 @@ questions:
     denom: 12
     count: 4
     form: 計算問題
+    fresh: false
     subst_id: sb-tokka-3022
     subst_name: トリレンジイソシアネート(TDI)
     level: A
@@ -804,6 +814,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3014
     subst_name: コールタール
     level: B
@@ -844,6 +855,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     subst_id: sb-tokka-3027
     subst_name: 弗化水素
     level: S
@@ -885,6 +897,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -915,6 +928,7 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
+    fresh: false
     level: A
     why: pr_A
 - num: 15
@@ -966,6 +980,7 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
+    fresh: false
     level: A
     why: pr_A
 - num: 16
@@ -996,6 +1011,7 @@ questions:
     prid: pr-tokka-0008
     prname: 標定・滴定の量的関係
     prcount: 5
+    fresh: false
     level: A
     why: pr_A
 - num: 17
@@ -1094,6 +1110,7 @@ questions:
       - 2022-08
     - - 2017-08
       - 2022-08
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1149,6 +1166,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 19
@@ -1182,6 +1200,7 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 20
@@ -1212,6 +1231,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3001
     subst_name: アクリルアミド
     level: B

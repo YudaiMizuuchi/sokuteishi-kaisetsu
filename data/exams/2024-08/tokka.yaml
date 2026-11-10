@@ -99,6 +99,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -149,6 +150,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: true
     level: A
     why: q_hi
 - num: 3
@@ -181,6 +183,7 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    fresh: true
     subst_id: sb-tokka-3032
     subst_name: マゼンタ
     level: A
@@ -218,6 +221,7 @@ questions:
     prid: pr-tokka-0010
     prname: 芳香族アミンのジアゾカップリング発色
     prcount: 3
+    fresh: true
     subst_id: sb-tokka-3011
     subst_name: オルト-トリジンおよびその塩
     level: B
@@ -324,6 +328,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-tokka-3001
     subst_name: アクリルアミド
     level: S
@@ -430,6 +435,7 @@ questions:
     - []
     - []
     - - 2019-08
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -468,6 +474,7 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    fresh: true
     level: A
     why: q_hi
 - num: 8
@@ -513,6 +520,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
     level: S
@@ -546,6 +554,7 @@ questions:
     denom: 12
     count: 4
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
     level: A
@@ -646,12 +655,13 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
-    - ans_new
+    - ans_fresh
     - odo
     - ''
 - num: 11
@@ -696,6 +706,7 @@ questions:
     denom: 12
     count: 3
     form: 計算問題
+    fresh: true
     subst_id: sb-tokka-3026
     subst_name: パラ-ニトロクロルベンゼン
     level: B
@@ -730,6 +741,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: true
     subst_id: sb-tokka-3022
     subst_name: トリレンジイソシアネート(TDI)
     level: B
@@ -772,6 +784,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi
 - num: 14
@@ -804,6 +817,7 @@ questions:
     prid: pr-tokka-0011
     prname: 沸点・融点・蒸気圧の比較（分子間力）
     prcount: 5
+    fresh: true
     level: A
     why: pr_A
 - num: 15
@@ -841,8 +855,9 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 16
   status: published
   chapters:
@@ -889,6 +904,7 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     subst_id: sb-tokka-3035
     subst_name: 硫酸ジメチル
     level: S
@@ -936,6 +952,7 @@ questions:
     prid: pr-tokka-0005
     prname: 拡散セルによる標準ガスの発生
     prcount: 3
+    fresh: true
     level: B
     why: q_b
 - num: 18
@@ -1031,13 +1048,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - new
     - new
     - new
-    - ans_new
+    - ans_fresh
     - new
 - num: 19
   status: published
@@ -1072,6 +1090,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: true
     subst_id: sb-tokka-3012
     subst_name: オルト-フタロジニトリル
     level: B
@@ -1142,5 +1161,6 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: true
     level: S
     why: q_hi

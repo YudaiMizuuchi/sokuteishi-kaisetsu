@@ -97,6 +97,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -199,6 +200,7 @@ questions:
     - - 2025-08
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
     level: B
@@ -252,6 +254,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 4
@@ -282,6 +285,7 @@ questions:
     denom: 12
     count: 4
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3010
     subst_name: オーラミン
     level: A
@@ -327,6 +331,7 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    fresh: false
     subst_id: sb-tokka-3029
     subst_name: ベンゼン
     level: B
@@ -365,6 +370,7 @@ questions:
     denom: 12
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: B
     why: q_b
 - num: 7
@@ -461,6 +467,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
     level: S
@@ -565,6 +572,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3037
     subst_name: 酸化プロピレン
     level: B
@@ -669,6 +677,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -707,6 +716,7 @@ questions:
     denom: 12
     count: 4
     form: 穴埋め・組合せの問題
+    fresh: false
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
     level: A
@@ -814,6 +824,7 @@ questions:
     - - 2019-08
     - - 2020-08
     - []
+    fresh: false
     subst_id: sb-tokka-3038
     subst_name: 1,1-ジメチルヒドラジン
     level: B
@@ -852,6 +863,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3022
     subst_name: トリレンジイソシアネート(TDI)
     level: B
@@ -893,6 +905,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -926,6 +939,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 15
@@ -1019,6 +1033,7 @@ questions:
     - []
     - - 2016-08
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1058,6 +1073,7 @@ questions:
     prid: pr-tokka-0008
     prname: 標定・滴定の量的関係
     prcount: 5
+    fresh: false
     subst_id: sb-tokka-3008
     subst_name: 塩素
     level: A
@@ -1158,6 +1174,7 @@ questions:
       - 2017-08
     - - 2015-08
       - 2017-08
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1191,6 +1208,7 @@ questions:
     denom: 12
     count: 2
     form: 選択肢が物質名などの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 19
@@ -1224,6 +1242,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3001
     subst_name: アクリルアミド
     level: B
@@ -1296,5 +1315,6 @@ questions:
     denom: 12
     count: 5
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi

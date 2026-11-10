@@ -96,6 +96,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: trend_A
     tags:
@@ -136,6 +137,7 @@ questions:
     denom: 12
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: true
     level: C
     why: q_seen
 - num: 3
@@ -176,8 +178,9 @@ questions:
     prid: pr-kinzoku-0010
     prname: ICPの原理
     prcount: 1
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 4
   status: published
   chapters:
@@ -274,6 +277,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -377,10 +381,11 @@ questions:
       - 2026-08
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
-    - ans_new
+    - ans_fresh
     - new
     - odo
     - new
@@ -481,6 +486,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -585,6 +591,7 @@ questions:
     - - 2026-08
     - []
     - []
+    fresh: true
     level: S
     why: trend_S
     tags:
@@ -686,6 +693,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: S
     why: pt_S
     tags:
@@ -791,6 +799,7 @@ questions:
     - []
     - - 2016-08
       - 2022-08
+    fresh: true
     level: C
     why: seen
     tags:
@@ -899,6 +908,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4006
     subst_name: ベリリウムおよびその化合物
     level: B
@@ -1005,6 +1015,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: B
@@ -1115,6 +1126,7 @@ questions:
       - 2020-08
       - 2021-08
     - []
+    fresh: true
     level: B
     why: elim_two
     tags:
@@ -1216,6 +1228,7 @@ questions:
     - - 2018-08
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
     level: B
@@ -1324,6 +1337,7 @@ questions:
     - []
     - []
     - - 2018-08
+    fresh: true
     subst_id: sb-kinzoku-4007
     subst_name: マンガンおよびその化合物
     level: B
@@ -1434,6 +1448,7 @@ questions:
     - - 2016-08
       - 2018-08
       - 2020-08
+    fresh: true
     subst_id: sb-kinzoku-4004
     subst_name: 砒素およびその化合物
     level: S
@@ -1540,6 +1555,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4005
     subst_name: 水銀
     level: B
@@ -1646,6 +1662,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: B
@@ -1752,6 +1769,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     subst_id: sb-kinzoku-4009
     subst_name: ニッケル化合物
     level: A
@@ -1805,6 +1823,7 @@ questions:
     prid: pr-kinzoku-0013
     prname: キレート剤による溶媒抽出（APDC・DDTC・MIBK）
     prcount: 3
+    fresh: true
     level: B
     why: pr_B
 - num: 20
@@ -1847,6 +1866,7 @@ questions:
     prid: pr-kinzoku-0020
     prname: 分析結果から、空気中の金属濃度への換算
     prcount: 6
+    fresh: true
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: S

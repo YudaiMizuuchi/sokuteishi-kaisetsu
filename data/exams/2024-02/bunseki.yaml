@@ -100,6 +100,7 @@ questions:
     - []
     - - 2021-02
       - 2022-08
+    fresh: true
     level: C
     why: seen
     tags:
@@ -205,6 +206,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -309,6 +311,7 @@ questions:
     - - 2020-02
     - []
     - []
+    fresh: true
     level: B
     why: pat_B
     tags:
@@ -354,6 +357,7 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
+    fresh: true
     level: B
     why: q_b
 - num: 5
@@ -390,6 +394,7 @@ questions:
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
     prcount: 6
+    fresh: true
     level: S
     why: pat_S
     pat: an-reaction-01
@@ -498,6 +503,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: pr_B
     tags:
@@ -546,6 +552,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: true
     level: C
     why: q_seen
 - num: 8
@@ -648,6 +655,7 @@ questions:
       - 2021-02
     - - 2023-08
     - - 2023-08
+    fresh: true
     level: S
     why: pr_S
     tags:
@@ -689,6 +697,7 @@ questions:
     denom: 23
     count: 8
     form: 穴埋め・組合せの問題
+    fresh: true
     level: B
     why: q_b
 - num: 10
@@ -790,6 +799,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pat_A
     tags:
@@ -839,6 +849,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: true
     level: S
     why: pat_S
     pat: an-reaction-02
@@ -879,8 +890,9 @@ questions:
     prid: pr-bunseki-0023
     prname: 標定と一次標準物質
     prcount: 3
-    level: D
-    why: q_new
+    fresh: true
+    level: C
+    why: q_fresh
 - num: 13
   status: published
   chapters:
@@ -978,13 +990,14 @@ questions:
     - []
     - []
     - []
-    level: D
-    why: none
+    fresh: true
+    level: C
+    why: fresh
     tags:
     - ''
     - ''
     - ''
-    - ans_new
+    - ans_fresh
     - ''
 - num: 14
   status: published
@@ -1023,6 +1036,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: true
     level: S
     why: q_hi
 - num: 15
@@ -1121,6 +1135,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: C
     why: seen
     tags:
@@ -1225,6 +1240,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: elim_all
     tags:
@@ -1332,6 +1348,7 @@ questions:
       - 2023-02
       - 2026-08
     - - 2026-08
+    fresh: true
     level: A
     why: pr_A
     tags:
@@ -1438,6 +1455,7 @@ questions:
       - 2021-02
       - 2025-08
     - []
+    fresh: true
     level: S
     why: pat_S
     tags:
@@ -1543,6 +1561,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: B
     why: elim_two
     tags:
@@ -1647,6 +1666,7 @@ questions:
     - []
     - []
     - []
+    fresh: true
     level: A
     why: pat_A
     tags:

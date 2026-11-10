@@ -97,6 +97,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -145,6 +146,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: false
     level: A
     why: q_hi
 - num: 3
@@ -188,6 +190,7 @@ questions:
     denom: 12
     count: 2
     form: 計算問題
+    fresh: false
     subst_id: sb-tokka-3016
     subst_name: シアン化水素
     level: B
@@ -232,6 +235,7 @@ questions:
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
     prcount: 7
+    fresh: false
     level: A
     why: pr_A
 - num: 5
@@ -329,6 +333,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -431,6 +436,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3039
     subst_name: エチルベンゼン
     level: S
@@ -536,6 +542,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -580,6 +587,7 @@ questions:
     prid: pr-tokka-0004
     prname: 検出器の原理（FID・FPD・ECD・電気化学・紫外可視）
     prcount: 5
+    fresh: false
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
     level: S
@@ -675,6 +683,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     subst_id: sb-tokka-3022
     subst_name: トリレンジイソシアネート(TDI)
     level: B
@@ -720,6 +729,7 @@ questions:
     denom: 12
     count: 1
     form: 計算問題
+    fresh: false
     subst_id: sb-tokka-3014
     subst_name: コールタール
     level: B
@@ -818,6 +828,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -920,6 +931,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -965,6 +977,7 @@ questions:
     denom: 12
     count: 12
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 14
@@ -1008,6 +1021,7 @@ questions:
     denom: 12
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 15
@@ -1035,6 +1049,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 16
@@ -1133,6 +1148,7 @@ questions:
       - 2022-08
     - - 2015-08
       - 2022-08
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1175,6 +1191,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 18
@@ -1208,6 +1225,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3007
     subst_name: 塩化ビニル
     level: B
@@ -1240,6 +1258,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3012
     subst_name: オルト-フタロジニトリル
     level: B
@@ -1275,6 +1294,7 @@ questions:
     denom: 12
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     subst_id: sb-tokka-3002
     subst_name: アクリロニトリル
     level: B

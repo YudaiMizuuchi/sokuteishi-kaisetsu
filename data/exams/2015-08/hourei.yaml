@@ -113,6 +113,7 @@ questions:
       - 2019-02
     - []
     - - 2024-02
+    fresh: false
     level: C
     why: seen
     tags:
@@ -221,6 +222,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -330,6 +332,7 @@ questions:
     - - 2022-02
       - 2023-02
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -365,6 +368,7 @@ questions:
     denom: 23
     count: 7
     form: 選択肢が物質名などの問題
+    fresh: false
     level: S
     why: pat_S
     pat: lw-law-chief-01
@@ -400,6 +404,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 6
@@ -529,6 +534,7 @@ questions:
       - 2023-02
       - 2024-02
       - 2025-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -567,6 +573,7 @@ questions:
     denom: 23
     count: 19
     form: 選択肢が物質名などの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 8
@@ -597,6 +604,7 @@ questions:
     denom: 23
     count: 9
     form: 選択肢が物質名などの問題
+    fresh: false
     level: B
     why: q_b
 - num: 9
@@ -704,6 +712,7 @@ questions:
       - 2021-08
     - []
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -816,6 +825,7 @@ questions:
       - 2018-08
       - 2026-08
     - - 2016-08
+    fresh: false
     level: C
     why: seen
     tags:
@@ -931,6 +941,7 @@ questions:
       - 2025-02
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1046,6 +1057,7 @@ questions:
       - 2021-02
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1158,6 +1170,7 @@ questions:
       - 2024-02
       - 2025-02
       - 2025-08
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1198,6 +1211,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: B
     why: pat_B
     pat: lw-law-tokka-03
@@ -1311,6 +1325,7 @@ questions:
       - 2018-08
       - 2020-08
     - - 2020-02
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -1355,6 +1370,7 @@ questions:
     denom: 23
     count: 1
     form: 穴埋め・組合せの問題
+    fresh: false
     level: D
     why: q_new
 - num: 17
@@ -1467,6 +1483,7 @@ questions:
       - 2022-02
       - 2023-02
     - - 2025-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1589,6 +1606,7 @@ questions:
     - []
     - - 2016-02
       - 2023-08
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -1704,6 +1722,7 @@ questions:
     - - 2020-08
       - 2026-02
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -1808,6 +1827,7 @@ questions:
     - - 2017-02
       - 2021-02
     - - 2017-02
+    fresh: false
     level: C
     why: seen
     tags:

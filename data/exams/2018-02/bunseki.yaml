@@ -36,6 +36,7 @@ questions:
     denom: 23
     count: 9
     form: 穴埋め・組合せの問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-units-01
@@ -75,6 +76,7 @@ questions:
     prid: pr-bunseki-0024
     prname: 有効数字と数値の丸め
     prcount: 9
+    fresh: false
     level: A
     why: pr_A
 - num: 3
@@ -105,6 +107,7 @@ questions:
     denom: 23
     count: 9
     form: 計算問題
+    fresh: false
     level: B
     why: q_b
 - num: 4
@@ -204,6 +207,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -250,6 +254,7 @@ questions:
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
     prcount: 6
+    fresh: false
     level: A
     why: pat_A
     pat: an-logarithm-01
@@ -288,6 +293,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-solution-02
@@ -388,6 +394,7 @@ questions:
     - - 2017-02
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -494,6 +501,7 @@ questions:
     - - 2019-08
       - 2021-08
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -596,6 +604,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -701,6 +710,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -819,6 +829,7 @@ questions:
     - - 2017-02
       - 2020-02
       - 2021-02
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -862,6 +873,7 @@ questions:
     prid: pr-bunseki-0023
     prname: 標定と一次標準物質
     prcount: 3
+    fresh: false
     level: D
     why: q_new
 - num: 13
@@ -958,6 +970,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: A
     why: pr_A
     tags:
@@ -1001,6 +1014,7 @@ questions:
     denom: 23
     count: 5
     form: 計算問題
+    fresh: false
     level: S
     why: pat_S
     pat: an-logarithm-02
@@ -1098,6 +1112,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -1203,6 +1218,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pt_S
     tags:
@@ -1308,6 +1324,7 @@ questions:
     - - 2024-02
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1354,6 +1371,7 @@ questions:
     prid: pr-bunseki-0028
     prname: 理論段数と理論段相当高さ
     prcount: 4
+    fresh: false
     level: C
     why: q_seen
 - num: 19
@@ -1450,6 +1468,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1487,5 +1506,6 @@ questions:
     denom: 23
     count: 3
     form: 選択肢が物質名などの問題
+    fresh: false
     level: C
     why: q_seen

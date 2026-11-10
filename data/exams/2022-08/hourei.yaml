@@ -114,6 +114,7 @@ questions:
       - 2024-02
     - - 2024-08
     - []
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -233,6 +234,7 @@ questions:
       - 2024-02
       - 2025-02
     - []
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -351,6 +353,7 @@ questions:
       - 2023-02
     - []
     - []
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -394,6 +397,7 @@ questions:
     denom: 23
     count: 23
     form: 穴埋め・組合せの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 5
@@ -511,6 +515,7 @@ questions:
     - - 2024-08
     - - 2020-02
       - 2020-08
+    fresh: false
     level: C
     why: seen
     tags:
@@ -549,6 +554,7 @@ questions:
     denom: 23
     count: 9
     form: 選択肢が物質名などの問題
+    fresh: false
     level: B
     why: q_b
 - num: 7
@@ -580,6 +586,7 @@ questions:
     denom: 23
     count: 19
     form: 選択肢が物質名などの問題
+    fresh: false
     level: S
     why: q_hi
 - num: 8
@@ -697,6 +704,7 @@ questions:
       - 2022-02
       - 2023-02
       - 2024-02
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -804,6 +812,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -919,6 +928,7 @@ questions:
       - 2023-08
       - 2024-02
       - 2024-08
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1031,6 +1041,7 @@ questions:
       - 2016-02
       - 2016-08
       - 2017-08
+    fresh: false
     level: D
     why: none
     tags:
@@ -1149,6 +1160,7 @@ questions:
       - 2022-02
       - 2023-02
     - []
+    fresh: false
     level: S
     why: pat_S
     tags:
@@ -1267,6 +1279,7 @@ questions:
       - 2022-02
       - 2023-02
       - 2024-02
+    fresh: false
     level: C
     why: near
     tags:
@@ -1307,6 +1320,7 @@ questions:
     denom: 23
     count: 6
     form: 穴埋め・組合せの問題
+    fresh: false
     level: B
     why: pat_B
     pat: lw-law-tokka-03
@@ -1412,6 +1426,7 @@ questions:
       - 2021-02
       - 2023-08
       - 2026-08
+    fresh: false
     level: B
     why: pt_B
     tags:
@@ -1532,6 +1547,7 @@ questions:
       - 2019-02
       - 2020-02
       - 2021-08
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1654,6 +1670,7 @@ questions:
       - 2020-08
       - 2021-08
       - 2024-02
+    fresh: false
     level: A
     why: pt_A
     tags:
@@ -1776,6 +1793,7 @@ questions:
     - - 2015-08
       - 2017-08
       - 2018-02
+    fresh: false
     level: A
     why: pat_A
     tags:
@@ -1900,6 +1918,7 @@ questions:
       - 2023-08
       - 2024-02
     - []
+    fresh: false
     level: C
     why: near
     tags:
@@ -2009,6 +2028,7 @@ questions:
       - 2020-02
       - 2021-02
     - []
+    fresh: false
     level: C
     why: seen
     tags:

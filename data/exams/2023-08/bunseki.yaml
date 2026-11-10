@@ -36,6 +36,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-units-01
@@ -78,6 +79,7 @@ questions:
     prid: pr-bunseki-0025
     prname: 誤差と統計量
     prcount: 7
+    fresh: false
     level: B
     why: pr_B
 - num: 3
@@ -177,6 +179,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -289,6 +292,7 @@ questions:
       - 2021-02
       - 2022-08
       - 2024-02
+    fresh: false
     level: B
     why: pat_B
     tags:
@@ -338,6 +342,7 @@ questions:
     denom: 23
     count: 6
     form: 計算問題
+    fresh: false
     level: C
     why: q_seen
 - num: 6
@@ -383,6 +388,7 @@ questions:
     denom: 23
     count: 4
     form: 計算問題
+    fresh: false
     level: A
     why: pat_A
     pat: an-solution-02
@@ -419,6 +425,7 @@ questions:
     denom: 23
     count: 3
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 8
@@ -524,6 +531,7 @@ questions:
       - 2022-02
       - 2023-02
       - 2024-02
+    fresh: false
     level: S
     why: pr_S
     tags:
@@ -631,6 +639,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: S
     why: trend_S
     tags:
@@ -735,6 +744,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: pr_B
     tags:
@@ -783,6 +793,7 @@ questions:
     prid: pr-bunseki-0019
     prname: 物質量・モル質量・アボガドロ定数
     prcount: 6
+    fresh: false
     level: A
     why: pat_A
     pat: an-reaction-03
@@ -884,6 +895,7 @@ questions:
     - - 2024-08
     - []
     - []
+    fresh: false
     level: C
     why: seen
     tags:
@@ -922,6 +934,7 @@ questions:
     denom: 23
     count: 1
     form: 選択肢が物質名などの問題
+    fresh: false
     level: D
     why: q_new
 - num: 14
@@ -957,6 +970,7 @@ questions:
     denom: 23
     count: 18
     form: 計算問題
+    fresh: false
     level: S
     why: q_hi
 - num: 15
@@ -1055,6 +1069,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1097,6 +1112,7 @@ questions:
     denom: 23
     count: 2
     form: 穴埋め・組合せの問題
+    fresh: false
     level: C
     why: q_seen
 - num: 17
@@ -1195,6 +1211,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: D
     why: none
     tags:
@@ -1239,6 +1256,7 @@ questions:
     prid: pr-bunseki-0031
     prname: 検出器の原理
     prcount: 11
+    fresh: false
     level: S
     why: q_hi
 - num: 19
@@ -1337,6 +1355,7 @@ questions:
     - []
     - []
     - []
+    fresh: false
     level: B
     why: elim_two
     tags:
@@ -1381,6 +1400,7 @@ questions:
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
     prcount: 6
+    fresh: false
     level: A
     why: pat_A
     pat: an-radiation-01
