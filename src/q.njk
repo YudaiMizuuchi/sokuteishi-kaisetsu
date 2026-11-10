@@ -17,6 +17,8 @@ eleventyComputed:
   {% if q.prev %}<a href="{{ q.prev.url }}" rel="prev">問{{ q.prev.num }}へ戻る</a>{% else %}<span></span>{% endif %}
   {% if q.next %}<a href="{{ q.next.url }}" rel="next">問{{ q.next.num }}へ進む</a>{% endif %}
 </nav>
+{% from "practice-cta.njk" import practiceCta %}
+{{ practiceCta("slim") }}
 {% if q.traps.length and q.traps[0].url and q.traps[0].questions.length > 1 %}
 <section class="related">
   <h2>同じひっかけパターンが出た問題</h2>

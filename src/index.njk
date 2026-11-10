@@ -9,6 +9,8 @@ eleventyComputed:
   <p>作業環境測定士試験の過去問を、{{ db.stats.firstLabel }}から{{ db.stats.lastLabel }}までの{{ db.stats.exams }}回分掲載しています。第2種の共通科目「労働衛生一般」「労働衛生関係法令」「デザイン・サンプリング」「分析に関する概論」の計{{ db.stats.common | num }}問と、第1種の選択科目（有機溶剤・鉱物性粉じん・特定化学物質・金属類の計{{ db.stats.selective | num }}問）のうち、{{ db.stats.explained | num }}問に解説を付けています。</p>
   <p>解説では、正答の理由だけでなく、過去の試験で繰り返し出てきた「ひっかけパターン」と、関係する法令の条文も示しています。法改正で扱いが変わった問題には、注意書きを付けています。</p>
 </div>
+{% from "practice-cta.njk" import practiceCta %}
+{{ practiceCta("big") }}
 <section class="about" aria-labelledby="about-title">
   <h2 id="about-title">このサイトについて</h2>
   <p>作業環境測定の業界を盛り上げたい。その一心で、趣味として運営しているサイトです。趣味とはいえ、自己研鑽も兼ねて、化学物質管理専門家の名に恥じない内容を心がけています。作業環境測定士を目指す方や、現場で測定に携わる方の学びの助けになれば、これほどうれしいことはありません。応援していただけると励みになります。どうぞよろしくお願いします。</p>

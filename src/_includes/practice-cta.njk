@@ -1,0 +1,26 @@
+{# 演習ページへの案内。big＝トップページ用の大きな案内、slim＝問題ページなどの下に置く小さな案内 #}
+{% macro practiceCta(kind="big") %}
+{% if kind == "big" %}
+<section class="pcta" aria-labelledby="pcta-title">
+  <div class="pcta-text">
+    <p class="pcta-kicker">無料・登録なしで使えます</p>
+    <h2 id="pcta-title">過去問演習で、解いて覚える</h2>
+    <p class="pcta-lead">科目・年度・参考書の章を選んで、その場で解けます。答えると、正誤と解説がすぐに出ます。</p>
+    <ul class="pcta-points">
+      <li><strong>Google アカウントでログイン</strong>すると、解答の記録が保存されます。スマートフォンとパソコンで、続きができます。</li>
+      <li><strong>復習</strong>は、おまかせ。間違えた問題と、解いてから日がたった問題を、自動で選んで出します。</li>
+      <li><strong>成績</strong>で、苦手な章がわかります。そのまま参考書の章へ進めます。</li>
+    </ul>
+  </div>
+  <p class="pcta-action">
+    <a class="pcta-btn" href="/practice/"><span>過去問演習をはじめる</span><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.2 5.3 11.8 6.7l4.3 4.3H4v2h12.1l-4.3 4.3 1.4 1.4L19.9 12z"/></svg></a>
+    <span class="pcta-note">ログインしなくても、解けます（記録は、この端末に残ります）。</span>
+  </p>
+</section>
+{% else %}
+<aside class="pcta-slim" aria-label="過去問演習の案内">
+  <p><strong>解いて覚えたい方へ。</strong>過去問演習では、科目や章を選んで問題を解けます。Google アカウントでログインすると、記録が保存され、間違えた問題を自動で復習できます（無料）。</p>
+  <a class="pcta-btn pcta-btn-s" href="/practice/"><span>過去問演習へ</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.2 5.3 11.8 6.7l4.3 4.3H4v2h12.1l-4.3 4.3 1.4 1.4L19.9 12z"/></svg></a>
+</aside>
+{% endif %}
+{% endmacro %}
