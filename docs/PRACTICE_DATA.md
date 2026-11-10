@@ -1,0 +1,74 @@
+# 演習機能のためのデータの仕様（サイト側が出力する JSON）
+
+作成：サイト構築側（2026年11月10日）。**この仕様を変えるのは、サイト構築側だけ**。演習側は、ここに書いてある項目を読むだけにする（足りない項目は、返却 README の「サイト側への依頼」に書く）。
+
+## 1. 出力されるファイル（ビルド後。公開URLは `https://aoi-s-office.jp/sokuteishi/` の下）
+| パス | 内容 | 大きさの目安 |
+|---|---|---|
+| `/data/meta.json` | 絞り込み用の一覧（科目・実施回・参考書の章・ランク） | 約35 KB |
+| `/data/<科目>.json` | その科目の全問題（問題文・選択肢・正答・解説・ランク・章・一問一答用の情報） | 1.1〜2.6 MB（8科目で約15 MB。gzip で配信される） |
+
+科目ID：`ippan`（労働衛生一般）、`hourei`（労働衛生関係法令）、`design`（デザイン・サンプリング）、`bunseki`（分析に関する概論）、`yuki`（有機溶剤）、`funjin`（鉱物性粉じん）、`tokka`（特定化学物質）、`kinzoku`（金属類）。前の4つが共通科目（23回分）、後の4つが選択科目（12回分）。**科目の JSON は、選んだ科目だけを読み込む**（既存の一覧ページ `src/assets/app.js` の `loadSubject` と同じ方式）。
+
+## 2. `/data/meta.json`
+```json
+{
+  "generated": "2026-11-09",
+  "subjects": [{ "id": "ippan", "name": "労働衛生一般", "kind": "共通", "count": 460 }],
+  "exams":    [{ "key": "2015-08", "label": "平成27年度 第1回", "held": "2015年8月実施" }],
+  "chapters": [{ "id": "bk-ippan-fr01", "label": "リスクアセスメント指針｜労働衛生一般", "subject": "ippan", "bookUrl": "/book/bk-ippan-fr01/" }],
+  "ranks": ["S", "A", "B", "C", "D"]
+}
+```
+- `exams[].key` は `年-月`（`-08`＝その年度の第1回、`-02`＝前年度の第2回）。第2回は、共通科目だけ。
+- `chapters[].bookUrl` は、参考書の章ページ（**まだ書いていない章は `null`**。リンクを出さない）。章の一覧ページは `/chapter/<id>/`（どの章にもある）。
+- ランク：S・A＝得点必須、B＝何とか得点、C＝余裕があれば得点（既出だが1回だけ）、D＝失点やむなし（初見）。
+
+## 3. `/data/<科目>.json`（問題の配列）
+| 項目 | 型 | 内容 |
+|---|---|---|
+| `id` | 文字列 | 問題ID。`2024-02-hourei-01`（実施回-科目-問番号）。**解答記録のキーに使う**（変わらない） |
+| `url` | 文字列 | 解説ページ。`/q/2024-02-hourei-01/` |
+| `exam`・`examLabel`・`held` | 文字列 | 実施回のキー・表示名・実施月 |
+| `subject`・`subjectName`・`num` | | 科目ID・科目名・問番号 |
+| `rank`・`rankLabel`・`method` | | 区分（S〜D。`null` もある）・表示名・解法の印（暗記で解く／原理で解く／消去法で解く／トレンド／初見） |
+| `chapters`・`chapterLabels` | 配列 | 参考書の章のID・表示名（決め手の章が先） |
+| `books` | 配列 | `{label, url}`。**書いてある参考書の章**へのリンク（`/book/<章ID>/`）。空のこともある |
+| `stemHtml` | HTML | 問題文（数式は KaTeX で描画済みの HTML。`/assets/katex/katex.min.css` が要る） |
+| `choices` | HTML の配列 | 選択肢（通常の問題）。**表形式の問題は `columns`（列見出し）と `choiceCells`（行×列）**で、`choices` は使わない |
+| `figures` | 配列 | `{src, alt}`。図（`src` は `/assets/figures/…`） |
+| `answer` | 配列 | 正答の選択肢番号（1始まり）。`["all"]` は全員正解。空は正答未掲載 |
+| `explanationHtml`・`hasExplanation` | | 解説（HTML）・解説の有無 |
+| `choiceNotes` | 配列 | 選択肢ごとの補足 `{html, isAnswer}`（ない問題が多い） |
+| `lawNote`・`examNote`・`textNote`・`reviewNote`・`minorNote` | | 解説の下に出す注記（法令改正・確認中・細かい論点 など）。あれば、解説と一緒に出す |
+| `freqHtml` | HTML | 出題頻度の表（既存のカードと同じもの。リンクは `/` 始まり） |
+| `source`・`sourcePdf` | | 出典の表示（**問題を表示する画面には、必ず `source` を出す**） |
+| **`drill`** | オブジェクト／`null` | **一問一答用**。下の4 |
+
+- パスは、すべて `/` 始まり（サイト内のルート相対）。公開フォルダ（`/sokuteishi/`）は、テンプレートでは Eleventy が自動で付け、JS では `cfg.base` を前に付ける（`app.js` の `u()` と同じ）。
+
+## 4. `drill`（一問一答用。選択肢を1つずつ「正しい／誤り」で判定できる問題だけ。穴埋め・組合せ・計算問題は `null`）
+```json
+"drill": {
+  "denom": 23,
+  "items": [
+    { "n": 1, "truth": true, "point": "pt-hourei-0066",
+      "pointName": "総括安全衛生管理者の選任は、業種により人数が異なる（業種に関係なく一律ではない）",
+      "count": 15, "recent": 3, "principle": null, "principleName": null }
+  ]
+}
+```
+| 項目 | 内容 |
+|---|---|
+| `denom` | その科目の実施回数（共通23、選択12） |
+| `items[].n` | 選択肢の番号（`choices[n-1]` が本文） |
+| `items[].truth` | **その選択肢の記述が、正しい（`true`）か、誤り（`false`）か**（問題が「誤っているものはどれか」でも、記述そのものの正誤） |
+| `items[].point`・`pointName` | 論点（同じ事実のまとまり）のID・名前。**論点IDは、見直し（統合・分割）で変わることがある**ので、解答記録のキーには使わない（キーは `問題ID＋選択肢番号`）。集計のたびに、最新の JSON から引き直す |
+| `items[].count`・`recent` | その論点が出た回数（通算／直近の回〔共通科目は直近6回〕）。**頻出パターン＝`count` の多い論点**。`null` のこともある |
+| `items[].principle`・`principleName` | 原理（あれば）。原理のページは `/principle/<id>/` |
+
+- 件数（2026年11月10日）：問題 2,800、`drill` のある問題の選択肢 9,850。
+- 論点の名前には、「（誤りの記述）」のように、正誤が読み取れる語が入っているものがある。**一問一答では、答える前に `pointName` を見せない**（答えた後に出す）。
+
+## 5. 仕様を変えるとき
+- サイト側が `src/_data/db.js`（`listItem`・`drillOf`・`practiceMeta`）を変え、この文書と `docs/HANDOFF.md` に書く。項目の追加は、互換性を保つ（既存の項目の意味を変えない）。

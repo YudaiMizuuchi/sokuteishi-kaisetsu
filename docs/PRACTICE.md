@@ -1,0 +1,303 @@
+# 過去問演習機能 設計書（演習側）
+
+作成：演習側チャット（2026年11月10日）／状態：**段階2まで完了（Supabase 連携。運営者の実機確認待ち）**
+この文書は、新しいチャットに引き継ぐときの正本です。段階が進むたびに、末尾の「進行状況」と該当の節を更新します。
+
+---
+
+## 0. 目的と前提（変えないこと）
+
+- 作業環境測定士試験の過去問解説サイト（Eleventy 3＋Netlify。公開先 `https://aoi-s-office.jp/sokuteishi/`）に、**過去問演習機能**（URL `/practice/`）を足す。
+- 問題データは Supabase に入れない。静的 JSON（`/data/meta.json`、`/data/<科目>.json`）をブラウザで読む。Supabase に置くのは、**利用者ごとの解答の記録だけ**。
+- サーバーは持たない。ブラウザから `supabase-js` で直接つなぎ、行レベルセキュリティ（RLS）で本人の行だけを読み書きする。
+- ブラウザに埋め込むのは公開用キー（publishable／anon）だけ。secret／`service_role` キーは、コード・リポジトリ・チャットのどこにも書かない。
+- ビルドの仕組み・フレームワークは変えない。素の JavaScript（ES モジュール）。外部ライブラリは `supabase-js` だけ。
+- 解答記録のキーは、`問題ID`（一問一答は `問題ID＋選択肢番号`）。論点ID（`pt-…`）は記録に入れない。
+- 触る範囲：`src/practice.njk`、`src/practice/`、`src/assets/practice*`、`docs/PRACTICE.md`、`supabase/`、`tools/practice_…` だけ。既存ファイルの変更は、返却 README の「サイト側への依頼」に書く。
+
+## 0-2. 運営者の回答（2026年11月10日）で決まったこと
+
+- Q1〜Q6、Q8：**提案どおり**（ログインなしでも解ける／記録は無期限で、同じキーは最新10件に間引く／画面から記録を削除、アカウント削除は問い合わせフォーム経由／問い合わせ先は既存フォーム／成績の章別は先頭の章だけに数える）。
+- Q4：事務所名「**あおい技術サービス事務所**」、サポート用メールアドレス「**info@aoi-s-office.jp**」。Google の同意画面のアプリ名は、提案の「あおい技術サービス事務所　過去問演習」を使う（変更があれば、段階2の前に連絡してもらう）。独自ドメインは使わない。
+- Q7：**一時停止への対策は A**（何もしない）。**運営者自身が、日常的に使う（定期的にアクセスする）ことで、止まらないようにする**。万一止まっても、`localStorage` で続けられ、運営者が Resume project を押せば戻る。
+- Q6：Supabase のプロジェクトは作成済み。URL は `https://svqeerdaqkaffnecczjv.supabase.co`、publishable キーは `src/assets/practice/config.js` に入れた（公開してよい種類）。secret／`service_role` キーは、受け取っていないし、どこにも書かない。
+- **連絡は、事務所名義で行う**（運営者の方針）。Supabase には GitHub でサインインしている（GitHub には個人名・個人メールが紐づく）。利用者の画面に出るのは、Google 側で設定するアプリ名・サポート用メールアドレス（`info@aoi-s-office.jp`）だけで、Supabase のアカウント情報は出ない。設計書・コード・画面に、運営者の個人名・個人メール・GitHub のユーザー名は書かない。Google Cloud は、`info@aoi-s-office.jp` のアカウントで作る（§9-2）。
+
+## 1. データの現況（2026年11月10日、手元で `npm run build` した結果を走査）
+
+| 項目 | 結果 |
+|---|---|
+| ビルド | `npm install` → `npm run build` が通る（3,686ファイル）。`python3 tools/check_site.py` は4項目すべて ✓ |
+| 問題数 | 2,800（共通4科目×460、選択4科目×240）。実施回 23、参考書の章 237（うち `bookUrl` が `null` の章 177） |
+| JSON の大きさ | ippan 3.0 MB／hourei 3.0／design 2.9／bunseki 2.4／funjin 1.6／kinzoku 1.5／yuki 1.3／tokka 1.2（計 約17 MB。`ippan.json` は gzip で約 340 KB） |
+| `drill` | あり 1,970問・`null` 830問。選択肢の総数 9,850（仕様書の件数と一致）。`n` の範囲外・`truth` が真偽値でない・`count` が `null` のものは 0 |
+| 表形式（`columns`） | 308問。**表形式の問題に `drill` はない**（0件） |
+| 図（`figures`） | 28問（tokka 15、ippan 7、design 3、bunseki 2、funjin 1）。`src` はすべて `/assets/figures/` 始まり |
+| 数式（KaTeX 描画） | 3問（funjin 2、tokka 1） |
+| 正答 `["all"]` | **現在のデータでは 0問**（仕様にはあるので、対応は残す） |
+| 正答が複数 | 1問（hourei）。複数のときの採点は、全部一致で正解とする |
+| 正答なし／問題文なし／区分なし | いずれも 0 |
+| 区分の内訳 | S 802／A 662／B 587／C 447／D 302 |
+| 問題IDの重複 | なし |
+
+→ 段階1以降は、上の特殊ケース（表・図・数式・複数正答・`drill: null`）を、データを走査して確かめる（指示の8）。
+
+## 2. 画面の構成（`/practice/`、1ページで切り替え）
+
+```
+ヘッダー（既存の base.njk）
+┌ 演習ページの上部：ログイン状態の帯 ───────────────┐
+│ 「ログインなしで解けます。ログインすると、別の端末でも続きから解けます」 │
+│ [Google でログイン]／ログイン中：名前・[ログアウト]・[記録の管理] │
+└──────────────────────────────────────┘
+タブ：［演習］［復習］［一問一答］［成績］
+```
+- **演習**：左に絞り込み（既存の一覧と同じ軸：科目・年度／回・章・区分S〜D）、右に出題。1問ずつ表示→選択→「答え合わせ」→正誤・正答・解説・注記・出典・参考書リンク→「次の問題」。出す順は、「年度順」「ランダム」を選べる。解いた問題を除く、間違えた問題だけ、の切り替えも付ける。
+- **復習**：自動選択（§5）。1回10問を既定とし、「もう10問」で続ける。絞り込みは演習と同じ。
+- **一問一答**：選択肢を1つ出して「正しい／誤り」（§6）。
+- **成績**：科目別・区分別・章別の解いた数と正答率。弱い章の上位に、参考書の章へのリンク（§7）。
+- 共通の表示：問題を表示する画面に、**`source` を必ず出す**。リンクは、解説ページ・参考書の章とも **`target="_blank" rel="noopener"`**（演習の画面は残る）。`bookUrl`／`books[].url` が `null`／空の章は、リンクを出さない（章の一覧ページ `/chapter/<id>/` は、どの章にもあるので、それを代わりに出せる）。
+- 条件は URL のハッシュに残す（既存の一覧ページと同じ作り。共有・ブックマーク用）。
+- 表示：スマートフォン幅、ダークモード（既存の CSS 変数）、キーボード操作（選択肢はラジオボタン、Enter／数字キーで操作）、`aria-live` で正誤を読み上げ。
+- 問題の描画は、`app.js` の `card()` を参考に、**演習側で別に書く**（`app.js` は変えない）。表形式（`columns`／`choiceCells`）・図・KaTeX 済み HTML に対応する。`stemHtml`・`choices` は、描画済みの HTML なので、そのまま入れる（それ以外の文字列は必ずエスケープする）。
+
+## 3. データの流れ
+
+```
+[起動] meta.json を取得（キャッシュしない。generated を読む）
+   ↓ 絞り込みの選択肢を作る（科目・実施回・章・区分）
+[科目を選ぶ] /data/<科目>.json?v=<generated> を取得（選んだ科目だけ。メモリにキャッシュ）
+   ↓
+[出題] 問題オブジェクトを描画 → 解答 → attempt を作る
+   ↓
+[保存層 store]  ←→  localStorage 版 ／ Supabase 版（同じ関数群）
+   ↓
+[集計・選択（純関数）]  attempts ＋ 問題データ → 復習の優先度・一問一答の出す順・成績
+```
+- JSON の URL に `?v=<meta.generated>` を付けて、サイト側の更新後に古い JSON が残らないようにする（`meta.json` 自体は毎回取り直す）。
+- **保存層**は1つのモジュールにまとめる。インターフェース（案）：
+  `load()`（全記録を返す）／`add(attempt)`／`removeAll()`／`importLocal()`（ログイン時に、ブラウザ内の記録をクラウドへ）。
+  `localStorage` 版（キー `sokuteishi.practice.v1`）と Supabase 版を、差し替えられるようにする。テストは `localStorage` 版（node ではメモリ上の代用品）で行う。
+- 集計・選択の関数は、**画面（DOM）と切り離した純関数**にして、`node` で、作った記録データを使って試せる形にする（`src/assets/practice/logic.js`、`tools/practice_test.mjs`）。
+- **attempt の形（案）**：`{ id, question_id, choice_n, mode, selected, is_correct, answered_at }`。`id` は、ブラウザで `crypto.randomUUID()` を作って持たせる（再送・取り込みの重複を、`on conflict do nothing` で防げる）。
+- **ログイン後の動き**：ログインした時点で、ブラウザ内の記録をクラウドへ送り（取り込み済みの印を付け、二重に送らない）、その後はクラウドの記録を読み込んで使う。読み込みは、**ページを開いたときと、ログインしたときに、全件（1,000行ずつ）**。演習中は、メモリ上の記録を使い、解答のたびに読み直さない。**差分だけの読み込みは、行数が増えて必要になったら足す**（別の端末で古い時刻の記録が後から入ると取りこぼすため、全件読みのほうが確実）。
+- **オフライン・障害時**：Supabase につながらない・一時停止中は、`localStorage` に溜めて続けられる（画面に「いまは、この端末だけに保存しています」と出す）。つながったら、溜めた分を送る。
+
+## 4. テーブルと RLS（案。段階2で `supabase/schema.sql` にする）
+
+```sql
+create table public.attempts (
+  id          uuid primary key default gen_random_uuid(),
+  user_id     uuid not null default auth.uid() references auth.users(id) on delete cascade,
+  question_id text not null,
+  choice_n    smallint,                       -- 通常の問題は null、一問一答は選択肢番号
+  mode        text not null check (mode in ('exam','review','drill')),
+  selected    text not null,                  -- 通常：選んだ番号（複数なら "1,3"）／一問一答："true" か "false"
+  is_correct  boolean not null,
+  answered_at timestamptz not null default now()
+);
+create index attempts_user_q on public.attempts (user_id, question_id, answered_at desc);
+alter table public.attempts enable row level security;
+create policy attempts_select on public.attempts for select to authenticated using (user_id = (select auth.uid()));
+create policy attempts_insert on public.attempts for insert to authenticated with check (user_id = (select auth.uid()));
+create policy attempts_delete on public.attempts for delete to authenticated using (user_id = (select auth.uid()));
+-- update の方針は作らない（追記のみ）。anon には何も与えない。
+```
+- `user_id` に `on delete cascade` を付ける理由：運営者が管理画面でユーザーを削除すると、その人の記録も自動で消えるため。
+- 新しいテーブルに、`authenticated` ロールの権限（`grant select, insert, delete`）を明示する必要があるかどうかは、プロジェクトの設定で変わる可能性があるため、段階2で、実機（SQL エディタ）で確かめる（**未確認**）。
+- `anon`（ログインしていない人）には、何も許さない。公開用キーが見えても、ログインした本人の行しか読み書きできない。
+
+### 容量の見積り（概算。実測は段階2で）
+- 1行：列の実データ約 60〜70 バイト（uuid×2＝32、text 2つ＝約 30、smallint・boolean・timestamptz＝約 12）＋行の管理領域＋索引（主キー・複合索引）で、**1行あたり合計 約 200〜250 バイト**と置く（Postgres の一般的な目安。**実測は未確認**）。
+- 500 MB ÷ 250 B ＝ **約 200 万行**が上限（Auth などの既存の使用量を含まない概算）。
+- 利用者1人の量（目安）：通常の問題 2,800問を各2回＝5,600行、一問一答 9,850肢を各2回＝約 20,000行 → **全部を2周する最も熱心な人で約 2.5万行（約 6 MB）**。ふつうの人は、その1割以下。
+- 熱心な利用者が **50人いても約 300 MB** で、上限に収まる。ただし、最も熱心な人が何周も解くと増え続けるので、**同じ（問題ID＋選択肢番号）の記録は、古い分を間引く**（各キー最新10件まで。書き込み時にブラウザから `delete` する）。方針は、運営者の確認事項 Q2 で決める。
+- 転送量（無料枠 5 GB/月）：問題データは Netlify から配る（Supabase の転送量に入らない）。Supabase の転送は記録の読み書きだけ。全件読み込みは、2.5万行×約 150 B ＝約 4 MB（最も熱心な人）。**差分の読み込み**にすれば、1日数十 KB。
+- 月間のアクティブユーザー：無料枠 5万人。この規模では問題にならない。
+- Netlify 側の帯域（JSON 約 17 MB を配信）：無料枠の上限は**未確認**（段階5で、サイト側に確認する）。
+
+## 5. 復習の自動選択（案。定数は `logic.js` の冒頭1か所にまとめる）
+
+問題ごとに、記録から次を求める：`n`（解いた回数）、`correct`（正解数）、`lastAt`（最後に解いた日時）、`lastOk`（直近の正誤）、`streak`（直近から数えた連続正解数）。正答率＝`correct / n`。
+
+**定数（既定値）**
+```
+INTERVAL_DAYS = [1, 3, 7, 14, 30]       // 連続正解 1〜5回以上のときの、次に出すまでの間隔（日）
+RANK_WEIGHT   = {S:5, A:4, B:3, C:2, D:1}
+INCLUDE_RANK_D = false                   // D は既定で対象外（画面で切り替え）
+INCLUDE_RANK_C = true
+SESSION_SIZE  = 10
+```
+**優先度（大きいほど先に出す）**
+1. **最後に間違えた問題**（`lastOk = false`）：`1000 ＋ RANK_WEIGHT×10 ＋ (1 − 正答率)×20`。同点は、古いものを先に。
+2. **正解したが、間隔が空いた問題**：間隔 `iv = INTERVAL_DAYS[min(streak,5) − 1]`。`経過日数 ≥ iv` のとき対象。`500 ＋ min(経過日数/iv, 5)×20 ＋ RANK_WEIGHT`。
+3. **まだ解いていない問題**：`RANK_WEIGHT×10`（S→A→B→C。D は設定による）。
+- 出す順は、①→②→③の順に並べて先頭から `SESSION_SIZE` 件。ただし、①が10件以上あるときも、③を最低2件混ぜる（行き詰まり防止）。この混ぜ方は、実際に使ってから調整する。
+- 絞り込み（科目・章・区分など）の範囲の中だけで選ぶ。
+- 復習の選択は、**通常の問題（`mode` が `exam`／`review`）の記録だけ**で計算する。一問一答の記録は、別に数える（キーが違う）。
+
+## 6. 一問一答（案）
+
+- 対象：`drill` が `null` でない問題（1,970問・9,850肢）。`items[].truth` が、その選択肢の正誤。問題文が「誤っているものはどれか」でも、問うのは**記述そのものの正誤**。
+- 出し方：問題文（`stemHtml`）は**出さず**、選択肢の本文（`choices[n-1]`）だけを出す。ただし、問題文に**図・表が必要**な問題や、選択肢が「前の文を受ける」形の問題は、読めないことがある → 段階4で、データを走査して、選択肢の本文だけで意味が通るか、機械的に判定できる範囲を確かめる（難しければ、問題文を折りたたんで見られるようにする）。
+- **答える前に `pointName` を見せない**（「（誤りの記述）」などで正誤が読めるため）。
+- 答えた後に出すもの：正誤、論点の名前（`pointName`）、出題回数（「`denom` 回中 `count` 回」）、もとの問題へのリンク（`url`）、参考書の章へのリンク（`books[].url`。なければ章の一覧ページ）。
+- 出す順（案）：新しい肢の優先度＝`100 × count/denom ＋ RANK_WEIGHT×5 ＋ recent`（`recent` があれば加点）。解いた肢は、§5 と同じ考え方（間違えたら先、正解なら間隔を空けて再出題）。キーは `問題ID＋選択肢番号`。
+- 集計のたびに、最新の JSON から `point`・`count` を引き直す（記録には入れない）。
+
+## 7. 成績の表示
+
+- 集計単位：科目別・区分（S〜D）別・章別（`chapters`。決め手の章が先なので、先頭の章に数える／すべての章に数える、のどちらかは段階3で決める）。
+- 出す数値：解いた問題数（重複を除く）、延べ解答数、正答率（最新の解答で見る正答率と、通算の正答率の両方）。
+- **弱い章の上位**：解いた数が一定以上（既定5問）で、正答率の低い章を上位に並べ、「参考書の章を開く」（新しいタブ）。`bookUrl` が `null` の章は、章の一覧ページ（`/chapter/<id>/`）へ。
+- 記録は、ログインしていれば、別の端末の分も含めて集計する。
+
+## 8. Supabase・Google ログインの現在の仕様（公式の文書で確認。確認日 2026年11月10日）
+
+| 項目 | 確認できたこと | 出典 |
+|---|---|---|
+| 無料枠（Free） | データベース **500 MB／プロジェクト**、月間アクティブユーザー **5万人**、ファイル 1 GB、転送 **5 GB**（キャッシュ分 5 GB が別枠）、アクティブなプロジェクト **2つ**まで（一時停止中は数えない）。API のリクエスト数は無制限。有料の Pro は月 25 ドル（8 GB・転送 250 GB・10万 MAU）。 | supabase.com/pricing、supabase.com/docs/guides/platform/billing-on-supabase |
+| 一時停止 | 無料プロジェクトは、**1週間のあいだ、データベースへの利用が少ない**と自動で一時停止。約1週間前に警告メール、停止後に確認メールが届く。公式の説明では、「**1日に数回のリクエストが、通常は十分**」だが、保証ではない。ダッシュボードにプロジェクトを開く・アプリからのリクエストでも、活動と数えられる。**Pro プランは一時停止されない**。 | supabase.com/docs/guides/platform/pausing、supabase.com/kb/faqs/platform/free-project-pausing（最終更新 2026-10-27） |
+| 再開 | ダッシュボードで、プロジェクトを選び **Resume project**。**再開できる期間は、公式ページの版により「1年」と「90日」の記述が分かれている（どちらが現行かは未確認）**。停止後は、早めに再開する。 | 同上 |
+| キー | 新方式：**publishable キー（`sb_publishable_…`）**と secret キー（`sb_secret_…`）。旧方式の `anon`／`service_role` は **2026年末までに廃止予定**（いまは両方使える）。publishable キーは anon キーと同じ低い権限で、ブラウザに置いてよい。場所：ダッシュボードの **Settings → API Keys**（古いプロジェクトでは、**Create new API Keys** を押すと作られる）。 | supabase.com/docs/guides/getting-started/api-keys、…/migrating-to-new-api-keys |
+| `supabase-js` | 確認できた最新は **2.118.0**（JSR）。npm 側の最新は段階2で確認して固定する。ブラウザでは、`<script type="module">` で `https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm`、または UMD の `<script>` で読める。**固定の方法：版を指定した ESM を、`src/assets/practice/vendor/supabase.js` に置いて自前で配る**（外部の CDN に依存せず、版が変わらない）。npm の最新は 2.119.0（2026-11-04 公開）だが、公開から日が浅いので、**2.118.0（2026-10-15 公開）に固定**した（§12-3 に、更新手順）。 | jsr.io/@supabase/supabase-js、各 README |
+| Google ログイン（Supabase 側） | **Authentication → Providers → Google** で有効にして、Google のクライアントID・シークレットを入れる。同じ画面に、Supabase の**コールバック URL**（`https://<プロジェクトの参照ID>.supabase.co/auth/v1/callback`）が出る。 | supabase.com/docs/guides/auth/social-login/auth-google |
+| Google ログイン（Google 側） | Google Cloud の **Google Auth Platform**（旧：OAuth 同意画面）で、対象（Audience）・ブランディング・スコープを設定。**OAuth クライアントID**を「**ウェブ アプリケーション**」で作り、**承認済みの JavaScript 生成元**に `https://aoi-s-office.jp`（パスは入れない）、**承認済みのリダイレクト URI** に、上の Supabase のコールバック URL を入れる。スコープは `openid`（手動で追加）・`…/auth/userinfo.email`・`…/auth/userinfo.profile`（既定）だけ。これ以外（センシティブなスコープ）を足すと、審査が要る場合がある。 | 同上 |
+| リダイレクト URL の許可リスト | Supabase の **Authentication → URL Configuration** で、**Site URL** と **Redirect URLs** を設定。`signInWithOAuth` の `redirectTo` は、許可リストと一致させる。本番は**パスを正確に**書く（ワイルドカード `**` は、ローカルや確認用だけにして、本番は避けるのが推奨）。 | supabase.com/docs/guides/auth/redirect-urls |
+| ログインの方式 | ブラウザで `supabase.auth.signInWithOAuth({provider:'google', options:{redirectTo}})`。Supabase が Google へ移動させ、戻ってきたときにセッションを保存する。 | 同上 |
+| Google の画面の表示 | 既定では、同意画面に、コールバック URL のルートドメイン、つまり **`<プロジェクトの参照ID>.supabase.co`** が表示される。**独自ドメイン（Custom Domain）**を使えば、そのドメインが出るが、**無料枠にはない有料機能**（月 10 ドル／ドメイン、という情報が複数の資料にあるが、**公式の料金ページでは確認できていない＝未確認**）。**アプリ名・ロゴが同意画面に出るのは、Google のブランド確認（審査）を受けたあとだけ**（公式）。受けるまでは、アプリのドメイン（＝Supabase のドメイン）だけが出る。審査には、ホームページ・プライバシーポリシーの URL・承認済みドメインが要る。 | supabase.com/docs/guides/auth/social-login/auth-google |
+| 同意画面の項目 | アプリ名、**ユーザーのサポート用メールアドレス**（**選べるのは、ログイン中の Google アカウントのメールアドレスか、そのアカウントが管理する Google グループだけ**。Gmail 以外のアドレスを使うには、そのアドレスで Google アカウントを作り、プロジェクトの編集者／オーナーにして、そのアカウントでログインし直す。公式）、承認済みドメイン、（ブランド確認をするなら）アプリのホームページ・**プライバシーポリシーの URL**・利用規約。ユーザーの種類は「**外部**」。公開ステータス「テスト」は、**テストユーザー（最大100人）として登録した Google アカウントしか使えない**（公式）。7日で認可が切れる制限は、`openid`・メール・プロフィールだけを使うアプリには当たらない、と読める記述があるが、**確実ではない**。「本番環境」にする（アプリを公開する）には、**ブランディングに、アプリのホームページ・プライバシーポリシーの URL・承認済みドメインが要る**（外部向け本番アプリでは必須。公式。開発者フォーラムに、これらがないと「アプリを公開」が押せない報告がある）。基本のスコープ（`openid`・メール・プロフィール）だけなら、センシティブなスコープの審査は要らない、というのが Supabase の文書の説明。 | 同上、Google の文書は未確認 |
+| 運営者の氏名の表示 | 同意画面に出るのは、アプリ名・**サポート用メールアドレス**・ドメイン等。**運営者の個人名が出るかどうかは、公式の文書では確認できていない（未確認）**。氏名を出さないために、**アプリ名を「あおい技術サービス事務所」の名称にし、サポート用メールアドレスを事務所のものにする**（Q4）。 | — |
+| ユーザー自身による退会 | **ブラウザ（公開用キー）からは、Auth のユーザーを削除できない**。`auth.admin.deleteUser()` は `service_role` キーが必要で、サーバー側専用（公式の文書にも、ブラウザに置かないよう明記）。方法は、①運営者が管理画面（**Authentication → Users**）で削除する、②データベースの関数（`security definer`）を作って `rpc()` で呼び、`auth.users` の自分の行を消す、の2つ。②は、サーバーを持たずにできる方法として、**段階5で実機で確かめる（未確認）**。①は確実。 | supabase.com/docs/reference/javascript/auth-admin-deleteuser、supabase.com/docs/guides/auth/managing-user-data |
+
+### 一時停止への対策（案。運営者が選ぶ。Q7）
+- **A. 何もしない**：利用があれば止まらない可能性が高い（1日数回のリクエスト）が、**保証ではない**。止まっても、`localStorage` で演習は続けられる。運営者が **Resume project** を押せば戻る（記録は残る）。
+- **B. 定期アクセス**：GitHub Actions の定時実行（cron）で、公開用キーを使って1日1回、軽い読み取りを送る。サーバー（Netlify Functions など）は不要。ただし、運営者の GitHub 側に設定が要る。
+- **C. Pro プラン（月 25 ドル）**：一時停止がなくなる。費用が発生するので、利用者が増えてから検討する。
+- 推奨は、**まず A で始め、B を、公開の準備（段階5）で足す**。
+
+## 9. 運営者の作業の一覧（段階2・5で、画面の項目名つきの手順を書く）
+
+| 時期 | 作業 | 担当 |
+|---|---|---|
+| 段階2の前 | Supabase のアカウントとプロジェクトを作る（リージョンは、日本からの距離で選ぶ。例：東京）。**プロジェクトの URL と publishable キーだけ**を、チャットに貼る（secret／`service_role` は、貼らない） | 運営者 |
+| 段階2 | SQL エディタで `supabase/schema.sql` を実行 | 運営者 |
+| 段階2 | Google Cloud で、プロジェクト・同意画面（ブランディング）・OAuth クライアント（ウェブ）を作る | 運営者 |
+| 段階2 | Supabase の Providers → Google に、クライアントIDとシークレットを入れる。URL Configuration に、本番とローカルの URL を入れる | 運営者 |
+| 段階2 | `src/assets/practice/config.js` に、URL と publishable キーを書く | 演習側（運営者の貼ったものを入れる） |
+| 段階5 | プライバシーの案内に入れる運営者名・問い合わせ先を決める。必要なら、Google のブランド確認（審査）を申請する | 運営者 |
+| 段階5 | 一時停止への対策（Q7）の設定 | 運営者 |
+
+## 9-2. 段階2の運営者の作業手順（画面の項目名は、公式の文書による。画面の表記は、変わることがある）
+
+**A. Google Cloud（Google ログインの準備）**　※ `info@aoi-s-office.jp` を Google アカウントとして使えるようにして、そのアカウントで入る（連絡と所有者を、事務所名義にするため。個人のアカウントで作ると、あとから所有者の移し替えが要る）。
+1. https://console.cloud.google.com/ に、上のアカウントでログイン → 上部のプロジェクト選択 → **新しいプロジェクト**（名前の例：`sokuteishi-practice`）→ 作成。
+2. 左のメニューで **Google Auth Platform** を開く（初回は「始める」）。**Branding（ブランディング）**：アプリ名＝`あおい技術サービス事務所　過去問演習`、**ユーザー サポートメール**＝`info@aoi-s-office.jp`、**デベロッパーの連絡先情報**＝`info@aoi-s-office.jp`。
+3. **Audience（対象）**：ユーザーの種類＝**外部**。**まずは「テスト」のままで**、**Test users** に、確認に使う Google アカウント（運営者のもの）を追加して、Supabase との接続を確かめる。**公開（本番環境）にするのは、プライバシーの案内のページを公開したあと**（A-6）。
+4. **Data Access（データへのアクセス／スコープ）**：`openid`（手動で追加）、`…/auth/userinfo.email`、`…/auth/userinfo.profile` の3つだけ。それ以外は足さない（足すと審査が要ることがある）。
+5. **Clients（クライアント）→ クライアントを作成**：アプリケーションの種類＝**ウェブ アプリケーション**、名前＝任意。
+   - **承認済みの JavaScript 生成元**：`https://aoi-s-office.jp`（パスは入れない）。ローカルで確かめるなら `http://localhost:8080` も。
+   - **承認済みのリダイレクト URI**：`https://svqeerdaqkaffnecczjv.supabase.co/auth/v1/callback`
+   - 作成 → **クライアント ID** と **クライアント シークレット**が出る（**シークレットは、チャットにもリポジトリにも貼らない**。次の B の画面にだけ貼る）。
+
+**B. Supabase ダッシュボード**（https://supabase.com/dashboard → プロジェクトを選ぶ）
+1. 左の **SQL Editor** → 新しいクエリ → `supabase/schema.sql` の中身を、全部貼り付けて **Run**。「Success. No rows returned」と出れば成功。確認：左の **Table Editor** に `attempts` があり、RLS が有効（Enabled）と表示されている。
+2. 左の **Authentication → URL Configuration**：**Site URL**＝`https://aoi-s-office.jp/sokuteishi/practice/`。**Redirect URLs** に `https://aoi-s-office.jp/sokuteishi/practice/` を追加（ローカルで確かめるなら `http://localhost:8080/sokuteishi/practice/` も。本番では、ワイルドカード `**` は使わない）。
+3. 左の **Authentication → Providers → Google**：有効にして、A-5 の **Client ID** と **Client Secret** を貼る → **Save**。同じ画面に、コールバック URL（A-5 に入れたものと同じ）が出ていることを確認。
+4. （任意）プロジェクトの名前・組織の名前を、事務所名に変える（Settings → General など）。Supabase からの通知メール（一時停止の警告など）の宛先は、サインインに使った GitHub のアドレスになる可能性がある。変えられるかどうかは、**未確認**（Account の設定で、運営者が確認する）。
+
+**A-6. アプリを公開する（本番環境にする）**：プライバシーの案内（`/practice/privacy/`）が公開されたあとで、**Branding** に次を入れて保存 → **Audience → アプリを公開**。
+- **アプリのホームページ**：`https://aoi-s-office.jp/sokuteishi/practice/`（このページに、プライバシーの案内へのリンクがある）
+- **アプリのプライバシー ポリシーのリンク**：`https://aoi-s-office.jp/sokuteishi/practice/privacy/`
+- **承認済みドメイン**：`aoi-s-office.jp`
+- ロゴは、なくてよい。まだ押せないときは、画面のメッセージを知らせる（ドメインの所有権の確認〔Search Console〕を求められる場合がある。**未確認**）。
+- 公開しても、アプリ名は、ブランド確認（審査）を受けるまで、同意画面に出ない。審査を受けるかどうかは、あとで決める。
+
+**C. 公開**：リポジトリに、この返却のファイルを入れて push → Netlify が自動でビルドする。`/practice/` を開いて、下の確認（返却 README の④）をする。
+
+## 10. 運営者に確認すること（回答が出るまで、該当部分は作らない）
+
+指示の7の6項目に、設計で出た2項目（Q7・Q8）を加えました。**各項目に、私の提案を書いています。「提案どおり」だけの返事で進められます。**
+
+1. **ログインしなくても解ける形**（記録は、ブラウザ内。ログインすると、クラウドに保存され、別の端末でも続きができる）でよいか。
+   → 提案：その形で作る。
+2. **記録の保存期間**：無期限か、一定期間で消すか。
+   → 提案：無期限。ただし、同じ（問題ID＋選択肢番号）の記録は、最新10件までに間引く（容量のため。§4）。
+3. **退会・記録の削除の扱い**：画面から自分の記録をすべて消せる。アカウント（メールアドレスなどの登録情報）の削除は、問い合わせフォーム経由で運営者が行う、でよいか。
+   → 提案：その形（段階5で、データベースの関数による画面からの退会が実機で動けば、そちらに切り替える）。
+4. **Google のログイン画面に出るアプリ名・サポート用メールアドレス**：アプリ名は「あおい技術サービス事務所　過去問演習」など、サポート用メールアドレスは事務所のアドレスでよいか。**氏名が出ないようにするため**、個人のアドレスは使わない。アドレスと、アプリ名の文言を教えてください。
+   → 提案：上のとおり。独自ドメイン（有料、§8）は、いまは使わない。画面に `…supabase.co` が出ることを、プライバシーの案内にも書く。
+5. **プライバシーの案内に書く運営者名・問い合わせ先**：運営者名は「あおい技術サービス事務所」、問い合わせ先は既存の問い合わせフォーム（`site.contactUrl`）でよいか。
+   → 提案：その形。
+6. **Supabase のアカウントとプロジェクトの作成**は、運営者が行う（段階2の前でよい）。プロジェクトの URL と publishable キーだけを、チャットに貼る。secret／`service_role` キーは貼らない。リポジトリは Public なので、貼らないこと。
+7. **一時停止への対策**（§8）：A（何もしない）／B（GitHub Actions で定期アクセス）／C（Pro プラン）のどれにするか。
+   → 提案：まず A、公開の準備で B を足す。
+8. **成績の章別の数え方**：1つの問題が複数の章に属するとき、「決め手の章（先頭）だけに数える」か、「すべての章に数える」か。
+   → 提案：先頭の章だけ（弱い章を、決め手に絞って出せる）。
+
+## 11. 無料枠の制約と対策（まとめ）
+
+| 制約 | 対策 |
+|---|---|
+| 一時停止（1週間） | §8 の A→B。停止中も `localStorage` で続けられる。再開は運営者が押す |
+| データベース 500 MB | 1行約 250 B。熱心な利用者50人でも約 300 MB。同じキーの記録は最新10件に間引く（Q2） |
+| 転送 5 GB／月 | 問題データは Netlify から配る。記録は差分だけ読む |
+| アクティブユーザー 5万 | 問題にならない規模 |
+| 2プロジェクト | この機能で1つ使う（運営者の他のプロジェクトとの兼ね合いを、Q6 のときに確認） |
+| Google 画面に `supabase.co` | 独自ドメインは有料。案内に書いて、了承を取る（Q4） |
+
+## 12. テストの方針（段階ごと）
+
+- この環境からは、Supabase・Google に接続できない。**Supabase を使う部分は、運営者に実機で確認してもらう**（手順は、各段階の返却 README）。
+- 自分で確かめる：`npm install`→`npm run build`、`python3 tools/check_site.py` の4項目、`node` で（復習の選び方・一問一答の出す順・成績の集計）を、作った記録データで試す、8科目すべてでの特殊ケースの走査（表・図・数式・`all`・`drill: null`）。
+
+## 12-3. 段階2の実装メモ（2026年11月10日）
+
+**補足（同日）**：Google の「アプリを公開」に、プライバシーの案内が要るため、**段階5の一部を前倒し**した。`src/practice/privacy.njk`（`/practice/privacy/`。集める情報・目的・保存先・削除の方法）と、演習ページの「プライバシーの案内」リンク、左の欄の「**解答の記録をすべて消す**」（確認のあと、クラウド〔ログイン中〕または端末の記録を消す）。案内に書いたことと実装を合わせてある。**未実装なのに案内に書いていないこと**：同じキーの記録を最新10件に間引く（Q2。実装したら、案内に書く）。
+
+**ファイル**：`supabase/schema.sql`（テーブル・索引・RLS・権限）、`src/assets/practice/config.js`（URL と publishable キー）、`cloud.js`（クラウドの読み書き。`client` を引数に取り、偽物で試せる）、`store.js`（localStorage 版＋ログイン中のクラウド版を、同じ `load()`／`add()`／`removeAll()` で）、`vendor/supabase.js`（`@supabase/supabase-js` 2.118.0 を esbuild で1ファイルにしたもの。MIT）、`practice.js`・`practice.njk`・`practice.css`（ログインの帯）、`tools/practice_test.mjs`（クラウドの試験を追加）。
+
+**動き**
+- ログイン：`signInWithOAuth({provider:"google", options:{redirectTo: このページのURL（ハッシュなし）}})`、PKCE 方式。戻ってきたときの `?code=` は、`getSession()` が処理し、URL から消す。表示名は画面に出すだけで、自前のテーブルには写さない。
+- ログイン直後：**この端末の記録をクラウドへ取り込み**（`upsert`、`on conflict (id) do nothing` で重複しない。500件ずつ）、**成功したら端末側は消す**（共用の端末で、他の人の記録が混ざらないため）。失敗したら、端末側の記録は残し、画面に出す。
+- ログイン中の解答：クラウドに保存。送れなかった分（通信できない・一時停止中など）は、この端末の「未送信」（`sokuteishi.practice.pending.<userId>.v1`）に溜め、画面に出し、次のログイン時・ページを開いたときに送る。
+- ログアウト：端末側には、記録が残らない（クラウドには残る）。画面にそう出す。
+- 読み込めない・ログインの部品が読めないときも、ログインなしで演習は続けられる（画面に理由を出す）。
+- `user_id` は、送らない（サーバー側の `auth.uid()` が入る）。
+
+**supabase-js の更新手順**（必要になったとき）：作業用のフォルダで `npm i @supabase/supabase-js@<版> esbuild` → 次の1行の `entry.js` を作る `export { createClient } from "@supabase/supabase-js";` → `npx esbuild entry.js --bundle --format=esm --minify --platform=browser --target=es2020 --legal-comments=none --outfile=supabase.js` → `src/assets/practice/vendor/supabase.js` に置き換え。公開から2週間以上たった版を使う。
+
+**残っているリスク（段階5で検討）**：ログインした人が、記録を大量に書き込むと、無料枠（500 MB）を使い切れる。入口を Google ログインに限っているので、当面は、ダッシュボードの Database の使用量を、ときどき見る運用にする。
+
+## 12-2. 段階1の実装メモ（2026年11月10日）
+
+**ファイル**：`src/practice.njk`（`/practice/`。いまは `noindex`。公開時の扱いは段階5）、`src/assets/practice/`（`practice.js`＝画面、`logic.js`＝採点・絞り込み・並べ替え・成績〔純関数〕、`render.js`＝問題と結果の HTML〔DOM に触れない〕、`store.js`＝保存層〔localStorage 版〕、`practice.css`）、`tools/practice_test.mjs`。
+
+**できること**：科目（1つ以上）・年度／回・章・区分で絞り込み、「まだ解いていない／直近で間違えた」に絞り、順序（新しい回から／古い回から／ランダム）を選んで出題。1問ずつ、選択 → 答え合わせ → 正誤・正答・解説・注記・出題頻度・章・参考書・解説ページへのリンク（**すべて新しいタブ**）→ 次の問題。最後に、その回の正解数。条件は URL のハッシュに残る。
+
+**決めたこと**
+- 絞り込みの選択肢は、`meta.json` から JS で作る（`db.js` に依存しない）。科目を選ぶまで、問題データは読み込まない。選んだ科目の JSON だけ、`?v=<meta.generated>` 付きで読む。
+- 記録は `{id, question_id, choice_n:null, mode:"exam", selected:"1,3", is_correct, answered_at}`。`localStorage` のキーは `sokuteishi.practice.v1`。保存層は `load()`／`add()`／`removeAll()`（すべて非同期）。段階2で、同じ関数群の Supabase 版を足す。
+- 正答が複数の問題は、チェックボックス（全部一致で正解）。`["all"]` はどれを選んでも正解。正答未掲載・問題文なしの問題は、採点も記録もしない。
+- `localStorage` が使えないとき（プライベートブラウズなど）は、ページを開いている間だけ覚え、画面にそう出す。
+- 色だけに頼らない表示：正誤は「✓ 正答」「✗ あなたの選択」の文字つき。キーボード：数字キーで選択、Enter で答え合わせ／次へ。
+- 解説 HTML の中のサイト内リンク（`freqHtml` の `/…`）には、公開フォルダ（`/sokuteishi/`）を付け、新しいタブで開く。
+
+## 13. 進行状況
+
+- [x] 段階0：この設計書、公式文書の確認（§8）、運営者への確認事項（§10。回答は §0-2）
+- [x] 段階1：ログインなしで動く演習ページ（`localStorage`）
+- [x] 段階2：Supabase 連携（実機の確認待ち。手順は §9-2、確認は返却 README）
+- [ ] 段階3：復習の自動選択と成績
+- [ ] 段階4：一問一答
+- [ ] 段階5：公開の準備（プライバシーの案内・退会・エラー表示・サイト側への依頼のまとめ）
+
+## 14. 未確認の事項
+
+- 一時停止後の再開できる期間（1年／90日。公式ページの版で記述が違う）。
+- Supabase の独自ドメインの料金（公式の料金ページでは未確認）。
+- Google 同意画面に、運営者の個人名が表示されるか。公開ステータス「テスト」の制限（Google 公式の文書で）。
+- `schema.sql` が、運営者のプロジェクトで、そのまま通るか（権限の付与〔grant〕を明示してある。実機で確認）。
+- 1行あたりの実際の容量（段階2の実機で確認）。
+- Supabase の通知メールの宛先を、事務所のアドレスに変えられるか。
+- Netlify の帯域の上限。

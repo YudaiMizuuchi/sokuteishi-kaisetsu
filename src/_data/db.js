@@ -297,6 +297,7 @@ for (const exam of fs.readdirSync(examsDir).sort()) {
         published,
         rank,
         rankLabel: freqInfo?.level?.label || null,
+        freqRaw: q.freq || null,   // 演習機能（一問一答）用に、選択肢ごとの正誤・論点・回数を残す
         method: freqInfo?.level?.method || null,
         // 決め手の章（なければ、関連の章の上位2つ）。tools/link_book_chapters.py の結果
         chapters: qChapterIds(`${exam}|${doc.subject}|${q.num}`)
@@ -406,7 +407,26 @@ const listItem = (q) => ({
   summary: q.summary, stemHtml: q.stemHtml, choices: q.choices, columns: q.columns, choiceCells: q.choiceCells, choiceNotes: q.choiceNotes, answer: q.answer,
   explanationHtml: q.explanationHtml, hasExplanation: q.hasExplanation, lawNote: q.lawNote, examNote: q.examNote, textNote: q.textNote, reviewNote: q.reviewNote, minorNote: q.minorNote, freqHtml: q.freq ? q.freq.html : "", sourcePdf: q.sourcePdf, source: q.source,
   figures: q.figures,
+  // 演習機能用：選択肢ごとの正誤・論点・出題回数・原理（選択肢を1つずつ判定できる問題だけ。穴埋め・組合せ・計算は null）
+  drill: drillOf(q),
 });
+function drillOf(q) {
+  const f = q.freqRaw;
+  if (!f || f.kind !== "choice" || !f.truths) return null;
+  return {
+    denom: f.denom,
+    items: [...f.truths].map((t, i) => ({
+      n: i + 1,
+      truth: t === "正",
+      point: (f.points || [])[i] || null,
+      pointName: (f.pnames || [])[i] || null,
+      count: (f.pcounts || [])[i] ?? null,
+      recent: (f.trend || [])[i] ?? null,
+      principle: (f.principles || [])[i] || null,
+      principleName: (f.prnames || [])[i] || null,
+    })),
+  };
+}
 const subjectsWithData = subjects
   .map((s) => ({ ...s, items: questions.filter((q) => q.subject === s.id).map(listItem) }))
   .filter((s) => s.items.length);
@@ -535,7 +555,17 @@ questions.forEach((q) => { q.examUrl = `/exam/${q.exam.key}/`; q.subjectUrl = `/
 const reviewQuestions = questions.filter((q) => q.reviewNote);
 const minorQuestions = questions.filter((q) => q.minorNote);
 
+// 演習機能用の一覧（/data/meta.json）。絞り込み（科目・実施回・参考書の章）に使う
+const practiceMeta = {
+  generated: new Date().toISOString().slice(0, 10),
+  subjects: subjects.filter((sj) => questions.some((q) => q.subject === sj.id)).map((sj) => ({ id: sj.id, name: sj.name, kind: sj.kind, count: questions.filter((q) => q.subject === sj.id).length })),
+  exams: [...new Set(questions.map((q) => q.exam.key))].sort().map((k) => { const e = examInfo(k); return { key: k, label: e.label, held: e.held }; }),
+  chapters: [...new Map(questions.flatMap((q) => q.chapters.map((c, i) => [c.id, { id: c.id, label: c.label, subject: q.subject, bookUrl: (q.books || []).find((b) => b.url.includes(c.id))?.url || null }]))).values()],
+  ranks: ["S", "A", "B", "C", "D"],
+};
+
 export default {
+  practiceMeta,
   stats,
   examPages,
   subjectPages,

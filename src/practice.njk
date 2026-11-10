@@ -1,0 +1,65 @@
+---
+layout: base.njk
+title: 過去問演習
+noindex: true
+description: 作業環境測定士試験の過去問を、科目・年度・参考書の章・区分で絞り込んで解けます。ログインなしで使え、解いた記録は、この端末に残ります。
+---
+<link rel="stylesheet" href="/assets/practice/practice.css">
+<div class="intro">
+  <h1>過去問演習</h1>
+  <p>作業環境測定士試験の過去問を、1問ずつ解けます。科目・年度・参考書の章・区分で絞り込めます。ログインは要りません。解いた記録は、この端末のブラウザに残ります。</p>
+</div>
+<div class="pauth" id="p-auth">
+  <div id="p-auth-box"></div>
+  <p class="hint">ログインしなくても解けます。ログインすると、解いた記録がクラウドに保存され、別の端末でも続きから解けます（Google アカウントを使います）。</p>
+  <p class="hint" id="p-auth-msg" aria-live="polite"></p>
+  <p class="hint"><a href="/practice/privacy/">プライバシーの案内</a>（集める情報・目的・保存先・削除の方法）</p>
+</div>
+<div class="layout">
+  <aside class="filters" aria-label="出題の条件">
+    <fieldset>
+      <legend>科目（1つ以上）</legend>
+      <div id="p-subjects"></div>
+    </fieldset>
+    <fieldset>
+      <legend>年度・回</legend>
+      <select id="f-exam" aria-label="年度・回"></select>
+    </fieldset>
+    <fieldset>
+      <legend>参考書の章</legend>
+      <select id="f-chapter" aria-label="参考書の章"></select>
+    </fieldset>
+    <fieldset>
+      <legend>問題の区分</legend>
+      <div class="chips" id="p-ranks"></div>
+      <p class="hint">過去の出題頻度から決めた、学習の優先度です（<a href="/guide/">見方</a>）。</p>
+    </fieldset>
+    <fieldset>
+      <legend>出す問題</legend>
+      <select id="f-scope" aria-label="出す問題">
+        <option value="all">すべて</option>
+        <option value="unsolved">まだ解いていない問題</option>
+        <option value="wrong">直近で間違えた問題</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>順序</legend>
+      <select id="f-order" aria-label="順序">
+        <option value="new">新しい回から</option>
+        <option value="old">古い回から</option>
+        <option value="random">ランダム</option>
+      </select>
+    </fieldset>
+    <button type="button" class="more pstart" id="p-start">この条件で始める</button>
+    <p><button type="button" class="reset" id="reset">条件をすべて解除</button></p>
+    <p class="hint" id="p-record"></p>
+    <p><button type="button" class="reset" id="p-wipe">解答の記録をすべて消す</button></p>
+  </aside>
+  <section>
+    <div class="listhead"><div class="count" id="p-status" aria-live="polite"></div></div>
+    <div id="p-stage"><div class="empty">読み込み中…</div></div>
+    <noscript><p>演習にはJavaScriptが必要です。<a href="/">問題を探す</a>ページもご利用ください。</p></noscript>
+  </section>
+</div>
+<script>window.PRACTICE_CONFIG = { base: "{{ site.pathPrefix }}" };</script>
+<script type="module" src="/assets/practice/practice.js"></script>
