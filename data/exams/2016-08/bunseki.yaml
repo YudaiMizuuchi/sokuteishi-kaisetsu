@@ -31,12 +31,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 10
     form: 穴埋め・組合せの問題
     fresh: false
     level: A
-    why: pat_A
-    pat: an-units-01
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -251,7 +250,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     fresh: false
     level: A
@@ -295,9 +294,9 @@ questions:
     denom: 23
     count: 2
     form: 計算問題
-    prid: pr-bunseki-0019
-    prname: 物質量・モル質量・アボガドロ定数
-    prcount: 6
+    prid: pr-bunseki-0021
+    prname: 希釈しても、溶質の物質量は変わらない
+    prcount: 7
     fresh: false
     level: B
     why: pr_B
@@ -441,7 +440,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
     fresh: false
     level: C
@@ -589,7 +588,7 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 3
-    - 3
+    - 4
     - 1
     - 3
     - 1
@@ -788,7 +787,7 @@ questions:
     - 2
     truths: 正誤正正正
     pcounts:
-    - 6
+    - 5
     - 3
     - 1
     - 6
@@ -806,11 +805,11 @@ questions:
     - モル吸光係数は、波長により異なる。
     - モル吸光係数は、溶媒の種類により異なることがある。
     prcounts:
-    - 11
-    - 11
+    - 10
+    - 10
     - 0
-    - 11
-    - 11
+    - 12
+    - 12
     principles:
     - pr-bunseki-0002
     - pr-bunseki-0002
@@ -893,7 +892,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: false
     level: S
@@ -935,10 +934,10 @@ questions:
     - 1
     truths: 正正誤正正
     pcounts:
-    - 5
+    - 6
     - 1
     - 4
-    - 7
+    - 6
     - 2
     points:
     - pt-bunseki-0044
@@ -953,10 +952,10 @@ questions:
     - 吸光度は、光路長に比例する。
     - 原子化効率は、化学炎の燃料組成により異なる。
     prcounts:
-    - 16
+    - 17
     - 0
     - 0
-    - 12
+    - 11
     - 0
     principles:
     - pr-bunseki-0008
@@ -1040,8 +1039,8 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 3
-    - 16
-    - 16
+    - 15
+    - 15
     - 13
     - 1
     points:
@@ -1058,8 +1057,8 @@ questions:
     - 蛍光の強度は、励起光の照射を止めると急速に減衰する。
     prcounts:
     - 0
-    - 16
-    - 16
+    - 15
+    - 15
     - 15
     - 0
     principles:
@@ -1176,16 +1175,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
-    - 5
+    - 6
+    - 4
     - 1
     - 1
     - 3
     truths: 正正正誤正
     pcounts:
-    - 9
-    - 5
-    - 9
+    - 8
+    - 4
+    - 8
     - 2
     - 3
     points:
@@ -1201,10 +1200,10 @@ questions:
     - 電子捕獲検出器（ECD）は、飽和炭化水素化合物の測定に適している（誤りの記述）
     - 質量分析器(MS)は、分子構造に関する情報も得ることができる。
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
     - 0
     principles:
     - pr-bunseki-0031
@@ -1280,14 +1279,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
+    - 5
     - 9
     - 3
     - 4
     - 4
     truths: 正正誤正正
     pcounts:
-    - 9
+    - 8
     - 9
     - 6
     - 6
@@ -1306,10 +1305,10 @@ questions:
     - この分析法では、X線の回折角及び回折線の強度を測定する。
     prcounts:
     - 0
-    - 17
     - 16
+    - 15
     - 0
-    - 17
+    - 16
     principles:
     - ''
     - pr-bunseki-0011
@@ -1349,14 +1348,13 @@ questions:
     - []
     fresh: false
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - odo
     - odo
     - ans_pr
     - ''
     - odo
-    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
@@ -1390,9 +1388,8 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 8
     form: 計算問題
     fresh: false
     level: B
-    why: pat_B
-    pat: an-logarithm-03
+    why: q_b

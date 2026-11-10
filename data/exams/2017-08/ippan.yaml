@@ -40,9 +40,9 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 2
-    - 6
+    - 7
     - 1
-    - 4
+    - 5
     - 4
     points:
     - pt-ippan-0293
@@ -99,6 +99,7 @@ questions:
       - 2017-02
       - 2019-08
       - 2020-02
+      - 2023-02
     - []
     - []
     - []
@@ -139,14 +140,14 @@ questions:
     counts:
     - 1
     - 2
-    - 3
+    - 2
     - 2
     - 1
     truths: 正正誤正正
     pcounts:
     - 3
     - 2
-    - 9
+    - 8
     - 4
     - 1
     points:
@@ -355,16 +356,16 @@ questions:
     counts:
     - 8
     - 3
-    - 4
-    - 1
     - 5
+    - 1
+    - 6
     truths: 正正正誤正
     pcounts:
     - 8
     - 5
     - 8
     - 1
-    - 9
+    - 10
     points:
     - pt-ippan-0036
     - pt-ippan-0116
@@ -420,14 +421,12 @@ questions:
     - - 2016-08
       - 2021-02
       - 2022-02
-      - 2023-02
     - - 2016-08
       - 2018-02
       - 2019-08
       - 2023-08
     - - 2021-02
       - 2022-02
-      - 2023-02
     fresh: false
     level: B
     why: elim_all
@@ -492,7 +491,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 12
     principles:
     - ''
     - ''
@@ -574,7 +573,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 3
-    - 5
+    - 4
     - 5
     - 10
     - 4
@@ -634,8 +633,8 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ans_pat
@@ -706,14 +705,14 @@ questions:
     counts:
     - 5
     - 2
-    - 6
+    - 7
     - 5
     - 1
     truths: 正正正正誤
     pcounts:
     - 7
     - 4
-    - 7
+    - 8
     - 5
     - 1
     points:
@@ -773,8 +772,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
     - ''
@@ -812,14 +811,14 @@ questions:
     - 1
     - 1
     - 4
-    - 9
+    - 10
     truths: 正誤正正正
     pcounts:
     - 5
     - 2
     - 7
     - 4
-    - 14
+    - 15
     points:
     - pt-ippan-0108
     - pt-ippan-0357
@@ -969,7 +968,7 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 15
+    - 14
     - 1
     - 9
     - 4
@@ -1099,7 +1098,7 @@ questions:
     - 0
     - 0
     - 0
-    - 13
+    - 14
     principles:
     - ''
     - ''
@@ -1137,7 +1136,6 @@ questions:
     - - 2019-08
       - 2020-08
       - 2022-02
-      - 2023-02
     - []
     - - 2020-02
       - 2022-08
@@ -1222,10 +1220,10 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 1
-    - 12
+    - 13
     - 5
-    - 5
-    - 8
+    - 6
+    - 9
     points:
     - pt-ippan-0712
     - pt-ippan-0010
@@ -1240,7 +1238,7 @@ questions:
     - 白血病は、晩発障害に分類される確率的影響である。
     prcounts:
     - 0
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -1285,6 +1283,7 @@ questions:
       - 2019-02
       - 2020-08
       - 2022-08
+      - 2023-02
     fresh: false
     level: A
     why: pt_A
@@ -1292,7 +1291,7 @@ questions:
     - new
     - odo
     - ''
-    - ''
+    - odo
     - ans_hi
 - num: 15
   status: published
@@ -1333,7 +1332,7 @@ questions:
     - 1
     - 2
     - 4
-    - 10
+    - 11
     - 1
     points:
     - pt-ippan-0565
@@ -1350,9 +1349,9 @@ questions:
     prcounts:
     - 1
     - 0
+    - 12
     - 11
-    - 10
-    - 11
+    - 12
     principles:
     - pr-ippan-0006
     - ''
@@ -1391,8 +1390,8 @@ questions:
     - - 2021-08
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - new
     - ''
@@ -1438,7 +1437,7 @@ questions:
     - 17
     - 1
     - 3
-    - 8
+    - 7
     - 6
     points:
     - pt-ippan-0001
@@ -1494,7 +1493,6 @@ questions:
       - 2019-08
       - 2020-02
       - 2022-02
-      - 2023-02
       - 2023-08
       - 2024-08
       - 2025-02
@@ -1505,7 +1503,6 @@ questions:
       - 2018-08
       - 2021-08
       - 2022-02
-      - 2023-02
       - 2025-02
     - []
     fresh: false
@@ -1656,14 +1653,14 @@ questions:
     - 3
     - 2
     - 9
-    - 4
+    - 5
     truths: 正誤正正正
     pcounts:
     - 7
     - 3
     - 3
     - 10
-    - 9
+    - 10
     points:
     - pt-ippan-0044
     - pt-ippan-0216
@@ -1681,7 +1678,7 @@ questions:
     - 0
     - 0
     - 0
-    - 9
+    - 10
     principles:
     - pr-ippan-0010
     - ''
@@ -1776,7 +1773,7 @@ questions:
     pcounts:
     - 5
     - 1
-    - 5
+    - 6
     - 1
     - 1
     points:
@@ -1792,7 +1789,7 @@ questions:
     - 凍瘡は、皮膚組織の凍結壊死を伴うしもやけのことで、0℃以下の寒冷下において発生する（誤りの記述）
     - 潜水業務における減圧症は、浮上による急激な減圧に伴い、血液中に溶け込んでいた二酸化炭素が気泡となり、血管を閉塞したり組織を圧迫することにより発生する（誤りの記述）
     prcounts:
-    - 19
+    - 18
     - 0
     - 0
     - 0
@@ -1836,14 +1833,13 @@ questions:
     - []
     fresh: false
     level: B
-    why: pat_B
+    why: pt_B
     tags:
     - odo
     - new
-    - ans_pat
+    - ans_b
     - new
     - new
-    pat: gn-metals-02
 - num: 20
   status: published
   chapters:
@@ -1873,13 +1869,13 @@ questions:
     - 2
     - 2
     - 5
-    - 3
+    - 4
     - 3
     truths: 正正正誤正
     pcounts:
     - 2
     - 2
-    - 7
+    - 6
     - 2
     - 3
     points:
@@ -1935,7 +1931,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
     - - 2015-08
     - []
     fresh: false

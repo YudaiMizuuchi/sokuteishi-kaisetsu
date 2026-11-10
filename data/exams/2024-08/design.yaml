@@ -188,7 +188,7 @@ questions:
     - 4
     - 13
     - 2
-    - 14
+    - 13
     points:
     - pt-design-0180
     - pt-design-0133
@@ -288,10 +288,10 @@ questions:
     - 2
     truths: 正正正誤正
     pcounts:
-    - 14
+    - 15
     - 2
     - 1
-    - 11
+    - 10
     - 4
     points:
     - pt-design-0006
@@ -351,7 +351,6 @@ questions:
       - 2019-08
       - 2021-02
       - 2022-02
-      - 2023-02
       - 2025-02
     - []
     fresh: true
@@ -499,14 +498,14 @@ questions:
     - 1
     - 1
     - 1
-    - 2
+    - 3
     - 1
     truths: 正正正正誤
     pcounts:
     - 1
     - 1
     - 2
-    - 2
+    - 3
     - 2
     points:
     - pt-design-0295
@@ -562,7 +561,8 @@ questions:
     - []
     - []
     - []
-    - - 2026-08
+    - - 2023-02
+      - 2026-08
     fresh: true
     level: C
     why: seen
@@ -603,7 +603,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: true
     level: S
     why: pat_S
@@ -787,8 +787,8 @@ questions:
     - 6
     - 4
     - 14
-    - 14
-    - 10
+    - 13
+    - 9
     points:
     - pt-design-0087
     - pt-design-0131
@@ -851,7 +851,6 @@ questions:
     - - 2019-08
       - 2020-02
       - 2022-02
-      - 2023-02
     fresh: true
     level: A
     why: pt_A
@@ -1004,7 +1003,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 7
-    - 7
+    - 6
     - 4
     - 5
     - 2
@@ -1102,16 +1101,16 @@ questions:
     denom: 23
     counts:
     - 1
-    - 10
-    - 7
+    - 11
+    - 6
     - 2
     - 1
     truths: 誤正正正正
     pcounts:
     - 1
-    - 10
+    - 11
     - 14
-    - 2
+    - 3
     - 1
     points:
     - pt-design-0429
@@ -1126,8 +1125,8 @@ questions:
     - 直接捕集法では、一般に捕集器具の容積が小さいほど濃度減衰が速いので、真空捕集瓶は 1 L 以上のもの、捕集袋は 5 L 以上のものを使用する
     - セロソルブ類やケトン類を直接捕集する場合には、捕集袋を用いる。
     prcounts:
-    - 18
-    - 18
+    - 19
+    - 19
     - 22
     - 0
     - 0
@@ -1160,7 +1159,7 @@ questions:
     - false
     - true
     - true
-    - false
+    - true
     - false
     near_exams:
     - []
@@ -1168,15 +1167,17 @@ questions:
       - 2017-08
       - 2019-08
       - 2020-08
+      - 2023-02
       - 2023-08
     - - 2016-02
       - 2016-08
       - 2019-08
       - 2020-08
       - 2021-08
+      - 2023-02
       - 2023-08
       - 2025-02
-    - []
+    - - 2023-02
     - []
     fresh: true
     level: S
@@ -1217,14 +1218,14 @@ questions:
     counts:
     - 2
     - 11
-    - 3
+    - 2
     - 1
     - 2
     truths: 誤正正正正
     pcounts:
     - 2
     - 12
-    - 6
+    - 5
     - 10
     - 7
     points:
@@ -1475,7 +1476,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 11
+    count: 12
     form: 計算問題
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
@@ -1513,18 +1514,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
+    - 6
     - 2
-    - 10
+    - 9
     - 7
     - 4
     truths: 正誤正正正
     pcounts:
-    - 8
-    - 12
-    - 11
+    - 7
     - 12
     - 10
+    - 12
+    - 11
     points:
     - pt-design-0057
     - pt-design-0017
@@ -1595,7 +1596,7 @@ questions:
     level: A
     why: pt_A
     tags:
-    - odo
+    - ''
     - ans_hi
     - odo
     - odo

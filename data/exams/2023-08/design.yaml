@@ -72,18 +72,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 4
     - 5
     - 4
     - 3
-    - 7
+    - 6
     truths: 誤正正正正
     pcounts:
-    - 7
-    - 11
-    - 4
+    - 6
     - 12
-    - 11
+    - 4
+    - 13
+    - 10
     points:
     - pt-design-0067
     - pt-design-0019
@@ -180,15 +180,15 @@ questions:
     counts:
     - 3
     - 1
-    - 4
     - 5
+    - 6
     - 2
     truths: 正誤正正正
     pcounts:
     - 11
     - 3
-    - 7
     - 8
+    - 9
     - 3
     points:
     - pt-design-0026
@@ -248,12 +248,12 @@ questions:
       - 2020-02
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
     - odo
-    - ans_seen
-    - ''
+    - ans_new
+    - odo
     - odo
     - ''
 - num: 4
@@ -288,14 +288,14 @@ questions:
     - 2
     - 2
     - 3
-    - 8
+    - 7
     truths: 正正正誤正
     pcounts:
-    - 12
-    - 3
-    - 11
     - 13
-    - 12
+    - 3
+    - 10
+    - 13
+    - 11
     points:
     - pt-design-0013
     - pt-design-0169
@@ -351,7 +351,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2025-02
       - 2026-02
     - - 2026-08
@@ -395,7 +394,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: false
     level: S
     why: pat_S
@@ -544,7 +543,7 @@ questions:
     - 1
     - 3
     - 1
-    - 4
+    - 3
     points:
     - pt-design-0066
     - pt-design-0378
@@ -779,17 +778,17 @@ questions:
     denom: 23
     counts:
     - 1
-    - 4
     - 3
     - 3
-    - 8
+    - 3
+    - 7
     truths: 誤正正正正
     pcounts:
     - 14
-    - 14
+    - 13
     - 4
-    - 10
     - 9
+    - 8
     points:
     - pt-design-0008
     - pt-design-0010
@@ -851,7 +850,6 @@ questions:
     - - 2019-08
       - 2020-02
       - 2022-02
-      - 2023-02
     - []
     fresh: false
     level: A
@@ -897,10 +895,10 @@ questions:
     - 5
     truths: 誤正正正正
     pcounts:
-    - 11
+    - 12
     - 3
     - 3
-    - 4
+    - 5
     - 5
     points:
     - pt-design-0022
@@ -957,6 +955,7 @@ questions:
       - 2018-02
       - 2019-02
       - 2021-08
+      - 2023-02
     - []
     - []
     - []
@@ -999,17 +998,17 @@ questions:
     denom: 23
     counts:
     - 5
-    - 10
-    - 4
     - 9
-    - 3
+    - 4
+    - 8
+    - 4
     truths: 正正誤正正
     pcounts:
     - 10
     - 11
     - 6
-    - 9
-    - 3
+    - 8
+    - 4
     points:
     - pt-design-0031
     - pt-design-0021
@@ -1112,8 +1111,8 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 3
-    - 11
-    - 8
+    - 12
+    - 9
     - 7
     - 2
     points:
@@ -1130,8 +1129,8 @@ questions:
     - フッ化水素の捕集には、ミゼットインピンジャーを用いることができる
     prcounts:
     - 0
-    - 18
-    - 18
+    - 19
+    - 19
     - 0
     - 0
     principles:
@@ -1177,6 +1176,7 @@ questions:
       - 2019-02
       - 2021-02
       - 2022-08
+      - 2023-02
       - 2026-02
     - []
     - []
@@ -1224,10 +1224,10 @@ questions:
     - 9
     truths: 正正誤正正
     pcounts:
-    - 7
+    - 6
     - 3
-    - 12
     - 11
+    - 10
     - 12
     points:
     - pt-design-0062
@@ -1282,7 +1282,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2024-02
       - 2025-02
       - 2026-02
@@ -1327,7 +1326,7 @@ questions:
     denom: 23
     counts:
     - 4
-    - 1
+    - 2
     - 2
     - 1
     - 2
@@ -1335,7 +1334,7 @@ questions:
     pcounts:
     - 7
     - 11
-    - 14
+    - 13
     - 2
     - 2
     points:
@@ -1479,7 +1478,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
@@ -1526,7 +1525,7 @@ questions:
     pcounts:
     - 12
     - 11
-    - 10
+    - 11
     - 10
     - 6
     points:
@@ -1627,14 +1626,14 @@ questions:
     counts:
     - 4
     - 6
-    - 10
-    - 5
+    - 11
+    - 6
     - 3
     truths: 正正正誤正
     pcounts:
-    - 8
-    - 8
-    - 10
+    - 9
+    - 9
+    - 11
     - 14
     - 3
     points:
@@ -1652,7 +1651,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 18
+    - 19
     - 22
     - 0
     principles:
@@ -1692,11 +1691,11 @@ questions:
     - - 2016-08
       - 2017-08
       - 2022-02
-      - 2023-02
     - - 2016-08
       - 2017-08
       - 2019-08
       - 2020-08
+      - 2023-02
     - - 2016-08
       - 2018-02
       - 2018-08
@@ -1752,14 +1751,14 @@ questions:
     - 7
     - 6
     - 1
-    - 4
+    - 3
     - 1
     truths: 正正誤正正
     pcounts:
     - 8
-    - 11
     - 12
-    - 9
+    - 12
+    - 8
     - 3
     points:
     - pt-design-0055

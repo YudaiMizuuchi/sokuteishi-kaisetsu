@@ -33,14 +33,14 @@ questions:
     - 1
     - 5
     - 2
-    - 4
+    - 5
     truths: 正正誤正正
     pcounts:
     - 2
     - 3
     - 5
     - 3
-    - 6
+    - 7
     points:
     - pt-ippan-0277
     - pt-ippan-0192
@@ -241,11 +241,11 @@ questions:
     - 3
     truths: 正正正誤正
     pcounts:
-    - 9
+    - 8
     - 2
-    - 6
+    - 7
     - 4
-    - 3
+    - 4
     points:
     - pt-ippan-0029
     - pt-ippan-0341
@@ -298,7 +298,6 @@ questions:
     near_exams:
     - - 2017-08
       - 2022-02
-      - 2023-02
     - []
     - []
     - - 2017-08
@@ -375,14 +374,14 @@ questions:
     counts:
     - 2
     - 1
-    - 9
+    - 8
     - 1
     - 2
     truths: 正正正正誤
     pcounts:
-    - 10
+    - 9
     - 2
-    - 10
+    - 9
     - 2
     - 3
     points:
@@ -402,7 +401,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 12
     principles:
     - ''
     - ''
@@ -441,15 +440,14 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pr_S
     tags:
     - odo
     - ''
     - odo
     - ''
     - ans_pr
-    pat: gn-toxicity-05
 - num: 6
   status: published
   chapters:
@@ -486,7 +484,7 @@ questions:
     - 4
     - 10
     - 2
-    - 12
+    - 11
     - 3
     points:
     - pt-ippan-0144
@@ -544,8 +542,8 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - odo
@@ -623,9 +621,9 @@ questions:
     pcounts:
     - 2
     - 2
-    - 10
+    - 9
     - 5
-    - 7
+    - 6
     points:
     - pt-ippan-0355
     - pt-ippan-0376
@@ -682,8 +680,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - ''
     - ans_pat
@@ -725,10 +723,10 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 3
-    - 14
+    - 15
     - 5
     - 8
-    - 5
+    - 4
     points:
     - pt-ippan-0248
     - pt-ippan-0002
@@ -742,7 +740,7 @@ questions:
     - 二硫化炭素の高濃度ばく露では、精神障害を生じる。
     - n-ヘキサンによる健康障害として、多発性神経炎がある。
     prcounts:
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -827,10 +825,10 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 7
-    - 6
+    - 7
     - 2
     - 6
-    - 8
+    - 7
     points:
     - pt-ippan-0046
     - pt-ippan-0078
@@ -889,7 +887,6 @@ questions:
     - - 2018-08
       - 2020-08
       - 2022-02
-      - 2023-02
     fresh: false
     level: B
     why: pt_B
@@ -933,7 +930,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 5
-    - 15
+    - 14
     - 1
     - 4
     - 12
@@ -1059,7 +1056,7 @@ questions:
     - 0
     - 0
     - 0
-    - 13
+    - 14
     principles:
     - ''
     - ''
@@ -1099,7 +1096,6 @@ questions:
       - 2020-08
       - 2021-02
       - 2022-02
-      - 2023-02
     - []
     fresh: false
     level: S
@@ -1183,17 +1179,17 @@ questions:
     denom: 23
     counts:
     - 2
-    - 9
+    - 10
     - 4
     - 1
     - 1
     truths: 正正誤正正
     pcounts:
     - 2
-    - 12
+    - 13
     - 6
     - 5
-    - 5
+    - 6
     points:
     - pt-ippan-0356
     - pt-ippan-0010
@@ -1208,9 +1204,9 @@ questions:
     - 白内障は、晩発障害に分類される確定的影響である。
     prcounts:
     - 0
-    - 13
+    - 14
     - 0
-    - 19
+    - 18
     - 0
     principles:
     - ''
@@ -1257,7 +1253,7 @@ questions:
     - odo
     - ans_b
     - odo
-    - ''
+    - odo
 - num: 15
   status: published
   chapters:
@@ -1287,14 +1283,14 @@ questions:
     - 4
     - 6
     - 2
-    - 7
+    - 8
     - 9
     truths: 誤正正正正
     pcounts:
-    - 9
+    - 8
     - 6
     - 4
-    - 10
+    - 11
     - 4
     points:
     - pt-ippan-0032
@@ -1309,10 +1305,10 @@ questions:
     - 空気中に浮遊する粉じんは、粒径が同じであれば密度が小さいほど、沈降速度は遅くなる
     - ヒュームの一次粒子の粒径は、一般に、1μm以下である。
     prcounts:
-    - 9
+    - 8
     - 0
     - 0
-    - 10
+    - 11
     - 0
     principles:
     - pr-ippan-0005
@@ -1350,7 +1346,6 @@ questions:
       - 2021-02
       - 2021-08
       - 2022-02
-      - 2023-02
     - []
     - []
     - - 2020-02
@@ -1391,15 +1386,15 @@ questions:
     denom: 23
     counts:
     - 3
-    - 4
+    - 5
     - 4
     - 3
-    - 5
+    - 6
     truths: 正正誤正正
     pcounts:
     - 6
-    - 5
-    - 12
+    - 6
+    - 11
     - 3
     - 17
     points:
@@ -1460,7 +1455,6 @@ questions:
       - 2020-08
       - 2021-02
       - 2022-02
-      - 2023-02
       - 2024-08
     - []
     - - 2021-02
@@ -1469,7 +1463,7 @@ questions:
     why: pt_S
     tags:
     - odo
-    - ''
+    - odo
     - ans_hi
     - ''
     - odo
@@ -1499,14 +1493,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 2
     - 4
     - 2
+    - 4
+    - 3
     - 1
     truths: 正正誤正正
     pcounts:
-    - 8
+    - 9
     - 3
     - 7
     - 10
@@ -1524,7 +1518,7 @@ questions:
     - 防じんマスクの面体の接顔部に接顔メリヤスを使用すると、マスクと顔面との密着性が低下する
     - 耳栓は、1種及び2種に区分されるが、2種の耳栓は、高音域を遮音し、会話域程度の低音域は比較的通すものである
     prcounts:
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -1566,7 +1560,6 @@ questions:
     - []
     - - 2015-08
       - 2022-02
-      - 2023-02
     - []
     fresh: false
     level: A
@@ -1613,7 +1606,7 @@ questions:
     pcounts:
     - 3
     - 7
-    - 11
+    - 10
     - 10
     - 3
     points:
@@ -1671,7 +1664,6 @@ questions:
     - - 2015-08
       - 2018-02
       - 2022-02
-      - 2023-02
     - - 2016-08
       - 2018-08
       - 2020-08
@@ -1719,11 +1711,11 @@ questions:
     - 2
     truths: 正正誤正正
     pcounts:
-    - 5
+    - 4
     - 1
     - 1
     - 7
-    - 4
+    - 5
     points:
     - pt-ippan-0097
     - pt-ippan-0563
@@ -1820,15 +1812,15 @@ questions:
     - 1
     - 1
     - 3
-    - 3
-    - 11
+    - 4
+    - 10
     truths: 正誤正正正
     pcounts:
     - 2
     - 10
     - 3
     - 11
-    - 11
+    - 10
     points:
     - pt-ippan-0300
     - pt-ippan-0014

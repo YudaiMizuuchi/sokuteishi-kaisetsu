@@ -34,7 +34,7 @@ questions:
     denom: 23
     counts:
     - 1
-    - 5
+    - 4
     - 1
     - 1
     - 1
@@ -58,8 +58,8 @@ questions:
     - 圧力1mmH₂Oは、約9.81Paである。
     - 温度0℃は、273.15Kである。
     prcounts:
-    - 5
-    - 5
+    - 4
+    - 4
     - 0
     - 0
     - 0
@@ -101,11 +101,11 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: pr_B
+    level: D
+    why: none
     tags:
-    - ans_pr
-    - odo
+    - ans_new
+    - new
     - new
     - new
     - new
@@ -284,9 +284,9 @@ questions:
     - 2
     truths: 正誤正正正
     pcounts:
+    - 5
+    - 5
     - 4
-    - 4
-    - 3
     - 4
     - 2
     points:
@@ -302,11 +302,11 @@ questions:
     - グルコースの水に対する溶解度は、エタノールに対する溶解度より大きい
     - 塩化カリウムの水に対する溶解度は、塩化銀の水に対する溶解度より大きい
     prcounts:
-    - 5
-    - 5
-    - 10
-    - 5
-    - 5
+    - 6
+    - 6
+    - 11
+    - 6
+    - 6
     principles:
     - pr-bunseki-0036
     - pr-bunseki-0036
@@ -342,6 +342,7 @@ questions:
     - - 2017-08
     - - 2017-08
       - 2021-08
+      - 2023-02
       - 2025-02
     - []
     - []
@@ -388,7 +389,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 6
     form: 計算問題
     fresh: false
     level: C
@@ -467,7 +468,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
     fresh: false
     level: S
@@ -562,10 +563,10 @@ questions:
     - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する
     prcounts:
     - 0
-    - 11
-    - 11
-    - 11
-    - 11
+    - 10
+    - 10
+    - 10
+    - 10
     principles:
     - ''
     - pr-bunseki-0034
@@ -651,7 +652,7 @@ questions:
     pcounts:
     - 2
     - 1
-    - 4
+    - 5
     - 2
     - 3
     points:
@@ -969,11 +970,11 @@ questions:
     - 吸光度は、呈色後の時間により変化することがある。
     - モル吸光係数は、波長により異なる。
     prcounts:
+    - 10
+    - 0
     - 11
     - 0
     - 12
-    - 0
-    - 11
     principles:
     - pr-bunseki-0002
     - ''
@@ -1119,8 +1120,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: trend_S
+    level: A
+    why: trend_A
     tags:
     - ''
     - ''
@@ -1167,7 +1168,7 @@ questions:
     - 2
     - 1
     - 1
-    - 16
+    - 15
     - 1
     points:
     - pt-bunseki-0219
@@ -1185,7 +1186,7 @@ questions:
     - 15
     - 0
     - 0
-    - 16
+    - 15
     - 5
     principles:
     - pr-bunseki-0004
@@ -1306,11 +1307,11 @@ questions:
     - 1
     truths: 正正誤正正
     pcounts:
-    - 9
+    - 10
     - 1
-    - 9
-    - 9
-    - 9
+    - 10
+    - 10
+    - 10
     points:
     - pt-bunseki-0052
     - pt-bunseki-0320
@@ -1363,7 +1364,8 @@ questions:
     near_exams:
     - []
     - []
-    - - 2024-08
+    - - 2023-02
+      - 2024-08
       - 2025-02
       - 2026-08
     - []
@@ -1413,7 +1415,7 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 6
-    - 9
+    - 8
     - 7
     - 9
     - 6
@@ -1430,10 +1432,10 @@ questions:
     - 回折線は、ブラッグの条件に従って生じる。
     - フィルターに捕集した試料をそのまま分析することができる。
     prcounts:
-    - 16
+    - 15
     - 0
-    - 17
-    - 17
+    - 16
+    - 16
     - 0
     principles:
     - pr-bunseki-0012
@@ -1476,14 +1478,13 @@ questions:
     - []
     fresh: false
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - ans_pr
     - odo
     - odo
     - odo
     - ''
-    pat: an-xrd-02
 - num: 20
   status: published
   chapters:

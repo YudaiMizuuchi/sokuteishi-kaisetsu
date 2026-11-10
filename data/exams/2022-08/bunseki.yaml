@@ -145,7 +145,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-bunseki-0025
     prname: 誤差と統計量
-    prcount: 7
+    prcount: 6
     fresh: false
     level: B
     why: pr_B
@@ -186,7 +186,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 8
     form: 計算問題
     fresh: false
     level: B
@@ -360,10 +360,10 @@ questions:
     - 平衡定数は、平衡状態での物質の濃度から計算できる。
     - 温度を上げると、反応は右に進む。
     prcounts:
-    - 10
+    - 11
     - 5
-    - 10
-    - 10
+    - 11
+    - 11
     - 5
     principles:
     - pr-bunseki-0018
@@ -471,7 +471,7 @@ questions:
     - 0
     - 0
     - 1
-    - 8
+    - 7
     principles:
     - ''
     - ''
@@ -554,7 +554,7 @@ questions:
     - 2
     truths: 正正正誤正
     pcounts:
-    - 7
+    - 6
     - 1
     - 4
     - 3
@@ -572,11 +572,11 @@ questions:
     - ロータメーター（面積式流量計）の内径は、下部より上部が大きい。
     - 石けん膜流量計は、ロータメーターの較正に用いられる。
     prcounts:
-    - 11
+    - 10
     - 0
-    - 11
-    - 11
-    - 11
+    - 10
+    - 10
+    - 10
     principles:
     - pr-bunseki-0034
     - ''
@@ -704,8 +704,8 @@ questions:
     - 拡散係数の次元は、体積/時間である。（誤りの記述）
     - 拡散係数は、物質によって異なる。
     prcounts:
-    - 14
-    - 14
+    - 13
+    - 13
     - 0
     - 0
     - 0
@@ -1176,7 +1176,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: false
     level: S
@@ -1221,7 +1221,7 @@ questions:
     - 4
     - 4
     - 3
-    - 4
+    - 5
     points:
     - pt-bunseki-0384
     - pt-bunseki-0071
@@ -1236,7 +1236,7 @@ questions:
     - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
     prcounts:
     - 0
-    - 16
+    - 17
     - 0
     - 0
     - 14
@@ -1319,12 +1319,12 @@ questions:
     - 2
     - 2
     - 2
-    - 5
+    - 4
     truths: 正正正誤正
     pcounts:
     - 3
     - 2
-    - 16
+    - 15
     - 9
     - 13
     points:
@@ -1342,7 +1342,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 16
+    - 15
     - 10
     - 15
     principles:
@@ -1375,13 +1375,13 @@ questions:
     - false
     - false
     - false
-    - false
+    - true
     near_exams:
     - []
     - []
     - []
     - []
-    - []
+    - - 2023-02
     fresh: false
     level: A
     why: pr_A
@@ -1469,7 +1469,7 @@ questions:
     - 2
     - 6
     - 5
-    - 9
+    - 10
     points:
     - pt-bunseki-0229
     - pt-bunseki-0493
@@ -1593,8 +1593,8 @@ questions:
     - 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。（誤りの記述）
     - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある
     prcounts:
+    - 15
     - 16
-    - 17
     - 0
     - 0
     - 5
@@ -1678,9 +1678,8 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 8
     form: 計算問題
     fresh: false
     level: B
-    why: pat_B
-    pat: an-logarithm-03
+    why: q_b

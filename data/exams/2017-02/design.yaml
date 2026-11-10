@@ -36,15 +36,15 @@ questions:
     - 1
     - 1
     - 1
-    - 3
+    - 4
     - 1
     truths: 正正正正誤
     pcounts:
     - 1
     - 1
     - 2
-    - 11
-    - 11
+    - 12
+    - 12
     points:
     - pt-design-0415
     - pt-design-0374
@@ -135,17 +135,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 6
     - 1
     - 3
     - 1
     - 3
     truths: 正正誤正正
     pcounts:
-    - 11
+    - 12
     - 1
     - 4
-    - 11
+    - 10
     - 10
     points:
     - pt-design-0019
@@ -306,6 +306,7 @@ questions:
     - []
     - []
     - - 2018-08
+      - 2023-02
     - - 2018-08
       - 2024-08
     fresh: false
@@ -353,10 +354,10 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 8
+    - 7
     - 4
-    - 8
-    - 14
+    - 9
+    - 15
     - 4
     points:
     - pt-design-0051
@@ -414,14 +415,14 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - odo
+    - ''
     - ''
     - odo
     - odo
-    - ans_new
+    - ans_seen
 - num: 5
   status: published
   chapters:
@@ -456,11 +457,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 穴埋め・組合せの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: false
     level: S
     why: pat_S
@@ -662,14 +663,14 @@ questions:
     - 8
     - 5
     - 3
-    - 6
+    - 7
     truths: 正正誤正正
     pcounts:
-    - 9
+    - 8
     - 8
     - 14
     - 4
-    - 8
+    - 9
     points:
     - pt-design-0041
     - pt-design-0052
@@ -687,7 +688,7 @@ questions:
     - 0
     - 0
     - 0
-    - 9
+    - 10
     principles:
     - ''
     - ''
@@ -773,14 +774,14 @@ questions:
     - 1
     - 3
     - 1
-    - 7
+    - 6
     truths: 誤正正正正
     pcounts:
-    - 2
+    - 3
     - 4
     - 5
     - 1
-    - 8
+    - 7
     points:
     - pt-design-0245
     - pt-design-0124
@@ -844,7 +845,7 @@ questions:
     - ''
     - ''
     - new
-    - odo
+    - ''
 - num: 11
   status: published
   chapters:
@@ -879,8 +880,8 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 1
-    - 5
-    - 9
+    - 4
+    - 8
     - 4
     - 2
     points:
@@ -936,7 +937,6 @@ questions:
     - []
     - - 2019-02
       - 2022-02
-      - 2023-02
       - 2026-08
     - []
     - []
@@ -980,18 +980,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 10
+    - 11
     - 2
     - 9
     - 2
     - 2
     truths: 正誤正正正
     pcounts:
-    - 10
-    - 9
     - 11
+    - 9
+    - 12
     - 7
-    - 7
+    - 8
     points:
     - pt-design-0035
     - pt-design-0071
@@ -1005,9 +1005,9 @@ questions:
     - 真空捕集びんの洗浄には、窒素や清浄空気を用いる。
     - 真空捕集びんは、1.33kPa以下の圧力にして使用する。
     prcounts:
-    - 18
+    - 19
     - 0
-    - 18
+    - 19
     - 0
     - 0
     principles:
@@ -1045,6 +1045,7 @@ questions:
     - - 2016-08
       - 2017-08
       - 2020-08
+      - 2023-02
     - []
     - - 2016-02
       - 2016-08
@@ -1060,7 +1061,7 @@ questions:
     - ans_pat
     - odo
     - ''
-    - ''
+    - odo
     pat: ds-liquid-direct-01
 - num: 13
   status: published
@@ -1130,17 +1131,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 8
+    - 7
     - 1
     - 4
     - 3
     - 2
     truths: 正正正誤正
     pcounts:
-    - 14
+    - 13
     - 3
-    - 11
-    - 15
+    - 10
+    - 14
     - 8
     points:
     - pt-design-0009
@@ -1203,7 +1204,6 @@ questions:
       - 2020-08
       - 2021-08
       - 2022-02
-      - 2023-02
       - 2024-02
     - []
     fresh: false
@@ -1241,14 +1241,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
+    - 3
     - 1
     - 1
     - 1
     - 1
     truths: 正正誤正正
     pcounts:
-    - 3
+    - 4
     - 4
     - 11
     - 7
@@ -1390,7 +1390,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 11
+    count: 12
     form: 計算問題
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
@@ -1426,18 +1426,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 10
+    - 9
     - 5
     - 4
     - 10
-    - 9
+    - 8
     truths: 正正誤正正
     pcounts:
-    - 11
     - 10
+    - 11
     - 16
     - 10
-    - 8
+    - 7
     points:
     - pt-design-0485
     - pt-design-0028
@@ -1513,7 +1513,7 @@ questions:
     - odo
     - ans_pr
     - odo
-    - odo
+    - ''
 - num: 19
   status: published
   chapters:
@@ -1545,15 +1545,15 @@ questions:
     counts:
     - 3
     - 2
-    - 6
-    - 4
+    - 7
+    - 5
     - 2
     truths: 正誤正正正
     pcounts:
     - 10
     - 8
-    - 11
-    - 4
+    - 12
+    - 5
     - 2
     points:
     - pt-design-0031
@@ -1654,9 +1654,9 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 8
-    - 11
+    - 12
     - 3
-    - 9
+    - 8
     - 5
     points:
     - pt-design-0055
@@ -1723,7 +1723,6 @@ questions:
       - 2021-02
       - 2022-02
       - 2022-08
-      - 2023-02
       - 2023-08
       - 2025-08
     fresh: false

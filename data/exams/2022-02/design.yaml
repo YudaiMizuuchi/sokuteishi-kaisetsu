@@ -69,18 +69,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
+    - 1
+    - 5
+    - 1
     - 6
-    - 2
-    - 7
-    - 4
+    - 3
     truths: 正誤正正正
     pcounts:
-    - 2
-    - 7
-    - 3
-    - 11
+    - 1
     - 6
+    - 2
+    - 10
+    - 5
     points:
     - pt-design-0222
     - pt-design-0067
@@ -142,7 +142,7 @@ questions:
     level: C
     why: seen
     tags:
-    - ''
+    - new
     - ans_seen
     - ''
     - odo
@@ -178,18 +178,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 9
+    - 8
+    - 2
     - 3
+    - 2
     - 4
-    - 3
-    - 5
     truths: 正誤正正正
     pcounts:
-    - 14
-    - 3
-    - 7
+    - 13
+    - 2
+    - 6
     - 11
-    - 5
+    - 4
     points:
     - pt-design-0007
     - pt-design-0178
@@ -245,6 +245,7 @@ questions:
     - []
     - []
     - - 2018-08
+      - 2023-02
     - []
     fresh: false
     level: C
@@ -283,18 +284,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
-    - 8
-    - 4
+    - 1
+    - 7
     - 3
-    - 5
+    - 2
+    - 4
     truths: 誤正正正正
     pcounts:
-    - 8
-    - 12
-    - 13
+    - 7
     - 11
-    - 6
+    - 13
+    - 10
+    - 5
     points:
     - pt-design-0051
     - pt-design-0015
@@ -354,9 +355,9 @@ questions:
     - []
     fresh: false
     level: B
-    why: pt_B
+    why: elim_two
     tags:
-    - ans_b
+    - ans_new
     - odo
     - odo
     - odo
@@ -393,18 +394,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 1
+    - 1
     - 2
-    - 2
-    - 3
-    - 2
-    - 2
+    - 1
+    - 1
     truths: 正正正正誤
     pcounts:
     - 3
-    - 5
+    - 4
     - 3
-    - 2
-    - 7
+    - 1
+    - 6
     points:
     - pt-design-0162
     - pt-design-0098
@@ -467,7 +468,7 @@ questions:
     - ''
     - ''
     - ''
-    - ''
+    - new
     - ans_seen
 - num: 6
   status: published
@@ -497,18 +498,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
-    - 2
-    - 2
-    - 2
-    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
     truths: 正誤誤誤誤
     pcounts:
+    - 1
+    - 1
+    - 1
+    - 1
     - 2
-    - 2
-    - 2
-    - 2
-    - 3
     points:
     - pt-design-0254
     - pt-design-0279
@@ -569,9 +570,9 @@ questions:
     why: pat_A
     tags:
     - ans_pat
-    - ''
-    - ''
-    - ''
+    - new
+    - new
+    - new
     - ''
     pat: ds-personal-sampling-01
 - num: 7
@@ -605,17 +606,17 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 1
+    - 1
+    - 1
     - 2
-    - 2
-    - 2
-    - 3
     - 2
     truths: 正正正正誤
     pcounts:
     - 2
-    - 2
-    - 2
-    - 4
+    - 1
+    - 1
+    - 3
     - 3
     points:
     - pt-design-0223
@@ -677,8 +678,8 @@ questions:
     why: seen
     tags:
     - ''
-    - ''
-    - ''
+    - new
+    - new
     - ''
     - ans_seen
 - num: 8
@@ -709,18 +710,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 2
+    - 3
     - 3
     - 4
-    - 4
-    - 5
-    - 3
+    - 2
     truths: 誤正正正正
     pcounts:
-    - 7
     - 6
-    - 4
     - 5
+    - 3
     - 4
+    - 3
     points:
     - pt-design-0076
     - pt-design-0084
@@ -851,18 +852,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 8
-    - 4
+    - 3
     - 7
-    - 8
+    - 7
     truths: 正正誤正正
     pcounts:
-    - 14
+    - 13
     - 8
-    - 10
-    - 7
     - 9
+    - 7
+    - 8
     points:
     - pt-design-0010
     - pt-design-0052
@@ -922,12 +923,12 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_hi
+    - ans_b
     - ''
     - odo
 - num: 11
@@ -958,18 +959,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
     - 3
-    - 6
     - 2
-    - 3
+    - 5
+    - 1
+    - 2
     truths: 正誤正正正
     pcounts:
-    - 4
-    - 8
-    - 8
-    - 2
     - 3
+    - 8
+    - 7
+    - 1
+    - 2
     points:
     - pt-design-0147
     - pt-design-0045
@@ -1032,8 +1033,8 @@ questions:
     tags:
     - odo
     - ans_b
-    - odo
     - ''
+    - new
     - ''
 - num: 12
   status: published
@@ -1063,18 +1064,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 10
-    - 3
-    - 7
     - 2
+    - 9
+    - 2
+    - 6
+    - 1
     truths: 誤正正正正
     pcounts:
-    - 7
+    - 6
     - 11
-    - 5
-    - 9
-    - 3
+    - 4
+    - 8
+    - 2
     points:
     - pt-design-0073
     - pt-design-0021
@@ -1168,18 +1169,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 2
     - 3
+    - 5
     - 4
     - 5
-    - 5
-    - 6
     truths: 誤正正正正
     pcounts:
-    - 4
-    - 10
+    - 3
+    - 9
     - 9
     - 14
-    - 6
+    - 5
     points:
     - pt-design-0142
     - pt-design-0034
@@ -1238,6 +1239,7 @@ questions:
       - 2017-08
       - 2019-08
       - 2020-08
+      - 2023-02
       - 2023-08
     - []
     fresh: false
@@ -1277,18 +1279,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
     - 2
-    - 3
+    - 1
     - 2
-    - 2
+    - 1
+    - 1
     truths: 正誤正正正
     pcounts:
-    - 7
-    - 11
     - 6
-    - 2
-    - 12
+    - 10
+    - 5
+    - 1
+    - 11
     points:
     - pt-design-0062
     - pt-design-0024
@@ -1357,7 +1359,7 @@ questions:
     - odo
     - ans_hi
     - ''
-    - ''
+    - new
     - odo
 - num: 15
   status: published
@@ -1387,16 +1389,16 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 1
     - 2
-    - 3
-    - 8
-    - 3
-    - 3
+    - 7
+    - 2
+    - 2
     truths: 正正正正誤
     pcounts:
-    - 11
-    - 15
+    - 10
     - 14
+    - 13
     - 8
     - 11
     points:
@@ -1542,7 +1544,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
@@ -1580,17 +1582,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 10
-    - 10
-    - 8
     - 9
+    - 9
+    - 8
+    - 8
     - 4
     truths: 正正正正誤
     pcounts:
-    - 11
+    - 10
     - 16
     - 12
-    - 8
+    - 7
     - 12
     points:
     - pt-design-0485
@@ -1674,7 +1676,7 @@ questions:
     - odo
     - odo
     - odo
-    - odo
+    - ''
     - ans_pr
 - num: 19
   status: published
@@ -1704,17 +1706,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 8
-    - 2
     - 7
-    - 2
+    - 1
+    - 6
+    - 1
     - 3
     truths: 正正正誤正
     pcounts:
-    - 9
     - 8
+    - 7
     - 14
-    - 8
+    - 7
     - 14
     points:
     - pt-design-0040
@@ -1780,6 +1782,7 @@ questions:
     - - 2016-02
       - 2019-08
       - 2021-02
+      - 2023-02
       - 2023-08
     - - 2016-08
       - 2017-02
@@ -1791,13 +1794,14 @@ questions:
       - 2024-08
     fresh: false
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - odo
+    - ''
     - odo
+    - ans_pat
     - odo
-    - ans_b
-    - odo
+    pat: ds-size-selector-01
 - num: 20
   status: published
   chapters:
@@ -1829,18 +1833,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
-    - 9
     - 5
+    - 8
     - 4
-    - 4
+    - 3
+    - 3
     truths: 正正誤正正
     pcounts:
-    - 7
-    - 9
+    - 6
+    - 8
     - 12
-    - 4
-    - 9
+    - 3
+    - 8
     points:
     - pt-design-0061
     - pt-design-0489
@@ -1897,6 +1901,7 @@ questions:
       - 2016-08
       - 2017-08
       - 2019-08
+      - 2023-02
     - []
     - - 2017-02
       - 2021-02

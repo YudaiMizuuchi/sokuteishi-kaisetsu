@@ -45,12 +45,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 10
     form: 穴埋め・組合せの問題
     fresh: true
     level: A
-    why: pat_A
-    pat: an-units-01
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -93,7 +92,7 @@ questions:
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0025
     prname: 誤差と統計量
-    prcount: 7
+    prcount: 6
     fresh: true
     level: B
     why: pr_B
@@ -186,7 +185,7 @@ questions:
     form: 計算問題
     prid: pr-bunseki-0014
     prname: 気体の状態方程式
-    prcount: 4
+    prcount: 3
     fresh: true
     level: C
     why: q_fresh
@@ -382,11 +381,11 @@ questions:
     - 飽和蒸気圧が小さいほど低くなる。
     - 拡散チューブの内径が大きいほど高くなる。
     prcounts:
-    - 14
+    - 13
     - 0
     - 0
     - 0
-    - 14
+    - 13
     principles:
     - pr-bunseki-0033
     - ''
@@ -467,11 +466,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 7
     form: 穴埋め・組合せの問題
     fresh: true
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -617,7 +616,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     fresh: true
     level: B
@@ -779,16 +778,16 @@ questions:
     counts:
     - 2
     - 1
-    - 1
+    - 2
     - 1
     - 3
     truths: 正正正正誤
     pcounts:
     - 6
     - 4
-    - 3
+    - 4
     - 1
-    - 6
+    - 7
     points:
     - pt-bunseki-0041
     - pt-bunseki-0138
@@ -806,7 +805,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 12
     principles:
     - ''
     - ''
@@ -845,9 +844,10 @@ questions:
     - []
     - - 2018-08
       - 2020-08
+      - 2023-02
     fresh: true
-    level: A
-    why: pr_A
+    level: S
+    why: pr_S
     tags:
     - ''
     - ''
@@ -892,7 +892,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: true
     level: S
@@ -941,11 +941,11 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 10
-    - 5
+    - 9
+    - 4
     - 4
     - 2
-    - 7
+    - 6
     points:
     - pt-bunseki-0005
     - pt-bunseki-0032
@@ -960,10 +960,10 @@ questions:
     - 吸光度は、光路長に比例する。
     prcounts:
     - 14
-    - 5
-    - 16
+    - 4
+    - 17
     - 0
-    - 12
+    - 11
     principles:
     - pr-bunseki-0009
     - pr-bunseki-0010
@@ -1003,13 +1003,13 @@ questions:
     - - 2016-08
     fresh: true
     level: S
-    why: pr_S
+    why: trend_S
     tags:
     - odo
-    - odo
+    - ''
     - odo
     - ''
-    - ans_pr
+    - ans_trend
 - num: 16
   status: published
   chapters:
@@ -1044,7 +1044,7 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 4
     - 1
     - 2
     - 1
@@ -1053,8 +1053,8 @@ questions:
     pcounts:
     - 13
     - 13
-    - 16
-    - 16
+    - 15
+    - 15
     - 4
     points:
     - pt-bunseki-0002
@@ -1071,8 +1071,8 @@ questions:
     prcounts:
     - 15
     - 15
-    - 16
-    - 16
+    - 15
+    - 15
     - 5
     principles:
     - pr-bunseki-0004
@@ -1100,13 +1100,13 @@ questions:
     - 2026-02
     - 2026-08
     near:
-    - false
+    - true
     - false
     - false
     - false
     - false
     near_exams:
-    - []
+    - - 2023-02
     - []
     - []
     - []
@@ -1149,17 +1149,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
-    - 5
+    - 6
     - 4
+    - 3
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
-    - 9
-    - 5
-    - 5
+    - 8
     - 4
+    - 4
+    - 3
     - 1
     points:
     - pt-bunseki-0007
@@ -1174,11 +1174,11 @@ questions:
     - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する
     - 熱イオン化検出器 （TID、FTD） では、窒素やリンを含む化合物の一部が熱イオン化し、増加するイオン電流の値を利用する
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
     principles:
     - pr-bunseki-0031
     - pr-bunseki-0031
@@ -1261,17 +1261,17 @@ questions:
     denom: 23
     counts:
     - 1
-    - 3
+    - 4
     - 1
     - 1
     - 1
     truths: 正正誤正正
     pcounts:
     - 1
-    - 9
+    - 10
     - 8
-    - 1
-    - 3
+    - 2
+    - 4
     points:
     - pt-bunseki-0471
     - pt-bunseki-0052
@@ -1288,8 +1288,8 @@ questions:
     - 0
     - 0
     - 9
-    - 5
-    - 5
+    - 6
+    - 6
     principles:
     - ''
     - ''
@@ -1396,7 +1396,7 @@ questions:
     - 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。（誤りの記述）
     - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある
     prcounts:
-    - 16
+    - 15
     - 0
     - 0
     - 0

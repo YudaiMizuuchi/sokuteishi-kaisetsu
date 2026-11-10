@@ -356,7 +356,7 @@ questions:
     - 1
     - 1
     - 5
-    - 9
+    - 10
     - 1
     points:
     - pt-ippan-0543
@@ -460,7 +460,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 8
-    - 7
+    - 6
     - 1
     - 1
     - 1
@@ -479,7 +479,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 11
+    - 12
     - 0
     - 0
     principles:
@@ -581,7 +581,7 @@ questions:
     - エチレンオキシドは、高濃度で皮膚に接触すると水疱を生じ、眼に入ると角膜炎を生じるほか、吸入すると悪心、嘔吐、粘膜刺激症状などを生じる
     - ホスゲンは、青草のような臭気を有する無色の気体（25 ℃、1気圧下）で、吸入すると肺胞内で加水分解されて塩酸を生じ、肺水腫などの障害を引き起こす
     prcounts:
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -704,7 +704,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 2
-    - 4
+    - 3
     - 4
     - 1
     - 1
@@ -761,7 +761,6 @@ questions:
     - []
     - - 2020-02
       - 2021-02
-      - 2023-02
     - []
     - []
     - []
@@ -813,7 +812,7 @@ questions:
     - 9
     - 1
     - 1
-    - 7
+    - 8
     points:
     - pt-ippan-0153
     - pt-ippan-0027
@@ -870,8 +869,8 @@ questions:
     - []
     - []
     fresh: true
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - ''
     - odo
@@ -914,7 +913,7 @@ questions:
     - 1
     truths: 正誤正正正
     pcounts:
-    - 14
+    - 15
     - 1
     - 1
     - 3
@@ -1017,14 +1016,14 @@ questions:
     counts:
     - 1
     - 1
-    - 6
+    - 7
     - 1
     - 1
     truths: 誤正正正正
     pcounts:
     - 6
     - 1
-    - 10
+    - 11
     - 1
     - 1
     points:
@@ -1151,8 +1150,8 @@ questions:
     - 局所振動障害では、一般に、自覚症状より他覚症状の方が先行して現れる（誤りの記述）
     prcounts:
     - 0
-    - 15
-    - 5
+    - 14
+    - 6
     - 0
     - 0
     principles:
@@ -1447,7 +1446,7 @@ questions:
     - 5
     - 1
     - 1
-    - 6
+    - 5
     - 2
     points:
     - pt-ippan-0104
@@ -1570,8 +1569,8 @@ questions:
     - 0
     - 0
     - 0
-    - 19
-    - 19
+    - 18
+    - 18
     principles:
     - ''
     - ''
@@ -1647,15 +1646,15 @@ questions:
     denom: 23
     counts:
     - 4
-    - 4
+    - 3
+    - 5
     - 6
-    - 7
     - 5
     truths: 誤正正正正
     pcounts:
-    - 12
-    - 4
-    - 8
+    - 11
+    - 3
+    - 7
     - 17
     - 6
     points:
@@ -1714,14 +1713,12 @@ questions:
       - 2020-08
       - 2021-02
       - 2022-02
-      - 2023-02
       - 2024-08
     - []
     - - 2017-08
       - 2018-02
       - 2019-02
       - 2022-02
-      - 2023-02
     - - 2017-08
     - []
     fresh: true
@@ -1984,7 +1981,7 @@ questions:
     - 1
     - 5
     - 1
-    - 7
+    - 8
     points:
     - pt-ippan-0736
     - pt-ippan-0425
@@ -2041,11 +2038,11 @@ questions:
     - []
     - []
     fresh: true
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - new
     - new
     - ''
     - new
-    - ans_b
+    - ans_hi

@@ -143,14 +143,14 @@ questions:
     counts:
     - 3
     - 5
-    - 7
+    - 8
     - 2
     - 1
     truths: 正誤正正正
     pcounts:
+    - 4
     - 5
-    - 5
-    - 7
+    - 8
     - 3
     - 3
     points:
@@ -249,14 +249,14 @@ questions:
     - 1
     - 2
     - 3
-    - 1
-    - 4
+    - 2
+    - 5
     truths: 誤正正正正
     pcounts:
     - 4
-    - 4
+    - 5
     - 3
-    - 4
+    - 5
     - 8
     points:
     - pt-ippan-0141
@@ -304,7 +304,7 @@ questions:
     near:
     - false
     - true
-    - false
+    - true
     - true
     - true
     near_exams:
@@ -312,12 +312,12 @@ questions:
     - - 2018-02
       - 2021-08
       - 2022-08
-    - []
+      - 2023-02
+    - - 2023-02
     - - 2018-08
     - - 2016-08
       - 2021-02
       - 2022-02
-      - 2023-02
     fresh: false
     level: A
     why: pr_A
@@ -352,16 +352,16 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 6
     - 7
-    - 7
-    - 3
+    - 4
     - 4
     - 2
     truths: 正正正正誤
     pcounts:
-    - 10
-    - 10
-    - 4
+    - 9
+    - 9
+    - 5
     - 4
     - 2
     points:
@@ -596,17 +596,17 @@ questions:
     denom: 23
     counts:
     - 9
-    - 9
+    - 8
     - 1
-    - 6
-    - 5
+    - 7
+    - 4
     truths: 正正誤正正
     pcounts:
     - 9
-    - 10
-    - 1
-    - 7
     - 9
+    - 1
+    - 8
+    - 8
     points:
     - pt-ippan-0030
     - pt-ippan-0022
@@ -661,6 +661,7 @@ questions:
     - []
     - - 2015-08
       - 2020-02
+      - 2023-02
     - []
     - []
     fresh: false
@@ -702,17 +703,17 @@ questions:
     denom: 23
     counts:
     - 7
-    - 9
+    - 10
     - 3
     - 2
-    - 4
+    - 3
     truths: 正正誤正正
     pcounts:
     - 8
-    - 14
-    - 10
+    - 15
+    - 9
     - 4
-    - 5
+    - 4
     points:
     - pt-ippan-0036
     - pt-ippan-0002
@@ -805,16 +806,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
     - 6
-    - 4
+    - 7
+    - 3
     - 3
     - 1
     truths: 正正誤正正
     pcounts:
-    - 6
-    - 10
-    - 8
+    - 7
+    - 11
+    - 7
     - 3
     - 1
     points:
@@ -878,12 +879,12 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_hi
+    - ans_b
     - odo
     - new
 - num: 10
@@ -918,14 +919,14 @@ questions:
     - 4
     - 4
     - 6
-    - 8
+    - 9
     truths: 正正誤正正
     pcounts:
-    - 12
+    - 11
     - 5
     - 4
     - 6
-    - 8
+    - 9
     points:
     - pt-ippan-0005
     - pt-ippan-0106
@@ -939,8 +940,8 @@ questions:
     - 喫煙は、レイノー現象発現の増悪因子である。
     - 振動工具取扱い作業者に対する特殊健康診断を1年に2回実施する場合、そのうち1回は冬季に行うとよい
     prcounts:
-    - 15
-    - 15
+    - 14
+    - 14
     - 0
     - 0
     - 0
@@ -1025,14 +1026,14 @@ questions:
     - 2
     - 1
     - 4
-    - 5
+    - 4
     truths: 正正誤正正
     pcounts:
     - 1
     - 2
     - 12
     - 9
-    - 15
+    - 14
     points:
     - pt-ippan-0568
     - pt-ippan-0297
@@ -1129,14 +1130,14 @@ questions:
     counts:
     - 7
     - 2
-    - 4
+    - 3
     - 2
     - 12
     truths: 正正誤正正
     pcounts:
     - 4
     - 6
-    - 7
+    - 6
     - 2
     - 12
     points:
@@ -1205,7 +1206,6 @@ questions:
     - - 2019-08
       - 2021-02
       - 2022-02
-      - 2023-02
     fresh: false
     level: A
     why: pat_A
@@ -1245,17 +1245,17 @@ questions:
     denom: 23
     counts:
     - 3
-    - 8
-    - 2
-    - 2
+    - 7
     - 3
+    - 3
+    - 2
     truths: 正正正正誤
     pcounts:
     - 5
     - 4
-    - 4
-    - 3
     - 5
+    - 4
+    - 4
     points:
     - pt-ippan-0114
     - pt-ippan-0180
@@ -1349,18 +1349,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
-    - 9
+    - 7
+    - 10
     - 3
-    - 4
+    - 5
     - 2
     truths: 正正正正誤
     pcounts:
-    - 8
-    - 12
+    - 9
+    - 13
     - 7
-    - 4
-    - 7
+    - 5
+    - 6
     points:
     - pt-ippan-0040
     - pt-ippan-0010
@@ -1375,10 +1375,10 @@ questions:
     - しきい値は、確定的影響には存在するが、確率的影響には存在しない。
     prcounts:
     - 0
-    - 13
+    - 14
     - 0
     - 0
-    - 19
+    - 18
     principles:
     - ''
     - pr-ippan-0019
@@ -1419,7 +1419,6 @@ questions:
     - - 2019-02
       - 2021-02
       - 2022-02
-      - 2023-02
     fresh: false
     level: S
     why: pr_S
@@ -1458,15 +1457,15 @@ questions:
     denom: 23
     counts:
     - 6
-    - 4
-    - 7
+    - 5
+    - 8
     - 2
     - 1
     truths: 正正正誤正
     pcounts:
     - 6
-    - 8
-    - 10
+    - 9
+    - 11
     - 2
     - 1
     points:
@@ -1483,9 +1482,9 @@ questions:
     - 液体の微細な粒子で空気中に浮遊しているものを、ミストという。
     prcounts:
     - 0
-    - 13
-    - 10
+    - 14
     - 11
+    - 12
     - 0
     principles:
     - ''
@@ -1525,8 +1524,8 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pr_A
+    level: S
+    why: pr_S
     tags:
     - odo
     - odo
@@ -1561,18 +1560,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 5
     - 4
+    - 5
     - 3
-    - 8
+    - 3
+    - 7
     truths: 正正正誤正
     pcounts:
-    - 3
-    - 5
     - 4
+    - 5
     - 3
-    - 12
+    - 3
+    - 11
     points:
     - pt-ippan-0233
     - pt-ippan-0099
@@ -1676,8 +1675,8 @@ questions:
     - 4
     truths: 正正正正誤
     pcounts:
-    - 8
-    - 5
+    - 9
+    - 6
     - 3
     - 3
     - 7
@@ -1694,7 +1693,7 @@ questions:
     - 使い捨て式防じんマスクは、ヒュームにも使用できる。
     - 防じんマスクの手入れでは、ろ過材に付着した粉じんを除去するとき、圧縮空気で吹き飛ばしたり、ろ過材を強くたたいて払い落としてはならない
     prcounts:
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -1726,13 +1725,13 @@ questions:
     - 2026-08
     near:
     - false
-    - false
+    - true
     - true
     - true
     - false
     near_exams:
     - []
-    - []
+    - - 2023-02
     - - 2025-02
     - - 2021-08
     - []
@@ -1741,7 +1740,7 @@ questions:
     why: pat_A
     tags:
     - odo
-    - ''
+    - odo
     - ''
     - ''
     - ans_pat
@@ -1782,7 +1781,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 2
-    - 2
+    - 1
     - 7
     - 10
     - 3
@@ -1851,13 +1850,14 @@ questions:
       - 2021-02
       - 2021-08
       - 2022-08
+      - 2023-02
     - []
     fresh: false
     level: S
     why: pat_S
     tags:
     - ''
-    - ''
+    - new
     - odo
     - ans_pat
     - ''
@@ -1901,7 +1901,7 @@ questions:
     - 3
     - 4
     - 2
-    - 6
+    - 7
     points:
     - pt-ippan-0093
     - pt-ippan-0206
@@ -1993,7 +1993,7 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 4
     - 6
     - 4
     - 5
@@ -2003,7 +2003,7 @@ questions:
     - 2
     - 10
     - 4
-    - 7
+    - 6
     - 5
     points:
     - pt-ippan-0345
@@ -2059,7 +2059,6 @@ questions:
     - - 2015-08
     - []
     - - 2022-02
-      - 2023-02
     - []
     fresh: false
     level: B

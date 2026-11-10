@@ -31,11 +31,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 10
     form: 穴埋め・組合せの問題
     fresh: false
-    level: B
-    why: q_b
+    level: A
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -321,11 +321,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 3
     form: 計算問題
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
-    prcount: 6
+    prcount: 7
     fresh: false
     level: A
     why: pat_A
@@ -508,15 +508,15 @@ questions:
     - 1
     - 7
     - 2
-    - 7
+    - 6
     - 5
     truths: 正正誤正正
     pcounts:
     - 1
     - 7
-    - 10
     - 9
-    - 9
+    - 8
+    - 8
     points:
     - pt-bunseki-0371
     - pt-bunseki-0014
@@ -530,11 +530,11 @@ questions:
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     prcounts:
-    - 14
+    - 13
     - 0
-    - 14
-    - 14
-    - 14
+    - 13
+    - 13
+    - 13
     principles:
     - pr-bunseki-0033
     - ''
@@ -570,7 +570,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2023-08
       - 2024-02
     - - 2023-08
@@ -857,18 +856,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 2
+    - 2
+    - 2
+    - 2
     - 3
-    - 3
-    - 3
-    - 3
-    - 4
     truths: 正誤正正正
     pcounts:
-    - 5
-    - 6
     - 4
+    - 5
     - 3
-    - 6
+    - 2
+    - 5
     points:
     - pt-bunseki-0036
     - pt-bunseki-0020
@@ -882,7 +881,7 @@ questions:
     - シュウ酸は、アルカリ溶液の標定に用いる。
     - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
     prcounts:
-    - 8
+    - 7
     - 0
     - 0
     - 0
@@ -921,13 +920,9 @@ questions:
     near_exams:
     - []
     - - 2022-02
-      - 2023-02
     - - 2022-02
-      - 2023-02
     - - 2022-02
-      - 2023-02
     - - 2022-02
-      - 2023-02
     fresh: false
     level: C
     why: seen
@@ -969,7 +964,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
     fresh: false
     level: S
@@ -1001,18 +996,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 8
     - 4
     - 4
     - 3
     truths: 正正正正誤
     pcounts:
-    - 5
+    - 4
     - 9
     - 4
     - 11
-    - 6
+    - 7
     points:
     - pt-bunseki-0050
     - pt-bunseki-0008
@@ -1026,11 +1021,11 @@ questions:
     - 吸光度は、通常、極大吸収波長で測定する。
     - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
     prcounts:
+    - 10
+    - 0
     - 11
     - 0
     - 12
-    - 0
-    - 11
     principles:
     - pr-bunseki-0002
     - ''
@@ -1070,8 +1065,8 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pr_A
+    level: S
+    why: pr_S
     tags:
     - odo
     - odo
@@ -1114,11 +1109,11 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 5
+    - 6
     - 3
-    - 3
-    - 1
     - 4
+    - 1
+    - 5
     points:
     - pt-bunseki-0044
     - pt-bunseki-0121
@@ -1132,7 +1127,7 @@ questions:
     - バーナーヘッドのスリットの向きを光路と直角方向にしたときに感度が最も高くなる（誤りの記述）
     - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
     prcounts:
-    - 16
+    - 17
     - 0
     - 0
     - 0
@@ -1320,7 +1315,7 @@ questions:
     pcounts:
     - 1
     - 4
-    - 9
+    - 8
     - 4
     - 3
     points:
@@ -1336,10 +1331,10 @@ questions:
     - 光イオン化検出器（PID）は、芳香族炭化水素を検出できる。
     - 質量分析器(MS)は、分子構造に関する情報も得ることができる。
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
     - 0
     principles:
     - pr-bunseki-0031
@@ -1419,17 +1414,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
-    - 2
-    - 2
-    - 2
+    - 1
+    - 1
+    - 1
+    - 1
     - 1
     truths: 誤誤誤正誤
     pcounts:
-    - 2
-    - 2
-    - 2
-    - 2
+    - 1
+    - 1
+    - 1
+    - 1
     - 1
     points:
     - pt-bunseki-0148
@@ -1475,25 +1470,25 @@ questions:
     - 2026-02
     - 2026-08
     near:
-    - true
-    - true
     - false
-    - true
-    - true
+    - false
+    - false
+    - false
+    - false
     near_exams:
-    - - 2023-02
-    - - 2023-02
     - []
-    - - 2023-02
-    - - 2023-02
+    - []
+    - []
+    - []
+    - []
     fresh: false
-    level: C
-    why: seen
+    level: D
+    why: none
     tags:
-    - ''
-    - ''
-    - ''
-    - ans_seen
+    - new
+    - new
+    - new
+    - ans_new
     - new
 - num: 19
   status: published
@@ -1521,15 +1516,15 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
+    - 5
     - 2
     - 9
     - 1
     - 4
     truths: 正正正誤正
     pcounts:
-    - 6
-    - 9
+    - 5
+    - 8
     - 9
     - 1
     - 7
@@ -1546,11 +1541,11 @@ questions:
     - フィルターに採取した試料は、酸で溶解してから測定する。（誤りの記述）
     - この分析法では、X線の回折角及び回折線の強度を測定する。
     prcounts:
+    - 15
+    - 0
     - 16
     - 0
-    - 17
-    - 0
-    - 17
+    - 16
     principles:
     - pr-bunseki-0012
     - ''
@@ -1625,11 +1620,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
-    prcount: 6
+    prcount: 5
     fresh: false
     level: A
     why: pat_A

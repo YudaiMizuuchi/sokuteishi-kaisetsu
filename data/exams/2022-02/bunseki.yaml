@@ -32,18 +32,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 3
-    - 4
-    - 5
-    - 4
-    truths: 正正正正誤
-    pcounts:
+    - 2
     - 2
     - 3
     - 4
-    - 4
-    - 4
+    - 3
+    truths: 正正正正誤
+    pcounts:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 3
     points:
     - pt-bunseki-0228
     - pt-bunseki-0134
@@ -59,9 +59,9 @@ questions:
     prcounts:
     - 0
     - 0
+    - 3
     - 4
-    - 5
-    - 5
+    - 4
     principles:
     - ''
     - ''
@@ -100,14 +100,14 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: pr_B
+    level: C
+    why: seen
     tags:
+    - new
     - ''
     - ''
     - ''
-    - odo
-    - ans_pr
+    - ans_seen
 - num: 2
   status: published
   chapters:
@@ -140,11 +140,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 1
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0025
     prname: 誤差と統計量
-    prcount: 7
+    prcount: 6
     fresh: false
     level: B
     why: pr_B
@@ -176,14 +176,14 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 1
     form: 選択肢が物質名などの問題
     prid: pr-bunseki-0014
     prname: 気体の状態方程式
-    prcount: 4
+    prcount: 3
     fresh: false
-    level: C
-    why: q_seen
+    level: D
+    why: q_new
 - num: 4
   status: published
   chapters:
@@ -221,7 +221,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 8
     form: 計算問題
     fresh: false
     level: B
@@ -267,7 +267,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     fresh: false
     level: A
@@ -308,7 +308,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 6
     form: 計算問題
     fresh: false
     level: C
@@ -345,18 +345,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 1
+    - 1
     - 2
+    - 1
     - 2
-    - 3
-    - 2
-    - 3
     truths: 誤正正正正
     pcounts:
+    - 1
+    - 1
+    - 6
+    - 1
     - 2
-    - 2
-    - 7
-    - 2
-    - 3
     points:
     - pt-bunseki-0173
     - pt-bunseki-0166
@@ -372,7 +372,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 11
+    - 10
     - 0
     - 0
     principles:
@@ -413,13 +413,13 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: D
+    why: none
     tags:
-    - ans_seen
-    - ''
+    - ans_new
+    - new
     - odo
-    - ''
+    - new
     - ''
 - num: 8
   status: published
@@ -450,18 +450,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 1
+    - 1
+    - 6
     - 2
-    - 2
-    - 7
-    - 3
-    - 2
+    - 1
     truths: 正誤正正正
     pcounts:
-    - 2
-    - 2
+    - 1
+    - 1
+    - 8
     - 9
-    - 10
-    - 9
+    - 8
     points:
     - pt-bunseki-0155
     - pt-bunseki-0154
@@ -477,9 +477,9 @@ questions:
     prcounts:
     - 0
     - 0
-    - 14
-    - 14
-    - 14
+    - 13
+    - 13
+    - 13
     principles:
     - ''
     - ''
@@ -522,7 +522,7 @@ questions:
     level: B
     why: elim_two
     tags:
-    - ''
+    - new
     - ans_new
     - odo
     - odo
@@ -557,11 +557,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 7
     form: 穴埋め・組合せの問題
     fresh: false
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -591,18 +591,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 3
-    - 3
     - 3
     - 2
+    - 2
+    - 2
+    - 1
     truths: 正正正正誤
     pcounts:
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
     points:
     - pt-bunseki-0064
     - pt-bunseki-0081
@@ -616,11 +616,11 @@ questions:
     - 内標準物質には、測定対象物質と物理的、化学的によく似た物質を選択する
     - 定量分析は、検量線の直線範囲内で行う。
     prcounts:
-    - 7
-    - 7
-    - 7
-    - 7
-    - 7
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
     principles:
     - pr-bunseki-0032
     - pr-bunseki-0032
@@ -704,7 +704,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     fresh: false
     level: B
@@ -740,18 +740,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 2
+    - 2
+    - 2
+    - 2
     - 3
-    - 3
-    - 3
-    - 3
-    - 4
     truths: 正誤正正正
     pcounts:
-    - 5
-    - 6
     - 4
+    - 5
     - 3
-    - 6
+    - 2
+    - 5
     points:
     - pt-bunseki-0036
     - pt-bunseki-0020
@@ -765,7 +765,7 @@ questions:
     - シュウ酸は、アルカリ溶液の標定に用いる。
     - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
     prcounts:
-    - 8
+    - 7
     - 0
     - 0
     - 0
@@ -804,13 +804,9 @@ questions:
     near_exams:
     - []
     - - 2019-08
-      - 2023-02
     - - 2019-08
-      - 2023-02
     - - 2019-08
-      - 2023-02
     - - 2019-08
-      - 2023-02
     fresh: false
     level: C
     why: seen
@@ -850,17 +846,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 2
     - 3
+    - 1
     - 2
-    - 3
+    - 1
+    - 2
     truths: 正誤正正正
     pcounts:
+    - 4
+    - 1
     - 5
-    - 2
     - 6
-    - 7
     - 11
     points:
     - pt-bunseki-0050
@@ -875,10 +871,10 @@ questions:
     - 吸光度は、光路長に比例する。
     - 吸光度は、通常、極大吸収波長で測定する。
     prcounts:
+    - 10
+    - 10
+    - 10
     - 11
-    - 11
-    - 11
-    - 12
     - 0
     principles:
     - pr-bunseki-0002
@@ -960,7 +956,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: false
     level: S
@@ -997,18 +993,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
     - 2
-    - 2
-    - 2
-    - 2
+    - 1
+    - 1
+    - 1
+    - 1
     truths: 正正正正誤
     pcounts:
-    - 10
-    - 5
-    - 3
+    - 9
+    - 4
     - 2
-    - 2
+    - 1
+    - 1
     points:
     - pt-bunseki-0005
     - pt-bunseki-0032
@@ -1023,7 +1019,7 @@ questions:
     - As（Ⅲ）やSb（Ⅲ）は、水素化ホウ素ナトリウムで原子化できる。（誤りの記述）
     prcounts:
     - 14
-    - 5
+    - 4
     - 0
     - 0
     - 0
@@ -1065,14 +1061,14 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: D
+    why: none
     tags:
     - odo
-    - odo
     - ''
     - ''
-    - ans_seen
+    - new
+    - ans_new
 - num: 16
   status: published
   chapters:
@@ -1102,18 +1098,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 2
+    - 4
     - 3
     - 5
-    - 4
-    - 6
-    - 9
+    - 8
     truths: 誤正正正正
     pcounts:
-    - 7
+    - 6
     - 13
     - 13
-    - 16
-    - 16
+    - 15
+    - 15
     points:
     - pt-bunseki-0015
     - pt-bunseki-0002
@@ -1130,8 +1126,8 @@ questions:
     - 0
     - 15
     - 15
-    - 16
-    - 16
+    - 15
+    - 15
     principles:
     - ''
     - pr-bunseki-0004
@@ -1159,13 +1155,13 @@ questions:
     - 2026-08
     near:
     - false
-    - false
+    - true
     - false
     - false
     - false
     near_exams:
     - []
-    - []
+    - - 2023-02
     - []
     - []
     - []
@@ -1210,18 +1206,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 7
-    - 5
-    - 4
     - 2
+    - 6
+    - 4
+    - 3
+    - 1
     truths: 正正正正誤
     pcounts:
+    - 3
+    - 8
     - 4
-    - 9
-    - 5
-    - 5
     - 4
+    - 3
     points:
     - pt-bunseki-0066
     - pt-bunseki-0007
@@ -1235,11 +1231,11 @@ questions:
     - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される
     - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
     principles:
     - pr-bunseki-0031
     - pr-bunseki-0031
@@ -1351,18 +1347,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
-    - 6
-    - 6
     - 5
     - 5
+    - 5
+    - 4
+    - 4
     truths: 正正誤正正
     pcounts:
-    - 6
-    - 9
-    - 6
     - 5
+    - 8
     - 5
+    - 4
+    - 4
     points:
     - pt-bunseki-0025
     - pt-bunseki-0010
@@ -1376,11 +1372,11 @@ questions:
     - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
     - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
     prcounts:
+    - 15
+    - 0
+    - 0
+    - 0
     - 16
-    - 0
-    - 0
-    - 0
-    - 17
     principles:
     - pr-bunseki-0012
     - ''
@@ -1457,11 +1453,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
-    prcount: 6
+    prcount: 5
     fresh: false
     level: A
     why: pat_A

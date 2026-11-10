@@ -78,7 +78,7 @@ questions:
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0025
     prname: 誤差と統計量
-    prcount: 7
+    prcount: 6
     fresh: false
     level: B
     why: pr_B
@@ -459,16 +459,16 @@ questions:
     counts:
     - 1
     - 7
-    - 3
-    - 7
+    - 2
+    - 6
     - 1
     truths: 正正正正誤
     pcounts:
-    - 9
+    - 8
     - 7
-    - 10
     - 9
-    - 9
+    - 8
+    - 8
     points:
     - pt-bunseki-0006
     - pt-bunseki-0014
@@ -482,11 +482,11 @@ questions:
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     prcounts:
-    - 14
+    - 13
     - 0
-    - 14
-    - 14
-    - 14
+    - 13
+    - 13
+    - 13
     principles:
     - pr-bunseki-0033
     - ''
@@ -529,7 +529,6 @@ questions:
       - 2019-08
       - 2021-02
       - 2022-02
-      - 2023-02
       - 2024-02
     fresh: false
     level: S
@@ -601,7 +600,7 @@ questions:
     - 0
     - 0
     - 0
-    - 8
+    - 7
     principles:
     - ''
     - ''
@@ -640,8 +639,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: trend_S
+    level: A
+    why: trend_A
     tags:
     - ''
     - ''
@@ -677,18 +676,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
+    - 1
+    - 1
+    - 1
+    - 2
+    truths: 正正正誤正
+    pcounts:
+    - 3
     - 1
     - 1
     - 1
     - 3
-    truths: 正正正誤正
-    pcounts:
-    - 4
-    - 1
-    - 1
-    - 1
-    - 4
     points:
     - pt-bunseki-0064
     - pt-bunseki-0271
@@ -702,11 +701,11 @@ questions:
     - 内標準法は、測定対象物質と内標準物質のそれぞれの測定値に誤差があるため、測定精度が下がる（誤りの記述）
     - 内標準物質には、測定対象物質と物理的、化学的によく似た物質を選択する
     prcounts:
-    - 7
-    - 7
-    - 7
-    - 7
-    - 7
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
     principles:
     - pr-bunseki-0032
     - pr-bunseki-0032
@@ -831,14 +830,14 @@ questions:
     - 1
     - 1
     - 1
-    - 4
+    - 3
     truths: 正誤正正正
     pcounts:
-    - 5
-    - 6
     - 4
+    - 5
+    - 3
     - 2
-    - 6
+    - 5
     points:
     - pt-bunseki-0036
     - pt-bunseki-0020
@@ -852,7 +851,7 @@ questions:
     - シュウ酸ナトリウムは、過マンガン酸カリウム溶液の標定に用いられる
     - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
     prcounts:
-    - 8
+    - 7
     - 0
     - 0
     - 0
@@ -968,7 +967,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: false
     level: S
@@ -1009,9 +1008,9 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 10
+    - 9
     - 2
-    - 5
+    - 4
     - 1
     - 2
     points:
@@ -1029,7 +1028,7 @@ questions:
     prcounts:
     - 14
     - 0
-    - 5
+    - 4
     - 0
     - 0
     principles:
@@ -1075,7 +1074,7 @@ questions:
     tags:
     - odo
     - ''
-    - odo
+    - ''
     - ans_new
     - ''
 - num: 16
@@ -1288,18 +1287,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
-    - 6
+    - 5
+    - 5
     - 6
     - 1
-    - 5
+    - 4
     truths: 正正正誤正
     pcounts:
-    - 6
-    - 9
+    - 5
+    - 8
     - 5
     - 1
-    - 5
+    - 4
     points:
     - pt-bunseki-0025
     - pt-bunseki-0010
@@ -1313,11 +1312,11 @@ questions:
     - フィルターに捕集した試料から、目的物質を抽出した後、測定する。（誤りの記述）
     - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
     prcounts:
+    - 15
+    - 0
+    - 0
+    - 0
     - 16
-    - 0
-    - 0
-    - 0
-    - 17
     principles:
     - pr-bunseki-0012
     - ''
@@ -1395,11 +1394,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
-    prcount: 6
+    prcount: 5
     fresh: false
     level: A
     why: pat_A

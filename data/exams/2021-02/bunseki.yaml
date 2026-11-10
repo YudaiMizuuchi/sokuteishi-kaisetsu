@@ -420,11 +420,11 @@ questions:
     - 平衡定数は、平衡状態での物質の濃度から計算できる。
     - 平衡定数は、温度に依存する。
     prcounts:
-    - 10
+    - 11
     - 5
-    - 10
-    - 10
-    - 10
+    - 11
+    - 11
+    - 11
     principles:
     - pr-bunseki-0018
     - pr-bunseki-0017
@@ -510,7 +510,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
     fresh: false
     level: A
@@ -548,15 +548,15 @@ questions:
     - 3
     - 7
     - 2
-    - 7
+    - 6
     - 5
     truths: 正正誤正正
     pcounts:
     - 3
     - 7
-    - 10
     - 9
-    - 9
+    - 8
+    - 8
     points:
     - pt-bunseki-0101
     - pt-bunseki-0014
@@ -570,11 +570,11 @@ questions:
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     prcounts:
-    - 14
+    - 13
     - 0
-    - 14
-    - 14
-    - 14
+    - 13
+    - 13
+    - 13
     principles:
     - pr-bunseki-0033
     - ''
@@ -610,7 +610,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2023-08
       - 2024-02
     - - 2023-08
@@ -660,7 +659,7 @@ questions:
     - 2
     truths: 正誤正正正
     pcounts:
-    - 7
+    - 6
     - 3
     - 4
     - 5
@@ -678,11 +677,11 @@ questions:
     - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する
     - 石けん膜流量計は、ロータメーターの較正に用いられる。
     prcounts:
-    - 11
-    - 11
-    - 11
-    - 11
-    - 11
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
     principles:
     - pr-bunseki-0034
     - pr-bunseki-0034
@@ -786,7 +785,7 @@ questions:
     - 市販の濃硫酸の濃度は、ほぼ18mol·L⁻¹である。
     - 市販の濃硫酸の密度は、約1.84g･cm⁻³である。
     prcounts:
-    - 8
+    - 7
     - 0
     - 0
     - 0
@@ -1130,7 +1129,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
     fresh: false
     level: S
@@ -1174,7 +1173,7 @@ questions:
     pcounts:
     - 9
     - 4
-    - 6
+    - 7
     - 3
     - 6
     points:
@@ -1191,10 +1190,10 @@ questions:
     - モル吸光係数は、波長により異なる。
     prcounts:
     - 0
+    - 11
     - 12
-    - 11
-    - 11
-    - 11
+    - 12
+    - 12
     principles:
     - ''
     - pr-bunseki-0001
@@ -1234,8 +1233,8 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pr_A
+    level: S
+    why: pr_S
     tags:
     - odo
     - odo
@@ -1278,9 +1277,9 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 5
+    - 6
     - 3
-    - 3
+    - 4
     - 1
     - 3
     points:
@@ -1296,7 +1295,7 @@ questions:
     - バーナーヘッドは、光路方向に 50 mm ～ 100 mmの長さのスロット（スリット）となっている
     - 重水素ランプは、紫外部の測定の光源に用いられる。
     prcounts:
-    - 16
+    - 17
     - 0
     - 0
     - 0
@@ -1376,16 +1375,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 4
     - 7
-    - 5
+    - 4
     - 1
     - 2
     truths: 正正正正誤
     pcounts:
     - 13
     - 9
-    - 16
+    - 15
     - 1
     - 4
     points:
@@ -1403,7 +1402,7 @@ questions:
     prcounts:
     - 15
     - 10
-    - 16
+    - 15
     - 5
     - 5
     principles:
@@ -1432,13 +1431,13 @@ questions:
     - 2026-02
     - 2026-08
     near:
-    - false
+    - true
     - false
     - false
     - false
     - false
     near_exams:
-    - []
+    - - 2023-02
     - []
     - []
     - []
@@ -1486,10 +1485,10 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 2
-    - 9
+    - 8
     - 3
     - 4
-    - 4
+    - 3
     points:
     - pt-bunseki-0159
     - pt-bunseki-0007
@@ -1503,11 +1502,11 @@ questions:
     - 光イオン化検出器（PID）は、芳香族炭化水素を検出できる。
     - 熱伝導度検出器（TCD）では、成分気体とキャリヤーガスとの熱伝導率の差を利用する
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
     principles:
     - pr-bunseki-0031
     - pr-bunseki-0031
@@ -1717,8 +1716,8 @@ questions:
     - 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。（誤りの記述）
     - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある
     prcounts:
+    - 15
     - 16
-    - 17
     - 0
     - 0
     - 5

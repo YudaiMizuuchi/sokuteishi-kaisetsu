@@ -143,16 +143,16 @@ questions:
     denom: 23
     counts:
     - 5
-    - 6
+    - 7
     - 2
-    - 5
+    - 4
     - 7
     truths: 正正正誤正
     pcounts:
     - 4
-    - 12
-    - 11
-    - 7
+    - 13
+    - 10
+    - 6
     - 10
     points:
     - pt-design-0143
@@ -249,18 +249,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 5
     - 3
     - 1
+    - 6
     - 5
-    - 4
     truths: 正正誤正正
     pcounts:
-    - 4
+    - 5
     - 11
     - 1
+    - 9
     - 8
-    - 7
     points:
     - pt-design-0118
     - pt-design-0026
@@ -319,14 +319,14 @@ questions:
       - 2020-02
     - []
     fresh: false
-    level: D
-    why: none
+    level: B
+    why: elim_two
     tags:
     - ''
     - odo
     - ans_new
     - odo
-    - ''
+    - odo
 - num: 4
   status: published
   chapters:
@@ -355,18 +355,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 8
-    - 3
     - 5
+    - 7
+    - 3
+    - 4
     - 4
     truths: 正正誤正正
     pcounts:
-    - 8
-    - 12
-    - 13
-    - 6
+    - 9
     - 11
+    - 13
+    - 5
+    - 10
     points:
     - pt-design-0054
     - pt-design-0015
@@ -420,7 +420,6 @@ questions:
     - []
     - - 2026-08
     - - 2022-02
-      - 2023-02
       - 2025-02
       - 2026-02
     - []
@@ -470,11 +469,11 @@ questions:
     - 2
     truths: 正正誤正正
     pcounts:
+    - 3
     - 2
-    - 2
-    - 7
+    - 6
     - 13
-    - 8
+    - 9
     points:
     - pt-design-0238
     - pt-design-0229
@@ -570,7 +569,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: false
     level: S
     why: pat_S
@@ -742,14 +741,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 5
     - 3
     - 8
     - 1
     truths: 誤正正正正
     pcounts:
-    - 10
+    - 9
     - 6
     - 14
     - 8
@@ -820,10 +819,10 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
-    - ans_hi
+    - ans_b
     - ''
     - odo
     - odo
@@ -863,7 +862,7 @@ questions:
     - 8
     - 5
     - 6
-    - 11
+    - 12
     - 1
     points:
     - pt-design-0045
@@ -917,7 +916,6 @@ questions:
     near_exams:
     - - 2016-08
       - 2022-02
-      - 2023-02
     - []
     - - 2021-08
     - - 2015-08
@@ -926,6 +924,7 @@ questions:
       - 2018-02
       - 2019-02
       - 2021-08
+      - 2023-02
     - []
     fresh: false
     level: A
@@ -963,15 +962,15 @@ questions:
     counts:
     - 5
     - 4
-    - 3
-    - 8
+    - 4
+    - 7
     - 5
     truths: 正誤正正正
     pcounts:
     - 10
     - 6
-    - 3
-    - 9
+    - 4
+    - 8
     - 7
     points:
     - pt-design-0031
@@ -1067,18 +1066,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
-    - 9
     - 6
+    - 9
+    - 5
     - 2
-    - 1
+    - 2
     truths: 正正正誤正
     pcounts:
     - 14
-    - 11
-    - 6
+    - 12
+    - 5
     - 9
-    - 7
+    - 8
     points:
     - pt-design-0005
     - pt-design-0027
@@ -1093,7 +1092,7 @@ questions:
     - 真空捕集びんは、1.33kPa以下の圧力にして使用する。
     prcounts:
     - 22
-    - 18
+    - 19
     - 0
     - 0
     - 0
@@ -1133,11 +1132,13 @@ questions:
       - 2016-08
       - 2020-08
       - 2021-08
+      - 2023-02
       - 2023-08
       - 2025-02
     - - 2016-08
       - 2017-08
       - 2020-08
+      - 2023-02
       - 2023-08
     - []
     - []
@@ -1151,7 +1152,7 @@ questions:
     - odo
     - ''
     - ans_pat
-    - ''
+    - odo
     pat: ds-liquid-direct-01
 - num: 13
   status: published
@@ -1186,10 +1187,10 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 5
-    - 6
+    - 5
     - 8
     - 3
-    - 12
+    - 11
     points:
     - pt-design-0096
     - pt-design-0089
@@ -1245,7 +1246,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2024-02
       - 2025-02
       - 2026-02
@@ -1291,9 +1291,9 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 7
-    - 11
-    - 15
+    - 10
     - 14
+    - 13
     - 4
     points:
     - pt-design-0070
@@ -1535,7 +1535,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 11
+    count: 12
     form: 計算問題
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
@@ -1570,17 +1570,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 10
+    - 9
     - 5
     - 9
-    - 9
+    - 8
     - 11
     truths: 正誤正正正
     pcounts:
-    - 11
+    - 10
     - 16
     - 12
-    - 8
+    - 7
     - 11
     points:
     - pt-design-0485
@@ -1661,7 +1661,7 @@ questions:
     - odo
     - ans_pr
     - odo
-    - odo
+    - ''
     - odo
 - num: 19
   status: published
@@ -1692,17 +1692,17 @@ questions:
     denom: 23
     counts:
     - 3
-    - 10
-    - 5
+    - 11
+    - 6
     - 4
     - 6
     truths: 正正誤正正
     pcounts:
     - 3
-    - 10
+    - 11
     - 14
-    - 8
-    - 8
+    - 9
+    - 9
     points:
     - pt-design-0187
     - pt-design-0035
@@ -1717,7 +1717,7 @@ questions:
     - 多段平行板式分粒装置を用いる場合、吸引流量が所定の値より小さいと測定値は低くなる
     prcounts:
     - 0
-    - 18
+    - 19
     - 22
     - 0
     - 0
@@ -1757,6 +1757,7 @@ questions:
     - - 2016-08
       - 2017-08
       - 2020-08
+      - 2023-02
       - 2023-08
     - - 2016-08
       - 2018-02
@@ -1777,7 +1778,6 @@ questions:
     - - 2016-08
       - 2017-08
       - 2022-02
-      - 2023-02
     fresh: false
     level: S
     why: pr_S
@@ -1813,18 +1813,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
+    - 7
     - 5
     - 5
-    - 3
-    - 3
+    - 4
+    - 4
     truths: 正正誤正正
     pcounts:
     - 12
     - 5
-    - 9
-    - 3
-    - 11
+    - 10
+    - 4
+    - 12
     points:
     - pt-design-0491
     - pt-design-0492
@@ -1879,20 +1879,20 @@ questions:
       - 2019-02
       - 2020-08
       - 2022-02
-      - 2023-02
       - 2023-08
       - 2024-02
     - - 2017-02
       - 2021-02
     - - 2020-08
+      - 2023-02
     - []
     - []
     fresh: false
-    level: B
-    why: pt_B
+    level: A
+    why: pt_A
     tags:
     - odo
     - ''
-    - ans_b
+    - ans_hi
     - ''
     - odo

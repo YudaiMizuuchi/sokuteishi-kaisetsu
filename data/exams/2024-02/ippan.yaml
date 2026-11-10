@@ -35,14 +35,14 @@ questions:
     - 1
     - 1
     - 2
-    - 7
+    - 8
     truths: 正正誤正正
     pcounts:
     - 1
     - 1
-    - 5
+    - 4
     - 3
-    - 7
+    - 8
     points:
     - pt-ippan-0398
     - pt-ippan-0401
@@ -355,7 +355,7 @@ questions:
     pcounts:
     - 8
     - 2
-    - 4
+    - 5
     - 2
     - 5
     points:
@@ -405,7 +405,7 @@ questions:
     - false
     - false
     - true
-    - false
+    - true
     - true
     near_exams:
     - []
@@ -413,7 +413,8 @@ questions:
     - - 2018-02
       - 2021-08
       - 2022-08
-    - []
+      - 2023-02
+    - - 2023-02
     - - 2018-02
       - 2019-08
       - 2021-02
@@ -461,14 +462,14 @@ questions:
     counts:
     - 1
     - 4
-    - 4
+    - 5
     - 1
     - 1
     truths: 正誤正正正
     pcounts:
     - 8
-    - 9
     - 8
+    - 9
     - 1
     - 1
     points:
@@ -485,8 +486,8 @@ questions:
     - 鉱物性粉じんは、一般に、水に対する溶解度が極めて小さく、化学的には不活性のものが多い
     prcounts:
     - 0
-    - 9
-    - 13
+    - 8
+    - 14
     - 0
     - 0
     principles:
@@ -528,7 +529,6 @@ questions:
       - 2021-02
       - 2021-08
       - 2022-02
-      - 2023-02
     - []
     - []
     - []
@@ -576,7 +576,7 @@ questions:
     - 3
     truths: 正正正正誤
     pcounts:
-    - 2
+    - 3
     - 1
     - 5
     - 1
@@ -922,14 +922,14 @@ questions:
     counts:
     - 1
     - 1
-    - 6
+    - 5
     - 1
     - 1
     truths: 誤正正正正
     pcounts:
-    - 14
+    - 15
     - 1
-    - 7
+    - 6
     - 1
     - 1
     points:
@@ -1154,10 +1154,10 @@ questions:
     - 日振動ばく露量 A(8)は、周波数補正振動加速度実効値の3軸合成値 ahvと1日の振動ばく露時間 T から、A(8) ＝ ahv × √(T/8) により求められ…
     prcounts:
     - 0
-    - 5
+    - 6
     - 0
     - 0
-    - 15
+    - 14
     principles:
     - ''
     - pr-ippan-0015
@@ -1451,7 +1451,7 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 1
-    - 6
+    - 5
     - 1
     - 2
     - 3
@@ -1515,7 +1515,7 @@ questions:
     why: none
     tags:
     - new
-    - odo
+    - ''
     - ans_new
     - ''
     - ''
@@ -1575,8 +1575,8 @@ questions:
     - 0
     - 0
     - 0
-    - 19
-    - 19
+    - 18
+    - 18
     principles:
     - ''
     - ''
@@ -1653,12 +1653,12 @@ questions:
     counts:
     - 1
     - 1
-    - 5
+    - 6
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
-    - 8
+    - 7
     - 1
     - 17
     - 1
@@ -1861,15 +1861,15 @@ questions:
     counts:
     - 1
     - 2
-    - 6
+    - 7
     - 1
     - 1
     truths: 正誤正正正
     pcounts:
     - 2
     - 3
-    - 9
-    - 2
+    - 10
+    - 3
     - 1
     points:
     - pt-ippan-0288
@@ -1886,7 +1886,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 9
+    - 10
     - 0
     - 0
     principles:

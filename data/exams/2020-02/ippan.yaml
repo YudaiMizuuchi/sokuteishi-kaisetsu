@@ -31,18 +31,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
-    - 3
+    - 8
+    - 4
     - 2
     - 3
-    - 4
+    - 5
     truths: 正正誤正正
     pcounts:
-    - 7
-    - 4
+    - 8
+    - 5
     - 4
     - 3
-    - 6
+    - 7
     points:
     - pt-ippan-0047
     - pt-ippan-0132
@@ -96,7 +96,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
     - []
     - - 2017-08
     fresh: false
@@ -134,17 +133,17 @@ questions:
     denom: 23
     counts:
     - 1
-    - 1
+    - 2
     - 3
     - 3
-    - 1
+    - 2
     truths: 正正正正誤
     pcounts:
-    - 6
-    - 2
-    - 9
+    - 7
+    - 3
+    - 8
     - 4
-    - 1
+    - 2
     points:
     - pt-ippan-0068
     - pt-ippan-0349
@@ -200,7 +199,6 @@ questions:
     - - 2022-08
     - - 2017-08
       - 2022-02
-      - 2023-02
     - []
     - []
     fresh: false
@@ -248,9 +246,9 @@ questions:
     - 3
     truths: 正正誤正正
     pcounts:
-    - 9
+    - 10
     - 8
-    - 4
+    - 5
     - 5
     - 4
     points:
@@ -346,18 +344,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
+    - 6
     - 4
     - 3
     - 2
     - 3
     truths: 正正正誤正
     pcounts:
-    - 10
+    - 9
     - 5
     - 3
     - 3
-    - 6
+    - 5
     points:
     - pt-ippan-0018
     - pt-ippan-0091
@@ -374,7 +372,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 12
     - 0
     principles:
     - ''
@@ -413,18 +411,16 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2026-08
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pr_S
     tags:
     - odo
     - ''
     - ''
     - ans_pr
-    - odo
-    pat: gn-toxicity-05
+    - ''
 - num: 5
   status: published
   chapters:
@@ -491,15 +487,15 @@ questions:
     - 5
     - 9
     - 4
-    - 3
+    - 2
     - 2
     truths: 正正正誤正
     pcounts:
-    - 12
-    - 5
+    - 11
     - 5
     - 5
     - 4
+    - 3
     points:
     - pt-ippan-0004
     - pt-ippan-0126
@@ -556,8 +552,8 @@ questions:
     - []
     - - 2025-02
     fresh: false
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - odo
     - ''
@@ -590,18 +586,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 2
     - 4
     - 6
-    - 2
+    - 3
     - 7
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 2
     - 4
     - 6
-    - 5
-    - 10
+    - 6
+    - 9
     points:
     - pt-ippan-0207
     - pt-ippan-0175
@@ -659,13 +655,13 @@ questions:
       - 2024-08
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
+    - ans_new
     - ''
     - odo
-    - ''
+    - odo
     - odo
 - num: 8
   status: published
@@ -694,14 +690,14 @@ questions:
     counts:
     - 4
     - 6
-    - 9
+    - 10
     - 5
     - 5
     truths: 正正正正誤
     pcounts:
     - 5
     - 8
-    - 14
+    - 15
     - 8
     - 7
     points:
@@ -804,7 +800,7 @@ questions:
     - 3
     truths: 誤正正正正
     pcounts:
-    - 10
+    - 11
     - 5
     - 3
     - 6
@@ -864,6 +860,7 @@ questions:
       - 2020-08
       - 2021-02
       - 2022-08
+      - 2023-02
       - 2025-02
     - []
     - - 2022-08
@@ -871,9 +868,9 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - odo
     - odo
@@ -907,15 +904,15 @@ questions:
     denom: 23
     counts:
     - 5
-    - 8
+    - 9
     - 6
     - 6
     - 2
     truths: 正正誤正正
     pcounts:
     - 5
-    - 8
-    - 11
+    - 9
+    - 10
     - 6
     - 2
     points:
@@ -974,8 +971,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ''
     - odo
@@ -1010,18 +1007,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
+    - 5
     - 4
     - 8
     - 4
     - 3
     truths: 正正正正誤
     pcounts:
-    - 7
+    - 6
     - 4
     - 12
     - 9
-    - 15
+    - 14
     points:
     - pt-ippan-0049
     - pt-ippan-0172
@@ -1083,7 +1080,6 @@ questions:
       - 2020-08
       - 2021-02
       - 2022-02
-      - 2023-02
     fresh: false
     level: S
     why: pt_S
@@ -1129,7 +1125,7 @@ questions:
     - 4
     - 7
     - 4
-    - 7
+    - 6
     points:
     - pt-ippan-0006
     - pt-ippan-0142
@@ -1146,7 +1142,7 @@ questions:
     - 0
     - 0
     - 0
-    - 13
+    - 14
     - 0
     principles:
     - ''
@@ -1184,7 +1180,6 @@ questions:
       - 2020-08
       - 2021-02
       - 2022-02
-      - 2023-02
     - []
     - []
     - - 2017-08
@@ -1192,7 +1187,6 @@ questions:
     - - 2019-08
       - 2020-08
       - 2022-02
-      - 2023-02
     fresh: false
     level: S
     why: pr_S
@@ -1281,7 +1275,7 @@ questions:
     pcounts:
     - 5
     - 1
-    - 8
+    - 9
     - 6
     - 7
     points:
@@ -1381,11 +1375,11 @@ questions:
     - 1
     - 1
     - 4
-    - 2
+    - 3
     - 3
     truths: 誤正正正正
     pcounts:
-    - 10
+    - 11
     - 2
     - 4
     - 2
@@ -1403,7 +1397,7 @@ questions:
     - メタノールは、脂溶性及び水溶性を共に有しており、トルエンは脂溶性は有しているが水溶性は有していない
     - アーク溶接作業で発生するヒュームの主成分は、一般に、酸化鉄である
     prcounts:
-    - 10
+    - 11
     - 0
     - 0
     - 0
@@ -1447,14 +1441,15 @@ questions:
       - 2019-02
       - 2020-08
       - 2021-08
+      - 2023-02
       - 2026-08
     - []
     - []
     - []
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: S
+    why: pt_S
     tags:
     - ans_hi
     - ''
@@ -1489,16 +1484,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
+    - 6
     - 3
-    - 4
+    - 5
     - 5
     - 2
     truths: 正正正正誤
     pcounts:
     - 17
     - 17
-    - 5
+    - 6
     - 6
     - 7
     points:
@@ -1566,7 +1561,7 @@ questions:
     tags:
     - odo
     - odo
-    - ''
+    - odo
     - odo
     - ans_b
 - num: 17
@@ -1596,13 +1591,13 @@ questions:
     counts:
     - 2
     - 4
-    - 3
+    - 4
     - 3
     - 5
     truths: 正正正誤正
     pcounts:
     - 3
-    - 5
+    - 6
     - 10
     - 6
     - 5
@@ -1651,16 +1646,15 @@ questions:
     - 2026-08
     near:
     - false
-    - false
+    - true
     - true
     - false
     - false
     near_exams:
     - []
-    - []
+    - - 2023-02
     - - 2015-08
       - 2022-02
-      - 2023-02
     - []
     - []
     fresh: false
@@ -1668,7 +1662,7 @@ questions:
     why: pt_B
     tags:
     - ''
-    - ''
+    - odo
     - odo
     - ans_b
     - ''
@@ -1708,16 +1702,16 @@ questions:
     counts:
     - 2
     - 7
-    - 6
+    - 5
     - 7
-    - 1
+    - 2
     truths: 正正正正誤
     pcounts:
     - 2
-    - 11
+    - 10
     - 5
     - 10
-    - 2
+    - 3
     points:
     - pt-ippan-0329
     - pt-ippan-0012
@@ -1772,7 +1766,6 @@ questions:
     - - 2015-08
       - 2018-02
       - 2022-02
-      - 2023-02
     - []
     - - 2016-08
       - 2018-08
@@ -1817,16 +1810,16 @@ questions:
     counts:
     - 4
     - 3
-    - 4
-    - 2
     - 3
+    - 2
+    - 2
     truths: 正正誤正正
     pcounts:
     - 7
     - 5
-    - 5
     - 4
-    - 3
+    - 4
+    - 2
     points:
     - pt-ippan-0051
     - pt-ippan-0093
@@ -1920,16 +1913,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 4
     - 6
     - 5
-    - 5
+    - 4
     - 4
     truths: 正正正正誤
     pcounts:
-    - 7
+    - 8
     - 10
-    - 7
+    - 6
     - 9
     - 11
     points:
@@ -1985,11 +1978,11 @@ questions:
     - - 2016-08
     - - 2015-08
     - - 2022-02
-      - 2023-02
     - []
     - - 2017-02
       - 2018-08
       - 2021-08
+      - 2023-02
       - 2023-08
       - 2024-08
     fresh: false

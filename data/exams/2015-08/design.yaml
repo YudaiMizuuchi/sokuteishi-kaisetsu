@@ -142,14 +142,14 @@ questions:
     denom: 23
     counts:
     - 2
-    - 4
+    - 5
     - 1
     - 5
     - 1
     truths: 正正誤正正
     pcounts:
-    - 11
     - 12
+    - 13
     - 5
     - 4
     - 1
@@ -246,15 +246,15 @@ questions:
     - 1
     - 4
     - 8
-    - 9
-    - 4
+    - 8
+    - 5
     truths: 誤正正正正
     pcounts:
     - 11
     - 4
     - 13
-    - 14
-    - 7
+    - 13
+    - 8
     points:
     - pt-design-0026
     - pt-design-0145
@@ -319,7 +319,7 @@ questions:
     - ''
     - odo
     - odo
-    - ''
+    - odo
 - num: 4
   status: published
   chapters:
@@ -356,10 +356,10 @@ questions:
     - 2
     truths: 正正正正誤
     pcounts:
-    - 14
+    - 15
     - 2
-    - 3
-    - 6
+    - 2
+    - 5
     - 3
     points:
     - pt-design-0006
@@ -457,7 +457,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: false
     level: S
     why: pat_S
@@ -496,7 +496,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 1
-    - 6
+    - 5
     - 1
     - 1
     - 2
@@ -729,15 +729,15 @@ questions:
     denom: 23
     counts:
     - 1
-    - 9
+    - 8
     - 2
     - 1
     - 1
     truths: 正正正正誤
     pcounts:
     - 6
-    - 9
     - 8
+    - 9
     - 1
     - 4
     points:
@@ -755,7 +755,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 9
+    - 10
     - 0
     - 0
     principles:
@@ -831,15 +831,15 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
-    - 4
+    - 7
+    - 3
     - 1
     - 1
     - 3
     truths: 正正正正誤
     pcounts:
-    - 11
-    - 4
+    - 12
+    - 3
     - 8
     - 8
     - 3
@@ -900,7 +900,6 @@ questions:
       - 2026-08
     - []
     - - 2022-02
-      - 2023-02
     - []
     - []
     fresh: false
@@ -941,14 +940,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 8
+    - 7
     - 1
     - 3
     - 4
     - 2
     truths: 正誤正正正
     pcounts:
-    - 9
+    - 8
     - 1
     - 5
     - 1
@@ -1046,15 +1045,15 @@ questions:
     - 9
     - 5
     - 2
-    - 10
+    - 11
     - 2
     truths: 正正誤正正
     pcounts:
-    - 11
-    - 10
+    - 12
     - 9
-    - 10
-    - 7
+    - 9
+    - 11
+    - 8
     points:
     - pt-design-0027
     - pt-design-0034
@@ -1068,10 +1067,10 @@ questions:
     - 小型ガス吸収管によるガス状物質の捕集では、流量が大きいほど捕集率は低くなる
     - 真空捕集びんは、1.33kPa以下の圧力にして使用する。
     prcounts:
-    - 18
+    - 19
     - 0
     - 0
-    - 18
+    - 19
     - 0
     principles:
     - pr-design-0004
@@ -1114,6 +1113,7 @@ questions:
     - - 2016-08
       - 2017-08
       - 2020-08
+      - 2023-02
     - []
     fresh: false
     level: A
@@ -1123,7 +1123,7 @@ questions:
     - odo
     - ans_pat
     - odo
-    - ''
+    - odo
     pat: ds-liquid-direct-01
 - num: 13
   status: published
@@ -1158,9 +1158,9 @@ questions:
     - 1
     truths: 誤正正正正
     pcounts:
-    - 11
+    - 10
     - 3
-    - 7
+    - 6
     - 3
     - 2
     points:
@@ -1261,7 +1261,7 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 7
-    - 15
+    - 14
     - 11
     - 2
     - 8
@@ -1371,7 +1371,7 @@ questions:
     pcounts:
     - 8
     - 4
-    - 11
+    - 10
     - 7
     - 2
     points:
@@ -1509,7 +1509,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     prid: pr-design-0013
     prname: 放射能の計数率と、空気中の放射能濃度の関係
@@ -1549,14 +1549,14 @@ questions:
     - 11
     - 4
     - 10
-    - 9
+    - 8
     truths: 正正誤正正
     pcounts:
     - 5
     - 11
     - 16
     - 10
-    - 8
+    - 7
     points:
     - pt-design-0102
     - pt-design-0486
@@ -1634,7 +1634,7 @@ questions:
     - odo
     - ans_pr
     - odo
-    - odo
+    - ''
 - num: 19
   status: published
   chapters:
@@ -1671,10 +1671,10 @@ questions:
     - 2
     truths: 誤正正正正
     pcounts:
-    - 8
+    - 7
     - 6
     - 2
-    - 8
+    - 7
     - 3
     points:
     - pt-design-0042
@@ -1727,7 +1727,6 @@ questions:
     - false
     near_exams:
     - - 2022-02
-      - 2023-02
     - - 2021-08
     - []
     - - 2016-02
@@ -1737,13 +1736,14 @@ questions:
     - []
     fresh: false
     level: B
-    why: pt_B
+    why: pat_B
     tags:
-    - ans_b
+    - ans_pat
     - odo
     - ''
-    - odo
     - ''
+    - ''
+    pat: ds-size-selector-01
 - num: 20
   status: published
   chapters:
@@ -1784,7 +1784,7 @@ questions:
     - 1
     - 8
     - 12
-    - 9
+    - 8
     points:
     - pt-design-0494
     - pt-design-0309
@@ -1843,6 +1843,7 @@ questions:
       - 2017-08
       - 2018-02
       - 2019-08
+      - 2023-02
       - 2024-08
     - - 2017-02
       - 2021-02

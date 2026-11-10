@@ -355,7 +355,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 8
     form: 計算問題
     fresh: true
     level: B
@@ -393,7 +393,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
-    prcount: 6
+    prcount: 7
     fresh: true
     level: S
     why: pat_S
@@ -461,11 +461,11 @@ questions:
     - 平衡定数は、平衡状態での物質の濃度から計算できる。
     - 平衡定数は、温度に依存する。
     prcounts:
-    - 10
+    - 11
     - 5
-    - 10
-    - 10
-    - 10
+    - 11
+    - 11
+    - 11
     principles:
     - pr-bunseki-0018
     - pr-bunseki-0017
@@ -550,7 +550,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
     fresh: true
     level: C
@@ -590,15 +590,15 @@ questions:
     - 7
     - 1
     - 1
-    - 7
+    - 6
     - 5
     truths: 正誤正正正
     pcounts:
     - 7
     - 1
-    - 10
     - 9
-    - 9
+    - 8
+    - 8
     points:
     - pt-bunseki-0014
     - pt-bunseki-0285
@@ -613,10 +613,10 @@ questions:
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     prcounts:
     - 0
-    - 14
-    - 14
-    - 14
-    - 14
+    - 13
+    - 13
+    - 13
+    - 13
     principles:
     - ''
     - pr-bunseki-0033
@@ -695,11 +695,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 7
     form: 穴埋め・組合せの問題
     fresh: true
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -1034,7 +1034,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: true
     level: S
@@ -1079,7 +1079,7 @@ questions:
     - 4
     - 4
     - 3
-    - 4
+    - 5
     points:
     - pt-bunseki-0421
     - pt-bunseki-0071
@@ -1094,7 +1094,7 @@ questions:
     - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
     prcounts:
     - 0
-    - 16
+    - 17
     - 0
     - 0
     - 14
@@ -1173,18 +1173,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 2
     - 3
     - 3
-    - 4
-    - 8
+    - 7
     - 3
     truths: 誤正正正正
     pcounts:
-    - 7
+    - 6
     - 13
     - 13
-    - 16
-    - 16
+    - 15
+    - 15
     points:
     - pt-bunseki-0015
     - pt-bunseki-0002
@@ -1201,8 +1201,8 @@ questions:
     - 0
     - 15
     - 15
-    - 16
-    - 16
+    - 15
+    - 15
     principles:
     - ''
     - pr-bunseki-0004
@@ -1278,18 +1278,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 7
-    - 5
+    - 2
+    - 6
+    - 4
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
+    - 3
+    - 8
     - 4
-    - 9
-    - 5
-    - 5
     - 4
+    - 3
     points:
     - pt-bunseki-0066
     - pt-bunseki-0007
@@ -1303,11 +1303,11 @@ questions:
     - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される
     - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
     principles:
     - pr-bunseki-0031
     - pr-bunseki-0031
@@ -1345,17 +1345,16 @@ questions:
     - []
     - - 2018-02
       - 2022-02
-      - 2023-02
       - 2026-08
     - - 2026-08
     fresh: true
-    level: A
-    why: pr_A
+    level: S
+    why: trend_S
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_trend
     - odo
 - num: 18
   status: published
@@ -1397,7 +1396,7 @@ questions:
     - 5
     - 6
     - 5
-    - 9
+    - 10
     points:
     - pt-bunseki-0229
     - pt-bunseki-0490
@@ -1494,18 +1493,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
     - 5
     - 4
+    - 4
+    - 4
     - 5
-    - 6
     truths: 正正正正誤
     pcounts:
-    - 6
     - 5
+    - 4
     - 8
+    - 4
     - 5
-    - 6
     points:
     - pt-bunseki-0025
     - pt-bunseki-0040
@@ -1519,10 +1518,10 @@ questions:
     - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
     - X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
     prcounts:
+    - 15
+    - 0
+    - 0
     - 16
-    - 0
-    - 0
-    - 17
     - 0
     principles:
     - pr-bunseki-0012

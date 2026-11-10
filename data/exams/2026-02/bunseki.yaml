@@ -268,7 +268,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 6
     form: 計算問題
     fresh: true
     level: C
@@ -306,7 +306,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-bunseki-0038
     prname: 酸・塩の水溶液のpH
-    prcount: 6
+    prcount: 7
     fresh: true
     level: S
     why: pat_S
@@ -340,17 +340,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
-    - 4
+    - 3
+    - 5
     - 1
     - 1
     - 1
     truths: 正正誤正正
     pcounts:
-    - 2
-    - 6
+    - 3
+    - 7
     - 1
-    - 6
+    - 7
     - 1
     points:
     - pt-bunseki-0197
@@ -454,7 +454,7 @@ questions:
     pcounts:
     - 1
     - 1
-    - 10
+    - 9
     - 1
     - 1
     points:
@@ -472,7 +472,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 14
+    - 13
     - 0
     - 0
     principles:
@@ -550,17 +550,17 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 3
+    - 1
     - 2
-    - 1
-    - 1
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
+    - 3
+    - 1
     - 2
-    - 1
-    - 1
-    - 1
+    - 2
     - 1
     points:
     - pt-bunseki-0172
@@ -619,12 +619,12 @@ questions:
     - []
     fresh: true
     level: C
-    why: fresh
+    why: seen
     tags:
     - ''
     - new
-    - new
-    - ans_fresh
+    - ''
+    - ans_seen
     - new
 - num: 10
   status: published
@@ -746,9 +746,9 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 6
+    - 5
     - 1
-    - 6
+    - 5
     - 1
     - 1
     points:
@@ -768,7 +768,7 @@ questions:
     - 0
     - 0
     - 0
-    - 8
+    - 7
     principles:
     - ''
     - ''
@@ -853,11 +853,11 @@ questions:
     - 1
     truths: 正誤正正正
     pcounts:
-    - 6
+    - 5
     - 1
     - 9
     - 1
-    - 4
+    - 3
     points:
     - pt-bunseki-0018
     - pt-bunseki-0487
@@ -871,11 +871,11 @@ questions:
     - 測定対象物質の濃度の異なる溶液の吸光度を測定して、検量線を作成する
     - 定量分析は、検量線の直線範囲内で行う。
     prcounts:
-    - 11
-    - 11
+    - 10
+    - 10
     - 0
     - 0
-    - 7
+    - 6
     principles:
     - pr-bunseki-0002
     - pr-bunseki-0002
@@ -963,7 +963,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: true
     level: S
@@ -1004,7 +1004,7 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 3
+    - 2
     - 1
     - 1
     - 1
@@ -1142,17 +1142,17 @@ questions:
     denom: 23
     counts:
     - 1
+    - 3
+    - 1
     - 2
-    - 1
-    - 1
     - 1
     truths: 正正誤正正
     pcounts:
-    - 2
     - 3
+    - 4
     - 2
-    - 1
-    - 1
+    - 2
+    - 2
     points:
     - pt-bunseki-0198
     - pt-bunseki-0131
@@ -1167,7 +1167,7 @@ questions:
     - 検出器の温度は、通常、カラム温度よりも高めに設定される。
     prcounts:
     - 0
-    - 5
+    - 6
     - 0
     - 0
     - 0
@@ -1215,8 +1215,8 @@ questions:
     - ''
     - odo
     - ans_seen
-    - new
-    - new
+    - ''
+    - ''
 - num: 18
   status: published
   chapters:
@@ -1285,16 +1285,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
     - 4
-    - 6
+    - 4
+    - 5
     - 1
     - 1
     truths: 正正誤正正
     pcounts:
-    - 5
+    - 4
     - 8
-    - 6
+    - 5
     - 1
     - 1
     points:

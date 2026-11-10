@@ -34,14 +34,14 @@ questions:
     - 1
     - 3
     - 1
-    - 7
+    - 8
     - 3
     truths: 正正誤正正
     pcounts:
     - 2
-    - 5
+    - 4
     - 3
-    - 7
+    - 8
     - 4
     points:
     - pt-ippan-0276
@@ -348,7 +348,7 @@ questions:
     denom: 23
     counts:
     - 4
-    - 4
+    - 5
     - 2
     - 2
     - 4
@@ -412,7 +412,6 @@ questions:
     - - 2017-08
     - - 2021-02
       - 2022-02
-      - 2023-02
     - []
     - - 2017-08
       - 2019-02
@@ -465,8 +464,8 @@ questions:
     pcounts:
     - 4
     - 5
-    - 3
-    - 9
+    - 4
+    - 8
     - 6
     points:
     - pt-ippan-0155
@@ -483,8 +482,8 @@ questions:
     prcounts:
     - 0
     - 0
-    - 11
-    - 9
+    - 12
+    - 8
     - 0
     principles:
     - ''
@@ -525,7 +524,6 @@ questions:
       - 2021-02
       - 2021-08
       - 2022-02
-      - 2023-02
     - []
     fresh: false
     level: A
@@ -565,16 +563,16 @@ questions:
     denom: 23
     counts:
     - 1
+    - 5
     - 6
-    - 7
     - 3
     - 1
     truths: 正正正正誤
     pcounts:
     - 1
-    - 7
-    - 10
     - 6
+    - 9
+    - 5
     - 1
     points:
     - pt-ippan-0666
@@ -630,17 +628,16 @@ questions:
     - []
     - - 2021-08
     - - 2022-02
-      - 2023-02
       - 2026-08
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - new
     - odo
     - odo
-    - odo
+    - ''
     - ans_new
 - num: 7
   status: published
@@ -811,14 +808,14 @@ questions:
     counts:
     - 4
     - 1
-    - 5
+    - 4
     - 1
     - 2
     truths: 正誤正正正
     pcounts:
     - 7
     - 1
-    - 9
+    - 8
     - 1
     - 9
     points:
@@ -878,8 +875,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - odo
     - ans_pat
@@ -1027,7 +1024,7 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 7
-    - 8
+    - 7
     - 2
     - 2
     - 4
@@ -1085,7 +1082,6 @@ questions:
     - - 2018-08
       - 2020-08
       - 2022-02
-      - 2023-02
     - []
     - []
     - []
@@ -1129,14 +1125,14 @@ questions:
     - 1
     - 1
     - 2
-    - 8
+    - 9
     - 1
     truths: 誤正正正正
     pcounts:
+    - 10
     - 11
-    - 12
     - 5
-    - 8
+    - 9
     - 1
     points:
     - pt-ippan-0011
@@ -1152,8 +1148,8 @@ questions:
     - フォークリフトや建設機械などの運転では、全身が低い周波数の振動にばく露され、不快感を感じたり、腰痛や頚部痛などの脊柱障害を起こすことがある
     prcounts:
     - 0
-    - 15
-    - 15
+    - 14
+    - 14
     - 0
     - 0
     principles:
@@ -1190,15 +1186,14 @@ questions:
     near_exams:
     - - 2021-02
       - 2022-02
-      - 2023-02
       - 2026-02
     - []
     - []
     - []
     - []
     fresh: false
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ans_hi
     - odo
@@ -1233,15 +1228,15 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 2
     - 1
     - 4
     - 1
     - 4
     truths: 正誤正正正
     pcounts:
-    - 7
-    - 15
+    - 6
+    - 14
     - 9
     - 1
     - 4
@@ -1348,7 +1343,7 @@ questions:
     - 4
     - 6
     - 1
-    - 7
+    - 8
     points:
     - pt-ippan-0065
     - pt-ippan-0140
@@ -1441,17 +1436,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 8
+    - 7
     - 1
     - 1
-    - 3
+    - 2
     - 1
     truths: 正正正正誤
     pcounts:
     - 4
+    - 6
     - 5
-    - 6
-    - 6
+    - 5
     - 1
     points:
     - pt-ippan-0180
@@ -1515,9 +1510,9 @@ questions:
     why: none
     tags:
     - ''
+    - odo
     - ''
-    - odo
-    - odo
+    - ''
     - ans_new
 - num: 16
   status: published
@@ -1555,7 +1550,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 1
-    - 12
+    - 13
     - 5
     - 1
     - 1
@@ -1573,8 +1568,8 @@ questions:
     - 造血器、消化管粘膜など細胞分裂の頻度の高い細胞が多い組織・臓器は、一般に、電離放射線の影響を受けやすい
     prcounts:
     - 0
-    - 13
-    - 19
+    - 14
+    - 18
     - 0
     - 4
     principles:
@@ -1871,7 +1866,7 @@ questions:
     - 1
     - 3
     - 5
-    - 9
+    - 10
     - 1
     points:
     - pt-ippan-0409
@@ -1889,7 +1884,7 @@ questions:
     - 0
     - 0
     - 0
-    - 9
+    - 10
     - 0
     principles:
     - ''

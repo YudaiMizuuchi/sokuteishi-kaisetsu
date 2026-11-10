@@ -132,9 +132,9 @@ questions:
     - 塩酸は、水に溶解すると完全に解離する。
     - 塩酸は、水に溶解すると完全に解離する。
     prcounts:
-    - 5
-    - 5
-    - 5
+    - 6
+    - 6
+    - 6
     - 0
     - 0
     principles:
@@ -216,7 +216,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 8
     form: 計算問題
     fresh: false
     level: B
@@ -298,7 +298,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     fresh: false
     level: A
@@ -443,8 +443,8 @@ questions:
     pcounts:
     - 3
     - 7
-    - 10
     - 9
+    - 8
     - 1
     points:
     - pt-bunseki-0101
@@ -459,10 +459,10 @@ questions:
     - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
     - 拡散セルの出口には、乾燥した空気を流す。
     prcounts:
-    - 14
+    - 13
     - 0
-    - 14
-    - 14
+    - 13
+    - 13
     - 0
     principles:
     - pr-bunseki-0033
@@ -757,7 +757,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 計算問題
     fresh: false
     level: B
@@ -831,7 +831,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: false
     level: S
@@ -869,7 +869,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
     fresh: false
     level: S
@@ -910,7 +910,7 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 1
-    - 10
+    - 9
     - 5
     - 4
     - 2
@@ -931,7 +931,7 @@ questions:
     - 14
     - 0
     - 0
-    - 16
+    - 17
     principles:
     - ''
     - pr-bunseki-0009
@@ -1009,14 +1009,14 @@ questions:
     - 2
     - 7
     - 2
-    - 8
+    - 7
     truths: 正誤正正正
     pcounts:
-    - 7
+    - 6
     - 2
     - 9
-    - 16
-    - 16
+    - 15
+    - 15
     points:
     - pt-bunseki-0015
     - pt-bunseki-0216
@@ -1033,8 +1033,8 @@ questions:
     - 0
     - 0
     - 10
-    - 16
-    - 16
+    - 15
+    - 15
     principles:
     - ''
     - ''
@@ -1146,17 +1146,17 @@ questions:
     denom: 23
     counts:
     - 1
-    - 1
+    - 2
     - 1
     - 1
     - 1
     truths: 正正誤正正
     pcounts:
     - 5
-    - 2
-    - 1
     - 3
     - 1
+    - 4
+    - 2
     points:
     - pt-bunseki-0028
     - pt-bunseki-0198
@@ -1173,7 +1173,7 @@ questions:
     - 0
     - 0
     - 0
-    - 5
+    - 6
     - 0
     principles:
     - ''
@@ -1205,13 +1205,13 @@ questions:
     - false
     - false
     - false
-    - false
+    - true
     near_exams:
     - []
     - []
     - []
     - []
-    - []
+    - - 2023-02
     fresh: false
     level: D
     why: none
@@ -1220,7 +1220,7 @@ questions:
     - ''
     - ans_new
     - odo
-    - new
+    - ''
 - num: 19
   status: published
   chapters:
@@ -1248,17 +1248,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 6
-    - 6
-    - 6
     - 5
+    - 5
+    - 5
+    - 4
     - 9
     truths: 正正誤正正
     pcounts:
-    - 6
-    - 9
-    - 6
     - 5
+    - 8
+    - 5
+    - 4
     - 9
     points:
     - pt-bunseki-0025
@@ -1273,11 +1273,11 @@ questions:
     - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
     - 回折線は、ブラッグの条件に従って生じる。
     prcounts:
+    - 15
+    - 0
+    - 0
+    - 0
     - 16
-    - 0
-    - 0
-    - 0
-    - 17
     principles:
     - pr-bunseki-0012
     - ''
@@ -1357,9 +1357,8 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 8
     form: 計算問題
     fresh: false
     level: B
-    why: pat_B
-    pat: an-logarithm-03
+    why: q_b

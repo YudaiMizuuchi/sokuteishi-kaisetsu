@@ -39,16 +39,16 @@ questions:
     denom: 23
     counts:
     - 1
+    - 3
     - 4
-    - 5
-    - 4
+    - 3
     - 2
     truths: 正正正誤正
     pcounts:
     - 1
-    - 4
-    - 4
-    - 4
+    - 3
+    - 3
+    - 3
     - 2
     points:
     - pt-bunseki-0464
@@ -64,9 +64,9 @@ questions:
     - 気圧760.0mmHgは、約101.3kPaである。
     prcounts:
     - 0
+    - 3
     - 4
-    - 5
-    - 5
+    - 4
     - 0
     principles:
     - ''
@@ -106,13 +106,13 @@ questions:
     - []
     - []
     fresh: true
-    level: B
-    why: pr_B
+    level: C
+    why: seen
     tags:
     - new
     - ''
-    - odo
-    - ans_pr
+    - ''
+    - ans_seen
     - ''
 - num: 2
   status: published
@@ -148,7 +148,7 @@ questions:
     form: 計算問題
     prid: pr-bunseki-0025
     prname: 誤差と統計量
-    prcount: 7
+    prcount: 6
     fresh: true
     level: B
     why: pr_B
@@ -181,18 +181,18 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 4
     - 3
-    - 2
-    - 2
-    - 2
-    - 2
+    - 3
+    - 3
+    - 3
     truths: 正誤正正正
     pcounts:
-    - 4
-    - 4
-    - 2
-    - 2
-    - 2
+    - 5
+    - 5
+    - 3
+    - 3
+    - 3
     points:
     - pt-bunseki-0084
     - pt-bunseki-0226
@@ -206,11 +206,11 @@ questions:
     - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
     - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
     prcounts:
-    - 5
-    - 5
-    - 5
-    - 5
-    - 5
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
     principles:
     - pr-bunseki-0036
     - pr-bunseki-0036
@@ -245,8 +245,10 @@ questions:
     near_exams:
     - - 2016-02
     - - 2021-08
+      - 2023-02
     - - 2017-08
       - 2021-08
+      - 2023-02
     - - 2017-08
     - - 2017-08
     fresh: true
@@ -296,7 +298,7 @@ questions:
     form: 計算問題
     prid: pr-bunseki-0014
     prname: 気体の状態方程式
-    prcount: 4
+    prcount: 3
     fresh: true
     level: C
     why: q_fresh
@@ -336,7 +338,7 @@ questions:
     form: 計算問題
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
-    prcount: 6
+    prcount: 7
     fresh: true
     level: A
     why: pat_A
@@ -382,7 +384,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
     fresh: true
     level: A
@@ -446,7 +448,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 10
     principles:
     - ''
     - ''
@@ -550,11 +552,11 @@ questions:
     - 飽和蒸気圧が小さいほど低くなる。
     - 拡散チューブの内径が大きいほど高くなる。
     prcounts:
-    - 14
-    - 14
+    - 13
+    - 13
     - 0
     - 0
-    - 14
+    - 13
     principles:
     - pr-bunseki-0033
     - pr-bunseki-0033
@@ -632,11 +634,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 8
+    count: 7
     form: 穴埋め・組合せの問題
     fresh: true
-    level: B
-    why: q_b
+    level: C
+    why: q_seen
 - num: 10
   status: published
   chapters:
@@ -694,7 +696,7 @@ questions:
     - 0
     - 0
     - 0
-    - 7
+    - 6
     - 0
     principles:
     - ''
@@ -859,11 +861,11 @@ questions:
     - 1
     truths: 誤正正正正
     pcounts:
-    - 2
+    - 3
     - 1
     - 2
     - 2
-    - 5
+    - 4
     points:
     - pt-bunseki-0196
     - pt-bunseki-0485
@@ -881,7 +883,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 10
     principles:
     - ''
     - ''
@@ -960,7 +962,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: true
     level: S
@@ -1002,10 +1004,10 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 3
-    - 3
+    - 4
     - 1
     - 2
-    - 5
+    - 6
     points:
     - pt-bunseki-0121
     - pt-bunseki-0128
@@ -1062,8 +1064,8 @@ questions:
     - []
     - []
     fresh: true
-    level: S
-    why: trend_S
+    level: A
+    why: trend_A
     tags:
     - ''
     - ''
@@ -1107,7 +1109,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 1
-    - 3
+    - 4
     - 4
     - 1
     - 1
@@ -1208,14 +1210,14 @@ questions:
     - 1
     - 1
     - 1
-    - 2
+    - 3
     truths: 正正正誤正
     pcounts:
     - 1
     - 1
-    - 1
     - 2
-    - 3
+    - 2
+    - 4
     points:
     - pt-bunseki-0426
     - pt-bunseki-0427
@@ -1233,7 +1235,7 @@ questions:
     - 0
     - 0
     - 0
-    - 5
+    - 6
     principles:
     - ''
     - ''
@@ -1277,7 +1279,7 @@ questions:
     tags:
     - new
     - new
-    - new
+    - ''
     - ans_seen
     - odo
 - num: 18
@@ -1310,17 +1312,17 @@ questions:
     denom: 23
     counts:
     - 1
-    - 3
+    - 4
     - 1
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
     - 4
-    - 9
-    - 9
-    - 3
-    - 3
+    - 10
+    - 10
+    - 4
+    - 4
     points:
     - pt-bunseki-0088
     - pt-bunseki-0052
@@ -1337,8 +1339,8 @@ questions:
     - 0
     - 0
     - 0
-    - 5
-    - 5
+    - 6
+    - 6
     principles:
     - ''
     - ''
@@ -1417,16 +1419,16 @@ questions:
     counts:
     - 3
     - 1
-    - 6
-    - 4
     - 5
+    - 4
+    - 4
     truths: 正正誤正正
     pcounts:
     - 4
     - 1
-    - 6
-    - 8
     - 5
+    - 8
+    - 4
     points:
     - pt-bunseki-0142
     - pt-bunseki-0254
@@ -1440,11 +1442,11 @@ questions:
     - 結晶物質の定量は、回折線の強度測定で行う。
     - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
     prcounts:
+    - 15
+    - 0
+    - 0
+    - 0
     - 16
-    - 0
-    - 0
-    - 0
-    - 17
     principles:
     - pr-bunseki-0012
     - ''
@@ -1523,11 +1525,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 5
     form: 穴埋め・組合せの問題
     prid: pr-bunseki-0027
     prname: 放射壊変と原子番号・質量数
-    prcount: 6
+    prcount: 5
     fresh: true
     level: A
     why: pat_A

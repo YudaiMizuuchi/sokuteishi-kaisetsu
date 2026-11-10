@@ -347,11 +347,11 @@ questions:
     - 平衡定数は、反応開始時の物質の濃度比に依存する。（誤りの記述）
     - 平衡定数は、温度に依存する。
     prcounts:
-    - 10
+    - 11
     - 5
-    - 10
-    - 10
-    - 10
+    - 11
+    - 11
+    - 11
     principles:
     - pr-bunseki-0018
     - pr-bunseki-0017
@@ -475,18 +475,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 5
     - 2
     - 3
     - 3
-    - 1
+    - 2
     truths: 正誤正正正
     pcounts:
-    - 6
+    - 7
     - 2
     - 3
-    - 3
-    - 6
+    - 4
+    - 7
     points:
     - pt-bunseki-0017
     - pt-bunseki-0160
@@ -534,13 +534,13 @@ questions:
     - true
     - false
     - false
-    - false
+    - true
     - false
     near_exams:
     - - 2017-02
     - []
     - []
-    - []
+    - - 2023-02
     - []
     fresh: false
     level: C
@@ -584,7 +584,7 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 7
+    - 6
     - 3
     - 4
     - 5
@@ -602,11 +602,11 @@ questions:
     - 湿式ガスメーターは、ドラム内のローターの回転数から気体の体積を測定する
     - 石けん膜流量計は、ロータメーターの較正に用いられる。
     prcounts:
-    - 11
-    - 11
-    - 11
-    - 11
-    - 11
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
     principles:
     - pr-bunseki-0034
     - pr-bunseki-0034
@@ -694,7 +694,7 @@ questions:
     pcounts:
     - 1
     - 3
-    - 4
+    - 5
     - 1
     - 3
     points:
@@ -790,18 +790,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 1
     - 3
+    - 1
+    - 2
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
     points:
     - pt-bunseki-0064
     - pt-bunseki-0070
@@ -815,11 +815,11 @@ questions:
     - 標準添加法を用いる場合は、検量線は直線でなくてはならない。
     - 内標準物質には、測定対象物質と物理的、化学的によく似た物質を選択する
     prcounts:
-    - 7
-    - 7
-    - 7
-    - 7
-    - 7
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
     principles:
     - pr-bunseki-0032
     - pr-bunseki-0032
@@ -1052,16 +1052,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 1
     - 3
+    - 1
+    - 2
     - 8
     - 4
     truths: 正誤正正正
     pcounts:
-    - 5
+    - 4
     - 3
-    - 6
+    - 5
     - 9
     - 11
     points:
@@ -1077,9 +1077,9 @@ questions:
     - 測定対象物質ごとに異なる。
     - 吸光度は、通常、極大吸収波長で測定する。
     prcounts:
-    - 11
-    - 11
-    - 11
+    - 10
+    - 10
+    - 10
     - 0
     - 0
     principles:
@@ -1163,7 +1163,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 18
+    count: 17
     form: 計算問題
     fresh: false
     level: S
@@ -1208,7 +1208,7 @@ questions:
     - 4
     - 4
     - 5
-    - 10
+    - 9
     points:
     - pt-bunseki-0068
     - pt-bunseki-0083
@@ -1222,7 +1222,7 @@ questions:
     - フレームの種類により感度が変化する。
     - 光源には中空陰極ランプが用いられる。
     prcounts:
-    - 16
+    - 17
     - 0
     - 0
     - 0
@@ -1301,15 +1301,15 @@ questions:
     counts:
     - 3
     - 7
-    - 6
-    - 9
+    - 5
+    - 8
     - 1
     truths: 正正正正誤
     pcounts:
     - 13
     - 9
-    - 16
-    - 16
+    - 15
+    - 15
     - 2
     points:
     - pt-bunseki-0002
@@ -1326,8 +1326,8 @@ questions:
     prcounts:
     - 15
     - 10
-    - 16
-    - 16
+    - 15
+    - 15
     - 0
     principles:
     - pr-bunseki-0004
@@ -1450,7 +1450,7 @@ questions:
     - 8
     - 6
     - 5
-    - 9
+    - 10
     - 5
     points:
     - pt-bunseki-0229

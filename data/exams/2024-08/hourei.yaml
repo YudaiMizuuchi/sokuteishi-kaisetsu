@@ -41,7 +41,7 @@ questions:
     - 15
     - 1
     - 1
-    - 5
+    - 4
     - 6
     points:
     - pt-hourei-0066
@@ -142,7 +142,7 @@ questions:
     pcounts:
     - 15
     - 2
-    - 10
+    - 11
     - 4
     - 19
     points:
@@ -242,16 +242,16 @@ questions:
     counts:
     - 1
     - 1
-    - 4
+    - 5
     - 1
-    - 3
+    - 2
     truths: 正正正誤正
     pcounts:
     - 4
     - 1
-    - 9
+    - 10
     - 4
-    - 6
+    - 5
     points:
     - pt-hourei-0118
     - pt-hourei-0522
@@ -385,7 +385,7 @@ questions:
     counts:
     - 1
     - 1
-    - 9
+    - 10
     - 1
     - 9
     truths: 正誤正正正
@@ -448,7 +448,6 @@ questions:
     - - 2018-02
     - - 2022-02
       - 2022-08
-      - 2023-02
       - 2023-08
       - 2025-08
       - 2026-02
@@ -456,7 +455,6 @@ questions:
       - 2021-02
       - 2022-02
       - 2022-08
-      - 2023-02
       - 2024-02
       - 2025-08
     - - 2020-08
@@ -464,6 +462,7 @@ questions:
       - 2016-08
       - 2017-08
       - 2018-08
+      - 2023-02
       - 2023-08
     fresh: false
     level: C
@@ -509,7 +508,7 @@ questions:
     - 2
     truths: 正誤誤誤誤
     pcounts:
-    - 5
+    - 6
     - 4
     - 4
     - 3
@@ -744,14 +743,14 @@ questions:
     denom: 23
     counts:
     - 1
-    - 9
+    - 10
     - 1
     - 2
     - 1
     truths: 正正正正誤
     pcounts:
     - 1
-    - 11
+    - 12
     - 5
     - 3
     - 3
@@ -854,7 +853,7 @@ questions:
     denom: 23
     counts:
     - 1
-    - 7
+    - 6
     - 1
     - 1
     - 1
@@ -862,7 +861,7 @@ questions:
     pcounts:
     - 1
     - 12
-    - 8
+    - 9
     - 1
     - 2
     points:
@@ -919,6 +918,7 @@ questions:
     - - 2020-08
       - 2021-08
       - 2022-08
+      - 2023-02
     - []
     - []
     - []
@@ -964,16 +964,16 @@ questions:
     counts:
     - 1
     - 2
-    - 1
-    - 3
+    - 2
+    - 2
     - 1
     truths: 誤正正正正
     pcounts:
-    - 1
+    - 2
     - 4
     - 3
-    - 4
-    - 1
+    - 3
+    - 2
     points:
     - pt-hourei-0514
     - pt-hourei-0513
@@ -1018,26 +1018,26 @@ questions:
     - 2026-02
     - 2026-08
     near:
+    - true
     - false
     - false
     - false
-    - false
-    - false
+    - true
     near_exams:
+    - - 2023-02
     - []
     - []
     - []
-    - []
-    - []
+    - - 2023-02
     fresh: false
-    level: D
-    why: none
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - ''
     - ''
     - ''
-    - new
+    - ''
 - num: 12
   status: published
   chapters:
@@ -1071,14 +1071,14 @@ questions:
     - 1
     - 1
     - 1
-    - 1
+    - 2
     truths: 正正誤正正
     pcounts:
     - 2
     - 4
     - 2
     - 2
-    - 3
+    - 4
     points:
     - pt-hourei-0226
     - pt-hourei-0145
@@ -1243,6 +1243,7 @@ questions:
     - - 2025-08
     - - 2020-08
       - 2021-08
+      - 2023-02
       - 2024-02
     fresh: false
     level: D
@@ -1391,14 +1392,14 @@ questions:
     - 1
     - 1
     - 1
-    - 2
+    - 3
     truths: 誤正正正正
     pcounts:
     - 3
     - 1
     - 1
     - 11
-    - 10
+    - 11
     points:
     - pt-hourei-0152
     - pt-hourei-0299
@@ -1601,16 +1602,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 4
     - 8
-    - 5
+    - 4
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
     - 15
     - 16
-    - 11
+    - 10
     - 1
     - 1
     points:
@@ -1677,7 +1678,6 @@ questions:
       - 2020-08
     - - 2022-02
       - 2022-08
-      - 2023-02
       - 2023-08
     - []
     fresh: false

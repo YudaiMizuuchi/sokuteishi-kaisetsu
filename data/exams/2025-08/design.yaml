@@ -82,10 +82,10 @@ questions:
     - 1
     truths: 正誤正正正
     pcounts:
-    - 7
-    - 11
+    - 6
+    - 10
     - 1
-    - 11
+    - 12
     - 1
     points:
     - pt-design-0067
@@ -141,7 +141,6 @@ questions:
       - 2019-08
       - 2020-02
       - 2022-02
-      - 2023-02
       - 2023-08
     - - 2016-02
       - 2018-02
@@ -195,8 +194,8 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 4
-    - 14
-    - 7
+    - 13
+    - 8
     - 2
     - 3
     points:
@@ -263,7 +262,7 @@ questions:
     tags:
     - ans_seen
     - odo
-    - ''
+    - odo
     - ''
     - ''
 - num: 4
@@ -301,9 +300,9 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 14
+    - 15
     - 3
-    - 12
+    - 11
     - 2
     - 1
     points:
@@ -401,7 +400,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: true
     level: S
     why: pat_S
@@ -475,7 +474,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 2
-    - 3
+    - 4
     - 4
     - 1
     - 1
@@ -722,7 +721,7 @@ questions:
     - 1
     - 1
     - 1
-    - 14
+    - 13
     points:
     - pt-design-0123
     - pt-design-0364
@@ -738,7 +737,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 9
+    - 10
     - 0
     - 0
     principles:
@@ -1025,15 +1024,15 @@ questions:
     counts:
     - 1
     - 1
-    - 4
-    - 4
+    - 5
+    - 3
     - 1
     truths: 正正正正誤
     pcounts:
     - 1
     - 1
-    - 4
-    - 10
+    - 5
+    - 9
     - 1
     points:
     - pt-design-0366
@@ -1484,14 +1483,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 4
     - 8
     - 3
     - 1
     - 1
     truths: 正正正正誤
     pcounts:
-    - 10
+    - 11
     - 12
     - 6
     - 12
@@ -1707,10 +1706,10 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 11
+    - 12
     - 5
     - 5
-    - 11
+    - 12
     - 2
     points:
     - pt-design-0018

@@ -32,17 +32,17 @@ questions:
     denom: 23
     counts:
     - 8
-    - 2
+    - 1
     - 13
-    - 2
-    - 8
+    - 1
+    - 7
     truths: 誤正正正正
     pcounts:
     - 15
-    - 5
+    - 4
     - 13
-    - 5
-    - 8
+    - 4
+    - 7
     points:
     - pt-hourei-0066
     - pt-hourei-0106
@@ -157,16 +157,16 @@ questions:
     denom: 23
     counts:
     - 6
-    - 7
-    - 2
-    - 7
-    - 4
+    - 6
+    - 1
+    - 6
+    - 3
     truths: 正正正正誤
     pcounts:
     - 7
-    - 13
-    - 3
-    - 7
+    - 12
+    - 2
+    - 6
     - 19
     points:
     - pt-hourei-0079
@@ -239,7 +239,7 @@ questions:
     why: pt_S
     tags:
     - ''
-    - odo
+    - ''
     - ''
     - ''
     - ans_hi
@@ -274,18 +274,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 4
     - 8
     - 3
     - 3
-    - 3
+    - 2
     truths: 正正誤正正
     pcounts:
-    - 6
+    - 5
     - 9
     - 7
     - 3
-    - 6
+    - 5
     points:
     - pt-hourei-0095
     - pt-hourei-0057
@@ -338,13 +338,11 @@ questions:
     near_exams:
     - - 2021-02
       - 2022-08
-      - 2023-02
     - - 2019-08
     - - 2015-08
       - 2017-02
       - 2019-02
       - 2022-08
-      - 2023-02
       - 2023-08
       - 2024-02
     - []
@@ -428,17 +426,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 2
-    - 2
-    - 2
+    - 3
+    - 1
+    - 1
+    - 1
     - 12
     truths: 正正正誤正
     pcounts:
-    - 4
-    - 2
-    - 10
     - 3
+    - 1
+    - 9
+    - 2
     - 12
     points:
     - pt-hourei-0136
@@ -496,6 +494,7 @@ questions:
     - - 2016-08
       - 2017-08
       - 2018-08
+      - 2023-02
     - - 2015-08
       - 2016-02
       - 2016-08
@@ -504,21 +503,21 @@ questions:
       - 2019-08
       - 2021-02
       - 2022-08
+      - 2023-02
       - 2023-08
       - 2024-02
       - 2026-02
       - 2026-08
     - []
     fresh: false
-    level: B
-    why: pat_B
+    level: A
+    why: trend_A
     tags:
     - ''
+    - new
     - ''
+    - ans_trend
     - ''
-    - ans_pat
-    - ''
-    pat: lw-law-measurement-scope-03
 - num: 6
   status: published
   chapters:
@@ -616,14 +615,14 @@ questions:
     denom: 23
     counts:
     - 5
-    - 7
+    - 6
     - 2
     - 4
-    - 11
+    - 10
     truths: 正正誤正正
     pcounts:
     - 14
-    - 7
+    - 6
     - 3
     - 5
     - 14
@@ -727,17 +726,17 @@ questions:
     denom: 23
     counts:
     - 3
-    - 4
+    - 3
     - 11
-    - 5
-    - 2
+    - 4
+    - 1
     truths: 正誤正正正
     pcounts:
     - 3
-    - 4
+    - 3
     - 11
+    - 4
     - 5
-    - 6
     points:
     - pt-hourei-0153
     - pt-hourei-0146
@@ -833,18 +832,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
-    - 7
-    - 9
-    - 7
     - 4
+    - 6
+    - 8
+    - 6
+    - 3
     truths: 誤正正正正
     pcounts:
     - 13
-    - 10
-    - 10
+    - 9
+    - 9
     - 12
-    - 6
+    - 5
     points:
     - pt-hourei-0001
     - pt-hourei-0507
@@ -899,6 +898,7 @@ questions:
       - 2017-08
       - 2018-08
       - 2021-02
+      - 2023-02
       - 2023-08
       - 2025-02
     - - 2019-08
@@ -909,6 +909,7 @@ questions:
     - - 2020-08
       - 2021-08
       - 2022-08
+      - 2023-02
     - []
     fresh: false
     level: A
@@ -950,18 +951,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
     - 2
+    - 1
+    - 1
     - 2
     - 3
-    - 4
     truths: 誤正正正正
     pcounts:
     - 3
     - 3
+    - 2
     - 3
-    - 4
-    - 4
+    - 3
     points:
     - pt-hourei-0512
     - pt-hourei-0180
@@ -1055,17 +1056,17 @@ questions:
     kind: choice
     denom: 23
     counts:
+    - 1
+    - 2
     - 2
     - 3
-    - 3
-    - 4
     - 2
     truths: 正誤正正正
     pcounts:
-    - 2
-    - 5
-    - 3
+    - 1
     - 4
+    - 2
+    - 3
     - 3
     points:
     - pt-hourei-0253
@@ -1119,6 +1120,7 @@ questions:
     near_exams:
     - - 2021-08
       - 2022-08
+      - 2023-02
     - - 2018-02
       - 2020-02
       - 2026-08
@@ -1131,7 +1133,7 @@ questions:
     level: S
     why: pat_S
     tags:
-    - ''
+    - new
     - ans_pat
     - ''
     - ''
@@ -1170,9 +1172,9 @@ questions:
     counts:
     - 5
     - 2
-    - 2
+    - 1
     - 8
-    - 6
+    - 5
     truths: 正正誤正正
     pcounts:
     - 10
@@ -1244,11 +1246,13 @@ questions:
       - 2020-08
       - 2021-08
       - 2022-08
+      - 2023-02
       - 2025-02
       - 2025-08
     - []
     - - 2020-08
       - 2021-08
+      - 2023-02
       - 2024-02
     fresh: false
     level: S
@@ -1328,18 +1332,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 8
     - 7
-    - 11
-    - 5
+    - 7
+    - 10
+    - 4
     - 12
     truths: 正正正誤正
     pcounts:
-    - 8
+    - 7
     - 11
-    - 12
+    - 11
     - 9
-    - 6
+    - 5
     points:
     - pt-hourei-0059
     - pt-hourei-0534
@@ -1395,6 +1399,7 @@ questions:
     - - 2023-08
     - - 2016-08
       - 2021-02
+      - 2023-02
       - 2023-08
       - 2026-08
     - - 2020-02
@@ -1438,17 +1443,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 10
-    - 4
-    - 11
+    - 9
     - 3
+    - 11
+    - 2
     - 5
     truths: 正正正誤正
     pcounts:
     - 15
     - 15
     - 12
-    - 15
+    - 14
     - 15
     points:
     - pt-hourei-0013
@@ -1567,17 +1572,17 @@ questions:
     denom: 23
     counts:
     - 8
-    - 3
-    - 5
-    - 4
     - 2
+    - 4
+    - 3
+    - 1
     truths: 正誤正正正
     pcounts:
     - 16
     - 15
-    - 11
-    - 4
-    - 2
+    - 10
+    - 3
+    - 1
     points:
     - pt-hourei-0006
     - pt-hourei-0009
@@ -1653,7 +1658,7 @@ questions:
     - ans_hi
     - ''
     - ''
-    - ''
+    - new
 - num: 18
   status: published
   chapters:
@@ -1688,15 +1693,15 @@ questions:
     - 5
     - 7
     - 6
-    - 5
-    - 9
+    - 4
+    - 8
     truths: 正正正誤正
     pcounts:
     - 6
     - 15
     - 8
     - 17
-    - 11
+    - 10
     points:
     - pt-hourei-0097
     - pt-hourei-0010
@@ -1754,8 +1759,10 @@ questions:
       - 2021-02
       - 2021-08
       - 2022-08
+      - 2023-02
     - - 2021-08
       - 2022-08
+      - 2023-02
       - 2024-02
     - []
     - - 2015-08
@@ -1768,6 +1775,7 @@ questions:
       - 2019-02
       - 2019-08
       - 2020-08
+      - 2023-02
       - 2024-08
       - 2026-02
     - - 2025-02
@@ -1812,14 +1820,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 4
     - 9
     - 2
     - 8
     - 5
     truths: 正正正正誤
     pcounts:
-    - 6
+    - 5
     - 14
     - 3
     - 8
@@ -1880,12 +1888,12 @@ questions:
       - 2020-08
       - 2021-08
       - 2022-08
+      - 2023-02
       - 2024-02
     - - 2016-08
       - 2017-08
       - 2018-02
       - 2019-08
-      - 2023-02
       - 2024-02
     - []
     - - 2017-08
@@ -1940,16 +1948,16 @@ questions:
     counts:
     - 11
     - 2
-    - 2
+    - 1
     - 7
-    - 3
+    - 2
     truths: 正誤正正正
     pcounts:
     - 9
     - 5
-    - 2
+    - 1
     - 15
-    - 6
+    - 5
     points:
     - pt-hourei-0051
     - pt-hourei-0155
@@ -2016,6 +2024,6 @@ questions:
     tags:
     - ''
     - ans_seen
-    - ''
+    - new
     - odo
     - ''

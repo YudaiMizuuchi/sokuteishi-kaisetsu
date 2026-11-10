@@ -37,7 +37,7 @@ questions:
     pcounts:
     - 1
     - 4
-    - 5
+    - 4
     - 1
     - 5
     points:
@@ -242,14 +242,14 @@ questions:
     - 3
     - 4
     - 4
-    - 4
+    - 5
     truths: 誤正正正正
     pcounts:
     - 2
     - 4
     - 5
     - 5
-    - 9
+    - 10
     points:
     - pt-ippan-0359
     - pt-ippan-0141
@@ -303,11 +303,11 @@ questions:
     - - 2020-08
       - 2022-02
       - 2022-08
-      - 2023-02
       - 2024-02
     - []
     - - 2024-02
     - - 2022-08
+      - 2023-02
     - - 2016-08
     fresh: false
     level: S
@@ -347,17 +347,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
-    - 2
-    - 1
     - 3
+    - 2
+    - 2
+    - 4
     - 5
     truths: 正正正誤正
     pcounts:
-    - 2
-    - 7
-    - 1
     - 3
+    - 8
+    - 2
+    - 4
     - 5
     points:
     - pt-ippan-0320
@@ -420,7 +420,7 @@ questions:
     tags:
     - ''
     - odo
-    - new
+    - ''
     - ans_seen
     - ''
 - num: 5
@@ -498,8 +498,8 @@ questions:
     pcounts:
     - 5
     - 5
-    - 7
-    - 12
+    - 6
+    - 11
     - 1
     points:
     - pt-ippan-0109
@@ -591,16 +591,16 @@ questions:
     denom: 23
     counts:
     - 9
-    - 6
+    - 7
     - 1
     - 1
     - 3
     truths: 正正正誤正
     pcounts:
     - 9
-    - 7
-    - 5
-    - 10
+    - 8
+    - 6
+    - 9
     - 3
     points:
     - pt-ippan-0030
@@ -660,19 +660,17 @@ questions:
       - 2020-08
       - 2022-02
       - 2022-08
-      - 2023-02
       - 2023-08
     - []
     fresh: false
-    level: S
-    why: pat_S
+    level: A
+    why: pt_A
     tags:
     - odo
     - odo
+    - odo
+    - ans_hi
     - ''
-    - ans_pat
-    - ''
-    pat: gn-metals-01
 - num: 8
   status: published
   chapters:
@@ -702,15 +700,15 @@ questions:
     denom: 23
     counts:
     - 1
-    - 6
-    - 2
+    - 5
+    - 3
     - 2
     - 1
     truths: 正正正誤正
     pcounts:
     - 3
-    - 7
-    - 14
+    - 6
+    - 15
     - 2
     - 4
     points:
@@ -808,15 +806,15 @@ questions:
     - 3
     - 4
     - 1
-    - 3
+    - 4
     - 3
     truths: 誤正正正正
     pcounts:
     - 7
     - 5
-    - 10
-    - 6
-    - 8
+    - 11
+    - 7
+    - 7
     points:
     - pt-ippan-0046
     - pt-ippan-0125
@@ -874,7 +872,6 @@ questions:
     - - 2018-08
       - 2020-08
       - 2022-02
-      - 2023-02
     fresh: false
     level: B
     why: pt_B
@@ -914,14 +911,14 @@ questions:
     counts:
     - 6
     - 3
-    - 8
+    - 9
     - 1
     - 1
     truths: 誤正正正正
     pcounts:
-    - 11
+    - 10
     - 3
-    - 8
+    - 9
     - 1
     - 3
     points:
@@ -980,8 +977,8 @@ questions:
     - []
     - []
     fresh: false
-    level: S
-    why: pt_S
+    level: A
+    why: pt_A
     tags:
     - ans_hi
     - ''
@@ -1022,7 +1019,7 @@ questions:
     pcounts:
     - 3
     - 5
-    - 15
+    - 14
     - 3
     - 1
     points:
@@ -1220,18 +1217,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 5
     - 2
+    - 3
     - 2
-    - 1
-    - 8
+    - 7
     truths: 正正正誤正
     pcounts:
+    - 6
     - 5
     - 4
+    - 2
     - 3
-    - 1
-    - 4
     points:
     - pt-ippan-0103
     - pt-ippan-0165
@@ -1288,13 +1285,13 @@ questions:
     - []
     - []
     fresh: false
-    level: D
-    why: none
+    level: C
+    why: seen
     tags:
+    - odo
     - ''
     - ''
-    - ''
-    - ans_new
+    - ans_seen
     - ''
 - num: 14
   status: published
@@ -1326,14 +1323,14 @@ questions:
     counts:
     - 3
     - 1
-    - 4
     - 3
-    - 1
+    - 3
+    - 2
     truths: 正正正正誤
     pcounts:
     - 3
     - 5
-    - 4
+    - 3
     - 3
     - 7
     points:
@@ -1350,7 +1347,7 @@ questions:
     - 放射線皮膚炎は、早期障害に分類される確定的影響である。
     prcounts:
     - 0
-    - 19
+    - 18
     - 0
     - 0
     - 0
@@ -1391,7 +1388,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
     fresh: false
     level: B
     why: pt_B
@@ -1431,16 +1427,16 @@ questions:
     counts:
     - 1
     - 2
-    - 2
+    - 3
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
-    - 9
-    - 10
-    - 3
-    - 5
-    - 3
+    - 8
+    - 11
+    - 4
+    - 4
+    - 4
     points:
     - pt-ippan-0032
     - pt-ippan-0021
@@ -1454,9 +1450,9 @@ questions:
     - 1,4-ジオキサンは、脂溶性及び水溶性を共に有している。
     - アセトンは、トルエンより極性が大きい。
     prcounts:
-    - 9
-    - 10
+    - 8
     - 11
+    - 12
     - 0
     - 0
     principles:
@@ -1499,7 +1495,6 @@ questions:
       - 2020-02
     - []
     - - 2022-02
-      - 2023-02
       - 2024-08
     - []
     fresh: false
@@ -1540,16 +1535,16 @@ questions:
     denom: 23
     counts:
     - 2
-    - 1
+    - 2
     - 5
-    - 6
+    - 5
     - 3
     truths: 正誤正正正
     pcounts:
     - 17
-    - 2
+    - 3
     - 6
-    - 8
+    - 7
     - 17
     points:
     - pt-ippan-0001
@@ -1608,17 +1603,17 @@ questions:
       - 2018-02
       - 2019-02
       - 2022-02
-      - 2023-02
     - []
     fresh: false
-    level: A
-    why: trend_A
+    level: B
+    why: pat_B
     tags:
     - odo
-    - ans_trend
+    - ans_pat
     - odo
     - odo
     - odo
+    pat: gn-ventilation-02
 - num: 17
   status: published
   chapters:
@@ -1647,16 +1642,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 2
+    - 3
     - 1
-    - 3
-    - 3
     - 2
+    - 3
+    - 3
     truths: 正誤正正正
     pcounts:
-    - 3
-    - 3
     - 4
+    - 3
+    - 3
     - 7
     - 10
     points:
@@ -1716,7 +1711,6 @@ questions:
     - []
     - - 2015-08
       - 2022-02
-      - 2023-02
     fresh: false
     level: A
     why: pat_A
@@ -1759,14 +1753,14 @@ questions:
     denom: 23
     counts:
     - 1
-    - 2
+    - 3
     - 2
     - 4
     - 7
     truths: 誤正正正正
     pcounts:
     - 1
-    - 2
+    - 3
     - 2
     - 4
     - 10
@@ -1874,9 +1868,9 @@ questions:
     - 2
     truths: 正正正誤正
     pcounts:
+    - 5
     - 4
-    - 4
-    - 9
+    - 8
     - 1
     - 2
     points:
@@ -1932,7 +1926,6 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
     - []
     - []
     fresh: false
@@ -1971,7 +1964,7 @@ questions:
     counts:
     - 2
     - 1
-    - 3
+    - 4
     - 5
     - 6
     truths: 正誤正正正

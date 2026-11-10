@@ -135,18 +135,18 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 6
     - 5
     - 4
     - 1
-    - 7
+    - 8
     truths: 正正正誤正
     pcounts:
-    - 12
+    - 13
     - 2
     - 4
-    - 6
-    - 7
+    - 5
+    - 8
     points:
     - pt-design-0013
     - pt-design-0257
@@ -204,7 +204,6 @@ questions:
     - - 2016-02
       - 2017-08
       - 2022-02
-      - 2023-02
       - 2024-02
     - []
     fresh: false
@@ -215,7 +214,7 @@ questions:
     - ''
     - ''
     - ans_seen
-    - ''
+    - odo
 - num: 3
   status: published
   chapters:
@@ -244,16 +243,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 9
+    - 8
     - 8
     - 1
     - 2
     - 12
     truths: 正正誤正正
     pcounts:
-    - 14
+    - 13
     - 8
-    - 7
+    - 6
     - 4
     - 13
     points:
@@ -356,10 +355,10 @@ questions:
     - 1
     truths: 正誤正正正
     pcounts:
-    - 8
+    - 7
     - 3
-    - 8
-    - 14
+    - 9
+    - 15
     - 4
     points:
     - pt-design-0051
@@ -417,11 +416,11 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - odo
-    - ans_new
+    - ''
+    - ans_seen
     - odo
     - odo
     - ''
@@ -463,7 +462,7 @@ questions:
     pcounts:
     - 1
     - 3
-    - 7
+    - 6
     - 13
     - 1
     points:
@@ -511,13 +510,13 @@ questions:
     - 2026-08
     near:
     - false
-    - false
+    - true
     - false
     - false
     - false
     near_exams:
     - []
-    - []
+    - - 2023-02
     - []
     - []
     - []
@@ -561,7 +560,7 @@ questions:
     form: 選択肢が物質名などの問題
     prid: pr-design-0014
     prname: 沸点・蒸気圧と、ガス・蒸気の状態
-    prcount: 19
+    prcount: 20
     fresh: false
     level: S
     why: pat_S
@@ -594,14 +593,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 5
+    - 4
     - 2
     - 3
     - 1
     - 1
     truths: 正正正誤正
     pcounts:
-    - 5
+    - 4
     - 2
     - 3
     - 1
@@ -738,14 +737,14 @@ questions:
     - 7
     - 2
     - 8
-    - 6
+    - 7
     truths: 正正誤正正
     pcounts:
     - 1
     - 7
     - 14
     - 8
-    - 8
+    - 9
     points:
     - pt-design-0353
     - pt-design-0072
@@ -763,7 +762,7 @@ questions:
     - 0
     - 0
     - 0
-    - 9
+    - 10
     principles:
     - ''
     - ''
@@ -854,7 +853,7 @@ questions:
     - 3
     - 6
     - 3
-    - 11
+    - 12
     points:
     - pt-design-0124
     - pt-design-0201
@@ -914,6 +913,7 @@ questions:
       - 2018-02
       - 2019-02
       - 2021-08
+      - 2023-02
     fresh: false
     level: A
     why: pt_A
@@ -952,17 +952,17 @@ questions:
     denom: 23
     counts:
     - 1
-    - 2
+    - 3
     - 1
     - 3
     - 1
     truths: 正誤正正正
     pcounts:
     - 10
-    - 2
+    - 3
     - 2
     - 3
-    - 1
+    - 2
     points:
     - pt-design-0031
     - pt-design-0239
@@ -1027,7 +1027,7 @@ questions:
     - ans_pat
     - ''
     - ''
-    - new
+    - ''
     pat: ds-filter-01
 - num: 12
   status: published
@@ -1059,16 +1059,16 @@ questions:
     counts:
     - 3
     - 9
-    - 6
+    - 7
     - 2
     - 5
     truths: 正正正誤正
     pcounts:
     - 3
-    - 11
+    - 12
+    - 9
     - 8
-    - 7
-    - 10
+    - 9
     points:
     - pt-design-0173
     - pt-design-0027
@@ -1083,8 +1083,8 @@ questions:
     - 真空捕集びんのコックには、グリースの使用は避ける。
     prcounts:
     - 0
-    - 18
-    - 18
+    - 19
+    - 19
     - 0
     - 0
     principles:
@@ -1127,15 +1127,16 @@ questions:
     - - 2018-02
       - 2023-08
     - - 2019-08
+      - 2023-02
     - []
     fresh: false
     level: B
-    why: elim_two
+    why: pt_B
     tags:
     - ''
     - odo
     - odo
-    - ans_new
+    - ans_b
     - odo
 - num: 13
   status: published
@@ -1173,7 +1174,7 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 1
-    - 11
+    - 10
     - 3
     - 12
     - 12
@@ -1271,16 +1272,16 @@ questions:
     denom: 23
     counts:
     - 1
-    - 1
     - 2
-    - 3
+    - 2
+    - 4
     - 1
     truths: 誤正正正正
     pcounts:
     - 11
     - 8
     - 8
-    - 3
+    - 4
     - 1
     points:
     - pt-design-0103
@@ -1332,7 +1333,8 @@ questions:
     - false
     - false
     near_exams:
-    - - 2023-08
+    - - 2023-02
+      - 2023-08
     - []
     - - 2024-02
     - []
@@ -1382,9 +1384,9 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 6
-    - 11
     - 10
-    - 6
+    - 10
+    - 7
     - 8
     points:
     - pt-design-0078
@@ -1560,16 +1562,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
+    - 4
     - 3
     - 4
     - 7
     - 8
     truths: 正誤正正正
     pcounts:
-    - 10
+    - 11
     - 6
-    - 10
+    - 11
     - 12
     - 16
     points:
@@ -1680,11 +1682,11 @@ questions:
     - 1
     truths: 正正誤正正
     pcounts:
-    - 8
+    - 9
     - 3
-    - 8
+    - 7
     - 5
-    - 14
+    - 13
     points:
     - pt-design-0043
     - pt-design-0192
@@ -1739,23 +1741,22 @@ questions:
       - 2016-08
       - 2017-08
       - 2022-02
-      - 2023-02
     - []
     - - 2015-08
       - 2020-08
       - 2022-02
-      - 2023-02
     - []
     - []
     fresh: false
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - odo
     - ''
-    - ans_b
+    - ans_pat
     - ''
     - odo
+    pat: ds-size-selector-01
 - num: 20
   status: published
   chapters:
@@ -1792,9 +1793,9 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 8
-    - 11
+    - 12
     - 3
-    - 9
+    - 8
     - 5
     points:
     - pt-design-0055
@@ -1861,7 +1862,6 @@ questions:
       - 2020-08
       - 2022-02
       - 2022-08
-      - 2023-02
       - 2023-08
       - 2025-08
     fresh: false

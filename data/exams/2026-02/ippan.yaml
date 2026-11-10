@@ -270,7 +270,7 @@ questions:
     - BEI（生物学的ばく露指標）は、ACGIH（米国産業衛生専門家会議）が、生物学的モニタリングの結果を評価する際の指標として示した値である
     prcounts:
     - 0
-    - 19
+    - 18
     - 0
     - 0
     - 0
@@ -463,7 +463,7 @@ questions:
     - 1
     - 1
     - 1
-    - 3
+    - 2
     - 1
     points:
     - pt-ippan-0599
@@ -479,7 +479,7 @@ questions:
     - N,N-ジメチルホルムアミドは、脂溶性と水溶性をともに有している
     prcounts:
     - 0
-    - 11
+    - 12
     - 0
     - 0
     - 0
@@ -519,19 +519,17 @@ questions:
     - []
     - []
     - - 2022-02
-      - 2023-02
       - 2026-08
     - []
     fresh: true
-    level: A
-    why: pat_A
+    level: S
+    why: trend_S
     tags:
     - new
     - odo
     - new
-    - ans_pat
+    - ans_trend
     - new
-    pat: gn-properties-01
 - num: 6
   status: published
   chapters:
@@ -699,14 +697,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 1
     - 1
     - 1
     - 1
     truths: 正正正正誤
     pcounts:
-    - 4
+    - 3
     - 1
     - 1
     - 2
@@ -815,7 +813,7 @@ questions:
     pcounts:
     - 1
     - 2
-    - 10
+    - 9
     - 1
     - 1
     points:
@@ -874,8 +872,8 @@ questions:
     - []
     - []
     fresh: true
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - new
     - ''
@@ -914,15 +912,15 @@ questions:
     - 7
     - 2
     - 3
-    - 9
-    - 4
+    - 10
+    - 3
     truths: 正正誤正正
     pcounts:
     - 8
     - 4
-    - 10
-    - 14
-    - 5
+    - 9
+    - 15
+    - 4
     points:
     - pt-ippan-0036
     - pt-ippan-0163
@@ -1130,7 +1128,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 2
-    - 11
+    - 10
     - 2
     - 1
     - 2
@@ -1149,9 +1147,9 @@ questions:
     prcounts:
     - 0
     - 0
-    - 5
+    - 6
     - 0
-    - 15
+    - 14
     principles:
     - ''
     - ''
@@ -1861,7 +1859,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 1
-    - 9
+    - 10
     - 1
     - 1
     - 2
@@ -1879,7 +1877,7 @@ questions:
     - 電動ファン付き呼吸用保護具には、防じん機能を有するもののほか、防毒機能を有するものがある
     prcounts:
     - 0
-    - 9
+    - 10
     - 0
     - 0
     - 0

@@ -5,78 +5,130 @@ source_pdf: https://www.exam.or.jp/emkohyo/
 questions:
 - num: 1
   status: published
-  chapters:
-  - units
+  chapters: []
   traps:
   - an-units-01
   rank: null
-  summary: null
-  stem: 次の記述のうち、誤っているものはどれか。
+  stem: 物理量又は物理定数Ⓐとその単位記号Ⓑとの次の組合せのうち、誤っているものはどれか。
   choices:
-  - 温度 21 ℃ は、約294 K である。
-  - 時間 2.0 h は、7.2 × 10³ s である。
-  - 電流 1.0 A は、1.0 C･s⁻¹ である。
-  - 体積 1.0 L は、1.0 × 10⁻³ m³ である。
-  - 濃度 1.0 µmol･g⁻¹ は、1.0 mol･kg⁻¹ である。
-  answer: 5
+  - 圧力 ／ N・m⁻²
+  - 粒子数濃度 ／ mg・cm⁻³
+  - 気体定数 ／ J・K⁻¹・mol⁻¹
+  - アボガドロ定数 ／ mol⁻¹
+  - 電流 ／ A
+  columns:
+  - Ⓐ
+  - Ⓑ
+  answer: 2
   choice_notes: []
-  explanation: '1.0 µmol/g を mol/kg に直すと、分子が 10⁻⁶ mol、分母が 10⁻³ kg なので、1.0 × 10⁻³ mol/kg（1.0 mmol/kg）です。1.0 mol/kg とする選択肢5は誤りです。
-
-
-    令和6年度第2回にも、同じ換算の問題があります。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: A粒子数濃度 Bmg・cm−3
-  _stem_head: 物理量又は物理定数Aとその単位記号Bとの次の組合せのうち、誤っているものはどれか。
+  freq:
+    kind: question
+    denom: 23
+    count: 10
+    form: 穴埋め・組合せの問題
+    fresh: false
+    level: A
+    why: q_hi
+- num: 2
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'n回の測定により、測定値$x_1, x_2, x_3, \cdots, x_n$が得られたとき、この測定値の標準偏差を求める式は次のうちどれか。
+
+
+    ただし、n回の測定値の平均を$\bar{x}$とする。'
+  choices:
+  - $\sqrt{n\times\sum_{i=1}^{n}(x_i+\bar{x})^2}$
+  - $\sqrt{n\times\sum_{i=1}^{n}(x_i-\bar{x})^2}$
+  - $\sqrt{\dfrac{\sum_{i=1}^{n}(x_i+\bar{x})^2}{n}}$
+  - $\sqrt{\dfrac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n}}$
+  - $\dfrac{\sum_{i=1}^{n}(x_i-\bar{x})}{n}$
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
+    form: 計算問題
+    fresh: false
+    level: D
+    why: q_new
+- num: 3
+  status: published
+  chapters: []
+  traps:
+  - an-organic-03
+  rank: null
+  stem: 25℃における物質の溶解に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい。
+  - 酢酸ナトリウムの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  - トルエンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
+  - グルコースの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  - グリシンの水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
   freq:
     kind: choice
     denom: 23
     counts:
+    - 4
     - 3
     - 3
-    - 4
-    - 5
-    - 4
-    truths: 正正正正誤
+    - 3
+    - 3
+    truths: 正正誤正正
     pcounts:
-    - 2
+    - 5
     - 3
-    - 4
-    - 4
-    - 4
+    - 5
+    - 3
+    - 3
     points:
-    - pt-bunseki-0228
-    - pt-bunseki-0134
-    - pt-bunseki-0089
-    - pt-bunseki-0079
-    - pt-bunseki-0073
+    - pt-bunseki-0084
+    - pt-bunseki-0054
+    - pt-bunseki-0226
+    - pt-bunseki-0054
+    - pt-bunseki-0054
     pnames:
-    - 温度21℃は、約294Kである。
-    - 時間2.0hは、7.2×10³sである。
-    - 電流1.0Aは、1.0C·s⁻¹である。
-    - 体積1.0Lは、1.0×10⁻³m³である。
-    - 濃度1.0μmol·g⁻¹は、1.0mol·kg⁻¹である。（誤りの記述）
+    - 塩化ナトリウムの水に対する溶解度は、エタノールに対する溶解度よりも大きい
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい（誤りの記述）
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
+    - 酢酸の水に対する溶解度は、四塩化炭素に対する溶解度よりも大きい。
     prcounts:
-    - 0
-    - 0
-    - 4
-    - 5
-    - 5
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
     principles:
-    - ''
-    - ''
-    - pr-bunseki-0035
-    - pr-bunseki-0020
-    - pr-bunseki-0020
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
+    - pr-bunseki-0036
     prnames:
-    - ''
-    - ''
-    - 電気量とクーロン
-    - 濃度の換算と単位
-    - 濃度の換算と単位
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
+    - 溶解度と極性（似たものは似たものを溶かす）
     trend:
-    - 0
-    - 0
+    - 1
+    - 1
     - 1
     - 1
     - 1
@@ -88,216 +140,111 @@ questions:
     - 2026-02
     - 2026-08
     near:
-    - false
-    - false
-    - false
-    - false
-    - false
+    - true
+    - true
+    - true
+    - true
+    - true
     near_exams:
-    - []
-    - []
-    - []
-    - []
-    - []
-    fresh: false
-    level: A
-    why: pat_A
-    tags:
-    - ''
-    - ''
-    - ''
-    - odo
-    - ans_pat
-    pat: an-units-01
-- num: 2
-  status: published
-  chapters:
-  - quantification
-  - statistics
-  traps:
-  - an-statistics-01
-  rank: null
-  summary: null
-  stem: 誤差に関する次の記述の㋑から㋩の［　］に入る語句の組合せとして、正しいものは下のうちどれか。「誤差には、反復測定において、予測が不可能な変化をする［㋑］誤差と、一定のままであるか又は予測可能な変化をする［㋺］誤差がある。通常、［㋑］誤差は正規分布に従い、繰り返し測定して平均することで［㋩］する。」
-  choices:
-  - 偶然 ／ 系統 ／ 増加
-  - 相対 ／ 偶然 ／ 減少
-  - 偶然 ／ 相対 ／ 増加
-  - 相対 ／ 系統 ／ 増加
-  - 偶然 ／ 系統 ／ 減少
-  answer: 5
-  choice_notes: []
-  explanation: '反復測定で予測できない変化をする誤差が**偶然**誤差（㋑）、一定のままか予測できる変化をする誤差が**系統**誤差（㋺）です。偶然誤差は正規分布に従い、繰り返し測定して平均することで**減少**（㋩）します。よって（5）が正しい組合せです。
-
-
-    系統誤差は、繰り返しても減らず、原因を突き止めて補正します。'
-  figures: []
-  law_note: null
-  _key_choice: '{{_{i=1}^{n}(x_i-{x})^2}{n}}'
-  _stem_head: n回の測定により、測定値x_1, x_2, x_3, , x_nが得られたとき、この測定値の標準偏差を求める式は次のうち
-  columns:
-  - ㋑
-  - ㋺
-  - ㋩
-  freq:
-    kind: question
-    denom: 23
-    count: 2
-    form: 穴埋め・組合せの問題
-    prid: pr-bunseki-0025
-    prname: 誤差と統計量
-    prcount: 7
+    - - 2016-02
+    - - 2017-08
+    - - 2021-08
+      - 2025-02
+    - - 2017-08
+    - - 2017-08
+      - 2021-08
+      - 2025-02
     fresh: false
     level: B
     why: pr_B
-- num: 3
-  status: published
-  chapters:
-  - organic
-  traps:
-  - an-organic-03
-  rank: null
-  summary: null
-  stem: n(mol)の理想気体の圧力 P(atm)、体積 V(L)、温度 T(K)の間に成立する関係式として正しいものはどれか。ただし、気体定数 R は 0.08206 atm･L･K⁻¹･mol⁻¹ とする。
-  choices:
-  - PT = nRV
-  - TV = nRP
-  - PV = nRT
-  - PT = nR/V
-  - PV = nT/R
-  answer: 3
-  choice_notes: []
-  explanation: '理想気体の状態方程式は **PV ＝ nRT** です。よって（3）が正しいものです。
-
-
-    圧力と体積の積は、物質量と温度に比例する、と言葉で覚えておくと取り違えません。'
-  figures: []
-  law_note: null
-  _key_choice: トルエンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい。
-  _stem_head: 25°Cにおける物質の溶解に関する次の記述のうち、誤っているものはどれか。
-  freq:
-    kind: question
-    denom: 23
-    count: 2
-    form: 選択肢が物質名などの問題
-    prid: pr-bunseki-0014
-    prname: 気体の状態方程式
-    prcount: 4
-    fresh: false
-    level: C
-    why: q_seen
+    tags:
+    - odo
+    - odo
+    - ans_pr
+    - odo
+    - odo
 - num: 4
   status: published
-  chapters:
-  - gas
-  traps:
-  - an-gas-01
+  chapters: []
+  traps: []
   rank: null
-  summary: null
-  stem: 一酸化炭素 84 g と二酸化炭素 88 g との混合気体を 1.0 気圧にしたとき、一酸化炭素の分圧として正しい値に最も近いものは、次のうちどれか。ただし、炭素及び酸素の原子量は、それぞれ 12 及び 16 とする。
+  stem: 圧力が1.0気圧、絶対温度が300 K、体積が3.0 Lの理想気体を、2.0気圧、360 Kにしたときのこの気体の体積は、次のうちどれか。
   choices:
-  - 0.3 気圧
-  - 0.4 気圧
-  - 0.5 気圧
-  - 0.6 気圧
-  - 0.7 気圧
-  answer: 4
+  - 1.0 L
+  - 1.2 L
+  - 1.4 L
+  - 1.6 L
+  - 1.8 L
+  columns: null
+  answer: 5
   choice_notes: []
-  explanation: '分圧は物質量の比で決まります。
-
-
-    一酸化炭素（分子量 28）84 g ＝ 3.0 mol、二酸化炭素（分子量 44）88 g ＝ 2.0 mol
-
-
-    一酸化炭素の分圧 ＝ 1.0 × 3.0 ÷ (3.0 ＋ 2.0) ＝ 0.6 気圧
-
-
-    よって（4）が正しい値です。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: 1.8 L
-  _stem_head: 圧力が1.0気圧、絶対温度が300 K、体積が3.0 Lの理想気体を、2.0気圧、360 Kにしたときのこの気体の体積は
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 1
     form: 計算問題
     fresh: false
-    level: B
-    why: q_b
+    level: D
+    why: q_new
 - num: 5
   status: published
-  chapters:
-  - solution-chem
-  - logarithm
+  chapters: []
   traps:
   - an-logarithm-01
   rank: null
-  summary: null
-  stem: pH 1.0 の硝酸溶液を水で5倍に希釈した溶液の pH として、正しい値に最も近いものは下のうちどれか。ただし、pH は次の式で計算し、log₁₀2 = 0.301 とする。pH = - log₁₀［H＋］なお、式中の［H＋］は水素イオンのモル濃度を表す。
+  stem: 濃度12 mol・L⁻¹の濃塩酸を水で希釈してpHが1.00となる溶液250 mLをつくるのに必要な濃塩酸の体積として、正しい値に最も近いものは次のうちどれか。
   choices:
-  - '1.0'
-  - '1.7'
-  - '2.3'
-  - '3.0'
-  - '5.0'
-  answer: 2
+  - 0.6 mL
+  - 1.1 mL
+  - 1.6 mL
+  - 2.1 mL
+  - 2.6 mL
+  columns: null
+  answer: 4
   choice_notes: []
-  explanation: 'pH 1.0 の硝酸の水素イオン濃度は 0.10 mol/L で、5倍に希釈すると 0.020 mol/L です。
-
-
-    pH ＝ −log(0.020) ＝ −log(2 × 10⁻²) ＝ 2 − 0.301 ≒ 1.7
-
-
-    よって（2）が正しい値です。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: 2.1 mL
-  _stem_head: 濃度12 mol・L−1の濃塩酸を水で希釈してpHが1.00となる溶液250 mLをつくるのに必要な濃塩酸の体積として、
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 3
     form: 計算問題
+    prid: pr-bunseki-0021
+    prname: 希釈しても、溶質の物質量は変わらない
+    prcount: 7
     fresh: false
     level: A
     why: pat_A
     pat: an-logarithm-01
 - num: 6
   status: published
-  chapters:
-  - solution-chem
-  - solution
+  chapters: []
   traps:
   - an-solution-02
   rank: null
-  summary: null
-  stem: 質量パーセント濃度が 20.0 ％ の塩酸（密度 1.10 g･cm⁻³）50.0 mL に 、 精製水（密度 1.00 g･cm⁻³）50.0 mL を加え、希釈した。この塩酸の質量パーセント濃度として、正しい値に最も近いものは次のうちどれか。
+  stem: '有機化合物Aを0.060 g含む水溶液50 mLからヘキサン5.0 mLにAを抽出した。水溶液中に残ったAの質量として、正しい値は次のうちどれか。
+
+
+    ただし、水とヘキサン間のAの分配係数（K）は次式で表される。
+
+
+    $K=\dfrac{[\mathrm{A}]_{\text{ヘキサン}}}{[\mathrm{A}]_{\text{水}}}=50$'
   choices:
-  - 10.0 ％
-  - 10.3 ％
-  - 10.5 ％
-  - 10.8 ％
-  - 11.0 ％
-  answer: 3
+  - 0.010 g
+  - 0.020 g
+  - 0.030 g
+  - 0.040 g
+  - 0.050 g
+  columns: null
+  answer: 1
   choice_notes: []
-  explanation: '薄めても、溶質の質量は変わりません。
-
-
-    20.0 ％ 塩酸 50.0 mL の質量 ＝ 50.0 × 1.10 ＝ 55.0 g、その中の塩化水素 ＝ 55.0 × 0.200 ＝ 11.0 g
-
-
-    加えた精製水 50.0 g なので、希釈後の溶液 ＝ 105.0 g
-
-
-    質量パーセント濃度 ＝ 11.0 ÷ 105.0 × 100 ≒ 10.5 ％
-
-
-    よって（3）が正しい値です。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: 0.010 g
-  _stem_head: 有機化合物Aを0.060 g含む水溶液50 mLからヘキサン5.0 mLにAを抽出した。水溶液中に残ったAの質量として、
   freq:
     kind: question
     denom: 23
@@ -309,81 +256,205 @@ questions:
     pat: an-solution-02
 - num: 7
   status: published
-  chapters:
-  - lab-equipment
-  traps:
-  - an-lab-equipment-01
+  chapters: []
+  traps: []
   rank: null
-  summary: null
-  stem: 作業環境測定に使用する各器具及びその使用に関する次の記述のうち、誤っているものはどれか。
+  stem: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
   choices:
-  - 熱電対温度計は使用温度範囲が広いという利点を持つが、応答速度が遅いという欠点を有する。
-  - アスマン通風乾湿計による温湿度の測定は、ファンを回転させてから5分程度後に行う。
-  - 石けん膜流量計では、一定体積の気体が流量計の計量部を流れるのに要する時間を測定し、流量を計算する。
-  - ガラス製体積計の校正は、体積計に受け入れられる水又は排出される水の質量と温度を正確に測定することで実施する。
-  - マイクロシリンジの計量目盛りは、針の部分の体積を含まない。
-  answer: 1
+  - ホールピペットの容量に対する許容誤差の割合は、一般に、容量の小さなものの方が大きい。
+  - 同じ容量のホールピペットとメスピペットでは、一般に、メスピペットの方が許容誤差は大きい。
+  - メスフラスコで水溶液を定容するときは、標線の下端とメニスカスの下端を合わせる。
+  - ビュレットは、最小目盛の1/10までを読み取る。
+  - 日本では、ガラス製体積計に表記されている体積は、液温20℃の液体の体積である。
+  columns: null
+  answer: 3
   choice_notes: []
-  explanation: '熱電対温度計は、使用できる温度範囲が広く、**応答が速い**のが長所です。「応答速度が遅いという欠点を有する」とする選択肢1は誤りです。
-
-
-    熱電対は接合部が小さいので、温度の変化にすばやく反応します。アスマン通風乾湿計をファンを回してから5分程度後に読む（選択肢2）ことも、あわせて押さえておきましょう。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: メスフラスコで水溶液を定容するときは、標線の下端とメニスカスの下端を合わせる。
-  _stem_head: 分析に使用するガラス製体積計に関する次の記述のうち、誤っているものはどれか。
   freq:
     kind: choice
     denom: 23
     counts:
+    - 5
     - 2
-    - 2
+    - 1
     - 3
-    - 2
-    - 3
-    truths: 誤正正正正
+    - 1
+    truths: 正正誤正正
     pcounts:
-    - 2
-    - 2
     - 7
-    - 2
+    - 7
+    - 4
     - 3
+    - 2
     points:
-    - pt-bunseki-0173
-    - pt-bunseki-0166
-    - pt-bunseki-0013
-    - pt-bunseki-0161
-    - pt-bunseki-0120
+    - pt-bunseki-0017
+    - pt-bunseki-0017
+    - pt-bunseki-0113
+    - pt-bunseki-0197
+    - pt-bunseki-0413
     pnames:
-    - 熱電対温度計は使用温度範囲が広いという利点を持つが、応答速度が遅いという欠点を有する（誤りの記述）
-    - アスマン通風乾湿計による温湿度の測定は、ファンを回転させてから5分程度後に行う
-    - 石けん膜流量計は、一定の体積の気体が流れるのに要する時間から流量を測定する
-    - ガラス製体積計の校正は、体積計に受け入れられる水又は排出される水の質量と温度を正確に測定することで実施する
-    - マイクロシリンジの計量目盛りは、針の部分の体積を含まない。
+    - 全量ピペットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい
+    - 全量ピペットの許容誤差の容量に対する割合は、容量の小さいものの方が大きい
+    - メスフラスコで水溶液を定容するときは、標線の上端とメニスカスの下端を合わせる
+    - ビュレットは最小目盛の1/10までを読みとる。
+    - ガラス製体積計の検定は、20℃の水を用いて行われる。
     prcounts:
     - 0
     - 0
-    - 11
+    - 0
     - 0
     - 0
     principles:
     - ''
     - ''
-    - pr-bunseki-0034
+    - ''
     - ''
     - ''
     prnames:
     - ''
     - ''
-    - 流量計の原理と校正
+    - ''
     - ''
     - ''
     trend:
+    - 2
+    - 2
+    - 0
+    - 2
+    - 0
+    recent_exams:
+    - 2024-02
+    - 2024-08
+    - 2025-02
+    - 2025-08
+    - 2026-02
+    - 2026-08
+    near:
+    - true
+    - false
+    - true
+    - false
+    - false
+    near_exams:
+    - - 2017-02
+    - []
+    - - 2017-02
+      - 2019-02
+      - 2020-02
+    - []
+    - []
+    fresh: false
+    level: C
+    why: seen
+    tags:
+    - ''
+    - ''
+    - ans_seen
+    - ''
+    - ''
+- num: 8
+  status: published
+  chapters: []
+  traps:
+  - an-gas-05
+  rank: null
+  stem: '液体のメチルエチルケトン3.0 mgを捕集袋内の清浄空気中で完全に気化させて、メチルエチルケトンの標準ガス100 Lを調製した。その濃度として、正しい値に最も近いものは次のうちどれか。
+
+
+    ただし、メチルエチルケトンのモル質量は72 g・mol⁻¹とする。また、調製した標準ガスの温度は25℃、圧力は1気圧とする。'
+  choices:
+  - 2 ppm
+  - 5 ppm
+  - 10 ppm
+  - 15 ppm
+  - 20 ppm
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: question
+    denom: 23
+    count: 7
+    form: 計算問題
+    fresh: false
+    level: C
+    why: q_seen
+- num: 9
+  status: published
+  chapters: []
+  traps:
+  - an-reagents-02
+  rank: null
+  stem: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 金属製やガラス製の蒸留水製造装置からは、イオンの溶出がある。
+  - メンブランフィルターは、水中の粒子の除去に用いる。
+  - イオン交換水の純度は、電気伝導度で評価できる。
+  - 逆浸透法では、原料水中の不純物のイオンを除去できる。
+  - 逆浸透法における加圧の上限は原料水の浸透圧と一致する。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 3
+    - 1
+    - 2
+    - 2
+    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 3
+    - 5
+    - 2
+    - 2
+    - 2
+    points:
+    - pt-bunseki-0172
+    - pt-bunseki-0076
+    - pt-bunseki-0339
+    - pt-bunseki-0248
+    - pt-bunseki-0248
+    pnames:
+    - 金属製やガラス製の蒸留水製造装置からは、イオンの溶出がある。
+    - メンブランフィルターは、水中の粒子を除去できる。
+    - イオン交換水の純度は、電気伝導度で評価する。
+    - 逆浸透法では、原料水中の不純物のイオンを除去できる。
+    - 逆浸透法では、原料水中の不純物のイオンを除去できる。
+    prcounts:
     - 0
     - 0
     - 0
     - 0
     - 0
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    trend:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
     recent_exams:
     - 2024-02
     - 2024-08
@@ -407,231 +478,82 @@ questions:
     level: C
     why: seen
     tags:
+    - ''
+    - ''
+    - ''
+    - ''
     - ans_seen
-    - ''
-    - odo
-    - ''
-    - ''
-- num: 8
-  status: published
-  chapters:
-  - standard-gas
-  - gas
-  traps:
-  - an-gas-05
-  rank: null
-  summary: null
-  stem: 拡散セルを用いた標準ガスの調製に関する次の記述のうち、誤っているものはどれか。
-  choices:
-  - 気体の標準試料の調製方法には静的な方法と動的な方法があるが、拡散セルを用いる方法は動的な方法の一つである。
-  - 拡散セルでは、一定温度に保つと内部の液体が一定速度で壁面を透過して蒸発してくることを利用する。
-  - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
-  - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる。
-  - 標準ガスの濃度は拡散セルの拡散チューブの内径に依存する。
-  answer: 2
-  choice_notes: []
-  explanation: '拡散セルは、液体が蒸発してできた蒸気が、細い拡散チューブの中を**拡散**して出てくる仕組みです。液体が壁面を透過して蒸発するのはパーミエーションチューブの仕組みなので、選択肢2は誤りです。
-
-
-    令和7年度第2回でも、拡散セルとパーミエーションチューブの違いが問われています。'
-  figures: []
-  law_note: null
-  _key_choice: 10 ppm
-  _stem_head: 液体のメチルエチルケトン3.0 mgを捕集袋内の清浄空気中で完全に気化させて、メチルエチルケトンの標準ガス100 Lを調
-  freq:
-    kind: choice
-    denom: 23
-    counts:
-    - 2
-    - 2
-    - 7
-    - 3
-    - 2
-    truths: 正誤正正正
-    pcounts:
-    - 2
-    - 2
-    - 9
-    - 10
-    - 9
-    points:
-    - pt-bunseki-0155
-    - pt-bunseki-0154
-    - pt-bunseki-0006
-    - pt-bunseki-0004
-    - pt-bunseki-0006
-    pnames:
-    - 気体の標準試料の調製方法には静的な方法と動的な方法があるが、拡散セルを用いる方法は動的な方法の一つである
-    - 拡散セルでは、一定温度に保つと内部の液体が一定速度で壁面を透過して蒸発してくることを利用する（誤りの記述）
-    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
-    - 標準ガスの濃度の微調整はセルの温度を変えるよりも希釈空気の流量を変える方が、短時間で行うことができる
-    - 標準ガスの濃度は拡散セルの温度が高いほど高くなる。
-    prcounts:
-    - 0
-    - 0
-    - 14
-    - 14
-    - 14
-    principles:
-    - ''
-    - ''
-    - pr-bunseki-0033
-    - pr-bunseki-0033
-    - pr-bunseki-0033
-    prnames:
-    - ''
-    - ''
-    - 拡散セルによる標準ガスの濃度
-    - 拡散セルによる標準ガスの濃度
-    - 拡散セルによる標準ガスの濃度
-    trend:
-    - 0
-    - 0
-    - 1
-    - 2
-    - 1
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
-    - false
-    - false
-    - true
-    - true
-    - true
-    near_exams:
-    - []
-    - []
-    - - 2023-08
-    - - 2019-08
-      - 2021-02
-    - - 2023-08
-    fresh: false
-    level: B
-    why: elim_two
-    tags:
-    - ''
-    - ans_new
-    - odo
-    - odo
-    - odo
-- num: 9
-  status: published
-  chapters:
-  - lab-equipment
-  traps:
-  - an-reagents-02
-  rank: null
-  summary: null
-  stem: 化学物質Ⓐとその使用例Ⓑとの次の組合せのうち、誤っているものはどれか。
-  choices:
-  - 水酸化カルシウム ／ 乾燥剤
-  - メチルレッド ／ pH 指示薬
-  - メチルイソブチルケトン ／ 金属キレートの抽出
-  - 酒石酸ナトリウムカリウム ／ 妨害金属のマスキング
-  - 二硫化炭素 ／ 有機溶剤の脱着
-  answer: 1
-  choice_notes: []
-  explanation: '水酸化カルシウム（消石灰）には、水を吸収する働きがないので、乾燥剤には用いません。選択肢1は誤りです。
-
-
-    令和7年度第1回にも、同じ論点があります。'
-  figures: []
-  law_note: null
-  _key_choice: 逆浸透法における加圧の上限は原料水の浸透圧と一致する。
-  _stem_head: 精製水の製造に関する次の記述のうち、誤っているものはどれか。
-  columns:
-  - Ⓐ
-  - Ⓑ
-  freq:
-    kind: question
-    denom: 23
-    count: 8
-    form: 穴埋め・組合せの問題
-    fresh: false
-    level: B
-    why: q_b
 - num: 10
   status: published
-  chapters:
-  - aas
+  chapters: []
   traps:
   - an-quantification-02
   rank: null
-  summary: null
-  stem: 検量線に関する次の記述のうち、誤っているものはどれか。
+  stem: ICP-AESに関する次の記述のうち、誤っているものはどれか。
   choices:
-  - 測定結果が検量線の濃度範囲を超えた場合は、試料溶液を希釈して再測定する。
-  - 標準添加法を用いる場合は、検量線は直線でなくてはならない。
-  - 検量線の標準液は、分析試料の成分組成と近くなるようにする。
-  - 内標準物質としては、測定対象物質と物理的、化学的によく似た物質を選択する。
-  - 検量線の直線範囲内であれば、測定結果の誤差は一定である。
+  - 高周波電流によりアルゴンガスをプラズマ化する。
+  - ネブライザーで霧状にした試料溶液の一部がプラズマに導入される。
+  - 試料溶液の粘性が測定結果に影響を与える場合がある。
+  - 原子の発光又はイオンの発光を測定する。
+  - 窒素パージ型分光器は、可視領域の発光を感度よく測定するために用いる。
+  columns: null
   answer: 5
   choice_notes: []
-  explanation: '検量線の直線範囲内でも、測定結果の誤差が一定になるわけではありません。一般に、濃度が低いほど、測定値に対する誤差の割合は大きくなります。選択肢5は誤りです。
-
-
-    検量線の両端に近いところでは誤差が大きくなりやすいので、試料の濃度が検量線の中ほどに来るように調製するのが望ましいとされています。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: 窒素パージ型分光器は、可視領域の発光を感度よく測定するために用いる。
-  _stem_head: ICP-AESに関する次の記述のうち、誤っているものはどれか。
   freq:
     kind: choice
     denom: 23
     counts:
-    - 4
-    - 3
-    - 3
-    - 3
+    - 1
+    - 1
+    - 2
+    - 2
     - 2
     truths: 正正正正誤
     pcounts:
     - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 2
+    - 3
+    - 3
+    - 2
     points:
-    - pt-bunseki-0064
-    - pt-bunseki-0081
-    - pt-bunseki-0061
-    - pt-bunseki-0065
-    - pt-bunseki-0070
+    - pt-bunseki-0125
+    - pt-bunseki-0446
+    - pt-bunseki-0188
+    - pt-bunseki-0175
+    - pt-bunseki-0296
     pnames:
-    - 測定結果が検量線の濃度範囲を超えた場合は、試料溶液を希釈する。
-    - 標準添加法を用いる場合は、検量線は直線でなくてはならない。
-    - 検量線の標準液は、分析試料の成分組成と近くなるようにする。
-    - 内標準物質には、測定対象物質と物理的、化学的によく似た物質を選択する
-    - 定量分析は、検量線の直線範囲内で行う。
+    - プラズマの生成には、アルゴンガスを用いる。
+    - 試料溶液は、ネブライザーにより霧状にされる。
+    - 試料溶液の粘性の違いは、測定値に影響を与える。
+    - 原子の発光又はイオンの発光を測定する。
+    - 窒素パージ型分光器は、赤外領域の発光を感度よく測定するために用いる（誤りの記述）
     prcounts:
-    - 7
-    - 7
-    - 7
-    - 7
-    - 7
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     principles:
-    - pr-bunseki-0032
-    - pr-bunseki-0032
-    - pr-bunseki-0032
-    - pr-bunseki-0032
-    - pr-bunseki-0032
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
     prnames:
-    - 検量線法・標準添加法・内標準法
-    - 検量線法・標準添加法・内標準法
-    - 検量線法・標準添加法・内標準法
-    - 検量線法・標準添加法・内標準法
-    - 検量線法・標準添加法・内標準法
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
     trend:
     - 0
-    - 1
-    - 1
     - 0
-    - 1
+    - 0
+    - 0
+    - 0
     recent_exams:
     - 2024-02
     - 2024-08
@@ -655,240 +577,89 @@ questions:
     level: A
     why: pat_A
     tags:
-    - odo
-    - odo
-    - odo
-    - odo
+    - ''
+    - ''
+    - ''
+    - ''
     - ans_pat
     pat: an-quantification-02
 - num: 11
   status: published
-  chapters:
-  - titration
+  chapters: []
   traps:
   - an-equilibrium-03
   rank: null
-  summary: null
-  stem: 塩化コバルト(Ⅱ)六水和物（CoCl₂･6H₂O）を水に溶解して、塩化コバルトの濃度 1.00 × 10⁻⁴ mol･L⁻¹ の溶液を調製した。この水溶液 1.00 mL に含まれるコバルトの質量として正しい値は次のうちどれか。ただし、Co の原子量は58.9とする。
+  stem: '塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。
+
+
+    ただし、塩化銀の溶解度積Kは、次式で表される。
+
+
+    K=[Ag⁺][Cl⁻]　K：1×10⁻¹⁰ mol²・L⁻²（25℃）'
   choices:
-  - 5.89 × 10⁻⁴ mg
-  - 5.89 × 10⁻³ mg
-  - 5.89 × 10⁻² mg
-  - 5.89 × 10⁻¹ mg
-  - 5.89 mg
+  - 溶解度積Kは、AgCl⇄Ag<sup>+</sup>+Cl<sup>-</sup>で示される塩化銀の溶解平衡の平衡定数である。
+  - 溶解度積Kは、水溶液中の塩化物イオンのモル濃度によって変化する。
+  - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積Kより大きくならない。
+  - 溶解度積Kは、温度によって変化する。
+  - 溶解度積Kの値から、塩化銀は水に対して難溶性の塩であるといえる。
+  columns: null
   answer: 2
   choice_notes: []
-  explanation: '塩化コバルトの物質量を求め、コバルトの原子量を掛けます。
-
-
-    1.00 × 10⁻⁴ mol/L × 1.00 × 10⁻³ L ＝ 1.00 × 10⁻⁷ mol
-
-
-    コバルトの質量 ＝ 1.00 × 10⁻⁷ × 58.9 ＝ 5.89 × 10⁻⁶ g ＝ 5.89 × 10⁻³ mg
-
-
-    よって（2）が正しい値です。六水和物の式量は使いません。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: 溶解度積Kは、水溶液中の塩化物イオンのモル濃度によって変化する。
-  _stem_head: 塩化銀の溶解度積に関する次の記述のうち、誤っているものはどれか。
-  freq:
-    kind: question
-    denom: 23
-    count: 6
-    form: 計算問題
-    fresh: false
-    level: B
-    why: pat_B
-    pat: an-equilibrium-03
-- num: 12
-  status: published
-  chapters:
-  - solution-chem
-  - reaction
-  traps:
-  - an-reaction-01
-  rank: null
-  summary: null
-  stem: 容量分析に用いる試薬に関する次の記述のうち、誤っているものはどれか。
-  choices:
-  - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
-  - 炭酸ナトリウムは、アルカリ溶液の標定に用いる。
-  - フタル酸水素カリウムは、アルカリ溶液の標定に用いる。
-  - シュウ酸は、アルカリ溶液の標定に用いる。
-  - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
-  answer: 2
-  choice_notes: []
-  explanation: '炭酸ナトリウムは、塩酸や硫酸などの**酸**の標定に用いる標準物質です。アルカリ溶液の標定に用いるとする選択肢2は誤りです。
-
-
-    アルカリ溶液の標定には、フタル酸水素カリウム（選択肢3）やシュウ酸（選択肢4）、アミド硫酸を用います。'
-  figures: []
-  law_note: null
-  _key_choice: 酢酸ナトリウム
-  _stem_head: 次の塩0.1 molを水1 Lに溶かしたとき、その水溶液のpHが最も高くなるものはどれか。
-  freq:
-    kind: choice
-    denom: 23
-    counts:
-    - 3
-    - 3
-    - 3
-    - 3
-    - 4
-    truths: 正誤正正正
-    pcounts:
-    - 5
-    - 6
-    - 4
-    - 3
-    - 6
-    points:
-    - pt-bunseki-0036
-    - pt-bunseki-0020
-    - pt-bunseki-0067
-    - pt-bunseki-0127
-    - pt-bunseki-0024
-    pnames:
-    - 容量分析の一次標準液の調製には、化学的に安定な固体試薬を用いる。
-    - 塩酸溶液の標定には、炭酸ナトリウムが用いられる。
-    - フタル酸水素カリウムは、アルカリ溶液の標定に用いる。
-    - シュウ酸は、アルカリ溶液の標定に用いる。
-    - 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
-    prcounts:
-    - 8
-    - 0
-    - 0
-    - 0
-    - 0
-    principles:
-    - pr-bunseki-0023
-    - ''
-    - ''
-    - ''
-    - ''
-    prnames:
-    - 標定と一次標準物質
-    - ''
-    - ''
-    - ''
-    - ''
-    trend:
-    - 1
-    - 2
-    - 0
-    - 0
-    - 2
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
-    - false
-    - true
-    - true
-    - true
-    - true
-    near_exams:
-    - []
-    - - 2019-08
-      - 2022-02
-    - - 2019-08
-      - 2022-02
-    - - 2019-08
-      - 2022-02
-    - - 2019-08
-      - 2022-02
-    fresh: false
-    level: S
-    why: pat_S
-    tags:
-    - odo
-    - ans_pat
-    - ''
-    - ''
-    - ''
-    pat: an-reaction-01
-- num: 13
-  status: published
-  chapters:
-  - spectrophotometry
-  traps:
-  - an-spectrophotometry-02
-  rank: null
-  summary: null
-  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  choices:
-  - 透過率は、入射光の強さに対する透過光の強さの比である。
-  - 透過率は、光が通過する溶液層の厚さに比例する。
-  - 吸光度は、透過率の逆数の対数である。
-  - 吸光度は、溶液の濃度に比例する。
-  - 吸光度は、通常、極大吸収波長で測定する。
-  answer: 2
-  choice_notes: []
-  explanation: '透過率は、溶液層の厚さ（光路長）に比例するのではなく、厚さが増えると指数的に減少します。光路長に比例するのは吸光度です。選択肢2は誤りです。
-
-
-    令和7年度第2回にも、同じ形の誤り（反比例する）があります。'
-  figures: []
-  law_note: null
-  _key_choice: 可視部の測定には、光源として重水素放電管を用いる。
-  _stem_head: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   freq:
     kind: choice
     denom: 23
     counts:
     - 4
-    - 2
+    - 4
+    - 4
     - 3
-    - 2
-    - 3
+    - 1
     truths: 正誤正正正
     pcounts:
-    - 5
-    - 2
-    - 6
-    - 7
-    - 11
+    - 4
+    - 4
+    - 4
+    - 4
+    - 1
     points:
-    - pt-bunseki-0050
-    - pt-bunseki-0209
-    - pt-bunseki-0018
-    - pt-bunseki-0012
-    - pt-bunseki-0003
+    - pt-bunseki-0107
+    - pt-bunseki-0094
+    - pt-bunseki-0094
+    - pt-bunseki-0123
+    - pt-bunseki-0505
     pnames:
-    - 入射光の強さに対する透過光の強さの比が透過率である。
-    - 透過率は、光が通過する溶液層の厚さに比例する。（誤りの記述）
-    - 吸光度は、透過率の逆数の対数である。
-    - 吸光度は、光路長に比例する。
-    - 吸光度は、通常、極大吸収波長で測定する。
+    - 溶解度積 K は、AgCl ⇄ Ag⁺ ＋ Cl⁻ で示される塩化銀の溶解平衡の平衡定数である
+    - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
+    - 水溶液中の銀イオンと塩化物イオンのモル濃度の積は、溶解度積より大きくならない
+    - 溶解度積は、温度によって変化する。
+    - 塩化銀は、溶解度積の値が小さく、水に対して難溶性の塩である
     prcounts:
     - 11
     - 11
     - 11
-    - 12
+    - 11
     - 0
     principles:
-    - pr-bunseki-0002
-    - pr-bunseki-0002
-    - pr-bunseki-0002
-    - pr-bunseki-0001
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
+    - pr-bunseki-0018
     - ''
     prnames:
-    - 吸光度と透過率の関係
-    - 吸光度と透過率の関係
-    - 吸光度と透過率の関係
-    - ランベルト・ベールの法則
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
+    - 化学平衡と平衡定数
     - ''
     trend:
     - 1
+    - 1
+    - 1
+    - 1
     - 0
-    - 2
-    - 3
-    - 2
     recent_exams:
     - 2024-02
     - 2024-08
@@ -916,227 +687,109 @@ questions:
     - ans_pr
     - odo
     - odo
-    - odo
-- num: 14
+    - new
+- num: 12
   status: published
-  chapters:
-  - spectrophotometry
-  - logarithm
+  chapters: []
   traps:
-  - an-logarithm-02
+  - an-reaction-01
   rank: null
-  summary: null
-  stem: 物質Aの濃度が 2.0 × 10⁻⁵ mol･L⁻¹ の溶液を光路長 2.0 cm の試料セルに入れ、波長 550 nm における吸光度を測定したところ、0.480 であった。この溶液中の物質Aの 550 nm におけるモル吸光係数として、正しい値は次のうちどれか。
+  stem: 次の塩0.1 molを水1 Lに溶かしたとき、その水溶液のpHが最も高くなるものはどれか。
   choices:
-  - 3.0 × 10³ mol⁻¹･L･cm⁻¹
-  - 6.0 × 10³ mol⁻¹･L･cm⁻¹
-  - 1.2 × 10⁴ mol⁻¹･L･cm⁻¹
-  - 2.4 × 10⁴ mol⁻¹･L･cm⁻¹
-  - 4.8 × 10⁴ mol⁻¹･L･cm⁻¹
-  answer: 3
+  - 塩化ナトリウム
+  - 硫酸水素ナトリウム
+  - 硝酸ナトリウム
+  - 酢酸ナトリウム
+  - 過塩素酸ナトリウム
+  columns: null
+  answer: 4
   choice_notes: []
-  explanation: 'ランベルト・ベールの法則 A ＝ ε × c × l から、
-
-
-    ε ＝ 0.480 ÷ (2.0 × 10⁻⁵ × 2.0) ＝ 1.2 × 10⁴ L・mol⁻¹・cm⁻¹
-
-
-    よって（3）が正しい値です。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: '0.7'
-  _stem_head: 測定対象物質の水溶液に、ある波長の光を当てたところ、入射光の強さ(I0)に対する透過光の強さ(I)の比(I/I0)が0.
   freq:
     kind: question
     denom: 23
-    count: 18
-    form: 計算問題
+    count: 2
+    form: 選択肢が物質名などの問題
+    prid: pr-bunseki-0038
+    prname: 酸・塩の水溶液のpH
+    prcount: 7
     fresh: false
     level: S
-    why: q_hi
-- num: 15
+    why: pat_S
+    pat: an-reaction-01
+- num: 13
   status: published
-  chapters:
-  - aas
+  chapters: []
   traps:
-  - an-aas-01
+  - an-spectrophotometry-02
   rank: null
-  summary: null
-  stem: 原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  stem: 吸光光度分析法に関する次の記述のうち、誤っているものはどれか。
   choices:
-  - 光源には中空陰極ランプが用いられる。
-  - 重水素放電管はバックグラウンドの補正に用いられる。
-  - フレーム法では、燃料ガスの燃焼で生じる化学炎の中で目的元素が原子化される。
-  - 黒鉛炉法では、黒鉛炉に通電することで生じるジュール熱で目的元素が原子化される。
-  - As(Ⅲ)や Sb(Ⅲ)は、水素化ホウ素ナトリウムで原子化できる。
-  answer: 5
-  choice_notes: []
-  explanation: 'ヒ素（Ⅲ）やアンチモン（Ⅲ）は、水素化ホウ素ナトリウムで還元すると、気体の**水素化物**（アルシン、スチビン）になります。これを加熱したセルで分解して原子化するので、水素化ホウ素ナトリウムで直接原子化できるわけではありません。選択肢5は誤りです。
-
-
-    令和5年度第1回にも、同じ論点があります。'
-  figures: []
-  law_note: null
-  _key_choice: 光の吸収は、励起状態の原子が基底状態に遷移するときに生じる。
-  _stem_head: フレームを用いた原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
-  freq:
-    kind: choice
-    denom: 23
-    counts:
-    - 3
-    - 2
-    - 2
-    - 2
-    - 2
-    truths: 正正正正誤
-    pcounts:
-    - 10
-    - 5
-    - 3
-    - 2
-    - 2
-    points:
-    - pt-bunseki-0005
-    - pt-bunseki-0032
-    - pt-bunseki-0100
-    - pt-bunseki-0179
-    - pt-bunseki-0180
-    pnames:
-    - 光源には中空陰極ランプが用いられる。
-    - 重水素放電管はバックグラウンドの補正に用いられる。
-    - フレーム法では、燃料ガスの燃焼で生じる化学炎の中で目的元素が原子化される
-    - 黒鉛炉法では、黒鉛炉に通電することで生じるジュール熱で目的元素が原子化される
-    - As（Ⅲ）やSb（Ⅲ）は、水素化ホウ素ナトリウムで原子化できる。（誤りの記述）
-    prcounts:
-    - 14
-    - 5
-    - 0
-    - 0
-    - 0
-    principles:
-    - pr-bunseki-0009
-    - pr-bunseki-0010
-    - ''
-    - ''
-    - ''
-    prnames:
-    - 原子吸光の光源は線光源
-    - バックグラウンド補正
-    - ''
-    - ''
-    - ''
-    trend:
-    - 3
-    - 1
-    - 1
-    - 0
-    - 0
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
-    - false
-    - false
-    - false
-    - false
-    - false
-    near_exams:
-    - []
-    - []
-    - []
-    - []
-    - []
-    fresh: false
-    level: A
-    why: pat_A
-    tags:
-    - odo
-    - odo
-    - ''
-    - ''
-    - ans_pat
-    pat: an-aas-01
-- num: 16
-  status: published
-  chapters:
-  - fluorescence
-  traps:
-  - an-fluorescence-02
-  rank: null
-  summary: null
-  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
-  choices:
-  - 蛍光は、電子基底状態にある分子の振動準位間の遷移で生じる。
-  - 蛍光の波長は、励起光よりも長い。
-  - 蛍光の強度は、励起光の波長により変化する。
-  - 蛍光の強度は、低濃度領域で励起光の強度に比例する。
-  - 蛍光の強度は、低濃度領域で蛍光物質の濃度に比例する。
+  - 可視部の測定には、光源として重水素放電管を用いる。
+  - 石英セルは、可視部の測定にも用いることができる。
+  - 検出器には、一般に、光電子増倍管が用いられる。
+  - 通常、測定対象物質の吸収極大波長で吸光度を測定する。
+  - モル吸光係数の単位は、mol⁻¹・L・cm⁻¹で表される。
+  columns: null
   answer: 1
   choice_notes: []
-  explanation: '蛍光は、光を吸収して**電子励起状態**になった分子が、基底状態に戻るときに出す光です。電子基底状態の中の振動準位間の遷移で生じるものではないので、選択肢1は誤りです。
-
-
-    令和5年度第2回にも、同じ選択肢があります。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: 蛍光の波長は、励起光の波長よりも短い。
-  _stem_head: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
   freq:
     kind: choice
     denom: 23
     counts:
+    - 2
+    - 2
+    - 2
+    - 1
     - 3
-    - 5
-    - 4
-    - 6
-    - 9
     truths: 誤正正正正
     pcounts:
+    - 3
+    - 2
+    - 4
+    - 11
     - 7
-    - 13
-    - 13
-    - 16
-    - 16
     points:
-    - pt-bunseki-0015
-    - pt-bunseki-0002
-    - pt-bunseki-0002
-    - pt-bunseki-0001
-    - pt-bunseki-0001
+    - pt-bunseki-0196
+    - pt-bunseki-0376
+    - pt-bunseki-0139
+    - pt-bunseki-0003
+    - pt-bunseki-0019
     pnames:
-    - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
-    - 蛍光は、励起光よりも波長が長い。
-    - 蛍光は、励起光よりも波長が長い。
-    - 蛍光の強度は、試料濃度に比例する。
-    - 蛍光の強度は、試料濃度に比例する。
+    - 光源には重水素放電管が用いられる。（誤りの記述）
+    - 石英セルは、紫外領域と可視領域の測定に用いることができる。
+    - 検出器として光電子増倍管が用いられる。
+    - 吸光度は、通常、極大吸収波長で測定する。
+    - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
     prcounts:
     - 0
-    - 15
-    - 15
-    - 16
-    - 16
+    - 0
+    - 0
+    - 0
+    - 12
     principles:
     - ''
-    - pr-bunseki-0004
-    - pr-bunseki-0004
-    - pr-bunseki-0005
-    - pr-bunseki-0005
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0003
     prnames:
     - ''
-    - 蛍光は励起光より長波長
-    - 蛍光は励起光より長波長
-    - 蛍光強度は低濃度で濃度に比例
-    - 蛍光強度は低濃度で濃度に比例
+    - ''
+    - ''
+    - ''
+    - モル吸光係数の性質
     trend:
     - 1
+    - 0
     - 2
     - 2
-    - 2
-    - 2
+    - 1
     recent_exams:
     - 2024-02
     - 2024-08
@@ -1145,382 +798,514 @@ questions:
     - 2026-02
     - 2026-08
     near:
-    - false
-    - false
-    - false
-    - false
-    - false
-    near_exams:
-    - []
-    - []
-    - []
-    - []
-    - []
-    fresh: false
-    level: B
-    why: elim_all
-    tags:
-    - ans_new
-    - odo
-    - odo
-    - odo
-    - odo
-- num: 17
-  status: published
-  chapters:
-  - gc
-  traps:
-  - an-gc-04
-  rank: null
-  summary: null
-  stem: ガスクロマトグラフ分析法に用いられる検出器に関する次の記述のうち、誤っているものはどれか。
-  choices:
-  - 熱伝導度検出器(TCD)では、成分気体とキャリヤーガスとの熱伝導率の差を利用する。
-  - 水素炎イオン化検出器(FID)では、水素炎中で試料がイオン化される。
-  - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する。
-  - 光イオン化検出器(PID)では、グロー放電で放射される紫外線で試料がイオン化される。
-  - 炎光光度検出器(FPD)では、酸素過剰の酸化炎中で発光する試料特有の波長の光を利用する。
-  answer: 5
-  choice_notes: []
-  explanation: '炎光光度検出器（FPD）は、水素が過剰な**還元炎**の中で、硫黄やリンの化合物が出す特有の光を測ります。酸素過剰の酸化炎とする選択肢5は誤りです。
-
-
-    FPD は「硫黄・リン」に感度が高い検出器です。'
-  figures: []
-  law_note: null
-  _key_choice: カラム温度を上げると、カラムの通気抵抗は小さくなる。
-  _stem_head: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
-  freq:
-    kind: choice
-    denom: 23
-    counts:
-    - 3
-    - 7
-    - 5
-    - 4
-    - 2
-    truths: 正正正正誤
-    pcounts:
-    - 4
-    - 9
-    - 5
-    - 5
-    - 4
-    points:
-    - pt-bunseki-0066
-    - pt-bunseki-0007
-    - pt-bunseki-0031
-    - pt-bunseki-0035
-    - pt-bunseki-0056
-    pnames:
-    - 熱伝導度検出器（TCD）では、成分気体とキャリヤーガスとの熱伝導率の差を利用する
-    - 水素炎イオン化検出器（FID）は、有機化合物の測定に適している。
-    - 電子捕獲検出器(ECD)では、β線照射で生じた二次電子が測定対象化合物に捕獲されることを利用する
-    - 光イオン化検出器 （PID） では、グロー放電で放射される紫外線で試料がイオン化される
-    - 炎光光度検出器(FPD)では、水素過剰の還元炎中での硫黄又はリンに特有な発光を利用する
-    prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
-    - 10
-    principles:
-    - pr-bunseki-0031
-    - pr-bunseki-0031
-    - pr-bunseki-0031
-    - pr-bunseki-0031
-    - pr-bunseki-0031
-    prnames:
-    - 検出器の原理
-    - 検出器の原理
-    - 検出器の原理
-    - 検出器の原理
-    - 検出器の原理
-    trend:
-    - 1
-    - 2
-    - 2
-    - 2
-    - 2
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
+    - true
     - false
     - false
     - false
     - true
-    - false
     near_exams:
+    - - 2017-02
+      - 2019-02
     - []
     - []
     - []
-    - - 2024-02
-    - []
+    - - 2026-08
     fresh: false
-    level: S
-    why: trend_S
+    level: C
+    why: seen
     tags:
+    - ans_seen
+    - ''
+    - ''
     - odo
     - odo
-    - odo
-    - odo
-    - ans_trend
-- num: 18
+- num: 14
   status: published
-  chapters:
-  - gc
+  chapters: []
   traps:
-  - an-gc-02
+  - an-logarithm-02
   rank: null
-  summary: null
-  stem: ガスクロマトグラフ分析に用いるカラムの理論段高さHを表す式として、正しいものは次のうちどれか。ただし、右辺の第1項はカラム内の渦流拡散に起因する項、第2項は成分分子がカラム中で拡散移動することに起因する項、第3項は移動相と固定相間の平衡の遅れに起因する項である。また、A、B、Cは定数、vは移動相の平均線速度である。
+  stem: '測定対象物質の水溶液に、ある波長の光を当てたところ、入射光の強さ（I₀）に対する透過光の強さ（I）の比（I/I₀）が0.2であった。このときの測定対象物質の吸光度として正しい値に最も近いものは次のうちどれか。
+
+
+    ただし、log₁₀2=0.301とする。'
   choices:
-  - H ＝ Av ＋ B/v ＋ C
-  - H ＝ A ＋ Bv ＋ C
-  - H ＝ Av ＋ B ＋ C/v
-  - H ＝ A/v ＋ B ＋ Cv
-  - H ＝ A ＋ B/v ＋ Cv
-  answer: 5
-  choice_notes: []
-  explanation: '理論段相当高さ H は、ファン・デームター式 H ＝ A ＋ B/v ＋ Cv で表されます。第1項（渦流拡散）は流速によらない定数、第2項（分子の拡散）は流速が大きいほど小さくなるので v に反比例、第3項（平衡の遅れ）は流速が大きいほど大きくなるので v に比例します。よって（5）が正しい式です。
-
-
-    この式から、H を最小にする（分離を最もよくする）最適な流速があることが分かります。'
-  figures: []
-  law_note: null
-  _key_choice: キャリアーガスの流速が同じなら、理論段数はガスの種類によらない。
-  _stem_head: キャピラリーガスクロマトグラフ分析法に用いられるカラムに関する次の記述のうち、誤っているものはどれか。
+  - '0.1'
+  - '0.3'
+  - '0.5'
+  - '0.7'
+  - '0.9'
   columns: null
-  freq:
-    kind: choice
-    denom: 23
-    counts:
-    - 1
-    - 2
-    - 1
-    - 1
-    - 2
-    truths: 誤誤誤誤正
-    pcounts:
-    - 1
-    - 2
-    - 1
-    - 2
-    - 2
-    points:
-    - pt-bunseki-0255
-    - pt-bunseki-0148
-    - pt-bunseki-0255
-    - pt-bunseki-0152
-    - pt-bunseki-0152
-    pnames:
-    - H＝Av＋B/v＋C（誤りの記述）
-    - H＝A＋Bv＋C（誤りの記述）
-    - H＝Av＋B/v＋C（誤りの記述）
-    - H＝A＋B/v＋Cv
-    - H＝A＋B/v＋Cv
-    prcounts:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    principles:
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    prnames:
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    trend:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
-    - true
-    - true
-    - false
-    - false
-    - true
-    near_exams:
-    - - 2019-08
-    - - 2019-08
-    - []
-    - []
-    - - 2019-08
-    fresh: false
-    level: S
-    why: pat_S
-    tags:
-    - new
-    - ''
-    - new
-    - ''
-    - ans_pat
-    pat: an-gc-02
-- num: 19
-  status: published
-  chapters:
-  - xrd
-  traps:
-  - an-xrd-02
-  rank: null
-  summary: null
-  stem: 作業環境測定におけるX線回折分析法に関する次の記述のうち、誤っているものはどれか。
-  choices:
-  - この分析法では、通常、Cu-Kα X 線が用いられる。
-  - この分析法は、結晶物質の同定や定量に使われる。
-  - X線検出器は、X線のスペクトル分析ができるものでなければならない。
-  - 定性分析の試料には、乳鉢ですり潰した粉末などが用いられる。
-  - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる。
-  answer: 3
+  answer: 4
   choice_notes: []
-  explanation: '作業環境測定の X 線回折分析法では、単一の波長の特性 X 線（Cu-Kα 線）を使い、回折角で物質を見分けるので、X 線のスペクトルを分析できる検出器である必要はありません。選択肢3は誤りです。
-
-
-    繰り返し出題されている、X 線回折の定番のひっかけパターンです。'
+  explanation: null
   figures: []
   law_note: null
-  _key_choice: イ格子面間隔 ロ特性X線 ハゴニオメーター
-  _stem_head: X線回折分析法に関する次の記述のイからハの[ ]に入る語句の組合せとして、正しいものは下のうちどれか。
-  freq:
-    kind: choice
-    denom: 23
-    counts:
-    - 6
-    - 6
-    - 6
-    - 5
-    - 5
-    truths: 正正誤正正
-    pcounts:
-    - 6
-    - 9
-    - 6
-    - 5
-    - 5
-    points:
-    - pt-bunseki-0025
-    - pt-bunseki-0010
-    - pt-bunseki-0026
-    - pt-bunseki-0040
-    - pt-bunseki-0045
-    pnames:
-    - この分析法では、通常、Cu-Kα線が用いられる。
-    - この分析法は、石英の同定と定量に使われる。
-    - X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
-    - 定性分析の試料は、乳鉢ですり潰した粉末などが用いられる。
-    - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
-    prcounts:
-    - 16
-    - 0
-    - 0
-    - 0
-    - 17
-    principles:
-    - pr-bunseki-0012
-    - ''
-    - ''
-    - ''
-    - pr-bunseki-0011
-    prnames:
-    - X線回折の線源は特性X線
-    - ''
-    - ''
-    - ''
-    - X線回折のブラッグの条件
-    trend:
-    - 1
-    - 0
-    - 3
-    - 2
-    - 2
-    recent_exams:
-    - 2024-02
-    - 2024-08
-    - 2025-02
-    - 2025-08
-    - 2026-02
-    - 2026-08
-    near:
-    - false
-    - false
-    - false
-    - false
-    - false
-    near_exams:
-    - []
-    - []
-    - []
-    - []
-    - []
-    fresh: false
-    level: S
-    why: pat_S
-    tags:
-    - odo
-    - odo
-    - ans_pat
-    - ''
-    - odo
-    pat: an-xrd-02
-- num: 20
-  status: published
-  chapters:
-  - radiation
-  - logarithm
-  traps:
-  - an-logarithm-03
-  rank: null
-  summary: null
-  stem: 壊変形式Ⓐと、壊変に伴って原子から放出される粒子、素粒子又は電磁波Ⓑとの次の組合せのうち、誤っているものはどれか。
-  choices:
-  - α 壊変 ／ ⁴He の原子核
-  - β⁻ 壊変 ／ 電子
-  - β⁺ 壊変 ／ 陽子
-  - 軌道電子捕獲 ／ X 線
-  - 核異性体転移 ／ γ 線
-  answer: 3
-  choice_notes: []
-  explanation: 'β⁺ 壊変で放出されるのは、陽子ではなく**陽電子**です。選択肢3は誤りです。
-
-
-    令和6年度第2回にも、同じ論点があります。'
-  figures: []
-  law_note: null
-  _key_choice: 350 Bq
-  _stem_head: 半減期8.0日の放射性核種の放射能が500 Bqであるとき、4.0日後の放射能として正しい値に最も近いものは次のうちどれ
-  columns:
-  - Ⓐ
-  - Ⓑ
   freq:
     kind: question
     denom: 23
     count: 6
+    form: 計算問題
+    fresh: false
+    level: S
+    why: pat_S
+    pat: an-logarithm-02
+- num: 15
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: フレームを用いた原子吸光分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - フレームは、空気とアセチレンなどの混合気体の燃焼でつくられる。
+  - 試料溶液は、噴霧されてフレームに導入される。
+  - 中空陰極ランプの陰極は、測定対象金属あるいはその合金でつくられている。
+  - 光の吸収は、励起状態の原子が基底状態に遷移するときに生じる。
+  - 金属の定量は、検量線法や標準添加法で行う。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    truths: 正正正誤正
+    pcounts:
+    - 4
+    - 2
+    - 5
+    - 6
+    - 6
+    points:
+    - pt-bunseki-0128
+    - pt-bunseki-0429
+    - pt-bunseki-0057
+    - pt-bunseki-0044
+    - pt-bunseki-0042
+    pnames:
+    - フレームは、一般にアセチレンの燃焼でつくられる。
+    - 試料溶液がフレームに導入される。
+    - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
+    - 光の吸収は、基底状態の原子により生じる。
+    - 定量は、検量線法で行う。
+    prcounts:
+    - 0
+    - 0
+    - 14
+    - 17
+    - 0
+    principles:
+    - ''
+    - ''
+    - pr-bunseki-0009
+    - pr-bunseki-0008
+    - ''
+    prnames:
+    - ''
+    - ''
+    - 原子吸光の光源は線光源
+    - 原子吸光は基底状態の原子の光吸収
+    - ''
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 3
+    recent_exams:
+    - 2024-02
+    - 2024-08
+    - 2025-02
+    - 2025-08
+    - 2026-02
+    - 2026-08
+    near:
+    - false
+    - false
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - []
+    - []
+    fresh: false
+    level: S
+    why: pr_S
+    tags:
+    - ''
+    - ''
+    - odo
+    - ans_pr
+    - ''
+- num: 16
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 蛍光光度分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 光源にはキセノンランプが用いられる。
+  - 光源光は、励起分光器で分光され励起光となる。
+  - 試料からの蛍光は、蛍光分光器で分光される。
+  - 光電子増倍管は、検出器として使用される。
+  - 蛍光の波長は、励起光の波長よりも短い。
+  columns: null
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    truths: 正正正正誤
+    pcounts:
+    - 1
+    - 3
+    - 4
+    - 4
+    - 13
+    points:
+    - pt-bunseki-0504
+    - pt-bunseki-0227
+    - pt-bunseki-0118
+    - pt-bunseki-0139
+    - pt-bunseki-0002
+    pnames:
+    - 蛍光光度分析法の光源には、キセノンランプが用いられる
+    - 光源の光が分光器で分光され励起光となる。
+    - 試料からの蛍光は分光器で分光される。
+    - 検出器として光電子増倍管が用いられる。
+    - 蛍光は、励起光よりも波長が長い。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 15
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0004
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 蛍光は励起光より長波長
+    trend:
+    - 0
+    - 1
+    - 2
+    - 2
+    - 2
+    recent_exams:
+    - 2024-02
+    - 2024-08
+    - 2025-02
+    - 2025-08
+    - 2026-02
+    - 2026-08
+    near:
+    - true
+    - false
+    - false
+    - false
+    - true
+    near_exams:
+    - - 2024-08
+    - []
+    - []
+    - []
+    - - 2020-08
+      - 2021-02
+      - 2022-02
+      - 2022-08
+      - 2026-08
+    fresh: false
+    level: S
+    why: pt_S
+    tags:
+    - new
+    - ''
+    - ''
+    - ''
+    - ans_hi
+- num: 17
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: ガスクロマトグラフ分析法に関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - 試料気化室の温度は、通常、カラム温度より少し高い温度に設定される。
+  - ピークの分離度は、カラム温度が高いほど小さくなる。
+  - 沸点の近い物質も分離分析することができる。
+  - カラム温度を上げると、カラムの通気抵抗は小さくなる。
+  - カラム温度が高いほど、保持時間は短くなる。
+  columns: null
+  answer: 4
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 3
+    truths: 正正正誤正
+    pcounts:
+    - 2
+    - 3
+    - 2
+    - 2
+    - 4
+    points:
+    - pt-bunseki-0246
+    - pt-bunseki-0198
+    - pt-bunseki-0350
+    - pt-bunseki-0400
+    - pt-bunseki-0131
+    pnames:
+    - 検出器の温度は、通常、カラム温度よりも高めに設定される。
+    - ピークの分離度は、カラム温度が高いほど小さくなる。
+    - ガスクロマトグラフ分析法では、沸点の近い物質を分離分析することができる
+    - カラム温度を上げると、カラムの通気抵抗は大きくなる。
+    - 保持時間は、カラム温度が高いほど短くなる。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 6
+    principles:
+    - ''
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0029
+    prnames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - 保持時間と溶出順
+    trend:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 2
+    recent_exams:
+    - 2024-02
+    - 2024-08
+    - 2025-02
+    - 2025-08
+    - 2026-02
+    - 2026-08
+    near:
+    - false
+    - false
+    - false
+    - true
+    - false
+    near_exams:
+    - []
+    - []
+    - []
+    - - 2015-08
+    - []
+    fresh: false
+    level: C
+    why: seen
+    tags:
+    - ''
+    - ''
+    - ''
+    - ans_seen
+    - odo
+- num: 18
+  status: published
+  chapters: []
+  traps:
+  - an-gc-02
+  rank: null
+  stem: キャピラリーガスクロマトグラフ分析法に用いられるカラムに関する次の記述のうち、誤っているものはどれか。
+  choices:
+  - キャリアーガスの流速が同じなら、理論段数はガスの種類によらない。
+  - カラム内径が小さいほど、理論段数は大きくなる。
+  - カラムの液相の膜厚が小さいほど、理論段数は大きくなる。
+  - 液相の極性が大きいほど、極性物質の保持時間が長くなる。
+  - 無極性液相を用いると、無極性物質は沸点の低い順に溶出する。
+  columns: null
+  answer: 1
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: choice
+    denom: 23
+    counts:
+    - 1
+    - 7
+    - 3
+    - 1
+    - 1
+    truths: 誤正正正正
+    pcounts:
+    - 10
+    - 10
+    - 10
+    - 2
+    - 4
+    points:
+    - pt-bunseki-0052
+    - pt-bunseki-0052
+    - pt-bunseki-0052
+    - pt-bunseki-0435
+    - pt-bunseki-0095
+    pnames:
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - カラム内径が小さいほど理論段数は大きくなる。
+    - 極性液相を用いると、極性官能基を有する化合物の保持時間は大きくなる
+    - 極性液相は極性官能基を有する化合物の溶出を遅くする。
+    prcounts:
+    - 0
+    - 0
+    - 0
+    - 6
+    - 6
+    principles:
+    - ''
+    - ''
+    - ''
+    - pr-bunseki-0029
+    - pr-bunseki-0029
+    prnames:
+    - ''
+    - ''
+    - ''
+    - 保持時間と溶出順
+    - 保持時間と溶出順
+    trend:
+    - 5
+    - 5
+    - 5
+    - 1
+    - 3
+    recent_exams:
+    - 2024-02
+    - 2024-08
+    - 2025-02
+    - 2025-08
+    - 2026-02
+    - 2026-08
+    near:
+    - false
+    - true
+    - false
+    - false
+    - false
+    near_exams:
+    - []
+    - - 2016-02
+      - 2019-02
+      - 2024-08
+    - []
+    - []
+    - []
+    fresh: false
+    level: S
+    why: pat_S
+    tags:
+    - ans_pat
+    - odo
+    - odo
+    - odo
+    - odo
+    pat: an-gc-02
+- num: 19
+  status: published
+  chapters: []
+  traps: []
+  rank: null
+  stem: 'X線回折分析法に関する次の記述の㋑から㋩の［　　］に入る語句の組合せとして、正しいものは下のうちどれか。
+
+
+    「X線回折分析法は、ブラッグの法則を用いて［㋑］を求めることにより、鉱物の同定・定量などの手段として使われている。そのためX線回折装置には、X線を発生させるX線管球、発生したX線のうち［㋺］のみを測定試料に照射するための除去フィルターやモノクロメーター、試料から回折したX線の回折角を測定するための［㋩］が備わっている。」'
+  choices:
+  - 粒子数濃度 ／ 連続X線 ／ コリメーター
+  - 粒子数濃度 ／ 連続X線 ／ ゴニオメーター
+  - 格子面間隔 ／ 連続X線 ／ ゴニオメーター
+  - 格子面間隔 ／ 特性X線 ／ コリメーター
+  - 格子面間隔 ／ 特性X線 ／ ゴニオメーター
+  columns:
+  - ㋑
+  - ㋺
+  - ㋩
+  answer: 5
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: question
+    denom: 23
+    count: 1
     form: 穴埋め・組合せの問題
-    prid: pr-bunseki-0027
-    prname: 放射壊変と原子番号・質量数
-    prcount: 6
+    fresh: false
+    level: D
+    why: q_new
+- num: 20
+  status: published
+  chapters: []
+  traps:
+  - an-logarithm-03
+  rank: null
+  stem: 半減期8.0日の放射性核種の放射能が500 Bqであるとき、4.0日後の放射能として正しい値に最も近いものは次のうちどれか。
+  choices:
+  - 450 Bq
+  - 400 Bq
+  - 350 Bq
+  - 250 Bq
+  - 125 Bq
+  columns: null
+  answer: 3
+  choice_notes: []
+  explanation: null
+  figures: []
+  law_note: null
+  freq:
+    kind: question
+    denom: 23
+    count: 8
+    form: 計算問題
     fresh: false
     level: B
-    why: pat_B
-    pat: an-logarithm-03
+    why: q_b

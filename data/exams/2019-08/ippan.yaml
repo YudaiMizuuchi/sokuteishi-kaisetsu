@@ -28,17 +28,17 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 3
-    - 5
     - 4
-    - 7
+    - 5
+    - 5
+    - 8
     - 3
     truths: 正誤正正正
     pcounts:
-    - 4
     - 5
-    - 6
+    - 5
     - 7
+    - 8
     - 3
     points:
     - pt-ippan-0132
@@ -236,13 +236,13 @@ questions:
     counts:
     - 4
     - 3
-    - 4
+    - 5
     - 3
     - 1
     truths: 正正正正誤
     pcounts:
     - 4
-    - 9
+    - 10
     - 8
     - 6
     - 4
@@ -300,7 +300,6 @@ questions:
     - []
     - - 2021-02
       - 2022-02
-      - 2023-02
     - - 2024-02
     - []
     fresh: false
@@ -343,14 +342,14 @@ questions:
     counts:
     - 3
     - 6
-    - 7
+    - 6
     - 1
     - 3
     truths: 正正正正誤
     pcounts:
     - 9
     - 6
-    - 10
+    - 9
     - 1
     - 3
     points:
@@ -481,14 +480,14 @@ questions:
     - 3
     - 9
     - 7
-    - 4
+    - 3
     - 2
     truths: 正正正誤正
     pcounts:
     - 4
     - 5
     - 10
-    - 5
+    - 4
     - 2
     points:
     - pt-ippan-0144
@@ -546,8 +545,8 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: B
+    why: pat_B
     tags:
     - ''
     - ''
@@ -585,15 +584,15 @@ questions:
     counts:
     - 5
     - 2
-    - 6
-    - 9
+    - 7
+    - 8
     - 5
     truths: 正誤正正正
     pcounts:
     - 7
     - 4
-    - 7
-    - 10
+    - 8
+    - 9
     - 9
     points:
     - pt-ippan-0060
@@ -687,14 +686,14 @@ questions:
     denom: 23
     counts:
     - 3
-    - 9
+    - 10
     - 4
     - 2
     - 1
     truths: 正正正正誤
     pcounts:
     - 8
-    - 14
+    - 15
     - 4
     - 3
     - 2
@@ -795,14 +794,14 @@ questions:
     - 4
     - 1
     - 1
-    - 6
+    - 7
     truths: 誤正正正正
     pcounts:
     - 7
     - 5
     - 4
     - 2
-    - 10
+    - 11
     points:
     - pt-ippan-0046
     - pt-ippan-0125
@@ -904,7 +903,7 @@ questions:
     pcounts:
     - 3
     - 3
-    - 12
+    - 11
     - 5
     - 6
     points:
@@ -922,7 +921,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 15
+    - 14
     - 0
     - 0
     principles:
@@ -1004,14 +1003,14 @@ questions:
     denom: 23
     counts:
     - 4
-    - 6
+    - 5
     - 3
     - 2
     - 8
     truths: 正正正誤正
     pcounts:
     - 4
-    - 7
+    - 6
     - 5
     - 4
     - 12
@@ -1105,14 +1104,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 4
+    - 3
     - 2
     - 7
     - 12
     - 7
     truths: 誤正正正正
     pcounts:
-    - 7
+    - 6
     - 6
     - 7
     - 12
@@ -1182,7 +1181,6 @@ questions:
     - - 2020-08
       - 2021-02
       - 2022-02
-      - 2023-02
     - []
     fresh: false
     level: A
@@ -1224,16 +1222,16 @@ questions:
     counts:
     - 1
     - 2
+    - 3
     - 4
-    - 4
-    - 4
+    - 5
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 4
+    - 5
+    - 5
     - 5
     - 6
-    - 5
-    - 5
     points:
     - pt-ippan-0252
     - pt-ippan-0114
@@ -1288,6 +1286,7 @@ questions:
       - 2018-08
       - 2020-08
       - 2021-08
+      - 2023-02
     - []
     - []
     - []
@@ -1298,9 +1297,9 @@ questions:
     tags:
     - ans_pat
     - ''
+    - ''
+    - ''
     - odo
-    - ''
-    - ''
     pat: gn-em-waves-01
 - num: 14
   status: published
@@ -1333,14 +1332,14 @@ questions:
     - 3
     - 5
     - 1
-    - 4
+    - 5
     - 4
     truths: 正正誤正正
     pcounts:
     - 7
-    - 12
+    - 13
     - 1
-    - 4
+    - 5
     - 5
     points:
     - pt-ippan-0057
@@ -1356,7 +1355,7 @@ questions:
     - 電離放射線の被ばくによる生体影響は、身体的影響と遺伝的影響に分類される
     prcounts:
     - 0
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -1433,16 +1432,16 @@ questions:
     denom: 23
     counts:
     - 1
-    - 4
-    - 4
+    - 5
+    - 3
     - 2
     - 4
     truths: 正正正誤正
     pcounts:
-    - 4
-    - 4
-    - 9
+    - 5
+    - 5
     - 8
+    - 9
     - 4
     points:
     - pt-ippan-0186
@@ -1459,9 +1458,9 @@ questions:
     prcounts:
     - 0
     - 0
-    - 9
-    - 13
-    - 11
+    - 8
+    - 14
+    - 12
     principles:
     - ''
     - ''
@@ -1538,16 +1537,16 @@ questions:
     counts:
     - 2
     - 2
-    - 7
+    - 6
     - 3
-    - 8
+    - 7
     truths: 正正正誤正
     pcounts:
     - 2
     - 7
     - 17
     - 6
-    - 12
+    - 11
     points:
     - pt-ippan-0382
     - pt-ippan-0048
@@ -1645,7 +1644,7 @@ questions:
     denom: 23
     counts:
     - 2
-    - 3
+    - 4
     - 2
     - 3
     - 4
@@ -1670,7 +1669,7 @@ questions:
     - 防じんマスクの面体の接顔部に接顔メリヤスを使用すると、マスクと顔面との密着性が低下する
     prcounts:
     - 0
-    - 13
+    - 14
     - 0
     - 0
     - 0
@@ -1749,17 +1748,17 @@ questions:
     denom: 23
     counts:
     - 7
-    - 3
     - 2
+    - 3
     - 2
     - 3
     truths: 正正正正誤
     pcounts:
-    - 11
-    - 6
-    - 2
     - 10
-    - 9
+    - 5
+    - 3
+    - 10
+    - 10
     points:
     - pt-ippan-0012
     - pt-ippan-0071
@@ -1777,7 +1776,7 @@ questions:
     - 0
     - 0
     - 0
-    - 9
+    - 10
     principles:
     - ''
     - ''
@@ -1813,7 +1812,6 @@ questions:
     - - 2015-08
       - 2018-02
       - 2022-02
-      - 2023-02
     - []
     - - 2016-08
       - 2018-08
@@ -1825,6 +1823,7 @@ questions:
       - 2016-08
       - 2017-08
       - 2018-02
+      - 2023-02
       - 2023-08
       - 2024-02
       - 2026-02
@@ -1833,7 +1832,7 @@ questions:
     why: pt_A
     tags:
     - odo
-    - odo
+    - ''
     - ''
     - odo
     - ans_hi
@@ -1865,14 +1864,14 @@ questions:
     - 2
     - 3
     - 3
-    - 4
+    - 3
     - 4
     truths: 正正正誤正
     pcounts:
     - 2
     - 5
     - 7
-    - 5
+    - 4
     - 4
     points:
     - pt-ippan-0348
@@ -1968,14 +1967,14 @@ questions:
     - 6
     - 5
     - 1
-    - 11
-    - 3
+    - 10
+    - 2
     truths: 正正誤正正
     pcounts:
     - 10
-    - 12
-    - 3
     - 11
+    - 3
+    - 10
     - 11
     points:
     - pt-ippan-0014

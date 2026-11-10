@@ -209,7 +209,7 @@ questions:
     - 生殖毒性とは、性機能及び生殖能に対する悪影響並びに子の発生に対する悪影響をいう
     - 変異原性試験とは、化学物質が細胞の遺伝子に突然変異を引き起こすかどうかを調べるもので、発がん性のスクリーニング試験として利用される
     prcounts:
-    - 19
+    - 18
     - 0
     - 0
     - 0
@@ -403,14 +403,14 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 8
+    - 9
     - 1
     - 1
     - 1
     - 1
     truths: 正正正正誤
     pcounts:
-    - 10
+    - 11
     - 1
     - 1
     - 1
@@ -428,7 +428,7 @@ questions:
     - テトラヒドロフランの極性は、テトラクロロエチレンの極性より大きい
     - クレゾールは、水に溶けるとアルカリ性を示す。（誤りの記述）
     prcounts:
-    - 10
+    - 11
     - 0
     - 0
     - 0
@@ -518,7 +518,7 @@ questions:
     - 1
     - 1
     - 1
-    - 6
+    - 5
     - 1
     points:
     - pt-ippan-0601
@@ -579,13 +579,14 @@ questions:
     - []
     fresh: true
     level: B
-    why: pt_B
+    why: pat_B
     tags:
     - new
     - new
     - new
-    - ans_b
+    - ans_pat
     - new
+    pat: gn-toxicity-01
 - num: 7
   status: published
   chapters:
@@ -681,7 +682,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 11
+    - 12
     - 0
     - 0
     principles:
@@ -766,7 +767,7 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 1
-    - 9
+    - 8
     - 1
     - 1
     - 1
@@ -826,8 +827,8 @@ questions:
     - []
     - []
     fresh: true
-    level: S
-    why: pat_S
+    level: A
+    why: pat_A
     tags:
     - new
     - odo
@@ -870,10 +871,10 @@ questions:
     - 1
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 2
     - 4
     - 1
-    - 5
+    - 4
     - 1
     points:
     - pt-ippan-0256
@@ -926,7 +927,6 @@ questions:
     - false
     near_exams:
     - - 2022-02
-      - 2023-02
     - []
     - []
     - []
@@ -1102,7 +1102,7 @@ questions:
     - 0
     - 0
     - 0
-    - 5
+    - 6
     - 0
     principles:
     - ''
@@ -1189,7 +1189,7 @@ questions:
     - 2
     - 1
     - 4
-    - 15
+    - 14
     points:
     - pt-ippan-0807
     - pt-ippan-0325
@@ -1387,16 +1387,16 @@ questions:
     denom: 23
     counts:
     - 1
-    - 8
+    - 7
     - 1
     - 2
     - 1
     truths: 正正誤正正
     pcounts:
     - 1
-    - 4
+    - 3
     - 1
-    - 4
+    - 5
     - 1
     points:
     - pt-ippan-0795
@@ -1499,7 +1499,7 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 1
-    - 12
+    - 13
     - 1
     - 1
     - 1
@@ -1517,10 +1517,10 @@ questions:
     - 確率的影響では、障害の重篤度は線量に依存しない。
     prcounts:
     - 2
-    - 13
+    - 14
     - 0
     - 0
-    - 19
+    - 18
     principles:
     - pr-ippan-0018
     - pr-ippan-0019
@@ -1603,8 +1603,8 @@ questions:
     truths: 正正誤正正
     pcounts:
     - 1
-    - 5
-    - 2
+    - 6
+    - 3
     - 1
     - 1
     points:
@@ -1663,14 +1663,15 @@ questions:
     - []
     - []
     fresh: true
-    level: A
-    why: trend_A
+    level: B
+    why: pat_B
     tags:
     - new
-    - ''
-    - ans_trend
+    - odo
+    - ans_pat
     - new
     - new
+    pat: gn-ventilation-02
 - num: 18
   status: published
   chapters:

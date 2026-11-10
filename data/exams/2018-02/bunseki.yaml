@@ -34,12 +34,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 10
     form: 穴埋め・組合せの問題
     fresh: false
     level: A
-    why: pat_A
-    pat: an-units-01
+    why: q_hi
 - num: 2
   status: published
   chapters:
@@ -105,7 +104,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 9
+    count: 8
     form: 計算問題
     fresh: false
     level: B
@@ -249,11 +248,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 3
     form: 計算問題
     prid: pr-bunseki-0021
     prname: 希釈しても、溶質の物質量は変わらない
-    prcount: 6
+    prcount: 7
     fresh: false
     level: A
     why: pat_A
@@ -291,7 +290,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 6
+    count: 7
     form: 計算問題
     fresh: false
     level: A
@@ -336,7 +335,7 @@ questions:
     pcounts:
     - 4
     - 2
-    - 6
+    - 7
     - 2
     - 1
     points:
@@ -352,7 +351,7 @@ questions:
     - メスフラスコを使用する前に共洗いを行う。（誤りの記述）
     - 水流ポンプ(アスピレーター)で得られる真空度は、水の蒸気圧に依存する
     prcounts:
-    - 11
+    - 10
     - 0
     - 0
     - 0
@@ -546,7 +545,7 @@ questions:
     pcounts:
     - 2
     - 3
-    - 4
+    - 5
     - 2
     - 3
     points:
@@ -647,14 +646,14 @@ questions:
     - 1
     - 1
     - 1
-    - 1
+    - 2
     truths: 正正正正誤
     pcounts:
+    - 2
     - 1
+    - 4
     - 1
-    - 3
-    - 1
-    - 1
+    - 2
     points:
     - pt-bunseki-0446
     - pt-bunseki-0447
@@ -714,7 +713,7 @@ questions:
     level: A
     why: pat_A
     tags:
-    - new
+    - ''
     - new
     - ''
     - new
@@ -912,9 +911,9 @@ questions:
     pcounts:
     - 2
     - 3
+    - 6
+    - 6
     - 7
-    - 6
-    - 6
     points:
     - pt-bunseki-0189
     - pt-bunseki-0114
@@ -928,11 +927,11 @@ questions:
     - モル吸光係数は、波長により異なる。
     - モル吸光係数の単位は、mol⁻¹·L·cm⁻¹で表される。
     prcounts:
-    - 12
+    - 11
+    - 10
     - 11
     - 12
-    - 11
-    - 11
+    - 12
     principles:
     - pr-bunseki-0001
     - pr-bunseki-0002
@@ -1012,7 +1011,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 5
+    count: 6
     form: 計算問題
     fresh: false
     level: S
@@ -1053,9 +1052,9 @@ questions:
     truths: 誤正正正正
     pcounts:
     - 4
-    - 10
+    - 9
     - 4
-    - 7
+    - 6
     - 5
     points:
     - pt-bunseki-0068
@@ -1070,10 +1069,10 @@ questions:
     - 吸光度は、光路長に比例する。
     - フレームの種類により感度が変化する。
     prcounts:
-    - 16
+    - 17
     - 14
     - 0
-    - 12
+    - 11
     - 0
     principles:
     - pr-bunseki-0008
@@ -1160,8 +1159,8 @@ questions:
     pcounts:
     - 3
     - 13
-    - 16
-    - 16
+    - 15
+    - 15
     - 13
     points:
     - pt-bunseki-0111
@@ -1178,8 +1177,8 @@ questions:
     prcounts:
     - 0
     - 15
-    - 16
-    - 16
+    - 15
+    - 15
     - 15
     principles:
     - ''
@@ -1257,16 +1256,16 @@ questions:
     kind: choice
     denom: 23
     counts:
-    - 7
+    - 6
     - 1
-    - 4
+    - 3
     - 1
     - 1
     truths: 正誤正正正
     pcounts:
-    - 9
-    - 9
-    - 5
+    - 8
+    - 8
+    - 4
     - 4
     - 4
     points:
@@ -1282,11 +1281,11 @@ questions:
     - 光イオン化検出器（PID）は、芳香族炭化水素を検出できる。
     - 電子捕獲検出器（ECD）は、ハロゲン化合物の定量に用いられる。
     prcounts:
-    - 10
-    - 10
-    - 10
-    - 10
-    - 10
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
     principles:
     - pr-bunseki-0031
     - pr-bunseki-0031
@@ -1426,9 +1425,9 @@ questions:
     - 結晶物質の定量は、回折線の強度測定で行う。
     - 回折角の測定にゴニオメーターを用いる。
     prcounts:
+    - 15
+    - 15
     - 16
-    - 16
-    - 17
     - 0
     - 0
     principles:
@@ -1470,14 +1469,13 @@ questions:
     - []
     fresh: false
     level: S
-    why: pat_S
+    why: pr_S
     tags:
     - odo
     - ans_pr
     - odo
     - odo
     - ''
-    pat: an-xrd-02
 - num: 20
   status: published
   chapters:
