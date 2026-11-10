@@ -51,6 +51,10 @@
 .pstats caption { text-align: left; color: var(--muted); font-size: .85rem; padding-bottom: 4px; }
 .pstats th, .pstats td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: middle; }
 .pstats td.num, .pstats th.num { text-align: right; white-space: nowrap; }
+/* 見出しは折り返す（スマートフォンの幅で、表が画面からはみ出さないように）。それでも入りきらないときは、表の中だけ横に動かす */
+.pstats th.num { white-space: normal; line-height: 1.35; }
+.pstats table { display: block; overflow-x: auto; }
+@media (max-width: 520px) { .pstats table { font-size: .85rem; } .pstats th, .pstats td { padding: 6px 5px; } }
 .pbar { display: inline-block; width: 6em; height: .6em; border-radius: 3px; background: var(--deep-soft); vertical-align: middle; margin-right: 6px; overflow: hidden; }
 .pbar i { display: block; height: 100%; background: var(--deep); }
 .pweak { max-width: 46em; }
