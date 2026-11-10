@@ -12,6 +12,8 @@ export const INCLUDE_RANK_C = true;                   // 未解答の問題に�
 export const INCLUDE_RANK_D = false;                  // 未解答の問題に、区分 D を含めるか（既定）
 export const MIN_SOLVED_FOR_WEAK = 5;                 // 「弱い章」に数える、解いた問題数の下限
 export const WEAK_CHAPTERS_SHOWN = 10;
+export const DRILL_RECENT_BONUS = 2;                  // 一問一答：直近の回に出た論点への加点（1回あたり）
+export const DRILL_RECENT_CAP = 3;                    // 〃（数える回数の上限）
 const DAY = 86400000;
 
 /** 選んだ番号（配列）が正答か。正答が ["all"] なら、どれを選んでも正解。正答が未掲載なら null（採点しない）。 */
@@ -37,20 +39,23 @@ export function makeAttempt(q, selected, isCorrect, now = new Date(), uuid = () 
   };
 }
 
-/** 通常の問題の記録（choice_n が null）から、問題ごとの成績を求める。 */
-export function statsByQuestion(attempts) {
+function fold(list, keyOf) {
   const map = new Map();
-  const list = attempts.filter((a) => a.choice_n == null && a.mode !== "drill")
-    .sort((a, b) => a.answered_at.localeCompare(b.answered_at));
-  for (const a of list) {
-    const s = map.get(a.question_id) || { n: 0, correct: 0, lastAt: null, lastOk: null, streak: 0 };
+  for (const a of [...list].sort((x, y) => x.answered_at.localeCompare(y.answered_at))) {
+    const k = keyOf(a);
+    const s = map.get(k) || { n: 0, correct: 0, lastAt: null, lastOk: null, streak: 0 };
     s.n += 1;
     if (a.is_correct) { s.correct += 1; s.streak += 1; } else { s.streak = 0; }
     s.lastAt = a.answered_at;
     s.lastOk = a.is_correct;
-    map.set(a.question_id, s);
+    map.set(k, s);
   }
   return map;
+}
+
+/** 通常の問題の記録（choice_n が null）から、問題ごとの成績を求める。 */
+export function statsByQuestion(attempts) {
+  return fold(attempts.filter((a) => a.choice_n == null && a.mode !== "drill"), (a) => a.question_id);
 }
 
 /** 絞り込み。state: { exam, chapter, ranks:Set, scope:"all"|"unsolved"|"wrong" } */
@@ -99,6 +104,11 @@ export function classify(q, s, now = new Date(), opts = {}) {
     if (q.rank === "C" && !includeC) return { bucket: 0, score: 0 };
     return { bucket: 3, score: rw(q) * 10 };
   }
+  return classifySeen(q, s, now);
+}
+
+/** 解いたことがある問題（選択肢）の分類：1＝直近で間違えた／2＝正解したが間隔が空いた／0＝いまは出さない */
+function classifySeen(q, s, now) {
   if (s.lastOk === false) return { bucket: 1, score: 1000 + rw(q) * 10 + (1 - s.correct / s.n) * 20 };
   const iv = INTERVAL_DAYS[Math.min(Math.max(s.streak, 1), INTERVAL_DAYS.length) - 1];
   const elapsed = (now.getTime() - Date.parse(s.lastAt)) / DAY;
@@ -158,4 +168,75 @@ export function aggregate(items, stats) {
 export function weakChapters(rows, { min = MIN_SOLVED_FOR_WEAK, limit = WEAK_CHAPTERS_SHOWN } = {}) {
   return rows.filter((r) => r.solved >= min && r.acc !== null)
     .sort((a, b) => a.acc - b.acc || b.n - a.n || a.key.localeCompare(b.key)).slice(0, limit);
+}
+
+
+// =====================================================================
+// 一問一答（設計書 §6）。選択肢1つ＝1問。記録のキーは「問題ID＋選択肢番号」。
+// =====================================================================
+export const drillKey = (qid, n) => `${qid}#${n}`;
+
+/** 一問一答の記録（mode が drill で、choice_n がある）から、選択肢ごとの成績を求める。 */
+export function drillStats(attempts) {
+  return fold(attempts.filter((a) => a.mode === "drill" && a.choice_n != null), (a) => drillKey(a.question_id, a.choice_n));
+}
+
+/** 一問一答の記録を作る。judged は、利用者の判断（true＝「正しい」、false＝「誤り」）。 */
+export function makeDrillAttempt(q, item, judged, now = new Date(), uuid = () => crypto.randomUUID()) {
+  return {
+    id: uuid(), question_id: q.id, choice_n: item.n, mode: "drill",
+    selected: judged ? "true" : "false", is_correct: judged === item.truth, answered_at: now.toISOString(),
+  };
+}
+
+/** 選択肢の分類と優先度。まだ解いていないものは、よく出る論点（count/denom）・区分・直近の出題を優先する。 */
+export function classifyDrill(q, item, s, now = new Date(), opts = {}) {
+  if (s) return classifySeen(q, s, now);
+  const includeC = opts.includeC ?? INCLUDE_RANK_C, includeD = opts.includeD ?? INCLUDE_RANK_D;
+  if (q.rank === "D" && !includeD) return { bucket: 0, score: 0 };
+  if (q.rank === "C" && !includeC) return { bucket: 0, score: 0 };
+  const freq = (item.count ?? 0) / ((q.drill && q.drill.denom) || 1);
+  return { bucket: 3, score: 100 * freq + rw(q) * 5 + Math.min(item.recent ?? 0, DRILL_RECENT_CAP) * DRILL_RECENT_BONUS };
+}
+
+/**
+ * 一問一答で出す選択肢を選ぶ。questions は絞り込み済みの問題。
+ * 同じ論点（item.point）は、1回に1問まで。戻り値：{ picked:[{q,item}], counts }
+ */
+export function selectDrill(questions, stats, { now = new Date(), size = SESSION_SIZE, includeC, includeD } = {}) {
+  const b = { 1: [], 2: [], 3: [] };
+  for (const q of questions) {
+    if (!q.drill) continue;
+    for (const item of q.drill.items) {
+      const s = stats.get(drillKey(q.id, item.n));
+      const c = classifyDrill(q, item, s, now, { includeC, includeD });
+      if (c.bucket) b[c.bucket].push({ q, item, score: c.score, lastAt: s ? s.lastAt : "" });
+    }
+  }
+  const cmp = (x, y) => y.score - x.score || x.lastAt.localeCompare(y.lastAt) || y.q.exam.localeCompare(x.q.exam) || x.q.num - y.q.num || x.item.n - y.item.n;
+  for (const k of [1, 2, 3]) b[k].sort(cmp);
+  const out = [], used = new Set();
+  const take = (list, n) => {
+    let k = 0;
+    for (const x of list) {
+      if (k >= n || out.length >= size) break;
+      if (x.item.point && used.has(x.item.point)) continue;
+      if (x.item.point) used.add(x.item.point);
+      out.push(x); k += 1;
+    }
+  };
+  if (b[1].length >= size && b[3].length) {
+    const newN = Math.min(MIN_NEW_IN_SESSION, size);
+    take(b[1], size - newN); take(b[3], newN);
+  }
+  take(b[1], size); take(b[2], size); take(b[3], size);
+  return { picked: out.map((x) => ({ q: x.q, item: x.item })), counts: { wrong: b[1].length, due: b[2].length, unsolved: b[3].length } };
+}
+
+/** 一問一答の成績（解いた選択肢の数・延べ回数・正解数） */
+export function drillSummary(attempts) {
+  const st = drillStats(attempts);
+  let n = 0, correct = 0;
+  for (const s of st.values()) { n += s.n; correct += s.correct; }
+  return { solved: st.size, n, correct, acc: n ? correct / n : null };
 }

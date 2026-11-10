@@ -1,7 +1,7 @@
 // 演習機能のテスト（node tools/practice_test.mjs）。ビルド後（_site/data があるとき）は、全問題の描画も走査する。
 import fs from "node:fs";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE } from "../src/assets/practice/logic.js";
-import { renderQuestion, renderResult, fixLinks } from "../src/assets/practice/render.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary } from "../src/assets/practice/logic.js";
+import { renderQuestion, renderResult, fixLinks, renderDrill, renderDrillResult, esc } from "../src/assets/practice/render.js";
 import { createLocalStore, createStore } from "../src/assets/practice/store.js";
 import { fetchAll, insertMany, deleteAll, PAGE } from "../src/assets/practice/cloud.js";
 
@@ -78,6 +78,55 @@ eq(at, { id: "uuid-1", question_id: "q1", choice_n: null, mode: "exam", selected
   eq(classify(Q("z", "S"), statsByQuestion([at("z", false, 5), at("z", true, 2)]).get("z"), NOW).bucket, 2, "間違い→正解（連続1）は1日後に再出題");
   eq(classify(Q("z", "S"), statsByQuestion([at("z", false, 5), at("z", true, 0.2)]).get("z"), NOW).bucket, 0, "直後は出さない");
   eq(classify({ id: "u", rank: null, exam: "x", num: 1 }, undefined, NOW), { bucket: 3, score: 0 }, "区分なしの未解答");
+}
+
+// --- 一問一答
+{
+  const NOW = new Date("2026-11-30T00:00:00Z");
+  const day = (n) => new Date(NOW.getTime() - n * 86400000).toISOString();
+  const mkq = (id, rank, items, extra = {}) => ({ id, exam: "2024-08", subject: "ippan", num: 1, rank, drill: { denom: 23, items }, ...extra });
+  const it = (n, truth, point, count, recent = 0) => ({ n, truth, point, pointName: "論点" + point, count, recent, principle: null, principleName: null });
+  const da = (id, n, ok, d) => ({ id: `${id}#${n}#${d}`, question_id: id, choice_n: n, mode: "drill", selected: ok ? "true" : "false", is_correct: ok, answered_at: day(d) });
+  // 記録の作り方
+  const q0 = mkq("q0", "S", [it(1, true, "p1", 5), it(2, false, "p2", 3)]);
+  const a1 = makeDrillAttempt(q0, q0.drill.items[1], false, new Date("2026-11-10T00:00:00Z"), () => "u1");
+  eq(a1, { id: "u1", question_id: "q0", choice_n: 2, mode: "drill", selected: "false", is_correct: true, answered_at: "2026-11-10T00:00:00.000Z" }, "「誤り」と答えて、実際に誤り→正解");
+  eq(makeDrillAttempt(q0, q0.drill.items[0], false, NOW, () => "u2").is_correct, false, "「正しい」記述を「誤り」と答えたら不正解");
+  eq(makeDrillAttempt(q0, q0.drill.items[0], true, NOW, () => "u3").selected, "true", "selected は true／false");
+  // 成績のキーは「問題ID＋選択肢番号」。通常の問題の成績とは混ざらない
+  const mixed = [da("q0", 1, true, 3), da("q0", 2, false, 2), { id: "x", question_id: "q0", choice_n: null, mode: "exam", selected: "1", is_correct: true, answered_at: day(1) }];
+  const ds = drillStats(mixed);
+  eq([ds.size, ds.get(drillKey("q0", 1)).lastOk, ds.get(drillKey("q0", 2)).lastOk], [2, true, false], "選択肢ごとの成績");
+  ok(!statsByQuestion(mixed).has("q0#1") && statsByQuestion(mixed).get("q0").n === 1, "通常の成績に、一問一答の記録が入らない");
+  // 未解答の優先度：よく出る論点＞区分＞直近
+  const rare = mkq("rare", "S", [it(1, true, "pr", 1)]), common = mkq("common", "S", [it(1, true, "pc", 20)]), lowRank = mkq("lowRank", "B", [it(1, true, "pl", 20)]);
+  const recentQ = mkq("recentQ", "S", [it(1, true, "prc", 5, 3)]), notRecent = mkq("notRecent", "S", [it(1, true, "pnr", 5, 0)]);
+  eq(selectDrill([rare, common, lowRank, recentQ, notRecent], new Map(), { now: NOW }).picked.map((x) => x.q.id), ["common", "lowRank", "recentQ", "notRecent", "rare"], "未解答はよく出る論点から（同じ頻度なら、区分・直近の出題）");
+  // 間違えた＞日がたった＞未解答
+  const mix = mkq("mix", "A", [it(1, true, "m1", 2), it(2, true, "m2", 2), it(3, true, "m3", 2), it(4, true, "m4", 30)]);
+  const stm = drillStats([da("mix", 1, false, 2), da("mix", 2, true, 40)]);
+  eq(selectDrill([mix], stm, { now: NOW }).picked.map((x) => x.item.n), [1, 2, 4, 3], "選択肢ごとに、間違えた→日がたった→未解答");
+  eq(selectDrill([mix], stm, { now: NOW }).counts, { wrong: 1, due: 1, unsolved: 2 }, "分類の件数");
+  // 同じ論点は、1回に1問まで
+  const same = mkq("same", "S", [it(1, true, "dup", 9), it(2, false, "dup", 9), it(3, true, "other", 1)]);
+  const sd = selectDrill([same, mkq("same2", "S", [it(1, true, "dup", 9)])], new Map(), { now: NOW }).picked;
+  eq(sd.map((x) => x.item.point).sort(), ["dup", "other"], "同じ論点は1回に1問");
+  // 区分 C・D の切り替えは、未解答だけに効く
+  const qd = mkq("qd", "D", [it(1, true, "pd", 5)]), qc = mkq("qc", "C", [it(1, true, "pcc", 5)]);
+  eq(selectDrill([qd, qc], new Map(), { now: NOW }).picked.map((x) => x.q.id), ["qc"], "D は既定で出さない");
+  eq(selectDrill([qd, qc], new Map(), { now: NOW, includeD: true, includeC: false }).picked.map((x) => x.q.id), ["qd"], "切り替え");
+  eq(selectDrill([qd], drillStats([da("qd", 1, false, 3)]), { now: NOW }).picked.length, 1, "D でも、間違えた選択肢は出す");
+  eq(selectDrill([mkq("n", "S", [])], new Map(), { now: NOW }).picked, [], "選択肢がなくても落ちない");
+  eq(selectDrill([{ id: "nodrill", exam: "x", num: 1, rank: "S", drill: null }], new Map(), { now: NOW }).picked, [], "drill が null の問題は飛ばす");
+  eq(classifyDrill(mkq("z", "S", [it(1, true, "z", null)]), { n: 1, count: null, recent: null, point: "z" }, undefined, NOW).bucket, 3, "count が null でも落ちない");
+  // 間違えが多いときも、未解答を最低2問混ぜる
+  const wrongQs = Array.from({ length: 12 }, (_, i) => mkq("w" + i, "S", [it(1, true, "pw" + i, 5)]));
+  const stw = drillStats(wrongQs.map((q, i) => da(q.id, 1, false, 1 + i)));
+  const freshQ = [mkq("f1", "S", [it(1, true, "pf1", 9)]), mkq("f2", "S", [it(1, true, "pf2", 8)]), mkq("f3", "S", [it(1, true, "pf3", 1)])];
+  const rw2 = selectDrill([...wrongQs, ...freshQ], stw, { now: NOW });
+  eq([rw2.picked.length, rw2.picked.filter((x) => x.q.id.startsWith("f")).length], [SESSION_SIZE, 2], "未解答を2問混ぜる");
+  const sm = drillSummary([da("a", 1, true, 3), da("a", 1, false, 2), da("a", 2, true, 1), { ...da("b", null, true, 1), choice_n: null, mode: "exam" }]);
+  eq([sm.solved, sm.n, sm.correct], [2, 3, 2], "一問一答の集計（通常の記録は数えない）");
 }
 
 // --- 成績
@@ -179,7 +228,7 @@ eq(fixLinks('<a href="/q/x/">a</a>', "/sokuteishi/"), '<a target="_blank" rel="n
 const dir = new URL("../_site/data/", import.meta.url);
 if (fs.existsSync(new URL("meta.json", dir))) {
   const meta = JSON.parse(fs.readFileSync(new URL("meta.json", dir)));
-  const c = { q: 0, table: 0, fig: 0, math: 0, all: 0, multi: 0, drillNull: 0 };
+  const c = { q: 0, table: 0, fig: 0, math: 0, all: 0, multi: 0, drillNull: 0, drill: 0 };
   for (const s of meta.subjects) {
     for (const q of JSON.parse(fs.readFileSync(new URL(`${s.id}.json`, dir)))) {
       c.q++;
@@ -200,6 +249,25 @@ if (fs.existsSync(new URL("meta.json", dir))) {
         ok(!/<a (?![^>]*target="_blank")/.test(r), `${q.id}：新しいタブで開かないリンク`);
       }
       ok(gradeAnswer(q, [q.answer[0] === "all" ? "1" : q.answer[0]]) !== undefined, `${q.id}：採点`);
+      if (q.drill) {
+        for (const item of q.drill.items) {
+          c.drill++;
+          const h = renderDrill(q, item, { base: "/sokuteishi/", index: 1, total: 1 });
+          ok(!/undefined|\[object/.test(h), `${q.id}#${item.n}：一問一答の表示に未定義の値`);
+          // 見えている部分から、出題する記述そのもの（論点の名前と同じ文のことが多い）と、折りたたんだ問題文を除く
+          const visible = h.replace(/<div class="pstatement">[\s\S]*?(?=<details|<div class="pjudge")/, "").replace(/<details[\s\S]*?<\/details>/, "");
+          ok(!visible.includes(esc(item.pointName)), `${q.id}#${item.n}：答える前に、論点の名前が出ている`);
+          ok(h.includes('id="p-true"') && h.includes('id="p-false"') && h.includes("pstatement"), `${q.id}#${item.n}：判定ボタンがない`);
+          ok(!h.includes("論点："), `${q.id}#${item.n}：答える前に「論点：」が出ている`);
+          for (const judged of [true, false]) {
+            const r = renderDrillResult(q, item, { base: "/sokuteishi/", ok: judged === item.truth, judged });
+            ok(!/undefined|\[object/.test(r), `${q.id}#${item.n}：結果に未定義の値`);
+            ok(!/href="\/(?!sokuteishi)/.test(r) && !/<a (?![^>]*target="_blank")/.test(r), `${q.id}#${item.n}：リンク`);
+            ok(r.includes("論点："), `${q.id}#${item.n}：答えたあとに論点がない`);
+          }
+          ok(typeof item.truth === "boolean" && q.choices[item.n - 1] !== undefined, `${q.id}#${item.n}：選択肢の本文がない`);
+        }
+      }
       if (q.columns) c.table++; if ((q.figures || []).length) c.fig++; if (/katex/.test(html)) c.math++;
       if (q.answer[0] === "all") c.all++; if (multi) c.multi++; if (!q.drill) c.drillNull++;
     }

@@ -1,7 +1,7 @@
 import { createLocalStore, createStore } from "./store.js";
 import { SUPABASE } from "./config.js";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, selectReview, aggregate, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, RANK_ORDER } from "./logic.js";
-import { esc, withBase, renderQuestion, renderResult, isMulti } from "./render.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillSummary, aggregate, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, RANK_ORDER } from "./logic.js";
+import { esc, withBase, renderQuestion, renderResult, renderDrill, renderDrillResult, isMulti } from "./render.js";
 
 const cfg = window.PRACTICE_CONFIG;
 const $ = (s) => document.querySelector(s);
@@ -57,7 +57,7 @@ function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   const split = (k) => (p.get(k) || "").split(",").filter(Boolean);
   const ids = meta.subjects.map((s) => s.id);
-  state.tab = ["review", "stats"].includes(p.get("tab")) ? p.get("tab") : "exam";
+  state.tab = ["review", "drill", "stats"].includes(p.get("tab")) ? p.get("tab") : "exam";
   state.subjects = new Set(split("subject").filter((s) => ids.includes(s)));
   state.ranks = new Set(split("rank").filter((r) => meta.ranks.includes(r)));
   state.exam = meta.exams.some((e) => e.key === p.get("exam")) ? p.get("exam") : "";
@@ -79,22 +79,23 @@ function applyTab() {
     const on = b.dataset.tab === state.tab;
     b.setAttribute("aria-selected", String(on)); b.tabIndex = on ? 0 : -1;
   });
-  document.querySelectorAll("[data-for]").forEach((el) => { el.hidden = el.dataset.for !== state.tab; });
+  document.querySelectorAll("[data-for]").forEach((el) => { el.hidden = !el.dataset.for.split(" ").includes(state.tab); });
   $("#p-filters").hidden = state.tab === "stats";
   $("#p-layout").classList.toggle("nofilter", state.tab === "stats");
-  $("#p-start").textContent = state.tab === "review" ? "復習を始める" : "この条件で始める";
+  $("#p-start").textContent = { review: "復習を始める", drill: "一問一答を始める" }[state.tab] || "この条件で始める";
   queue = []; say("");
   if (state.tab === "stats") renderStats();
-  else $("#p-stage").innerHTML = `<div class="empty">${state.tab === "review"
-    ? "左の欄で科目などを選んで、「復習を始める」を押してください。間違えた問題・日がたった問題・まだ解いていない問題から、自動で選びます。"
-    : "左の欄で科目などを選んで、「この条件で始める」を押してください。"}</div>`;
+  else $("#p-stage").innerHTML = `<div class="empty">${{
+    review: "左の欄で科目などを選んで、「復習を始める」を押してください。間違えた問題・日がたった問題・まだ解いていない問題から、自動で選びます。",
+    drill: "左の欄で科目などを選んで、「一問一答を始める」を押してください。選択肢を1つずつ出します。「正しい」か「誤り」かを答えてください。",
+  }[state.tab] || "左の欄で科目などを選んで、「この条件で始める」を押してください。"}</div>`;
 }
 function setTab(tab) { state.tab = tab; writeHash(); applyTab(); }
 
 // ---- 出題
 const say = (html) => { $("#p-status").innerHTML = html; };
 
-async function begin() { return state.tab === "review" ? startReview() : start(); }
+async function begin() { return state.tab === "review" ? startReview() : state.tab === "drill" ? startDrill() : start(); }
 
 async function start() {
   runMode = "exam";
@@ -157,7 +158,13 @@ async function renderStats() {
   const stage = $("#p-stage");
   const ids = [...new Set(attempts.filter((a) => a.choice_n == null && a.mode !== "drill").map((a) => subjectOfId(a.question_id)))]
     .filter((id) => meta.subjects.some((s) => s.id === id));
-  if (!ids.length) { stage.innerHTML = `<div class="empty">まだ、解いた記録がありません。「演習」で問題を解くと、ここに科目別・区分別・章別の成績が出ます。</div>`; return; }
+  if (!ids.length) {
+    const d = drillSummary(attempts);
+    stage.innerHTML = d.n
+      ? `<div class="pstats"><p>一問一答：解いた選択肢 <strong>${d.solved}</strong> 肢　通算の正答率 <strong>${pct(d.acc)}</strong>（延べ ${d.n} 回）</p><p class="hint">「演習」「復習」で問題を解くと、ここに科目別・区分別・章別の成績も出ます。</p></div>`
+      : `<div class="empty">まだ、解いた記録がありません。「演習」で問題を解くと、ここに科目別・区分別・章別の成績が出ます。</div>`;
+    return;
+  }
   stage.innerHTML = `<div class="empty">成績を集計しています…</div>`;
   let items;
   try { items = (await Promise.all(ids.map(loadSubject))).flat(); }
@@ -183,6 +190,7 @@ async function renderStats() {
     <p class="hint">${store.signedIn ? "ログイン中の記録（クラウド）" : "この端末の記録"}から集計しています。解いたことのある科目だけが対象です。章は、問題の決め手の章（先頭の章）に数えます。</p>
     <h2>全体</h2>
     <p>解いた問題 <strong>${tot.solved}</strong> / ${tot.total} 問　通算の正答率 <strong>${pct(tot.n ? tot.correct / tot.n : null)}</strong>（延べ ${tot.n} 回）</p>
+    ${(() => { const d = drillSummary(attempts); return d.n ? `<p>一問一答：解いた選択肢 <strong>${d.solved}</strong> 肢　通算の正答率 <strong>${pct(d.acc)}</strong>（延べ ${d.n} 回）</p>` : ""; })()}
     <h2>科目別</h2>
     <table><caption>科目ごとの解いた数と正答率</caption>${head("科目")}<tbody>${ag.bySubject.map((g) => row(esc(subjName(g.key)), g)).join("")}</tbody></table>
     <h2>区分別</h2>
@@ -192,6 +200,66 @@ async function renderStats() {
     <p class="hint">通算の正答率＝これまでの全解答のうち、正解の割合。直近の正解率＝問題ごとの最新の解答だけで見た、正解の割合。</p>
   </div>`;
   say("");
+}
+
+// ---- 一問一答：選択肢を1つずつ「正しい／誤り」で判定する
+async function startDrill() {
+  runMode = "drill";
+  if (!state.subjects.size) { say(`<span class="warn">科目を1つ以上、選んでください。</span>`); return; }
+  say("読み込み中…");
+  $("#p-start").disabled = true;
+  let items;
+  try { items = (await Promise.all([...state.subjects].map(loadSubject))).flat(); }
+  catch (e) { say(`<span class="warn">${esc(e.message)}。ページを再読み込みしてください。</span>`); $("#p-start").disabled = false; return; }
+  $("#p-start").disabled = false;
+  const qstats = statsByQuestion(attempts);
+  const filter = { ...state, scope: "all" };
+  const { picked, counts } = selectDrill(items.filter((q) => matches(q, filter, qstats)), drillStats(attempts), {
+    size: Number($("#f-size").value) || SESSION_SIZE, includeC: $("#f-incC").checked, includeD: $("#f-incD").checked,
+  });
+  queue = picked; pos = 0; results = [];
+  const summary = `一問一答の対象：<b>${counts.wrong}</b> 肢（直近で間違えた）・<b>${counts.due}</b> 肢（日がたった）・<b>${counts.unsolved}</b> 肢（まだ解いていない）`;
+  if (!queue.length) {
+    $("#p-stage").innerHTML = `<div class="empty">いま出せる選択肢がありません。条件をゆるめるか、日をおいて、また開いてください。<br>（穴埋め・組合せ・計算の問題は、一問一答の対象外です。）</div>`;
+    say(summary);
+    return;
+  }
+  say(`${summary}。このうち <strong>${queue.length}</strong> 問を出します（同じ論点は、1回に1問まで）。`);
+  showDrill();
+}
+
+function showDrill() {
+  const { q, item } = queue[pos];
+  checked = false;
+  $("#p-stage").innerHTML = renderDrill(q, item, { base: cfg.base, index: pos + 1, total: queue.length });
+  document.querySelectorAll("#p-stage [data-judge]").forEach((b) => b.addEventListener("click", () => answerDrill(b.dataset.judge === "true")));
+  $("#p-stage").scrollIntoView({ block: "start", behavior: "smooth" });
+}
+
+async function answerDrill(judged) {
+  if (checked) return;
+  checked = true;
+  const { q, item } = queue[pos];
+  const ok = judged === item.truth;
+  document.querySelectorAll("#p-stage [data-judge]").forEach((b) => {
+    b.disabled = true;
+    const right = (b.dataset.judge === "true") === item.truth;
+    if (right) b.insertAdjacentHTML("beforeend", " ✓ 正答");
+    else if ((b.dataset.judge === "true") === judged) b.insertAdjacentHTML("beforeend", " ✗ あなたの答え");
+  });
+  const last = pos + 1 >= queue.length;
+  $("#p-result").innerHTML = renderDrillResult(q, item, { base: cfg.base, ok, judged })
+    + `<div class="pactions"><button type="button" class="reveal-like" id="p-next">${last ? "結果を見る" : "次の問題へ"}</button><span class="hint" id="p-hint"></span></div>`;
+  $("#p-next").addEventListener("click", next);
+  results.push({ id: `${q.id}#${item.n}`, ok });
+  const a = makeDrillAttempt(q, item, judged);
+  try {
+    const where = await store.add(a);
+    attempts.push(a);
+    await updateRecord();
+    if (where === "pending") $("#p-hint").textContent = "クラウドに送れなかったので、この端末に一時的に保存しました。つながったときに、自動で送ります。";
+  } catch { const h = $("#p-hint"); if (h) h.textContent = "この回答は、記録できませんでした（保存領域がいっぱいか、使えません）。"; }
+  const v = $("#p-result").querySelector(".pverdict"); v?.setAttribute("tabindex", "-1"); v?.focus({ preventScroll: false });
 }
 
 function show() {
@@ -247,15 +315,15 @@ async function check() {
 function next() {
   pos += 1;
   if (pos >= queue.length) return finish();
-  show();
+  runMode === "drill" ? showDrill() : show();
 }
 
 function finish() {
   const s = summarize(results);
   $("#p-stage").innerHTML = `<div class="q pq"><h2 class="qtitle">おつかれさまでした</h2>
     <p>${s.answered} 問を解きました。${s.graded ? `正解は <strong>${s.correct}</strong> 問（${Math.round((s.correct / s.graded) * 100)}%）でした。` : ""}</p>
-    <p><button type="button" class="reveal-like" id="p-again">${runMode === "review" ? "続けて復習する（次の問題を選び直します）" : "同じ条件でもう一度"}</button></p>
-    <p class="hint">${runMode === "review" ? "解いた結果をもとに、次に復習する問題を選び直します。「成績」のタブで、科目別・区分別・章別の正答率を見られます。" : "条件（左の欄）を変えて、「この条件で始める」を押すと、別の問題を解けます。「まだ解いていない問題」「間違えた問題」だけに絞ることもできます。"}</p></div>`;
+    <p><button type="button" class="reveal-like" id="p-again">${runMode === "review" ? "続けて復習する（次の問題を選び直します）" : runMode === "drill" ? "続けて一問一答（次の選択肢を選び直します）" : "同じ条件でもう一度"}</button></p>
+    <p class="hint">${runMode === "review" ? "解いた結果をもとに、次に復習する問題を選び直します。「成績」のタブで、科目別・区分別・章別の正答率を見られます。" : runMode === "drill" ? "間違えた選択肢は、あとでもう一度出ます。正解した選択肢は、日をおいて出ます。" : "条件（左の欄）を変えて、「この条件で始める」を押すと、別の問題を解けます。「まだ解いていない問題」「間違えた問題」だけに絞ることもできます。"}</p></div>`;
   $("#p-again").addEventListener("click", begin);
   say("");
 }
@@ -355,6 +423,12 @@ document.addEventListener("keydown", (e) => {
   const t = e.target;
   if (t.closest && t.closest("select, textarea, input[type=text]")) return;
   const stage = $("#p-stage");
+  if (stage && stage.querySelector("#p-true")) {   // 一問一答：1＝正しい、2＝誤り、Enter＝次へ
+    if (e.key === "1" && !checked) { $("#p-true").click(); e.preventDefault(); }
+    else if (e.key === "2" && !checked) { $("#p-false").click(); e.preventDefault(); }
+    else if (e.key === "Enter" && checked && t.tagName !== "BUTTON" && t.tagName !== "A" && $("#p-next")) { $("#p-next").click(); e.preventDefault(); }
+    return;
+  }
   if (!stage || !stage.querySelector("#p-check")) return;
   if (/^[1-9]$/.test(e.key) && !checked) {
     const q = queue[pos]; const el = document.getElementById(`c-${e.key}`);

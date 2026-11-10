@@ -47,14 +47,11 @@
 /* 成績 */
 .pstats h2 { font-size: 1.1rem; margin: 22px 0 6px; }
 .pstats h2:first-child { margin-top: 0; }
-.pstats table { border-collapse: collapse; width: 100%; max-width: 46em; font-size: .92rem; }
+.pstats table { border-collapse: collapse; width: 100%; max-width: 46em; font-size: .92rem; display: block; overflow-x: auto; }
 .pstats caption { text-align: left; color: var(--muted); font-size: .85rem; padding-bottom: 4px; }
 .pstats th, .pstats td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: middle; }
 .pstats td.num, .pstats th.num { text-align: right; white-space: nowrap; }
-/* 見出しは折り返す（スマートフォンの幅で、表が画面からはみ出さないように）。それでも入りきらないときは、表の中だけ横に動かす */
-.pstats th.num { white-space: normal; line-height: 1.35; }
-.pstats table { display: block; overflow-x: auto; }
-@media (max-width: 520px) { .pstats table { font-size: .85rem; } .pstats th, .pstats td { padding: 6px 5px; } }
+.pstats th.num { white-space: normal; }
 .pbar { display: inline-block; width: 6em; height: .6em; border-radius: 3px; background: var(--deep-soft); vertical-align: middle; margin-right: 6px; overflow: hidden; }
 .pbar i { display: block; height: 100%; background: var(--deep); }
 .pweak { max-width: 46em; }
@@ -62,3 +59,21 @@
 .pweak .links { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .88rem; }
 .pcounts { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 10px; }
 .pcounts b { font-size: 1.1rem; }
+@media (max-width: 520px) {
+  .pstats table { font-size: .85rem; }
+  .pstats th, .pstats td { padding: 5px 6px; }
+  .pbar { width: 4em; }
+}
+
+/* 一問一答 */
+.pstatement { margin: 8px 0 12px; padding: 12px 16px; border-left: 4px solid var(--deep); background: var(--deep-soft); border-radius: 0 6px 6px 0; max-width: 42em; font-size: 1.05rem; overflow-wrap: anywhere; }
+.pstatement p { margin: 0; }
+.pjudge { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0; }
+.pjudge button { font: inherit; font-weight: 700; font-size: 1.05rem; min-width: 9em; padding: 12px 22px; border-radius: 8px; border: 2px solid var(--deep); background: var(--surface); color: var(--deep); cursor: pointer; }
+.pjudge button:hover { background: var(--deep-soft); }
+.pjudge button[disabled] { opacity: .5; cursor: default; }
+.pstem { margin: 4px 0 10px; font-size: .9rem; }
+.pstem summary { cursor: pointer; color: var(--deep); }
+.pstem .qtext { margin-top: 8px; }
+.ppoint { margin: 6px 0; }
+@media (max-width: 520px) { .pjudge button { flex: 1 1 8em; } }

@@ -61,3 +61,44 @@ export function renderResult(q, { base, ok }) {
     ${notes}${q.freqHtml ? fixLinks(q.freqHtml, base) : ""}${tags}${books}${pageLink}
   </div>`;
 }
+
+// =====================================================================
+// 一問一答：選択肢を1つだけ出し、「正しい」か「誤り」かを答える
+// =====================================================================
+
+/** 答える前の表示。論点の名前は出さない（正誤が読めてしまうため）。もとの問題文は、折りたたんで見られる。 */
+export function renderDrill(q, item, { base, index, total }) {
+  const figs = (q.figures || []).map((f) => `<figure class="fig"><img src="${withBase(base, f.src)}" alt="${esc(f.alt)}" loading="lazy"></figure>`).join("");
+  return `<article class="q pq pdrill" data-id="${esc(q.id)}" data-n="${item.n}">
+    <div class="qmeta"><span class="pprog">${index} / ${total}</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}" title="過去の出題頻度から見た、この問題の区分">${esc(q.rankLabel || "")}</span>` : ""}</div>
+    <h2 class="qtitle">次の記述は、正しいでしょうか？</h2>
+    <div class="pstatement">${q.choices[item.n - 1]}</div>
+    ${q.stemHtml ? `<details class="pstem"><summary>もとの問題文を見る（図や表が必要なとき）</summary><div class="qtext">${q.stemHtml}</div>${figs}</details>` : ""}
+    <div class="pjudge" role="group" aria-label="この記述は、正しいか、誤りか">
+      <button type="button" id="p-true" data-judge="true">正しい（1）</button>
+      <button type="button" id="p-false" data-judge="false">誤り（2）</button>
+    </div>
+    <div id="p-result" aria-live="polite"></div>
+  </article>`;
+}
+
+/** 答えたあとの表示：正誤、論点の名前、出題回数、もとの問題、参考書の章 */
+export function renderDrillResult(q, item, { base, ok, judged }) {
+  const truthText = item.truth ? "正しい記述" : "誤った記述";
+  const verdict = ok
+    ? `<p class="pverdict pv-ok">✓ 正解です。この記述は<b>${truthText}</b>です。</p>`
+    : `<p class="pverdict pv-ng">✗ 不正解です（あなたの答え：${judged ? "正しい" : "誤り"}）。この記述は<b>${truthText}</b>です。</p>`;
+  const note = (q.choiceNotes || [])[item.n - 1];
+  const freq = item.count != null && q.drill && q.drill.denom
+    ? `<p class="ppoint">この論点は、過去 ${q.drill.denom} 回のうち <b>${item.count} 回</b>出題されています${item.recent ? `（うち、直近の回では ${item.recent} 回）` : ""}。</p>` : "";
+  const books = (q.books || []).length
+    ? `<div class="review">${q.books.map((b) => `<a class="book-link" href="${withBase(base, b.url)}" target="_blank" rel="noopener">参考書「${esc(b.label)}」で復習する<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`).join("")}</div>` : "";
+  return `${verdict}<div class="answer">
+    ${item.pointName ? `<p class="ppoint"><b>論点：</b>${esc(item.pointName)}</p>` : ""}
+    ${item.principleName ? `<p class="ppoint"><b>原理：</b>${esc(item.principleName)}</p>` : ""}
+    ${freq}
+    ${note && note.html ? `<p class="ppoint"><b>この選択肢の解説：</b>${fixLinks(note.html, base)}</p>` : ""}
+    <p class="plink"><a href="${withBase(base, q.url)}" target="_blank" rel="noopener">もとの問題（${esc(q.examLabel)} 問${q.num}）を開く<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a></p>
+    ${books}
+  </div>`;
+}
