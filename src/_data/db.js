@@ -413,11 +413,18 @@ const listItem = (q) => ({
 function drillOf(q) {
   const f = q.freqRaw;
   if (!f || f.kind !== "choice" || !f.truths) return null;
+  // 選択肢が語句・式だけの問（文末が「。」の選択肢が1つ以下）：問題文がないと答えられず、truth の意味も問によって逆になる。
+  // phrase: true を付け、items[].isAnswer（その選択肢が正答か）を使ってもらう（演習側は、問題文を表示して「正答か」を聞く）
+  const ansSet = new Set((q.answer || []).filter((x) => typeof x === "number"));
+  const plain = (q.choices || []).map((c) => String(c).replace(/<[^>]+>/g, "").trim());
+  const phrase = plain.filter((c) => c.endsWith("。")).length <= 1;
   return {
     denom: f.denom,
+    phrase,
     items: [...f.truths].map((t, i) => ({
       n: i + 1,
       truth: t === "正",
+      isAnswer: ansSet.has(i + 1),
       point: (f.points || [])[i] || null,
       pointName: (f.pnames || [])[i] || null,
       count: (f.pcounts || [])[i] ?? null,
