@@ -63,31 +63,49 @@ export function renderResult(q, { base, ok }) {
 }
 
 // =====================================================================
-// 一問一答：選択肢を1つだけ出し、「正しい」か「誤り」かを答える
+// 一問一答：選択肢を1つだけ出し、「正しい」か「誤り」かを答える。
+// 選択肢が語句・式だけの問（q.drill.phrase）では、問題文を出して、「この問の正答か」を答える。
 // =====================================================================
+const isPhrase = (q) => !!(q.drill && q.drill.phrase === true);
 
-/** 答える前の表示。論点の名前は出さない（正誤が読めてしまうため）。もとの問題文は、折りたたんで見られる。 */
+/** 答える前の表示。論点の名前は出さない（正誤が読めてしまうため）。 */
 export function renderDrill(q, item, { base, index, total }) {
   const figs = (q.figures || []).map((f) => `<figure class="fig"><img src="${withBase(base, f.src)}" alt="${esc(f.alt)}" loading="lazy"></figure>`).join("");
-  return `<article class="q pq pdrill" data-id="${esc(q.id)}" data-n="${item.n}">
-    <div class="qmeta"><span class="pprog">${index} / ${total}</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}" title="過去の出題頻度から見た、この問題の区分">${esc(q.rankLabel || "")}</span>` : ""}</div>
-    <h2 class="qtitle">次の記述は、正しいでしょうか？</h2>
+  const phrase = isPhrase(q);
+  const meta = `<div class="qmeta"><span class="pprog">${index} / ${total}</span><span class="subj">${esc(q.subjectName)}</span>${q.rank ? `<span class="rank rank-${q.rank}" title="過去の出題頻度から見た、この問題の区分">${esc(q.rankLabel || "")}</span>` : ""}</div>`;
+  const body = phrase
+    // 語句だけの選択肢：問題文がないと答えられないので、問題文を上に出す
+    ? `<h2 class="qtitle">次の問題で、下の選択肢は、正答でしょうか？</h2>
+    <div class="qtext pstem-open">${q.stemHtml || ""}</div>${figs}
+    <p class="pstatement-label">選択肢</p>
+    <div class="pstatement">${q.choices[item.n - 1]}</div>
+    <div class="pjudge" role="group" aria-label="この選択肢は、この問題の正答か">
+      <button type="button" id="p-true" data-judge="true">正答（これが答え）（1）</button>
+      <button type="button" id="p-false" data-judge="false">正答ではない（2）</button>
+    </div>`
+    : `<h2 class="qtitle">次の記述は、正しいでしょうか？</h2>
     <div class="pstatement">${q.choices[item.n - 1]}</div>
     ${q.stemHtml ? `<details class="pstem"><summary>もとの問題文を見る（図や表が必要なとき）</summary><div class="qtext">${q.stemHtml}</div>${figs}</details>` : ""}
     <div class="pjudge" role="group" aria-label="この記述は、正しいか、誤りか">
       <button type="button" id="p-true" data-judge="true">正しい（1）</button>
       <button type="button" id="p-false" data-judge="false">誤り（2）</button>
-    </div>
+    </div>`;
+  return `<article class="q pq pdrill${phrase ? " pdrill-phrase" : ""}" data-id="${esc(q.id)}" data-n="${item.n}">
+    ${meta}
+    ${body}
     <div id="p-result" aria-live="polite"></div>
   </article>`;
 }
 
-/** 答えたあとの表示：正誤、論点の名前、出題回数、もとの問題、参考書の章 */
-export function renderDrillResult(q, item, { base, ok, judged }) {
-  const truthText = item.truth ? "正しい記述" : "誤った記述";
+/** 答えたあとの表示：正誤、論点の名前、出題回数、もとの問題、参考書の章。expected は、「はい」（1番目のボタン）が正解かどうか。 */
+export function renderDrillResult(q, item, { base, ok, judged, expected = item.truth }) {
+  const phrase = isPhrase(q);
+  const truthText = phrase ? (expected ? "この問題の正答" : "この問題の正答ではない選択肢") : (expected ? "正しい記述" : "誤った記述");
+  const subject = phrase ? "この選択肢は" : "この記述は";
+  const yours = phrase ? (judged ? "正答" : "正答ではない") : (judged ? "正しい" : "誤り");
   const verdict = ok
-    ? `<p class="pverdict pv-ok">✓ 正解です。この記述は<b>${truthText}</b>です。</p>`
-    : `<p class="pverdict pv-ng">✗ 不正解です（あなたの答え：${judged ? "正しい" : "誤り"}）。この記述は<b>${truthText}</b>です。</p>`;
+    ? `<p class="pverdict pv-ok">✓ 正解です。${subject}<b>${truthText}</b>です。</p>`
+    : `<p class="pverdict pv-ng">✗ 不正解です（あなたの答え：${yours}）。${subject}<b>${truthText}</b>です。</p>`;
   const note = (q.choiceNotes || [])[item.n - 1];
   const freq = item.count != null && q.drill && q.drill.denom
     ? `<p class="ppoint">この論点は、過去 ${q.drill.denom} 回のうち <b>${item.count} 回</b>出題されています${item.recent ? `（うち、直近の回では ${item.recent} 回）` : ""}。</p>` : "";

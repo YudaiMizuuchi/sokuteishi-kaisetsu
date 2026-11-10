@@ -41,7 +41,7 @@ questions:
     - 15
     - 2
     - 6
-    - 9
+    - 7
     - 9
     points:
     - pt-hourei-0066
@@ -53,7 +53,7 @@ questions:
     - 総括安全衛生管理者の選任は、業種により人数が異なる（業種に関係なく一律ではない）
     - 衛生工学衛生管理者の選任
     - 常時1,000人以上、又は、有害業務（深夜業、高熱・塩酸等の有害物の取扱いなど）に常時500人以上の労働者を従事させる事業場は、専属の産業医を選任する
-    - 衛生委員会・安全衛生委員会
+    - 当該事業場の労働者で、作業環境測定を実施している作業環境測定士を、衛生委員会の委員として指名することができる（義務ではない。安衛法第18条第3項）
     - 総括安全衛生管理者には、事業の実施を統括管理する者などを充てる
     prcounts:
     - 0
@@ -77,7 +77,7 @@ questions:
     - 3
     - 1
     - 4
-    - 4
+    - 2
     - 1
     recent_exams:
     - 2024-02
@@ -100,13 +100,13 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
     - odo
     - ''
     - ''
-    - ans_b
+    - ans_seen
     - ''
 - num: 2
   status: published
@@ -246,7 +246,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 7
     form: 選択肢が物質名などの問題
     fresh: false
     level: A
@@ -454,7 +454,7 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 7
+    count: 10
     form: 選択肢が物質名などの問題
     fresh: false
     level: S
@@ -1439,7 +1439,7 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 5
-    - 13
+    - 14
     - 11
     - 16
     - 1

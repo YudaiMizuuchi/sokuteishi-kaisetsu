@@ -1,6 +1,6 @@
 import { createLocalStore, createStore } from "./store.js";
 import { SUPABASE } from "./config.js";
-import { gradeAnswer, makeAttempt, pruneIds, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, aggregate, aggregateDrill, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, MIN_SOLVED_FOR_WEAK_DRILL, RANK_ORDER } from "./logic.js";
+import { gradeAnswer, makeAttempt, pruneIds, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillExpected, aggregate, aggregateDrill, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, MIN_SOLVED_FOR_WEAK_DRILL, RANK_ORDER } from "./logic.js";
 import { esc, withBase, renderQuestion, renderResult, renderDrill, renderDrillResult, isMulti } from "./render.js";
 
 const cfg = window.PRACTICE_CONFIG;
@@ -256,15 +256,16 @@ async function answerDrill(judged) {
   if (checked) return;
   checked = true;
   const { q, item } = queue[pos];
-  const ok = judged === item.truth;
+  const expected = drillExpected(q, item);   // ふつうの問は truth、語句だけの問は isAnswer
+  const ok = judged === expected;
   document.querySelectorAll("#p-stage [data-judge]").forEach((b) => {
     b.disabled = true;
-    const right = (b.dataset.judge === "true") === item.truth;
-    if (right) b.insertAdjacentHTML("beforeend", " ✓ 正答");
+    const right = (b.dataset.judge === "true") === expected;
+    if (right) b.insertAdjacentHTML("beforeend", " ✓ こちらが正解");
     else if ((b.dataset.judge === "true") === judged) b.insertAdjacentHTML("beforeend", " ✗ あなたの答え");
   });
   const last = pos + 1 >= queue.length;
-  $("#p-result").innerHTML = renderDrillResult(q, item, { base: cfg.base, ok, judged })
+  $("#p-result").innerHTML = renderDrillResult(q, item, { base: cfg.base, ok, judged, expected })
     + `<div class="pactions"><button type="button" class="reveal-like" id="p-next">${last ? "結果を見る" : "次の問題へ"}</button><span class="hint" id="p-hint"></span></div>`;
   $("#p-next").addEventListener("click", next);
   results.push({ id: `${q.id}#${item.n}`, ok });

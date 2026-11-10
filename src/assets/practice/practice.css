@@ -86,3 +86,8 @@
 .pview button { font: inherit; font-weight: 700; font-size: .92rem; padding: 6px 18px; border: 0; background: var(--surface); color: var(--deep); cursor: pointer; }
 .pview button[aria-pressed="true"] { background: var(--deep); color: var(--paper); }
 .pview button:focus-visible { outline: 3px solid var(--amber); outline-offset: -3px; }
+
+/* 一問一答：選択肢が語句・式だけの問（問題文を出す） */
+.pstem-open { margin: 6px 0 10px; }
+.pstatement-label { margin: 10px 0 0; font-size: .85rem; font-weight: 700; color: var(--muted); }
+.pdrill-phrase .pstatement { margin-top: 4px; }

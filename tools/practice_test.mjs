@@ -1,6 +1,6 @@
 // 演習機能のテスト（node tools/practice_test.mjs）。ビルド後（_site/data があるとき）は、全問題の描画も走査する。
 import fs from "node:fs";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, aggregateDrill, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY } from "../src/assets/practice/logic.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, aggregateDrill, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY, drillExpected, isPhraseDrill } from "../src/assets/practice/logic.js";
 import { renderQuestion, renderResult, fixLinks, renderDrill, renderDrillResult, esc } from "../src/assets/practice/render.js";
 import { createLocalStore, createStore } from "../src/assets/practice/store.js";
 import { fetchAll, insertMany, deleteAll, deleteByIds, PAGE } from "../src/assets/practice/cloud.js";
@@ -127,6 +127,48 @@ eq(at, { id: "uuid-1", question_id: "q1", choice_n: null, mode: "exam", selected
   eq([rw2.picked.length, rw2.picked.filter((x) => x.q.id.startsWith("f")).length], [SESSION_SIZE, 2], "未解答を2問混ぜる");
   const sm = drillSummary([da("a", 1, true, 3), da("a", 1, false, 2), da("a", 2, true, 1), { ...da("b", null, true, 1), choice_n: null, mode: "exam" }]);
   eq([sm.solved, sm.n, sm.correct], [2, 3, 2], "一問一答の集計（通常の記録は数えない）");
+}
+
+// --- 一問一答：選択肢が語句・式だけの問（drill.phrase）。問題文を出し、「この問の正答か」を isAnswer で判定する
+{
+  const base = { subject: "hourei", subjectName: "労働衛生関係法令", exam: "2024-08", examLabel: "2024年度 第1回", num: 3, rank: "A", rankLabel: "得点必須A", url: "/q/x/", books: [], figures: [], choiceNotes: [] };
+  // 「選任が規定されていないものはどれか」：正答は (2)。語句そのものは、どれも「正しい記述／誤った記述」とは言えない
+  const pq = { ...base, id: "2024-08-hourei-03", answer: ["2"], stemHtml: "<p>次の作業のうち、法令上、作業主任者の選任が規定されていないものはどれか。</p>",
+    choices: ["酸素欠乏危険場所における作業", "ＶＤＴ作業", "特定化学物質を取り扱う作業"],
+    drill: { denom: 23, phrase: true, items: [
+      { n: 1, truth: true, isAnswer: false, point: "p1", pointName: "酸素欠乏危険作業には、作業主任者の選任が必要", count: 4, recent: 1 },
+      { n: 2, truth: false, isAnswer: true, point: "p2", pointName: "ＶＤＴ作業には、作業主任者の選任の規定がない", count: 2, recent: 0 },
+      { n: 3, truth: true, isAnswer: false, point: "p3", pointName: "特定化学物質の取扱いには、作業主任者の選任が必要", count: 5, recent: 2 }] } };
+  const nq = { ...base, id: "2024-08-hourei-04", answer: ["1"], stemHtml: "<p>次の記述のうち、誤っているものはどれか。</p>", choices: ["誤った記述の文。", "正しい記述の文。"],
+    drill: { denom: 23, phrase: false, items: [{ n: 1, truth: false, isAnswer: true, point: "q1", pointName: "論点A", count: 1, recent: 0 }, { n: 2, truth: true, isAnswer: false, point: "q2", pointName: "論点B", count: 1, recent: 0 }] } };
+  eq([isPhraseDrill(pq), isPhraseDrill(nq), isPhraseDrill({ drill: { items: [] } }), isPhraseDrill({ drill: null })], [true, false, false, false], "phrase の判定（項目がない古いデータは false）");
+  // 判定：語句の問は isAnswer、ふつうの問は truth（isAnswer があっても使わない）
+  eq(pq.drill.items.map((it) => drillExpected(pq, it)), [false, true, false], "語句の問は isAnswer で判定（truth とは逆のこともある）");
+  eq(nq.drill.items.map((it) => drillExpected(nq, it)), [false, true], "ふつうの問は truth で判定（isAnswer は使わない）");
+  const u = () => "u";
+  eq(makeDrillAttempt(pq, pq.drill.items[1], true, new Date("2026-11-10T00:00:00Z"), u), { id: "u", question_id: "2024-08-hourei-03", choice_n: 2, mode: "drill", selected: "true", is_correct: true, answered_at: "2026-11-10T00:00:00.000Z" }, "「正答」と答えて、実際に正答→正解（記録の形は同じ）");
+  eq([makeDrillAttempt(pq, pq.drill.items[0], true, new Date(), u).is_correct, makeDrillAttempt(pq, pq.drill.items[0], false, new Date(), u).is_correct], [false, true], "正答でない選択肢：「正答」は不正解、「正答ではない」は正解");
+  eq(makeDrillAttempt(nq, nq.drill.items[0], false, new Date(), u).is_correct, true, "ふつうの問は、これまでどおり");
+  // isAnswer がないデータでは、問題の正答から求める
+  const old = { ...pq, drill: { ...pq.drill, items: pq.drill.items.map(({ isAnswer, ...r }) => r) } };
+  eq(old.drill.items.map((it) => drillExpected(old, it)), [false, true, false], "isAnswer がなければ、問題の正答（answer）から求める");
+  // 表示：問題文が、折りたたみではなく、見える位置にある。ボタンの文言。論点は出さない
+  const h = renderDrill(pq, pq.drill.items[0], { base: "/sokuteishi/", index: 1, total: 3 });
+  ok(h.includes("作業主任者の選任が規定されていないものはどれか") && !h.includes("<details"), "語句の問：問題文を、開いた状態で出す");
+  ok(h.indexOf("規定されていないものはどれか") < h.indexOf("酸素欠乏危険場所における作業"), "語句の問：問題文が、選択肢より上");
+  ok(h.includes("正答（これが答え）") && h.includes("正答ではない") && !h.includes(">正しい（1）") && !h.includes(">誤り（2）"), "語句の問：ボタンは「正答／正答ではない」");
+  ok(h.includes('id="p-true"') && h.includes('id="p-false"'), "語句の問：ボタンの id は同じ（キー操作が同じに働く）");
+  ok(!h.includes("論点：") && !h.includes(pq.drill.items[0].pointName), "語句の問：答える前に、論点を出さない");
+  const hn = renderDrill(nq, nq.drill.items[0], { base: "/sokuteishi/", index: 1, total: 2 });
+  ok(hn.includes(">正しい（1）") && hn.includes("<details") && !hn.includes("正答（これが答え）"), "ふつうの問：これまでどおり（問題文は折りたたみ、ボタンは「正しい／誤り」）");
+  // 結果の文言
+  const r1 = renderDrillResult(pq, pq.drill.items[1], { base: "/sokuteishi/", ok: true, judged: true, expected: true });
+  ok(r1.includes("この選択肢は<b>この問題の正答</b>です") && r1.includes("論点："), "語句の問：結果の文言（正答）");
+  const r2 = renderDrillResult(pq, pq.drill.items[0], { base: "/sokuteishi/", ok: false, judged: true, expected: false });
+  ok(r2.includes("あなたの答え：正答") && r2.includes("この問題の正答ではない選択肢") && !r2.includes("正しい記述") && !r2.includes("誤った記述"), "語句の問：結果の文言（正答ではない）。「正しい記述／誤った記述」とは言わない");
+  const r3 = renderDrillResult(nq, nq.drill.items[0], { base: "/sokuteishi/", ok: true, judged: false, expected: false });
+  ok(r3.includes("この記述は<b>誤った記述</b>です"), "ふつうの問：結果の文言は、これまでどおり");
+  ok(renderDrillResult(nq, nq.drill.items[1], { base: "/sokuteishi/", ok: true, judged: true }).includes("正しい記述"), "expected を省いたときは、truth を使う");
 }
 
 // --- 一問一答の成績（選択肢の数で数える）
@@ -288,7 +330,7 @@ eq(fixLinks('<a href="/q/x/">a</a>', "/sokuteishi/"), '<a target="_blank" rel="n
 const dir = new URL("../_site/data/", import.meta.url);
 if (fs.existsSync(new URL("meta.json", dir))) {
   const meta = JSON.parse(fs.readFileSync(new URL("meta.json", dir)));
-  const c = { q: 0, table: 0, fig: 0, math: 0, all: 0, multi: 0, drillNull: 0, drill: 0 };
+  const c = { q: 0, table: 0, fig: 0, math: 0, all: 0, multi: 0, drillNull: 0, drill: 0, phrase: 0, isAnswer: 0 };
   for (const s of meta.subjects) {
     for (const q of JSON.parse(fs.readFileSync(new URL(`${s.id}.json`, dir)))) {
       c.q++;
@@ -310,8 +352,24 @@ if (fs.existsSync(new URL("meta.json", dir))) {
       }
       ok(gradeAnswer(q, [q.answer[0] === "all" ? "1" : q.answer[0]]) !== undefined, `${q.id}：採点`);
       if (q.drill) {
+        const phrase = isPhraseDrill(q);
+        if (phrase) {   // 選択肢が語句・式だけの問：問題文があり、正答の印が、問題の正答と合っていること
+          c.phrase++;
+          ok(!!q.stemHtml, `${q.id}：語句の問なのに、問題文がない`);
+          ok(q.drill.items.every((it) => typeof it.isAnswer === "boolean"), `${q.id}：語句の問なのに、isAnswer がない選択肢がある`);
+          const ans = q.answer.map(String);
+          ok(q.answer[0] === "all" || q.drill.items.every((it) => it.isAnswer === ans.includes(String(it.n))), `${q.id}：isAnswer が、問題の正答（${q.answer}）と合わない`);
+        }
         for (const item of q.drill.items) {
           c.drill++;
+          if (typeof item.isAnswer === "boolean") c.isAnswer++;
+          if (phrase) {
+            const hp = renderDrill(q, item, { base: "/sokuteishi/", index: 1, total: 1 });
+            ok(hp.includes("正答（これが答え）") && !hp.includes("<details") && hp.includes("pstem-open"), `${q.id}#${item.n}：語句の問の表示（問題文・ボタン）`);
+            ok(drillExpected(q, item) === item.isAnswer, `${q.id}#${item.n}：語句の問の判定が isAnswer でない`);
+          } else {
+            ok(drillExpected(q, item) === item.truth, `${q.id}#${item.n}：ふつうの問の判定が truth でない`);
+          }
           const h = renderDrill(q, item, { base: "/sokuteishi/", index: 1, total: 1 });
           ok(!/undefined|\[object/.test(h), `${q.id}#${item.n}：一問一答の表示に未定義の値`);
           // 見えている部分から、出題する記述そのもの（論点の名前と同じ文のことが多い）と、折りたたんだ問題文を除く
@@ -333,6 +391,9 @@ if (fs.existsSync(new URL("meta.json", dir))) {
     }
   }
   console.log("走査：", JSON.stringify(c));
+  console.log(c.phrase
+    ? `語句・式だけの問（drill.phrase）：${c.phrase} 問を確認した（サイト側の連絡では 26 問。${c.phrase === 26 ? "一致" : "件数が違う。データが変わったか、確認する"}）。isAnswer のある選択肢：${c.isAnswer} / ${c.drill}`
+    : "（このデータには、drill.phrase の問がない。サイト側の新しいデータでビルドしてから、もう一度実行する）");
 } else console.log("（_site/data がないので、全問題の走査は省略。先に npm run build）");
 
 console.log(fail ? `✗ ${fail} 件の失敗` : "✓ すべて成功");

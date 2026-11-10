@@ -183,11 +183,26 @@ export function drillStats(attempts) {
   return fold(attempts.filter((a) => a.mode === "drill" && a.choice_n != null), (a) => drillKey(a.question_id, a.choice_n));
 }
 
-/** 一問一答の記録を作る。judged は、利用者の判断（true＝「正しい」、false＝「誤り」）。 */
+/** 選択肢が語句・式だけの問か（サイト側のデータ drill.phrase）。この問では、問題文を出し、「この問の正答か」を聞く。 */
+export const isPhraseDrill = (q) => !!(q.drill && q.drill.phrase === true);
+
+/**
+ * 一問一答で、「はい」（1番目のボタン）が正解になるか。
+ * ふつうの問：その記述が正しいか（item.truth）。語句だけの問：その選択肢が、その問の正答か（item.isAnswer）。
+ * isAnswer がないデータ（古い版）では、問題の正答（q.answer）から求める。
+ */
+export function drillExpected(q, item) {
+  if (!isPhraseDrill(q)) return item.truth;
+  if (typeof item.isAnswer === "boolean") return item.isAnswer;
+  const ans = q.answer || [];
+  return ans[0] === "all" ? true : ans.map(String).includes(String(item.n));
+}
+
+/** 一問一答の記録を作る。judged は、利用者の判断（true＝「正しい」／「正答」、false＝「誤り」／「正答ではない」）。 */
 export function makeDrillAttempt(q, item, judged, now = new Date(), uuid = () => crypto.randomUUID()) {
   return {
     id: uuid(), question_id: q.id, choice_n: item.n, mode: "drill",
-    selected: judged ? "true" : "false", is_correct: judged === item.truth, answered_at: now.toISOString(),
+    selected: judged ? "true" : "false", is_correct: judged === drillExpected(q, item), answered_at: now.toISOString(),
   };
 }
 
