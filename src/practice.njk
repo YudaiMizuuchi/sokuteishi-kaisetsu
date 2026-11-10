@@ -15,8 +15,13 @@ description: 作業環境測定士試験の過去問を、科目・年度・参�
   <p class="hint" id="p-auth-msg" aria-live="polite"></p>
   <p class="hint"><a href="/practice/privacy/">プライバシーの案内</a>（集める情報・目的・保存先・削除の方法）</p>
 </div>
-<div class="layout">
-  <aside class="filters" aria-label="出題の条件">
+<div class="ptabs" role="tablist" aria-label="演習の種類">
+  <button type="button" role="tab" id="tab-exam" data-tab="exam" aria-selected="true" aria-controls="p-main">演習</button>
+  <button type="button" role="tab" id="tab-review" data-tab="review" aria-selected="false" aria-controls="p-main" tabindex="-1">復習</button>
+  <button type="button" role="tab" id="tab-stats" data-tab="stats" aria-selected="false" aria-controls="p-main" tabindex="-1">成績</button>
+</div>
+<div class="layout" id="p-layout">
+  <aside class="filters" id="p-filters" aria-label="出題の条件">
     <fieldset>
       <legend>科目（1つ以上）</legend>
       <div id="p-subjects"></div>
@@ -34,7 +39,20 @@ description: 作業環境測定士試験の過去問を、科目・年度・参�
       <div class="chips" id="p-ranks"></div>
       <p class="hint">過去の出題頻度から決めた、学習の優先度です（<a href="/guide/">見方</a>）。</p>
     </fieldset>
-    <fieldset>
+    <fieldset data-for="review" hidden>
+      <legend>復習の設定</legend>
+      <select id="f-size" aria-label="1回の問題数">
+        <option value="5">1回 5問</option>
+        <option value="10" selected>1回 10問</option>
+        <option value="20">1回 20問</option>
+      </select>
+      <div class="chips">
+        <label class="chip"><input type="checkbox" id="f-incC" checked><span>未解答の区分Cも出す</span></label>
+        <label class="chip"><input type="checkbox" id="f-incD"><span>未解答の区分Dも出す</span></label>
+      </div>
+      <p class="hint">次の順に出します：①直近で間違えた問題、②正解したが、日がたった問題（正解が続くほど、間隔を延ばします：1日→3日→7日→14日→30日）、③まだ解いていない問題（区分の高い順）。上の絞り込み（科目・年度・章・区分）の範囲で選びます。</p>
+    </fieldset>
+    <fieldset data-for="exam">
       <legend>出す問題</legend>
       <select id="f-scope" aria-label="出す問題">
         <option value="all">すべて</option>
@@ -42,7 +60,7 @@ description: 作業環境測定士試験の過去問を、科目・年度・参�
         <option value="wrong">直近で間違えた問題</option>
       </select>
     </fieldset>
-    <fieldset>
+    <fieldset data-for="exam">
       <legend>順序</legend>
       <select id="f-order" aria-label="順序">
         <option value="new">新しい回から</option>
@@ -55,7 +73,7 @@ description: 作業環境測定士試験の過去問を、科目・年度・参�
     <p class="hint" id="p-record"></p>
     <p><button type="button" class="reset" id="p-wipe">解答の記録をすべて消す</button></p>
   </aside>
-  <section>
+  <section id="p-main" role="tabpanel">
     <div class="listhead"><div class="count" id="p-status" aria-live="polite"></div></div>
     <div id="p-stage"><div class="empty">読み込み中…</div></div>
     <noscript><p>演習にはJavaScriptが必要です。<a href="/">問題を探す</a>ページもご利用ください。</p></noscript>

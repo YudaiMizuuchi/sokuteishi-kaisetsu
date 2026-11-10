@@ -35,3 +35,26 @@
 .pauth #p-auth-box { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; min-height: 0; }
 .pauth .hint { margin: 0; }
 .pauth-name { font-weight: 700; }
+
+/* タブ */
+.ptabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 16px 0 0; border-bottom: 2px solid var(--deep); }
+.ptabs button { font: inherit; font-weight: 700; padding: 8px 20px; border: 1px solid var(--line); border-bottom: 0; border-radius: 6px 6px 0 0; background: var(--surface); color: var(--deep); cursor: pointer; }
+.ptabs button[aria-selected="true"] { background: var(--deep); color: var(--paper); border-color: var(--deep); }
+.ptabs button:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+.layout.nofilter { grid-template-columns: minmax(0, 1fr); }
+[hidden] { display: none !important; }
+
+/* 成績 */
+.pstats h2 { font-size: 1.1rem; margin: 22px 0 6px; }
+.pstats h2:first-child { margin-top: 0; }
+.pstats table { border-collapse: collapse; width: 100%; max-width: 46em; font-size: .92rem; }
+.pstats caption { text-align: left; color: var(--muted); font-size: .85rem; padding-bottom: 4px; }
+.pstats th, .pstats td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: middle; }
+.pstats td.num, .pstats th.num { text-align: right; white-space: nowrap; }
+.pbar { display: inline-block; width: 6em; height: .6em; border-radius: 3px; background: var(--deep-soft); vertical-align: middle; margin-right: 6px; overflow: hidden; }
+.pbar i { display: block; height: 100%; background: var(--deep); }
+.pweak { max-width: 46em; }
+.pweak li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.pweak .links { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .88rem; }
+.pcounts { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 10px; }
+.pcounts b { font-size: 1.1rem; }

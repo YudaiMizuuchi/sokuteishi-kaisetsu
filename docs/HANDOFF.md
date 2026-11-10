@@ -426,3 +426,13 @@ ZIPは、`node_modules`・`_site`・`.git` を除いて、`/mnt/user-data/output
 - **まだやっていないこと**：ナビへの「演習」のリンク追加（`src/_includes/base.njk`。**運営者の実機確認が済んでから**。変更後の行は、演習側の README ⑤-1）。サイトマップには、`/practice/`・`/practice/privacy/` とも入っていない（段階5で、演習側が提案）。
 - 運営者の作業：設計書 `docs/PRACTICE.md` §9-2（Google Cloud → Supabase〔`schema.sql` の実行〕→ 公開 → 実機確認）。本物の Supabase・Google との接続は、未確認。
 - 演習側の残り：段階3（復習の自動選択・成績）、段階4（一問一答）、段階5（公開の準備。記録の間引き、アカウント削除の扱い）。
+
+### 2026年11月10日（続き2）：演習機能 段階3 の取り込み
+- 演習側の返却 `practice_returns_段階0-3まとめ.zip` を取り込み。**段階2までからの変更は6ファイル**：`src/practice.njk`・`src/assets/practice/logic.js`・`practice.js`・`practice.css`・`tools/practice_test.mjs`・`docs/PRACTICE.md`（ほかの7ファイルは同一）。ビルド 3,688ファイル、`check_site.py` 4項目✓、`practice_test.mjs` 全件成功、`validate` エラー0。secret キーの混入なし。
+- 段階3：タブ（演習／復習／成績）、復習の自動選択（間違えた→日がたった〔連続正解で 1→3→7→14→30日〕→未解答〔区分の高い順。C は出す・D は出さないが既定〕。1回 5／10／20 問）、成績（科目別・区分別・弱い章 10件）。選び方の定数は `logic.js` の冒頭。
+- **運営者の確認待ち**：Supabase・Google の設定（`docs/PRACTICE.md` §9-2）、実機（スマートフォン・ダークモード）での見た目、別端末での記録の共有。ナビへの「演習」の追加は、確認後。
+- GitHub へは、運営者が Web 画面で直接アップロード。**渡すのは、変更したファイルだけ**（リポジトリのルートからの相対パス）。
+
+### 2026年11月10日（続き3）：ナビに「演習」を追加
+- 運営者の実機確認（段階3）が済んだので、`src/_includes/base.njk` のナビに「演習」（`/practice/`）を追加（「章から探す」と「参考書」の間）。全ページに出る。`/practice/` 自体は `noindex` のまま。`check_site.py` 4項目✓。
+- 残り：演習側の段階4（一問一答）・段階5（公開の準備：記録の間引き、アカウント削除の扱い、サイトマップ、トップページからの案内）。メインページに据えるか・有料化の方針は、運営者が検討中（`areas/sokuteishi-practice.md`）。

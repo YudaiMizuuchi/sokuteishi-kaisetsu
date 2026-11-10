@@ -1,6 +1,6 @@
 import { createLocalStore, createStore } from "./store.js";
 import { SUPABASE } from "./config.js";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize } from "./logic.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, selectReview, aggregate, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, RANK_ORDER } from "./logic.js";
 import { esc, withBase, renderQuestion, renderResult, isMulti } from "./render.js";
 
 const cfg = window.PRACTICE_CONFIG;
@@ -11,7 +11,8 @@ const cache = {};
 let meta = null;
 let attempts = [];
 let queue = [], pos = 0, results = [], checked = false;
-const state = { subjects: new Set(), exam: "", chapter: "", ranks: new Set(), scope: "all", order: "new" };
+const state = { tab: "exam", subjects: new Set(), exam: "", chapter: "", ranks: new Set(), scope: "all", order: "new" };
+let runMode = "exam";   // いま解いている回の種類（記録の mode）
 
 async function getJson(path, bust) {
   const url = withBase(cfg.base, path) + (bust ? `?v=${encodeURIComponent(bust)}` : "");
@@ -43,6 +44,7 @@ function fillChapters() {
 // ---- URL のハッシュに条件を残す（共有・ブックマーク用）
 function writeHash() {
   const p = new URLSearchParams();
+  if (state.tab !== "exam") p.set("tab", state.tab);
   if (state.subjects.size) p.set("subject", [...state.subjects].join(","));
   if (state.exam) p.set("exam", state.exam);
   if (state.chapter) p.set("chapter", state.chapter);
@@ -55,6 +57,7 @@ function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   const split = (k) => (p.get(k) || "").split(",").filter(Boolean);
   const ids = meta.subjects.map((s) => s.id);
+  state.tab = ["review", "stats"].includes(p.get("tab")) ? p.get("tab") : "exam";
   state.subjects = new Set(split("subject").filter((s) => ids.includes(s)));
   state.ranks = new Set(split("rank").filter((r) => meta.ranks.includes(r)));
   state.exam = meta.exams.some((e) => e.key === p.get("exam")) ? p.get("exam") : "";
@@ -67,12 +70,34 @@ function readHash() {
   fillChapters();
   $("#f-scope").value = state.scope;
   $("#f-order").value = state.order;
+  applyTab();
 }
+
+// ---- タブ（演習／復習／成績）
+function applyTab() {
+  document.querySelectorAll(".ptabs [role=tab]").forEach((b) => {
+    const on = b.dataset.tab === state.tab;
+    b.setAttribute("aria-selected", String(on)); b.tabIndex = on ? 0 : -1;
+  });
+  document.querySelectorAll("[data-for]").forEach((el) => { el.hidden = el.dataset.for !== state.tab; });
+  $("#p-filters").hidden = state.tab === "stats";
+  $("#p-layout").classList.toggle("nofilter", state.tab === "stats");
+  $("#p-start").textContent = state.tab === "review" ? "復習を始める" : "この条件で始める";
+  queue = []; say("");
+  if (state.tab === "stats") renderStats();
+  else $("#p-stage").innerHTML = `<div class="empty">${state.tab === "review"
+    ? "左の欄で科目などを選んで、「復習を始める」を押してください。間違えた問題・日がたった問題・まだ解いていない問題から、自動で選びます。"
+    : "左の欄で科目などを選んで、「この条件で始める」を押してください。"}</div>`;
+}
+function setTab(tab) { state.tab = tab; writeHash(); applyTab(); }
 
 // ---- 出題
 const say = (html) => { $("#p-status").innerHTML = html; };
 
+async function begin() { return state.tab === "review" ? startReview() : start(); }
+
 async function start() {
+  runMode = "exam";
   if (!state.subjects.size) { say(`<span class="warn">科目を1つ以上、選んでください。</span>`); return; }
   say("読み込み中…");
   $("#p-start").disabled = true;
@@ -96,6 +121,77 @@ async function start() {
   }
   say(`<strong>${queue.length}</strong> 問から始めます。`);
   show();
+}
+
+// ---- 復習：間違えた問題・日がたった問題・まだ解いていない問題を、自動で選ぶ
+async function startReview() {
+  runMode = "review";
+  if (!state.subjects.size) { say(`<span class="warn">科目を1つ以上、選んでください。</span>`); return; }
+  say("読み込み中…");
+  $("#p-start").disabled = true;
+  let items;
+  try { items = (await Promise.all([...state.subjects].map(loadSubject))).flat(); }
+  catch (e) { say(`<span class="warn">${esc(e.message)}。ページを再読み込みしてください。</span>`); $("#p-start").disabled = false; return; }
+  $("#p-start").disabled = false;
+  const stats = statsByQuestion(attempts);
+  const filter = { ...state, scope: "all" };
+  const { picked, counts } = selectReview(items.filter((q) => matches(q, filter, stats)), stats, {
+    size: Number($("#f-size").value) || SESSION_SIZE, includeC: $("#f-incC").checked, includeD: $("#f-incD").checked,
+  });
+  queue = picked; pos = 0; results = [];
+  const summary = `復習の対象：<b>${counts.wrong}</b> 問（直近で間違えた）・<b>${counts.due}</b> 問（日がたった）・<b>${counts.unsolved}</b> 問（まだ解いていない）`;
+  if (!queue.length) {
+    $("#p-stage").innerHTML = `<div class="empty">いま復習する問題はありません。<br>間違えた問題も、日がたった問題も、まだ解いていない問題（設定に合うもの）もありません。条件をゆるめるか、日をおいて、また開いてください。</div>`;
+    say(summary);
+    return;
+  }
+  say(`${summary}。このうち <strong>${queue.length}</strong> 問を出します。`);
+  show();
+}
+
+// ---- 成績（解いたことのある科目だけ読み込む）
+const pct = (x) => (x == null ? "—" : `${Math.round(x * 100)}%`);
+const bar = (x) => `<span class="pbar" aria-hidden="true"><i style="width:${Math.round((x || 0) * 100)}%"></i></span>${pct(x)}`;
+
+async function renderStats() {
+  const stage = $("#p-stage");
+  const ids = [...new Set(attempts.filter((a) => a.choice_n == null && a.mode !== "drill").map((a) => subjectOfId(a.question_id)))]
+    .filter((id) => meta.subjects.some((s) => s.id === id));
+  if (!ids.length) { stage.innerHTML = `<div class="empty">まだ、解いた記録がありません。「演習」で問題を解くと、ここに科目別・区分別・章別の成績が出ます。</div>`; return; }
+  stage.innerHTML = `<div class="empty">成績を集計しています…</div>`;
+  let items;
+  try { items = (await Promise.all(ids.map(loadSubject))).flat(); }
+  catch (e) { stage.innerHTML = `<div class="empty">${esc(e.message)}。ページを再読み込みしてください。</div>`; return; }
+  if (state.tab !== "stats") return;   // 読み込み中に、別のタブへ移っていた
+  const stats = statsByQuestion(attempts);
+  const ag = aggregate(items, stats);
+  const subjName = (id) => meta.subjects.find((s) => s.id === id)?.name || id;
+  const chapterOf = (id) => meta.chapters.find((c) => c.id === id);
+  const tot = ag.bySubject.reduce((t, g) => ({ solved: t.solved + g.solved, total: t.total + g.total, n: t.n + g.n, correct: t.correct + g.correct }), { solved: 0, total: 0, n: 0, correct: 0 });
+  const rankName = (r) => ({ S: "得点必須S", A: "得点必須A", B: "何とか得点B", C: "余裕があれば得点C", D: "失点やむなしD", "-": "区分なし" }[r] || r);
+  const row = (name, g) => `<tr><th scope="row">${name}</th><td class="num">${g.solved} / ${g.total}</td><td class="num">${bar(g.acc)}</td><td class="num">${pct(g.latestAcc)}</td></tr>`;
+  const head = (first) => `<thead><tr><th scope="col">${first}</th><th scope="col" class="num">解いた問題 / 全問題</th><th scope="col" class="num">通算の正答率</th><th scope="col" class="num">直近の正解率</th></tr></thead>`;
+  const weak = weakChapters(ag.byChapter);
+  const weakHtml = weak.length ? `<ol class="pweak">${weak.map((g) => {
+    const c = chapterOf(g.key) || { label: g.key, subject: "", bookUrl: null };
+    const book = c.bookUrl ? `<a href="${withBase(cfg.base, c.bookUrl)}" target="_blank" rel="noopener">参考書の章を開く<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`
+      : `<a href="${withBase(cfg.base, `/chapter/${g.key}/`)}" target="_blank" rel="noopener">この章の問題一覧を開く<span class="ext" aria-label="（新しいタブで開きます）">↗</span></a>`;
+    return `<li><strong>${esc(c.label)}</strong>　通算の正答率 ${bar(g.acc)}（${g.solved} 問・延べ ${g.n} 回）<div class="links">${book}<a href="#tab=exam&subject=${encodeURIComponent(c.subject)}&chapter=${encodeURIComponent(g.key)}">この章で演習する</a></div></li>`;
+  }).join("")}</ol>` : `<p class="hint">まだ、判定できる章がありません（1つの章で、${MIN_SOLVED_FOR_WEAK} 問以上解くと、出ます）。</p>`;
+  const ranks = RANK_ORDER.concat(["-"]).map((r) => ag.byRank.find((g) => g.key === r)).filter(Boolean);
+  stage.innerHTML = `<div class="pstats">
+    <p class="hint">${store.signedIn ? "ログイン中の記録（クラウド）" : "この端末の記録"}から集計しています。解いたことのある科目だけが対象です。章は、問題の決め手の章（先頭の章）に数えます。</p>
+    <h2>全体</h2>
+    <p>解いた問題 <strong>${tot.solved}</strong> / ${tot.total} 問　通算の正答率 <strong>${pct(tot.n ? tot.correct / tot.n : null)}</strong>（延べ ${tot.n} 回）</p>
+    <h2>科目別</h2>
+    <table><caption>科目ごとの解いた数と正答率</caption>${head("科目")}<tbody>${ag.bySubject.map((g) => row(esc(subjName(g.key)), g)).join("")}</tbody></table>
+    <h2>区分別</h2>
+    <table><caption>区分ごとの解いた数と正答率（区分は、過去の出題頻度から決めた学習の優先度）</caption>${head("区分")}<tbody>${ranks.map((g) => row(rankName(g.key), g)).join("")}</tbody></table>
+    <h2>弱い章（正答率の低い順）</h2>
+    ${weakHtml}
+    <p class="hint">通算の正答率＝これまでの全解答のうち、正解の割合。直近の正解率＝問題ごとの最新の解答だけで見た、正解の割合。</p>
+  </div>`;
+  say("");
 }
 
 function show() {
@@ -136,7 +232,7 @@ async function check() {
   $("#p-check").textContent = last ? "結果を見る" : "次の問題へ";
   $("#p-hint").textContent = "";
   if (ok !== null) {
-    const a = makeAttempt(q, sel, ok);
+    const a = makeAttempt(q, sel, ok, new Date(), undefined, runMode);
     try {
       const where = await store.add(a);
       attempts.push(a);
@@ -158,9 +254,9 @@ function finish() {
   const s = summarize(results);
   $("#p-stage").innerHTML = `<div class="q pq"><h2 class="qtitle">おつかれさまでした</h2>
     <p>${s.answered} 問を解きました。${s.graded ? `正解は <strong>${s.correct}</strong> 問（${Math.round((s.correct / s.graded) * 100)}%）でした。` : ""}</p>
-    <p><button type="button" class="reveal-like" id="p-again">同じ条件でもう一度</button></p>
-    <p class="hint">条件（左の欄）を変えて、「この条件で始める」を押すと、別の問題を解けます。「まだ解いていない問題」「間違えた問題」だけに絞ることもできます。</p></div>`;
-  $("#p-again").addEventListener("click", start);
+    <p><button type="button" class="reveal-like" id="p-again">${runMode === "review" ? "続けて復習する（次の問題を選び直します）" : "同じ条件でもう一度"}</button></p>
+    <p class="hint">${runMode === "review" ? "解いた結果をもとに、次に復習する問題を選び直します。「成績」のタブで、科目別・区分別・章別の正答率を見られます。" : "条件（左の欄）を変えて、「この条件で始める」を押すと、別の問題を解けます。「まだ解いていない問題」「間違えた問題」だけに絞ることもできます。"}</p></div>`;
+  $("#p-again").addEventListener("click", begin);
   say("");
 }
 
@@ -225,6 +321,7 @@ async function applySession(session) {
   try { attempts = await store.load(); }
   catch (e) { attempts = e.fallback || []; authMsg("クラウドの記録を読み込めませんでした。この端末の分だけで続けます（つながったら、再読み込みしてください）。", true); }
   await updateRecord();
+  if (state.tab === "stats") renderStats();
 }
 
 async function initAuth() {
@@ -282,6 +379,7 @@ document.addEventListener("keydown", (e) => {
   readHash();
   attempts = await store.load();
   await updateRecord();
+  if (state.tab === "stats") renderStats();
   document.querySelectorAll('input[name="subject"], input[name="rank"]').forEach((i) => i.addEventListener("change", () => {
     const set = i.name === "subject" ? state.subjects : state.ranks;
     i.checked ? set.add(i.value) : set.delete(i.value);
@@ -292,15 +390,21 @@ document.addEventListener("keydown", (e) => {
   $("#f-chapter").addEventListener("change", (e) => { state.chapter = e.target.value; writeHash(); });
   $("#f-scope").addEventListener("change", (e) => { state.scope = e.target.value; writeHash(); });
   $("#f-order").addEventListener("change", (e) => { state.order = e.target.value; writeHash(); });
-  $("#p-start").addEventListener("click", start);
+  $("#p-start").addEventListener("click", begin);
+  document.querySelectorAll(".ptabs [role=tab]").forEach((b, i, all) => {
+    b.addEventListener("click", () => setTab(b.dataset.tab));
+    b.addEventListener("keydown", (e) => {   // 矢印キーでタブを移る
+      const k = { ArrowRight: 1, ArrowLeft: -1 }[e.key]; if (!k) return;
+      const t = all[(i + k + all.length) % all.length]; t.focus(); setTab(t.dataset.tab); e.preventDefault();
+    });
+  });
   $("#p-wipe").addEventListener("click", async () => {
     const where = store.signedIn ? "クラウドに保存した" : "この端末に保存した";
     if (!confirm(`${where}解答の記録を、すべて消します。元に戻せません。よろしいですか？`)) return;
-    try { await store.removeAll(); attempts = []; await updateRecord(); say("解答の記録を消しました。"); }
+    try { await store.removeAll(); attempts = []; await updateRecord(); if (state.tab === "stats") renderStats(); say("解答の記録を消しました。"); }
     catch { say(`<span class="warn">記録を消せませんでした。通信を確かめて、もう一度お試しください。</span>`); }
   });
   $("#reset").addEventListener("click", () => { history.replaceState(null, "", location.pathname); readHash(); say(""); });
   window.addEventListener("hashchange", readHash);
-  $("#p-stage").innerHTML = `<div class="empty">左の欄で科目などを選んで、「この条件で始める」を押してください。</div>`;
   initAuth();   // ログインの準備は、演習の表示をじゃましないよう、あとから行う
 })();
