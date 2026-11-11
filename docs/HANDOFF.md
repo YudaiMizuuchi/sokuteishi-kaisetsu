@@ -715,3 +715,8 @@ ZIPは、`node_modules`・`_site`・`.git` を除いて、`/mnt/user-data/output
 - **執筆側へ**：`shiji_no72_73_pack.zip`（`README_no72_73.md`＋`packs/` 2本＋`law/` 5本＋`revise/` 13章〔直しを頼む7章：fr12・fr16・design-tp03・design-tp05・bunseki-tp06・th15・hourei-tp05、取り込みのときに直した6章：th02・th10・th11・th14・tp02・th17〕＋`revise_原本/`＋`book_map.yaml`）。`hourei-tp05` には、`pt-hourei-0231` の行（2回・C）を足すよう頼んだ。
 - 点検（`_site` を消して作り直し）：ビルド 3,695ファイル、`check_site.py` ページ 3,684・4項目✓、`validate` 章239・エラー0、章が付かない問題0、`practice_test.mjs` 全件成功。
 - 残り：`returns_no73.zip` の取り込み。差し替えで回数が変わる章の残りの直し（`docs/analysis/2023-02_差し替え_章への影響.md`）。章の本文の「サイト側」（12章）の言い換え。次のパック（`bk-hourei-tp01`・`tp06`。tp06 は、テーマが空の石綿則・酸欠則・騒音・特化則の論点〔章なし〕を集めてから作る）。
+
+### 2026年11月12日（続き21）：新しいチャットへの引き継ぎ（第6版）
+- 運営者は、`push_no72_73パック_2026-11-12.zip` を push 済み。
+- **引き継ぎ**：`README_新チャット用指示_2026-11-12_第6版.md`（第5版は消した）と、サイト一式 `sokuteishi-site_2026-11-12_第6版.zip`。残りの作業は、指示の「残りの作業」。push 済みの状態との違いは、この追記と、指示の差し替えだけ。
+- 点検（`_site` を消して作り直し）：ビルド 3,695ファイル、`check_site.py` ページ 3,684・4項目✓、`validate` 章239・エラー0、章が付かない問題0、`practice_test.mjs` 全件成功。
