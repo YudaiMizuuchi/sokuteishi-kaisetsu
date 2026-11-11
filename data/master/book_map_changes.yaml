@@ -300,7 +300,7 @@ added_topic_chapters:
   points: 27
   est_gain_pt: 5.46
 - id: bk-hourei-tp01
-  title: 特別教育・安全衛生教育・健康診断
+  title: 一般健康診断（雇入時・特定業務・海外派遣・結果の通知）
   points: 17
   est_gain_pt: 1.86
 - id: bk-hourei-tp02
@@ -1037,3 +1037,6 @@ writing_order:
 - 'no': 239
   id: bk-kinzoku-0020
   title: 分析結果から、空気中の金属濃度への換算
+- 'no': 240
+  id: bk-hourei-tp08
+  title: 石綿障害予防規則

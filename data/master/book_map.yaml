@@ -3441,7 +3441,7 @@ chapters:
   part: select
 - id: bk-hourei-tp01
   subject: hourei
-  title: 特別教育・安全衛生教育・健康診断
+  title: 一般健康診断（雇入時・特定業務・海外派遣・結果の通知）
   kind: 論点
   points:
   - pt-hourei-0079
@@ -3449,7 +3449,9 @@ chapters:
   - pt-hourei-0131
   - pt-hourei-0160
   - pt-hourei-0225
-  - pt-hourei-0251
+  - pt-hourei-0394
+  - pt-hourei-0410
+  - pt-hourei-0554
   status: draft
   part: law
 - id: bk-hourei-tp02
@@ -3531,10 +3533,28 @@ chapters:
   - pt-hourei-0171
   - pt-hourei-0172
   - pt-hourei-0178
-  - pt-hourei-0181
   - pt-hourei-0218
   - pt-hourei-0220
   - pt-hourei-0227
+  - pt-hourei-0553
+  - pt-hourei-0454
+  - pt-hourei-0446
+  - pt-hourei-0311
+  - pt-hourei-0304
+  - pt-hourei-0314
+  - pt-hourei-0364
+  - pt-hourei-0412
+  - pt-hourei-0376
+  - pt-hourei-0415
+  - pt-hourei-0327
+  - pt-hourei-0383
+  - pt-hourei-0384
+  - pt-hourei-0438
+  - pt-hourei-0441
+  - pt-hourei-0425
+  - pt-hourei-0347
+  - pt-hourei-0406
+  - pt-hourei-0464
   status: draft
   part: law
 - id: bk-design-tp14
@@ -3667,6 +3687,27 @@ chapters:
   - qp-hourei-0002
   - qp-hourei-0035
   status: written
+  part: law
+- id: bk-hourei-tp08
+  subject: hourei
+  title: 石綿障害予防規則
+  kind: 論点
+  points:
+  - pt-hourei-0459
+  - pt-hourei-0319
+  - pt-hourei-0414
+  - pt-hourei-0448
+  - pt-hourei-0418
+  - pt-hourei-0303
+  - pt-hourei-0310
+  - pt-hourei-0399
+  - pt-hourei-0422
+  - pt-hourei-0381
+  - pt-hourei-0315
+  - pt-hourei-0432
+  - pt-hourei-0528
+  - pt-hourei-0502
+  status: draft
   part: law
 - id: bk-bunseki-0014
   subject: bunseki
