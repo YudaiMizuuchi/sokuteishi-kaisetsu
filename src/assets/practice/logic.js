@@ -288,3 +288,27 @@ export function aggregateDrill(items, dstats) {
   const out = (m) => [...m.values()].map(withRates);
   return { bySubject: out(bySubject), byRank: out(byRank), byChapter: out(byChapter) };
 }
+
+
+// =====================================================================
+// 無効にする記録：サイト側で、問題の中身が差し替わった回（問題IDは同じまま、問題文・選択肢・正答が変わった）。
+// 差し替えより前の記録は、別の問題に対する記録なので、集計・復習から外し、保存先からも消す。
+// 追加するときは、ここに1行足す（before は、差し替えを公開した時刻より後にする。日本時間の日付の終わりが無難）。
+// =====================================================================
+export const INVALIDATED = [
+  // 令和4年度第2回（2023-02）の共通4科目・80問。2026年11月11日に差し替え。11月11日（日本時間）の終わりまでの記録を外す。
+  { exam: "2023-02", subjects: ["ippan", "hourei", "design", "bunseki"], before: "2026-11-12T00:00:00+09:00", label: "令和4年度第2回（共通4科目）" },
+];
+
+/** その記録が、差し替え前の問題に対するものか */
+export function isInvalidated(a, rules = INVALIDATED) {
+  const t = Date.parse(a.answered_at);
+  return rules.some((r) => r.subjects.some((s) => String(a.question_id).startsWith(`${r.exam}-${s}-`)) && !(t >= Date.parse(r.before)));
+}
+
+/** 記録を、残すもの（keep）と、外すもの（drop）に分ける */
+export function splitInvalidated(attempts, rules = INVALIDATED) {
+  const keep = [], drop = [];
+  for (const a of attempts) (isInvalidated(a, rules) ? drop : keep).push(a);
+  return { keep, drop };
+}

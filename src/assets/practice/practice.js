@@ -1,6 +1,6 @@
 import { createLocalStore, createStore } from "./store.js";
 import { SUPABASE } from "./config.js";
-import { gradeAnswer, makeAttempt, pruneIds, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillExpected, aggregate, aggregateDrill, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, MIN_SOLVED_FOR_WEAK_DRILL, RANK_ORDER } from "./logic.js";
+import { gradeAnswer, makeAttempt, pruneIds, splitInvalidated, INVALIDATED, statsByQuestion, matches, orderQuestions, summarize, selectReview, selectDrill, drillStats, makeDrillAttempt, drillExpected, aggregate, aggregateDrill, weakChapters, subjectOfId, SESSION_SIZE, MIN_SOLVED_FOR_WEAK, MIN_SOLVED_FOR_WEAK_DRILL, RANK_ORDER } from "./logic.js";
 import { esc, withBase, renderQuestion, renderResult, renderDrill, renderDrillResult, isMulti } from "./render.js";
 
 const cfg = window.PRACTICE_CONFIG;
@@ -12,6 +12,7 @@ let meta = null;
 let attempts = [];
 let queue = [], pos = 0, results = [], checked = false;
 const state = { tab: "exam", view: "exam", subjects: new Set(), exam: "", chapter: "", ranks: new Set(), scope: "all", order: "new" };
+let invalidCount = 0, invalidNote = "";   // 差し替えた回の記録を外したときの案内（このページを開いている間だけ出す）
 let runMode = "exam";   // いま解いている回の種類（記録の mode）
 
 async function getJson(path, bust) {
@@ -93,6 +94,16 @@ function applyTab() {
   }[state.tab] || "左の欄で科目などを選んで、「この条件で始める」を押してください。"}</div>`;
 }
 function setTab(tab) { state.tab = tab; writeHash(); applyTab(); }
+
+// ---- 差し替えのあった回の、以前の記録を外す（集計・復習に入れない。保存先からも消す）
+async function dropInvalidated(list) {
+  const { keep, drop } = splitInvalidated(list);
+  if (!drop.length) return list;
+  invalidCount += drop.length;
+  invalidNote = `問題を差し替えた回（${INVALIDATED.map((r) => r.label).join("、")}）の、以前の記録 ${invalidCount} 件を、成績と復習から外しました。`;
+  try { await store.remove(drop.map((a) => a.id)); } catch { /* 消せなくても、集計からは外れている。次に開いたときに、また試す */ }
+  return keep;
+}
 
 // ---- 出題
 const say = (html) => { $("#p-status").innerHTML = html; };
@@ -361,6 +372,7 @@ async function updateRecord() {
     $("#p-record").textContent = store.persistent
       ? `この端末に、${n} 件の解答を記録しています。` : `この端末では、記録を保存できません（このページを開いている間だけ覚えます）。現在 ${n} 件。`;
   }
+  if (invalidNote) $("#p-record").textContent += " " + invalidNote;
 }
 
 // ---- ログイン（Google。Supabase Auth）。使えないときも、ログインなしで演習は続けられる。
@@ -425,8 +437,8 @@ async function applySession(session) {
     else authMsg(r.imported ? `この端末の ${r.imported} 件の記録を、クラウドに保存しました。` : "");
   }
   renderAuth();
-  try { attempts = await store.load(); }
-  catch (e) { attempts = e.fallback || []; authMsg("クラウドの記録を読み込めませんでした。この端末の分だけで続けます（つながったら、再読み込みしてください）。", true); }
+  try { attempts = await dropInvalidated(await store.load()); }
+  catch (e) { attempts = splitInvalidated(e.fallback || []).keep; authMsg("クラウドの記録を読み込めませんでした。この端末の分だけで続けます（つながったら、再読み込みしてください）。", true); }
   await updateRecord();
   if (state.tab === "stats") renderStats();
 }
@@ -490,7 +502,7 @@ document.addEventListener("keydown", (e) => {
   }
   buildFilters();
   readHash();
-  attempts = await store.load();
+  attempts = await dropInvalidated(await store.load());
   await updateRecord();
   if (state.tab === "stats") renderStats();
   document.querySelectorAll('input[name="subject"], input[name="rank"]').forEach((i) => i.addEventListener("change", () => {

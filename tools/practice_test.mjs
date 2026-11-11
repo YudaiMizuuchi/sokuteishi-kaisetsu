@@ -1,6 +1,6 @@
 // 演習機能のテスト（node tools/practice_test.mjs）。ビルド後（_site/data があるとき）は、全問題の描画も走査する。
 import fs from "node:fs";
-import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, aggregateDrill, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY, drillExpected, isPhraseDrill } from "../src/assets/practice/logic.js";
+import { gradeAnswer, makeAttempt, statsByQuestion, matches, orderQuestions, summarize, classify, selectReview, aggregate, aggregateDrill, weakChapters, subjectOfId, INTERVAL_DAYS, SESSION_SIZE, drillKey, drillStats, makeDrillAttempt, classifyDrill, selectDrill, drillSummary, pruneIds, KEEP_PER_KEY, drillExpected, isPhraseDrill, isInvalidated, splitInvalidated, INVALIDATED } from "../src/assets/practice/logic.js";
 import { renderQuestion, renderResult, fixLinks, renderDrill, renderDrillResult, esc } from "../src/assets/practice/render.js";
 import { createLocalStore, createStore } from "../src/assets/practice/store.js";
 import { fetchAll, insertMany, deleteAll, deleteByIds, PAGE } from "../src/assets/practice/cloud.js";
@@ -323,6 +323,26 @@ const A = (id, t = "2026-11-01T00:00:00.000Z") => ({ id, question_id: "q", choic
   eq(await s3.add(N(98)), "pending", "通信の失敗は、これまでどおり未送信に溜める");
 }
 
+// --- 差し替えのあった回（2023-02 の共通4科目）の、以前の記録を外す
+{
+  const R = (qid, t, extra = {}) => ({ id: qid + t, question_id: qid, choice_n: null, mode: "exam", selected: "1", is_correct: true, answered_at: t, ...extra });
+  eq(INVALIDATED.length, 1, "無効にする回の定義は1件");
+  eq([..."ippan hourei design bunseki".split(" ")].map((s) => isInvalidated(R(`2023-02-${s}-07`, "2026-11-10T03:00:00.000Z"))), [true, true, true, true], "共通4科目の、差し替え前の記録は外す");
+  eq(["yuki", "tokka", "kinzoku", "funjin"].map((s) => isInvalidated(R(`2023-02-${s}-07`, "2026-11-10T03:00:00.000Z"))), [false, false, false, false], "同じ回の選択科目は、外さない");
+  eq([isInvalidated(R("2023-08-ippan-07", "2026-11-10T03:00:00.000Z")), isInvalidated(R("2022-02-ippan-07", "2026-11-10T03:00:00.000Z")), isInvalidated(R("2023-02-ippan2-07", "2026-11-10T03:00:00.000Z"))], [false, false, false], "ほかの回・似た名前は、外さない");
+  // 境目：日本時間 2026-11-12 00:00（＝UTC 11-11 15:00）
+  eq([isInvalidated(R("2023-02-hourei-01", "2026-11-11T14:59:59.999Z")), isInvalidated(R("2023-02-hourei-01", "2026-11-11T15:00:00.000Z")), isInvalidated(R("2023-02-hourei-01", "2026-11-20T00:00:00.000Z"))], [true, false, false], "境目より前だけ外す（差し替え後に解いた記録は残す）");
+  eq(isInvalidated(R("2023-02-hourei-01", "2026-11-10T12:00:00+00:00")), true, "データベースの日時の書式（+00:00）でも判定できる");
+  eq(isInvalidated(R("2023-02-hourei-01", "2026-11-12T08:00:00+09:00")), false, "日本時間の書式でも判定できる");
+  eq(isInvalidated(R("2023-02-design-03", "2026-11-10T03:00:00.000Z", { choice_n: 2, mode: "drill" })), true, "一問一答の記録も外す");
+  eq(isInvalidated(R("2023-02-design-03", "こわれた日時")), true, "日時が読めない記録は、安全側（外す）");
+  const sp = splitInvalidated([R("2023-02-ippan-01", "2026-11-01T00:00:00.000Z"), R("2023-02-ippan-01", "2026-11-13T00:00:00.000Z"), R("2024-02-ippan-01", "2026-11-01T00:00:00.000Z")]);
+  eq([sp.keep.length, sp.drop.length], [2, 1], "分ける");
+  // クラウドから読んだ日時は、端末側と同じ書式にそろう
+  const rows = await fetchAll(fakeClient([{ id: "z", question_id: "q", choice_n: null, mode: "exam", selected: "1", is_correct: true, answered_at: "2026-11-10T12:34:56.7+00:00" }]));
+  eq(rows[0].answered_at, "2026-11-10T12:34:56.700Z", "クラウドの日時を …Z の形にそろえる");
+}
+
 // --- リンク
 eq(fixLinks('<a href="/q/x/">a</a>', "/sokuteishi/"), '<a target="_blank" rel="noopener" href="/sokuteishi/q/x/">a</a>', "リンクの書き換え");
 
@@ -392,7 +412,7 @@ if (fs.existsSync(new URL("meta.json", dir))) {
   }
   console.log("走査：", JSON.stringify(c));
   console.log(c.phrase
-    ? `語句・式だけの問（drill.phrase）：${c.phrase} 問を確認した（サイト側の連絡では 26 問。${c.phrase === 26 ? "一致" : "件数が違う。データが変わったか、確認する"}）。isAnswer のある選択肢：${c.isAnswer} / ${c.drill}`
+    ? `語句・式だけの問（drill.phrase）：${c.phrase} 問を確認した（件数は、データによって変わる。2026年11月11日の差し替え後は 24 問）。isAnswer のある選択肢：${c.isAnswer} / ${c.drill}`
     : "（このデータには、drill.phrase の問がない。サイト側の新しいデータでビルドしてから、もう一度実行する）");
 } else console.log("（_site/data がないので、全問題の走査は省略。先に npm run build）");
 

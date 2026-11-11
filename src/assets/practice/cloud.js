@@ -10,7 +10,8 @@ export async function fetchAll(client) {
     const { data, error } = await client.from("attempts").select(COLS)
       .order("answered_at", { ascending: true }).order("id", { ascending: true }).range(from, from + PAGE - 1);
     if (error) throw error;
-    rows.push(...data);
+    // 日時の書式を、端末側と同じ（…Z）にそろえる（データベースは …+00:00 の形で返すため、並べ替えがずれないように）
+    rows.push(...data.map((r) => ({ ...r, answered_at: new Date(r.answered_at).toISOString() })));
     if (data.length < PAGE) break;
   }
   return rows;
