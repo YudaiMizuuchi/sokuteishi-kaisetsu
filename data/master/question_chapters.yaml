@@ -7420,10 +7420,10 @@
   r: [bk-hourei-tp06, bk-hourei-th07, bk-hourei-tp03]
 2025-08|hourei|3:
   p: [bk-hourei-th07]
-  r: [bk-hourei-tp01]
+  r: [bk-hourei-th08, bk-hourei-tp01]
 2025-08|hourei|4:
   p: [bk-hourei-tp07]
-  r: [bk-hourei-tp03]
+  r: []
 2025-08|hourei|5:
   p: [bk-hourei-th02, bk-hourei-th15]
   r: [bk-hourei-th13]
@@ -7834,7 +7834,7 @@
   r: []
 2026-02|hourei|2:
   p: [bk-hourei-th08]
-  r: [bk-hourei-th15]
+  r: []
 2026-02|hourei|20:
   p: [bk-hourei-tp06]
   r: [bk-hourei-th02, bk-hourei-th07, bk-hourei-th11]
@@ -8133,10 +8133,10 @@
   p: [bk-hourei-th16]
   r: [bk-hourei-tp06]
 2026-08|hourei|2:
-  p: [bk-hourei-forms]
+  p: [bk-hourei-th08, bk-hourei-forms]
   r: []
 2026-08|hourei|20:
-  p: []
+  p: [bk-hourei-th08]
   r: [bk-hourei-th04]
 2026-08|hourei|3:
   p: [bk-hourei-th07]
