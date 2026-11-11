@@ -965,7 +965,7 @@ chapters:
   kind: 数値表
   themes:
   - 電離放射線障害防止規則
-  status: draft
+  status: written
   part: radiation
 - id: bk-ippan-fr01
   subject: ippan
@@ -3462,8 +3462,7 @@ chapters:
   - pt-hourei-0099
   - pt-hourei-0129
   - pt-hourei-0140
-  - pt-hourei-0231
-  status: draft
+  status: written
   part: law
 - id: bk-hourei-tp03
   subject: hourei
@@ -3493,6 +3492,7 @@ chapters:
   title: 作業環境測定の方法（測定基準・評価）
   kind: 論点
   points:
+  - pt-hourei-0231
   - pt-hourei-0034
   - pt-hourei-0048
   - pt-hourei-0074
