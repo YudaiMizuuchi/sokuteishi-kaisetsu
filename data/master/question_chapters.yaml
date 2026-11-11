@@ -64,7 +64,7 @@
   r: [bk-design-tp13, bk-design-0007]
 2015-08|design|10:
   p: [bk-design-0003]
-  r: [bk-design-tp13, bk-design-tp12]
+  r: [bk-design-tp12]
 2015-08|design|11:
   p: []
   r: [bk-design-0012, bk-design-tp06, bk-design-tp10]
@@ -523,7 +523,7 @@
   r: [bk-bunseki-0015]
 2016-02|bunseki|4:
   p: [bk-bunseki-0036]
-  r: [bk-bunseki-0018]
+  r: [bk-bunseki-tp07]
 2016-02|bunseki|5:
   p: [bk-bunseki-forms]
   r: []
@@ -544,7 +544,7 @@
   r: [bk-design-tp13]
 2016-02|design|10:
   p: [bk-design-tp12]
-  r: [bk-design-0003, bk-design-tp13]
+  r: [bk-design-0003]
 2016-02|design|11:
   p: [bk-design-tp10]
   r: []
@@ -783,8 +783,8 @@
   p: [bk-design-0001, bk-design-forms]
   r: []
 2016-08|design|10:
-  p: [bk-design-tp13]
-  r: [bk-design-tp12, bk-design-0003, bk-design-tp11]
+  p: [bk-design-0003]
+  r: [bk-design-tp12, bk-design-tp11]
 2016-08|design|11:
   p: [bk-design-tp10]
   r: [bk-design-tp06]
@@ -1464,7 +1464,7 @@
   p: [bk-bunseki-0004]
   r: [bk-bunseki-tp02]
 2017-08|bunseki|17:
-  p: [bk-bunseki-tp05]
+  p: [bk-bunseki-0028, bk-bunseki-tp05]
   r: []
 2017-08|bunseki|18:
   p: [bk-bunseki-0031]
@@ -2668,7 +2668,7 @@
   r: []
 2019-02|bunseki|18:
   p: [bk-bunseki-tp05]
-  r: []
+  r: [bk-bunseki-0028]
 2019-02|bunseki|19:
   p: [bk-bunseki-0011]
   r: [bk-bunseki-tp03]
@@ -2944,7 +2944,7 @@
   r: [bk-design-tp11, bk-design-0007]
 2019-08|design|10:
   p: [bk-design-tp12]
-  r: [bk-design-0003, bk-design-tp13]
+  r: [bk-design-0003]
 2019-08|design|11:
   p: [bk-design-tp06]
   r: [bk-design-0012, bk-design-tp11]
@@ -2992,7 +2992,7 @@
   r: []
 2019-08|design|7:
   p: [bk-design-tp13]
-  r: [bk-design-0003]
+  r: []
 2019-08|design|8:
   p: [bk-design-tp10, bk-design-tp12, bk-design-forms]
   r: []
@@ -3628,7 +3628,7 @@
   r: []
 2020-08|bunseki|18:
   p: [bk-bunseki-tp05]
-  r: [bk-bunseki-tp04]
+  r: [bk-bunseki-0028]
 2020-08|bunseki|19:
   p: [bk-bunseki-0011]
   r: [bk-bunseki-tp03, bk-bunseki-tp09]
@@ -4347,7 +4347,7 @@
   p: [bk-bunseki-0031, bk-bunseki-tp05, bk-bunseki-forms]
   r: []
 2021-08|bunseki|18:
-  p: [bk-bunseki-tp05]
+  p: [bk-bunseki-0028, bk-bunseki-tp05]
   r: []
 2021-08|bunseki|19:
   p: [bk-bunseki-0011]
@@ -4866,8 +4866,8 @@
   p: [bk-design-tp07]
   r: []
 2022-02|design|11:
-  p: [bk-design-tp13]
-  r: [bk-design-tp12, bk-design-0003, bk-design-tp10]
+  p: [bk-design-0003]
+  r: [bk-design-tp12, bk-design-tp10]
 2022-02|design|12:
   p: [bk-design-tp10]
   r: []
@@ -4911,8 +4911,8 @@
   p: [bk-design-tp05]
   r: []
 2022-02|design|7:
-  p: [bk-design-tp04]
-  r: [bk-design-tp03, bk-design-tp05]
+  p: [bk-design-tp03]
+  r: [bk-design-tp05]
 2022-02|design|8:
   p: [bk-design-tp13]
   r: [bk-design-tp11, bk-design-tp12]
@@ -5586,8 +5586,8 @@
   p: [bk-design-tp07]
   r: [bk-design-0008]
 2023-02|design|11:
-  p: [bk-design-tp13]
-  r: [bk-design-tp12, bk-design-0003]
+  p: [bk-design-0003]
+  r: [bk-design-tp12]
 2023-02|design|12:
   p: [bk-design-tp10]
   r: [bk-design-tp11]
@@ -5634,8 +5634,8 @@
   p: [bk-design-tp03]
   r: []
 2023-02|design|8:
-  p: [bk-design-tp04]
-  r: [bk-design-tp03, bk-design-tp05]
+  p: [bk-design-tp03]
+  r: [bk-design-tp05]
 2023-02|design|9:
   p: [bk-design-tp10, bk-design-tp12, bk-design-forms]
   r: []
@@ -6546,8 +6546,8 @@
   p: [bk-design-tp07]
   r: []
 2024-08|design|11:
-  p: [bk-design-tp13]
-  r: [bk-design-0003, bk-design-tp12]
+  p: [bk-design-tp12]
+  r: [bk-design-0003]
 2024-08|design|12:
   p: [bk-design-tp10]
   r: [bk-design-0012, bk-design-tp06]
@@ -6988,7 +6988,7 @@
   r: [bk-bunseki-0029]
 2025-02|bunseki|18:
   p: [bk-bunseki-0029]
-  r: [bk-bunseki-tp05]
+  r: [bk-bunseki-tp05, bk-bunseki-0028]
 2025-02|bunseki|19:
   p: [bk-bunseki-tp03]
   r: [bk-bunseki-0011, bk-bunseki-tp09]
@@ -7267,7 +7267,7 @@
   r: [bk-design-tp07]
 2025-08|design|11:
   p: []
-  r: [bk-design-tp12]
+  r: [bk-design-tp12, bk-design-0003]
 2025-08|design|12:
   p: []
   r: [bk-design-0012]
