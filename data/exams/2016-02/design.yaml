@@ -1036,7 +1036,7 @@ questions:
     - 3
     truths: 正正正正誤
     pcounts:
-    - 10
+    - 11
     - 7
     - 4
     - 14
@@ -1253,7 +1253,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 6
-    - 5
+    - 8
     - 7
     - 3
     - 1
@@ -1289,7 +1289,7 @@ questions:
     - 検知管の原理（化学反応による比色）
     trend:
     - 1
-    - 0
+    - 1
     - 0
     - 1
     - 0
@@ -1314,11 +1314,11 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
     - ''
-    - ans_seen
+    - ans_b
     - ''
     - odo
     - odo

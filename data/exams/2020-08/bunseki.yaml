@@ -913,19 +913,19 @@ questions:
     pcounts:
     - 1
     - 1
-    - 4
+    - 12
     - 6
     - 4
     points:
     - pt-bunseki-0377
     - pt-bunseki-0338
-    - pt-bunseki-0068
+    - pt-bunseki-0044
     - pt-bunseki-0042
     - pt-bunseki-0032
     pnames:
     - 光源からは、金属原子の共鳴線が放射される。
     - 試料溶液中の金属イオンは、フレーム中で原子化される。
-    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     - 定量は、検量線法で行う。
     - 重水素放電管はバックグラウンドの補正に用いられる。
     prcounts:
@@ -973,11 +973,11 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - new
     - new
-    - ans_pr
+    - ans_hi
     - ''
     - ''
 - num: 16

@@ -1204,19 +1204,19 @@ questions:
     - 6
     truths: 誤正正正正
     pcounts:
-    - 4
+    - 12
     - 4
     - 4
     - 5
     - 9
     points:
-    - pt-bunseki-0068
+    - pt-bunseki-0044
     - pt-bunseki-0083
     - pt-bunseki-0087
     - pt-bunseki-0046
     - pt-bunseki-0005
     pnames:
-    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     - 主として、金属元素の定量に用いられる。
     - 吸収層が長いほど大きくなる。
     - フレームの種類により感度が変化する。
@@ -1266,9 +1266,9 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
-    - ans_pr
+    - ans_hi
     - ''
     - ''
     - ''

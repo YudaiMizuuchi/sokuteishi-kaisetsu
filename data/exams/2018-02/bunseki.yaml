@@ -1051,19 +1051,19 @@ questions:
     - 1
     truths: 誤正正正正
     pcounts:
-    - 4
+    - 12
     - 9
     - 4
     - 6
     - 5
     points:
-    - pt-bunseki-0068
+    - pt-bunseki-0044
     - pt-bunseki-0005
     - pt-bunseki-0083
     - pt-bunseki-0012
     - pt-bunseki-0046
     pnames:
-    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     - 光源には中空陰極ランプが用いられる。
     - 主として、金属元素の定量に用いられる。
     - 吸光度は、光路長に比例する。
@@ -1113,9 +1113,9 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
-    - ans_pr
+    - ans_hi
     - odo
     - ''
     - odo

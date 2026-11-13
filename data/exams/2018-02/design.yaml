@@ -1121,7 +1121,7 @@ questions:
     - 4
     truths: 正正正正誤
     pcounts:
-    - 10
+    - 11
     - 3
     - 5
     - 14
@@ -1340,7 +1340,7 @@ questions:
     - 8
     - 14
     - 10
-    - 5
+    - 8
     - 2
     points:
     - pt-design-0049
@@ -1376,7 +1376,7 @@ questions:
     - 2
     - 2
     - 0
-    - 0
+    - 1
     - 0
     recent_exams:
     - 2024-02
@@ -1402,12 +1402,12 @@ questions:
     - []
     fresh: false
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
     - odo
-    - ''
+    - odo
     - ans_new
 - num: 16
   status: published

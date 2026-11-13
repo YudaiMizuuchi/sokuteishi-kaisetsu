@@ -971,19 +971,19 @@ questions:
     pcounts:
     - 1
     - 5
-    - 4
+    - 12
     - 1
     - 1
     points:
     - pt-bunseki-0245
     - pt-bunseki-0057
-    - pt-bunseki-0068
+    - pt-bunseki-0044
     - pt-bunseki-0245
     - pt-bunseki-0367
     pnames:
     - 吸光度は、試料溶液中の測定対象金属の濃度に比例する。
     - 中空陰極ランプの陰極には、測定対象金属と同一の金属が用いられている
-    - 光の吸収は、励起状態の原子によって起こる。（誤りの記述）
+    - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     - 吸光度は、試料溶液中の測定対象金属の濃度に比例する。
     - 吸光度は、燃料ガスと助燃ガスの組成により変化する。
     prcounts:
@@ -1031,11 +1031,11 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - new
     - odo
-    - ans_pr
+    - ans_hi
     - new
     - new
 - num: 16

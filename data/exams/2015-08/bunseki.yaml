@@ -913,19 +913,19 @@ questions:
     - 9
     - 5
     - 4
-    - 2
+    - 12
     points:
     - pt-bunseki-0357
     - pt-bunseki-0005
     - pt-bunseki-0046
     - pt-bunseki-0083
-    - pt-bunseki-0193
+    - pt-bunseki-0044
     pnames:
     - 試料の吸引速度により感度が変化する。
     - 光源には中空陰極ランプが用いられる。
     - フレームの種類により感度が変化する。
     - 主として、金属元素の定量に用いられる。
-    - 励起された原子の吸光を測定する。（誤りの記述）
+    - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     prcounts:
     - 0
     - 14
@@ -971,13 +971,13 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - new
     - odo
     - ''
     - ''
-    - ans_pr
+    - ans_hi
 - num: 16
   status: published
   chapters:
