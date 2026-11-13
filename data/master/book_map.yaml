@@ -153,7 +153,7 @@ chapters:
   kind: 原理
   principles:
   - pr-bunseki-0033
-  status: draft
+  status: written
   part: analysis
 - id: bk-bunseki-0034
   subject: bunseki
@@ -773,7 +773,7 @@ chapters:
   kind: 原理
   principles:
   - pr-design-0004
-  status: draft
+  status: written
   part: sampling
 - id: bk-design-0005
   subject: design
@@ -2836,7 +2836,6 @@ chapters:
   - pt-bunseki-0187
   - pt-bunseki-0199
   - pt-bunseki-0201
-  - pt-bunseki-0214
   - pt-bunseki-0215
   - pt-bunseki-0220
   - pt-bunseki-0228
@@ -2853,7 +2852,6 @@ chapters:
   title: 検知管・標準ガス・捕集
   kind: 論点
   points:
-  - pt-bunseki-0014
   - pt-bunseki-0023
   - pt-bunseki-0038
   - pt-bunseki-0076
@@ -2861,11 +2859,8 @@ chapters:
   - pt-bunseki-0103
   - pt-bunseki-0104
   - pt-bunseki-0108
-  - pt-bunseki-0154
-  - pt-bunseki-0155
   - pt-bunseki-0157
   - pt-bunseki-0164
-  - pt-bunseki-0174
   - pt-bunseki-0177
   - pt-bunseki-0202
   - pt-bunseki-0247
