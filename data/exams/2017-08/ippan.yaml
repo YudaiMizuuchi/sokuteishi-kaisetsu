@@ -361,7 +361,7 @@ questions:
     - 6
     truths: 正正正誤正
     pcounts:
-    - 8
+    - 9
     - 5
     - 8
     - 1
@@ -592,19 +592,19 @@ questions:
     prcounts:
     - 0
     - 0
-    - 0
+    - 14
     - 0
     - 0
     principles:
     - ''
     - ''
-    - ''
+    - pr-ippan-0003
     - ''
     - ''
     prnames:
     - ''
     - ''
-    - ''
+    - 粒子の粒径と沈着する部位
     - ''
     - ''
     trend:
@@ -638,7 +638,7 @@ questions:
     tags:
     - ''
     - ans_pat
-    - ''
+    - odo
     - odo
     - ''
     pat: gn-dust-disease-02
@@ -1332,13 +1332,13 @@ questions:
     - 1
     - 2
     - 4
-    - 11
+    - 4
     - 1
     points:
     - pt-ippan-0565
     - pt-ippan-0310
     - pt-ippan-0184
-    - pt-ippan-0021
+    - pt-ippan-0826
     - pt-ippan-0713
     pnames:
     - 沸点の低い有機溶剤は、常温で飽和蒸気圧が高く、蒸発速度も大きい傾向がある
@@ -1350,7 +1350,7 @@ questions:
     - 1
     - 0
     - 12
-    - 11
+    - 14
     - 12
     principles:
     - pr-ippan-0006
@@ -1368,7 +1368,7 @@ questions:
     - 0
     - 0
     - 0
-    - 1
+    - 2
     - 0
     recent_exams:
     - 2024-02
@@ -1391,12 +1391,12 @@ questions:
     - []
     fresh: false
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - new
     - ''
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 16
   status: published

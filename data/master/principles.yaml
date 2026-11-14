@@ -1931,8 +1931,6 @@ principles:
   - pt-ippan-0036
   - pt-ippan-0363
   - pt-ippan-0451
-  - pt-ippan-0790
-  - pt-ippan-0808
 - id: pr-ippan-0002
   subject: ippan
   name: 水への溶解度と吸収される部位
@@ -1958,6 +1956,9 @@ principles:
   - (肺胞|気道).{0,10}粒径
   points:
   - pt-ippan-0021
+  - pt-ippan-0101
+  - pt-ippan-0148
+  - pt-ippan-0826
 - id: pr-ippan-0004
   subject: ippan
   name: 蒸気の密度（空気との重さの比較）と滞留

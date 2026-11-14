@@ -501,7 +501,7 @@ questions:
     - 2
     truths: 誤正正正正
     pcounts:
-    - 6
+    - 5
     - 11
     - 5
     - 10
@@ -513,7 +513,7 @@ questions:
     - pt-ippan-0020
     - pt-ippan-0119
     pnames:
-    - 粉じんの沈降速度は、粒径の2乗に比例する。
+    - 粒子状物質の沈降速度は、粒径の2乗に比例する
     - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率により異なる。
     - ヒュームの一次粒子の粒径は、一般に、1µm以下である。
     - じん肺は、続発性気管支炎、肺結核などを合併することがある。
@@ -537,7 +537,7 @@ questions:
     - ''
     - ''
     trend:
-    - 2
+    - 1
     - 1
     - 0
     - 2
@@ -564,10 +564,10 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: pt_B
+    level: C
+    why: seen
     tags:
-    - ans_b
+    - ans_seen
     - odo
     - ''
     - odo

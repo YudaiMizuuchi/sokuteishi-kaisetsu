@@ -503,19 +503,19 @@ questions:
     - 炭素の粉じんは、じん肺を生じることがある。
     - じん肺は、続発性気管支炎、肺結核などを合併することがある。
     prcounts:
-    - 0
+    - 14
     - 0
     - 0
     - 0
     - 0
     principles:
-    - ''
+    - pr-ippan-0003
     - ''
     - ''
     - ''
     - ''
     prnames:
-    - ''
+    - 粒子の粒径と沈着する部位
     - ''
     - ''
     - ''
@@ -549,7 +549,7 @@ questions:
     level: B
     why: pat_B
     tags:
-    - ''
+    - odo
     - ''
     - ans_pat
     - ''
@@ -723,8 +723,8 @@ questions:
     - 1
     truths: 正正誤正正
     pcounts:
-    - 2
-    - 8
+    - 3
+    - 9
     - 9
     - 7
     - 4
