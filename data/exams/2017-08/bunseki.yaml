@@ -1073,25 +1073,25 @@ questions:
     truths: 正正正誤正
     pcounts:
     - 6
-    - 2
-    - 9
-    - 13
-    - 15
+    - 11
+    - 8
+    - 8
+    - 14
     points:
     - pt-bunseki-0015
-    - pt-bunseki-0219
-    - pt-bunseki-0009
     - pt-bunseki-0002
+    - pt-bunseki-0009
+    - pt-bunseki-0521
     - pt-bunseki-0001
     pnames:
     - 蛍光は、電子励起状態から電子基底状態への遷移で生じる。
-    - 蛍光は、入射光よりも長波長側に現れる。
+    - 蛍光の波長は、励起光の波長より長い（長波長側に現れる。「短い」は誤り）
     - 励起光に対して直角方向の蛍光を測定する。
-    - 蛍光は、励起光よりも波長が長い。
-    - 蛍光の強度は、試料濃度に比例する。
+    - 蛍光の強度は、励起光の波長により変化する（「波長を変えても変化しない」「波長が長いほど強くなる」は誤り）
+    - 蛍光の強度は、低濃度領域で、蛍光物質（測定対象物質）の濃度に比例する
     prcounts:
     - 0
-    - 15
+    - 12
     - 10
     - 15
     - 15
@@ -1099,17 +1099,17 @@ questions:
     - ''
     - pr-bunseki-0004
     - pr-bunseki-0006
-    - pr-bunseki-0004
+    - pr-bunseki-0005
     - pr-bunseki-0005
     prnames:
     - ''
     - 蛍光は励起光より長波長
     - 蛍光は励起光と直角方向で測る
-    - 蛍光は励起光より長波長
+    - 蛍光強度は低濃度で濃度に比例
     - 蛍光強度は低濃度で濃度に比例
     trend:
     - 1
-    - 0
+    - 2
     - 0
     - 2
     - 2
@@ -1135,12 +1135,12 @@ questions:
     - []
     fresh: false
     level: S
-    why: pt_S
+    why: pr_S
     tags:
     - ''
     - odo
     - odo
-    - ans_hi
+    - ans_pr
     - odo
 - num: 17
   status: published
