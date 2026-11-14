@@ -24623,8 +24623,6 @@ points:
   name: メタノールの捕集には、シリカゲル管が用いられる。
   theme: ''
   members:
-  - 2017-02|6|3
-  - 2019-02|19|5
   - 2020-02|10|4
 - id: pt-design-0200
   subject: design
@@ -25137,11 +25135,13 @@ points:
   - 2019-02|1|2
 - id: pt-design-0271
   subject: design
-  name: シリカゲル管を用いてメタノールを捕集する場合、水蒸気が共存するとメタノールの破過時間は短くなる
+  name: シリカゲル管を用いてメタノールを捕集する場合、水蒸気が共存する（湿度が高い）と、メタノールの破過時間は短くなる
   theme: ''
   members:
   - 2016-08|19|4
+  - 2017-02|6|3
   - 2017-08|19|1
+  - 2019-02|19|5
 - id: pt-design-0272
   subject: design
   name: ミゼットインピンジャーによるミストの捕集では、拡散効果により捕集…（誤りの記述）
@@ -26772,7 +26772,7 @@ points:
   - 2026-08|1|0
 - id: qp-design-0005
   subject: design
-  name: 25 ℃において飽和蒸気圧が最も高い→ジクロロメタン
+  name: 25 ℃において飽和蒸気圧が最も高いものを選ぶ問（正答はジクロロメタン5回、メタノール2回、クロロホルム1回）
   theme: ''
   kind: question
   members:
@@ -26852,17 +26852,11 @@ points:
   - 2017-08|6|0
 - id: qp-design-0022
   subject: design
-  name: 常温・常圧(25℃、1気圧)において飽和蒸気圧が最も高い→二硫化炭素
+  name: 25 ℃において飽和蒸気圧が最も高いものを選ぶ問（正答は二硫化炭素）
   theme: ''
   kind: question
   members:
   - 2018-02|5|0
-- id: qp-design-0024
-  subject: design
-  name: 25℃において飽和蒸気圧が最も高い→二硫化炭素
-  theme: ''
-  kind: question
-  members:
   - 2019-02|5|0
 - id: qp-design-0026
   subject: design
