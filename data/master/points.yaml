@@ -27013,10 +27013,12 @@ points:
   - 2026-08|16|4
 - id: pt-bunseki-0002
   subject: bunseki
-  name: 蛍光の波長は、励起光の波長より長い（長波長側に現れる。「短い」は誤り）
+  name: 蛍光の波長は、励起光の波長より長い（長波長側に現れる。「短い」「短波長側に生じる」は誤り）
   theme: ''
   members:
+  - 2015-08|16|2
   - 2016-02|16|1
+  - 2017-02|16|2
   - 2017-08|16|2
   - 2018-02|16|2
   - 2020-02|16|1
@@ -27148,15 +27150,12 @@ points:
   - 2021-08|19|3
 - id: pt-bunseki-0012
   subject: bunseki
-  name: 吸光度は、光路長に比例する。
+  name: 吸光度は、濃度に比例する（吸光光度分析では溶液の濃度、原子吸光分析では原子の濃度。「原子番号に比例する」は誤り）
   theme: ''
   members:
   - 2016-08|15|4
-  - 2018-02|13|3
   - 2018-02|15|4
   - 2022-02|13|4
-  - 2024-08|13|2
-  - 2025-08|13|3
   - 2026-08|15|5
 - id: pt-bunseki-0013
   subject: bunseki
@@ -27219,10 +27218,12 @@ points:
   - 2026-02|7|2
 - id: pt-bunseki-0018
   subject: bunseki
-  name: 吸光度は、透過率の逆数の対数である。
+  name: 吸光度は、透過率の逆数の対数である（log（I₀/I）。「log（I/I₀）」「log₁₀（T/100）」は誤り）
   theme: ''
   members:
+  - 2016-02|14|1
   - 2016-08|13|1
+  - 2017-08|13|2
   - 2020-02|13|3
   - 2022-02|13|3
   - 2025-08|13|1
@@ -27298,6 +27299,7 @@ points:
   theme: ''
   members:
   - 2015-08|19|1
+  - 2017-08|19|3
   - 2019-08|19|1
   - 2022-02|19|1
   - 2023-08|19|1
@@ -27790,13 +27792,16 @@ points:
   - 2023-02|9|2
 - id: pt-bunseki-0077
   subject: bunseki
-  name: 吸光度は、試料セルの光路長に比例する。
+  name: 吸光度は、光路長（溶液層の厚さ）に比例する
   theme: ''
   members:
   - 2016-02|14|3
   - 2017-08|13|4
+  - 2018-02|13|3
   - 2019-08|14|3
   - 2021-02|14|2
+  - 2024-08|13|2
+  - 2025-08|13|3
 - id: pt-bunseki-0078
   subject: bunseki
   name: 容器内のガスは、容器内の圧力が大気圧になるまでは使い切らない。
@@ -28108,12 +28113,14 @@ points:
   - 2023-02|7|3
 - id: pt-bunseki-0114
   subject: bunseki
-  name: 透過率は、試料セルの光路長に比例する。（誤りの記述）
+  name: 透過率（透過光の強さ）は、光路長や濃度に比例も反比例もしない（指数関数的に減少する。「比例する」「反比例する」は誤り）
   theme: ''
   members:
   - 2016-08|13|2
   - 2018-02|13|2
   - 2020-02|13|2
+  - 2022-02|13|2
+  - 2026-02|13|2
 - id: pt-bunseki-0115
   subject: bunseki
   name: ロータメーター（面積式流量計）の内径は、下部より上部が大きい。
@@ -28832,12 +28839,6 @@ points:
   members:
   - 2021-02|2|5
   - 2024-02|2|4
-- id: pt-bunseki-0209
-  subject: bunseki
-  name: 透過率は、光が通過する溶液層の厚さに比例する。（誤りの記述）
-  theme: ''
-  members:
-  - 2022-02|13|2
 - id: pt-bunseki-0210
   subject: bunseki
   name: 一次標準物質は、滴定により純度を規定する必要がある。（誤りの記述）
@@ -28880,13 +28881,6 @@ points:
   members:
   - 2015-08|9|2
   - 2021-02|9|3
-- id: pt-bunseki-0216
-  subject: bunseki
-  name: 蛍光は、励起光よりも短波長側に生じる。（誤りの記述）
-  theme: ''
-  members:
-  - 2015-08|16|2
-  - 2017-02|16|2
 - id: pt-bunseki-0217
   subject: bunseki
   name: 塩化カリウムの水に対する溶解度は、塩化銀の水に対する溶解度より大きい
@@ -29532,12 +29526,6 @@ points:
   theme: ''
   members:
   - 2016-02|9|1
-- id: pt-bunseki-0319
-  subject: bunseki
-  name: 吸光度Eと透過率T(%)との関係は、E＝log₁₀(T/100)である（誤りの記述）
-  theme: ''
-  members:
-  - 2016-02|14|1
 - id: pt-bunseki-0321
   subject: bunseki
   name: エタンは、常温・常圧(25℃,1気圧)で気体である。
@@ -30035,12 +30023,6 @@ points:
   theme: ''
   members:
   - 2016-02|9|3
-- id: pt-bunseki-0403
-  subject: bunseki
-  name: 蛍光強度は、入射光の強度に依存しない。（誤りの記述）
-  theme: ''
-  members:
-  - 2016-02|16|2
 - id: pt-bunseki-0404
   subject: bunseki
   name: 測定物質は、入射光を吸収する。
@@ -30446,12 +30428,6 @@ points:
   theme: ''
   members:
   - 2015-08|9|4
-- id: pt-bunseki-0473
-  subject: bunseki
-  name: 吸光度は、log(I/I₀)である。（誤りの記述）
-  theme: ''
-  members:
-  - 2017-08|13|2
 - id: pt-bunseki-0474
   subject: bunseki
   name: カラムの理論段数は、キャリヤーガス（移動相）の種類により異なる
@@ -30527,12 +30503,6 @@ points:
   theme: ''
   members:
   - 2025-02|15|3
-- id: pt-bunseki-0487
-  subject: bunseki
-  name: 透過率は、光路の長さに反比例する。（誤りの記述）
-  theme: ''
-  members:
-  - 2026-02|13|2
 - id: pt-bunseki-0488
   subject: bunseki
   name: ホルムアルデヒドは、＞C＝O基をもっている。
@@ -30601,12 +30571,6 @@ points:
   - 2022-08|18|3
   - 2024-02|18|3
   - 2025-08|17|3
-- id: pt-bunseki-0497
-  subject: bunseki
-  name: KαX線が用いられる。
-  theme: ''
-  members:
-  - 2017-08|19|3
 - id: pt-bunseki-0498
   subject: bunseki
   name: KαX線の波長は、陽極元素の原子番号が大きくなるに従い短くなる（長くなる、は誤り）
@@ -30747,10 +30711,11 @@ points:
   - 2017-02|14|5
 - id: pt-bunseki-0520
   subject: bunseki
-  name: 蛍光の強度は、低濃度領域で、励起光の強度に比例する
+  name: 蛍光の強度は、低濃度領域で、励起光の強度に比例する（「入射光の強度に依存しない」は誤り）
   theme: ''
   members:
   - 2015-08|16|4
+  - 2016-02|16|2
   - 2016-08|16|3
   - 2018-02|16|4
   - 2019-02|16|4

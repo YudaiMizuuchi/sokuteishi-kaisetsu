@@ -795,21 +795,21 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 5
+    - 7
     - 8
-    - 6
+    - 7
     - 1
     - 11
     points:
     - pt-bunseki-0018
     - pt-bunseki-0008
-    - pt-bunseki-0012
+    - pt-bunseki-0077
     - pt-bunseki-0272
     - pt-bunseki-0003
     pnames:
-    - 吸光度は、透過率の逆数の対数である。
+    - 吸光度は、透過率の逆数の対数である（log（I₀/I）。「log（I/I₀）」「log₁₀（T/100）」は誤り）
     - 吸光度は、測定対象物質の濃度に比例する
-    - 吸光度は、光路長に比例する。
+    - 吸光度は、光路長（溶液層の厚さ）に比例する
     - 単位濃度（mol･L⁻¹）、単位長さ（cm）当たりの吸光度は、モル吸光係数と呼ばれる
     - 吸光度は、通常、極大吸収波長で測定する。
     prcounts:
@@ -833,7 +833,7 @@ questions:
     trend:
     - 2
     - 3
-    - 3
+    - 2
     - 1
     - 2
     recent_exams:
