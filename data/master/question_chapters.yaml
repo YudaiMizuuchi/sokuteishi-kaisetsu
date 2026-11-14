@@ -91,7 +91,7 @@
   r: []
 2015-08|design|19:
   p: [bk-design-tp06]
-  r: [bk-design-0003]
+  r: [bk-design-0003, bk-design-tp10]
 2015-08|design|2:
   p: [bk-design-tp05]
   r: [bk-design-tp01]
@@ -811,7 +811,7 @@
   r: [bk-design-0005]
 2016-08|design|19:
   p: [bk-design-tp06]
-  r: [bk-design-0003, bk-design-0004]
+  r: [bk-design-0003, bk-design-0004, bk-design-tp10]
 2016-08|design|2:
   p: [bk-design-tp05, bk-design-forms]
   r: []
@@ -6307,7 +6307,7 @@
   r: [bk-design-0008]
 2024-02|design|11:
   p: [bk-design-tp12]
-  r: [bk-design-0003, bk-design-tp06]
+  r: [bk-design-0003]
 2024-02|design|12:
   p: [bk-design-tp10]
   r: []
@@ -7746,8 +7746,8 @@
   p: [bk-design-tp07]
   r: [bk-design-0008]
 2026-02|design|11:
-  p: [bk-design-tp06]
-  r: [bk-design-tp12]
+  p: [bk-design-tp12]
+  r: []
 2026-02|design|12:
   p: [bk-design-0012]
   r: [bk-design-tp06, bk-design-tp10]
@@ -7987,7 +7987,7 @@
   r: [bk-design-0001]
 2026-08|design|11:
   p: [bk-design-tp12]
-  r: [bk-design-tp06]
+  r: []
 2026-08|design|12:
   p: [bk-design-tp10]
   r: [bk-design-tp06]
