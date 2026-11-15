@@ -1757,14 +1757,14 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 8
     form: 計算問題
     prid: pr-funjin-0013
     prname: 基底標準吸収補正法
     prcount: 8
     fresh: true
-    level: A
-    why: pr_A
+    level: S
+    why: q_hi
 - num: 20
   status: published
   chapters:

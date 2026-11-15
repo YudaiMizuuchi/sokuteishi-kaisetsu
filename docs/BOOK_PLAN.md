@@ -260,3 +260,4 @@
 - （追記）書き直し第3回の4章を取り込んだ（`bk-funjin-tp03`・`bk-bunseki-0004`・`bk-design-0013`・`bk-design-tp03`）。第4回のパックを渡した（`bk-design-tp01`・`bk-bunseki-0011`・`bk-tokka-tp03`・`bk-bunseki-0033`）。52章のうち、取り込み 12章、残り 36章。
 - （追記）書き直し第4回の4章を取り込んだ（`bk-design-tp01`・`bk-bunseki-0011`・`bk-tokka-tp03`・`bk-bunseki-0033`）。第5回のパックを渡した（`bk-yuki-tp03`・`bk-kinzoku-tp06`・`bk-funjin-tp02`・`bk-design-tp02`）。52章のうち、取り込み 16章、残り 32章。
 - （追記）書き直し第5回の4章を取り込んだ（`bk-yuki-tp03`・`bk-kinzoku-tp06`・`bk-funjin-tp02`・`bk-design-tp02`）。第6回のパックを渡した（`bk-funjin-tp06`・`bk-bunseki-0024`・`bk-bunseki-0031`・`bk-ippan-0001`）。52章のうち、取り込み 20章、残り 28章。
+- （追記）書き直し第6回の4章を取り込んだ（`bk-funjin-tp06`・`bk-bunseki-0024`・`bk-bunseki-0031`・`bk-ippan-0001`）。第7回のパックを渡した（`bk-bunseki-0023`・`bk-yuki-tp01`・`bk-yuki-0023`・`bk-funjin-0011`）。52章のうち、取り込み 24章、パック渡し済み 4章。残りは、`book/` で数えると 25章（「全体像」「出題実績」を含む章から、法令・`-forms`・S・A のない6章を除いた数。これまでの引き算では 24章で、1章ずれている。次の回に、どの章かを確かめる）。

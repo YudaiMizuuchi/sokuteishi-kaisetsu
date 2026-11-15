@@ -867,14 +867,14 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 2
     form: 選択肢が物質名などの問題
     prid: pr-bunseki-0023
     prname: 標定と一次標準物質
-    prcount: 3
+    prcount: 2
     fresh: false
-    level: D
-    why: q_new
+    level: C
+    why: q_seen
 - num: 13
   status: published
   chapters:

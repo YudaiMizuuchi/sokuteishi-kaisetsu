@@ -661,3 +661,12 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: move, subject: bunseki, from: pt-bunseki-0168, into: pt-bunseki-0007, note: FID は無機ガス・希ガスに適す〔誤〕3回。0007（有機化合物に適す）の誤りの形。0168 は消した}
 - {op: move, subject: bunseki, from: pt-bunseki-0159, into: pt-bunseki-0058, note: ECD は飽和炭化水素に適す〔誤〕2回。0058（ハロゲン化合物）の誤りの形。0159 は消した}
 - {op: move, subject: bunseki, from: pt-bunseki-0279, into: pt-bunseki-0106, note: FPD は飽和炭化水素に適す〔誤〕1回。0106（硫黄・リン）の誤りの形。0279 は消した}
+
+# 2026-11-16（続き85）
+- {op: move, subject: yuki, from: pt-yuki-0002, into: pt-yuki-0003, note: 「キャリアガスとして、水素を使用できる／できない」5件。ECD のキャリアガス（窒素・アルゴン）とは別の事実で、0003（ヘリウム・窒素・水素などが用いられる）の誤りの形。0002 は 8回・S、0003 は 11回・S。point_links.yaml の 2025-08|9|5 ≒ 2026-08|9|1 のリンクを削除（2つを、つなぎ直すため）。両方を改名}
+- {op: move, subject: yuki, from: pt-yuki-0029, into: pt-yuki-0198, note: 「スプリットレス注入法は、低濃度成分分析に向いている」1件。溶媒ピークとは別の事実。0198 は 2回（章は bk-yuki-tp01、qpoint_chapters）。両方を改名}
+- {op: split, subject: yuki, from: pt-yuki-0005, new: pt-yuki-0300, note: 「GC-MS の検出部には、二次電子増倍管」1回。分光光度計の光電子増倍管（6回・S）とは別の事実。0300 の章は bk-yuki-tp01、0005 の章は bk-yuki-tp01 から bk-yuki-tp02（分光測定）へ移した。0005 を改名}
+- {op: principle, subject: yuki, id: pt-yuki-0296, note: 1-ブタノールとイソブチルアルコールの沸点の比較 1回。原理 pr-yuki-0023（沸点・蒸気圧・分子量の比較）に加えた（principle_links.yaml）}
+- {op: move, subject: funjin, from: qp-funjin-0013, into: qp-funjin-0002, note: 基底標準吸収補正法の計算で、補正係数を逆算する2問。同じ式。0013 は消した。0002 は 8回・S。改名}
+- {op: rename, subject: funjin, id: pt-funjin-0105, note: 名前が誤りの形だった。正しい形（採取前後の金属基底標準板の回折線強度の変化から求める。ガイドブック1 の要点）に改名}
+- {op: move, subject: bunseki, from: qp-bunseki-0055, into: pt-bunseki-0280, note: 「水酸化ナトリウムの水溶液は、容量分析の一次標準溶液となる」〔不適当＝正答〕1回。0280（一次標準にできない）と同じ事実。0055 は消した。0280 は 2回・C。改名}
