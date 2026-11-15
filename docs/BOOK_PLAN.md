@@ -248,3 +248,4 @@
 - （追記）no.172 `bk-tokka-tp02` を取り込んだ（`written` 172章。**書く予定 180章のうち 172章。残り 8章**）。パックを渡したもの：`bk-tokka-tp01`（no.173）。残り：`bk-ippan-fr05`、`bk-ippan-0026`、`bk-ippan-fr14`、`bk-funjin-tp04`・`tp05`・`tp01`、`bk-bunseki-tp04`。
 - （追記）no.173 `bk-tokka-tp01` を取り込んだ（`written` 173章。**書く予定 180章のうち 173章。残り 7章**）。パックを渡したもの：`bk-ippan-fr14`・`bk-funjin-tp01`（no.174〜175）。残り：`bk-ippan-fr05`、`bk-ippan-0026`、`bk-funjin-tp04`・`tp05`、`bk-bunseki-tp04`。
 - （追記）no.174〜175 を取り込んだ（`written` 175章。**書く予定 180章のうち 175章。残り 5章**）。パックを渡したもの：`bk-bunseki-tp04`・`bk-funjin-tp05`（no.176〜177）。残り：`bk-ippan-fr05`、`bk-ippan-0026`、`bk-funjin-tp04`。
+- （追記）no.176〜177 を取り込んだ（`written` 177章。**書く予定 180章のうち 177章。残り 3章**）。パックを渡したもの：`bk-funjin-tp04`・`bk-ippan-0026`・`bk-ippan-fr05`（no.178〜180）。**これで、「書く」章のパックは、全部渡した**。

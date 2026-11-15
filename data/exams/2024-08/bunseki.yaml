@@ -787,19 +787,19 @@ questions:
     - 7
     - 11
     - 5
-    - 1
+    - 11
     points:
     - pt-bunseki-0008
     - pt-bunseki-0077
     - pt-bunseki-0003
     - pt-bunseki-0022
-    - pt-bunseki-0347
+    - pt-bunseki-0003
     pnames:
     - 吸光度は、測定対象物質の濃度に比例する
     - 吸光度は、光路長（溶液層の厚さ）に比例する
     - 吸光度は、通常、極大吸収波長で測定する。
     - モル吸光係数は、波長により異なる（吸収極大波長で、極大となる）
-    - 吸収極大波長は、溶媒の種類を変えても変化しない。（誤りの記述）
+    - 吸光度は、通常、極大吸収波長で測定する。
     prcounts:
     - 0
     - 11
@@ -823,7 +823,7 @@ questions:
     - 2
     - 2
     - 1
-    - 1
+    - 2
     recent_exams:
     - 2024-02
     - 2024-08
@@ -844,14 +844,14 @@ questions:
     - []
     - []
     fresh: true
-    level: B
-    why: elim_all
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_hi
 - num: 14
   status: published
   chapters:
