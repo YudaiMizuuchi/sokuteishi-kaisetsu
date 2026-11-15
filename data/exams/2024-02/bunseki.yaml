@@ -929,7 +929,7 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 6
+    - 9
     - 4
     - 2
     - 1
@@ -941,7 +941,7 @@ questions:
     - pt-bunseki-0494
     - pt-bunseki-0423
     pnames:
-    - 光源にタングステンランプを用いる。
+    - 吸光光度分析の光源は、可視部がタングステンランプ、紫外部が重水素放電管（重水素ランプ）
     - 石英製の試料セルが用いられる。
     - 回折格子により測定波長の光を取り出す。
     - 測定波長の光は、青色である。（誤りの記述）
@@ -994,7 +994,7 @@ questions:
     level: C
     why: fresh
     tags:
-    - ''
+    - odo
     - ''
     - ''
     - ans_fresh
@@ -1097,7 +1097,7 @@ questions:
     - 17
     - 0
     - 0
-    - 14
+    - 15
     principles:
     - ''
     - pr-bunseki-0008

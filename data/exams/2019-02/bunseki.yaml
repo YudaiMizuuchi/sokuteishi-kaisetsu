@@ -830,19 +830,19 @@ questions:
     - 2
     truths: 正誤正正正
     pcounts:
-    - 3
+    - 9
     - 2
     - 3
     - 11
     - 11
     points:
-    - pt-bunseki-0117
+    - pt-bunseki-0041
     - pt-bunseki-0204
     - pt-bunseki-0099
     - pt-bunseki-0003
     - pt-bunseki-0003
     pnames:
-    - 重水素ランプは、紫外部の測定の光源に用いられる。
+    - 吸光光度分析の光源は、可視部がタングステンランプ、紫外部が重水素放電管（重水素ランプ）
     - 石英セルは、紫外部の測定に用いることができる。
     - ダブルビーム方式では、測定対象物質の溶解に用いた溶媒の吸収を補正できる
     - 吸光度は、通常、極大吸収波長で測定する。
@@ -866,7 +866,7 @@ questions:
     - ''
     - ''
     trend:
-    - 0
+    - 3
     - 0
     - 0
     - 2
@@ -894,11 +894,11 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
-    - ans_seen
+    - odo
+    - ans_new
     - ''
     - odo
     - odo
@@ -936,7 +936,7 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 9
+    - 10
     - 5
     - 4
     - 12
@@ -954,7 +954,7 @@ questions:
     - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     - 噴霧室では、噴霧された試料のうち大きい粒子が除かれる。
     prcounts:
-    - 14
+    - 15
     - 0
     - 0
     - 17

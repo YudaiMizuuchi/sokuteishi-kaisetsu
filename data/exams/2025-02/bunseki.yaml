@@ -861,19 +861,19 @@ questions:
     - 1
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 9
     - 1
     - 2
     - 2
     - 4
     points:
-    - pt-bunseki-0196
+    - pt-bunseki-0041
     - pt-bunseki-0485
     - pt-bunseki-0422
     - pt-bunseki-0423
     - pt-bunseki-0050
     pnames:
-    - 光源には重水素放電管が用いられる。（誤りの記述）
+    - 吸光光度分析の光源は、可視部がタングステンランプ、紫外部が重水素放電管（重水素ランプ）
     - ガラスセルを用いることができる。
     - 回折格子により測定波長の光を取り出す。
     - 光電子増倍管を用いて透過光の強度を測定する。
@@ -897,7 +897,7 @@ questions:
     - ''
     - 吸光度と透過率の関係
     trend:
-    - 1
+    - 3
     - 1
     - 2
     - 2
@@ -922,10 +922,10 @@ questions:
     - []
     - []
     fresh: true
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ans_seen
+    - ans_b
     - new
     - ''
     - ''

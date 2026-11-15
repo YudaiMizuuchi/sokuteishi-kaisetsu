@@ -872,19 +872,19 @@ questions:
     - 3
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 9
     - 2
     - 4
     - 11
     - 7
     points:
-    - pt-bunseki-0196
+    - pt-bunseki-0041
     - pt-bunseki-0376
     - pt-bunseki-0139
     - pt-bunseki-0003
     - pt-bunseki-0019
     pnames:
-    - 光源には重水素放電管が用いられる。（誤りの記述）
+    - 吸光光度分析の光源は、可視部がタングステンランプ、紫外部が重水素放電管（重水素ランプ）
     - 石英セルは、紫外領域と可視領域の測定に用いることができる。
     - 検出器として光電子増倍管が用いられる。
     - 吸光度は、通常、極大吸収波長で測定する。
@@ -908,7 +908,7 @@ questions:
     - ''
     - モル吸光係数の性質
     trend:
-    - 1
+    - 3
     - 0
     - 2
     - 2
@@ -934,10 +934,10 @@ questions:
     - []
     - - 2026-08
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ans_seen
+    - ans_b
     - ''
     - ''
     - odo
@@ -1040,7 +1040,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 14
+    - 15
     - 17
     - 0
     principles:
@@ -1124,7 +1124,7 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 1
+    - 3
     - 3
     - 4
     - 4
@@ -1136,7 +1136,7 @@ questions:
     - pt-bunseki-0139
     - pt-bunseki-0002
     pnames:
-    - 蛍光光度分析法の光源には、キセノンランプが用いられる
+    - 分光蛍光光度計の光源には、キセノンランプが用いられる（タングステンランプは誤り）
     - 光源の光が分光器で分光され励起光となる。
     - 試料からの蛍光は分光器で分光される。
     - 検出器として光電子増倍管が用いられる。
@@ -1160,7 +1160,7 @@ questions:
     - ''
     - 蛍光は励起光より長波長
     trend:
-    - 0
+    - 1
     - 1
     - 2
     - 2
@@ -1192,7 +1192,7 @@ questions:
     level: S
     why: pt_S
     tags:
-    - new
+    - ''
     - ''
     - ''
     - ''

@@ -769,19 +769,19 @@ questions:
     - 2
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 9
     - 2
     - 3
     - 11
     - 11
     points:
-    - pt-bunseki-0196
+    - pt-bunseki-0041
     - pt-bunseki-0204
     - pt-bunseki-0099
     - pt-bunseki-0003
     - pt-bunseki-0003
     pnames:
-    - 光源には重水素放電管が用いられる。（誤りの記述）
+    - 吸光光度分析の光源は、可視部がタングステンランプ、紫外部が重水素放電管（重水素ランプ）
     - 石英セルは、紫外部の測定に用いることができる。
     - ダブルビーム方式では、測定対象物質の溶解に用いた溶媒の吸収を補正できる
     - 吸光度は、通常、極大吸収波長で測定する。
@@ -805,7 +805,7 @@ questions:
     - ''
     - ''
     trend:
-    - 1
+    - 3
     - 0
     - 0
     - 2
@@ -831,10 +831,10 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: pt_B
     tags:
-    - ans_seen
+    - ans_b
     - ''
     - ''
     - odo
@@ -1020,19 +1020,19 @@ questions:
     - 2
     truths: 誤正正正正
     pcounts:
-    - 6
+    - 3
     - 3
     - 4
     - 4
     - 4
     points:
-    - pt-bunseki-0041
+    - pt-bunseki-0504
     - pt-bunseki-0227
     - pt-bunseki-0138
     - pt-bunseki-0118
     - pt-bunseki-0139
     pnames:
-    - 光源にタングステンランプを用いる。
+    - 分光蛍光光度計の光源には、キセノンランプが用いられる（タングステンランプは誤り）
     - 光源の光が分光器で分光され励起光となる。
     - 石英製の試料セルが用いられる。
     - 試料からの蛍光は分光器で分光される。
@@ -1056,7 +1056,7 @@ questions:
     - ''
     - ''
     trend:
-    - 3
+    - 1
     - 1
     - 3
     - 2

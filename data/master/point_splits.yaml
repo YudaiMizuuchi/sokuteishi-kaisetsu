@@ -625,3 +625,11 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 # 2026-11-15（続き75）bk-funjin-tp01 のパックの前の整理
 - {op: move, subject: funjin, from: pt-funjin-0042, into: pt-funjin-0038, note: 「空気吸引流量に影響されない」の4件（誤りの形「影響される」1件を含む）を、同じ事実の 0038 へ。5 → 9回・S}
 - {op: merge, subject: funjin, from: pt-funjin-0158, into: pt-funjin-0042, note: 「気温や相対湿度の影響をほとんど受けない」。0042 は、相対湿度の論点に（4回・B）}
+# 2026-11-15（続き76）bk-bunseki-tp04・bk-funjin-tp05 のパックの前の整理
+- {op: move, subject: bunseki, from: pt-bunseki-0041, into: pt-bunseki-0504, note: 分光蛍光光度計の問の「光源にはタングステンランプ」〔誤〕2件。吸光光度の光源とは別の装置。0504 は 3回}
+- {op: move, subject: bunseki, from: pt-bunseki-0117, into: pt-bunseki-0005, note: フレーム原子吸光の問の「分析線の光源には重水素ランプ」〔誤〕。中空陰極ランプの誤りの形}
+- {op: merge, subject: bunseki, from: pt-bunseki-0196, into: pt-bunseki-0041, note: 「可視部の測定に重水素放電管」〔誤〕3回}
+- {op: merge, subject: bunseki, from: pt-bunseki-0117, into: pt-bunseki-0041, note: 「紫外部は重水素放電管」。0041 は、吸光光度の光源（可視部＝タングステン、紫外部＝重水素）の 9回・B}
+- {op: merge, subject: funjin, from: pt-funjin-0355, into: pt-funjin-0056, note: 流量を大きくすると50％分粒粒径は大きくなる。平方根に比例と同じ事実。7回・A}
+- {op: merge, subject: funjin, from: pt-funjin-0149, into: pt-funjin-0085, note: インパクターの50％分粒粒径は 4.0 µm。5回・A}
+- {op: merge, subject: funjin, from: pt-funjin-0133, into: pt-funjin-0157, note: 密度4・直径1 µm の空気力学相当径は 2 µm。密度の平方根に比例と同じ事実。4回・B}

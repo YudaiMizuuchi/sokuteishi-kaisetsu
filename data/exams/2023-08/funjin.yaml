@@ -43,19 +43,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 5
-    - 2
+    - 4
     - 8
     - 2
     - 6
     points:
     - pt-funjin-0033
-    - pt-funjin-0133
+    - pt-funjin-0157
     - pt-funjin-0005
     - pt-funjin-0144
     - pt-funjin-0022
     pnames:
     - 遠心力場の加速度は、角速度が同じであれば、回転半径に比例する。
-    - 密度 4 g･cm⁻³、直径 1 µmの球形粒子の空気力学相当径は 2 µmである
+    - 同じ大きさの球形粒子の空気力学相当径は、粒子の密度の平方根に比例する（密度 4 g/cm³・直径 1 µm なら 2 µm）
     - 電界中での帯電している粒子の移動速度は、粒径が小さいほど大きい。
     - ブラウン運動による粒子の平均移動距離は、拡散係数の平方根に比例する
     - 粒子のブラウン運動による拡散係数は、温度が高いほど大きい。
@@ -79,7 +79,7 @@ questions:
     - 粒子のブラウン運動と拡散
     trend:
     - 1
-    - 1
+    - 2
     - 2
     - 0
     - 3
@@ -101,11 +101,11 @@ questions:
     - []
     - []
     fresh: true
-    level: B
-    why: elim_two
+    level: A
+    why: trend_A
     tags:
     - odo
-    - ans_new
+    - ans_trend
     - odo
     - ''
     - odo
