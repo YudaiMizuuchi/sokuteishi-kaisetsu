@@ -1162,19 +1162,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 4
-    - 7
+    - 2
     - 2
     - 3
     - 3
     points:
     - pt-kinzoku-0060
-    - pt-kinzoku-0020
+    - pt-kinzoku-0469
     - pt-kinzoku-0168
     - pt-kinzoku-0082
     - pt-kinzoku-0107
     pnames:
     - リン酸が共存しても干渉は起こらない。
-    - 試料の灰化には、硝酸と過酸化水素水を用いる。
+    - バナジウム（NBPHA 吸光光度）の湿式灰化には、硫酸と過酸化水素水を用いる（硝酸・塩酸は誤り）
     - NBPHAは、バナジウム（Ⅴ）と錯体を生成する。
     - NBPHA錯体は、クロロホルムに抽出する。
     - 試料の捕集には、メンブランフィルターを用いる。
@@ -1226,11 +1226,11 @@ questions:
     fresh: true
     subst_id: sb-kinzoku-4003
     subst_name: 五酸化バナジウム
-    level: S
-    why: pt_S
+    level: B
+    why: subst
     tags:
     - odo
-    - ans_hi
+    - ans_subst
     - ''
     - ''
     - ''

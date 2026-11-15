@@ -5037,18 +5037,15 @@ points:
   - 2024-08|15|4
 - id: pt-kinzoku-0007
   subject: kinzoku
-  name: 試料液の調製には、硝酸を用いる。
+  name: マンガン（原子吸光）の試料液の調製には、塩酸と硝酸の混酸を用いる
   theme: ''
   members:
-  - 2015-08|12|1
   - 2017-08|15|2
   - 2018-08|15|2
-  - 2018-08|19|2
   - 2019-08|15|2
   - 2020-08|15|2
   - 2021-08|15|2
   - 2022-08|15|3
-  - 2022-08|19|1
   - 2023-08|15|2
 - id: pt-kinzoku-0008
   subject: kinzoku
@@ -5211,16 +5208,14 @@ points:
   - 2025-08|6|5
 - id: pt-kinzoku-0020
   subject: kinzoku
-  name: 試料の灰化には、硝酸と過酸化水素水を用いる。
+  name: バナジウム（原子吸光）の試料の湿式灰化には、硝酸と過酸化水素水を用いる
   theme: ''
   members:
-  - 2016-08|14|3
   - 2017-08|14|1
   - 2018-08|14|1
   - 2019-08|14|1
   - 2020-08|14|1
   - 2023-08|14|2
-  - 2025-08|14|2
 - id: pt-kinzoku-0021
   subject: kinzoku
   name: 標準液は、酸化マンガン(Ⅳ)を用いて調製する。
@@ -5393,7 +5388,7 @@ points:
   - 2024-08|6|4
 - id: pt-kinzoku-0037
   subject: kinzoku
-  name: 試料の溶解には、温浴を用いる。
+  name: 粉状ニッケル化合物の試料の溶解には、温浴（約60 ℃）を用いる
   theme: ''
   members:
   - 2015-08|19|2
@@ -5453,13 +5448,14 @@ points:
   - 2024-08|18|3
 - id: pt-kinzoku-0043
   subject: kinzoku
-  name: 試料の溶解には塩酸と硫酸を用いる。
+  name: 粉状ニッケル化合物の試料の溶解には、硝酸、塩酸又はその混酸を用いる（硫酸は用いない）
   theme: ''
   members:
   - 2016-08|19|3
   - 2017-08|19|3
+  - 2018-08|19|2
   - 2020-08|19|3
-  - 2023-08|11|1
+  - 2022-08|19|1
   - 2026-08|18|2
 - id: pt-kinzoku-0044
   subject: kinzoku
@@ -5565,7 +5561,7 @@ points:
   - 2026-08|18|5
 - id: pt-kinzoku-0055
   subject: kinzoku
-  name: 試料液の硫酸濃度は0.025～0.1mol/Lがよい。
+  name: クロム(Ⅵ)（ジフェニルカルバジド吸光光度）の試料液の硫酸濃度は、0.025～0.1 mol/L がよい
   theme: ''
   members:
   - 2017-08|13|4
@@ -6548,7 +6544,6 @@ points:
   members:
   - 2015-08|1|3
   - 2016-08|2|5
-  - 2020-08|4|3
 - id: pt-kinzoku-0184
   subject: kinzoku
   name: 過酸化水素水は、酸化剤あるいは還元剤として用いられる。
@@ -8286,6 +8281,31 @@ points:
   theme: ''
   members:
   - 2021-08|6|2
+- id: pt-kinzoku-0467
+  subject: kinzoku
+  name: カドミウム（APDC抽出-原子吸光）の試料液の調製には、硝酸を用いる
+  theme: ''
+  members:
+  - 2015-08|12|1
+- id: pt-kinzoku-0468
+  subject: kinzoku
+  name: ベリリウム（吸光光度）の試料の溶解には、塩酸と硫酸を用いる
+  theme: ''
+  members:
+  - 2023-08|11|1
+- id: pt-kinzoku-0469
+  subject: kinzoku
+  name: バナジウム（NBPHA 吸光光度）の湿式灰化には、硫酸と過酸化水素水を用いる（硝酸・塩酸は誤り）
+  theme: ''
+  members:
+  - 2016-08|14|3
+  - 2025-08|14|2
+- id: pt-kinzoku-0470
+  subject: kinzoku
+  name: 希硫酸には、酸化力がない（酸化力がある、は誤り）
+  theme: ''
+  members:
+  - 2020-08|4|3
 - id: qp-kinzoku-0001
   subject: kinzoku
   name: 三酸化二ヒ素（無水物）19.8 mg を溶解した水溶液 1…（計算問題）
@@ -9382,6 +9402,7 @@ points:
   - 2020-08|8|1
   - 2022-08|10|1
   - 2024-08|9|4
+  merged_into: pt-funjin-0121
 - id: pt-funjin-0093
   subject: funjin
   name: 表示された値は直接当該粉じんの質量濃度を示すものではなく、質量濃度は、質量濃度変換係数（単位mg・m⁻³）を乗じて求めなければならない

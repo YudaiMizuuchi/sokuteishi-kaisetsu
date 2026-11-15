@@ -770,7 +770,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 5
-    - 3
+    - 6
     - 1
     - 3
     - 4
@@ -806,7 +806,7 @@ questions:
     - 光散乱の原理（粒径・屈折率・波長・角度）
     trend:
     - 1
-    - 1
+    - 2
     - 0
     - 0
     - 0
@@ -828,10 +828,10 @@ questions:
     - []
     fresh: false
     level: A
-    why: pr_A
+    why: pt_A
     tags:
     - odo
-    - ans_pr
+    - ans_hi
     - new
     - ''
     - odo

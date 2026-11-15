@@ -70,7 +70,7 @@ chapters:
   principles:
   - pr-bunseki-0017
   - pr-bunseki-0018
-  status: draft
+  status: written
   part: prep
 - id: bk-bunseki-0019
   subject: bunseki
@@ -161,7 +161,7 @@ chapters:
   kind: 原理
   principles:
   - pr-bunseki-0034
-  status: draft
+  status: written
   part: analysis
 - id: bk-bunseki-0035
   subject: bunseki
@@ -240,7 +240,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0011
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0012
   subject: yuki
@@ -541,7 +541,7 @@ chapters:
   kind: 原理
   principles:
   - pr-funjin-0008
-  status: draft
+  status: written
   part: select
 - id: bk-funjin-0009
   subject: funjin
@@ -1428,7 +1428,7 @@ chapters:
   - pt-ippan-0737
   - pt-ippan-0748
   - pt-ippan-0772
-  status: draft
+  status: written
   part: hazards
 - id: bk-ippan-fr09
   subject: ippan
@@ -3094,6 +3094,10 @@ chapters:
   title: 試料の溶解・前処理（酸・灰化）
   kind: 論点
   points:
+  - pt-kinzoku-0467
+  - pt-kinzoku-0468
+  - pt-kinzoku-0469
+  - pt-kinzoku-0470
   - pt-kinzoku-0007
   - pt-kinzoku-0020
   - pt-kinzoku-0037

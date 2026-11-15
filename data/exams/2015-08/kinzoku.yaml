@@ -39,7 +39,7 @@ questions:
     pcounts:
     - 6
     - 2
-    - 3
+    - 2
     - 1
     - 2
     points:
@@ -1108,19 +1108,19 @@ questions:
     - 1
     truths: 正誤正正正
     pcounts:
-    - 8
+    - 1
     - 2
     - 3
     - 9
     - 2
     points:
-    - pt-kinzoku-0007
+    - pt-kinzoku-0467
     - pt-kinzoku-0151
     - pt-kinzoku-0095
     - pt-kinzoku-0011
     - pt-kinzoku-0149
     pnames:
-    - 試料液の調製には、硝酸を用いる。
+    - カドミウム（APDC抽出-原子吸光）の試料液の調製には、硝酸を用いる
     - 標準液は、塩化カドミウムを精製水に溶かしてから硝酸を加える。
     - MIBKは、水飽和させて用いる。
     - カドミウムのAPDC錯体をMIBKで抽出して最終試料液とする。
@@ -1174,7 +1174,7 @@ questions:
     level: B
     why: subst
     tags:
-    - odo
+    - new
     - ans_subst
     - ''
     - odo
@@ -1864,7 +1864,7 @@ questions:
     - pt-kinzoku-0006
     pnames:
     - 試料の溶解には、2.5mol·L⁻¹硫酸を用いる。（誤りの記述）
-    - 試料の溶解には、温浴を用いる。
+    - 粉状ニッケル化合物の試料の溶解には、温浴（約60 ℃）を用いる
     - 溶解操作後の不溶物は、定量用ろ紙で除去する。
     - 標準液の酸濃度は、試料液の酸濃度に等しくする。
     - 原子化には、アセチレン-空気炎を用いる。
