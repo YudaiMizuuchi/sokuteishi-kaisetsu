@@ -678,3 +678,10 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: move, subject: tokka, from: pt-tokka-0102, into: pt-tokka-0079, note: 「透過光の強度は、濃度の増加とともに指数関数的に増加する」〔誤〕1回。0079（濃度に比例する〔誤〕2回）と同じ事実。0102 は消した。3回・B。正しい形に改名}
 - {op: move, subject: yuki, from: pt-yuki-0060, into: pt-yuki-0020, note: 同じ名前の論点（透過率が大きいほど濃度は低い）。「透過率は濃度に反比例する」〔誤〕2回を含む。0060 は消した。0020 は 8回・S。改名}
 - {op: move, subject: yuki, from: pt-yuki-0041, into: pt-yuki-0024, note: 「log₁₀T＝3−A」〔誤〕1回。0024（2−A）の誤りの形。0041 は消した。6回・S。改名}
+
+# 2026-11-16（続き87）
+- {op: move, subject: funjin, from: pt-funjin-0097, into: pt-funjin-0033, note: 遠心力場の粒子の移動速度は、角速度の二乗に比例（3回）。0033（加速度は回転半径に比例。誤りの形に「角速度に比例」「移動速度は回転半径の二乗に反比例」を含む）と、同じ式（rω²）。0097 は消した。8回・S。改名}
+- {op: rename, subject: funjin, id: pt-funjin-0005, note: 粒径（7回）と電界強度（3回）の両方を入れた名前に。同じ式なので、分けない}
+- {op: rename, subject: funjin, id: pt-funjin-0022, note: 絶対温度（4回）と粒径（2回）の両方を入れた名前に。同じ式なので、分けない}
+- {op: move, subject: bunseki, from: pt-bunseki-0313, into: pt-bunseki-0044, note: 「フレーム中でイオン化した目的元素が共鳴線を吸収する」〔誤〕1回。0044（基底状態の原子が吸収する）の誤りの形。0313 は消した。13回・S}
+- {op: chapter, subject: bunseki, id: pt-bunseki-0130, note: 「吸光度は、光源光の強度に比例する」〔誤〕3回（3回とも正答）。章が、書かない bk-bunseki-tp02 だけだったので、bk-bunseki-0008 に割り当てた（qpoint_chapters）。正しい形に改名}

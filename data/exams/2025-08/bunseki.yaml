@@ -938,19 +938,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 2
-    - 1
+    - 13
     - 4
     - 10
     - 6
     points:
     - pt-bunseki-0429
-    - pt-bunseki-0313
+    - pt-bunseki-0044
     - pt-bunseki-0072
     - pt-bunseki-0005
     - pt-bunseki-0042
     pnames:
     - 試料溶液がフレームに導入される。
-    - フレーム中でイオン化した目的元素が光源からの共鳴線を吸収する。（誤りの記述）
+    - 原子吸光の光の吸収は、基底状態の原子により生じる（「励起状態の原子による」は誤り）
     - 光源光がフレームを通過する位置により吸光度が異なる。
     - 光源には中空陰極ランプが用いられる。
     - 定量は、検量線法で行う。
@@ -999,10 +999,10 @@ questions:
     - []
     fresh: true
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
-    - ans_pr
+    - ans_hi
     - ''
     - odo
     - ''
