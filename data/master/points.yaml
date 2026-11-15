@@ -5021,11 +5021,10 @@ points:
   - 2026-08|10|4
 - id: pt-kinzoku-0010
   subject: kinzoku
-  name: 標準液の調製には、二クロム酸カリウム又はクロム酸カリウムを使用する
+  name: クロム(Ⅵ)の標準液は、二クロム酸カリウム又はクロム酸カリウムを精製水に溶かして調製する
   theme: ''
   members:
   - 2015-08|13|2
-  - 2015-08|15|3
   - 2016-08|13|5
   - 2017-08|13|2
   - 2018-08|13|1
@@ -5061,7 +5060,7 @@ points:
   - 2026-08|16|5
 - id: pt-kinzoku-0013
   subject: kinzoku
-  name: 標準液は、メタバナジン酸アンモニウムを用いて調製する。
+  name: バナジウムの標準液は、メタバナジン酸アンモニウムを用いて調製する
   theme: ''
   members:
   - 2015-08|14|2
@@ -5092,7 +5091,7 @@ points:
   - 2026-08|18|1
 - id: pt-kinzoku-0015
   subject: kinzoku
-  name: ヒ素標準液は、酸化ヒ素(Ⅲ)をアルカリ溶液に溶解して調製する。
+  name: ヒ素（水素化物発生原子吸光）の標準液は、三酸化二ヒ素（酸化ヒ素(Ⅲ)）をアルカリ溶液（水酸化ナトリウム溶液）に溶かして調製する
   theme: ''
   members:
   - 2015-08|16|2
@@ -5164,9 +5163,10 @@ points:
   - 2023-08|14|2
 - id: pt-kinzoku-0021
   subject: kinzoku
-  name: 標準液は、酸化マンガン(Ⅳ)を用いて調製する。
+  name: マンガン（原子吸光）の標準液は、酸化マンガン(Ⅳ)を用いて調製する（過マンガン酸カリウムではない）
   theme: ''
   members:
+  - 2015-08|15|3
   - 2016-08|15|3
   - 2017-08|15|3
   - 2018-08|15|3
@@ -5461,7 +5461,7 @@ points:
   - 2022-08|19|4
 - id: pt-kinzoku-0050
   subject: kinzoku
-  name: ヒ素の標準原液は、三酸化二ヒ素を10M硝酸で溶解して調製する。
+  name: ヒ素の標準原液は、三酸化二ヒ素を希硝酸では溶解しない（10 M 硝酸で溶解する）
   theme: ''
   members:
   - 2016-08|16|5
@@ -5578,10 +5578,11 @@ points:
   - 2024-08|9|3
 - id: pt-kinzoku-0063
   subject: kinzoku
-  name: 硫酸アンモニウムは、溶媒抽出の際に抽出効率を高めるために用いられる
+  name: 硫酸アンモニウムは、溶媒抽出で、抽出効率を高める塩析剤として用いる（マスキング剤ではない）
   theme: ''
   members:
   - 2016-08|10|3
+  - 2017-08|10|3
   - 2018-08|9|3
   - 2020-08|9|3
   - 2023-08|9|3
@@ -5689,7 +5690,7 @@ points:
   - 2025-08|17|5
 - id: pt-kinzoku-0077
   subject: kinzoku
-  name: 標準液の調製には、硫酸ベリリウム（四水和物）を用いる。
+  name: ベリリウム（蛍光光度）の標準液は、硫酸ベリリウム（四水和物）を用いて調製する
   theme: ''
   members:
   - 2020-08|11|5
@@ -5771,11 +5772,13 @@ points:
   - 2023-08|7|3
 - id: pt-kinzoku-0087
   subject: kinzoku
-  name: キレート剤のAPDCは、あらかじめMIBKで処理して精製する。
+  name: キレート剤（APDC）の不純物は、あらかじめ MIBK などの有機溶媒で処理して除く
   theme: ''
   members:
   - 2016-08|12|1
+  - 2017-08|10|2
   - 2020-08|12|2
+  - 2023-08|10|2
   - 2023-08|12|2
 - id: pt-kinzoku-0088
   subject: kinzoku
@@ -6006,11 +6009,15 @@ points:
   - 2023-08|18|4
 - id: pt-kinzoku-0116
   subject: kinzoku
-  name: 検量線作成用の標準原液は、硬質ガラス容器に入れて、冷暗所で保存する
+  name: 水銀の標準液は、硬質ガラス容器に入れて、冷暗所で保存する（ポリエチレン・テフロンの容器は用いない）
   theme: ''
   members:
   - 2016-08|17|4
   - 2020-08|17|4
+  - 2021-08|17|2
+  - 2023-08|17|4
+  - 2025-08|17|3
+  - 2026-08|16|4
 - id: pt-kinzoku-0117
   subject: kinzoku
   name: 吸光度が濃度に比例することをベールの法則という。
@@ -6111,13 +6118,6 @@ points:
   - 2017-08|5|3
   - 2022-08|5|4
   merged_into: pt-kinzoku-0153
-- id: pt-kinzoku-0131
-  subject: kinzoku
-  name: キレート剤に含まれる不純物は、メチルイソブチルケトンなどの有機溶媒で除去する
-  theme: ''
-  members:
-  - 2017-08|10|2
-  - 2023-08|10|2
 - id: pt-kinzoku-0132
   subject: kinzoku
   name: フレーム原子吸光分析法に比べ、検量線の直線範囲が広い
@@ -6209,13 +6209,6 @@ points:
   members:
   - 2021-08|5|1
   - 2022-08|15|2
-- id: pt-kinzoku-0145
-  subject: kinzoku
-  name: 標準原液の保存には、ポリエチレン製の容器は用いない。
-  theme: ''
-  members:
-  - 2021-08|17|2
-  - 2025-08|17|3
 - id: pt-kinzoku-0146
   subject: kinzoku
   name: 測定波長が紫外部にある場合は、石英セルを用いる。
@@ -6246,18 +6239,22 @@ points:
   - 2024-08|11|3
 - id: pt-kinzoku-0150
   subject: kinzoku
-  name: MIBKは、水を約3%溶解する。
+  name: MIBK と水は、相互に数％（約3％）溶解する
   theme: ''
   members:
   - 2015-08|4|5
+  - 2017-08|3|3
   - 2018-08|9|5
+  - 2023-08|4|3
 - id: pt-kinzoku-0151
   subject: kinzoku
-  name: 標準液は、塩化カドミウムを精製水に溶かしてから硝酸を加える。
+  name: カドミウムの標準液は、塩化カドミウム（無水物）を用いて調製する（硝酸カドミウムではない）
   theme: ''
   members:
   - 2015-08|12|2
   - 2017-08|12|2
+  - 2019-08|12|5
+  - 2021-08|12|2
 - id: pt-kinzoku-0152
   subject: kinzoku
   name: 硫酸は、硫酸イオンの干渉があるので、試料の溶解には用いない。
@@ -6315,13 +6312,6 @@ points:
   members:
   - 2021-08|9|4
   - 2026-08|4|5
-- id: pt-kinzoku-0160
-  subject: kinzoku
-  name: 標準液の調製には、塩化カドミウム（無水物）を用いる。
-  theme: ''
-  members:
-  - 2019-08|12|5
-  - 2021-08|12|2
 - id: pt-kinzoku-0161
   subject: kinzoku
   name: 同一の金属の酸化物は、金属の酸化数が大きくなるにつれて、酸性を示す傾向にある
@@ -6336,13 +6326,6 @@ points:
   members:
   - 2022-08|15|4
   - 2023-08|15|3
-- id: pt-kinzoku-0163
-  subject: kinzoku
-  name: 標準液の保存には、テフロン容器は用いない。
-  theme: ''
-  members:
-  - 2023-08|17|4
-  - 2026-08|16|4
 - id: pt-kinzoku-0164
   subject: kinzoku
   name: 金属イオンは、キレート化剤を用いることにより分析することができる
@@ -6503,13 +6486,6 @@ points:
   members:
   - 2017-08|3|2
   - 2023-08|4|2
-- id: pt-kinzoku-0186
-  subject: kinzoku
-  name: 水とは、相互に数％程度溶解する。
-  theme: ''
-  members:
-  - 2017-08|3|3
-  - 2023-08|4|3
 - id: pt-kinzoku-0187
   subject: kinzoku
   name: 酸化ニッケル(Ⅱ)は、塩酸に溶ける。
@@ -7978,12 +7954,6 @@ points:
   theme: ''
   members:
   - 2015-08|3|1
-- id: pt-kinzoku-0433
-  subject: kinzoku
-  name: 硫酸アンモニウムは、マスキング剤として用いる。（誤りの記述）
-  theme: ''
-  members:
-  - 2017-08|10|3
 - id: pt-kinzoku-0434
   subject: kinzoku
   name: ベンゼンの比重は、水より小さい。
