@@ -4894,7 +4894,7 @@ points:
   - 2026-08|18|0
 - id: pt-kinzoku-0001
   subject: kinzoku
-  name: 試料の捕集には、石英繊維ろ紙を用いる。
+  name: 砒素（水素化物発生原子吸光）は、石英繊維ろ紙に捕集し、硝酸・硫酸の混酸で加熱溶解する
   theme: ''
   members:
   - 2015-08|16|1
@@ -4905,10 +4905,8 @@ points:
   - 2020-08|16|1
   - 2021-08|16|1
   - 2022-08|16|1
-  - 2023-08|15|1
   - 2023-08|16|1
   - 2024-08|15|1
-  - 2026-08|14|1
   - 2026-08|15|1
 - id: pt-kinzoku-0002
   subject: kinzoku
@@ -5073,19 +5071,17 @@ points:
   - 2024-08|13|4
 - id: pt-kinzoku-0014
   subject: kinzoku
-  name: ガラス繊維ろ紙で試料を捕集する。
+  name: ニッケル・ベリリウム（蛍光光度）などのろ過捕集には、ガラス繊維ろ紙を用いる
   theme: ''
   members:
   - 2016-08|11|2
   - 2016-08|19|1
   - 2017-08|19|1
-  - 2018-08|15|1
   - 2020-08|11|1
-  - 2020-08|15|1
   - 2020-08|19|1
   - 2021-08|11|1
   - 2021-08|14|1
-  - 2021-08|15|1
+  - 2021-08|5|1
   - 2024-08|10|1
   - 2024-08|18|1
   - 2026-08|18|1
@@ -5140,15 +5136,12 @@ points:
   - 2025-08|13|2
 - id: pt-kinzoku-0019
   subject: kinzoku
-  name: ジフェニルカルバジドは、バナジウムとも反応し発色する。
+  name: ジフェニルカルバジドは、硫酸酸性下でバナジウムとも反応し発色する
   theme: ''
   members:
   - 2017-08|13|5
-  - 2018-08|9|4
   - 2019-08|13|5
   - 2021-08|13|5
-  - 2022-08|9|4
-  - 2024-08|4|1
   - 2025-08|6|5
 - id: pt-kinzoku-0020
   subject: kinzoku
@@ -5196,7 +5189,7 @@ points:
   - 2026-08|11|4
 - id: pt-kinzoku-0024
   subject: kinzoku
-  name: 試料液は、ろ紙に捕集した試料を硝酸又は塩酸に溶解して調製する。
+  name: 鉛は、ガラス繊維ろ紙に捕集した試料を、硝酸又は塩酸で加熱溶解して試料液とする
   theme: ''
   members:
   - 2015-08|18|1
@@ -5204,7 +5197,6 @@ points:
   - 2017-08|18|1
   - 2018-08|18|1
   - 2021-08|18|1
-  - 2024-08|11|1
 - id: pt-kinzoku-0025
   subject: kinzoku
   name: 酒石酸ナトリウムカリウムは、マスキング剤として用いられる。
@@ -5241,7 +5233,7 @@ points:
   - 2024-08|15|3
 - id: pt-kinzoku-0028
   subject: kinzoku
-  name: 吸光光度分析法の発色試薬には、N-ベンゾイル-N-フェニルヒドロキシルアミンを用いる
+  name: バナジウムの吸光光度分析法の発色試薬には、N-ベンゾイル-N-フェニルヒドロキシルアミン（NBPHA）を用いる
   theme: ''
   members:
   - 2018-08|10|3
@@ -5291,7 +5283,7 @@ points:
   - 2026-08|15|5
 - id: pt-kinzoku-0032
   subject: kinzoku
-  name: 液体捕集の捕集液には、精製水を用いる。
+  name: クロム酸の液体捕集には、精製水を捕集液に用いる
   theme: ''
   members:
   - 2017-08|13|1
@@ -5347,14 +5339,10 @@ points:
   - 2026-08|18|3
 - id: pt-kinzoku-0038
   subject: kinzoku
-  name: 蛍光光度分析法では、モリン試薬を用いる。
+  name: ベリリウムの蛍光光度分析法では、モリン試薬を用いる
   theme: ''
   members:
-  - 2016-08|11|1
-  - 2017-08|11|4
-  - 2018-08|11|1
   - 2019-08|11|2
-  - 2022-08|11|3
 - id: pt-kinzoku-0039
   subject: kinzoku
   name: 加熱操作を行って発色反応を促進させた場合には、常温に戻してから測定する
@@ -5434,11 +5422,12 @@ points:
   - 2024-08|9|4
 - id: pt-kinzoku-0047
   subject: kinzoku
-  name: クロム(Ⅵ)をジフェニルカルバジドと反応させ、赤紫色に着色した液を543 nmの波長で測定する
+  name: クロム(Ⅵ)とジフェニルカルバジドの赤紫色の発色は、543 nm（極大吸収波長）で測定する（358 nm・450 nm は誤り）
   theme: ''
   members:
   - 2017-08|13|3
   - 2018-08|13|3
+  - 2020-08|13|3
   - 2021-08|13|3
   - 2024-08|12|3
 - id: pt-kinzoku-0048
@@ -5479,7 +5468,7 @@ points:
   - 2026-08|5|2
 - id: pt-kinzoku-0052
   subject: kinzoku
-  name: 試料は、面速19cm/秒で捕集する。
+  name: ニッケル化合物は、面速 19 cm/秒でろ過捕集する
   theme: ''
   members:
   - 2016-08|19|2
@@ -5497,7 +5486,7 @@ points:
   - 2020-08|8|3
 - id: pt-kinzoku-0054
   subject: kinzoku
-  name: 硫酸ニッケル等のニッケル化合物のろ紙からの酸による溶出率は、95 ％程度である
+  name: ニッケル化合物の、ろ紙からの酸による溶出率は、95％程度である
   theme: ''
   members:
   - 2016-08|19|4
@@ -5634,12 +5623,15 @@ points:
   - 2026-08|2|1
 - id: pt-kinzoku-0069
   subject: kinzoku
-  name: 試料の捕集は、グラスファイバーろ紙を用いる。
+  name: マンガンの捕集には、ガラス繊維ろ紙（グラスファイバーろ紙）を用いる（令和3年度までの出題。令和4年度以降は、石英繊維ろ紙）
   theme: ''
   members:
   - 2015-08|15|1
   - 2017-08|15|1
+  - 2018-08|15|1
   - 2019-08|15|1
+  - 2020-08|15|1
+  - 2021-08|15|1
 - id: pt-kinzoku-0070
   subject: kinzoku
   name: 中空陰極ランプは、陰極が測定対象金属又はその合金からなり、金属固有の輝線スペクトルを発する
@@ -5782,7 +5774,7 @@ points:
   - 2023-08|12|2
 - id: pt-kinzoku-0088
   subject: kinzoku
-  name: フィルター上に捕集したクロム酸及びその塩は、炭酸ナトリウム溶液を用いて抽出する
+  name: フィルターに捕集したクロム酸は、炭酸ナトリウム溶液で抽出する（硝酸で抽出するのは誤り）
   theme: ''
   members:
   - 2015-08|13|3
@@ -5790,7 +5782,7 @@ points:
   - 2023-08|13|2
 - id: pt-kinzoku-0089
   subject: kinzoku
-  name: 捕集液中のクロム(Ⅵ)は、APDC錯体としてMIBKに抽出する。
+  name: 液体捕集した捕集液中のクロム(Ⅵ)は、APDC 錯体として MIBK に抽出する（原子吸光）
   theme: ''
   members:
   - 2015-08|13|4
@@ -5817,7 +5809,7 @@ points:
   - 2026-08|11|2
 - id: pt-kinzoku-0092
   subject: kinzoku
-  name: ジフェニルカルバジドとクロムイオンとの錯体は、赤紫色である。
+  name: クロム(Ⅵ)は、ジフェニルカルバジドと反応して、赤紫色を呈する
   theme: ''
   members:
   - 2020-08|13|2
@@ -5833,7 +5825,7 @@ points:
   - 2026-08|5|1
 - id: pt-kinzoku-0094
   subject: kinzoku
-  name: 吸光光度分析法では、ベリロンⅢを用いる。
+  name: ベリリウムの吸光光度分析法では、ベリロンⅢを発色試薬に用いる（蛍光光度分析法の試薬ではない）
   theme: ''
   members:
   - 2015-08|11|2
@@ -5849,15 +5841,16 @@ points:
   - 2021-08|10|4
 - id: pt-kinzoku-0096
   subject: kinzoku
-  name: ジフェニルカルバジド溶液は、アセトンに溶解し調製する。
+  name: ジフェニルカルバジド溶液は、アセトンに溶かして調製する（精製水に溶かすのは誤り）
   theme: ''
   members:
   - 2018-08|13|2
   - 2019-08|10|1
+  - 2025-08|6|2
   - 2026-08|12|2
 - id: pt-kinzoku-0097
   subject: kinzoku
-  name: 試料液をアルカリ性にした後、モリンを加えて、最終試料液とする。
+  name: ベリリウムの蛍光光度分析法では、試料液をアルカリ性にした後、モリンを加えて、最終試料液とする
   theme: ''
   members:
   - 2020-08|11|3
@@ -5873,7 +5866,7 @@ points:
   - 2019-08|8|3
 - id: pt-kinzoku-0099
   subject: kinzoku
-  name: 排気系には、水銀吸収装置を取り付ける必要がある。
+  name: 水銀の原子吸光分析では、排気系に水銀吸収装置を取り付ける
   theme: ''
   members:
   - 2016-08|17|5
@@ -5906,7 +5899,7 @@ points:
   - 2024-08|7|2
 - id: pt-kinzoku-0103
   subject: kinzoku
-  name: 捕集は、液体捕集法又はろ過捕集法による。
+  name: クロム酸の捕集は、液体捕集法又はろ過捕集法による
   theme: ''
   members:
   - 2015-08|13|1
@@ -5930,15 +5923,16 @@ points:
   - 2022-08|9|2
 - id: pt-kinzoku-0106
   subject: kinzoku
-  name: バブラーの壁面は、捕集液を用いて洗う。
+  name: 水銀の液体捕集では、バブラーの壁面を捕集液で洗い、洗液も試料液に合わせる
   theme: ''
   members:
   - 2016-08|17|2
   - 2019-08|17|2
   - 2022-08|17|2
+  - 2024-08|16|3
 - id: pt-kinzoku-0107
   subject: kinzoku
-  name: 試料の捕集には、メンブランフィルターを用いる。
+  name: バナジウム（NBPHA 吸光光度）の捕集には、メンブランフィルターを用いる
   theme: ''
   members:
   - 2015-08|14|1
@@ -5967,10 +5961,7 @@ points:
   name: カドミウムの捕集には、ろ過捕集法を用いる。
   theme: ''
   members:
-  - 2019-08|12|1
-  - 2019-08|12|4
   - 2019-08|5|1
-  - 2026-08|11|1
 - id: pt-kinzoku-0111
   subject: kinzoku
   name: 採取した試料を硝酸で処理し、試料液を調製する。
@@ -5995,11 +5986,14 @@ points:
   - 2023-08|11|2
 - id: pt-kinzoku-0114
   subject: kinzoku
-  name: モリン錯体は、水酸化ナトリウム濃度が0.02～0.1mol·L⁻¹の範囲で蛍光強度が最も大きくなる
+  name: モリン錯体の蛍光強度は、アルカリ（水酸化ナトリウム）濃度の影響を強く受ける（0.02〜0.1 mol/L で最大）
   theme: ''
   members:
+  - 2015-08|11|3
   - 2018-08|11|4
   - 2022-08|11|4
+  - 2024-08|10|3
+  - 2025-08|11|2
 - id: pt-kinzoku-0115
   subject: kinzoku
   name: 電気加熱式原子吸光分析法では、鉛の塩化物が低い温度で蒸発しやすいため、灰化温度を高くできない
@@ -6041,11 +6035,14 @@ points:
   - 2022-08|17|1
 - id: pt-kinzoku-0120
   subject: kinzoku
-  name: 塩化スズ(Ⅱ)溶液は、モリン試薬の酸化を防ぎ蛍光を安定に保つ作用がある
+  name: 塩化スズ(Ⅱ)溶液は、モリンの酸化を防ぎ、蛍光を安定に保つ
   theme: ''
   members:
+  - 2015-08|11|5
   - 2018-08|11|3
+  - 2021-08|11|5
   - 2022-08|11|5
+  - 2024-08|10|5
 - id: pt-kinzoku-0121
   subject: kinzoku
   name: ガラス容器は、硝酸酸性溶液に浸した後、精製水で十分に洗浄してから用いる
@@ -6134,10 +6131,15 @@ points:
   - 2025-08|9|5
 - id: pt-kinzoku-0134
   subject: kinzoku
-  name: 吸光光度分析法に比べ、定量下限は低いが、測定に影響を及ぼす因子が多い
+  name: 蛍光光度分析法は、吸光光度分析法より感度が高い（定量下限が低い）。ベリリウムでは、モリン法がベリロンⅢ法より高感度
   theme: ''
   members:
+  - 2016-08|11|1
+  - 2018-08|11|1
   - 2019-08|8|5
+  - 2020-08|8|5
+  - 2022-08|11|3
+  - 2025-08|11|1
   - 2026-08|10|5
 - id: pt-kinzoku-0135
   subject: kinzoku
@@ -6202,13 +6204,6 @@ points:
   members:
   - 2020-08|13|4
   - 2025-08|6|3
-- id: pt-kinzoku-0144
-  subject: kinzoku
-  name: 捕集のろ過材には、石英繊維ろ紙を使用する。
-  theme: ''
-  members:
-  - 2021-08|5|1
-  - 2022-08|15|2
 - id: pt-kinzoku-0146
   subject: kinzoku
   name: 測定波長が紫外部にある場合は、石英セルを用いる。
@@ -6265,10 +6260,12 @@ points:
   merged_into: pt-kinzoku-0065
 - id: pt-kinzoku-0153
   subject: kinzoku
-  name: 吸光度の誤差が最も小さいのは、0.4付近である。
+  name: 吸光度の読み取り誤差が最も小さいのは、吸光度 0.4 付近（透過率 37％付近）である
   theme: ''
   members:
   - 2016-08|6|5
+  - 2017-08|5|1
+  - 2022-08|5|2
   - 2023-08|5|5
 - id: pt-kinzoku-0154
   subject: kinzoku
@@ -6364,11 +6361,14 @@ points:
   - 2025-08|14|3
 - id: pt-kinzoku-0169
   subject: kinzoku
-  name: ジフェニルカルバジドは、クロム(Ⅲ)の発色試薬として用いることができる（誤りの記述）
+  name: ジフェニルカルバジドは、硫酸酸性でクロム(Ⅵ)と反応して発色する（クロム(Ⅲ)とは反応しない）
   theme: ''
   members:
   - 2016-08|10|4
+  - 2018-08|9|4
   - 2019-08|9|4
+  - 2022-08|9|4
+  - 2024-08|4|1
 - id: pt-kinzoku-0170
   subject: kinzoku
   name: 精製水には、蒸留水、イオン交換水などがある。
@@ -6385,15 +6385,19 @@ points:
   - 2019-08|4|3
 - id: pt-kinzoku-0172
   subject: kinzoku
-  name: 捕集されたカドミウムは、硝酸を用いて溶解する。
+  name: カドミウムは、希硝酸に溶ける。ろ過捕集したカドミウムは、硝酸で加熱溶解する
   theme: ''
   members:
   - 2015-08|1|1
   - 2016-08|1|1
   - 2017-08|12|1
   - 2018-08|12|1
+  - 2019-08|12|1
+  - 2019-08|12|4
+  - 2024-08|11|1
   - 2024-08|1|1
   - 2025-08|2|3
+  - 2026-08|11|1
 - id: pt-kinzoku-0173
   subject: kinzoku
   name: プラズマ炎の中心部は、周囲よりも温度が高い。（誤りの記述）
@@ -6423,13 +6427,6 @@ points:
   members:
   - 2019-08|5|4
   - 2022-08|3|5
-- id: pt-kinzoku-0177
-  subject: kinzoku
-  name: 試料の捕集には、混合セルロースメンブランフィルターを用いる。（誤りの記述）
-  theme: ''
-  members:
-  - 2022-08|13|2
-  - 2024-08|14|2
 - id: pt-kinzoku-0178
   subject: kinzoku
   name: 多元素同時測定を行うことができる。
@@ -6509,20 +6506,6 @@ points:
   members:
   - 2019-08|5|5
   - 2022-08|3|3
-- id: pt-kinzoku-0190
-  subject: kinzoku
-  name: 吸光光度分析法よりも感度が高い。
-  theme: ''
-  members:
-  - 2020-08|8|5
-  - 2025-08|11|1
-- id: pt-kinzoku-0191
-  subject: kinzoku
-  name: 吸光度は、値が大きいほど誤差が小さい。（誤りの記述）
-  theme: ''
-  members:
-  - 2017-08|5|1
-  - 2022-08|5|2
 - id: pt-kinzoku-0192
   subject: kinzoku
   name: 光源には、主にキセノンランプを用いる。
@@ -6570,7 +6553,6 @@ points:
   name: クロム酸抽出後の試料液のろ過には、混合セルローズエステルメンブランフィルターを用いる
   theme: ''
   members:
-  - 2023-08|13|1
   - 2023-08|13|3
 - id: pt-kinzoku-0199
   subject: kinzoku
@@ -6645,18 +6627,6 @@ points:
   theme: ''
   members:
   - 2015-08|17|2
-- id: pt-kinzoku-0211
-  subject: kinzoku
-  name: クロム(Ⅵ)とジフェニルカルバジドとの反応で生成する錯体の極大吸収波長は、450 nm 付近である（誤りの記述）
-  theme: ''
-  members:
-  - 2020-08|13|3
-- id: pt-kinzoku-0213
-  subject: kinzoku
-  name: 蛍光光度分析法において、塩化スズ(Ⅱ)溶液を加えるのは、蛍光を安定に保ち、モリンの酸化を防止するためである
-  theme: ''
-  members:
-  - 2015-08|11|5
 - id: pt-kinzoku-0214
   subject: kinzoku
   name: 試料の溶解は、2.5 mol･L⁻¹ 硝酸、3 mol･L⁻¹ 塩酸又は 3 mol･L⁻¹ 硝酸と 2 mol･L⁻¹ 塩酸の1：1の混酸を用いて行う
@@ -6681,12 +6651,6 @@ points:
   theme: ''
   members:
   - 2025-08|15|5
-- id: pt-kinzoku-0218
-  subject: kinzoku
-  name: モリン試薬を用いる蛍光光度分析法では、反応液のアルカリ濃度の影響を強く受ける
-  theme: ''
-  members:
-  - 2015-08|11|3
 - id: pt-kinzoku-0219
   subject: kinzoku
   name: 測定感度は、酸化炎よりも多燃料炎の方が高く、共存するニッケル、マグネシウムなどの干渉も抑制できる（誤りの記述）
@@ -6851,12 +6815,6 @@ points:
   theme: ''
   members:
   - 2021-08|7|2
-- id: pt-kinzoku-0247
-  subject: kinzoku
-  name: モリンが還元されて蛍光強度が低下するのを防ぐために、塩化スズ（Ⅱ）溶液を加える（誤りの記述）
-  theme: ''
-  members:
-  - 2021-08|11|5
 - id: pt-kinzoku-0248
   subject: kinzoku
   name: 吸引流量は、試料採取に使用するろ紙の有効ろ過径によって異なる。
@@ -7068,12 +7026,6 @@ points:
   theme: ''
   members:
   - 2024-08|7|5
-- id: pt-kinzoku-0283
-  subject: kinzoku
-  name: モリンによるベリリウムの蛍光強度は、アルカリ濃度の影響を受ける。
-  theme: ''
-  members:
-  - 2024-08|10|3
 - id: pt-kinzoku-0284
   subject: kinzoku
   name: 検量線の作成には、カドミウム標準水溶液をフレームに導入する。（誤りの記述）
@@ -7244,12 +7196,6 @@ points:
   theme: ''
   members:
   - 2025-08|9|2
-- id: pt-kinzoku-0313
-  subject: kinzoku
-  name: 測定感度は、反応液のアルカリ濃度の影響を強く受ける。
-  theme: ''
-  members:
-  - 2025-08|11|2
 - id: pt-kinzoku-0314
   subject: kinzoku
   name: 検量線の作成には、濃度保証値があるマンガン標準液を用いる。
@@ -7451,16 +7397,11 @@ points:
   - 2024-08|8|4
 - id: pt-kinzoku-0349
   subject: kinzoku
-  name: モリン試薬の蛍光は、分析の妨害にならない。
+  name: ベリリウムの蛍光光度分析法で、モリン試薬の蛍光は、分析の妨害にならない
   theme: ''
   members:
+  - 2017-08|11|4
   - 2024-08|10|4
-- id: pt-kinzoku-0350
-  subject: kinzoku
-  name: シアン化カリウムは、モリンの酸化を防ぎ、蛍光を安定に保つために用いる（誤りの記述）
-  theme: ''
-  members:
-  - 2024-08|10|5
 - id: pt-kinzoku-0351
   subject: kinzoku
   name: 試料液の硫酸濃度は1mol･L⁻¹以上とする。（誤りの記述）
@@ -7697,9 +7638,10 @@ points:
   - 2024-08|13|3
 - id: pt-kinzoku-0390
   subject: kinzoku
-  name: 試料の捕集装置には、吸入性粉じんを捕集する分粒装置を取り付ける。
+  name: マンガンの捕集装置には、吸入性粉じんを捕集する分粒装置を取り付ける
   theme: ''
   members:
+  - 2022-08|15|1
   - 2024-08|14|1
 - id: pt-kinzoku-0391
   subject: kinzoku
@@ -7725,13 +7667,6 @@ points:
   theme: ''
   members:
   - 2025-08|10|4
-- id: pt-kinzoku-0395
-  subject: kinzoku
-  name: 試料の捕集には、石英繊維フィルターを用いる。
-  theme: ''
-  members:
-  - 2025-08|15|1
-  merged_into: pt-kinzoku-0001
 - id: pt-kinzoku-0396
   subject: kinzoku
   name: 最も吸収が強い共鳴線は217.0nmである。
@@ -7876,12 +7811,6 @@ points:
   theme: ''
   members:
   - 2021-08|8|2
-- id: pt-kinzoku-0420
-  subject: kinzoku
-  name: 試料の捕集を行う際には、分粒装置を使用する。
-  theme: ''
-  members:
-  - 2022-08|15|1
 - id: pt-kinzoku-0421
   subject: kinzoku
   name: 抽出時には、脱水・乾燥したものを用いる。（誤りの記述）
@@ -7894,18 +7823,6 @@ points:
   theme: ''
   members:
   - 2024-08|13|5
-- id: pt-kinzoku-0423
-  subject: kinzoku
-  name: バブラー内壁を捕集液で洗い、その洗液を合わせて試料液とする。
-  theme: ''
-  members:
-  - 2024-08|16|3
-- id: pt-kinzoku-0424
-  subject: kinzoku
-  name: ジフェニルカルバジドは、精製水に溶解して用いる。（誤りの記述）
-  theme: ''
-  members:
-  - 2025-08|6|2
 - id: pt-kinzoku-0425
   subject: kinzoku
   name: 紫外部又は可視部の光が励起光として用いられる。
@@ -7914,9 +7831,11 @@ points:
   - 2025-08|10|1
 - id: pt-kinzoku-0426
   subject: kinzoku
-  name: ろ過捕集法では、テフロンメンブランフィルターを使用する。
+  name: クロム酸のろ過捕集には、テフロンメンブランフィルターを用いる（混合セルロースエステルメンブランフィルターは誤り）
   theme: ''
   members:
+  - 2022-08|13|2
+  - 2023-08|13|1
   - 2025-08|13|3
 - id: pt-kinzoku-0427
   subject: kinzoku
@@ -8205,6 +8124,16 @@ points:
   theme: ''
   members:
   - 2025-08|9|1
+- id: pt-kinzoku-0473
+  subject: kinzoku
+  name: マンガン（吸入性粉じん。原子吸光・ICP）の捕集には、石英繊維ろ紙を用いる（混合セルロースメンブランフィルターは誤り）
+  theme: ''
+  members:
+  - 2022-08|15|2
+  - 2023-08|15|1
+  - 2024-08|14|2
+  - 2025-08|15|1
+  - 2026-08|14|1
 - id: qp-kinzoku-0001
   subject: kinzoku
   name: 三酸化二ヒ素（無水物）19.8 mg を溶解した水溶液 1…（計算問題）

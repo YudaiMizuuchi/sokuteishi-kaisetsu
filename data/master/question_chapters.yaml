@@ -307,7 +307,7 @@
   r: []
 2015-08|kinzoku|11:
   p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
-  r: [bk-kinzoku-tp01, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp04, bk-kinzoku-tp01]
 2015-08|kinzoku|12:
   p: [bk-kinzoku-sb4001, bk-kinzoku-tp03]
   r: [bk-kinzoku-tp05, bk-kinzoku-0013, bk-kinzoku-tp02]
@@ -3912,8 +3912,8 @@
   p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
   r: [bk-kinzoku-0009, bk-kinzoku-tp02, bk-kinzoku-tp05]
 2020-08|kinzoku|13:
-  p: [bk-kinzoku-tp08]
-  r: [bk-kinzoku-tp04, bk-kinzoku-tp01, bk-kinzoku-tp02]
+  p: [bk-kinzoku-tp04, bk-kinzoku-tp08]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02]
 2020-08|kinzoku|14:
   p: [bk-kinzoku-0005]
   r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp02]
@@ -3955,7 +3955,7 @@
   r: []
 2020-08|kinzoku|8:
   p: [bk-kinzoku-0004]
-  r: [bk-kinzoku-0003, bk-kinzoku-tp06]
+  r: [bk-kinzoku-0003, bk-kinzoku-tp04, bk-kinzoku-tp06]
 2020-08|kinzoku|9:
   p: [bk-kinzoku-tp04]
   r: [bk-kinzoku-0018, bk-kinzoku-tp05]
@@ -4626,8 +4626,8 @@
   p: [bk-kinzoku-0013]
   r: [bk-kinzoku-tp05, bk-kinzoku-tp04]
 2021-08|kinzoku|11:
-  p: [bk-kinzoku-sb4006, bk-kinzoku-tp08]
-  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp04]
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp02, bk-kinzoku-tp07]
 2021-08|kinzoku|12:
   p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
   r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp03]
@@ -5347,7 +5347,7 @@
   r: [bk-kinzoku-0011, bk-kinzoku-0013, bk-kinzoku-tp07]
 2022-08|kinzoku|11:
   p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
-  r: [bk-kinzoku-tp03]
+  r: [bk-kinzoku-tp03, bk-kinzoku-tp06]
 2022-08|kinzoku|12:
   p: [bk-kinzoku-sb4001, bk-kinzoku-0013]
   r: [bk-kinzoku-tp05]
@@ -6783,8 +6783,8 @@
   p: [bk-kinzoku-0014]
   r: [bk-kinzoku-tp01, bk-kinzoku-tp02]
 2024-08|kinzoku|10:
-  p: [bk-kinzoku-sb4006, bk-kinzoku-tp08]
-  r: [bk-kinzoku-tp01]
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp08]
 2024-08|kinzoku|11:
   p: [bk-kinzoku-sb4001, bk-kinzoku-tp09]
   r: [bk-kinzoku-0013, bk-kinzoku-tp01, bk-kinzoku-tp05]
@@ -6802,7 +6802,7 @@
   r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp09]
 2024-08|kinzoku|16:
   p: [bk-kinzoku-sb4005, bk-kinzoku-tp02]
-  r: [bk-kinzoku-0012]
+  r: [bk-kinzoku-0012, bk-kinzoku-tp01]
 2024-08|kinzoku|17:
   p: [bk-kinzoku-sb4008, bk-kinzoku-tp09]
   r: [bk-kinzoku-0013, bk-kinzoku-0018, bk-kinzoku-tp05]
@@ -7548,8 +7548,8 @@
   p: []
   r: [bk-kinzoku-0013, bk-kinzoku-tp06]
 2025-08|kinzoku|6:
-  p: [bk-kinzoku-tp08]
-  r: [bk-kinzoku-tp04, bk-kinzoku-tp06]
+  p: [bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp06]
 2025-08|kinzoku|7:
   p: [bk-kinzoku-0001, bk-kinzoku-forms]
   r: []
@@ -8223,7 +8223,7 @@
   p: [bk-kinzoku-forms]
   r: []
 2026-08|kinzoku|10:
-  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04]
+  p: [bk-kinzoku-sb4006, bk-kinzoku-tp04, bk-kinzoku-tp06]
   r: [bk-kinzoku-0003, bk-kinzoku-0004]
 2026-08|kinzoku|11:
   p: [bk-kinzoku-sb4001, bk-kinzoku-0005]
