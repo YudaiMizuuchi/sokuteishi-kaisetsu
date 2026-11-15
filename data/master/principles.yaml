@@ -967,8 +967,6 @@ principles:
   - pt-yuki-0055
   - pt-yuki-0071
   - pt-yuki-0176
-  - pt-yuki-0232
-  - pt-yuki-0260
   - pt-yuki-0282
 - id: pr-yuki-0019
   subject: yuki
@@ -1246,7 +1244,6 @@ principles:
   points:
   - qp-tokka-0018
   - qp-tokka-0029
-  - qp-tokka-0077
 - id: pr-tokka-0009
   subject: tokka
   name: 酸化剤・還元剤の働き
@@ -1472,6 +1469,8 @@ principles:
   - pt-kinzoku-0062
   - pt-kinzoku-0090
   - pt-kinzoku-0102
+  - pt-kinzoku-0471
+  - pt-kinzoku-0472
   - qp-kinzoku-0020
 - id: pr-kinzoku-0011
   subject: kinzoku
@@ -2174,7 +2173,6 @@ principles:
   - 距離.{0,10}(線量|被ばく)
   points:
   - pt-ippan-0010
-  - pt-ippan-0811
 - id: pr-ippan-0020
   subject: ippan
   name: 細胞分裂が盛んなほど放射線の感受性が高い

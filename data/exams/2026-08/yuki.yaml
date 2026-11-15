@@ -250,22 +250,22 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 1
+    - 2
     - 1
     - 1
-    - 1
-    - 1
+    - 5
     points:
     - pt-yuki-0282
-    - pt-yuki-0260
+    - pt-yuki-0176
     - pt-yuki-0283
     - pt-yuki-0284
-    - pt-yuki-0232
+    - pt-yuki-0032
     pnames:
     - シリカゲルは、極性物質の捕集に適している。
-    - 活性炭は、無極性物質に対する吸着力が強い。
+    - 活性炭は一般に無極性有機溶剤に対する吸着力が強く、n-ヘキサン、トルエンなどの捕集に適している
     - 活性炭は、湿度の影響を受けにくい。
     - ポーラスポリマービーズは、活性炭に比べて捕集容量が小さい。
-    - ポーラスポリマービーズでは、活性炭に比べて、不安定な化合物の変質が起こりやすい（誤りの記述）
+    - ポーラスポリマービーズは反応性が低いので、試料の重合、酸化などが起こりにくい
     prcounts:
     - 5
     - 5
@@ -307,14 +307,14 @@ questions:
     - []
     - []
     fresh: true
-    level: B
-    why: pr_B
+    level: A
+    why: pt_A
     tags:
     - new
+    - ''
     - new
     - new
-    - new
-    - ans_pr
+    - ans_hi
 - num: 6
   status: published
   chapters:

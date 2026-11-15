@@ -348,6 +348,7 @@ points:
   - 2017-08|4|4
   - 2020-08|6|4
   - 2022-08|5|4
+  - 2026-08|5|5
 - id: pt-yuki-0033
   subject: yuki
   name: 活性炭は、窒素又は乾燥空気の気流の中で加熱脱水したものを用いる。
@@ -1414,6 +1415,7 @@ points:
   theme: ''
   members:
   - 2017-08|5|5
+  - 2026-08|5|2
 - id: pt-yuki-0177
   subject: yuki
   name: 光イオン化検出器（PID）は、赤外線を利用する方法で、赤外線でイオン化できる物質の測定に適している（誤りの記述）
@@ -1733,12 +1735,6 @@ points:
   theme: ''
   members:
   - 2025-08|14|3
-- id: pt-yuki-0232
-  subject: yuki
-  name: ポーラスポリマービーズでは、活性炭に比べて、不安定な化合物の変質が起こりやすい（誤りの記述）
-  theme: ''
-  members:
-  - 2026-08|5|5
 - id: pt-yuki-0233
   subject: yuki
   name: サンプリング原理は、拡散現象を利用している。
@@ -1901,12 +1897,6 @@ points:
   theme: ''
   members:
   - 2025-08|16|3
-- id: pt-yuki-0260
-  subject: yuki
-  name: 活性炭は、無極性物質に対する吸着力が強い。
-  theme: ''
-  members:
-  - 2026-08|5|2
 - id: pt-yuki-0261
   subject: yuki
   name: 電子イオン化法は、熱電子を利用してイオン化する方法である。
@@ -4540,6 +4530,7 @@ points:
   members:
   - 2015-08|16|0
   - 2019-08|16|0
+  - 2022-08|16|0
 - id: qp-tokka-0019
   subject: tokka
   name: ガスクロマトグラフ分析法による検出下限濃度を求めるため…（計算問題）
@@ -4849,13 +4840,6 @@ points:
   kind: question
   members:
   - 2022-08|14|0
-- id: qp-tokka-0077
-  subject: tokka
-  name: 特定化学物質の分析に使用する標準原液のうち…→次亜塩素酸ナトリウム溶液
-  theme: ''
-  kind: question
-  members:
-  - 2022-08|16|0
 - id: qp-tokka-0078
   subject: tokka
   name: ろ過捕集法と固体捕集法を組合せた相補型ろ過捕集法により捕集する→アクリルアミド
@@ -5465,10 +5449,6 @@ points:
   theme: ''
   members:
   - 2018-08|3|5
-  - 2022-08|18|5
-  - 2022-08|19|5
-  - 2023-08|19|5
-  - 2025-08|9|1
 - id: pt-kinzoku-0046
   subject: kinzoku
   name: 誘導結合プラズマ質量分析法は、ICP-AESと比べて感度が高い
@@ -8291,6 +8271,20 @@ points:
   theme: ''
   members:
   - 2020-08|4|3
+- id: pt-kinzoku-0471
+  subject: kinzoku
+  name: ICP-MS では、測定元素の質量数（質量／電荷比）のイオン強度（カウント数）を用いて定量する
+  theme: ''
+  members:
+  - 2022-08|18|5
+  - 2022-08|19|5
+  - 2023-08|19|5
+- id: pt-kinzoku-0472
+  subject: kinzoku
+  name: ICP-AES の定量下限は、一般に、ICP-MS よりも高い
+  theme: ''
+  members:
+  - 2025-08|9|1
 - id: qp-kinzoku-0001
   subject: kinzoku
   name: 三酸化二ヒ素（無水物）19.8 mg を溶解した水溶液 1…（計算問題）
@@ -11533,7 +11527,7 @@ points:
   - 2026-08|13|5
 - id: pt-ippan-0010
   subject: ippan
-  name: β線とγ線では、γ線の方が透過力が大きい。
+  name: 透過力は、γ線・X線が最も強く、α線が最も弱い（α線 ＜ β線 ＜ γ線・X線）
   theme: ''
   members:
   - 2016-02|14|5
@@ -11548,6 +11542,7 @@ points:
   - 2022-08|14|4
   - 2023-02|14|4
   - 2023-08|16|2
+  - 2024-08|16|2
   - 2026-08|16|2
 - id: pt-ippan-0011
   subject: ippan
@@ -17431,12 +17426,6 @@ points:
   theme: ''
   members:
   - 2026-08|5|5
-- id: pt-ippan-0811
-  subject: ippan
-  name: α線、β線及びγ線の中で、透過力が最も弱いものはα線である。
-  theme: ''
-  members:
-  - 2024-08|16|2
 - id: pt-ippan-0812
   subject: ippan
   name: ㋑-㋺-㋩-㋥（誤りの記述）
