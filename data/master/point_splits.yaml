@@ -618,3 +618,10 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: merge, subject: tokka, from: pt-tokka-0219, into: pt-tokka-0087, note: 「硫酸亜鉛七水和物」。0087 は 4回・A}
 - {op: merge, subject: tokka, from: pt-tokka-0247, into: pt-tokka-0037, note: 「塩化鉄（Ⅲ）は触媒」〔誤〕。0037 は 4回・A}
 - {op: split, subject: tokka, from: pt-tokka-0002, new: pt-tokka-0265, keys: [2020-08|1|1], note: フッ化水素の問の「捕集液として水酸化ナトリウム溶液」。シアン化水素とは別の物質。原理 pr-tokka-0007 に加えた。0002 は 5回・S}
+# 2026-11-15（続き75）bk-ippan-fr14 のパックの前の整理
+- {op: merge, subject: ippan, from: pt-ippan-0250, into: pt-ippan-0171, note: 「波長 10 nm 以上を X線、それより高エネルギーをγ線」〔誤〕は、「発生過程の違いで区別」の誤りの形。5 → 8回・A}
+- {op: move, subject: ippan, from: pt-ippan-0082, into: pt-ippan-0183, note: 「β線は、電離作用を有する電磁波」〔誤〕4件は、電離作用の大小ではなく、粒子線か電磁波かの事実。0183 は 3 → 7回・B。0082 は 2回・C}
+- {op: move, subject: ippan, from: pt-ippan-0084, into: pt-ippan-0057, note: 皮膚障害（急性障害・確定的影響）の3件は、白内障とは別の事実。0057 は 7 → 10回・A。0084（白内障）は 4回・C}
+# 2026-11-15（続き75）bk-funjin-tp01 のパックの前の整理
+- {op: move, subject: funjin, from: pt-funjin-0042, into: pt-funjin-0038, note: 「空気吸引流量に影響されない」の4件（誤りの形「影響される」1件を含む）を、同じ事実の 0038 へ。5 → 9回・S}
+- {op: merge, subject: funjin, from: pt-funjin-0158, into: pt-funjin-0042, note: 「気温や相対湿度の影響をほとんど受けない」。0042 は、相対湿度の論点に（4回・B）}

@@ -1351,19 +1351,19 @@ questions:
     - 2
     truths: 誤正正正正
     pcounts:
-    - 3
+    - 8
     - 14
     - 6
     - 3
     - 2
     points:
-    - pt-ippan-0250
+    - pt-ippan-0171
     - pt-ippan-0010
     - pt-ippan-0061
     - pt-ippan-0260
     - pt-ippan-0828
     pnames:
-    - X線及びγ線のうち、波長が10nm以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ（誤りの記述）
+    - X線とγ線は、波長の長短ではなく、発生過程の違いによって区別される（「波長 10 nm で区別」は誤り）
     - 透過力は、γ線・X線が最も強く、α線が最も弱い（α線 ＜ β線 ＜ γ線・X線）
     - しきい値は、確定的影響には存在するが、確率的影響には存在しない。
     - 放射線宿酔は、急性影響であり、かつ、確定的影響である。
@@ -1413,10 +1413,10 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: A
+    why: pt_A
     tags:
-    - ans_seen
+    - ans_hi
     - odo
     - odo
     - ''
