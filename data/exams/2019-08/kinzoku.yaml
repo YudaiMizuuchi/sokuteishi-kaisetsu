@@ -1060,7 +1060,7 @@ questions:
     pcounts:
     - 2
     - 9
-    - 3
+    - 6
     - 2
     - 2
     points:
@@ -1072,7 +1072,7 @@ questions:
     pnames:
     - カドミウムの捕集には、ろ過捕集法を用いる。
     - カドミウムのAPDC錯体をMIBKで抽出して最終試料液とする。
-    - APDCキレートは、pH4以上で不安定になる。
+    - カドミウムのAPDC錯体は、pH4以上で不安定になり、有機溶媒層への抽出率が低くなる
     - カドミウムの捕集には、ろ過捕集法を用いる。
     - 標準液の調製には、塩化カドミウム（無水物）を用いる。
     prcounts:
@@ -1119,11 +1119,11 @@ questions:
     subst_id: sb-kinzoku-4001
     subst_name: カドミウムおよびその化合物
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
     - odo
-    - ans_pr
+    - ans_hi
     - ''
     - ''
 - num: 13

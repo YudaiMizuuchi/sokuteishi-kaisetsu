@@ -88,3 +88,14 @@ def art(head, name, n=500):
     f = [x for x in os.listdir('data/law') if x.startswith(head) and x.endswith('.txt')][0]
     t = open('data/law/' + f, encoding='utf-8').read()
     return [t[m.start():m.start() + n] for m in re.finditer(r'\n' + name + '　', t)]
+
+
+def stems(pid, w=40, cw=70):
+    """論点の選択肢を、問題文の頭つきで並べる（物質・分析法の違いを見るため。folded() は問題文を出さない）。"""
+    from point_inspect import members as _m
+    s = pts[pid]['subject']; o = [f"## {pid} {pts[pid]['name']}"]
+    for k in _m(pid):
+        e, n, i = k.split('|'); x = q(s, e, n); i = int(i); fr = x.get('freq') or {}
+        t = (fr.get('truths') or '?????')[i - 1] if i > 0 and fr.get('kind') == 'choice' else '・'
+        o.append(f"  {k} {t} {re.sub(chr(92)+'s+', '', str(x['stem']))[:w]} ｜ {str(x['choices'][i - 1])[:cw] if i > 0 else ''}")
+    return '\n'.join(o)

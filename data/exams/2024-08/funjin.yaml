@@ -361,8 +361,8 @@ questions:
     - 粒径が0.1μmより小さい粒子は、主として拡散作用によってろ過材…
     - 粉じんを測定する場合には、0.3 µm の粒子に対する捕集率が 95 ％以上でなければならない
     prcounts:
-    - 12
-    - 12
+    - 11
+    - 11
     - 0
     - 11
     - 0
@@ -402,9 +402,9 @@ questions:
     - []
     fresh: true
     level: S
-    why: pr_S
+    why: trend_S
     tags:
-    - ans_pr
+    - ans_trend
     - odo
     - ''
     - odo
