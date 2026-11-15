@@ -656,3 +656,8 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: split, subject: kinzoku, from: pt-kinzoku-0086, new: pt-kinzoku-0474, note: ICP は、フレーム原子吸光と同程度以上の感度 1回。0086 は、フレームの種類と感度（2回）。章は bk-kinzoku-tp06}
 - {op: move, subject: funjin, from: pt-funjin-0150, into: pt-funjin-0053, note: クリストバライトの主回折線 22.0°。0150 は消した}
 - {op: move, subject: funjin, from: pt-funjin-0154, into: pt-funjin-0053, note: 石英の主回折線 26.66°（トリジマイト〔誤〕1回）。0154 は消した。0053 は 8回・S}
+
+# 2026-11-16（続き84）
+- {op: move, subject: bunseki, from: pt-bunseki-0168, into: pt-bunseki-0007, note: FID は無機ガス・希ガスに適す〔誤〕3回。0007（有機化合物に適す）の誤りの形。0168 は消した}
+- {op: move, subject: bunseki, from: pt-bunseki-0159, into: pt-bunseki-0058, note: ECD は飽和炭化水素に適す〔誤〕2回。0058（ハロゲン化合物）の誤りの形。0159 は消した}
+- {op: move, subject: bunseki, from: pt-bunseki-0279, into: pt-bunseki-0106, note: FPD は飽和炭化水素に適す〔誤〕1回。0106（硫黄・リン）の誤りの形。0279 は消した}

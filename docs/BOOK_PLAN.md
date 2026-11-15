@@ -259,3 +259,4 @@
 - （追記）書き直し第1回・第2回の8章を取り込んだ（`bk-ippan-fr12`・`fr03`・`fr01`・`fr16`・`fr11`・`fr06`、`bk-design-tp05`・`0014`）。第3回のパックを渡した（`bk-funjin-tp03`・`bk-bunseki-0004`・`bk-design-0013`・`bk-design-tp03`）。52章のうち、残り 40章。
 - （追記）書き直し第3回の4章を取り込んだ（`bk-funjin-tp03`・`bk-bunseki-0004`・`bk-design-0013`・`bk-design-tp03`）。第4回のパックを渡した（`bk-design-tp01`・`bk-bunseki-0011`・`bk-tokka-tp03`・`bk-bunseki-0033`）。52章のうち、取り込み 12章、残り 36章。
 - （追記）書き直し第4回の4章を取り込んだ（`bk-design-tp01`・`bk-bunseki-0011`・`bk-tokka-tp03`・`bk-bunseki-0033`）。第5回のパックを渡した（`bk-yuki-tp03`・`bk-kinzoku-tp06`・`bk-funjin-tp02`・`bk-design-tp02`）。52章のうち、取り込み 16章、残り 32章。
+- （追記）書き直し第5回の4章を取り込んだ（`bk-yuki-tp03`・`bk-kinzoku-tp06`・`bk-funjin-tp02`・`bk-design-tp02`）。第6回のパックを渡した（`bk-funjin-tp06`・`bk-bunseki-0024`・`bk-bunseki-0031`・`bk-ippan-0001`）。52章のうち、取り込み 20章、残り 28章。
