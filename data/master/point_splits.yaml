@@ -685,3 +685,8 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: rename, subject: funjin, id: pt-funjin-0022, note: 絶対温度（4回）と粒径（2回）の両方を入れた名前に。同じ式なので、分けない}
 - {op: move, subject: bunseki, from: pt-bunseki-0313, into: pt-bunseki-0044, note: 「フレーム中でイオン化した目的元素が共鳴線を吸収する」〔誤〕1回。0044（基底状態の原子が吸収する）の誤りの形。0313 は消した。13回・S}
 - {op: chapter, subject: bunseki, id: pt-bunseki-0130, note: 「吸光度は、光源光の強度に比例する」〔誤〕3回（3回とも正答）。章が、書かない bk-bunseki-tp02 だけだったので、bk-bunseki-0008 に割り当てた（qpoint_chapters）。正しい形に改名}
+
+# 2026-11-16（続き89）
+- {op: move, subject: funjin, from: pt-funjin-0173, into: pt-funjin-0079, note: 通気の流速が速いほど、50％分粒粒径は小さい方へ（2回）。0079（吸引流量を大きくすると、小さくなる 2回）と同じ事実。0173 は消した。4回・B。改名}
+- {op: rename, subject: funjin, id: pt-funjin-0028, note: 誤りの形（粒子の密度の平方根に比例）を名前に入れた}
+- {op: rename, subject: design, id: pt-design-0194, note: 名前が誤りの形だった。正しい形（温度が高いほど、吸着能力は低くなる）に改名}
