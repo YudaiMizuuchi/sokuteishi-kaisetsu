@@ -5495,13 +5495,16 @@ points:
   - 2026-08|18|5
 - id: pt-kinzoku-0055
   subject: kinzoku
-  name: クロム(Ⅵ)（ジフェニルカルバジド吸光光度）の試料液の硫酸濃度は、0.025～0.1 mol/L がよい
+  name: クロム(Ⅵ)のジフェニルカルバジド法では、試料液の硫酸濃度は 0.025〜0.1 mol/L がよい（0.1 mol/L を超えると、発色が不安定）
   theme: ''
   members:
+  - 2015-08|4|1
   - 2017-08|13|4
+  - 2018-08|13|5
   - 2019-08|13|4
   - 2020-08|13|5
   - 2021-08|13|4
+  - 2024-08|12|4
 - id: pt-kinzoku-0056
   subject: kinzoku
   name: 試料溶液の粘性は、測定値に影響を与える。
@@ -6647,10 +6650,11 @@ points:
   - 2025-08|12|3
 - id: pt-kinzoku-0217
   subject: kinzoku
-  name: 抽出に用いた混酸（塩酸：硝酸＝2：1）の余剰分は、冷暗所で保管し、再利用する（誤りの記述）
+  name: 抽出用の混酸（塩酸と硝酸）は、保存・再利用しない（用時調製）
   theme: ''
   members:
   - 2025-08|15|5
+  - 2026-08|14|3
 - id: pt-kinzoku-0219
   subject: kinzoku
   name: 測定感度は、酸化炎よりも多燃料炎の方が高く、共存するニッケル、マグネシウムなどの干渉も抑制できる（誤りの記述）
@@ -6760,12 +6764,6 @@ points:
   theme: ''
   members:
   - 2015-08|3|5
-- id: pt-kinzoku-0238
-  subject: kinzoku
-  name: ジフェニルカルバジドによるクロム(Ⅵ)の測定では、硫酸酸性の硫酸濃度は0.1mol·L⁻¹以上がよい（誤りの記述）
-  theme: ''
-  members:
-  - 2015-08|4|1
 - id: pt-kinzoku-0239
   subject: kinzoku
   name: 可燃性有機溶媒を使用する場合、燃料ガスの流量を少なくして測定する
@@ -6884,9 +6882,10 @@ points:
   - 2026-08|7|5
 - id: pt-kinzoku-0259
   subject: kinzoku
-  name: 電気加熱原子化原子吸光分析法では、メモリー現象は見られず、クリーニング時間は短くて良い（誤りの記述）
+  name: バナジウムの電気加熱式原子吸光分析法では、メモリー現象があるので、十分なクリーニング温度と時間が要る
   theme: ''
   members:
+  - 2024-08|13|2
   - 2026-08|13|2
 - id: pt-kinzoku-0260
   subject: kinzoku
@@ -6942,12 +6941,6 @@ points:
   theme: ''
   members:
   - 2017-08|9|3
-- id: pt-kinzoku-0269
-  subject: kinzoku
-  name: 試料液の硫酸濃度が0.5mol·L⁻¹以上で、安定な発色が得られる（誤りの記述）
-  theme: ''
-  members:
-  - 2018-08|13|5
 - id: pt-kinzoku-0270
   subject: kinzoku
   name: 吸光光度分析法では、捕集した水銀をジチゾン-クロロホルム溶液を用いて抽出する
@@ -7008,12 +7001,6 @@ points:
   theme: ''
   members:
   - 2023-08|9|1
-- id: pt-kinzoku-0280
-  subject: kinzoku
-  name: 原子吸光分析法において、最も強い吸収を受ける共鳴線は 283.3 nm である（誤りの記述）
-  theme: ''
-  members:
-  - 2023-08|18|2
 - id: pt-kinzoku-0281
   subject: kinzoku
   name: 硫酸ナトリウムは、水と MIBK 層との分配比を大きくして良好な層分離のために添加される
@@ -7123,12 +7110,6 @@ points:
   theme: ''
   members:
   - 2022-08|15|5
-- id: pt-kinzoku-0300
-  subject: kinzoku
-  name: フレーム原子吸光分析法の直接法では、還元炎を使用する。（誤りの記述）
-  theme: ''
-  members:
-  - 2022-08|18|1
 - id: pt-kinzoku-0301
   subject: kinzoku
   name: ベリリウムは銀白色の金属であり、銅にベリリウムを添加したベリリウム銅は火花を出しにくい特徴を有している
@@ -7178,12 +7159,6 @@ points:
   theme: ''
   members:
   - 2024-08|9|1
-- id: pt-kinzoku-0310
-  subject: kinzoku
-  name: バナジウムは、高温で原子化するので、十分なクリーニング温度と時間を必要としない（誤りの記述）
-  theme: ''
-  members:
-  - 2024-08|13|2
 - id: pt-kinzoku-0311
   subject: kinzoku
   name: ヒドロキシルアミン溶液は、水銀イオンを水銀原子とする還元力はない
@@ -7238,12 +7213,6 @@ points:
   theme: ''
   members:
   - 2015-08|10|3
-- id: pt-kinzoku-0321
-  subject: kinzoku
-  name: 測定波長は、283.3nmが推奨される。
-  theme: ''
-  members:
-  - 2015-08|18|5
 - id: pt-kinzoku-0322
   subject: kinzoku
   name: 試料の溶解には、2.5mol·L⁻¹硫酸を用いる。（誤りの記述）
@@ -7379,9 +7348,10 @@ points:
   - 2023-08|10|1
 - id: pt-kinzoku-0346
   subject: kinzoku
-  name: フレーム原子吸光光度法による鉛の直接法では、酸化炎を使用する。
+  name: 鉛のフレーム原子吸光分析法（直接法）では、酸化炎を使用する（還元炎は誤り）
   theme: ''
   members:
+  - 2022-08|18|1
   - 2023-08|18|1
 - id: pt-kinzoku-0347
   subject: kinzoku
@@ -7402,12 +7372,6 @@ points:
   members:
   - 2017-08|11|4
   - 2024-08|10|4
-- id: pt-kinzoku-0351
-  subject: kinzoku
-  name: 試料液の硫酸濃度は1mol･L⁻¹以上とする。（誤りの記述）
-  theme: ''
-  members:
-  - 2024-08|12|4
 - id: pt-kinzoku-0352
   subject: kinzoku
   name: 鉛のDDTC錯体は、弱酸性でMIBKに抽出される。（誤りの記述）
@@ -7528,12 +7492,6 @@ points:
   theme: ''
   members:
   - 2018-08|14|4
-- id: pt-kinzoku-0372
-  subject: kinzoku
-  name: 原子化は、2,000℃付近で行う。（誤りの記述）
-  theme: ''
-  members:
-  - 2018-08|14|5
 - id: pt-kinzoku-0373
   subject: kinzoku
   name: フッ酸は、ケイ酸化合物の分解に有効である。
@@ -7626,15 +7584,17 @@ points:
   - 2024-08|10|2
 - id: pt-kinzoku-0388
   subject: kinzoku
-  name: ジフェニルカルバジドは、Fe(Ⅲ)とも反応し発色する。
+  name: ジフェニルカルバジドは、鉄(Ⅲ)・モリブデンなどとも反応して発色する（妨害元素になり得る）
   theme: ''
   members:
   - 2024-08|12|5
+  - 2026-08|12|5
 - id: pt-kinzoku-0389
   subject: kinzoku
-  name: 原子化は、2,700℃付近で行う。
+  name: バナジウムの電気加熱式原子吸光分析法では、原子化は 2,700 ℃ 付近で行う（2,000 ℃ 付近は誤り）
   theme: ''
   members:
+  - 2018-08|14|5
   - 2024-08|13|3
 - id: pt-kinzoku-0390
   subject: kinzoku
@@ -7669,9 +7629,11 @@ points:
   - 2025-08|10|4
 - id: pt-kinzoku-0396
   subject: kinzoku
-  name: 最も吸収が強い共鳴線は217.0nmである。
+  name: 鉛の原子吸光分析法で、最も吸収が強い共鳴線は 217.0 nm。測定波長は 283.3 nm が推奨される
   theme: ''
   members:
+  - 2015-08|18|5
+  - 2023-08|18|2
   - 2025-08|18|2
 - id: pt-kinzoku-0397
   subject: kinzoku
@@ -7715,12 +7677,6 @@ points:
   theme: ''
   members:
   - 2026-08|8|5
-- id: pt-kinzoku-0404
-  subject: kinzoku
-  name: 鉄、バナジウム、モリブデン等が妨害元素になり得る。
-  theme: ''
-  members:
-  - 2026-08|12|5
 - id: pt-kinzoku-0405
   subject: kinzoku
   name: 過酸化水素水には、安定剤としてスズを含んでいるものがある。
@@ -7855,12 +7811,6 @@ points:
   theme: ''
   members:
   - 2026-08|8|3
-- id: pt-kinzoku-0430
-  subject: kinzoku
-  name: 混酸は保存して使用できる。（誤りの記述）
-  theme: ''
-  members:
-  - 2026-08|14|3
 - id: pt-kinzoku-0431
   subject: kinzoku
   name: モリブデン酸とヒ素(Ⅲ)の反応を用いる。（誤りの記述）
