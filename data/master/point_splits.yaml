@@ -610,3 +610,11 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
   new: pt-tokka-0264
   keys: [2024-08|5|2]
   note: アクリルアミドの吸引流量 30 L/min。活性炭管の 0.1〜0.2 L/min とは別の事実。bk-tokka-tp01 へ。pt-tokka-0010 は 4回・A → 3回・B。
+# 2026-11-15（続き74）bk-tokka-tp01 のパックの前の整理（同じ事実の誤りの形・言い換えを、もとの論点へ）
+- {op: merge, subject: tokka, from: pt-tokka-0129, into: pt-tokka-0026, note: 「塩酸で中和」〔誤〕は、酢酸で中和の誤りの形}
+- {op: move, subject: tokka, from: pt-tokka-0014, into: pt-tokka-0026, keys: [2019-08|4|1], note: 「塩酸を加え酸性にした後、発色」〔誤〕。0026 は 5回・S、0014 は 3回・B}
+- {op: move, subject: tokka, from: pt-tokka-0049, into: pt-tokka-0002, keys: [2026-08|1|1], note: 「シアン化水素は、硫酸含浸ろ紙で捕集」〔誤〕。0002 は 5回・S。0049 は 1,1-ジメチルヒドラジンの1回}
+- {op: merge, subject: tokka, from: pt-tokka-0231, into: pt-tokka-0087, note: 「捕集液に硫酸カリウム水溶液」〔誤〕}
+- {op: merge, subject: tokka, from: pt-tokka-0219, into: pt-tokka-0087, note: 「硫酸亜鉛七水和物」。0087 は 4回・A}
+- {op: merge, subject: tokka, from: pt-tokka-0247, into: pt-tokka-0037, note: 「塩化鉄（Ⅲ）は触媒」〔誤〕。0037 は 4回・A}
+- {op: split, subject: tokka, from: pt-tokka-0002, new: pt-tokka-0265, keys: [2020-08|1|1], note: フッ化水素の問の「捕集液として水酸化ナトリウム溶液」。シアン化水素とは別の物質。原理 pr-tokka-0007 に加えた。0002 は 5回・S}

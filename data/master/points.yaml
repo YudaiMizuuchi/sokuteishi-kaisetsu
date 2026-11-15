@@ -2575,7 +2575,7 @@ points:
   - 2026-08|19|0
 - id: pt-tokka-0001
   subject: tokka
-  name: 標準原液のシアン化物イオン濃度は、硝酸銀溶液で標定する。
+  name: シアン化水素の標準原液のシアン化物イオン濃度は、硝酸銀溶液で滴定して標定する
   theme: ''
   members:
   - 2018-08|2|3
@@ -2585,14 +2585,14 @@ points:
   - 2026-08|1|3
 - id: pt-tokka-0002
   subject: tokka
-  name: 捕集液は水酸化ナトリウム溶液を用いる。
+  name: シアン化水素は、ミゼットインピンジャーを用いて、水酸化ナトリウム溶液に液体捕集する（硫酸含浸ろ紙は誤り）
   theme: ''
   members:
   - 2015-08|1|1
   - 2018-08|2|1
-  - 2020-08|1|1
   - 2022-08|2|1
   - 2025-08|3|1
+  - 2026-08|1|1
 - id: pt-tokka-0003
   subject: tokka
   name: 活性炭管からの脱着には、二硫化炭素を用いる（ベンゼン・エチルベンゼン・酸化プロピレンの GC 法）
@@ -2694,10 +2694,9 @@ points:
   - 2024-08|10|4
 - id: pt-tokka-0014
   subject: tokka
-  name: 発色操作には、クロラミンTとピリジン-ピラゾロンを用いる。
+  name: シアン化水素の発色操作には、クロラミンTとピリジン-ピラゾロンを用いる
   theme: ''
   members:
-  - 2019-08|4|1
   - 2022-08|2|4
   - 2025-08|3|5
   - 2026-08|1|5
@@ -2712,7 +2711,7 @@ points:
   - 2026-08|19|1
 - id: pt-tokka-0016
   subject: tokka
-  name: 標準原液は硫化ナトリウムから調製する。
+  name: 硫化水素の標準原液は、硫化ナトリウムから調製する
   theme: ''
   members:
   - 2019-08|2|5
@@ -2730,7 +2729,7 @@ points:
   - 2024-08|1|1
 - id: pt-tokka-0018
   subject: tokka
-  name: 生成する物質はメチレンブルーである。
+  name: 硫化水素の吸光光度分析法で、生成する物質はメチレンブルーである
   theme: ''
   members:
   - 2019-08|2|3
@@ -2793,12 +2792,14 @@ points:
   - 2023-08|9|4
 - id: pt-tokka-0026
   subject: tokka
-  name: 捕集液に酢酸を加え中和した後、発色試薬を加える。
+  name: シアン化水素（シアン化物）を捕集した溶液は、酢酸で中和してから発色操作を行う（塩酸は誤り）
   theme: ''
   members:
   - 2015-08|1|3
   - 2018-08|2|4
+  - 2019-08|4|1
   - 2022-08|2|3
+  - 2025-08|3|4
 - id: pt-tokka-0027
   subject: tokka
   name: 拡散速度は、拡散チューブの内径の2乗に比例する。
@@ -2825,7 +2826,7 @@ points:
   - 2022-08|17|5
 - id: pt-tokka-0030
   subject: tokka
-  name: エチルエーテルを用いて捕集液から抽出する。
+  name: α-ナフチルアミンは、捕集液をアルカリ性にし、エチルエーテルを用いて抽出する
   theme: ''
   members:
   - 2020-08|11|2
@@ -2841,7 +2842,7 @@ points:
   - 2026-08|19|3
 - id: pt-tokka-0032
   subject: tokka
-  name: 亜硝酸ナトリウムとスルファニル酸を加えて、発色させる。（誤りの記述）
+  name: α-ナフチルアミンの蛍光光度分析法で、亜硝酸ナトリウムとスルファニル酸を加えて発色（誘導体化）させる（誤りの記述）
   theme: ''
   members:
   - 2020-08|11|3
@@ -2880,11 +2881,12 @@ points:
   - 2026-08|12|1
 - id: pt-tokka-0037
   subject: tokka
-  name: 塩化鉄（Ⅲ）は酸化剤として働く。
+  name: 硫化水素のメチレンブルー法で、塩化鉄（Ⅲ）は酸化剤として働く（触媒は誤り）
   theme: ''
   members:
   - 2019-08|2|2
   - 2021-08|4|2
+  - 2023-08|4|2
   - 2026-08|3|2
 - id: pt-tokka-0038
   subject: tokka
@@ -2966,11 +2968,10 @@ points:
   - 2026-08|19|2
 - id: pt-tokka-0049
   subject: tokka
-  name: 捕集には硫酸含浸ろ紙を用いる。
+  name: 1,1-ジメチルヒドラジンの捕集には、硫酸含浸ろ紙を用いる
   theme: ''
   members:
   - 2022-08|11|1
-  - 2026-08|1|1
 - id: pt-tokka-0050
   subject: tokka
   name: 試料空気中に臭素ガスが共存すると、分析の妨害となる。
@@ -3239,11 +3240,13 @@ points:
   - 2022-08|1|5
 - id: pt-tokka-0087
   subject: tokka
-  name: 捕集液には硫酸亜鉛水溶液を用いる。
+  name: 硫化水素の捕集液には、硫酸亜鉛水溶液を用いる（硫酸カリウムは誤り）
   theme: ''
   members:
   - 2019-08|2|1
+  - 2021-08|4|1
   - 2023-08|4|1
+  - 2026-08|3|1
 - id: pt-tokka-0088
   subject: tokka
   name: ベンゼンの捕集には、活性炭を用いる。
@@ -3502,12 +3505,6 @@ points:
   theme: ''
   members:
   - 2024-08|6|2
-- id: pt-tokka-0129
-  subject: tokka
-  name: シアン化ナトリウムを捕集した溶液は、塩酸で中和した後、発色操作を行う（誤りの記述）
-  theme: ''
-  members:
-  - 2025-08|3|4
 - id: pt-tokka-0130
   subject: tokka
   name: 蛍光は、励起状態の分子が基底状態に遷移する際に観測される。
@@ -4047,12 +4044,6 @@ points:
   theme: ''
   members:
   - 2025-08|14|2
-- id: pt-tokka-0219
-  subject: tokka
-  name: 捕集液の調製には硫酸亜鉛七水和物を用いる。
-  theme: ''
-  members:
-  - 2026-08|3|1
 - id: pt-tokka-0220
   subject: tokka
   name: 標準系列液は、原則的に保管はしない。
@@ -4119,12 +4110,6 @@ points:
   theme: ''
   members:
   - 2020-08|14|2
-- id: pt-tokka-0231
-  subject: tokka
-  name: 捕集液には硫酸カリウム水溶液を用いる。（誤りの記述）
-  theme: ''
-  members:
-  - 2021-08|4|1
 - id: pt-tokka-0232
   subject: tokka
   name: 室温から徐々に温度を上昇させて行う。
@@ -4216,12 +4201,6 @@ points:
   theme: ''
   members:
   - 2020-08|14|1
-- id: pt-tokka-0247
-  subject: tokka
-  name: 塩化鉄（Ⅲ）は触媒として働く。（誤りの記述）
-  theme: ''
-  members:
-  - 2023-08|4|2
 - id: pt-tokka-0248
   subject: tokka
   name: 捕集液内での気体の滞留時間が長いほど、捕集率は高くなる。
@@ -4328,6 +4307,12 @@ points:
   theme: ''
   members:
   - 2024-08|5|2
+- id: pt-tokka-0265
+  subject: tokka
+  name: フッ化水素の捕集液には、水酸化ナトリウム溶液を用いる
+  theme: ''
+  members:
+  - 2020-08|1|1
 - id: qp-tokka-0001
   subject: tokka
   name: 作業環境空気（25 ℃、1気圧）中の硫化水素濃度を測定する…（計算問題）
