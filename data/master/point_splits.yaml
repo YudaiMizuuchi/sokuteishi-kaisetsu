@@ -670,3 +670,11 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: move, subject: funjin, from: qp-funjin-0013, into: qp-funjin-0002, note: 基底標準吸収補正法の計算で、補正係数を逆算する2問。同じ式。0013 は消した。0002 は 8回・S。改名}
 - {op: rename, subject: funjin, id: pt-funjin-0105, note: 名前が誤りの形だった。正しい形（採取前後の金属基底標準板の回折線強度の変化から求める。ガイドブック1 の要点）に改名}
 - {op: move, subject: bunseki, from: qp-bunseki-0055, into: pt-bunseki-0280, note: 「水酸化ナトリウムの水溶液は、容量分析の一次標準溶液となる」〔不適当＝正答〕1回。0280（一次標準にできない）と同じ事実。0055 は消した。0280 は 2回・C。改名}
+
+# 2026-11-16（続き86）
+- {op: move, subject: tokka, from: pt-tokka-0172, into: pt-tokka-0033, note: 「検量線の傾きは、入射光の強度に比例する」〔誤〕1回。0033（吸光度は入射光の強度に依存しない）の誤りの形。0172 は消した}
+- {op: move, subject: tokka, from: qp-tokka-0032, into: pt-tokka-0033, note: 穴埋め「モル吸光係数は関係する（比例する）が、入射光の強度は関係しない」2回。同じ事実。0032 は消した}
+- {op: move, subject: tokka, from: qp-tokka-0024, into: pt-tokka-0033, note: 組合せ「検量線の傾きに関係があるもの＝光路長とモル吸光係数」2回。同じ事実。0024 は消した。0033 は 8回・S。改名}
+- {op: move, subject: tokka, from: pt-tokka-0102, into: pt-tokka-0079, note: 「透過光の強度は、濃度の増加とともに指数関数的に増加する」〔誤〕1回。0079（濃度に比例する〔誤〕2回）と同じ事実。0102 は消した。3回・B。正しい形に改名}
+- {op: move, subject: yuki, from: pt-yuki-0060, into: pt-yuki-0020, note: 同じ名前の論点（透過率が大きいほど濃度は低い）。「透過率は濃度に反比例する」〔誤〕2回を含む。0060 は消した。0020 は 8回・S。改名}
+- {op: move, subject: yuki, from: pt-yuki-0041, into: pt-yuki-0024, note: 「log₁₀T＝3−A」〔誤〕1回。0024（2−A）の誤りの形。0041 は消した。6回・S。改名}

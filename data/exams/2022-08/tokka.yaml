@@ -42,7 +42,7 @@ questions:
     pcounts:
     - 1
     - 4
-    - 2
+    - 3
     - 2
     - 3
     points:
@@ -54,13 +54,13 @@ questions:
     pnames:
     - 光電子増倍管は、光の強度を電気信号に変換し、増幅する。
     - 試料溶液に照射する光は、単色光である。
-    - 試料液を透過した光の強さは、試料液の濃度に比例する。（誤りの記述）
+    - 試料液を透過した光の強さは、濃度が増すと、指数関数的に減少する（「濃度に比例する」「指数関数的に増加する」は誤り）
     - ガラス製のセルは、可視部の吸収の測定に用いる。
     - 着色液は、時間の経過とともに退色することがある。
     prcounts:
     - 0
     - 0
-    - 8
+    - 10
     - 8
     - 0
     principles:
@@ -249,14 +249,14 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 8
     form: 穴埋め・組合せの問題
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
-    prcount: 7
+    prcount: 4
     fresh: false
-    level: A
-    why: pr_A
+    level: S
+    why: q_hi
 - num: 4
   status: published
   chapters:

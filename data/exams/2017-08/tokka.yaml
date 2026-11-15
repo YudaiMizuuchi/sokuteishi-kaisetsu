@@ -43,7 +43,7 @@ questions:
     - 4
     - 2
     - 3
-    - 2
+    - 3
     - 6
     points:
     - pt-tokka-0017
@@ -55,13 +55,13 @@ questions:
     - 吸光度は、試料液の濃度と光路長に比例する。
     - 発色試薬には、無機試薬と有機試薬がある。
     - 着色液は、時間の経過とともに退色することがある。
-    - 試料液を透過した光の強さは、試料液の濃度に比例する。（誤りの記述）
+    - 試料液を透過した光の強さは、濃度が増すと、指数関数的に減少する（「濃度に比例する」「指数関数的に増加する」は誤り）
     - ガラス製のセルは、紫外部の光を吸収する。
     prcounts:
-    - 8
+    - 10
     - 0
     - 0
-    - 8
+    - 10
     - 8
     principles:
     - pr-tokka-0001
@@ -145,7 +145,7 @@ questions:
     form: 計算問題
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
-    prcount: 7
+    prcount: 4
     fresh: false
     level: A
     why: q_hi
@@ -230,14 +230,14 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 2
+    count: 8
     form: 穴埋め・組合せの問題
     prid: pr-tokka-0001
     prname: ランベルト・ベールの法則
-    prcount: 7
+    prcount: 4
     fresh: false
-    level: A
-    why: pr_A
+    level: S
+    why: q_hi
 - num: 5
   status: published
   chapters:
