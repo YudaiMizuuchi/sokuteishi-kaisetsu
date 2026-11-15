@@ -485,43 +485,43 @@ questions:
     pcounts:
     - 4
     - 10
-    - 3
+    - 13
     - 4
     - 5
     points:
     - pt-ippan-0144
     - pt-ippan-0020
-    - pt-ippan-0230
+    - pt-ippan-0126
     - pt-ippan-0170
     - pt-ippan-0119
     pnames:
     - じん肺は、粉じんを吸入することによって肺に生じた線維増殖性変化を主体とする疾病で、原因となった主な粉じんの種類によって、けい肺、炭素肺、アルミニウム肺などと呼ばれることがある
     - じん肺は、続発性気管支炎、肺結核などを合併することがある。
-    - アーク溶接作業で発生するヒュームの一次粒子の粒径は、ほとんどが1μm以下である
+    - ヒュームの一次粒子の粒径は、一般に、1 µm 以下である
     - じん肺は、ある程度進行すると、ばく露を中止しても、更に進行することがある
     - 石綿粉じんは、胸膜肥厚、肺がんなどを生じる。
     prcounts:
     - 0
     - 0
-    - 0
+    - 17
     - 0
     - 0
     principles:
     - ''
     - ''
-    - ''
+    - pr-ippan-0030
     - ''
     - ''
     prnames:
     - ''
     - ''
-    - ''
+    - エアロゾルの種類と性質
     - ''
     - ''
     trend:
     - 1
     - 2
-    - 0
+    - 1
     - 1
     - 0
     recent_exams:
@@ -545,12 +545,12 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: S
+    why: pt_S
     tags:
     - ''
     - odo
-    - ans_seen
+    - ans_hi
     - ''
     - ''
 - num: 7
@@ -1297,7 +1297,7 @@ questions:
     pcounts:
     - 8
     - 4
-    - 1
+    - 2
     - 2
     - 2
     points:
@@ -1315,7 +1315,7 @@ questions:
     prcounts:
     - 14
     - 0
-    - 12
+    - 17
     - 0
     - 0
     principles:

@@ -1966,9 +1966,7 @@ principles:
   - 比重.{0,6}(空気|1)
   points:
   - pt-ippan-0038
-  - pt-ippan-0248
   - pt-ippan-0508
-  - pt-ippan-0569
 - id: pr-ippan-0005
   subject: ippan
   name: 気体の溶解度は温度が低いほど大きい
@@ -2313,13 +2311,12 @@ principles:
   - 粒径分布
   - 対数正規
   points:
+  - pt-ippan-0126
   - pt-ippan-0184
   - pt-ippan-0242
   - pt-ippan-0302
   - pt-ippan-0380
   - pt-ippan-0525
-  - pt-ippan-0553
-  - pt-ippan-0713
   - pt-ippan-0732
 - id: pr-ippan-0031
   subject: ippan

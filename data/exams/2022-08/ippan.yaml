@@ -380,7 +380,7 @@ questions:
     prcounts:
     - 0
     - 0
-    - 12
+    - 17
     - 0
     - 0
     principles:
@@ -503,7 +503,7 @@ questions:
     pcounts:
     - 5
     - 11
-    - 5
+    - 13
     - 10
     - 5
     points:
@@ -515,31 +515,31 @@ questions:
     pnames:
     - 粒子状物質の沈降速度は、粒径の2乗に比例する
     - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率により異なる。
-    - ヒュームの一次粒子の粒径は、一般に、1µm以下である。
+    - ヒュームの一次粒子の粒径は、一般に、1 µm 以下である
     - じん肺は、続発性気管支炎、肺結核などを合併することがある。
     - 石綿粉じんは、胸膜肥厚、肺がんなどを生じる。
     prcounts:
     - 0
     - 0
-    - 0
+    - 17
     - 0
     - 0
     principles:
     - ''
     - ''
-    - ''
+    - pr-ippan-0030
     - ''
     - ''
     prnames:
     - ''
     - ''
-    - ''
+    - エアロゾルの種類と性質
     - ''
     - ''
     trend:
     - 1
     - 1
-    - 0
+    - 1
     - 2
     - 0
     recent_exams:
@@ -564,12 +564,12 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ans_seen
+    - ans_new
     - odo
-    - ''
+    - odo
     - odo
     - ''
 - num: 7
@@ -1404,11 +1404,11 @@ questions:
     - 4
     truths: 正正正誤正
     pcounts:
-    - 4
+    - 5
     - 8
     - 6
-    - 9
-    - 4
+    - 11
+    - 5
     points:
     - pt-ippan-0242
     - pt-ippan-0035
@@ -1420,13 +1420,13 @@ questions:
     - 環境空気中の有害物質の濃度分布は、対数正規分布で近似できる。
     - 混合有機溶剤から出る蒸気の組成は、一般に、元の混合有機溶剤の組成とは異なる
     - 有機溶剤の蒸気密度は、空気の密度より大きいため、低いところに滞留しやすい
-    - ミストの粒径は、一般に、ヒュームの一次粒子の粒径より大きい。
+    - ミストの粒径は、一般に、ヒュームの一次粒子の粒径より大きい
     prcounts:
-    - 12
+    - 17
     - 0
     - 0
-    - 14
     - 12
+    - 17
     principles:
     - pr-ippan-0030
     - ''
@@ -1443,8 +1443,8 @@ questions:
     - 0
     - 2
     - 0
-    - 3
-    - 0
+    - 1
+    - 1
     recent_exams:
     - 2024-02
     - 2024-08
@@ -1466,12 +1466,12 @@ questions:
     - - 2021-02
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - odo
 - num: 16
   status: published
