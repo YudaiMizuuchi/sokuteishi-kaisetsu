@@ -1,0 +1,31 @@
+# 問題論点の束を、キーワードで分ける規則（tools/build_qpoints.py）。同じ科目・形式でも、パターンに当たる問題とそうでない問題は、別の束にする
+# 放射性物質の計算：『正味計数率→濃度』と『濃度→放射能』の2つの型が、問題文の先頭が同じなので、1つに束ねられていた
+# 放射性物質の組合せ：「有害物質と捕集器具」の束に、放射性物質の問題が混ざっていた（平成28年度第2回 問9）
+facets:
+- subject: design
+  kind: calc
+  pattern: '正味計数率'
+  label: rate
+- subject: design
+  kind: combo
+  pattern: '放射性'
+  label: ra
+- subject: design
+  kind: combo
+  pattern: '有害物質Ⓐ.{0,30}捕集器具|粒子状物質Ⓐ.{0,30}ろ過材'
+  label: tool
+  one_bundle: true   # 測定に用いる捕集器具・ろ過材の組合せ（問8・問9）。言い回しが変わるので、類似度ではなく、規則で1つのテーマにする
+- subject: kinzoku
+  kind: calc
+  pattern: '(ろ紙|フィルター).{0,14}捕集|空気を.{0,14}捕集|個人サンプリング法'
+  label: conc
+  one_bundle: true   # 問20の計算：分析結果から、空気中の金属濃度を出す問題。鉛・マンガン・コバルトなど、物質や言い回しが変わっても、式は同じ
+# 関係法令：同じテーマの問題が、言い回し・正答の違いで、別の束に分かれていたもの。テーマごとに、1つの束にする
+- {subject: hourei, kind: combo, pattern: '定期に作業環境測定を行うべき|法定の作業環境測定を行うべき|定期に行うべき作業環境測定の頻度', label: teiki, one_bundle: true}
+- {subject: hourei, kind: short, pattern: '規格を具備|具備すべき厚生労働大臣の規格', label: kikaku, one_bundle: true}
+- {subject: hourei, kind: short, pattern: '型式検定', label: katashiki, one_bundle: true}
+- {subject: hourei, kind: combo, pattern: '型式検定', label: katashiki_c, one_bundle: true}
+- {subject: hourei, kind: short, pattern: '作業主任者の選任', label: shunin, one_bundle: true}
+- {subject: hourei, kind: short, pattern: '製造に際し.{0,12}許可', label: kyoka, one_bundle: true}
+- {subject: hourei, kind: short, pattern: '第[1-3一二三]種有機溶剤等', label: yuki_s, one_bundle: true}
+- {subject: hourei, kind: combo, pattern: '第[1-3一二三]種有機溶剤等', label: yuki_c, one_bundle: true}

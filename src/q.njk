@@ -1,0 +1,30 @@
+---
+layout: base.njk
+pagination:
+  data: db.questions
+  size: 1
+  alias: q
+permalink: "{{ q.url }}"
+eleventyComputed:
+  title: "{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}{% if q.traps.length %}（{{ q.traps[0].name }}）{% endif %}"
+  description: "{{ q.exam.label }} {{ q.subjectName }} 問{{ q.num }}の解説。{{ (q.stemPlain or q.summary or '') | truncate(80) }}"
+---
+{% from "card.njk" import card %}
+{% from "crumbs.njk" import crumbs %}
+{{ crumbs([{name: "ホーム", url: "/"}, {name: q.exam.label, url: q.examUrl}, {name: q.subjectName, url: q.examUrl + "#" + q.subject}, {name: "問" + q.num}]) }}
+{{ card(q, site) }}
+<nav class="pager" aria-label="同じ回の前後の問題">
+  {% if q.prev %}<a href="{{ q.prev.url }}" rel="prev">問{{ q.prev.num }}へ戻る</a>{% else %}<span></span>{% endif %}
+  {% if q.next %}<a href="{{ q.next.url }}" rel="next">問{{ q.next.num }}へ進む</a>{% endif %}
+</nav>
+{% from "practice-cta.njk" import practiceCta %}
+{{ practiceCta("slim") }}
+{% if q.traps.length and q.traps[0].url and q.traps[0].questions.length > 1 %}
+<section class="related">
+  <h2>同じひっかけパターンが出た問題</h2>
+  <ul>
+  {% for r in q.traps[0].questions %}{% if r.id != q.id %}<li><a href="{{ r.url }}">{{ r.exam.label }} {{ r.subjectName }} 問{{ r.num }}</a></li>{% endif %}{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% if q.jsonld %}<script type="application/ld+json">{{ q.jsonld | json | safe }}</script>{% endif %}
