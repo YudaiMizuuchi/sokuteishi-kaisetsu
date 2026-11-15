@@ -708,7 +708,7 @@ questions:
     - 1
     - 5
     - 4
-    - 7
+    - 12
     - 8
     points:
     - pt-ippan-0569
@@ -766,15 +766,14 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - ''
     - ''
-    - ans_pat
+    - ans_hi
     - odo
-    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters:
@@ -1357,19 +1356,19 @@ questions:
     - 13
     - 6
     - 3
-    - 9
+    - 2
     points:
     - pt-ippan-0250
     - pt-ippan-0010
     - pt-ippan-0061
     - pt-ippan-0260
-    - pt-ippan-0019
+    - pt-ippan-0828
     pnames:
     - X線及びγ線のうち、波長が10nm以上の低エネルギーのものをX線、それより高エネルギーのものをγ線と呼ぶ（誤りの記述）
     - β線とγ線では、γ線の方が透過力が大きい。
     - しきい値は、確定的影響には存在するが、確率的影響には存在しない。
     - 放射線宿酔は、急性影響であり、かつ、確定的影響である。
-    - 再生不良性貧血は、晩発影響である。
+    - 電離放射線による再生不良性貧血は、晩発影響である
     prcounts:
     - 0
     - 14
@@ -1393,7 +1392,7 @@ questions:
     - 1
     - 0
     - 0
-    - 1
+    - 0
     recent_exams:
     - 2024-02
     - 2024-08
@@ -1415,14 +1414,14 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
-    - ans_new
+    - ans_seen
     - odo
     - odo
     - ''
-    - odo
+    - ''
 - num: 15
   status: published
   chapters:

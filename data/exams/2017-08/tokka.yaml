@@ -489,37 +489,37 @@ questions:
     - 1
     - 2
     - 1
-    - 3
+    - 1
     points:
     - pt-tokka-0177
     - pt-tokka-0134
     - pt-tokka-0052
     - pt-tokka-0196
-    - pt-tokka-0035
+    - pt-tokka-0261
     pnames:
     - 混合有機溶剤の分析に有効である。
     - 水素炎イオン化検出器（FID）を用いる場合は、検出器部にメイクアップガスを追加する
     - キャリアガスとしては、窒素よりヘリウムを使用する方が理論段数が大きい
     - 試料負荷量が小さいため、多量の試料を導入することができない。
-    - 両物質とも、沸点は水の沸点より低い。
+    - キャピラリーカラムは、液相の膜厚が厚いほど、高沸点物質の分析に適している（誤りの記述）
     prcounts:
     - 0
     - 0
     - 0
     - 0
-    - 5
+    - 0
     principles:
     - ''
     - ''
     - ''
     - ''
-    - pr-tokka-0011
+    - ''
     prnames:
     - ''
     - ''
     - ''
     - ''
-    - 沸点・融点・蒸気圧の比較（分子間力）
+    - ''
     trend:
     - 0
     - 0
@@ -543,14 +543,14 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pr_A
+    level: D
+    why: none
     tags:
     - new
     - new
     - ''
     - new
-    - ans_pr
+    - ans_new
 - num: 8
   status: published
   chapters:

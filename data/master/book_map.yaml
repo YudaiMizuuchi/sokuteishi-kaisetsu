@@ -78,7 +78,7 @@ chapters:
   kind: 原理
   principles:
   - pr-bunseki-0019
-  status: draft
+  status: written
   part: prep
 - id: bk-bunseki-0020
   subject: bunseki
@@ -200,7 +200,7 @@ chapters:
   - pr-yuki-0004
   - pr-yuki-0005
   - pr-yuki-0006
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0007
   subject: yuki
@@ -216,7 +216,7 @@ chapters:
   kind: 原理
   principles:
   - pr-yuki-0008
-  status: draft
+  status: written
   part: select
 - id: bk-yuki-0009
   subject: yuki
@@ -387,7 +387,7 @@ chapters:
   kind: 原理
   principles:
   - pr-tokka-0011
-  status: draft
+  status: written
   part: select
 - id: bk-kinzoku-0001
   subject: kinzoku
@@ -422,7 +422,7 @@ chapters:
   - pr-kinzoku-0005
   - pr-kinzoku-0006
   - pr-kinzoku-0007
-  status: draft
+  status: written
   part: select
 - id: bk-kinzoku-0008
   subject: kinzoku
@@ -1156,7 +1156,7 @@ chapters:
   - pt-ippan-0746
   - pt-ippan-0761
   - pt-ippan-0778
-  status: draft
+  status: written
   part: hazards
 - id: bk-ippan-fr05
   subject: ippan
@@ -1265,7 +1265,6 @@ chapters:
   - pt-ippan-0092
   - pt-ippan-0111
   - pt-ippan-0112
-  - pt-ippan-0115
   - pt-ippan-0117
   - pt-ippan-0118
   - pt-ippan-0119
@@ -1278,7 +1277,6 @@ chapters:
   - pt-ippan-0166
   - pt-ippan-0169
   - pt-ippan-0175
-  - pt-ippan-0177
   - pt-ippan-0207
   - pt-ippan-0209
   - pt-ippan-0212
@@ -1289,7 +1287,6 @@ chapters:
   - pt-ippan-0247
   - pt-ippan-0248
   - pt-ippan-0251
-  - pt-ippan-0261
   - pt-ippan-0262
   - pt-ippan-0264
   - pt-ippan-0290
@@ -1414,14 +1411,11 @@ chapters:
   - pt-ippan-0108
   - pt-ippan-0110
   - pt-ippan-0112
-  - pt-ippan-0115
   - pt-ippan-0118
   - pt-ippan-0163
   - pt-ippan-0169
-  - pt-ippan-0177
   - pt-ippan-0186
   - pt-ippan-0256
-  - pt-ippan-0261
   - pt-ippan-0262
   - pt-ippan-0267
   - pt-ippan-0357
@@ -1524,7 +1518,7 @@ chapters:
   - pt-ippan-0750
   - pt-ippan-0760
   - pt-ippan-0800
-  status: draft
+  status: written
   part: hazards
 - id: bk-ippan-fr11
   subject: ippan
@@ -1691,7 +1685,7 @@ chapters:
   kind: テーマ
   points:
   - pt-ippan-0010
-  - pt-ippan-0019
+  - pt-ippan-0828
   - pt-ippan-0040
   - pt-ippan-0057
   - pt-ippan-0061
@@ -1974,7 +1968,7 @@ chapters:
   - pt-ippan-0787
   - pt-ippan-0797
   - pt-ippan-0801
-  status: draft
+  status: written
   part: hazards
 - id: bk-tokka-sb3001
   subject: tokka
@@ -2449,7 +2443,7 @@ chapters:
   - pt-design-0253
   - pt-design-0284
   - pt-design-0285
-  status: draft
+  status: written
   part: design
 - id: bk-design-tp05
   subject: design
@@ -2556,7 +2550,7 @@ chapters:
   - pt-design-0231
   - pt-design-0232
   - pt-design-0266
-  status: draft
+  status: written
   part: sampling
 - id: bk-design-tp09
   subject: design
@@ -2576,7 +2570,7 @@ chapters:
   - pt-design-0220
   - pt-design-0233
   - pt-design-0286
-  status: draft
+  status: written
   part: sampling
 - id: bk-design-tp10
   subject: design
@@ -2757,6 +2751,7 @@ chapters:
   title: ガスクロマトグラフ・質量分析
   kind: 論点
   points:
+  - pt-bunseki-0229
   - pt-bunseki-0052
   - pt-bunseki-0028
   - pt-bunseki-0490
@@ -2773,7 +2768,7 @@ chapters:
   - pt-bunseki-0246
   - pt-bunseki-0253
   - pt-bunseki-0493
-  status: draft
+  status: written
   part: analysis
 - id: bk-bunseki-tp06
   subject: bunseki
@@ -3036,6 +3031,7 @@ chapters:
   points:
   - pt-tokka-0009
   - pt-tokka-0038
+  - pt-tokka-0261
   - pt-tokka-0091
   - pt-tokka-0026
   - pt-tokka-0041

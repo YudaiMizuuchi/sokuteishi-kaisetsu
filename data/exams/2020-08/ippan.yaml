@@ -711,8 +711,8 @@ questions:
     pcounts:
     - 9
     - 15
-    - 9
-    - 4
+    - 7
+    - 7
     - 4
     points:
     - pt-ippan-0036
@@ -723,7 +723,7 @@ questions:
     pnames:
     - 有機溶剤は脂溶性が高く、中枢神経系など脂肪に富んだ組織に蓄積しやすい
     - 塩素化炭化水素は、一般に、肝臓に対する毒性が強い。
-    - 再生不良性貧血は、晩発影響である。
+    - 再生不良性貧血などの造血器障害を起こすのは、ベンゼン（トルエンではない）
     - 酢酸メチルのばく露では、視力低下、視野狭窄などがみられる。
     - n-ヘキサンによる健康障害として、多発性神経炎がある。
     prcounts:
@@ -748,7 +748,7 @@ questions:
     - 2
     - 4
     - 1
-    - 1
+    - 2
     - 1
     recent_exams:
     - 2024-02
@@ -770,13 +770,13 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - odo
-    - ans_hi
-    - ''
+    - ans_b
+    - odo
     - ''
 - num: 9
   status: published

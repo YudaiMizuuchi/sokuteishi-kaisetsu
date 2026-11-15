@@ -706,19 +706,19 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 3
-    - 6
+    - 7
+    - 10
     - 15
     - 2
     - 4
     points:
-    - pt-ippan-0261
+    - pt-ippan-0163
     - pt-ippan-0056
     - pt-ippan-0002
     - pt-ippan-0372
     - pt-ippan-0169
     pnames:
-    - 酢酸メチルは、視神経に障害を起こす。
+    - 酢酸メチルのばく露では、視力低下、視野狭窄などがみられる。
     - N、N-ジメチルホルムアミドのばく露では、頭痛、めまい、肝機能障害などがみられる
     - 塩素化炭化水素は、一般に、肝臓に対する毒性が強い。
     - 二硫化炭素による中毒では、メトヘモグロビン形成によるチアノーゼがみられる（誤りの記述）
@@ -742,7 +742,7 @@ questions:
     - ''
     - ''
     trend:
-    - 1
+    - 2
     - 2
     - 4
     - 0
@@ -767,13 +767,13 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: B
+    why: elim_two
     tags:
-    - ''
     - odo
     - odo
-    - ans_seen
+    - odo
+    - ans_new
     - ''
 - num: 9
   status: published

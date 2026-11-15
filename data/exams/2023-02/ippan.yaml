@@ -662,7 +662,7 @@ questions:
     - 11
     truths: 誤正正正正
     pcounts:
-    - 7
+    - 12
     - 4
     - 1
     - 8
@@ -723,15 +723,14 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pt_S
     tags:
-    - ans_pat
+    - ans_hi
     - ''
     - new
     - odo
     - odo
-    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters: []

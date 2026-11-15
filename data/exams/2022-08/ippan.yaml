@@ -712,19 +712,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 15
-    - 5
+    - 12
     - 3
     - 4
     - 2
     points:
     - pt-ippan-0002
-    - pt-ippan-0115
+    - pt-ippan-0054
     - pt-ippan-0262
     - pt-ippan-0267
     - pt-ippan-0386
     pnames:
     - 塩素化炭化水素は、一般に、肝臓に対する毒性が強い。
-    - 二硫化炭素では、網膜の微細動脈瘤などがみられる。
+    - 二硫化炭素は、網膜の微細動脈瘤などの血管障害を起こす。
     - トルエンは、ヒトに対して生殖毒性を示すことが知られている。
     - アセトンは、トルエンより極性が大きい。
     - トルエン及びキシレンは、水より密度が小さく、水には溶けにくい。
@@ -774,15 +774,14 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pt_S
     tags:
     - odo
-    - ans_pat
+    - ans_hi
     - ''
     - ''
     - ''
-    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters:

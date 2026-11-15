@@ -360,7 +360,7 @@ questions:
     - 7
     - 5
     - 8
-    - 7
+    - 12
     points:
     - pt-ippan-0022
     - pt-ippan-0060
@@ -419,15 +419,14 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - ''
     - odo
-    - ans_pat
-    pat: gn-organic-solvents-01
+    - ans_hi
 - num: 5
   status: published
   chapters:
@@ -706,9 +705,9 @@ questions:
     pcounts:
     - 8
     - 2
-    - 9
+    - 7
     - 2
-    - 6
+    - 10
     points:
     - pt-ippan-0041
     - pt-ippan-0378
@@ -718,7 +717,7 @@ questions:
     pnames:
     - 二硫化炭素の高濃度ばく露では、精神障害を生じる。
     - アセトンは、キシレンより極性が大きい。
-    - 再生不良性貧血は、晩発影響である。
+    - 再生不良性貧血などの造血器障害を起こすのは、ベンゼン（トルエンではない）
     - メタノールは、脂溶性及び水溶性を共に有しており、トルエンは脂溶性は有しているが水溶性は有していない
     - N、N-ジメチルホルムアミドのばく露では、頭痛、めまい、肝機能障害などがみられる
     prcounts:
@@ -765,12 +764,12 @@ questions:
     - []
     - []
     fresh: false
-    level: A
-    why: pt_A
+    level: B
+    why: pt_B
     tags:
     - odo
     - ''
-    - ans_hi
+    - ans_b
     - ''
     - odo
 - num: 9

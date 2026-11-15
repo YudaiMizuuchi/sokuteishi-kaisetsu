@@ -370,7 +370,7 @@ questions:
     - 9
     - 5
     - 9
-    - 6
+    - 10
     - 8
     points:
     - pt-ippan-0022
@@ -722,7 +722,7 @@ questions:
     pcounts:
     - 4
     - 2
-    - 7
+    - 12
     - 4
     - 8
     points:
@@ -781,15 +781,14 @@ questions:
     - - 2021-08
     - []
     fresh: false
-    level: A
-    why: pat_A
+    level: S
+    why: pt_S
     tags:
     - ''
     - ''
-    - ans_pat
+    - ans_hi
     - ''
     - odo
-    pat: gn-organic-solvents-01
 - num: 9
   status: published
   chapters:
@@ -1371,19 +1370,19 @@ questions:
     - 7
     - 6
     - 1
-    - 9
+    - 2
     points:
     - pt-ippan-0183
     - pt-ippan-0057
     - pt-ippan-0061
     - pt-ippan-0390
-    - pt-ippan-0019
+    - pt-ippan-0828
     pnames:
     - α線、β線及び中性子線は粒子線である。
     - 放射線皮膚炎は、早期障害に分類される確定的影響である。
     - しきい値は、確定的影響には存在するが、確率的影響には存在しない。
     - X線とγ線では、X線の方がエネルギーが大きい。（誤りの記述）
-    - 再生不良性貧血は、晩発影響である。
+    - 電離放射線による再生不良性貧血は、晩発影響である
     prcounts:
     - 0
     - 0
@@ -1407,7 +1406,7 @@ questions:
     - 0
     - 0
     - 0
-    - 1
+    - 0
     recent_exams:
     - 2024-02
     - 2024-08
@@ -1430,14 +1429,14 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: D
+    why: none
     tags:
     - ''
     - odo
     - odo
     - ans_new
-    - odo
+    - ''
 - num: 15
   status: published
   chapters:

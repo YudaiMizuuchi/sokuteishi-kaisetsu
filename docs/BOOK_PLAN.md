@@ -224,3 +224,5 @@
 - **まず、残りの「書く」章を1周する**（3-1 の順。1回に 6章）。書いてある章（古い形。91章）の書き直しと、法令の章の扱いは、1周したあとで決める。
 - 3-1 のうち、書いたもの：`bk-design-tp10`・`bk-design-tp07`・`bk-design-0001`・`bk-ippan-0021`（no.94〜97）。パックを渡したもの：`bk-ippan-fr04`・`bk-design-tp09`・`bk-design-tp08`・`bk-yuki-0008`・`bk-ippan-fr17`・`bk-kinzoku-0005`（no.98〜103）。次は `bk-design-tp04`・`bk-bunseki-tp05`・`bk-yuki-0004`・`bk-bunseki-0019`・`bk-tokka-0011`・`bk-ippan-fr10`。
 - `bk-ippan-fr17`（その他）は、ほかの章と重なる論点が多い。この章だけの S・A・B は、情報機器作業と重量物の取扱いの4行（no.102 は、その章として書いてもらう）。
+- （追記）no.98〜103 は、取り込んだ（`written` 103章）。パックを渡したもの：`bk-design-tp04`・`bk-bunseki-tp05`・`bk-yuki-0004`・`bk-bunseki-0019`・`bk-tokka-0011`・`bk-ippan-fr10`（no.104〜109）。次は `bk-ippan-0004`（先に、吸収缶・蒸気密度の論点の整理が要る）・`bk-bunseki-0018`・`bk-ippan-fr08`・`bk-design-tp12`（先に、論点の整理が要る）・`bk-kinzoku-tp02`・`bk-bunseki-0034`。
+- （追記）no.104〜109 は、取り込んだ（`written` 109章。**書く予定 182章のうち 109章。残り 73章**）。パックを渡したもの：`bk-bunseki-0018`・`bk-ippan-fr08`・`bk-kinzoku-tp02`・`bk-bunseki-0034`・`bk-yuki-0011`・`bk-funjin-0008`（no.110〜115）。`bk-ippan-0004`・`bk-design-tp12` は、論点の整理をしてから（次回）。そのあとは `bk-ippan-fr15`・`bk-ippan-fr05`・`bk-kinzoku-0003`・`bk-kinzoku-0013`。
