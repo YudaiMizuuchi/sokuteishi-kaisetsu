@@ -92,7 +92,8 @@ def pack(ch, add=(), drop=(), nq=4):
     for p in inc:
         o.append(f"- **{p}**　{name(p)}　〔{cnt[p]}回・{rk(s, cnt[p])}〕")
         cs = choices(s, p)
-        for tf, tx, n, ref in sorted(cs, key=lambda x: (x[0] != '正', -x[2]))[:7]:
+        if cs: o.append(f"    - （正しい形 {sum(n for tf, _, n, _ in cs if tf == '正')}件、誤りの形 {sum(n for tf, _, n, _ in cs if tf == '誤')}件）")
+        for tf, tx, n, ref in sorted(cs, key=lambda x: (x[0] != '正', -x[2])):
             o.append(f"    - {'正しい形' if tf == '正' else '誤りの形' if tf == '誤' else tf}×{n}（{ref}）：{tx}")
         if not cs:
             qs = qrefs(s, p)
