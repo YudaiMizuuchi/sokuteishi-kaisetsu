@@ -1324,19 +1324,19 @@ questions:
     - 1
     truths: 正正正正誤
     pcounts:
-    - 2
+    - 8
     - 4
     - 9
     - 7
     - 1
     points:
-    - pt-funjin-0150
+    - pt-funjin-0053
     - pt-funjin-0074
     - pt-funjin-0003
     - pt-funjin-0013
     - pt-funjin-0288
     pnames:
-    - 対陰極がCuのX線管球を用いて分析した場合、クリストバライトの主回折線(d：4.04Å)は、2θ：22.0°に出現する
+    - 対陰極がCuのとき、主回折線の回折角度（2θ）は、石英 26.66°、クリストバライト 22.0°、トリジマイト 20.5°
     - 対陰極がCuのKαX線の波長は、対陰極がFeのKαX線の波長よりも短い
     - 対陰極がCuの場合のX線の単色化には、原子番号が1小さい Ni が用いられる
     - ゴニオメータの走査速度は、回折線のピーク位置や回折線強度に影響を及ぼす
@@ -1360,7 +1360,7 @@ questions:
     - X線回折のブラッグの条件と回折線
     - ''
     trend:
-    - 1
+    - 2
     - 0
     - 3
     - 0
@@ -1383,9 +1383,9 @@ questions:
     - []
     fresh: false
     level: B
-    why: elim_two
+    why: elim_all
     tags:
-    - ''
+    - odo
     - odo
     - odo
     - odo

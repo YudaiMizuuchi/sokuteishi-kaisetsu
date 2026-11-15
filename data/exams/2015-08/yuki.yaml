@@ -201,19 +201,19 @@ questions:
     pcounts:
     - 4
     - 2
-    - 2
+    - 8
     - 3
     - 3
     points:
     - pt-yuki-0036
     - pt-yuki-0103
-    - pt-yuki-0139
+    - pt-yuki-0080
     - pt-yuki-0074
     - pt-yuki-0069
     pnames:
     - 真空捕集びんは、捕集びん内の圧力を1.33kPa以下にしたものを使用する
     - 捕集袋は、清浄な乾燥空気又は窒素ガスを用いて洗浄する。
-    - 捕集袋の内容積は、1L以下とする。（誤りの記述）
+    - 捕集袋は、内容積5L以上のものを用いる（「1L以下」「0.1～1L」は誤り）
     - 採取した試料空気は、できるだけその日のうちに分析する。
     - 採取した試料空気を保存する場合は、温度変化が少ない場所に保存する
     prcounts:
@@ -237,7 +237,7 @@ questions:
     trend:
     - 2
     - 0
-    - 0
+    - 2
     - 0
     - 0
     recent_exams:
@@ -258,12 +258,12 @@ questions:
     - []
     - []
     fresh: false
-    level: C
-    why: seen
+    level: S
+    why: pt_S
     tags:
     - odo
     - ''
-    - ans_seen
+    - ans_hi
     - ''
     - ''
 - num: 6

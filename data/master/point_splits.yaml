@@ -647,3 +647,12 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: move, subject: design, from: pt-design-0061, into: pt-design-0491, note: 「第1評価値及びB測定値が共に管理濃度未満なら第1管理区分」1件}
 - {op: move, subject: design, from: pt-design-0491, into: pt-design-0493, note: 「第1評価値が小さければ、B測定値にかかわらず第3にならない」〔誤〕1件。B測定値による区分}
 - {op: move, subject: design, from: pt-design-0001, into: pt-design-0493, note: B測定値が管理濃度の1.5倍を超えれば第3管理区分。0001 は消した。0493 を改名}
+
+# 2026-11-15（続き83）
+- {op: move, subject: yuki, from: pt-yuki-0139, into: pt-yuki-0080, note: 「捕集袋は1L以下」〔誤〕2回。0080（5L以上）の誤りの形。0139 は消した}
+- {op: move, subject: yuki, from: pt-yuki-0221, into: pt-yuki-0080, note: 「0.1～1L」〔誤〕1回。0221 は消した。0080 は 8回・S}
+- {op: split, subject: yuki, from: pt-yuki-0083, new: pt-yuki-0299, note: シクロヘキサノンとシクロヘキサノールの融点の比較 1回。分子量の比較（2回）とは別の事実。章は bk-yuki-tp03}
+- {op: move, subject: kinzoku, from: pt-kinzoku-0157, into: pt-kinzoku-0073, note: ベリリウムの「灰化温度を1000℃以下」〔正〕1回。0073（1,100℃以上〔誤〕3回）と同じ事実。4回・A。0157 はバナジウムの1回}
+- {op: split, subject: kinzoku, from: pt-kinzoku-0086, new: pt-kinzoku-0474, note: ICP は、フレーム原子吸光と同程度以上の感度 1回。0086 は、フレームの種類と感度（2回）。章は bk-kinzoku-tp06}
+- {op: move, subject: funjin, from: pt-funjin-0150, into: pt-funjin-0053, note: クリストバライトの主回折線 22.0°。0150 は消した}
+- {op: move, subject: funjin, from: pt-funjin-0154, into: pt-funjin-0053, note: 石英の主回折線 26.66°（トリジマイト〔誤〕1回）。0154 は消した。0053 は 8回・S}

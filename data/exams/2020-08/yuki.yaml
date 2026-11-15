@@ -70,7 +70,7 @@ questions:
     - 1
     - 2
     - 1
-    - 3
+    - 2
     points:
     - pt-yuki-0133
     - pt-yuki-0251
@@ -125,13 +125,13 @@ questions:
     - - 2023-08
     fresh: false
     level: B
-    why: pt_B
+    why: pr_B
     tags:
     - ''
     - new
     - ''
     - new
-    - ans_b
+    - ans_pr
 - num: 3
   status: published
   chapters:
@@ -318,7 +318,7 @@ questions:
     pcounts:
     - 6
     - 2
-    - 5
+    - 8
     - 3
     - 3
     points:
@@ -330,7 +330,7 @@ questions:
     pnames:
     - 真空捕集瓶のコックや、管・装置の接続には、グリースを使用しない
     - 新しい捕集袋を使用する場合、内面からの分析妨害物質の発生を考慮する
-    - 捕集袋に試料を採取する際に内容積5L以上のものを用いる。
+    - 捕集袋は、内容積5L以上のものを用いる（「1L以下」「0.1～1L」は誤り）
     - 採取した試料空気は、できるだけその日のうちに分析する。
     - 採取した試料空気を保存する場合は、温度変化が少ない場所に保存する
     prcounts:
