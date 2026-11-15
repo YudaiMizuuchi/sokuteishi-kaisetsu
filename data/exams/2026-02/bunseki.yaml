@@ -34,12 +34,11 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 2
+    count: 12
     form: 穴埋め・組合せの問題
     fresh: true
-    level: A
-    why: pat_A
-    pat: an-units-01
+    level: S
+    why: q_hi
 - num: 2
   status: published
   chapters:
