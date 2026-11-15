@@ -1131,8 +1131,6 @@ chapters:
   - pt-ippan-0157
   - pt-ippan-0167
   - pt-ippan-0178
-  - pt-ippan-0236
-  - pt-ippan-0241
   - pt-ippan-0254
   - pt-ippan-0290
   - pt-ippan-0317
@@ -1896,7 +1894,6 @@ chapters:
   - pt-ippan-0113
   - pt-ippan-0116
   - pt-ippan-0128
-  - pt-ippan-0129
   - pt-ippan-0130
   - pt-ippan-0134
   - pt-ippan-0145
@@ -1912,8 +1909,6 @@ chapters:
   - pt-ippan-0200
   - pt-ippan-0206
   - pt-ippan-0213
-  - pt-ippan-0236
-  - pt-ippan-0241
   - pt-ippan-0242
   - pt-ippan-0244
   - pt-ippan-0249
@@ -2547,6 +2542,7 @@ chapters:
   title: 検知管
   kind: 論点
   points:
+  - pt-design-0004
   - pt-design-0009
   - pt-design-0023
   - pt-design-0049
@@ -2567,7 +2563,6 @@ chapters:
   title: 直接捕集と液体捕集
   kind: 論点
   points:
-  - pt-design-0004
   - pt-design-0034
   - pt-design-0063
   - pt-design-0068

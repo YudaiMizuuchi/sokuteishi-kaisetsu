@@ -250,19 +250,19 @@ questions:
     - 4
     - 4
     - 6
-    - 3
+    - 11
     points:
     - pt-ippan-0178
     - pt-ippan-0167
     - pt-ippan-0148
     - pt-ippan-0081
-    - pt-ippan-0236
+    - pt-ippan-0042
     pnames:
     - 多くの有機化合物は、肝臓で代謝されて排泄される。
     - テトラクロロエチレンの代謝物としてトリクロロ酢酸がある。
     - 粒子状物質が経気道的に侵入した場合、空気力学相当径が1～2μmの大きさの粒子は肺胞に沈着しやすい
     - 鉛の生物学的モニタリングの指標として血中の鉛濃度がある。
-    - キシレンは、代謝されて、尿中にトリクロロ酢酸が排泄される。（誤りの記述）
+    - キシレンは、代謝され、尿中にメチル馬尿酸として排泄される。
     prcounts:
     - 0
     - 0
@@ -311,14 +311,13 @@ questions:
       - 2025-08
     fresh: false
     level: S
-    why: pat_S
+    why: pt_S
     tags:
     - ''
     - ''
     - odo
     - odo
-    - ans_pat
-    pat: gn-absorption-01
+    - ans_hi
 - num: 4
   status: published
   chapters:
@@ -1821,7 +1820,7 @@ questions:
     - 1
     truths: 正正正誤正
     pcounts:
-    - 7
+    - 10
     - 2
     - 4
     - 3

@@ -257,19 +257,19 @@ questions:
     - 2
     truths: 正正正正誤
     pcounts:
-    - 2
+    - 12
     - 5
     - 1
     - 1
-    - 8
+    - 11
     points:
-    - pt-ippan-0241
+    - pt-ippan-0031
     - pt-ippan-0120
     - pt-ippan-0373
     - pt-ippan-0317
     - pt-ippan-0042
     pnames:
-    - スチレンの生物学的モニタリング指標は、尿中のマンデル酸である。
+    - スチレンは、代謝されて、尿中にマンデル酸が排泄される。
     - 鉛の生物学的モニタリングの指標として、赤血球中のプロトポルフィリンの濃度がある
     - 血液中の鉛濃度の上昇は、数日以内に鉛にばく露したことを反映している
     - トルエンの尿中代謝物である馬尿酸の測定値は、食品中の保存料、カフェインなどによる影響を受けて、見かけ上高値になることがある
@@ -293,7 +293,7 @@ questions:
     - ''
     - ''
     trend:
-    - 0
+    - 2
     - 1
     - 0
     - 0
@@ -325,14 +325,13 @@ questions:
       - 2024-08
     fresh: false
     level: S
-    why: pat_S
+    why: pt_S
     tags:
-    - ''
+    - odo
     - ''
     - new
     - new
-    - ans_pat
-    pat: gn-absorption-01
+    - ans_hi
 - num: 4
   status: published
   chapters:

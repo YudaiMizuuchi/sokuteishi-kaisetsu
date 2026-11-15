@@ -247,7 +247,7 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 6
-    - 8
+    - 11
     - 9
     - 3
     - 4
@@ -314,14 +314,13 @@ questions:
     - []
     fresh: false
     level: S
-    why: pat_S
+    why: pt_S
     tags:
     - odo
-    - ans_pat
+    - ans_hi
     - odo
     - ''
     - odo
-    pat: gn-absorption-01
 - num: 4
   status: published
   chapters:
@@ -1911,19 +1910,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 4
-    - 4
+    - 10
     - 4
     - 5
     - 2
     points:
     - pt-ippan-0145
-    - pt-ippan-0129
+    - pt-ippan-0051
     - pt-ippan-0151
     - pt-ippan-0093
     - pt-ippan-0255
     pnames:
     - 低体温症は、低温下の作業で全身が冷やされ、体内温度が35℃程度以下に低下したとき発生し、意識消失、筋の硬直などの症状がみられる
-    - 満18歳以上の男性労働者が人力のみにより取り扱う物の重量は、体重のおおむね 40 ％ 以下となるようにする
+    - 満18歳以上の男子労働者が人力のみにより取り扱う物の重量は、体重のおおむね40%以下とする
     - 人の抵抗力が非常に弱い場合、通常は人には感染しない病原体が病気を発症させることがあり、これを日和見感染という
     - 減圧症は、潜函作業者や潜水作業者などに発症するもので、高圧下作業からの減圧に伴い、血液中や組織中に溶け込んでいた窒素の気泡化が関与して発生する
     - ウェルシュ菌、セレウス菌及びカンピロバクターは、いずれも細菌性食中毒の原因菌である
@@ -1979,11 +1978,11 @@ questions:
       - 2020-08
     - []
     fresh: false
-    level: C
-    why: seen
+    level: A
+    why: pt_A
     tags:
     - ''
-    - ans_seen
+    - ans_hi
     - ''
     - ''
     - ''

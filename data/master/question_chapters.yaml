@@ -76,7 +76,7 @@
   r: [bk-design-0007, bk-design-tp04]
 2015-08|design|14:
   p: [bk-design-tp08]
-  r: [bk-design-tp04, bk-design-tp05, bk-design-tp09]
+  r: [bk-design-tp04, bk-design-tp05]
 2015-08|design|15:
   p: [bk-design-tp06]
   r: [bk-design-tp08]
@@ -796,7 +796,7 @@
   r: [bk-design-0007]
 2016-08|design|14:
   p: [bk-design-tp08]
-  r: [bk-design-tp09]
+  r: []
 2016-08|design|15:
   p: [bk-design-tp06]
   r: [bk-design-tp03, bk-design-tp05]
@@ -1002,8 +1002,8 @@
   p: [bk-ippan-fr17]
   r: []
 2016-08|ippan|4:
-  p: [bk-ippan-fr04, bk-ippan-fr17]
-  r: [bk-ippan-0033, bk-ippan-fr06]
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17, bk-ippan-0033, bk-ippan-fr06]
 2016-08|ippan|5:
   p: [bk-ippan-0008, bk-ippan-fr06]
   r: [bk-ippan-fr08, bk-ippan-fr14]
@@ -1275,8 +1275,8 @@
   p: [bk-design-forms]
   r: []
 2017-02|design|14:
-  p: [bk-design-tp09]
-  r: [bk-design-0010, bk-design-tp08]
+  p: [bk-design-tp08]
+  r: [bk-design-0010]
 2017-02|design|15:
   p: [bk-design-tp08]
   r: [bk-design-tp06]
@@ -1516,7 +1516,7 @@
   r: [bk-design-0007]
 2017-08|design|14:
   p: [bk-design-tp08]
-  r: [bk-design-tp09]
+  r: []
 2017-08|design|15:
   p: [bk-design-tp06]
   r: [bk-design-tp08]
@@ -1999,7 +1999,7 @@
   r: [bk-design-tp08]
 2018-02|design|15:
   p: [bk-design-tp06]
-  r: [bk-design-tp08, bk-design-tp09]
+  r: [bk-design-tp08]
 2018-02|design|16:
   p: [bk-design-tp14, bk-design-forms]
   r: []
@@ -2139,8 +2139,8 @@
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
 2018-02|ippan|3:
-  p: [bk-ippan-fr04, bk-ippan-fr17]
-  r: [bk-ippan-0001, bk-ippan-fr05, bk-ippan-fr07]
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17, bk-ippan-0001, bk-ippan-fr05]
 2018-02|ippan|4:
   p: [bk-ippan-0008, bk-ippan-fr06]
   r: [bk-ippan-fr05, bk-ippan-fr07, bk-ippan-fr12]
@@ -2238,8 +2238,8 @@
   p: [bk-design-0007]
   r: [bk-design-tp05, bk-design-tp06, bk-design-tp08]
 2018-08|design|15:
-  p: [bk-design-tp09]
-  r: [bk-design-tp08, bk-design-tp03, bk-design-tp04]
+  p: [bk-design-tp08]
+  r: [bk-design-tp03, bk-design-tp04]
 2018-08|design|16:
   p: [bk-design-tp14, bk-design-forms]
   r: []
@@ -2859,8 +2859,8 @@
   p: [bk-ippan-fr03]
   r: [bk-ippan-fr17]
 2019-02|ippan|3:
-  p: [bk-ippan-fr04, bk-ippan-fr17]
-  r: [bk-ippan-0001, bk-ippan-0033, bk-ippan-fr05]
+  p: [bk-ippan-fr04]
+  r: [bk-ippan-fr17, bk-ippan-0001, bk-ippan-0033]
 2019-02|ippan|4:
   p: [bk-ippan-fr12]
   r: [bk-ippan-fr06, bk-ippan-fr08]
@@ -2956,7 +2956,7 @@
   r: [bk-design-tp06, bk-design-tp04, bk-design-tp05]
 2019-08|design|14:
   p: [bk-design-tp08]
-  r: [bk-design-tp09]
+  r: []
 2019-08|design|15:
   p: [bk-design-0007]
   r: [bk-design-tp06, bk-design-tp08]
@@ -3435,8 +3435,8 @@
   p: [bk-design-tp06]
   r: [bk-design-0007, bk-design-tp04]
 2020-02|design|14:
-  p: [bk-design-tp09]
-  r: [bk-design-0010, bk-design-tp08]
+  p: [bk-design-tp08]
+  r: [bk-design-0010]
 2020-02|design|15:
   p: [bk-design-tp06]
   r: [bk-design-tp08]
@@ -3676,7 +3676,7 @@
   r: [bk-design-tp04]
 2020-08|design|14:
   p: [bk-design-tp08]
-  r: [bk-design-tp09]
+  r: []
 2020-08|design|15:
   p: [bk-design-tp06]
   r: [bk-design-tp08, bk-design-0007]
@@ -4396,7 +4396,7 @@
   r: [bk-design-tp06]
 2021-08|design|14:
   p: [bk-design-tp08]
-  r: [bk-design-0010, bk-design-tp09]
+  r: [bk-design-0010]
 2021-08|design|15:
   p: [bk-design-tp07]
   r: []
@@ -4879,7 +4879,7 @@
   r: [bk-design-0007, bk-design-tp04]
 2022-02|design|15:
   p: [bk-design-tp08]
-  r: [bk-design-0010, bk-design-tp09]
+  r: [bk-design-0010]
 2022-02|design|16:
   p: [bk-design-tp14, bk-design-forms]
   r: []
@@ -5118,8 +5118,8 @@
   p: [bk-design-0007]
   r: [bk-design-tp04, bk-design-tp05, bk-design-tp06]
 2022-08|design|15:
-  p: [bk-design-tp09]
-  r: [bk-design-tp08]
+  p: [bk-design-tp08]
+  r: []
 2022-08|design|16:
   p: [bk-design-tp14, bk-design-forms]
   r: []
@@ -6319,7 +6319,7 @@
   r: [bk-design-0007]
 2024-02|design|15:
   p: [bk-design-tp08]
-  r: [bk-design-0010, bk-design-tp09]
+  r: [bk-design-0010]
 2024-02|design|16:
   p: [bk-design-tp14, bk-design-forms]
   r: []
@@ -7759,7 +7759,7 @@
   r: [bk-design-0007, bk-design-tp04, bk-design-tp06]
 2026-02|design|15:
   p: [bk-design-tp08]
-  r: [bk-design-0010, bk-design-tp09]
+  r: [bk-design-0010]
 2026-02|design|16:
   p: [bk-design-tp14, bk-design-forms]
   r: []

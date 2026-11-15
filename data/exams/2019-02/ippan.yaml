@@ -135,21 +135,21 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 5
-    - 3
+    - 11
     - 5
-    - 2
+    - 12
     - 4
     points:
     - pt-ippan-0116
-    - pt-ippan-0236
+    - pt-ippan-0042
     - pt-ippan-0108
-    - pt-ippan-0241
+    - pt-ippan-0031
     - pt-ippan-0148
     pnames:
     - 生物学的半減期が長い物質ほど、体内での蓄積性が大きい。
-    - キシレンは、代謝されて、尿中にトリクロロ酢酸が排泄される。（誤りの記述）
+    - キシレンは、代謝され、尿中にメチル馬尿酸として排泄される。
     - n-ヘキサンは、体内で代謝されて、2,5-ヘキサンジオンとなる。
-    - スチレンの生物学的モニタリング指標は、尿中のマンデル酸である。
+    - スチレンは、代謝されて、尿中にマンデル酸が排泄される。
     - 粒子状物質が経気道的に侵入した場合、空気力学相当径が1～2μmの大きさの粒子は肺胞に沈着しやすい
     prcounts:
     - 10
@@ -173,7 +173,7 @@ questions:
     - 1
     - 0
     - 1
-    - 0
+    - 2
     - 0
     recent_exams:
     - 2024-02
@@ -199,14 +199,13 @@ questions:
     - []
     fresh: false
     level: S
-    why: pat_S
+    why: pt_S
     tags:
     - odo
-    - ans_pat
-    - ''
+    - ans_hi
     - ''
     - odo
-    pat: gn-absorption-01
+    - odo
 - num: 4
   status: published
   chapters:
