@@ -265,7 +265,7 @@
   r: [bk-ippan-0026]
 2015-08|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2015-08|ippan|18:
   p: [bk-ippan-fr16]
   r: []
@@ -322,7 +322,7 @@
   r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-0013]
 2015-08|kinzoku|16:
   p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
-  r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp03]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp09]
 2015-08|kinzoku|17:
   p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
   r: [bk-kinzoku-tp06, bk-kinzoku-tp07]
@@ -843,8 +843,8 @@
   p: [bk-funjin-0021, bk-funjin-tp05, bk-funjin-forms]
   r: []
 2016-08|funjin|10:
-  p: [bk-funjin-tp06]
-  r: [bk-funjin-0010]
+  p: [bk-funjin-0010, bk-funjin-tp06]
+  r: []
 2016-08|funjin|11:
   p: [bk-funjin-0008, bk-funjin-forms]
   r: []
@@ -985,7 +985,7 @@
   r: []
 2016-08|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2016-08|ippan|18:
   p: [bk-ippan-fr16]
   r: [bk-ippan-0004]
@@ -1389,7 +1389,7 @@
   p: [bk-ippan-fr11]
   r: []
 2017-02|ippan|12:
-  p: [bk-ippan-0029, bk-ippan-fr12]
+  p: [bk-ippan-0029, bk-ippan-fr12, bk-ippan-fr16]
   r: [bk-ippan-fr17]
 2017-02|ippan|13:
   p: [bk-ippan-fr13, bk-ippan-forms]
@@ -1405,7 +1405,7 @@
   r: [bk-ippan-0026]
 2017-02|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2017-02|ippan|18:
   p: [bk-ippan-fr16]
   r: [bk-ippan-0010]
@@ -1747,7 +1747,7 @@
   r: [bk-kinzoku-0018, bk-kinzoku-tp02, bk-kinzoku-tp05]
 2017-08|kinzoku|11:
   p: [bk-kinzoku-sb4006, bk-kinzoku-tp06]
-  r: [bk-kinzoku-0008, bk-kinzoku-tp04]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp04]
 2017-08|kinzoku|12:
   p: [bk-kinzoku-sb4001, bk-kinzoku-tp09]
   r: [bk-kinzoku-0013, bk-kinzoku-tp01, bk-kinzoku-tp03]
@@ -2124,7 +2124,7 @@
   p: [bk-ippan-fr15]
   r: []
 2018-02|ippan|17:
-  p: [bk-ippan-0029, bk-ippan-fr16]
+  p: [bk-ippan-0029, bk-ippan-fr12, bk-ippan-fr16]
   r: []
 2018-02|ippan|18:
   p: [bk-ippan-fr16]
@@ -2424,7 +2424,7 @@
   p: [bk-ippan-fr15]
   r: [bk-ippan-0026]
 2018-08|ippan|17:
-  p: [bk-ippan-0029, bk-ippan-fr16]
+  p: [bk-ippan-0029, bk-ippan-fr12, bk-ippan-fr16]
   r: []
 2018-08|ippan|18:
   p: [bk-ippan-fr16]
@@ -2845,7 +2845,7 @@
   r: [bk-ippan-0026]
 2019-02|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2019-02|ippan|18:
   p: [bk-ippan-fr16]
   r: [bk-ippan-0010]
@@ -3145,7 +3145,7 @@
   r: []
 2019-08|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2019-08|ippan|18:
   p: [bk-ippan-0004, bk-ippan-fr16]
   r: []
@@ -3865,7 +3865,7 @@
   r: [bk-ippan-0026]
 2020-08|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2020-08|ippan|18:
   p: [bk-ippan-fr16]
   r: [bk-ippan-0010]
@@ -3916,7 +3916,7 @@
   r: [bk-kinzoku-tp04, bk-kinzoku-tp01, bk-kinzoku-tp02]
 2020-08|kinzoku|14:
   p: [bk-kinzoku-0005]
-  r: [bk-kinzoku-0009, bk-kinzoku-tp02, bk-kinzoku-tp03]
+  r: [bk-kinzoku-0008, bk-kinzoku-0009, bk-kinzoku-tp02]
 2020-08|kinzoku|15:
   p: [bk-kinzoku-sb4007, bk-kinzoku-0013]
   r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
@@ -4062,8 +4062,8 @@
   p: [bk-yuki-0023]
   r: []
 2020-08|yuki|4:
-  p: [bk-yuki-0019]
-  r: [bk-yuki-0020, bk-yuki-0021, bk-yuki-tp03]
+  p: [bk-yuki-0019, bk-yuki-tp03]
+  r: [bk-yuki-0020, bk-yuki-0021]
 2020-08|yuki|5:
   p: [bk-yuki-tp03]
   r: [bk-yuki-0021]
@@ -4284,7 +4284,7 @@
   p: [bk-ippan-0026, bk-ippan-fr15]
   r: []
 2021-02|ippan|17:
-  p: [bk-ippan-0029, bk-ippan-fr16]
+  p: [bk-ippan-0029, bk-ippan-fr12, bk-ippan-fr16]
   r: []
 2021-02|ippan|18:
   p: [bk-ippan-0004, bk-ippan-fr16]
@@ -4641,8 +4641,8 @@
   p: [bk-kinzoku-sb4007, bk-kinzoku-tp06]
   r: [bk-kinzoku-0008, bk-kinzoku-tp01, bk-kinzoku-tp02]
 2021-08|kinzoku|16:
-  p: [bk-kinzoku-sb4004, bk-kinzoku-0008]
-  r: [bk-kinzoku-0011, bk-kinzoku-tp01, bk-kinzoku-tp03]
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp09]
 2021-08|kinzoku|17:
   p: [bk-kinzoku-sb4005, bk-kinzoku-tp03]
   r: [bk-kinzoku-0012]
@@ -4669,7 +4669,7 @@
   r: [bk-kinzoku-tp01, bk-kinzoku-tp07]
 2021-08|kinzoku|6:
   p: [bk-kinzoku-0005]
-  r: [bk-kinzoku-0001, bk-kinzoku-tp04]
+  r: [bk-kinzoku-0001, bk-kinzoku-0011, bk-kinzoku-tp04]
 2021-08|kinzoku|7:
   p: [bk-kinzoku-tp06]
   r: [bk-kinzoku-0010]
@@ -5166,8 +5166,8 @@
   p: [bk-funjin-tp01]
   r: [bk-funjin-0008]
 2022-08|funjin|11:
-  p: [bk-funjin-tp06]
-  r: [bk-funjin-0010]
+  p: [bk-funjin-0010, bk-funjin-tp06]
+  r: []
 2022-08|funjin|12:
   p: [bk-funjin-0021]
   r: [bk-funjin-tp03]
@@ -5356,7 +5356,7 @@
   r: [bk-kinzoku-tp03]
 2022-08|kinzoku|14:
   p: [bk-kinzoku-sb4003, bk-kinzoku-tp06]
-  r: [bk-kinzoku-0008, bk-kinzoku-tp03, bk-kinzoku-tp04]
+  r: [bk-kinzoku-0008, bk-kinzoku-tp02, bk-kinzoku-tp03]
 2022-08|kinzoku|15:
   p: [bk-kinzoku-sb4007, bk-kinzoku-tp04]
   r: [bk-kinzoku-tp01, bk-kinzoku-tp02]
@@ -5725,7 +5725,7 @@
   r: [bk-ippan-0026]
 2023-02|ippan|17:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2023-02|ippan|18:
   p: [bk-ippan-fr16]
   r: [bk-ippan-0004]
@@ -6748,7 +6748,7 @@
   r: []
 2024-08|ippan|18:
   p: [bk-ippan-fr16]
-  r: [bk-ippan-0029]
+  r: [bk-ippan-0029, bk-ippan-fr12]
 2024-08|ippan|19:
   p: [bk-ippan-fr16]
   r: []
@@ -6798,8 +6798,8 @@
   p: [bk-kinzoku-sb4007, bk-kinzoku-tp01]
   r: [bk-kinzoku-tp02]
 2024-08|kinzoku|15:
-  p: [bk-kinzoku-sb4004, bk-kinzoku-0008]
-  r: [bk-kinzoku-0011, bk-kinzoku-tp01, bk-kinzoku-tp03]
+  p: [bk-kinzoku-sb4004, bk-kinzoku-0011]
+  r: [bk-kinzoku-tp01, bk-kinzoku-tp03, bk-kinzoku-tp09]
 2024-08|kinzoku|16:
   p: [bk-kinzoku-sb4005, bk-kinzoku-tp02]
   r: [bk-kinzoku-0012]
@@ -6949,7 +6949,7 @@
   r: []
 2024-08|yuki|6:
   p: [bk-yuki-0021]
-  r: [bk-yuki-0020, bk-yuki-0019, bk-yuki-tp03]
+  r: [bk-yuki-0020, bk-yuki-tp03, bk-yuki-0019]
 2024-08|yuki|7:
   p: []
   r: [bk-yuki-0022]
@@ -8043,8 +8043,8 @@
   p: [bk-funjin-0021, bk-funjin-tp05, bk-funjin-forms]
   r: []
 2026-08|funjin|10:
-  p: [bk-funjin-tp06]
-  r: [bk-funjin-0010]
+  p: [bk-funjin-0010, bk-funjin-tp06]
+  r: []
 2026-08|funjin|11:
   p: [bk-funjin-forms]
   r: []
@@ -8239,7 +8239,7 @@
   r: [bk-kinzoku-tp01, bk-kinzoku-tp06]
 2026-08|kinzoku|15:
   p: [bk-kinzoku-sb4004, bk-kinzoku-tp09]
-  r: [bk-kinzoku-0008, bk-kinzoku-0011, bk-kinzoku-tp01]
+  r: [bk-kinzoku-0011, bk-kinzoku-tp01, bk-kinzoku-tp03]
 2026-08|kinzoku|16:
   p: [bk-kinzoku-sb4005, bk-kinzoku-0012]
   r: [bk-kinzoku-tp02, bk-kinzoku-tp03]

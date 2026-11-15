@@ -374,43 +374,43 @@ questions:
     - 1
     - 1
     - 1
-    - 1
+    - 11
     points:
     - pt-kinzoku-0117
     - pt-kinzoku-0466
     - pt-kinzoku-0376
     - pt-kinzoku-0223
-    - pt-kinzoku-0212
+    - pt-kinzoku-0031
     pnames:
     - 吸光度が濃度に比例することをベールの法則という。
     - 原子吸光分析では、測定対象元素の光源に、重水素放電ランプを用いる（誤りの記述）
     - フレーム法では、均一な微粒子をバーナーに送る必要がある。
     - 電気加熱式原子吸光法では、アルゴンや窒素などの不活性気体を通じながら黒鉛炉を加熱する
-    - 還元気化法で発生させたヒ素の水素化物は、加熱石英セル内で熱分解し、原子化する
+    - ヒ素の原子化は、水素化ヒ素を加熱して行う（水素-アルゴンフレーム、加熱石英セル、電気加熱炉。アセチレン-空気フレームではない）
     prcounts:
     - 8
     - 10
     - 0
     - 0
-    - 0
+    - 11
     principles:
     - pr-kinzoku-0001
     - pr-kinzoku-0006
     - ''
     - ''
-    - ''
+    - pr-kinzoku-0011
     prnames:
     - ランベルト・ベールの法則
     - 原子吸光の光源は線光源
     - ''
     - ''
-    - ''
+    - 水素化物発生法の還元
     trend:
     - 0
     - 0
     - 0
     - 0
-    - 0
+    - 2
     recent_exams:
     - 2024-08
     - 2025-08
@@ -435,7 +435,7 @@ questions:
     - ans_pr
     - new
     - new
-    - new
+    - odo
 - num: 7
   status: published
   chapters:
@@ -1033,7 +1033,7 @@ questions:
     - 0
     - 12
     - 12
-    - 11
+    - 10
     principles:
     - pr-kinzoku-0013
     - ''
@@ -1335,7 +1335,7 @@ questions:
     - 7
     - 7
     - 7
-    - 9
+    - 8
     - 4
     points:
     - pt-kinzoku-0014
@@ -1353,7 +1353,7 @@ questions:
     - 0
     - 0
     - 0
-    - 11
+    - 10
     - 0
     principles:
     - ''
@@ -1371,7 +1371,7 @@ questions:
     - 2
     - 0
     - 0
-    - 1
+    - 0
     - 0
     recent_exams:
     - 2024-08
@@ -1445,19 +1445,19 @@ questions:
     - 12
     - 7
     - 9
-    - 9
+    - 11
     - 7
     points:
     - pt-kinzoku-0001
     - pt-kinzoku-0016
     - pt-kinzoku-0004
-    - pt-kinzoku-0006
+    - pt-kinzoku-0031
     - pt-kinzoku-0015
     pnames:
     - 試料の捕集には、石英繊維ろ紙を用いる。
     - 試料液のヒ素を三価にする予備還元には、塩化スズ(Ⅱ)とヨウ化カリウムを用いる
     - 水素化ヒ素の発生に、水素化ホウ素ナトリウムを使う。
-    - 原子化には、アセチレン-空気炎を用いる。
+    - ヒ素の原子化は、水素化ヒ素を加熱して行う（水素-アルゴンフレーム、加熱石英セル、電気加熱炉。アセチレン-空気フレームではない）
     - ヒ素標準液は、酸化ヒ素(Ⅲ)をアルカリ溶液に溶解して調製する。
     prcounts:
     - 0
@@ -1469,19 +1469,19 @@ questions:
     - ''
     - pr-kinzoku-0011
     - pr-kinzoku-0011
-    - pr-kinzoku-0008
+    - pr-kinzoku-0011
     - ''
     prnames:
     - ''
     - 水素化物発生法の還元
     - 水素化物発生法の還元
-    - フレームの種類と原子化
+    - 水素化物発生法の還元
     - ''
     trend:
     - 3
     - 1
     - 1
-    - 1
+    - 2
     - 1
     recent_exams:
     - 2024-08
@@ -1664,19 +1664,19 @@ questions:
     - 6
     - 6
     - 1
-    - 3
+    - 6
     - 1
     points:
     - pt-kinzoku-0024
     - pt-kinzoku-0030
     - pt-kinzoku-0379
-    - pt-kinzoku-0075
+    - pt-kinzoku-0079
     - pt-kinzoku-0337
     pnames:
     - 試料液は、ろ紙に捕集した試料を硝酸又は塩酸に溶解して調製する。
     - 鉛をMIBKに抽出するキレート剤には、APDC、DDTCなどを用いる
     - キレート剤には、微量の重金属が混入している場合がある。
-    - 溶媒抽出法を用いないフレーム法では、鉄が多量に共存すると測定値にプラスの影響を及ぼす
+    - 鉛の、溶媒抽出によらないフレーム法では、鉄が多量に共存すると、測定値に負の誤差を与える
     - 電気加熱式の灰化段階で、塩化鉛は蒸発しやすい。
     prcounts:
     - 0
@@ -1724,12 +1724,12 @@ questions:
     subst_id: sb-kinzoku-4008
     subst_name: 鉛およびその化合物(アルキル鉛を除く)
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - new
-    - ans_pr
+    - ans_hi
     - new
 - num: 19
   status: published
