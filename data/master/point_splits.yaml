@@ -690,3 +690,10 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: move, subject: funjin, from: pt-funjin-0173, into: pt-funjin-0079, note: 通気の流速が速いほど、50％分粒粒径は小さい方へ（2回）。0079（吸引流量を大きくすると、小さくなる 2回）と同じ事実。0173 は消した。4回・B。改名}
 - {op: rename, subject: funjin, id: pt-funjin-0028, note: 誤りの形（粒子の密度の平方根に比例）を名前に入れた}
 - {op: rename, subject: design, id: pt-design-0194, note: 名前が誤りの形だった。正しい形（温度が高いほど、吸着能力は低くなる）に改名}
+
+# 2026-11-16（続き91）
+- {op: move, subject: yuki, from: pt-yuki-0081, into: pt-yuki-0039, note: 「充塡カラムの方が、試料負荷量を多くできる」〔正〕3回。0039（キャピラリーカラムは試料負荷量が小さい。誤りの形 3回）と同じ事実。0081 は消した}
+- {op: move, subject: yuki, from: pt-yuki-0183, into: pt-yuki-0039, note: 「キャピラリーカラムは、導入できる試料は少量」1回。0183 は消した。0039 は 7回・S。改名}
+- {op: rename, subject: funjin, id: pt-funjin-0014, note: 名前が誤りの形（10 µm の方が計数値が大きい）だった。正しい形（1 µm の方が大きい）に改名}
+- {op: rename, subject: kinzoku, id: pt-kinzoku-0044, note: 中身（鉛・酸化鉛(Ⅱ)は硝酸に溶ける 8件、硝酸には酸化力 1件）に合わせて改名}
+- {op: rename, subject: kinzoku, id: pt-kinzoku-0453, note: 名前が誤りの形だった。正しい形（クロムは濃硝酸に溶けない。希硝酸には溶ける）に改名}
