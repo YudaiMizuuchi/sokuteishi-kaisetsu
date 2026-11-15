@@ -638,3 +638,12 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: merge, subject: ippan, from: pt-ippan-0202, into: pt-ippan-0139, note: 吸入性粉じんの分粒装置は 4 µm・50％透過。同じ事実（3回＋3回）。6回・B}
 - {op: merge, subject: ippan, from: pt-ippan-0186, into: pt-ippan-0267, note: メタノール／アセトンは、トルエン・ベンゼンより極性が大きい。極性の大小の同じ形（4回＋4回）。7回・B}
 - {op: merge, subject: ippan, from: pt-ippan-0659, into: pt-ippan-0077, note: フランジで「大きな排風量が必要」〔誤〕の言い換え。7回・B}
+
+# 2026-11-15（続き82）
+- {op: move, subject: funjin, from: pt-funjin-0239, into: pt-funjin-0100, note: 「採取量が足りないときは、再発じん用試料を新しくする」〔正〕1回。0100（残った試料を再度発じん〔誤〕3回）と同じ事実。4回・B。0239 は消した。0100 を正しい形に改名}
+- {op: rename, subject: design, id: pt-design-0015, note: 名前が誤りの形（最大値）だった。算術平均値の形に改名（執筆側の指摘）}
+- {op: split, subject: design, from: pt-design-0013, new: pt-design-0521, note: 「B測定を行う単位作業場所の2日間測定は、両日ともB測定」3回。単位作業場所の範囲の一致とは別の事実。章は bk-design-tp03（qpoint_chapters）。0013 は 12回・A}
+- {op: move, subject: design, from: pt-design-0018, into: pt-design-0038, note: 「第2評価値とは幾何平均（濃度の推定値）」〔誤〕2件。0038（第2評価値＝算術平均濃度の推定値）の誤りの形}
+- {op: move, subject: design, from: pt-design-0061, into: pt-design-0491, note: 「第1評価値及びB測定値が共に管理濃度未満なら第1管理区分」1件}
+- {op: move, subject: design, from: pt-design-0491, into: pt-design-0493, note: 「第1評価値が小さければ、B測定値にかかわらず第3にならない」〔誤〕1件。B測定値による区分}
+- {op: move, subject: design, from: pt-design-0001, into: pt-design-0493, note: B測定値が管理濃度の1.5倍を超えれば第3管理区分。0001 は消した。0493 を改名}
