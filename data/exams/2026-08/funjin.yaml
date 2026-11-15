@@ -199,14 +199,14 @@ questions:
   freq:
     kind: question
     denom: 12
-    count: 1
+    count: 9
     form: 計算問題
     prid: pr-funjin-0021
     prname: 重力沈降とストークスの式（終末沈降速度）
     prcount: 12
     fresh: true
     level: S
-    why: pr_S
+    why: q_hi
 - num: 4
   status: published
   chapters:

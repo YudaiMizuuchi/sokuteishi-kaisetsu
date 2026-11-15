@@ -436,6 +436,7 @@ points:
   - 2018-08|7|2
   - 2019-08|7|1
   - 2022-08|7|2
+  - 2024-08|7|4
 - id: pt-yuki-0043
   subject: yuki
   name: 検量線は、測定の都度、作成する。
@@ -451,6 +452,7 @@ points:
   theme: ''
   members:
   - 2015-08|7|5
+  - 2016-08|8|1
   - 2018-08|7|5
   - 2019-08|7|3
   - 2022-08|7|3
@@ -776,6 +778,7 @@ points:
   members:
   - 2016-08|5|3
   - 2017-08|5|1
+  - 2019-08|5|4
   - 2021-08|5|4
 - id: pt-yuki-0085
   subject: yuki
@@ -1621,12 +1624,6 @@ points:
   theme: ''
   members:
   - 2015-08|12|5
-- id: pt-yuki-0213
-  subject: yuki
-  name: 検知管による測定は、一般に、検知管を10℃以下に冷却してから行う（誤りの記述）
-  theme: ''
-  members:
-  - 2016-08|8|1
 - id: pt-yuki-0214
   subject: yuki
   name: 固定相液体は、使用温度で蒸気圧の低いものがよい。
@@ -1999,12 +1996,6 @@ points:
   theme: ''
   members:
   - 2024-08|7|1
-- id: pt-yuki-0278
-  subject: yuki
-  name: 検知管の指示値は、低気圧下では低くなる。
-  theme: ''
-  members:
-  - 2024-08|7|4
 - id: pt-yuki-0279
   subject: yuki
   name: 一度使用した検知管は、変色していなくても再使用できない。
@@ -2059,12 +2050,6 @@ points:
   theme: ''
   members:
   - 2015-08|17|3
-- id: pt-yuki-0288
-  subject: yuki
-  name: 捕集液に溶解させて捕集する場合は、捕集液を加熱すると一般に捕集率を高めることができる（誤りの記述）
-  theme: ''
-  members:
-  - 2019-08|5|4
 - id: pt-yuki-0289
   subject: yuki
   name: 試薬はできる限りすばやく秤量する。
@@ -11157,7 +11142,7 @@ points:
   - 2021-08|19|3
 - id: qp-funjin-0001
   subject: funjin
-  name: 密度 2.5 g・cm⁻³、粒径 4.0 µmの球形粒子の…（計算問題）
+  name: ストークスの式による計算（終末沈降速度・粘性係数・沈降時間）
   theme: ''
   kind: question
   members:
@@ -11169,6 +11154,7 @@ points:
   - 2022-08|3|0
   - 2024-08|3|0
   - 2025-08|3|0
+  - 2026-08|3|0
 - id: qp-funjin-0002
   subject: funjin
   name: X線回折基底標準吸収補正法により…（計算問題）
@@ -11262,10 +11248,11 @@ points:
   - 2026-08|1|0
 - id: qp-funjin-0011
   subject: funjin
-  name: 空気中に浮遊している粒子は、粒子の大きさや密度…（計算問題）
+  name: ストークスの式の形（終末速度は、密度の差と粒径の2乗に比例し、粘性係数の18倍に反比例する）
   theme: ''
   kind: question
   members:
+  - 2018-08|3|0
   - 2020-08|2|0
   - 2023-08|2|0
 - id: qp-funjin-0012
@@ -11299,13 +11286,6 @@ points:
   kind: question
   members:
   - 2015-08|16|0
-- id: qp-funjin-0017
-  subject: funjin
-  name: 空気中に浮遊している粒子が沈降する際…（計算問題）
-  theme: ''
-  kind: question
-  members:
-  - 2018-08|3|0
 - id: qp-funjin-0018
   subject: funjin
   name: 鉱物性粉じんの定性分析を、対陰極物質として Cu を用いた…（穴埋め・組合せ）
@@ -11349,13 +11329,6 @@ points:
   kind: question
   members:
   - 2025-08|14|0
-- id: qp-funjin-0029
-  subject: funjin
-  name: 密度 2.65 g・cm⁻³…（計算問題）
-  theme: ''
-  kind: question
-  members:
-  - 2026-08|3|0
 - id: qp-funjin-0031
   subject: funjin
   name: 鉱物性粉じんの質量濃度を測定するために…（計算問題）
@@ -11453,6 +11426,7 @@ points:
   - 2018-02|10|4
   - 2018-08|10|1
   - 2019-02|10|1
+  - 2019-02|10|2
   - 2019-08|10|3
   - 2020-08|10|1
   - 2021-02|10|4
@@ -13651,7 +13625,9 @@ points:
   name: 放熱は、輻射、伝導、蒸発などの物理的な過程で行われ、蒸発には、発汗と不感蒸泄によるものがある
   theme: ''
   members:
+  - 2015-08|10|4
   - 2016-08|10|5
+  - 2019-02|9|5
   - 2020-02|9|5
   - 2020-08|9|4
 - id: pt-ippan-0215
@@ -14097,10 +14073,12 @@ points:
   - 2021-02|1|1
 - id: pt-ippan-0271
   subject: ippan
-  name: 日振動ばく露量 A(8)は、周波数補正振動加速度実効値の3軸合成値 ahvと1日の振動ばく露時間 T から、A(8) ＝ ahv × √(T/8) により求められ…
+  name: 日振動ばく露量 A(8)は、3軸合成値 ahv と1日の振動ばく露時間 T から、ahv×√(T/8) で求める
   theme: ''
   members:
   - 2024-02|12|5
+  - 2024-08|12|0
+  - 2025-08|12|0
   - 2026-02|12|5
 - id: pt-ippan-0272
   subject: ippan
@@ -14386,13 +14364,6 @@ points:
   members:
   - 2016-08|19|1
   - 2019-02|19|4
-- id: pt-ippan-0313
-  subject: ippan
-  name: 熱の放散は、放射(ふく射)、伝導、蒸発などの物理的な過程で行われる
-  theme: ''
-  members:
-  - 2015-08|10|4
-  - 2019-02|9|5
 - id: pt-ippan-0314
   subject: ippan
   name: 一酸化炭素用防毒マスクの吸収缶は、触媒作用を用いているため、低濃度では、一酸化炭素の除毒効率が低くなる
@@ -15036,6 +15007,7 @@ points:
   theme: ''
   members:
   - 2016-08|10|4
+  - 2024-08|11|2
 - id: pt-ippan-0408
   subject: ippan
   name: 労働者の心の健康は、職場配置、人事異動、職場の組織等の要因によって影響を受けるため、メンタルヘルスケアは、人事労務管理と連携しなければ、適切に進まない場合が多いことに留意する
@@ -17179,12 +17151,6 @@ points:
   theme: ''
   members:
   - 2024-08|4|2
-- id: pt-ippan-0768
-  subject: ippan
-  name: 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い（誤りの記述）
-  theme: ''
-  members:
-  - 2024-08|11|2
 - id: pt-ippan-0769
   subject: ippan
   name: 発がん性のスクリーニング試験には、変異原性試験や催奇形性試験がある（誤りの記述）
@@ -17366,12 +17332,6 @@ points:
   theme: ''
   members:
   - 2018-08|13|3
-- id: pt-ippan-0800
-  subject: ippan
-  name: 振動工具の日振動ばく露量は、振動ばく露時間が長いほど大きくなる。
-  theme: ''
-  members:
-  - 2019-02|10|2
 - id: pt-ippan-0801
   subject: ippan
   name: 立位、椅座位にかかわらず、作業台の高さは肘の曲げ角度がおよそ 90°になる高さとする
@@ -17615,13 +17575,6 @@ points:
   kind: question
   members:
   - 2024-08|2|0
-- id: qp-ippan-0018
-  subject: ippan
-  name: 振動に対するばく露量を示す指標である日振動ばく露量 A(8…（計算問題）
-  theme: ''
-  kind: question
-  members:
-  - 2024-08|12|0
 - id: qp-ippan-0020
   subject: ippan
   name: 「化学品の分類および表示に関する世界調和システム（GHS）」で定め…→急性毒性
@@ -17629,13 +17582,6 @@ points:
   kind: question
   members:
   - 2025-08|2|0
-- id: qp-ippan-0022
-  subject: ippan
-  name: 振動障害の防止に関する次の記述の㋑から㋩の［ ］に入る語句…（穴埋め・組合せ）
-  theme: ''
-  kind: question
-  members:
-  - 2025-08|12|0
 - id: qp-ippan-0023
   subject: ippan
   name: ろ過式呼吸用保護具の分類を表す次の図の㋑から㋣の［ ］に入…（穴埋め・組合せ）
@@ -23160,6 +23106,7 @@ points:
   - 2023-02|10|5
   - 2024-02|10|1
   - 2025-02|10|5
+  - 2025-08|10|3
   - 2026-02|10|4
 - id: pt-design-0049
   subject: design
@@ -26326,12 +26273,6 @@ points:
   theme: ''
   members:
   - 2025-08|8|4
-- id: pt-design-0471
-  subject: design
-  name: 絞り式流量計は、管の途中に絞り弁を設置したもので、絞り弁の開口度から流量を求めるものである（誤りの記述）
-  theme: ''
-  members:
-  - 2025-08|10|3
 - id: pt-design-0472
   subject: design
   name: メンブランフィルターには、セルローズメンブランフィルター、ナイロンメンブランフィルター、銀メンブランフィルターがある

@@ -1047,14 +1047,14 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 4
     form: 穴埋め・組合せの問題
     prid: pr-ippan-0014
     prname: 振動ばく露量はエネルギー等価で表す
-    prcount: 2
+    prcount: 0
     fresh: true
     level: C
-    why: q_fresh
+    why: q_seen
 - num: 13
   status: published
   chapters:

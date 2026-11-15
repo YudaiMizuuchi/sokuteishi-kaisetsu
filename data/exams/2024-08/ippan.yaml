@@ -963,19 +963,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 1
-    - 1
+    - 2
     - 1
     - 1
     - 1
     points:
     - pt-ippan-0729
-    - pt-ippan-0768
+    - pt-ippan-0407
     - pt-ippan-0575
     - pt-ippan-0674
     - pt-ippan-0802
     pnames:
     - 高温状態では、脳に血液を十分に送ることができず、一時的な脳虚血による立ちくらみを起こすことがあり、これを熱失神という
-    - 熱中症が重症になると、大量の発汗により体温が著しく下がることが多い（誤りの記述）
+    - 熱射病は、暑熱環境下での体温調節機能の失調による重篤な熱中症で、発汗の停止と体温の著しい上昇のほか、意識障害、呼吸困難などがみられる
     - 体温は、代謝によって生じる産熱と、人体と外部環境の温度差に基づく放熱のバランスによって一定に保たれている
     - 凍瘡とは、しもやけのことで、低温の環境下において、手足の末梢部に発生しやすい
     - 長時間の低温ばく露により、腰痛症を生じることがある。
@@ -1064,14 +1064,14 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 4
     form: 計算問題
     prid: pr-ippan-0014
     prname: 振動ばく露量はエネルギー等価で表す
-    prcount: 2
+    prcount: 0
     fresh: false
-    level: D
-    why: q_new
+    level: C
+    why: q_seen
 - num: 13
   status: published
   chapters:
