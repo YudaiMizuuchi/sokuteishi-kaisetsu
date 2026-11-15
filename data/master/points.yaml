@@ -12483,9 +12483,6 @@ points:
   name: 確率的影響にはしきい値が存在せず、線量の増加に伴って影響の発生率が増加する
   theme: ''
   members:
-  - 2017-08|19|1
-  - 2023-08|16|3
-  - 2024-02|16|5
   - 2024-08|16|4
   - 2025-08|16|4
 - id: pt-ippan-0088
@@ -12819,14 +12816,16 @@ points:
   - 2024-02|4|5
 - id: pt-ippan-0121
   subject: ippan
-  name: 発がんや遺伝的影響は、確率的影響である。
+  name: 発がんや遺伝的影響は、確率的影響に分類され、しきい値はない
   theme: ''
   members:
   - 2016-08|14|3
   - 2017-02|14|4
   - 2018-08|14|2
   - 2021-08|14|2
+  - 2022-08|14|2
   - 2024-02|16|4
+  - 2025-02|16|5
 - id: pt-ippan-0122
   subject: ippan
   name: アーク溶接ヒュームは、じん肺を引き起こす原因となる。
@@ -16702,12 +16701,6 @@ points:
   theme: ''
   members:
   - 2025-02|14|5
-- id: pt-ippan-0687
-  subject: ippan
-  name: 突然変異や染色体異常などの遺伝的影響は、確率的影響に該当する。
-  theme: ''
-  members:
-  - 2025-02|16|5
 - id: pt-ippan-0688
   subject: ippan
   name: 自給式呼吸器には、圧縮空気を使用する空気呼吸器と酸素を使用する酸素呼吸器があり、酸素呼吸器には、圧縮酸素を用いるものと酸素を発生させるものがある
@@ -16914,12 +16907,6 @@ points:
   theme: ''
   members:
   - 2022-08|9|5
-- id: pt-ippan-0722
-  subject: ippan
-  name: 遺伝的影響には、影響を起こす被ばく線量に一定のしきい値がある。（誤りの記述）
-  theme: ''
-  members:
-  - 2022-08|14|2
 - id: pt-ippan-0723
   subject: ippan
   name: ヒュームの1次粒子の粒径は1 μm 以下と小さく、粒径の分散範囲も狭い
@@ -17272,9 +17259,10 @@ points:
   - 2026-08|16|4
 - id: pt-ippan-0781
   subject: ippan
-  name: 確率的影響では、障害の重篤度は線量に依存しない。
+  name: 確率的影響では、障害の重篤度は線量に依存しない（線量とともに増すのは発生率）
   theme: ''
   members:
+  - 2024-02|16|5
   - 2026-08|16|5
 - id: pt-ippan-0782
   subject: ippan
@@ -17519,6 +17507,13 @@ points:
   - 2021-08|15|2
   - 2025-02|5|2
   - 2026-08|5|1
+- id: pt-ippan-0827
+  subject: ippan
+  name: 電離放射線による中枢神経系障害は、確定的影響に分類される
+  theme: ''
+  members:
+  - 2017-08|19|1
+  - 2023-08|16|3
 - id: qp-ippan-0001
   subject: ippan
   name: 化学物質Ⓐとそれによってヒトに生じる主要ながんⒷとの次の組…（穴埋め・組合せ）
@@ -23923,12 +23918,14 @@ points:
   - 2026-02|1|2
 - id: pt-design-0117
   subject: design
-  name: 有機溶剤の蒸気は、空気より密度が大きい。
+  name: 有機溶剤の蒸気は、空気より密度が大きく、床上など低いところに滞留しやすい
   theme: ''
   members:
+  - 2015-08|6|4
   - 2016-08|7|5
   - 2017-08|7|4
   - 2018-02|7|5
+  - 2021-02|7|4
   - 2021-08|8|5
 - id: pt-design-0118
   subject: design
@@ -24584,10 +24581,12 @@ points:
   - 2018-02|10|5
 - id: pt-design-0195
   subject: design
-  name: トルエンの蒸気密度は、空気より大きい。
+  name: 蒸気・気体の密度を空気と比べる（トルエン・エチレンオキシド・塩化ビニルは大きい。シアン化水素・フッ化水素は小さい）
   theme: ''
   members:
   - 2018-08|8|2
+  - 2023-08|8|3
+  - 2024-02|6|2
   - 2024-08|8|3
   - 2025-08|8|2
 - id: pt-design-0196
@@ -25444,12 +25443,6 @@ points:
   theme: ''
   members:
   - 2021-02|5|1
-- id: pt-design-0320
-  subject: design
-  name: 有機溶剤の蒸気は、密度が空気より小さいため、室内では天井付近の上層に滞留しやすい（誤りの記述）
-  theme: ''
-  members:
-  - 2021-02|7|4
 - id: pt-design-0321
   subject: design
   name: 検知管用真空法ガス採取器は、漏れ試験を行わずに測定を行うと、系統誤差を生じる可能性がある
@@ -25858,12 +25851,6 @@ points:
   theme: ''
   members:
   - 2026-08|13|3
-- id: pt-design-0389
-  subject: design
-  name: 一般に、有機溶剤の蒸気は、同一体積の空気より軽い。（誤りの記述）
-  theme: ''
-  members:
-  - 2015-08|6|4
 - id: pt-design-0390
   subject: design
   name: 慣性効果の原理は、粉じん粒子の捕集に利用される。
@@ -26065,12 +26052,6 @@ points:
   theme: ''
   members:
   - 2022-08|15|1
-- id: pt-design-0423
-  subject: design
-  name: 塩化ビニルの蒸気密度は、空気より大きい。
-  theme: ''
-  members:
-  - 2023-08|8|3
 - id: pt-design-0424
   subject: design
   name: リフラクトリーセラミックファイバーの管理濃度の単位は、mg/m³である（誤りの記述）
@@ -26245,12 +26226,6 @@ points:
   theme: ''
   members:
   - 2022-08|5|5
-- id: pt-design-0453
-  subject: design
-  name: フッ化水素の気体の密度は、空気より大きい。（誤りの記述）
-  theme: ''
-  members:
-  - 2024-02|6|2
 - id: pt-design-0454
   subject: design
   name: A測定の平均値は、84dBである。
@@ -26751,7 +26726,7 @@ points:
   - 2026-08|17|0
 - id: qp-design-0004
   subject: design
-  name: 25℃、1気圧における環境空気中のメタノールの質量濃度が …（計算問題）
+  name: 質量濃度（mg/m³）と体積分率（ppm）の換算（25℃、1気圧）
   theme: ''
   kind: question
   members:

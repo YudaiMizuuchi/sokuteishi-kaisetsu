@@ -609,7 +609,7 @@ chapters:
   - pr-ippan-0001
   - pr-ippan-0002
   - pr-ippan-0003
-  status: draft
+  status: written
   part: hazards
 - id: bk-ippan-0004
   subject: ippan
@@ -1703,6 +1703,7 @@ chapters:
   - pt-ippan-0082
   - pt-ippan-0084
   - pt-ippan-0087
+  - pt-ippan-0827
   - pt-ippan-0105
   - pt-ippan-0121
   - pt-ippan-0171
@@ -1727,12 +1728,10 @@ chapters:
   - pt-ippan-0578
   - pt-ippan-0585
   - pt-ippan-0668
-  - pt-ippan-0687
   - pt-ippan-0690
   - pt-ippan-0704
   - pt-ippan-0712
   - pt-ippan-0716
-  - pt-ippan-0722
   - pt-ippan-0744
   - pt-ippan-0779
   - pt-ippan-0780
@@ -3774,7 +3773,7 @@ chapters:
   kind: 原理
   principles:
   - pr-design-0013
-  status: draft
+  status: written
   part: sampling
 - id: bk-design-0014
   subject: design
