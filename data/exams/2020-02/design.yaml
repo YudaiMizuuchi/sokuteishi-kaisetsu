@@ -845,19 +845,19 @@ questions:
     - 11
     - 5
     - 8
-    - 8
+    - 3
     points:
     - pt-design-0073
     - pt-design-0021
     - pt-design-0104
     - pt-design-0039
-    - pt-design-0044
+    - pt-design-0517
     pnames:
     - メンブランフィルターのポアサイズ（孔径）は、捕集できる粒子の大きさの下限を示すものではない
     - メンブランフィルターは、ガラス繊維ろ紙に比べ、粉じんの堆積による通気抵抗の増加が大きい
     - メンブランフィルターは、粒子状物質を主としてフィルターの表面で捕集する
     - ガラス繊維ろ紙の吸湿率を低くするために、フッ素樹脂を含浸させたものがある
-    - マゼンタの捕集には、ガラス繊維ろ紙を用いる。
+    - ガラス繊維ろ紙では、粒径の小さな粒子は、繊維層の内部に捕集される
     prcounts:
     - 0
     - 0
@@ -881,7 +881,7 @@ questions:
     - 1
     - 2
     - 0
-    - 1
+    - 0
     recent_exams:
     - 2024-02
     - 2024-08
@@ -904,14 +904,14 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: C
+    why: seen
     tags:
     - ''
     - odo
-    - ans_new
+    - ans_seen
     - odo
-    - odo
+    - ''
 - num: 12
   status: published
   chapters:
