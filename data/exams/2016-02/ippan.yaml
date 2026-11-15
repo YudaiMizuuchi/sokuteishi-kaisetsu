@@ -487,7 +487,7 @@ questions:
     pcounts:
     - 5
     - 5
-    - 3
+    - 7
     - 5
     - 10
     points:
@@ -499,7 +499,7 @@ questions:
     pnames:
     - 吸入された鉱物性粉じんの各呼吸部位での沈着率は、その空気力学相当径によって異なる
     - 石綿粉じんは、胸膜肥厚、肺がんなどを生じる。
-    - 鉱物性粉じんに含まれる遊離けい酸は、胸膜の中皮腫を生じさせる。（誤りの記述）
+    - 遊離けい酸は、胸膜の中皮腫・胸膜プラーク（肥厚）の原因である（誤りの記述。これらは石綿による）
     - 炭素の粉じんは、じん肺を生じることがある。
     - じん肺は、続発性気管支炎、肺結核などを合併することがある。
     prcounts:
@@ -547,14 +547,13 @@ questions:
     - []
     fresh: false
     level: B
-    why: pat_B
+    why: pt_B
     tags:
     - odo
     - ''
-    - ans_pat
+    - ans_b
     - ''
     - odo
-    pat: gn-dust-disease-02
 - num: 7
   status: published
   chapters:

@@ -512,21 +512,21 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 5
-    - 4
+    - 7
     - 3
     - 11
     - 3
     points:
     - pt-ippan-0058
-    - pt-ippan-0107
+    - pt-ippan-0247
     - pt-ippan-0202
     - pt-ippan-0004
     - pt-ippan-0143
     pnames:
     - 粒子状物質の沈降速度は、粒径の2乗に比例する
-    - 遊離けい酸は、胸膜プラークの主要な原因である。（誤りの記述）
+    - 遊離けい酸は、胸膜の中皮腫・胸膜プラーク（肥厚）の原因である（誤りの記述。これらは石綿による）
     - 吸入性粉じんの分粒装置は、空気力学相当径4μmの粉じん粒子を50%透過する性能を有する
-    - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率により異なる。
+    - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率で決まる（含有率が高いほど小さい。含まないときは 3.0 mg/m³）
     - 粉じん粒子の空気力学相当径とは、その粒子と同じ終末沈降速度をもつ密度1g・cm⁻³ の球形粒子の直径である
     prcounts:
     - 0
@@ -573,14 +573,13 @@ questions:
     - []
     fresh: false
     level: B
-    why: pat_B
+    why: pt_B
     tags:
     - ''
-    - ans_pat
+    - ans_b
     - ''
     - odo
     - ''
-    pat: gn-dust-disease-02
 - num: 7
   status: published
   chapters:

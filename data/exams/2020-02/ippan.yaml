@@ -494,19 +494,19 @@ questions:
     - 11
     - 13
     - 5
-    - 4
+    - 7
     - 3
     points:
     - pt-ippan-0004
     - pt-ippan-0126
     - pt-ippan-0122
-    - pt-ippan-0107
+    - pt-ippan-0247
     - pt-ippan-0139
     pnames:
-    - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率により異なる。
+    - 鉱物性粉じんの管理濃度は、遊離けい酸の含有率で決まる（含有率が高いほど小さい。含まないときは 3.0 mg/m³）
     - ヒュームの一次粒子の粒径は、一般に、1 µm 以下である
     - アーク溶接ヒュームは、じん肺を引き起こす原因となる。
-    - 遊離けい酸は、胸膜プラークの主要な原因である。（誤りの記述）
+    - 遊離けい酸は、胸膜の中皮腫・胸膜プラーク（肥厚）の原因である（誤りの記述。これらは石綿による）
     - 吸入性粉じんの分粒装置は、空気力学相当径 4 µm の粉じん粒子を 50％透過する性能を有する
     prcounts:
     - 0
@@ -553,14 +553,13 @@ questions:
     - - 2025-02
     fresh: false
     level: B
-    why: pat_B
+    why: pt_B
     tags:
     - odo
     - odo
     - ''
-    - ans_pat
+    - ans_b
     - ''
-    pat: gn-dust-disease-02
 - num: 7
   status: published
   chapters:

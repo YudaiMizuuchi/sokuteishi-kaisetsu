@@ -573,19 +573,19 @@ questions:
     truths: 正誤正正正
     pcounts:
     - 13
-    - 4
+    - 7
     - 5
     - 10
     - 4
     points:
     - pt-ippan-0126
-    - pt-ippan-0107
+    - pt-ippan-0247
     - pt-ippan-0101
     - pt-ippan-0020
     - pt-ippan-0170
     pnames:
     - ヒュームの一次粒子の粒径は、一般に、1 µm 以下である
-    - 遊離けい酸は、胸膜プラークの主要な原因である。（誤りの記述）
+    - 遊離けい酸は、胸膜の中皮腫・胸膜プラーク（肥厚）の原因である（誤りの記述。これらは石綿による）
     - 吸入された鉱物性粉じんの各呼吸部位での沈着率は、その空気力学相当径によって異なる
     - じん肺は、続発性気管支炎、肺結核などを合併することがある。
     - じん肺は、ある程度進行すると、ばく露を中止しても、更に進行することがある
@@ -634,14 +634,13 @@ questions:
     - []
     fresh: false
     level: B
-    why: pat_B
+    why: pt_B
     tags:
     - odo
-    - ans_pat
+    - ans_b
     - odo
     - odo
     - ''
-    pat: gn-dust-disease-02
 - num: 7
   status: published
   chapters:
