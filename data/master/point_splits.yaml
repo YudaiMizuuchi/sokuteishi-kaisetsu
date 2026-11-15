@@ -591,3 +591,22 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
   from: pt-ippan-0107
   into: pt-ippan-0247
   note: 「遊離けい酸は、胸膜プラークの主要な原因」〔誤〕（4回）と「遊離けい酸は、胸膜の中皮腫を生じさせる」〔誤〕（3回）は、同じ事実（石綿の病変を、遊離けい酸のものとする誤り）。7回・B。粉じんの問の正答（7回とも）。bk-ippan-fr07 に qpoint_chapters.yaml で割り当てた。
+# 2026-11-15（続き73）bk-tokka-tp02 のパックの前の整理（物質ごとに、問題文と別表第一を突き合わせた）
+- op: split
+  subject: tokka
+  from: pt-tokka-0019
+  new: pt-tokka-0262
+  keys: [2018-08|8|1, 2018-08|8|2, 2022-08|8|2, 2022-08|8|3]
+  note: 酸化プロピレンの捕集方法（別表第一は固体捕集方法だけ。「直接捕集法又は固体捕集法」〔誤〕が2回とも正答）。bk-tokka-tp01 へ（qpoint_chapters.yaml）。pt-tokka-0019 は、ベンゼンの1回。
+- op: split
+  subject: tokka
+  from: pt-tokka-0003
+  new: pt-tokka-0263
+  keys: [2020-08|5|4]
+  note: エチレンオキシド（臭化水素酸含浸活性炭）の脱着に二硫化炭素〔誤〕。活性炭管の脱着（二硫化炭素）とは別の事実。bk-tokka-tp01 へ。pt-tokka-0003 は 5回・S → 4回・A。
+- op: split
+  subject: tokka
+  from: pt-tokka-0010
+  new: pt-tokka-0264
+  keys: [2024-08|5|2]
+  note: アクリルアミドの吸引流量 30 L/min。活性炭管の 0.1〜0.2 L/min とは別の事実。bk-tokka-tp01 へ。pt-tokka-0010 は 4回・A → 3回・B。

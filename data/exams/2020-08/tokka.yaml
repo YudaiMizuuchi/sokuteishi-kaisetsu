@@ -275,20 +275,20 @@ questions:
     pcounts:
     - 1
     - 1
-    - 4
-    - 5
+    - 3
+    - 1
     - 1
     points:
     - pt-tokka-0185
     - pt-tokka-0203
     - pt-tokka-0010
-    - pt-tokka-0003
+    - pt-tokka-0263
     - pt-tokka-0204
     pnames:
     - エチレンオキシドの捕集管には、臭化水素酸を含浸させて乾燥させた活性炭を充塡する
     - エチレンオキシドは、2-ブロモエタノールに誘導体化して捕集する。
-    - 捕集は、30L･min⁻¹の一定流量で試料空気を吸引する。
-    - 活性炭からの脱着には、二硫化炭素を用いる。
+    - 活性炭管などの固体捕集法では、0.1〜0.2 L/min の一定流量で試料空気を吸引する（ベンゼン・エチルベンゼン・エチレンオキシド）
+    - エチレンオキシドの捕集管（臭化水素酸を含浸させた活性炭）からの脱着には、二硫化炭素を用いる（誤りの記述）
     - 質量分析でのイオン化は、電子イオン化法で行う。
     prcounts:
     - 0
@@ -311,7 +311,7 @@ questions:
     trend:
     - 0
     - 0
-    - 1
+    - 0
     - 0
     - 0
     recent_exams:
@@ -333,13 +333,13 @@ questions:
     fresh: false
     subst_id: sb-tokka-3006
     subst_name: エチレンオキシド
-    level: S
-    why: pt_S
+    level: B
+    why: subst
     tags:
     - new
     - new
     - odo
-    - ans_hi
+    - ans_subst
     - new
 - num: 6
   status: published
