@@ -341,19 +341,19 @@ questions:
     - 4
     - 1
     - 5
-    - 4
+    - 6
     points:
     - pt-tokka-0022
     - pt-tokka-0010
     - pt-tokka-0201
     - pt-tokka-0003
-    - pt-tokka-0006
+    - pt-tokka-0067
     pnames:
     - 拡散セルは、液体から標準ガスを調製する際に用いる。
     - 捕集は、30L･min⁻¹の一定流量で試料空気を吸引する。
     - 固体捕集法には、吸着剤として、ポーラスポリマービーズを用いる方法もある
     - 活性炭からの脱着には、二硫化炭素を用いる。
-    - 炎光光度検出器（FPD）では、還元炎を用いる。
+    - 炎光光度検出器（FPD）は、リンや硫黄を含む化合物に選択性がある（ベンゼン・ホルムアルデヒド・アクリルアミドの検出器にはならない）
     prcounts:
     - 5
     - 0
@@ -377,7 +377,7 @@ questions:
     - 1
     - 0
     - 0
-    - 1
+    - 2
     recent_exams:
     - 2024-08
     - 2025-08
@@ -398,13 +398,13 @@ questions:
     subst_id: sb-tokka-3029
     subst_name: ベンゼン
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
     - new
     - odo
-    - ans_pr
+    - ans_hi
 - num: 6
   status: published
   chapters:

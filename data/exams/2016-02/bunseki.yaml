@@ -1511,8 +1511,8 @@ questions:
   freq:
     kind: question
     denom: 23
-    count: 1
+    count: 4
     form: 選択肢が物質名などの問題
     fresh: false
-    level: D
-    why: q_new
+    level: C
+    why: q_seen

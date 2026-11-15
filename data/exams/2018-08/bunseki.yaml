@@ -1601,19 +1601,19 @@ questions:
     - 7
     - 7
     - 7
-    - 0
+    - 7
     principles:
     - pr-bunseki-0027
     - pr-bunseki-0027
     - pr-bunseki-0027
     - pr-bunseki-0027
-    - ''
+    - pr-bunseki-0027
     prnames:
     - 放射壊変と原子番号・質量数
     - 放射壊変と原子番号・質量数
     - 放射壊変と原子番号・質量数
     - 放射壊変と原子番号・質量数
-    - ''
+    - 放射壊変と原子番号・質量数
     trend:
     - 1
     - 1
@@ -1650,5 +1650,5 @@ questions:
     - ans_pat
     - odo
     - odo
-    - new
+    - odo
     pat: an-radiation-01

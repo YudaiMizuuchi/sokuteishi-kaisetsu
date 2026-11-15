@@ -413,19 +413,19 @@ questions:
     - 2
     - 4
     - 1
-    - 4
+    - 6
     - 2
     points:
     - pt-tokka-0046
     - pt-tokka-0007
     - pt-tokka-0151
-    - pt-tokka-0006
+    - pt-tokka-0067
     - pt-tokka-0080
     pnames:
     - ホルムアルデヒドの捕集は、2,4-ジニトロフェニルヒドラジン（DNPH）含浸シリカゲルを充填した捕集管が用いられる
     - 捕集後の捕集管は、冷蔵保存する。
     - 捕集管から抽出された試料液は、強カチオン交換樹脂に通して処理される
-    - 炎光光度検出器（FPD）では、還元炎を用いる。
+    - 炎光光度検出器（FPD）は、リンや硫黄を含む化合物に選択性がある（ベンゼン・ホルムアルデヒド・アクリルアミドの検出器にはならない）
     - 他のアルデヒド類やケトン類が、妨害物質となる場合がある。
     prcounts:
     - 0
@@ -449,7 +449,7 @@ questions:
     - 0
     - 0
     - 0
-    - 1
+    - 2
     - 0
     recent_exams:
     - 2024-08
@@ -471,12 +471,12 @@ questions:
     subst_id: sb-tokka-3036
     subst_name: ホルムアルデヒド
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - ''
     - odo
     - new
-    - ans_pr
+    - ans_hi
     - ''
 - num: 8
   status: published
