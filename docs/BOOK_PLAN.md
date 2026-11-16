@@ -266,3 +266,4 @@
 - （追記）書き直し第9回の4章を取り込んだ（`bk-funjin-0015`・`bk-funjin-0009`・`bk-funjin-0001`・`bk-bunseki-0008`）。第10回のパックを渡した（`bk-design-0012`・`bk-design-0003`・`bk-yuki-0014`・`bk-funjin-0006`）。53章のうち、取り込み 36章、パック渡し済み 4章、残り 13章。
 - （追記）書き直し第10回の4章を取り込んだ（`bk-design-0012`・`bk-design-0003`・`bk-yuki-0014`・`bk-funjin-0006`）。第11回のパックを渡した（`bk-design-0004`・`bk-funjin-0004`・`bk-design-0005`・`bk-bunseki-0028`）。53章のうち、取り込み 40章、パック渡し済み 4章、残り 9章。
 - （追記）書き直し第11回の4章を取り込んだ（`bk-design-0004`・`bk-funjin-0004`・`bk-design-0005`・`bk-bunseki-0028`）。第12回のパックを渡した（`bk-funjin-0007`・`bk-yuki-0009`・`bk-yuki-0013`・`bk-kinzoku-0014`）。53章のうち、取り込み 44章、パック渡し済み 4章、残り 5章（`bk-bunseki-0003`・`bk-bunseki-0001`・`bk-ippan-0008`・`bk-yuki-0015`・`bk-bunseki-0002`）。
+- （追記）書き直し第12回の4章を取り込んだ（`bk-funjin-0007`・`bk-yuki-0009`・`bk-yuki-0013`・`bk-kinzoku-0014`）。第13回のパックを渡した（残りの5章：`bk-bunseki-0003`・`bk-bunseki-0001`・`bk-bunseki-0002`・`bk-ippan-0008`・`bk-yuki-0015`）。53章のうち、取り込み 48章、パック渡し済み 5章、残り 0章。次は、S・A のない6章。

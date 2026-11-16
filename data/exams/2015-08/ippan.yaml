@@ -383,19 +383,19 @@ questions:
     pcounts:
     - 9
     - 12
-    - 4
+    - 12
     - 8
     - 8
     points:
     - pt-ippan-0030
     - pt-ippan-0054
-    - pt-ippan-0229
+    - pt-ippan-0092
     - pt-ippan-0045
     - pt-ippan-0043
     pnames:
     - ヒ素では、角化症、黒皮症などの皮膚障害がみられる。
     - 二硫化炭素は、網膜の微細動脈瘤などの血管障害を起こす。
-    - 一酸化炭素は、ヘモグロビンの合成を阻害し、貧血の原因となる。（誤りの記述）
+    - 一酸化炭素は、赤血球中のヘモグロビンと強く結合し、体内組織の酸素欠乏状態を起こす（「グロブリンと結合」「ヘモグロビンの合成を阻害し、貧血の原因となる」は誤り）
     - 硫化水素は、意識消失、呼吸麻痺などを生じる。
     - 金属水銀では、感情不安定、幻覚などの精神症状や手指の震えがみられる
     prcounts:
@@ -419,7 +419,7 @@ questions:
     trend:
     - 1
     - 0
-    - 0
+    - 2
     - 1
     - 1
     recent_exams:
@@ -443,11 +443,11 @@ questions:
     - []
     fresh: false
     level: S
-    why: pr_S
+    why: pt_S
     tags:
     - odo
     - odo
-    - ans_pr
+    - ans_hi
     - odo
     - odo
 - num: 6
