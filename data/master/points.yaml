@@ -13906,11 +13906,12 @@ points:
   - 2020-08|1|1
 - id: pt-ippan-0297
   subject: ippan
-  name: 音圧レベルは、通常、その音圧と人間が聴くことができる最も小さな音圧(20 µPa)との比の常用対数を20倍して求められ、その単位はデシベル(dB)で表される
+  name: 音圧レベルは、基準音圧（人間が聴くことができる最も小さな音圧20µPa）との比の常用対数を20倍して求める（単位dB）
   theme: ''
   members:
   - 2020-08|11|2
   - 2021-02|11|1
+  - 2024-02|13|1
 - id: pt-ippan-0298
   subject: ippan
   name: 寒冷環境下で体温が低下し始めると、筋肉の緊張の増強、酸素摂取量の増加などの症状が現れる
@@ -15465,12 +15466,6 @@ points:
   theme: ''
   members:
   - 2025-02|4|1
-- id: pt-ippan-0544
-  subject: ippan
-  name: 騒音レベルの 0 dBは、音が全くない状態であり、室外からの音を遮断し室内の音を反響しないようにした無響室でのみ計測される（誤りの記述）
-  theme: ''
-  members:
-  - 2025-02|13|4
 - id: pt-ippan-0545
   subject: ippan
   name: 空気中の酸素濃度が 16 ％ 以下になると、脈拍や呼吸数の増加、吐き気 、耳鳴りなどの症状が現れる
@@ -16345,9 +16340,10 @@ points:
   - 2026-08|11|5
 - id: pt-ippan-0696
   subject: ippan
-  name: ヒトが聴くことができる最も小さな音圧とされる20 μPaを音圧レベルで表すと0dBとなり、これより小さい音圧の音圧レベルはマイナスの値となる
+  name: 音圧レベル0dBは、基準音圧20µPaに当たり、音が全くない状態ではない（これより小さい音圧は、マイナスの値になる）
   theme: ''
   members:
+  - 2025-02|13|4
   - 2026-08|13|3
 - id: pt-ippan-0697
   subject: ippan
@@ -16733,12 +16729,6 @@ points:
   theme: ''
   members:
   - 2024-02|10|4
-- id: pt-ippan-0765
-  subject: ippan
-  name: 人間が聴くことができる最も小さな音圧は 20 μPaであるとされ、この音圧は、音圧レベルを表す際の基準音圧として用いられている
-  theme: ''
-  members:
-  - 2024-02|13|1
 - id: pt-ippan-0766
   subject: ippan
   name: 遮光保護具には、遮光度番号が定められており、遮光度番号が大きいものほど可視光透過率が小さい
@@ -26655,7 +26645,7 @@ points:
   - 2021-02|16|2
 - id: pt-bunseki-0010
   subject: bunseki
-  name: この分析法は、石英の同定と定量に使われる。
+  name: X線回折分析法は、結晶物質（石英など）の同定と定量に使われる
   theme: ''
   members:
   - 2015-08|19|2
@@ -26806,15 +26796,20 @@ points:
   - 2024-08|13|4
 - id: pt-bunseki-0023
   subject: bunseki
-  name: フィルターに捕集した試料をそのまま分析することができる。
+  name: X線回折分析法では、フィルターに捕集した試料を、そのまま分析できる（溶解・抽出してから測定する、は誤り）
   theme: ''
   members:
   - 2016-02|19|5
   - 2016-08|19|4
   - 2017-02|19|4
+  - 2017-08|19|4
+  - 2019-08|19|4
+  - 2020-02|19|3
   - 2020-08|19|3
   - 2021-02|19|3
   - 2022-08|19|3
+  - 2023-08|19|4
+  - 2025-02|19|2
 - id: pt-bunseki-0024
   subject: bunseki
   name: 塩化ナトリウムは、硝酸銀溶液の標定に用いる。
@@ -26838,7 +26833,7 @@ points:
   - 2024-02|19|1
 - id: pt-bunseki-0026
   subject: bunseki
-  name: X 線検出器は、X 線のスペクトル分析ができるものでなければならない（誤りの記述）
+  name: X線回折分析法のX線検出器は、X線のスペクトル分析ができるものである必要はない（できるものでなければならない、は誤り）
   theme: ''
   members:
   - 2015-08|19|3
@@ -27059,9 +27054,10 @@ points:
   - 2025-08|1|2
 - id: pt-bunseki-0049
   subject: bunseki
-  name: 回折角の測定にゴニオメーターを用いる。
+  name: X線回折分析法では、回折角の測定にゴニオメーターを用いる
   theme: ''
   members:
+  - 2017-02|19|5
   - 2018-02|19|5
   - 2019-02|19|5
   - 2020-02|19|5
@@ -27450,12 +27446,15 @@ points:
   - 2025-02|1|2
 - id: pt-bunseki-0091
   subject: bunseki
-  name: カルボン酸は、-COOH基をもっている。
+  name: カルボン酸（酢酸など）は、-COOH基をもっている
   theme: ''
   members:
+  - 2018-08|4|3
+  - 2019-08|4|2
   - 2020-02|4|2
   - 2021-02|3|2
   - 2022-08|4|2
+  - 2023-08|4|2
   - 2024-02|3|2
 - id: pt-bunseki-0092
   subject: bunseki
@@ -27693,13 +27692,6 @@ points:
   - 2016-08|13|5
   - 2018-08|14|5
   - 2021-02|14|4
-- id: pt-bunseki-0120
-  subject: bunseki
-  name: マイクロシリンジの計量目盛りは、針の部分の体積を含まない。
-  theme: ''
-  members:
-  - 2020-08|7|4
-  - 2022-02|7|5
 - id: pt-bunseki-0121
   subject: bunseki
   name: 試料は噴霧室に噴霧され、微粒子がバーナーに送られる。
@@ -27710,11 +27702,13 @@ points:
   - 2025-02|15|1
 - id: pt-bunseki-0122
   subject: bunseki
-  name: 一般的なマイクロシリンジでは、針の容積は目盛りに含まれない。
+  name: マイクロシリンジの目盛りは、針の部分の容積を含まない
   theme: ''
   members:
   - 2019-02|7|3
   - 2020-02|7|3
+  - 2020-08|7|4
+  - 2022-02|7|5
   - 2024-08|7|4
 - id: pt-bunseki-0123
   subject: bunseki
@@ -27857,14 +27851,6 @@ points:
   - 2023-02|16|4
   - 2024-08|16|5
   - 2026-08|13|3
-- id: pt-bunseki-0140
-  subject: bunseki
-  name: 酢酸は、－COOH基をもっている。
-  theme: ''
-  members:
-  - 2018-08|4|3
-  - 2019-08|4|2
-  - 2023-08|4|2
 - id: pt-bunseki-0141
   subject: bunseki
   name: アルデヒドは、-CHO基をもっている。
@@ -28016,7 +28002,7 @@ points:
   - 2018-02|9|4
 - id: pt-bunseki-0160
   subject: bunseki
-  name: メスフラスコの容量の検定は、標線まで水を入れた後、排出した水の質量と温度を精密に測定して行われる（誤りの記述）
+  name: メスフラスコの容量の検定は、標線まで入れた水の質量と温度を測定して行う（排出した水、は誤り）
   theme: ''
   members:
   - 2020-02|7|2
@@ -28048,14 +28034,6 @@ points:
   members:
   - 2021-02|10|3
   - 2022-08|10|3
-- id: pt-bunseki-0165
-  subject: bunseki
-  name: 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。（誤りの記述）
-  theme: ''
-  members:
-  - 2021-02|19|4
-  - 2022-08|19|4
-  - 2026-08|19|4
 - id: pt-bunseki-0166
   subject: bunseki
   name: アスマン通風乾湿計による温湿度の測定は、ファンを回転させてから5分程度後に行う
@@ -28078,11 +28056,14 @@ points:
   - 2020-02|5|4
 - id: pt-bunseki-0170
   subject: bunseki
-  name: 測定試料は、一般に粒径が1µm～10µmの粉末が適当である。
+  name: X線回折分析法の測定試料は、一般に粒径が1～10µmの粉末が適当である（0.1～1mmは誤り）
   theme: ''
   members:
   - 2020-02|19|1
   - 2020-08|19|4
+  - 2021-02|19|4
+  - 2022-08|19|4
+  - 2026-08|19|4
 - id: pt-bunseki-0171
   subject: bunseki
   name: 光が溶液中の試料成分に吸収されると、光の強さは減少する。
@@ -28233,7 +28214,7 @@ points:
   - 2025-08|19|5
 - id: pt-bunseki-0192
   subject: bunseki
-  name: メスフラスコを使用する前に共洗いを行う。（誤りの記述）
+  name: メスフラスコは、使用する前に共洗いをしない（共洗いを行う、は誤り）
   theme: ''
   members:
   - 2018-02|7|4
@@ -28447,7 +28428,7 @@ points:
   - 2024-02|2|1
 - id: pt-bunseki-0226
   subject: bunseki
-  name: ベンゼンの水に対する溶解度は、クロロホルムに対する溶解度よりも大きい（誤りの記述）
+  name: ベンゼン・トルエンは、水に溶けにくく、クロロホルム・四塩化炭素によく溶ける（水に対する溶解度の方が大きい、は誤り）
   theme: ''
   members:
   - 2016-02|4|1
@@ -28455,6 +28436,7 @@ points:
   - 2021-08|4|3
   - 2023-02|3|3
   - 2025-02|3|2
+  - 2026-02|3|4
 - id: pt-bunseki-0227
   subject: bunseki
   name: 光源の光が分光器で分光され励起光となる。
@@ -28516,26 +28498,23 @@ points:
   members:
   - 2017-08|17|5
   - 2019-02|18|2
-- id: pt-bunseki-0235
-  subject: bunseki
-  name: エタノールは、－OH基をもっている。
-  theme: ''
-  members:
-  - 2018-08|4|1
-  - 2019-08|4|1
 - id: pt-bunseki-0236
   subject: bunseki
-  name: ベンゼンは、－CH₃基をもっている。（誤りの記述）
+  name: ベンゼンは、-CH₃基をもたない（-CH₃基をもっている、は誤り。-CH₃基をもつのはトルエン）
   theme: ''
   members:
   - 2018-08|4|4
   - 2019-08|4|3
 - id: pt-bunseki-0237
   subject: bunseki
-  name: アルコールは、-OH基をもっている。
+  name: アルコール（エタノールなど）とフェノールは、-OH基をもっている
   theme: ''
   members:
+  - 2018-08|4|1
+  - 2019-08|4|1
   - 2020-02|4|1
+  - 2021-02|3|1
+  - 2022-08|4|1
   - 2024-02|3|1
 - id: pt-bunseki-0238
   subject: bunseki
@@ -28544,27 +28523,19 @@ points:
   members:
   - 2020-02|4|5
   - 2024-02|3|5
-- id: pt-bunseki-0239
-  subject: bunseki
-  name: フェノールは、-OH基をもっている。
-  theme: ''
-  members:
-  - 2021-02|3|1
-  - 2022-08|4|1
 - id: pt-bunseki-0240
   subject: bunseki
-  name: アミンは、-CN基をもっている。（誤りの記述）
+  name: アミンは、-NH₂基をもっている（-CN基をもっている、は誤り）
   theme: ''
   members:
   - 2021-02|3|5
   - 2022-08|4|5
 - id: pt-bunseki-0241
   subject: bunseki
-  name: トルエンは、-CH₃基をもっている。
+  name: トルエンは、-CH₃基をもっている
   theme: ''
   members:
   - 2023-08|4|3
-  - 2026-02|3|4
 - id: pt-bunseki-0242
   subject: bunseki
   name: 一定質量の気体の体積は、温度が一定の条件では圧力に反比例する。
@@ -28654,11 +28625,10 @@ points:
   - 2023-08|17|4
 - id: pt-bunseki-0254
   subject: bunseki
-  name: ろ過材に捕集した試料をそのまま分析できる。
+  name: ICP発光分光分析法では、試料溶液に懸濁物が含まれる場合は、あらかじめろ過する
   theme: ''
   members:
   - 2025-02|10|1
-  - 2025-02|19|2
 - id: pt-bunseki-0256
   subject: bunseki
   name: 炎光光度検出器（FPD）は、水素過剰の水素炎中における測定対象物質中の特定の元素からの発光を分光し、定量する
@@ -29162,12 +29132,6 @@ points:
   theme: ''
   members:
   - 2023-08|10|4
-- id: pt-bunseki-0344
-  subject: bunseki
-  name: フィルターに捕集した試料から、目的物質を抽出した後、測定する。（誤りの記述）
-  theme: ''
-  members:
-  - 2023-08|19|4
 - id: pt-bunseki-0345
   subject: bunseki
   name: β線のエネルギーは、0から最大値まで連続した分布を示す。
@@ -29326,12 +29290,6 @@ points:
   members:
   - 2019-08|8|1
   - 2025-08|8|2
-- id: pt-bunseki-0372
-  subject: bunseki
-  name: フィルターに採取した試料は、酸で溶解してから測定する。（誤りの記述）
-  theme: ''
-  members:
-  - 2019-08|19|4
 - id: pt-bunseki-0373
   subject: bunseki
   name: 酢酸エチルを加水分解すると、酢酸とエタノールを生じる。
@@ -29538,12 +29496,6 @@ points:
   theme: ''
   members:
   - 2017-02|7|2
-- id: pt-bunseki-0408
-  subject: bunseki
-  name: X線の回折角度の測定にゴニオメータを用いる。
-  theme: ''
-  members:
-  - 2017-02|19|5
 - id: pt-bunseki-0409
   subject: bunseki
   name: 塩化銀の水に対する溶解度は、塩化ナトリウム水溶液に対する溶解度より大きい
@@ -29581,12 +29533,6 @@ points:
   theme: ''
   members:
   - 2020-02|9|1
-- id: pt-bunseki-0415
-  subject: bunseki
-  name: 作業環境測定では、フィルターに捕集した試料をそのまま測定する。
-  theme: ''
-  members:
-  - 2020-02|19|3
 - id: pt-bunseki-0417
   subject: bunseki
   name: 拡散係数の次元は、体積/時間である。（誤りの記述）
@@ -30022,12 +29968,6 @@ points:
   theme: ''
   members:
   - 2026-08|19|3
-- id: pt-bunseki-0492
-  subject: bunseki
-  name: 測定には溶解した試料を用いる。（誤りの記述）
-  theme: ''
-  members:
-  - 2017-08|19|4
 - id: pt-bunseki-0493
   subject: bunseki
   name: カラムの長さを2倍にしても、ピーク面積は変化しない

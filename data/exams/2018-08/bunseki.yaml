@@ -289,22 +289,22 @@ questions:
     - 4
     truths: 正正正誤正
     pcounts:
-    - 2
+    - 6
     - 1
-    - 3
+    - 7
     - 2
     - 3
     points:
-    - pt-bunseki-0235
+    - pt-bunseki-0237
     - pt-bunseki-0475
-    - pt-bunseki-0140
+    - pt-bunseki-0091
     - pt-bunseki-0236
     - pt-bunseki-0144
     pnames:
-    - エタノールは、－OH基をもっている。
+    - アルコール（エタノールなど）とフェノールは、-OH基をもっている
     - グリシンは、－NH₂基をもっている。
-    - 酢酸は、－COOH基をもっている。
-    - ベンゼンは、－CH₃基をもっている。（誤りの記述）
+    - カルボン酸（酢酸など）は、-COOH基をもっている
+    - ベンゼンは、-CH₃基をもたない（-CH₃基をもっている、は誤り。-CH₃基をもつのはトルエン）
     - アセトンは水によく溶ける。
     prcounts:
     - 7
@@ -325,9 +325,9 @@ questions:
     - ''
     - ''
     trend:
+    - 1
     - 0
-    - 0
-    - 0
+    - 1
     - 0
     - 1
     recent_exams:

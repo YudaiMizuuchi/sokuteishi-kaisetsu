@@ -224,20 +224,20 @@ questions:
     truths: 正正正正誤
     pcounts:
     - 1
-    - 3
-    - 2
+    - 7
+    - 1
     - 1
     - 1
     points:
     - pt-bunseki-0482
-    - pt-bunseki-0140
+    - pt-bunseki-0091
     - pt-bunseki-0241
     - pt-bunseki-0488
     - pt-bunseki-0483
     pnames:
     - アセトニトリルは、-CN基をもっている。
-    - 酢酸は、－COOH基をもっている。
-    - トルエンは、-CH₃基をもっている。
+    - カルボン酸（酢酸など）は、-COOH基をもっている
+    - トルエンは、-CH₃基をもっている
     - ホルムアルデヒドは、＞C＝O基をもっている。
     - ジエチルエーテルは、-OH基をもっている。（誤りの記述）
     prcounts:
@@ -260,8 +260,8 @@ questions:
     - 官能基と有機化合物の性質
     trend:
     - 0
-    - 0
     - 1
+    - 0
     - 0
     - 0
     recent_exams:
@@ -297,7 +297,7 @@ questions:
     tags:
     - odo
     - odo
-    - ''
+    - new
     - new
     - ans_pr
     pat: an-organic-01
@@ -1295,20 +1295,20 @@ questions:
     pcounts:
     - 6
     - 8
-    - 5
-    - 1
+    - 6
+    - 11
     - 4
     points:
     - pt-bunseki-0025
     - pt-bunseki-0010
     - pt-bunseki-0049
-    - pt-bunseki-0344
+    - pt-bunseki-0023
     - pt-bunseki-0045
     pnames:
     - この分析法では、通常、Cu-Kα線が用いられる。
-    - この分析法は、石英の同定と定量に使われる。
-    - 回折角の測定にゴニオメーターを用いる。
-    - フィルターに捕集した試料から、目的物質を抽出した後、測定する。（誤りの記述）
+    - X線回折分析法は、結晶物質（石英など）の同定と定量に使われる
+    - X線回折分析法では、回折角の測定にゴニオメーターを用いる
+    - X線回折分析法では、フィルターに捕集した試料を、そのまま分析できる（溶解・抽出してから測定する、は誤り）
     - 結晶物質から回折する X 線の回折角から、その物質の格子面間隔を求めることができる
     prcounts:
     - 16
@@ -1332,7 +1332,7 @@ questions:
     - 1
     - 0
     - 0
-    - 0
+    - 1
     - 2
     recent_exams:
     - 2024-02
@@ -1354,13 +1354,13 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_two
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - ''
-    - ans_new
+    - ans_hi
     - odo
 - num: 20
   status: published

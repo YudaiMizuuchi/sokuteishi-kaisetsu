@@ -1528,7 +1528,6 @@ chapters:
   - pt-ippan-0470
   - pt-ippan-0480
   - pt-ippan-0496
-  - pt-ippan-0544
   - pt-ippan-0568
   - pt-ippan-0584
   - pt-ippan-0593
@@ -1540,7 +1539,6 @@ chapters:
   - pt-ippan-0696
   - pt-ippan-0709
   - pt-ippan-0755
-  - pt-ippan-0765
   - pt-ippan-0786
   - pt-ippan-0798
   - pt-ippan-0807
@@ -2166,7 +2164,7 @@ chapters:
   kind: 物質表
   substances:
   - sb-kinzoku-4003
-  status: written
+  status: draft
   part: select
 - id: bk-kinzoku-sb4004
   subject: kinzoku
@@ -2206,7 +2204,7 @@ chapters:
   kind: 物質表
   substances:
   - sb-kinzoku-4008
-  status: written
+  status: draft
   part: select
 - id: bk-kinzoku-sb4009
   subject: kinzoku
@@ -2684,13 +2682,13 @@ chapters:
   title: X線回折分析
   kind: 論点
   points:
+  - pt-bunseki-0023
   - pt-bunseki-0010
   - pt-bunseki-0016
   - pt-bunseki-0026
   - pt-bunseki-0093
   - pt-bunseki-0040
   - pt-bunseki-0049
-  - pt-bunseki-0165
   - pt-bunseki-0170
   - pt-bunseki-0190
   - pt-bunseki-0191
@@ -2750,7 +2748,6 @@ chapters:
   - pt-bunseki-0024
   - pt-bunseki-0067
   - pt-bunseki-0113
-  - pt-bunseki-0120
   - pt-bunseki-0122
   - pt-bunseki-0127
   - pt-bunseki-0160
@@ -2804,7 +2801,6 @@ chapters:
   title: 検知管・標準ガス・捕集
   kind: 論点
   points:
-  - pt-bunseki-0023
   - pt-bunseki-0038
   - pt-bunseki-0076
   - pt-bunseki-0147
@@ -2839,7 +2835,6 @@ chapters:
   - pt-bunseki-0208
   - pt-bunseki-0212
   - pt-bunseki-0224
-  - pt-bunseki-0236
   - pt-bunseki-0238
   - pt-bunseki-0241
   status: draft

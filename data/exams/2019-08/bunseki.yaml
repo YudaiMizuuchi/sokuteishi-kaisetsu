@@ -219,21 +219,21 @@ questions:
     - 2
     truths: 正正誤正正
     pcounts:
-    - 2
-    - 3
+    - 6
+    - 7
     - 2
     - 3
     - 1
     points:
-    - pt-bunseki-0235
-    - pt-bunseki-0140
+    - pt-bunseki-0237
+    - pt-bunseki-0091
     - pt-bunseki-0236
     - pt-bunseki-0144
     - pt-bunseki-0477
     pnames:
-    - エタノールは、－OH基をもっている。
-    - 酢酸は、－COOH基をもっている。
-    - ベンゼンは、－CH₃基をもっている。（誤りの記述）
+    - アルコール（エタノールなど）とフェノールは、-OH基をもっている
+    - カルボン酸（酢酸など）は、-COOH基をもっている
+    - ベンゼンは、-CH₃基をもたない（-CH₃基をもっている、は誤り。-CH₃基をもつのはトルエン）
     - アセトンは水によく溶ける。
     - アニリンは、-NH₂基をもっている。
     prcounts:
@@ -255,8 +255,8 @@ questions:
     - ''
     - ''
     trend:
-    - 0
-    - 0
+    - 1
+    - 1
     - 0
     - 1
     - 0
@@ -1526,19 +1526,19 @@ questions:
     - 6
     - 8
     - 9
-    - 1
+    - 11
     - 7
     points:
     - pt-bunseki-0025
     - pt-bunseki-0010
     - pt-bunseki-0011
-    - pt-bunseki-0372
+    - pt-bunseki-0023
     - pt-bunseki-0021
     pnames:
     - この分析法では、通常、Cu-Kα線が用いられる。
-    - この分析法は、石英の同定と定量に使われる。
+    - X線回折分析法は、結晶物質（石英など）の同定と定量に使われる
     - 回折線は、ブラッグの条件に従って生じる。
-    - フィルターに採取した試料は、酸で溶解してから測定する。（誤りの記述）
+    - X線回折分析法では、フィルターに捕集した試料を、そのまま分析できる（溶解・抽出してから測定する、は誤り）
     - この分析法では、X線の回折角及び回折線の強度を測定する。
     prcounts:
     - 16
@@ -1562,7 +1562,7 @@ questions:
     - 1
     - 0
     - 0
-    - 0
+    - 1
     - 0
     recent_exams:
     - 2024-02
@@ -1584,13 +1584,13 @@ questions:
     - []
     - []
     fresh: false
-    level: B
-    why: elim_all
+    level: S
+    why: pt_S
     tags:
     - odo
     - odo
     - odo
-    - ans_new
+    - ans_hi
     - odo
 - num: 20
   status: published

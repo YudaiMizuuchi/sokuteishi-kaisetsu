@@ -703,3 +703,17 @@ declined2: pt-hourei-0207・0213・0293・0309・0337・0361（特化・石綿�
 - {op: move, subject: ippan, from: pt-ippan-0215, into: pt-ippan-0092, note: 「無色、無臭の気体で、ヘモグロビンの合成を阻害する」〔誤〕3回。同じ誤りの形。0215 は消した。0092 は 12回・S（12回中9回が誤りの形で、どれも正答）。改名}
 - {op: move, subject: yuki, from: pt-yuki-0165, into: pt-yuki-0075, note: 「未知試料の濃度が、標準系列液の最高濃度と最低濃度の間になるように」〔正〕1回。0075（外挿〔誤〕4回）の正しい形。0165 は消した}
 - {op: move, subject: yuki, from: pt-yuki-0168, into: pt-yuki-0075, note: 「検量線の適用範囲は、標準系列液の上限と下限の間で、直線とみなせる範囲」〔正〕1回。0168 は消した。0075 は 6回・S。正しい形に改名}
+
+# 2026-11-17（続き94）
+- {op: move, subject: bunseki, from: pt-bunseki-0415・0344・0372・0492, into: pt-bunseki-0023, note: X線回折で、フィルターに捕集した試料をそのまま分析する〔正〕と、溶解・抽出してから測定する〔誤。3回とも正答〕。4つの論点を消した。0254 からは、2025-02|19|2 だけを移した（0254 に残るのは ICP の懸濁物のろ過。改名）。0023 は 11回・S。章を bk-bunseki-tp09 から bk-bunseki-tp03 へ}
+- {op: move, subject: bunseki, from: pt-bunseki-0408, into: pt-bunseki-0049, note: ゴニオメーター。字の違い。0408 は消した。0049 は 6回・C}
+- {op: move, subject: bunseki, from: pt-bunseki-0165, into: pt-bunseki-0170, note: 測定試料の粒径。0165（0.1〜1 mm〔誤〕3回）は、0170（1〜10 µm〔正〕2回）の誤りの形。0165 は消した。0170 は 5回・C。改名}
+- {op: move, subject: bunseki, from: pt-bunseki-0120, into: pt-bunseki-0122, note: マイクロシリンジの目盛りは針の容積を含まない。0120 は消した。0122 は 5回・C。改名}
+- {op: move, subject: bunseki, from: pt-bunseki-0140, into: pt-bunseki-0091, note: 酢酸・カルボン酸は -COOH 基。0140 は消した。0091 は 7回・C。改名}
+- {op: move, subject: bunseki, from: pt-bunseki-0235・0239, into: pt-bunseki-0237, note: エタノール・アルコール・フェノールは -OH 基。2つを消した。0237 は 6回・C。改名}
+- {op: move, subject: bunseki, from: pt-bunseki-0241, into: pt-bunseki-0226, note: 2026-02|3|4「トルエンは水によく溶ける」〔誤・正答〕を移した。0241 に残るのは「トルエンは -CH₃ 基をもつ」1回。0226 は 6回・C。改名}
+- {op: chapter, subject: bunseki, id: pt-bunseki-0236・0484, note: 官能基の問の正答（誤りの形）。bk-bunseki-tp10 から bk-bunseki-0036 へ（qpoint_chapters.yaml）}
+- {op: chapter, subject: bunseki, id: pt-bunseki-0389・0315, note: 容量分析の試薬の問の正答（誤りの形）。bk-bunseki-tp07 から bk-bunseki-tp06 へ（qpoint_chapters.yaml）}
+- {op: rename, subject: bunseki, id: pt-bunseki-0010・0026・0192・0160・0240・0236, note: 名前が誤りの形・狭い形だった。正しい形に改名}
+- {op: move, subject: ippan, from: pt-ippan-0765, into: pt-ippan-0297, note: 基準音圧 20 µPa。0765 は消した。0297 は 3回・C。改名}
+- {op: move, subject: ippan, from: pt-ippan-0544, into: pt-ippan-0696, note: 0 dB は音が全くない状態〔誤・正答〕は、0696（0 dB＝20 µPa。より小さい音圧はマイナス）の誤りの形。0544 は消した。0696 は 2回・C。改名}

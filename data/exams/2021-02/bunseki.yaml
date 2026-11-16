@@ -251,23 +251,23 @@ questions:
     - 2
     truths: 正正正正誤
     pcounts:
-    - 2
-    - 4
+    - 6
+    - 7
     - 3
     - 3
     - 2
     points:
-    - pt-bunseki-0239
+    - pt-bunseki-0237
     - pt-bunseki-0091
     - pt-bunseki-0141
     - pt-bunseki-0143
     - pt-bunseki-0240
     pnames:
-    - フェノールは、-OH基をもっている。
-    - カルボン酸は、-COOH基をもっている。
+    - アルコール（エタノールなど）とフェノールは、-OH基をもっている
+    - カルボン酸（酢酸など）は、-COOH基をもっている
     - アルデヒドは、-CHO基をもっている。
     - ケトンは、>CO基をもっている。
-    - アミンは、-CN基をもっている。（誤りの記述）
+    - アミンは、-NH₂基をもっている（-CN基をもっている、は誤り）
     prcounts:
     - 7
     - 7
@@ -287,7 +287,7 @@ questions:
     - ''
     - 官能基と有機化合物の性質
     trend:
-    - 0
+    - 1
     - 1
     - 1
     - 0
@@ -1700,20 +1700,20 @@ questions:
     pcounts:
     - 10
     - 7
-    - 6
-    - 3
+    - 11
+    - 5
     - 5
     points:
     - pt-bunseki-0142
     - pt-bunseki-0021
     - pt-bunseki-0023
-    - pt-bunseki-0165
+    - pt-bunseki-0170
     - pt-bunseki-0069
     pnames:
     - X線回折分析法には、特性X線が用いられる（「連続X線が用いられる」は誤り）
     - この分析法では、X線の回折角及び回折線の強度を測定する。
-    - フィルターに捕集した試料をそのまま分析することができる。
-    - 測定試料は、一般に粒径が0.1mm～1mmの粉末が適当である。（誤りの記述）
+    - X線回折分析法では、フィルターに捕集した試料を、そのまま分析できる（溶解・抽出してから測定する、は誤り）
+    - X線回折分析法の測定試料は、一般に粒径が1～10µmの粉末が適当である（0.1～1mmは誤り）
     - 測定試料の捕集量が多い場合は、質量量に見合ったX線の吸収の補正をする必要がある
     prcounts:
     - 16
@@ -1736,7 +1736,7 @@ questions:
     trend:
     - 2
     - 0
-    - 0
+    - 1
     - 1
     - 1
     recent_exams:
@@ -1762,11 +1762,11 @@ questions:
     - []
     fresh: false
     level: B
-    why: elim_two
+    why: elim_all
     tags:
     - odo
     - odo
-    - ''
+    - odo
     - ans_new
     - odo
 - num: 20
